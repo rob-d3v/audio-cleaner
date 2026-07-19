@@ -48,6 +48,22 @@ def _decode_to_mono48k(src: Path) -> np.ndarray:
     return np.frombuffer(proc.stdout, dtype=np.float32).copy()
 
 
+def _read_text_smart(path: Path) -> str:
+    """Lê texto tentando encodings comuns na ordem certa (evita mojibake).
+
+    Arquivos de letra do usuário costumam vir em UTF-8 OU cp1252/latin-1 (Windows
+    PT-BR). Ler cp1252 como utf-8 com errors=replace destrói os acentos, então
+    tentamos utf-8 estrito primeiro e caímos para cp1252/latin-1 se falhar.
+    """
+    raw = path.read_bytes()
+    for enc in ("utf-8-sig", "utf-8", "cp1252", "latin-1"):
+        try:
+            return raw.decode(enc)
+        except UnicodeDecodeError:
+            continue
+    return raw.decode("utf-8", errors="replace")
+
+
 def _mtime_iso(mtime: float | None) -> str:
     if mtime is None:
         return now_iso()
@@ -123,8 +139,7 @@ def execute_import(library: LibraryStore, items: list[dict[str, Any]],
             lpath = Path(src_folder) / chosen_lyric
             if lpath.exists():
                 try:
-                    text = lpath.read_text(encoding="utf-8", errors="replace")
-                    library.save_lyrics(proj.id, text, snapshot=True)
+                    library.save_lyrics(proj.id, _read_text_smart(lpath), snapshot=True)
                 except OSError:
                     pass
 
