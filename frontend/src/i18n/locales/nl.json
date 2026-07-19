@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio-reiniger"
+  },
+  "nav": {
+    "library": "Bibliotheek",
+    "record": "Opnemen",
+    "import": "Importeren",
+    "templates": "Sjablonen",
+    "settings": "Instellingen",
+    "guide": "Gids"
+  },
+  "common": {
+    "save": "Opslaan",
+    "saving": "Opslaan…",
+    "saved": "Opgeslagen",
+    "cancel": "Annuleer",
+    "close": "Sluiten",
+    "delete": "Verwijderen",
+    "edit": "Bewerken",
+    "create": "Creëer",
+    "search": "Zoeken",
+    "loading": "Laden…",
+    "error": "Fout",
+    "retry": "Opnieuw proberen",
+    "confirm": "Bevestig",
+    "back": "Terug",
+    "next": "Volgende",
+    "continue": "Ga door",
+    "finish": "Afwerking",
+    "copy": "Kopieer",
+    "copied": "Gekopieerd",
+    "download": "Downloaden",
+    "upload": "Uploaden",
+    "none": "Geen",
+    "all": "Allemaal",
+    "yes": "Ja",
+    "no": "Nee",
+    "select": "Selecteer",
+    "optional": "optioneel",
+    "required": "vereist",
+    "unsaved_changes": "Niet-opgeslagen wijzigingen",
+    "name": "Naam",
+    "status": "Status",
+    "type": "Typ",
+    "actions": "Acties",
+    "empty": "Leeg",
+    "browse": "Blader",
+    "remove": "Verwijderen",
+    "add": "Toevoegen",
+    "rename": "Hernoemen",
+    "duplicate": "Duplicaat",
+    "warning": "Waarschuwing",
+    "locked": "Vergrendeld",
+    "builtin": "Ingebouwd",
+    "custom": "Aangepast",
+    "untitled": "Zonder titel",
+    "select_placeholder": "Selecteer…"
+  },
+  "library": {
+    "title": "Bibliotheek",
+    "subtitle": "Jouw stem- en gitaarprojecten, van idee tot release.",
+    "new_project": "Nieuw project",
+    "new_album": "Nieuw album",
+    "search_placeholder": "Zoek op naam…",
+    "view": {
+      "grid": "Raster",
+      "albums": "Albums"
+    },
+    "filters": {
+      "all": "Allemaal"
+    },
+    "take_count_one": " {{count}} nemen",
+    "take_count_other": " {{count}} neemt",
+    "updated_at": "Bijgewerkt {{date}} ",
+    "no_results": {
+      "title": "Geen projecten gevonden",
+      "description": "Probeer het zoek- of statusfilter aan te passen."
+    },
+    "empty": {
+      "title": "Je bibliotheek is leeg",
+      "description": "Begin een nieuw project helemaal opnieuw, of importeer de bestanden die u al op schijf heeft staan.",
+      "cta_import": "Importeren uit map",
+      "cta_new": "Project aanmaken"
+    },
+    "project_dialog": {
+      "title": "Nieuw project",
+      "description": "Geef het een naam en kies een opnamemodus.",
+      "name_label": "Projectnaam",
+      "name_placeholder": "bijv. Zomerregen",
+      "mode_label": "Modus",
+      "mode": {
+        "voice": "Alleen stem",
+        "voice_guitar": "Zang + gitaar"
+      },
+      "submit": "Project aanmaken"
+    },
+    "album_dialog": {
+      "title": "Nieuw album",
+      "description": "Groepeer gerelateerde projecten in een album.",
+      "name_label": "Albumnaam",
+      "name_placeholder": "bijv. Herfst-EP",
+      "submit": "Album maken"
+    },
+    "album": {
+      "untitled": "Naamloos album",
+      "members_count_one": " {{count}} project",
+      "members_count_other": " {{count}} projecten",
+      "empty": "Er zijn nog geen projecten in dit album.",
+      "delete_confirm_title": "Album verwijderen?",
+      "delete_confirm_description": "Projecten worden niet verwijderd, maar alleen ontkoppeld van \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "\" {{name}} \" verwijderen?",
+      "confirm_description": "Hiermee wordt het project en elke opname daarin verwijderd. Dit kan niet ongedaan worden gemaakt."
+    }
+  },
+  "record": {
+    "title": "Opnemen",
+    "subtitle": "Leg een zuivere opname vast, bekijk je niveaus en volg het script.",
+    "project_label": "Project",
+    "project_placeholder": "Kies een project",
+    "project_create_quick": "Maak een snel project…",
+    "device_label": "Invoerapparaat",
+    "device_placeholder": "Kies een apparaat",
+    "device_default_badge": "Systeemstandaard",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Geen invoerapparaten gevonden.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Stop met monitoren",
+    "record_button": "Opnemen",
+    "stop_button": "Stop",
+    "elapsed_label": "Verstreken tijd",
+    "status": {
+      "idle": "Inactief",
+      "monitoring": "Toezicht",
+      "recording": "Opname",
+      "stopped": "Gestopt"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Piek",
+      "clip": "Klem"
+    },
+    "guide": {
+      "title": "Begeleide sessie",
+      "subtitle": "Laat de coach je stap voor stap door het script leiden, van de warming-up tot de gesproken zin.",
+      "loading": "Script laden…",
+      "unavailable": "De begeleide sessie is nog niet beschikbaar op de server.",
+      "select_project_device": "Kies een project en een invoerapparaat om vanaf hier stappen vast te leggen.",
+      "progress": " {{done}} van {{total}} stappen",
+      "start_timer": "Timer starten",
+      "skip_timer": "Timer overslaan",
+      "record_step": "Noteer deze stap",
+      "stop_step": "Stop met opnemen",
+      "mark_done": "Klaar - volgende stap",
+      "step_recorded": "Neem opgenomen",
+      "no_record_step": "Opwarmstap - geen opname nodig.",
+      "bars_hint": "Ongeveer {{bars}} maten",
+      "complete_title": "Script voltooid!",
+      "complete_body": "Je hebt elke stap van het script opgenomen. Ga terug naar het tabblad Audio van het project en kies je favoriete opnames.",
+      "restart": "Start het script opnieuw"
+    },
+    "best2min": {
+      "button": "Vind de beste 2 minuten (Suno)",
+      "running": "Het analyseren van de opname…",
+      "score_label": "Scoren",
+      "hint": "Voert een energie- en helderheidsanalyse uit over de hele opname om het sterkste venster van 2 minuten te vinden. Je kunt het bereik daarna nog steeds met de hand aanpassen.",
+      "chart_caption": "Score per raam",
+      "unavailable": "De beste-2-minuten-analyse is nog niet beschikbaar op deze server."
+    },
+    "takes_title": "Taken uit deze sessie",
+    "takes_empty": "Er zijn nog geen opnames opgenomen in deze sessie.",
+    "open_in_project": "Openen in project",
+    "ws_disconnected": "Opnieuw verbinding maken met de niveaumeter…",
+    "select_project_first": "Kies een project om aan de slag te gaan.",
+    "select_device_first": "Kies een invoerapparaat."
+  },
+  "project": {
+    "back_to_library": "Terug naar bibliotheek",
+    "header": {
+      "status_label": "Status",
+      "cover_upload": "Omslag uploaden",
+      "cover_remove": "Verwijder de kap",
+      "name_placeholder": "Projectnaam",
+      "links_title": "Koppelingen",
+      "add_link": "Koppeling toevoegen",
+      "mode": {
+        "voice": "Alleen stem",
+        "voice_guitar": "Zang + gitaar"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Songteksten",
+      "prompts": "Prompts",
+      "notes": "Opmerkingen"
+    },
+    "audio": {
+      "takes_title": "Neemt",
+      "no_takes": {
+        "title": "Nog geen opnames",
+        "description": "Neem een nieuwe take op of importeer een bestaand bestand."
+      },
+      "record_new": "Neem een nieuwe take op",
+      "rating": "Beoordeling",
+      "variant": {
+        "raw": "Rauw",
+        "processed": "Verwerkt"
+      },
+      "variant_placeholder": "Versie",
+      "process_button": "Proces",
+      "export_button": "Exporteren",
+      "delete_take_confirm_title": "Deze take verwijderen?",
+      "delete_take_confirm_description": "De onbewerkte audio en elke verwerkte versie worden verwijderd.",
+      "ab": {
+        "raw": "Een · Rauw",
+        "processed": "B · Verwerkt"
+      },
+      "origin": {
+        "recorded": "Opgenomen",
+        "imported": "Geïmporteerd"
+      },
+      "session_label_placeholder": "Sessielabel (optioneel)",
+      "duration": "Duur",
+      "sample_rate": "Bemonsteringssnelheid",
+      "channels": "Kanalen",
+      "created_at": "Opgenomen"
+    },
+    "pipeline": {
+      "title": "Verwerkingsketen",
+      "preset_label": "Voorinstelling",
+      "preset_none": "Aangepaste ketting",
+      "preset_save": "Opslaan als voorinstelling",
+      "stage_locked": "Vergrendeld",
+      "stage_requires_extra": "Vereist een extra die niet is geïnstalleerd",
+      "process_button": "Proces nemen",
+      "processing": "Verwerken…",
+      "job_queued": "In de wachtrij…",
+      "job_running": "Verwerken…",
+      "job_done": "Klaar",
+      "job_error": "Mislukt",
+      "job_cancelled": "Geannuleerd",
+      "cancel_job": "Annuleer",
+      "no_stages": "Geen fasen beschikbaar."
+    },
+    "export": {
+      "title": "Export nemen",
+      "description": "Render een definitief bestand van een verwerkte versie.",
+      "variant_label": "Versie",
+      "format_label": "Formaat",
+      "preset_label": "Voorinstelling exporteren",
+      "range_label": "Bereik",
+      "range_full": "Volledige lengte",
+      "range_custom": "Aangepast bereik",
+      "start_label": "Begin(nen)",
+      "end_label": "Einde(n)",
+      "submit": "Exporteren",
+      "progress": "Bestand renderen…",
+      "download_ready": "Bestand gereed",
+      "download_button": "Bestand downloaden"
+    },
+    "notes": {
+      "placeholder": "Vrije notities over dit project...",
+      "saved_at": "Opgeslagen op {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Schrijf hier de tekst. Gebruik het palet aan de zijkant om Suno-metatags in te voegen.",
+      "saved_at": "Opgeslagen op {{time}} ",
+      "saving": "Opslaan…",
+      "versions": "Versies",
+      "versions_empty": "Nog geen opgeslagen versies.",
+      "version_preview": "Voorbeeld",
+      "restore": "Herstel deze versie",
+      "restore_confirm_title": "Deze versie herstellen?",
+      "restore_confirm_description": "De huidige tekst wordt vervangen door de versie die is opgeslagen op {{date}} .",
+      "metatags_title": "Metatags",
+      "metatags_hint": "Klik op een tag om deze bij de cursor in te voegen.",
+      "metatags_placebo_warning": "Onbewezen: heeft mogelijk geen invloed op het resultaat.",
+      "metatags_empty": "Geen metatags geregistreerd."
+    },
+    "prompts": {
+      "style_title": "Stijlprompt",
+      "lyrics_title": "Songtekst prompt",
+      "template_label": "Sjabloon",
+      "template_none": "Geen sjabloon",
+      "variables_title": "Variabelen",
+      "preview_title": "Voorbeeld",
+      "preview_empty": "Kies een sjabloon en vul de variabelen in om een voorbeeld te zien.",
+      "char_count": " {{count}} tekens",
+      "char_count_warning": "Stijlprompts van meer dan 1000 tekens kunnen door Suno worden ingekort.",
+      "copy": "Kopieer",
+      "copied": "Gekopieerd naar klembord",
+      "save_to_project": "Opslaan in project",
+      "saved_to_project": "Prompt opgeslagen in project",
+      "history_title": "Geschiedenis",
+      "history_empty": "Geen eerdere versies.",
+      "current_label": "Huidig"
+    },
+    "stems": {
+      "title": "Zang en gitaar",
+      "separate_button": "Aparte zang en gitaar",
+      "running": "Scheiden…",
+      "vocals": "Zang",
+      "instrumental": "Instrumentaal",
+      "process_stem": "Verwerk deze stengel",
+      "empty": "Deze opname is nog niet gescheiden. Voer scheiding uit om de zang en gitaar afzonderlijk te horen.",
+      "capability_missing": "Bronscheiding is niet geïnstalleerd op deze server.",
+      "unavailable": "Zang/gitaarscheiding is nog niet beschikbaar op deze server."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Aan",
+    "boolean_off": "Uit"
+  },
+  "import": {
+    "title": "Importeren",
+    "subtitle": "Breng projecten die al op schijf staan naar de bibliotheek.",
+    "step_indicator": "Stap {{current}} van {{total}} ",
+    "step1": {
+      "title": "Zoek map",
+      "description": "Wijs naar de hoofdmap met uw projecten en tracks.",
+      "path_label": "Mappad",
+      "path_placeholder": "bijv. E:\\Robbs\\Pride\\Muziek\\ROBBS",
+      "recent_label": "Recent",
+      "scan_button": "Map scannen",
+      "scanning": "Scannen…",
+      "ffmpeg_warning": "FFmpeg niet gevonden: bestanden die moeten worden geconverteerd, worden overgeslagen.",
+      "folders_found_one": " {{count}} map gevonden",
+      "folders_found_other": " {{count}} mappen gevonden",
+      "unmatched_files_one": " {{count}} onbekend bestand",
+      "unmatched_files_other": " {{count}} onbekende bestanden"
+    },
+    "step2": {
+      "title": "Artikelen beoordelen",
+      "description": "Controleer namen, statussen en wat er wordt geïmporteerd voordat u bevestigt.",
+      "select_all": "Selecteer alles",
+      "table": {
+        "folder": "Bronmap",
+        "name": "Projectnaam",
+        "status": "Status",
+        "audio": "Audio",
+        "lyrics": "Songteksten",
+        "cover": "Deksel",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} bestand geselecteerd",
+      "audio_include_other": " {{count}} bestanden geselecteerd",
+      "no_audio": "Geen audio gevonden",
+      "no_lyrics": "Geen songtekst gevonden",
+      "no_cover": "Geen dekking",
+      "warnings_title": "Waarschuwingen"
+    },
+    "step3": {
+      "title": "Importeren",
+      "description": "Bevestig dat u de bestanden wilt kopiëren en de projecten wilt maken.",
+      "copy_originals": "Kopieer originele bestanden naar de bibliotheek",
+      "execute_button": "Begin met importeren",
+      "progress_title": "Importeren…",
+      "created_count": "Gemaakt: {{count}} ",
+      "skipped_count": "Overgeslagen: {{count}} ",
+      "done_title": "Importeren voltooid",
+      "done_description": "De onderstaande projecten zijn gemaakt in uw bibliotheek.",
+      "view_project": "Project openen",
+      "start_over": "Nieuwe import"
+    }
+  },
+  "templates": {
+    "title": "Sjablonen",
+    "subtitle": "Herbruikbare promptsjablonen en metatags voor Suno.",
+    "tabs": {
+      "prompts": "Snelle sjablonen",
+      "metatags": "Metatags"
+    },
+    "new_template": "Nieuw sjabloon",
+    "kind": {
+      "style": "Stijl",
+      "lyrics": "Songteksten"
+    },
+    "kind_label": "Soort",
+    "delete_confirm_title": "Sjabloon \" {{name}} \" verwijderen?",
+    "delete_confirm_description": "Dit kan niet ongedaan worden gemaakt.",
+    "empty": "Nog geen sjablonen.",
+    "editor": {
+      "title_new": "Nieuw sjabloon",
+      "title_edit": "Sjabloon bewerken",
+      "name_label": "Naam",
+      "name_placeholder": "bijv. Akoestische ballad",
+      "kind_label": "Soort",
+      "template_label": "Sjabloontekst",
+      "template_hint": "Markeer waar elke variabele thuishoort met de naam tussen dubbele accolades. Een variabele met de naam 'genre' wordt bijvoorbeeld een genre, verpakt in twee openings- en twee sluitingsaccolades.",
+      "variables_label": "Variabelen",
+      "variable_add": "Variabele toevoegen",
+      "variable_name": "Sleutel",
+      "variable_label": "Etiket",
+      "variable_type": "Typ",
+      "variable_type_string": "Tekst",
+      "variable_type_select": "Enkele selectie",
+      "variable_type_multiselect": "Meervoudig selecteren",
+      "variable_type_number": "Nummer",
+      "variable_type_boolean": "Ja/nee",
+      "variable_options": "Opties (door komma's gescheiden)",
+      "variable_required": "Vereist",
+      "save": "Sjabloon opslaan"
+    },
+    "metatags": {
+      "title": "Metatags",
+      "subtitle": "Structurele en stijltags die Suno herkent in de teksten.",
+      "new_tag": "Nieuw label",
+      "tag_label": "Label",
+      "tag_placeholder": "bijv. gitaar-solo",
+      "category_label": "Categorie",
+      "tier_label": "Betrouwbaarheid",
+      "tier_legend_title": "Betrouwbaarheidslegende",
+      "tier_legend": {
+        "1": "Niveau 1 — gedocumenteerd en consistent",
+        "2": "Niveau 2 – werkt meestal",
+        "3": "Niveau 3 — variabel effect",
+        "4": "Niveau 4 – placebo, onbewezen"
+      },
+      "description_label": "Beschrijving",
+      "delete_confirm_title": "Tag \" {{tag}} \" verwijderen?",
+      "empty": "Nog geen aangepaste metatags."
+    }
+  },
+  "settings": {
+    "title": "Instellingen",
+    "subtitle": "Systeeminformatie, taal en standaardvoorkeuren.",
+    "system_info_title": "Systeem",
+    "version": "Versie",
+    "data_dir": "Gegevensmap",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Beschikbaar",
+    "ffmpeg_missing": "Niet gevonden",
+    "capabilities_title": "Geïnstalleerde mogelijkheden",
+    "capability": {
+      "denoise": "Ruisreductie",
+      "quality": "Kwaliteitsverbetering",
+      "separate": "Bronscheiding",
+      "ffmpeg": "FFmpeg-conversie"
+    },
+    "capability_available": "Beschikbaar",
+    "capability_unavailable": "Niet beschikbaar",
+    "gpu_title": "GPU-versnelling",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime-providers"
+    },
+    "gpu_none": "Geen GPU-providers gedetecteerd",
+    "language_title": "Taal",
+    "language": {
+      "pt-BR": "Portugees (Brazilië)",
+      "en": "Engels"
+    },
+    "theme_title": "Uiterlijk",
+    "theme": {
+      "dark": "Donker",
+      "light": "Licht"
+    },
+    "defaults_title": "Standaardinstellingen exporteren",
+    "lufs_target_label": "Doel LUFS",
+    "lufs_target_hint": "Wordt gebruikt als startsuggestie bij het exporteren van takes. De standaardwaarde van Suno ligt rond -14 LUFS.",
+    "saved": "Voorkeuren opgeslagen"
+  },
+  "guide": {
+    "title": "Suno-opnamegids",
+    "subtitle": "Hoe je stem- en gitaaropnamen kunt vastleggen die de beste resultaten opleveren.",
+    "intro": "Suno presteert het beste met heldere, ondubbelzinnige referenties. Deze gids behandelt de voorbereiding, de streefniveaus en een opnamescript van 3 tot 5 minuten.",
+    "sections": {
+      "prep": {
+        "title": "Voorbereiding",
+        "body": "Neem op in een behandelde kamer of een kamer met veel zacht materiaal (gordijnen, vloerkleden, kleding in een kast). Schakel ventilatoren en alles wat zoemt uit. Warm uw stem gedurende 5 minuten op voordat u gaat opnemen."
+      },
+      "levels": {
+        "title": "Niveaus: -12 tot -6 dBFS",
+        "body": "Streef naar pieken tussen -12 en -6 dBFS op de meter. Beneden dat bereik wordt achtergrondgeluid duidelijker merkbaar; daarboven neemt het clippingrisico toe. Gebruik de meter op de Record-pagina om uw winst in te stellen voordat u begint."
+      },
+      "distance": {
+        "title": "Microfoonafstand: 15–30 cm",
+        "body": "Blijf 15 tot 30 cm van de microfoon verwijderd. Dichterbij dan dat overdrijft plosieven en nabijheidseffect; verder weg pikt meer kamergalm en ruis op."
+      },
+      "script": {
+        "title": "Opnamescript",
+        "warmup": "Vocale warming-up (1–2 minuten)",
+        "vowels": "Aanhoudende klinkers — a, e, i, o, u",
+        "scales": "Eenvoudige weegschaal, omhoog en omlaag",
+        "excerpt": "Een liedfragment (8 tot 16 maten)",
+        "dynamics": "Dynamiek: begin zacht, eind luid",
+        "spoken_phrase": "Eén gesproken zin, zodat Suno je stemtoon kan lezen"
+      },
+      "expectations": {
+        "title": "Wat Suno verwacht",
+        "body": "WAV, 48 kHz, mono, droog (geen reverb of effecten), 3 tot 5 minuten referentie. De schoonste, meest representatieve twee minuten van de opname leveren meestal de beste resultaten op."
+      }
+    }
+  },
+  "status": {
+    "idea": "Idee",
+    "em_progresso": "In uitvoering",
+    "quase": "Bijna daar",
+    "pronto": "Klaar"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Volledig vocaal script voor Suno",
+      "desc": "5 begeleide minuten: warming-up, klinkers, toonladders, twee liedfragmenten, dynamiek en een gesproken zin."
+    },
+    "step": {
+      "warmup": "Vocale warming-up",
+      "warmup_inst": "Ontspan met geeuwen, liptrillingen (brrr) en een zacht gezoem gedurende ongeveer een minuut. Opnemen is niet nodig; het is alleen maar om je keel te ontspannen voordat je gaat zingen.",
+      "vowels": "Aanhoudende klinkers",
+      "vowels_inst": "Houd elke klinker (a, e, i, o, u) 3 tot 4 seconden vast op een comfortabele toonhoogte, met een constant volume. Dit helpt Suno om het pure timbre van je stem op te pikken.",
+      "scales": "Schaalt op en neer",
+      "scales_inst": "Zing een eenvoudige toonladder omhoog en vervolgens omlaag, op \"la\" of \"na\". Het hoeft niet perfect te zijn; het doel is om je stembereik in kaart te brengen.",
+      "section": "Liedfragment – deel 1",
+      "section_inst": "Zing 8 tot 16 maten van het lied, met de echte bedoeling die je wilt overbrengen. Geef prioriteit aan duidelijkheid en aanwezigheid boven technische perfectie.",
+      "section2": "Liedfragment – deel 2",
+      "section2_inst": "Zing nog eens 8 tot 16 maten — idealiter een refrein of een gedeelte dat contrasteert met het vorige. Meer variatie helpt het model uw stem te leren.",
+      "dynamics": "Dynamiek: zacht → luid",
+      "dynamics_inst": "Zing dezelfde zin, beginnend heel zacht en luid eindigend, zonder je keel te belasten. Dit toont Suno het dynamische bereik van uw stem.",
+      "spoken": "Gesproken zin",
+      "spoken_inst": "Spreek – zing niet – een korte, natuurlijke zin, alsof je aan het chatten bent. Dit helpt Suno om het echte timbre van je stem te herkennen."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restauratie",
+      "filter": "Filters",
+      "dynamics": "Dynamiek",
+      "separation": "Scheiding",
+      "quality": "Kwaliteit",
+      "utility": "Nut",
+      "loudness": "Luidheid"
+    },
+    "highpass": "Hoogdoorlaatfilter",
+    "lowpass": "Laagdoorlaatfilter",
+    "denoise": "Ruisreductie",
+    "declip": "Ontclippen",
+    "declick": "Klik/pop-verwijdering",
+    "deesser": "Ontharder",
+    "gate": "Lawaai poort",
+    "compressor": "Compressor",
+    "limiter": "Begrenzer",
+    "eq": "Egalisatie",
+    "normalize": "Pieknormalisatie",
+    "loudness": "Normalisatie van de luidheid (LUFS)",
+    "reverb_reduce": "Galmreductie",
+    "separate": "Bronscheiding",
+    "quality": "Kwaliteitsverbetering (luxe)",
+    "trim_silence": "Stil trimmen",
+    "fade": "Fade-in/fade-out",
+    "stereo_to_mono": "Converteren naar mono",
+    "resample": "Opnieuw bemonsteren"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Betrouwbaar",
+      "2": "Werkt meestal",
+      "3": "Variabel",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Structuur",
+      "vocal": "Vocaal",
+      "instrument": "Instrument",
+      "dynamics": "Dynamiek",
+      "production": "Productie",
+      "mood": "Stemming"
+    },
+    "verse": "Vers",
+    "chorus": "Koor",
+    "bridge": "Brug",
+    "intro": "Intro",
+    "outro": "Uitro",
+    "hook": "Haak",
+    "prechorus": "Pre-refrein",
+    "instrumental": "Instrumentaal",
+    "guitar_solo": "Gitaarsolo",
+    "build_up": "Opbouw",
+    "breakdown": "Uitsplitsing",
+    "spoken_word": "Gesproken woord",
+    "whispered": "Fluisterde",
+    "harmonies": "Harmonieën",
+    "male_vocal": "Mannelijke zang",
+    "female_vocal": "Vrouwelijke zang",
+    "duet": "Duet",
+    "acoustic": "Akoestisch",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Zuivere stem",
+    "voice_guitar_balanced": "Evenwichtige stem en gitaar",
+    "podcast": "Podcast",
+    "suno_ready": "Suno klaar",
+    "gentle_restore": "Zacht herstel",
+    "raw_passthrough": "Geen verwerking"
+  },
+  "errors": {
+    "unknown": "Er is iets misgegaan.",
+    "network": "Kan de server niet bereiken.",
+    "validation_error": "Controleer de gegevens die u heeft ingevoerd.",
+    "not_found": "Artikel niet gevonden.",
+    "project_not_found": "Project niet gevonden.",
+    "take_not_found": "Neem niet gevonden.",
+    "album_not_found": "Album niet gevonden.",
+    "preset_not_found": "Voorinstelling niet gevonden.",
+    "template_not_found": "Sjabloon niet gevonden.",
+    "device_busy": "Het audioapparaat wordt door een ander programma gebruikt.",
+    "device_not_found": "Audioapparaat niet gevonden.",
+    "already_recording": "Er is al een opname bezig.",
+    "ffmpeg_missing": "FFmpeg is niet geïnstalleerd. Installeer het om dit bestand te converteren.",
+    "disk_full": "Niet genoeg schijfruimte.",
+    "permission_denied": "Toestemming geweigerd voor het opgegeven pad.",
+    "import_path_not_found": "Importpad niet gevonden.",
+    "job_failed": "Verwerking mislukt.",
+    "job_cancelled": "De verwerking is geannuleerd.",
+    "process_failed": "Kan de opname niet verwerken.",
+    "export_failed": "Kan het bestand niet exporteren.",
+    "record_failed": "Kan de opname niet starten."
+  },
+  "jobs": {
+    "status": {
+      "queued": "In de wachtrij",
+      "running": "Rennen",
+      "done": "Klaar",
+      "error": "Mislukt",
+      "cancelled": "Geannuleerd"
+    },
+    "kind": {
+      "process": "Verwerking",
+      "export": "Exporteren",
+      "import": "Importeren",
+      "record": "Opname"
+    }
+  }
+}

@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Okwoza Amaloboozi"
+  },
+  "nav": {
+    "library": "Etterekero ly’ebitabo",
+    "record": "Record",
+    "import": "Okuyingiza ebintu mu ggwanga",
+    "templates": "Ebikozesebwa mu kukola ebifaananyi",
+    "settings": "Enteekateeka",
+    "guide": "Omulagirizi"
+  },
+  "common": {
+    "save": "Teeka",
+    "saving": "Okutereka...",
+    "saved": "Kiterekeddwa",
+    "cancel": "Sazaamu",
+    "close": "Ggalawo",
+    "delete": "Okusazaamu",
+    "edit": "Edit",
+    "create": "Tonda",
+    "search": "Noonya",
+    "loading": "Okutikka...",
+    "error": "Ensobi",
+    "retry": "Ddamu gezaako",
+    "confirm": "Kakasa nti",
+    "back": "Okudda emabega",
+    "next": "Ekiddako",
+    "continue": "Weeyongereyo",
+    "finish": "Okumaliriza",
+    "copy": "Koppa",
+    "copied": "Ekoppoloddwa",
+    "download": "Download",
+    "upload": "Teeka ku mukutu",
+    "none": "Tewali n’emu",
+    "all": "Byonna",
+    "yes": "Yee",
+    "no": "Nedda",
+    "select": "Londa",
+    "optional": "eky’okwesalirawo",
+    "required": "kyetaagisa",
+    "unsaved_changes": "Enkyukakyuka ezitaterekeddwa",
+    "name": "Erinnya",
+    "status": "Embeera",
+    "type": "Ekika",
+    "actions": "Ebikolwa",
+    "empty": "Empty",
+    "browse": "Browse",
+    "remove": "Ggyawo",
+    "add": "Okwongerako",
+    "rename": "Kyuusa erinnya",
+    "duplicate": "Okukoppa",
+    "warning": "Okulabula",
+    "locked": "Basibye kkufulu",
+    "builtin": "Ebizimbibwamu",
+    "custom": "Empisa",
+    "untitled": "Tewali mutwe",
+    "select_placeholder": "Londa..."
+  },
+  "library": {
+    "title": "Etterekero ly’ebitabo",
+    "subtitle": "Eddoboozi lyo ne pulojekiti za gitaala, okuva ku ndowooza okutuuka ku kufulumya.",
+    "new_project": "Pulojekiti empya",
+    "new_album": "Album empya",
+    "search_placeholder": "Noonya ng'okozesa amannya...",
+    "view": {
+      "grid": "Grid",
+      "albums": "Album z'abayimbi"
+    },
+    "filters": {
+      "all": "Byonna"
+    },
+    "take_count_one": " {{count}} okutwala",
+    "take_count_other": " {{count}} atwala",
+    "updated_at": "Ebipya {{date}} ",
+    "no_results": {
+      "title": "Tewali pulojekiti yonna ezuuliddwa",
+      "description": "Gezaako okutereeza omusengejja gw'okunoonya oba embeera."
+    },
+    "empty": {
+      "title": "Etterekero lyo liri bwereere",
+      "description": "Tandika pulojekiti empya okuva ku ntandikwa, oba import takes z'olina edda ku disk.",
+      "cta_import": "Yingiza okuva mu folda",
+      "cta_new": "Tonda pulojekiti"
+    },
+    "project_dialog": {
+      "title": "Pulojekiti empya",
+      "description": "Giwe erinnya era olonde engeri y’okukwatamu.",
+      "name_label": "Erinnya lya pulojekiti",
+      "name_placeholder": "e.g. Enkuba etonnya mu kyeya",
+      "mode_label": "Omutindo",
+      "mode": {
+        "voice": "Eddoboozi lyokka",
+        "voice_guitar": "Eddoboozi + gitaala"
+      },
+      "submit": "Tonda pulojekiti"
+    },
+    "album_dialog": {
+      "title": "Album empya",
+      "description": "Pulojekiti ezikwatagana mu bibinja mu lutambi.",
+      "name_label": "Erinnya lya album",
+      "name_placeholder": "e.g. Autumn EP",
+      "submit": "Tonda olutambi"
+    },
+    "album": {
+      "untitled": "Album etaliiko mutwe",
+      "members_count_one": " {{count}} pulojekiti",
+      "members_count_other": " {{count}} pulojekiti",
+      "empty": "Tewali pulojekiti mu lutambi luno n'okutuusa kati.",
+      "delete_confirm_title": "Okusazaamu olutambi?",
+      "delete_confirm_description": "Pulojekiti tezijja kusazibwamu, zokka ezitaliiko kakwate okuva ku \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Okusazaamu \" {{name}} \"?",
+      "confirm_description": "Kino kiggyawo pulojekiti ne buli take in it. Kino tekiyinza kuddibwamu."
+    }
+  },
+  "record": {
+    "title": "Record",
+    "subtitle": "Wamba okutwala okuyonjo, laba emitendera gyo, era ogoberere script.",
+    "project_label": "Pulojekiti ya Pulojekiti",
+    "project_placeholder": "Londa pulojekiti",
+    "project_create_quick": "Tonda pulojekiti ey'amangu...",
+    "device_label": "Ekyuma ekiyingiza",
+    "device_placeholder": "Londa ekyuma",
+    "device_default_badge": "Enkola esookera ddala",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Tewali byuma bya kuyingiza bizuuliddwa.",
+    "monitor_button": "Londoola",
+    "monitor_stop_button": "Mulekere awo okulondoola",
+    "record_button": "Record",
+    "stop_button": "Mulekere awo",
+    "elapsed_label": "Ebiseera ebiyiseewo",
+    "status": {
+      "idle": "Obutakola",
+      "monitoring": "Okulondoola",
+      "recording": "Okukwata ebifaananyi",
+      "stopped": "Yayimiridde"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Entikko",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Olukungana olulungamizibwa",
+      "subtitle": "Leka omutendesi akutambule mu script mutendera ku mutendera, okuva ku kubuguma okutuuka ku kigambo ekyogerwa.",
+      "loading": "Okutikka script...",
+      "unavailable": "Olukungana olulungamizibwa terunnabaawo ku seva.",
+      "select_project_device": "Londa pulojekiti n'ekyuma ekiyingiza okuwandiika emitendera okuva wano wennyini.",
+      "progress": " {{done}} ya {{total}} emitendera",
+      "start_timer": "Tandika ekiseera ekigere",
+      "skip_timer": "Skip ekiseera ekigere",
+      "record_step": "Wandiika omutendera guno",
+      "stop_step": "Lekera awo okukwata ebifaananyi",
+      "mark_done": "Kikoleddwa — omutendera oguddako",
+      "step_recorded": "Twala ekiwandiikiddwa",
+      "no_record_step": "Warm-up step — tekyetaagisa kukwata.",
+      "bars_hint": "Nga {{bars}} ebbaala",
+      "complete_title": "Script ewedde!",
+      "complete_body": "Okwata buli mutendera gwa script. Ddayo ku Audio tab ya project era olonde takes z'oyagala.",
+      "restart": "Ddamu okutandika script"
+    },
+    "best2min": {
+      "button": "Funa eddakiika 2 ezisinga obulungi (Suno)",
+      "running": "Okwekenenya okutwala...",
+      "score_label": "Obukodyo",
+      "hint": "Runs an energy and clarity analysis over the whole take okuzuula eddirisa lyayo erisinga amaanyi ery’eddakiika 2 — okyayinza okutereeza range n’omukono oluvannyuma.",
+      "chart_caption": "Obukodyo buli ddirisa",
+      "unavailable": "Okwekenenya okusinga-eddakiika 2 tekunnabaawo ku seva eno."
+    },
+    "takes_title": "Aggya mu lutuula luno",
+    "takes_empty": "No takes recorded mu session eno n'okutuusa kati.",
+    "open_in_project": "Open mu pulojekiti",
+    "ws_disconnected": "Okuddamu okuyunga ku level meter...",
+    "select_project_first": "Londa pulojekiti gy’ogenda okutandika.",
+    "select_device_first": "Londa ekyuma ekiyingiza."
+  },
+  "project": {
+    "back_to_library": "Okudda mu tterekero ly’ebitabo",
+    "header": {
+      "status_label": "Embeera",
+      "cover_upload": "Teeka cover ku mukutu",
+      "cover_remove": "Ggyawo ekibikka",
+      "name_placeholder": "Erinnya lya pulojekiti",
+      "links_title": "Enkolagana",
+      "add_link": "Yongera ku link",
+      "mode": {
+        "voice": "Eddoboozi lyokka",
+        "voice_guitar": "Eddoboozi + gitaala"
+      }
+    },
+    "tabs": {
+      "audio": "Amaloboozi",
+      "lyrics": "Ebigambo by'oluyimba",
+      "prompts": "Ebikubirizibwa",
+      "notes": "Ebiwandiiko"
+    },
+    "audio": {
+      "takes_title": "Kitwala",
+      "no_takes": {
+        "title": "Tewali takes yet",
+        "description": "Wandiika okutwala okupya oba okuyingiza fayiro eriwo."
+      },
+      "record_new": "Wandiika okutwala okupya",
+      "rating": "Okugereka",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Ekoleddwa"
+      },
+      "variant_placeholder": "Enkyusa",
+      "process_button": "Enkola",
+      "export_button": "Okutunda ebweru w’eggwanga",
+      "delete_take_confirm_title": "Ssaawo kino take?",
+      "delete_take_confirm_description": "Amaloboozi amabisi ne buli nkyusa erongooseddwa bijja kuggyibwawo.",
+      "ab": {
+        "raw": "A · Embisi",
+        "processed": "B · Ekoleddwa"
+      },
+      "origin": {
+        "recorded": "Ekwatibwa",
+        "imported": "Ebiyingizibwa mu ggwanga"
+      },
+      "session_label_placeholder": "Label y'olutuula (eky'okwesalirawo) .",
+      "duration": "Ebbanga lye limala",
+      "sample_rate": "Omuwendo gwa sampuli",
+      "channels": "Emikutu gya yintaneeti",
+      "created_at": "Ekwatibwa"
+    },
+    "pipeline": {
+      "title": "Olujegere lw’okulongoosa",
+      "preset_label": "Okuteekebwawo nga tekunnabaawo",
+      "preset_none": "Olujegere lwa custom",
+      "preset_save": "Teeka nga bwe kiteekeddwateekeddwa",
+      "stage_locked": "Basibye kkufulu",
+      "stage_requires_extra": "Yeetaaga extra etassiddwaako",
+      "process_button": "Enkola okutwala",
+      "processing": "Okukola ku nsonga eno...",
+      "job_queued": "Basimbye ennyiriri...",
+      "job_running": "Okukola ku nsonga eno...",
+      "job_done": "Kikoleddwa",
+      "job_error": "Eremereddwa",
+      "job_cancelled": "Esaziddwamu",
+      "cancel_job": "Sazaamu",
+      "no_stages": "Tewali mitendera giriwo."
+    },
+    "export": {
+      "title": "Okutwala ebweru w’eggwanga twala",
+      "description": "Render fayiro esembayo okuva mu nkyusa erongooseddwa.",
+      "variant_label": "Enkyusa",
+      "format_label": "Enkola y’okukola",
+      "preset_label": "Okufulumya ebweru preset",
+      "range_label": "Range",
+      "range_full": "Obuwanvu obujjuvu",
+      "range_custom": "Custom range",
+      "start_label": "Tandika (s) .",
+      "end_label": "Enkomerero (s) .",
+      "submit": "Okutunda ebweru w’eggwanga",
+      "progress": "Fayiro y'okulaga...",
+      "download_ready": "Fayiro yeetegese",
+      "download_button": "Wano wefunire fayiro"
+    },
+    "notes": {
+      "placeholder": "Free-form notes ezikwata ku pulojekiti eno...",
+      "saved_at": "Eterekeddwa ku {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Ebigambo by'oluyimba biwandiike wano. Kozesa palette eri ku ludda okuyingiza Suno meta-tags.",
+      "saved_at": "Eterekeddwa ku {{time}} ",
+      "saving": "Okutereka...",
+      "versions": "Enkyusa z’enkyusa",
+      "versions_empty": "Tewali nkyusa zitereddwa n'okutuusa kati.",
+      "version_preview": "Okusooka okulaba",
+      "restore": "Ddamu enkyusa eno",
+      "restore_confirm_title": "Okuzzaawo enkyusa eno?",
+      "restore_confirm_description": "Ebiwandiiko ebiriwo kati bijja kukyusibwamu n'enkyusa eterekeddwa ku {{date}} .",
+      "metatags_title": "Ebiwandiiko ebiyitibwa meta-tags",
+      "metatags_hint": "Nywa ku tag okugiyingiza ku cursor.",
+      "metatags_placebo_warning": "Unproven — kiyinza obutaba na effect ku bivaamu.",
+      "metatags_empty": "Tewali meta-tags ziwandiisiddwa."
+    },
+    "prompts": {
+      "style_title": "Okusaba sitayiro",
+      "lyrics_title": "Lyrics prompt",
+      "template_label": "Ekifaananyi (Template).",
+      "template_none": "Tewali template",
+      "variables_title": "Enkyukakyuka",
+      "preview_title": "Okusooka okulaba",
+      "preview_empty": "Londa ekifaananyi (template) era ojjuze enkyukakyuka okulaba okusooka.",
+      "char_count": " {{count}} ennukuta",
+      "char_count_warning": "Style prompts ezisukka mu 1000 characters ziyinza okusalibwako Suno.",
+      "copy": "Koppa",
+      "copied": "Yakoppololwa ku clipboard",
+      "save_to_project": "Teeka ku pulojekiti",
+      "saved_to_project": "Prompt eterekeddwa ku pulojekiti",
+      "history_title": "Ebyafaayo",
+      "history_empty": "Tewali nkyusa zaaliwo emabega.",
+      "current_label": "Mu kiseera kino"
+    },
+    "stems": {
+      "title": "Amaloboozi ne gitaala",
+      "separate_button": "Yawula amaloboozi ne gitaala",
+      "running": "Okwawula...",
+      "vocals": "Amaloboozi",
+      "instrumental": "Ebivuga ebivuga",
+      "process_stem": "Okukola ku kikolo kino",
+      "empty": "Eno take tennaba kwawulwa. Dduka okwawukana okuwulira amaloboozi ne guitar mu isolation.",
+      "capability_missing": "Okwawula ensibuko tekuteekeddwa ku seva eno.",
+      "unavailable": "Vocal/guitar separation tennabaawo ku server eno."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Ku...",
+    "boolean_off": "Off"
+  },
+  "import": {
+    "title": "Okuyingiza ebintu mu ggwanga",
+    "subtitle": "Leeta pulojekiti ezibaddewo edda ku disiki mu tterekero.",
+    "step_indicator": "Omutendera {{current}} gwa {{total}} . ",
+    "step1": {
+      "title": "Funa folda",
+      "description": "Laga ku folda y'ekikolo ne pulojekiti zo n'ennyimba zo.",
+      "path_label": "Ekkubo lya folda",
+      "path_placeholder": "e.g. E:\\Robbs\\Amalala\\Muziki\\ROBBS",
+      "recent_label": "Gye buvuddeko",
+      "scan_button": "Folda ya sikaani",
+      "scanning": "Okusika...",
+      "ffmpeg_warning": "FFmpeg tezuuliddwa — fayiro ezeetaaga okukyusa zijja kusimbulwa.",
+      "folders_found_one": " {{count}} folda ezuuliddwa",
+      "folders_found_other": " {{count}} folda zizuuliddwa",
+      "unmatched_files_one": " {{count}} fayiro etamanyiddwa",
+      "unmatched_files_other": " {{count}} fayiro ezitamanyiddwa"
+    },
+    "step2": {
+      "title": "Weekenneenye ebintu",
+      "description": "Kebera amannya, embeera, n'ebigenda okuyingizibwa nga tonnakakasa.",
+      "select_all": "Londa byonna",
+      "table": {
+        "folder": "Ekitabo ky'ensibuko",
+        "name": "Erinnya lya pulojekiti",
+        "status": "Embeera",
+        "audio": "Amaloboozi",
+        "lyrics": "Ebigambo by'oluyimba",
+        "cover": "Ekibikka",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} fayiro esunsuddwa",
+      "audio_include_other": " {{count}} fayiro ezirondeddwa",
+      "no_audio": "Tewali audio ezuuliddwa",
+      "no_lyrics": "Tewali bigambo bya bigambo byazuuliddwa",
+      "no_cover": "Tewali kibikka",
+      "warnings_title": "Okulabula"
+    },
+    "step3": {
+      "title": "Okuyingiza ebintu mu ggwanga",
+      "description": "Kakasa okukoppa fayiro n'okukola pulojekiti.",
+      "copy_originals": "Koppa fayiro ez'olubereberye mu tterekero",
+      "execute_button": "Tandika okuyingiza ebintu mu ggwanga",
+      "progress_title": "Okuyingiza ebintu mu ggwanga...",
+      "created_count": "Yatondebwawo: {{count}} ",
+      "skipped_count": "Yasimbuddwa: {{count}} ",
+      "done_title": "Okuyingiza ebintu mu ggwanga kuwedde",
+      "done_description": "Pulojekiti zino wammanga zatondebwa mu tterekero lyo.",
+      "view_project": "Pulojekiti enzigule",
+      "start_over": "Ebipya ebiyingizibwa mu ggwanga"
+    }
+  },
+  "templates": {
+    "title": "Ebikozesebwa mu kukola ebifaananyi",
+    "subtitle": "Templates ezisaba eziddamu okukozesebwa ne meta-tags za Suno.",
+    "tabs": {
+      "prompts": "Ebikozesebwa mu kusaba (prompt templates).",
+      "metatags": "Ebiwandiiko ebiyitibwa meta-tags"
+    },
+    "new_template": "Template empya",
+    "kind": {
+      "style": "Omusono",
+      "lyrics": "Ebigambo by'oluyimba"
+    },
+    "kind_label": "Ekisa",
+    "delete_confirm_title": "Ssazaamu ekifaananyi \" {{name}} \"?",
+    "delete_confirm_description": "Kino tekiyinza kuddibwamu.",
+    "empty": "Tewali templates yonna n'okutuusa kati.",
+    "editor": {
+      "title_new": "Template empya",
+      "title_edit": "Edit ekifaananyi",
+      "name_label": "Erinnya",
+      "name_placeholder": "e.g. Ballad ey’amaloboozi",
+      "kind_label": "Ekisa",
+      "template_label": "Ekiwandiiko kya template",
+      "template_hint": "Laga buli nkyukakyuka gy’eri ng’erinnya lyayo lizingiddwa mu bbulawuzi eziriko emirundi ebiri — okugeza, enkyukakyuka eyitibwa \"genre\" efuuka genre ezingiddwa mu bbulawuzi bbiri eziggulawo n'eziggalawo bbiri.",
+      "variables_label": "Enkyukakyuka",
+      "variable_add": "Okwongerako enkyukakyuka",
+      "variable_name": "Ekisumuluzo",
+      "variable_label": "Label",
+      "variable_type": "Ekika",
+      "variable_type_string": "Ebiwandiiko",
+      "variable_type_select": "Single londa",
+      "variable_type_multiselect": "Okulonda emirundi mingi",
+      "variable_type_number": "Ennamba",
+      "variable_type_boolean": "Yee/nedda",
+      "variable_options": "Ebintu by’oyinza okulonda (ebyawuddwamu koma) .",
+      "variable_required": "Kyetaagisa",
+      "save": "Teeka ekifaananyi"
+    },
+    "metatags": {
+      "title": "Ebiwandiiko ebiyitibwa meta-tags",
+      "subtitle": "Structural and style tags Suno ategeera munda mu bigambo.",
+      "new_tag": "Tag empya",
+      "tag_label": "Tag",
+      "tag_placeholder": "e.g. gitaala-solo",
+      "category_label": "Omutendera",
+      "tier_label": "Okwesigamizibwa",
+      "tier_legend_title": "Legend y’okwesigamizibwa",
+      "tier_legend": {
+        "1": "Tier 1 — ewandiikiddwa era ekwatagana",
+        "2": "Tier 2 — ebiseera ebisinga ekola",
+        "3": "Tier 3 — ekivaamu ekikyukakyuka",
+        "4": "Tier 4 — placebo, nga tekikakasibwa"
+      },
+      "description_label": "Ennyonnyola",
+      "delete_confirm_title": "Okusazaamu akabonero \" {{tag}} \"?",
+      "empty": "Tewali meta-tags za custom n'okutuusa kati."
+    }
+  },
+  "settings": {
+    "title": "Enteekateeka",
+    "subtitle": "Amawulire g'enkola, olulimi, n'ebintu ebisookerwako.",
+    "system_info_title": "Enkola",
+    "version": "Enkyusa",
+    "data_dir": "Ekitabo kya data",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Ebiriwo",
+    "ffmpeg_missing": "Tekizuuliddwa",
+    "capabilities_title": "Obusobozi obuteekeddwawo",
+    "capability": {
+      "denoise": "Okukendeeza ku maloboozi",
+      "quality": "Okwongera omutindo",
+      "separate": "Okwawula ensibuko",
+      "ffmpeg": "FFmpeg okukyusa"
+    },
+    "capability_available": "Ebiriwo",
+    "capability_unavailable": "Tekiriwo",
+    "gpu_title": "Okusannyalala kwa GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA eyitibwa CUDA",
+      "ort_providers": "ONNX Abagaba obudde bw'okudduka"
+    },
+    "gpu_none": "Tewali bagaba GPU bazuuliddwa",
+    "language_title": "Olulimi",
+    "language": {
+      "pt-BR": "Ekibuga Português (Brasil) .",
+      "en": "Luganda"
+    },
+    "theme_title": "Endabika",
+    "theme": {
+      "dark": "Ekizikiza",
+      "light": "Ekitangaala"
+    },
+    "defaults_title": "Okufulumya ebisookerwako",
+    "lufs_target_label": "Ekigendererwa kya LUFS",
+    "lufs_target_hint": "Ekozesebwa ng'okuteesa okutandika nga okufulumya ebweru kutwala. Suno's default etuula ku -14 LUFS.",
+    "saved": "Ebintu by'oyagala biterekeddwa"
+  },
+  "guide": {
+    "title": "Ekitabo ekikwata ku kukwata ebifaananyi mu Suno",
+    "subtitle": "Engeri y'okukwatamu eddoboozi ne guitar takes that get the best results.",
+    "intro": "Suno asinga kukola bulungi n’ebijuliziddwa ebiyonjo, ebitaliimu kubuusabuusa. Ekitabo kino kikwata ku kwetegeka, emitendera gy‟ebigendererwa, n‟ekiwandiiko ky‟okukwata eddakiika 3–5.",
+    "sections": {
+      "prep": {
+        "title": "Okwetegeka",
+        "body": "Wandiika mu kisenge ekirongooseddwa oba ekirimu ebintu ebigonvu bingi (kateni, rugs, engoye mu kabada). Ggyako abawagizi n'ekintu kyonna ekiwuuma. Bbugumya eddoboozi lyo okumala eddakiika 5 nga tonnakwata."
+      },
+      "levels": {
+        "title": "Emitendera: -12 okutuuka ku -6 dBFS",
+        "body": "Genderera entikko wakati wa -12 ne -6 dBFS ku mita. Wansi w’obuwanvu obwo, amaloboozi ag’emabega geeyongera okweyoleka; waggulu waakyo, akabi k’okusalako kalinnya. Kozesa mita ku lupapula lwa Record okuteekawo gain yo nga tonnatandika."
+      },
+      "distance": {
+        "title": "Ebanga lya mic: 15–30 cm",
+        "body": "Sigala sentimita 15 ku 30 okuva ku mayirofooni. Okusemberera okusinga ekyo kiyitirizanga plosives ne proximity effect; ewala akwata reverb y’ekisenge n’amaloboozi amangi."
+      },
+      "script": {
+        "title": "Okukwata script",
+        "warmup": "Okubuguma kw’eddoboozi (eddakiika 1–2) .",
+        "vowels": "Ennukuta ensirifu eziwangaala — a, e, i, o, u",
+        "scales": "Minzaani ennyangu, waggulu ne wansi",
+        "excerpt": "Ekitundu ky'oluyimba (ebbaala 8 ku 16)",
+        "dynamics": "Dynamics: tandika nga nnyogovu, ggwa mu ddoboozi ery’omwanguka",
+        "spoken_phrase": "Ekigambo kimu ekyogerwa, Suno asobole okusoma eddoboozi lyo"
+      },
+      "expectations": {
+        "title": "Suno ky’asuubira",
+        "body": "WAV, 48 kHz, mono, dry (tewali reverb oba effects), eddakiika 3 ku 5 ez’okujuliza. Eddakiika 2 ezisinga obuyonjo, ezisinga okukiikirira ez’okutwala zitera okuvaamu ebivaamu ebisinga obulungi."
+      }
+    }
+  },
+  "status": {
+    "idea": "Ekirowoozo",
+    "em_progresso": "Mu bigenda mu maaso",
+    "quase": "Kumpi awo",
+    "pronto": "Mwetegefu"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Script y'amaloboozi mu bujjuvu eya Suno",
+      "desc": "Eddakiika 5 eziragirwa: okubuguma, ennukuta ensirifu, minzaani, ebitundu bibiri eby’ennyimba, enkyukakyuka, n’ekigambo ekyogerwa."
+    },
+    "step": {
+      "warmup": "Okubuguma kw’amaloboozi",
+      "warmup_inst": "Sumulula n’okuwuubaala, okuwuuma emimwa (brrr), n’okuwuuma okugonvu okumala eddakiika nga emu. Tekyetaagisa kukwata — kiwummuza mumiro gwokka nga tonnayimba.",
+      "vowels": "Ennukuta ensirifu eziyimiridde",
+      "vowels_inst": "Kwata buli ddoboozi — a, e, i, o, u — okumala sekondi 3 ku 4 ku ddoboozi lyo erinyuma, ng’olina eddoboozi eritali ddene. Kino kiyamba Suno okulonda timbre ennongoofu ey’eddoboozi lyo.",
+      "scales": "Minzaani waggulu ne wansi",
+      "scales_inst": "Yimba minzaani ennyangu waggulu n'oluvannyuma wansi, ku \"la\" oba \"na\". Tekyetaagisa kuba kituukiridde — ekigendererwa kwe kukola maapu y’eddoboozi lyo.",
+      "section": "Ekitundu ky’oluyimba — ekitundu 1",
+      "section_inst": "Yimba ebbaala 8 ku 16 ez’oluyimba, n’ekigendererwa ekituufu ky’oyagala okutuusa. Kulembeza okutegeera n’okubeerawo okusinga okutuukirizibwa okw’ekikugu.",
+      "section2": "Ekitundu ky’oluyimba — ekitundu 2",
+      "section2_inst": "Yimba ebbaala endala 8 ku 16 — ekisinga obulungi chorus oba ekitundu ekyawukana ku ekyo ekyasooka. Ebintu eby’enjawulo ebisingawo biyamba model okuyiga eddoboozi lyo.",
+      "dynamics": "Dynamics: ennyogovu → eddoboozi ery’omwanguka",
+      "dynamics_inst": "Yimba ekigambo kye kimu ng’otandika nga nnyogovu nnyo n’omaliriza mu ddoboozi ery’omwanguka, nga tonyiga mumiro. Kino kiraga Suno eddoboozi lyo dynamic range.",
+      "spoken": "Ekigambo ekyogerwa",
+      "spoken_inst": "Yogera — toyimba — ekigambo ekimpi, eky’obutonde, ng’olinga ayogera. Kino kiyamba Suno okumanya timbre entuufu ey’eddoboozi lyo."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Okuzzaawo",
+      "filter": "Ebisengejja",
+      "dynamics": "Enkyukakyuka mu by’obulamu",
+      "separation": "Okwawukana",
+      "quality": "Omutindo",
+      "utility": "Ebikozesebwa",
+      "loudness": "Eddoboozi ery’omwanguka"
+    },
+    "highpass": "Omusengejja oguyita waggulu",
+    "lowpass": "Omusengejja oguyita wansi",
+    "denoise": "Okukendeeza ku maloboozi",
+    "declip": "Okugwa wansi",
+    "declick": "Click/pop okuggyawo",
+    "deesser": "Okuggyawo esser",
+    "gate": "Ekikomera ky’amaloboozi",
+    "compressor": "Ekintu ekikuba kompyuta (Compressor).",
+    "limiter": "Omukomo",
+    "eq": "Okwenkanankana",
+    "normalize": "Okutuuka ku ntikko mu mbeera eya bulijjo",
+    "loudness": "Okutereeza eddoboozi ery’omwanguka (LUFS) .",
+    "reverb_reduce": "Okukendeeza ku reverb",
+    "separate": "Okwawula ensibuko",
+    "quality": "Okwongera omutindo (upscale) .",
+    "trim_silence": "Okusala ku kasirise",
+    "fade": "Fade in / fade out",
+    "stereo_to_mono": "Okukyusa okudda mu mono",
+    "resample": "Okuddamu okutwala sampuli"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Yeesigika",
+      "2": "Ebiseera ebisinga kikola",
+      "3": "Enkyukakyuka",
+      "4": "Eddagala eriyitibwa placebo"
+    },
+    "category": {
+      "structure": "Enzimba y’ebintu",
+      "vocal": "Eddoboozi",
+      "instrument": "Ekivuga",
+      "dynamics": "Enkyukakyuka mu by’obulamu",
+      "production": "Okufulumya ebintu",
+      "mood": "Omuudu"
+    },
+    "verse": "Olunyiriri",
+    "chorus": "Chorus",
+    "bridge": "Omutala",
+    "intro": "Enyanjula",
+    "outro": "Outro",
+    "hook": "Hook",
+    "prechorus": "Nga tebannaba kuyimba",
+    "instrumental": "Ebivuga ebivuga",
+    "guitar_solo": "Guitar solo",
+    "build_up": "Okuzimba-okuzimba",
+    "breakdown": "Okumenya",
+    "spoken_word": "Ekigambo ekyogerwa",
+    "whispered": "Yayomba",
+    "harmonies": "Enkwatagana",
+    "male_vocal": "Eddoboozi ly’abasajja",
+    "female_vocal": "Eddoboozi ly’omukazi",
+    "duet": "Duet",
+    "acoustic": "Amaloboozi",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Eddoboozi eriyonjo",
+    "voice_guitar_balanced": "Eddoboozi & guitar erikwatagana",
+    "podcast": "Podcast ya Podcast",
+    "suno_ready": "Suno mwetegefu",
+    "gentle_restore": "Okuzzaawo mu ngeri ey’obukkakkamu",
+    "raw_passthrough": "Tewali kulongoosa"
+  },
+  "errors": {
+    "unknown": "Waliwo ekyatambula obubi.",
+    "network": "Teyasobodde kutuuka ku seva.",
+    "validation_error": "Kebera amawulire g’oyingiza.",
+    "not_found": "Ekintu tekizuuliddwa.",
+    "project_not_found": "Pulojekiti tezuuliddwa.",
+    "take_not_found": "Twala tezuuliddwa.",
+    "album_not_found": "Album tezuuliddwa.",
+    "preset_not_found": "Preset tezuuliddwa.",
+    "template_not_found": "Template tezuuliddwa.",
+    "device_busy": "Ekyuma ekiwulikika kikozesebwa pulogulaamu endala.",
+    "device_not_found": "Ekyuma ekiwulikika tekizuuliddwa.",
+    "already_recording": "Okukwata vidiyo kwatandise dda.",
+    "ffmpeg_missing": "FFmpeg teyingiziddwa — giteeke okukyusa fayiro eno.",
+    "disk_full": "Tewali kifo kya disiki kimala.",
+    "permission_denied": "Olukusa lugaaniddwa ku kkubo eriweereddwa.",
+    "import_path_not_found": "Ekkubo ly'okuyingiza ebintu mu ggwanga terizuuliddwa.",
+    "job_failed": "Okukola ku nsonga eno kwalemererwa.",
+    "job_cancelled": "Okukola ku nsonga eno kwasaziddwamu.",
+    "process_failed": "Yalemererwa okukola ku take.",
+    "export_failed": "Eremereddwa okufulumya fayiro ebweru.",
+    "record_failed": "Yalemererwa okutandika okukwata."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Basimbye ennyiriri",
+      "running": "Okudduka",
+      "done": "Kikoleddwa",
+      "error": "Eremereddwa",
+      "cancelled": "Esaziddwamu"
+    },
+    "kind": {
+      "process": "Okukola ku nsonga eno",
+      "export": "Okutunda ebweru w’eggwanga",
+      "import": "Okuyingiza ebintu mu ggwanga",
+      "record": "Okukwata ebifaananyi"
+    }
+  }
+}

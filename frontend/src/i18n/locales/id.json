@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Pembersih Audio"
+  },
+  "nav": {
+    "library": "Perpustakaan",
+    "record": "Rekam",
+    "import": "Impor",
+    "templates": "Templat",
+    "settings": "Pengaturan",
+    "guide": "Panduan"
+  },
+  "common": {
+    "save": "Simpan",
+    "saving": "Menyimpan…",
+    "saved": "Disimpan",
+    "cancel": "Batalkan",
+    "close": "Tutup",
+    "delete": "Hapus",
+    "edit": "Sunting",
+    "create": "Buat",
+    "search": "Cari",
+    "loading": "Memuat…",
+    "error": "Kesalahan",
+    "retry": "Coba lagi",
+    "confirm": "Konfirmasikan",
+    "back": "Kembali",
+    "next": "Selanjutnya",
+    "continue": "Lanjutkan",
+    "finish": "Selesai",
+    "copy": "Salin",
+    "copied": "Disalin",
+    "download": "Unduh",
+    "upload": "Unggah",
+    "none": "Tidak ada",
+    "all": "Semua",
+    "yes": "Ya",
+    "no": "Tidak",
+    "select": "Pilih",
+    "optional": "opsional",
+    "required": "diperlukan",
+    "unsaved_changes": "Perubahan yang belum disimpan",
+    "name": "Nama",
+    "status": "Status",
+    "type": "Ketik",
+    "actions": "Tindakan",
+    "empty": "Kosong",
+    "browse": "Jelajahi",
+    "remove": "Hapus",
+    "add": "Tambahkan",
+    "rename": "Ganti nama",
+    "duplicate": "Duplikat",
+    "warning": "Peringatan",
+    "locked": "Terkunci",
+    "builtin": "Bawaan",
+    "custom": "Adat",
+    "untitled": "Tanpa judul",
+    "select_placeholder": "Pilih…"
+  },
+  "library": {
+    "title": "Perpustakaan",
+    "subtitle": "Proyek suara dan gitar Anda, mulai dari ide hingga rilis.",
+    "new_project": "Proyek baru",
+    "new_album": "Album baru",
+    "search_placeholder": "Cari berdasarkan nama…",
+    "view": {
+      "grid": "jaringan",
+      "albums": "Album"
+    },
+    "filters": {
+      "all": "Semua"
+    },
+    "take_count_one": " {{count}} ambil",
+    "take_count_other": " {{count}} dibutuhkan",
+    "updated_at": "Diperbarui {{date}} ",
+    "no_results": {
+      "title": "Tidak ada proyek yang ditemukan",
+      "description": "Coba sesuaikan pencarian atau filter status."
+    },
+    "empty": {
+      "title": "Perpustakaan Anda kosong",
+      "description": "Mulai proyek baru dari awal, atau impor file yang sudah Anda miliki di disk.",
+      "cta_import": "Impor dari folder",
+      "cta_new": "Buat proyek"
+    },
+    "project_dialog": {
+      "title": "Proyek baru",
+      "description": "Beri nama dan pilih mode perekaman.",
+      "name_label": "Nama proyek",
+      "name_placeholder": "misalnya Hujan Musim Panas",
+      "mode_label": "Modus",
+      "mode": {
+        "voice": "Hanya suara",
+        "voice_guitar": "Suara + gitar"
+      },
+      "submit": "Buat proyek"
+    },
+    "album_dialog": {
+      "title": "Album baru",
+      "description": "Kelompokkan proyek terkait ke dalam album.",
+      "name_label": "Nama album",
+      "name_placeholder": "misalnya EP Musim Gugur",
+      "submit": "Buat album"
+    },
+    "album": {
+      "untitled": "Album tanpa judul",
+      "members_count_one": " {{count}} proyek",
+      "members_count_other": " {{count}} proyek",
+      "empty": "Belum ada proyek di album ini.",
+      "delete_confirm_title": "Hapus album?",
+      "delete_confirm_description": "Proyek tidak akan dihapus, hanya dibatalkan tautannya dari \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Hapus \" {{name}} \"?",
+      "confirm_description": "Ini menghapus proyek dan setiap pengambilan di dalamnya. Hal ini tidak dapat dibatalkan."
+    }
+  },
+  "record": {
+    "title": "Rekam",
+    "subtitle": "Ambil gambar yang bagus, perhatikan level Anda, dan ikuti skripnya.",
+    "project_label": "Proyek",
+    "project_placeholder": "Pilih proyek",
+    "project_create_quick": "Buat proyek cepat…",
+    "device_label": "Perangkat masukan",
+    "device_placeholder": "Pilih perangkat",
+    "device_default_badge": "Bawaan sistem",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Tidak ada perangkat masukan yang ditemukan.",
+    "monitor_button": "Memantau",
+    "monitor_stop_button": "Hentikan pemantauan",
+    "record_button": "Rekam",
+    "stop_button": "Berhenti",
+    "elapsed_label": "Waktu yang telah berlalu",
+    "status": {
+      "idle": "Menganggur",
+      "monitoring": "Pemantauan",
+      "recording": "Rekaman",
+      "stopped": "Berhenti"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Puncak",
+      "clip": "Klip"
+    },
+    "guide": {
+      "title": "Sesi yang dipandu",
+      "subtitle": "Biarkan pelatih memandu Anda melalui naskah langkah demi langkah, mulai dari pemanasan hingga frasa yang diucapkan.",
+      "loading": "Memuat skrip…",
+      "unavailable": "Sesi terpandu belum tersedia di server.",
+      "select_project_device": "Pilih proyek dan perangkat input untuk mencatat langkah-langkah langsung dari sini.",
+      "progress": " {{done}} dari {{total}} langkah",
+      "start_timer": "Mulai pengatur waktu",
+      "skip_timer": "Lewati pengatur waktu",
+      "record_step": "Catat langkah ini",
+      "stop_step": "Berhenti merekam",
+      "mark_done": "Selesai — langkah berikutnya",
+      "step_recorded": "Ambil rekaman",
+      "no_record_step": "Langkah pemanasan — tidak perlu rekaman.",
+      "bars_hint": "Tentang {{bars}} batang",
+      "complete_title": "Skrip selesai!",
+      "complete_body": "Anda telah mencatat setiap langkah naskah. Kembali ke tab Audio proyek dan pilih rekaman favorit Anda.",
+      "restart": "Mulai ulang skrip"
+    },
+    "best2min": {
+      "button": "Temukan 2 menit terbaik (Suno)",
+      "running": "Menganalisis pengambilan…",
+      "score_label": "Skor",
+      "hint": "Jalankan analisis energi dan kejernihan pada keseluruhan pengambilan untuk menemukan jendela 2 menit terkuatnya — Anda masih dapat menyesuaikan rentang dengan tangan setelahnya.",
+      "chart_caption": "Skor per jendela",
+      "unavailable": "Analisis 2 menit terbaik belum tersedia di server ini."
+    },
+    "takes_title": "Mengambil dari sesi ini",
+    "takes_empty": "Belum ada pengambilan yang direkam dalam sesi ini.",
+    "open_in_project": "Buka di proyek",
+    "ws_disconnected": "Menyambungkan kembali ke pengukur level…",
+    "select_project_first": "Pilih proyek untuk memulai.",
+    "select_device_first": "Pilih perangkat masukan."
+  },
+  "project": {
+    "back_to_library": "Kembali ke perpustakaan",
+    "header": {
+      "status_label": "Status",
+      "cover_upload": "Unggah sampul",
+      "cover_remove": "Hapus penutup",
+      "name_placeholder": "Nama proyek",
+      "links_title": "Tautan",
+      "add_link": "Tambahkan tautan",
+      "mode": {
+        "voice": "Hanya suara",
+        "voice_guitar": "Suara + gitar"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Lirik",
+      "prompts": "Anjuran",
+      "notes": "Catatan"
+    },
+    "audio": {
+      "takes_title": "Dibutuhkan",
+      "no_takes": {
+        "title": "Belum ada pengambilan",
+        "description": "Rekam pengambilan baru atau impor file yang sudah ada."
+      },
+      "record_new": "Rekam pengambilan baru",
+      "rating": "Peringkat",
+      "variant": {
+        "raw": "Mentah",
+        "processed": "Diproses"
+      },
+      "variant_placeholder": "Versi",
+      "process_button": "Proses",
+      "export_button": "Ekspor",
+      "delete_take_confirm_title": "Hapus pengambilan ini?",
+      "delete_take_confirm_description": "Audio mentah dan setiap versi yang diproses akan dihapus.",
+      "ab": {
+        "raw": "A · Mentah",
+        "processed": "B · Diproses"
+      },
+      "origin": {
+        "recorded": "Direkam",
+        "imported": "Diimpor"
+      },
+      "session_label_placeholder": "Label sesi (opsional)",
+      "duration": "Durasi",
+      "sample_rate": "Tingkat sampel",
+      "channels": "Saluran",
+      "created_at": "Direkam"
+    },
+    "pipeline": {
+      "title": "Rantai pemrosesan",
+      "preset_label": "Prasetel",
+      "preset_none": "Rantai khusus",
+      "preset_save": "Simpan sebagai preset",
+      "stage_locked": "Terkunci",
+      "stage_requires_extra": "Membutuhkan tambahan yang tidak diinstal",
+      "process_button": "Pengambilan proses",
+      "processing": "Memproses…",
+      "job_queued": "Mengantri…",
+      "job_running": "Memproses…",
+      "job_done": "Selesai",
+      "job_error": "Gagal",
+      "job_cancelled": "Dibatalkan",
+      "cancel_job": "Batalkan",
+      "no_stages": "Tidak ada tahapan yang tersedia."
+    },
+    "export": {
+      "title": "Ekspor ambil",
+      "description": "Render file akhir dari versi yang diproses.",
+      "variant_label": "Versi",
+      "format_label": "Format",
+      "preset_label": "Ekspor prasetel",
+      "range_label": "Jangkauan",
+      "range_full": "Panjang penuh",
+      "range_custom": "Rentang khusus",
+      "start_label": "Mulai",
+      "end_label": "Akhir",
+      "submit": "Ekspor",
+      "progress": "Merender file…",
+      "download_ready": "Berkas sudah siap",
+      "download_button": "Unduh berkas"
+    },
+    "notes": {
+      "placeholder": "Catatan bentuk bebas tentang proyek ini…",
+      "saved_at": "Disimpan di {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Tulis liriknya di sini. Gunakan palet di samping untuk menyisipkan meta-tag Suno.",
+      "saved_at": "Disimpan di {{time}} ",
+      "saving": "Menyimpan…",
+      "versions": "Versi",
+      "versions_empty": "Belum ada versi yang disimpan.",
+      "version_preview": "Pratinjau",
+      "restore": "Pulihkan versi ini",
+      "restore_confirm_title": "Pulihkan versi ini?",
+      "restore_confirm_description": "Teks saat ini akan diganti dengan versi yang disimpan di {{date}} .",
+      "metatags_title": "Meta-tag",
+      "metatags_hint": "Klik tag untuk menyisipkannya di kursor.",
+      "metatags_placebo_warning": "Belum terbukti — mungkin tidak berpengaruh pada hasilnya.",
+      "metatags_empty": "Tidak ada meta-tag yang terdaftar."
+    },
+    "prompts": {
+      "style_title": "Perintah gaya",
+      "lyrics_title": "Lirik cepat",
+      "template_label": "Templat",
+      "template_none": "Tidak ada templat",
+      "variables_title": "Variabel",
+      "preview_title": "Pratinjau",
+      "preview_empty": "Pilih template dan isi variabel untuk melihat pratinjau.",
+      "char_count": " {{count}} karakter",
+      "char_count_warning": "Perintah gaya lebih dari 1000 karakter mungkin terpotong oleh Suno.",
+      "copy": "Salin",
+      "copied": "Disalin ke papan klip",
+      "save_to_project": "Simpan ke proyek",
+      "saved_to_project": "Prompt disimpan ke proyek",
+      "history_title": "Sejarah",
+      "history_empty": "Tidak ada versi sebelumnya.",
+      "current_label": "Saat ini"
+    },
+    "stems": {
+      "title": "Vokal dan gitar",
+      "separate_button": "Pisahkan vokal dan gitar",
+      "running": "Memisahkan…",
+      "vocals": "vokal",
+      "instrumental": "instrumental",
+      "process_stem": "Proses batang ini",
+      "empty": "Pengambilan ini belum dipisahkan. Jalankan pemisahan untuk mendengarkan vokal dan gitar secara terpisah.",
+      "capability_missing": "Pemisahan sumber tidak diinstal di server ini.",
+      "unavailable": "Pemisahan vokal/gitar belum tersedia di server ini."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Aktif",
+    "boolean_off": "Mati"
+  },
+  "import": {
+    "title": "Impor",
+    "subtitle": "Membawa proyek yang sudah ada di disk ke perpustakaan.",
+    "step_indicator": "Langkah {{current}} dari {{total}} ",
+    "step1": {
+      "title": "Temukan foldernya",
+      "description": "Arahkan ke folder root dengan proyek dan trek Anda.",
+      "path_label": "Jalur folder",
+      "path_placeholder": "misalnya E:\\Robbs\\Pride\\Musik\\ROBBS",
+      "recent_label": "Baru-baru ini",
+      "scan_button": "Pindai folder",
+      "scanning": "Memindai…",
+      "ffmpeg_warning": "FFmpeg tidak ditemukan — file yang memerlukan konversi akan dilewati.",
+      "folders_found_one": " {{count}} folder ditemukan",
+      "folders_found_other": " {{count}} folder ditemukan",
+      "unmatched_files_one": " {{count}} file tidak dikenal",
+      "unmatched_files_other": " {{count}} file tidak dikenal"
+    },
+    "step2": {
+      "title": "Tinjau item",
+      "description": "Periksa nama, status, dan apa yang akan diimpor sebelum melakukan konfirmasi.",
+      "select_all": "Pilih semua",
+      "table": {
+        "folder": "Folder sumber",
+        "name": "Nama proyek",
+        "status": "Status",
+        "audio": "Audio",
+        "lyrics": "Lirik",
+        "cover": "Penutup",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} berkas dipilih",
+      "audio_include_other": " {{count}} file dipilih",
+      "no_audio": "Tidak ada audio yang ditemukan",
+      "no_lyrics": "Lirik tidak ditemukan",
+      "no_cover": "Tidak ada penutup",
+      "warnings_title": "Peringatan"
+    },
+    "step3": {
+      "title": "Impor",
+      "description": "Konfirmasikan untuk menyalin file dan membuat proyek.",
+      "copy_originals": "Salin file asli ke perpustakaan",
+      "execute_button": "Mulai impor",
+      "progress_title": "Mengimpor…",
+      "created_count": "Dibuat: {{count}} ",
+      "skipped_count": "Dilewati: {{count}} ",
+      "done_title": "Impor selesai",
+      "done_description": "Proyek di bawah ini dibuat di perpustakaan Anda.",
+      "view_project": "Buka proyek",
+      "start_over": "Impor baru"
+    }
+  },
+  "templates": {
+    "title": "Templat",
+    "subtitle": "Templat prompt dan meta-tag yang dapat digunakan kembali untuk Suno.",
+    "tabs": {
+      "prompts": "Templat yang cepat",
+      "metatags": "Meta-tag"
+    },
+    "new_template": "Templat baru",
+    "kind": {
+      "style": "Gaya",
+      "lyrics": "Lirik"
+    },
+    "kind_label": "Baik hati",
+    "delete_confirm_title": "Hapus templat \" {{name}} \"?",
+    "delete_confirm_description": "Hal ini tidak dapat dibatalkan.",
+    "empty": "Belum ada templat.",
+    "editor": {
+      "title_new": "Templat baru",
+      "title_edit": "Sunting templat",
+      "name_label": "Nama",
+      "name_placeholder": "misalnya Balada akustik",
+      "kind_label": "Baik hati",
+      "template_label": "Teks templat",
+      "template_hint": "Tandai lokasi setiap variabel dengan namanya yang diapit kurung kurawal ganda — misalnya, variabel bernama \"genre\" menjadi genre yang diapit dua kurung kurawal pembuka dan dua kurung kurawal penutup.",
+      "variables_label": "Variabel",
+      "variable_add": "Tambahkan variabel",
+      "variable_name": "Kunci",
+      "variable_label": "Label",
+      "variable_type": "Ketik",
+      "variable_type_string": "Teks",
+      "variable_type_select": "Pilihan tunggal",
+      "variable_type_multiselect": "Multi-pilih",
+      "variable_type_number": "Nomor",
+      "variable_type_boolean": "Ya / tidak",
+      "variable_options": "Opsi (dipisahkan koma)",
+      "variable_required": "Diperlukan",
+      "save": "Simpan templat"
+    },
+    "metatags": {
+      "title": "Meta-tag",
+      "subtitle": "Tag struktural dan gaya yang dikenali Suno di dalam lirik.",
+      "new_tag": "Label baru",
+      "tag_label": "Menandai",
+      "tag_placeholder": "misalnya gitar-solo",
+      "category_label": "Kategori",
+      "tier_label": "Keandalan",
+      "tier_legend_title": "Legenda keandalan",
+      "tier_legend": {
+        "1": "Tingkat 1 — terdokumentasi dan konsisten",
+        "2": "Tingkat 2 — biasanya berfungsi",
+        "3": "Tingkat 3 — efek variabel",
+        "4": "Tingkat 4 — plasebo, tidak terbukti"
+      },
+      "description_label": "Deskripsi",
+      "delete_confirm_title": "Hapus tanda \" {{tag}} \"?",
+      "empty": "Belum ada meta-tag khusus."
+    }
+  },
+  "settings": {
+    "title": "Pengaturan",
+    "subtitle": "Informasi sistem, bahasa, dan preferensi default.",
+    "system_info_title": "Sistem",
+    "version": "Versi",
+    "data_dir": "map data",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Tersedia",
+    "ffmpeg_missing": "Tidak ditemukan",
+    "capabilities_title": "Kemampuan terpasang",
+    "capability": {
+      "denoise": "Pengurangan kebisingan",
+      "quality": "Peningkatan kualitas",
+      "separate": "Pemisahan sumber",
+      "ffmpeg": "Konversi FFmpeg"
+    },
+    "capability_available": "Tersedia",
+    "capability_unavailable": "Tidak tersedia",
+    "gpu_title": "Akselerasi GPU",
+    "gpu": {
+      "torch_cuda": "CUDA PyTorch",
+      "ort_providers": "Penyedia Waktu Proses ONNX"
+    },
+    "gpu_none": "Tidak ada penyedia GPU yang terdeteksi",
+    "language_title": "Bahasa",
+    "language": {
+      "pt-BR": "Portugis (Brasil)",
+      "en": "bahasa Inggris"
+    },
+    "theme_title": "Penampilan",
+    "theme": {
+      "dark": "Gelap",
+      "light": "Ringan"
+    },
+    "defaults_title": "Ekspor default",
+    "lufs_target_label": "Targetkan LUFS",
+    "lufs_target_hint": "Digunakan sebagai saran awal saat mengekspor take. Default Suno berada di sekitar -14 LUFS.",
+    "saved": "Preferensi disimpan"
+  },
+  "guide": {
+    "title": "Panduan rekaman Suno",
+    "subtitle": "Cara menangkap suara dan pengambilan gitar yang mendapatkan hasil terbaik.",
+    "intro": "Suno berkinerja terbaik dengan referensi yang bersih dan tidak ambigu. Panduan ini mencakup persiapan, level target, dan skrip rekaman 3–5 menit.",
+    "sections": {
+      "prep": {
+        "title": "Persiapan",
+        "body": "Rekam di ruangan yang dirawat atau ruangan yang banyak bahannya lembut (gorden, permadani, pakaian di lemari). Matikan kipas angin dan apa pun yang berdengung. Panaskan suara Anda selama 5 menit sebelum merekam."
+      },
+      "levels": {
+        "title": "Level: -12 hingga -6 dBFS",
+        "body": "Targetkan puncak antara -12 dan -6 dBFS pada meteran. Di bawah kisaran tersebut, kebisingan latar belakang menjadi lebih terlihat; di atasnya, risiko kliping meningkat. Gunakan meteran di halaman Rekam untuk mengatur penguatan Anda sebelum memulai."
+      },
+      "distance": {
+        "title": "Jarak mikrofon: 15–30 cm",
+        "body": "Jaga jarak 15 hingga 30 cm dari mikrofon. Lebih dekat dari itu membesar-besarkan efek plosif dan kedekatan; lebih jauh mengambil lebih banyak ruang reverb dan kebisingan."
+      },
+      "script": {
+        "title": "Skrip rekaman",
+        "warmup": "Pemanasan vokal (1–2 menit)",
+        "vowels": "Vokal berkelanjutan — a, e, i, o, u",
+        "scales": "Skala sederhana, atas dan bawah",
+        "excerpt": "Kutipan lagu (8 hingga 16 bar)",
+        "dynamics": "Dinamika: mulai dengan lembut, akhiri dengan keras",
+        "spoken_phrase": "Satu kalimat yang diucapkan, sehingga Suno bisa membaca nada vokal Anda"
+      },
+      "expectations": {
+        "title": "Apa yang Suno harapkan",
+        "body": "WAV, 48 kHz, mono, kering (tanpa reverb atau efek), referensi 3 hingga 5 menit. Pengambilan gambar selama 2 menit yang paling bersih dan paling representatif biasanya memberikan hasil terbaik."
+      }
+    }
+  },
+  "status": {
+    "idea": "Ide",
+    "em_progresso": "Sedang berlangsung",
+    "quase": "Hampir sampai",
+    "pronto": "Siap"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Naskah vokal lengkap untuk Suno",
+      "desc": "5 menit yang dipandu: pemanasan, vokal, tangga nada, dua kutipan lagu, dinamika, dan frasa yang diucapkan."
+    },
+    "step": {
+      "warmup": "Pemanasan vokal",
+      "warmup_inst": "Bersantailah dengan menguap, bibir bergetar (brrr), dan senandung lembut selama sekitar satu menit. Tidak perlu merekam — cukup untuk melemaskan tenggorokan Anda sebelum bernyanyi.",
+      "vowels": "Vokal berkelanjutan",
+      "vowels_inst": "Tahan setiap vokal — a, e, i, o, u — selama 3 hingga 4 detik dengan nada nyaman Anda, dengan volume yang stabil. Ini membantu Suno menangkap warna suara Anda yang murni.",
+      "scales": "Skala naik dan turun",
+      "scales_inst": "Nyanyikan nada sederhana ke atas dan ke bawah, pada \"la\" atau \"na\". Tidak perlu sempurna — tujuannya adalah memetakan jangkauan vokal Anda.",
+      "section": "Kutipan lagu — bagian 1",
+      "section_inst": "Nyanyikan 8 hingga 16 bar lagu tersebut, dengan maksud sebenarnya yang ingin Anda sampaikan. Prioritaskan kejelasan dan kehadiran daripada kesempurnaan teknis.",
+      "section2": "Kutipan lagu — bagian 2",
+      "section2_inst": "Nyanyikan 8 hingga 16 bar lagi — idealnya bagian refrain atau bagian yang kontras dengan bagian sebelumnya. Variasi yang lebih banyak membantu model mempelajari suara Anda.",
+      "dynamics": "Dinamika: lembut → keras",
+      "dynamics_inst": "Nyanyikan kalimat yang sama, dimulai dengan sangat lembut dan diakhiri dengan keras, tanpa membuat tenggorokan Anda tegang. Ini menunjukkan rentang dinamis suara Anda kepada Suno.",
+      "spoken": "Ungkapan yang diucapkan",
+      "spoken_inst": "Bicaralah - jangan bernyanyi - kalimat yang pendek dan alami, seolah-olah Anda sedang mengobrol. Ini membantu Suno mengenali warna suara Anda yang sebenarnya."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restorasi",
+      "filter": "Filter",
+      "dynamics": "Dinamika",
+      "separation": "Pemisahan",
+      "quality": "Kualitas",
+      "utility": "Utilitas",
+      "loudness": "Kenyaringan"
+    },
+    "highpass": "Filter lolos tinggi",
+    "lowpass": "Filter lolos rendah",
+    "denoise": "Pengurangan kebisingan",
+    "declip": "Pemotongan",
+    "declick": "Penghapusan klik/pop",
+    "deesser": "De-esser",
+    "gate": "Gerbang kebisingan",
+    "compressor": "Kompresor",
+    "limiter": "Pembatas",
+    "eq": "pemerataan",
+    "normalize": "Normalisasi puncak",
+    "loudness": "Normalisasi kenyaringan (LUFS)",
+    "reverb_reduce": "Pengurangan gema",
+    "separate": "Pemisahan sumber",
+    "quality": "Peningkatan kualitas (kelas atas)",
+    "trim_silence": "Pemangkasan keheningan",
+    "fade": "Memudar / memudar",
+    "stereo_to_mono": "Ubah menjadi mono",
+    "resample": "Pengambilan sampel ulang"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Dapat diandalkan",
+      "2": "Biasanya berhasil",
+      "3": "Variabel",
+      "4": "Plasebo"
+    },
+    "category": {
+      "structure": "Struktur",
+      "vocal": "vokal",
+      "instrument": "Instrumen",
+      "dynamics": "Dinamika",
+      "production": "Produksi",
+      "mood": "suasana hati"
+    },
+    "verse": "Ayat",
+    "chorus": "paduan suara",
+    "bridge": "Jembatan",
+    "intro": "Pendahuluan",
+    "outro": "luar",
+    "hook": "Kait",
+    "prechorus": "Pra-paduan suara",
+    "instrumental": "instrumental",
+    "guitar_solo": "Gitar solo",
+    "build_up": "Membangun",
+    "breakdown": "Kerusakan",
+    "spoken_word": "Kata yang diucapkan",
+    "whispered": "Berbisik",
+    "harmonies": "Harmoni",
+    "male_vocal": "Vokal pria",
+    "female_vocal": "Vokal wanita",
+    "duet": "duet",
+    "acoustic": "Akustik",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Suara bersih",
+    "voice_guitar_balanced": "Suara & gitar seimbang",
+    "podcast": "Podcast",
+    "suno_ready": "Suno siap",
+    "gentle_restore": "Pemulihan yang lembut",
+    "raw_passthrough": "Tidak ada pemrosesan"
+  },
+  "errors": {
+    "unknown": "Ada yang tidak beres.",
+    "network": "Tidak dapat menjangkau server.",
+    "validation_error": "Periksa informasi yang Anda masukkan.",
+    "not_found": "Barang tidak ditemukan.",
+    "project_not_found": "Proyek tidak ditemukan.",
+    "take_not_found": "Ambil tidak ditemukan.",
+    "album_not_found": "Album tidak ditemukan.",
+    "preset_not_found": "Prasetel tidak ditemukan.",
+    "template_not_found": "Templat tidak ditemukan.",
+    "device_busy": "Perangkat audio sedang digunakan oleh program lain.",
+    "device_not_found": "Perangkat audio tidak ditemukan.",
+    "already_recording": "Perekaman sedang berlangsung.",
+    "ffmpeg_missing": "FFmpeg belum diinstal — instal untuk mengonversi file ini.",
+    "disk_full": "Ruang disk tidak cukup.",
+    "permission_denied": "Izin ditolak untuk jalur yang diberikan.",
+    "import_path_not_found": "Jalur impor tidak ditemukan.",
+    "job_failed": "Pemrosesan gagal.",
+    "job_cancelled": "Pemrosesan dibatalkan.",
+    "process_failed": "Gagal memproses pengambilan.",
+    "export_failed": "Gagal mengekspor file.",
+    "record_failed": "Gagal memulai perekaman."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Mengantri",
+      "running": "Berlari",
+      "done": "Selesai",
+      "error": "Gagal",
+      "cancelled": "Dibatalkan"
+    },
+    "kind": {
+      "process": "Pemrosesan",
+      "export": "Ekspor",
+      "import": "Impor",
+      "record": "Rekaman"
+    }
+  }
+}

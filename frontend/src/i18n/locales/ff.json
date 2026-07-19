@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Laɓɓinoowo Odio"
+  },
+  "nav": {
+    "library": "Defterdu",
+    "record": "Winndito",
+    "import": "Naatde",
+    "templates": "Templaaji",
+    "settings": "Dottaaɗe",
+    "guide": "Ardotooɗo"
+  },
+  "common": {
+    "save": "Hisnu",
+    "saving": "Hisnude...",
+    "saved": "Hisnaama",
+    "cancel": "Woppu",
+    "close": "Uddu",
+    "delete": "Mumtu",
+    "edit": "Waylu",
+    "create": "Tagde",
+    "search": "Yiylo",
+    "loading": "Ina loowa...",
+    "error": "Juumre",
+    "retry": "Enndu kadi",
+    "confirm": "Tabintin",
+    "back": "Caggal",
+    "next": "Ko arata",
+    "continue": "Jokku",
+    "finish": "Timmin",
+    "copy": "Koppir",
+    "copied": "Koppiraama",
+    "download": "Sokkit",
+    "upload": "Neldu",
+    "none": "Hay gooto",
+    "all": "Fof",
+    "yes": "Eey",
+    "no": "Alaa",
+    "select": "Suɓo",
+    "optional": "ko cuɓagol",
+    "required": "ina ɗaɓɓiree",
+    "unsaved_changes": "Waylooji ɗi keɓaaka",
+    "name": "Innde",
+    "status": "Darnde",
+    "type": "Winndu",
+    "actions": "Golle",
+    "empty": "Meere",
+    "browse": "Feewnitde",
+    "remove": "Ittu",
+    "add": "Ɓeydu",
+    "rename": "Waylu innde",
+    "duplicate": "Duppitde",
+    "warning": "Jeertinaango",
+    "locked": "Ko cokaaɗo",
+    "builtin": "Mahi-nder",
+    "custom": "Aada",
+    "untitled": "Alaa tiitoonde",
+    "select_placeholder": "Suɓo..."
+  },
+  "library": {
+    "title": "Defterdu",
+    "subtitle": "Eɓɓooje daande maa e gitaar maa, gila e miijo haa e yaltinde.",
+    "new_project": "Eɓɓoore hesere",
+    "new_album": "Albom keso",
+    "search_placeholder": "Yiylo e innde...",
+    "view": {
+      "grid": "Grid",
+      "albums": "Alkule"
+    },
+    "filters": {
+      "all": "Fof"
+    },
+    "take_count_one": " {{count}} ƴetta",
+    "take_count_other": " {{count}} ina ƴetta",
+    "updated_at": "Hesɗitinaama {{date}} ",
+    "no_results": {
+      "title": "Alaa eɓɓooje tawaa",
+      "description": "Enndu waylude njiylawu walla filtirde ngonka."
+    },
+    "empty": {
+      "title": "Defterdu maa ina woodi",
+      "description": "Fuɗɗoo eɓɓoore hesere gila e fuɗɗoode, walla naatde ƴetta ko njogiɗaa e disko.",
+      "cta_import": "Naatde e foldere",
+      "cta_new": "Sosde eɓɓoore"
+    },
+    "project_dialog": {
+      "title": "Eɓɓoore hesere",
+      "description": "Hokku ɗum innde, cuɓo-ɗaa mbaadi winnditaade.",
+      "name_label": "Innde eɓɓoore ndee",
+      "name_placeholder": "e.g. Toɓo Dumunna",
+      "mode_label": "Mode",
+      "mode": {
+        "voice": "Daande tan",
+        "voice_guitar": "Daande + gitaar"
+      },
+      "submit": "Sosde eɓɓoore"
+    },
+    "album_dialog": {
+      "title": "Albom keso",
+      "description": "Moftu eɓɓooji jowitiiɗi e albom.",
+      "name_label": "Innde albom oo",
+      "name_placeholder": "e.g. EP mo ndunngu",
+      "submit": "Sosde albom"
+    },
+    "album": {
+      "untitled": "Albom mo alaa tiitoonde",
+      "members_count_one": " {{count}} eɓɓoore",
+      "members_count_other": " {{count}} eɓɓooje",
+      "empty": "Alaa eɓɓooje e nder ndee albom tawo.",
+      "delete_confirm_title": "Mumtu albom?",
+      "delete_confirm_description": "Eɓɓooje mumtataa, tan ko jokkondirɗe e \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Mumtu \" {{name}} \"?",
+      "confirm_description": "Ɗuum ittata eɓɓoore ndee e kala ƴettugol e nder mayre. Ɗuum waawaa ustaade."
+    }
+  },
+  "record": {
+    "title": "Winndito",
+    "subtitle": "Nanngu ƴettugol laaɓngol, ƴeew toɓɓe maa, e rewde binndol ngol.",
+    "project_label": "Eɓɓoore",
+    "project_placeholder": "Suɓo eɓɓoore",
+    "project_create_quick": "Sos eɓɓoore yaawnde...",
+    "device_label": "Kaɓirgal naatnugol",
+    "device_placeholder": "Suɓo kaɓirgal",
+    "device_default_badge": "Siistem gonɗo e mbaydi",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Alaa kaɓirɗe naatgol tawaa.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Woppu ƴeewndo",
+    "record_button": "Winndito",
+    "stop_button": "Woppu",
+    "elapsed_label": "Waktu ɓennuɗo",
+    "status": {
+      "idle": "Idle",
+      "monitoring": "Yiylaade",
+      "recording": "Winnditaade",
+      "stopped": "Dartiima"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Toɓɓere",
+      "clip": "Kilip"
+    },
+    "guide": {
+      "title": "Joɗnde ardiinde",
+      "subtitle": "Yo coftuɗo oo yahdu e binndol ngol, gila e warngooji haa e konngol haalaaɗo.",
+      "loading": "Lowde binndol...",
+      "unavailable": "Joɗnde ardiinde ndee alaa tawo e serveer oo.",
+      "select_project_device": "Suɓo eɓɓoore e kaɓirgal naatnugol ngam winndude laabi gila ɗoo.",
+      "progress": " {{done}} e {{total}} laabi",
+      "start_timer": "Fuɗɗoode waktu",
+      "skip_timer": "Sappu waktu",
+      "record_step": "Winndu ndeeɗoo ɗaɓɓaande",
+      "stop_step": "Woppu winndude",
+      "mark_done": "Done — jokkere enɗam",
+      "step_recorded": "Ƴettu winnditaade",
+      "no_record_step": "Ɗatal warngooji — alaa ko haani winndeede.",
+      "bars_hint": "Ko ina wona {{bars}} barmeeji",
+      "complete_title": "Binndol ngol timmi!",
+      "complete_body": "A winnditii kala doggol binndol ngol. Hoore wartu e tab Audio eɓɓoore ndee e suɓaade ƴettugol maa ɓurngol welde.",
+      "restart": "Fuɗɗoo binndol ngol"
+    },
+    "best2min": {
+      "button": "Yiytu hojomaaji 2 ɓurɗi moƴƴude (Suno)",
+      "running": "Hiisaade ƴettude...",
+      "score_label": "Toɓɓere",
+      "hint": "Doggol semmbe e laaɓal ƴeewndo dow denndaangal ƴettugol ngam yiytude windo mum ɓurngo tiiɗde 2-minit — aɗa waawi haa jooni ƴeewtaade njuuteendi ndii e junngo caggal ɗuum.",
+      "chart_caption": "Njoɓdi kala windo",
+      "unavailable": "Hiisiwal ɓurngal moƴƴude-hojomaaji 2 ngal alaa tawo e ooɗoo serveer."
+    },
+    "takes_title": "Ƴetti ko e ndeeɗoo jonnde",
+    "takes_empty": "Alaa takes winndaa e ndeeɗoo joɗnde tawo.",
+    "open_in_project": "Uddit e nder eɓɓoore",
+    "ws_disconnected": "Jokkondirde e meeteer tolno...",
+    "select_project_first": "Suɓo eɓɓoore ngam fuɗɗaade.",
+    "select_device_first": "Suɓo kaɓirgal naatnugol."
+  },
+  "project": {
+    "back_to_library": "Hoto ngartu e defterdu",
+    "header": {
+      "status_label": "Darnde",
+      "cover_upload": "Neldu cover",
+      "cover_remove": "Ittude ɓuuɓri",
+      "name_placeholder": "Innde eɓɓoore ndee",
+      "links_title": "Jokkondire",
+      "add_link": "Ɓeydu jokkorde",
+      "mode": {
+        "voice": "Daande tan",
+        "voice_guitar": "Daande + gitaar"
+      }
+    },
+    "tabs": {
+      "audio": "Odio",
+      "lyrics": "Konnguɗi",
+      "prompts": "Eɓɓooje",
+      "notes": "Teskorɗe"
+    },
+    "audio": {
+      "takes_title": "Ƴetta",
+      "no_takes": {
+        "title": "Alaa ƴetta tawo",
+        "description": "Winndu ƴettugol kesol walla naatnu fiilde gonnde."
+      },
+      "record_new": "Winndu ƴettugol kesol",
+      "rating": "Toɓɓere",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Golliraama"
+      },
+      "variant_placeholder": "Jaaynde",
+      "process_button": "Laawol",
+      "export_button": "Eksport",
+      "delete_take_confirm_title": "Mumtu ndee ƴettugol?",
+      "delete_take_confirm_description": "Odio raw e kala mbaydi gollorndi maa ittu.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Ko gollortee"
+      },
+      "origin": {
+        "recorded": "Winndaama",
+        "imported": "Naatnaama"
+      },
+      "session_label_placeholder": "Leppi jonnde (cuɓagol)",
+      "duration": "Duuɓi",
+      "sample_rate": "Hakindo sample",
+      "channels": "Laabi",
+      "created_at": "Winndaama"
+    },
+    "pipeline": {
+      "title": "Catal peewnugol",
+      "preset_label": "Ko adii",
+      "preset_none": "Catal keeringal",
+      "preset_save": "Hisnu no set nii",
+      "stage_locked": "Ko cokaaɗo",
+      "stage_requires_extra": "Ina ɗaɓɓi ɓeydaare nde ligginaaka",
+      "process_button": "Laawol ƴetta",
+      "processing": "Laɓɓingol...",
+      "job_queued": "Laabi...",
+      "job_running": "Laɓɓingol...",
+      "job_done": "Waɗii",
+      "job_error": "Nattii",
+      "job_cancelled": "Woppitaama",
+      "cancel_job": "Woppu",
+      "no_stages": "Alaa dingiral ina woodi."
+    },
+    "export": {
+      "title": "Eksport ƴetta",
+      "description": "Hokkude fiilngo sakkitiingo ummoraade e mbaydi gollorndi.",
+      "variant_label": "Jaaynde",
+      "format_label": "Fotde",
+      "preset_label": "Yeeytu ko adii",
+      "range_label": "Dingiral",
+      "range_full": "Njuuteeki timmundi",
+      "range_custom": "Dingiral keeringal",
+      "start_label": "Fuɗɗoode (s)",
+      "end_label": "Joofnirde (s)",
+      "submit": "Eksport",
+      "progress": "Fiilde renndinde...",
+      "download_ready": "Fiilde ina hesɗi",
+      "download_button": "Sosde fiilde"
+    },
+    "notes": {
+      "placeholder": "Teskorɗe ɗe mbaydi ndi alaa ko yowitii e ndee eɓɓoore...",
+      "saved_at": "Hisnaama e {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Winndu ɗoo jimɗi ɗii. Huutoro palet gonɗo e bannge ngam naatnude meta-tags Suno.",
+      "saved_at": "Hisnaama e {{time}} ",
+      "saving": "Hisnude...",
+      "versions": "Jaayɗe",
+      "versions_empty": "Alaa mbaydiiji kisnaaɗi tawo.",
+      "version_preview": "Yiyngo",
+      "restore": "Wartir ndee mbaydi",
+      "restore_confirm_title": "Wartir ndee mbaydi?",
+      "restore_confirm_description": "Binndol jooni ngol lomtotoo ko mbaydi hisnaandi e {{date}} .",
+      "metatags_title": "Meta-taguuji",
+      "metatags_hint": "Ɓoɗɗu tagɗo ngam naatnude ɗum e jokkorgal ngal.",
+      "metatags_placebo_warning": "Ko selli — ina waawi tawa alaa ko battini e njeñtudi ndii.",
+      "metatags_empty": "Alaa meta-tag winnditaa."
+    },
+    "prompts": {
+      "style_title": "Jaawgol style",
+      "lyrics_title": "Konngol ngol ina yaawi",
+      "template_label": "Template",
+      "template_none": "Alaa mbaydi",
+      "variables_title": "Waylooji",
+      "preview_title": "Yiyngo",
+      "preview_empty": "Suɓo template e hebbinde waylooji ɗii ngam yiyde ƴeewndo.",
+      "char_count": " {{count}} alkule",
+      "char_count_warning": "Style prompts ko ɓuri 1000 alkule ina mbaawi taƴeede e Suno.",
+      "copy": "Koppir",
+      "copied": "Koppiraa e alluwal",
+      "save_to_project": "Hisnude e eɓɓoore",
+      "saved_to_project": "Prompt hisnaama e eɓɓoore",
+      "history_title": "Daartol",
+      "history_empty": "Alaa mbaydiiji ɓennuɗi.",
+      "current_label": "Jooni"
+    },
+    "stems": {
+      "title": "Koɗorɗe e gitaar",
+      "separate_button": "Seerndude daande e gitaar",
+      "running": "Seerndude...",
+      "vocals": "Koɗorɗe",
+      "instrumental": "Kuutorgal",
+      "process_stem": "Laɓɓin ndee stem",
+      "empty": "Oo take seerndaaka tawo. Doggo seertude ngam nande daande e gitaar e nder isolation.",
+      "capability_missing": "Seerndi iwdi ndii waɗaaka e ooɗoo serveer.",
+      "unavailable": "Seerndude daande/gitaar alaa tawo e ooɗoo serveer."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "On",
+    "boolean_off": "Off"
+  },
+  "import": {
+    "title": "Naatde",
+    "subtitle": "Addu eɓɓooji gonɗi e disko ɗii e nder defterdu nduu.",
+    "step_indicator": "Ɗatal {{current}} e {{total}} ",
+    "step1": {
+      "title": "Yiytu foldere",
+      "description": "Hollit foldere root ndee e eɓɓooje maa e laabi maa.",
+      "path_label": "Laawol foldere",
+      "path_placeholder": "e.g. E:\\Robbs\\Manngu\\Muusik\\ROBBS",
+      "recent_label": "Ko ɓooyaani",
+      "scan_button": "Skannde foldere",
+      "scanning": "Skannde...",
+      "ffmpeg_warning": "FFmpeg tawaaka — piille potɗe wayleede maa njuute.",
+      "folders_found_one": " {{count}} foldere ndee tawaama",
+      "folders_found_other": " {{count}} foldere tawaama",
+      "unmatched_files_one": " {{count}} fiilde nde anndaaka",
+      "unmatched_files_other": " {{count}} fiiluuji ɗi nganndaaka"
+    },
+    "step2": {
+      "title": "Yiylo geɗe",
+      "description": "Ƴeewto inɗe, ngonkaaji, e ko naatnetee hade maa tabitinde.",
+      "select_all": "Suɓo fof",
+      "table": {
+        "folder": "Dowla iwdi",
+        "name": "Innde eɓɓoore ndee",
+        "status": "Darnde",
+        "audio": "Odio",
+        "lyrics": "Konnguɗi",
+        "cover": "Koppi",
+        "album": "Albom"
+      },
+      "audio_include_one": " {{count}} fiilde suɓaande",
+      "audio_include_other": " {{count}} fiiluuji cuɓaaɗi",
+      "no_audio": "Alaa odio tawaa",
+      "no_lyrics": "Alaa konngol tawaa",
+      "no_cover": "Alaa koppi",
+      "warnings_title": "Jeertinaali"
+    },
+    "step3": {
+      "title": "Naatde",
+      "description": "Tabintin ngam ƴettude piille ɗee e sosde eɓɓooje ɗee.",
+      "copy_originals": "Koppir piille asliije e nder defterdu",
+      "execute_button": "Fuɗɗoo naatde",
+      "progress_title": "Naatgol...",
+      "created_count": "Tagaaɗo: {{count}} ",
+      "skipped_count": "Ko ƴaggi: {{count}} ",
+      "done_title": "Naatgol timmi",
+      "done_description": "Eɓɓooje les ɗee mbaɗaama e nder defterdu maa.",
+      "view_project": "Eɓɓoore udditiinde",
+      "start_over": "Naatgol kesol"
+    }
+  },
+  "templates": {
+    "title": "Templaaji",
+    "subtitle": "Templateeji e meta-tags kuutorteeɗi ngam Suno.",
+    "tabs": {
+      "prompts": "Templateeji jaawɗi",
+      "metatags": "Meta-taguuji"
+    },
+    "new_template": "Template keso",
+    "kind": {
+      "style": "Sifaa",
+      "lyrics": "Konnguɗi"
+    },
+    "kind_label": "Moƴƴere",
+    "delete_confirm_title": "Mumtu nate \" {{name}} \"?",
+    "delete_confirm_description": "Ɗuum waawaa ustaade.",
+    "empty": "Alaa nate tawo.",
+    "editor": {
+      "title_new": "Template keso",
+      "title_edit": "Waylu mbaydi",
+      "name_label": "Innde",
+      "name_placeholder": "e.g. Balad akustik",
+      "kind_label": "Moƴƴere",
+      "template_label": "Binndol mbaylaandi",
+      "template_hint": "Siftor ɗo kala waylo-waylo jeyaa e innde mum taƴnde e jokkorgal ɗiɗi — yeru, waylo-waylo wiyeteengo \"genre\" wonta genre taƴaaɗo e jokkorgal ɗiɗi udditirgal e jokkorgal ɗiɗi udditirgal.",
+      "variables_label": "Waylooji",
+      "variable_add": "Ɓeydu waylowaylo",
+      "variable_name": "Key",
+      "variable_label": "Leppi",
+      "variable_type": "Winndu",
+      "variable_type_string": "Binndol",
+      "variable_type_select": "Suɓo gooto",
+      "variable_type_multiselect": "Suɓo-keewngo",
+      "variable_type_number": "Limre",
+      "variable_type_boolean": "Eey/alaa",
+      "variable_options": "Cuɓe (ceertuɗe e komma)",
+      "variable_required": "Ina ɗaɓɓiree",
+      "save": "Hisnude nate"
+    },
+    "metatags": {
+      "title": "Meta-taguuji",
+      "subtitle": "Tags structurel e style Suno anndi nder jimɗi.",
+      "new_tag": "Tag keso",
+      "tag_label": "Tag",
+      "tag_placeholder": "e.g. gitaar-solo",
+      "category_label": "Kategori",
+      "tier_label": "Hoolaare",
+      "tier_legend_title": "Lefol koolkisagol",
+      "tier_legend": {
+        "1": "Tier 1 — binnditagol e jokkondire",
+        "2": "Tier 2 — ina heewi golle",
+        "3": "Tier 3 — batte waylowaylo",
+        "4": "Tier 4 — plasebo, mo sellaani"
+      },
+      "description_label": "Sifaa",
+      "delete_confirm_title": "Mumtu tagaaɗo \" {{tag}} \"?",
+      "empty": "Alaa meta-tag keeriiɗo tawo."
+    }
+  },
+  "settings": {
+    "title": "Dottaaɗe",
+    "subtitle": "Kabaaru sisteem, ɗemngal, e ɓuranɗe kuutorteeɗe.",
+    "system_info_title": "Siistem",
+    "version": "Jaaynde",
+    "data_dir": "Dowlaaji dokke",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Ina woodi",
+    "ffmpeg_missing": "Tawaaka",
+    "capabilities_title": "Baawɗe liggorteeɗe",
+    "capability": {
+      "denoise": "Ustugol noppi",
+      "quality": "Ɓeydagol kalite",
+      "separate": "Seerndude iwdi",
+      "ffmpeg": "Waylude FFmpeg"
+    },
+    "capability_available": "Ina woodi",
+    "capability_unavailable": "Heɓaaka",
+    "gpu_title": "Jaawgol GPU",
+    "gpu": {
+      "torch_cuda": "Pytorch CUDA",
+      "ort_providers": "ONNX Hokkuɓe waktuuji doggol"
+    },
+    "gpu_none": "Alaa rokkooɓe GPU njiytaa",
+    "language_title": "Ɗemngal",
+    "language": {
+      "pt-BR": "Portigaal (Beresiil)",
+      "en": "Engele"
+    },
+    "theme_title": "Mbaadi",
+    "theme": {
+      "dark": "Niwre",
+      "light": "Annoore"
+    },
+    "defaults_title": "Yeeyde defaare",
+    "lufs_target_label": "Taƴre LUFS",
+    "lufs_target_hint": "Huutortee ko no miijo fuɗɗorde nde eksport ƴettata. Defaare Suno ina jooɗii hedde -14 LUFS.",
+    "saved": "Cuɓagol hiisaama"
+  },
+  "guide": {
+    "title": "Suno njiylawu winnditaade",
+    "subtitle": "No nanngirtee daande e gitaar ƴetta ko heɓata ko ɓuri moƴƴude.",
+    "intro": "Suno ɓuri moƴƴude ko e tuugnorgal laaɓngal, ngal alaa ko firti. Ndee ɗoo deftere ina hollita peewnugol, toɓɓe paandaale, e binndol winnditaade minitaaji 3–5.",
+    "sections": {
+      "prep": {
+        "title": "Taƴre",
+        "body": "Winndito e nder suudu safrirdu walla suudu ndu geɗe softuɗe keewɗe (ridooji, tapiiji, comci e nder lowre). Mumtu fanniyankooɓe e kala ko ina humpa. Wartu daande maa fotde hojomaaji 5 hade maa winndude."
+      },
+      "levels": {
+        "title": "Toɓɓe : -12 haa -6 dBFS",
+        "body": "Faandaare mum ko toɓɓe hakkunde -12 e -6 dBFS e dow meeteer. Les oon nokku, ɓuuɓol caggal ina ɓeydoo teskeede ; dow maggal, riis taƴgol ina ɓeydoo. Huutoro meeteer gonɗo e hello Record ngam waɗde gain maa hade maa fuɗɗaade."
+      },
+      "distance": {
+        "title": "Woɗɗude mikroo : 15–30 cm",
+        "body": "Heddo 15 haa 30 cm e mikroo. Ko ɓuri ɓadaade ɗuum ina ɓeyda plosives e batte ɓadtaade ; ko ɓuri woɗɗude ina ƴetta ko ɓuri suudu reverb e noise."
+      },
+      "script": {
+        "title": "Binndol winnditaade",
+        "warmup": "Warngo daande (hojomaaji 1–2)",
+        "vowels": "Alkule duumotooɗe — a, e, i, o, u",
+        "scales": "Peeje koyɗe, dow e les",
+        "excerpt": "Ko jimol ngol ƴetti (8 haa 16 bar)",
+        "dynamics": "Dinamiik : fuɗɗoraade softunde, joofde e daande",
+        "spoken_phrase": "Konngol gootol haalaaɗo, mbele Suno ina waawa janngude tonngoode daande maa"
+      },
+      "expectations": {
+        "title": "Ko Suno ɗaminii",
+        "body": "WAV, 48 kHz, mono, yoorɗo (alaa ko woni e mum so wonaa mbaydi mbaylaandi walla batte), ko hojomaaji 3 haa 5 njiylawu. Ko ɓuri laaɓtude, ko ɓuri wakilaade ko hojomaaji 2 e ƴettugol ina heewi waɗde ko ɓuri moƴƴude."
+      }
+    }
+  },
+  "status": {
+    "idea": "Miijo",
+    "em_progresso": "E nder golle",
+    "quase": "Fotde ɗoon",
+    "pronto": "Heewi"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Binndol daande timmungol ngam Suno",
+      "desc": "Hojomaaji 5 njiylotooɗi : warngooji, alkule, njuuteendi, nate ɗiɗi jimɗi, dinamiik, e konngol haalaaɗo."
+    },
+    "step": {
+      "warmup": "Warngo daande",
+      "warmup_inst": "Loowtu e yawne, e ɓuuɓri leppi (brrr), e ɓuuɓri softundi fotde hojomaaji seeɗa. Alaa ko haani winndude — ko ngam ɓuuɓnude daande maa tan hade maa yimde.",
+      "vowels": "Alkule duumotooɗe",
+      "vowels_inst": "Joggo kala alkulal — a, e, i, o, u — fotde leƴƴanɗe 3 haa 4 e daande maa welnde, tawa aɗa jogii daande ɓuuɓnde. Ɗuum ina wallita Suno ƴettude timbre laaɓɗo daande maa.",
+      "scales": "Peeje dow e les",
+      "scales_inst": "Yimre njuuteendi koyndi dow e les, e dow \"la\" walla \"na\". Alaa e sago ɗum wona timmuɗo — faandaare ndee ko kartal daande maa.",
+      "section": "Jimol ngol — feccere 1",
+      "section_inst": "Yim 8 haa 16 bar e jimɗi ɗii, e anniya goonga mo njiɗɗaa yettinde. Ardin laaɓal e woodde dow timmal karallaagal.",
+      "section2": "Jimol ngol — feccere 2",
+      "section2_inst": "Yimde barmeeji goɗɗi 8 haa 16 — ko ɓuri moƴƴude ko koorɗo walla taƴre nde seerti e nde ɓennunde ndee. Feere ɓurnde heewde ina wallita model oo janngude daande maa.",
+      "dynamics": "Dinamiik: softuɗo → mawɗo",
+      "dynamics_inst": "Yim konngol gootol fuɗɗoraade softude no feewi haa joofna e daande toownde, tawa aɗa ɓuuɓna daande maa. Ɗuum hollirta ko Suno mbaydi daande maa.",
+      "spoken": "Konngol haalaaɗo",
+      "spoken_inst": "Haal — woto yim — konngol juutngol, nafngol, hono no yeewtidirtaa nii. Ɗuum ina wallita Suno anndude timbre daande maa tigi-rigi."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Wartirde",
+      "filter": "Fiiltirɗe",
+      "dynamics": "Dinamiik",
+      "separation": "Seerndude",
+      "quality": "Kalite",
+      "utility": "Nafoore",
+      "loudness": "Daande"
+    },
+    "highpass": "Filter toowɗo",
+    "lowpass": "Fiiltirde lowre",
+    "denoise": "Ustugol noppi",
+    "declip": "Ustugol",
+    "declick": "Ɓoɗɗu/pop ittugol",
+    "deesser": "De-esser",
+    "gate": "Damal noddaango",
+    "compressor": "Kompresor",
+    "limiter": "Keerol",
+    "eq": "Fotde",
+    "normalize": "Normalisaasiyoŋ ɓurɗo toowde",
+    "loudness": "Nokkuure mawnde (LUFS)",
+    "reverb_reduce": "Ustagol reverb",
+    "separate": "Seerndude iwdi",
+    "quality": "Ɓeydagol kalite (toowgol)",
+    "trim_silence": "Taƴde silsil",
+    "fade": "Fade e nder / fade yaltude",
+    "stereo_to_mono": "Waylude e mono",
+    "resample": "Restoraade"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Koolaaɗo",
+      "2": "Heewi gollude",
+      "3": "Waylotooɗo",
+      "4": "Plasebo"
+    },
+    "category": {
+      "structure": "Sifaa",
+      "vocal": "Daande",
+      "instrument": "Kuutorgal",
+      "dynamics": "Dinamiik",
+      "production": "Pewnugol",
+      "mood": "Moodi"
+    },
+    "verse": "Aaye",
+    "chorus": "Koorɗo",
+    "bridge": "Ponto",
+    "intro": "Naatgol",
+    "outro": "Yaasi",
+    "hook": "Hook",
+    "prechorus": "Ko adii korse",
+    "instrumental": "Kuutorgal",
+    "guitar_solo": "Solo gitaar",
+    "build_up": "Mahdi-dow",
+    "breakdown": "Feccere",
+    "spoken_word": "Konngol haalaaɗo",
+    "whispered": "Muusi",
+    "harmonies": "Harmoniiji",
+    "male_vocal": "Daande gorko",
+    "female_vocal": "Daande debbo",
+    "duet": "Duet",
+    "acoustic": "Akustik",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Daande laaɓnde",
+    "voice_guitar_balanced": "Daande & gitaar balans",
+    "podcast": "Podkast",
+    "suno_ready": "Suno taski",
+    "gentle_restore": "Wartirde no feewi",
+    "raw_passthrough": "Alaa ko gollotoo"
+  },
+  "errors": {
+    "unknown": "Won ko ŋakki.",
+    "network": "Waawaa yettaade serveer oo.",
+    "validation_error": "Ƴeewto kabaruuji ɗi naatnu-ɗaa ɗii.",
+    "not_found": "Huunde ndee tawaaka.",
+    "project_not_found": "Eɓɓoore ndee tawaaka.",
+    "take_not_found": "Ƴettu tawaaka.",
+    "album_not_found": "Albom oo heɓaaka.",
+    "preset_not_found": "Preset yiytaaka.",
+    "template_not_found": "Template yiytaaka.",
+    "device_busy": "Kaɓirgal audio ina huutoree e porogaraam goɗɗo.",
+    "device_not_found": "Kaɓirgal heɗorde tawaaka.",
+    "already_recording": "Winndannde ina jokki tawo.",
+    "ffmpeg_missing": "FFmpeg udditaaka — udditaa ɗum ngam waylude ndee fiilde.",
+    "disk_full": "Nokku disko oo heewaani.",
+    "permission_denied": "Jaɓde saliima ngam laawol dokkaangol ngol.",
+    "import_path_not_found": "Laawol naatgol ngol tawaaka.",
+    "job_failed": "Golle ɗee ndartaaki.",
+    "job_cancelled": "Processing oo dartinaama.",
+    "process_failed": "Faaɗaama ƴellitde ƴettugol ngol.",
+    "export_failed": "Waawaa yaltinde fiilde ndee.",
+    "record_failed": "Waawaa fuɗɗaade winndude."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Laabi",
+      "running": "Doggol",
+      "done": "Waɗii",
+      "error": "Nattii",
+      "cancelled": "Woppitaama"
+    },
+    "kind": {
+      "process": "Laɓɓingol",
+      "export": "Eksport",
+      "import": "Naatde",
+      "record": "Winnditaade"
+    }
+  }
+}

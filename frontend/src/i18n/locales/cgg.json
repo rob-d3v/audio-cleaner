@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Okwozya Amakuru"
+  },
+  "nav": {
+    "library": "Eibiikiro ry'ebitabo",
+    "record": "Rekodi",
+    "import": "Okureeta omu ihanga",
+    "templates": "Eby'okureeberaho",
+    "settings": "Okutebekanisa",
+    "guide": "Omuhabuzi"
+  },
+  "common": {
+    "save": "Biika",
+    "saving": "Okubiika...",
+    "saved": "Ebibiikire",
+    "cancel": "Sazamu",
+    "close": "Kwinga",
+    "delete": "Ihazamu",
+    "edit": "Tebeekanisa",
+    "create": "Taho",
+    "search": "Ronda",
+    "loading": "Okutaho...",
+    "error": "Enshobi",
+    "retry": "Garuka ogyezeho",
+    "confirm": "Hamya",
+    "back": "Okugaruka enyima",
+    "next": "Ekindi",
+    "continue": "Gumizamu",
+    "finish": "Manya",
+    "copy": "Kopa",
+    "copied": "Kikopiirwe",
+    "download": "Taho",
+    "upload": "Taho",
+    "none": "Tihariho",
+    "all": "Byona",
+    "yes": "Eego",
+    "no": "Ngaaha",
+    "select": "Toorana",
+    "optional": "eky'okutooranamu",
+    "required": "nikyetengyesa",
+    "unsaved_changes": "Empindahinduka ezitakabiikire",
+    "name": "Eiziina",
+    "status": "Embeera",
+    "type": "Ekika",
+    "actions": "Ebikorwa",
+    "empty": "Busha",
+    "browse": "Reeba",
+    "remove": "Yihaho",
+    "add": "Yongyeraho",
+    "rename": "Hindura eiziina",
+    "duplicate": "Okugarukamu",
+    "warning": "Okurabura",
+    "locked": "Kikingirwe",
+    "builtin": "Ebyombekirwemu",
+    "custom": "Omugyenzo",
+    "untitled": "Tihariho mutwe",
+    "select_placeholder": "Toorana..."
+  },
+  "library": {
+    "title": "Eibiikiro ry'ebitabo",
+    "subtitle": "Eiraka ryawe na purojekiti za gitaara, kuruga aha kiteekateeko kuhika aha kushohora.",
+    "new_project": "Purojekiti ensya",
+    "new_album": "Alubamu ensya",
+    "search_placeholder": "Ronda orikukoresa eiziina...",
+    "view": {
+      "grid": "Orunyiriri",
+      "albums": "Alubumu"
+    },
+    "filters": {
+      "all": "Byona"
+    },
+    "take_count_one": " {{count}} twara",
+    "take_count_other": " {{count}} nikitwara",
+    "updated_at": "Ebihindwirwemu {{date}} ",
+    "no_results": {
+      "title": "Tihariho purojekiti eyashangirwe",
+      "description": "Gyezaho kuhindura okusherura nari okushwijuma embeera."
+    },
+    "empty": {
+      "title": "Eibiikiro ryawe ry'ebitabo riri busha",
+      "description": "Tandika purojekiti ensya kuruga aha ntandikwa, nari kureeta ebintu ebi oine aha disiki.",
+      "cta_import": "Reeta kuruga omu folda",
+      "cta_new": "Taho purojekiti"
+    },
+    "project_dialog": {
+      "title": "Purojekiti ensya",
+      "description": "Gihe eiziina kandi otoore omuringo gw’okugikwata.",
+      "name_label": "Eiziina rya purojekiti",
+      "name_placeholder": "e.g. Enjura y'omushana",
+      "mode_label": "Omuringo",
+      "mode": {
+        "voice": "Eiraka ryonka",
+        "voice_guitar": "Eiraka + gitaara"
+      },
+      "submit": "Taho purojekiti"
+    },
+    "album_dialog": {
+      "title": "Alubamu ensya",
+      "description": "Purojekiti eziine akakwate na guruupu omu alubamu.",
+      "name_label": "Eiziina rya alubamu",
+      "name_placeholder": "e.g. EP y'omushana",
+      "submit": "Taho alubamu"
+    },
+    "album": {
+      "untitled": "Alubumu etaine mutwe",
+      "members_count_one": " {{count}} purojekiti",
+      "members_count_other": " {{count}} purojekiti",
+      "empty": "Tihariho purojekiti omu alubamu egi hati.",
+      "delete_confirm_title": "Ihazaho alubamu?",
+      "delete_confirm_description": "Purojekiti tizirikwija kusazibwamu, niziija kuruga ahari \" {{name}} \" zonka."
+    },
+    "delete_project": {
+      "confirm_title": "Ihaho \" {{name}} \"?",
+      "confirm_description": "Eki nikiihaho purojekiti na buri kugitwara. Eki tikirikubaasa kugarurwa enyima."
+    }
+  },
+  "record": {
+    "title": "Rekodi",
+    "subtitle": "Kwata ekishushani ekishemeire, reeba emitendekyere yaawe, kandi okuratire ekihandiiko.",
+    "project_label": "Purojekiti",
+    "project_placeholder": "Toorana purojekiti",
+    "project_create_quick": "Taho purojekiti ya juba...",
+    "device_label": "Ekikwato ky'okutaho",
+    "device_placeholder": "Toorana ekikwato",
+    "device_default_badge": "Enkora y'okubanza",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Tihariho ebyoma by'okutaho ebyashangirwe.",
+    "monitor_button": "Reeba",
+    "monitor_stop_button": "Reka okureeberera",
+    "record_button": "Rekodi",
+    "stop_button": "Yemerera",
+    "elapsed_label": "Obwire obuhingwireho",
+    "status": {
+      "idle": "Obutakora",
+      "monitoring": "Okureeberera",
+      "recording": "Okuhandiika",
+      "stopped": "Kyemerezibwa"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Enshonga",
+      "clip": "Ekicweka"
+    },
+    "guide": {
+      "title": "Ekicweka ekirikwebemberwa",
+      "subtitle": "Reka omutendeki akutambuze omu script eitembezo aha itembezo, kuruga aha kuhuumuriza kuhika aha bigambo ebigambirwe.",
+      "loading": "Okutaho ekihandiiko...",
+      "unavailable": "Ekicweka ekirikuhaburwa tikiriho aha saava hati.",
+      "select_project_device": "Toorana purojekiti n‘ekikwato ky‘okutaho kuhandiika amatembezo kuruga hanu.",
+      "progress": " {{done}} ahari {{total}} amatembezo",
+      "start_timer": "Tandikaho obwire",
+      "skip_timer": "Reka obwire",
+      "record_step": "Handika eidara eri",
+      "stop_step": "Reka kuhandiika",
+      "mark_done": "Kikozirwe — eitembezo erikukurataho",
+      "step_recorded": "Twara ebihandiikirwe",
+      "no_record_step": "Eidaara ry’okuhuumuriza — tihariho kuhandiika okurikwetengyesa.",
+      "bars_hint": "Ebikwatiraine na {{bars}} emibaare",
+      "complete_title": "Ekihandiiko kihikire!",
+      "complete_body": "Okahandiika buri ntambwe y’ekihandiiko. Garuka aha Audio tab ya purojekiti kandi otooreho ebishushani ebi orikukunda.",
+      "restart": "Garuka otandikye ekihandiiko"
+    },
+    "best2min": {
+      "button": "Ronda edakiika 2 ezirikukirayo oburungi (Suno)",
+      "running": "Okushwijuma okutwara...",
+      "score_label": "Obubonero",
+      "hint": "Nikikora okushwijuma kw‘amaani n‘okushoboorora aha kutwara kwona kutunga edirisa yaakyo ey‘amaani ey‘edakiika 2 — noobaasa kuhindura orurengo n‘emikono bwanyima.",
+      "chart_caption": "Obubonero ahari buri dirisa",
+      "unavailable": "Okushwijuma okurungi-okw'edakiika 2 tikuriho aha saava egi hati."
+    },
+    "takes_title": "Ebirugire omukicweka eki",
+    "takes_empty": "Tihariho takes ezihandiikirwe omu kicweka eki hati.",
+    "open_in_project": "Igura omu purojekiti",
+    "ws_disconnected": "Okugaruka kukwatiraine na mita y'omutindo...",
+    "select_project_first": "Toorana purojekiti y’okutandika.",
+    "select_device_first": "Toorana ekikwato ky’okutaho."
+  },
+  "project": {
+    "back_to_library": "Garuka omu ibiikiro ry'ebitabo",
+    "header": {
+      "status_label": "Embeera",
+      "cover_upload": "Taho ekifundikizo",
+      "cover_remove": "Yihaho ekifundikizo",
+      "name_placeholder": "Eiziina rya purojekiti",
+      "links_title": "Enkwatanisa",
+      "add_link": "Yongyeraho akakwate",
+      "mode": {
+        "voice": "Eiraka ryonka",
+        "voice_guitar": "Eiraka + gitaara"
+      }
+    },
+    "tabs": {
+      "audio": "Amakuru",
+      "lyrics": "Ebigambo",
+      "prompts": "Ebirikuhabura",
+      "notes": "Ebihandiiko"
+    },
+    "audio": {
+      "takes_title": "Nikitwara",
+      "no_takes": {
+        "title": "Tihariho okutwara hati",
+        "description": "Record take ensya nari kureeta fairo eriho."
+      },
+      "record_new": "Handika okutwara okusya",
+      "rating": "Okupima",
+      "variant": {
+        "raw": "Mbisi",
+        "processed": "Kikozirwe"
+      },
+      "variant_placeholder": "Ekicweka",
+      "process_button": "Enkora",
+      "export_button": "Okwohereza aheeru",
+      "delete_take_confirm_title": "Ihaho okutwara oku?",
+      "delete_take_confirm_description": "Amakuru agatari ga buriijo na buri nkora ekozirwe nibiija kwihwaho.",
+      "ab": {
+        "raw": "A · Bibisi",
+        "processed": "B · Ekozirwe"
+      },
+      "origin": {
+        "recorded": "Kihandiikirwe",
+        "imported": "Ebireetsirwe aheeru"
+      },
+      "session_label_placeholder": "Ekihandiiko ky'oruteerane (eky'okutooranamu)",
+      "duration": "Obwire",
+      "sample_rate": "Omuhendo gw'eky'okureeberaho",
+      "channels": "Emikutu",
+      "created_at": "Kihandiikirwe"
+    },
+    "pipeline": {
+      "title": "Okukora orujegyere",
+      "preset_label": "Okutebeekanisa",
+      "preset_none": "Orujegyere rw'omutaano",
+      "preset_save": "Biika nk'okutebeekanisiibwe",
+      "stage_locked": "Kikingirwe",
+      "stage_requires_extra": "Nikyetaaga eky'okwongyeraho ekitateirwemu",
+      "process_button": "Enkora neetwara",
+      "processing": "Okukora...",
+      "job_queued": "Omurongooti...",
+      "job_running": "Okukora...",
+      "job_done": "Kikozirwe",
+      "job_error": "Kiremirwe",
+      "job_cancelled": "Esaziibwemu",
+      "cancel_job": "Sazamu",
+      "no_stages": "Tihariho madaara agariho."
+    },
+    "export": {
+      "title": "Okutwara aheeru",
+      "description": "Reka fairo y’aha muheru kuruga omu nkora ekozirwe.",
+      "variant_label": "Ekicweka",
+      "format_label": "Enkora",
+      "preset_label": "Okwohereza aheeru ebitebeekanisiibwe",
+      "range_label": "Orubaju",
+      "range_full": "Oburaingwa bwona",
+      "range_custom": "Omubaro gw'abantu",
+      "start_label": "Tandika (ebi)",
+      "end_label": "Enkomerero",
+      "submit": "Okwohereza aheeru",
+      "progress": "Okuhindura fairo...",
+      "download_ready": "Fayiro eyeteekateekire",
+      "download_button": "Taho fairo"
+    },
+    "notes": {
+      "placeholder": "Ebihandiiko bya busha aha purojekiti egi...",
+      "saved_at": "Ebibiikire ahari {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Handika ebigambo aha. Koresa paleti eri aha rubaju kutaho ebihandiiko bya Suno.",
+      "saved_at": "Ebibiikire ahari {{time}} ",
+      "saving": "Okubiika...",
+      "versions": "Ebihandiiko",
+      "versions_empty": "Tihariho bihandiiko ebibiikire hati.",
+      "version_preview": "Okubanza",
+      "restore": "Garuraho omuringo ogu",
+      "restore_confirm_title": "Garuraho omuringo ogu?",
+      "restore_confirm_description": "Ebihandiiko ebiriho hati nibiija kuhindurwa n'ebihandiiko ebibiikire ahari {{date}} .",
+      "metatags_title": "Meta-tags",
+      "metatags_hint": "Nyiga akabonero kukita aha rubaju.",
+      "metatags_placebo_warning": "Tihamibwe — nikibaasa kutagira eki kyakora aha byarugamu.",
+      "metatags_empty": "Tihariho meta-tags ezihandiikirwe."
+    },
+    "prompts": {
+      "style_title": "Omuringo gw'okurahuka",
+      "lyrics_title": "Ebigambo birarahuka",
+      "template_label": "Eky'okureeberaho",
+      "template_none": "Tihariho template",
+      "variables_title": "Ebirikuhinduka",
+      "preview_title": "Okubanza",
+      "preview_empty": "Toorana ekishushani kandi oijuze ebirikuhinduka kureeba oku kirikworekwa.",
+      "char_count": " {{count}} enyuguta",
+      "char_count_warning": "Enyuguta ezirikurenga 1000 nizibaasa kusharaho Suno.",
+      "copy": "Kopa",
+      "copied": "Bikopiirwe aha rubaaho",
+      "save_to_project": "Biika omu purojekiti",
+      "saved_to_project": "Okurahuka okubiikwa omu purojekiti",
+      "history_title": "Ebyafaayo",
+      "history_empty": "Tihariho bihandiiko ebyabandize.",
+      "current_label": "Obwahati"
+    },
+    "stems": {
+      "title": "Amaraka hamwe na gitaara",
+      "separate_button": "Amaraka g'omutaano hamwe na gitaara",
+      "running": "Okwahukana...",
+      "vocals": "Amaraka",
+      "instrumental": "Ebikwato",
+      "process_stem": "Kora omuti ogu",
+      "empty": "Eki take tikikataanisiibwe. Run separation kuhurira amaraka na gitaara omu kwetaanisa.",
+      "capability_missing": "Okwahukana kw'entandikwa tikuteirwe aha saava egi.",
+      "unavailable": "Okwahukana kw'eiraka/endongo tikuriho aha server egi hati."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Aha",
+    "boolean_off": "Okwihaho"
+  },
+  "import": {
+    "title": "Okureeta omu ihanga",
+    "subtitle": "Reeta purojekiti ezibaireho aha disiki omu ibiikiro ry’ebitabo.",
+    "step_indicator": "Eidaara {{current}} ahari {{total}} ",
+    "step1": {
+      "title": "Ronda folda",
+      "description": "Yoreka folda y’omuzi erimu purojekiti zaawe n’ebicweka byawe.",
+      "path_label": "Omuhanda gwa folda",
+      "path_placeholder": "e.g. E:\\Robbs\\Okwehimbisa\\Ebyeshongoro\\ROBBS",
+      "recent_label": "Ebihererukireyo",
+      "scan_button": "Sikaana folda",
+      "scanning": "Okusiika...",
+      "ffmpeg_warning": "FFmpeg teshangirwe — fairo ezirikwetenga kuhindurwa niziija kujugunywa.",
+      "folders_found_one": " {{count}} folda eshangirwe",
+      "folders_found_other": " {{count}} ebitabo byashangwa",
+      "unmatched_files_one": " {{count}} fairo etarikumanywa",
+      "unmatched_files_other": " {{count}} fairo ezitarikumanywa"
+    },
+    "step2": {
+      "title": "Reeba ebintu",
+      "description": "Reeba amaziina, embeera, n'ebirikwija kureeta otakahamire.",
+      "select_all": "Toorana byona",
+      "table": {
+        "folder": "Oburugo bwa folda",
+        "name": "Eiziina rya purojekiti",
+        "status": "Embeera",
+        "audio": "Amakuru",
+        "lyrics": "Ebigambo",
+        "cover": "Ekifundikizo",
+        "album": "Alubamu"
+      },
+      "audio_include_one": " {{count}} fairo etoorainwe",
+      "audio_include_other": " {{count}} fairo ezitoorainwe",
+      "no_audio": "Tihariho amakuru agashangirwe",
+      "no_lyrics": "Tihariho bigambo byashangwa",
+      "no_cover": "Tihariho kifundikizo",
+      "warnings_title": "Okurabura"
+    },
+    "step3": {
+      "title": "Okureeta omu ihanga",
+      "description": "Hamya kukopa fairo kandi okore purojekiti.",
+      "copy_originals": "Kopa fairo z'onyini omu ibiikiro ry'ebitabo",
+      "execute_button": "Tandika okureeta omu ihanga",
+      "progress_title": "Okureeta omu ihanga...",
+      "created_count": "Ekihangirwe: {{count}} ",
+      "skipped_count": "Okuguruka: {{count}} ",
+      "done_title": "Okureeta omu ihanga kuhweire",
+      "done_description": "Purojekiti ezi ahaifo zikakorwa omu ibiikiro ryawe ry’ebitabo.",
+      "view_project": "Igura purojekiti",
+      "start_over": "Okureeta omu ihanga okusya"
+    }
+  },
+  "templates": {
+    "title": "Eby'okureeberaho",
+    "subtitle": "Ebishushani by’okugaruka kukoresa n’ebihandiiko bya meta-tags ebya Suno.",
+    "tabs": {
+      "prompts": "Ebishushani by'okurahuka",
+      "metatags": "Meta-tags"
+    },
+    "new_template": "Enkora ensya",
+    "kind": {
+      "style": "Omuringo",
+      "lyrics": "Ebigambo"
+    },
+    "kind_label": "Embabazi",
+    "delete_confirm_title": "Ihaho ekishushani \" {{name}} \"?",
+    "delete_confirm_description": "Eki tikirikubaasa kugarurwa enyima.",
+    "empty": "Tihariho bishushani ebiriho.",
+    "editor": {
+      "title_new": "Enkora ensya",
+      "title_edit": "Ehindura template",
+      "name_label": "Eiziina",
+      "name_placeholder": "e.g. Ekyeshongoro ky'amakuru",
+      "kind_label": "Embabazi",
+      "template_label": "Ekihandiiko ky'eky'okureeberaho",
+      "template_hint": "Taho akamanyiso ahu buri kihinduzi kiri n'eiziina ryakyo rizingirwe omu bubonero bubiri oburikwera — eky'okureeberaho, ekihinduzi ekiine eiziina \"omuringo\" nikihinduka ekika ekizingirwe omu bubonero bubiri oburikutandika n'obubiri oburikukingaho.",
+      "variables_label": "Ebirikuhinduka",
+      "variable_add": "Yongyera ebirikuhinduka",
+      "variable_name": "Ekishumuruzo",
+      "variable_label": "Akabonero",
+      "variable_type": "Ekika",
+      "variable_type_string": "Ekihandiiko",
+      "variable_type_select": "Toorana kimwe",
+      "variable_type_multiselect": "Toorana bingi",
+      "variable_type_number": "Enamba",
+      "variable_type_boolean": "Eego/ngaaha",
+      "variable_options": "Ebyokutooranamu (ebitaanisiibweho akabonero)",
+      "variable_required": "Nikyetengyesa",
+      "save": "Biika eky'okureeberaho"
+    },
+    "metatags": {
+      "title": "Meta-tags",
+      "subtitle": "Eby’obuhangwa n’eby’omuringo Suno naamanya ebigambo by’omunda.",
+      "new_tag": "Tagi ensya",
+      "tag_label": "Tag",
+      "tag_placeholder": "e.g. gitaara-yonka",
+      "category_label": "Ekicweka",
+      "tier_label": "Okwesigwa",
+      "tier_legend_title": "Okwesigwa",
+      "tier_legend": {
+        "1": "Omuringo 1 — oguhandiikirwe kandi ogutarikuhinduka",
+        "2": "Tier 2 — obwire obwingi neekora .",
+        "3": "Omuringo 3 — ebirikurugamu ebirikuhinduka",
+        "4": "Omutindo gwa 4 — omubazi gw‘okukyebera, ogutarikuhamibwa"
+      },
+      "description_label": "Okushoboorora",
+      "delete_confirm_title": "Ihaho akabonero \" {{tag}} \"?",
+      "empty": "Tihariho meta-tags z'omugyenzo hati."
+    }
+  },
+  "settings": {
+    "title": "Okutebekanisa",
+    "subtitle": "Amakuru g’enkora, orurimi, n’ebi orikwenda.",
+    "system_info_title": "Enkora",
+    "version": "Ekicweka",
+    "data_dir": "Ekibokisi ky'amakuru",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Kiriho",
+    "ffmpeg_missing": "Tihariho",
+    "capabilities_title": "Obushoboorozi obuteirweho",
+    "capability": {
+      "denoise": "Okukyendeeza aha kugamba",
+      "quality": "Okwongyera aha mutindo",
+      "separate": "Okwahukana kw'entandikwa",
+      "ffmpeg": "FFmpeg okuhindura"
+    },
+    "capability_available": "Kiriho",
+    "capability_unavailable": "Tikiriho",
+    "gpu_title": "Okwiruka kwa GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Abarikuha obwire bw'okukora"
+    },
+    "gpu_none": "Tihariho abaheereza ba GPU abashangirwe",
+    "language_title": "Orurimi",
+    "language": {
+      "pt-BR": "Abapooriisi (Burazili)",
+      "en": "Orungyereza"
+    },
+    "theme_title": "Endebeka",
+    "theme": {
+      "dark": "Omwirima",
+      "light": "Omushana"
+    },
+    "defaults_title": "Okwohereza aheeru",
+    "lufs_target_label": "Ekigyendererwa LUFS",
+    "lufs_target_hint": "Ekozesiibwe nk’ekiteekateeko ky’okutandikiraho baaba nibashohoza ebintu aheeru y’ihanga. Suno erikubanza kushutama aha -14 LUFS.",
+    "saved": "Ebi orikukunda byabiikwa"
+  },
+  "guide": {
+    "title": "Omuhabuzi w'okuteera akatambi ka Suno",
+    "subtitle": "Oku orikubaasa kukwata eiraka n’okuteera gitaara ebirikutwara ebirungi.",
+    "intro": "Suno neekora gye n’ebihandiiko ebishemeire kandi ebitarikubanganisa. Endagiiriro egi neekwata aha kutebeekanisa, emiringo y‘okugyenderaho, n‘ekihandiiko ky‘okuhandiika eky‘edakiika 3–5.",
+    "sections": {
+      "prep": {
+        "title": "Okutebeekanisa",
+        "body": "Rekodi omu kishengye ekijanjabirwe nari ekirimu ebintu bingi ebigumire (emikingo, ebitanda, emyenda omu kabada). Zima abakunzi n'ekintu kyona ekirikuhurira. Okwotsya eiraka ryawe kumara edakiika 5 otakakwatsire."
+      },
+      "levels": {
+        "title": "Emiringo: -12 kuhika -6 dBFS",
+        "body": "Ekigyendererwa ky‘okutunga enshonga eziri ahagati ya -12 na -6 dBFS aha mita. Ahansi y’omubaro ogwo, oruyombo oruri enyima nirukira kweyoreka; ahaiguru yaayo, akabi k‘okusharaho nikeeyongyera. Kozesa mita eri aha rupapura rwa Record kutebeekanisa omugasho gwawe otakatandikire."
+      },
+      "distance": {
+        "title": "Oburaingwa bwa Mic: cm 15–30",
+        "body": "Guma sentimita 15 kuhika 30 kuruga aha maikorofooni. Okukiraho haihi n’ekyo nikirenga aha plosives n’ekirikurugamu okuri haihi; okuruga hare nikutwara okuhurira kw’ekishengye n’okuteera orwaari kwingi."
+      },
+      "script": {
+        "title": "Okuhandiika ekihandiiko",
+        "warmup": "Okuhuumuriza kw‘eiraka (edakiika 1–2)",
+        "vowels": "Enyuguta ezigumire — a, e, i, o, u .",
+        "scales": "Eminzaani eyorobi, ahaiguru n'ahansi",
+        "excerpt": "Ekicweka ky’ekyeshongoro (ebicweka 8 kuhika ahari 16)",
+        "dynamics": "Entunguuka: tandika mpora, hendera omu iraka rihango",
+        "spoken_phrase": "Ekigambo kimwe ekigambirwe, kugira ngu Suno abaase kushoma eiraka ryawe"
+      },
+      "expectations": {
+        "title": "Eki Suno arikuteekateeka",
+        "body": "WAV, 48 kHz, mono, eyomire (tihariho kugarukamu nari ebirugiremu), edakiika 3 kuhika ahari 5 z‘okureeberaho. Eddakiika 2 z‘okutwara ezirikukirayo obuyonjo, ezirikukirayo kujwekyera nizikira kurugamu ebirungi."
+      }
+    }
+  },
+  "status": {
+    "idea": "Ekiteekateeko",
+    "em_progresso": "Omu nkora",
+    "quase": "Haihi n'aho",
+    "pronto": "Oyeteekateekire"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Ekihandiiko ky'eiraka kyona ekya Suno",
+      "desc": "Eddakiika 5 ezirikwebemberwa: okuhuumura, enyuguta, eminzaani, ebicweka bibiri by‘ebyeshongoro, entunguuka, n‘ekigambo ekigambirwe."
+    },
+    "step": {
+      "warmup": "Okwotsya eiraka",
+      "warmup_inst": "Rekura n’okushekyerera, okuteera eminwa (brrr), n’okushekyerera okugumire kumara nk’edakiika. Tikirikwetengyesa kuhandiika — n’okuhuumuza omumiro gwawe otakatandikire kweshongora.",
+      "vowels": "Enyuguta ezigumire",
+      "vowels_inst": "Kwata buri nyuguta — a, e, i, o, u — kumara sekondi 3 kuhika ahari 4 aha iraka ryawe eririkushemeza, n’eiraka eririkugumaho. Eki nikihwera Suno kutwara timbre eshemeire ey’eiraka ryawe.",
+      "scales": "Eminzaani ahaiguru n'ahansi",
+      "scales_inst": "Yeshongore ekipimo kyorobi ahaiguru reero ahansi, ahari \"la\" nari \"na\". Tikirikwetengyesa kuba kihikire — ekigyendererwa n’okukora maapu y’eiraka ryawe.",
+      "section": "Ekicweka ky’ekyeshongoro — ekicweka 1",
+      "section_inst": "Yeshongore emirongooti 8 kuhika ahari 16 ey’ekyeshongoro, oine ekigyendererwa ky’amazima eki orikwenda kworeka. Yebembeze okushoborokyerwa gye n’okubaho okukira okuhikiirira kw’eby’obuheereza.",
+      "section2": "Ekicweka ky’ekyeshongoro — ekicweka 2",
+      "section2_inst": "Yeshongore ebindi 8 kuhika ahari 16 — nikirungi oyeshongore chorus nari ekicweka ekirikutaanisa n’ekyabandize. Okuhindura ebintu bingi nikihwera omureeberezi kwega eiraka ryawe.",
+      "dynamics": "Entunguuka: eyorobi → eiraka rihango",
+      "dynamics_inst": "Yeshongore ekigambo nikyo kimwe orikutandikira omu muringo gw’obucureezi munonga kandi ohendera n’eiraka rihango, otarikuteganisa omumiro. Eki nikyoreka Suno eiraka ryawe eririkuhinduka.",
+      "spoken": "Ekigambo ekigambirwe",
+      "spoken_inst": "Gamba — otayeshongora — ekigambo kigufu, eky’obuhangwa, nk’oku orikugaaniira. Eki nikihwera Suno kumanya timbre y’eiraka ryawe eyaabuzima."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Okugarurwaho",
+      "filter": "Ebicencura",
+      "dynamics": "Empindahinduka",
+      "separation": "Okwahukana",
+      "quality": "Omutindo",
+      "utility": "Eby'omugasho",
+      "loudness": "Eiraka rihango"
+    },
+    "highpass": "Okucencura okuraba ahaiguru",
+    "lowpass": "Okucencura okuraba ahansi",
+    "denoise": "Okukyendeeza aha kugamba",
+    "declip": "Okusharaho",
+    "declick": "Nyiga/okwihaho pop",
+    "deesser": "Okwihaho",
+    "gate": "Eirembo ry'oruyombo",
+    "compressor": "Kompyuta",
+    "limiter": "Ekigarukwamu",
+    "eq": "Okwinganisa",
+    "normalize": "Okugaruka omu buteeka",
+    "loudness": "Okugaruzaho eiraka (LUFS)",
+    "reverb_reduce": "Okukyendeeza aha kugarukamu",
+    "separate": "Okwahukana kw'entandikwa",
+    "quality": "Okwongyera aha mutindo (ahaiguru)",
+    "trim_silence": "Okusharaho okusirika",
+    "fade": "Kuzira omu / kuzira aheeru",
+    "stereo_to_mono": "Hindura omu mono",
+    "resample": "Okugaruka kutoorana"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Okwesigwa",
+      "2": "Obwire obwingi nikikora",
+      "3": "Ekirikuhinduka",
+      "4": "Omubazi gw'okukyebera"
+    },
+    "category": {
+      "structure": "Enkora",
+      "vocal": "Eiraka",
+      "instrument": "Ekikwato",
+      "dynamics": "Empindahinduka",
+      "production": "Okukora",
+      "mood": "Omutima"
+    },
+    "verse": "Orunyiriri",
+    "chorus": "Chorus",
+    "bridge": "Orutindo",
+    "intro": "Enyanjura",
+    "outro": "Outro",
+    "hook": "Hook",
+    "prechorus": "Okubanza kweshongora",
+    "instrumental": "Ebikwato",
+    "guitar_solo": "Gitaara yonka",
+    "build_up": "Okwombeka",
+    "breakdown": "Okuhendagura",
+    "spoken_word": "Ekigambo ekigambirwe",
+    "whispered": "Okuhwehura",
+    "harmonies": "Okuhikaana",
+    "male_vocal": "Eiraka ry'omushaija",
+    "female_vocal": "Eiraka ry'omukazi",
+    "duet": "Duet",
+    "acoustic": "Amakuru",
+    "ad_lib": "Oburango"
+  },
+  "presets": {
+    "clean_voice": "Eiraka riboneire",
+    "voice_guitar_balanced": "Eiraka hamwe n'ekidongo",
+    "podcast": "Podkaasi",
+    "suno_ready": "Suno eyeteekateekire",
+    "gentle_restore": "Okugaruzaho mpora",
+    "raw_passthrough": "Tihariho kukora"
+  },
+  "errors": {
+    "unknown": "Hariho ekyashobya.",
+    "network": "Tikirikubaasa kuhika aha saava.",
+    "validation_error": "Reeba amakuru agu otairemu.",
+    "not_found": "Ekintu tikishangirwe.",
+    "project_not_found": "Purojekiti teshangirwe.",
+    "take_not_found": "Okutwara tikushangirwe.",
+    "album_not_found": "Alubumu teshangirwe.",
+    "preset_not_found": "Preset teshangirwe.",
+    "template_not_found": "Ekishushani tikishangirwe.",
+    "device_busy": "Ekikwato ky’okuhurikiza nikikoresibwa puroguraamu endiijo.",
+    "device_not_found": "Ekikwato ky'okuhurikiza tikishangirwe.",
+    "already_recording": "Okuteera akatambi kwaba kuriyo nikugyenda omu maisho.",
+    "ffmpeg_missing": "FFmpeg terikuteebwamu — giteho kuhindura fairo egi.",
+    "disk_full": "Tihariho mwanya ogurikumara aha disiki.",
+    "permission_denied": "Orusa rwayangirwe ahabw’omuhanda oguhairwe.",
+    "import_path_not_found": "Omuhanda gw'okureeta omu ihanga tigushangirwe.",
+    "job_failed": "Okukora kuremwa.",
+    "job_cancelled": "Okukora aha bintu ebyo kukashazibwamu.",
+    "process_failed": "Aremirwe kukora aha kutwara.",
+    "export_failed": "Kiremirwe kushohoza fairo.",
+    "record_failed": "Kiremirwe kutandika kuhandiika."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Omurongooti",
+      "running": "Okwiruka",
+      "done": "Kikozirwe",
+      "error": "Kiremirwe",
+      "cancelled": "Esaziibwemu"
+    },
+    "kind": {
+      "process": "Okukora",
+      "export": "Okwohereza aheeru",
+      "import": "Okureeta omu ihanga",
+      "record": "Okuhandiika"
+    }
+  }
+}

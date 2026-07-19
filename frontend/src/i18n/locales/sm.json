@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Fa'amama leo"
+  },
+  "nav": {
+    "library": "Faletusi",
+    "record": "Faamaumauga",
+    "import": "Fa'aulufale mai",
+    "templates": "Fa'ata'ita'iga",
+    "settings": "Fa'atonu",
+    "guide": "Taiala"
+  },
+  "common": {
+    "save": "Faasaoina",
+    "saving": "Sefe…",
+    "saved": "Faasaoina",
+    "cancel": "Fa'aleaogaina",
+    "close": "Tapuni",
+    "delete": "Aveese",
+    "edit": "Fa'atonu",
+    "create": "Fausia",
+    "search": "Saili",
+    "loading": "utaina...",
+    "error": "Sese",
+    "retry": "Toe taumafai",
+    "confirm": "Faamaonia",
+    "back": "Tua",
+    "next": "Sosoo ai",
+    "continue": "Fa'aauau",
+    "finish": "Faauma",
+    "copy": "Kopi",
+    "copied": "Kopi",
+    "download": "La'u mai",
+    "upload": "Tu'u mai",
+    "none": "Leai",
+    "all": "O mea uma",
+    "yes": "Ioe",
+    "no": "Leai",
+    "select": "Filifili",
+    "optional": "faitalia",
+    "required": "manaomia",
+    "unsaved_changes": "Suiga e le'i fa'asaoina",
+    "name": "Igoa",
+    "status": "Tulaga",
+    "type": "Ituaiga",
+    "actions": "Gaioiga",
+    "empty": "Gaogao",
+    "browse": "Su'esu'e",
+    "remove": "Aveese",
+    "add": "Faaopoopo",
+    "rename": "Toe sui igoa",
+    "duplicate": "Fa'alua",
+    "warning": "Lapataiga",
+    "locked": "Loka",
+    "builtin": "Ua fausia i totonu",
+    "custom": "Aganuu",
+    "untitled": "Le fa'aigoaina",
+    "select_placeholder": "Filifili…"
+  },
+  "library": {
+    "title": "Faletusi",
+    "subtitle": "O lou leo ma le kitara galuega faatino, mai manatu i le tatalaina.",
+    "new_project": "Poloketi fou",
+    "new_album": "Le album fou",
+    "search_placeholder": "Su'e ile igoa...",
+    "view": {
+      "grid": "Grid",
+      "albums": "Albums"
+    },
+    "filters": {
+      "all": "O mea uma"
+    },
+    "take_count_one": " {{count}} ave",
+    "take_count_other": " {{count}} ave",
+    "updated_at": "Fa'afouina {{date}} ",
+    "no_results": {
+      "title": "Leai ni poloketi na maua",
+      "description": "Taumafai e fetu'una'i le su'esu'ega po'o le fa'amama tulaga."
+    },
+    "empty": {
+      "title": "Ua gaogao lau faletusi",
+      "description": "Amata se poloketi fou mai le amataga, pe fa'aulufale mai e ave i luga o le tisiki.",
+      "cta_import": "Auina mai mai le faila",
+      "cta_new": "Fausia galuega"
+    },
+    "project_dialog": {
+      "title": "Poloketi fou",
+      "description": "Tu'u i ai se igoa ma filifili se faiga pu'e.",
+      "name_label": "Igoa o le poloketi",
+      "name_placeholder": "e.g. Timuga o le Summer",
+      "mode_label": "Faiga",
+      "mode": {
+        "voice": "Na'o le leo",
+        "voice_guitar": "Leo + kitara"
+      },
+      "submit": "Fausia galuega"
+    },
+    "album_dialog": {
+      "title": "Le album fou",
+      "description": "Fa'avae galuega fa'atatau ile album.",
+      "name_label": "Igoa o le album",
+      "name_placeholder": "e.g. Autumn EP",
+      "submit": "Fausia le album"
+    },
+    "album": {
+      "untitled": "Lisi e leai se igoa",
+      "members_count_one": " {{count}} galuega faatino",
+      "members_count_other": " {{count}} galuega faatino",
+      "empty": "E leai ni galuega faatino i lenei album.",
+      "delete_confirm_title": "Ave'ese le album?",
+      "delete_confirm_description": "O galuega faatino o le a le tapeina, na'o le tatalaina mai le \"{{name}}\"."
+    },
+    "delete_project": {
+      "confirm_title": "Aveese le \"{{name}}\"?",
+      "confirm_description": "O le mea lea e aveese ai le poloketi ma mea uma e fai. E le mafai ona fa'aleaogaina."
+    }
+  },
+  "record": {
+    "title": "Faamaumauga",
+    "subtitle": "Pu'e se ata mama, matamata i au tulaga, ma mulimuli i le tusitusiga.",
+    "project_label": "Poloketi",
+    "project_placeholder": "Filifili se galuega faatino",
+    "project_create_quick": "Fausia se poloketi vave...",
+    "device_label": "Mea fa'aoga",
+    "device_placeholder": "Filifili se masini",
+    "device_default_badge": "Faiga faaletonu",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Leai ni masini fa'aoga na maua.",
+    "monitor_button": "Mataitu",
+    "monitor_stop_button": "Taofi le mataituina",
+    "record_button": "Faamaumauga",
+    "stop_button": "Taofi",
+    "elapsed_label": "Taimi ua mavae",
+    "status": {
+      "idle": "Fa'atafunaina",
+      "monitoring": "Mata'ituina",
+      "recording": "Faamaumauga",
+      "stopped": "Tu'u"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "tumutumu",
+      "clip": "Kipi"
+    },
+    "guide": {
+      "title": "Sauniga taiala",
+      "subtitle": "Tuu atu i le faiaoga e ta'ita'ia oe i le fa'asologa i lea la'asaga, mai le mafanafana i le fuaitau tautala.",
+      "loading": "O lo'o fa'apipi'i tusitusiga...",
+      "unavailable": "E le'i avanoa le sauniga ta'iala ile server.",
+      "select_project_device": "Filifili se poloketi ma se masini fa'aoga e fa'amaumau ai laasaga sa'o mai iinei.",
+      "progress": " {{done}} o {{total}} laasaga",
+      "start_timer": "Amata le taimi",
+      "skip_timer": "Faamisi le taimi",
+      "record_step": "Faamaumau lenei laasaga",
+      "stop_step": "Taofi le pueina",
+      "mark_done": "Ua mae'a - la'asaga e sosoo ai",
+      "step_recorded": "Ave fa'amaumauga",
+      "no_record_step": "Laasaga mafanafana - leai se pu'eina e mana'omia.",
+      "bars_hint": "E tusa ma le {{bars}} pa",
+      "complete_title": "Ua mae'a tusitusiga!",
+      "complete_body": "Ua e faamaumauina uma laasaga o le tusitusiga. Toe fo'i i le ta'aloga Audio a le poloketi ma filifili mea e te fiafia i ai.",
+      "restart": "Toe amata le tusitusiga"
+    },
+    "best2min": {
+      "button": "Su'e le 2 minute sili (Suno)",
+      "running": "Su'esu'eina le fa'atatau...",
+      "score_label": "Sikoa",
+      "hint": "Fa'atino se su'esu'ega malosi ma le manino i le taimi atoa e su'e ai lona fa'amalama sili ona malosi e 2-minute - e mafai lava ona e fetu'una'i le laina ile lima mulimuli ane.",
+      "chart_caption": "Sikoa ile faamalama",
+      "unavailable": "Ole su'esu'ega sili-2-minute e le'i maua ile server lea."
+    },
+    "takes_title": "E maua mai lenei sauniga",
+    "takes_empty": "E leai ni fa'amaumauga na fa'amauina i lenei vasega.",
+    "open_in_project": "Tatala ile poloketi",
+    "ws_disconnected": "Toe feso'ota'i ile mita maualuga...",
+    "select_project_first": "Filifili se galuega faatino e amata ai.",
+    "select_device_first": "Filifili se masini fa'aoga."
+  },
+  "project": {
+    "back_to_library": "Toe fo'i i le faletusi",
+    "header": {
+      "status_label": "Tulaga",
+      "cover_upload": "Tu'u i luga le faavaa",
+      "cover_remove": "Aveese le ufiufi",
+      "name_placeholder": "Igoa o le poloketi",
+      "links_title": "So'oga",
+      "add_link": "Fa'aopoopo so'oga",
+      "mode": {
+        "voice": "Na'o le leo",
+        "voice_guitar": "Leo + kitara"
+      }
+    },
+    "tabs": {
+      "audio": "Leo",
+      "lyrics": "Lyrics",
+      "prompts": "Fa'atonuga",
+      "notes": "Fa'amatalaga"
+    },
+    "audio": {
+      "takes_title": "ave",
+      "no_takes": {
+        "title": "E le'i faia lava",
+        "description": "Faamaumau se ave fou pe faaulufale mai se faila o iai."
+      },
+      "record_new": "Faamauina se tala fou",
+      "rating": "Fa'ailoga",
+      "variant": {
+        "raw": "Mata",
+        "processed": "Fa'atonu"
+      },
+      "variant_placeholder": "Fa'aliliuga",
+      "process_button": "Fa'agasologa",
+      "export_button": "Lafoa'i atu",
+      "delete_take_confirm_title": "Ave'ese le mea lea?",
+      "delete_take_confirm_description": "O le leo mata'utia ma so'o se fa'agaioiga uma o le a aveesea.",
+      "ab": {
+        "raw": "A · Mata",
+        "processed": "B · Fa'atonu"
+      },
+      "origin": {
+        "recorded": "Faamauina",
+        "imported": "Fa'aulufale mai"
+      },
+      "session_label_placeholder": "Fa'ailoga o le sauniga (filifiliga)",
+      "duration": "Umi",
+      "sample_rate": "Fa'ata'ita'iga fua",
+      "channels": "Auala",
+      "created_at": "Faamauina"
+    },
+    "pipeline": {
+      "title": "Fa'asologa o filifili",
+      "preset_label": "Fa'atonu",
+      "preset_none": "filifili masani",
+      "preset_save": "Faasaoina e pei ona faatulagaina",
+      "stage_locked": "Loka",
+      "stage_requires_extra": "Manaomia se fa'aopoopoga e le'i fa'apipi'iina",
+      "process_button": "Fa'agasologa fai",
+      "processing": "Fa'agasolo...",
+      "job_queued": "Tuli…",
+      "job_running": "Fa'agasolo...",
+      "job_done": "Ua uma",
+      "job_error": "Ua le manuia",
+      "job_cancelled": "Fa'aleaogaina",
+      "cancel_job": "Fa'aleaogaina",
+      "no_stages": "Leai ni laasaga avanoa."
+    },
+    "export": {
+      "title": "Fa'atau atu i fafo",
+      "description": "Tu'u se faila fa'ai'u mai se fa'asologa fa'agasolo.",
+      "variant_label": "Fa'aliliuga",
+      "format_label": "Fa'asologa",
+      "preset_label": "auina atu i fafo preset",
+      "range_label": "Avanoa",
+      "range_full": "Le umi atoa",
+      "range_custom": "Tulaga fa'apitoa",
+      "start_label": "Amata (s)",
+      "end_label": "Fa'ai'uga (s)",
+      "submit": "Lafoa'i atu",
+      "progress": "Fa'ailoa faila...",
+      "download_ready": "Ua saunia faila",
+      "download_button": "La'u faila"
+    },
+    "notes": {
+      "placeholder": "Fa'amatalaga e leai se totogi e uiga i lenei poloketi...",
+      "saved_at": "Fa'asaoina ile {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Tusi upu iinei. Fa'aoga le paleti ile itu e fa'aofi ai Suno meta-tags.",
+      "saved_at": "Fa'asaoina ile {{time}} ",
+      "saving": "Sefe…",
+      "versions": "Fa'aliliuga",
+      "versions_empty": "E le'i iai ni fa'aliliuga fa'asaoina.",
+      "version_preview": "mua'i va'aiga",
+      "restore": "Toe fa'afo'i le fa'aliliuga lea",
+      "restore_confirm_title": "Toe fa'afo'i le fa'aliliuga lea?",
+      "restore_confirm_description": "O le tusitusiga o lo'o i ai nei o le a suia i le fa'amatalaga o lo'o fa'asaoina ile {{date}} .",
+      "metatags_title": "Meta-tags",
+      "metatags_hint": "Kiliki se pine e fa'apipi'i ai i le fa'ailoga.",
+      "metatags_placebo_warning": "Le fa'amaonia - atonu e leai se aafiaga i le taunuuga.",
+      "metatags_empty": "Leai ni meta-tags na resitalaina."
+    },
+    "prompts": {
+      "style_title": "Siili vave",
+      "lyrics_title": "Fa'atonuga o upu",
+      "template_label": "Fa'ata'ita'iga",
+      "template_none": "Leai se mamanu",
+      "variables_title": "Fuafuaga",
+      "preview_title": "mua'i va'aiga",
+      "preview_empty": "Filifili se faʻataʻitaʻiga ma faʻatumu ia fesuiaiga e vaʻai ai i se faʻaaliga.",
+      "char_count": " {{count}} mataitusi",
+      "char_count_warning": "O le faiga e fa'aosofia ai le sili atu i le 1000 mataitusi e ono tipiina e Suno.",
+      "copy": "Kopi",
+      "copied": "Kopi ile laupapa kilipa",
+      "save_to_project": "Fa'asao i le galuega faatino",
+      "saved_to_project": "Fa'apolopolo ua fa'asaoina i le galuega",
+      "history_title": "Tala'aga",
+      "history_empty": "Leai ni lomiga muamua.",
+      "current_label": "I le taimi nei"
+    },
+    "stems": {
+      "title": "Leo ma kitara",
+      "separate_button": "Vaevae leo ma kitara",
+      "running": "Tuueseese…",
+      "vocals": "Vocals",
+      "instrumental": "Tufuga",
+      "process_stem": "Fa'agaoioi le 'au lea",
+      "empty": "E le'i tu'u'ese'esea lava lea fa'atatau. Tamomo'e le valavala e fa'alogo i leo ma le kitara fa'atasi.",
+      "capability_missing": "E le'o fa'apipi'iina le fa'amavaega fa'apogai ile server lea.",
+      "unavailable": "E le'o maua le vaeluaga o leo ma le kitara i luga o lenei 'au'aunaga."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "luga",
+    "boolean_off": "Ta'ese"
+  },
+  "import": {
+    "title": "Fa'aulufale mai",
+    "subtitle": "Aumai galuega faatino ua uma ona iai i luga ole tisiki ile faletusi.",
+    "step_indicator": "Laasaga {{current}} o le {{total}} ",
+    "step1": {
+      "title": "Su'e faila",
+      "description": "Fa'asino i le pusa a'a ma au galuega faatino ma ala.",
+      "path_label": "Ala faila",
+      "path_placeholder": "e.g. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "Talu ai nei",
+      "scan_button": "Va'aiga faila",
+      "scanning": "Va'ai...",
+      "ffmpeg_warning": "FFmpeg le maua - faila e manaʻomia le liua o le a faaseʻe.",
+      "folders_found_one": " {{count}} faila na maua",
+      "folders_found_other": " {{count}} faila na maua",
+      "unmatched_files_one": " {{count}} faila le iloa",
+      "unmatched_files_other": " {{count}} faila le iloa"
+    },
+    "step2": {
+      "title": "Toe iloilo mea",
+      "description": "Siaki igoa, tulaga, ma mea o le a fa'aulufale mai a'o le'i fa'amaonia.",
+      "select_all": "Filifili uma",
+      "table": {
+        "folder": "Punavai faila",
+        "name": "Igoa o le poloketi",
+        "status": "Tulaga",
+        "audio": "Leo",
+        "lyrics": "Lyrics",
+        "cover": "Ufiufi",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} faila filifilia",
+      "audio_include_other": " {{count}} faila filifilia",
+      "no_audio": "Leai se leo na maua",
+      "no_lyrics": "Leai se upu na maua",
+      "no_cover": "Leai se ufiufi",
+      "warnings_title": "Lapataiga"
+    },
+    "step3": {
+      "title": "Fa'aulufale mai",
+      "description": "Faʻamaonia e kopi faila ma fai galuega.",
+      "copy_originals": "Kopi faila muamua ile faletusi",
+      "execute_button": "Amata le faaulufale mai",
+      "progress_title": "Fa'aulufaleina mai...",
+      "created_count": "Faia: {{count}} ",
+      "skipped_count": "Faamisi: {{count}} ",
+      "done_title": "Fa'aulufale mai ua mae'a",
+      "done_description": "O poloketi o loʻo i lalo na faia i lau faletusi.",
+      "view_project": "Tatala poloketi",
+      "start_over": "Fa'aulufale fou"
+    }
+  },
+  "templates": {
+    "title": "Fa'ata'ita'iga",
+    "subtitle": "Fa'aoga vave fa'ata'ita'iga ma fa'ailoga-meta mo Suno.",
+    "tabs": {
+      "prompts": "Fa'ata'ita'iga vave",
+      "metatags": "Meta-tags"
+    },
+    "new_template": "Fa'ata'ita'iga fou",
+    "kind": {
+      "style": "Sitaili",
+      "lyrics": "Lyrics"
+    },
+    "kind_label": "Agalelei",
+    "delete_confirm_title": "Ave'ese fa'ata'ita'iga \" {{name}} \"?",
+    "delete_confirm_description": "E le mafai ona fa'aleaogaina.",
+    "empty": "E le'i iai ni fa'ata'ita'iga.",
+    "editor": {
+      "title_new": "Fa'ata'ita'iga fou",
+      "title_edit": "Fa'atonu mamanu",
+      "name_label": "Igoa",
+      "name_placeholder": "e.g. Acoustic ballad",
+      "kind_label": "Agalelei",
+      "template_label": "Fa'asologa o tusitusiga",
+      "template_hint": "Fa'ailoga le mea o lo'o i ai suiga ta'itasi ma lona igoa o lo'o afifi i fusi fa'ai'u fa'alua - mo se fa'ata'ita'iga, o le fesuiaiga e ta'ua o le \"genre\" ua avea ma ituaiga ua afifiina i fusi tatala ma lua tapuni.",
+      "variables_label": "Fuafuaga",
+      "variable_add": "Fa'aopoopo fesuia'i",
+      "variable_name": "Ki",
+      "variable_label": "Fa'ailoga",
+      "variable_type": "Ituaiga",
+      "variable_type_string": "Tusitusi",
+      "variable_type_select": "Filifilia nofofua",
+      "variable_type_multiselect": "Filifiliga tele",
+      "variable_type_number": "Numera",
+      "variable_type_boolean": "Ioe/leai",
+      "variable_options": "Filifiliga (vavae koma)",
+      "variable_required": "Manaomia",
+      "save": "Sefe template"
+    },
+    "metatags": {
+      "title": "Meta-tags",
+      "subtitle": "Fa'ailoga fa'atulagaina ma sitaili e iloa e Suno i totonu o upu.",
+      "new_tag": "Tag fou",
+      "tag_label": "Tag",
+      "tag_placeholder": "e.g. kitara-solo",
+      "category_label": "Vaega",
+      "tier_label": "Fa'atuatuaina",
+      "tier_legend_title": "Talatuu faatuatuaina",
+      "tier_legend": {
+        "1": "Laasaga 1 - fa'amaumauina ma fa'aauau",
+        "2": "Laasaga 2 - e masani ona galue",
+        "3": "Laasaga 3 - a'afiaga fesuisuiai",
+        "4": "Tier 4 - placebo, le faʻamaonia"
+      },
+      "description_label": "Fa'amatalaga",
+      "delete_confirm_title": "Ave'ese le pine \" {{tag}} \"?",
+      "empty": "E le'i iai ni fa'ailoga masani."
+    }
+  },
+  "settings": {
+    "title": "Fa'atonu",
+    "subtitle": "Fa'amatalaga fa'akomepiuta, gagana, ma mea e te fiafia i ai.",
+    "system_info_title": "Faiga",
+    "version": "Fa'aliliuga",
+    "data_dir": "Fa'amatalaga faila",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Avanoa",
+    "ffmpeg_missing": "Le maua",
+    "capabilities_title": "Fa'atonuga gafatia",
+    "capability": {
+      "denoise": "Fa'aitiitia pisa",
+      "quality": "Fa'aleleia lelei",
+      "separate": "Vaevaega puna",
+      "ffmpeg": "FFmpeg liua"
+    },
+    "capability_available": "Avanoa",
+    "capability_unavailable": "Le avanoa",
+    "gpu_title": "GPU fa'avavevave",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime providers"
+    },
+    "gpu_none": "Leai se GPU na maua",
+    "language_title": "Gagana",
+    "language": {
+      "pt-BR": "Português (Pasila)",
+      "en": "Igilisi"
+    },
+    "theme_title": "Fa'aaliga",
+    "theme": {
+      "dark": "Pogisa",
+      "light": "Malamalama"
+    },
+    "defaults_title": "Fa'atau atu i fafo",
+    "lufs_target_label": "LUFS sini",
+    "lufs_target_hint": "Fa'aaoga e fai ma fautuaga amata pe a ave i fafo. O le faaletonu o Suno e nofo i le -14 LUFS.",
+    "saved": "Fa'atonuga fa'asaoina"
+  },
+  "guide": {
+    "title": "Suno fa'amaumauga ta'iala",
+    "subtitle": "E fa'afefea ona pu'eina le leo ma le kitara e maua ai fa'aiuga sili.",
+    "intro": "E sili ona lelei le faatinoga a Suno i fa'amatalaga mama ma manino. O lenei ta'iala e aofia ai sauniuniga, tulaga fa'atatau, ma se fa'amaumauga pu'e e 3-5 minute.",
+    "sections": {
+      "prep": {
+        "title": "Sauniuniga",
+        "body": "Faamaumau i totonu o se potu e togafitia po o se potu e tele mea malu (ie pupuni, fala, lavalava i totonu o se kapoti). Tape ili ma soo se mea e hamu. Fa'amafanafana lou leo ​​mo le 5 minute a'o le'i pu'eina."
+      },
+      "levels": {
+        "title": "Tulaga: -12 i le -6 dBFS",
+        "body": "Mana'o mo tumutumu i le va o le -12 ma le -6 dBFS ile mita. I lalo ifo o lena laina, e sili atu ona iloagofie le pisa i tua; i luga a'e, e fa'atupula'ia le tulaga lamatia o le tipiina. Fa'aoga le mita ile itulau Fa'amaumauga e seti ai lau tupe maua ae e te le'i amata."
+      },
+      "distance": {
+        "title": "Mamao maile: 15–30 cm",
+        "body": "Taofi le 15 i le 30 cm mai le masini faaleotele leo. E sili atu le vavalalata nai lo lena e faʻateleina ai le plosives ma le aafiaga vavalalata; a mamao ese e maua ai le tele o le reverb ma le pisapisao."
+      },
+      "script": {
+        "title": "Fa'amaumauga tusitusia",
+        "warmup": "Fa'amafanafana leo (1-2 minute)",
+        "vowels": "Sustained vowels — a, e, i, o, u",
+        "scales": "Fua faigofie, luga ma lalo",
+        "excerpt": "Se vaega pese (8 i le 16 pa)",
+        "dynamics": "Dynamics: amata malu, faaiu leotele",
+        "spoken_phrase": "Tasi le fuaitau tautala, ina ia mafai e Suno ona faitau lou leo"
+      },
+      "expectations": {
+        "title": "Le mea o lo'o fa'amoemoeina e Suno",
+        "body": "WAV, 48 kHz, mono, mago (leai se reverb po'o ni a'afiaga), 3 i le 5 minute o fa'amatalaga. Ole sili ona mama, sili ona sui ole 2 minute ole su'ega e masani lava ona maua ai fa'ai'uga sili ona lelei."
+      }
+    }
+  },
+  "status": {
+    "idea": "Manatu",
+    "em_progresso": "O loo faagasolo",
+    "quase": "Toeitiiti lava i ai",
+    "pronto": "Sauni"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Fa'amatalaga leo atoatoa mo Suno",
+      "desc": "5 minute taiala: mafanafana, vowel, una, lua siiina o pese, dynamics, ma se fuaitau tautala."
+    },
+    "step": {
+      "warmup": "Fa'amafanafana leo",
+      "warmup_inst": "Fa'amalo i le 'aue, laugutu fa'atete (brrr), ma se hamu malu mo se minute. E leai se mana'oga e pu'eina - na'o le fa'amalieina o lou fa'a'i a'o le'i pese.",
+      "vowels": "Vowel tumau",
+      "vowels_inst": "Taofi vowel ta'itasi - a, e, i, o, u - mo le 3 i le 4 sekone i lou si'i lelei, ma le leo tumau. E fesoasoani lea ia Suno e piki le timbre mama o lou leo.",
+      "scales": "Fua i luga ma lalo",
+      "scales_inst": "Usu se fua faigofie i luga ma lalo, i luga o le \"la\" poʻo le \"na\". E le manaʻomia le atoatoa - o le sini o le faʻafanua o lau leo ​​leo.",
+      "section": "Vaega o pese — vaega 1",
+      "section_inst": "Usu le 8 i le 16 pa o le pese, ma le faamoemoega moni e te manao e faailoa atu. Fa'amuamua le manino ma le i ai nai lo le atoatoa fa'apitoa.",
+      "section2": "Vaega o pese — vaega 2",
+      "section2_inst": "Usu le isi 8 i le 16 pa - e sili ona lelei o se tali poʻo se vaega e faʻatusatusa i le mea muamua. O le tele o ituaiga eseese e fesoasoani i le faʻataʻitaʻiga e aʻoaʻo ai lou leo.",
+      "dynamics": "Dynamics: malu → leotele",
+      "dynamics_inst": "Usu le fasifuaitau lava e tasi e amata malu ma faaiu leotele, e aunoa ma le tigaina o lou faai. O lo'o fa'aalia ai Suno le malosi o lou leo.",
+      "spoken": "Fuaitau tautala",
+      "spoken_inst": "Tautala - aua le pese - o se fuaitau puupuu, masani, e pei o loo e talatalanoa. E fesoasoani lea ia Suno e iloa ai le timbre moni o lou leo."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Toefuataiga",
+      "filter": "Filifiliga",
+      "dynamics": "Malosiaga",
+      "separation": "Vaevaega",
+      "quality": "Tulaga lelei",
+      "utility": "Fa'aoga",
+      "loudness": "Leotetele"
+    },
+    "highpass": "Fa'amama pasi maualuga",
+    "lowpass": "Fa'amama pasi maualalo",
+    "denoise": "Fa'aitiitia pisa",
+    "declip": "Pa'u",
+    "declick": "Kiliki/pop aveese",
+    "deesser": "De-esser",
+    "gate": "Faitotoa pisapisao",
+    "compressor": "Compressor",
+    "limiter": "Tapulaa",
+    "eq": "Tulaga tutusa",
+    "normalize": "Fa'atonuga maualuga",
+    "loudness": "Fa'atonu leotele (LUFS)",
+    "reverb_reduce": "Fa'aitiitiga fa'afefe",
+    "separate": "Vaevaega puna",
+    "quality": "Fa'aleleia lelei (maualuga)",
+    "trim_silence": "Teu lemu",
+    "fade": "Fade in/fade out",
+    "stereo_to_mono": "Su'e ile mono",
+    "resample": "Toe fa'atusa"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Fa'atuatuaina",
+      "2": "E masani ona galue",
+      "3": "Fesuia'i",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Fauga",
+      "vocal": "Vocal",
+      "instrument": "Meafaigaluega",
+      "dynamics": "Malosiaga",
+      "production": "Gaosiga",
+      "mood": "Tulaga"
+    },
+    "verse": "Fuaiupu",
+    "chorus": "Chorus",
+    "bridge": "Alalaupapa",
+    "intro": "Folasaga",
+    "outro": "Outro",
+    "hook": "matau",
+    "prechorus": "mua'i tali",
+    "instrumental": "Tufuga",
+    "guitar_solo": "Kitara solo",
+    "build_up": "Fausiaina",
+    "breakdown": "malepe",
+    "spoken_word": "Upu tautala",
+    "whispered": "Musumusu",
+    "harmonies": "Fegalegaleaiga",
+    "male_vocal": "Male leo",
+    "female_vocal": "Leo tama'ita'i",
+    "duet": "Duet",
+    "acoustic": "Acoustic",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Leo mama",
+    "voice_guitar_balanced": "Paleni leo & kitara",
+    "podcast": "Podcast",
+    "suno_ready": "Sauni Suno",
+    "gentle_restore": "Toe fa'afo'i malie",
+    "raw_passthrough": "Leai se gaioiga"
+  },
+  "errors": {
+    "unknown": "Sa i ai se mea na faaletonu.",
+    "network": "Le mafai ona o'o i le server.",
+    "validation_error": "Siaki faʻamatalaga na e tuʻuina.",
+    "not_found": "Le maua mea.",
+    "project_not_found": "Poloketi le maua.",
+    "take_not_found": "Ave le maua.",
+    "album_not_found": "Le maua le album.",
+    "preset_not_found": "Ua le maua le seti.",
+    "template_not_found": "E le maua le mamanu.",
+    "device_busy": "O lo'o fa'aogaina le masini fa'alogo e se isi polokalame.",
+    "device_not_found": "Le maua le masini leo.",
+    "already_recording": "O lo'o fa'agasolo nei se pu'ega.",
+    "ffmpeg_missing": "FFmpeg e le o faʻapipiʻiina - faʻapipiʻi e faʻaliliu ai lenei faila.",
+    "disk_full": "Le lava le avanoa tisiki.",
+    "permission_denied": "Ua teena le faatagaga mo le auala ua tuuina atu.",
+    "import_path_not_found": "E le'i maua le ala fa'aulufale mai.",
+    "job_failed": "Ua le manuia le faagasologa.",
+    "job_cancelled": "Na faaleaogaina le faagasologa.",
+    "process_failed": "Ua le mafai ona fa'agasolo le ave.",
+    "export_failed": "Ua le mafai ona auina atu i fafo le faila.",
+    "record_failed": "Ua le mafai ona amata pu'e."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Tuli",
+      "running": "Tamomoe",
+      "done": "Ua uma",
+      "error": "Ua le manuia",
+      "cancelled": "Fa'aleaogaina"
+    },
+    "kind": {
+      "process": "Fa'agasologa",
+      "export": "Lafoa'i atu",
+      "import": "Fa'aulufale mai",
+      "record": "Faamaumauga"
+    }
+  }
+}

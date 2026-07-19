@@ -1,0 +1,27 @@
+{
+  "id": "suno-voices",
+  "builtin": true,
+  "name_key": "presets.suno_voices",
+  "description_key": "presets.suno_voices_desc",
+  "chain": {
+    "stages": [
+      { "id": "highpass", "enabled": true, "params": { "freq": 75 } },
+      { "id": "denoise_dfn3", "enabled": true, "params": {} },
+      { "id": "denoise_nr", "enabled": false, "params": { "strength": 0.7 } },
+      { "id": "deesser", "enabled": true, "params": {} },
+      { "id": "eq", "enabled": false, "params": {} },
+      { "id": "compressor", "enabled": true, "params": { "ratio": 2.0, "threshold_db": -18 } },
+      { "id": "limiter", "enabled": true, "params": { "ceiling_db": -6.0 } },
+      { "id": "loudness", "enabled": true, "params": { "lufs_target": -18, "true_peak_max_db": -6 } },
+      { "id": "trim_silence", "enabled": true, "params": { "pad_ms": 150 } }
+    ]
+  },
+  "export": {
+    "format": "wav",
+    "sample_rate": 48000,
+    "bit_depth": 24,
+    "channels": 1,
+    "max_duration_s": 240,
+    "peak_range_dbfs": [-12, -6]
+  }
+}

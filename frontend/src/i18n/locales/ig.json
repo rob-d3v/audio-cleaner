@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio Cleaner"
+  },
+  "nav": {
+    "library": "Ụlọ akwụkwọ",
+    "record": "Dekọọ",
+    "import": "Bubata",
+    "templates": "Ụdị",
+    "settings": "Ntọala",
+    "guide": "Nduzi"
+  },
+  "common": {
+    "save": "Chekwa",
+    "saving": "Na-echekwa…",
+    "saved": "Echekwara",
+    "cancel": "Kagbuo",
+    "close": "Mechie",
+    "delete": "Hichapụ",
+    "edit": "Dezie",
+    "create": "Mepụta",
+    "search": "Chọọ",
+    "loading": "Na-ebugo…",
+    "error": "Njehie",
+    "retry": "Gbalịa ọzọ",
+    "confirm": "Kwenye",
+    "back": "Azu",
+    "next": "Na-esote",
+    "continue": "Gaa n'ihu",
+    "finish": "Mechaa",
+    "copy": "Detuo",
+    "copied": "Eṅomiri",
+    "download": "Budata",
+    "upload": "Bulite",
+    "none": "Ọ dịghị",
+    "all": "Ha niile",
+    "yes": "Ee",
+    "no": "Mba",
+    "select": "Họrọ",
+    "optional": "nhọrọ",
+    "required": "achọrọ",
+    "unsaved_changes": "Mgbanwe echekwaghị",
+    "name": "Aha",
+    "status": "Ọnọdụ",
+    "type": "Ụdị",
+    "actions": "Omume",
+    "empty": "Ihe efu",
+    "browse": "Chọgharịa",
+    "remove": "Wepu",
+    "add": "Tinye",
+    "rename": "Nyegharịa aha",
+    "duplicate": "Megharịa",
+    "warning": "Ịdọ aka ná ntị",
+    "locked": "Akpọchiri",
+    "builtin": "Wuru n'ime",
+    "custom": "Omenala",
+    "untitled": "Enweghị aha",
+    "select_placeholder": "Họrọ…"
+  },
+  "library": {
+    "title": "Ụlọ akwụkwọ",
+    "subtitle": "Ọrụ olu gị na guitar, site na echiche ruo ntọhapụ.",
+    "new_project": "Ọrụ ọhụrụ",
+    "new_album": "Album ọhụrụ",
+    "search_placeholder": "Chọọ n'aha…",
+    "view": {
+      "grid": "Grid",
+      "albums": "Albums"
+    },
+    "filters": {
+      "all": "Ha niile"
+    },
+    "take_count_one": " {{count}} were",
+    "take_count_other": " {{count}} na-ewere",
+    "updated_at": "Emelitere {{date}} ",
+    "no_results": {
+      "title": "Ọnweghị ọrụ ahụrụ",
+      "description": "Gbalịa ịhazigharị ihe nchọta ma ọ bụ nzacha ọkwa."
+    },
+    "empty": {
+      "title": "Ọbá akwụkwọ gị tọgbọrọ chakoo",
+      "description": "Malite ọrụ ọhụrụ site na ọkọ, ma ọ bụ mbubata na-ewe ị nweburu na diski.",
+      "cta_import": "Bubata na nchekwa",
+      "cta_new": "Mepụta oru ngo"
+    },
+    "project_dialog": {
+      "title": "Ọrụ ọhụrụ",
+      "description": "Nye ya aha wee họrọ ọnọdụ ndekọ.",
+      "name_label": "Aha oru ngo",
+      "name_placeholder": "eg. Mmiri ozuzo n'oge okpomọkụ",
+      "mode_label": "Ụdị",
+      "mode": {
+        "voice": "Naanị olu",
+        "voice_guitar": "Olu + guitar"
+      },
+      "submit": "Mepụta oru ngo"
+    },
+    "album_dialog": {
+      "title": "Album ọhụrụ",
+      "description": "Ọrụ metụtara otu n'ime ọba.",
+      "name_label": "Aha album",
+      "name_placeholder": "eg. Mgbụsị akwụkwọ EP",
+      "submit": "Mepụta album"
+    },
+    "album": {
+      "untitled": "Album enweghị aha",
+      "members_count_one": " {{count}} oru ngo",
+      "members_count_other": " {{count}} oru ngo",
+      "empty": "Enweghị ọrụ ọ bụla na ọba a.",
+      "delete_confirm_title": "Hichapụ album?",
+      "delete_confirm_description": "Agaghị ehichapụ ọrụ, naanị enweghị njikọ na \"{{name}}\"."
+    },
+    "delete_project": {
+      "confirm_title": "Hichapụ\" {{name}}\"?",
+      "confirm_description": "Nke a na-ewepụ ọrụ ahụ na ihe ọ bụla na-eme na ya. Enweghị ike ịmegharị nke a."
+    }
+  },
+  "record": {
+    "title": "Dekọọ",
+    "subtitle": "Weghara ihe dị ọcha, lelee ọkwa gị ma soro edemede ahụ.",
+    "project_label": "Ihe oru ngo",
+    "project_placeholder": "Họrọ oru ngo",
+    "project_create_quick": "Mepụta ọrụ ngwa ngwa…",
+    "device_label": "Ngwa ntinye",
+    "device_placeholder": "Họrọ ngwaọrụ",
+    "device_default_badge": "Sistemụ ndabara",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Enweghị ngwaọrụ ntinye ahụrụ.",
+    "monitor_button": "Nyochaa",
+    "monitor_stop_button": "Kwụsị nlekota oru",
+    "record_button": "Dekọọ",
+    "stop_button": "Kwụsị",
+    "elapsed_label": "Oge gafere",
+    "status": {
+      "idle": "Na-abaghị uru",
+      "monitoring": "nlekota oru",
+      "recording": "Edekọ",
+      "stopped": "Akwụsịla"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Ọnụ ọgụgụ kasị elu",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Oge eduzi",
+      "subtitle": "Mee ka onye nchịkwa na-ejegharị gị site na edemede site na nzọụkwụ, site na ikpo ọkụ ruo na nkebi okwu.",
+      "loading": "Na-ebu edemede…",
+      "unavailable": "Oge eduzi adịghị na sava ahụ.",
+      "select_project_device": "Họrọ oru ngo na ngwa ntinye ka ịdekọ nzọụkwụ site na ebe a.",
+      "progress": " {{done}} nke {{total}} nzọụkwụ",
+      "start_timer": "Malite ngụ oge",
+      "skip_timer": "Mafere ngụ oge",
+      "record_step": "Dekọọ usoro a",
+      "stop_step": "Kwụsị ịdekọ",
+      "mark_done": "Emechara - nzọụkwụ ọzọ",
+      "step_recorded": "Were ndekọ",
+      "no_record_step": "Nzọụkwụ na-ekpo ọkụ - enweghị ndekọ achọrọ.",
+      "bars_hint": "Ihe dị ka {{bars}} mmanya",
+      "complete_title": "Ederede zuru oke!",
+      "complete_body": "Ị dekọla nzọụkwụ ọ bụla nke edemede ahụ. Gaa azụ na taabụ Audio nke ọrụ ahụ wee họrọ ihe kacha amasị gị.",
+      "restart": "Malitegharịa edemede"
+    },
+    "best2min": {
+      "button": "Chọta nkeji 2 kacha mma (Suno)",
+      "running": "Na-enyocha ihe…",
+      "score_label": "Akara",
+      "hint": "Na-eme nyocha ike na idoanya n'ozuzu iji chọta mpio nkeji 2 kachasị ike - ị ka nwere ike ịhazigharị nso site na aka emesia.",
+      "chart_caption": "Akara kwa mpio",
+      "unavailable": "Nyocha kacha mma-nkeji 2 adịghị na nkesa a ma."
+    },
+    "takes_title": "Na-enweta site na nnọkọ a",
+    "takes_empty": "Ọnweghị ihe ndekọ na nnọkọ a ma.",
+    "open_in_project": "Mepee na oru ngo",
+    "ws_disconnected": "Na-ejikọghachi na mita larịị…",
+    "select_project_first": "Họrọ oru ngo ka ibido.",
+    "select_device_first": "Họrọ ngwaọrụ ntinye."
+  },
+  "project": {
+    "back_to_library": "Laghachi n'ọbá akwụkwọ",
+    "header": {
+      "status_label": "Ọnọdụ",
+      "cover_upload": "Bulite mkpuchi",
+      "cover_remove": "Wepu mkpuchi",
+      "name_placeholder": "Aha oru ngo",
+      "links_title": "Njikọ",
+      "add_link": "Tinye njikọ",
+      "mode": {
+        "voice": "Naanị olu",
+        "voice_guitar": "Olu + guitar"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Ederede",
+      "prompts": "Ngwa ngwa",
+      "notes": "Ihe ndetu"
+    },
+    "audio": {
+      "takes_title": "Na-ewere",
+      "no_takes": {
+        "title": "Ọnweghị ihe ọzọ",
+        "description": "Dekọọ ihe ọhụrụ ma ọ bụ bubata faịlụ dị adị."
+      },
+      "record_new": "Dekọọ ihe ọhụrụ",
+      "rating": "Ogo",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Haziri"
+      },
+      "variant_placeholder": "Ụdị",
+      "process_button": "Usoro",
+      "export_button": "Mbupụ",
+      "delete_take_confirm_title": "Hichapụ ihe a?",
+      "delete_take_confirm_description": "A ga-ewepụ ọdịyo raw na ụdị ọ bụla edoziri.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Haziri"
+      },
+      "origin": {
+        "recorded": "Edekọrọ",
+        "imported": "Ebubatara"
+      },
+      "session_label_placeholder": "Akara nnọkọ (nhọrọ)",
+      "duration": "Ogologo oge",
+      "sample_rate": "Ọnụego nlele",
+      "channels": "Ọwa",
+      "created_at": "Edekọrọ"
+    },
+    "pipeline": {
+      "title": "Yinye nhazi",
+      "preset_label": "Ntọala",
+      "preset_none": "Yinye omenala",
+      "preset_save": "Chekwa dị ka atọrọ atọ",
+      "stage_locked": "Akpọchiri",
+      "stage_requires_extra": "Chọrọ mgbakwunye nke anaghị arụnyere",
+      "process_button": "Were usoro",
+      "processing": "Na-ahazi…",
+      "job_queued": "kwụ n'ahịrị…",
+      "job_running": "Na-ahazi…",
+      "job_done": "Emechaala",
+      "job_error": "Okpu",
+      "job_cancelled": "Kagbuo",
+      "cancel_job": "Kagbuo",
+      "no_stages": "Ọnweghị ọkwa dị."
+    },
+    "export": {
+      "title": "mbupu were",
+      "description": "Nyefee faịlụ ikpeazụ site na ụdị edoziri.",
+      "variant_label": "Ụdị",
+      "format_label": "Usoro",
+      "preset_label": "Preset mbupụ",
+      "range_label": "Oke",
+      "range_full": "Ogologo zuru oke",
+      "range_custom": "Omenala nso",
+      "start_label": "Mmalite (s)",
+      "end_label": "Ọgwụgwụ (s)",
+      "submit": "Mbupụ",
+      "progress": "Na-eme faịlụ…",
+      "download_ready": "Faịlụ dị njikere",
+      "download_button": "Budata faịlụ"
+    },
+    "notes": {
+      "placeholder": "Ndetu ụdị efu gbasara ọrụ a…",
+      "saved_at": "Echekwara na {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Dee egwu ebe a. Jiri palette dị n'akụkụ fanye Suno meta mkpado.",
+      "saved_at": "Echekwara na {{time}} ",
+      "saving": "Na-echekwa…",
+      "versions": "Ụdịdị",
+      "versions_empty": "Enweghị ụdị echekwara.",
+      "version_preview": "Nhụchalụ",
+      "restore": "Weghachite ụdị a",
+      "restore_confirm_title": "Weghachite ụdị a?",
+      "restore_confirm_description": "A ga-eji ụdị echekwara na {{date}} dochie ederede dị ugbu a.",
+      "metatags_title": "meta mkpado",
+      "metatags_hint": "Pịa mkpado iji fanye ya na cursor.",
+      "metatags_placebo_warning": "Emepụtaghị - nwere ike ọ nweghị mmetụta na nsonaazụ ya.",
+      "metatags_empty": "Enweghị mkpado meta edebanye aha."
+    },
+    "prompts": {
+      "style_title": "Nkwanye ụdị",
+      "lyrics_title": "Ngwa ngwa egwu",
+      "template_label": "Ụdị",
+      "template_none": "Enweghị ndebiri",
+      "variables_title": "Mgbanwe",
+      "preview_title": "Nhụchalụ",
+      "preview_empty": "Họrọ ndebiri wee dejupụta mgbanwe ka ịhụ nhụchalụ.",
+      "char_count": " {{count}} agwa",
+      "char_count_warning": "Ụdị na-akpali ihe karịrị mkpụrụedemede 1000 Suno nwere ike gbubie ya.",
+      "copy": "Detuo",
+      "copied": "Eṅomiri ya na klipbọọdụ",
+      "save_to_project": "Chekwa na oru ngo",
+      "saved_to_project": "A na-echekwa ozugbo na oru ngo",
+      "history_title": "Akụkọ ihe mere eme",
+      "history_empty": "Enweghị nsụgharị gara aga.",
+      "current_label": "Ugbu a"
+    },
+    "stems": {
+      "title": "Ụda olu na guitar",
+      "separate_button": "Ụda olu na guitar dị iche",
+      "running": "Na-ekewa…",
+      "vocals": "Ụda olu",
+      "instrumental": "Ngwa ngwa",
+      "process_stem": "Hazie azuokokoosisi",
+      "empty": "Nke a ewebeghị ikewapụ. Gbaa nkewa ka ịnụ ụda olu na guitar nọpụrụ iche.",
+      "capability_missing": "Awụnyeghị nkewa isi mmalite na sava a.",
+      "unavailable": "Nkewa olu/guitar adịghị na nkesa a."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Gbanye",
+    "boolean_off": "Gbanyụọ"
+  },
+  "import": {
+    "title": "Bubata",
+    "subtitle": "Weta ọrụ ndị dị na diski n'ọba akwụkwọ.",
+    "step_indicator": "Nzọụkwụ {{current}} nke {{total}} ",
+    "step1": {
+      "title": "Chọta folda",
+      "description": "Tụtụ aka na nchekwa mgbọrọgwụ na ọrụ gị na egwu gị.",
+      "path_label": "Ụzọ nchekwa",
+      "path_placeholder": "eg. E: \\ RobbsPride Music \\ ROBBS",
+      "recent_label": "Na nso nso a",
+      "scan_button": "Nyochaa nchekwa",
+      "scanning": "Na-enyocha…",
+      "ffmpeg_warning": "Ahụghị FFmpeg - faịlụ ndị chọrọ ntụgharị ga-awụpụ.",
+      "folders_found_one": " {{count}} nchekwa achọtara",
+      "folders_found_other": " {{count}} folda achọtara",
+      "unmatched_files_one": " {{count}} faịlụ anaghị amata",
+      "unmatched_files_other": " {{count}} faịlụ ndị amataghị"
+    },
+    "step2": {
+      "title": "Nyochaa ihe",
+      "description": "Lelee aha, statuses, na ihe a ga-ebubata tupu ị kwado ya.",
+      "select_all": "Họrọ ha niile",
+      "table": {
+        "folder": "Ebe nchekwa",
+        "name": "Aha oru ngo",
+        "status": "Ọnọdụ",
+        "audio": "Audio",
+        "lyrics": "Ederede",
+        "cover": "Mkpuchi",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} faịlụ ahọpụtara",
+      "audio_include_other": " {{count}} faịlụ ahọpụtara",
+      "no_audio": "Ọnweghị ọdịyo ahụrụ",
+      "no_lyrics": "Ọnweghị egwu ahụrụ",
+      "no_cover": "Enweghị mkpuchi",
+      "warnings_title": "Ịdọ aka ná ntị"
+    },
+    "step3": {
+      "title": "Bubata",
+      "description": "Kwenye na idetuo faịlụ ma mepụta oru ngo.",
+      "copy_originals": "Detuo faịlụ izizi n'ime ọba akwụkwọ",
+      "execute_button": "Malite mbubata",
+      "progress_title": "Na-ebubata…",
+      "created_count": "Emepụtara: {{count}} ",
+      "skipped_count": "Awụpụ: {{count}} ",
+      "done_title": "Bubata zuru ezu",
+      "done_description": "Emepụtara ọrụ ndị dị n'okpuru n'ọbá akwụkwọ gị.",
+      "view_project": "Mepee oru ngo",
+      "start_over": "mbubata ọhụrụ"
+    }
+  },
+  "templates": {
+    "title": "Ụdị",
+    "subtitle": "Ndebiri ozugbo na mkpado meta maka Suno nwere ike iji ya ọzọ.",
+    "tabs": {
+      "prompts": "Ndebiri ngwa ngwa",
+      "metatags": "meta mkpado"
+    },
+    "new_template": "Ndebiri ọhụrụ",
+    "kind": {
+      "style": "Ụdị",
+      "lyrics": "Ederede"
+    },
+    "kind_label": "Ụdị",
+    "delete_confirm_title": "Hichapụ template \"{{name}}\"?",
+    "delete_confirm_description": "Enweghị ike ịmegharị nke a.",
+    "empty": "Enweghị ndebiri ma.",
+    "editor": {
+      "title_new": "Ndebiri ọhụrụ",
+      "title_edit": "Dezie ndebiri",
+      "name_label": "Aha",
+      "name_placeholder": "eg. Ballad Acoustic",
+      "kind_label": "Ụdị",
+      "template_label": "Ederede ndebiri",
+      "template_hint": "Kaa akara ebe mgbanwe ọ bụla bụ nke ejiri aha ya kechie na ihe nkwado okpukpu abụọ - dịka ọmụmaatụ, mgbanwe aha ya bụ \"ụdị\" na-aghọ ụdị ọbọp na oghere abụọ na ihe nkwado abụọ.",
+      "variables_label": "Mgbanwe",
+      "variable_add": "Tinye mgbanwe",
+      "variable_name": "Igodo",
+      "variable_label": "Labelụ",
+      "variable_type": "Ụdị",
+      "variable_type_string": "Ederede",
+      "variable_type_select": "Họrọ otu",
+      "variable_type_multiselect": "Multi-họrọ",
+      "variable_type_number": "Nọmba",
+      "variable_type_boolean": "Ee/ee e",
+      "variable_options": "Nhọrọ (rịkọm-kewapụrụ)",
+      "variable_required": "Achọrọ",
+      "save": "Chekwa template"
+    },
+    "metatags": {
+      "title": "meta mkpado",
+      "subtitle": "Ihe nhazi na mkpado ụdị Suno na-amata egwu dị n'ime.",
+      "new_tag": "Mkpado ọhụrụ",
+      "tag_label": "Mkpado",
+      "tag_placeholder": "eg. guitar-solo",
+      "category_label": "Otu",
+      "tier_label": "Ntụkwasị obi",
+      "tier_legend_title": "Akụkọ akụkọ ntụkwasị obi",
+      "tier_legend": {
+        "1": "Tier 1 - edepụtara ma na-agbanwe agbanwe",
+        "2": "Tier 2 — na-arụkarị ọrụ",
+        "3": "Tier 3 - mgbanwe mmetụta",
+        "4": "Tier 4 - placebo, enweghị ego"
+      },
+      "description_label": "Nkọwa",
+      "delete_confirm_title": "Hichapụ mkpado \"{{tag}}\"?",
+      "empty": "Enweghị mkpado meta omenala."
+    }
+  },
+  "settings": {
+    "title": "Ntọala",
+    "subtitle": "Ozi sistemụ, asụsụ na mmasị ndabara.",
+    "system_info_title": "Sistemu",
+    "version": "Ụdị",
+    "data_dir": "nchekwa data",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Dị",
+    "ffmpeg_missing": "Ahụghị ya",
+    "capabilities_title": "Ike arụnyere",
+    "capability": {
+      "denoise": "Mbelata mkpọtụ",
+      "quality": "Nkwalite ogo",
+      "separate": "Isi mmalite nkewa",
+      "ffmpeg": "Ntụgharị FFmpeg"
+    },
+    "capability_available": "Dị",
+    "capability_unavailable": "Ọ dịghị",
+    "gpu_title": "GPU osooso",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "Ndị na-eweta oge ọsọ ONNX"
+    },
+    "gpu_none": "Enweghị ndị na-eweta GPU ahụrụ",
+    "language_title": "Asụsụ",
+    "language": {
+      "pt-BR": "Português (Brasil)",
+      "en": "Bekee"
+    },
+    "theme_title": "Ọdịdị",
+    "theme": {
+      "dark": "Ọchịchịrị",
+      "light": "Ìhè"
+    },
+    "defaults_title": "Mbupụ ndabara",
+    "lufs_target_label": "Ebumnuche LUFS",
+    "lufs_target_hint": "Ejiri ya dị ka ntụnye mmalite mgbe mbupu na-ewe. Ihe ndabere nke Suno na-anọdụ gburugburu -14 LUFS.",
+    "saved": "echekwara mmasị"
+  },
+  "guide": {
+    "title": "Ntuziaka ndekọ Suno",
+    "subtitle": "Otu esi eweghara olu na guitar na-enweta nsonaazụ kacha mma.",
+    "intro": "Suno na-arụ ọrụ kacha mma site na nrụtụ aka dị ọcha na enweghị mgbagha. Ntuziaka a na-ekpuchi nkwadebe, ọkwa ebumnuche, na edemede ndekọ 3-5 nkeji.",
+    "sections": {
+      "prep": {
+        "title": "Nkwadebe",
+        "body": "Dekọọ n'ime ụlọ a na-emeso ma ọ bụ nke nwere ọtụtụ ihe dị nro (mgbochi, akwa akwa, uwe na akwa mkpuchi). Gbanyụọ fan na ihe ọ bụla na-atọ ụtọ. Mee ka olu gị kpoo ọkụ maka nkeji 5 tupu ịdekọ."
+      },
+      "levels": {
+        "title": "Ọkwa: -12 ruo -6 dBFS",
+        "body": "Ebumnuche maka ọnụ ọgụgụ kacha elu n'etiti -12 na -6 dBFS na mita. N'okpuru oke ahụ, mkpọtụ ndabere na-apụtawanye ìhè; n'elu ya, clipping ize ndụ na-ebili. Jiri mita dị na ibe ndekọ ka ịtọ uru gị tupu ịmalite."
+      },
+      "distance": {
+        "title": "Ogologo igwe okwu: 15-30 cm",
+        "body": "Nọrọ 15 ruo 30 cm site na igwe okwu. Na nso karịa na ikwubiga okwu ókè plosives na nso mmetụta; N'ebe dị anya na-eburu ọnụ ụlọ na mkpọtụ."
+      },
+      "script": {
+        "title": "Edemede ndekọ",
+        "warmup": "Ọkụ olu (1-2 nkeji)",
+        "vowels": "Udaume na-adịgide adịgide - a, e, i, o, u",
+        "scales": "Mfe akpịrịkpa, elu na ala",
+        "excerpt": "Mpempe egwu egwu (ogwe 8 ruo 16)",
+        "dynamics": "Dynamics: malite nro, mechie oke",
+        "spoken_phrase": "Otu akpaokwu ekwu, ya mere Suno nwere ike ịgụ ụda olu gị"
+      },
+      "expectations": {
+        "title": "Ihe Suno na-atụ anya ya",
+        "body": "WAV, 48 kHz, mono, akọrọ (enweghị reverb ma ọ bụ mmetụta), nkeji 3 ruo 5 ntụaka. Nke kachasị dị ọcha, onye nnọchi anya nkeji 2 nke iwere na-arụpụtakarị nsonaazụ kacha mma."
+      }
+    }
+  },
+  "status": {
+    "idea": "Echiche",
+    "em_progresso": "Na-aga n'ihu",
+    "quase": "Ọ fọrọ nke nta ka ọ bụrụ ebe ahụ",
+    "pronto": "Njikere"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Ederede olu zuru oke maka Suno",
+      "desc": "Nkeji 5 eduzi: ikpo ọkụ, ụdaume, akpịrịkpa, akụkụ egwu abụọ, mgbanwe, na nkebiokwu ọnụ."
+    },
+    "step": {
+      "warmup": "Igwe ọkụ olu",
+      "warmup_inst": "Wepụ ya na ugha, egbugbere ọnụ (brrr), na mma dị nro maka ihe dịka otu nkeji. Ọ dịghị mkpa ịdekọ - ọ bụ naanị iji mee ka akpịrị gị zuo ike tupu ị na-abụ abụ.",
+      "vowels": "Udaume na-adịgide adịgide",
+      "vowels_inst": "Jide ụdaume ọ bụla - a, e, i, o, u - maka 3 ruo 4 sekọnd n'ụda ụda gị dị mma, jiri olu kwụ ọtọ. Nke a na-enyere Suno aka iweta timbre dị ọcha nke olu gị.",
+      "scales": "Akara elu na ala",
+      "scales_inst": "Na-abụ abụ dị mfe elu na ala, na \"la\" ma ọ bụ \"na\". Ọ dịghị mkpa ka ọ zuo oke - ihe mgbaru ọsọ bụ ịdepụta oke ụda olu gị.",
+      "section": "Mpempe egwu egwu - akụkụ 1",
+      "section_inst": "Na-abụ abụ 8 ruo 16 nke egwu ahụ, na ebumnuche nke ịchọrọ ibuga. Wepụta idoanya na ọnụnọ karịa izu oke nka.",
+      "section2": "Mpempe egwu egwu - akụkụ 2",
+      "section2_inst": "Na-abụ abụ 8 ruo 16 ọzọ - ọ kachasị mma egwu egwu ma ọ bụ akụkụ nke dị iche na nke gara aga. Ụdị dị iche iche na-enyere ihe nlereanya aka ịmụta olu gị.",
+      "dynamics": "Dynamics: dị nro → dara ụda",
+      "dynamics_inst": "Na-abụ otu nkebiokwu ahụ na-amalite dị nro ma na-agwụcha n'olu dara ụda, na-emegbughị akpịrị gị. Nke a na-egosi Suno oke ụda olu gị.",
+      "spoken": "Akpaokwu a na-ekwu",
+      "spoken_inst": "Kwuonụ — ekwela abụ — nkenke nkebi ahịrịokwu, dị ka à ga-asị na ị na-akparịta ụka. Nke a na-enyere Suno aka ịmata ezigbo timbre nke olu gị."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Mweghachi",
+      "filter": "Ihe nzacha",
+      "dynamics": "Dynamics",
+      "separation": "Nkewa",
+      "quality": "Ogo",
+      "utility": "Ịbara uru",
+      "loudness": "Ụda olu"
+    },
+    "highpass": "Nzacha dị elu",
+    "lowpass": "Ihe nzacha dị ala",
+    "denoise": "Mbelata mkpọtụ",
+    "declip": "Na-agbada",
+    "declick": "Pịa/iwepụ mmapụta",
+    "deesser": "De-esser",
+    "gate": "Ọnụ ụzọ mkpọtụ",
+    "compressor": "Compressor",
+    "limiter": "Oke",
+    "eq": "Nhata",
+    "normalize": "Nhazi kacha elu",
+    "loudness": "Nhazi ụda olu (LUFS)",
+    "reverb_reduce": "Mbelata ntụgharị",
+    "separate": "Isi mmalite nkewa",
+    "quality": "Nkwalite ogo (oke elu)",
+    "trim_silence": "Mbelata ọnụ ala",
+    "fade": "Tụgharịa n'ime / daa",
+    "stereo_to_mono": "Tụgharịa ka ọ bụrụ mono",
+    "resample": "Nhazigharị"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Kwesịrị ntụkwasị obi",
+      "2": "Na-arụkarị ọrụ",
+      "3": "Na-agbanwe agbanwe",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Nhazi",
+      "vocal": "Olu olu",
+      "instrument": "Akụrụngwa",
+      "dynamics": "Dynamics",
+      "production": "Mmepụta",
+      "mood": "Mmetụta"
+    },
+    "verse": "Amaokwu",
+    "chorus": "Chorus",
+    "bridge": "Akwa akwa",
+    "intro": "Okwu mmalite",
+    "outro": "Outro",
+    "hook": "nko",
+    "prechorus": "Tupu ekwo egwu",
+    "instrumental": "Ngwa ngwa",
+    "guitar_solo": "Guitar solo",
+    "build_up": "Nwuo elu",
+    "breakdown": "ndakpọ",
+    "spoken_word": "Okwu ekwuru",
+    "whispered": "Tụsara ọnụ",
+    "harmonies": "Harmonies",
+    "male_vocal": "Uda olu nwoke",
+    "female_vocal": "Olu nwanyi",
+    "duet": "Duet",
+    "acoustic": "Acoustic",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Olu dị ọcha",
+    "voice_guitar_balanced": "Olu & guitar kwụ ọtọ",
+    "podcast": "Pọdkastị",
+    "suno_ready": "Suno dị njikere",
+    "gentle_restore": "Iweghachi nwayọọ",
+    "raw_passthrough": "Enweghị nhazi"
+  },
+  "errors": {
+    "unknown": "Ọ nwere ihe adịghị mma.",
+    "network": "Enweghị ike iru ihe nkesa ahụ.",
+    "validation_error": "Lelee ozi ị debanyere.",
+    "not_found": "Ahụghị ihe.",
+    "project_not_found": "Achọtaghị oru ngo.",
+    "take_not_found": "Were ahụghị.",
+    "album_not_found": "Achọtaghị album.",
+    "preset_not_found": "Achọtaghị ntọala.",
+    "template_not_found": "Ahụghị ndebiri.",
+    "device_busy": "Mmemme ọzọ na-eji ngwaọrụ ọdịyo.",
+    "device_not_found": "Ahụghị ngwaọrụ ọdịyo.",
+    "already_recording": "Ndekọ na-aga n'ihu.",
+    "ffmpeg_missing": "Awụnyeghị FFmpeg - wụnye ya iji tọghata faịlụ a.",
+    "disk_full": "Oghere diski ezughi oke.",
+    "permission_denied": "Ajụrụ ikike maka ụzọ enyere.",
+    "import_path_not_found": "Ụzọ mbubata ahụghị.",
+    "job_failed": "Nhazi dara.",
+    "job_cancelled": "A kagbuola nhazi.",
+    "process_failed": "Ịhazi ihe a agaghị eme.",
+    "export_failed": "Mbupu faịlụ a agaghị.",
+    "record_failed": "Ịmalite ndekọ agaghị."
+  },
+  "jobs": {
+    "status": {
+      "queued": "kwụ n'ahịrị",
+      "running": "Na-agba ọsọ",
+      "done": "Emechaala",
+      "error": "Okpu",
+      "cancelled": "Kagbuo"
+    },
+    "kind": {
+      "process": "Nhazi",
+      "export": "Mbupụ",
+      "import": "Bubata",
+      "record": "Edekọ"
+    }
+  }
+}

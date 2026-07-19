@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Mangdalus iti Audio"
+  },
+  "nav": {
+    "library": "Libraria",
+    "record": "Irekord",
+    "import": "Import ti panagangkat",
+    "templates": "Dagiti plantilia",
+    "settings": "Dagiti Setting",
+    "guide": "Giya"
+  },
+  "common": {
+    "save": "Idulin",
+    "saving": "Panag-urnong...",
+    "saved": "Naisalakan",
+    "cancel": "Kanselaen",
+    "close": "Agserra",
+    "delete": "Buraken",
+    "edit": "Urnosen ti",
+    "create": "Mangparnuay",
+    "search": "Agbirok",
+    "loading": "Karga ti...",
+    "error": "Biddut nga",
+    "retry": "Padasem manen",
+    "confirm": "Pasingkedan",
+    "back": "Agsubli",
+    "next": "Sumaruno",
+    "continue": "Ituloymo",
+    "finish": "Leppasen",
+    "copy": "Kopiaen",
+    "copied": "Nakopia",
+    "download": "I-download ti",
+    "upload": "I-upload ti",
+    "none": "Awan ti maysa",
+    "all": "Amin",
+    "yes": "Wen",
+    "no": "Saan",
+    "select": "Pilien ti",
+    "optional": "opsional nga",
+    "required": "kasapulan",
+    "unsaved_changes": "Dagiti saan a naisalakan a panagbalbaliw",
+    "name": "Nagan",
+    "status": "Kasasaad",
+    "type": "Tipo ti",
+    "actions": "Dagiti Aramiden",
+    "empty": "Empty",
+    "browse": "Ag-browse iti",
+    "remove": "Ikkaten",
+    "add": "Add",
+    "rename": "Baliwan ti nagan",
+    "duplicate": "Duplikado",
+    "warning": "Pakdaar",
+    "locked": "Nakandado",
+    "builtin": "Naibangon ti uneg",
+    "custom": "Kostumbre",
+    "untitled": "Awan ti paulo",
+    "select_placeholder": "Pilien ti..."
+  },
+  "library": {
+    "title": "Libraria",
+    "subtitle": "Dagiti proyektom iti boses ken gitara, manipud iti ideya agingga iti pannakairuar.",
+    "new_project": "Baro a proyekto",
+    "new_album": "Baro nga album",
+    "search_placeholder": "Agbirok babaen ti nagan...",
+    "view": {
+      "grid": "Grid ti",
+      "albums": "Dagiti album"
+    },
+    "filters": {
+      "all": "Amin"
+    },
+    "take_count_one": " {{count}} nga alaen",
+    "take_count_other": " {{count}} ti mangala",
+    "updated_at": "Na-update {{date}} . ",
+    "no_results": {
+      "title": "Awan ti nasarakan a proyekto",
+      "description": "Padasem nga i-adjust ti search wenno status filter."
+    },
+    "empty": {
+      "title": "Awan ti tao iti library-yo",
+      "description": "Rugian ti baro a proyekto manipud iti rugi, wenno dagiti import takes nga adda kenka iti disk.",
+      "cta_import": "Import manipud iti folder",
+      "cta_new": "Mangaramid ti proyekto"
+    },
+    "project_dialog": {
+      "title": "Baro a proyekto",
+      "description": "Ikkam iti nagan ken piliem ti recording mode.",
+      "name_label": "Nagan ti proyekto",
+      "name_placeholder": "e.g. Tudo ti Kalgaw",
+      "mode_label": "Modo ti Modo",
+      "mode": {
+        "voice": "Boses laeng",
+        "voice_guitar": "Boses + gitara"
+      },
+      "submit": "Mangaramid ti proyekto"
+    },
+    "album_dialog": {
+      "title": "Baro nga album",
+      "description": "Igrupo dagiti mainaig a proyekto iti maysa nga album.",
+      "name_label": "Nagan ti album",
+      "name_placeholder": "e.g. Otonio nga EP",
+      "submit": "Mangaramid iti album"
+    },
+    "album": {
+      "untitled": "Awan ti paulo ti album",
+      "members_count_one": " {{count}} proyekto",
+      "members_count_other": " {{count}} dagiti proyekto",
+      "empty": "Awan pay ti proyekto iti daytoy nga album.",
+      "delete_confirm_title": "Buraken ti album?",
+      "delete_confirm_description": "Saan a maikkat dagiti proyekto, saan laeng a naisilpo manipud iti \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Ikkaten ti \" {{name}} \"?",
+      "confirm_description": "Daytoy ti mangikkat iti proyekto ken tunggal panangala iti dayta. Saan a ma-undone daytoy."
+    }
+  },
+  "record": {
+    "title": "Irekord",
+    "subtitle": "Mangtiliw iti nadalus a panangala, buyaem dagiti lebelmo, ken surotem ti iskrip.",
+    "project_label": "Proyekto",
+    "project_placeholder": "Pilien ti maysa a proyekto",
+    "project_create_quick": "Mangaramid ti napardas a proyekto...",
+    "device_label": "Input nga alikamen",
+    "device_placeholder": "Pilien ti maysa nga alikamen",
+    "device_default_badge": "Default ti sistema",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Awan ti nasarakan nga input devices.",
+    "monitor_button": "Monitor ti",
+    "monitor_stop_button": "Isardeng ti panagmonitor",
+    "record_button": "Irekord",
+    "stop_button": "Agsardengka",
+    "elapsed_label": "Naglabas a panawen",
+    "status": {
+      "idle": "Idle ti bagina",
+      "monitoring": "Panangmonitor",
+      "recording": "Panagrekord",
+      "stopped": "Nagsardeng"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Pantok",
+      "clip": "Clip ti"
+    },
+    "guide": {
+      "title": "Naiwanwan a sesion",
+      "subtitle": "Bay-am a ti coach ti mangiturong kenka iti iskrip iti addang nga addang, manipud iti panagpabara agingga iti naisao a ragup ti sasao.",
+      "loading": "Karga ti iskrip...",
+      "unavailable": "Saan pay a magun-od ti guided session iti server.",
+      "select_project_device": "Pilien ti proyekto ken input device tapno mairekord dagiti addang manipud ditoy.",
+      "progress": " {{done}} ti {{total}} nga addang",
+      "start_timer": "Mangrugi ti timer",
+      "skip_timer": "Laktawan ti timer",
+      "record_step": "Irekord daytoy nga addang",
+      "stop_step": "Isardeng ti agrekord",
+      "mark_done": "Naaramid — sumaruno nga addang",
+      "step_recorded": "Alaen ti nairekord",
+      "no_record_step": "Warm-up step — awan ti kasapulan a panagrekord.",
+      "bars_hint": "Agarup {{bars}} a bara",
+      "complete_title": "Nakompleto ti iskrip!",
+      "complete_body": "Nairekordmo ti tunggal addang ti script. Agsublika iti Audio tab ti proyekto ket piliem dagiti paboritom a take.",
+      "restart": "Irugi manen ti iskrip"
+    },
+    "best2min": {
+      "button": "Sapulen ti kasayaatan a 2 a minuto (Suno) .",
+      "running": "Panag-analisar ti take...",
+      "score_label": "Iskor",
+      "hint": "Ipatarayna ti panaganalisar ti enerhia ken kinalawag iti intero a panangala tapno masarakan ti kapigsaan a 2-minuto a tawana — mabalinmo pay laeng nga i-adjust ti range babaen ti ima kalpasanna.",
+      "chart_caption": "Iskor iti tunggal tawa",
+      "unavailable": "Ti best-2-minutes analysis ket saan pay a magun-od iti daytoy a server."
+    },
+    "takes_title": "Alaen manipud iti daytoy a sesion",
+    "takes_empty": "Awan pay ti nairekord a take iti daytoy a session.",
+    "open_in_project": "Open iti proyekto",
+    "ws_disconnected": "Agkonekta manen iti level meter...",
+    "select_project_first": "Pilien ti proyekto a pangrugian.",
+    "select_device_first": "Pilien ti input device."
+  },
+  "project": {
+    "back_to_library": "Agsubli iti library",
+    "header": {
+      "status_label": "Kasasaad",
+      "cover_upload": "I-upload ti akkub",
+      "cover_remove": "Ikkaten ti kalub",
+      "name_placeholder": "Nagan ti proyekto",
+      "links_title": "Dagiti silpo",
+      "add_link": "Add link",
+      "mode": {
+        "voice": "Boses laeng",
+        "voice_guitar": "Boses + gitara"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Liriko",
+      "prompts": "Dagiti Mangtignay",
+      "notes": "Dagiti Pakaammo"
+    },
+    "audio": {
+      "takes_title": "Alaen",
+      "no_takes": {
+        "title": "Awan pay ti mangala",
+        "description": "Irekord ti baro nga alaen wenno i-import ti addan a file."
+      },
+      "record_new": "Irekord ti baro a take",
+      "rating": "Rating ti rating",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Naproseso"
+      },
+      "variant_placeholder": "Bersion ti",
+      "process_button": "Proseso ti",
+      "export_button": "I-export ti i-export",
+      "delete_take_confirm_title": "I-delete daytoy nga take?",
+      "delete_take_confirm_description": "Maikkat ti raw audio ken tunggal naproseso a bersion.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Naproseso"
+      },
+      "origin": {
+        "recorded": "Nairekord",
+        "imported": "Imported"
+      },
+      "session_label_placeholder": "Etiketa ti sesion (opsional) .",
+      "duration": "Kapaut ti panagbiagna",
+      "sample_rate": "Sample rate ti sample",
+      "channels": "Dagiti Channel",
+      "created_at": "Nairekord"
+    },
+    "pipeline": {
+      "title": "Kadena ti panagproseso",
+      "preset_label": "Naisaad a nasaksakbay",
+      "preset_none": "Custom nga kadena",
+      "preset_save": "I-save kas preset",
+      "stage_locked": "Nakandado",
+      "stage_requires_extra": "Kasapulan ti ekstra a saan a nai-install",
+      "process_button": "Proseso nga alaen",
+      "processing": "Panagproseso ti...",
+      "job_queued": "Nagpila...",
+      "job_running": "Panagproseso ti...",
+      "job_done": "Naaramiden",
+      "job_error": "Napaay",
+      "job_cancelled": "Nakansela",
+      "cancel_job": "Kanselaen",
+      "no_stages": "Awan dagiti magun-odan nga entablado."
+    },
+    "export": {
+      "title": "Export nga alaen",
+      "description": "Mangiparang ti maudi a file manipud iti naproseso a bersion.",
+      "variant_label": "Bersion ti",
+      "format_label": "Pormat ti",
+      "preset_label": "I-export ti preset",
+      "range_label": "Range ti range",
+      "range_full": "Naan-anay ti kaatiddogna",
+      "range_custom": "Kostumbre nga range",
+      "start_label": "Mangrugi (dagiti) .",
+      "end_label": "Panungpalan (dagiti) .",
+      "submit": "I-export ti i-export",
+      "progress": "Ti file ti panagiparang...",
+      "download_ready": "Nakasagana ti file",
+      "download_button": "I-download ti file"
+    },
+    "notes": {
+      "placeholder": "Libre-porma a nota maipapan iti daytoy a proyekto...",
+      "saved_at": "Naidulin iti {{time}} . "
+    },
+    "lyrics": {
+      "placeholder": "Isurat ti liriko ditoy. Usaren ti paleta iti sikigan tapno mangikabil kadagiti Suno meta-tags.",
+      "saved_at": "Naidulin iti {{time}} . ",
+      "saving": "Panag-urnong...",
+      "versions": "Dagiti Bersion",
+      "versions_empty": "Awan pay dagiti naidulin a bersion.",
+      "version_preview": "Preview ti umuna",
+      "restore": "Isubli daytoy a bersion",
+      "restore_confirm_title": "Isubli daytoy a bersion?",
+      "restore_confirm_description": "Ti agdama a teksto ket masukatan iti bersion a naidulin iti {{date}} .",
+      "metatags_title": "Dagiti meta-tag",
+      "metatags_hint": "I-click ti tag tapno maikabil iti cursor.",
+      "metatags_placebo_warning": "Di napaneknekan — mabalin nga awan ti epektona iti resulta.",
+      "metatags_empty": "Awan ti nairehistro a meta-tag."
+    },
+    "prompts": {
+      "style_title": "Estilo ti prompt",
+      "lyrics_title": "Liriko ti prompt",
+      "template_label": "Plantilia ti",
+      "template_none": "Awan ti plantilia",
+      "variables_title": "Dagiti variable",
+      "preview_title": "Preview ti umuna",
+      "preview_empty": "Pilien ti plantilia ken punnuen dagiti variable tapno makita ti preview.",
+      "char_count": " {{count}} dagiti karakter",
+      "char_count_warning": "Dagiti estilo a panagkiddaw iti nasurok a 1000 a karakter ket mabalin a maputolan babaen ni Suno.",
+      "copy": "Kopiaen",
+      "copied": "Nakopia iti clipboard",
+      "save_to_project": "I-save iti proyekto",
+      "saved_to_project": "Naidulin ti prompt iti proyekto",
+      "history_title": "Pakasaritaan",
+      "history_empty": "Awan dagiti napalabas a bersion.",
+      "current_label": "Agdama"
+    },
+    "stems": {
+      "title": "Bokal ken gitara",
+      "separate_button": "Agsina ti bokal ken gitara",
+      "running": "Panagsina ti...",
+      "vocals": "Bokal nga",
+      "instrumental": "Instrumental nga",
+      "process_stem": "Iproseso daytoy a puon",
+      "empty": "Saan pay a naisina daytoy a take. Run separation tapno mangngeg ti bokal ken gitara nga isolation.",
+      "capability_missing": "Saan a naikabil ti panagsina ti gubuayan iti daytoy a serbidor.",
+      "unavailable": "Saan pay a magun-od ti vocal/guitar separation iti daytoy a server."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "On",
+    "boolean_off": "Off"
+  },
+  "import": {
+    "title": "Import ti panagangkat",
+    "subtitle": "Mangyeg kadagiti proyekto nga addan iti disk iti biblioteka.",
+    "step_indicator": "Addang {{current}} ti {{total}} . ",
+    "step1": {
+      "title": "Sapulen ti folder",
+      "description": "Itudo ti root folder nga addaan kadagiti proyekto ken track-mo.",
+      "path_label": "Dalan ti folder",
+      "path_placeholder": "e.g. E: \\ Robbs \\ Pride \\ Musika \\ ROBBS",
+      "recent_label": "Nabiit pay",
+      "scan_button": "I-scan ti folder",
+      "scanning": "Panag-scan...",
+      "ffmpeg_warning": "Saan a nasarakan ti FFmpeg — dagiti file a kasapulan ti panagbalbaliw ket malaktawan.",
+      "folders_found_one": " {{count}} folder ti nasarakan",
+      "folders_found_other": " {{count}} dagiti folder ti nasarakan",
+      "unmatched_files_one": " {{count}} saan a mabigbigan a file",
+      "unmatched_files_other": " {{count}} dagiti saan a mabigbigan a file"
+    },
+    "step2": {
+      "title": "Repasuen dagiti banag",
+      "description": "Kitaen dagiti nagan, kasasaad, ken no ania ti mai-import sakbay a pasingkedan.",
+      "select_all": "Pilien amin",
+      "table": {
+        "folder": "Folder ti gubuayan",
+        "name": "Nagan ti proyekto",
+        "status": "Kasasaad",
+        "audio": "Audio",
+        "lyrics": "Liriko",
+        "cover": "Kaluban",
+        "album": "Album nga"
+      },
+      "audio_include_one": " {{count}} file ti napili",
+      "audio_include_other": " {{count}} dagiti file ti napili",
+      "no_audio": "Awan ti nasarakan nga audio",
+      "no_lyrics": "Awan ti nasarakan a liriko",
+      "no_cover": "Awan ti akkub",
+      "warnings_title": "Dagiti Pakdaar"
+    },
+    "step3": {
+      "title": "Import ti panagangkat",
+      "description": "Pasingkedan a kopiaen dagiti file ken mangpartuat kadagiti proyekto.",
+      "copy_originals": "Kopiaen dagiti orihinal a file iti library",
+      "execute_button": "Rugian ti panagangkat",
+      "progress_title": "Panag-import...",
+      "created_count": "Naparsua: {{count}} ",
+      "skipped_count": "Nalaktawan: {{count}} . ",
+      "done_title": "Nakompleto ti panagangkat",
+      "done_description": "Dagiti proyekto iti baba ket naparsua iti library-yo.",
+      "view_project": "Open nga proyekto",
+      "start_over": "Baro nga import"
+    }
+  },
+  "templates": {
+    "title": "Dagiti plantilia",
+    "subtitle": "Dagiti mausar manen a plantilia ti prompt ken dagiti meta-tag para iti Suno.",
+    "tabs": {
+      "prompts": "Dagiti plantilia ti prompt",
+      "metatags": "Dagiti meta-tag"
+    },
+    "new_template": "Baro a plantilia",
+    "kind": {
+      "style": "Estilo",
+      "lyrics": "Liriko"
+    },
+    "kind_label": "Naasi",
+    "delete_confirm_title": "Buraken ti plantilia \" {{name}} \"?",
+    "delete_confirm_description": "Saan a ma-undone daytoy.",
+    "empty": "Awan pay ti plantilia.",
+    "editor": {
+      "title_new": "Baro a plantilia",
+      "title_edit": "Plantilia ti i-edit",
+      "name_label": "Nagan",
+      "name_placeholder": "e.g. Balada nga akustiko",
+      "kind_label": "Naasi",
+      "template_label": "Teksto ti plantilia",
+      "template_hint": "Markaam no sadino ti tunggal maysa a variable ket tagikua babaen ti naganna a nabalkot kadagiti doble a kulot a brace — kas pagarigan, ti maysa a variable a napanaganan iti \"genre\" ket agbalin a genre a nabalkot iti dua a panglukat ken dua a pangserra a brace.",
+      "variables_label": "Dagiti variable",
+      "variable_add": "Inayon ti variable",
+      "variable_name": "Tulbek",
+      "variable_label": "Etiketa ti",
+      "variable_type": "Tipo ti",
+      "variable_type_string": "Teksto",
+      "variable_type_select": "Single select",
+      "variable_type_multiselect": "Adu ti pilien",
+      "variable_type_number": "Numero",
+      "variable_type_boolean": "Wen/saan",
+      "variable_options": "Dagiti pagpilian (naisina babaen ti koma) .",
+      "variable_required": "Masapul",
+      "save": "I-save ti plantilia"
+    },
+    "metatags": {
+      "title": "Dagiti meta-tag",
+      "subtitle": "Structural ken style tags Mabigbig ni Suno iti uneg dagiti liriko.",
+      "new_tag": "Baro nga tag",
+      "tag_label": "Tag",
+      "tag_placeholder": "e.g. gitara-solo",
+      "category_label": "Kategoria",
+      "tier_label": "Mapagtalkan",
+      "tier_legend_title": "Sarita ti kinamapagtalkan",
+      "tier_legend": {
+        "1": "Tier 1 — nadokumento ken agtultuloy",
+        "2": "Tier 2 — kadawyan nga agtrabaho",
+        "3": "Tier 3 — nadumaduma nga epekto",
+        "4": "Tier 4 — placebo, saan a napaneknekan"
+      },
+      "description_label": "Panangdeskribir",
+      "delete_confirm_title": "Buraken ti tag \" {{tag}} \"?",
+      "empty": "Awan pay ti custom meta-tags."
+    }
+  },
+  "settings": {
+    "title": "Dagiti Setting",
+    "subtitle": "Impormasion ti sistema, pagsasao, ken dagiti default a kaykayat.",
+    "system_info_title": "Sistema",
+    "version": "Bersion ti",
+    "data_dir": "Folder ti datos",
+    "ffmpeg_status": "FFmpeg nga",
+    "ffmpeg_available": "Mabalin nga usaren",
+    "ffmpeg_missing": "Saan a nasarakan",
+    "capabilities_title": "Naipasdek a kabaelan",
+    "capability": {
+      "denoise": "Pabassiten ti arimbangaw",
+      "quality": "Panagpasayaat ti kalidad",
+      "separate": "Panagsina ti gubuayan",
+      "ffmpeg": "FFmpeg ti panagbalbaliw"
+    },
+    "capability_available": "Mabalin nga usaren",
+    "capability_unavailable": "Saan a magun-od",
+    "gpu_title": "Panagpapartak ti GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch nga CUDA",
+      "ort_providers": "ONNX Dagiti mangipapaay ti Runtime"
+    },
+    "gpu_none": "Awan dagiti naduktalan a mangipapaay ti GPU",
+    "language_title": "Pagsasao",
+    "language": {
+      "pt-BR": "Português (Brasil) nga .",
+      "en": "Ingles"
+    },
+    "theme_title": "Panagparang",
+    "theme": {
+      "dark": "Nasipnget",
+      "light": "Lawag"
+    },
+    "defaults_title": "Dagiti default ti panag-export",
+    "lufs_target_label": "Target nga LUFS",
+    "lufs_target_hint": "Nausar a kas pangrugian a singasing no ag-export ti mangala. Ti default ni Suno ket agtugaw iti aglawlaw ti -14 LUFS.",
+    "saved": "Naidulin dagiti kaykayat"
+  },
+  "guide": {
+    "title": "Giya ti panagrekord ti Suno",
+    "subtitle": "Kasano ti mangtiliw iti boses ken gitara takes a makagun-od iti kasayaatan a resulta.",
+    "intro": "Kasayaatan ti panagaramid ni Suno kadagiti nadalus, di agduadua a reperensia. Saklawen daytoy a giya ti panagsagana, dagiti lebel ti target, ken ti 3–5 a minuto nga iskrip ti panagrekord.",
+    "sections": {
+      "prep": {
+        "title": "Panagsagana",
+        "body": "Irekord iti naagasan a siled wenno maysa nga adu ti nalukneng a material (kurtina, alpombra, kawes iti aparador). Iddepen dagiti bentilador ken aniaman nga ag-hum. Pabaraem ti timekmo iti 5 a minuto sakbay nga agrekord."
+      },
+      "levels": {
+        "title": "Lebels: -12 agingga iti -6 dBFS",
+        "body": "Panggep dagiti peaks iti nagbaetan ti -12 ken -6 dBFS iti metro. Iti baba dayta a sakup, ad-adda a madlaw ti arimbangaw iti likudan; iti ngato dayta, ngumato ti peggad ti panagputed. Usaren ti metro iti panid ti Record tapno i-set ti gain-mo sakbay a mangrugika."
+      },
+      "distance": {
+        "title": "Distansia ti mic: 15–30 cm",
+        "body": "Agtalinaed iti 15 agingga iti 30 cm manipud iti mikropono. Ti as-asideg ngem iti dayta ket aglablabes kadagiti plosive ken proximity effect; ti adayo ket mangala iti ad-adu a room reverb ken arimbangaw."
+      },
+      "script": {
+        "title": "Iskrip ti panagrekord",
+        "warmup": "Panagpabara ti boses (1–2 a minuto) .",
+        "vowels": "Nasustiner a bokales — a, e, i, o, u",
+        "scales": "Simple a timbangan, agpangato ken agpababa",
+        "excerpt": "Maysa a naadaw a kanta (8 agingga iti 16 a bar) .",
+        "dynamics": "Dinamika: mangrugi a nalukneng, agpatingga iti napigsa",
+        "spoken_phrase": "Maysa a naisao a ragup ti sasao, tapno mabasa ni Suno ti tono ti bosesmo"
+      },
+      "expectations": {
+        "title": "Ti namnamaen ni Suno",
+        "body": "WAV, 48 kHz, mono, dry (awan ti reverb wenno epekto), 3 agingga iti 5 a minuto a reperensia. Ti kadadalus, kaaduan a pannakabagi a 2 a minuto ti panangala ket kadawyan a mangpataud kadagiti kasayaatan a resulta."
+      }
+    }
+  },
+  "status": {
+    "idea": "Idea",
+    "em_progresso": "Agtultuloy",
+    "quase": "Dandani adda sadiay",
+    "pronto": "Nakasagana"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Naan-anay nga iskrip ti boses para ken ni Suno",
+      "desc": "5 a naigiya a minuto: panagpabara, bokales, timbangan, dua a naadaw iti kanta, dinamika, ken maysa a naisao a ragup ti sasao."
+    },
+    "step": {
+      "warmup": "Panagpabara ti boses",
+      "warmup_inst": "Luk-atan babaen ti yawns, lip trills (brrr), ken nalamuyot nga hum iti agarup maysa a minuto. Saan a kasapulan ti agrekord — tapno laeng marelaks ti karabukobmo sakbay nga agkanta.",
+      "vowels": "Nasustiner a bokales",
+      "vowels_inst": "Iggamam ti tunggal bokales — a, e, i, o, u — iti 3 agingga iti 4 a segundo iti komportable a tonom, nga addaan iti natalged a kapigsa. Makatulong daytoy ken ni Suno a mangpidut iti puro a timbre ti timekmo.",
+      "scales": "Timbang nga agpangato ken agpababa",
+      "scales_inst": "Kantaen ti simple a timbangan nga agpangato ken kalpasanna agpababa, iti \"la\" wenno \"na\". Saan a kasapulan a perpekto — ti panggep ket ti panangimapa iti vocal range-mo.",
+      "section": "Naadaw ti kanta — paset 1",
+      "section_inst": "Kantaem ti 8 agingga iti 16 a bara ti kanta, nga addaan iti pudno a panggep a kayatmo nga ipaawat. Ipangpangruna ti kinalawag ken kaadda ngem ti teknikal a kinaperpekto.",
+      "section2": "Naadaw ti kanta — paset 2",
+      "section2_inst": "Kantaen ti sabali pay a 8 agingga iti 16 a bar — nasaysayaat no koro wenno benneg a naiduma iti immun-una. Ad-adu a kinanadumaduma ti tumulong iti modelo a mangammo iti timekmo.",
+      "dynamics": "Dinamika: nalukneng → napigsa",
+      "dynamics_inst": "Kantaem ti isu met laeng a ragup ti sasao a mangrugi iti nalamuyot unay ken agpatingga iti napigsa, a dimo rigaten ti karabukobmo. Daytoy ti mangipakita ken ni Suno ti dinamiko a range ti timekmo.",
+      "spoken": "Naisao a ragup ti sasao",
+      "spoken_inst": "Agsao — dika agkanta — iti ababa, natural a ragup ti sasao, a kasla makisarsaritaka. Daytoy ti tumulong ken ni Suno a mangbigbig iti pudno a timbre ti timekmo."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Pannakaisubli",
+      "filter": "Dagiti pagsala",
+      "dynamics": "Dinamika ti",
+      "separation": "Panagsina",
+      "quality": "Kalidad ti kalidad",
+      "utility": "Utility nga",
+      "loudness": "Napigsa ti timek"
+    },
+    "highpass": "High-pass a pagsala",
+    "lowpass": "Nababa ti panaglabasna a pagsala",
+    "denoise": "Pabassiten ti arimbangaw",
+    "declip": "Agkurkurang",
+    "declick": "I-click/pop ti panangikkat",
+    "deesser": "De-esser ti panag-de-esser",
+    "gate": "Ruangan ti arimbangaw",
+    "compressor": "Kompresor ti",
+    "limiter": "Limiter ti",
+    "eq": "Panagpapada",
+    "normalize": "Pantok a normalisasion",
+    "loudness": "Normalisasion ti kapigsa (LUFS) .",
+    "reverb_reduce": "Reverb ti panangkissay",
+    "separate": "Panagsina ti gubuayan",
+    "quality": "Panagpasayaat ti kalidad (upscale) .",
+    "trim_silence": "Silence trimming",
+    "fade": "Fade in / agkupas",
+    "stereo_to_mono": "Ikonberte ti mono",
+    "resample": "Panagsample manen"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Mapagtalkan",
+      "2": "Gagangay nga agtrabaho",
+      "3": "Variable nga",
+      "4": "Placebo nga"
+    },
+    "category": {
+      "structure": "Estruktura ti",
+      "vocal": "Bokal nga",
+      "instrument": "Instrumento nga",
+      "dynamics": "Dinamika ti",
+      "production": "Produksion",
+      "mood": "Mood ti rikna"
+    },
+    "verse": "Bersikulo",
+    "chorus": "Koro",
+    "bridge": "Rangtay",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Kawit ti kawit",
+    "prechorus": "Sakbay ti koro",
+    "instrumental": "Instrumental nga",
+    "guitar_solo": "Solo ti gitara",
+    "build_up": "Build-up ti panagbangon",
+    "breakdown": "Pannakadadael",
+    "spoken_word": "Naisao a sao",
+    "whispered": "Insippawna",
+    "harmonies": "Dagiti panagtutunos",
+    "male_vocal": "Lalaki nga bokal",
+    "female_vocal": "Babai a bokal",
+    "duet": "Duet",
+    "acoustic": "Acoustic nga",
+    "ad_lib": "Ad-lib nga"
+  },
+  "presets": {
+    "clean_voice": "Nadalus ti timek",
+    "voice_guitar_balanced": "Natimbeng ti boses & gitara",
+    "podcast": "Podcast nga",
+    "suno_ready": "Suno nakasagana",
+    "gentle_restore": "Naalumamay nga isubli",
+    "raw_passthrough": "Awan ti panagproseso"
+  },
+  "errors": {
+    "unknown": "Adda nagbiddut.",
+    "network": "Saan a makadanon iti server.",
+    "validation_error": "Kitaem ti impormasion nga inserrekmo.",
+    "not_found": "Item saan a nasarakan.",
+    "project_not_found": "Proyekto a saan a nasarakan.",
+    "take_not_found": "Alaen ti saan a nasarakan.",
+    "album_not_found": "Album a saan a nasarakan.",
+    "preset_not_found": "Saan a nasarakan ti preset.",
+    "template_not_found": "Saan a nasarakan ti plantilia.",
+    "device_busy": "Audio device ti us-usaren ti sabali a programa.",
+    "device_not_found": "Saan a nasarakan ti audio device.",
+    "already_recording": "Madamaen ti panagrekord.",
+    "ffmpeg_missing": "Saan a naikabil ti FFmpeg — i-install daytoy tapno mabaliwan daytoy a file.",
+    "disk_full": "Saan nga umdas ti disk space.",
+    "permission_denied": "Napagkedkedan ti pammalubos para iti naited a dalan.",
+    "import_path_not_found": "Saan a nasarakan ti dalan ti panagangkat.",
+    "job_failed": "Napaay ti panagproseso.",
+    "job_cancelled": "Nakansela ti panagproseso.",
+    "process_failed": "Napaay a mangproseso iti take.",
+    "export_failed": "Napaay nga i-export ti file.",
+    "record_failed": "Napaay a mangrugi ti panagrekord."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Nagpila",
+      "running": "Panagtaray",
+      "done": "Naaramiden",
+      "error": "Napaay",
+      "cancelled": "Nakansela"
+    },
+    "kind": {
+      "process": "Panagproseso",
+      "export": "I-export ti i-export",
+      "import": "Import ti panagangkat",
+      "record": "Panagrekord"
+    }
+  }
+}

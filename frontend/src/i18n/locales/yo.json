@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Ohun Isenkanjade"
+  },
+  "nav": {
+    "library": "Ile-ikawe",
+    "record": "Gba silẹ",
+    "import": "gbe wọle",
+    "templates": "Awọn awoṣe",
+    "settings": "Eto",
+    "guide": "Itọsọna"
+  },
+  "common": {
+    "save": "Fipamọ",
+    "saving": "Nfipamọ…",
+    "saved": "Ti fipamọ",
+    "cancel": "Fagilee",
+    "close": "Sunmọ",
+    "delete": "Paarẹ",
+    "edit": "Ṣatunkọ",
+    "create": "Ṣẹda",
+    "search": "Wa",
+    "loading": "Nkojọpọ…",
+    "error": "Asise",
+    "retry": "Tun gbiyanju",
+    "confirm": "Jẹrisi",
+    "back": "Pada",
+    "next": "Itele",
+    "continue": "Tesiwaju",
+    "finish": "Pari",
+    "copy": "Daakọ",
+    "copied": "Ti daakọ",
+    "download": "Gba lati ayelujara",
+    "upload": "Gbee si",
+    "none": "Ko si",
+    "all": "Gbogbo",
+    "yes": "Bẹẹni",
+    "no": "Rara",
+    "select": "Yan",
+    "optional": "iyan",
+    "required": "beere",
+    "unsaved_changes": "Awọn iyipada ti ko ni fipamọ",
+    "name": "Oruko",
+    "status": "Ipo",
+    "type": "Iru",
+    "actions": "Awọn iṣe",
+    "empty": "Sofo",
+    "browse": "Ṣawakiri",
+    "remove": "Yọ kuro",
+    "add": "Fi kun",
+    "rename": "Fun lorukọ mii",
+    "duplicate": "Ṣe pidánpidán",
+    "warning": "Ikilo",
+    "locked": "Titiipa",
+    "builtin": "Ti a ṣe sinu",
+    "custom": "Aṣa",
+    "untitled": "Ti ko ni akole",
+    "select_placeholder": "Yan…"
+  },
+  "library": {
+    "title": "Ile-ikawe",
+    "subtitle": "Ohùn rẹ ati awọn iṣẹ gita, lati imọran si idasilẹ.",
+    "new_project": "New ise agbese",
+    "new_album": "Album tuntun",
+    "search_placeholder": "Ṣewadii pẹlu orukọ…",
+    "view": {
+      "grid": "Akoj",
+      "albums": "Awọn awo-orin"
+    },
+    "filters": {
+      "all": "Gbogbo"
+    },
+    "take_count_one": " {{count}} gba",
+    "take_count_other": " {{count}} gba",
+    "updated_at": "Ṣe imudojuiwọn {{date}} ",
+    "no_results": {
+      "title": "Ko si awọn iṣẹ akanṣe",
+      "description": "Gbiyanju lati ṣatunṣe wiwa tabi àlẹmọ ipo."
+    },
+    "empty": {
+      "title": "Ile-ikawe rẹ ti ṣofo",
+      "description": "Bẹrẹ iṣẹ akanṣe tuntun lati ibere, tabi gbe wọle gba o ti ni tẹlẹ lori disk.",
+      "cta_import": "Gbe wọle lati folda",
+      "cta_new": "Ṣẹda ise agbese"
+    },
+    "project_dialog": {
+      "title": "New ise agbese",
+      "description": "Fun ni orukọ kan ki o yan ipo gbigbasilẹ.",
+      "name_label": "Orukọ ise agbese",
+      "name_placeholder": "f.eks. Ojo Ooru",
+      "mode_label": "Ipo",
+      "mode": {
+        "voice": "Ohùn nikan",
+        "voice_guitar": "Voice + gita"
+      },
+      "submit": "Ṣẹda ise agbese"
+    },
+    "album_dialog": {
+      "title": "Album tuntun",
+      "description": "Awọn iṣẹ akanṣe ẹgbẹ sinu awo-orin kan.",
+      "name_label": "Orukọ Album",
+      "name_placeholder": "f.eks. Igba Irẹdanu Ewe EP",
+      "submit": "Ṣẹda awo-orin"
+    },
+    "album": {
+      "untitled": "album ti ko ni akole",
+      "members_count_one": " {{count}} agbese",
+      "members_count_other": " {{count}} awọn iṣẹ akanṣe",
+      "empty": "Ko si awọn iṣẹ akanṣe ninu awo-orin yii sibẹsibẹ.",
+      "delete_confirm_title": "Pa awo-orin rẹ bi?",
+      "delete_confirm_description": "Awọn iṣẹ akanṣe kii yoo parẹ, aiṣoṣo nikan lati \"{{name}}\"."
+    },
+    "delete_project": {
+      "confirm_title": "Pa \"{{name}}\" rẹ bi?",
+      "confirm_description": "Eyi yọkuro iṣẹ akanṣe ati gbogbo gbigbe ninu rẹ. Eyi ko le ṣe atunṣe."
+    }
+  },
+  "record": {
+    "title": "Gba silẹ",
+    "subtitle": "Mu mimu ti o mọ, wo awọn ipele rẹ, ki o tẹle iwe afọwọkọ naa.",
+    "project_label": "Ise agbese",
+    "project_placeholder": "Yan ise agbese kan",
+    "project_create_quick": "Ṣẹda iṣẹ akanṣe kan…",
+    "device_label": "Ẹrọ titẹ sii",
+    "device_placeholder": "Yan ẹrọ kan",
+    "device_default_badge": "Aiyipada eto",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Ko si awọn ẹrọ titẹ sii.",
+    "monitor_button": "Atẹle",
+    "monitor_stop_button": "Duro ibojuwo",
+    "record_button": "Gba silẹ",
+    "stop_button": "Duro",
+    "elapsed_label": "Akoko ti o ti kọja",
+    "status": {
+      "idle": "Laiṣiṣẹ",
+      "monitoring": "Abojuto",
+      "recording": "Gbigbasilẹ",
+      "stopped": "Duro"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Oke",
+      "clip": "Agekuru"
+    },
+    "guide": {
+      "title": "Igba itọsọna",
+      "subtitle": "Jẹ ki olukọni rin ọ nipasẹ iwe afọwọkọ ni igbese nipa igbese, lati igbona-soke si gbolohun ọrọ sisọ.",
+      "loading": "Nkojọpọ iwe afọwọkọ…",
+      "unavailable": "Akoko itọsọna ko si lori olupin sibẹsibẹ.",
+      "select_project_device": "Yan iṣẹ akanṣe kan ati ẹrọ titẹ sii lati ṣe igbasilẹ awọn igbesẹ lati ibi.",
+      "progress": " {{done}} ti awọn igbesẹ {{total}}",
+      "start_timer": "Bẹrẹ aago",
+      "skip_timer": "Rekọja aago",
+      "record_step": "Ṣe igbasilẹ igbesẹ yii",
+      "stop_step": "Duro gbigbasilẹ",
+      "mark_done": "Ti ṣe - igbesẹ ti n tẹle",
+      "step_recorded": "Gba igbasilẹ",
+      "no_record_step": "Igbesẹ igbona - ko si gbigbasilẹ nilo.",
+      "bars_hint": "Nipa {{bars}} ifi",
+      "complete_title": "Iwe afọwọkọ ti pari!",
+      "complete_body": "O ti gbasilẹ gbogbo igbesẹ ti iwe afọwọkọ naa. Lọ pada si taabu Audio ti iṣẹ akanṣe ki o yan awọn ayanfẹ ayanfẹ rẹ.",
+      "restart": "Tun iwe afọwọkọ bẹrẹ"
+    },
+    "best2min": {
+      "button": "Wa awọn iṣẹju 2 to dara julọ (Suno)",
+      "running": "Ṣiṣayẹwo gbigbe…",
+      "score_label": "Dimegilio",
+      "hint": "Ṣiṣẹ agbara ati itupalẹ alaye lori gbogbo gbigba lati wa ferese iṣẹju 2 ti o lagbara julọ - o tun le ṣatunṣe iwọn naa pẹlu ọwọ lẹhinna.",
+      "chart_caption": "Dimegilio fun ferese",
+      "unavailable": "Iṣiro-iṣẹju-iṣẹju-2 ti o dara julọ ko si lori olupin yii sibẹsibẹ."
+    },
+    "takes_title": "Gba lati igba yii",
+    "takes_empty": "Ko si gbigba silẹ ni igba yii sibẹsibẹ.",
+    "open_in_project": "Ṣii ni iṣẹ akanṣe",
+    "ws_disconnected": "Atunsopọ si mita ipele…",
+    "select_project_first": "Yan ise agbese kan lati bẹrẹ.",
+    "select_device_first": "Yan ẹrọ titẹ sii."
+  },
+  "project": {
+    "back_to_library": "Pada si ile-ikawe",
+    "header": {
+      "status_label": "Ipo",
+      "cover_upload": "Ideri ikojọpọ",
+      "cover_remove": "Yọ ideri kuro",
+      "name_placeholder": "Orukọ ise agbese",
+      "links_title": "Awọn ọna asopọ",
+      "add_link": "Fi ọna asopọ kun",
+      "mode": {
+        "voice": "Ohùn nikan",
+        "voice_guitar": "Voice + gita"
+      }
+    },
+    "tabs": {
+      "audio": "Ohun",
+      "lyrics": "Awọn orin kikọ",
+      "prompts": "Awọn ibere",
+      "notes": "Awọn akọsilẹ"
+    },
+    "audio": {
+      "takes_title": "Ngba",
+      "no_takes": {
+        "title": "Ko si gbigba sibẹsibẹ",
+        "description": "Ṣe igbasilẹ gbigba tuntun tabi gbe wọle faili to wa tẹlẹ."
+      },
+      "record_new": "Ṣe igbasilẹ igbasilẹ tuntun",
+      "rating": "Rating",
+      "variant": {
+        "raw": "Aise",
+        "processed": "Ti ṣe ilana"
+      },
+      "variant_placeholder": "Ẹya",
+      "process_button": "Ilana",
+      "export_button": "Si ilẹ okeere",
+      "delete_take_confirm_title": "Pa gbigba yii rẹ bi?",
+      "delete_take_confirm_description": "Ohun aise ati gbogbo ẹya ti a ti ni ilọsiwaju yoo yọkuro.",
+      "ab": {
+        "raw": "A · Aise",
+        "processed": "B · Ti ṣe ilana"
+      },
+      "origin": {
+        "recorded": "Ti gbasilẹ",
+        "imported": "Akowọle"
+      },
+      "session_label_placeholder": "Aami igba (iyan)",
+      "duration": "Iye akoko",
+      "sample_rate": "Oṣuwọn apẹẹrẹ",
+      "channels": "Awọn ikanni",
+      "created_at": "Ti gbasilẹ"
+    },
+    "pipeline": {
+      "title": "Pq processing",
+      "preset_label": "Tito tẹlẹ",
+      "preset_none": "Aṣa pq",
+      "preset_save": "Fipamọ bi tito tẹlẹ",
+      "stage_locked": "Titiipa",
+      "stage_requires_extra": "Nilo afikun ti a ko fi sii",
+      "process_button": "Gbigba ilana",
+      "processing": "Nṣiṣẹ…",
+      "job_queued": "Ti o wa ninu…",
+      "job_running": "Nṣiṣẹ…",
+      "job_done": "Ti ṣe",
+      "job_error": "O kuna",
+      "job_cancelled": "fagilee",
+      "cancel_job": "Fagilee",
+      "no_stages": "Ko si awọn ipele to wa."
+    },
+    "export": {
+      "title": "Gbejade okeere",
+      "description": "Ṣe faili ipari lati ẹya ti a ti ni ilọsiwaju.",
+      "variant_label": "Ẹya",
+      "format_label": "Ọna kika",
+      "preset_label": "Gbejade tito tẹlẹ",
+      "range_label": "Ibiti o",
+      "range_full": "Ni kikun ipari",
+      "range_custom": "Aṣa ibiti o",
+      "start_label": "Bẹrẹ (awọn)",
+      "end_label": "Ipari (awọn)",
+      "submit": "Si ilẹ okeere",
+      "progress": "fáìlì ìmúṣẹ…",
+      "download_ready": "Ṣetan faili",
+      "download_button": "Ṣe igbasilẹ faili"
+    },
+    "notes": {
+      "placeholder": "Awọn akọsilẹ fọọmu ọfẹ nipa iṣẹ akanṣe yii…",
+      "saved_at": "Ti fipamọ ni {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Kọ awọn orin nibi. Lo paleti ni ẹgbẹ lati fi Suno meta-afi sii.",
+      "saved_at": "Ti fipamọ ni {{time}} ",
+      "saving": "Nfipamọ…",
+      "versions": "Awọn ẹya",
+      "versions_empty": "Ko si awọn ẹya ti o fipamọ sibẹsibẹ.",
+      "version_preview": "Awotẹlẹ",
+      "restore": "Pada ẹya yii pada",
+      "restore_confirm_title": "Pada ẹya yii pada bi?",
+      "restore_confirm_description": "Ọrọ ti o wa lọwọlọwọ yoo rọpo pẹlu ẹya ti o fipamọ sori {{date}} .",
+      "metatags_title": "Meta-tags",
+      "metatags_hint": "Tẹ aami kan lati fi sii ni kọsọ.",
+      "metatags_placebo_warning": "Ti ko ni idaniloju - le ko ni ipa lori abajade.",
+      "metatags_empty": "Ko si meta-afi ti a forukọsilẹ."
+    },
+    "prompts": {
+      "style_title": "Itan aṣa",
+      "lyrics_title": "Awọn lẹta ti o tọ",
+      "template_label": "Àdàkọ",
+      "template_none": "Ko si awoṣe",
+      "variables_title": "Awọn oniyipada",
+      "preview_title": "Awotẹlẹ",
+      "preview_empty": "Mu awoṣe ki o kun awọn oniyipada lati wo awotẹlẹ.",
+      "char_count": " {{count}} ohun kikọ",
+      "char_count_warning": "Ara ta ju awọn ohun kikọ silẹ 1000 le ni gige nipasẹ Suno.",
+      "copy": "Daakọ",
+      "copied": "Ti daakọ si agekuru agekuru",
+      "save_to_project": "Fipamọ si iṣẹ akanṣe",
+      "saved_to_project": "Ti fipamọ lẹsẹkẹsẹ si iṣẹ akanṣe",
+      "history_title": "Itan",
+      "history_empty": "Ko si awọn ẹya ti tẹlẹ.",
+      "current_label": "Lọwọlọwọ"
+    },
+    "stems": {
+      "title": "Vocals ati gita",
+      "separate_button": "Lọtọ leè ati gita",
+      "running": "Iyapa…",
+      "vocals": "Awọn ohun orin ipe",
+      "instrumental": "Irinse",
+      "process_stem": "Ilana yi yio",
+      "empty": "Yi gba ko tii yapa. Ṣiṣe iyapa lati gbọ awọn ohun orin ati gita ni ipinya.",
+      "capability_missing": "Iyapa orisun ko fi sori ẹrọ lori olupin yii.",
+      "unavailable": "Iyapa ohun/gita ko si lori olupin yii sibẹsibẹ."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Lori",
+    "boolean_off": "Paa"
+  },
+  "import": {
+    "title": "gbe wọle",
+    "subtitle": "Mu awọn iṣẹ akanṣe ti o wa tẹlẹ lori disiki sinu ile-ikawe.",
+    "step_indicator": "Igbesẹ {{current}} ti {{total}} ",
+    "step1": {
+      "title": "Wa folda",
+      "description": "Tọkasi folda root pẹlu awọn iṣẹ akanṣe ati awọn orin rẹ.",
+      "path_label": "Ona folda",
+      "path_placeholder": "f.eks. E: \\Robbs\\ Igberaga \\ Orin \\ ROBBS",
+      "recent_label": "Laipe",
+      "scan_button": "Ṣayẹwo folda",
+      "scanning": "Ṣiṣayẹwo…",
+      "ffmpeg_warning": "FFmpeg ko ri - awọn faili ti o nilo iyipada yoo fo.",
+      "folders_found_one": " {{count}} folda ri",
+      "folders_found_other": " {{count}} awọn folda ti a rii",
+      "unmatched_files_one": " {{count}} faili ti a ko mọ",
+      "unmatched_files_other": " {{count}} awọn faili ti a ko mọ"
+    },
+    "step2": {
+      "title": "Atunwo awọn nkan",
+      "description": "Ṣayẹwo awọn orukọ, awọn ipo, ati ohun ti yoo gbe wọle ṣaaju ki o to jẹrisi.",
+      "select_all": "Yan gbogbo rẹ",
+      "table": {
+        "folder": "folda orisun",
+        "name": "Orukọ ise agbese",
+        "status": "Ipo",
+        "audio": "Ohun",
+        "lyrics": "Awọn orin kikọ",
+        "cover": "Ideri",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} faili ti o yan",
+      "audio_include_other": " Awọn faili {{count}} ti yan",
+      "no_audio": "Ko si ohun ti a rii",
+      "no_lyrics": "Ko si awọn orin ti a rii",
+      "no_cover": "Ko si ideri",
+      "warnings_title": "Ikilo"
+    },
+    "step3": {
+      "title": "gbe wọle",
+      "description": "Jẹrisi lati da awọn faili ki o si ṣẹda awọn ise agbese.",
+      "copy_originals": "Da awọn faili atilẹba sinu ile-ikawe",
+      "execute_button": "Bẹrẹ agbewọle",
+      "progress_title": "Nkowọle…",
+      "created_count": "Ti ṣẹda: {{count}} ",
+      "skipped_count": "Ti fo: {{count}} ",
+      "done_title": "Gbe wọle ti pari",
+      "done_description": "Awọn iṣẹ akanṣe ti o wa ni isalẹ ni a ṣẹda ninu ile-ikawe rẹ.",
+      "view_project": "Ṣii ise agbese",
+      "start_over": "Titun gbe wọle"
+    }
+  },
+  "templates": {
+    "title": "Awọn awoṣe",
+    "subtitle": "Awọn awoṣe itọka atunlo ati awọn ami-meta fun Suno.",
+    "tabs": {
+      "prompts": "Awọn awoṣe kiakia",
+      "metatags": "Meta-tags"
+    },
+    "new_template": "Awoṣe tuntun",
+    "kind": {
+      "style": "Ara",
+      "lyrics": "Awọn orin kikọ"
+    },
+    "kind_label": "Irú",
+    "delete_confirm_title": "Pa awoṣe rẹ \"{{name}}\" bi?",
+    "delete_confirm_description": "Eyi ko le ṣe atunṣe.",
+    "empty": "Ko si awọn awoṣe sibẹsibẹ.",
+    "editor": {
+      "title_new": "Awoṣe tuntun",
+      "title_edit": "Ṣatunkọ awoṣe",
+      "name_label": "Oruko",
+      "name_placeholder": "f.eks. Ballad akositiki",
+      "kind_label": "Irú",
+      "template_label": "Ọrọ awoṣe",
+      "template_hint": "Samisi ibi ti oniyipada kọọkan jẹ pẹlu orukọ rẹ ti a we sinu awọn àmúró ilọpo meji - fun apẹẹrẹ, oniyipada kan ti a npè ni “oriṣi” di oriṣi ti a we ni ṣiṣi meji ati awọn àmúró pipade meji.",
+      "variables_label": "Awọn oniyipada",
+      "variable_add": "Fi oniyipada kun",
+      "variable_name": "Bọtini",
+      "variable_label": "Aami",
+      "variable_type": "Iru",
+      "variable_type_string": "Ọrọ",
+      "variable_type_select": "Yan ẹyọkan",
+      "variable_type_multiselect": "Olona-yan",
+      "variable_type_number": "Nọmba",
+      "variable_type_boolean": "Bẹẹni/Bẹẹkọ",
+      "variable_options": "Awọn aṣayan (pipaya komama)",
+      "variable_required": "Ti beere fun",
+      "save": "Fi awoṣe pamọ"
+    },
+    "metatags": {
+      "title": "Meta-tags",
+      "subtitle": "Igbekale ati ara afi Suno mọ inu awọn orin.",
+      "new_tag": "Titun tag",
+      "tag_label": "Tag",
+      "tag_placeholder": "f.eks. gita-adashe",
+      "category_label": "Ẹka",
+      "tier_label": "Igbẹkẹle",
+      "tier_legend_title": "Àlàyé igbẹkẹle",
+      "tier_legend": {
+        "1": "Ipele 1 - ti ni akọsilẹ ati ni ibamu",
+        "2": "Ipele 2 - nigbagbogbo ṣiṣẹ",
+        "3": "Ipele 3 - ipa iyipada",
+        "4": "Ipele 4 - pilasibo, ti ko ni idaniloju"
+      },
+      "description_label": "Apejuwe",
+      "delete_confirm_title": "Pa tag \"{{tag}}\" rẹ bi?",
+      "empty": "Ko si awọn aami meta aṣa sibẹsibẹ."
+    }
+  },
+  "settings": {
+    "title": "Eto",
+    "subtitle": "Alaye eto, ede, ati awọn ayanfẹ aiyipada.",
+    "system_info_title": "Eto",
+    "version": "Ẹya",
+    "data_dir": "Data folda",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Wa",
+    "ffmpeg_missing": "Ko ri",
+    "capabilities_title": "Awọn agbara ti a fi sori ẹrọ",
+    "capability": {
+      "denoise": "Idinku ariwo",
+      "quality": "Imudara didara",
+      "separate": "Orisun Iyapa",
+      "ffmpeg": "FFmpeg iyipada"
+    },
+    "capability_available": "Wa",
+    "capability_unavailable": "Ko si",
+    "gpu_title": "GPU isare",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Awọn olupese asiko isise"
+    },
+    "gpu_none": "Ko si awọn olupese GPU ti a rii",
+    "language_title": "Ede",
+    "language": {
+      "pt-BR": "Português (Brasil)",
+      "en": "English"
+    },
+    "theme_title": "Ifarahan",
+    "theme": {
+      "dark": "Dudu",
+      "light": "Imọlẹ"
+    },
+    "defaults_title": "okeere awọn aiyipada",
+    "lufs_target_label": "Àkọlé LUFS",
+    "lufs_target_hint": "Ti a lo bi imọran ibẹrẹ nigbati o ba gba okeere. Aiyipada Suno joko ni ayika -14 LUFS.",
+    "saved": "Awọn ayanfẹ ti a fipamọ"
+  },
+  "guide": {
+    "title": "Itọsọna gbigbasilẹ Suno",
+    "subtitle": "Bii o ṣe le mu ohun ati gita mu ti o gba awọn abajade to dara julọ.",
+    "intro": "Suno ṣe iṣẹ ti o dara julọ pẹlu mimọ, awọn itọkasi aibikita. Itọsọna yii ni wiwa igbaradi, awọn ipele ibi-afẹde, ati iwe afọwọkọ gbigbasilẹ iṣẹju 3–5 kan.",
+    "sections": {
+      "prep": {
+        "title": "Igbaradi",
+        "body": "Gba silẹ ni yara ti a tọju tabi ọkan pẹlu ọpọlọpọ awọn ohun elo rirọ (awọn aṣọ-ikele, awọn aṣọ-ikele, awọn aṣọ ni ile-iyẹwu). Pa awọn onijakidijagan ati ohunkohun ti o dun. Mu ohun rẹ gbona fun iṣẹju 5 ṣaaju gbigbasilẹ."
+      },
+      "levels": {
+        "title": "Awọn ipele: -12 to -6 dBFS",
+        "body": "Ṣe ifọkansi fun awọn oke laarin -12 ati -6 dBFS lori mita naa. Ni isalẹ ibiti o wa, ariwo isale di akiyesi diẹ sii; loke o, clipping ewu ga soke. Lo mita lori oju-iwe igbasilẹ lati ṣeto ere rẹ ṣaaju ki o to bẹrẹ."
+      },
+      "distance": {
+        "title": "Ijinna Gbohungbohun: 15-30 cm",
+        "body": "Duro 15 si 30 cm lati gbohungbohun. Sunmọ ju ti exaggerates plosives ati isunmọtosi ipa; jina si gbe soke diẹ yara reverb ati ariwo."
+      },
+      "script": {
+        "title": "Gbigbasilẹ akosile",
+        "warmup": "Gbigbona ohun (iṣẹju 1-2)",
+        "vowels": "Awọn faweli ti o duro - a, e, i, o, u",
+        "scales": "Awọn irẹjẹ ti o rọrun, si oke ati isalẹ",
+        "excerpt": "Apejuwe orin kan (awọn ọpa 8 si 16)",
+        "dynamics": "Yiyi: bẹrẹ rirọ, pari pariwo",
+        "spoken_phrase": "Ọrọ sisọ kan, nitorinaa Suno le ka ohun orin ipe rẹ"
+      },
+      "expectations": {
+        "title": "Ohun ti Suno retí",
+        "body": "WAV, 48 kHz, mono, gbẹ (ko si reverb tabi awọn ipa), 3 si 5 iṣẹju ti itọkasi. Mimọ julọ, aṣoju julọ awọn iṣẹju 2 ti gbigba nigbagbogbo gbe awọn abajade to dara julọ jade."
+      }
+    }
+  },
+  "status": {
+    "idea": "Ero",
+    "em_progresso": "Ni ilọsiwaju",
+    "quase": "Fere nibẹ",
+    "pronto": "Ṣetan"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Iwe afọwọkọ ohun ni kikun fun Suno",
+      "desc": "Awọn iṣẹju itọsọna 5: igbona, awọn vowels, awọn irẹjẹ, awọn iyasọtọ orin meji, awọn agbara, ati gbolohun ọrọ sisọ kan."
+    },
+    "step": {
+      "warmup": "Gbona ohun",
+      "warmup_inst": "Tu silẹ pẹlu awọn yawns, awọn trills ète (brrr), ati hum rirọ fun bii iṣẹju kan. Ko si ye lati ṣe igbasilẹ - o kan lati sinmi ọfun rẹ ṣaaju ki o to kọrin.",
+      "vowels": "Awọn faweli ti o duro",
+      "vowels_inst": "Di faweli kọọkan mu - a, e, i, o, u - fun iṣẹju 3 si 4 ni ipolowo itunu rẹ, pẹlu iwọn didun ti o duro. Eyi ṣe iranlọwọ fun Suno lati gbe timbre mimọ ti ohun rẹ.",
+      "scales": "Awọn iwọn si oke ati isalẹ",
+      "scales_inst": "Kọrin iwọn ti o rọrun si oke ati lẹhinna isalẹ, lori \"la\" tabi \"na\". Ko nilo lati jẹ pipe - ibi-afẹde ni lati ṣe maapu ibiti ohun orin rẹ.",
+      "section": "Apejuwe orin — apakan 1",
+      "section_inst": "Kọrin 8 si awọn ifi 16 ti orin naa, pẹlu aniyan gidi ti o fẹ gbejade. Ṣe iṣaaju wípé ati wiwa lori pipe imọ-ẹrọ.",
+      "section2": "Apejuwe orin — apakan 2",
+      "section2_inst": "Kọrin awọn ifi 8 si 16 miiran - ni pipe akọrin tabi apakan kan ti o ṣe iyatọ si ti iṣaaju. Orisirisi diẹ sii ṣe iranlọwọ fun awoṣe lati kọ ohun rẹ.",
+      "dynamics": "Yiyi: asọ → ariwo",
+      "dynamics_inst": "Kọrin gbolohun kanna ti o bẹrẹ pupọ ati ipari ni ariwo, laisi titẹ ọfun rẹ. Eyi fihan Suno iwọn agbara ohun rẹ.",
+      "spoken": "Ọrọ sisọ",
+      "spoken_inst": "Sọ - maṣe kọrin - kukuru kan, gbolohun ọrọ adayeba, bi ẹnipe o n sọrọ. Eyi ṣe iranlọwọ fun Suno lati ṣe idanimọ timbre ohun rẹ gidi."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Imupadabọsipo",
+      "filter": "Ajọ",
+      "dynamics": "Ìmúdàgba",
+      "separation": "Iyapa",
+      "quality": "Didara",
+      "utility": "IwUlO",
+      "loudness": "Ariwo"
+    },
+    "highpass": "Ajọ-kọja giga",
+    "lowpass": "Kekere-kọja àlẹmọ",
+    "denoise": "Idinku ariwo",
+    "declip": "Idinku",
+    "declick": "Tẹ/ yiyọ kuro",
+    "deesser": "De-esser",
+    "gate": "Ariwo ẹnu-bode",
+    "compressor": "Konpireso",
+    "limiter": "Opin",
+    "eq": "Idogba",
+    "normalize": "Iṣe deede ti o ga julọ",
+    "loudness": "Iṣe deede ariwo (LUFS)",
+    "reverb_reduce": "Idinku Reverb",
+    "separate": "Orisun Iyapa",
+    "quality": "Imudara didara (igbega)",
+    "trim_silence": "Ipalọlọ trimming",
+    "fade": "Pare sinu / ipare jade",
+    "stereo_to_mono": "Yipada si mono",
+    "resample": "Atunyẹwo"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Gbẹkẹle",
+      "2": "Nigbagbogbo ṣiṣẹ",
+      "3": "Ayípadà",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Ilana",
+      "vocal": "Ohun orin",
+      "instrument": "Irinse",
+      "dynamics": "Ìmúdàgba",
+      "production": "Ṣiṣejade",
+      "mood": "Iṣesi"
+    },
+    "verse": "Ẹsẹ",
+    "chorus": "Egbe",
+    "bridge": "Afara",
+    "intro": "Ọrọ Iṣaaju",
+    "outro": "Outro",
+    "hook": "Ìkọ́",
+    "prechorus": "Pre-egbe",
+    "instrumental": "Irinse",
+    "guitar_solo": "Gita adashe",
+    "build_up": "Kọ-soke",
+    "breakdown": "Iyapa",
+    "spoken_word": "Ọrọ sisọ",
+    "whispered": "Nfọkẹlẹ",
+    "harmonies": "Harmonies",
+    "male_vocal": "Okunrin ohun",
+    "female_vocal": "Obirin t'ohun",
+    "duet": "Duet",
+    "acoustic": "Akositiki",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Ohùn mimọ",
+    "voice_guitar_balanced": "Ohùn iwontunwonsi & gita",
+    "podcast": "adarọ ese",
+    "suno_ready": "Suno setan",
+    "gentle_restore": "Imupadabọ onírẹlẹ",
+    "raw_passthrough": "Ko si sisẹ"
+  },
+  "errors": {
+    "unknown": "Nkankan ti ko tọ.",
+    "network": "Ko le de ọdọ olupin naa.",
+    "validation_error": "Ṣayẹwo alaye ti o tẹ sii.",
+    "not_found": "Nkan ko ri.",
+    "project_not_found": "A ko ri ise agbese.",
+    "take_not_found": "Gba ko ri.",
+    "album_not_found": "A ko ri awo-orin.",
+    "preset_not_found": "Tito tẹlẹ ko ri.",
+    "template_not_found": "Awoṣe ko ri.",
+    "device_busy": "Ẹrọ ohun afetigbọ wa ni lilo nipasẹ eto miiran.",
+    "device_not_found": "Ohun elo ohun ko ri.",
+    "already_recording": "Gbigbasilẹ ti wa ni ilọsiwaju.",
+    "ffmpeg_missing": "FFmpeg ko fi sii - fi sii lati yi faili yii pada.",
+    "disk_full": "Ko to aaye disk.",
+    "permission_denied": "Ti kọ igbanilaaye fun ọna ti a fun.",
+    "import_path_not_found": "Ona agbewọle ko ri.",
+    "job_failed": "Iṣiṣe ti kuna.",
+    "job_cancelled": "Ti fagile ilana ṣiṣe.",
+    "process_failed": "O kuna lati ṣe ilana gbigbe.",
+    "export_failed": "Kuna lati okeere faili naa.",
+    "record_failed": "Kuna lati bẹrẹ gbigbasilẹ."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Ti o wa ni ila",
+      "running": "Nṣiṣẹ",
+      "done": "Ti ṣe",
+      "error": "O kuna",
+      "cancelled": "fagilee"
+    },
+    "kind": {
+      "process": "Ṣiṣẹda",
+      "export": "Si ilẹ okeere",
+      "import": "gbe wọle",
+      "record": "Gbigbasilẹ"
+    }
+  }
+}

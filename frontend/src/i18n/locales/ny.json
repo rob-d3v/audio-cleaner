@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio Cleaner"
+  },
+  "nav": {
+    "library": "Library",
+    "record": "Lembani",
+    "import": "Tengani",
+    "templates": "Zithunzi",
+    "settings": "Zokonda",
+    "guide": "Wotsogolera"
+  },
+  "common": {
+    "save": "Sungani",
+    "saving": "Kusunga...",
+    "saved": "Zosungidwa",
+    "cancel": "Letsani",
+    "close": "Tsekani",
+    "delete": "Chotsani",
+    "edit": "Sinthani",
+    "create": "Pangani",
+    "search": "Sakani",
+    "loading": "Tikutsegula...",
+    "error": "Cholakwika",
+    "retry": "Yesaninso",
+    "confirm": "Tsimikizani",
+    "back": "Kubwerera",
+    "next": "Kenako",
+    "continue": "Pitirizani",
+    "finish": "Malizitsani",
+    "copy": "Koperani",
+    "copied": "Zokopedwa",
+    "download": "Tsitsani",
+    "upload": "Kwezani",
+    "none": "Palibe",
+    "all": "Zonse",
+    "yes": "Inde",
+    "no": "Ayi",
+    "select": "Sankhani",
+    "optional": "kusankha",
+    "required": "zofunika",
+    "unsaved_changes": "Zosintha zosasungidwa",
+    "name": "Dzina",
+    "status": "Mkhalidwe",
+    "type": "Mtundu",
+    "actions": "Zochita",
+    "empty": "Chopanda kanthu",
+    "browse": "Sakatulani",
+    "remove": "Chotsani",
+    "add": "Onjezani",
+    "rename": "Sinthani dzina",
+    "duplicate": "Zobwerezedwa",
+    "warning": "Chenjezo",
+    "locked": "Zokhoma",
+    "builtin": "Zomangidwa",
+    "custom": "Mwambo",
+    "untitled": "Wopanda dzina",
+    "select_placeholder": "Sankhani…"
+  },
+  "library": {
+    "title": "Library",
+    "subtitle": "Mawu anu ndi gitala ntchito, kuchokera lingaliro mpaka kumasulidwa.",
+    "new_project": "Ntchito yatsopano",
+    "new_album": "Chimbale chatsopano",
+    "search_placeholder": "Sakani ndi dzina...",
+    "view": {
+      "grid": "Gridi",
+      "albums": "Zimbale"
+    },
+    "filters": {
+      "all": "Zonse"
+    },
+    "take_count_one": " {{count}} kutenga",
+    "take_count_other": " {{count}} zimatengera",
+    "updated_at": "Zasinthidwa {{date}} ",
+    "no_results": {
+      "title": "Palibe ntchito zomwe zapezeka",
+      "description": "Yesani kusintha kusaka kapena zosefera."
+    },
+    "empty": {
+      "title": "Laibulale yanu ilibe kanthu",
+      "description": "Yambitsani pulojekiti yatsopano kuchokera pachiyambi, kapena kulowetsa kumatenga kuti muli nawo kale pa disk.",
+      "cta_import": "Lowetsani kuchokera mufoda",
+      "cta_new": "Pangani polojekiti"
+    },
+    "project_dialog": {
+      "title": "Ntchito yatsopano",
+      "description": "Perekani izo dzina ndi kusankha kujambula akafuna.",
+      "name_label": "Dzina la polojekiti",
+      "name_placeholder": "mwachitsanzo Mvula ya Chilimwe",
+      "mode_label": "Mode",
+      "mode": {
+        "voice": "Mawu okha",
+        "voice_guitar": "Voice + gitala"
+      },
+      "submit": "Pangani polojekiti"
+    },
+    "album_dialog": {
+      "title": "Chimbale chatsopano",
+      "description": "Gwirani mapulojekiti ogwirizana kukhala chimbale.",
+      "name_label": "Dzina lachimbale",
+      "name_placeholder": "mwachitsanzo Autumn EP",
+      "submit": "Pangani chimbale"
+    },
+    "album": {
+      "untitled": "Chimbale chopanda dzina",
+      "members_count_one": " {{count}} polojekiti",
+      "members_count_other": " {{count}} ntchito",
+      "empty": "Palibe mapulojekiti mu chimbalechi.",
+      "delete_confirm_title": "Chotsani chimbale?",
+      "delete_confirm_description": "Ntchito sizidzachotsedwa, zimangochotsedwa ku \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Chotsani \" {{name}} \"?",
+      "confirm_description": "Izi zimachotsa pulojekiti ndi kutenga kulikonse. Izi sizingasinthidwe."
+    }
+  },
+  "record": {
+    "title": "Lembani",
+    "subtitle": "Jambulani chojambula choyera, yang'anani milingo yanu, ndikutsatira script.",
+    "project_label": "Ntchito",
+    "project_placeholder": "Sankhani polojekiti",
+    "project_create_quick": "Pangani polojekiti mwachangu…",
+    "device_label": "Chida cholowetsa",
+    "device_placeholder": "Sankhani chipangizo",
+    "device_default_badge": "Kusakhazikika kwadongosolo",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Palibe zida zolowetsa zomwe zapezeka.",
+    "monitor_button": "Woyang'anira",
+    "monitor_stop_button": "Lekani kuyang'anira",
+    "record_button": "Lembani",
+    "stop_button": "Imani",
+    "elapsed_label": "Nthawi inadutsa",
+    "status": {
+      "idle": "Wopanda ntchito",
+      "monitoring": "Kuyang'anira",
+      "recording": "Kujambula",
+      "stopped": "Ayima"
+    },
+    "meter": {
+      "rms": "Mtengo wa RMS",
+      "peak": "Peak",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Gawo loyendetsedwa",
+      "subtitle": "Lolani mphunzitsi akuyendetseni mu script sitepe ndi sitepe, kuchokera ku kutentha mpaka ku mawu olankhulidwa.",
+      "loading": "Tikutsegula…",
+      "unavailable": "Gawo lotsogozedwa silikupezeka pa seva pano.",
+      "select_project_device": "Sankhani pulojekiti ndi chipangizo cholowera kuti mujambule masitepe kuyambira pano.",
+      "progress": " {{done}} wa {{total}} masitepe",
+      "start_timer": "Yambani chowerengera",
+      "skip_timer": "Dumphani chowerengera",
+      "record_step": "Lembani sitepe iyi",
+      "stop_step": "Siyani kujambula",
+      "mark_done": "Zachitika - sitepe yotsatira",
+      "step_recorded": "Tengani zolemba",
+      "no_record_step": "Kutenthetsa sitepe - palibe kujambula chofunika.",
+      "bars_hint": "Pafupifupi mipiringidzo {{bars}}",
+      "complete_title": "Script yatha!",
+      "complete_body": "Mwajambulitsa sitepe iliyonse ya script. Bwererani ku tabu ya Audio ya polojekitiyo ndikusankha zomwe mumakonda.",
+      "restart": "Yambitsaninso script"
+    },
+    "best2min": {
+      "button": "Pezani mphindi 2 zabwino kwambiri (Suno)",
+      "running": "Kusanthula zomwe…",
+      "score_label": "Zotsatira",
+      "hint": "Imasanthula mphamvu ndi kumveka bwino pa nthawi yonseyi kuti mupeze zenera lamphamvu kwambiri la mphindi 2 - mutha kusinthanso ndi dzanja pambuyo pake.",
+      "chart_caption": "Zigoli pa zenera lililonse",
+      "unavailable": "Kusanthula kwabwino kwambiri kwa mphindi ziwiri sikunapezeke pa seva iyi."
+    },
+    "takes_title": "Zimatengera gawoli",
+    "takes_empty": "Palibe zojambulidwa mu gawoli panobe.",
+    "open_in_project": "Tsegulani mu polojekiti",
+    "ws_disconnected": "Ikulumikizanso mitala…",
+    "select_project_first": "Sankhani polojekiti kuti muyambe.",
+    "select_device_first": "Sankhani chipangizo cholowera."
+  },
+  "project": {
+    "back_to_library": "Bwererani ku laibulale",
+    "header": {
+      "status_label": "Mkhalidwe",
+      "cover_upload": "Kwezani chophimba",
+      "cover_remove": "Chotsani chophimba",
+      "name_placeholder": "Dzina la polojekiti",
+      "links_title": "Maulalo",
+      "add_link": "Onjezani ulalo",
+      "mode": {
+        "voice": "Mawu okha",
+        "voice_guitar": "Voice + gitala"
+      }
+    },
+    "tabs": {
+      "audio": "Zomvera",
+      "lyrics": "Nyimbo",
+      "prompts": "Kulimbikitsa",
+      "notes": "Zolemba"
+    },
+    "audio": {
+      "takes_title": "Zimatengera",
+      "no_takes": {
+        "title": "Palibe zotengera panobe",
+        "description": "Jambulani chotengera chatsopano kapena lowetsani fayilo yomwe ilipo."
+      },
+      "record_new": "Lembani kutenga kwatsopano",
+      "rating": "Muyezo",
+      "variant": {
+        "raw": "Yaiwisi",
+        "processed": "Zakonzedwa"
+      },
+      "variant_placeholder": "Baibulo",
+      "process_button": "Njira",
+      "export_button": "Tumizani kunja",
+      "delete_take_confirm_title": "Chotsani chotengera ichi?",
+      "delete_take_confirm_description": "Zomvera zosasinthika ndi mtundu uliwonse wokonzedwa zidzachotsedwa.",
+      "ab": {
+        "raw": "A · Yaiwisi",
+        "processed": "B · Zokonzedwa"
+      },
+      "origin": {
+        "recorded": "Zojambulidwa",
+        "imported": "Zachokera kunja"
+      },
+      "session_label_placeholder": "Label ya gawo (posankha)",
+      "duration": "Kutalika",
+      "sample_rate": "Mtengo wa zitsanzo",
+      "channels": "Njira",
+      "created_at": "Zojambulidwa"
+    },
+    "pipeline": {
+      "title": "Processing unyolo",
+      "preset_label": "Kukonzekeratu",
+      "preset_none": "Custom unyolo",
+      "preset_save": "Sungani monga mwakonzedweratu",
+      "stage_locked": "Zokhoma",
+      "stage_requires_extra": "Pamafunika zowonjezera zomwe sizinayikidwe",
+      "process_button": "Njira kutenga",
+      "processing": "Kukonza...",
+      "job_queued": "Ali pamzere…",
+      "job_running": "Kukonza...",
+      "job_done": "Zatheka",
+      "job_error": "Zalephera",
+      "job_cancelled": "Walephereka",
+      "cancel_job": "Letsani",
+      "no_stages": "Palibe magawo omwe alipo."
+    },
+    "export": {
+      "title": "Export take",
+      "description": "Perekani fayilo yomaliza kuchokera ku mtundu wokonzedwa.",
+      "variant_label": "Baibulo",
+      "format_label": "Mtundu",
+      "preset_label": "Tumizani zokonzeratu",
+      "range_label": "Mtundu",
+      "range_full": "Kutalika konse",
+      "range_custom": "Mwamakonda osiyanasiyana",
+      "start_label": "Yambani (s)",
+      "end_label": "Mapeto (s)",
+      "submit": "Tumizani kunja",
+      "progress": "Kupereka fayilo…",
+      "download_ready": "Fayilo yakonzeka",
+      "download_button": "Tsitsani fayilo"
+    },
+    "notes": {
+      "placeholder": "Zolemba zaulere za polojekitiyi…",
+      "saved_at": "Zasungidwa pa {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Lembani mawu apa. Gwiritsani ntchito phale pambali kuti muyike ma meta-tag a Suno.",
+      "saved_at": "Zasungidwa pa {{time}} ",
+      "saving": "Kusunga...",
+      "versions": "Mabaibulo",
+      "versions_empty": "Palibe zomasulira zosungidwa.",
+      "version_preview": "Kuwoneratu",
+      "restore": "Bwezerani mtundu uwu",
+      "restore_confirm_title": "Bwezeretsani mtundu uwu?",
+      "restore_confirm_description": "Mawu apano asinthidwa ndi omwe asungidwa pa {{date}} .",
+      "metatags_title": "Meta-tag",
+      "metatags_hint": "Dinani chizindikiro kuti muyike pa cholozera.",
+      "metatags_placebo_warning": "Zosatsimikiziridwa - sizingakhale ndi zotsatirapo.",
+      "metatags_empty": "Palibe ma meta-tag olembetsedwa."
+    },
+    "prompts": {
+      "style_title": "Ndemanga mwachangu",
+      "lyrics_title": "Nyimbo mwachangu",
+      "template_label": "Template",
+      "template_none": "Palibe template",
+      "variables_title": "Zosintha",
+      "preview_title": "Kuwoneratu",
+      "preview_empty": "Sankhani template ndikudzaza zosinthika kuti muwone chithunzithunzi.",
+      "char_count": " {{count}} zilembo",
+      "char_count_warning": "Sitayilo imalimbikitsa zilembo zopitilira 1000 zitha kuchepetsedwa ndi Suno.",
+      "copy": "Koperani",
+      "copied": "Akopera ku bolodi lojambula",
+      "save_to_project": "Sungani ku polojekiti",
+      "saved_to_project": "Kufulumira kwasungidwa ku polojekiti",
+      "history_title": "Mbiri",
+      "history_empty": "Palibe zomasulira zam'mbuyomu.",
+      "current_label": "Panopa"
+    },
+    "stems": {
+      "title": "Nyimbo ndi gitala",
+      "separate_button": "Osiyana mawu ndi gitala",
+      "running": "Kulekanitsa…",
+      "vocals": "Mawu",
+      "instrumental": "Zida zoimbira",
+      "process_stem": "Pangani tsinde ili",
+      "empty": "Kutenga uku sikunapatulidwebe. Thamangani kupatukana kuti mumve kuyimba ndi gitala pawekha.",
+      "capability_missing": "Kulekanitsa kochokera sikunayike pa seva iyi.",
+      "unavailable": "Kulekanitsa mawu/gitala sikunapezekebe pa seva iyi."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Yambani",
+    "boolean_off": "Kuzimitsa"
+  },
+  "import": {
+    "title": "Tengani",
+    "subtitle": "Bweretsani mapulojekiti omwe alipo kale pa disk mulaibulale.",
+    "step_indicator": "Gawo {{current}} la {{total}} ",
+    "step1": {
+      "title": "Pezani chikwatu",
+      "description": "Lozani ku mizu chikwatu ndi mapulojekiti anu ndi mayendedwe.",
+      "path_label": "Foda njira",
+      "path_placeholder": "mwachitsanzo E:\\Robbs\\Kunyada\\Music\\ROBBS",
+      "recent_label": "Posachedwapa",
+      "scan_button": "Jambulani chikwatu",
+      "scanning": "Kusanthula…",
+      "ffmpeg_warning": "FFmpeg sinapezeke - mafayilo omwe amafunikira kusinthidwa adzalumphidwa.",
+      "folders_found_one": " {{count}} chikwatu chapezeka",
+      "folders_found_other": " {{count}} zikwatu zapezeka",
+      "unmatched_files_one": " {{count}} fayilo yosadziwika",
+      "unmatched_files_other": " {{count}} mafayilo osadziwika"
+    },
+    "step2": {
+      "title": "Unikaninso zinthu",
+      "description": "Chongani mayina, ziwerengero, ndi zomwe zidzatumizidwa kunja musanatsimikizire.",
+      "select_all": "Sankhani zonse",
+      "table": {
+        "folder": "Chikwatu",
+        "name": "Dzina la polojekiti",
+        "status": "Mkhalidwe",
+        "audio": "Zomvera",
+        "lyrics": "Nyimbo",
+        "cover": "Chophimba",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} fayilo yasankhidwa",
+      "audio_include_other": " {{count}} mafayilo osankhidwa",
+      "no_audio": "Palibe zomvera zomwe zapezeka",
+      "no_lyrics": "Palibe mawu omwe apezeka",
+      "no_cover": "Palibe chophimba",
+      "warnings_title": "Machenjezo"
+    },
+    "step3": {
+      "title": "Tengani",
+      "description": "Tsimikizirani kukopera mafayilo ndikupanga mapulojekiti.",
+      "copy_originals": "Koperani owona oyambirira mu laibulale",
+      "execute_button": "Yambani kuitanitsa",
+      "progress_title": "Kuitanitsa…",
+      "created_count": "Adapangidwa: {{count}} ",
+      "skipped_count": "Adalumpha: {{count}} ",
+      "done_title": "Kuitanitsa kwatha",
+      "done_description": "Ntchito zomwe zili pansipa zidapangidwa mulaibulale yanu.",
+      "view_project": "Tsegulani polojekiti",
+      "start_over": "Kulowetsa kwatsopano"
+    }
+  },
+  "templates": {
+    "title": "Zithunzi",
+    "subtitle": "Ma templates ogwiritsiridwanso ntchito ndi ma meta-tag a Suno.",
+    "tabs": {
+      "prompts": "Ma templates achangu",
+      "metatags": "Meta-tag"
+    },
+    "new_template": "Template yatsopano",
+    "kind": {
+      "style": "Mtundu",
+      "lyrics": "Nyimbo"
+    },
+    "kind_label": "Zokoma",
+    "delete_confirm_title": "Chotsani chithunzi \" {{name}} \"?",
+    "delete_confirm_description": "Izi sizingasinthidwe.",
+    "empty": "Palibe ma tempuleti.",
+    "editor": {
+      "title_new": "Template yatsopano",
+      "title_edit": "Sinthani template",
+      "name_label": "Dzina",
+      "name_placeholder": "mwachitsanzo Acoustic ballad",
+      "kind_label": "Zokoma",
+      "template_label": "Malemba a template",
+      "template_hint": "Chongani pomwe mtundu uliwonse umakhala ndi dzina lake lokulungidwa ndi zingwe zopindika pawiri - mwachitsanzo, mtundu womwe umatchedwa \"mtundu\" umakhala mtundu wokutidwa ndi zingwe ziwiri zotsegula ndi ziwiri zotseka.",
+      "variables_label": "Zosintha",
+      "variable_add": "Onjezani kusintha",
+      "variable_name": "Chinsinsi",
+      "variable_label": "Label",
+      "variable_type": "Mtundu",
+      "variable_type_string": "Mawu",
+      "variable_type_select": "Single kusankha",
+      "variable_type_multiselect": "Sankhani zambiri",
+      "variable_type_number": "Nambala",
+      "variable_type_boolean": "Inde/ayi",
+      "variable_options": "Zosankha (zosiyanitsidwa ndi koma)",
+      "variable_required": "Chofunikira",
+      "save": "Sungani template"
+    },
+    "metatags": {
+      "title": "Meta-tag",
+      "subtitle": "Ma tag a kamangidwe ndi masitayelo Suno amazindikira mawu amkati.",
+      "new_tag": "Tagi yatsopano",
+      "tag_label": "Tagi",
+      "tag_placeholder": "mwachitsanzo gitala-solo",
+      "category_label": "Gulu",
+      "tier_label": "Kudalirika",
+      "tier_legend_title": "Kudalirika nthano",
+      "tier_legend": {
+        "1": "Gawo 1 - lolembedwa komanso lokhazikika",
+        "2": "Gawo 2 - nthawi zambiri amagwira ntchito",
+        "3": "Gawo 3 - kusintha kosinthika",
+        "4": "Gawo 4 - placebo, osatsimikiziridwa"
+      },
+      "description_label": "Kufotokozera",
+      "delete_confirm_title": "Chotsani tag \" {{tag}} \"?",
+      "empty": "Palibe ma meta-tag achizolowezi pano."
+    }
+  },
+  "settings": {
+    "title": "Zokonda",
+    "subtitle": "Zambiri zamakina, chilankhulo, ndi zokonda zokhazikika.",
+    "system_info_title": "Dongosolo",
+    "version": "Baibulo",
+    "data_dir": "Foda ya data",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Likupezeka",
+    "ffmpeg_missing": "Sanapezeke",
+    "capabilities_title": "Kuthekera koyikidwa",
+    "capability": {
+      "denoise": "Kuchepetsa phokoso",
+      "quality": "Kupititsa patsogolo khalidwe",
+      "separate": "Kupatukana kwa magwero",
+      "ffmpeg": "FFmpeg kusintha"
+    },
+    "capability_available": "Likupezeka",
+    "capability_unavailable": "Palibe",
+    "gpu_title": "Kuchulukitsa kwa GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime opereka"
+    },
+    "gpu_none": "Palibe opanga ma GPU omwe apezeka",
+    "language_title": "Chiyankhulo",
+    "language": {
+      "pt-BR": "Chichewa (Brasil)",
+      "en": "Chingerezi"
+    },
+    "theme_title": "Maonekedwe",
+    "theme": {
+      "dark": "Chakuda",
+      "light": "Kuwala"
+    },
+    "defaults_title": "Tumizani zosasintha",
+    "lufs_target_label": "Cholinga cha LUFS",
+    "lufs_target_hint": "Amagwiritsidwa ntchito ngati lingaliro loyambira pamene kutumiza kunja kumatenga. Zosasintha za Suno zimakhala mozungulira -14 LUFS.",
+    "saved": "Zokonda zasungidwa"
+  },
+  "guide": {
+    "title": "Suno kujambula kalozera",
+    "subtitle": "Momwe mungajambulire mawu ndi gitala zimatengera zotsatira zabwino kwambiri.",
+    "intro": "Suno imagwira bwino ntchito ndi maulalo oyera, osadziwika bwino. Bukhuli likukhudza kukonzekera, milingo yomwe mukufuna, ndi zolemba zojambulira mphindi 3-5.",
+    "sections": {
+      "prep": {
+        "title": "Kukonzekera",
+        "body": "Lembani m'chipinda chokhalamo kapena chokhala ndi zinthu zambiri zofewa (makatani, makapu, zovala mu chipinda). Zimitsani mafani ndi chilichonse chomwe chimang'ung'udza. Kutenthetsa mawu anu kwa mphindi 5 musanajambule."
+      },
+      "levels": {
+        "title": "Miyezo: -12 mpaka -6 dBFS",
+        "body": "Cholinga cha nsonga zapakati pa -12 ndi -6 dBFS pa mita. Pansi pa mzerewu, phokoso lakumbuyo limawonekera kwambiri; pamwamba pake, chiwopsezo chodula chimakwera. Gwiritsani ntchito mita patsamba la Record kuti mukhazikitse phindu lanu musanayambe."
+      },
+      "distance": {
+        "title": "Kutalika kwa mic: 15-30 cm",
+        "body": "Khalani 15 mpaka 30 cm kuchokera pa maikolofoni. Pafupi kuposa pamenepo amakokomeza plosives ndi moyandikana zotsatira; Kutaliko kumangotenga mavesi owonjezera ndi phokoso."
+      },
+      "script": {
+        "title": "Kujambulira script",
+        "warmup": "Kutentha kwa mawu (1-2 mphindi)",
+        "vowels": "Mavawelo okhazikika - a, e, i, o, u",
+        "scales": "Mamba osavuta, mmwamba ndi pansi",
+        "excerpt": "Chigawo chanyimbo (mipiringidzo 8 mpaka 16)",
+        "dynamics": "Mphamvu: Yambani mofewa, maliza mokweza",
+        "spoken_phrase": "Mawu amodzi, kuti Suno athe kuwerenga kamvekedwe kanu ka mawu"
+      },
+      "expectations": {
+        "title": "Zomwe Suno amayembekezera",
+        "body": "WAV, 48 kHz, mono, youma (palibe reverb kapena zotsatira), 3 mpaka 5 mphindi zofotokozera. Ukhondo kwambiri, woyimilira kwambiri mphindi ziwiri zakutenga nthawi zambiri zimatulutsa zotsatira zabwino kwambiri."
+      }
+    }
+  },
+  "status": {
+    "idea": "Lingaliro",
+    "em_progresso": "Zili mkati",
+    "quase": "Pafupifupi pamenepo",
+    "pronto": "Okonzeka"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Zolemba zonse za Suno",
+      "desc": "Mphindi 5 zowongolera: kutenthetsa, mavawelo, masikelo, mawu awiri a nyimbo, mphamvu, ndi mawu oyankhulidwa."
+    },
+    "step": {
+      "warmup": "Kutentha kwa mawu",
+      "warmup_inst": "Masulani ndi kuyasamula, lip trills (brrr), ndi kung'ung'udza kofewa kwa mphindi imodzi. Palibe chifukwa chojambulira - ndikungopumula pakhosi musanayimbe.",
+      "vowels": "Mavawelo okhazikika",
+      "vowels_inst": "Gwirani mavawelo aliwonse - a, e, i, o, u - kwa masekondi 3 mpaka 4 pamawu anu omasuka, ndi voliyumu yokhazikika. Izi zimathandiza Suno kunyamula mawu anu.",
+      "scales": "Mamba mmwamba ndi pansi",
+      "scales_inst": "Imbani sikelo yosavuta mmwamba kenako pansi, pa \"la\" kapena \"na\". Sichiyenera kukhala changwiro - cholinga ndikujambula mawu anu.",
+      "section": "Chigawo cha nyimbo - Gawo 1",
+      "section_inst": "Imbani mipiringidzo 8 mpaka 16 ya nyimboyo, ndi cholinga chenicheni chomwe mukufuna kufotokoza. Ikani patsogolo kumveka bwino ndi kupezeka kuposa luso laukadaulo.",
+      "section2": "Chigawo cha nyimbo - Gawo 2",
+      "section2_inst": "Imbani mipiringidzo ina 8 mpaka 16 - korasi kapena gawo lomwe limasiyana ndi loyambalo. Kusiyanasiyana kowonjezereka kumathandizira chitsanzo kuphunzira mawu anu.",
+      "dynamics": "Mphamvu: zofewa → mokweza",
+      "dynamics_inst": "Imbani mawu omwewo kuyambira mofewa kwambiri ndikumaliza mokweza, osagwira khosi lanu. Izi zikuwonetsa Suno kuchuluka kwa mawu anu.",
+      "spoken": "Mawu olankhulidwa",
+      "spoken_inst": "Lankhulani - osayimba - mawu achidule, achilengedwe, ngati mukucheza. Izi zimathandiza Suno kuzindikira momwe mawu anu amamvekera."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Kubwezeretsa",
+      "filter": "Zosefera",
+      "dynamics": "Mphamvu",
+      "separation": "Kulekana",
+      "quality": "Ubwino",
+      "utility": "Zothandiza",
+      "loudness": "Phokoso"
+    },
+    "highpass": "Zosefera zapamwamba",
+    "lowpass": "Zosefera zotsika",
+    "denoise": "Kuchepetsa phokoso",
+    "declip": "Kutsika",
+    "declick": "Dinani/pop kuchotsa",
+    "deesser": "De-esser",
+    "gate": "Chipata chaphokoso",
+    "compressor": "Compressor",
+    "limiter": "Limiter",
+    "eq": "Kufanana",
+    "normalize": "Peak normalization",
+    "loudness": "Kukhazikika kwamphamvu (LUFS)",
+    "reverb_reduce": "Kuchepetsa mawu",
+    "separate": "Kupatukana kwa magwero",
+    "quality": "Kupititsa patsogolo Ubwino (wokwera)",
+    "trim_silence": "Kuchepetsa chete",
+    "fade": "Kuzimiririka / kuzimiririka",
+    "stereo_to_mono": "Sinthani kukhala mono",
+    "resample": "Kuyesanso"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Wodalirika",
+      "2": "Nthawi zambiri amagwira ntchito",
+      "3": "Zosintha",
+      "4": "Malo"
+    },
+    "category": {
+      "structure": "Kapangidwe",
+      "vocal": "Mawu",
+      "instrument": "Chida",
+      "dynamics": "Mphamvu",
+      "production": "Kupanga",
+      "mood": "Makhalidwe"
+    },
+    "verse": "Ndime",
+    "chorus": "Korasi",
+    "bridge": "Bridge",
+    "intro": "Mawu Oyamba",
+    "outro": "Outro",
+    "hook": "Hook",
+    "prechorus": "Pre-chorus",
+    "instrumental": "Zida zoimbira",
+    "guitar_solo": "Gitala yekha",
+    "build_up": "Kumanga",
+    "breakdown": "Kuwonongeka",
+    "spoken_word": "Mawu olankhulidwa",
+    "whispered": "Ananong'oneza",
+    "harmonies": "Harmonies",
+    "male_vocal": "Male mawu",
+    "female_vocal": "Mawu achikazi",
+    "duet": "Duet",
+    "acoustic": "Amayimbidwe",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Mawu oyera",
+    "voice_guitar_balanced": "Mawu omveka bwino ndi gitala",
+    "podcast": "Podcast",
+    "suno_ready": "Suno wokonzeka",
+    "gentle_restore": "Kubwezeretsa mofatsa",
+    "raw_passthrough": "Palibe processing"
+  },
+  "errors": {
+    "unknown": "China chake chalakwika.",
+    "network": "Sitinathe kufikira seva.",
+    "validation_error": "Chongani zambiri zomwe mudalemba.",
+    "not_found": "Chinthu sichinapezeke.",
+    "project_not_found": "Ntchito sinapezeke.",
+    "take_not_found": "Tengani sanapezeke.",
+    "album_not_found": "Chimbale sichinapezeke.",
+    "preset_not_found": "Zokonzeratu sizinapezeke.",
+    "template_not_found": "Tsamba silinapezeke.",
+    "device_busy": "Chipangizo chomvera chimagwiritsidwa ntchito ndi pulogalamu ina.",
+    "device_not_found": "Chipangizo chomvera sichinapezeke.",
+    "already_recording": "Kujambula kuli mkati kale.",
+    "ffmpeg_missing": "FFmpeg sinayikidwe - yikani kuti musinthe fayiloyi.",
+    "disk_full": "Palibe malo okwanira pa disk.",
+    "permission_denied": "Chilolezo chaletsedwa panjira yoperekedwa.",
+    "import_path_not_found": "Njira yolowera sinapezeke.",
+    "job_failed": "Kukonza kwalephera.",
+    "job_cancelled": "Kukonza kudalephereka.",
+    "process_failed": "Zalephera kukonza zomwe mwatenga.",
+    "export_failed": "Zalephera kutumiza fayilo.",
+    "record_failed": "Zalephera kuyamba kujambula."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Ali pamzere",
+      "running": "Kuthamanga",
+      "done": "Zatheka",
+      "error": "Zalephera",
+      "cancelled": "Walephereka"
+    },
+    "kind": {
+      "process": "Kukonza",
+      "export": "Tumizani kunja",
+      "import": "Tengani",
+      "record": "Kujambula"
+    }
+  }
+}

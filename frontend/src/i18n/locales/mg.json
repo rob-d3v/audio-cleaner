@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio Cleaner"
+  },
+  "nav": {
+    "library": "Tranomboky",
+    "record": "Record",
+    "import": "Import",
+    "templates": "Templates",
+    "settings": "Settings",
+    "guide": "Mpitarika"
+  },
+  "common": {
+    "save": "Vonjeo",
+    "saving": "Mitahiry…",
+    "saved": "Voavonjy",
+    "cancel": "Manafoana",
+    "close": "Akatona",
+    "delete": "Fafao",
+    "edit": "Ahitsio",
+    "create": "Mamorona",
+    "search": "Fikarohana",
+    "loading": "Loading…",
+    "error": "Error",
+    "retry": "Andramo indray",
+    "confirm": "Hamafiso",
+    "back": "Miverina",
+    "next": "Manaraka",
+    "continue": "Tohizo",
+    "finish": "vita",
+    "copy": "kopia",
+    "copied": "Nadika",
+    "download": "Download",
+    "upload": "Upload",
+    "none": "Tsy misy",
+    "all": "Rehetra",
+    "yes": "Eny",
+    "no": "Tsia",
+    "select": "Select",
+    "optional": "azo atao",
+    "required": "takiana",
+    "unsaved_changes": "Fiovana tsy voatahiry",
+    "name": "Anarana",
+    "status": "Status",
+    "type": "Type",
+    "actions": "Actions",
+    "empty": "Foana",
+    "browse": "Mikaroka",
+    "remove": "Esory",
+    "add": "Ampio",
+    "rename": "Ovao anarana",
+    "duplicate": "Dika mitovy",
+    "warning": "fampitandremana",
+    "locked": "Voahidy",
+    "builtin": "Naorina-in",
+    "custom": "Custom",
+    "untitled": "Tsy misy lohateny",
+    "select_placeholder": "Safidio…"
+  },
+  "library": {
+    "title": "Tranomboky",
+    "subtitle": "Ny feonao sy ny tetikasa gitara, manomboka amin'ny hevitra ka hatramin'ny famoahana.",
+    "new_project": "Tetikasa vaovao",
+    "new_album": "Album vaovao",
+    "search_placeholder": "Karoka amin'ny anarana…",
+    "view": {
+      "grid": "Grid",
+      "albums": "Albums"
+    },
+    "filters": {
+      "all": "Rehetra"
+    },
+    "take_count_one": " {{count}} maka",
+    "take_count_other": " {{count}} maka",
+    "updated_at": "Nohavaozina {{date}} ",
+    "no_results": {
+      "title": "Tsy misy tetikasa hita",
+      "description": "Andramo amboary ny fikarohana na sivana sata."
+    },
+    "empty": {
+      "title": "Foana ny tranombokinao",
+      "description": "Manomboha tetikasa vaovao hatrany am-boalohany, na manafatra entana efa anananao amin'ny kapila.",
+      "cta_import": "Manafatra avy amin'ny lahatahiry",
+      "cta_new": "Mamorona tetikasa"
+    },
+    "project_dialog": {
+      "title": "Tetikasa vaovao",
+      "description": "Omeo anarana ary mifidiana fomba firaketana.",
+      "name_label": "Anaran'ny tetikasa",
+      "name_placeholder": "oh. Orana fahavaratra",
+      "mode_label": "Mode",
+      "mode": {
+        "voice": "Feo ihany",
+        "voice_guitar": "Feo + gitara"
+      },
+      "submit": "Mamorona tetikasa"
+    },
+    "album_dialog": {
+      "title": "Album vaovao",
+      "description": "Vondrona ireo tetikasa mifandraika amin'ny rakikira.",
+      "name_label": "Anaran'ny rakikira",
+      "name_placeholder": "oh. Fararano EP",
+      "submit": "Mamorona rakikira"
+    },
+    "album": {
+      "untitled": "Album tsy misy lohateny",
+      "members_count_one": " {{count}} tetikasa",
+      "members_count_other": " {{count}} tetikasa",
+      "empty": "Tsy mbola misy tetikasa amin'ity rakikira ity.",
+      "delete_confirm_title": "Fafao ny rakikira?",
+      "delete_confirm_description": "Ny tetikasa dia tsy ho voafafa, afa-tsy ny \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Fafao ny \" {{name}} \"?",
+      "confirm_description": "Izany dia manaisotra ny tetikasa sy ny fandraisana rehetra ao anatiny. Tsy azo averina izany."
+    }
+  },
+  "record": {
+    "title": "Record",
+    "subtitle": "Makà sary madio, jereo ny haavonao ary araho ny script.",
+    "project_label": "Tetikasa",
+    "project_placeholder": "Misafidiana tetikasa",
+    "project_create_quick": "Mamorona tetikasa haingana…",
+    "device_label": "fitaovana fampidirana",
+    "device_placeholder": "Misafidiana fitaovana iray",
+    "device_default_badge": "System default",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Tsy hita ny fitaovana fampidirana.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Atsaharo ny fanaraha-maso",
+    "record_button": "Record",
+    "stop_button": "Atsaharo",
+    "elapsed_label": "Fotoana lasa",
+    "status": {
+      "idle": "Idle",
+      "monitoring": "Fanaraha-maso",
+      "recording": "Recording",
+      "stopped": "Nijanona"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Peak",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Fivoriana voatarika",
+      "subtitle": "Avelao ny mpanazatra hitarika anao amin'ny alàlan'ny script tsikelikely, manomboka amin'ny hafanana mankany amin'ny fehezanteny lazaina.",
+      "loading": "Mametraka script…",
+      "unavailable": "Mbola tsy hita ao amin'ny mpizara ny fivoriana voatarika.",
+      "select_project_device": "Misafidiana tetikasa iray sy fitaovana fampidirana handrakitra ny dingana avy eto.",
+      "progress": " {{done}} amin'ny {{total}} dingana",
+      "start_timer": "Manomboka fameram-potoana",
+      "skip_timer": "Alefaso ny fameram-potoana",
+      "record_step": "Raketo ity dingana ity",
+      "stop_step": "Atsaharo ny firaketana",
+      "mark_done": "Vita - dingana manaraka",
+      "step_recorded": "Raiso an-tsoratra",
+      "no_record_step": "Dingana fanafanana - tsy mila firaketana.",
+      "bars_hint": "Manodidina ny {{bars}} bar",
+      "complete_title": "Vita ny script!",
+      "complete_body": "Noraketinao ny dingana rehetra amin'ny script. Miverena any amin'ny tabilao Audio an'ny tetikasa ary safidio ny sary tianao indrindra.",
+      "restart": "Avereno indray ny script"
+    },
+    "best2min": {
+      "button": "Mitadiava 2 minitra tsara indrindra (Suno)",
+      "running": "Famakafakana ny fandraisana…",
+      "score_label": "isa",
+      "hint": "Manao famakafakana angovo sy mazava mandritra ny fotoana rehetra hahitana ny varavarankely 2 minitra mahery indrindra - mbola azonao atao ny manitsy ny elanelana amin'ny tanana aorian'izay.",
+      "chart_caption": "Isa isaky ny varavarankely",
+      "unavailable": "Ny famakafakana 2 minitra tsara indrindra dia mbola tsy hita amin'ity mpizara ity."
+    },
+    "takes_title": "Nalaina avy amin'ity fivoriana ity",
+    "takes_empty": "Tsy mbola misy fandraisana an-tsoratra amin'ity fivoriana ity.",
+    "open_in_project": "Hiverina any amin'ny project",
+    "ws_disconnected": "Mifandray indray amin'ny metatra niveau…",
+    "select_project_first": "Misafidiana tetikasa hanombohana.",
+    "select_device_first": "Mifidiana fitaovana fampidirana."
+  },
+  "project": {
+    "back_to_library": "Hiverina any amin'ny library",
+    "header": {
+      "status_label": "Status",
+      "cover_upload": "Ampidiro ny fonony",
+      "cover_remove": "Esory ny fonony",
+      "name_placeholder": "Anaran'ny tetikasa",
+      "links_title": "Rohy",
+      "add_link": "Ampio rohy",
+      "mode": {
+        "voice": "Feo ihany",
+        "voice_guitar": "Feo + gitara"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Tononkira",
+      "prompts": "Famporisihana",
+      "notes": "Notes"
+    },
+    "audio": {
+      "takes_title": "maka",
+      "no_takes": {
+        "title": "Tsy mbola misy mandray",
+        "description": "Raketo fandraisana vaovao na manafatra rakitra efa misy."
+      },
+      "record_new": "Raketo sary vaovao",
+      "rating": "naoty",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Nokarakaraina"
+      },
+      "variant_placeholder": "Version",
+      "process_button": "Process",
+      "export_button": "Export",
+      "delete_take_confirm_title": "Fafao ity sary ity?",
+      "delete_take_confirm_description": "Hesorina ny feo manta sy ny dikan-teny voavoatra rehetra.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Voavoatra"
+      },
+      "origin": {
+        "recorded": "Voarakitra",
+        "imported": "Nafarana"
+      },
+      "session_label_placeholder": "Etikety fivoriana (tsy voatery)",
+      "duration": "Faharetana",
+      "sample_rate": "tahan'ny santionany",
+      "channels": "Channels",
+      "created_at": "Voarakitra"
+    },
+    "pipeline": {
+      "title": "Rojo fanodinana",
+      "preset_label": "Preset",
+      "preset_none": "Rojo manokana",
+      "preset_save": "Tehirizo ho preset",
+      "stage_locked": "Voahidy",
+      "stage_requires_extra": "Mitaky fanampiny izay tsy napetraka",
+      "process_button": "Raiso ny dingana",
+      "processing": "Mikarakara…",
+      "job_queued": "nilahatra…",
+      "job_running": "Mikarakara…",
+      "job_done": "vita",
+      "job_error": "Tsy nahomby",
+      "job_cancelled": "Nofoanana",
+      "cancel_job": "Manafoana",
+      "no_stages": "Tsy misy dingana misy."
+    },
+    "export": {
+      "title": "Export take",
+      "description": "Mandefa rakitra farany avy amin'ny kinova voavoatra.",
+      "variant_label": "Version",
+      "format_label": "Format",
+      "preset_label": "Export preset",
+      "range_label": "Sarona",
+      "range_full": "Halavany feno",
+      "range_custom": "Kilalao manokana",
+      "start_label": "Manomboka (s)",
+      "end_label": "Famaranana (s)",
+      "submit": "Export",
+      "progress": "Mandefa rakitra…",
+      "download_ready": "Efa vonona ny rakitra",
+      "download_button": "Misintona rakitra"
+    },
+    "notes": {
+      "placeholder": "Naoty maimaimpoana momba ity tetikasa ity…",
+      "saved_at": "Voatahiry ao amin'ny {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Soraty eto ny tononkira. Ampiasao ny palette amin'ny sisiny mba hampidirana meta-tags Suno.",
+      "saved_at": "Voatahiry ao amin'ny {{time}} ",
+      "saving": "Mitahiry…",
+      "versions": "Versions",
+      "versions_empty": "Tsy mbola misy dikan-teny voatahiry.",
+      "version_preview": "Preview",
+      "restore": "Avereno ity dikan-teny ity",
+      "restore_confirm_title": "Avereno ity dikan-teny ity?",
+      "restore_confirm_description": "Ny lahatsoratra ankehitriny dia hosoloina ny dikan-teny voatahiry ao amin'ny {{date}} .",
+      "metatags_title": "Meta-tags",
+      "metatags_hint": "Kitiho marika iray hampidirana azy eo amin'ny cursor.",
+      "metatags_placebo_warning": "Tsy voaporofo - mety tsy hisy fiantraikany amin'ny vokatra.",
+      "metatags_empty": "Tsy misy meta-tags voasoratra."
+    },
+    "prompts": {
+      "style_title": "Fomba haingana",
+      "lyrics_title": "Tononkira bitsika",
+      "template_label": "Template",
+      "template_none": "Tsy misy môdely",
+      "variables_title": "Variables",
+      "preview_title": "Preview",
+      "preview_empty": "Mifidiana môdely ary fenoy ny fari-pahalalana raha te hahita mialoha.",
+      "char_count": " {{count}} tarehintsoratra",
+      "char_count_warning": "Ny endri-tsoratra 1000 mahery dia mety hotapahina amin'ny Suno.",
+      "copy": "kopia",
+      "copied": "Nadika ho amin'ny solaitrabe",
+      "save_to_project": "Tehirizo amin'ny tetikasa",
+      "saved_to_project": "Voatahiry ho amin'ny tetikasa ny Prompt",
+      "history_title": "Tantara",
+      "history_empty": "Tsy misy dikan-teny teo aloha.",
+      "current_label": "Current"
+    },
+    "stems": {
+      "title": "Feo sy gitara",
+      "separate_button": "Misaraka ny feo sy ny gitara",
+      "running": "Misaraka…",
+      "vocals": "Vocals",
+      "instrumental": "Instrumental",
+      "process_stem": "Atsipazo ity taho ity",
+      "empty": "Mbola tsy misaraka ity fandraisana ity. Mihazakazaka ny fisarahana mba handre ny feo sy ny gitara mitokana.",
+      "capability_missing": "Tsy napetraka amin'ity mpizara ity ny fisarahana loharano.",
+      "unavailable": "Tsy mbola misy ny fisarahana amin'ny feo/gitara amin'ity mpizara ity."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "On",
+    "boolean_off": "Miala"
+  },
+  "import": {
+    "title": "Import",
+    "subtitle": "Ento ao amin'ny tranomboky ireo tetikasa efa misy ao anaty kapila.",
+    "step_indicator": "Dingana {{current}} amin'ny {{total}} ",
+    "step1": {
+      "title": "Mitadiava lahatahiry",
+      "description": "Tondroy ny lahatahiry faka miaraka amin'ny tetikasanao sy ny lalanao.",
+      "path_label": "lalan'ny lahatahiry",
+      "path_placeholder": "oh. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "vao haingana",
+      "scan_button": "Scan lahatahiry",
+      "scanning": "Mikaroka…",
+      "ffmpeg_warning": "Tsy hita ny FFmpeg — tsy hita ny rakitra mila fiovam-po.",
+      "folders_found_one": " {{count}} lahatahiry hita",
+      "folders_found_other": " {{count}} lahatahiry hita",
+      "unmatched_files_one": " {{count}} rakitra tsy fantatra",
+      "unmatched_files_other": " {{count}} rakitra tsy fantatra"
+    },
+    "step2": {
+      "title": "Famerenana zavatra",
+      "description": "Jereo ny anarana, ny sata ary ny zavatra hafarana alohan'ny hanamafisana azy.",
+      "select_all": "Fidio daholo",
+      "table": {
+        "folder": "Lahatahiry loharano",
+        "name": "Anaran'ny tetikasa",
+        "status": "Status",
+        "audio": "Audio",
+        "lyrics": "Tononkira",
+        "cover": "Cover",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} rakitra voafantina",
+      "audio_include_other": " {{count}} rakitra voafantina",
+      "no_audio": "Tsy misy feo hita",
+      "no_lyrics": "Tsy misy tononkira hita",
+      "no_cover": "Tsy misy fonony",
+      "warnings_title": "Fampitandremana"
+    },
+    "step3": {
+      "title": "Import",
+      "description": "Hamafiso ny handika ny rakitra ary mamorona ny tetikasa.",
+      "copy_originals": "Adikao ao amin'ny tranomboky ny rakitra tany am-boalohany",
+      "execute_button": "Manomboka manafatra",
+      "progress_title": "Manafatra…",
+      "created_count": "Noforonina: {{count}} ",
+      "skipped_count": "Nandalo: {{count}} ",
+      "done_title": "Vita ny fanafarana",
+      "done_description": "Ireo tetikasa etsy ambany dia noforonina tao amin'ny tranombokinao.",
+      "view_project": "Open tetikasa",
+      "start_over": "Import vaovao"
+    }
+  },
+  "templates": {
+    "title": "Templates",
+    "subtitle": "Modely haingana sy meta-tags azo ampiasaina ho an'ny Suno.",
+    "tabs": {
+      "prompts": "Môdely haingana",
+      "metatags": "Meta-tags"
+    },
+    "new_template": "môdely vaovao",
+    "kind": {
+      "style": "Style",
+      "lyrics": "Tononkira"
+    },
+    "kind_label": "Tsara fanahy",
+    "delete_confirm_title": "Fafao ny môdely \" {{name}} \"?",
+    "delete_confirm_description": "Tsy azo averina izany.",
+    "empty": "Tsy mbola misy môdely.",
+    "editor": {
+      "title_new": "môdely vaovao",
+      "title_edit": "Ahitsio môdely",
+      "name_label": "Anarana",
+      "name_placeholder": "oh. Ballad acoustic",
+      "kind_label": "Tsara fanahy",
+      "template_label": "Text template",
+      "template_hint": "Mariho ny toerana misy ny fari-piadidiana tsirairay miaraka amin'ny anarany voahodidina braces olioly roa - ohatra, ny fari-piainana iray antsoina hoe \"genre\" dia lasa karazana voafono amin'ny braces fanokafana roa sy roa famaranana.",
+      "variables_label": "Variables",
+      "variable_add": "Ampio miovaova",
+      "variable_name": "Key",
+      "variable_label": "Label",
+      "variable_type": "Type",
+      "variable_type_string": "Text",
+      "variable_type_select": "Safidy tokana",
+      "variable_type_multiselect": "Multi-select",
+      "variable_type_number": "Number",
+      "variable_type_boolean": "Eny/tsia",
+      "variable_options": "Safidy (sarahan'ny faingo)",
+      "variable_required": "Takina",
+      "save": "Tehirizo ny môdely"
+    },
+    "metatags": {
+      "title": "Meta-tags",
+      "subtitle": "Ny marika ara-drafitra sy ny fomba dia fantatry ny Suno ao anatin'ny tononkira.",
+      "new_tag": "Tag vaovao",
+      "tag_label": "Tag",
+      "tag_placeholder": "oh. gitara-solo",
+      "category_label": "Sokajy",
+      "tier_label": "azo itokisana",
+      "tier_legend_title": "Angano azo itokisana",
+      "tier_legend": {
+        "1": "Tier 1 - voarakitra an-tsoratra sy tsy miovaova",
+        "2": "Tier 2 - matetika miasa",
+        "3": "Tier 3 - vokatry miovaova",
+        "4": "Tier 4 - plasebo, tsy voaporofo"
+      },
+      "description_label": "Famaritana",
+      "delete_confirm_title": "Fafao ny marika \" {{tag}} \"?",
+      "empty": "Tsy mbola misy meta-tags manokana."
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Fampahalalana momba ny rafitra, fiteny ary safidin'ny default.",
+    "system_info_title": "System",
+    "version": "Version",
+    "data_dir": "Data lahatahiry",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Misy",
+    "ffmpeg_missing": "Tsy hita",
+    "capabilities_title": "Fametrahana fahaiza-manao",
+    "capability": {
+      "denoise": "Ny fampihenana ny tabataba",
+      "quality": "Fanatsarana ny kalitao",
+      "separate": "Fisarahana loharano",
+      "ffmpeg": "FFmpeg fiovam-po"
+    },
+    "capability_available": "Misy",
+    "capability_unavailable": "Tsy misy",
+    "gpu_title": "GPU acceleration",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime mpamatsy"
+    },
+    "gpu_none": "Tsy misy mpanome GPU hita",
+    "language_title": "Fiteny",
+    "language": {
+      "pt-BR": "Português (Brasil)",
+      "en": "anglisy"
+    },
+    "theme_title": "Fisehoana",
+    "theme": {
+      "dark": "Maizina",
+      "light": "Fahazavana"
+    },
+    "defaults_title": "Export defaults",
+    "lufs_target_label": "Target LUFS",
+    "lufs_target_hint": "Ampiasaina ho soso-kevitra fanombohana rehefa maka ny fanondranana. Ny default an'i Suno dia manodidina ny -14 LUFS.",
+    "saved": "Voatahiry ny safidy"
+  },
+  "guide": {
+    "title": "Suno firaketana an-tsoratra",
+    "subtitle": "Ny fomba hisambotra feo sy gitara dia maka izay hahazoana vokatra tsara indrindra.",
+    "intro": "Ny Suno dia manao tsara indrindra amin'ny fanondro madio sy tsy misy dikany. Ity torolalana ity dia mirakitra ny fanomanana, ny haavon'ny tanjona ary ny script fandraketana 3-5 minitra.",
+    "sections": {
+      "prep": {
+        "title": "Fiomanana",
+        "body": "Soraty ao amin'ny efitrano voatsabo na ao amin'ny efitrano misy fitaovana malefaka be dia be (birao, karipetra, akanjo ao anaty efi-trano). Vonoy ny mpankafy sy izay rehetra maneno. Afanaina mandritra ny 5 minitra ny feonao alohan'ny handraketana."
+      },
+      "levels": {
+        "title": "Ambaratonga: -12 hatramin'ny -6 dBFS",
+        "body": "Tanjona ny tampon'isa eo anelanelan'ny -12 sy -6 dBFS amin'ny metatra. Eo ambanin'io elanelana io dia miharihary kokoa ny tabataba ambadika; ambonin'izany, dia mitombo ny risika amin'ny clipping. Ampiasao ny metatra eo amin'ny pejy Raketo mba hametrahanao ny tombony alohan'ny hanombohanao."
+      },
+      "distance": {
+        "title": "Halavan'ny mik: 15–30 sm",
+        "body": "Mijanona eo amin'ny 15 hatramin'ny 30 sm eo amin'ny mikrô. Ny akaiky kokoa noho izany dia manitatra ny plosive sy ny fiantraikany akaiky; lavidavitra kokoa dia maka reverb sy tabataba ao amin'ny efitrano."
+      },
+      "script": {
+        "title": "Fandraketana script",
+        "warmup": "Fanafanana ny feo (1-2 minitra)",
+        "vowels": "zanatsoratra tohanana — a, e, i, o, u",
+        "scales": "Mizana tsotra, miakatra sy midina",
+        "excerpt": "Sombin-kira (8 ka hatramin'ny 16 bar)",
+        "dynamics": "Dynamics: manomboka malefaka, mifarana mafy",
+        "spoken_phrase": "Andian-teny iray, mba hahafahan'i Suno mamaky ny feonao"
+      },
+      "expectations": {
+        "title": "Inona no andrasan'i Suno",
+        "body": "WAV, 48 kHz, mono, maina (tsy misy reverb na effets), 3 hatramin'ny 5 minitra fanondroana. Ny 2 minitra madio indrindra sy mahasolo tena indrindra amin'ny fandraisana dia mazàna mitondra vokatra tsara indrindra."
+      }
+    }
+  },
+  "status": {
+    "idea": "Hevitra",
+    "em_progresso": "An-dalam-pandrosoana",
+    "quase": "Saika any",
+    "pronto": "Vonona"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Sora-peo feno ho an'i Suno",
+      "desc": "5 minitra arahina: fanafanana, zanatsoratra, mizana, sombin-kira roa, dinamika, ary fehezanteny iray."
+    },
+    "step": {
+      "warmup": "Fanafanana ny feo",
+      "warmup_inst": "Alefaso miaraka amin'ny yawns sy ny molotra trills (brrr), ary ny humming malefaka mandritra ny iray minitra. Tsy ilaina ny mirakitra an-tsoratra — mba hampalemy ny tendanao fotsiny aloha vao mihira.",
+      "vowels": "zanatsoratra maharitra",
+      "vowels_inst": "Tazony ny zanatsoratra tsirairay — a, e, i, o, u — mandritra ny 3 ka hatramin'ny 4 segondra eo amin'ny toerana misy anao, miaraka amin'ny feo tsy tapaka. Manampy an'i Suno haka ny timbre madion'ny feonao izany.",
+      "scales": "Mizana miakatra sy midina",
+      "scales_inst": "Mihirà mizana tsotra miakatra sy midina, amin'ny \"la\" na \"na\". Tsy mila tonga lafatra izy io - ny tanjona dia ny hametahana ny sarintanin'ny feonao.",
+      "section": "Sombin-kira - Fizarana 1",
+      "section_inst": "Hira 8 ka hatramin’ny 16 ny barany amin’ilay hira, miaraka amin’ny tena tanjona tianao hampitaina. Ataovy laharam-pahamehana ny mazava sy ny fisiana fa tsy ny fahatanterahana ara-teknika.",
+      "section2": "Sombin-kira - Fizarana 2",
+      "section2_inst": "Mihirà bara 8 ka hatramin'ny 16 hafa - ny tena tsara indrindra dia amboarampeo na fizarana mifanohitra amin'ny teo aloha. Ny karazany maro kokoa dia manampy ny modely hianatra ny feonao.",
+      "dynamics": "Fihetsiketsehana: malefaka → mafy",
+      "dynamics_inst": "Hirao ilay fehezan-teny mitovy manomboka malefaka ary miafara amin'ny feo mafy, nefa tsy manery ny tendanao. Ity dia mampiseho an'i Suno ny elanelana mavitrika amin'ny feonao.",
+      "spoken": "Andian-teny tononina",
+      "spoken_inst": "Mitenena — aza mihira — fehezanteny fohy sy voajanahary, toy ny hoe mifampiresaka ianao. Manampy an'i Suno hamantatra ny tena feon'ny feonao izany."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Famerenana amin'ny laoniny",
+      "filter": "Sivana",
+      "dynamics": "Dynamics",
+      "separation": "fisarahana",
+      "quality": "kalitao",
+      "utility": "Utility",
+      "loudness": "Loudness"
+    },
+    "highpass": "Sivana avo lenta",
+    "lowpass": "Sivana ambany-pass",
+    "denoise": "Ny fampihenana ny tabataba",
+    "declip": "Decliping",
+    "declick": "Click/pop esorina",
+    "deesser": "De-esser",
+    "gate": "Vavahadin'ny tabataba",
+    "compressor": "Compressor",
+    "limiter": "limiter",
+    "eq": "fampitoviana",
+    "normalize": "Normalization ambony indrindra",
+    "loudness": "Normalization ny feo (LUFS)",
+    "reverb_reduce": "Reverb reduction",
+    "separate": "Fisarahana loharano",
+    "quality": "Fanatsarana ny kalitao (ambony)",
+    "trim_silence": "Fampitana fahanginana",
+    "fade": "Fade in / fade out",
+    "stereo_to_mono": "Hiverina any amin'ny mono",
+    "resample": "Resampling"
+  },
+  "metatags": {
+    "tier": {
+      "1": "azo ianteherana",
+      "2": "Matetika miasa",
+      "3": "Variable",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Structure",
+      "vocal": "Vocal",
+      "instrument": "Instrument",
+      "dynamics": "Dynamics",
+      "production": "Famokarana",
+      "mood": "toe-po"
+    },
+    "verse": "Andininy",
+    "chorus": "Chorus",
+    "bridge": "Tetezana",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Hook",
+    "prechorus": "Pre-chorus",
+    "instrumental": "Instrumental",
+    "guitar_solo": "Gitara solo",
+    "build_up": "fananganana",
+    "breakdown": "Fahapotehana",
+    "spoken_word": "Teny ambara",
+    "whispered": "Nibitsibitsika",
+    "harmonies": "Harmonies",
+    "male_vocal": "Vocal lahy",
+    "female_vocal": "Fem-behivavy",
+    "duet": "Duet",
+    "acoustic": "Acoustic",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Feo madio",
+    "voice_guitar_balanced": "Feo sy gitara voalanjalanja",
+    "podcast": "Podcast",
+    "suno_ready": "Suno vonona",
+    "gentle_restore": "Famerenana malefaka",
+    "raw_passthrough": "Tsy misy fanodinana"
+  },
+  "errors": {
+    "unknown": "Nisy zavatra tsy nety.",
+    "network": "Tsy tonga tany amin'ny mpizara.",
+    "validation_error": "Jereo ny fampahalalana nampidirinao.",
+    "not_found": "Zavatra tsy hita.",
+    "project_not_found": "Tsy hita ny tetikasa.",
+    "take_not_found": "Raiso tsy hita.",
+    "album_not_found": "Album tsy hita.",
+    "preset_not_found": "Tsy hita ny preset.",
+    "template_not_found": "Tsy hita ny môdely.",
+    "device_busy": "Ny fitaovana audio dia ampiasain'ny programa hafa.",
+    "device_not_found": "Tsy hita ny fitaovana audio.",
+    "already_recording": "Efa mandeha ny fandraisam-peo.",
+    "ffmpeg_missing": "Tsy tafapetraka ny FFmpeg — apetraho izany mba hamadika ity rakitra ity.",
+    "disk_full": "Tsy ampy ny habaka kapila.",
+    "permission_denied": "Nolavina ny lalana nomena.",
+    "import_path_not_found": "Tsy hita ny lalana fanafarana.",
+    "job_failed": "Tsy nahomby ny fanodinana.",
+    "job_cancelled": "Nofoanana ny fanodinana.",
+    "process_failed": "Tsy nahomby ny fikarakarana ny fakana.",
+    "export_failed": "Tsy nahavita nanondrana ny rakitra.",
+    "record_failed": "Tsy nahomby ny nanomboka nandrakitra."
+  },
+  "jobs": {
+    "status": {
+      "queued": "nilahatra",
+      "running": "mihazakazaka",
+      "done": "vita",
+      "error": "Tsy nahomby",
+      "cancelled": "Nofoanana"
+    },
+    "kind": {
+      "process": "fanodinana",
+      "export": "Export",
+      "import": "Import",
+      "record": "Recording"
+    }
+  }
+}

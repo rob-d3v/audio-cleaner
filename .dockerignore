@@ -1,0 +1,21 @@
+# Dados pessoais e artefatos — nunca entram na imagem
+data/
+models/
+.git/
+.venv/
+**/__pycache__/
+**/*.pyc
+.pytest_cache/
+.ruff_cache/
+
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+.agents/
+.claude/
+docs/
+*.log
+*.part
+backend/tests/
+scratchpad/

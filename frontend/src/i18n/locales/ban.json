@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Pamresihin Audio"
+  },
+  "nav": {
+    "library": "Perpustakaan",
+    "record": "Rekam",
+    "import": "Impor",
+    "templates": "Templat",
+    "settings": "Setélan",
+    "guide": "Panuntun"
+  },
+  "common": {
+    "save": "Simpen",
+    "saving": "Nyimpen...",
+    "saved": "Kasimpen",
+    "cancel": "Ngingsirang",
+    "close": "Tutup",
+    "delete": "Icalang",
+    "edit": "Edit",
+    "create": "Ngaryanin",
+    "search": "Sliksik",
+    "loading": "Muat...",
+    "error": "Kaiwangan",
+    "retry": "Indayang malih",
+    "confirm": "Konfirmasi",
+    "back": "Mawali",
+    "next": "Selanturnyané",
+    "continue": "Lanturang",
+    "finish": "Puput",
+    "copy": "Salin",
+    "copied": "Kasalin",
+    "download": "Unduh",
+    "upload": "Unggahang",
+    "none": "Nénten wénten",
+    "all": "Makasami",
+    "yes": "Inggih",
+    "no": "Nénten",
+    "select": "Pilih",
+    "optional": "opsional",
+    "required": "kabuatang",
+    "unsaved_changes": "Pauwahan sané nénten kasimpen",
+    "name": "Wastan",
+    "status": "Kawéntenan",
+    "type": "Jenis",
+    "actions": "Parilaksana",
+    "empty": "Puyung",
+    "browse": "Jlahjah",
+    "remove": "Icalang",
+    "add": "Wewehin",
+    "rename": "Uwah wastan",
+    "duplicate": "Duplikat",
+    "warning": "Pakéling",
+    "locked": "Kakunci",
+    "builtin": "Kawangun",
+    "custom": "Khusus",
+    "untitled": "Tan mamurda",
+    "select_placeholder": "Pilih..."
+  },
+  "library": {
+    "title": "Perpustakaan",
+    "subtitle": "Proyek suara lan gitar semetone, saking ide ngantos rilis.",
+    "new_project": "Proyek anyar",
+    "new_album": "Album anyar",
+    "search_placeholder": "Sliksik manut wastan...",
+    "view": {
+      "grid": "Kisi",
+      "albums": "Album"
+    },
+    "filters": {
+      "all": "Makasami"
+    },
+    "take_count_one": " {{count}} ngambil",
+    "take_count_other": " {{count}} ngambil",
+    "updated_at": "Kaanyarang {{date}} ",
+    "no_results": {
+      "title": "Nénten wénten proyek sané kapanggih",
+      "description": "Indayang setélang panyliksikan utawi saringan status."
+    },
+    "empty": {
+      "title": "Perpustakaan Sametoné puyung",
+      "description": "Ngawitin proyek anyar saking nol, utawi impor sané sampun wénten ring disk.",
+      "cta_import": "Impor saking folder",
+      "cta_new": "Ngaryanin proyek"
+    },
+    "project_dialog": {
+      "title": "Proyek anyar",
+      "description": "Icenin wastan lan pilih mode rekaman.",
+      "name_label": "Wastan proyek",
+      "name_placeholder": "minakadi Ujan masan panes",
+      "mode_label": "Mode",
+      "mode": {
+        "voice": "Wantah suara",
+        "voice_guitar": "Suara + gitar"
+      },
+      "submit": "Ngaryanin proyek"
+    },
+    "album_dialog": {
+      "title": "Album anyar",
+      "description": "Proyek sané mapaiketan sareng kelompok dados album.",
+      "name_label": "Wastan album",
+      "name_placeholder": "minakadi EP Musim Gugur",
+      "submit": "Ngaryanin album"
+    },
+    "album": {
+      "untitled": "Album sané nénten madaging murda",
+      "members_count_one": " Proyek {{count}}",
+      "members_count_other": " Proyek {{count}}",
+      "empty": "Durung wénten proyek ring album puniki.",
+      "delete_confirm_title": "Icalang album?",
+      "delete_confirm_description": "Proyek nénten pacang kaicalang, wantah pacang kacabut saking \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Icalang \" {{name}} \"?",
+      "confirm_description": "Puniki ngicalang proyek lan sabilang ngambil ring jerone. Puniki nénten prasida kawaliang."
+    }
+  },
+  "record": {
+    "title": "Rekam",
+    "subtitle": "Rekam gambar sané bersih, cingakin undagan Sametoné, lan anut naskah.",
+    "project_label": "Proyek",
+    "project_placeholder": "Pilih proyek",
+    "project_create_quick": "Ngaryanin proyek sané gelis...",
+    "device_label": "Piranti input",
+    "device_placeholder": "Pilih piranti",
+    "device_default_badge": "Bawaan sistem",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Nénten wénten piranti input sané kapanggih.",
+    "monitor_button": "Ngawasin",
+    "monitor_stop_button": "Suud ngawasin",
+    "record_button": "Rekam",
+    "stop_button": "Mararian",
+    "elapsed_label": "Galah sané sampun lintang",
+    "status": {
+      "idle": "Nganggur",
+      "monitoring": "Panyelehan",
+      "recording": "Ngarekam",
+      "stopped": "Kagentosin"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Puncak",
+      "clip": "Klip"
+    },
+    "guide": {
+      "title": "Sesi sané katuntun",
+      "subtitle": "Ngiring pelatih mamargi nglintangin naskah langkah demi langkah, saking pemanasan ngantos frasa sane kabaosang.",
+      "loading": "Ngunggahang skrip...",
+      "unavailable": "Sesi sané katuntun durung wénten ring sérver.",
+      "select_project_device": "Pilih proyek lan piranti input anggén ngarekam langkah saking iriki.",
+      "progress": " {{done}} saking {{total}} langkah",
+      "start_timer": "Ngawitin pangatur galah",
+      "skip_timer": "Lempasin pangatur jam",
+      "record_step": "Rekam langkah puniki",
+      "stop_step": "Suud ngarekam",
+      "mark_done": "Puput — langkah selanturnyané",
+      "step_recorded": "Ambil sane karekam",
+      "no_record_step": "Langkah pemanasan — nénten perlu rekaman.",
+      "bars_hint": "Kirang langkung {{bars}} bar",
+      "complete_title": "Naskah sampun jangkep!",
+      "complete_body": "Sameton sampun ngarekam sabilang langkah naskah. Mawali ka tab Audio proyek lan pilih gambar favorit Sametoné.",
+      "restart": "Ngawitin malih skrip"
+    },
+    "best2min": {
+      "button": "Rereh 2 menit sané pinih becik (Suno)",
+      "running": "Nyelehin pangambilan...",
+      "score_label": "Skor",
+      "hint": "Ngamargiang analisis energi miwah kejelasan ring makasami galah mangda prasida manggihin jendela 2 menit sané pinih kuat — ragané kantun prasida nyesuaiang kisaran antuk tangan risampuné punika.",
+      "chart_caption": "Skor per jendela",
+      "unavailable": "Analisis 2 menit sané pinih becik durung wénten ring sérver puniki."
+    },
+    "takes_title": "Ngambil saking sesi puniki",
+    "takes_empty": "Durung wénten sané karekam ring sesi puniki.",
+    "open_in_project": "Bukak ring proyek",
+    "ws_disconnected": "Nyambungang malih ka meter tingkat...",
+    "select_project_first": "Pilih proyek jagi kakawitin.",
+    "select_device_first": "Pilih piranti input."
+  },
+  "project": {
+    "back_to_library": "Mawali ka perpustakaan",
+    "header": {
+      "status_label": "Kawéntenan",
+      "cover_upload": "Unggahang sampul",
+      "cover_remove": "Icalang tutup",
+      "name_placeholder": "Wastan proyek",
+      "links_title": "Cantélan",
+      "add_link": "Wewehin cantélan",
+      "mode": {
+        "voice": "Wantah suara",
+        "voice_guitar": "Suara + gitar"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Lirik",
+      "prompts": "Pituduh",
+      "notes": "Catetan"
+    },
+    "audio": {
+      "takes_title": "Ngambil",
+      "no_takes": {
+        "title": "Durung wénten ngambil",
+        "description": "Rekam pangambilan anyar utawi impor berkas sané sampun wénten."
+      },
+      "record_new": "Rekam pangambilan anyar",
+      "rating": "Peringkat",
+      "variant": {
+        "raw": "Mentah",
+        "processed": "Kaproses"
+      },
+      "variant_placeholder": "Versi",
+      "process_button": "Proses",
+      "export_button": "Ekspor",
+      "delete_take_confirm_title": "Icalang pengambilan puniki?",
+      "delete_take_confirm_description": "Audio mentah lan sabilang versi sane sampun kaproses pacang kaicalang.",
+      "ab": {
+        "raw": "A · Mentah",
+        "processed": "B · Kaolah"
+      },
+      "origin": {
+        "recorded": "Karekam",
+        "imported": "Kaimpor"
+      },
+      "session_label_placeholder": "Label sesi (opsional)",
+      "duration": "Durasi",
+      "sample_rate": "Tingkat conto",
+      "channels": "Saluran",
+      "created_at": "Karekam"
+    },
+    "pipeline": {
+      "title": "Rantai pamrosesan",
+      "preset_label": "Prasetél",
+      "preset_none": "Rantai uwahan",
+      "preset_save": "Simpen pinaka prasetélan",
+      "stage_locked": "Kakunci",
+      "stage_requires_extra": "Ngamerluang ekstra sané nénten kapasang",
+      "process_button": "Proses ambil",
+      "processing": "Ngolah...",
+      "job_queued": "Ngantri...",
+      "job_running": "Ngolah...",
+      "job_done": "Puput",
+      "job_error": "Gagal",
+      "job_cancelled": "Kakancel",
+      "cancel_job": "Ngingsirang",
+      "no_stages": "Nénten wénten panggung sané katadongang."
+    },
+    "export": {
+      "title": "Ekspor ambil",
+      "description": "Render berkas pamuput saking versi sané sampun kaproses.",
+      "variant_label": "Versi",
+      "format_label": "Format",
+      "preset_label": "Ekspor prasetélan",
+      "range_label": "Kisaran",
+      "range_full": "Lantang jangkep",
+      "range_custom": "Kisaran uwahan",
+      "start_label": "Ngawit (s)",
+      "end_label": "Puput (s)",
+      "submit": "Ekspor",
+      "progress": "Berkas sané karender...",
+      "download_ready": "Berkas sampun sayaga",
+      "download_button": "Unduh berkas"
+    },
+    "notes": {
+      "placeholder": "Catetan wangun bebas indik proyek puniki...",
+      "saved_at": "Kasimpen ring {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Surat liriknyane iriki. Anggen palet ring sisi antuk ngeranjingang meta-tag Suno.",
+      "saved_at": "Kasimpen ring {{time}} ",
+      "saving": "Nyimpen...",
+      "versions": "Versi",
+      "versions_empty": "Durung wénten versi sané kasimpen.",
+      "version_preview": "Pratinjo",
+      "restore": "Waliang versi puniki",
+      "restore_confirm_title": "Waliang versi puniki?",
+      "restore_confirm_description": "Teks sané mangkin pacang kagentosin antuk versi sané kasimpen ring {{date}} .",
+      "metatags_title": "Meta-tag",
+      "metatags_hint": "Klik tag anggén ngeranjingang ring kursor.",
+      "metatags_placebo_warning": "Nénten mabukti — minab nénten mapangaruh ring pikolihnyané.",
+      "metatags_empty": "Nénten wénten meta-tag sané kadaftarang."
+    },
+    "prompts": {
+      "style_title": "Pituduh gaya",
+      "lyrics_title": "Gelis lirik",
+      "template_label": "Templat",
+      "template_none": "Nénten wénten templat",
+      "variables_title": "Variabel",
+      "preview_title": "Pratinjo",
+      "preview_empty": "Pilih templat lan isi variabel anggén nyingakin pratinjo.",
+      "char_count": " {{count}} aksara",
+      "char_count_warning": "Pituduh gaya langkungan saking 1000 karakter minab kagetep olih Suno.",
+      "copy": "Salin",
+      "copied": "Kasalin ka papan klip",
+      "save_to_project": "Simpen ring proyek",
+      "saved_to_project": "Pituduh kasimpen ring proyek",
+      "history_title": "Sejarah",
+      "history_empty": "Nénten wénten versi sadurungnyané.",
+      "current_label": "Sané mangkin"
+    },
+    "stems": {
+      "title": "Vokal miwah gitar",
+      "separate_button": "Vokal miwah gitar sané mabinayan",
+      "running": "Memisahang...",
+      "vocals": "Vokal",
+      "instrumental": "Piranti",
+      "process_stem": "Olah batang puniki",
+      "empty": "Take puniki durung kapasahang. Lari pamisahan mangda prasida mirengang vokal lan gitar ring isolasi.",
+      "capability_missing": "Pemisahan sumber nénten kapasang ring sérver puniki.",
+      "unavailable": "Pemisahan vokal/gitar durung wénten ring server puniki."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Idup",
+    "boolean_off": "Mati"
+  },
+  "import": {
+    "title": "Impor",
+    "subtitle": "Bakta proyek sané sampun wénten ring disk ka perpustakaan.",
+    "step_indicator": "Langkah {{current}} saking {{total}} ",
+    "step1": {
+      "title": "Genah folder",
+      "description": "Tunjuk ka folder akar sareng proyek lan trek Sametoné.",
+      "path_label": "Jalur folder",
+      "path_placeholder": "minakadi E:\\Robbs\\Kasombongan\\Musik\\Robbs",
+      "recent_label": "Anyar",
+      "scan_button": "Pindai folder",
+      "scanning": "Memindai...",
+      "ffmpeg_warning": "FFmpeg nénten kapanggih — berkas sané merluang konversi pacang kalempas.",
+      "folders_found_one": " Folder {{count}} sampun kapanggih",
+      "folders_found_other": " {{count}} map sané kapanggih",
+      "unmatched_files_one": " {{count}} berkas sané nénten kauningin",
+      "unmatched_files_other": " {{count}} berkas sané nénten kauningin"
+    },
+    "step2": {
+      "title": "Tinjau barang",
+      "description": "Priksa wastan, status, lan napi sané pacang kaimpor sadurung konfirmasi.",
+      "select_all": "Pilih samian",
+      "table": {
+        "folder": "Folder sumber",
+        "name": "Wastan proyek",
+        "status": "Kawéntenan",
+        "audio": "Audio",
+        "lyrics": "Lirik",
+        "cover": "Sampul",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} berkas sané kapilih",
+      "audio_include_other": " {{count}} berkas sané kapilih",
+      "no_audio": "Nénten wénten audio sané kapanggih",
+      "no_lyrics": "Nénten wénten lirik sané kapanggih",
+      "no_cover": "Nénten wénten sampul",
+      "warnings_title": "Pakéling"
+    },
+    "step3": {
+      "title": "Impor",
+      "description": "Konfirmasi jagi nyalin berkas lan ngaryanin proyek.",
+      "copy_originals": "Salin berkas asli ka perpustakaan",
+      "execute_button": "Ngawitin ngimpor",
+      "progress_title": "Ngimpor...",
+      "created_count": "Kakaryanin: {{count}} ",
+      "skipped_count": "Kalewatin: {{count}} ",
+      "done_title": "Impor sampun jangkep",
+      "done_description": "Proyek ring sor puniki kakaryanin ring perpustakaan Sametoné.",
+      "view_project": "Bukak proyek",
+      "start_over": "Impor anyar"
+    }
+  },
+  "templates": {
+    "title": "Templat",
+    "subtitle": "Templat pituduh lan meta-tag sané prasida kaanggén malih anggén Suno.",
+    "tabs": {
+      "prompts": "Templat pitaken",
+      "metatags": "Meta-tag"
+    },
+    "new_template": "Cemplat anyar",
+    "kind": {
+      "style": "Gaya",
+      "lyrics": "Lirik"
+    },
+    "kind_label": "Baik",
+    "delete_confirm_title": "Icalang templat \" {{name}} \"?",
+    "delete_confirm_description": "Puniki nénten prasida kawaliang.",
+    "empty": "Durung wénten templat.",
+    "editor": {
+      "title_new": "Cemplat anyar",
+      "title_edit": "Edit templat",
+      "name_label": "Wastan",
+      "name_placeholder": "minakadi Balada akustik",
+      "kind_label": "Baik",
+      "template_label": "Teks templat",
+      "template_hint": "Tandain ring dija soang-soang variabel ngranjing antuk wastannyane sane kabungkus antuk kurung keriting ganda — umpaminyane, variabel sane mawasta \"genre\" dados genre sane kabungkus antuk kalih kurung pamungkah lan kalih kurung penutup.",
+      "variables_label": "Variabel",
+      "variable_add": "Wewehin variabel",
+      "variable_name": "Kunci",
+      "variable_label": "Label",
+      "variable_type": "Jenis",
+      "variable_type_string": "Teks",
+      "variable_type_select": "Pilih tunggal",
+      "variable_type_multiselect": "Multi-pilih",
+      "variable_type_number": "Angka",
+      "variable_type_boolean": "Inggih/ten",
+      "variable_options": "Opsi (kapisahin antuk koma)",
+      "variable_required": "Kaperluang",
+      "save": "Simpen templat"
+    },
+    "metatags": {
+      "title": "Meta-tag",
+      "subtitle": "Tag struktural lan gaya sane kauningin olih Suno ring jeroning lirik.",
+      "new_tag": "Tag anyar",
+      "tag_label": "Tag",
+      "tag_placeholder": "minakadi gitar-solo",
+      "category_label": "Kategori",
+      "tier_label": "Kaandel",
+      "tier_legend_title": "Legenda sané andel",
+      "tier_legend": {
+        "1": "Tingkat 1 — sampun kadokumentasiang miwah ajeg",
+        "2": "Tingkat 2 — ketahnyané makarya",
+        "3": "Tingkat 3 — efek variabel",
+        "4": "Tingkat 4 — plasebo, nénten mabukti"
+      },
+      "description_label": "Deskripsi",
+      "delete_confirm_title": "Icalang tag \" {{tag}} \"?",
+      "empty": "Durung wénten meta-tag uwahan."
+    }
+  },
+  "settings": {
+    "title": "Setélan",
+    "subtitle": "Informasi sistem, basa, lan preferensi default.",
+    "system_info_title": "Sistem",
+    "version": "Versi",
+    "data_dir": "Kop data",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Kasayagayang",
+    "ffmpeg_missing": "Nénten kapanggih",
+    "capabilities_title": "Kawagedan sané sampun kapasang",
+    "capability": {
+      "denoise": "Reduksi suara",
+      "quality": "Nincapang kualitas",
+      "separate": "Pamisahan sumber",
+      "ffmpeg": "Konversi FFmpeg"
+    },
+    "capability_available": "Kasayagayang",
+    "capability_unavailable": "Nénten katadongang",
+    "gpu_title": "Percepatan GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "Penyedia ONNX Runtime"
+    },
+    "gpu_none": "Nénten wénten panyedia GPU sané kadeteksi",
+    "language_title": "Basa",
+    "language": {
+      "pt-BR": "Portugis (Brasil)",
+      "en": "Bali"
+    },
+    "theme_title": "Penampilan",
+    "theme": {
+      "dark": "Peteng",
+      "light": "Cahaya"
+    },
+    "defaults_title": "Ekspor default",
+    "lufs_target_label": "Sasaran LUFS",
+    "lufs_target_hint": "Kaanggen pinaka saran pangawit ritatkala ngekspor ngambil. Default Suno sane malinggih ring sekitar -14 LUFS.",
+    "saved": "Preferensi kasimpen"
+  },
+  "guide": {
+    "title": "Panuntun rekaman Suno",
+    "subtitle": "Cara capture suara lan gitar ngambil sane ngamolihang hasil sane pinih becik.",
+    "intro": "Suno mamargi pinih becik antuk referensi sane bersih lan nenten ambigu. Panuntun puniki nyarengang indik persiapan, undagan sasaran, miwah naskah rekaman 3-5 menit.",
+    "sections": {
+      "prep": {
+        "title": "Persiapan",
+        "body": "Rekaman ring kamar sane karawat utawi sane akeh madaging bahan alus (gorden, karpet, busana ring lemari). Matiang kipas angin miwah napi manten sané manggeh. Angetang suaran Sametoné salami 5 menit sadurung ngarekam."
+      },
+      "levels": {
+        "title": "Tingkat: -12 ngantos -6 dBFS",
+        "body": "Tetujonnyane mangda puncaknyane wenten ring pantaraning -12 lan -6 dBFS ring meter. Ring sor kisaran punika, suara latar belakang sayan kacingak; ring baduurnyane, resiko kliping nincap. Anggén meter ring laman Rekam anggén ngatur pikolih sadurung ngawitin."
+      },
+      "distance": {
+        "title": "Jarak mikrofon: 15-30 cm",
+        "body": "Tetep 15 ngantos 30 cm saking mikrofon. Lebih nampek saking punika ngalebihin plosif lan efek kedekatan; sane doh ngambil reverb kamar sane lianan lan suara."
+      },
+      "script": {
+        "title": "Rekaman naskah",
+        "warmup": "Pemanasan vokal (1-2 menit)",
+        "vowels": "Vokal sane kalanturang — a, e, i, o, u .",
+        "scales": "Timbangan sané sederana, munggah miwah tuun",
+        "excerpt": "Kutipan tembang (8 ngantos 16 bar)",
+        "dynamics": "Dinamika: ngawit alus, puput keras",
+        "spoken_phrase": "Asiki frasa sane kaucap, mangda Suno prasida ngwacen nada vokal semetone"
+      },
+      "expectations": {
+        "title": "Napi sane kaaptiang olih Suno",
+        "body": "WAV, 48 kHz, mono, kering (nenten wenten reverb utawi efek), 3 ngantos 5 menit acuan. Sane pinih bersih, pinih representatif 2 menit saking take biasane ngasilang hasil sane pinih becik."
+      }
+    }
+  },
+  "status": {
+    "idea": "Ide",
+    "em_progresso": "Sané sedek mamargi",
+    "quase": "Dados wenten",
+    "pronto": "Siaga"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Naskah vokal sane jangkep antuk Suno",
+      "desc": "5 menit sane katuntun: pemanasan, vokal, skala, kalih petikan tembang, dinamika, lan frasa sane kabaosang."
+    },
+    "step": {
+      "warmup": "Pemanasan vokal",
+      "warmup_inst": "Lepasin antuk nguap, bibih trill (brrr), lan hum alus sawatara menit. Nenten perlu ngarekam — punika wantah anggen ngrereh tenggorokan sadurung magending.",
+      "vowels": "Vokal sane kalanturang",
+      "vowels_inst": "Tahan soang-soang vokal — a, e, i, o, u — salami 3 ngantos 4 detik ring nada sane nyaman, antuk volume sane tetep. Puniki ngawantu Suno ngambil timbre murni suaran semetone.",
+      "scales": "Skala menek lan tuun",
+      "scales_inst": "Nembangang skala sadarana menek lan salanturne tuun, saking \"la\" utawi \"na\". Puniki nenten perlu paripurna — tatujonnyane inggih punika ngametakan rentang vokal ragane.",
+      "section": "Kutipan tembang — bagian 1",
+      "section_inst": "Tembangang 8 ngantos 16 bar tembang punika, antuk pikayunan sane sujati sane jagi kasampayang. Utamayang kejelasan miwah kawentenan ring sajeroning kesempurnaan teknis.",
+      "section2": "Kutipan tembang — bagian 2",
+      "section2_inst": "Nembangang 8 kantos 16 bar liyanan — idealne paduan suara utawi kepahan sane kontras teken sane sadurungne. Lebih mabinayan ngawantu model malajah suaran ragane.",
+      "dynamics": "Dinamika: alus → keras",
+      "dynamics_inst": "Tembangang frasa sane pateh ngawit alus pisan lan puput keras, tanpa ngeregang tenggorokan. Puniki nyinahang Suno rentang dinamis suaran semetone.",
+      "spoken": "Frase sané kabaosang",
+      "spoken_inst": "Mabebaosan — sampunang magending — frasa sane cendet, alami, sakadi semeton ngobrol. Puniki ngawantu Suno uning ring timbre suaran semetone sane sujati."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restorasi",
+      "filter": "Saringan",
+      "dynamics": "Dinamika",
+      "separation": "Pamisahan",
+      "quality": "Kualitas",
+      "utility": "Utilitas",
+      "loudness": "Keras"
+    },
+    "highpass": "Saringan lulus tegeh",
+    "lowpass": "Saringan lulus rendah",
+    "denoise": "Reduksi suara",
+    "declip": "Ngicalang",
+    "declick": "Klik/ngicalang pop",
+    "deesser": "Icalang",
+    "gate": "Gerbang suara",
+    "compressor": "Kompresor",
+    "limiter": "Pangwates",
+    "eq": "Penyamaan",
+    "normalize": "Normalisasi puncak",
+    "loudness": "Normalisasi suara sané keras (LUFS)",
+    "reverb_reduce": "Reduksi reverb",
+    "separate": "Pamisahan sumber",
+    "quality": "Nincapang kualitas (kelas atas)",
+    "trim_silence": "Pamangkasan meneng",
+    "fade": "Pudar masuk / pudar pesu",
+    "stereo_to_mono": "Ngobah ka mono",
+    "resample": "Ngambil sampel malih"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Andel",
+      "2": "Lumrahnyané makarya",
+      "3": "Variabel",
+      "4": "Plasebo"
+    },
+    "category": {
+      "structure": "Struktur",
+      "vocal": "Vokal",
+      "instrument": "Piranti",
+      "dynamics": "Dinamika",
+      "production": "Produksi",
+      "mood": "Suasana hati"
+    },
+    "verse": "Ayat",
+    "chorus": "Paduan suara",
+    "bridge": "Jembatan",
+    "intro": "Intro",
+    "outro": "Medal",
+    "hook": "Kait",
+    "prechorus": "Pra-paduan suara",
+    "instrumental": "Piranti",
+    "guitar_solo": "Solo gitar",
+    "build_up": "Ngwangun",
+    "breakdown": "Rusak",
+    "spoken_word": "Kruna sané kabaosang",
+    "whispered": "Kabisik",
+    "harmonies": "Harmoni",
+    "male_vocal": "Vokal lanang",
+    "female_vocal": "Vokal istri",
+    "duet": "Duet",
+    "acoustic": "Akustik",
+    "ad_lib": "Iklan-lib"
+  },
+  "presets": {
+    "clean_voice": "Suara sané bersih",
+    "voice_guitar_balanced": "Suara & gitar sané seimbang",
+    "podcast": "Podkast",
+    "suno_ready": "Suno sampun sayaga",
+    "gentle_restore": "Pulihang alus",
+    "raw_passthrough": "Nénten wénten pamrosesan"
+  },
+  "errors": {
+    "unknown": "Ada ane iwang.",
+    "network": "Nénten prasida nyujur sérver.",
+    "validation_error": "Priksa informasi sané sampun kasurat.",
+    "not_found": "Barang nénten kapanggih.",
+    "project_not_found": "Proyék nénten kapanggih.",
+    "take_not_found": "Ambil nénten kapanggih.",
+    "album_not_found": "Album nénten kapanggih.",
+    "preset_not_found": "Prasetélan nénten kapanggih.",
+    "template_not_found": "Templat nénten kapanggih.",
+    "device_busy": "Piranti audio punika kaanggen olih program sane lianan.",
+    "device_not_found": "Piranti audio nénten kapanggih.",
+    "already_recording": "Rekaman sampun sedek mamargi.",
+    "ffmpeg_missing": "FFmpeg nénten kapasang — pasang anggén ngubah berkas puniki.",
+    "disk_full": "Nénten jangkep genah ring disk.",
+    "permission_denied": "Ijin katulak antuk pamargi sané kaicénin.",
+    "import_path_not_found": "Jalur impor nénten kapanggih.",
+    "job_failed": "Pamrosesan nénten prasida.",
+    "job_cancelled": "Pamrosesan sampun kacancel.",
+    "process_failed": "Gagal ngolah pengambilan.",
+    "export_failed": "Gagal ngekspor berkas",
+    "record_failed": "Gagal ngawitin ngarekam."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Ngantri",
+      "running": "Mamargi",
+      "done": "Puput",
+      "error": "Gagal",
+      "cancelled": "Kakancel"
+    },
+    "kind": {
+      "process": "Ngolah",
+      "export": "Ekspor",
+      "import": "Impor",
+      "record": "Ngarekam"
+    }
+  }
+}

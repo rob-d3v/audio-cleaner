@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Kë ye röl lɔɔkic"
+  },
+  "nav": {
+    "library": "Ɣön de kuɛ̈n",
+    "record": "Gät",
+    "import": "Bɛ̈i bei",
+    "templates": "Kä cïke them",
+    "settings": "Kä ye keek guiir",
+    "guide": "Dhiëth"
+  },
+  "common": {
+    "save": "Tɔ̈ɔ̈u",
+    "saving": "Tɔ̈ɔ̈u...",
+    "saved": "Acï tɔ̈ɔ̈u",
+    "cancel": "Cɔl",
+    "close": "Thiök",
+    "delete": "Cuɔth",
+    "edit": "Cɔ̈kpiny",
+    "create": "Cäŋ",
+    "search": "Kɔɔr",
+    "loading": "Lɔ̈ŋ...",
+    "error": "Kë cï wuɔ̈c",
+    "retry": "Them",
+    "confirm": "Gäm",
+    "back": "Dhuk ciëën",
+    "next": "Dɛ̈t bɔ̈",
+    "continue": "Lɔ tueŋ",
+    "finish": "Thöl",
+    "copy": "Copy",
+    "copied": "Acï guɔ̈p",
+    "download": "Bääi piny",
+    "upload": "Tääu ë",
+    "none": "Acïn",
+    "all": "Käŋ ëbɛ̈n",
+    "yes": "Ee",
+    "no": "Acie ye",
+    "select": "Kuany",
+    "optional": "kë lëu bï lɔc",
+    "required": "akɔɔr",
+    "unsaved_changes": "Kä cï röt waar këcë keek tɔ̈ɔ̈u",
+    "name": "Rin",
+    "status": "Tɔ̈u",
+    "type": "Gät",
+    "actions": "Kä ye looi",
+    "empty": "Kë cïn kë tɔ̈ thïn",
+    "browse": "Tïŋ",
+    "remove": "Nyaai",
+    "add": "Tääu thïn",
+    "rename": "Cɔl rin",
+    "duplicate": "Dhuɔ̈p",
+    "warning": "Tɔ̈ɔ̈ŋ",
+    "locked": "Acï thiöök",
+    "builtin": "Yïk-tënë",
+    "custom": "Kë cï looi",
+    "untitled": "Acïn nhom",
+    "select_placeholder": "Kuany..."
+  },
+  "library": {
+    "title": "Ɣön de kuɛ̈n",
+    "subtitle": "Käk ë röl ku käk ë guitar, jɔɔk në täk agut cï jäl.",
+    "new_project": "Ajuɛɛr jöt",
+    "new_album": "Albäm jöt",
+    "search_placeholder": "Kɔɔr në rin...",
+    "view": {
+      "grid": "Grid",
+      "albums": "Album"
+    },
+    "filters": {
+      "all": "Käŋ ëbɛ̈n"
+    },
+    "take_count_one": " {{count}} lööm",
+    "take_count_other": " {{count}} ee lööm",
+    "updated_at": "Acï cɔ̈kpiny {{date}} ",
+    "no_results": {
+      "title": "Acïn luɔi cï yök",
+      "description": "Tɛm ba kë kɔɔr wala kë ye käŋ gël cɔk tɔ̈u."
+    },
+    "empty": {
+      "title": "Ɣön duɔ̈ɔ̈n de kuɛ̈n acïn kë tɔ̈ thïn",
+      "description": "Jɔk luɔi yam ë jɔ̈k, wala import ë käŋ ë yïn tɔ̈u wënthɛɛr në disk.",
+      "cta_import": "Lɔɔr tënë kë cï tɔ̈ɔ̈u",
+      "cta_new": "Loi kë loi"
+    },
+    "project_dialog": {
+      "title": "Ajuɛɛr jöt",
+      "description": "Yeen gäm rin ku kuany dhöl ë gɛ̈tgɛ̈t.",
+      "name_label": "Rin ke kë loi",
+      "name_placeholder": "Cïmën Deŋ de Rur",
+      "mode_label": "Mode",
+      "mode": {
+        "voice": "Röl yetök",
+        "voice_guitar": "Röl + guitar"
+      },
+      "submit": "Loi kë loi"
+    },
+    "album_dialog": {
+      "title": "Albäm jöt",
+      "description": "Akutnhom thiääk ke luɔi në albɔ̈m yic.",
+      "name_label": "Rin ke albɔ̈m",
+      "name_placeholder": "Cïmën EP de Rur",
+      "submit": "Loi albäm"
+    },
+    "album": {
+      "untitled": "Album cïn rin",
+      "members_count_one": " {{count}} luɔi",
+      "members_count_other": " {{count}} kä loi keek",
+      "empty": "Acïn luɔi tɔ̈ në ye albɔ̈m kënë yic ëmɛn.",
+      "delete_confirm_title": "Cuɔp albäm?",
+      "delete_confirm_description": "Kä loi keek acïï bï nyaai, aye keek nyaai tënë \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Cɔk \" {{name}} \"?",
+      "confirm_description": "Yekënë ee luɔi nyaai ku këriɛ̈ɛ̈c ëbɛ̈n ë yök thïn. Yekënë acïï lëu bï dhuɔ̈kciëën."
+    }
+  },
+  "record": {
+    "title": "Gät",
+    "subtitle": "Tääu ë thëm ë thëm, tïŋ thëmdu, ku kuany thëm ë thëm cök.",
+    "project_label": "Aguiɛɛr",
+    "project_placeholder": "Kuany kë loi",
+    "project_create_quick": "Loi kë bï lac looi...",
+    "device_label": "Kë yenë käŋ tääu thïn",
+    "device_placeholder": "Kuany adit",
+    "device_default_badge": "Kë thɛɛr de ajuɛɛr",
+    "device_wasapi_badge": "WASÄPI",
+    "device_empty": "Acïn käke tääu thïn cï yök.",
+    "monitor_button": "Biöök",
+    "monitor_stop_button": "Päl biöök",
+    "record_button": "Gät",
+    "stop_button": "Kɔ̈ɔ̈c",
+    "elapsed_label": "Thaar cï tëëk",
+    "status": {
+      "idle": "Kë cïn kë loi",
+      "monitoring": "Biöök",
+      "recording": "Gɔ̈ɔ̈r",
+      "stopped": "Acï kɔ̈ɔ̈c"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Tɔ̈u nhial",
+      "clip": "Klip"
+    },
+    "guide": {
+      "title": "Aköl cï guiir",
+      "subtitle": "Cɔk raan piööc yïn ya cath në athör yic në dhöl tökic, jɔɔk në thök de thök agut cï wël cï ke lueel.",
+      "loading": "Kë cï gɔ̈t tääu thïn...",
+      "unavailable": "Tɛ̈ cï guiir thïn acie tɔ̈ në thäät yiic.",
+      "select_project_device": "Kuany luɔi ku kën ë tääu thïn bï dhɔ̈l ë gɛ̈tpiny ë thäät yiic ë tɛ̈ɛ̈n.",
+      "progress": " {{done}} de {{total}} kuɛɛr",
+      "start_timer": "Thɛɛr jɔɔk",
+      "skip_timer": "Tääu ë thaar piny",
+      "record_step": "Tääu ë dhöl kënë piny",
+      "stop_step": "Päl dɔm",
+      "mark_done": "Acï thöl — kueer dɛ̈t",
+      "step_recorded": "Löm kë cï dɔm",
+      "no_record_step": "Tɛ̈n ë tɔ̈ɔ̈u — acïn kë wïc bï dɔm.",
+      "bars_hint": "Në këde {{bars}} bar",
+      "complete_title": "Kë cï gɔ̈t acï thök!",
+      "complete_body": "Yïn acï thök ë thök ë athör ëbɛ̈n gɔ̈t. Dhuk nhom në thëm de Audio de luɔi yic ku kuany käkun nhiar keek.",
+      "restart": "Jɔ̈k kë cï gɔ̈t"
+    },
+    "best2min": {
+      "button": "Yök kë puɔth 2 minit (Suno)",
+      "running": "Cɛɛth de kä cïke lööm...",
+      "score_label": "Kë cï yök",
+      "hint": "Run riɛl ku thööŋ de käŋ në këriɛ̈ɛ̈c ëbɛ̈n yic bï yök ke ril de 2-minute window — yïn ŋot ke yïn lëu ba thëm de käŋ thɔ̈ɔ̈ŋ në yï cin të cïnë ye looi.",
+      "chart_caption": "Kë cï yök në awëër tökic",
+      "unavailable": "Kë puɔth-2-minit ë thëm acie tɔ̈u në ye thëm kënë yic ëmɛn."
+    },
+    "takes_title": "Kä cï keek lööm në ye thaar kënë yic",
+    "takes_empty": "Acïn kä cï keek dɔm në ye thää kënë yic ëmɛn.",
+    "open_in_project": "Liep thok në ajuɛɛr yic",
+    "ws_disconnected": "Dhuk rɔt në mïtïr de thëm yic...",
+    "select_project_first": "Kuany luɔi bï yïn jɔɔk.",
+    "select_device_first": "Kuany kë bï tääu thïn."
+  },
+  "project": {
+    "back_to_library": "Dhuk ciëën ɣön de kuɛ̈n",
+    "header": {
+      "status_label": "Tɔ̈u",
+      "cover_upload": "Tääu ë kë ye kum nhial",
+      "cover_remove": "Nyaai kë ye kum",
+      "name_placeholder": "Rin ke kë loi",
+      "links_title": "Kä ye rek",
+      "add_link": "Tääu ë kë cï rek",
+      "mode": {
+        "voice": "Röl yetök",
+        "voice_guitar": "Röl + guitar"
+      }
+    },
+    "tabs": {
+      "audio": "Kë ye röl",
+      "lyrics": "Wël",
+      "prompts": "Kä ye thiëc",
+      "notes": "Kä cï gɔ̈t"
+    },
+    "audio": {
+      "takes_title": "Löm",
+      "no_takes": {
+        "title": "Acïn kë cï dɔm",
+        "description": "Record ë yök yam wala bɛ̈ɛ̈i ë file tɔ̈u."
+      },
+      "record_new": "Tääu ë kë yam dɔm",
+      "rating": "Thëm",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Acï looi"
+      },
+      "variant_placeholder": "Kë cï gɔ̈t",
+      "process_button": "Aguiɛɛr",
+      "export_button": "Lɔɔc wei",
+      "delete_take_confirm_title": "Cɔk ye kënë nyaai?",
+      "delete_take_confirm_description": "Audio raw ku ëbɛ̈n cï looi abï nyaai.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Acï looi"
+      },
+      "origin": {
+        "recorded": "Acï dɔm",
+        "imported": "Acï bɛ̈i bei"
+      },
+      "session_label_placeholder": "Kë cï gɔ̈t në thaar (kë kɔɔr)",
+      "duration": "Thaar",
+      "sample_rate": "Kë ye nyuɔɔth",
+      "channels": "Käke cäth",
+      "created_at": "Acï dɔm"
+    },
+    "pipeline": {
+      "title": "Cäin de luɔɔi",
+      "preset_label": "Tääu ë thɛɛr",
+      "preset_none": "Chain cï looi",
+      "preset_save": "Tɔ̈ɔ̈u cït mɛn cïnë ye tääu thïn",
+      "stage_locked": "Acï thiöök",
+      "stage_requires_extra": "Akɔɔr kë dɛ̈t këc tääu thïn",
+      "process_button": "Ajuɛɛr löm",
+      "processing": "Luɔɔi...",
+      "job_queued": "Acï kɔ̈ɔ̈c në thäm...",
+      "job_running": "Luɔɔi...",
+      "job_done": "Acï thök",
+      "job_error": "Acï löny",
+      "job_cancelled": "Acï cɔk kääc",
+      "cancel_job": "Cɔl",
+      "no_stages": "Acïn dhɔ̈l tɔ̈ thïn."
+    },
+    "export": {
+      "title": "Löm käŋ wei",
+      "description": "Render file akër tënë kë cï looi.",
+      "variant_label": "Kë cï gɔ̈t",
+      "format_label": "Tëde",
+      "preset_label": "Tääu ë käŋ bei",
+      "range_label": "Käk",
+      "range_full": "Bɛ̈ɛ̈rde ëbɛ̈n",
+      "range_custom": "Kä cïke looi",
+      "start_label": "Jɔ̈k (k)",
+      "end_label": "Thök (k)",
+      "submit": "Lɔɔc wei",
+      "progress": "Athör ë gɛ̈t...",
+      "download_ready": "Athöör acï guiir",
+      "download_button": "Bääi kë cï gɔ̈t bei"
+    },
+    "notes": {
+      "placeholder": "Kä cï keek gɔ̈t ke cïn wëu në kë de ye luɔi kënë yic...",
+      "saved_at": "Acï tɔ̈ɔ̈u në {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Gät wël ë lëk ëtënë. Luɔ̈ɔ̈i ë pälët ë lɔ̈ɔ̈m bï Suno mëtä-tägs tääu thïn.",
+      "saved_at": "Acï tɔ̈ɔ̈u në {{time}} ",
+      "saving": "Tɔ̈ɔ̈u...",
+      "versions": "Kä cï röt waar",
+      "versions_empty": "Acïn kä cï keek tɔ̈ɔ̈u ëmɛn.",
+      "version_preview": "Tïŋ tueŋ",
+      "restore": "Dhuɔ̈kë ye kë cït kën",
+      "restore_confirm_title": "Dhuɔ̈kë ye kë cït kën?",
+      "restore_confirm_description": "Kä cï gɔ̈t ëmɛn abï keek waar në kë cï tɔ̈ɔ̈u në {{date}} .",
+      "metatags_title": "Meta-käŋ",
+      "metatags_hint": "Cɔl ë tag bï tääu thïn në thäät yiic.",
+      "metatags_placebo_warning": "Kë këc nyuɔɔth — alë bï ciɛ̈n kë bï yök tën kë cï bɛ̈n bei.",
+      "metatags_empty": "Acïn kë cï gɔ̈t cï gɔ̈t."
+    },
+    "prompts": {
+      "style_title": "Kë ye lac gɔ̈t",
+      "lyrics_title": "Wël ke diɛt",
+      "template_label": "Kë cï gɔ̈t",
+      "template_none": "Acïn kë cï gɔ̈t",
+      "variables_title": "Kä wääc",
+      "preview_title": "Tïŋ tueŋ",
+      "preview_empty": "Löm ë thëm ku thiöŋë kä wääc yiic ba thëm tueŋ tïŋ.",
+      "char_count": " {{count}} käŋ",
+      "char_count_warning": "Kä ye thɔ̈ɔ̈ŋ ke 1000 ke wël aalë bïkë keek thɔ̈ɔ̈ŋ në Suno.",
+      "copy": "Copy",
+      "copied": "Acï guɔ̈p në kë yenë käŋ tɔ̈ɔ̈u thïn",
+      "save_to_project": "Tɔ̈ɔ̈u tënë ajuɛɛr",
+      "saved_to_project": "Acï tɔ̈ɔ̈u tënë ajuɛɛr",
+      "history_title": "Akököl",
+      "history_empty": "Acïn kä cï röt looi wënthɛɛr.",
+      "current_label": "Kë tɔ̈u ëmɛɛn"
+    },
+    "stems": {
+      "title": "Röl ku guitar",
+      "separate_button": "Tɛ̈k röl ku guitar",
+      "running": "Tɛ̈k-tɛ̈k...",
+      "vocals": "Röl",
+      "instrumental": "Kë yenë käŋ looi",
+      "process_stem": "Luɔi ë kɔ̈u kënë",
+      "empty": "Yen take kënë akëc thök ë tɛ̈ɛ̈k. Run ë tɛ̈ɛ̈k yic ba röl ku guitar piŋ në tɛ̈ɛ̈k yic.",
+      "capability_missing": "Tɛ̈k-tɛ̈k de yök acie tääu në ye server kënë yic.",
+      "unavailable": "Tɛ̈k-tɛ̈k de röl/guitar acie tɔ̈ në ye thäätkë yiic."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Në",
+    "boolean_off": "Cɔc"
+  },
+  "import": {
+    "title": "Bɛ̈i bei",
+    "subtitle": "Bɛ̈i ë luɔi tɔ̈u wënthɛɛr në disk yic në ɣön de kuɛ̈n yic.",
+    "step_indicator": "Kueer {{current}} de {{total}} ",
+    "step1": {
+      "title": "Yök kë cï tɔ̈ɔ̈u",
+      "description": "Tääu ë root ë thäät yiic kek käk ë luɔi ku käk ë thäät.",
+      "path_label": "Dhöl de kë cï tɔ̈ɔ̈u",
+      "path_placeholder": "Cïmën E:\\Röbbs\\Prïdë\\Musïc\\Röbbs",
+      "recent_label": "Thiɔ̈kë",
+      "scan_button": "Skan kë cï tɔ̈ɔ̈u",
+      "scanning": "Thëm...",
+      "ffmpeg_warning": "FFmpeg akëc yök — wël wïc bï keek waar abï keek jäl.",
+      "folders_found_one": " {{count}} kë cï tɔ̈ɔ̈u acï yök",
+      "folders_found_other": " {{count}} kä cïke tɔ̈ɔ̈u cï yök",
+      "unmatched_files_one": " {{count}} athör këc ŋic",
+      "unmatched_files_other": " {{count}} kä cï keek ŋic"
+    },
+    "step2": {
+      "title": "Cɛɛth käŋ",
+      "description": "Tïŋ rin, tɔ̈u, ku kä bï keek bɛ̈i thïn ke yïn këc yök.",
+      "select_all": "Kuany käŋ kedhie",
+      "table": {
+        "folder": "Kë bïï käŋ thïn",
+        "name": "Rin ke kë loi",
+        "status": "Tɔ̈u",
+        "audio": "Kë ye röl",
+        "lyrics": "Wël",
+        "cover": "Kuum",
+        "album": "Albäm"
+      },
+      "audio_include_one": " {{count}} athör cï kuany",
+      "audio_include_other": " {{count}} athör cï kuany",
+      "no_audio": "Acïn röl cï yök",
+      "no_lyrics": "Acïn wël cïke yök",
+      "no_cover": "Acïn kë ye kum",
+      "warnings_title": "Kä ye kɔc lɛ̈k"
+    },
+    "step3": {
+      "title": "Bɛ̈i bei",
+      "description": "Cɔl ë lööŋ ku loi ë luɔi.",
+      "copy_originals": "Copy wereek thɛɛr në ɣön de kuɛ̈n yic",
+      "execute_button": "Jɔ̈k ë bɛ̈ɛ̈i bei",
+      "progress_title": "Bɛ̈i bei...",
+      "created_count": "Acï cak: {{count}} ",
+      "skipped_count": "Acï puɔ̈l: {{count}} ",
+      "done_title": "Bɛ̈i acï thök",
+      "done_description": "Käk luɔi tɔ̈ piiny ëtënë aacï keek looi në ɣön ë kuɛ̈n du yic.",
+      "view_project": "Projekt liep",
+      "start_over": "Bɛ̈i yam"
+    }
+  },
+  "templates": {
+    "title": "Kä cïke them",
+    "subtitle": "Tëmplëtë prömpt rëusëbälë änd mëtä-tägs för Suno.",
+    "tabs": {
+      "prompts": "Tɛ̈mplëtë prömpt",
+      "metatags": "Meta-käŋ"
+    },
+    "new_template": "Kë cï gɔ̈t yam",
+    "kind": {
+      "style": "Dhël",
+      "lyrics": "Wël"
+    },
+    "kind_label": "Piath",
+    "delete_confirm_title": "Dëlëtë thëmplätë \" {{name}} \"?",
+    "delete_confirm_description": "Yekënë acïï lëu bï dhuɔ̈kciëën.",
+    "empty": "Acïn käk cï keek tääu thïn ëmɛn.",
+    "editor": {
+      "title_new": "Kë cï gɔ̈t yam",
+      "title_edit": "Cɔk kë cï gɔ̈t cɔ̈kpiny",
+      "name_label": "Rin",
+      "name_placeholder": "Cïmën Bäläd Aköstïk",
+      "kind_label": "Piath",
+      "template_label": "Wël cï keek gɔ̈t",
+      "template_hint": "Mark të nɔŋ kë wääc ëbɛ̈n tɔ̈u keke rinke cï keek mat në käŋ kaa rou cï keek gɔ̈ɔ̈lic — cït mɛn, kë wääc cɔl \"genre\" ee rot looi ke cï mat në käŋ kaa rou ke liepthok ku käŋ kaa rou ke thiök.",
+      "variables_label": "Kä wääc",
+      "variable_add": "Tääu kë wääc thïn",
+      "variable_name": "Key",
+      "variable_label": "Gät",
+      "variable_type": "Gät",
+      "variable_type_string": "Wël",
+      "variable_type_select": "Tök cï kuany",
+      "variable_type_multiselect": "Kä juëc-kuɛ̈ny",
+      "variable_type_number": "Namba",
+      "variable_type_boolean": "Ee/acie ye",
+      "variable_options": "Kä bï ke lɔc (keek ke comma)",
+      "variable_required": "Akɔɔr",
+      "save": "Tɔ̈ɔ̈u ë kë cï gɔ̈t"
+    },
+    "metatags": {
+      "title": "Meta-käŋ",
+      "subtitle": "Kä cïke yïk ku kä cïke looi ke Suno aye keek nyic në wël ke diɛt yiic.",
+      "new_tag": "Tag yam",
+      "tag_label": "Tag",
+      "tag_placeholder": "Cïmën guitar-tök",
+      "category_label": "Teŋ",
+      "tier_label": "Gäm",
+      "tier_legend_title": "Gäm de raan thɛɛr",
+      "tier_legend": {
+        "1": "Tier 1 — cï gɔ̈t ku cïï rot ye waar",
+        "2": "Tier 2 — ee lac luui .",
+        "3": "Tier 3 — kä wääc ye röt looi",
+        "4": "Tier 4 — kë cï tääu thïn, këc nyuɔɔth"
+      },
+      "description_label": "Kë ye luɛɛl",
+      "delete_confirm_title": "Cɔl kë cï gɔ̈t \" {{tag}} \"?",
+      "empty": "Acïn kë cï tääu në ye nhom ëmɛn."
+    }
+  },
+  "settings": {
+    "title": "Kä ye keek guiir",
+    "subtitle": "Wël ke ajuɛɛr, thook, ku kä ye keek lɔc thɛɛr.",
+    "system_info_title": "Ajuɛɛr",
+    "version": "Kë cï gɔ̈t",
+    "data_dir": "Kë cï yök",
+    "ffmpeg_status": "FFmpëg",
+    "ffmpeg_available": "Atɔ̈u",
+    "ffmpeg_missing": "Acï yök",
+    "capabilities_title": "Kä cïke tääu thïn",
+    "capability": {
+      "denoise": "Kuɔ̈c de awɔɔu",
+      "quality": "Cökpiny de piath",
+      "separate": "Tɛ̈ŋ de yic",
+      "ffmpeg": "FFmpeg gɛ̈r"
+    },
+    "capability_available": "Atɔ̈u",
+    "capability_unavailable": "Acïï tɔ̈u",
+    "gpu_title": "GPU ë gɛ̈r",
+    "gpu": {
+      "torch_cuda": "PïTörc Cuda",
+      "ort_providers": "ONNX Kɔc ye thaar de luɔi bɛ̈i"
+    },
+    "gpu_none": "Acïn kɔc ye GPU bɛ̈i cï yök",
+    "language_title": "Thoŋ",
+    "language": {
+      "pt-BR": "Puɔrtugal (Brathïl)",
+      "en": "Dhoŋëlith"
+    },
+    "theme_title": "Tɔ̈u",
+    "theme": {
+      "dark": "Col",
+      "light": "Nuur"
+    },
+    "defaults_title": "Kä cïke tääu aɣeer",
+    "lufs_target_label": "Kë wïc LUFS",
+    "lufs_target_hint": "Luɔi ke ye jɔ̈k de wɛ̈t të nɔŋ yen kë ye ɣaac wei dɔm. Suno ë tɔ̈u ë -14 LUFS.",
+    "saved": "Kä nhiar keek acï keek tɔ̈ɔ̈u"
+  },
+  "guide": {
+    "title": "Guide de dɔm de Suno",
+    "subtitle": "Tɛ̈ bï yïn röl ku guitar dɔm thïn ku yök kë puɔth.",
+    "intro": "Suno ee luui apuɔth ke nɔŋ kä puɔth, kä cïï röt ye lac waar. Yen athör kënë ee lööŋ ke guiɛ̈ɛ̈r, kä wïc kek, ku jɔl ya athör ë gɛ̈t ë minit ka 3–5.",
+    "sections": {
+      "prep": {
+        "title": "Ajuɛɛr",
+        "body": "Record në ɣön cï tɔ̈ɔ̈u yic wala ɣön nɔŋ kä juëc ë thäät ë thäät (alɛ̈th, thäät, alɛ̈th tɔ̈u në thäät yiic). Tääu ë fans ku këriɛ̈ɛ̈c ëbɛ̈n ye hum. Warm ë röldu në minit ka 5 ke yïn këc thök ë thök."
+      },
+      "levels": {
+        "title": "Thëm: -12 agut cï -6 dBFS",
+        "body": "Aim ë thök ë -12 ku -6 dBFS në mïtïr. Në ye thëm kënë yic, ke awɔɔu tɔ̈ në ye cök aye lac tïŋ; në ye nhom, clïp ë rïsk ë rïsës. Luɔi ë mïtïr tɔ̈u në athör ë Record yic ba yökdu tääu piny ke yïn këc jɔɔk."
+      },
+      "distance": {
+        "title": "Kaam de kä ye cɔl Mic: 15–30 cm",
+        "body": "Tääu ë 15 tën 30 cm tën thäät ë thäät. Thiɔ̈k ke kën ee kä juëc ke plosives ku thiɔ̈k de käŋ juak; tɔ̈u të mec ë yök ë ɣöt juëc ë reverb ku ë röl."
+      },
+      "script": {
+        "title": "Gäm de wël",
+        "warmup": "Tuɔ̈c de röl (minit kaa 1–2)",
+        "vowels": "Wël cï keek muk — a, e, ɣɛn, o, u",
+        "scales": "Thëm kɔ̈c yic, nhial ku piny",
+        "excerpt": "A thök ë diɛt (8 agut cï 16 ë thök)",
+        "dynamics": "Kä ye röt waar: jɔɔk amääth, thöl ë röldït",
+        "spoken_phrase": "Töŋ de wël cï ke lueel, ago Suno röldu kueen"
+      },
+      "expectations": {
+        "title": "Kë ye Suno ŋɔ̈ɔ̈th .",
+        "body": "WAV, 48 kHz, tök, cï riɛl (acïn kë cï dhuɔ̈kciëën wala kë cï riääk), 3 agut cï minit ka 5 ke thööŋ. Kë ë tɔ̈ ke cë juiir, ë tɔ̈ ke cë tɔ̈u në nyin de 2 minit ke dɔm yic ee kä puɔth ëbɛ̈n bɛ̈i."
+      }
+    }
+  },
+  "status": {
+    "idea": "Kë ye tak",
+    "em_progresso": "Në lɔ tueŋ",
+    "quase": "Thiɔ̈k ke tɔ̈ thïn",
+    "pronto": "Acï guiir"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Kë cï gɔ̈t ëbɛ̈n de röl de Suno",
+      "desc": "5 minit cï keek guiir: thëm de nhom, wël ke thëm, thëm de diɛt kaa rou, thëm de wël, ku wël cï ke lueel."
+    },
+    "step": {
+      "warmup": "Tuɔ̈c de röl",
+      "warmup_inst": "Lɔc nhial në yï nhom, yï nhom (brrr), ku yï nhom lääu në minit tökic. Acïn kë wïc ba gɔ̈t — ee ba nhomdu lääu ëya ke yïn këc diɛ̈t.",
+      "vowels": "Wël cï keek muk",
+      "vowels_inst": "Muŋ ë thok tök — a, e, i, o, u — në thää kaa 3 agut cï thää kaa 4 në thää ë thää ë thää ë thää ë thää, ke thää ë thää ë thää ë thää. Yekënë ee Suno kuɔɔny bï timbre ë röldu ë yic yök.",
+      "scales": "Thëm nhial ku piny",
+      "scales_inst": "Ket kë kɔ̈c yic nhial ku piny, në \"la\" wala \"na\". Acïï wïc bï ya kë puɔth — kë wïc ee ba thëm de röldu map.",
+      "section": "Kë cï yök në diɛt yiic — bak de 1",
+      "section_inst": "Dɛ̈t ë 8 agut cï 16 bars ke diɛt, ke kë wïc ba lueel ë yic. Tääu ë yic ku tɔ̈u tueŋ në piath de tëët.",
+      "section2": "Kë cï yök në diɛt yiic — biäk de 2",
+      "section2_inst": "Ket dɛ̈t 8 agut cï 16 bars — ee kë puɔth bï ya diɛt wala abak wääc ke kë thɛɛr. Kä juëc wääc aye model kuɔɔny bï röldu piɔ̈ɔ̈c.",
+      "dynamics": "Kä ye röt waar: kɔ̈c → röldït",
+      "dynamics_inst": "Ket wël thöŋ ke gɔl ë wël lik apɛi ku thök ë röl dït, ke yïn këc yï nhom tääu piny. Yekënë ee Suno nyuɔɔth ke yïn ë tɔ̈ në dhöl ë pïïr yic.",
+      "spoken": "Wɛ̈t cï lueel",
+      "spoken_inst": "Jam — duk diɛt — wɛ̈t thiin koor, wɛ̈t ë cak, cït mɛn ë yïn jam. Yekënë ee Suno kuɔɔny bï timbre ë yic de röldu ŋic."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Dhuk ciëën",
+      "filter": "Kä ye käŋ dhiim",
+      "dynamics": "Kä ye röt waar",
+      "separation": "Tɛ̈ŋ de yic",
+      "quality": "Piath",
+      "utility": "Kä ye keek luɔ̈ɔ̈i",
+      "loudness": "Röldït"
+    },
+    "highpass": "Kë ye käŋ dhiim ye tëëk nhial",
+    "lowpass": "Kë ye käŋ dhiim ye tëëk piny",
+    "denoise": "Kuɔ̈c de awɔɔu",
+    "declip": "Kuɛ̈ny piny",
+    "declick": "Tuany/pop nyaai",
+    "deesser": "De-ësser",
+    "gate": "Thoŋ de awɔɔu",
+    "compressor": "Kɔmprësör",
+    "limiter": "Kë ye käŋ gël",
+    "eq": "Thöŋ de käŋ",
+    "normalize": "Tɔ̈u nhial",
+    "loudness": "Cökpiny de röl dït (LUFS)",
+    "reverb_reduce": "Kuɛ̈ny ë dhukciëën",
+    "separate": "Tɛ̈ŋ de yic",
+    "quality": "Cökpiny de piath (kë lɔ nhial)",
+    "trim_silence": "Kuɛ̈ny de biɛt",
+    "fade": "Lɔ̈ŋ lɔ thïn / lɔ̈ŋ bei",
+    "stereo_to_mono": "Weer ë tök",
+    "resample": "Bɛ̈i bï käŋ bɛɛr them"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Ye gam",
+      "2": "Ee lac luui",
+      "3": "Kä wääc",
+      "4": "Kë ye tääu thïn"
+    },
+    "category": {
+      "structure": "Luɔɔi",
+      "vocal": "Röl",
+      "instrument": "Kë yenë käŋ looi",
+      "dynamics": "Kä ye röt waar",
+      "production": "Luɔɔi",
+      "mood": "Piɔ̈u"
+    },
+    "verse": "Akölköl",
+    "chorus": "Kë ye ket",
+    "bridge": "Kubur",
+    "intro": "Gɔ̈c",
+    "outro": "Aɣeer",
+    "hook": "Hook",
+    "prechorus": "Kë tueŋ de diɛt",
+    "instrumental": "Kë yenë käŋ looi",
+    "guitar_solo": "Tök de guitar",
+    "build_up": "Yïk nhial",
+    "breakdown": "Tɛ̈k-tɛ̈k",
+    "spoken_word": "Wɛ̈t cï lueel",
+    "whispered": "Acï jam amääth",
+    "harmonies": "Kä thöŋ",
+    "male_vocal": "Röl de moc",
+    "female_vocal": "Röl de tik",
+    "duet": "Duët",
+    "acoustic": "Kë ye röl",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Röl piɛth",
+    "voice_guitar_balanced": "Röl cï thɔ̈ɔ̈ŋ & guitar",
+    "podcast": "Pödkast",
+    "suno_ready": "Suno acï guiir",
+    "gentle_restore": "Dhuk ciëën amääth",
+    "raw_passthrough": "Acïn luɔi"
+  },
+  "errors": {
+    "unknown": "Këdäŋ acï rɛ̈ɛ̈c.",
+    "network": "Acï lëu bï ɣet tënë thäät.",
+    "validation_error": "Tïŋ wël cï keek tääu thïn.",
+    "not_found": "Kë këc yök.",
+    "project_not_found": "Projekt akëc yök.",
+    "take_not_found": "Take acie yök.",
+    "album_not_found": "Album akëc yök.",
+    "preset_not_found": "Kë cï tääu tueŋ akëc yök.",
+    "template_not_found": "Kë cï gɔ̈t acï yök.",
+    "device_busy": "Kë ë röl ë röl ee luui në ajuɛɛr dɛ̈t.",
+    "device_not_found": "Kën ë piŋ acïï yök.",
+    "already_recording": "Aciëŋ ë gɛ̈tpiny acï jäl thök.",
+    "ffmpeg_missing": "FFmpeg acie tääu thïn — tääu thïn bï athör kënë waar.",
+    "disk_full": "Acïn të dït ë disk.",
+    "permission_denied": "Päl acï jäi tënë kueer cï gaam.",
+    "import_path_not_found": "Dhöl ë ɣɔɔc acie yök.",
+    "job_failed": "Luɔɔi acï löny.",
+    "job_cancelled": "Luɔɔi de käŋ acï cɔk kääc.",
+    "process_failed": "Acï löny bï kë cï lööm looi.",
+    "export_failed": "Acï thök bï file lɛɛr aɣeer.",
+    "record_failed": "Acï thök bï gɛ̈tpiny jɔɔk."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Acï mac kɔ̈ɔ̈th",
+      "running": "Kat",
+      "done": "Acï thök",
+      "error": "Acï löny",
+      "cancelled": "Acï cɔk kääc"
+    },
+    "kind": {
+      "process": "Luɔɔi",
+      "export": "Lɔɔc wei",
+      "import": "Bɛ̈i bei",
+      "record": "Gɔ̈ɔ̈r"
+    }
+  }
+}

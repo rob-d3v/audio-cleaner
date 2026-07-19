@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio Purigilo"
+  },
+  "nav": {
+    "library": "Biblioteko",
+    "record": "Rekordo",
+    "import": "Importi",
+    "templates": "Ŝablonoj",
+    "settings": "Agordoj",
+    "guide": "Gvidilo"
+  },
+  "common": {
+    "save": "Konservu",
+    "saving": "Konservante…",
+    "saved": "Savita",
+    "cancel": "Nuligi",
+    "close": "Fermu",
+    "delete": "Forigi",
+    "edit": "Redakti",
+    "create": "Krei",
+    "search": "Serĉu",
+    "loading": "Ŝargante…",
+    "error": "Eraro",
+    "retry": "Reprovi",
+    "confirm": "Konfirmu",
+    "back": "Reen",
+    "next": "Poste",
+    "continue": "Daŭrigu",
+    "finish": "Finu",
+    "copy": "Kopiu",
+    "copied": "Kopiita",
+    "download": "Elŝutu",
+    "upload": "Alŝutu",
+    "none": "Neniu",
+    "all": "Ĉiuj",
+    "yes": "Jes",
+    "no": "Ne",
+    "select": "Elektu",
+    "optional": "nedeviga",
+    "required": "postulata",
+    "unsaved_changes": "Nekonservitaj ŝanĝoj",
+    "name": "Nomo",
+    "status": "Statuso",
+    "type": "Tajpu",
+    "actions": "Agoj",
+    "empty": "Malplena",
+    "browse": "Foliumi",
+    "remove": "Forigi",
+    "add": "Aldoni",
+    "rename": "Alinomi",
+    "duplicate": "Duobligi",
+    "warning": "Averto",
+    "locked": "Ŝlosita",
+    "builtin": "Enkonstruita",
+    "custom": "Kutimo",
+    "untitled": "Sentitola",
+    "select_placeholder": "Elektu…"
+  },
+  "library": {
+    "title": "Biblioteko",
+    "subtitle": "Viaj voĉo kaj gitarprojektoj, de ideo ĝis liberigo.",
+    "new_project": "Nova projekto",
+    "new_album": "Nova albumo",
+    "search_placeholder": "Serĉu laŭ nomo...",
+    "view": {
+      "grid": "Krado",
+      "albums": "Albumoj"
+    },
+    "filters": {
+      "all": "Ĉiuj"
+    },
+    "take_count_one": " {{count}} prenu",
+    "take_count_other": " {{count}} prenas",
+    "updated_at": "Ĝisdatigita {{date}} ",
+    "no_results": {
+      "title": "Neniuj projektoj trovitaj",
+      "description": "Provu ĝustigi la serĉan aŭ statusan filtrilon."
+    },
+    "empty": {
+      "title": "Via biblioteko estas malplena",
+      "description": "Komencu novan projekton de nulo, aŭ importu prenojn, kiujn vi jam havas sur disko.",
+      "cta_import": "Importi el dosierujo",
+      "cta_new": "Krei projekton"
+    },
+    "project_dialog": {
+      "title": "Nova projekto",
+      "description": "Donu al ĝi nomon kaj elektu registradoreĝimon.",
+      "name_label": "Nomo de projekto",
+      "name_placeholder": "ekz. Somera Pluvo",
+      "mode_label": "Reĝimo",
+      "mode": {
+        "voice": "Voĉo nur",
+        "voice_guitar": "Voĉo + gitaro"
+      },
+      "submit": "Krei projekton"
+    },
+    "album_dialog": {
+      "title": "Nova albumo",
+      "description": "Grupigu rilatajn projektojn en albumon.",
+      "name_label": "Albumnomo",
+      "name_placeholder": "ekz. Aŭtuna EP",
+      "submit": "Krei albumon"
+    },
+    "album": {
+      "untitled": "Sentitola albumo",
+      "members_count_one": " {{count}} projekto",
+      "members_count_other": " {{count}} projektoj",
+      "empty": "Ankoraŭ neniuj projektoj en ĉi tiu albumo.",
+      "delete_confirm_title": "Ĉu forigi albumon?",
+      "delete_confirm_description": "Projektoj ne estos forigitaj, nur malligitaj de \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Ĉu forigi \" {{name}} \"?",
+      "confirm_description": "Ĉi tio forigas la projekton kaj ĉiun prenon en ĝi. Ĉi tio ne povas esti malfarita."
+    }
+  },
+  "record": {
+    "title": "Rekordo",
+    "subtitle": "Kaptu puran prenon, rigardu viajn nivelojn kaj sekvu la skripton.",
+    "project_label": "Projekto",
+    "project_placeholder": "Elektu projekton",
+    "project_create_quick": "Kreu rapidan projekton...",
+    "device_label": "Eniga aparato",
+    "device_placeholder": "Elektu aparaton",
+    "device_default_badge": "Sistemo defaŭlta",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Neniuj enigaparatoj trovitaj.",
+    "monitor_button": "Monitoro",
+    "monitor_stop_button": "Ĉesu monitoradon",
+    "record_button": "Rekordo",
+    "stop_button": "Haltu",
+    "elapsed_label": "Pasita tempo",
+    "status": {
+      "idle": "Senlabore",
+      "monitoring": "Monitorado",
+      "recording": "Registrado",
+      "stopped": "Haltis"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Pinto",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Gvidita kunsido",
+      "subtitle": "Lasu la trejniston gvidi vin tra la skripto paŝon post paŝo, de varmigo ĝis la parolata frazo.",
+      "loading": "Ŝargante skripton...",
+      "unavailable": "La gvidita sesio ankoraŭ ne disponeblas en la servilo.",
+      "select_project_device": "Elektu projekton kaj enigan aparaton por registri paŝojn ĝuste de ĉi tie.",
+      "progress": " {{done}} el {{total}} paŝoj",
+      "start_timer": "Komencu tempigilon",
+      "skip_timer": "Saltu tempigilon",
+      "record_step": "Registru ĉi tiun paŝon",
+      "stop_step": "Ĉesu registradon",
+      "mark_done": "Farita - sekva paŝo",
+      "step_recorded": "Prenu registrita",
+      "no_record_step": "Paŝo de varmiĝo - neniu registrado necesa.",
+      "bars_hint": "Pri {{bars}} stangoj",
+      "complete_title": "Skripto finiĝis!",
+      "complete_body": "Vi registris ĉiun paŝon de la skripto. Reiru al la langeto Aŭdio de la projekto kaj elektu viajn plej ŝatatajn prenojn.",
+      "restart": "Rekomencu skripton"
+    },
+    "best2min": {
+      "button": "Trovu la plej bonajn 2 minutojn (Suno)",
+      "running": "Analizante la prenon...",
+      "score_label": "Poentaro",
+      "hint": "Rulas energion kaj klarecan analizon dum la tuta preno por trovi ĝian plej fortan 2-minutan fenestron - vi ankoraŭ povas ĝustigi la gamon mane poste.",
+      "chart_caption": "Poentaro per fenestro",
+      "unavailable": "La plej bona 2-minuta analizo ankoraŭ ne haveblas ĉe ĉi tiu servilo."
+    },
+    "takes_title": "Prenas de ĉi tiu sesio",
+    "takes_empty": "Ankoraŭ neniuj prenoj registritaj en ĉi tiu sesio.",
+    "open_in_project": "Malfermu en projekto",
+    "ws_disconnected": "Rekonekto al la nivelmezurilo...",
+    "select_project_first": "Elektu projekton por komenci.",
+    "select_device_first": "Elektu enigan aparaton."
+  },
+  "project": {
+    "back_to_library": "Reen al biblioteko",
+    "header": {
+      "status_label": "Statuso",
+      "cover_upload": "Alŝutu kovrilon",
+      "cover_remove": "Forigu kovrilon",
+      "name_placeholder": "Nomo de projekto",
+      "links_title": "Ligiloj",
+      "add_link": "Aldonu ligilon",
+      "mode": {
+        "voice": "Voĉo nur",
+        "voice_guitar": "Voĉo + gitaro"
+      }
+    },
+    "tabs": {
+      "audio": "Aŭdio",
+      "lyrics": "Kantotekstoj",
+      "prompts": "Instigoj",
+      "notes": "Notoj"
+    },
+    "audio": {
+      "takes_title": "Prenas",
+      "no_takes": {
+        "title": "Neniuj prenoj ankoraŭ",
+        "description": "Registri novan prenon aŭ importu ekzistantan dosieron."
+      },
+      "record_new": "Registri novan prenon",
+      "rating": "Taksado",
+      "variant": {
+        "raw": "Kruda",
+        "processed": "Prilaborita"
+      },
+      "variant_placeholder": "Versio",
+      "process_button": "Procezo",
+      "export_button": "Eksporto",
+      "delete_take_confirm_title": "Ĉu forigi ĉi tiun prenon?",
+      "delete_take_confirm_description": "La kruda audio kaj ĉiu prilaborita versio estos forigitaj.",
+      "ab": {
+        "raw": "A · Kruda",
+        "processed": "B · Prilaborita"
+      },
+      "origin": {
+        "recorded": "Registrita",
+        "imported": "Importita"
+      },
+      "session_label_placeholder": "Sesia etikedo (laŭvola)",
+      "duration": "Daŭro",
+      "sample_rate": "Ekzempla indico",
+      "channels": "Kanaloj",
+      "created_at": "Registrita"
+    },
+    "pipeline": {
+      "title": "Pretiga ĉeno",
+      "preset_label": "Antaŭdifinita",
+      "preset_none": "Propra ĉeno",
+      "preset_save": "Konservu kiel antaŭdifinita",
+      "stage_locked": "Ŝlosita",
+      "stage_requires_extra": "Postulas kromaĵon kiu ne estas instalita",
+      "process_button": "Procezo preni",
+      "processing": "Prilaborado...",
+      "job_queued": "Envico...",
+      "job_running": "Prilaborado…",
+      "job_done": "Farita",
+      "job_error": "Malsukcesis",
+      "job_cancelled": "Nuligite",
+      "cancel_job": "Nuligi",
+      "no_stages": "Neniuj etapoj disponeblaj."
+    },
+    "export": {
+      "title": "Eksporto preni",
+      "description": "Redonu finan dosieron de prilaborita versio.",
+      "variant_label": "Versio",
+      "format_label": "Formato",
+      "preset_label": "Eksporto antaŭdifinita",
+      "range_label": "Gamo",
+      "range_full": "Plena longo",
+      "range_custom": "Propra gamo",
+      "start_label": "Komenco(j)",
+      "end_label": "Fino(j)",
+      "submit": "Eksporto",
+      "progress": "Redonante dosieron...",
+      "download_ready": "Dosiero preta",
+      "download_button": "Elŝutu dosieron"
+    },
+    "notes": {
+      "placeholder": "Liberformaj notoj pri ĉi tiu projekto...",
+      "saved_at": "Konservite ĉe {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Skribu la kantotekston ĉi tie. Uzu la paletron flanke por enmeti Suno-meta-etikedojn.",
+      "saved_at": "Konservite ĉe {{time}} ",
+      "saving": "Konservante…",
+      "versions": "Versioj",
+      "versions_empty": "Ankoraŭ neniuj konservitaj versioj.",
+      "version_preview": "Antaŭrigardo",
+      "restore": "Restarigu ĉi tiun version",
+      "restore_confirm_title": "Ĉu restarigi ĉi tiun version?",
+      "restore_confirm_description": "La nuna teksto estos anstataŭigita per la versio konservita je {{date}} .",
+      "metatags_title": "Meta-etikedoj",
+      "metatags_hint": "Alklaku etikedon por enmeti ĝin ĉe la kursoro.",
+      "metatags_placebo_warning": "Nepruvita - eble ne havas efikon al la rezulto.",
+      "metatags_empty": "Neniuj meta-etikedoj registritaj."
+    },
+    "prompts": {
+      "style_title": "Stilo prompto",
+      "lyrics_title": "Kantoteksto prompto",
+      "template_label": "Ŝablono",
+      "template_none": "Neniu ŝablono",
+      "variables_title": "Variabloj",
+      "preview_title": "Antaŭrigardo",
+      "preview_empty": "Elektu ŝablonon kaj plenigu la variablojn por vidi antaŭrigardon.",
+      "char_count": " {{count}} signoj",
+      "char_count_warning": "Stilaj instigoj pli ol 1000 signoj povas esti detranĉitaj de Suno.",
+      "copy": "Kopiu",
+      "copied": "Kopiita al tondujo",
+      "save_to_project": "Konservu al projekto",
+      "saved_to_project": "Prompto konservita al projekto",
+      "history_title": "Historio",
+      "history_empty": "Neniuj antaŭaj versioj.",
+      "current_label": "Nuna"
+    },
+    "stems": {
+      "title": "Kanto kaj gitaro",
+      "separate_button": "Apartaj kanto kaj gitaro",
+      "running": "Disigante…",
+      "vocals": "Vokalo",
+      "instrumental": "Instrumenta",
+      "process_stem": "Prilaboru ĉi tiun tigon",
+      "empty": "Ĉi tiu preno ankoraŭ ne estis apartigita. Kuru disiĝon por aŭdi la kanton kaj gitaron izole.",
+      "capability_missing": "Fonta apartigo ne estas instalita sur ĉi tiu servilo.",
+      "unavailable": "Voĉa/gitara apartigo ankoraŭ ne disponeblas en ĉi tiu servilo."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "On",
+    "boolean_off": "Malŝaltita"
+  },
+  "import": {
+    "title": "Importi",
+    "subtitle": "Alportu projektojn kiuj jam ekzistas sur disko en la bibliotekon.",
+    "step_indicator": "Paŝo {{current}} de {{total}} ",
+    "step1": {
+      "title": "Trovu dosierujon",
+      "description": "Montru al la radika dosierujo kun viaj projektoj kaj spuroj.",
+      "path_label": "Dosierujo vojo",
+      "path_placeholder": "ekz. E:\\Robbs\\Fiereco\\Muziko\\ROBBS",
+      "recent_label": "Lastatempa",
+      "scan_button": "Skanu dosierujon",
+      "scanning": "Skanante…",
+      "ffmpeg_warning": "FFmpeg ne trovita — dosieroj kiuj bezonas konvertiĝon estos preterlasitaj.",
+      "folders_found_one": " {{count}} dosierujo trovita",
+      "folders_found_other": " {{count}} dosierujoj trovitaj",
+      "unmatched_files_one": " {{count}} nerekonita dosiero",
+      "unmatched_files_other": " {{count}} nerekonitaj dosieroj"
+    },
+    "step2": {
+      "title": "Revizii erojn",
+      "description": "Kontrolu nomojn, statusojn, kaj kio estos importita antaŭ konfirmi.",
+      "select_all": "Elektu ĉiujn",
+      "table": {
+        "folder": "Fonta dosierujo",
+        "name": "Nomo de projekto",
+        "status": "Statuso",
+        "audio": "Aŭdio",
+        "lyrics": "Kantotekstoj",
+        "cover": "Kovrilo",
+        "album": "Albumo"
+      },
+      "audio_include_one": " {{count}} dosiero elektita",
+      "audio_include_other": " {{count}} dosieroj elektitaj",
+      "no_audio": "Neniu audio trovita",
+      "no_lyrics": "Neniu kantoteksto trovita",
+      "no_cover": "Neniu kovrilo",
+      "warnings_title": "Avertoj"
+    },
+    "step3": {
+      "title": "Importi",
+      "description": "Konfirmu kopii la dosierojn kaj krei la projektojn.",
+      "copy_originals": "Kopiu originalajn dosierojn en la bibliotekon",
+      "execute_button": "Komencu importon",
+      "progress_title": "Importado...",
+      "created_count": "Kreita: {{count}} ",
+      "skipped_count": "Preterpasita: {{count}} ",
+      "done_title": "Importo kompleta",
+      "done_description": "La subaj projektoj estis kreitaj en via biblioteko.",
+      "view_project": "Malfermu projekton",
+      "start_over": "Nova importo"
+    }
+  },
+  "templates": {
+    "title": "Ŝablonoj",
+    "subtitle": "Reuzeblaj promptaj ŝablonoj kaj meta-etikedoj por Suno.",
+    "tabs": {
+      "prompts": "Promptaj ŝablonoj",
+      "metatags": "Meta-etikedoj"
+    },
+    "new_template": "Nova ŝablono",
+    "kind": {
+      "style": "Stilo",
+      "lyrics": "Kantotekstoj"
+    },
+    "kind_label": "Afabla",
+    "delete_confirm_title": "Ĉu forigi ŝablonon \" {{name}} \"?",
+    "delete_confirm_description": "Ĉi tio ne povas esti malfarita.",
+    "empty": "Ankoraŭ neniuj ŝablonoj.",
+    "editor": {
+      "title_new": "Nova ŝablono",
+      "title_edit": "Redaktu ŝablonon",
+      "name_label": "Nomo",
+      "name_placeholder": "ekz. Akustika balado",
+      "kind_label": "Afabla",
+      "template_label": "Ŝablona teksto",
+      "template_hint": "Marku kie apartenas ĉiu variablo kun sia nomo envolvita en duoblaj krampoj — ekzemple, variablo nomita \"ĝenro\" iĝas ĝenro envolvita en du malfermaj kaj du fermaj krampoj.",
+      "variables_label": "Variabloj",
+      "variable_add": "Aldonu variablon",
+      "variable_name": "Ŝlosilo",
+      "variable_label": "Etikedo",
+      "variable_type": "Tajpu",
+      "variable_type_string": "Teksto",
+      "variable_type_select": "Unuopa elektu",
+      "variable_type_multiselect": "Multi-elekto",
+      "variable_type_number": "Numero",
+      "variable_type_boolean": "Jes/ne",
+      "variable_options": "Opcioj (komo-disigitaj)",
+      "variable_required": "Bezonata",
+      "save": "Konservu ŝablonon"
+    },
+    "metatags": {
+      "title": "Meta-etikedoj",
+      "subtitle": "Strukturaj kaj stilaj etikedoj Suno rekonas ene de kantoteksto.",
+      "new_tag": "Nova etikedo",
+      "tag_label": "Etikedo",
+      "tag_placeholder": "ekz. gitar-solo",
+      "category_label": "Kategorio",
+      "tier_label": "Fidindeco",
+      "tier_legend_title": "Legendo pri fidindeco",
+      "tier_legend": {
+        "1": "Tier 1 - dokumentita kaj konsekvenca",
+        "2": "Tier 2 - kutime funkcias",
+        "3": "Tier 3 - ŝanĝiĝema efiko",
+        "4": "Tier 4 - placebo, nepruvita"
+      },
+      "description_label": "Priskribo",
+      "delete_confirm_title": "Ĉu forigi etikedon \" {{tag}} \"?",
+      "empty": "Ankoraŭ neniuj kutimaj meta-etikedoj."
+    }
+  },
+  "settings": {
+    "title": "Agordoj",
+    "subtitle": "Sisteminformoj, lingvo kaj defaŭltaj preferoj.",
+    "system_info_title": "Sistemo",
+    "version": "Versio",
+    "data_dir": "Dosierujo de datumoj",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Disponebla",
+    "ffmpeg_missing": "Ne trovita",
+    "capabilities_title": "Instalitaj kapabloj",
+    "capability": {
+      "denoise": "Bruoredukto",
+      "quality": "Plibonigo de kvalito",
+      "separate": "Fonta apartigo",
+      "ffmpeg": "FFmpeg konvertiĝo"
+    },
+    "capability_available": "Disponebla",
+    "capability_unavailable": "Nedisponebla",
+    "gpu_title": "GPU-akcelo",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime provizantoj"
+    },
+    "gpu_none": "Neniuj GPU-provizantoj detektitaj",
+    "language_title": "Lingvo",
+    "language": {
+      "pt-BR": "portugala (Brazilo)",
+      "en": "la angla"
+    },
+    "theme_title": "Aspekto",
+    "theme": {
+      "dark": "Mallumo",
+      "light": "Lumo"
+    },
+    "defaults_title": "Eksporti defaŭltojn",
+    "lufs_target_label": "Celu LUFS",
+    "lufs_target_hint": "Uzita kiel komenca sugesto dum eksportado de prenoj. La defaŭlto de Suno sidas ĉirkaŭ -14 LUFS.",
+    "saved": "Preferoj konservitaj"
+  },
+  "guide": {
+    "title": "Suno-registradgvidilo",
+    "subtitle": "Kiel kapti voĉon kaj gitarojn, kiuj ricevas la plej bonajn rezultojn.",
+    "intro": "Suno funkcias plej bone kun puraj, malambiguaj referencoj. Ĉi tiu gvidilo kovras preparadon, celnivelojn, kaj 3-5-minutan registran skripton.",
+    "sections": {
+      "prep": {
+        "title": "Preparado",
+        "body": "Registradu en traktita ĉambro aŭ unu kun multe da mola materialo (kurtenoj, tapiŝoj, vestaĵoj en ŝranko). Malŝaltu ventolilojn kaj ĉion, kio zumas. Varmigu vian voĉon dum 5 minutoj antaŭ registrado."
+      },
+      "levels": {
+        "title": "Niveloj: -12 ĝis -6 dBFS",
+        "body": "Celu pintojn inter -12 kaj -6 dBFS sur la mezurilo. Sub tiu intervalo, fona bruo fariĝas pli videbla; super ĝi, tonda risko altiĝas. Uzu la mezurilon sur la paĝo Rekordo por agordi vian gajnon antaŭ ol komenci."
+      },
+      "distance": {
+        "title": "Mikrodistanco: 15–30 cm",
+        "body": "Restu 15 ĝis 30 cm de la mikrofono. Pli proksime ol tio troigas plozivojn kaj proksiman efikon; pli malproksime kaptas pli da ĉambro reverbo kaj bruo."
+      },
+      "script": {
+        "title": "Registrado de skripto",
+        "warmup": "Voĉa varmigo (1-2 minutoj)",
+        "vowels": "Daŭrigitaj vokaloj - a, e, i, o, u",
+        "scales": "Simplaj skvamoj, supren kaj malsupren",
+        "excerpt": "Kanteltiraĵo (8 ĝis 16 taktoj)",
+        "dynamics": "Dinamiko: komenci mallaŭte, fini laŭte",
+        "spoken_phrase": "Unu parolata frazo, por ke Suno povu legi vian voĉan tonon"
+      },
+      "expectations": {
+        "title": "Kion Suno atendas",
+        "body": "WAV, 48 kHz, mono, seka (sen reverbo aŭ efikoj), 3 ĝis 5 minutoj de referenco. La plej puraj, plej reprezentaj 2 minutoj de la preno kutime produktas la plej bonajn rezultojn."
+      }
+    }
+  },
+  "status": {
+    "idea": "Ideo",
+    "em_progresso": "En progreso",
+    "quase": "Preskaŭ tie",
+    "pronto": "Preta"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Plena voĉa manuskripto por Suno",
+      "desc": "5 gviditaj minutoj: varmigo, vokaloj, skaloj, du kanto-eltiraĵoj, dinamiko kaj parolita frazo."
+    },
+    "step": {
+      "warmup": "Voĉa varmigo",
+      "warmup_inst": "Malstreĉu per oscedoj, liptriloj (brrr), kaj mola zumado dum ĉirkaŭ minuto. Ne necesas registri — ĝi estas nur por malstreĉi vian gorĝon antaŭ ol kanti.",
+      "vowels": "Daŭrigitaj vokaloj",
+      "vowels_inst": "Tenu ĉiun vokalon — a, e, i, o, u — dum 3 ĝis 4 sekundoj laŭ via komforta tonalto, kun konstanta volumeno. Ĉi tio helpas Suno kapti la puran tembron de via voĉo.",
+      "scales": "Skaloj supren kaj malsupren",
+      "scales_inst": "Kantu simplan skalon supren kaj poste malsupren, sur \"la\" aŭ \"na\". Ĝi ne bezonas esti perfekta - la celo estas mapi vian voĉan gamon.",
+      "section": "Kanta eltiraĵo - parto 1",
+      "section_inst": "Kantu 8 ĝis 16 taktojn de la kanto, kun la vera intenco, kiun vi volas transdoni. Priorigu klarecon kaj ĉeeston super teknika perfekteco.",
+      "section2": "Kanta eltiraĵo - parto 2",
+      "section2_inst": "Kantu aliajn 8 ĝis 16 taktojn - ideale refrenkoruso aŭ sekcio kiu kontrastas kun la antaŭa. Pli da vario helpas la modelon lerni vian voĉon.",
+      "dynamics": "Dinamiko: mallaŭta → laŭta",
+      "dynamics_inst": "Kantu la saman frazon komencante tre milde kaj finiĝanta laŭte, sen streĉi vian gorĝon. Ĉi tio montras al Suno la dinamikan gamon de via voĉo.",
+      "spoken": "Parolita frazo",
+      "spoken_inst": "Parolu — ne kantu — mallongan, naturan frazon, kvazaŭ vi babilus. Ĉi tio helpas Suno rekoni la realan sonon de via voĉo."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restarigo",
+      "filter": "Filtriloj",
+      "dynamics": "Dinamiko",
+      "separation": "Apartigo",
+      "quality": "Kvalito",
+      "utility": "Utilo",
+      "loudness": "Laŭteco"
+    },
+    "highpass": "Altpasa filtrilo",
+    "lowpass": "Malalta-pasa filtrilo",
+    "denoise": "Bruoredukto",
+    "declip": "Deklipo",
+    "declick": "Klaku/popforigo",
+    "deesser": "De-esser",
+    "gate": "Brua pordego",
+    "compressor": "Kompresoro",
+    "limiter": "Limigilo",
+    "eq": "Egaligo",
+    "normalize": "Pinta normaligo",
+    "loudness": "Laŭtnormaligo (LUFS)",
+    "reverb_reduce": "Reverbredukto",
+    "separate": "Fonta apartigo",
+    "quality": "Plibonigo de la kvalito (altnivela)",
+    "trim_silence": "Silenta tondado",
+    "fade": "Fade in/fade out",
+    "stereo_to_mono": "Konverti al mono",
+    "resample": "Resampling"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Fidinda",
+      "2": "Kutime funkcias",
+      "3": "Variablo",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Strukturo",
+      "vocal": "Vokalo",
+      "instrument": "Instrumento",
+      "dynamics": "Dinamiko",
+      "production": "Produktado",
+      "mood": "Humoro"
+    },
+    "verse": "Verso",
+    "chorus": "Refreno",
+    "bridge": "Ponto",
+    "intro": "Enkonduko",
+    "outro": "Outro",
+    "hook": "Hoko",
+    "prechorus": "Antaŭĥoro",
+    "instrumental": "Instrumenta",
+    "guitar_solo": "Gitarra soloo",
+    "build_up": "Konstruo",
+    "breakdown": "Panaso",
+    "spoken_word": "Parolita vorto",
+    "whispered": "flustris",
+    "harmonies": "Harmonioj",
+    "male_vocal": "Vira voĉa",
+    "female_vocal": "Ina voĉa",
+    "duet": "Dueto",
+    "acoustic": "Akustika",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Pura voĉo",
+    "voice_guitar_balanced": "Ekvilibrita voĉo kaj gitaro",
+    "podcast": "Podkasto",
+    "suno_ready": "Suno preta",
+    "gentle_restore": "Milda restarigo",
+    "raw_passthrough": "Neniu prilaborado"
+  },
+  "errors": {
+    "unknown": "Io misfunkciis.",
+    "network": "Ne eblis atingi la servilon.",
+    "validation_error": "Kontrolu la informojn, kiujn vi enigis.",
+    "not_found": "Ero ne trovita.",
+    "project_not_found": "Projekto ne trovita.",
+    "take_not_found": "Prenu ne trovita.",
+    "album_not_found": "Albumo ne trovita.",
+    "preset_not_found": "Antaŭagordita ne trovita.",
+    "template_not_found": "Ŝablono ne trovita.",
+    "device_busy": "Sona aparato estas uzata de alia programo.",
+    "device_not_found": "Sona aparato ne trovita.",
+    "already_recording": "Registrado jam estas en progreso.",
+    "ffmpeg_missing": "FFmpeg ne estas instalita — instalu ĝin por konverti ĉi tiun dosieron.",
+    "disk_full": "Ne sufiĉa diskospaco.",
+    "permission_denied": "Permeso malakceptita por la donita vojo.",
+    "import_path_not_found": "Importvojo ne trovita.",
+    "job_failed": "Procesado malsukcesis.",
+    "job_cancelled": "Pretigo estis nuligita.",
+    "process_failed": "Malsukcesis prilabori la prenon.",
+    "export_failed": "Malsukcesis eksporti la dosieron.",
+    "record_failed": "Malsukcesis komenci registradon."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Envico",
+      "running": "Kurante",
+      "done": "Farita",
+      "error": "Malsukcesis",
+      "cancelled": "Nuligite"
+    },
+    "kind": {
+      "process": "Prilaborado",
+      "export": "Eksporto",
+      "import": "Importi",
+      "record": "Registrado"
+    }
+  }
+}

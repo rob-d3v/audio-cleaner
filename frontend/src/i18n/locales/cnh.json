@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Aw Thianhnak"
+  },
+  "nav": {
+    "library": "Cauk chiahnak",
+    "record": "Record",
+    "import": "Luhter",
+    "templates": "Template",
+    "settings": "Settings",
+    "guide": "Lamhruaitu"
+  },
+  "common": {
+    "save": "Khumh",
+    "saving": "Khamhnak...",
+    "saved": "Khumh",
+    "cancel": "Cancel",
+    "close": "Khar",
+    "delete": "Hloh",
+    "edit": "Remh",
+    "create": "Ser",
+    "search": "Kawl",
+    "loading": "Loading...",
+    "error": "Palhnak",
+    "retry": "I zuam tthan",
+    "confirm": "Fehter",
+    "back": "Hnulei",
+    "next": "A hnu",
+    "continue": "pehzulh",
+    "finish": "Dih",
+    "copy": "Copy",
+    "copied": "Copy tuahmi",
+    "download": "Download",
+    "upload": "Upload",
+    "none": "Zeihmanh",
+    "all": "Vialte",
+    "yes": "A si",
+    "no": "Si lo",
+    "select": "Thim",
+    "optional": "thim khawhmi",
+    "required": "a herh",
+    "unsaved_changes": "Chiah rih lomi thlennak",
+    "name": "Min",
+    "status": "Dirhmun",
+    "type": "Phun",
+    "actions": "Tuahsernak",
+    "empty": "A lawng",
+    "browse": "Browse",
+    "remove": "Hloh",
+    "add": "Chap",
+    "rename": "Min thlen",
+    "duplicate": "Aa khatmi",
+    "warning": "Ralrinnak",
+    "locked": "Hrenhmi",
+    "builtin": "A chung ah aa telmi",
+    "custom": "Custom",
+    "untitled": "Min ngei lo",
+    "select_placeholder": "Thim..."
+  },
+  "library": {
+    "title": "Cauk chiahnak",
+    "subtitle": "Na aw le guitar projects, ruahnak in chuah tiang.",
+    "new_project": "Project thar",
+    "new_album": "Album thar",
+    "search_placeholder": "Min in kawl...",
+    "view": {
+      "grid": "Grid",
+      "albums": "Album"
+    },
+    "filters": {
+      "all": "Vialte"
+    },
+    "take_count_one": " {{count}} lak",
+    "take_count_other": " {{count}} a lak",
+    "updated_at": "{{date}} tharchuah ",
+    "no_results": {
+      "title": "Project pakhat hmanh hmuh a si lo",
+      "description": "Kawlnak asiloah dirhmun thleidannak kha remh i zuam."
+    },
+    "empty": {
+      "title": "Na cauk chiahnak inn cu a lawng",
+      "description": "Project thar kha a hramthawk tein thawk, asiloah disk ah na ngeih cangmi thilri pawl kha luhter.",
+      "cta_import": "Folder chungin luhpi",
+      "cta_new": "Project ser"
+    },
+    "project_dialog": {
+      "title": "Project thar",
+      "description": "Min pe law record tuahnak lam kha thim.",
+      "name_label": "Project min",
+      "name_placeholder": "e.g. Khuasik Ruah",
+      "mode_label": "Mode",
+      "mode": {
+        "voice": "Aw lawng",
+        "voice_guitar": "Aw + guitar"
+      },
+      "submit": "Project ser"
+    },
+    "album_dialog": {
+      "title": "Album thar",
+      "description": "Aa pehtlaimi project pawl kha album pakhat ah fonh hna.",
+      "name_label": "Album min",
+      "name_placeholder": "e.g. Autumn EP",
+      "submit": "Album ser"
+    },
+    "album": {
+      "untitled": "Min ngei lomi album",
+      "members_count_one": " {{count}} project",
+      "members_count_other": " {{count}} projects",
+      "empty": "Hi album ah project a um rih lo.",
+      "delete_confirm_title": "Album hloh?",
+      "delete_confirm_description": "Project pawl cu hloh an si lai lo, \" {{name}} \" in aa pehtlaimi lawng an si lai."
+    },
+    "delete_project": {
+      "confirm_title": "\" {{name}} \" kha hloh?",
+      "confirm_description": "Mah nih hin project le a chung i a ummi thil vialte kha a hloh dih. Hihi remh khawh a si ti lo."
+    }
+  },
+  "record": {
+    "title": "Record",
+    "subtitle": "A thiangmi hmanthlak kha tlaih, na level kha zoh, cun script kha zulh.",
+    "project_label": "Project",
+    "project_placeholder": "Project pakhat thim",
+    "project_create_quick": "Project rang tein ser...",
+    "device_label": "Luhnak thilri",
+    "device_placeholder": "Thilri pakhat thim",
+    "device_default_badge": "System hmanmi",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Luhnak thilri pakhat hmanh hmuh a si lo.",
+    "monitor_button": "Zohkhenh",
+    "monitor_stop_button": "Zohfelnak ngol",
+    "record_button": "Record",
+    "stop_button": "Din",
+    "elapsed_label": "A liam cangmi caan",
+    "status": {
+      "idle": "Rian ngei lo",
+      "monitoring": "Zohfelnak",
+      "recording": "Record tuahnak",
+      "stopped": "A ngol"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Tlangpar",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Lamhruainak tonnak",
+      "subtitle": "Cawnpiaktu nih script kha step pakhat hnu pakhat in lamhruai seh, lumternak in chimmi biafang tiang.",
+      "loading": "Script luhternak...",
+      "unavailable": "Lamhruainak session cu server ah a um rih lo.",
+      "select_project_device": "Hika in step pawl record tuahnak ding caah project le input thilri kha thim.",
+      "progress": " {{done}} of {{total}} steps",
+      "start_timer": "Caan thawk",
+      "skip_timer": "Caan relnak hrial",
+      "record_step": "Hi step hi record tuah",
+      "stop_step": "Record tuah ngol",
+      "mark_done": "A dih cang — a hnu step",
+      "step_recorded": "Record tuahmi lak",
+      "no_record_step": "Lungthawhnak step — record tuah a hau lo.",
+      "bars_hint": "{{bars}} bars hrawng",
+      "complete_title": "Script a dih cang!",
+      "complete_body": "Script chung i a tthen kip kha na khumh dih cang. Project Audio tab ah kir law na duh bikmi hmanthlak kha thim.",
+      "restart": "Script thawk tthan"
+    },
+    "best2min": {
+      "button": "A tha bikmi minutes 2 kawl (Suno)",
+      "running": "Lakmi hlathlainak tuah...",
+      "score_label": "Mark",
+      "hint": "A tthawng bikmi 2-minute window hmuh khawhnak ding caah a dihlak in thazaang le fiang tein hlathlainak a tuah — a hnu zongah kut in a kauhnak kha na remh khawh rih.",
+      "chart_caption": "Window pakhat ah mark",
+      "unavailable": "Minute 2 chung a tha bikmi hlathlainak cu hi server ah a um rih lo."
+    },
+    "takes_title": "Hi session chungin lakmi",
+    "takes_empty": "Hi session ah hin hmanthlak an thlakmi a um rih lo.",
+    "open_in_project": "Project ah on",
+    "ws_disconnected": "Level meter he peh tthan...",
+    "select_project_first": "Hramthawknak ding caah project pakhat thim.",
+    "select_device_first": "Luhnak thilri pakhat thim."
+  },
+  "project": {
+    "back_to_library": "Cauk chiahnak ah kir",
+    "header": {
+      "status_label": "Dirhmun",
+      "cover_upload": "Hmailei kha thlah",
+      "cover_remove": "Khuhnak kha phoih",
+      "name_placeholder": "Project min",
+      "links_title": "Pehtlaihnak",
+      "add_link": "Link chap",
+      "mode": {
+        "voice": "Aw lawng",
+        "voice_guitar": "Aw + guitar"
+      }
+    },
+    "tabs": {
+      "audio": "Aw",
+      "lyrics": "Hlabia",
+      "prompts": "Biahalnak",
+      "notes": "Catlap"
+    },
+    "audio": {
+      "takes_title": "A lak",
+      "no_takes": {
+        "title": "A lak rih lo",
+        "description": "A thar in lak asiloah a um cangmi file kha luhter."
+      },
+      "record_new": "A thar in thlak",
+      "rating": "Rating",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Tuahsermi"
+      },
+      "variant_placeholder": "Version",
+      "process_button": "Tuahning",
+      "export_button": "Ramdang kuat",
+      "delete_take_confirm_title": "Hi hmanthlak hi hloh?",
+      "delete_take_confirm_description": "Raw audio le process tuahmi vialte cu hloh dih an si lai.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Tuahsermi"
+      },
+      "origin": {
+        "recorded": "Record tuahmi",
+        "imported": "Ramdang in luhpimi"
+      },
+      "session_label_placeholder": "Caan hmannak min (duhthimnak)",
+      "duration": "Caan sauh",
+      "sample_rate": "Sample rate",
+      "channels": "Channels",
+      "created_at": "Record tuahmi"
+    },
+    "pipeline": {
+      "title": "Riantuannak chain",
+      "preset_label": "Preset",
+      "preset_none": "Custom chain",
+      "preset_save": "Preset in chiah",
+      "stage_locked": "Hrenmi",
+      "stage_requires_extra": "Install a si lomi a dang a herh",
+      "process_button": "Tuahning lak",
+      "processing": "Tuah...",
+      "job_queued": "Queue...",
+      "job_running": "Tuah...",
+      "job_done": "A dih cang",
+      "job_error": "A hlawh a tling lo",
+      "job_cancelled": "Cancel a si cang",
+      "cancel_job": "Cancel",
+      "no_stages": "Stage a um lo."
+    },
+    "export": {
+      "title": "Ramdang kuat",
+      "description": "A donghnak file kha tuah cangmi version in langhter.",
+      "variant_label": "Version",
+      "format_label": "Format",
+      "preset_label": "A hlankan in chiahmi chuah",
+      "range_label": "Range",
+      "range_full": "A sau dih",
+      "range_custom": "Nawlngeihnak tlukruannak",
+      "start_label": "Hramthawknak (s)",
+      "end_label": "Donghnak (s)",
+      "submit": "Ramdang kuat",
+      "progress": "Rendering file...",
+      "download_ready": "File ready a si cang",
+      "download_button": "File kha download tuah"
+    },
+    "notes": {
+      "placeholder": "Hi project kong he pehtlai in zalong tein ṭialmi...",
+      "saved_at": "{{time}} ah chiah "
+    },
+    "lyrics": {
+      "placeholder": "Hika ah hlabia tial. Suno meta-tags khumh awkah a kam i a ummi palette kha hmang.",
+      "saved_at": "{{time}} ah chiah ",
+      "saving": "Khamhnak...",
+      "versions": "Version",
+      "versions_empty": "A chiahmi version a um rih lo.",
+      "version_preview": "Hmuh hmasa",
+      "restore": "Hi version hi remh tthan",
+      "restore_confirm_title": "Hi version hi remh ṭhan?",
+      "restore_confirm_description": "A tu cafang cu {{date}} ah chiahmi version in thlen a si lai.",
+      "metatags_title": "Meta-tags",
+      "metatags_hint": "Cursor ah khumh awkah tag pakhat kha hmet.",
+      "metatags_placebo_warning": "A fiang lomi — a phichuak cungah zeihmanh huham a ngei lo men lai.",
+      "metatags_empty": "Meta-tags register tuahmi a um lo."
+    },
+    "prompts": {
+      "style_title": "Style halnak",
+      "lyrics_title": "Hla bia halnak",
+      "template_label": "Template",
+      "template_none": "Template a um lo",
+      "variables_title": "Thlen khawhmi",
+      "preview_title": "Hmuh hmasa",
+      "preview_empty": "Hmuhsaknak hmuh khawhnak ding caah template pakhat thim law variable pawl kha tling tein khumh.",
+      "char_count": " {{count}} cafang",
+      "char_count_warning": "Cafang 1000 cung style halnak cu Suno nih a tlawmter khawh.",
+      "copy": "Copy",
+      "copied": "Clipboard ah copy tuah",
+      "save_to_project": "Project ah chiah",
+      "saved_to_project": "Prompt cu project ah chiah a si",
+      "history_title": "Tuanbia",
+      "history_empty": "A hlan version a um lo.",
+      "current_label": "Atu lio"
+    },
+    "stems": {
+      "title": "Aw le guitar",
+      "separate_button": "A dang tein aw le guitar",
+      "running": "Tthennak...",
+      "vocals": "Aw",
+      "instrumental": "Hriamnam",
+      "process_stem": "Hi hnah hi thlen",
+      "empty": "Hi lakmi hi tthen a si rih lo. A dang tein aw le guitar theih awkah tthennak tuah.",
+      "capability_missing": "Hi server ah hin source thleidannak cu chiah a si lo.",
+      "unavailable": "Hi server ah hin aw/guitar tthennak a um rih lo."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "On",
+    "boolean_off": "Off"
+  },
+  "import": {
+    "title": "Luhter",
+    "subtitle": "Disk cung ah a um cangmi project pawl kha cauk chiahnak ah luhpi hna.",
+    "step_indicator": "{{total}} chungin {{current}} ",
+    "step1": {
+      "title": "Folder kawl",
+      "description": "Na project le track pawl he root folder kha langhter.",
+      "path_label": "Folder lam",
+      "path_placeholder": "e.g. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "Nai ah",
+      "scan_button": "Folder kha zoh",
+      "scanning": "Hlathlainak...",
+      "ffmpeg_warning": "FFmpeg hmuh a si lo — thlen a herhmi file pawl cu hlonh an si lai.",
+      "folders_found_one": " {{count}} folder hmuh a si",
+      "folders_found_other": " {{count}} folder hmuh a si",
+      "unmatched_files_one": " {{count}} theih lomi file",
+      "unmatched_files_other": " {{count}} theih lomi file pawl"
+    },
+    "step2": {
+      "title": "Thilri zohfel",
+      "description": "Na fehter hlanah min, dirhmun le zeidah luhter a si lai ti kha zoh hmasa.",
+      "select_all": "A dihlak in thim",
+      "table": {
+        "folder": "Hramthawknak folder",
+        "name": "Project min",
+        "status": "Dirhmun",
+        "audio": "Aw",
+        "lyrics": "Hlabia",
+        "cover": "Khuh",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} file thim",
+      "audio_include_other": " {{count}} file pawl thim an si",
+      "no_audio": "Aw pakhat hmanh hmuh a si lo",
+      "no_lyrics": "Hlabia an hmu lo",
+      "no_cover": "Khumh a um lo",
+      "warnings_title": "Ralrin peknak"
+    },
+    "step3": {
+      "title": "Luhter",
+      "description": "File pawl copy tuah ding le project pawl ser ding in fehter.",
+      "copy_originals": "Cauk chiahnak ah a hramthawk file pawl kha copy tuah",
+      "execute_button": "Luhter hram thawk",
+      "progress_title": "Luhter...",
+      "created_count": "Sermi: {{count}} ",
+      "skipped_count": "A tlaumi: {{count}} ",
+      "done_title": "Luhter dih",
+      "done_description": "A tanglei project pawl hi na cauk chiahnak ah sermi an si.",
+      "view_project": "Project on",
+      "start_over": "A thar in luhtermi"
+    }
+  },
+  "templates": {
+    "title": "Template",
+    "subtitle": "Suno caah hman tthan khawhmi biahalnak template le meta-tags.",
+    "tabs": {
+      "prompts": "A rannak in template pawl",
+      "metatags": "Meta-tags"
+    },
+    "new_template": "Template thar",
+    "kind": {
+      "style": "Style",
+      "lyrics": "Hlabia"
+    },
+    "kind_label": "Zaangfahnak",
+    "delete_confirm_title": "\" {{name}} \" timi template kha hloh?",
+    "delete_confirm_description": "Hihi remh khawh a si ti lo.",
+    "empty": "Template a um rih lo.",
+    "editor": {
+      "title_new": "Template thar",
+      "title_edit": "Template remh",
+      "name_label": "Min",
+      "name_placeholder": "e.g. Acoustic ballad",
+      "kind_label": "Zaangfahnak",
+      "template_label": "Template cafang",
+      "template_hint": "Variable pakhat cio aa telnak hmun kha a min kha a tlongmi pahnih in khumh in hmelchunhnak tuah — tahchunhnak ah, \"genre\" timi variable cu a hramthawknak le a kharnak brace pahnih in hrenmi genre ah a cang.",
+      "variables_label": "Thlen khawhmi",
+      "variable_add": "Thlen khawhmi chap",
+      "variable_name": "Tawhfung",
+      "variable_label": "Label",
+      "variable_type": "Phun",
+      "variable_type_string": "Cafang",
+      "variable_type_select": "Thim pakhat lawng",
+      "variable_type_multiselect": "Thimnak tampi",
+      "variable_type_number": "Nambar",
+      "variable_type_boolean": "A si/si lo",
+      "variable_options": "Thimnak (comma in tthenmi)",
+      "variable_required": "A herhmi",
+      "save": "Template kha chiah"
+    },
+    "metatags": {
+      "title": "Meta-tags",
+      "subtitle": "Suno nih hlabia chung ah a hngalhmi dirhmun le style tags.",
+      "new_tag": "Tag thar",
+      "tag_label": "Tag",
+      "tag_placeholder": "e.g. guitar-solo",
+      "category_label": "Category",
+      "tier_label": "Bochan tlak sinak",
+      "tier_legend_title": "zumhawktlak sinak tuanbia",
+      "tier_legend": {
+        "1": "Tier 1 — cazin ah khumhmi le aa khatmi",
+        "2": "Tier 2 — a tlangpi in a ttha",
+        "3": "Tier 3 — aa thleng khomi thil sining",
+        "4": "Tier 4 — placebo, hngalh khawh lomi"
+      },
+      "description_label": "Fianternak",
+      "delete_confirm_title": "\" {{tag}} \" timi tag kha hloh?",
+      "empty": "Custom meta-tags a um rih lo."
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "System konglam, holh, le a hlankan in duhmi hna.",
+    "system_info_title": "System",
+    "version": "Version",
+    "data_dir": "Data folder",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Hmuh khawhmi",
+    "ffmpeg_missing": "Hmuh a si lo",
+    "capabilities_title": "Install tuahmi thilti khawhnak",
+    "capability": {
+      "denoise": "Aw-an zorternak",
+      "quality": "Quality tthanchonak",
+      "separate": "Hramthawknak tthennak",
+      "ffmpeg": "FFmpeg thlennak"
+    },
+    "capability_available": "Hmuh khawhmi",
+    "capability_unavailable": "Hmuh khawh a si lo",
+    "gpu_title": "GPU rangternak",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime providers"
+    },
+    "gpu_none": "GPU a petu pakhat hmanh hmuh an si lo",
+    "language_title": "Holh",
+    "language": {
+      "pt-BR": "Português (Brasil)",
+      "en": "Mirang"
+    },
+    "theme_title": "Muisam",
+    "theme": {
+      "dark": "Muihnak",
+      "light": "Ceunak"
+    },
+    "defaults_title": "A hlankan in chuah",
+    "lufs_target_label": "Target LUFS",
+    "lufs_target_hint": "Takes chuah tikah a hramthawk ruahnak cheuhnak ah hman a si. Suno a tlarimi cu -14 LUFS hrawng ah a um.",
+    "saved": "Duhnak chiahmi"
+  },
+  "guide": {
+    "title": "Suno record tuahnak lamhruainak",
+    "subtitle": "A ttha bikmi a phichuak hmuh khawhnak ding caah aw le guitar laknak zeitindah tlaih khawh a si.",
+    "intro": "Suno nih a thiangmi, a fiang lomi langhternak he a ttha bik in a ttuan. Hi lamhruainak nih hin timhtuahnak, tinhmi tlukruannak, le minutes 3-5 chung record tuahnak script a huap.",
+    "sections": {
+      "prep": {
+        "title": "Timhtuahnak",
+        "body": "A thlopmi khaan ah asiloah a nemmi thilri tampi a ummi khaan ah record tuah (puanzar, hnipuan, hnipuan chiahnak kuang chung). Fans le a thawngmi thil paoh kha phih hna. Record na tuah hlanah minutes 5 chung na aw kha lumter."
+      },
+      "levels": {
+        "title": "Tlukruannak: -12 in -6 dBFS",
+        "body": "Meter cung ah -12 le -6 dBFS karlak ah a sangbik pawl kha i tinh. Cu tlawm deuh ahcun, hnulei aw-an cu a fiang deuh; a cunglei ah, tthencheunak risk a kai. Na thawk hlanah na hmuhmi kha chiah awkah Record cahmai cung i meter kha hmang."
+      },
+      "distance": {
+        "title": "Mic hlatnak: 15-30 cm",
+        "body": "Microphone in 15 in 30 cm hlat ah um. Cu nak naih deuh nih cun plosives le naih tein um khawhnak kha a nganter; a hlat deuh ahcun aw-thawng le aw-an tam deuh a lak."
+      },
+      "script": {
+        "title": "Cafang ttialmi",
+        "warmup": "Aw lumternak (minute 1-2)",
+        "vowels": "A hmunmi awfang — a, e, i, o, u",
+        "scales": "Tahfung sawhsawh, cunglei le tanglei",
+        "excerpt": "Hla cheukhat (bar 8 in 16 tiang)",
+        "dynamics": "Dynamics: nem tein thawk, aw thangpi in donghter",
+        "spoken_phrase": "Biafang pakhat, cucaah Suno nih na aw a rel khawh"
+      },
+      "expectations": {
+        "title": "Suno nih zeidah aa ruahchan",
+        "body": "WAV, 48 kHz, mono, a ro (reverb le effects a um lo), 3 in 5 minutes zohchunhnak. A thiang bik, a aiawh bikmi minutes 2 nih a ttha bikmi a chuahpi tawn."
+      }
+    }
+  },
+  "status": {
+    "idea": "Ruahnak",
+    "em_progresso": "A kal cuahmah lio a si",
+    "quase": "A phan deng cang",
+    "pronto": "Timhcia"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Suno caah aw tling",
+      "desc": "5 lamhruainak minutes: lumternak, awfang, tahfung, hla tthen hnih, a cawlcangh ning, le biafang pakhat."
+    },
+    "step": {
+      "warmup": "Aw lumternak",
+      "warmup_inst": "Minute pakhat hrawng chung hrum, hmur hninh (brrr), le nem tein aw chuah in i din. Record tuah a hau lo — hla na sak hlanah na hnar kha dinhter sawhsawh a si.",
+      "vowels": "A hmunmi awfang",
+      "vowels_inst": "Awfang pakhat cio — a, e, i, o, u — kha na aw nem tein second 3 in 4 tiang, aw nem tein tlaih. Mah nih Suno kha na aw a thiangmi kha a hngalh khawh nakhnga a bawmh.",
+      "scales": "A cunglei le a tanglei ah a tah",
+      "scales_inst": "\"la\" asiloah \"na\" ah a sawhsawh in a cunglei le a tanglei ah sak. A tlingmi a si a hau lo — na aw chuah khawhnak kha map tuah kha aa tinhmi a si.",
+      "section": "Hla tthencheu — tthen 1",
+      "section_inst": "Na chim duhmi tinhmi taktak he hla kha bar 8 in 16 tiang sak. Technical tlamtlinnak nakin fiang tein le umtuning kha biapi deuh ah chiah.",
+      "section2": "Hla tthencheu — tthen 2",
+      "section2_inst": "Bars 8 in 16 tiang sak rih — a ttha bikmi cu a hlan he aa dangmi hlasaknak asiloah ṭhen pakhat a si. A phunphun tam deuh nih model kha na aw cawn awkah a bawmh.",
+      "dynamics": "Aa thlengmi: nem → a thang",
+      "dynamics_inst": "Na hnar hler loin nem tein thawk in aw thangpi in biafang pakhat kha sak. Mah nih hin Suno na aw a thlen khawhnak kha a langhter.",
+      "spoken": "Chimmi biafang",
+      "spoken_inst": "Biachim — hlasak hlah — bia tawite, a phung ning tein, nan i chawnh bantuk in. Mah nih Suno kha na aw aw taktak a hngalh khawh nakhnga a bawmh."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Remhnak",
+      "filter": "Filter pawl",
+      "dynamics": "Dynamics",
+      "separation": "Tthennak",
+      "quality": "Quality",
+      "utility": "Hmannak",
+      "loudness": "A thang"
+    },
+    "highpass": "A sangmi filter",
+    "lowpass": "Low-pass filter",
+    "denoise": "Aw-an zorternak",
+    "declip": "Tlawmternak",
+    "declick": "Click/pop hlohnak",
+    "deesser": "De-esser",
+    "gate": "Aw-an kutka",
+    "compressor": "Compressor",
+    "limiter": "Rikhiahtu",
+    "eq": "Tlukruannak",
+    "normalize": "A sangbik tlukruannak",
+    "loudness": "Aw thangternak (LUFS)",
+    "reverb_reduce": "Reverb zorternak",
+    "separate": "Hramthawknak tthennak",
+    "quality": "A tthatnak tthanchonak (a sang deuhmi)",
+    "trim_silence": "Dai tein umternak",
+    "fade": "A tlau / a tlau",
+    "stereo_to_mono": "Mono ah thlen",
+    "resample": "Resampling"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Bochan tlak",
+      "2": "A tlangpi in a ttha",
+      "3": "Aa thleng khomi",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Dirhmun",
+      "vocal": "Aw",
+      "instrument": "Hriamnam",
+      "dynamics": "Dynamics",
+      "production": "Chuahmi",
+      "mood": "Lungput"
+    },
+    "verse": "Cang",
+    "chorus": "Chorus",
+    "bridge": "Tlanglawng",
+    "intro": "Hramthawknak",
+    "outro": "Outro",
+    "hook": "Hook",
+    "prechorus": "Hlasaknak hlan",
+    "instrumental": "Hriamnam",
+    "guitar_solo": "Guitar solo",
+    "build_up": "Saknak",
+    "breakdown": "A rawhnak",
+    "spoken_word": "Chimmi bia",
+    "whispered": "A hninh",
+    "harmonies": "Harmonies",
+    "male_vocal": "Pa aw",
+    "female_vocal": "Nu aw",
+    "duet": "Duet",
+    "acoustic": "Aw",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Aw thiang",
+    "voice_guitar_balanced": "Aa tlukmi aw le guitar",
+    "podcast": "Podcast",
+    "suno_ready": "Suno timhcia a si cang",
+    "gentle_restore": "Nem tein remh ṭhan",
+    "raw_passthrough": "Tuahsernak a um lo"
+  },
+  "errors": {
+    "unknown": "Thil pakhatkhat a palh.",
+    "network": "Server kan phan kho lo.",
+    "validation_error": "Na khumhmi thawngpang kha zoh.",
+    "not_found": "Thilri hmuh a si lo.",
+    "project_not_found": "Project hmuh a si lo.",
+    "take_not_found": "Hmuh a si lo.",
+    "album_not_found": "Album hmuh a si lo.",
+    "preset_not_found": "A hlankan in chiahmi hmuh a si lo.",
+    "template_not_found": "Template hmuh a si lo.",
+    "device_busy": "Aw chuahnak thilri cu program dang nih a hmanmi a si.",
+    "device_not_found": "Aw chuahnak thilri hmuh a si lo.",
+    "already_recording": "Record tuahnak cu a kal cuahmah cang.",
+    "ffmpeg_missing": "FFmpeg cu install a si lo — hi file thlen awkah install tuah.",
+    "disk_full": "Disk hmunhma a za lo.",
+    "permission_denied": "Pekmi lam caah nawl pek a si lo.",
+    "import_path_not_found": "Luhternak lam hmuh a si lo.",
+    "job_failed": "Tuah ning a tlamtling lo.",
+    "job_cancelled": "Tuahsernak cu ngol a si.",
+    "process_failed": "Laknak tuah khawh a si lo.",
+    "export_failed": "File chuah khawh a si lo.",
+    "record_failed": "Record tuah hram thawk khawh a si lo."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Queue ah dir",
+      "running": "Tlik",
+      "done": "A dih cang",
+      "error": "A hlawh a tling lo",
+      "cancelled": "Cancel a si cang"
+    },
+    "kind": {
+      "process": "Riantuannak",
+      "export": "Ramdang kuat",
+      "import": "Luhter",
+      "record": "Record tuahnak"
+    }
+  }
+}

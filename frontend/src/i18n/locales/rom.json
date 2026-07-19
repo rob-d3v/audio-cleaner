@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio Cleaner"
+  },
+  "nav": {
+    "library": "Biblioteka",
+    "record": "Rekordo",
+    "import": "Importo",
+    "templates": "Šablonură",
+    "settings": "Paramètrură",
+    "guide": "Gìdo"
+  },
+  "common": {
+    "save": "Xramosar",
+    "saving": "Te arakhes…",
+    "saved": "Arakhipnasqo",
+    "cancel": "Anulisarel",
+    "close": "Phande",
+    "delete": "Xasar",
+    "edit": "Edit",
+    "create": "Keren",
+    "search": "Roden",
+    "loading": "Te ćhivel pes…",
+    "error": "Xatăripen",
+    "retry": "Zumav pale",
+    "confirm": "Konfirmisaren",
+    "back": "Palal",
+    "next": "Maj dur",
+    "continue": "Dža maj dur",
+    "finish": "Te agorisarel",
+    "copy": "Kopia",
+    "copied": "Kopirime",
+    "download": "Telecharge",
+    "upload": "Upload",
+    "none": "Ni jekh",
+    "all": "Sa",
+    "yes": "Da",
+    "no": "Na",
+    "select": "Alosar",
+    "optional": "opcionalo",
+    "required": "trubul",
+    "unsaved_changes": "Na garavde paruvimata",
+    "name": "Anav",
+    "status": "Statuso",
+    "type": "Tipo",
+    "actions": "Akcie",
+    "empty": "Pusto",
+    "browse": "Dikh",
+    "remove": "Te lel pes",
+    "add": "Thov",
+    "rename": "Paruv o anav",
+    "duplicate": "Duplikacia",
+    "warning": "Varningo",
+    "locked": "Phandlo",
+    "builtin": "Kerdo andre",
+    "custom": "Personalizirime",
+    "untitled": "Bi-titlo",
+    "select_placeholder": "Alosar..."
+  },
+  "library": {
+    "title": "Biblioteka",
+    "subtitle": "Tumaro glaso thaj projektura pe gitara, katar e ideja dži ko avridipe.",
+    "new_project": "Nevo projèkto",
+    "new_album": "Nevo albumo",
+    "search_placeholder": "Roden po anav...",
+    "view": {
+      "grid": "Grid",
+      "albums": "Albumura"
+    },
+    "filters": {
+      "all": "Sa"
+    },
+    "take_count_one": " {{count}} lel",
+    "take_count_other": " {{count}} lel",
+    "updated_at": "Aktualizime {{date}} ",
+    "no_results": {
+      "title": "Na arakhline projektură",
+      "description": "Zumav te laćhares o filtro vaś o rodipen vaj o statuso."
+    },
+    "empty": {
+      "title": "Tumari biblioteka si putardi",
+      "description": "Počmin jekh nevo projèkto katar o nulo, vaj importisaren le lila save si tumen aba po disko.",
+      "cta_import": "Importisaren katar o lil",
+      "cta_new": "Keren projèkto"
+    },
+    "project_dialog": {
+      "title": "Nevo projèkto",
+      "description": "De les jekh anav thaj alosar jekh modo te xramosares.",
+      "name_label": "Anav e projèktosqo",
+      "name_placeholder": "p.e. milajesko brishind",
+      "mode_label": "Modo",
+      "mode": {
+        "voice": "Numaj glaso",
+        "voice_guitar": "Glas + gitara"
+      },
+      "submit": "Keren projèkto"
+    },
+    "album_dialog": {
+      "title": "Nevo albumo",
+      "description": "Grupisaren e relaciake projektură anθ-jekh albumo.",
+      "name_label": "O anav e albumosqo",
+      "name_placeholder": "p.e. EP e ćhonesko",
+      "submit": "Ker albumo"
+    },
+    "album": {
+      "untitled": "Album bi anavesko",
+      "members_count_one": " {{count}} projekto",
+      "members_count_other": " {{count}} projektură",
+      "empty": "Naj projektura ko akava albumo akana.",
+      "delete_confirm_title": "Xasar o albumo?",
+      "delete_confirm_description": "E projektura na ka oven xasarde, numaj ka oven putarde katar \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Xasar \" {{name}} \"?",
+      "confirm_description": "Akava lel o projèkto thaj sa so si ande leste. Akava nashti te ovel kerdo."
+    }
+  },
+  "record": {
+    "title": "Rekordo",
+    "subtitle": "Ker jekh laćho dikhipen, dikh tire nivelură, thaj śunen o skripto.",
+    "project_label": "Proèkto",
+    "project_placeholder": "Alosar jekh projèkto",
+    "project_create_quick": "Keren jekh sigo projèkto…",
+    "device_label": "Input aparato",
+    "device_placeholder": "Alosar jekh aparato",
+    "device_default_badge": "Sistemo standardo",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Na arakhline pes input aparatura.",
+    "monitor_button": "Monitori",
+    "monitor_stop_button": "Ačhav te monitorisares",
+    "record_button": "Rekordo",
+    "stop_button": "Stop",
+    "elapsed_label": "Nakhli vràma",
+    "status": {
+      "idle": "Bibutjako",
+      "monitoring": "Monitoripe",
+      "recording": "Rekordàcia",
+      "stopped": "Ačhavdo"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Peak",
+      "clip": "Klip"
+    },
+    "guide": {
+      "title": "Sesia rigărdi",
+      "subtitle": "Mukh e treneres te źutil tut anθ-o skripto paso palal o paso, katar o ćhivipen źi k-i vakerdi fraza.",
+      "loading": "Te ćhivel pes o skripto...",
+      "unavailable": "I sesia źutipnaski na si inke disponibilo po serveri.",
+      "select_project_device": "Alosar jekh projèkto thaj jekh input-apparato te xramosares e paśa katar akate.",
+      "progress": " {{done}} katar {{total}} paśa",
+      "start_timer": "O vaxt e startosqo",
+      "skip_timer": "Nakhav o vaxt",
+      "record_step": "Xramosar kadava paso",
+      "stop_step": "Ačhav te xramosares",
+      "mark_done": "Kerdo — aver paso",
+      "step_recorded": "Te lel pes registràcia",
+      "no_record_step": "Paso vaś o tatovipen — na trubul te xramosarel pes.",
+      "bars_hint": "Karing {{bars}} bare",
+      "complete_title": "O skripto si pherdo!",
+      "complete_body": "Tu xramosardan sako paso katar o skripto. Irin palpale ko projektosko Audio tab thaj alosar e maj drago lila.",
+      "restart": "Restartuin o skripto"
+    },
+    "best2min": {
+      "button": "Arakh e maj laćhe 2 minutură (Suno)",
+      "running": "Analizindoj o lil...",
+      "score_label": "Skor",
+      "hint": "Kerel jekh analìza e enèrgiaqi thaj e klaritetosqi anθ-o sasto vaxt te arakhel pesqo maj zuralo 2-minutengo vaxt — śaj te ćhines o spektro vastesa palal.",
+      "chart_caption": "Skor pal-o śero",
+      "unavailable": "I maj laćhi-2-minutenqi analìza na si inke disponibilo pe kadava server."
+    },
+    "takes_title": "Te lel pes katar kadi sesia",
+    "takes_empty": "Na sas xramosarde anθ-i kadaja sesìa inke.",
+    "open_in_project": "Putar ando projèkto",
+    "ws_disconnected": "Rekonektiribe ko nivelosko meripe...",
+    "select_project_first": "Alosar jekh projèkto te astares.",
+    "select_device_first": "Alosar jekh input aparato."
+  },
+  "project": {
+    "back_to_library": "Palal ki biblioteka",
+    "header": {
+      "status_label": "Statuso",
+      "cover_upload": "Thov o kovèrto",
+      "cover_remove": "Te lel pes o kapako",
+      "name_placeholder": "Anav e projèktosqo",
+      "links_title": "Linkura",
+      "add_link": "Thov linko",
+      "mode": {
+        "voice": "Numaj glaso",
+        "voice_guitar": "Glas + gitara"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Teksto",
+      "prompts": "Pućhimata",
+      "notes": "Note"
+    },
+    "audio": {
+      "takes_title": "Lel",
+      "no_takes": {
+        "title": "Akana naj len",
+        "description": "Xramosaren jekh nevo lil vaj importisaren jekh egzistuime lil."
+      },
+      "record_new": "Xramosar jekh nevo lil",
+      "rating": "Rating",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Procesirime"
+      },
+      "variant_placeholder": "Verzia",
+      "process_button": "Proceso",
+      "export_button": "Exporto",
+      "delete_take_confirm_title": "Xasaren kadava lil?",
+      "delete_take_confirm_description": "O raw audio thaj sako procesirimi verzia ka oven line.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Procesime"
+      },
+      "origin": {
+        "recorded": "Xramosardo",
+        "imported": "Importime"
+      },
+      "session_label_placeholder": "Etiketa e sesiaqi (opcionalo)",
+      "duration": "Duripe",
+      "sample_rate": "Procento e mostresqo",
+      "channels": "Kanala",
+      "created_at": "Xramosardo"
+    },
+    "pipeline": {
+      "title": "Procesàciaqo lanco",
+      "preset_label": "Preset",
+      "preset_none": "Personalizirime lanco",
+      "preset_save": "Xramosar sar preset",
+      "stage_locked": "Phandlo",
+      "stage_requires_extra": "Trubul jekh ekstra savo na si instalirimo",
+      "process_button": "O proceso lel",
+      "processing": "Procesing…",
+      "job_queued": "Ande riga…",
+      "job_running": "Procesing…",
+      "job_done": "Kerdo",
+      "job_error": "Naśti te kerel pes",
+      "job_cancelled": "Anulirime",
+      "cancel_job": "Anulisarel",
+      "no_stages": "Naj thana disponibile."
+    },
+    "export": {
+      "title": "Exporto lel",
+      "description": "Keren jekh agorutno lil katar jekh procesuime verzia.",
+      "variant_label": "Verzia",
+      "format_label": "Formato",
+      "preset_label": "Exporto preset",
+      "range_label": "Rango",
+      "range_full": "Sasti lungina",
+      "range_custom": "Personalizirime spektro",
+      "start_label": "Starto (e)",
+      "end_label": "Agor (e)",
+      "submit": "Exporto",
+      "progress": "Rendering file…",
+      "download_ready": "O lil gata",
+      "download_button": "Te lel pes o lil"
+    },
+    "notes": {
+      "placeholder": "Nota ande slobodo forma pa kado projekto...",
+      "saved_at": "Arakhlo ko {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Xramosar o lav kathe. Ker buti e paletasa ki rig te thoves e Suno meta-tags.",
+      "saved_at": "Arakhlo ko {{time}} ",
+      "saving": "Te arakhes…",
+      "versions": "Verzie",
+      "versions_empty": "Akana naj garavde verzie.",
+      "version_preview": "Anglal dikhipe",
+      "restore": "Restaurisar kadaja verzia",
+      "restore_confirm_title": "Te laćhares kadaja verzia?",
+      "restore_confirm_description": "O akanutno tèksto ka ovel paruvdo e verziaça savi si garavdi ko {{date}} .",
+      "metatags_title": "Meta-tags",
+      "metatags_hint": "Klikisar jekh tag te thoves les ko kursoro.",
+      "metatags_placebo_warning": "Na-i dokazime — śaj te na avel les efekto p-o rezultàto.",
+      "metatags_empty": "Na si registrime meta-tags."
+    },
+    "prompts": {
+      "style_title": "Stilosko pućhipen",
+      "lyrics_title": "Prompto pal-e lavǎ",
+      "template_label": "Šablon",
+      "template_none": "Naj šablono",
+      "variables_title": "Variàble",
+      "preview_title": "Anglal dikhipe",
+      "preview_empty": "Alosar jekh šablono thaj pher e variàble te dikhes jekh angluno dikhipen.",
+      "char_count": " {{count}} karakterura",
+      "char_count_warning": "Le stiloske pučhimata opral 1000 karakterura šaj te aven čhudine katar o Suno.",
+      "copy": "Kopia",
+      "copied": "Kopirime ko clipboard",
+      "save_to_project": "Xramosar anθ-o projèkto",
+      "saved_to_project": "O pućhipen garavdo anθ-o projèkto",
+      "history_title": "Historia",
+      "history_empty": "Naj anglune verzie.",
+      "current_label": "Akana"
+    },
+    "stems": {
+      "title": "Vokalo thaj gitara",
+      "separate_button": "Separatno vokalo thaj gitara",
+      "running": "Separacia…",
+      "vocals": "Vokali",
+      "instrumental": "Instrumentalno",
+      "process_stem": "Procesisaren kadava ćàso",
+      "empty": "Akava lil na sine ulavdo inke. Keren separacia te aśunen o vokàlo thaj i gitara anθ-i izolàcia.",
+      "capability_missing": "I separacia e źanglimaski na si instalirime pe akava serveri.",
+      "unavailable": "I separacia vokalo/gitara na si disponibilo pe akava serveri akana."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Pe",
+    "boolean_off": "Off"
+  },
+  "import": {
+    "title": "Importo",
+    "subtitle": "Anen projektura save si aba pe disko ande biblioteka.",
+    "step_indicator": "Paso {{current}} katar {{total}} ",
+    "step1": {
+      "title": "Arakh o lil",
+      "description": "Sikaven o fundavno lil e projekturenqo thaj e dromenqo.",
+      "path_label": "Drom e folderosqo",
+      "path_placeholder": "p.e. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "Nevo",
+      "scan_button": "Skanisaren o lil",
+      "scanning": "Skaniribe…",
+      "ffmpeg_warning": "FFmpeg na arakhlăs pes — e lilă save trubun te aven konvertisarde ka aven ćhivde.",
+      "folders_found_one": " {{count}} folder arakhlo",
+      "folders_found_other": " {{count}} folderura arakhline",
+      "unmatched_files_one": " {{count}} na pinʒardo lil",
+      "unmatched_files_other": " {{count}} na-pinʒarde lilǎ"
+    },
+    "step2": {
+      "title": "Dikh e artiklura",
+      "description": "Dikh e anava, e statusura, thaj so ka ovel importirimo anglal te konfirmis.",
+      "select_all": "Alosar sa",
+      "table": {
+        "folder": "O źanglimasko lil",
+        "name": "Anav e projèktosqo",
+        "status": "Statuso",
+        "audio": "Audio",
+        "lyrics": "Teksto",
+        "cover": "Kaver",
+        "album": "Albumo"
+      },
+      "audio_include_one": " {{count}} lil alosardo",
+      "audio_include_other": " {{count}} lilǎ alosarde",
+      "no_audio": "Na arakhlem audio",
+      "no_lyrics": "Na arakhline lafija",
+      "no_cover": "Naj kovlipe",
+      "warnings_title": "Varningura"
+    },
+    "step3": {
+      "title": "Importo",
+      "description": "Konfirmisaren te keren kopia e dokumenturenqi thaj te keren e projèktură.",
+      "copy_originals": "Kopirin le originalne dokumentura ande biblioteka",
+      "execute_button": "Te astaras o importo",
+      "progress_title": "Importirindoj…",
+      "created_count": "Kerdo: {{count}} ",
+      "skipped_count": "Nakhado: {{count}} ",
+      "done_title": "Importo pherdo",
+      "done_description": "E projèktură telal sas kerde anθ-i tumari bibliotèka.",
+      "view_project": "Puterdo projèkto",
+      "start_over": "Nevo importo"
+    }
+  },
+  "templates": {
+    "title": "Šablonură",
+    "subtitle": "Reutilizirime šablone thaj meta-tagura vaś o Suno.",
+    "tabs": {
+      "prompts": "Ćaćes šablone",
+      "metatags": "Meta-tags"
+    },
+    "new_template": "Nevo šablono",
+    "kind": {
+      "style": "Stilo",
+      "lyrics": "Teksto"
+    },
+    "kind_label": "Laćho",
+    "delete_confirm_title": "Te xasares o šablono \" {{name}} \"?",
+    "delete_confirm_description": "Akava nashti te ovel kerdo.",
+    "empty": "Akana naj šablone.",
+    "editor": {
+      "title_new": "Nevo šablono",
+      "title_edit": "Editisaren o šablono",
+      "name_label": "Anav",
+      "name_placeholder": "p.e. Akustikani balada",
+      "kind_label": "Laćho",
+      "template_label": "Teksto e śablonosqo",
+      "template_hint": "Markisaren kote so perel svako variàbla la anavesa phanglo anθ-e duj ćorre paranteze — sar egzàmplo, jekh variàbla akhardi \"źanro\" kerdǒl źanro phanglo anθ-e duj putarde thaj duj phanle paranteze.",
+      "variables_label": "Variàble",
+      "variable_add": "Thov varìàbla",
+      "variable_name": "Chavo",
+      "variable_label": "Etiketa",
+      "variable_type": "Tipo",
+      "variable_type_string": "Teksto",
+      "variable_type_select": "Jekh alosaripe",
+      "variable_type_multiselect": "But-alosaripe",
+      "variable_type_number": "Numero",
+      "variable_type_boolean": "Da/na",
+      "variable_options": "Opcie (koma-separime)",
+      "variable_required": "Trubul",
+      "save": "Xramosar o šablono"
+    },
+    "metatags": {
+      "title": "Meta-tags",
+      "subtitle": "Strukturalno thaj stiloske etikete Suno pindžarel andar e gilja.",
+      "new_tag": "Nevo tag",
+      "tag_label": "Tag",
+      "tag_placeholder": "p.e. gitara-solo",
+      "category_label": "Kategòria",
+      "tier_label": "Paćavipen",
+      "tier_legend_title": "Legenda pal-i patǐvipen",
+      "tier_legend": {
+        "1": "Nivelo 1 — dokumentirime thaj konzistento",
+        "2": "Nivelo 2 — butivar kerel buti",
+        "3": "Nivelo 3 — efekto varijabilno",
+        "4": "Nivelo 4 — placebo, bi-provado"
+      },
+      "description_label": "Deskripcia",
+      "delete_confirm_title": "Te xasares o tag \" {{tag}} \"?",
+      "empty": "Akana naj meta-tags personalizirime."
+    }
+  },
+  "settings": {
+    "title": "Paramètrură",
+    "subtitle": "Informacia pal-o sistemo, ćhib thaj preferencie palal o defaulto.",
+    "system_info_title": "Sistemo",
+    "version": "Verzia",
+    "data_dir": "Folder e datengo",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Disponibilno",
+    "ffmpeg_missing": "Na arakhline",
+    "capabilities_title": "Instalirime śajutnimata",
+    "capability": {
+      "denoise": "Redukcia e śukaripnaski",
+      "quality": "O vazdipe e kvalitetosqo",
+      "separate": "Separacia e źanglimaski",
+      "ffmpeg": "FFmpeg konverzia"
+    },
+    "capability_available": "Disponibilno",
+    "capability_unavailable": "Na si disponibilo",
+    "gpu_title": "GPU akceleracia",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime furnitori"
+    },
+    "gpu_none": "Na sas arakhline GPU-esqe furnitori",
+    "language_title": "Ćhib",
+    "language": {
+      "pt-BR": "Portugues (Brazil)",
+      "en": "Anglikani"
+    },
+    "theme_title": "Dikhipen",
+    "theme": {
+      "dark": "Kalo",
+      "light": "Lumija"
+    },
+    "defaults_title": "Exporto standardo",
+    "lufs_target_label": "LUFS-esqo ciljo",
+    "lufs_target_hint": "Kerdo sar startosko sugestia kana kerel pes exporto. O Sunosko defaulto si kotar -14 LUFS.",
+    "saved": "Preferencie garavde"
+  },
+  "guide": {
+    "title": "Suno registraciaqo źutipen",
+    "subtitle": "Sar te astarel pes o glaso thaj e gitarake lila save ka len o maj lache rezultatia.",
+    "intro": "O Suno kerel maj laćhes kana si laćhe, bi-ambiguo referencije. Akava źutimos sikavel i preparàcia, e nivelură e śajutnimatenqe, thaj jekh skripto vaś o xramosaripen 3-5 minutură.",
+    "sections": {
+      "prep": {
+        "title": "Preparacia",
+        "body": "Xramosar anθ-i jekh soba tretirime vaj anθ-i jekh soba savi si la but kovlo materiàlo (perde, kovli, gada anθ-o jekh ćàso). Phandel e ventilatora thaj sa so šunel. Te tatol o glaso 5 minutia anglal te xramosares."
+      },
+      "levels": {
+        "title": "Nivelura: -12 źi ka -6 dBFS",
+        "body": "Te rodes o maj baro nivelo maškar -12 thaj -6 dBFS po metro. Telal kodo spektro, o śukaripen anθ-o fundo avel maj but dikhlino; opral leste, o riziko te ćhivel pes vazdel pes. Ker buti e metrencar ki rig e Rekordosqi te thoves o laćhipen anglal te astares."
+      },
+      "distance": {
+        "title": "Duripe e mikrofonosko: 15–30 cm",
+        "body": "Te beśes 15 źi ka 30 cm katar o mikrofono. Maj pashe katar kodo exageril e plozive thaj o efekto e pashe; maj dur lel maj but reverb thaj zvuko."
+      },
+      "script": {
+        "title": "Skripto vaś o xramosaripen",
+        "warmup": "Vokalno ćhivipen (1-2 minutură)",
+        "vowels": "Vokàlurǎ save si len zor — a, e, i, o, u",
+        "scales": "Simple skale, upre thaj tele",
+        "excerpt": "Jekh giljako kotor (8 źi ka 16 bare)",
+        "dynamics": "Dinamika: kezdis tikno, agoris zurales",
+        "spoken_phrase": "Jekh vakerdi fraza, te shaj o Suno te ginavel tiro vokalno tono"
+      },
+      "expectations": {
+        "title": "So o Suno aźukerel",
+        "body": "WAV, 48 kHz, mono, suxo (bi reverb vaj efektura), 3 dži ko 5 minutia referenca. E maj čiste, maj reprezentativne 2 minutura katar o lil obično den maj lačhe rezultatura."
+      }
+    }
+  },
+  "status": {
+    "idea": "Ideja",
+    "em_progresso": "Ande progreso",
+    "quase": "Pashe odothe",
+    "pronto": "Gata"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Sasto vokalno skripto vaś o Suno",
+      "desc": "5 minuti rigărde: ćhivipen, vokali, skale, duj giljake kotora, dinamika, thaj jekh vakerdi fraza."
+    },
+    "step": {
+      "warmup": "Vokalno tatovipen",
+      "warmup_inst": "Te ćhives tut te ćhives tut, te ćhives tut e ćhibăqe (brrr), thaj jekh tikno ćhivipen vaś jekh minuta. Naj musaj te xramosares — si numaj te ćhives o śero anglal te gilaves.",
+      "vowels": "Vokalura save si inkerde",
+      "vowels_inst": "Te inkeres svako vokàlo — a, e, i, o, u — 3 źi ka 4 sekunde pe tiro komforàbilo tono, jekh śukar volùmo. Akava aźutil e Suno te lel o śukar timbro tumare glasosqo.",
+      "scales": "Skala upre thaj tele",
+      "scales_inst": "Gilabav jekh lokho skalo opre thaj palal tele, pe \"la\" vaj \"na\". Na trubul te avel perfektno — o ciljo si te kerel pes mapa pe tumaro vokalno spektro.",
+      "section": "Ekstrakto e giljako — kotor 1",
+      "section_inst": "Gilaven 8 ji kaj 16 riga e giljake, e chache intencijasa so kamen te sikaven. Prioritizin e klariteta thaj e prezenca upral e teknikani perfekcia.",
+      "section2": "Ekstrakto e giljako — kotor 2",
+      "section2_inst": "Gilaven aver 8 źi ka 16 bare — idealno jekh refreno vaj jekh kotor savo si kontrasto e anglunesa. Maj but varietèta aźutil e modelos te siklǒl tumaro glaso.",
+      "dynamics": "Dinamika: kovlo → zuralo",
+      "dynamics_inst": "Gilabav i sasti fraza astarindoj but tikno thaj agorisardo zurales, bi te ćhivel pes o śero. Akava sikavel e Suno o dinamično spektro tumare glasosko.",
+      "spoken": "Vorbime fraza",
+      "spoken_inst": "Vorbin — na gilabav — jekh skurto, naturalno fraza, sar te vorbisares. Akava aźutil e Suno te pinʒarel o ćaćutno timbro tumare glasosqo."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restauracia",
+      "filter": "Filtre",
+      "dynamics": "Dinamika",
+      "separation": "Separacia",
+      "quality": "Kvaliteto",
+      "utility": "Utilitèta",
+      "loudness": "Zurales"
+    },
+    "highpass": "O baro-pasosko filtro",
+    "lowpass": "Filtro tikno-paso",
+    "denoise": "Redukcia e śukaripnaski",
+    "declip": "Te ćhivel pes tele",
+    "declick": "Klik/pop ćhivipen",
+    "deesser": "De-esser",
+    "gate": "Porto e śukaripnasko",
+    "compressor": "Kompresori",
+    "limiter": "Limitèro",
+    "eq": "Egalizacia",
+    "normalize": "Maj bari normalizacia",
+    "loudness": "Normalizacia e glasoski (LUFS)",
+    "reverb_reduce": "Redukcia e reverbàciaqi",
+    "separate": "Separacia e źanglimaski",
+    "quality": "Vazdipe e kvalitetosqo (upscale)",
+    "trim_silence": "O ćhivipen e ćućipnasqo",
+    "fade": "Te xasares / te xasares avri",
+    "stereo_to_mono": "Konvertisaren ko mono",
+    "resample": "Resampling"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Paćavdo",
+      "2": "Običajno kerel buti",
+      "3": "Variàbilo",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Struktura",
+      "vocal": "Vokalno",
+      "instrument": "Instrumento",
+      "dynamics": "Dinamika",
+      "production": "Produkcia",
+      "mood": "O ćhand"
+    },
+    "verse": "Verso",
+    "chorus": "Refren",
+    "bridge": "Mosto",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Hak",
+    "prechorus": "Anglal o refreno",
+    "instrumental": "Instrumentalno",
+    "guitar_solo": "Gitarako solo",
+    "build_up": "Build-up",
+    "breakdown": "O phagipe",
+    "spoken_word": "Vakerdi vorba",
+    "whispered": "Śuśukar",
+    "harmonies": "Harmonie",
+    "male_vocal": "Murśesqo vokàlo",
+    "female_vocal": "Džuvljikano vokalo",
+    "duet": "Dueto",
+    "acoustic": "Akustikano",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Ćućo glaso",
+    "voice_guitar_balanced": "Balansirime glaso thaj gitara",
+    "podcast": "Podkast",
+    "suno_ready": "Suno gata",
+    "gentle_restore": "Laćho restauracia",
+    "raw_passthrough": "Naj procesura"
+  },
+  "errors": {
+    "unknown": "Vareso gelo bilačhe.",
+    "network": "Nashti te aresav ko serveri.",
+    "validation_error": "Dikh e informacie save dine andre.",
+    "not_found": "O artiklo na arakhlja pes.",
+    "project_not_found": "O projèkto na arakhlăs pes.",
+    "take_not_found": "Na arakhlem.",
+    "album_not_found": "O albumo na arakhlja pes.",
+    "preset_not_found": "O preset na arakhlja pes.",
+    "template_not_found": "O šablono na arakhlja pes.",
+    "device_busy": "O audio aparato si ande buti katar aver programo.",
+    "device_not_found": "Audio aparato na arakhlja pes.",
+    "already_recording": "Jekh registracia si aba ande progreso.",
+    "ffmpeg_missing": "FFmpeg na si instalirimo — instalirinen les te konvertirinen akava lil.",
+    "disk_full": "Naj dosta than pe disko.",
+    "permission_denied": "O śajdipen si dino vaś o drom dino.",
+    "import_path_not_found": "O drom e importosqo na arakhlăs pes.",
+    "job_failed": "O procesiripe naśti te kerel pes.",
+    "job_cancelled": "O procesiripe sas phandlo.",
+    "process_failed": "Nashti te procesirinel pes o lil.",
+    "export_failed": "Naśti te exportisarel pes o lil.",
+    "record_failed": "Nashti te kezdis te xramosares."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Rango",
+      "running": "Naśav",
+      "done": "Kerdo",
+      "error": "Naśti te kerel pes",
+      "cancelled": "Anulirime"
+    },
+    "kind": {
+      "process": "Procesàcia",
+      "export": "Exporto",
+      "import": "Importo",
+      "record": "Rekordàcia"
+    }
+  }
+}

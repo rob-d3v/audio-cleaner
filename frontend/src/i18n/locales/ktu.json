@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Kusukula Mawi"
+  },
+  "nav": {
+    "library": "Biblioteke",
+    "record": "Kusala",
+    "import": "Kukotisa",
+    "templates": "Bambandu",
+    "settings": "Baparametre",
+    "guide": "Ntwadisi"
+  },
+  "common": {
+    "save": "Bumba",
+    "saving": "Kubumba...",
+    "saved": "Bo me bumba yo",
+    "cancel": "Kukatula",
+    "close": "Kanga",
+    "delete": "Kufwa",
+    "edit": "Kuyidika",
+    "create": "Kusala",
+    "search": "Sosa",
+    "loading": "Kutula...",
+    "error": "Kifu",
+    "retry": "Meka diaka",
+    "confirm": "Ndimisa",
+    "back": "Na nima",
+    "next": "Na nima",
+    "continue": "Landa",
+    "finish": "Kumanisa",
+    "copy": "Kopi",
+    "copied": "Bo me sala kopi na yo",
+    "download": "Telecharger",
+    "upload": "Kutula",
+    "none": "Ata mosi ve",
+    "all": "Nionso",
+    "yes": "Ee",
+    "no": "Ve",
+    "select": "Pona",
+    "optional": "Kupona",
+    "required": "yo ke lomba",
+    "unsaved_changes": "Bansoba yina bo me bumba ve",
+    "name": "Zina",
+    "status": "Kikalulu",
+    "type": "Mutindu",
+    "actions": "Bisalu",
+    "empty": "Mpamba",
+    "browse": "Sosa",
+    "remove": "Katula",
+    "add": "Yika",
+    "rename": "Soba zina",
+    "duplicate": "Kuvutukila",
+    "warning": "Lukebisu",
+    "locked": "Bo me kanga yo",
+    "builtin": "Kutunga na kati",
+    "custom": "Kikalulu",
+    "untitled": "Kukonda titre",
+    "select_placeholder": "Pona..."
+  },
+  "library": {
+    "title": "Biblioteke",
+    "subtitle": "Ndinga na nge ti bisalu ya kitare, banda na ngindu tii na kubasisa.",
+    "new_project": "Projet ya mpa",
+    "new_album": "Album ya mpa",
+    "search_placeholder": "Sosa na zina...",
+    "view": {
+      "grid": "Grille",
+      "albums": "Ba alboum"
+    },
+    "filters": {
+      "all": "Nionso"
+    },
+    "take_count_one": " {{count}} baka",
+    "take_count_other": " {{count}} ke bakaka",
+    "updated_at": "Bo me tula yo na zulu {{date}} ",
+    "no_results": {
+      "title": "Ata kisalu mosi ve me monana",
+      "description": "Meka kusoba filtre ya kusosa to ya statut."
+    },
+    "empty": {
+      "title": "Biblioteke na beno kele mpamba",
+      "description": "Banda kisalu ya mpa katuka luyantiku, to kotisa bima yina nge kele na yo dezia na diske.",
+      "cta_import": "Kukotisa na dossier",
+      "cta_new": "Sala projet"
+    },
+    "project_dialog": {
+      "title": "Projet ya mpa",
+      "description": "Pesa yo zina mpi pona mutindu ya kusala enregistrement.",
+      "name_label": "Zina ya kisalu",
+      "name_placeholder": "mu mbandu Mvula ya été",
+      "mode_label": "Mutindu",
+      "mode": {
+        "voice": "Ndinga mpamba",
+        "voice_guitar": "Ndinga + kitare"
+      },
+      "submit": "Sala projet"
+    },
+    "album_dialog": {
+      "title": "Album ya mpa",
+      "description": "Kimvuka ya bisalu ya ke tadila na alboum mosi.",
+      "name_label": "Zina ya album",
+      "name_placeholder": "mu mbandu EP ya automne",
+      "submit": "Sala album"
+    },
+    "album": {
+      "untitled": "Album ya kukonda zina",
+      "members_count_one": " {{count}} kisalu",
+      "members_count_other": " {{count}} bisalu",
+      "empty": "Ata projet mosi ve na album yayi.",
+      "delete_confirm_title": "Kufwa alboum?",
+      "delete_confirm_description": "Ba projets ke katuka ve, kaka ke katuka na \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Kufwa \" {{name}} \"?",
+      "confirm_description": "Yau ke katulaka projet na konso kubaka na kati na yau. Dyambu yai lenda vutuka ve."
+    }
+  },
+  "record": {
+    "title": "Kusala",
+    "subtitle": "Baka foto ya bunkete, tala ba niveau na nge, mpi landa script.",
+    "project_label": "Projet",
+    "project_placeholder": "Pona kisalu mosi",
+    "project_create_quick": "Sala kisalu ya nswalu...",
+    "device_label": "Kima ya kukotisa",
+    "device_placeholder": "Pona apareyi mosi",
+    "device_default_badge": "Kukonda ngidika",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Ata kima mosi ve ya kukotisa me monana.",
+    "monitor_button": "Kutala",
+    "monitor_stop_button": "Bikisa kulandila",
+    "record_button": "Kusala",
+    "stop_button": "Telama",
+    "elapsed_label": "Ntangu me luta",
+    "status": {
+      "idle": "Kukonda kisalu",
+      "monitoring": "Kulandila",
+      "recording": "Kusala enregistrement",
+      "stopped": "Kukangama"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Nsongi",
+      "clip": "Kitini"
+    },
+    "guide": {
+      "title": "Kitini ya bo ke twadisaka",
+      "subtitle": "Bika coach kutwadisa nge na nzila ya script kitambi na kitambi, banda na warm-up tii na nsa ya kutuba.",
+      "loading": "Kutula script...",
+      "unavailable": "Kitini ya ke twadisama kele ntete ve na serveur.",
+      "select_project_device": "Pona projet mosi mpe kisadilu ya kukotisa samu na kusonika bitambi kaka awa.",
+      "progress": " {{done}} ya {{total}} bitambi",
+      "start_timer": "Kuyantika ntangu",
+      "skip_timer": "Kuluta ntangu",
+      "record_step": "Sonika kitambi yai",
+      "stop_step": "Bikisa kusala enregistrement",
+      "mark_done": "Kusala — kitambi ya ke landa .",
+      "step_recorded": "Baka enregistrement",
+      "no_record_step": "Kupesa tiya —kukonda kusala enregistrement.",
+      "bars_hint": "Kiteso ya {{bars}} ya banti",
+      "complete_title": "Script me lungana!",
+      "complete_body": "Nge me sonika konso kitambi ya script. Vutuka na tab Audio ya projet mpi pona bafoto yina nge ke zolaka.",
+      "restart": "Banda diaka script"
+    },
+    "best2min": {
+      "button": "Kuzwa miniti 2 ya mbote (Suno) .",
+      "running": "Kufimpa mambu yina...",
+      "score_label": "Bapoint",
+      "hint": "Kusala analyse ya ngolo mpe ya pwelele na zulu ya ntangu nyonso samu na kuzwa fenetre na yandi ya ngolo ya miniti 2 —nge lenda kaka kuyidika bandilu na maboko na manima.",
+      "chart_caption": "Bapoint na fenetre",
+      "unavailable": "Analyse ya mbote ya miniti 2 kele ntete ve na serveur yai."
+    },
+    "takes_title": "Kubaka na kitini yai .",
+    "takes_empty": "Ata kima mosi ve me sonikama na kitini yai.",
+    "open_in_project": "Kangula na projet",
+    "ws_disconnected": "Kuvutuka na meter ya nivo...",
+    "select_project_first": "Pona kisalu mosi sambu na kuyantika.",
+    "select_device_first": "Pona kisadilu mosi ya kukotisa mambu."
+  },
+  "project": {
+    "back_to_library": "Vutuka na biblioteke",
+    "header": {
+      "status_label": "Kikalulu",
+      "cover_upload": "Tula couverture",
+      "cover_remove": "Katula couvercle",
+      "name_placeholder": "Zina ya kisalu",
+      "links_title": "Ba lien",
+      "add_link": "Yika lien",
+      "mode": {
+        "voice": "Ndinga mpamba",
+        "voice_guitar": "Ndinga + kitare"
+      }
+    },
+    "tabs": {
+      "audio": "Kuwa",
+      "lyrics": "Bangogo",
+      "prompts": "Kulomba",
+      "notes": "Banoti"
+    },
+    "audio": {
+      "takes_title": "Yo ke bakaka",
+      "no_takes": {
+        "title": "Ve ke baka ntete",
+        "description": "Enregistrer take ya mpa to kotisa fichier mosi ya kele dezia."
+      },
+      "record_new": "Enregistrer kubaka ya mpa",
+      "rating": "Kupesa matonsi",
+      "variant": {
+        "raw": "Ntete",
+        "processed": "Bo ke sadilaka yo"
+      },
+      "variant_placeholder": "Versio",
+      "process_button": "Kusala",
+      "export_button": "Kubasisa",
+      "delete_take_confirm_title": "Supprimer baka yai?",
+      "delete_take_confirm_description": "Bo ta katula audio ya ntete mpi konso version yina bo me yidika.",
+      "ab": {
+        "raw": "A · Ya mpa",
+        "processed": "B · Bo me sadila yo"
+      },
+      "origin": {
+        "recorded": "Bo me sonikaka yo",
+        "imported": "Bo me kotisa yo"
+      },
+      "session_label_placeholder": "Etiketi ya kitini (ya nge lenda pona)",
+      "duration": "Ntangu",
+      "sample_rate": "Ntalu ya mbandu",
+      "channels": "Bachene",
+      "created_at": "Bo me sonikaka yo"
+    },
+    "pipeline": {
+      "title": "Kuyidika mambu",
+      "preset_label": "Kuyidika na ntwala",
+      "preset_none": "Mulongo ya bo me yidika",
+      "preset_save": "Bumba mutindu nge me yidika",
+      "stage_locked": "Bo me kanga yo",
+      "stage_requires_extra": "Yo ke lombaka kima ya nkaka yina bo me tula ve .",
+      "process_button": "Kubaka mutindu ya kusala",
+      "processing": "Kuyidika...",
+      "job_queued": "Ndonga...",
+      "job_running": "Kuyidika...",
+      "job_done": "Me manisa",
+      "job_error": "Kukonda kununga",
+      "job_cancelled": "Bo me katula yo",
+      "cancel_job": "Kukatula",
+      "no_stages": "Ba etape kele ve."
+    },
+    "export": {
+      "title": "Kubasisa baka",
+      "description": "Kupesa fichier ya nsuka katuka na version mosi ya bo me yidika.",
+      "variant_label": "Versio",
+      "format_label": "Mutindu",
+      "preset_label": "Kubasisa na ntwala",
+      "range_label": "Kitini",
+      "range_full": "Nda ya mvimba",
+      "range_custom": "Gamme ya bo me yidika",
+      "start_label": "Kuyantika (ba)",
+      "end_label": "Nsuka (ba)",
+      "submit": "Kubasisa",
+      "progress": "Kupesa fichier...",
+      "download_ready": "Dosie me yilama",
+      "download_button": "Telecharger fichier"
+    },
+    "notes": {
+      "placeholder": "Banoti ya ofele sambu na kisalu yai...",
+      "saved_at": "Bo me bumba yo na {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Sonika bangogo ya nkunga awa. Sadila paleti yina kele na lweka sambu na kukotisa ba-étiquette ya Suno.",
+      "saved_at": "Bo me bumba yo na {{time}} ",
+      "saving": "Kubumba...",
+      "versions": "Bambalula",
+      "versions_empty": "Baversio ya bo me bumba ntete ve.",
+      "version_preview": "Kutala na ntwala",
+      "restore": "Vutula version yai",
+      "restore_confirm_title": "Kuvutula version yai?",
+      "restore_confirm_description": "Bo ta yingisa masonama ya ntangu yai ti yina bo me bumba na {{date}} .",
+      "metatags_title": "Ba-étiquette",
+      "metatags_hint": "Fina tag mosi sambu na kukotisa yo na curseur.",
+      "metatags_placebo_warning": "Kukonda kumonisa — lenda vanda ve ti bupusi na mbutu.",
+      "metatags_empty": "Ata meta-étiquette mosi ve me sonikama."
+    },
+    "prompts": {
+      "style_title": "Mutindu ya kusonika nswalu",
+      "lyrics_title": "Bangogo ya nkunga nswalu",
+      "template_label": "Modèle",
+      "template_none": "Modèle mosi ve",
+      "variables_title": "Bima ya ke sobaka",
+      "preview_title": "Kutala na ntwala",
+      "preview_empty": "Pona modele mosi mpi fulusa mambu yina ke sobaka sambu na kumona mutindu yo ke monana.",
+      "char_count": " {{count}} bisono",
+      "char_count_warning": "Ba nsangu ya style kuluta 1000 lenda baka kuzenga na Suno.",
+      "copy": "Kopi",
+      "copied": "Bo me kopie yo na tablo",
+      "save_to_project": "Bumba na projet",
+      "saved_to_project": "Kubumba nswalu na projet",
+      "history_title": "Disolo",
+      "history_empty": "Ata baverse mosi ve ya ntama.",
+      "current_label": "Ntangu yai"
+    },
+    "stems": {
+      "title": "Miziki mpi kitare",
+      "separate_button": "Kabisa ndinga na kitare .",
+      "running": "Kukabula...",
+      "vocals": "Mizinga",
+      "instrumental": "Bisadilu",
+      "process_stem": "Sadila nti yai",
+      "empty": "Take yayi me kabuana ntete ve. Kubaka ntinu kukabwana sambu na kuwa ndinga na kitare na kingenga.",
+      "capability_missing": "Kukabula kisina kele ve na serveur yai.",
+      "unavailable": "Kukabula ndinga/kitare kele ntete ve na serveur yai."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Na",
+    "boolean_off": "Kukanga"
+  },
+  "import": {
+    "title": "Kukotisa",
+    "subtitle": "Nata bisalu yina kele dezia na diske na biblioteke.",
+    "step_indicator": "Kitambi {{current}} ya {{total}} ",
+    "step1": {
+      "title": "Sosa dossier",
+      "description": "Monisa dossier ya misisa ti bisalu na nge mpi banzila.",
+      "path_label": "Nzila ya dossier",
+      "path_placeholder": "mu mbandu E:\\Robb\\Lulendo\\Miziki\\Robb",
+      "recent_label": "Ntama mingi ve",
+      "scan_button": "Dossier ya kutala",
+      "scanning": "Kusala scanner...",
+      "ffmpeg_warning": "FFmpeg me monana ve — ba fichiers yina kele na mfunu ya kubalula ta luta.",
+      "folders_found_one": " {{count}} dossier me monana",
+      "folders_found_other": " {{count}} badossier me monana",
+      "unmatched_files_one": " {{count}} fichier ya kuzabana ve",
+      "unmatched_files_other": " {{count}} bafishe ya bo me zaba ve"
+    },
+    "step2": {
+      "title": "Bima ya mvutukilu",
+      "description": "Tala bazina, bisika, mpi mambu yina bo ta kotisa na ntwala ya kundimisa.",
+      "select_all": "Pona yonso",
+      "table": {
+        "folder": "Dossier ya kisina",
+        "name": "Zina ya kisalu",
+        "status": "Kikalulu",
+        "audio": "Kuwa",
+        "lyrics": "Bangogo",
+        "cover": "Lupangu",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} fichier me ponama",
+      "audio_include_other": " {{count}} bafishe ya bo me pona",
+      "no_audio": "Bo me mona ve audio",
+      "no_lyrics": "Bo me mona ve bangogo",
+      "no_cover": "Kukonda lupangu",
+      "warnings_title": "Balukebisu"
+    },
+    "step3": {
+      "title": "Kukotisa",
+      "description": "Kundimisa na kusala bakopi ya bafishe mpi kusala bisalu.",
+      "copy_originals": "Kopia bafishe ya kisina na biblioteke .",
+      "execute_button": "Banda kukotisa",
+      "progress_title": "Kukotisa...",
+      "created_count": "Bo salaka yo: {{count}} ",
+      "skipped_count": "Kuluta: {{count}} ",
+      "done_title": "Kukotisa bima me manisa",
+      "done_description": "Ba projets yina kele na nsi me salama na bibliothèque na beno.",
+      "view_project": "Kangula kisalu",
+      "start_over": "Kukotisa bima ya mpa"
+    }
+  },
+  "templates": {
+    "title": "Bambandu",
+    "subtitle": "Bambandu ya nswalu ya bo lenda sadila diaka mpi ba-étiquette ya nene sambu na Suno.",
+    "tabs": {
+      "prompts": "Bamodèle ya nswalu",
+      "metatags": "Ba-étiquette"
+    },
+    "new_template": "Modèle ya mpa",
+    "kind": {
+      "style": "Mutindu",
+      "lyrics": "Bangogo"
+    },
+    "kind_label": "Kikalulu ya mbote",
+    "delete_confirm_title": "Kufwa mbandu ya \" {{name}} \"?",
+    "delete_confirm_description": "Dyambu yai lenda vutuka ve.",
+    "empty": "Ata modele mosi ve.",
+    "editor": {
+      "title_new": "Modèle ya mpa",
+      "title_edit": "Soba modele",
+      "name_label": "Zina",
+      "name_placeholder": "mu mbandu Nkunga ya acoustique",
+      "kind_label": "Kikalulu ya mbote",
+      "template_label": "Modèle ya masonama",
+      "template_hint": "Tula kidimbu kisika konso kima ke sobaka kele ti zina na yo ya bo me kanga na ba nsinga zole ya bo me vukisa —mu mbandu, kima mosi ya ke sobaka na zina ya \"genre\" ke kumaka mutindu ya kukangama na ba nsinga zole ya kukangula mpi zole ya kukanga.",
+      "variables_label": "Bima ya ke sobaka",
+      "variable_add": "Yika kima ya ke sobaka",
+      "variable_name": "Nsabi",
+      "variable_label": "Etiketi",
+      "variable_type": "Mutindu",
+      "variable_type_string": "Masonuku",
+      "variable_type_select": "Kupona mosi",
+      "variable_type_multiselect": "Kupona mingi",
+      "variable_type_number": "Nimero",
+      "variable_type_boolean": "Ee/ve",
+      "variable_options": "Maponi (ya bo me kabula ti virgule)",
+      "variable_required": "Yo ke lombaka",
+      "save": "Bumba mbandu"
+    },
+    "metatags": {
+      "title": "Ba-étiquette",
+      "subtitle": "Ba tag ya ntungulu mpi ya mutindu Suno ke zabaka bangogo ya kati.",
+      "new_tag": "Tag ya mpa",
+      "tag_label": "Tag",
+      "tag_placeholder": "mu mbandu kitare-mosi",
+      "category_label": "Kitini",
+      "tier_label": "Kutula ntima",
+      "tier_legend_title": "Legende ya kutudila ntima",
+      "tier_legend": {
+        "1": "Niveau 1 — ya kusonika mpi ya ke wakana .",
+        "2": "Niveau 2 — mbala mingi yo ke salaka .",
+        "3": "Niveau 3 —effet ya kusoba .",
+        "4": "Niveau 4 — nkisi ya bo ke pesaka ve, yina bo me monisaka ve ."
+      },
+      "description_label": "Ntendula",
+      "delete_confirm_title": "Kufwa kidimbu \" {{tag}} \"?",
+      "empty": "Ata ba-étiquette mosi ve ya bo me yidika."
+    }
+  },
+  "settings": {
+    "title": "Baparametre",
+    "subtitle": "Bansangu ya systeme, ndinga, mpi mambu ya nge ke zolaka.",
+    "system_info_title": "Ngidika",
+    "version": "Versio",
+    "data_dir": "Dossier ya bansangu",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Yo kele",
+    "ffmpeg_missing": "Bo me mona yo ve",
+    "capabilities_title": "Makuki ya bo me tula",
+    "capability": {
+      "denoise": "Kukulumusa makelele",
+      "quality": "Kutomisa kikalulu",
+      "separate": "Kukabisa kisina",
+      "ffmpeg": "Kubalula ya FFmpeg"
+    },
+    "capability_available": "Yo kele",
+    "capability_unavailable": "Yo kele ve",
+    "gpu_title": "Kupesa vitesi ya GPU",
+    "gpu": {
+      "torch_cuda": "CUDA",
+      "ort_providers": "Ba fournisseurs ya ntangu ya ONNX"
+    },
+    "gpu_none": "Ata fournisseur mosi ve ya GPU me monana",
+    "language_title": "Ndinga",
+    "language": {
+      "pt-BR": "Kimputu (Brésil)",
+      "en": "Kikongo"
+    },
+    "theme_title": "Kumonana",
+    "theme": {
+      "dark": "Mpimpa",
+      "light": "Nsemo"
+    },
+    "defaults_title": "Kubasisa na nganda",
+    "lufs_target_label": "LUFS ya lukanu",
+    "lufs_target_hint": "Kusadila bonso ngindu ya kubanda ntangu ya kubasisa ke bakaka. Suno ke vandaka na nziunga ya -14 LUFS.",
+    "saved": "Bo me bumba mambu ya nge ke zolaka"
+  },
+  "guide": {
+    "title": "Mukanda ya enregistrement ya Suno",
+    "subtitle": "Mutindu ya kukanga ndinga na kitare ke bakaka yina ke bakaka bambuma ya mbote.",
+    "intro": "Suno ke salaka mbote ti ba referansi ya bunkete mpi ya pwelele. Mukanda yayi ke tubila mutindu ya kubongisa, ba niveau ya lukanu, mpe script ya kukanga na miniti 3–5.",
+    "sections": {
+      "prep": {
+        "title": "Kudibongisa",
+        "body": "Kusonika na suku yina bo me sansa to yina kele ti bima mingi ya pete (ba rido, ba tapis, bilele na kati ya armware). Katula ba ventilateur na konso kima yina ke bulaka. Tiya ndinga na nge na miniti 5 na ntwala ya kukanga."
+      },
+      "levels": {
+        "title": "Nivo: -12 tii na -6 dBFS",
+        "body": "Lukanu ya ba nsuka na kati ya -12 na -6 dBFS na zulu ya metre. Na nsi ya bandilu yina, makelele ya nsi ke kumaka kumonana mingi; na zulu na yo, kigonsa ya kuzenga kemata. Sadila metre yina kele na lutiti Enregistrement sambu na kutula gain na nge na ntwala ya kuyantika."
+      },
+      "distance": {
+        "title": "Ntama ya mikro: 15–30 cm",
+        "body": "Beno vanda na kitamina ya 15 tii na 30 cm na mikro. Kuluta pene-pene kuluta yina ke lutisaka ndilu ya plosives mpi effet ya pene-pene; ntama ke bakaka mingi reverb ya suku mpi makelele."
+      },
+      "script": {
+        "title": "Kusonika script",
+        "warmup": "Kutomisa ndinga (miniti 1–2)",
+        "vowels": "Bavoyelle ya kukangama — a, e, i, o, u .",
+        "scales": "Bitesilu ya pete, na zulu mpi na nsi",
+        "excerpt": "Kukatula nkunga mosi (babarre 8 tii na 16)",
+        "dynamics": "Dynamique: banda malembe, suka na ndinga ya ngolo",
+        "spoken_phrase": "Phrase mosi ya bo me tuba, sambu Suno lenda tanga ndinga na nge ."
+      },
+      "expectations": {
+        "title": "Mambu yina Suno ke vingila .",
+        "body": "Onde, 48 kHz, mono, ya kuyuma (kukonda ndinga to mambu ya nkaka), miniti 3 tii na 5 ya referansi. Baminiti 2 ya kuluta bunkete mpi ya kemonisaka mambu mingi ya bo kebakaka kebasisaka mbala mingi mbutu ya mbote."
+      }
+    }
+  },
+  "status": {
+    "idea": "Ngindu",
+    "em_progresso": "Na kusalama",
+    "quase": "Pene-pene ya kuna",
+    "pronto": "Kuyilama"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Script ya ndinga ya mvimba sambu na Suno .",
+      "desc": "Miniti 5 ya bo ke twadisa: kupesa tiya, bavoyelle, ba-échelle, bitini zole ya bankunga, dynamique, mpi nsa mosi ya bo me tuba."
+    },
+    "step": {
+      "warmup": "Kutomisa ndinga",
+      "warmup_inst": "Katula munoko na kubula ntulu, kubula munoko (brrr), mpi kubula makelele ya malembe na nsungi ya kiteso ya munuta mosi. Mfunu ya kukanga ve —yo kele kaka sambu na kulembika mungungu na ntwala ya kuyimba.",
+      "vowels": "Bavoyelle ya kukangama",
+      "vowels_inst": "Simba konso ndinga —a, e, i, o, u —na basegonde 3 to 4 na ndinga na nge ya mbote, ti volime ya kukonda kubaluka. Yo kesadisaka Suno na kubaka timbre ya bunkete ya ndinga na nge.",
+      "scales": "Bitesilu na zulu mpi na nsi",
+      "scales_inst": "Yimba ndinga ya pete na zulu mpi na nima na nsi, na \"la\" to \"na\". Yo kelombaka ve nde yo vanda ya kukuka —lukanu kele ya kusala karte ya ndinga na nge.",
+      "section": "Kukatula nkunga — kitini 1 .",
+      "section_inst": "Yimba babarre 8 tii na 16 ya nkunga, ti lukanu ya kyeleka ya nge kezola kumonisa. Tula pwelele mpi kuvanda na kisika ya ntete kuluta kukuka ya teknike.",
+      "section2": "Kukatula nkunga — kitini ya 2 .",
+      "section2_inst": "Yimba diaka ba barre 8 tii 16 —yo kele mbote na kuyimba chorale to kitini ya ke swaswana ti yina me luta. Kusala mambu mingi ya kuswaswana kesadisaka modele na kulonguka ndinga na nge.",
+      "dynamics": "Dynamique: malembe → ngolo",
+      "dynamics_inst": "Yimba bangogo yina mosi banda na malembe kibeni mpi suka na ndinga ya ngolo, kukonda kukanga mungungu. Yo ke monisa Suno ndinga na nge ya ngolo.",
+      "spoken": "Bangogo ya bo me tuba",
+      "spoken_inst": "Tuba — kuyimba ve — bangogo ya nkufi mpi ya kimuntu, bonso nde beno ke solula. Yo kesadisaka Suno na kuzaba timbre ya kyeleka ya ndinga na nge."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Kuvutula",
+      "filter": "Bafiltre",
+      "dynamics": "Dynamique",
+      "separation": "Kukabwana",
+      "quality": "Kikalulu",
+      "utility": "Kusadila",
+      "loudness": "Makelele ya ngolo"
+    },
+    "highpass": "Filtre ya ke lutaka na zulu",
+    "lowpass": "Filtre ya ke lutaka na nsi",
+    "denoise": "Kukulumusa makelele",
+    "declip": "Kuzenga",
+    "declick": "Kukatula/kubula",
+    "deesser": "Kukatula mfunu",
+    "gate": "Kielo ya makelele",
+    "compressor": "Kompresere",
+    "limiter": "Kitini",
+    "eq": "Kufwanana",
+    "normalize": "Kuyidika mambu na mutindu ya kuluta mbote",
+    "loudness": "Kuyidika ndinga ya ngolo (LUFS)",
+    "reverb_reduce": "Kukulumusa ndinga",
+    "separate": "Kukabisa kisina",
+    "quality": "Kutomisa kikalulu (ya zulu)",
+    "trim_silence": "Kuzenga pima",
+    "fade": "Kuvila na kati / kuvila na nganda",
+    "stereo_to_mono": "Kubalula na mono",
+    "resample": "Kubaka diaka mbandu"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Kutudila ntima",
+      "2": "Mbala mingi yo ke salaka",
+      "3": "Kusoba",
+      "4": "Kima ya bo ke bingaka placebo"
+    },
+    "category": {
+      "structure": "Lupangu",
+      "vocal": "Ndinga",
+      "instrument": "Kisadilu",
+      "dynamics": "Dynamique",
+      "production": "Kusala",
+      "mood": "Humeur"
+    },
+    "verse": "Verse 11 .",
+    "chorus": "Chorale",
+    "bridge": "Pont",
+    "intro": "Bangogo ya luyantiku",
+    "outro": "Kubasika",
+    "hook": "Crochet",
+    "prechorus": "Na ntwala ya chorale",
+    "instrumental": "Bisadilu",
+    "guitar_solo": "Kidare mosi mpamba",
+    "build_up": "Kutunga",
+    "breakdown": "Kupanzana",
+    "spoken_word": "Ngogo ya bo me tuba",
+    "whispered": "Bo tubaka na ndinga ya nsi",
+    "harmonies": "Kuwakana",
+    "male_vocal": "Ndinga ya bakala",
+    "female_vocal": "Ndinga ya nkento",
+    "duet": "Duet",
+    "acoustic": "Akustiki",
+    "ad_lib": "Piblisite"
+  },
+  "presets": {
+    "clean_voice": "Ndinga ya bunkete",
+    "voice_guitar_balanced": "Ndinga ya bukati-kati & kitare",
+    "podcast": "Podcast",
+    "suno_ready": "Suno me yilama",
+    "gentle_restore": "Kuvutula na mawete",
+    "raw_passthrough": "Kusadila ve"
+  },
+  "errors": {
+    "unknown": "Kima mosi salamaka ve mbote.",
+    "network": "Kukuma ve na serveur.",
+    "validation_error": "Tala bansangu yina nge me kotisa.",
+    "not_found": "Kima me monana ve.",
+    "project_not_found": "Projet me monana ve.",
+    "take_not_found": "Baka ve me monana.",
+    "album_not_found": "Album me monana ve.",
+    "preset_not_found": "Preset me monana ve.",
+    "template_not_found": "Modèle me monana ve.",
+    "device_busy": "Apareyi ya kuwidikila ke sadilamaka na programe ya nkaka.",
+    "device_not_found": "Bo me mona ve apareyi ya audio.",
+    "already_recording": "Bo ke sala dezia enregistrement mosi.",
+    "ffmpeg_missing": "FFmpeg me tulama ve — tula yau sambu na kubalula fichier yayi.",
+    "disk_full": "Kisika ya disque me fwana ve.",
+    "permission_denied": "Bo buyaka nswa sambu na nzila yina bo pesaka.",
+    "import_path_not_found": "Nzila ya kukotisa bima me monana ve.",
+    "job_failed": "Kusadila me nunga ve.",
+    "job_cancelled": "Bo katulaka kisalu yina.",
+    "process_failed": "Kukonda kusala kisalu ya kubaka.",
+    "export_failed": "Kukonda kubasisa fichier.",
+    "record_failed": "Kukonda kubanda enregistrement."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Ndonga",
+      "running": "Kubaka ntinu",
+      "done": "Me manisa",
+      "error": "Kukonda kununga",
+      "cancelled": "Bo me katula yo"
+    },
+    "kind": {
+      "process": "Kuyidika",
+      "export": "Kubasisa",
+      "import": "Kukotisa",
+      "record": "Kusala enregistrement"
+    }
+  }
+}

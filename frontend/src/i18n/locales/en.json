@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio Cleaner"
+  },
+  "nav": {
+    "library": "Library",
+    "record": "Record",
+    "import": "Import",
+    "templates": "Templates",
+    "settings": "Settings",
+    "guide": "Guide"
+  },
+  "common": {
+    "save": "Save",
+    "saving": "Saving…",
+    "saved": "Saved",
+    "cancel": "Cancel",
+    "close": "Close",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "search": "Search",
+    "loading": "Loading…",
+    "error": "Error",
+    "retry": "Retry",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "continue": "Continue",
+    "finish": "Finish",
+    "copy": "Copy",
+    "copied": "Copied",
+    "download": "Download",
+    "upload": "Upload",
+    "none": "None",
+    "all": "All",
+    "yes": "Yes",
+    "no": "No",
+    "select": "Select",
+    "optional": "optional",
+    "required": "required",
+    "unsaved_changes": "Unsaved changes",
+    "name": "Name",
+    "status": "Status",
+    "type": "Type",
+    "actions": "Actions",
+    "empty": "Empty",
+    "browse": "Browse",
+    "remove": "Remove",
+    "add": "Add",
+    "rename": "Rename",
+    "duplicate": "Duplicate",
+    "warning": "Warning",
+    "locked": "Locked",
+    "builtin": "Built-in",
+    "custom": "Custom",
+    "untitled": "Untitled",
+    "select_placeholder": "Select…"
+  },
+  "library": {
+    "title": "Library",
+    "subtitle": "Your voice and guitar projects, from idea to release.",
+    "new_project": "New project",
+    "new_album": "New album",
+    "search_placeholder": "Search by name…",
+    "view": {
+      "grid": "Grid",
+      "albums": "Albums"
+    },
+    "filters": {
+      "all": "All"
+    },
+    "take_count_one": "{{count}} take",
+    "take_count_other": "{{count}} takes",
+    "updated_at": "Updated {{date}}",
+    "no_results": {
+      "title": "No projects found",
+      "description": "Try adjusting the search or status filter."
+    },
+    "empty": {
+      "title": "Your library is empty",
+      "description": "Start a new project from scratch, or import takes you already have on disk.",
+      "cta_import": "Import from folder",
+      "cta_new": "Create project"
+    },
+    "project_dialog": {
+      "title": "New project",
+      "description": "Give it a name and choose a recording mode.",
+      "name_label": "Project name",
+      "name_placeholder": "e.g. Summer Rain",
+      "mode_label": "Mode",
+      "mode": {
+        "voice": "Voice only",
+        "voice_guitar": "Voice + guitar"
+      },
+      "submit": "Create project"
+    },
+    "album_dialog": {
+      "title": "New album",
+      "description": "Group related projects into an album.",
+      "name_label": "Album name",
+      "name_placeholder": "e.g. Autumn EP",
+      "submit": "Create album"
+    },
+    "album": {
+      "untitled": "Untitled album",
+      "members_count_one": "{{count}} project",
+      "members_count_other": "{{count}} projects",
+      "empty": "No projects in this album yet.",
+      "delete_confirm_title": "Delete album?",
+      "delete_confirm_description": "Projects won't be deleted, only unlinked from \"{{name}}\"."
+    },
+    "delete_project": {
+      "confirm_title": "Delete \"{{name}}\"?",
+      "confirm_description": "This removes the project and every take in it. This can't be undone."
+    }
+  },
+  "record": {
+    "title": "Record",
+    "subtitle": "Capture a clean take, watch your levels, and follow the script.",
+    "project_label": "Project",
+    "project_placeholder": "Choose a project",
+    "project_create_quick": "Create a quick project…",
+    "device_label": "Input device",
+    "device_placeholder": "Choose a device",
+    "device_default_badge": "System default",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "No input devices found.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Stop monitoring",
+    "record_button": "Record",
+    "stop_button": "Stop",
+    "elapsed_label": "Elapsed time",
+    "status": {
+      "idle": "Idle",
+      "monitoring": "Monitoring",
+      "recording": "Recording",
+      "stopped": "Stopped"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Peak",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Guided session",
+      "subtitle": "Let the coach walk you through the script step by step, from warm-up to the spoken phrase.",
+      "loading": "Loading script…",
+      "unavailable": "The guided session isn't available on the server yet.",
+      "select_project_device": "Choose a project and an input device to record steps right from here.",
+      "progress": "{{done}} of {{total}} steps",
+      "start_timer": "Start timer",
+      "skip_timer": "Skip timer",
+      "record_step": "Record this step",
+      "stop_step": "Stop recording",
+      "mark_done": "Done — next step",
+      "step_recorded": "Take recorded",
+      "no_record_step": "Warm-up step — no recording needed.",
+      "bars_hint": "About {{bars}} bars",
+      "complete_title": "Script complete!",
+      "complete_body": "You've recorded every step of the script. Head back to the project's Audio tab and pick your favorite takes.",
+      "restart": "Restart script"
+    },
+    "best2min": {
+      "button": "Find the best 2 minutes (Suno)",
+      "running": "Analyzing the take…",
+      "score_label": "Score",
+      "hint": "Runs an energy and clarity analysis over the whole take to find its strongest 2-minute window — you can still adjust the range by hand afterward.",
+      "chart_caption": "Score per window",
+      "unavailable": "The best-2-minutes analysis isn't available on this server yet."
+    },
+    "takes_title": "Takes from this session",
+    "takes_empty": "No takes recorded in this session yet.",
+    "open_in_project": "Open in project",
+    "ws_disconnected": "Reconnecting to the level meter…",
+    "select_project_first": "Choose a project to get started.",
+    "select_device_first": "Choose an input device."
+  },
+  "project": {
+    "back_to_library": "Back to library",
+    "header": {
+      "status_label": "Status",
+      "cover_upload": "Upload cover",
+      "cover_remove": "Remove cover",
+      "name_placeholder": "Project name",
+      "links_title": "Links",
+      "add_link": "Add link",
+      "mode": {
+        "voice": "Voice only",
+        "voice_guitar": "Voice + guitar"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Lyrics",
+      "prompts": "Prompts",
+      "notes": "Notes"
+    },
+    "audio": {
+      "takes_title": "Takes",
+      "no_takes": {
+        "title": "No takes yet",
+        "description": "Record a new take or import an existing file."
+      },
+      "record_new": "Record a new take",
+      "rating": "Rating",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Processed"
+      },
+      "variant_placeholder": "Version",
+      "process_button": "Process",
+      "export_button": "Export",
+      "delete_take_confirm_title": "Delete this take?",
+      "delete_take_confirm_description": "The raw audio and every processed version will be removed.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Processed"
+      },
+      "origin": {
+        "recorded": "Recorded",
+        "imported": "Imported"
+      },
+      "session_label_placeholder": "Session label (optional)",
+      "duration": "Duration",
+      "sample_rate": "Sample rate",
+      "channels": "Channels",
+      "created_at": "Recorded"
+    },
+    "pipeline": {
+      "title": "Processing chain",
+      "preset_label": "Preset",
+      "preset_none": "Custom chain",
+      "preset_save": "Save as preset",
+      "stage_locked": "Locked",
+      "stage_requires_extra": "Requires an extra that isn't installed",
+      "process_button": "Process take",
+      "processing": "Processing…",
+      "job_queued": "Queued…",
+      "job_running": "Processing…",
+      "job_done": "Done",
+      "job_error": "Failed",
+      "job_cancelled": "Cancelled",
+      "cancel_job": "Cancel",
+      "no_stages": "No stages available."
+    },
+    "export": {
+      "title": "Export take",
+      "description": "Render a final file from a processed version.",
+      "variant_label": "Version",
+      "format_label": "Format",
+      "preset_label": "Export preset",
+      "range_label": "Range",
+      "range_full": "Full length",
+      "range_custom": "Custom range",
+      "start_label": "Start (s)",
+      "end_label": "End (s)",
+      "submit": "Export",
+      "progress": "Rendering file…",
+      "download_ready": "File ready",
+      "download_button": "Download file"
+    },
+    "notes": {
+      "placeholder": "Free-form notes about this project…",
+      "saved_at": "Saved at {{time}}"
+    },
+    "lyrics": {
+      "placeholder": "Write the lyrics here. Use the palette on the side to insert Suno meta-tags.",
+      "saved_at": "Saved at {{time}}",
+      "saving": "Saving…",
+      "versions": "Versions",
+      "versions_empty": "No saved versions yet.",
+      "version_preview": "Preview",
+      "restore": "Restore this version",
+      "restore_confirm_title": "Restore this version?",
+      "restore_confirm_description": "The current text will be replaced with the version saved on {{date}}.",
+      "metatags_title": "Meta-tags",
+      "metatags_hint": "Click a tag to insert it at the cursor.",
+      "metatags_placebo_warning": "Unproven — may have no effect on the result.",
+      "metatags_empty": "No meta-tags registered."
+    },
+    "prompts": {
+      "style_title": "Style prompt",
+      "lyrics_title": "Lyrics prompt",
+      "template_label": "Template",
+      "template_none": "No template",
+      "variables_title": "Variables",
+      "preview_title": "Preview",
+      "preview_empty": "Pick a template and fill in the variables to see a preview.",
+      "char_count": "{{count}} characters",
+      "char_count_warning": "Style prompts over 1000 characters may get truncated by Suno.",
+      "copy": "Copy",
+      "copied": "Copied to clipboard",
+      "save_to_project": "Save to project",
+      "saved_to_project": "Prompt saved to project",
+      "history_title": "History",
+      "history_empty": "No previous versions.",
+      "current_label": "Current"
+    },
+    "stems": {
+      "title": "Vocals and guitar",
+      "separate_button": "Separate vocals and guitar",
+      "running": "Separating…",
+      "vocals": "Vocals",
+      "instrumental": "Instrumental",
+      "process_stem": "Process this stem",
+      "empty": "This take hasn't been separated yet. Run separation to hear the vocals and guitar in isolation.",
+      "capability_missing": "Source separation isn't installed on this server.",
+      "unavailable": "Vocal/guitar separation isn't available on this server yet."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "On",
+    "boolean_off": "Off"
+  },
+  "import": {
+    "title": "Import",
+    "subtitle": "Bring projects that already exist on disk into the library.",
+    "step_indicator": "Step {{current}} of {{total}}",
+    "step1": {
+      "title": "Locate folder",
+      "description": "Point to the root folder with your projects and tracks.",
+      "path_label": "Folder path",
+      "path_placeholder": "e.g. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "Recent",
+      "scan_button": "Scan folder",
+      "scanning": "Scanning…",
+      "ffmpeg_warning": "FFmpeg not found — files that need conversion will be skipped.",
+      "folders_found_one": "{{count}} folder found",
+      "folders_found_other": "{{count}} folders found",
+      "unmatched_files_one": "{{count}} unrecognized file",
+      "unmatched_files_other": "{{count}} unrecognized files"
+    },
+    "step2": {
+      "title": "Review items",
+      "description": "Check names, statuses, and what will be imported before confirming.",
+      "select_all": "Select all",
+      "table": {
+        "folder": "Source folder",
+        "name": "Project name",
+        "status": "Status",
+        "audio": "Audio",
+        "lyrics": "Lyrics",
+        "cover": "Cover",
+        "album": "Album"
+      },
+      "audio_include_one": "{{count}} file selected",
+      "audio_include_other": "{{count}} files selected",
+      "no_audio": "No audio found",
+      "no_lyrics": "No lyrics found",
+      "no_cover": "No cover",
+      "warnings_title": "Warnings"
+    },
+    "step3": {
+      "title": "Import",
+      "description": "Confirm to copy the files and create the projects.",
+      "copy_originals": "Copy original files into the library",
+      "execute_button": "Start import",
+      "progress_title": "Importing…",
+      "created_count": "Created: {{count}}",
+      "skipped_count": "Skipped: {{count}}",
+      "done_title": "Import complete",
+      "done_description": "The projects below were created in your library.",
+      "view_project": "Open project",
+      "start_over": "New import"
+    }
+  },
+  "templates": {
+    "title": "Templates",
+    "subtitle": "Reusable prompt templates and meta-tags for Suno.",
+    "tabs": {
+      "prompts": "Prompt templates",
+      "metatags": "Meta-tags"
+    },
+    "new_template": "New template",
+    "kind": {
+      "style": "Style",
+      "lyrics": "Lyrics"
+    },
+    "kind_label": "Kind",
+    "delete_confirm_title": "Delete template \"{{name}}\"?",
+    "delete_confirm_description": "This can't be undone.",
+    "empty": "No templates yet.",
+    "editor": {
+      "title_new": "New template",
+      "title_edit": "Edit template",
+      "name_label": "Name",
+      "name_placeholder": "e.g. Acoustic ballad",
+      "kind_label": "Kind",
+      "template_label": "Template text",
+      "template_hint": "Mark where each variable belongs with its name wrapped in double curly braces — for example, a variable named \"genre\" becomes genre wrapped in two opening and two closing braces.",
+      "variables_label": "Variables",
+      "variable_add": "Add variable",
+      "variable_name": "Key",
+      "variable_label": "Label",
+      "variable_type": "Type",
+      "variable_type_string": "Text",
+      "variable_type_select": "Single select",
+      "variable_type_multiselect": "Multi-select",
+      "variable_type_number": "Number",
+      "variable_type_boolean": "Yes/no",
+      "variable_options": "Options (comma-separated)",
+      "variable_required": "Required",
+      "save": "Save template"
+    },
+    "metatags": {
+      "title": "Meta-tags",
+      "subtitle": "Structural and style tags Suno recognizes inside lyrics.",
+      "new_tag": "New tag",
+      "tag_label": "Tag",
+      "tag_placeholder": "e.g. guitar-solo",
+      "category_label": "Category",
+      "tier_label": "Reliability",
+      "tier_legend_title": "Reliability legend",
+      "tier_legend": {
+        "1": "Tier 1 — documented and consistent",
+        "2": "Tier 2 — usually works",
+        "3": "Tier 3 — variable effect",
+        "4": "Tier 4 — placebo, unproven"
+      },
+      "description_label": "Description",
+      "delete_confirm_title": "Delete tag \"{{tag}}\"?",
+      "empty": "No custom meta-tags yet."
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "System information, language, and default preferences.",
+    "system_info_title": "System",
+    "version": "Version",
+    "data_dir": "Data folder",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Available",
+    "ffmpeg_missing": "Not found",
+    "capabilities_title": "Installed capabilities",
+    "capability": {
+      "denoise": "Noise reduction",
+      "quality": "Quality enhancement",
+      "separate": "Source separation",
+      "ffmpeg": "FFmpeg conversion"
+    },
+    "capability_available": "Available",
+    "capability_unavailable": "Unavailable",
+    "gpu_title": "GPU acceleration",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime providers"
+    },
+    "gpu_none": "No GPU providers detected",
+    "language_title": "Language",
+    "language": {
+      "pt-BR": "Português (Brasil)",
+      "en": "English"
+    },
+    "theme_title": "Appearance",
+    "theme": {
+      "dark": "Dark",
+      "light": "Light"
+    },
+    "defaults_title": "Export defaults",
+    "lufs_target_label": "Target LUFS",
+    "lufs_target_hint": "Used as the starting suggestion when exporting takes. Suno's default sits around -14 LUFS.",
+    "saved": "Preferences saved"
+  },
+  "guide": {
+    "title": "Suno recording guide",
+    "subtitle": "How to capture voice and guitar takes that get the best results.",
+    "intro": "Suno performs best with clean, unambiguous references. This guide covers preparation, target levels, and a 3–5 minute recording script.",
+    "sections": {
+      "prep": {
+        "title": "Preparation",
+        "body": "Record in a treated room or one with plenty of soft material (curtains, rugs, clothes in a closet). Turn off fans and anything that hums. Warm up your voice for 5 minutes before recording."
+      },
+      "levels": {
+        "title": "Levels: -12 to -6 dBFS",
+        "body": "Aim for peaks between -12 and -6 dBFS on the meter. Below that range, background noise becomes more noticeable; above it, clipping risk rises. Use the meter on the Record page to set your gain before you start."
+      },
+      "distance": {
+        "title": "Mic distance: 15–30 cm",
+        "body": "Stay 15 to 30 cm from the microphone. Closer than that exaggerates plosives and proximity effect; farther away picks up more room reverb and noise."
+      },
+      "script": {
+        "title": "Recording script",
+        "warmup": "Vocal warm-up (1–2 minutes)",
+        "vowels": "Sustained vowels — a, e, i, o, u",
+        "scales": "Simple scales, up and down",
+        "excerpt": "A song excerpt (8 to 16 bars)",
+        "dynamics": "Dynamics: start soft, end loud",
+        "spoken_phrase": "One spoken phrase, so Suno can read your vocal tone"
+      },
+      "expectations": {
+        "title": "What Suno expects",
+        "body": "WAV, 48 kHz, mono, dry (no reverb or effects), 3 to 5 minutes of reference. The cleanest, most representative 2 minutes of the take usually produce the best results."
+      }
+    }
+  },
+  "status": {
+    "idea": "Idea",
+    "em_progresso": "In progress",
+    "quase": "Almost there",
+    "pronto": "Ready"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Full vocal script for Suno",
+      "desc": "5 guided minutes: warm-up, vowels, scales, two song excerpts, dynamics, and a spoken phrase."
+    },
+    "step": {
+      "warmup": "Vocal warm-up",
+      "warmup_inst": "Loosen up with yawns, lip trills (brrr), and a soft hum for about a minute. No need to record — it's just to relax your throat before singing.",
+      "vowels": "Sustained vowels",
+      "vowels_inst": "Hold each vowel — a, e, i, o, u — for 3 to 4 seconds at your comfortable pitch, with a steady volume. This helps Suno pick up the pure timbre of your voice.",
+      "scales": "Scales up and down",
+      "scales_inst": "Sing a simple scale up and then down, on \"la\" or \"na\". It doesn't need to be perfect — the goal is to map your vocal range.",
+      "section": "Song excerpt — part 1",
+      "section_inst": "Sing 8 to 16 bars of the song, with the real intention you want to convey. Prioritize clarity and presence over technical perfection.",
+      "section2": "Song excerpt — part 2",
+      "section2_inst": "Sing another 8 to 16 bars — ideally a chorus or a section that contrasts with the previous one. More variety helps the model learn your voice.",
+      "dynamics": "Dynamics: soft → loud",
+      "dynamics_inst": "Sing the same phrase starting very soft and ending loud, without straining your throat. This shows Suno your voice's dynamic range.",
+      "spoken": "Spoken phrase",
+      "spoken_inst": "Speak — don't sing — a short, natural phrase, as if you were chatting. This helps Suno recognize the real timbre of your voice."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restoration",
+      "filter": "Filters",
+      "dynamics": "Dynamics",
+      "separation": "Separation",
+      "quality": "Quality",
+      "utility": "Utility",
+      "loudness": "Loudness"
+    },
+    "highpass": "High-pass filter",
+    "lowpass": "Low-pass filter",
+    "denoise": "Noise reduction",
+    "declip": "Declipping",
+    "declick": "Click/pop removal",
+    "deesser": "De-esser",
+    "gate": "Noise gate",
+    "compressor": "Compressor",
+    "limiter": "Limiter",
+    "eq": "Equalization",
+    "normalize": "Peak normalization",
+    "loudness": "Loudness normalization (LUFS)",
+    "reverb_reduce": "Reverb reduction",
+    "separate": "Source separation",
+    "quality": "Quality enhancement (upscale)",
+    "trim_silence": "Silence trimming",
+    "fade": "Fade in / fade out",
+    "stereo_to_mono": "Convert to mono",
+    "resample": "Resampling"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Reliable",
+      "2": "Usually works",
+      "3": "Variable",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Structure",
+      "vocal": "Vocal",
+      "instrument": "Instrument",
+      "dynamics": "Dynamics",
+      "production": "Production",
+      "mood": "Mood"
+    },
+    "verse": "Verse",
+    "chorus": "Chorus",
+    "bridge": "Bridge",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Hook",
+    "prechorus": "Pre-chorus",
+    "instrumental": "Instrumental",
+    "guitar_solo": "Guitar solo",
+    "build_up": "Build-up",
+    "breakdown": "Breakdown",
+    "spoken_word": "Spoken word",
+    "whispered": "Whispered",
+    "harmonies": "Harmonies",
+    "male_vocal": "Male vocal",
+    "female_vocal": "Female vocal",
+    "duet": "Duet",
+    "acoustic": "Acoustic",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Clean voice",
+    "voice_guitar_balanced": "Balanced voice & guitar",
+    "podcast": "Podcast",
+    "suno_ready": "Suno ready",
+    "gentle_restore": "Gentle restore",
+    "raw_passthrough": "No processing"
+  },
+  "errors": {
+    "unknown": "Something went wrong.",
+    "network": "Couldn't reach the server.",
+    "validation_error": "Check the information you entered.",
+    "not_found": "Item not found.",
+    "project_not_found": "Project not found.",
+    "take_not_found": "Take not found.",
+    "album_not_found": "Album not found.",
+    "preset_not_found": "Preset not found.",
+    "template_not_found": "Template not found.",
+    "device_busy": "Audio device is in use by another program.",
+    "device_not_found": "Audio device not found.",
+    "already_recording": "A recording is already in progress.",
+    "ffmpeg_missing": "FFmpeg isn't installed — install it to convert this file.",
+    "disk_full": "Not enough disk space.",
+    "permission_denied": "Permission denied for the given path.",
+    "import_path_not_found": "Import path not found.",
+    "job_failed": "Processing failed.",
+    "job_cancelled": "Processing was cancelled.",
+    "process_failed": "Failed to process the take.",
+    "export_failed": "Failed to export the file.",
+    "record_failed": "Failed to start recording."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Queued",
+      "running": "Running",
+      "done": "Done",
+      "error": "Failed",
+      "cancelled": "Cancelled"
+    },
+    "kind": {
+      "process": "Processing",
+      "export": "Export",
+      "import": "Import",
+      "record": "Recording"
+    }
+  }
+}

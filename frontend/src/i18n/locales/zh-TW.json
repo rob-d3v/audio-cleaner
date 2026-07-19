@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "音訊清理器"
+  },
+  "nav": {
+    "library": "圖書館",
+    "record": "記錄",
+    "import": "進口",
+    "templates": "範本",
+    "settings": "設定",
+    "guide": "指南"
+  },
+  "common": {
+    "save": "儲存",
+    "saving": "正在儲存...",
+    "saved": "已儲存",
+    "cancel": "取消",
+    "close": "關閉",
+    "delete": "刪除",
+    "edit": "編輯",
+    "create": "創建",
+    "search": "搜尋",
+    "loading": "加載中...",
+    "error": "錯誤",
+    "retry": "重試",
+    "confirm": "確認",
+    "back": "返回",
+    "next": "下一步",
+    "continue": "繼續",
+    "finish": "完成",
+    "copy": "複製",
+    "copied": "已複製",
+    "download": "下載",
+    "upload": "上傳",
+    "none": "無",
+    "all": "全部",
+    "yes": "是的",
+    "no": "否",
+    "select": "選擇",
+    "optional": "可選的",
+    "required": "需要",
+    "unsaved_changes": "未儲存的更改",
+    "name": "名稱",
+    "status": "狀態",
+    "type": "類型",
+    "actions": "行動",
+    "empty": "空",
+    "browse": "瀏覽",
+    "remove": "刪除",
+    "add": "添加",
+    "rename": "重新命名",
+    "duplicate": "重複",
+    "warning": "警告",
+    "locked": "鎖定",
+    "builtin": "內建",
+    "custom": "客製化",
+    "untitled": "無題",
+    "select_placeholder": "選擇…"
+  },
+  "library": {
+    "title": "圖書館",
+    "subtitle": "您的聲音和吉他項目，從創意到發布。",
+    "new_project": "新專案",
+    "new_album": "新專輯",
+    "search_placeholder": "按名稱搜尋...",
+    "view": {
+      "grid": "網格",
+      "albums": "專輯"
+    },
+    "filters": {
+      "all": "全部"
+    },
+    "take_count_one": " {{count}}採取",
+    "take_count_other": " {{count}}需要",
+    "updated_at": "已更新{{date}}",
+    "no_results": {
+      "title": "沒有找到項目",
+      "description": "嘗試調整搜尋或狀態篩選器。"
+    },
+    "empty": {
+      "title": "你的圖書館是空的",
+      "description": "從頭開始一個新項目，或匯入磁碟上已有的項目。",
+      "cta_import": "從資料夾匯入",
+      "cta_new": "創建專案"
+    },
+    "project_dialog": {
+      "title": "新專案",
+      "description": "為其命名並選擇錄製模式。",
+      "name_label": "項目名稱",
+      "name_placeholder": "例如夏雨",
+      "mode_label": "模式",
+      "mode": {
+        "voice": "僅語音",
+        "voice_guitar": "聲音+吉他"
+      },
+      "submit": "創建專案"
+    },
+    "album_dialog": {
+      "title": "新專輯",
+      "description": "將相關項目分組到相簿中。",
+      "name_label": "專輯名稱",
+      "name_placeholder": "例如秋季EP",
+      "submit": "創建相簿"
+    },
+    "album": {
+      "untitled": "無題專輯",
+      "members_count_one": " {{count}}項目",
+      "members_count_other": " {{count}} 項目",
+      "empty": "這張專輯中還沒有任何項目。",
+      "delete_confirm_title": "刪除相簿？",
+      "delete_confirm_description": "項目不會被刪除，只會取消與「{{name}}」的連結。"
+    },
+    "delete_project": {
+      "confirm_title": "刪除“{{name}}”？",
+      "confirm_description": "這會刪除該項目及其中的所有內容。這無法撤消。"
+    }
+  },
+  "record": {
+    "title": "記錄",
+    "subtitle": "捕捉乾淨的鏡頭，觀察你的水平，然後遵循腳本。",
+    "project_label": "專案",
+    "project_placeholder": "選擇一個項目",
+    "project_create_quick": "建立一個快速項目...",
+    "device_label": "輸入裝置",
+    "device_placeholder": "選擇設備",
+    "device_default_badge": "系統預設",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "未找到輸入設備。",
+    "monitor_button": "監視器",
+    "monitor_stop_button": "停止監控",
+    "record_button": "記錄",
+    "stop_button": "停止",
+    "elapsed_label": "經過時間",
+    "status": {
+      "idle": "空閒",
+      "monitoring": "監控",
+      "recording": "錄音",
+      "stopped": "已停止"
+    },
+    "meter": {
+      "rms": "有效值",
+      "peak": "巔峰",
+      "clip": "剪輯"
+    },
+    "guide": {
+      "title": "指導課程",
+      "subtitle": "讓教練逐步引導您完成腳本，從熱身到口語短語。",
+      "loading": "正在加載腳本...",
+      "unavailable": "引導會話在伺服器上尚不可用。",
+      "select_project_device": "從這裡選擇一個項目和一個輸入設備來記錄步驟。",
+      "progress": " {{done}} 步（共 {{total}} 步）",
+      "start_timer": "啟動定時器",
+      "skip_timer": "跳過計時器",
+      "record_step": "記錄這一步",
+      "stop_step": "停止錄音",
+      "mark_done": "完成——下一步",
+      "step_recorded": "拍攝記錄",
+      "no_record_step": "熱身步驟－無需錄音。",
+      "bars_hint": "約{{bars}}條",
+      "complete_title": "腳本完成！",
+      "complete_body": "您已經記錄了腳本的每一步。返回項目的“音訊”標籤並選擇您最喜歡的片段。",
+      "restart": "重新啟動腳本"
+    },
+    "best2min": {
+      "button": "找出最好的 2 分鐘 (Suno)",
+      "running": "分析採取...",
+      "score_label": "分數",
+      "hint": "對整個片段進行能量和清晰度分析，以找到最強的 2 分鐘視窗 - 之後您仍然可以手動調整範圍。",
+      "chart_caption": "每個視窗的得分",
+      "unavailable": "此伺服器尚不提供最佳 2 分鐘分析。"
+    },
+    "takes_title": "摘自本次會議",
+    "takes_empty": "此會話中尚未記錄任何鏡頭。",
+    "open_in_project": "在專案中開啟",
+    "ws_disconnected": "正在重新連接到電平表...",
+    "select_project_first": "選擇一個項目來開始。",
+    "select_device_first": "選擇輸入設備。"
+  },
+  "project": {
+    "back_to_library": "返回圖書館",
+    "header": {
+      "status_label": "狀態",
+      "cover_upload": "上傳封面",
+      "cover_remove": "取下蓋子",
+      "name_placeholder": "項目名稱",
+      "links_title": "友情連結",
+      "add_link": "添加連結",
+      "mode": {
+        "voice": "僅語音",
+        "voice_guitar": "聲音+吉他"
+      }
+    },
+    "tabs": {
+      "audio": "音訊",
+      "lyrics": "歌詞",
+      "prompts": "提示",
+      "notes": "註解"
+    },
+    "audio": {
+      "takes_title": "需要",
+      "no_takes": {
+        "title": "還沒拍攝",
+        "description": "錄製新片段或匯入現有文件。"
+      },
+      "record_new": "錄製新鏡頭",
+      "rating": "評級",
+      "variant": {
+        "raw": "原料",
+        "processed": "已加工"
+      },
+      "variant_placeholder": "版本",
+      "process_button": "流程",
+      "export_button": "出口",
+      "delete_take_confirm_title": "刪除這個鏡頭嗎？",
+      "delete_take_confirm_description": "原始音訊和每個處理過的版本都將被刪除。",
+      "ab": {
+        "raw": "一·原始",
+        "processed": "B·已加工"
+      },
+      "origin": {
+        "recorded": "已錄製",
+        "imported": "進口"
+      },
+      "session_label_placeholder": "會話標籤（可選）",
+      "duration": "持續時間",
+      "sample_rate": "取樣率",
+      "channels": "頻道",
+      "created_at": "已錄製"
+    },
+    "pipeline": {
+      "title": "加工鏈",
+      "preset_label": "預設",
+      "preset_none": "客製化鏈條",
+      "preset_save": "儲存為預設",
+      "stage_locked": "鎖定",
+      "stage_requires_extra": "需要未安裝的額外組件",
+      "process_button": "流程採取",
+      "processing": "正在處理…",
+      "job_queued": "排隊…",
+      "job_running": "正在處理…",
+      "job_done": "完成",
+      "job_error": "失敗",
+      "job_cancelled": "取消",
+      "cancel_job": "取消",
+      "no_stages": "沒有可用的階段。"
+    },
+    "export": {
+      "title": "出口採取",
+      "description": "從處理後的版本渲染最終檔案。",
+      "variant_label": "版本",
+      "format_label": "格式",
+      "preset_label": "導出預設",
+      "range_label": "範圍",
+      "range_full": "全長",
+      "range_custom": "定制範圍",
+      "start_label": "開始",
+      "end_label": "結束",
+      "submit": "出口",
+      "progress": "渲染檔案...",
+      "download_ready": "文件準備好",
+      "download_button": "下載文件"
+    },
+    "notes": {
+      "placeholder": "關於該項目的自由格式註解...",
+      "saved_at": "保存於{{time}}"
+    },
+    "lyrics": {
+      "placeholder": "把歌詞寫在這裡。使用側面的調色板插入 Suno 元標籤。",
+      "saved_at": "保存於{{time}}",
+      "saving": "正在儲存...",
+      "versions": "版本",
+      "versions_empty": "尚未儲存版本。",
+      "version_preview": "預覽",
+      "restore": "恢復此版本",
+      "restore_confirm_title": "恢復這個版本嗎？",
+      "restore_confirm_description": "當前文字將替換為 {{date}} 上儲存的版本。",
+      "metatags_title": "元標籤",
+      "metatags_hint": "按一下標籤將其插入到遊標處。",
+      "metatags_placebo_warning": "未經證實－可能對結果沒有影響。",
+      "metatags_empty": "沒有註冊元標記。"
+    },
+    "prompts": {
+      "style_title": "風格提示",
+      "lyrics_title": "歌詞提示",
+      "template_label": "範本",
+      "template_none": "無模板",
+      "variables_title": "變數",
+      "preview_title": "預覽",
+      "preview_empty": "選擇一個模板並填寫變數以查看預覽。",
+      "char_count": " {{count}} 個字符",
+      "char_count_warning": "Suno 可能會截斷超過 1000 個字元的樣式提示。",
+      "copy": "複製",
+      "copied": "已複製到剪貼簿",
+      "save_to_project": "儲存到項目",
+      "saved_to_project": "提示儲存到項目",
+      "history_title": "歷史",
+      "history_empty": "沒有以前的版本。",
+      "current_label": "目前"
+    },
+    "stems": {
+      "title": "人聲和吉他",
+      "separate_button": "人聲和吉他分開",
+      "running": "分離…",
+      "vocals": "人聲",
+      "instrumental": "器樂",
+      "process_stem": "處理這個莖",
+      "empty": "這個鏡頭還沒分開。運行分離來單獨聆聽人聲和吉他。",
+      "capability_missing": "此伺服器上未安裝來源分離。",
+      "unavailable": "此伺服器尚不支援人聲/吉他分離。"
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "開",
+    "boolean_off": "關閉"
+  },
+  "import": {
+    "title": "進口",
+    "subtitle": "將磁碟上已存在的項目放入庫中。",
+    "step_indicator": "{{total}} 的步驟 {{current}}",
+    "step1": {
+      "title": "找到資料夾",
+      "description": "指向包含項目和曲目的根資料夾。",
+      "path_label": "資料夾路徑",
+      "path_placeholder": "例如E：\\羅布斯\\驕傲\\音樂\\羅布斯",
+      "recent_label": "最近",
+      "scan_button": "掃描資料夾",
+      "scanning": "正在掃描...",
+      "ffmpeg_warning": "未找到 FFmpeg — 將跳過需要轉換的檔案。",
+      "folders_found_one": " 找到{{count}}資料夾",
+      "folders_found_other": " 找到{{count}}資料夾",
+      "unmatched_files_one": " {{count}} 無法辨識的文件",
+      "unmatched_files_other": " {{count}} 無法辨識的文件"
+    },
+    "step2": {
+      "title": "評論項目",
+      "description": "在確認之前檢查姓名、狀態以及將匯入的內容。",
+      "select_all": "選擇全部",
+      "table": {
+        "folder": "來源資料夾",
+        "name": "項目名稱",
+        "status": "狀態",
+        "audio": "音訊",
+        "lyrics": "歌詞",
+        "cover": "封面",
+        "album": "專輯"
+      },
+      "audio_include_one": " {{count}} 已選擇文件",
+      "audio_include_other": " {{count}} 已選擇文件",
+      "no_audio": "未找到音訊",
+      "no_lyrics": "沒找到歌詞",
+      "no_cover": "無蓋",
+      "warnings_title": "警告"
+    },
+    "step3": {
+      "title": "進口",
+      "description": "確認複製文件並建立項目。",
+      "copy_originals": "將原始文件複製到庫中",
+      "execute_button": "開始導入",
+      "progress_title": "正在導入...",
+      "created_count": "創作時間：{{count}}",
+      "skipped_count": "跳過：{{count}}",
+      "done_title": "導入完成",
+      "done_description": "以下項目是在您的庫中建立的。",
+      "view_project": "打開專案",
+      "start_over": "全新進口"
+    }
+  },
+  "templates": {
+    "title": "範本",
+    "subtitle": "Suno 的可重複使用提示範本和元標記。",
+    "tabs": {
+      "prompts": "提示模板",
+      "metatags": "元標籤"
+    },
+    "new_template": "新模板",
+    "kind": {
+      "style": "風格",
+      "lyrics": "歌詞"
+    },
+    "kind_label": "種類",
+    "delete_confirm_title": "刪除模板“{{name}}”？",
+    "delete_confirm_description": "這無法撤消。",
+    "empty": "還沒有模板。",
+    "editor": {
+      "title_new": "新模板",
+      "title_edit": "編輯模板",
+      "name_label": "名稱",
+      "name_placeholder": "例如原聲民謠",
+      "kind_label": "種類",
+      "template_label": "範本文字",
+      "template_hint": "標記每個變數所屬的位置，並將其名稱包含在雙花括號中 - 例如，名為“genre”的變數將成為包含在兩個左大括號和兩個右大括號中的流派。",
+      "variables_label": "變數",
+      "variable_add": "新增變數",
+      "variable_name": "鑰匙",
+      "variable_label": "標籤",
+      "variable_type": "類型",
+      "variable_type_string": "文字",
+      "variable_type_select": "單選",
+      "variable_type_multiselect": "多選",
+      "variable_type_number": "數量",
+      "variable_type_boolean": "是/否",
+      "variable_options": "選項（以逗號分隔）",
+      "variable_required": "必填",
+      "save": "儲存模板"
+    },
+    "metatags": {
+      "title": "元標籤",
+      "subtitle": "Suno 可以辨識歌詞內的結構和風格標籤。",
+      "new_tag": "新標籤",
+      "tag_label": "標籤",
+      "tag_placeholder": "例如吉他獨奏",
+      "category_label": "類別",
+      "tier_label": "可靠性",
+      "tier_legend_title": "可靠性圖例",
+      "tier_legend": {
+        "1": "第 1 層 — 有記錄且一致",
+        "2": "第 2 層 — 通常有效",
+        "3": "第三層—可變效應",
+        "4": "第 4 層－安慰劑，未經證實"
+      },
+      "description_label": "描述",
+      "delete_confirm_title": "刪除標籤“{{tag}}”？",
+      "empty": "還沒有自訂元標記。"
+    }
+  },
+  "settings": {
+    "title": "設定",
+    "subtitle": "系統資訊、語言和預設首選項。",
+    "system_info_title": "系統",
+    "version": "版本",
+    "data_dir": "資料資料夾",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "可用",
+    "ffmpeg_missing": "未找到",
+    "capabilities_title": "已安裝能力",
+    "capability": {
+      "denoise": "降噪",
+      "quality": "品質提升",
+      "separate": "源頭分離",
+      "ffmpeg": "FFmpeg 轉換"
+    },
+    "capability_available": "可用",
+    "capability_unavailable": "不可用",
+    "gpu_title": "GPU加速",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX 執行時間提供者"
+    },
+    "gpu_none": "未檢測到 GPU 提供者",
+    "language_title": "語言",
+    "language": {
+      "pt-BR": "葡萄牙語（巴西）",
+      "en": "英語"
+    },
+    "theme_title": "外觀",
+    "theme": {
+      "dark": "黑暗",
+      "light": "光"
+    },
+    "defaults_title": "導出預設值",
+    "lufs_target_label": "目標 LUFS",
+    "lufs_target_hint": "用作導出鏡頭時的起始建議。 Suno 的預設值約為 -14 LUFS。",
+    "saved": "已儲存偏好設定"
+  },
+  "guide": {
+    "title": "Suno錄音指南",
+    "subtitle": "如何捕捉人聲和吉他片段以獲得最佳效果。",
+    "intro": "Suno 在乾淨、明確的參考文獻中表現最佳。本指南涵蓋準備工作、目標等級和 3-5 分鐘的錄音腳本。",
+    "sections": {
+      "prep": {
+        "title": "準備工作",
+        "body": "在經過處理的房間或有大量柔軟材料（窗簾、地毯、壁櫥裡的衣服）的房間中錄製。關掉風扇和任何嗡嗡聲的東西。錄音前熱身 5 分鐘。"
+      },
+      "levels": {
+        "title": "電平：-12 至 -6 dBFS",
+        "body": "瞄準儀表上 -12 和 -6 dBFS 之間的峰值。低於該範圍，背景噪音變得更加明顯；高於該水平，削波風險就會上升。在開始之前，使用「記錄」頁面上的儀表設定增益。"
+      },
+      "distance": {
+        "title": "麥克風距離：15–30 厘米",
+        "body": "與麥克風保持 15 至 30 公分的距離。比這更接近誇大爆破音和鄰近效應；距離越遠，房間混響和噪音就越多。"
+      },
+      "script": {
+        "title": "錄音腳本",
+        "warmup": "聲音熱身（1-2 分鐘）",
+        "vowels": "延音元音 - a、e、i、o、u",
+        "scales": "簡單的刻度，向上和向下",
+        "excerpt": "歌曲摘錄（8 至 16 小節）",
+        "dynamics": "動態：開始輕柔，結束響亮",
+        "spoken_phrase": "一句口語短語，讓 Suno 能夠讀懂您的語氣"
+      },
+      "expectations": {
+        "title": "蘇諾的期望",
+        "body": "WAV，48 kHz，單聲道，乾（無混響或效果），3 到 5 分鐘的參考。最乾淨、最具代表性的 2 分鐘鏡頭通常會產生最佳效果。"
+      }
+    }
+  },
+  "status": {
+    "idea": "理念",
+    "em_progresso": "進行中",
+    "quase": "快到了",
+    "pronto": "準備好"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Suno 的完整聲樂腳本",
+      "desc": "5 分鐘指導：熱身、元音、音階、兩首歌曲摘錄、力度和口語短語。"
+    },
+    "step": {
+      "warmup": "聲樂熱身",
+      "warmup_inst": "透過打哈欠、嘴唇顫音 (brrr) 和輕柔的嗡嗡聲來放鬆大約一分鐘。不需要錄音——只是在唱歌之前放鬆一下喉嚨。",
+      "vowels": "延音元音",
+      "vowels_inst": "以您舒適的音高和穩定的音量按住每個元音（a、e、i、o、u）3 到 4 秒。這有助於 Suno 拾取您聲音的純淨音色。",
+      "scales": "放大和縮小",
+      "scales_inst": "在“la”或“na”上先唱簡單的音階，然後唱低音階。它不需要完美——目標是映射您的音域。",
+      "section": "歌曲摘錄 — 第 1 部分",
+      "section_inst": "唱歌曲的 8 到 16 小節，帶著你想要傳達的真實意圖。優先考慮清晰度和表現而不是技術完美。",
+      "section2": "歌曲摘錄 — 第 2 部分",
+      "section2_inst": "再唱 8 到 16 小節－最好是副歌部分或與前一個部分形成對比的部分。更多的多樣性有助於模型學習你的聲音。",
+      "dynamics": "力道：柔和→響亮",
+      "dynamics_inst": "唱同樣的樂句，開頭非常輕柔，結尾大聲，不要拉緊喉嚨。這向 Suno 顯示了您聲音的動態範圍。",
+      "spoken": "口語短語",
+      "spoken_inst": "說話——不要唱歌——簡短、自然的短語，就像你們在聊天一樣。這有助於 Suno 識別您聲音的真實音色。"
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "恢復",
+      "filter": "過濾器",
+      "dynamics": "動力學",
+      "separation": "分離",
+      "quality": "品質",
+      "utility": "實用性",
+      "loudness": "響度"
+    },
+    "highpass": "高通濾波器",
+    "lowpass": "低通濾波器",
+    "denoise": "降噪",
+    "declip": "剪裁",
+    "declick": "點擊/彈出刪除",
+    "deesser": "嘶嘶聲消除器",
+    "gate": "噪音門",
+    "compressor": "壓縮機",
+    "limiter": "限制器",
+    "eq": "均衡",
+    "normalize": "峰歸一化",
+    "loudness": "響度歸一化 (LUFS)",
+    "reverb_reduce": "殘響減少",
+    "separate": "源頭分離",
+    "quality": "品質提升（高檔）",
+    "trim_silence": "靜音修剪",
+    "fade": "淡入/淡出",
+    "stereo_to_mono": "轉換為單聲道",
+    "resample": "重採樣"
+  },
+  "metatags": {
+    "tier": {
+      "1": "可靠",
+      "2": "通常有效",
+      "3": "變數",
+      "4": "安慰劑"
+    },
+    "category": {
+      "structure": "結構",
+      "vocal": "聲樂",
+      "instrument": "儀器儀表",
+      "dynamics": "動力學",
+      "production": "生產",
+      "mood": "心情"
+    },
+    "verse": "詩歌",
+    "chorus": "合唱團",
+    "bridge": "橋",
+    "intro": "簡介",
+    "outro": "尾奏",
+    "hook": "鉤子",
+    "prechorus": "預合唱",
+    "instrumental": "器樂",
+    "guitar_solo": "吉他獨奏",
+    "build_up": "建立",
+    "breakdown": "故障",
+    "spoken_word": "口說",
+    "whispered": "竊竊私語",
+    "harmonies": "和聲",
+    "male_vocal": "男聲",
+    "female_vocal": "女聲",
+    "duet": "二重唱",
+    "acoustic": "聲學",
+    "ad_lib": "即興表演"
+  },
+  "presets": {
+    "clean_voice": "乾淨的聲音",
+    "voice_guitar_balanced": "平衡的聲音和吉他",
+    "podcast": "podcast",
+    "suno_ready": "蘇諾準備好了",
+    "gentle_restore": "溫和還原",
+    "raw_passthrough": "沒有處理"
+  },
+  "errors": {
+    "unknown": "出了點問題。",
+    "network": "無法到達伺服器。",
+    "validation_error": "檢查您輸入的資訊。",
+    "not_found": "未找到項目。",
+    "project_not_found": "未找到項目。",
+    "take_not_found": "拿沒發現。",
+    "album_not_found": "找不到相簿。",
+    "preset_not_found": "未找到預設。",
+    "template_not_found": "找不到模板。",
+    "device_busy": "音頻設備正被另一個程式使用。",
+    "device_not_found": "未找到音頻設備。",
+    "already_recording": "錄音已經在進行中。",
+    "ffmpeg_missing": "未安裝 FFmpeg — 安裝它以轉換此檔案。",
+    "disk_full": "磁碟空間不足。",
+    "permission_denied": "給定路徑的權限被拒絕。",
+    "import_path_not_found": "找不到導入路徑。",
+    "job_failed": "處理失敗。",
+    "job_cancelled": "處理被取消。",
+    "process_failed": "無法處理拍攝。",
+    "export_failed": "匯出文件失敗。",
+    "record_failed": "無法開始錄製。"
+  },
+  "jobs": {
+    "status": {
+      "queued": "排隊",
+      "running": "跑步",
+      "done": "完成",
+      "error": "失敗",
+      "cancelled": "取消"
+    },
+    "kind": {
+      "process": "加工",
+      "export": "出口",
+      "import": "進口",
+      "record": "錄音"
+    }
+  }
+}

@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Peugleh Audio"
+  },
+  "nav": {
+    "library": "Pustaka",
+    "record": "Catatan",
+    "import": "Impor",
+    "templates": "Templat",
+    "settings": "Peuatoe",
+    "guide": "Peudoman"
+  },
+  "common": {
+    "save": "Simpan",
+    "saving": "Meuhemat...",
+    "saved": "Disimpan",
+    "cancel": "Batalkan",
+    "close": "Tutop",
+    "delete": "Hapus",
+    "edit": "Sunting",
+    "create": "Peugot",
+    "search": "Mita",
+    "loading": "Teungoh memuat...",
+    "error": "Kesalahan",
+    "retry": "Coba lom",
+    "confirm": "Peukong",
+    "back": "Kembali",
+    "next": "Selanjut jih",
+    "continue": "Sambong",
+    "finish": "Seuleusoe",
+    "copy": "Salen",
+    "copied": "Geusalen",
+    "download": "Neucok",
+    "upload": "Uék",
+    "none": "Hana",
+    "all": "Mandum",
+    "yes": "Jeut",
+    "no": "Hana",
+    "select": "Pileh",
+    "optional": "hana peureulee",
+    "required": "dipeureulee",
+    "unsaved_changes": "Peuubah nyang gohlom disimpan",
+    "name": "Nan",
+    "status": "Keuadaan",
+    "type": "Jeunèh",
+    "actions": "Tindakan",
+    "empty": "Kosong",
+    "browse": "Jeulajah",
+    "remove": "Peuhah",
+    "add": "Tambah",
+    "rename": "Gantoe nan",
+    "duplicate": "Duplikat",
+    "warning": "Peuingat",
+    "locked": "Teukunci",
+    "builtin": "Teubangun lam",
+    "custom": "Adat",
+    "untitled": "Hana judul",
+    "select_placeholder": "Pileh..."
+  },
+  "library": {
+    "title": "Pustaka",
+    "subtitle": "Proyek su ngon gitar droeneuh, dari ide sampoe rilis.",
+    "new_project": "Proyek baro",
+    "new_album": "Album baro .",
+    "search_placeholder": "Neumita ngon nan...",
+    "view": {
+      "grid": "Kisi",
+      "albums": "Album"
+    },
+    "filters": {
+      "all": "Mandum"
+    },
+    "take_count_one": " {{count}} cok",
+    "take_count_other": " {{count}} geucok",
+    "updated_at": "Geupeubarô {{date}} . ",
+    "no_results": {
+      "title": "Hana proyek nyang meuteumeung",
+      "description": "Neucuba neuseusuaikan filter mita atawa status."
+    },
+    "empty": {
+      "title": "Pustaka droeneuh kosong",
+      "description": "Mulai proyek baro dari nol, atawa import takes nyang ka na bak disk.",
+      "cta_import": "Impor dari map",
+      "cta_new": "Peugot proyek"
+    },
+    "project_dialog": {
+      "title": "Proyek baro",
+      "description": "Neubri nan dan neupiléh mode rekaman.",
+      "name_label": "Nan proyek",
+      "name_placeholder": "miseu jih Ujeuen Musim Su'um",
+      "mode_label": "Mode",
+      "mode": {
+        "voice": "Su mantong",
+        "voice_guitar": "Su + gitar ."
+      },
+      "submit": "Peugot proyek"
+    },
+    "album_dialog": {
+      "title": "Album baro .",
+      "description": "Keulompok proyek-proyek nyang meukaet jeut keu saboh album.",
+      "name_label": "Nan album .",
+      "name_placeholder": "miseu jih Musim Gugur EP .",
+      "submit": "Peugot album"
+    },
+    "album": {
+      "untitled": "Album hana judul",
+      "members_count_one": " Proyek {{count}}",
+      "members_count_other": " {{count}} proyek",
+      "empty": "Hana proyek lam album nyoe lom.",
+      "delete_confirm_title": "Hapus album nyan?",
+      "delete_confirm_description": "Proyek hana akan disampôh, hanya dipeuhah dari \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Hapus \" {{name}} \"?",
+      "confirm_description": "Nyoe geupeugadeh proyek dan tiep-tiep take lam nyan. Nyoe hanjeut ta balek."
+    }
+  },
+  "record": {
+    "title": "Catatan",
+    "subtitle": "Tangkap clean take, nonton level droe, dan ikot naskah.",
+    "project_label": "Proyek",
+    "project_placeholder": "Pileh saboh proyek .",
+    "project_create_quick": "Peugot proyek bagah...",
+    "device_label": "Alat peutamong",
+    "device_placeholder": "Pileh saboh alat",
+    "device_default_badge": "Sistem lalai",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Hana alat input nyang meuteumeung.",
+    "monitor_button": "Pantau",
+    "monitor_stop_button": "Peutheun pemantauan",
+    "record_button": "Catatan",
+    "stop_button": "Peutheun",
+    "elapsed_label": "Watèë nyang ka leupah",
+    "status": {
+      "idle": "Nganggur",
+      "monitoring": "Pemantauan",
+      "recording": "Rekaman",
+      "stopped": "Geu peutheun"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Puncak",
+      "clip": "Klip"
+    },
+    "guide": {
+      "title": "Sesi nyang geubimbing",
+      "subtitle": "Bah pelatih geujak gata lam naskah langkah demi langkah, mulai dari pemanasan sampoe frasa nyang geupeugah.",
+      "loading": "Meumuat skrip...",
+      "unavailable": "Sesi guided nyan gohlom na bak server.",
+      "select_project_device": "Pileh saboh proyek ngon alat input keu rekam langkah-langkah tepat dari nyoe.",
+      "progress": " {{done}} nibak {{total}} langkah",
+      "start_timer": "Mulai watee",
+      "skip_timer": "Leupah watee",
+      "record_step": "Catat langkah nyoe",
+      "stop_step": "Peutheun rekaman",
+      "mark_done": "Seuleusoe — langkah selanjut jih .",
+      "step_recorded": "Neucok rekaman",
+      "no_record_step": "Langkah pemanasan — hana peureulee rekaman.",
+      "bars_hint": "Kira-kira {{bars}} bar .",
+      "complete_title": "Naskah ka lengkap!",
+      "complete_body": "Kamoe ka kamoe rekam tiep-tiep langkah naskah. Neugisa lom bak tab Audio proyek dan neupileh take favorit droeneuh.",
+      "restart": "Mulai lom skrip"
+    },
+    "best2min": {
+      "button": "Teume 2 minet nyang paleng jroh (Suno)",
+      "running": "Meuanalisa take...",
+      "score_label": "Nilai",
+      "hint": "Meujalankan analisis energi dan kejelasan seulama mandum take untuk meurumpok jendela 2 minet yang paleng teuga — droeneuh mantong jeut neusesuaikan rentang ngen jaroe lheuh nyan.",
+      "chart_caption": "Nilai per jendela",
+      "unavailable": "Analisis nyang paleng jroh-2-minit gohlom na bak server nyoe."
+    },
+    "takes_title": "Meucok nibak sesi nyoe .",
+    "takes_empty": "Hana takes nyang ka direkam lam sesi nyoe lom.",
+    "open_in_project": "Buka lam proyek",
+    "ws_disconnected": "Meusambong lom ngon meter tingkat...",
+    "select_project_first": "Pileh saboh proyek keu mulai.",
+    "select_device_first": "Pileh alat input."
+  },
+  "project": {
+    "back_to_library": "Kembali ke perpustakaan",
+    "header": {
+      "status_label": "Keuadaan",
+      "cover_upload": "Neuék sampul",
+      "cover_remove": "Peuhah tutup",
+      "name_placeholder": "Nan proyek",
+      "links_title": "Tautan",
+      "add_link": "Tambah link",
+      "mode": {
+        "voice": "Su mantong",
+        "voice_guitar": "Su + gitar ."
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Lirik Lagu Aceh",
+      "prompts": "Geuyue",
+      "notes": "Catatan"
+    },
+    "audio": {
+      "takes_title": "Meucok",
+      "no_takes": {
+        "title": "Hana cok lom",
+        "description": "Rekam take baro atawa import file nyang ka na."
+      },
+      "record_new": "Rekam take baroe .",
+      "rating": "Rating",
+      "variant": {
+        "raw": "Mentah",
+        "processed": "Diproses"
+      },
+      "variant_placeholder": "Versi 1.1.",
+      "process_button": "Proses",
+      "export_button": "Ekspor",
+      "delete_take_confirm_title": "Hapus take nyoe?",
+      "delete_take_confirm_description": "Audio mentah dan tiep-tiep versi nyang ka geuproses akan geubôh.",
+      "ab": {
+        "raw": "A · Mentah",
+        "processed": "B · Diproses"
+      },
+      "origin": {
+        "recorded": "Geurekam",
+        "imported": "Diimpor"
+      },
+      "session_label_placeholder": "Label sesi (hana peureulee)",
+      "duration": "Durasi",
+      "sample_rate": "Tingkat sampel",
+      "channels": "Saluran",
+      "created_at": "Geurekam"
+    },
+    "pipeline": {
+      "title": "Rantai pengolahan",
+      "preset_label": "Teutap",
+      "preset_none": "Rantai adat",
+      "preset_save": "Simpan lagee preset",
+      "stage_locked": "Teukunci",
+      "stage_requires_extra": "Perlee ekstra nyang hana dipasang .",
+      "process_button": "Proses cok",
+      "processing": "Peuproses...",
+      "job_queued": "Teu antri...",
+      "job_running": "Peuproses...",
+      "job_done": "Seuleusoe",
+      "job_error": "Gagal",
+      "job_cancelled": "Dibatalkan",
+      "cancel_job": "Batalkan",
+      "no_stages": "Hana panggong nyang na."
+    },
+    "export": {
+      "title": "Ekspor cok",
+      "description": "Render saboh file akhe dari versi nyang ka geuproses.",
+      "variant_label": "Versi 1.1.",
+      "format_label": "Peugot",
+      "preset_label": "Ekspor preset",
+      "range_label": "Rentang",
+      "range_full": "Panyang punoh",
+      "range_custom": "Rentang khusus",
+      "start_label": "Mulai (s)",
+      "end_label": "Akhe (s)",
+      "submit": "Ekspor",
+      "progress": "Berkas rendering...",
+      "download_ready": "File ka siap",
+      "download_button": "Neucok beureukaih"
+    },
+    "notes": {
+      "placeholder": "Catatan bebas teuntang proyek nyoe...",
+      "saved_at": "Disimpan bak {{time}} . "
+    },
+    "lyrics": {
+      "placeholder": "Tuleh lirik lagu jih di sinoe. Pakèk palet nyang na di binèh keu neupasoë meta-tag Suno.",
+      "saved_at": "Disimpan bak {{time}} . ",
+      "saving": "Meuhemat...",
+      "versions": "Versi",
+      "versions_empty": "Hana versi nyang ka teusimpan lom.",
+      "version_preview": "Pratinjau",
+      "restore": "Neupeugot lom versi nyoe .",
+      "restore_confirm_title": "Neupeugot lom versi nyoe?",
+      "restore_confirm_description": "Teks jinoe akan geugantoe ngon versi nyang ka geusimpan bak {{date}} .",
+      "metatags_title": "Meta-tanda",
+      "metatags_hint": "Klik saboh tag keu tapeutamong bak kursor.",
+      "metatags_placebo_warning": "Hana terbukti — mungken hana efek bak hasee jih.",
+      "metatags_empty": "Hana meta-tag nyang ka teudaftar."
+    },
+    "prompts": {
+      "style_title": "Gaya prompt",
+      "lyrics_title": "Lirik lagu prompt",
+      "template_label": "Cetakan",
+      "template_none": "Hana templat",
+      "variables_title": "Variabel",
+      "preview_title": "Pratinjau",
+      "preview_empty": "Pileh saboh templat dan peunoh variabel-variabel nyan keu neukalön pratinjau.",
+      "char_count": " {{count}} aksara",
+      "char_count_warning": "Gaya prompts leubeh dari 1000 karakter mungken jeut dipotong le Suno.",
+      "copy": "Salen",
+      "copied": "Disalen bak papan klip .",
+      "save_to_project": "Simpan keu proyek",
+      "saved_to_project": "Prompt disimpan keu proyek .",
+      "history_title": "Seujarah",
+      "history_empty": "Hana versi awai.",
+      "current_label": "Saat nyoe"
+    },
+    "stems": {
+      "title": "Vokal ngon gitar .",
+      "separate_button": "Peupisah vokal ngon gitar .",
+      "running": "Meupisah...",
+      "vocals": "Vokal",
+      "instrumental": "Instrumen",
+      "process_stem": "Olah batang nyoe",
+      "empty": "Take nyoe golom meupisah lom. Lari peumisah keu deungoe vokal ngon gitar lam isolasi.",
+      "capability_missing": "Peumisah sumber hana geupasang bak server nyoe.",
+      "unavailable": "Peumisah vokal/gitar hana lom na bak server nyoe."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Bak",
+    "boolean_off": "Mate"
+  },
+  "import": {
+    "title": "Impor",
+    "subtitle": "Neuba proyek-proyek nyang ka na bak disk u dalam perpustakaan.",
+    "step_indicator": "Langkah {{current}} dari {{total}} ",
+    "step1": {
+      "title": "Teumeu folder",
+      "description": "Tunjuk keu folder root ngon proyek dan trek droeneuh.",
+      "path_label": "Jalur map",
+      "path_placeholder": "miseu jih E:\\Robbs\\Kebanggaan\\Musik\\Robbs",
+      "recent_label": "Baroe nyoe",
+      "scan_button": "Scan map",
+      "scanning": "Meupindai...",
+      "ffmpeg_warning": "FFmpeg hana meuteumeung — beureukaih nyang peureulèë konversi akan geu-skip.",
+      "folders_found_one": " {{count}} folder ka meuteumeung .",
+      "folders_found_other": " {{count}} map nyang ka meuteumeung .",
+      "unmatched_files_one": " {{count}} beureukaih nyang hana geuturi",
+      "unmatched_files_other": " {{count}} beureukaih nyang hana geuturi"
+    },
+    "step2": {
+      "title": "Ulasan barang",
+      "description": "Cek nan, status, ngon peu nyang akan diimpor sigohlom neukonfirmasi.",
+      "select_all": "Pileh mandum",
+      "table": {
+        "folder": "Folder sumber",
+        "name": "Nan proyek",
+        "status": "Keuadaan",
+        "audio": "Audio",
+        "lyrics": "Lirik Lagu Aceh",
+        "cover": "Sampul",
+        "album": "Album Aceh"
+      },
+      "audio_include_one": " {{count}} berkas nyang ka geupiléh .",
+      "audio_include_other": " {{count}} file nyang ka geupiléh .",
+      "no_audio": "Hana meuteumeung audio",
+      "no_lyrics": "Hana meuteumeung lirik .",
+      "no_cover": "Hana tutup",
+      "warnings_title": "Peuingat"
+    },
+    "step3": {
+      "title": "Impor",
+      "description": "Konfirmasi keu copy file-file dan peugot proyek-proyek.",
+      "copy_originals": "Salen file asli lam perpustakaan .",
+      "execute_button": "Mulai import",
+      "progress_title": "Teungoh meuimpor...",
+      "created_count": "Dipeugot: {{count}} . ",
+      "skipped_count": "Dipeuleupah: {{count}} ",
+      "done_title": "Impor ka lheueh",
+      "done_description": "Proyek-proyek di miyup nyoe ka geupeugot lam perpustakaan droeneuh.",
+      "view_project": "Proyek teubuka",
+      "start_over": "Impor baro"
+    }
+  },
+  "templates": {
+    "title": "Templat",
+    "subtitle": "Templat prompt ngon meta-tag nyang jeuet geungui lom keu Suno.",
+    "tabs": {
+      "prompts": "Templat prompt",
+      "metatags": "Meta-tanda"
+    },
+    "new_template": "Templat barô .",
+    "kind": {
+      "style": "Gaya",
+      "lyrics": "Lirik Lagu Aceh"
+    },
+    "kind_label": "Get",
+    "delete_confirm_title": "Hapus templat \" {{name}} \"?",
+    "delete_confirm_description": "Nyoe hanjeut ta balek.",
+    "empty": "Belum templat lagi.",
+    "editor": {
+      "title_new": "Templat barô .",
+      "title_edit": "Peugot templat",
+      "name_label": "Nan",
+      "name_placeholder": "miseu jih Balada akustik",
+      "kind_label": "Get",
+      "template_label": "Teks templat",
+      "template_hint": "Tandai dipat tiep-tiep variabel nyan na ngon nan jih nyang dibungkôh lam tanda kurung ganda — miseu jih, saboh variabel nyang nan jih \"genre\" jeuet keu genre nyang dibungkôh lam dua boh tanda kurung pembukaan ngon dua boh tanda kurung penutup.",
+      "variables_label": "Variabel",
+      "variable_add": "Tambah variabel",
+      "variable_name": "Kunci",
+      "variable_label": "Label",
+      "variable_type": "Jeunèh",
+      "variable_type_string": "Teks",
+      "variable_type_select": "Pileh tunggal",
+      "variable_type_multiselect": "Multi-pileh",
+      "variable_type_number": "Angka",
+      "variable_type_boolean": "Jeut/hana",
+      "variable_options": "Opsi (geupisah ngon tanda koma)",
+      "variable_required": "Dipeureulee",
+      "save": "Simpan templat"
+    },
+    "metatags": {
+      "title": "Meta-tanda",
+      "subtitle": "Tag struktural dan gaya Suno geuakui lam lirik.",
+      "new_tag": "Tag baroe .",
+      "tag_label": "Tag",
+      "tag_placeholder": "miseu jih gitar-tunggal",
+      "category_label": "Kategori",
+      "tier_label": "Keandalan",
+      "tier_legend_title": "Legenda keandalan",
+      "tier_legend": {
+        "1": "Tingkat 1 — ka terdokumentasi dan konsisten .",
+        "2": "Tingkat 2 — biasa jih buet .",
+        "3": "Tingkat 3 — efek variabel .",
+        "4": "Tingkat 4 — plasebo, hana terbukti ."
+      },
+      "description_label": "Deskripsi",
+      "delete_confirm_title": "Hapus tag \" {{tag}} \"?",
+      "empty": "Hana meta-tag adat lom."
+    }
+  },
+  "settings": {
+    "title": "Peuatoe",
+    "subtitle": "Informasi sistem, basa, ngon keuheundak default.",
+    "system_info_title": "Sistem",
+    "version": "Versi 1.1.",
+    "data_dir": "Map data",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Na",
+    "ffmpeg_missing": "Hana meuteumeung",
+    "capabilities_title": "Keumampuan nyang ka teupeugot",
+    "capability": {
+      "denoise": "Peukureueng riyoh",
+      "quality": "Peuningkatan mutu",
+      "separate": "Peumisah sumber .",
+      "ffmpeg": "Peuubah FFmpeg"
+    },
+    "capability_available": "Na",
+    "capability_unavailable": "Hana teuseudia",
+    "gpu_title": "Percepatan GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "Penyedia watee meujalan ONNX"
+    },
+    "gpu_none": "Hana penyedia GPU nyang jiteumee",
+    "language_title": "Bahasa",
+    "language": {
+      "pt-BR": "Portugéh (Brasil)",
+      "en": "Aceh"
+    },
+    "theme_title": "Rupa",
+    "theme": {
+      "dark": "Geulap",
+      "light": "Cahya"
+    },
+    "defaults_title": "Ekspor lalai",
+    "lufs_target_label": "Sasaran LUFS .",
+    "lufs_target_hint": "Dipakek seubagoe saran awai watee ekspor takes. Lalai Suno nyan duek bak -14 LUFS.",
+    "saved": "Preferensi ka disimpan"
+  },
+  "guide": {
+    "title": "Panduan rekaman Suno .",
+    "subtitle": "Cara capture suara dan gitar takes yang meurumpok hasil yang paleng get.",
+    "intro": "Suno berprestasi paleng get deungon referensi nyang gleh dan hana ambigu. Panduan nyoe mencakup persiapan, tingkat target, dan naskah rekaman 3-5 minet.",
+    "sections": {
+      "prep": {
+        "title": "Peusiapan",
+        "body": "Catat lam kama nyang dirawat atawa nyang le bahan leumbot (tirai, permadani, bajee lam lemari). Padamkan kipas dan apapun yang menggema. Peusuum su droe 5 minet sigohlom rekaman."
+      },
+      "levels": {
+        "title": "Tingkat: -12 sampoe -6 dBFS",
+        "body": "Tujuan jih puncak antara -12 ngon -6 dBFS bak meter. Di miyup jangkauan nyan, riyoh latar jeuet keu leubeh deuh; di ateuh nyan, resiko kliping naek. Pakèk meter bak laman Rekam keu neu-atur gain droëneuh sigohlom neumulai."
+      },
+      "distance": {
+        "title": "Jarak mikro: 15-30 cm",
+        "body": "Tetap 15 sampoe 30 cm dari mikrofon. Leubeh toe nibak nyan geupeuleubeh-leubeh plosif dan efek proximity; leubeh jioh jicok leubeh le reverb ruangan dan riyoh."
+      },
+      "script": {
+        "title": "Rekaman naskah",
+        "warmup": "Peumanasan vokal (1-2 minet)",
+        "vowels": "Vokal nyang meulanjut — a, e, i, o, u .",
+        "scales": "Timbangan sederhana, ateuh ngon miyueb .",
+        "excerpt": "Saboh peutimang lagu (8 sampoe 16 bar)",
+        "dynamics": "Dinamika: mulai leumoh, akhe kreuh",
+        "spoken_phrase": "Saboh frasa nyang dipeugah, supaya Suno jeut geubaca nada vokal droeneuh"
+      },
+      "expectations": {
+        "title": "Peue nyang geuharapkan le Suno .",
+        "body": "WAV, 48 kHz, mono, tho (hana reverb atawa efek), 3 sampoe 5 minet acuan. Nyang paleng gleh, paleng meuwakili 2 minet dari take biasajih meuhase hasee nyang paleng get."
+      }
+    }
+  },
+  "status": {
+    "idea": "Ide",
+    "em_progresso": "Teungoh berlangsong",
+    "quase": "Rap na .",
+    "pronto": "Siap"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Naskah vokal lengkap keu Suno .",
+      "desc": "5 minet nyang geubimbing: pemanasan, vokal, skala, dua boh peutimang lagu, dinamika, dan saboh frasa nyang geupeugah."
+    },
+    "step": {
+      "warmup": "Peumanasan vokal",
+      "warmup_inst": "Peulonggar ngon kuah, bibi trill (brrr), dan hum lembut seulama kira-kira si minet. Hana peurlee rekam — nyan cuma untuk relaksasi jaroe sigohlom meulagu.",
+      "vowels": "Vokal nyang meulanjut",
+      "vowels_inst": "Peutheun tiep-tiep vokal — a, e, i, o, u — seulama 3 sampoe 4 detik bak nada nyang nyaman, ngon volume nyang teutap. Nyoe meubantu Suno jicok timbre murni su droeneuh.",
+      "scales": "Timbangan ateuh ngon miyueb .",
+      "scales_inst": "Meulagukan skala sederhana ateuh ngen lheuhnyan miyup, bak \"la\" atau \"na\". Hana peureulee sempurna — tujuan jih nakeuh untuk tapeugot peta jangkauan vokal droe.",
+      "section": "Peutimang lagu — bagian 1 .",
+      "section_inst": "Meulagu 8 sampoe 16 bar lagu nyan, ngon niet nyang seubeutoi jih keuneuk peusampoe. Prioritaskan kejelasan ngon kehadiran ateuh kesempurnaan teknis.",
+      "section2": "Peutimang lagu — bagian 2 .",
+      "section2_inst": "Meulagu lom 8 sampoe 16 bar — ideal jih paduan su atawa bagian nyang kontras ngon nyang ka leupah. Leubeh le ragam membantu model meurunoe su droe.",
+      "dynamics": "Dinamika: leumoh → kreuh",
+      "dynamics_inst": "Meulagukan kalimat nyang saban mulai that leumoh dan akhé jih kreuh, hana teugaih jaroe. Nyoe keuh Suno jangkauan dinamis su droeneuh.",
+      "spoken": "Frasa nyang geupeugah",
+      "spoken_inst": "Peugah haba — bek meulagu — saboh kalimat nyang paneuk, alami, lagee teungoh meu-chat. Nyoe jeut keu bantuan Suno untuk geuturi timbre su droeneuh nyang seubeutoi jih."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Peugot lom",
+      "filter": "Peunyaringan",
+      "dynamics": "Dinamika",
+      "separation": "Peumisah",
+      "quality": "Kualitas",
+      "utility": "Kegunaan",
+      "loudness": "Kreuh su"
+    },
+    "highpass": "Saringan lewat tinggi",
+    "lowpass": "Filter lewat rendah",
+    "denoise": "Peukureueng riyoh",
+    "declip": "Meu-ulang",
+    "declick": "Klik/peugadeh pop",
+    "deesser": "Peuhah",
+    "gate": "Geurebang riyoh",
+    "compressor": "Kompresor",
+    "limiter": "Peubatas",
+    "eq": "Peusamaan",
+    "normalize": "Normalisasi puncak",
+    "loudness": "Normalisasi kreuh su (LUFS)",
+    "reverb_reduce": "Peukureueng reverb",
+    "separate": "Peumisah sumber .",
+    "quality": "Peuningkatan mutu (meu-ulang)",
+    "trim_silence": "Peugot seungap",
+    "fade": "Pudar lam / pudar keudeh .",
+    "stereo_to_mono": "Meutuka keu mono .",
+    "resample": "Meucok sampel lom"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Jeut dipeucaya",
+      "2": "Biasa jih buet",
+      "3": "Variabel",
+      "4": "Plasebo"
+    },
+    "category": {
+      "structure": "Struktur",
+      "vocal": "Vokal",
+      "instrument": "Alat",
+      "dynamics": "Dinamika",
+      "production": "Produksi",
+      "mood": "Suasana"
+    },
+    "verse": "Ayat 1 .",
+    "chorus": "Paduan su",
+    "bridge": "Jeumpa",
+    "intro": "Intro",
+    "outro": "Luwa",
+    "hook": "Kait",
+    "prechorus": "Pra-paduan su",
+    "instrumental": "Instrumen",
+    "guitar_solo": "Solo gitar .",
+    "build_up": "Meubangun",
+    "breakdown": "Keurusakan",
+    "spoken_word": "Kata nyang geupeugah",
+    "whispered": "Geubisiek",
+    "harmonies": "Keharmonisan",
+    "male_vocal": "Vokal agam",
+    "female_vocal": "Vokal inong .",
+    "duet": "duet",
+    "acoustic": "Akustik",
+    "ad_lib": "Lib iklan"
+  },
+  "presets": {
+    "clean_voice": "Su gleh",
+    "voice_guitar_balanced": "Su & gitar nyang seimbang .",
+    "podcast": "Podkast",
+    "suno_ready": "Suno siap .",
+    "gentle_restore": "Peupulihkan lembut",
+    "raw_passthrough": "Hana proses"
+  },
+  "errors": {
+    "unknown": "Na nyang salah.",
+    "network": "Hana jeut troh bak server.",
+    "validation_error": "Cek informasi nyang ka neupasoe.",
+    "not_found": "Barang tak ditemukan.",
+    "project_not_found": "Proyek hana meuteumeung.",
+    "take_not_found": "Take hana meuteumeung.",
+    "album_not_found": "Album hana meuteumeung.",
+    "preset_not_found": "Preset hana meuteumeung.",
+    "template_not_found": "Templat hana meuteumeung.",
+    "device_busy": "Alat audio nyan geungui lé program la'én.",
+    "device_not_found": "Alat audio hana meuteumeung.",
+    "already_recording": "Saboh rekaman ka teungoh dipeulaku.",
+    "ffmpeg_missing": "FFmpeg hana jipasang — pasang keu neuubah file nyoe.",
+    "disk_full": "Hana sep teumpat disk.",
+    "permission_denied": "Izin ditulak keu jalan nyang ka geubri.",
+    "import_path_not_found": "Jalur impor hana meuteumeung.",
+    "job_failed": "Peuproses hana meuhasé.",
+    "job_cancelled": "Peuproses ka geubatasi.",
+    "process_failed": "Gagal geuproses take nyan.",
+    "export_failed": "Gagal keu eksport file nyan.",
+    "record_failed": "Gagal mulai rekaman."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Meu antre",
+      "running": "Meujak lari",
+      "done": "Seuleusoe",
+      "error": "Gagal",
+      "cancelled": "Dibatalkan"
+    },
+    "kind": {
+      "process": "Peuproses",
+      "export": "Ekspor",
+      "import": "Impor",
+      "record": "Rekaman"
+    }
+  }
+}

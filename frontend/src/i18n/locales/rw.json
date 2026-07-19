@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Isuku ry'amajwi"
+  },
+  "nav": {
+    "library": "Isomero",
+    "record": "Andika",
+    "import": "Kuzana ibicuruzwa",
+    "templates": "Inyandikorugero",
+    "settings": "Igenamiterere",
+    "guide": "Ubuyobozi"
+  },
+  "common": {
+    "save": "Bika",
+    "saving": "Kuzigama…",
+    "saved": "Yakijijwe",
+    "cancel": "Kureka",
+    "close": "Funga",
+    "delete": "Siba",
+    "edit": "Hindura",
+    "create": "Kurema",
+    "search": "Shakisha",
+    "loading": "Kuremera…",
+    "error": "Ikosa",
+    "retry": "Ongera ugerageze",
+    "confirm": "Emeza",
+    "back": "Inyuma",
+    "next": "Ibikurikira",
+    "continue": "Komeza",
+    "finish": "Kurangiza",
+    "copy": "Gukoporora",
+    "copied": "Yandukuwe",
+    "download": "Kuramo",
+    "upload": "Kuramo",
+    "none": "Nta na kimwe",
+    "all": "Byose",
+    "yes": "Yego",
+    "no": "Oya",
+    "select": "Hitamo",
+    "optional": "bidashoboka",
+    "required": "bisabwa",
+    "unsaved_changes": "Impinduka zidakijijwe",
+    "name": "Izina",
+    "status": "Imiterere",
+    "type": "Andika",
+    "actions": "Ibikorwa",
+    "empty": "Ubusa",
+    "browse": "Gushakisha",
+    "remove": "Kuraho",
+    "add": "Ongeraho",
+    "rename": "Hindura izina",
+    "duplicate": "Kwigana",
+    "warning": "Iburira",
+    "locked": "Ifunze",
+    "builtin": "Yubatswe",
+    "custom": "Custom",
+    "untitled": "Amazina",
+    "select_placeholder": "Hitamo…"
+  },
+  "library": {
+    "title": "Isomero",
+    "subtitle": "Ijwi ryawe na gitari imishinga, kuva mubitekerezo kugeza kurekura.",
+    "new_project": "Umushinga mushya",
+    "new_album": "Album nshya",
+    "search_placeholder": "Shakisha izina…",
+    "view": {
+      "grid": "Grid",
+      "albums": "Album"
+    },
+    "filters": {
+      "all": "Byose"
+    },
+    "take_count_one": " {{count}} gufata",
+    "take_count_other": " {{count}} ifata",
+    "updated_at": "Yavuguruwe {{date}} ",
+    "no_results": {
+      "title": "Nta mushinga wabonetse",
+      "description": "Gerageza guhindura ishakisha cyangwa imiterere muyunguruzi."
+    },
+    "empty": {
+      "title": "Isomero ryawe ni ubusa",
+      "description": "Tangira umushinga mushya guhera, cyangwa gutumiza bigutwara usanzwe ufite kuri disiki.",
+      "cta_import": "Kuzana mububiko",
+      "cta_new": "Kora umushinga"
+    },
+    "project_dialog": {
+      "title": "Umushinga mushya",
+      "description": "Uhe izina uhitemo uburyo bwo gufata amajwi.",
+      "name_label": "Izina ry'umushinga",
+      "name_placeholder": "urugero Imvura yo mu mpeshyi",
+      "mode_label": "Uburyo",
+      "mode": {
+        "voice": "Ijwi gusa",
+        "voice_guitar": "Ijwi + gitari"
+      },
+      "submit": "Kora umushinga"
+    },
+    "album_dialog": {
+      "title": "Album nshya",
+      "description": "Itsinda rijyanye nimishinga muri alubumu.",
+      "name_label": "Izina rya Album",
+      "name_placeholder": "urugero Impeshyi EP",
+      "submit": "Kora alubumu"
+    },
+    "album": {
+      "untitled": "Album idafite izina",
+      "members_count_one": " {{count}} umushinga",
+      "members_count_other": " {{count}} imishinga",
+      "empty": "Nta mushinga uri muri iyi alubumu.",
+      "delete_confirm_title": "Gusiba alubumu?",
+      "delete_confirm_description": "Imishinga ntizasibwa, gusa idacometse kuri \"{{name}}\"."
+    },
+    "delete_project": {
+      "confirm_title": "Gusiba \"{{name}}\"?",
+      "confirm_description": "Ibi bikuraho umushinga na buriwufata. Ibi ntibishobora gusubirwaho."
+    }
+  },
+  "record": {
+    "title": "Andika",
+    "subtitle": "Fata gufata neza, reba urwego rwawe, hanyuma ukurikize inyandiko.",
+    "project_label": "Umushinga",
+    "project_placeholder": "Hitamo umushinga",
+    "project_create_quick": "Kora umushinga wihuse…",
+    "device_label": "Igikoresho cyinjiza",
+    "device_placeholder": "Hitamo igikoresho",
+    "device_default_badge": "Sisitemu isanzwe",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Nta bikoresho byinjira byabonetse.",
+    "monitor_button": "Gukurikirana",
+    "monitor_stop_button": "Hagarika gukurikirana",
+    "record_button": "Andika",
+    "stop_button": "Hagarara",
+    "elapsed_label": "Igihe cyashize",
+    "status": {
+      "idle": "Ubusa",
+      "monitoring": "Gukurikirana",
+      "recording": "Gufata amajwi",
+      "stopped": "Yahagaritswe"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Impinga",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Isomo riyobowe",
+      "subtitle": "Reka umutoza akunyuze mubyanditswe intambwe ku yindi, kuva ususurutse kugeza ku nteruro yavuzwe.",
+      "loading": "Gupakira inyandiko…",
+      "unavailable": "Isomo riyobowe ntiriboneka kuri seriveri.",
+      "select_project_device": "Hitamo umushinga nigikoresho cyo kwinjiza kugirango wandike intambwe uhereye hano.",
+      "progress": " {{done}} ya {{total}} intambwe",
+      "start_timer": "Tangira igihe",
+      "skip_timer": "Simbuka igihe",
+      "record_step": "Andika iyi ntambwe",
+      "stop_step": "Hagarika gufata amajwi",
+      "mark_done": "Byakozwe - intambwe ikurikira",
+      "step_recorded": "Fata amajwi",
+      "no_record_step": "Intambwe yo gushyushya - nta majwi akenewe.",
+      "bars_hint": "Hafi ya {{bars}}",
+      "complete_title": "Inyandiko yuzuye!",
+      "complete_body": "Wanditse buri ntambwe yinyandiko. Subira kumurongo wamajwi yumushinga hanyuma uhitemo ibyo ukunda.",
+      "restart": "Ongera utangire inyandiko"
+    },
+    "best2min": {
+      "button": "Shakisha iminota 2 myiza (Suno)",
+      "running": "Gusesengura gufata…",
+      "score_label": "Amanota",
+      "hint": "Koresha imbaraga no gusesengura neza kuri byose kugirango ubone idirishya rikomeye ryiminota 2 - urashobora guhindura intera ukoresheje intoki nyuma.",
+      "chart_caption": "Amanota kuri idirishya",
+      "unavailable": "Isesengura ryiza-iminota 2 ntabwo iraboneka kuriyi seriveri."
+    },
+    "takes_title": "Ifata muri iki cyiciro",
+    "takes_empty": "Oya gufata ibyanditswe muriki cyiciro.",
+    "open_in_project": "Fungura umushinga",
+    "ws_disconnected": "Kwihuza kurwego rwa metero…",
+    "select_project_first": "Hitamo umushinga wo gutangira.",
+    "select_device_first": "Hitamo igikoresho cyinjiza."
+  },
+  "project": {
+    "back_to_library": "Subira mu isomero",
+    "header": {
+      "status_label": "Imiterere",
+      "cover_upload": "Kuramo igifuniko",
+      "cover_remove": "Kuraho igifuniko",
+      "name_placeholder": "Izina ry'umushinga",
+      "links_title": "Ihuza",
+      "add_link": "Ongeraho umurongo",
+      "mode": {
+        "voice": "Ijwi gusa",
+        "voice_guitar": "Ijwi + gitari"
+      }
+    },
+    "tabs": {
+      "audio": "Ijwi",
+      "lyrics": "Lyrics",
+      "prompts": "Ibisobanuro",
+      "notes": "Inyandiko"
+    },
+    "audio": {
+      "takes_title": "Ifata",
+      "no_takes": {
+        "title": "Oya",
+        "description": "Andika ikintu gishya cyangwa winjize dosiye ihari."
+      },
+      "record_new": "Andika ikintu gishya",
+      "rating": "Urutonde",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Byatunganijwe"
+      },
+      "variant_placeholder": "Inyandiko",
+      "process_button": "Inzira",
+      "export_button": "Kohereza hanze",
+      "delete_take_confirm_title": "Gusiba iyi gufata?",
+      "delete_take_confirm_description": "Amajwi mbisi na verisiyo yatunganijwe yose azavaho.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Yatunganijwe"
+      },
+      "origin": {
+        "recorded": "Byanditswe",
+        "imported": "Bitumizwa mu mahanga"
+      },
+      "session_label_placeholder": "Ikirango cy'isomo (bidashoboka)",
+      "duration": "Ikiringo",
+      "sample_rate": "Igipimo cy'icyitegererezo",
+      "channels": "Imiyoboro",
+      "created_at": "Byanditswe"
+    },
+    "pipeline": {
+      "title": "Urunigi rwo gutunganya",
+      "preset_label": "Guteganya",
+      "preset_none": "Urunigi rwihariye",
+      "preset_save": "Bika nkuko byateganijwe",
+      "stage_locked": "Ifunze",
+      "stage_requires_extra": "Irasaba inyongera idashyizweho",
+      "process_button": "Gufata inzira",
+      "processing": "Gutunganya…",
+      "job_queued": "Umurongo…",
+      "job_running": "Gutunganya…",
+      "job_done": "Byakozwe",
+      "job_error": "Kunanirwa",
+      "job_cancelled": "Yahagaritswe",
+      "cancel_job": "Kureka",
+      "no_stages": "Nta byiciro bihari."
+    },
+    "export": {
+      "title": "Kwohereza ibicuruzwa hanze",
+      "description": "Tanga dosiye yanyuma uhereye kuri verisiyo yatunganijwe.",
+      "variant_label": "Inyandiko",
+      "format_label": "Imiterere",
+      "preset_label": "Kohereza ibicuruzwa hanze",
+      "range_label": "Urwego",
+      "range_full": "Uburebure bwuzuye",
+      "range_custom": "Urutonde rwumukiriya",
+      "start_label": "Tangira",
+      "end_label": "Impera",
+      "submit": "Kohereza hanze",
+      "progress": "Gutanga dosiye…",
+      "download_ready": "Idosiye iriteguye",
+      "download_button": "Kuramo dosiye"
+    },
+    "notes": {
+      "placeholder": "Inyandiko-yubuntu yerekeye uyu mushinga…",
+      "saved_at": "Yakijijwe kuri {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Andika amagambo hano. Koresha palette kuruhande kugirango ushiremo Suno meta-tags.",
+      "saved_at": "Yakijijwe kuri {{time}} ",
+      "saving": "Kuzigama…",
+      "versions": "Imirongo",
+      "versions_empty": "Nta verisiyo zabitswe kugeza ubu.",
+      "version_preview": "Imbere",
+      "restore": "Kugarura iyi verisiyo",
+      "restore_confirm_title": "Kugarura iyi verisiyo?",
+      "restore_confirm_description": "Inyandiko iriho izasimburwa na verisiyo yabitswe kuri {{date}}.",
+      "metatags_title": "Meta-tags",
+      "metatags_hint": "Kanda tagi kugirango uyinjizemo indanga.",
+      "metatags_placebo_warning": "Bidafite gihamya - birashobora kutagira ingaruka kubisubizo.",
+      "metatags_empty": "Nta meta-tagi yanditse."
+    },
+    "prompts": {
+      "style_title": "Imiterere",
+      "lyrics_title": "Lyrics prompt",
+      "template_label": "Inyandikorugero",
+      "template_none": "Nta nyandikorugero",
+      "variables_title": "Ibihinduka",
+      "preview_title": "Imbere",
+      "preview_empty": "Toranya inyandikorugero hanyuma wuzuze impinduka kugirango ubone ibanziriza.",
+      "char_count": " {{count}} inyuguti",
+      "char_count_warning": "Imiterere isaba inyuguti zirenga 1000 zishobora kugabanywa na Suno.",
+      "copy": "Gukoporora",
+      "copied": "Yandukuwe kuri clip clip",
+      "save_to_project": "Bika umushinga",
+      "saved_to_project": "Byihuse wabitswe kumushinga",
+      "history_title": "Amateka",
+      "history_empty": "Nta verisiyo zabanjirije iyi.",
+      "current_label": "Ibiriho"
+    },
+    "stems": {
+      "title": "Amajwi na gitari",
+      "separate_button": "Gutandukanya amajwi na gitari",
+      "running": "Gutandukana…",
+      "vocals": "Amajwi",
+      "instrumental": "Igikoresho",
+      "process_stem": "Tunganya iki giti",
+      "empty": "Iyi gufata ntiratandukana. Koresha gutandukana kugirango wumve amajwi na gitari mu bwigunge.",
+      "capability_missing": "Gutandukanya inkomoko ntabwo byashyizwe kuriyi seriveri.",
+      "unavailable": "Gutandukanya amajwi / gitari ntibishoboka kuri iyi seriveri."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Kuri",
+    "boolean_off": "Hanze"
+  },
+  "import": {
+    "title": "Kuzana ibicuruzwa",
+    "subtitle": "Zana imishinga isanzweho kuri disiki mubitabo.",
+    "step_indicator": "Intambwe {{current}} ya {{total}} ",
+    "step1": {
+      "title": "Shakisha ububiko",
+      "description": "Erekana imizi yububiko hamwe nimishinga yawe.",
+      "path_label": "Inzira y'ububiko",
+      "path_placeholder": "urugero E: \\ Ibisambo \\ Ishema \\ Umuziki \\ ROBBS",
+      "recent_label": "Vuba",
+      "scan_button": "Sikana ububiko",
+      "scanning": "Gusikana…",
+      "ffmpeg_warning": "FFmpeg ntabwo yabonetse - dosiye zikeneye guhinduka zizasimbuka.",
+      "folders_found_one": "{{count}} folder found",
+      "folders_found_other": "{{count}} folders found",
+      "unmatched_files_one": " {{count}} dosiye itamenyekanye",
+      "unmatched_files_other": " {{count}} dosiye zitamenyekanye"
+    },
+    "step2": {
+      "title": "Subiramo ibintu",
+      "description": "Reba amazina, statuts, nibizatumizwa hanze mbere yo kubyemeza.",
+      "select_all": "Hitamo byose",
+      "table": {
+        "folder": "Ububiko",
+        "name": "Izina ry'umushinga",
+        "status": "Imiterere",
+        "audio": "Ijwi",
+        "lyrics": "Lyrics",
+        "cover": "Igipfukisho",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} dosiye yatoranijwe",
+      "audio_include_other": " {{count}} dosiye zatoranijwe",
+      "no_audio": "Nta majwi yabonetse",
+      "no_lyrics": "Nta magambo yabonetse",
+      "no_cover": "Nta gipfukisho",
+      "warnings_title": "Umuburo"
+    },
+    "step3": {
+      "title": "Kuzana ibicuruzwa",
+      "description": "Emeza gukoporora dosiye no gukora imishinga.",
+      "copy_originals": "Gukoporora dosiye yumwimerere mubitabo",
+      "execute_button": "Tangira kwinjiza",
+      "progress_title": "Kuzana…",
+      "created_count": "Byakozwe: {{count}} ",
+      "skipped_count": "Yasimbutse: {{count}} ",
+      "done_title": "Kuzana byuzuye",
+      "done_description": "Imishinga ikurikira yarakozwe mubitabo byawe.",
+      "view_project": "Fungura umushinga",
+      "start_over": "Ibicuruzwa bishya"
+    }
+  },
+  "templates": {
+    "title": "Inyandikorugero",
+    "subtitle": "Kongera gukoresha inyandikorugero na meta-tags ya Suno.",
+    "tabs": {
+      "prompts": "Inyandikorugero",
+      "metatags": "Meta-tags"
+    },
+    "new_template": "Inyandikorugero nshya",
+    "kind": {
+      "style": "Imiterere",
+      "lyrics": "Lyrics"
+    },
+    "kind_label": "Ineza",
+    "delete_confirm_title": "Gusiba inyandikorugero \"{{name}}\"?",
+    "delete_confirm_description": "Ibi ntibishobora gusubirwaho.",
+    "empty": "Nta nyandikorugero.",
+    "editor": {
+      "title_new": "Inyandikorugero nshya",
+      "title_edit": "Hindura inyandikorugero",
+      "name_label": "Izina",
+      "name_placeholder": "urugero Ballad",
+      "kind_label": "Ineza",
+      "template_label": "Inyandiko yerekana",
+      "template_hint": "Shyira akamenyetso aho buri gihindagurika kigizwe nizina ryacyo ryiziritse muburyo bubiri - urugero, impinduka yitwa \"genre\" ihinduka ubwoko bwiziritse mubice bibiri bifungura nibice bibiri bifunga.",
+      "variables_label": "Ibihinduka",
+      "variable_add": "Ongeraho impinduka",
+      "variable_name": "Urufunguzo",
+      "variable_label": "Ikirango",
+      "variable_type": "Andika",
+      "variable_type_string": "Inyandiko",
+      "variable_type_select": "Hitamo kimwe",
+      "variable_type_multiselect": "Guhitamo byinshi",
+      "variable_type_number": "Umubare",
+      "variable_type_boolean": "Yego / oya",
+      "variable_options": "Amahitamo (koma yatandukanijwe)",
+      "variable_required": "Birasabwa",
+      "save": "Bika inyandikorugero"
+    },
+    "metatags": {
+      "title": "Meta-tags",
+      "subtitle": "Imiterere nuburyo biranga Suno amenya imbere mumagambo.",
+      "new_tag": "Ikimenyetso gishya",
+      "tag_label": "Tag",
+      "tag_placeholder": "urugero gitari-solo",
+      "category_label": "Icyiciro",
+      "tier_label": "Kwizerwa",
+      "tier_legend_title": "Umugani wo kwizerwa",
+      "tier_legend": {
+        "1": "Icyiciro cya 1 - cyanditse kandi gihamye",
+        "2": "Icyiciro cya 2 - mubisanzwe birakora",
+        "3": "Icyiciro cya 3 - ingaruka zihinduka",
+        "4": "Icyiciro cya 4 - umwanya, udafite gihamya"
+      },
+      "description_label": "Ibisobanuro",
+      "delete_confirm_title": "Gusiba tagi \"{{tag}}\"?",
+      "empty": "Nta meta-tagi yihariye."
+    }
+  },
+  "settings": {
+    "title": "Igenamiterere",
+    "subtitle": "Sisitemu amakuru, ururimi, nibisanzwe ukunda.",
+    "system_info_title": "Sisitemu",
+    "version": "Inyandiko",
+    "data_dir": "Ububiko bwamakuru",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Birashoboka",
+    "ffmpeg_missing": "Ntibabonetse",
+    "capabilities_title": "Ubushobozi bwashyizweho",
+    "capability": {
+      "denoise": "Kugabanya urusaku",
+      "quality": "Kuzamura ubuziranenge",
+      "separate": "Gutandukanya inkomoko",
+      "ffmpeg": "Guhindura FFmpeg"
+    },
+    "capability_available": "Birashoboka",
+    "capability_unavailable": "Ntibishoboka",
+    "gpu_title": "Kwihuta kwa GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Abatanga igihe"
+    },
+    "gpu_none": "Nta mutanga wa GPU wagaragaye",
+    "language_title": "Ururimi",
+    "language": {
+      "pt-BR": "Português (Brasil)",
+      "en": "Icyongereza"
+    },
+    "theme_title": "Kugaragara",
+    "theme": {
+      "dark": "Umwijima",
+      "light": "Umucyo"
+    },
+    "defaults_title": "Kohereza ibicuruzwa hanze",
+    "lufs_target_label": "Intego LUFS",
+    "lufs_target_hint": "Byakoreshejwe nkigitekerezo cyo gutangira mugihe cyohereza hanze bifata. Ubusanzwe Suno yicaye hafi -14 LUFS.",
+    "saved": "Ibyifuzo byakijijwe"
+  },
+  "guide": {
+    "title": "Igitabo cyo gufata amajwi ya Suno",
+    "subtitle": "Nigute ushobora gufata amajwi na gitari bifata ibisubizo byiza.",
+    "intro": "Suno akora neza hamwe nibisobanuro bisobanutse, bidasobanutse. Aka gatabo gakubiyemo imyiteguro, urwego rwerekanwe, hamwe niminota 3-5 yo gufata amajwi.",
+    "sections": {
+      "prep": {
+        "title": "Kwitegura",
+        "body": "Andika mucyumba cyavuwe cyangwa kimwe gifite ibikoresho byinshi byoroshye (umwenda, ibitambaro, imyenda mu kabati). Zimya abafana nibintu byose bisetsa. Shyushya ijwi mu minota 5 mbere yo gufata amajwi."
+      },
+      "levels": {
+        "title": "Urwego: -12 kugeza -6 dBFS",
+        "body": "Intego yimpinga hagati ya -12 na -6 dBFS kuri metero. Munsi yurwo rwego, urusaku rwinyuma ruragaragara cyane; hejuru yacyo, gukuramo ibyago biriyongera. Koresha metero kurupapuro rwanditse kugirango ushireho inyungu mbere yuko utangira."
+      },
+      "distance": {
+        "title": "Intera nto: cm 15-30",
+        "body": "Gumana cm 15 kugeza 30 kuri mikoro. Hafi yibyo gukabiriza plosives ningaruka zegeranye; kure cyane itora ibyumba byinshi reverb n urusaku."
+      },
+      "script": {
+        "title": "Kwandika",
+        "warmup": "Gushyushya amajwi (iminota 1-2)",
+        "vowels": "Inyajwi zirambye - a, e, i, o, u",
+        "scales": "Umunzani woroshye, hejuru no hepfo",
+        "excerpt": "Igice cy'indirimbo (8 kugeza 16)",
+        "dynamics": "Ibikorwa: tangira byoroshye, urangize cyane",
+        "spoken_phrase": "Imvugo imwe ivugwa, kugirango Suno asome amajwi yawe"
+      },
+      "expectations": {
+        "title": "Ibyo Suno yiteze",
+        "body": "WAV, 48 kHz, mono, yumye (nta reverb cyangwa ingaruka), iminota 3 kugeza kuri 5 yerekana. Isuku, ihagarariwe cyane iminota 2 yo gufata mubisanzwe itanga ibisubizo byiza."
+      }
+    }
+  },
+  "status": {
+    "idea": "Igitekerezo",
+    "em_progresso": "Birakomeje",
+    "quase": "Hafi aho",
+    "pronto": "Witegure"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Inyandiko yuzuye yijwi rya Suno",
+      "desc": "Iminota 5 iyobowe: gushyushya, inyajwi, umunzani, ibice bibiri byindirimbo, imbaraga, ninteruro ivugwa."
+    },
+    "step": {
+      "warmup": "Gushyushya amajwi",
+      "warmup_inst": "Irekure ukoresheje yawns, iminwa (brrr), hamwe na hum yoroshye muminota. Ntibikenewe ko wandika - ni ukuruhura umuhogo mbere yo kuririmba.",
+      "vowels": "Inyajwi zirambye",
+      "vowels_inst": "Fata inyajwi - a, e, i, o, u - amasegonda 3 kugeza kuri 4 mukibuga cyawe cyiza, hamwe nijwi rihamye. Ibi bifasha Suno gufata timbre nziza yijwi ryawe.",
+      "scales": "Umunzani hejuru no hepfo",
+      "scales_inst": "Muririmbe igipimo cyoroshye hejuru hanyuma hasi, kuri \"la\" cyangwa \"na\". Ntabwo bigomba kuba bitunganye - intego ni ugushushanya amajwi yawe.",
+      "section": "Igice cy'indirimbo - igice cya 1",
+      "section_inst": "Ririmbe utubari 8 kugeza 16 twindirimbo, ufite intego nyayo ushaka gutanga. Shyira imbere gusobanuka no kuboneka hejuru yubuhanga.",
+      "section2": "Igice cy'indirimbo - igice cya 2",
+      "section2_inst": "Muririmbe utundi tubari 8 kugeza 16 - nibyiza korari cyangwa igice gitandukanye nicyambere. Ubwoko butandukanye bufasha icyitegererezo kwiga ijwi ryawe.",
+      "dynamics": "Ibikorwa: byoroshye → hejuru",
+      "dynamics_inst": "Muririmbe interuro imwe itangira yoroshye cyane kandi irangira cyane, utiriwe unanura umuhogo. Ibi byerekana Suno ijwi ryawe rifite imbaraga.",
+      "spoken": "Imvugo",
+      "spoken_inst": "Vuga - nturirimbe - interuro ngufi, karemano, nkaho muganira. Ibi bifasha Suno kumenya timbre nyayo yijwi ryawe."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Kugarura",
+      "filter": "Muyunguruzi",
+      "dynamics": "Imbaraga",
+      "separation": "Gutandukana",
+      "quality": "Ubwiza",
+      "utility": "Akamaro",
+      "loudness": "Indangururamajwi"
+    },
+    "highpass": "Akayunguruzo-hejuru",
+    "lowpass": "Akayunguruzo gato",
+    "denoise": "Kugabanya urusaku",
+    "declip": "Kugabanuka",
+    "declick": "Kanda / gukuramo pop",
+    "deesser": "De-esser",
+    "gate": "Irembo ry'urusaku",
+    "compressor": "Compressor",
+    "limiter": "Imipaka",
+    "eq": "Kuringaniza",
+    "normalize": "Ubusanzwe",
+    "loudness": "Kurangurura amajwi (LUFS)",
+    "reverb_reduce": "Kugabanuka",
+    "separate": "Gutandukanya inkomoko",
+    "quality": "Kuzamura ubuziranenge (upscale)",
+    "trim_silence": "Guceceka",
+    "fade": "Kugabanuka / gushira",
+    "stereo_to_mono": "Hindura mono",
+    "resample": "Gusubiramo"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Yizewe",
+      "2": "Mubisanzwe birakora",
+      "3": "Birahinduka",
+      "4": "Umwanya"
+    },
+    "category": {
+      "structure": "Imiterere",
+      "vocal": "Ijwi",
+      "instrument": "Igikoresho",
+      "dynamics": "Imbaraga",
+      "production": "Umusaruro",
+      "mood": "Imyitwarire"
+    },
+    "verse": "Umurongo",
+    "chorus": "Chorus",
+    "bridge": "Ikiraro",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Inkoni",
+    "prechorus": "Imbere ya korari",
+    "instrumental": "Igikoresho",
+    "guitar_solo": "Guitar solo",
+    "build_up": "Kwubaka",
+    "breakdown": "Gusenyuka",
+    "spoken_word": "Ijambo ryavuzwe",
+    "whispered": "Aceceka",
+    "harmonies": "Harmonies",
+    "male_vocal": "Ijwi ry'abagabo",
+    "female_vocal": "Ijwi ry'umugore",
+    "duet": "Duet",
+    "acoustic": "Acoustic",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Ijwi risukuye",
+    "voice_guitar_balanced": "Ijwi ryuzuye & gitari",
+    "podcast": "Podcast",
+    "suno_ready": "Suno yiteguye",
+    "gentle_restore": "Kugarura witonze",
+    "raw_passthrough": "Nta gutunganya"
+  },
+  "errors": {
+    "unknown": "Ikintu kitagenze neza.",
+    "network": "Ntushobora kugera kuri seriveri.",
+    "validation_error": "Reba amakuru winjiye.",
+    "not_found": "Ikintu nticyabonetse.",
+    "project_not_found": "Umushinga ntiwabonetse.",
+    "take_not_found": "Ntubone.",
+    "album_not_found": "Album ntabwo yabonetse.",
+    "preset_not_found": "Byateganijwe mbere.",
+    "template_not_found": "Inyandikorugero ntabwo yabonetse.",
+    "device_busy": "Igikoresho cyamajwi kirimo gukoreshwa nindi gahunda.",
+    "device_not_found": "Igikoresho cyamajwi nticyabonetse.",
+    "already_recording": "Gufata amajwi bimaze gukorwa.",
+    "ffmpeg_missing": "FFmpeg ntabwo yashyizweho - shyiramo kugirango uhindure iyi dosiye.",
+    "disk_full": "Ntabwo umwanya uhagije wa disiki.",
+    "permission_denied": "Uruhushya rwanze inzira yatanzwe.",
+    "import_path_not_found": "Kuzana inzira itabonetse.",
+    "job_failed": "Gutunganya byarananiranye.",
+    "job_cancelled": "Gutunganya byahagaritswe.",
+    "process_failed": "Kunanirwa gutunganya gufata.",
+    "export_failed": "Kunanirwa kohereza dosiye.",
+    "record_failed": "Kunanirwa gutangira gufata amajwi."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Umurongo",
+      "running": "Kwiruka",
+      "done": "Byakozwe",
+      "error": "Kunanirwa",
+      "cancelled": "Yahagaritswe"
+    },
+    "kind": {
+      "process": "Gutunganya",
+      "export": "Kohereza hanze",
+      "import": "Kuzana ibicuruzwa",
+      "record": "Gufata amajwi"
+    }
+  }
+}

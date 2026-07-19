@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Czyszczōncy audio"
+  },
+  "nav": {
+    "library": "Bibliōtyka",
+    "record": "Zapisu",
+    "import": "Import",
+    "templates": "Muster",
+    "settings": "Ustawiynia",
+    "guide": "Przewodnik"
+  },
+  "common": {
+    "save": "Zapisz",
+    "saving": "Zachowowanie...",
+    "saved": "Zachowane",
+    "cancel": "Pociepniyńcie",
+    "close": "Zamknij",
+    "delete": "Usuń",
+    "edit": "Edytuj",
+    "create": "Utworz",
+    "search": "Wyszuk",
+    "loading": "Ładujōm sie...",
+    "error": "Błōnd",
+    "retry": "Prōbuj powtōrz",
+    "confirm": "Potwierdź",
+    "back": "Nazod",
+    "next": "Dalij",
+    "continue": "Kōntynuuj",
+    "finish": "Skōńcz",
+    "copy": "Kopiuj",
+    "copied": "Skopiowane",
+    "download": "Pobierz",
+    "upload": "Przesyłać",
+    "none": "Żodne",
+    "all": "Wszyjske",
+    "yes": "Tak",
+    "no": "Niy",
+    "select": "Wybierz",
+    "optional": "ôpcjōnalnie",
+    "required": "wymogane",
+    "unsaved_changes": "Niyzapisane zmiany",
+    "name": "Miano",
+    "status": "Status",
+    "type": "Typ",
+    "actions": "Akcyje",
+    "empty": "Prōzne",
+    "browse": "Przeglōnuj",
+    "remove": "Usuń",
+    "add": "Przidej",
+    "rename": "Pōmiyń miano",
+    "duplicate": "Duplikat",
+    "warning": "Ôstrzeżynie",
+    "locked": "Zamykane",
+    "builtin": "Wbudowane",
+    "custom": "Niysztandardowe",
+    "untitled": "Bez tytułu",
+    "select_placeholder": "Wybierz..."
+  },
+  "library": {
+    "title": "Bibliōtyka",
+    "subtitle": "Twoje projekty głosu i gitary, ôd idyje do wydanio.",
+    "new_project": "Nowy projekt",
+    "new_album": "Nowy album",
+    "search_placeholder": "Szukaj po mianie...",
+    "view": {
+      "grid": "Nec",
+      "albums": "Albumy"
+    },
+    "filters": {
+      "all": "Wszyjske"
+    },
+    "take_count_one": " {{count}} weź",
+    "take_count_other": " {{count}} trwo",
+    "updated_at": "Zaktualizowane {{date}} ",
+    "no_results": {
+      "title": "Niy znojdziōno projektōw",
+      "description": "Sprōbuj sprowić filtr wyszukowanio abo stanu."
+    },
+    "empty": {
+      "title": "Twoja bibliotyka je prōżno",
+      "description": "Zacznij nowy projekt ôd zaczōntku abo importuj ôbiōry, kere już masz na dysku.",
+      "cta_import": "Import z katalogu",
+      "cta_new": "Utworz projekt"
+    },
+    "project_dialog": {
+      "title": "Nowy projekt",
+      "description": "Nadaj mu miano i ôbiyrz tryb nagrowanio.",
+      "name_label": "Miano projektu",
+      "name_placeholder": "bp. Letni dyszcz",
+      "mode_label": "Tryb",
+      "mode": {
+        "voice": "Ino głos",
+        "voice_guitar": "Głos + gitara"
+      },
+      "submit": "Utworz projekt"
+    },
+    "album_dialog": {
+      "title": "Nowy album",
+      "description": "Zgrupować pokrewne projekty w albumie.",
+      "name_label": "Miano albumu",
+      "name_placeholder": "bp. Jesiynno EP",
+      "submit": "Utworz album"
+    },
+    "album": {
+      "untitled": "Album bez tytułu",
+      "members_count_one": " projekt {{count}}",
+      "members_count_other": " {{count}} projekty",
+      "empty": "Jeszcze niy ma projektōw w tym albumie.",
+      "delete_confirm_title": "Usuń album?",
+      "delete_confirm_description": "Projekty niy bydōm usuwane, ino ôdłōnczōne ôd \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Usuń \" {{name}} \"?",
+      "confirm_description": "To usuwo projekt i kożde jego ujyńcie. To niy może być cofniynte."
+    }
+  },
+  "record": {
+    "title": "Zapisu",
+    "subtitle": "Chwyć czyste ujyńcie, ôglōndaj swoje poziōmy i podōnżaj za scenariuszym.",
+    "project_label": "Projekt",
+    "project_placeholder": "Ôbiyraj projekt",
+    "project_create_quick": "Utworz gibki projekt...",
+    "device_label": "Urzōndzynie wejściowe",
+    "device_placeholder": "Ôbiyraj maszino",
+    "device_default_badge": "Domyślny systym",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Niy znojdziōno maszin wejściowych.",
+    "monitor_button": "Mōnitor",
+    "monitor_stop_button": "Przestań mōnitorowanie",
+    "record_button": "Zapisu",
+    "stop_button": "Stop",
+    "elapsed_label": "Przepłynōny czas",
+    "status": {
+      "idle": "Bezczynny",
+      "monitoring": "Mōnitorowanie",
+      "recording": "Nagranie",
+      "stopped": "Zatrzymany"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Pik",
+      "clip": "Klip"
+    },
+    "guide": {
+      "title": "Sesyjo z przewodaniym",
+      "subtitle": "Niech trener przeprowadzi ci scynariusz krok po kroku, ôd rozgrzewanio do wypowiedzianyj frazy.",
+      "loading": "Władujōm skript...",
+      "unavailable": "Sesjo skerowano niy ma jeszcze dostympno na serwerze.",
+      "select_project_device": "Ôbiyraj projekt i urzōndzynie wejściowe, coby ôd tego miyjsca nagrować kroki.",
+      "progress": " {{done}} z {{total}} krokōw",
+      "start_timer": "Czasownik rozruchu",
+      "skip_timer": "Pōminij czasomierz",
+      "record_step": "Zapisuj tyn krok",
+      "stop_step": "Przestań nagrowanie",
+      "mark_done": "Skōńczōne — dalszy krok",
+      "step_recorded": "Nagrać",
+      "no_record_step": "Krok rozgrzewanio — niy ma potrzeby nagrowanio.",
+      "bars_hint": "Kole {{bars}} barōw",
+      "complete_title": "Scynariusz je kōmpletny!",
+      "complete_body": "Nagrołeś kożdy krok scynariusza. Wrōć sie do karty Audio projektu i wybierz swoje ôblubiōne zdjyńcia.",
+      "restart": "Restartuj skript"
+    },
+    "best2min": {
+      "button": "Znojdź nojlepsze 2 minuty (Suno)",
+      "running": "Analizujōnc ujyńcie...",
+      "score_label": "Wynik",
+      "hint": "Przekludzo analiza ynergije i klarowności bez cołki czas, coby znojś jego nojsilniyjsze 2-minutowe ôkno - potym możesz durch regulować zasiyng ryncznie.",
+      "chart_caption": "Wynik za ôkno",
+      "unavailable": "Analiza nojlepszych 2 minut niy ma jeszcze dostympno na tym serwerze."
+    },
+    "takes_title": "Podjyńcio z tyj sesji",
+    "takes_empty": "W tyj sesji niy było jeszcze nagranych żodnych zdjyńć.",
+    "open_in_project": "Ôtworz w projektie",
+    "ws_disconnected": "Ponowne połōnczynie sie z poziōmmierzōm...",
+    "select_project_first": "Ôbiyraj projekt, coby zaczōńć.",
+    "select_device_first": "Ôbiyraj urzōndzynie wejściowe."
+  },
+  "project": {
+    "back_to_library": "Nazod do bibliotyki",
+    "header": {
+      "status_label": "Status",
+      "cover_upload": "Przesyłaj ôbłoczka",
+      "cover_remove": "Wyjmniyj pokrywka",
+      "name_placeholder": "Miano projektu",
+      "links_title": "Ôdnośniki",
+      "add_link": "Przidej link",
+      "mode": {
+        "voice": "Ino głos",
+        "voice_guitar": "Głos + gitara"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Teksty",
+      "prompts": "Prośby",
+      "notes": "Nopomniynia"
+    },
+    "audio": {
+      "takes_title": "Biere",
+      "no_takes": {
+        "title": "Jeszcze brak zdjyńć",
+        "description": "Napij nowe zdjyńcie abo importuj istniyjōncy plik."
+      },
+      "record_new": "Nagrań nowe ujyncie",
+      "rating": "Ôcyna",
+      "variant": {
+        "raw": "Syrowe",
+        "processed": "Przetworzōne"
+      },
+      "variant_placeholder": "Wersja",
+      "process_button": "Proces",
+      "export_button": "Eksport",
+      "delete_take_confirm_title": "Usuń to zdjyńcie?",
+      "delete_take_confirm_description": "Surowe audio i kożdo przetworzōno wersyjo bydōm usuniynte.",
+      "ab": {
+        "raw": "A · Syrowe",
+        "processed": "B · Przetworzōne"
+      },
+      "origin": {
+        "recorded": "Nagrane",
+        "imported": "Importowane"
+      },
+      "session_label_placeholder": "Etyketa sesji (ôpcjōnalnie)",
+      "duration": "Czas trwanio",
+      "sample_rate": "Prōbkowanie",
+      "channels": "Kanały",
+      "created_at": "Nagrane"
+    },
+    "pipeline": {
+      "title": "Lyńcuch przetworzanio",
+      "preset_label": "Preset",
+      "preset_none": "Niysztandardowy lyńcuch",
+      "preset_save": "Zapisz jako preset",
+      "stage_locked": "Zamykane",
+      "stage_requires_extra": "Wymogo ekstra, co niy ma zainstalowany",
+      "process_button": "Przejmniyńcie procesu",
+      "processing": "Przetworzanie...",
+      "job_queued": "W koleji...",
+      "job_running": "Przetworzanie...",
+      "job_done": "Skōńczōne",
+      "job_error": "Niy udało sie",
+      "job_cancelled": "Pociepniynte",
+      "cancel_job": "Pociepniyńcie",
+      "no_stages": "Brak dostympnych etapōw."
+    },
+    "export": {
+      "title": "Eksport",
+      "description": "Wytworz ôstateczny plik z przetworzōnyj wersyje.",
+      "variant_label": "Wersja",
+      "format_label": "Format",
+      "preset_label": "Eksportuj preset",
+      "range_label": "Zasiyng",
+      "range_full": "Połno dugość",
+      "range_custom": "Zasiyng niysztandardowy",
+      "start_label": "Poczōntek",
+      "end_label": "Kōniec(y)",
+      "submit": "Eksport",
+      "progress": "Plik renderowanio...",
+      "download_ready": "Plik gotowy",
+      "download_button": "Pobierz plik"
+    },
+    "notes": {
+      "placeholder": "Notatki we wolnyj formie na tymat tego projektu...",
+      "saved_at": "Zapisane przi {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Pisz tutaj słowa śpiywki. Użyj palety na boku, coby wstawić meta-tagi Suno.",
+      "saved_at": "Zapisane przi {{time}} ",
+      "saving": "Zachowowanie...",
+      "versions": "Wersje",
+      "versions_empty": "Jeszcze niy ma zapisanych wersyji.",
+      "version_preview": "Przedglōnd",
+      "restore": "Prziwrōć ta wersyjo",
+      "restore_confirm_title": "Prziwrōcić ta wersyjo?",
+      "restore_confirm_description": "Teroźny tekst bydzie zastōmpiōny wersyjōm zapisanōm na {{date}} .",
+      "metatags_title": "Meta-tagi",
+      "metatags_hint": "Kliknij na tag, coby go wstawić przi kursorze.",
+      "metatags_placebo_warning": "Niydowiedziōne — może niy mieć żodnego wpływu na wynik.",
+      "metatags_empty": "Brak zaregistrowanych meta-tagōw."
+    },
+    "prompts": {
+      "style_title": "Prośba ô stylu",
+      "lyrics_title": "Prośba ô słowach",
+      "template_label": "Muster",
+      "template_none": "Brak mustra",
+      "variables_title": "Zmiynne",
+      "preview_title": "Przedglōnd",
+      "preview_empty": "Wybierz muster i wypołnij zmiynne, coby zoboczyć przedglōnd.",
+      "char_count": " {{count}} znakōw",
+      "char_count_warning": "Prośby ô stylu bez 1000 znakōw mogōm być ôbciynte bez Suno.",
+      "copy": "Kopiuj",
+      "copied": "Skopiowane do schōnku",
+      "save_to_project": "Zapisz do projektu",
+      "saved_to_project": "Prośba zapisany do projektu",
+      "history_title": "Historyjo",
+      "history_empty": "Brak piyrwyjszych wersyjōw.",
+      "current_label": "Teroźny"
+    },
+    "stems": {
+      "title": "Wokal i gitara",
+      "separate_button": "Ôsobny wokal i gitara",
+      "running": "Rozdzielanie...",
+      "vocals": "Wokal",
+      "instrumental": "Insztrumyntalny",
+      "process_stem": "Przetworz tyn sztyngel",
+      "empty": "To ujyńcie niy było jeszcze rozdzielōne. Bierz separacyjo, coby usłyszeć wokal i gitara we izolacyji.",
+      "capability_missing": "Rozdzielynie zdrzōdeł niy ma zainstalowane na tym serwerze.",
+      "unavailable": "Separacyjo wokal/gitara niy ma jeszcze dostympno na tym serwerze."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Włōnczōne",
+    "boolean_off": "Wyłōnczōne"
+  },
+  "import": {
+    "title": "Import",
+    "subtitle": "Przinoś projekty, co już sōm na dysku, do bibliotyki.",
+    "step_indicator": "Krok {{current}} z {{total}} ",
+    "step1": {
+      "title": "Znojdź folder",
+      "description": "Skozuj na folder root ze swojimi projektami i szlakami.",
+      "path_label": "Szlaka folderu",
+      "path_placeholder": "bp. E:\\Robbs\\Duma\\Muzyka\\ROBBS",
+      "recent_label": "Ôstatnie",
+      "scan_button": "Skanuj folder",
+      "scanning": "Skanowanie...",
+      "ffmpeg_warning": "FFmpeg niy znojdziōny — pliki, co potrzebujōm kōnwersyje, bydōm pōminiynte.",
+      "folders_found_one": " Znojdziōno folder {{count}}",
+      "folders_found_other": " Znojdziōno folderōw {{count}}",
+      "unmatched_files_one": " {{count}} niyrozpoznany plik",
+      "unmatched_files_other": " {{count}} niyrozpoznane pliki"
+    },
+    "step2": {
+      "title": "Elementy przeglōndu",
+      "description": "Przed potwierdzyniym sprawdź miana, statusy i co bydzie importowane.",
+      "select_all": "Wybierz wszyske",
+      "table": {
+        "folder": "Folder zdrzōdłowy",
+        "name": "Miano projektu",
+        "status": "Status",
+        "audio": "Audio",
+        "lyrics": "Teksty",
+        "cover": "Ôkrywka",
+        "album": "Album"
+      },
+      "audio_include_one": " Wybrany plik {{count}}",
+      "audio_include_other": " {{count}} wybranych plikōw",
+      "no_audio": "Niy znojdziōno audio",
+      "no_lyrics": "Niy znojdziōno słōw",
+      "no_cover": "Brak ôkrywki",
+      "warnings_title": "Ôstrzeżynia"
+    },
+    "step3": {
+      "title": "Import",
+      "description": "Potwierdź, coby skopiować pliki i stworzić projekty.",
+      "copy_originals": "Skopiuj ôryginalne pliki do bibliotyki",
+      "execute_button": "Zacznij import",
+      "progress_title": "Importuje...",
+      "created_count": "Stworzōne: {{count}} ",
+      "skipped_count": "Pōmiynte: {{count}} ",
+      "done_title": "Import je kōmpletny",
+      "done_description": "Pōniższe projekty były stworzōne we twojij bibliotyce.",
+      "view_project": "Ôtwarty projekt",
+      "start_over": "Nowy import"
+    }
+  },
+  "templates": {
+    "title": "Muster",
+    "subtitle": "Wilokrotnie używane muster promptōw i meta-tagi do Suno.",
+    "tabs": {
+      "prompts": "Mustery zapytań",
+      "metatags": "Meta-tagi"
+    },
+    "new_template": "Nowy muster",
+    "kind": {
+      "style": "Styl",
+      "lyrics": "Teksty"
+    },
+    "kind_label": "Życzny",
+    "delete_confirm_title": "Usuń muster \" {{name}} \"?",
+    "delete_confirm_description": "To niy może być cofniynte.",
+    "empty": "Jeszcze niy ma mustrōw.",
+    "editor": {
+      "title_new": "Nowy muster",
+      "title_edit": "Edytuj muster",
+      "name_label": "Miano",
+      "name_placeholder": "bp. Balada akustyczno",
+      "kind_label": "Życzny",
+      "template_label": "Tekst mustra",
+      "template_hint": "Zaznacz, kaj noleży kożdo zmiynno, ze jeji mianym ôwiniyntym w dwojistych lokniyntych nowiasach - bez przikłod zmiynno ô mianie \"gatunek\" stowo sie gatunkiym ôwijanym w dwōch ôtwiyrajōncych i dwōch zamykajōncych nowiasach.",
+      "variables_label": "Zmiynne",
+      "variable_add": "Przidej zmiynno",
+      "variable_name": "Klucz",
+      "variable_label": "Etyketa",
+      "variable_type": "Typ",
+      "variable_type_string": "Tekst",
+      "variable_type_select": "Pojedynczy wybōr",
+      "variable_type_multiselect": "Wieloselekcyjo",
+      "variable_type_number": "Numer",
+      "variable_type_boolean": "Tak/niy",
+      "variable_options": "Ôpcyje (podzielōne przecinkōm)",
+      "variable_required": "Wymogane",
+      "save": "Zapisz muster"
+    },
+    "metatags": {
+      "title": "Meta-tagi",
+      "subtitle": "Tagi strukturalne i stylowe, kere Suno poznowo we postrzodku słōw.",
+      "new_tag": "Nowy tag",
+      "tag_label": "Tag",
+      "tag_placeholder": "bp. solo z gitarōm",
+      "category_label": "Kategoryjo",
+      "tier_label": "Niezawodność",
+      "tier_legend_title": "Legynda ô niezawodności",
+      "tier_legend": {
+        "1": "Poziōm 1 — udokumyntowany i spōjny",
+        "2": "Poziōm 2 — zaôbycz działo",
+        "3": "Poziōm 3 — efekt zmiynny",
+        "4": "Poziōm 4 — placebo, niydowiedziōne"
+      },
+      "description_label": "Ôpis",
+      "delete_confirm_title": "Usuń tagu \" {{tag}} \"?",
+      "empty": "Jeszcze niy ma niestandardowych meta-tagōw."
+    }
+  },
+  "settings": {
+    "title": "Ustawiynia",
+    "subtitle": "Informacyje ô systymie, godka i domyślne preferyncyje.",
+    "system_info_title": "Systym",
+    "version": "Wersja",
+    "data_dir": "Folder danych",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Dostympne",
+    "ffmpeg_missing": "Niy znojdziōne",
+    "capabilities_title": "Zainstalowane możebności",
+    "capability": {
+      "denoise": "Redukcyjo szumu",
+      "quality": "Poprawa jakości",
+      "separate": "Ôddzielynie zdrzōdeł",
+      "ffmpeg": "Kōnwersyjo FFmpeg"
+    },
+    "capability_available": "Dostympne",
+    "capability_unavailable": "Niydostympne",
+    "gpu_title": "Prziśpiyszynie GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "Dostawcy czasu wykōnanio ONNX"
+    },
+    "gpu_none": "Niy wykryto dostowcōw GPU",
+    "language_title": "Jynzyk",
+    "language": {
+      "pt-BR": "Portugalije (Brazylijo)",
+      "en": "Angliski"
+    },
+    "theme_title": "Wyglōnd",
+    "theme": {
+      "dark": "Ćmawe",
+      "light": "Światło"
+    },
+    "defaults_title": "Domyślne eksportu",
+    "lufs_target_label": "Docylowe LUFS",
+    "lufs_target_hint": "Używane za sugestyjo zaczōntkowo przi eksportowaniu ôbjynć. Domyślne Suno siedzi kole -14 LUFS.",
+    "saved": "Zapisane preferyncyje"
+  },
+  "guide": {
+    "title": "Poradnik na nagrowanie Suno",
+    "subtitle": "Jak uchwycić głos i gitarowe ujyńcia, co dostanōm nojlepsze wyniki.",
+    "intro": "Suno funguje nojlepij z czystymi, jednoznacznymi ôdniesiyniami. Tyn przewodnik ôbyjmuje narychtowanie, poziōmy cylowe i 3-5-minutowy scynariusz nagrowanio.",
+    "sections": {
+      "prep": {
+        "title": "Przigotowanie",
+        "body": "Nagraj w ôbsudzōnyj pōmiyszkaniu abo w tym, co mo moc miynkij materyje (kurtyny, dywaniki, ôblyczynia we szafie). Wyłōncz wentylatory i wszysko, co szumnie. Przed nagraniym rozgrzej głos bez 5 minut."
+      },
+      "levels": {
+        "title": "Poziōmy: ôd -12 do -6 dBFS",
+        "body": "Cyluj w szpice miyndzy -12 a -6 dBFS na liczniku. Pōniżyj tego zakresu szum zadku stowo sie barzij widzialny; nad nim wzrosto ryzyko ôdciyńcio. Użyj miernika na strōnie Zapisu, coby ustawić wzmocniynie przed zaczōntkym."
+      },
+      "distance": {
+        "title": "Ôdległość ôd mikrofonu: 15–30 cm",
+        "body": "Ôstań ôd 15 do 30 cm ôd mikrofōnu. Bliżyj aniżeli to przesadzo plosiwy i efekt bliskości; dalij chyco wiyncyj room reverb i szumu."
+      },
+      "script": {
+        "title": "Skrypt nagranio",
+        "warmup": "Rozgrzewanie wokalne (1–2 minuty)",
+        "vowels": "Samogłoski podtrzimowane — a, e, i, o, u",
+        "scales": "Proste skale, w gōra i w dōł",
+        "excerpt": "Fragmynt z śpiywki (ôd 8 do 16 barōw)",
+        "dynamics": "Dynamika: zaczynaj łagodnie, zakōńcz głośno",
+        "spoken_phrase": "Jedna wypowiedziano fraza, coby Suno mōg przeczytać twōj tōn wokalny"
+      },
+      "expectations": {
+        "title": "Co ôczekuje Suno",
+        "body": "WAV, 48 kHz, mōno, suchy (bez głosu abo efektōw), 3 do 5 minut ôdniesiynio. Nojczyściyjsze, nojbarzij reprezyntatywne 2 minuty zdjyńcio zaôbycz dowajōm nojlepsze wyniki."
+      }
+    }
+  },
+  "status": {
+    "idea": "Idyjo",
+    "em_progresso": "W trwaniu",
+    "quase": "Bezma tam",
+    "pronto": "Gotowe"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Połny scynariusz wokalny do Suno",
+      "desc": "5 minut z przewodnikiym: rozgrzewanie, samogłoski, skale, dwa fragmynta śpiywek, dynamika i wypowiedziano fraza."
+    },
+    "step": {
+      "warmup": "Rozgrzewanie wokalne",
+      "warmup_inst": "Poluźnij sie z ziywaniym, dźwigniyńciami warg (brrr) i łagodnym szumym bez kole minuty. Niy potrzebujesz nagrować — to ino, coby ôdpoczyńć garło przed śpiywaniym.",
+      "vowels": "Samogłoski podtrzimowane",
+      "vowels_inst": "Trzimaj kożdo samogłoska — a, e, i, o, u — bez 3 do 4 sekund na wygodnym wysokości, ze stałym głośnościōm. To pōmogo Suno chycić czysty tymber twojigo głosu.",
+      "scales": "Skala w gōra i w dōł",
+      "scales_inst": "Śpiywaj prosto skala w gōra, a potym w dōł, na \"la\" abo \"na\". Niy musi być perfekt — cylym je zmapowanie twojigo zakresu wokalnego.",
+      "section": "Fragmynt ôd śpiywki — czynść 1",
+      "section_inst": "Śpiywaj ôd 8 do 16 sztampōw śpiywki, z prawdziwōm intyncyjōm, kero chcesz przekozać. Priorytetuj klarowność i ôbecność przed perfekcyjōm technicznōm.",
+      "section2": "Fragmynt ôd śpiywki — czynść 2",
+      "section2_inst": "Śpiywaj dalsze ôd 8 do 16 taktōw — idyjalnie refryn abo sekcyjo, kero kōntrastuje z piyrwyjszōm. Wiynkszo roztōmajtość pōmogo modelowi nauczyć sie twojigo głosu.",
+      "dynamics": "Dynamika: miynko → głośno",
+      "dynamics_inst": "Śpiywaj ta sama fraza, zaczynajōnc barzo łagodnie i kōńczōnc głośno, bez naciśniyńcio garła. To pokozuje Suno zasiyng dynamiczny twojigo głosu.",
+      "spoken": "Wypowiedziane fraza",
+      "spoken_inst": "Godaj — niy śpiywaj — krōtko, naturalno fraza, jakbyś czatowoł. To pōmogo Suno poznać prawy tymber twojigo głosu."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restauracyjo",
+      "filter": "Filtry",
+      "dynamics": "Dynamika",
+      "separation": "Rozdzielynie",
+      "quality": "Jakość",
+      "utility": "Użyteczność",
+      "loudness": "Głośność"
+    },
+    "highpass": "Filtr wysokoprzepustowy",
+    "lowpass": "Filtr niskoprzepustowy",
+    "denoise": "Redukcyjo szumu",
+    "declip": "Ôdciyranie",
+    "declick": "Usuwanie klikniyńcio/popu",
+    "deesser": "De-esser",
+    "gate": "Brama szumu",
+    "compressor": "Kompresōr",
+    "limiter": "Ôgranicznik",
+    "eq": "Rōwnowanie",
+    "normalize": "Normalizacyjo szpic",
+    "loudness": "Normalizacyjo głośności (LUFS)",
+    "reverb_reduce": "Redukcyjo głosu",
+    "separate": "Ôddzielynie zdrzōdeł",
+    "quality": "Ulepszynie jakości (ekszokalne)",
+    "trim_silence": "Przycinanie ciszy",
+    "fade": "Blanknij w / blanknij",
+    "stereo_to_mono": "Przekształcić na mōno",
+    "resample": "Ponowne prōbkowanie"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Niezawodny",
+      "2": "Zaôbycz działo",
+      "3": "Zmiynno",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Struktura",
+      "vocal": "Wokal",
+      "instrument": "Insztrumynt",
+      "dynamics": "Dynamika",
+      "production": "Produkcyjo",
+      "mood": "Nastrōj"
+    },
+    "verse": "Verset",
+    "chorus": "Refryn",
+    "bridge": "Most",
+    "intro": "Intro",
+    "outro": "Wyjście",
+    "hook": "Hak",
+    "prechorus": "Przedrefryn",
+    "instrumental": "Insztrumyntalny",
+    "guitar_solo": "Solo gitarowy",
+    "build_up": "Budowanie",
+    "breakdown": "Załamanie",
+    "spoken_word": "Wypowiedziane słowo",
+    "whispered": "Szepnōł",
+    "harmonies": "Harmōnije",
+    "male_vocal": "Mynski wokal",
+    "female_vocal": "Żyński wokal",
+    "duet": "Duet",
+    "acoustic": "Akustyczno",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Czysty głos",
+    "voice_guitar_balanced": "Zrōwnoważōny głos i gitara",
+    "podcast": "Podkast",
+    "suno_ready": "Suno gotowe",
+    "gentle_restore": "Delikatne prziwrōcynie",
+    "raw_passthrough": "Brak przetworzanio"
+  },
+  "errors": {
+    "unknown": "Coś poszło nie tak.",
+    "network": "Niy mōg sie dostać do serwera.",
+    "validation_error": "Sprawdź wkludzōne informacyje.",
+    "not_found": "Przedmiot niy znojdziōny.",
+    "project_not_found": "Projekt niy znojdziōny.",
+    "take_not_found": "Take niy znojdziōno.",
+    "album_not_found": "Album niy znojdziōny.",
+    "preset_not_found": "Preset niy znojdziōny.",
+    "template_not_found": "Muster niy znojdziōny.",
+    "device_busy": "Urzōndzynie audio je używane bez inkszy program.",
+    "device_not_found": "Urzōndzynie audio niy znojdziōne.",
+    "already_recording": "Nagranie już trwo.",
+    "ffmpeg_missing": "FFmpeg niy ma zainstalowany — zainstaluj go, coby kōnwertować tyn plik.",
+    "disk_full": "Niy styknie miyjsca na dysku.",
+    "permission_denied": "Ôdciepniynto zgoda na danyj ścieżce.",
+    "import_path_not_found": "Szlaka importu niy znojdziōno.",
+    "job_failed": "Przetworzanie niy zadziałoło.",
+    "job_cancelled": "Przetworzanie było pociepniynte.",
+    "process_failed": "Niy udało sie przetworzić ujyńcio.",
+    "export_failed": "Niy udało sie eksportować pliku.",
+    "record_failed": "Niy udało sie rozpoczōńć nagrowanio."
+  },
+  "jobs": {
+    "status": {
+      "queued": "W koleji",
+      "running": "Biyganie",
+      "done": "Skōńczōne",
+      "error": "Niy udało sie",
+      "cancelled": "Pociepniynte"
+    },
+    "kind": {
+      "process": "Przetworzanie",
+      "export": "Eksport",
+      "import": "Import",
+      "record": "Nagranie"
+    }
+  }
+}

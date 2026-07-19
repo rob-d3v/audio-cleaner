@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio Limpiador"
+  },
+  "nav": {
+    "library": "Biblioteca",
+    "record": "Grabar",
+    "import": "Hawamanta apamuy",
+    "templates": "Plantillas",
+    "settings": "Ajustes nisqa",
+    "guide": "Guía"
+  },
+  "common": {
+    "save": "Waqaychay",
+    "saving": "Waqaychay...",
+    "saved": "Waqaychasqa",
+    "cancel": "Cancelar",
+    "close": "Wichqay",
+    "delete": "Borrar",
+    "edit": "Llamk'apuy",
+    "create": "Kamay",
+    "search": "Maskay",
+    "loading": "Cargando...",
+    "error": "Pantasqa",
+    "retry": "Wakmanta kallpachakuy",
+    "confirm": "Confirmar",
+    "back": "Kutiy",
+    "next": "Qatiqninpi",
+    "continue": "Hinallayá ruway",
+    "finish": "Tukuchiy",
+    "copy": "Copia",
+    "copied": "Copiasqa",
+    "download": "Descarga",
+    "upload": "Kargay",
+    "none": "Mana mayqinpas",
+    "all": "Tukuy",
+    "yes": "Arí",
+    "no": "Manan",
+    "select": "Akllay",
+    "optional": "opcional nisqa",
+    "required": "mañasqa",
+    "unsaved_changes": "Mana waqaychasqa tikrakuykuna",
+    "name": "Suti",
+    "status": "Estado nisqa",
+    "type": "Tipo",
+    "actions": "Ruwaykuna",
+    "empty": "Ch’usaq",
+    "browse": "Navegar",
+    "remove": "Qulluy",
+    "add": "Yapay",
+    "rename": "Suti tikray",
+    "duplicate": "Iskay kuti ruway",
+    "warning": "Advertencia",
+    "locked": "Wichqasqa",
+    "builtin": "Instruido-in",
+    "custom": "Costumbre",
+    "untitled": "Mana tituluyuq",
+    "select_placeholder": "Akllay..."
+  },
+  "library": {
+    "title": "Biblioteca",
+    "subtitle": "Kunkaykiwan guitarraykiwan proyectokuna, yuyaymanta lluqsiykama.",
+    "new_project": "Musuq proyecto",
+    "new_album": "Musuq álbum",
+    "search_placeholder": "Sutiwan maskay...",
+    "view": {
+      "grid": "Rejilla",
+      "albums": "Álbumkuna"
+    },
+    "filters": {
+      "all": "Tukuy"
+    },
+    "take_count_one": " {{count}} hapiy",
+    "take_count_other": " {{count}} hapin",
+    "updated_at": "Kunanchasqa {{date}} . ",
+    "no_results": {
+      "title": "Mana proyectokuna tarisqachu",
+      "description": "Maskana utaq estado filtro allichayta kallpachakuy."
+    },
+    "empty": {
+      "title": "Bibliotecaykiqa ch’usaqmi kashan",
+      "description": "Musuq llamk'ayta qallariymanta qallariy, icha hawamanta apamuy hap'inakuna diskupi kaqña.",
+      "cta_import": "Carpetamanta apamuy",
+      "cta_new": "Proyectota ruway"
+    },
+    "project_dialog": {
+      "title": "Musuq proyecto",
+      "description": "Huk sutita churay hinaspa huk modo de grabacionta akllay.",
+      "name_label": "Proyectopa sutin",
+      "name_placeholder": "p.h. Inti raymi Para",
+      "mode_label": "Modo",
+      "mode": {
+        "voice": "Kunkalla",
+        "voice_guitar": "Kunka + guitarra"
+      },
+      "submit": "Proyectota ruway"
+    },
+    "album_dialog": {
+      "title": "Musuq álbum",
+      "description": "Proyectos relacionados nisqakunata huk álbum nisqaman huñuy.",
+      "name_label": "Álbum suti",
+      "name_placeholder": "p.h. Otoño EP",
+      "submit": "Album nisqa paqarichiy"
+    },
+    "album": {
+      "untitled": "Mana sutiyuq álbum",
+      "members_count_one": " {{count}} proyecto",
+      "members_count_other": " {{count}} proyectokuna",
+      "empty": "Manaraqmi kay álbumpiqa proyectokuna kanchu.",
+      "delete_confirm_title": "¿Albumta chinkachiy?",
+      "delete_confirm_description": "Proyectokunaqa manam qullusqachu kanqa, \" {{name}} \" nisqamanta mana t'inkisqalla."
+    },
+    "delete_project": {
+      "confirm_title": "¿ \" {{name}} \"ta chinkachiychu?",
+      "confirm_description": "Kaymi proyectota hinaspa sapa hapiyta hurqun. Kaytaqa manam kutichiyta atikunmanchu."
+    }
+  },
+  "record": {
+    "title": "Grabar",
+    "subtitle": "Huk ch’uya hap’iy hap’iy, nivelesniykikunata qhaway, chaymanta guionta qatiy.",
+    "project_label": "Proyecto",
+    "project_placeholder": "Huk proyectota akllay",
+    "project_create_quick": "Utqaylla proyectota ruway...",
+    "device_label": "Yaykuy aparato",
+    "device_placeholder": "Huk aparatota akllay",
+    "device_default_badge": "Llamkana ñawpaqmanta churasqa",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Mana yaykuna aparatokuna tarisqachu.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Amaña qhawayta",
+    "record_button": "Grabar",
+    "stop_button": "Sayay",
+    "elapsed_label": "Pasasqa pacha",
+    "status": {
+      "idle": "Ocioso",
+      "monitoring": "Qhaway",
+      "recording": "Grabacion",
+      "stopped": "Sayasqa"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Pico",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Sesión guiada nisqa",
+      "subtitle": "Entrenadorqa guionpi purichisunki huk llamkaymanta, q’uñichiymanta rimasqa rimaykama.",
+      "loading": "Qillqata kargachkanki...",
+      "unavailable": "Kamachisqa tiyayqa manaraqmi sirwiqpi kanchu.",
+      "select_project_device": "Huk proyectota chaymanta huk yaykuna dispositivota akllay kaymantapacha llamkanakunata qillqanaykipaq.",
+      "progress": " {{done}} de {{total}} llankaykunamanta",
+      "start_timer": "Qallariy pacha yupayta",
+      "skip_timer": "Saltay pacha yupayta",
+      "record_step": "Kay llamkayta qillqay",
+      "stop_step": "Grabacionta saqey",
+      "mark_done": "Rurasqa — qatiqnin ruway",
+      "step_recorded": "Grabasqata hapiy",
+      "no_record_step": "Q'uñichiy llamk'ay — mana grabacionta necesitakun.",
+      "bars_hint": "Yaqa {{bars}} barras",
+      "complete_title": "¡Guion hunt'asqa!",
+      "complete_body": "Guionpa sapa llamkaynintam grabarqanki. Uma kutiy proyectopa Audio nisqa pestañanman hinaspa akllay munasqayki hapiykunata.",
+      "restart": "Qillqata musuqmanta qallariy"
+    },
+    "best2min": {
+      "button": "Tariy aswan allin 2 minutukunata (Suno) .",
+      "running": "Analizaspa chay toma...",
+      "score_label": "Puntuacion",
+      "hint": "Huk kallpa chaymanta sut'i t'aqwiyta tukuy hap'iypi purichin aswan kallpasapa 2 minutu ventananta tarinapaq — chaymanta makiwan llamk'ayta allichayta atikunkiraq.",
+      "chart_caption": "Sapa ventanamanta puntuación",
+      "unavailable": "Aswan allin-2-minutu t'aqwiyqa manaraqmi kay sirwiqpi kanchu."
+    },
+    "takes_title": "Kay sesión nisqamanta hurqun",
+    "takes_empty": "Manaraqmi kay sesión nisqapi grabasqachu tomas.",
+    "open_in_project": "Kichasqa proyectopi",
+    "ws_disconnected": "Nivel medidor nisqaman musuqmanta tinkuchispa...",
+    "select_project_first": "Qallarinaykipaq huk proyectota akllay.",
+    "select_device_first": "Huk yaykuna aparatota akllay."
+  },
+  "project": {
+    "back_to_library": "Bibliotecaman kutiy",
+    "header": {
+      "status_label": "Estado nisqa",
+      "cover_upload": "Tapa cargay",
+      "cover_remove": "Tapata hurquy",
+      "name_placeholder": "Proyectopa sutin",
+      "links_title": "T'inkikuna",
+      "add_link": "T'inkita yapay",
+      "mode": {
+        "voice": "Kunkalla",
+        "voice_guitar": "Kunka + guitarra"
+      }
+    },
+    "tabs": {
+      "audio": "Audio nisqa",
+      "lyrics": "Letras",
+      "prompts": "Tapuykuna",
+      "notes": "Notas"
+    },
+    "audio": {
+      "takes_title": "Apa",
+      "no_takes": {
+        "title": "Manaraqmi hapinchu",
+        "description": "Musuq hap'iyta qillqay icha kachkaq willañiqita hawaman apamuy."
+      },
+      "record_new": "Musuq hapiyta qillqay",
+      "rating": "Calificación nisqa",
+      "variant": {
+        "raw": "Q’uñi",
+        "processed": "Procesado"
+      },
+      "variant_placeholder": "Versión nisqa",
+      "process_button": "Proceso nisqa",
+      "export_button": "Hawa llaqtakunaman apachiy",
+      "delete_take_confirm_title": "¿Kay hapiyta chinkachiy?",
+      "delete_take_confirm_description": "Chay crudo audio chaymanta sapa ruwasqa versión hurqusqa kanqa.",
+      "ab": {
+        "raw": "A · Q’uñi",
+        "processed": "B · Procesado"
+      },
+      "origin": {
+        "recorded": "Grabasqa",
+        "imported": "Hawamanta apamusqa"
+      },
+      "session_label_placeholder": "Sesión etiqueta (munasqa) .",
+      "duration": "Unay tiempopi",
+      "sample_rate": "Tasa de muestra",
+      "channels": "Canales nisqakuna",
+      "created_at": "Grabasqa"
+    },
+    "pipeline": {
+      "title": "Cadena de procesamiento nisqa",
+      "preset_label": "Ñawpaqmanta churasqa",
+      "preset_none": "Cadena personalizada",
+      "preset_save": "Ñawpaqmanta churasqa hina waqaychay",
+      "stage_locked": "Wichqasqa",
+      "stage_requires_extra": "Mana churasqa kaqta huk yapasqata munan",
+      "process_button": "Proceso hap’iy",
+      "processing": "Procesamiento...",
+      "job_queued": "Filapi churasqa...",
+      "job_running": "Procesamiento...",
+      "job_done": "Rurasqa",
+      "job_error": "Mana atisqachu",
+      "job_cancelled": "Cancelado",
+      "cancel_job": "Cancelar",
+      "no_stages": "Mana etapas nisqakuna kanchu."
+    },
+    "export": {
+      "title": "Hawa llaqtakunaman apachiy hap’iy",
+      "description": "Huk rurasqa layamanta qhipa willañiqita rikuchiy.",
+      "variant_label": "Versión nisqa",
+      "format_label": "Formato nisqa",
+      "preset_label": "Ñawpaqmanta churasqa hawa llaqtakunaman apachiy",
+      "range_label": "Rango",
+      "range_full": "Tukuy sayayniyuq",
+      "range_custom": "Rango personalizado",
+      "start_label": "Qallariy (s) .",
+      "end_label": "Tukuy (s) .",
+      "submit": "Hawa llaqtakunaman apachiy",
+      "progress": "Archivo de renderización...",
+      "download_ready": "Archivo listoña",
+      "download_button": "Archivota uraykachiy"
+    },
+    "notes": {
+      "placeholder": "Kay proyectomanta notas de forma libre...",
+      "saved_at": "Waqaychasqa {{time}} . "
+    },
+    "lyrics": {
+      "placeholder": "Kaypi letrakunata qillqay. Suno meta-etiquetakunata churanapaq lado kaqpi paleta llamk'achiy.",
+      "saved_at": "Waqaychasqa {{time}} . ",
+      "saving": "Waqaychay...",
+      "versions": "Versiones nisqakuna",
+      "versions_empty": "Manaraqmi waqaychasqa layakunachu.",
+      "version_preview": "Ñawpaqta qhaway",
+      "restore": "Kay laya kutichiy",
+      "restore_confirm_title": "¿Kay laya kutichiy?",
+      "restore_confirm_description": "Kunan qillqasqaqa {{date}} nisqapi waqaychasqa layawanmi tikrasqa kanqa.",
+      "metatags_title": "Meta-etiquetas nisqakuna",
+      "metatags_hint": "Huk etiquetata ñit’iy chayta kursuta churanaykipaq.",
+      "metatags_placebo_warning": "Mana pruebasqa — manapaschá ima ruwayniyuqpas kanmanchu chay ruwaypi.",
+      "metatags_empty": "Mana meta-etiquetakuna registrasqachu."
+    },
+    "prompts": {
+      "style_title": "Estilo nisqamanta tapukuy",
+      "lyrics_title": "Letras nisqamanta rimay",
+      "template_label": "Plantilla",
+      "template_none": "Mana plantillayuq",
+      "variables_title": "Variables nisqakuna",
+      "preview_title": "Ñawpaqta qhaway",
+      "preview_empty": "Huk plantillata akllay hinaspa variablekunata hunt'achiy huk ñawpaq qhawayta qhawanaykipaq.",
+      "char_count": " {{count}} qillqakuna",
+      "char_count_warning": "1000 qillqakunamanta aswan estilo tapuykuna Suno kaqwan kuchusqa kanman.",
+      "copy": "Copia",
+      "copied": "Portapapeles nisqaman copiasqa",
+      "save_to_project": "Proyectoman waqaychay",
+      "saved_to_project": "Proyectoman waqaychasqa tapukuy",
+      "history_title": "Historia",
+      "history_empty": "Mana ñawpaq versionkuna.",
+      "current_label": "Kunan pacha"
+    },
+    "stems": {
+      "title": "Vocal y guitarra",
+      "separate_button": "Vocalwan guitarrawan sapaqchasqa",
+      "running": "T'aqaspa...",
+      "vocals": "Vocal nisqa",
+      "instrumental": "Instrumental nisqa",
+      "process_stem": "Kay saphita procesay",
+      "empty": "Kay hap'iyqa manaraqmi t'aqasqachu. T’aqanakuyta phaway, sapanchasqa vocalkunata, guitarrata uyarinaykipaq.",
+      "capability_missing": "Pukyu t'aqayqa manam kay sirwiqpi churasqachu.",
+      "unavailable": "Vocal/guitar t'aqayqa manaraqmi kay servidorpi kanchu."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "On",
+    "boolean_off": "Off"
+  },
+  "import": {
+    "title": "Hawamanta apamuy",
+    "subtitle": "Diskupi kaq proyectokunata bibliotecaman apamuy.",
+    "step_indicator": "Paso {{current}} de {{total}} . ",
+    "step1": {
+      "title": "Carpeta tariy",
+      "description": "Proyectoykikunawan, pistaykikunawan ima saphi qillqana mayt'uman rikuchiy.",
+      "path_label": "Carpeta ñan",
+      "path_placeholder": "p.h. E:\\Robbs\\Orgullo\\Music\\ROBBS",
+      "recent_label": "Kunan pacha",
+      "scan_button": "Carpeta de escaneo nisqa",
+      "scanning": "Escaneo ruway...",
+      "ffmpeg_warning": "FFmpeg mana tarisqachu — tikrayta necesitaq willañiqikuna saltasqa kanqa.",
+      "folders_found_one": " {{count}} carpeta tarisqa",
+      "folders_found_other": " {{count}} carpetas tarisqa",
+      "unmatched_files_one": " {{count}} mana riqsisqa willañiqi",
+      "unmatched_files_other": " {{count}} mana riqsisqa willañiqikuna"
+    },
+    "step2": {
+      "title": "Imakunatapas qhawariy",
+      "description": "Sutikunata, estadokunata, imakuna apamusqa kananta qhaway manaraq takyachispa.",
+      "select_all": "Llapallanta akllay",
+      "table": {
+        "folder": "Pukyu qillqana mayt’u",
+        "name": "Proyectopa sutin",
+        "status": "Estado nisqa",
+        "audio": "Audio nisqa",
+        "lyrics": "Letras",
+        "cover": "Tapa",
+        "album": "Álbum"
+      },
+      "audio_include_one": " {{count}} archivo akllasqa",
+      "audio_include_other": " {{count}} archivokuna akllasqa",
+      "no_audio": "Mana uyarinapaq tarisqachu",
+      "no_lyrics": "Mana letrakuna tarisqachu",
+      "no_cover": "Mana tapayuq",
+      "warnings_title": "Advertenciakuna"
+    },
+    "step3": {
+      "title": "Hawamanta apamuy",
+      "description": "Archivokunata copianaykipaq hinaspa proyectokunata ruwanaykipaq takyachiy.",
+      "copy_originals": "Ñawpaq willañiqikunata bibliotecaman copiay",
+      "execute_button": "Importacionmanta qallariy",
+      "progress_title": "Importacionmanta...",
+      "created_count": "Paqarisqa: {{count}} ",
+      "skipped_count": "Saltasqa: {{count}} . ",
+      "done_title": "Importación hunt’asqa",
+      "done_description": "Uraypi kaq proyectokunaqa bibliotecaykipi ruwasqam karqa.",
+      "view_project": "Proyecto abierto",
+      "start_over": "Musuq apamuy"
+    }
+  },
+  "templates": {
+    "title": "Plantillas",
+    "subtitle": "Plantillas de prompt reutilizables y meta-etiquetas para Suno.",
+    "tabs": {
+      "prompts": "Plantillas de prompta",
+      "metatags": "Meta-etiquetas nisqakuna"
+    },
+    "new_template": "Musuq plantilla",
+    "kind": {
+      "style": "Estilo",
+      "lyrics": "Letras"
+    },
+    "kind_label": "Sumaq sonqo",
+    "delete_confirm_title": "¿Borrar plantilla \" {{name}} \"?",
+    "delete_confirm_description": "Kaytaqa manam kutichiyta atikunmanchu.",
+    "empty": "Manaraqmi plantillakuna kanchu.",
+    "editor": {
+      "title_new": "Musuq plantilla",
+      "title_edit": "Plantilla de edición",
+      "name_label": "Suti",
+      "name_placeholder": "p.h. Balada acústica nisqa",
+      "kind_label": "Sumaq sonqo",
+      "template_label": "Plantilla texto",
+      "template_hint": "Maypi sapa tikraq kayninqa iskay k'uyu k'uyukunawan k'uyusqa sutinwan markay — ahinataq, \"género\" sutiyuq tikraq iskay kicharina iskay wichq'ana k'aspikunawan k'uyusqa géneroman tukun.",
+      "variables_label": "Variables nisqakuna",
+      "variable_add": "Variable yapay",
+      "variable_name": "Llave",
+      "variable_label": "Etiqueta",
+      "variable_type": "Tipo",
+      "variable_type_string": "Texto",
+      "variable_type_select": "Sapalla akllay",
+      "variable_type_multiselect": "Achka akllana",
+      "variable_type_number": "Yupay",
+      "variable_type_boolean": "Arí/mana",
+      "variable_options": "Akllanakuna (comawan t'aqasqa) .",
+      "variable_required": "Requerido",
+      "save": "Plantilla de salvar"
+    },
+    "metatags": {
+      "title": "Meta-etiquetas nisqakuna",
+      "subtitle": "Etiquetas estructurales y estilos Sunoqa letrakuna ukhupi riqsin.",
+      "new_tag": "Musuq etiqueta",
+      "tag_label": "Etiqueta",
+      "tag_placeholder": "p.h. guitarra-solo",
+      "category_label": "Categoría nisqa",
+      "tier_label": "Confiabilidad nisqa",
+      "tier_legend_title": "Confiabilidad nisqamanta willakuy",
+      "tier_legend": {
+        "1": "Nivel 1 — qillqasqa hinaspa mana chiriyasqa",
+        "2": "Tier 2 — aswantaqa llamkan",
+        "3": "3 kaq pata — tikraq ruway",
+        "4": "4 kaq pata — placebo, mana pruebasqa"
+      },
+      "description_label": "Descripción",
+      "delete_confirm_title": "¿ \" {{tag}} \" nisqa etiquetata chinkachiy?",
+      "empty": "Manaraqmi sapanchasqa meta-etiquetakuna kanchu."
+    }
+  },
+  "settings": {
+    "title": "Ajustes nisqa",
+    "subtitle": "Llamkana willakuy, simi chaymanta ñawpaqmanta munasqakuna.",
+    "system_info_title": "Sistema nisqa",
+    "version": "Versión nisqa",
+    "data_dir": "Willayta qillqana mayt’u",
+    "ffmpeg_status": "FFmpeg nisqa",
+    "ffmpeg_available": "Disponible",
+    "ffmpeg_missing": "Mana tarisqachu",
+    "capabilities_title": "Instalado atiykuna",
+    "capability": {
+      "denoise": "Rumikunata pisiyachiy",
+      "quality": "Calidad nisqa allinchay",
+      "separate": "Pukyu rakiy",
+      "ffmpeg": "FFmpeg tikray"
+    },
+    "capability_available": "Disponible",
+    "capability_unavailable": "Mana tarikuq",
+    "gpu_title": "GPU utqaylla puriy",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA nisqa",
+      "ort_providers": "ONNX Runtime nisqa quqkuna"
+    },
+    "gpu_none": "Mana GPU quqkuna tarisqachu",
+    "language_title": "Simi",
+    "language": {
+      "pt-BR": "Português (Brasil) llaqtapi.",
+      "en": "Quechua"
+    },
+    "theme_title": "Rikchay",
+    "theme": {
+      "dark": "Tutayaq",
+      "light": "K’anchay"
+    },
+    "defaults_title": "Hawaman apachiy ñawpaqmanta churasqakuna",
+    "lufs_target_label": "Target LUFS nisqa",
+    "lufs_target_hint": "Qallariy yuyaychay hina llamk'achisqa mayk'aq hawaman apachiy hap'in. Sunopa ñawpaqmanta churasqanqa -14 LUFS muyuriqpi tiyan.",
+    "saved": "Munasqakuna waqaychasqa"
+  },
+  "guide": {
+    "title": "Suno grabacionmanta pusaq",
+    "subtitle": "Imaynatataq kunkata hap’inapaq guitarratapas hap’inapaq chaykunan aswan allin ruwaykunata tarinku.",
+    "intro": "Suno aswan allinta ruwan chuya, mana iskayrayaq referenciakunawan. Kay yanapakuyqa wakichiymanta, meta niveles nisqamanta, 3–5 minuto grabacion guionmanta ima riman.",
+    "sections": {
+      "prep": {
+        "title": "Wakichiy",
+        "body": "Grabay huk hampisqa cuartopi utaq achka llampu materialniyuq (cortinakuna, alfombrakuna, armariopi pachakuna). Ventiladores nisqakunata, imapas zumbikuqtapas wañuchiy. Manaraq grabachkaspa 5 minuto kunkaykita q’uñichiy."
+      },
+      "levels": {
+        "title": "Niveles: -12manta -6 dBFSkama",
+        "body": "Chay mitrupi -12manta -6 dBFSkama picos nisqakunata maskay. Chay rango urapi, qhipaman qapariy aswan reparakun; chaypa hawanpiqa, riesgo de clipping nisqa wicharin. Grabar paginapi medidorwan gananciaykita churanaykipaq manaraq qallarichkaspa."
+      },
+      "distance": {
+        "title": "Mic karun: 15–30 cm",
+        "body": "Microfonomanta 15manta 30 cmkama qhipakuy. Aswan qaylla chaymantaqa exageran plosivos nisqakunata hinallataq efecto de proximidad nisqakunata; aswan karu karupiqa aswan cuarto reverberaciónta hinaspa ruyrutapas huñun."
+      },
+      "script": {
+        "title": "Grabacionmanta guion",
+        "warmup": "Kunka q'uñichiy (1–2 minutu) .",
+        "vowels": "Sustentasqa kunkakuna — a, e, i, o, u",
+        "scales": "Escala simples, wichayman urayman",
+        "excerpt": "Huk takimanta hurqusqa (8manta 16 barkama) .",
+        "dynamics": "Dinámica: llamp’umanta qallariy, kallpawan tukukuy",
+        "spoken_phrase": "Huk rimasqa rimay, chaymi Sunoqa leeyta atin vocal tonoykita"
+      },
+      "expectations": {
+        "title": "Imatachus Suno suyakun",
+        "body": "WAV, 48 kHz, mono, ch’aki (mana reverberación nitaq efectosniyuq), 3manta 5 minutokama referencia. Aswan ch’uya, aswan representativo 2 minutokuna hap’iymanta aswan allin ruwaykunata ruwan."
+      }
+    }
+  },
+  "status": {
+    "idea": "Yuyay",
+    "em_progresso": "Progresopi kachkan",
+    "quase": "Yaqa chaypi",
+    "pronto": "Listoña"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Sunopaq hunt'asqa vocal guion",
+      "desc": "5 minutukuna pusasqa: q’uñichiy, kunkakuna, balanzakuna, iskay takimanta t’aqasqakuna, dinámica, rimasqa rimay ima."
+    },
+    "step": {
+      "warmup": "Vocal q’uñichiy",
+      "warmup_inst": "Yaqa huk minuto bostezowan, lip trillswan (brrr), llampu zumbidowan ima suchuchiy. Mana grabanaykichu — manaraq takichkaspa kunkaykita samarichinaykipaqlla.",
+      "vowels": "Sostenido vocalkuna",
+      "vowels_inst": "Sapa kunka — a, e, i, o, u — 3 4 segundoskama hap’iy sumaq kunkaykipi, mana kuyukuq kallpawan. Kaymi Sunota yanapan kunkaykipa chuya timbrenta hoqarinanpaq.",
+      "scales": "Wichayman urayman escalakuna",
+      "scales_inst": "Takiy huk sanu escalata wichayman chaymanta urayman, \"la\" utaq \"na\" nisqapi. Manan allinchu kanan — metaqa vocalniykimanta mapa ruwaymi.",
+      "section": "Takimanta hurqusqa — 1 kaq raki",
+      "section_inst": "Takimanta 8manta 16 barrakama takiy, chiqap yuyaywan willayta munasqaykiwan. Ñawpaqman churay sut’i kayta, presenciata ima, perfección técnica nisqamantaqa.",
+      "section2": "Takimanta hurqusqa — 2 kaq raki",
+      "section2_inst": "Huk 8manta 16 barraskama takiy — aswan allinqa huk coro utaq huk sección ñawpaq kaqwan contraste. Aswan imaymana kayqa modelota yanapan kunkaykita yachananpaq.",
+      "dynamics": "Dinámica: llamp'u → kallpawan",
+      "dynamics_inst": "Chay kikin rimayta takiy ancha llamp’umanta qallarispa kallpawan tukuspa, mana kunkaykita llasaqyachispa. Kaymi Sunoman qawachin kunkaykipa rango dinámico nisqa kayninta.",
+      "spoken": "Rimasqa rimay",
+      "spoken_inst": "Rimay — ama takiychu — pisi, natural rimayta, rimachkankiman hina. Kaymi Sunota yanapan kunkaykipa chiqap timbrenta riqsinanpaq."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Kutichiy",
+      "filter": "Filtrokuna",
+      "dynamics": "Dinámica nisqa",
+      "separation": "T’aqanakuy",
+      "quality": "Calidad nisqa",
+      "utility": "Utilidad nisqa",
+      "loudness": "Sinchi kallpawan rimay"
+    },
+    "highpass": "Alto-paso nisqa filtro",
+    "lowpass": "Pisi pasaq filtro",
+    "denoise": "Rumikunata pisiyachiy",
+    "declip": "Delipping nisqa",
+    "declick": "Click/pop nisqa hurquy",
+    "deesser": "De-esser nisqa",
+    "gate": "Rumi punku",
+    "compressor": "Compresor nisqa",
+    "limiter": "Limitador",
+    "eq": "Igualdad",
+    "normalize": "Normalización pico nisqa",
+    "loudness": "Normalización de ruido (LUFS) nisqa.",
+    "reverb_reduce": "Reverberación nisqa pisiyachiy",
+    "separate": "Pukyu rakiy",
+    "quality": "Calidad nisqa allinchay (alto escala) .",
+    "trim_silence": "Upallalla kuchuy",
+    "fade": "Fade in / fade out",
+    "stereo_to_mono": "Mono nisqaman tikray",
+    "resample": "Remuestreo nisqa"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Confiable",
+      "2": "Normalmente llamkan",
+      "3": "Variable nisqa",
+      "4": "Placebo nisqa"
+    },
+    "category": {
+      "structure": "Estructura nisqa",
+      "vocal": "Vocal",
+      "instrument": "Instrumento",
+      "dynamics": "Dinámica nisqa",
+      "production": "Producción nisqa",
+      "mood": "Humor"
+    },
+    "verse": "Versículo",
+    "chorus": "Coro",
+    "bridge": "Puente",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Gancho",
+    "prechorus": "Pre-coro nisqa",
+    "instrumental": "Instrumental nisqa",
+    "guitar_solo": "Guitar solo",
+    "build_up": "Construir-up",
+    "breakdown": "Pakikuy",
+    "spoken_word": "Rimasqa simi",
+    "whispered": "nispas susuykusqa",
+    "harmonies": "Armonías nisqakuna",
+    "male_vocal": "Qhari vocal",
+    "female_vocal": "Warmi vocal",
+    "duet": "Duet",
+    "acoustic": "Acústico nisqa",
+    "ad_lib": "Ad-lib nisqa"
+  },
+  "presets": {
+    "clean_voice": "Ch’uya kunka",
+    "voice_guitar_balanced": "Equilibrado kunka & guitarra",
+    "podcast": "Podcast nisqa",
+    "suno_ready": "Suno listo",
+    "gentle_restore": "Llampu kutichiy",
+    "raw_passthrough": "Mana procesamiento nisqa"
+  },
+  "errors": {
+    "unknown": "Imapas mana allintam pasarqa.",
+    "network": "Mana sirwiqman chayayta atirqanchu.",
+    "validation_error": "Yaykuchisqayki willakuykunata qaway.",
+    "not_found": "Artículo mana tarisqachu.",
+    "project_not_found": "Proyecto mana tarisqachu.",
+    "take_not_found": "Apakuy mana tarisqa.",
+    "album_not_found": "Album mana tarisqachu.",
+    "preset_not_found": "Ñawpaqmanta churasqa mana tarisqachu.",
+    "template_not_found": "Plantilla mana tarisqachu.",
+    "device_busy": "Audio aparatoqa huk programawanmi llamkachkan.",
+    "device_not_found": "Audio dispositivo mana tarisqachu.",
+    "already_recording": "Ñam huk grabacion ruwakuchkanña.",
+    "ffmpeg_missing": "FFmpeg mana churasqachu — churay kay willañiqita tikranaykipaq.",
+    "disk_full": "Diskupi mana suficiente espaciochu.",
+    "permission_denied": "Qusqa ñanpaq permiso mana qusqa.",
+    "import_path_not_found": "Hawamanta apamuy ñan mana tarisqachu.",
+    "job_failed": "Procesamiento mana allintachu ruwakurqa.",
+    "job_cancelled": "Procesamiento nisqa cancelasqa karqan.",
+    "process_failed": "Mana atisqachu chay hap’iyta procesayta.",
+    "export_failed": "Willañiqita hawaman apachiyta manam atirqanchu.",
+    "record_failed": "Grabacionta mana qallariyta atirqanchu."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Filapi churasqa",
+      "running": "Phawaq",
+      "done": "Rurasqa",
+      "error": "Mana atisqachu",
+      "cancelled": "Cancelado"
+    },
+    "kind": {
+      "process": "Procesamiento nisqa",
+      "export": "Hawa llaqtakunaman apachiy",
+      "import": "Hawamanta apamuy",
+      "record": "Grabacion"
+    }
+  }
+}

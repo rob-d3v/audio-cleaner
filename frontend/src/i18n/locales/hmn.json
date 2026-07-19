@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Lub tshuab ntxuav"
+  },
+  "nav": {
+    "library": "Lub tsev qiv ntawv",
+    "record": "Cov ntaub ntawv",
+    "import": "Ntshuam",
+    "templates": "Cov qauv",
+    "settings": "Chaw",
+    "guide": "Qhia"
+  },
+  "common": {
+    "save": "Txuag",
+    "saving": "Txuag…",
+    "saved": "Txuag",
+    "cancel": "Tso tseg",
+    "close": "Kaw",
+    "delete": "Rho tawm",
+    "edit": "Kho kom raug",
+    "create": "Tsim",
+    "search": "Nrhiav",
+    "loading": "Loading…",
+    "error": "yuam kev",
+    "retry": "Rov sim dua",
+    "confirm": "Paub meej",
+    "back": "Rov qab",
+    "next": "Tom ntej no",
+    "continue": "Txuas ntxiv",
+    "finish": "Ua kom tiav",
+    "copy": "Luam",
+    "copied": "Luam tawm",
+    "download": "Download tau",
+    "upload": "Upload",
+    "none": "Tsis muaj",
+    "all": "Tag nrho",
+    "yes": "Yog lawm",
+    "no": "Tsis muaj",
+    "select": "Xaiv",
+    "optional": "xaiv tau",
+    "required": "xav tau",
+    "unsaved_changes": "Cov kev hloov tsis tau khaws tseg",
+    "name": "Lub npe",
+    "status": "xwm txheej",
+    "type": "Hom",
+    "actions": "Kev ua",
+    "empty": "Npua",
+    "browse": "Saib",
+    "remove": "Tshem tawm",
+    "add": "Ntxiv",
+    "rename": "Hloov npe",
+    "duplicate": "Luam tawm",
+    "warning": "Ceeb toom",
+    "locked": "Xauv",
+    "builtin": "Ua-hauv",
+    "custom": "Kev cai",
+    "untitled": "Tsis muaj npe",
+    "select_placeholder": "Xaiv…"
+  },
+  "library": {
+    "title": "Lub tsev qiv ntawv",
+    "subtitle": "Koj lub suab thiab guitar tej yaam num, los ntawm lub tswv yim mus tso tawm.",
+    "new_project": "Qhov project tshiab",
+    "new_album": "Tshiab album",
+    "search_placeholder": "Nrhiav lub npe…",
+    "view": {
+      "grid": "Daim phiaj",
+      "albums": "Albums"
+    },
+    "filters": {
+      "all": "Tag nrho"
+    },
+    "take_count_one": " {{count}} coj",
+    "take_count_other": " {{count}} siv",
+    "updated_at": "Hloov tshiab {{date}} ",
+    "no_results": {
+      "title": "Tsis pom tej yaam num",
+      "description": "Sim kho qhov kev tshawb nrhiav lossis lim xwm txheej."
+    },
+    "empty": {
+      "title": "Koj lub tsev qiv ntawv tsis muaj dab tsi",
+      "description": "Pib ib qhov project tshiab los ntawm kos, los yog import yuav coj koj twb muaj nyob rau hauv disk.",
+      "cta_import": "Ntshuam los ntawm folder",
+      "cta_new": "Tsim qhov project"
+    },
+    "project_dialog": {
+      "title": "Qhov project tshiab",
+      "description": "Muab nws lub npe thiab xaiv hom kaw.",
+      "name_label": "Qhov project npe",
+      "name_placeholder": "e.g. Lub caij ntuj sov nag",
+      "mode_label": "Hom",
+      "mode": {
+        "voice": "Suab nkaus xwb",
+        "voice_guitar": "Suab + guitar"
+      },
+      "submit": "Tsim qhov project"
+    },
+    "album_dialog": {
+      "title": "Tshiab album",
+      "description": "Pab pawg muaj feem cuam tshuam rau hauv ib qho album.",
+      "name_label": "Album npe",
+      "name_placeholder": "e.g. Autumn EP",
+      "submit": "Tsim album"
+    },
+    "album": {
+      "untitled": "Untitled album",
+      "members_count_one": "{{count}} project",
+      "members_count_other": " {{count}} tej yaam num",
+      "empty": "Tsis muaj tej yaam num nyob rau hauv no album tseem.",
+      "delete_confirm_title": "Rho tawm album?",
+      "delete_confirm_description": "Tej yaam num yuav tsis raug muab tshem tawm, tsuas yog unlinked los ntawm \"{{name}}\"."
+    },
+    "delete_project": {
+      "confirm_title": "Rho tawm \"{{name}}\"?",
+      "confirm_description": "Qhov no tshem tawm qhov project thiab txhua tus coj hauv nws. Qhov no tsis tuaj yeem thim rov qab."
+    }
+  },
+  "record": {
+    "title": "Cov ntaub ntawv",
+    "subtitle": "Ua kom huv si, saib koj qib, thiab ua raws li tsab ntawv.",
+    "project_label": "Qhov project",
+    "project_placeholder": "Xaiv ib qhov project",
+    "project_create_quick": "Tsim ib qhov project ceev…",
+    "device_label": "Input ntaus ntawv",
+    "device_placeholder": "Xaiv ib lub cuab yeej",
+    "device_default_badge": "System default",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Tsis pom cov khoom siv nkag.",
+    "monitor_button": "Saib xyuas",
+    "monitor_stop_button": "Txhob saib xyuas",
+    "record_button": "Cov ntaub ntawv",
+    "stop_button": "Nres",
+    "elapsed_label": "Lub sijhawm dhau los",
+    "status": {
+      "idle": "Tsis ua haujlwm",
+      "monitoring": "Saib xyuas",
+      "recording": "Kev kaw cia",
+      "stopped": "Nres"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Peak",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Kev cob qhia kev sib tham",
+      "subtitle": "Cia tus kws qhia taug kev koj los ntawm tsab ntawv ib kauj ruam, los ntawm kev sov so mus rau cov kab lus hais.",
+      "loading": "Loading script…",
+      "unavailable": "Kev cob qhia kev cob qhia tsis muaj nyob rau ntawm lub server tseem.",
+      "select_project_device": "Xaiv ib qhov project thiab cov khoom siv nkag los sau cov kauj ruam ntawm no.",
+      "progress": " {{done}} ntawm {{total}} cov kauj ruam",
+      "start_timer": "Pib timer",
+      "skip_timer": "Hla timer",
+      "record_step": "Sau cov kauj ruam no",
+      "stop_step": "Tso tseg",
+      "mark_done": "Ua tiav - kauj ruam tom ntej",
+      "step_recorded": "Muab kaw tseg",
+      "no_record_step": "Cov kauj ruam ua kom sov - tsis xav tau kaw.",
+      "bars_hint": "Hais txog {{bars}} tuav",
+      "complete_title": "Tsab ntawv ua tiav!",
+      "complete_body": "Koj tau sau txhua kauj ruam ntawm tsab ntawv. Lub taub hau rov qab mus rau qhov project Audio tab thiab xaiv qhov koj nyiam siv.",
+      "restart": "Rov pib tsab ntawv"
+    },
+    "best2min": {
+      "button": "Nrhiav qhov zoo tshaj plaws 2 feeb (Suno)",
+      "running": "Analyzing qhov muab…",
+      "score_label": "Cov qhab nias",
+      "hint": "Khiav lub zog thiab kev tsom xam pom tseeb thoob plaws qhov kev coj ua kom pom nws lub qhov rais 2-feeb uas muaj zog tshaj plaws - koj tseem tuaj yeem kho qhov ntau ntawm tes tom qab.",
+      "chart_caption": "Score rau qhov rais",
+      "unavailable": "Qhov zoo tshaj plaws-2-feeb tsom xam tseem tsis muaj nyob rau ntawm lub server no."
+    },
+    "takes_title": "Siv los ntawm qhov kev sib tham no",
+    "takes_empty": "Tseem tsis tau sau tseg rau hauv qhov kev sib tham no.",
+    "open_in_project": "Qhib hauv qhov project",
+    "ws_disconnected": "Reconnecting mus rau qib meter…",
+    "select_project_first": "Xaiv ib qhov project los pib.",
+    "select_device_first": "Xaiv ib qho khoom siv nkag."
+  },
+  "project": {
+    "back_to_library": "Rov qab mus rau lub tsev qiv ntawv",
+    "header": {
+      "status_label": "xwm txheej",
+      "cover_upload": "Upload cover",
+      "cover_remove": "Tshem lub hau",
+      "name_placeholder": "Qhov project npe",
+      "links_title": "Txuas",
+      "add_link": "Ntxiv qhov txuas",
+      "mode": {
+        "voice": "Suab nkaus xwb",
+        "voice_guitar": "Suab + guitar"
+      }
+    },
+    "tabs": {
+      "audio": "Suab",
+      "lyrics": "Lyrics",
+      "prompts": "Kev ceeb toom",
+      "notes": "Sau ntawv"
+    },
+    "audio": {
+      "takes_title": "Noj",
+      "no_takes": {
+        "title": "Tseem tsis tau siv",
+        "description": "Sau ib qho tshiab coj los yog import cov ntaub ntawv uas twb muaj lawm."
+      },
+      "record_new": "Sau ntawv tshiab",
+      "rating": "Kev ntsuas",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Ua tiav"
+      },
+      "variant_placeholder": "Version",
+      "process_button": "Txheej txheem",
+      "export_button": "Export",
+      "delete_take_confirm_title": "Rho tawm qhov no?",
+      "delete_take_confirm_description": "Lub suab nyoos thiab txhua qhov kev ua tiav yuav raug tshem tawm.",
+      "ab": {
+        "raw": "A · Raws",
+        "processed": "B · Ua tiav"
+      },
+      "origin": {
+        "recorded": "Sau tseg",
+        "imported": "Imported"
+      },
+      "session_label_placeholder": "Session label (optional)",
+      "duration": "Duration",
+      "sample_rate": "Qauv tus nqi",
+      "channels": "Cov channel",
+      "created_at": "Sau tseg"
+    },
+    "pipeline": {
+      "title": "Ua cov saw hlau",
+      "preset_label": "Preset",
+      "preset_none": "Kev cai saw",
+      "preset_save": "Txuag raws li preset",
+      "stage_locked": "Xauv",
+      "stage_requires_extra": "Xav tau ib qho ntxiv uas tsis tau nruab",
+      "process_button": "txheej txheem coj",
+      "processing": "Kev ua haujlwm…",
+      "job_queued": "Quened…",
+      "job_running": "Kev ua haujlwm…",
+      "job_done": "Ua tiav",
+      "job_error": "Ua tsis tiav",
+      "job_cancelled": "Tso tseg",
+      "cancel_job": "Tso tseg",
+      "no_stages": "Tsis muaj theem muaj."
+    },
+    "export": {
+      "title": "Export nqa",
+      "description": "Render cov ntaub ntawv zaum kawg los ntawm kev ua tiav.",
+      "variant_label": "Version",
+      "format_label": "Hom ntawv",
+      "preset_label": "Export preset",
+      "range_label": "Ntau yam",
+      "range_full": "Ntev ntev",
+      "range_custom": "Kev cai ntau yam",
+      "start_label": "Pib (s)",
+      "end_label": "Xaus (s)",
+      "submit": "Export",
+      "progress": "Rendering file…",
+      "download_ready": "Npaj ua ntaub ntawv",
+      "download_button": "Download tau ntaub ntawv"
+    },
+    "notes": {
+      "placeholder": "Cov ntawv sau pub dawb txog qhov project no…",
+      "saved_at": "Txuag ntawm {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Sau cov nkauj no. Siv cov palette ntawm sab los ntxig Suno meta-tags.",
+      "saved_at": "Txuag ntawm {{time}} ",
+      "saving": "Txuag…",
+      "versions": "Versions",
+      "versions_empty": "Tseem tsis tau khaws tseg versions.",
+      "version_preview": "Saib ua ntej",
+      "restore": "Restore no version",
+      "restore_confirm_title": "Restore no version?",
+      "restore_confirm_description": "Cov ntawv tam sim no yuav raug hloov nrog cov ntawv khaws tseg ntawm {{date}} .",
+      "metatags_title": "Meta-tags",
+      "metatags_hint": "Nyem ib lub cim los ntxig rau ntawm tus cursor.",
+      "metatags_placebo_warning": "Unproven - tej zaum yuav tsis cuam tshuam rau qhov tshwm sim.",
+      "metatags_empty": "Tsis muaj meta-tags sau npe."
+    },
+    "prompts": {
+      "style_title": "Style qhia",
+      "lyrics_title": "Lyrics sai",
+      "template_label": "Template",
+      "template_none": "Tsis muaj template",
+      "variables_title": "Hloov pauv",
+      "preview_title": "Saib ua ntej",
+      "preview_empty": "Xaiv ib lub template thiab sau rau hauv cov variables saib ua ntej.",
+      "char_count": " {{count}} cov cim",
+      "char_count_warning": "Style prompts tshaj 1000 tus cim yuav raug txiav los ntawm Suno.",
+      "copy": "Luam",
+      "copied": "Luam rau daim ntawv teev cia",
+      "save_to_project": "Txuag rau qhov project",
+      "saved_to_project": "Prompt saved rau qhov project",
+      "history_title": "Keeb kwm",
+      "history_empty": "Tsis muaj versions dhau los.",
+      "current_label": "Tam sim no"
+    },
+    "stems": {
+      "title": "Vocals thiab guitar",
+      "separate_button": "cais suab thiab guitar",
+      "running": "Sib cais…",
+      "vocals": "Suab",
+      "instrumental": "Instrumental",
+      "process_stem": "Txheej no qia",
+      "empty": "Qhov kev coj no tseem tsis tau muab cais tawm. Khiav kev sib cais kom hnov ​​lub suab thiab guitar hauv kev sib cais.",
+      "capability_missing": "Qhov chaw sib cais tsis tau nruab rau ntawm lub server no.",
+      "unavailable": "Kev sib cais suab/guitar tseem tsis tau muaj nyob rau ntawm lub server no."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Ntawm",
+    "boolean_off": "Tawm"
+  },
+  "import": {
+    "title": "Ntshuam",
+    "subtitle": "Nqa tej yaam num uas twb muaj lawm ntawm disk mus rau hauv lub tsev qiv ntawv.",
+    "step_indicator": "Kauj ruam {{current}} ntawm {{total}} ",
+    "step1": {
+      "title": "Nrhiav qhov folder",
+      "description": "taw tes rau hauv paus nplaub tshev nrog koj tej yaam num thiab lem.",
+      "path_label": "Folder txoj kev",
+      "path_placeholder": "e.g. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "Tsis ntev los no",
+      "scan_button": "Luam theej duab",
+      "scanning": "scanning…",
+      "ffmpeg_warning": "FFmpeg tsis pom - cov ntaub ntawv uas xav tau hloov dua siab tshiab yuav raug hla.",
+      "folders_found_one": " {{count}} folder pom",
+      "folders_found_other": " {{count}} cov folders pom",
+      "unmatched_files_one": " {{count}} tsis paub cov ntaub ntawv",
+      "unmatched_files_other": " {{count}} cov ntaub ntawv tsis paub"
+    },
+    "step2": {
+      "title": "Tshuaj xyuas cov khoom",
+      "description": "Xyuas cov npe, xwm txheej, thiab dab tsi yuav raug xa tawm ua ntej lees paub.",
+      "select_all": "Xaiv tag nrho",
+      "table": {
+        "folder": "Qhov chaw folder",
+        "name": "Qhov project npe",
+        "status": "xwm txheej",
+        "audio": "Suab",
+        "lyrics": "Lyrics",
+        "cover": "Npog",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} xaiv cov ntaub ntawv",
+      "audio_include_other": " {{count}} cov ntaub ntawv xaiv",
+      "no_audio": "Tsis pom lub suab",
+      "no_lyrics": "Tsis pom lyrics",
+      "no_cover": "Tsis muaj cover",
+      "warnings_title": "Ceeb toom"
+    },
+    "step3": {
+      "title": "Ntshuam",
+      "description": "Paub meej tias luam cov ntaub ntawv thiab tsim cov haujlwm.",
+      "copy_originals": "Luam cov ntaub ntawv qub rau hauv lub tsev qiv ntawv",
+      "execute_button": "Pib import",
+      "progress_title": "Importing…",
+      "created_count": "Tsim: {{count}} ",
+      "skipped_count": "Hla: {{count}} ",
+      "done_title": "Import tiav",
+      "done_description": "Cov haujlwm hauv qab no tau tsim hauv koj lub tsev qiv ntawv.",
+      "view_project": "Qhib qhov project",
+      "start_over": "Tshiab ntshuam"
+    }
+  },
+  "templates": {
+    "title": "Cov qauv",
+    "subtitle": "Reusable prompt templates thiab meta-tags rau Suno.",
+    "tabs": {
+      "prompts": "Prompt templates",
+      "metatags": "Meta-tags"
+    },
+    "new_template": "Tshiab template",
+    "kind": {
+      "style": "Style",
+      "lyrics": "Lyrics"
+    },
+    "kind_label": "Hom",
+    "delete_confirm_title": "Rho tawm template \"{{name}}\"?",
+    "delete_confirm_description": "Qhov no tsis tuaj yeem thim rov qab.",
+    "empty": "Tseem tsis tau muaj templates.",
+    "editor": {
+      "title_new": "Tshiab template",
+      "title_edit": "Kho cov template",
+      "name_label": "Lub npe",
+      "name_placeholder": "e.g. Acoustic pob",
+      "kind_label": "Hom",
+      "template_label": "Template ntawv nyeem",
+      "template_hint": "Kos qhov twg txhua qhov sib txawv nrog nws lub npe qhwv hauv ob chav curly braces - piv txwv li, qhov sib txawv hu ua \"ib hom ntawv\" ua ib hom ntawv qhwv hauv ob qhov qhib thiab ob txoj hlua kaw.",
+      "variables_label": "Hloov pauv",
+      "variable_add": "Ntxiv qhov sib txawv",
+      "variable_name": "Ntsiab",
+      "variable_label": "Daim ntawv lo",
+      "variable_type": "Hom",
+      "variable_type_string": "Ntawv nyeem",
+      "variable_type_select": "Ib leeg xaiv",
+      "variable_type_multiselect": "Multi-xaiv",
+      "variable_type_number": "Tus lej",
+      "variable_type_boolean": "Yog/tsis muaj",
+      "variable_options": "Options (comma-sib cais)",
+      "variable_required": "Yuav tsum tau",
+      "save": "Txuag template"
+    },
+    "metatags": {
+      "title": "Meta-tags",
+      "subtitle": "Cov qauv thiab cov cim npe Suno lees paub hauv cov nkauj.",
+      "new_tag": "New tag",
+      "tag_label": "Tag",
+      "tag_placeholder": "e.g. guitar - solo",
+      "category_label": "Qeb",
+      "tier_label": "Kev ntseeg tau",
+      "tier_legend_title": "Reliability lus dab neeg",
+      "tier_legend": {
+        "1": "Kauj Ruam 1 - cov ntaub ntawv thiab sib xws",
+        "2": "Qib 2 - feem ntau ua haujlwm",
+        "3": "Qib 3 - cov nyhuv hloov pauv",
+        "4": "Qib 4 - cov placebo, tsis muaj pov thawj"
+      },
+      "description_label": "Kev piav qhia",
+      "delete_confirm_title": "Delete tag \"{{tag}}\"?",
+      "empty": "Tsis muaj kev cai meta-tags tseem."
+    }
+  },
+  "settings": {
+    "title": "Chaw",
+    "subtitle": "Cov ntaub ntawv kaw lus, hom lus, thiab kev nyiam ua ntej.",
+    "system_info_title": "Qhov system",
+    "version": "Version",
+    "data_dir": "Cov ntaub ntawv folder",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Muaj",
+    "ffmpeg_missing": "Tsis pom",
+    "capabilities_title": "Txhim kho muaj peev xwm",
+    "capability": {
+      "denoise": "Txo suab nrov",
+      "quality": "Kev ua kom zoo",
+      "separate": "Kev sib cais",
+      "ffmpeg": "Hloov ua lwm yam FFmpeg"
+    },
+    "capability_available": "Muaj",
+    "capability_unavailable": "Tsis muaj",
+    "gpu_title": "GPU acceleration",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime muab kev pabcuam"
+    },
+    "gpu_none": "Tsis pom cov chaw muab kev pabcuam GPU",
+    "language_title": "Lus",
+    "language": {
+      "pt-BR": "Português (Brasil)",
+      "en": "Lus Askiv"
+    },
+    "theme_title": "Qhov tshwm sim",
+    "theme": {
+      "dark": "Tsaus",
+      "light": "Teeb"
+    },
+    "defaults_title": "Export defaults",
+    "lufs_target_label": "Target LUFS",
+    "lufs_target_hint": "Siv raws li qhov pib tawm tswv yim thaum exporting yuav siv sij hawm. Suno lub neej ntawd nyob ib ncig ntawm -14 LUFS.",
+    "saved": "Cov kev nyiam tau txais kev cawmdim"
+  },
+  "guide": {
+    "title": "Suno cov ntaub ntawv qhia",
+    "subtitle": "Yuav ua li cas ntes lub suab thiab guitar yuav siv sij hawm uas tau txais txiaj ntsig zoo tshaj plaws.",
+    "intro": "Suno ua tau zoo tshaj plaws nrog cov ntaub ntawv huv, tsis paub meej. Phau ntawv qhia no suav nrog kev npaj, theem phiaj, thiab sau ntawv sau 3-5 feeb.",
+    "sections": {
+      "prep": {
+        "title": "Kev npaj",
+        "body": "Sau rau hauv ib chav kho mob lossis ib qho uas muaj cov khoom muag muag ntau (cov ntaub, ntaub pua plag, khaub ncaws hauv lub txee dai khaub ncaws). Tua cov kiv cua thiab txhua yam uas hums. Ua kom sov koj lub suab rau 5 feeb ua ntej kaw."
+      },
+      "levels": {
+        "title": "Qib: -12 txog -6 dBFS",
+        "body": "Taw rau qhov siab tshaj ntawm -12 thiab -6 dBFS ntawm lub ntsuas. Hauv qab qhov ntau, lub suab nrov tom qab yuav pom ntau dua; saum toj no, clipping kev pheej hmoo nce. Siv qhov ntsuas ntawm nplooj ntawv Cov Ntaub Ntawv los teeb tsa koj qhov nce ua ntej koj pib."
+      },
+      "distance": {
+        "title": "Mic nrug: 15-30 cm",
+        "body": "Nyob ntawm 15 mus rau 30 cm ntawm lub microphone. Kaw tshaj qhov exaggerates plosives thiab sib thooj nyhuv; deb deb khaws ntau chav reverb thiab suab nrov."
+      },
+      "script": {
+        "title": "Sau ntawv",
+        "warmup": "Vocal warm-up (1-2 feeb)",
+        "vowels": "Sustained vowels — a, e, i, o, u",
+        "scales": "Yooj yim teev, nce thiab nqis",
+        "excerpt": "Ib zaj nkauj excerpt (8 mus rau 16 bars)",
+        "dynamics": "Dynamics: pib mos, kawg nrov",
+        "spoken_phrase": "Ib kab lus hais, yog li Suno tuaj yeem nyeem koj lub suab nrov"
+      },
+      "expectations": {
+        "title": "Suno xav li cas",
+        "body": "WAV, 48 kHz, mono, qhuav (tsis muaj reverb lossis teebmeem), 3 mus rau 5 feeb ntawm kev siv. Qhov huv tshaj plaws, feem ntau tus neeg sawv cev 2 feeb ntawm kev noj feem ntau ua rau cov txiaj ntsig zoo tshaj plaws."
+      }
+    }
+  },
+  "status": {
+    "idea": "Tswv yim",
+    "em_progresso": "Hauv kev kawm",
+    "quase": "Yuav luag",
+    "pronto": "Npaj txhij"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Full vocal script for Suno",
+      "desc": "5 feeb qhia: sov-up, vowels, scales, ob zaj nkauj excerpts, dynamic, thiab ib kab lus hais."
+    },
+    "step": {
+      "warmup": "Vocal warm-up",
+      "warmup_inst": "Loosen nrog yawns, di ncauj trills (brrr), thiab ib tug mos hum li ib feeb. Tsis tas yuav sau - nws tsuas yog so koj lub caj pas ua ntej hu nkauj.",
+      "vowels": "Sustained vowels",
+      "vowels_inst": "Tuav txhua lub suab - a, e, i, o, u - rau 3 mus rau 4 vib nas this ntawm koj lub suab zoo, nrog lub ntim ruaj khov. Qhov no pab Suno khaws cov ntoo ntshiab ntawm koj lub suab.",
+      "scales": "Scales nce thiab nqis",
+      "scales_inst": "Hu nkauj ib qho yooj yim nplai nce thiab nqis, ntawm \"la\" lossis \"na\". Nws tsis tas yuav ua kom zoo meej - lub hom phiaj yog los qhia koj lub suab nrov.",
+      "section": "Nkauj tawm tshiab - part 1",
+      "section_inst": "Hu 8 mus rau 16 kab ntawm zaj nkauj, nrog lub hom phiaj tiag tiag uas koj xav qhia. Ua ntej qhov pom tseeb thiab muaj nyob ntawm kev ua kom zoo tshaj plaws.",
+      "section2": "Nkauj tawm tshiab - part 2",
+      "section2_inst": "Hu nkauj 8 mus rau 16 bars - qhov zoo tshaj plaws yog ib qho kev hu nkauj lossis ib ntu uas sib piv nrog rau yav dhau los. Ntau ntau pab tus qauv kawm koj lub suab.",
+      "dynamics": "Dynamics: mos → nrov",
+      "dynamics_inst": "Hu nkauj tib kab lus pib maj mam thiab xaus nrov, tsis straining koj caj pas. Qhov no qhia Suno koj lub suab dynamic ntau yam.",
+      "spoken": "Hais lus",
+      "spoken_inst": "Hais - tsis txhob hu nkauj - ib kab lus luv luv, zoo li koj tab tom tham. Qhov no yuav pab Suno paub qhov tseeb timbre ntawm koj lub suab."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Kev kho dua tshiab",
+      "filter": "Cov lim",
+      "dynamics": "Dynamics",
+      "separation": "Kev sib cais",
+      "quality": "Zoo",
+      "utility": "Kev siv hluav taws xob",
+      "loudness": "Suab nrov"
+    },
+    "highpass": "High-pass lim",
+    "lowpass": "Low-pass lim",
+    "denoise": "Txo suab nrov",
+    "declip": "Txiav tawm",
+    "declick": "Nyem/pop tshem tawm",
+    "deesser": "De-esser",
+    "gate": "Suab nrov rooj vag",
+    "compressor": "Compressor",
+    "limiter": "Txwv",
+    "eq": "Kev sib npaug",
+    "normalize": "Peak normalization",
+    "loudness": "Suab nrov normalization (LUFS)",
+    "reverb_reduce": "Reverb txo",
+    "separate": "Kev sib cais",
+    "quality": "Kev ua kom zoo (upscale)",
+    "trim_silence": "Silence trimming",
+    "fade": "Fade in / ploj mus",
+    "stereo_to_mono": "Hloov ua lwm yam mono",
+    "resample": "Rov ua dua"
+  },
+  "metatags": {
+    "tier": {
+      "1": "ntseeg tau",
+      "2": "Feem ntau ua haujlwm",
+      "3": "Hloov pauv",
+      "4": "Cov tshuaj placebo"
+    },
+    "category": {
+      "structure": "Qauv",
+      "vocal": "Suab",
+      "instrument": "Ntsuas",
+      "dynamics": "Dynamics",
+      "production": "Ntau lawm",
+      "mood": "Mood"
+    },
+    "verse": "Nqe",
+    "chorus": "Hu nkauj",
+    "bridge": "Choj",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Hook",
+    "prechorus": "Pre-chorus",
+    "instrumental": "Instrumental",
+    "guitar_solo": "Guitar solo",
+    "build_up": "Kev tsim kho",
+    "breakdown": "Kev tawg",
+    "spoken_word": "Hais lus",
+    "whispered": "Ntxias",
+    "harmonies": "Kev sib raug zoo",
+    "male_vocal": "Txiv neej lub suab",
+    "female_vocal": "Poj niam lub suab",
+    "duet": "Duet",
+    "acoustic": "Acoustic",
+    "ad_lib": "Ad lib"
+  },
+  "presets": {
+    "clean_voice": "Lub suab huv",
+    "voice_guitar_balanced": "Balanced suab & guitar",
+    "podcast": "Podcast",
+    "suno_ready": "Suno npaj",
+    "gentle_restore": "Yooj yim kho",
+    "raw_passthrough": "Tsis muaj kev ua"
+  },
+  "errors": {
+    "unknown": "Ib yam dab tsi mus tsis ncaj ncees lawm.",
+    "network": "Tsis tuaj yeem ncav cuag lub server.",
+    "validation_error": "Tshawb xyuas cov ntaub ntawv koj tau nkag mus.",
+    "not_found": "Yam khoom tsis pom.",
+    "project_not_found": "Tsis pom qhov project.",
+    "take_not_found": "Noj tsis pom.",
+    "album_not_found": "Tsis pom album.",
+    "preset_not_found": "Preset tsis pom.",
+    "template_not_found": "Tsis pom template.",
+    "device_busy": "Lub cuab yeej siv los ntawm lwm qhov kev pab cuam.",
+    "device_not_found": "Tsis pom lub suab ntaus ntawv.",
+    "already_recording": "Ib qho kev kaw cia tau ua tiav.",
+    "ffmpeg_missing": "FFmpeg tsis tau nruab - nruab nws los hloov cov ntaub ntawv no.",
+    "disk_full": "Tsis txaus disk chaw.",
+    "permission_denied": "Tso cai tsis pom zoo rau txoj kev muab.",
+    "import_path_not_found": "Ntshuam txoj kev tsis pom.",
+    "job_failed": "Kev ua tsis tiav.",
+    "job_cancelled": "Cov txheej txheem raug muab tso tseg.",
+    "process_failed": "Ua tsis tau tejyam nqa.",
+    "export_failed": "Ua tsis tiav rau export cov ntaub ntawv.",
+    "record_failed": "pib kaw tsis tau."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Nquag",
+      "running": "Khiav",
+      "done": "Ua tiav",
+      "error": "Ua tsis tiav",
+      "cancelled": "Tso tseg"
+    },
+    "kind": {
+      "process": "Kev ua haujlwm",
+      "export": "Export",
+      "import": "Ntshuam",
+      "record": "Kev kaw cia"
+    }
+  }
+}

@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio garbitzailea"
+  },
+  "nav": {
+    "library": "Liburutegia",
+    "record": "Grabatu",
+    "import": "Inportatu",
+    "templates": "Txantiloiak",
+    "settings": "Ezarpenak",
+    "guide": "Gida"
+  },
+  "common": {
+    "save": "Gorde",
+    "saving": "Gordetzen…",
+    "saved": "Gorde",
+    "cancel": "Utzi",
+    "close": "Itxi",
+    "delete": "Ezabatu",
+    "edit": "Editatu",
+    "create": "Sortu",
+    "search": "Bilatu",
+    "loading": "Kargatzen…",
+    "error": "Errorea",
+    "retry": "Saiatu berriro",
+    "confirm": "Berretsi",
+    "back": "Itzuli",
+    "next": "Hurrengoa",
+    "continue": "Jarraitu",
+    "finish": "Amaitu",
+    "copy": "Kopiatu",
+    "copied": "Kopiatua",
+    "download": "Deskargatu",
+    "upload": "Kargatu",
+    "none": "Bat ere ez",
+    "all": "Denak",
+    "yes": "Bai",
+    "no": "Ez",
+    "select": "Hautatu",
+    "optional": "aukerakoa",
+    "required": "beharrezkoak",
+    "unsaved_changes": "Gorde gabeko aldaketak",
+    "name": "Izena",
+    "status": "Egoera",
+    "type": "Mota",
+    "actions": "Ekintzak",
+    "empty": "Hutsik",
+    "browse": "Arakatu",
+    "remove": "Kendu",
+    "add": "Gehitu",
+    "rename": "Aldatu izena",
+    "duplicate": "Bikoiztu",
+    "warning": "Abisua",
+    "locked": "Blokeatua",
+    "builtin": "Eraikituta",
+    "custom": "Pertsonalizatua",
+    "untitled": "Izenbururik gabe",
+    "select_placeholder": "Hautatu…"
+  },
+  "library": {
+    "title": "Liburutegia",
+    "subtitle": "Zure ahots eta gitarra proiektuak, ideiatik kaleratzeraino.",
+    "new_project": "Proiektu berria",
+    "new_album": "Disko berria",
+    "search_placeholder": "Bilatu izenaren arabera...",
+    "view": {
+      "grid": "Sarea",
+      "albums": "Albumak"
+    },
+    "filters": {
+      "all": "Denak"
+    },
+    "take_count_one": " {{count}} hartu",
+    "take_count_other": " {{count}} hartzen du",
+    "updated_at": "Eguneratu {{date}} ",
+    "no_results": {
+      "title": "Ez da proiekturik aurkitu",
+      "description": "Saiatu bilaketa- edo egoera-iragazkia doitzen."
+    },
+    "empty": {
+      "title": "Zure liburutegia hutsik dago",
+      "description": "Hasi proiektu berri bat hutsetik, edo inportatu diskoan dituzun hartu-emanak.",
+      "cta_import": "Inportatu karpetatik",
+      "cta_new": "Sortu proiektua"
+    },
+    "project_dialog": {
+      "title": "Proiektu berria",
+      "description": "Eman izena eta aukeratu grabatzeko modu bat.",
+      "name_label": "Proiektuaren izena",
+      "name_placeholder": "adib. Udako Euria",
+      "mode_label": "Modua",
+      "mode": {
+        "voice": "Ahotsa soilik",
+        "voice_guitar": "Ahotsa + gitarra"
+      },
+      "submit": "Sortu proiektua"
+    },
+    "album_dialog": {
+      "title": "Disko berria",
+      "description": "Talde erlazionatutako proiektuak album batean.",
+      "name_label": "Albumaren izena",
+      "name_placeholder": "adib. Udazkeneko EP",
+      "submit": "Sortu albuma"
+    },
+    "album": {
+      "untitled": "Izenbururik gabeko albuma",
+      "members_count_one": " {{count}} proiektua",
+      "members_count_other": " {{count}} proiektuak",
+      "empty": "Oraindik ez dago album honetan proiekturik.",
+      "delete_confirm_title": "Albuma ezabatu?",
+      "delete_confirm_description": "Proiektuak ez dira ezabatuko, \" {{name}} \"-tik soilik kenduko dira."
+    },
+    "delete_project": {
+      "confirm_title": "\" {{name}} \" ezabatu?",
+      "confirm_description": "Honek proiektua eta hartzen dituen guztiak kentzen ditu. Hau ezin da desegin."
+    }
+  },
+  "record": {
+    "title": "Grabatu",
+    "subtitle": "Hartu itzazu garbi bat, ikusi zure mailak eta jarraitu gidoia.",
+    "project_label": "Proiektua",
+    "project_placeholder": "Aukeratu proiektu bat",
+    "project_create_quick": "Sortu proiektu azkar bat...",
+    "device_label": "Sarrera gailua",
+    "device_placeholder": "Aukeratu gailu bat",
+    "device_default_badge": "Sistema lehenetsia",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Ez da aurkitu sarrera-gailurik.",
+    "monitor_button": "Monitorea",
+    "monitor_stop_button": "Jarraipenari utzi",
+    "record_button": "Grabatu",
+    "stop_button": "Gelditu",
+    "elapsed_label": "Igarotako denbora",
+    "status": {
+      "idle": "Geldirik",
+      "monitoring": "Jarraipena",
+      "recording": "Grabaketa",
+      "stopped": "Gelditu"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Gailurra",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Saio gidatua",
+      "subtitle": "Utzi entrenatzaileak gidoian urratsez urrats ibiltzen zaituzten, beroketatik ahozko esaldiraino.",
+      "loading": "Script-a kargatzen…",
+      "unavailable": "Saio gidatua ez dago oraindik zerbitzarian erabilgarri.",
+      "select_project_device": "Aukeratu proiektu bat eta sarrera-gailu bat urratsak hemendik zuzenean grabatzeko.",
+      "progress": " {{done}} {{total}} urrats",
+      "start_timer": "Hasi tenporizadorea",
+      "skip_timer": "Saltatu tenporizadorea",
+      "record_step": "Grabatu urrats hau",
+      "stop_step": "Utzi grabatzeari",
+      "mark_done": "Eginda - hurrengo urratsa",
+      "step_recorded": "Hartu grabatua",
+      "no_record_step": "Beroketa urratsa: ez da grabaketarik behar.",
+      "bars_hint": "{{bars}} tabernari buruz",
+      "complete_title": "Gidoia osatuta!",
+      "complete_body": "Gidoiaren urrats guztiak grabatu dituzu. Itzuli proiektuaren Audio fitxara eta aukeratu gogoko dituzun argazkiak.",
+      "restart": "Berrabiarazi scripta"
+    },
+    "best2min": {
+      "button": "Aurkitu 2 minutu onenak (Suno)",
+      "running": "Harrapaketa aztertzen...",
+      "score_label": "Puntuazioa",
+      "hint": "Energia eta argitasunaren analisia egiten du hartu-eman osoan bere 2 minutuko leihorik indartsuena aurkitzeko; oraindik eskuz doi dezakezu barrutia gero.",
+      "chart_caption": "Puntuazioa leiho bakoitzeko",
+      "unavailable": "2 minutuko analisi onena ez dago oraindik zerbitzari honetan erabilgarri."
+    },
+    "takes_title": "Saio honetatik ateratakoak",
+    "takes_empty": "Oraindik ez da grabatu saio honetan.",
+    "open_in_project": "Proiektuan irekita",
+    "ws_disconnected": "Maila-neurgailura berriro konektatzen…",
+    "select_project_first": "Aukeratu proiektu bat hasteko.",
+    "select_device_first": "Aukeratu sarrera-gailu bat."
+  },
+  "project": {
+    "back_to_library": "Itzuli liburutegira",
+    "header": {
+      "status_label": "Egoera",
+      "cover_upload": "Kargatu azala",
+      "cover_remove": "Kendu estalkia",
+      "name_placeholder": "Proiektuaren izena",
+      "links_title": "Estekak",
+      "add_link": "Gehitu esteka",
+      "mode": {
+        "voice": "Ahotsa soilik",
+        "voice_guitar": "Ahotsa + gitarra"
+      }
+    },
+    "tabs": {
+      "audio": "Audioa",
+      "lyrics": "Letra",
+      "prompts": "Galdeketak",
+      "notes": "Oharrak"
+    },
+    "audio": {
+      "takes_title": "Hartzen",
+      "no_takes": {
+        "title": "Oraindik ez dago harturik",
+        "description": "Grabatu hartu berri bat edo inportatu lehendik dagoen fitxategi bat."
+      },
+      "record_new": "Grabatu hartu berri bat",
+      "rating": "Balorazioa",
+      "variant": {
+        "raw": "Gordinik",
+        "processed": "Prozesatua"
+      },
+      "variant_placeholder": "Bertsioa",
+      "process_button": "Prozesua",
+      "export_button": "Esportatu",
+      "delete_take_confirm_title": "Hartu hau ezabatu nahi duzu?",
+      "delete_take_confirm_description": "Audio gordina eta prozesatutako bertsio guztiak kenduko dira.",
+      "ab": {
+        "raw": "A · Gordina",
+        "processed": "B · Prozesatua"
+      },
+      "origin": {
+        "recorded": "Grabatua",
+        "imported": "Inportatua"
+      },
+      "session_label_placeholder": "Saioaren etiketa (aukerakoa)",
+      "duration": "Iraupena",
+      "sample_rate": "Lagin-tasa",
+      "channels": "Kanalak",
+      "created_at": "Grabatua"
+    },
+    "pipeline": {
+      "title": "Prozesatzeko katea",
+      "preset_label": "Aurrez ezarritakoa",
+      "preset_none": "Pertsonalizatutako katea",
+      "preset_save": "Gorde aurrez ezarritako moduan",
+      "stage_locked": "Blokeatua",
+      "stage_requires_extra": "Instalatu ez den gehigarri bat behar du",
+      "process_button": "Prozesua hartu",
+      "processing": "Prozesatzen…",
+      "job_queued": "Ilaran jarrita…",
+      "job_running": "Prozesatzen…",
+      "job_done": "Eginda",
+      "job_error": "Huts egin du",
+      "job_cancelled": "Bertan behera utzita",
+      "cancel_job": "Utzi",
+      "no_stages": "Ez dago etaparik eskuragarri."
+    },
+    "export": {
+      "title": "Esportatu hartu",
+      "description": "Errendatu azken fitxategi bat prozesatutako bertsio batetik.",
+      "variant_label": "Bertsioa",
+      "format_label": "Formatua",
+      "preset_label": "Esportatu aurrezarpena",
+      "range_label": "Barrutia",
+      "range_full": "Luzera osoa",
+      "range_custom": "Barruti pertsonalizatua",
+      "start_label": "Hasiera (k)",
+      "end_label": "Amaiera (k)",
+      "submit": "Esportatu",
+      "progress": "Fitxategia errendatzen…",
+      "download_ready": "Fitxategia prest",
+      "download_button": "Deskargatu fitxategia"
+    },
+    "notes": {
+      "placeholder": "Proiektu honi buruzko forma libreko oharrak...",
+      "saved_at": "{{time}}-n gordeta "
+    },
+    "lyrics": {
+      "placeholder": "Idatzi letra hemen. Erabili alboko paleta Suno meta-etiketak sartzeko.",
+      "saved_at": "{{time}}-n gordeta ",
+      "saving": "Gordetzen…",
+      "versions": "Bertsioak",
+      "versions_empty": "Oraindik ez dago gordetako bertsiorik.",
+      "version_preview": "Aurrebista",
+      "restore": "Berreskuratu bertsio hau",
+      "restore_confirm_title": "Bertsio hau berreskuratu nahi duzu?",
+      "restore_confirm_description": "Uneko testua {{date}} egunean gordetako bertsioarekin ordezkatuko da.",
+      "metatags_title": "Meta-etiketak",
+      "metatags_hint": "Egin klik etiketa batean kurtsorean txertatzeko.",
+      "metatags_placebo_warning": "Frogatu gabea - baliteke emaitzan eraginik ez izatea.",
+      "metatags_empty": "Ez dago meta-etiketarik erregistratuta."
+    },
+    "prompts": {
+      "style_title": "Estilo gonbita",
+      "lyrics_title": "Letra gonbita",
+      "template_label": "Txantiloia",
+      "template_none": "Ez dago txantiloirik",
+      "variables_title": "Aldagaiak",
+      "preview_title": "Aurrebista",
+      "preview_empty": "Aukeratu txantiloi bat eta bete aldagaiak aurrebista ikusteko.",
+      "char_count": " {{count}} karaktere",
+      "char_count_warning": "Baliteke Sunok 1.000 karaktere baino gehiagoko estilo-galdeketak moztu.",
+      "copy": "Kopiatu",
+      "copied": "Arbelean kopiatu da",
+      "save_to_project": "Gorde proiektuan",
+      "saved_to_project": "Gonbita proiektuan gorde da",
+      "history_title": "Historia",
+      "history_empty": "Ez dago aurreko bertsiorik.",
+      "current_label": "Oraingoa"
+    },
+    "stems": {
+      "title": "Ahotsa eta gitarra",
+      "separate_button": "Ahotsa eta gitarra bereizi",
+      "running": "Banatzen…",
+      "vocals": "Ahotsa",
+      "instrumental": "Instrumentala",
+      "process_stem": "Prozesatu zurtoin hau",
+      "empty": "Hartu hau ez da oraindik bereizi. Exekutatu bereizketa ahotsa eta gitarra isolatuta entzuteko.",
+      "capability_missing": "Iturburuen bereizketa ez dago instalatuta zerbitzari honetan.",
+      "unavailable": "Ahotsa/gitarra bereiztea oraindik ez dago erabilgarri zerbitzari honetan."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "On",
+    "boolean_off": "Desaktibatuta"
+  },
+  "import": {
+    "title": "Inportatu",
+    "subtitle": "Ekarri dagoeneko diskoan dauden proiektuak liburutegira.",
+    "step_indicator": "{{current}} urratsa {{total}} ",
+    "step1": {
+      "title": "Aurkitu karpeta",
+      "description": "Seinalatu erroko karpetara zure proiektu eta ibilbideekin.",
+      "path_label": "Karpeta bidea",
+      "path_placeholder": "adib. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "Duela gutxi",
+      "scan_button": "Eskaneatu karpeta",
+      "scanning": "Eskaneatzen…",
+      "ffmpeg_warning": "FFmpeg ez da aurkitu — bihurketa behar duten fitxategiak saltatu egingo dira.",
+      "folders_found_one": " {{count}} karpeta aurkitu da",
+      "folders_found_other": " {{count}} karpetak aurkitu dira",
+      "unmatched_files_one": " {{count}} fitxategi ezezaguna",
+      "unmatched_files_other": " {{count}} fitxategiak ezezagunak"
+    },
+    "step2": {
+      "title": "Berrikusi elementuak",
+      "description": "Egiaztatu izenak, egoerak eta inportatuko dena baieztatu aurretik.",
+      "select_all": "Hautatu guztiak",
+      "table": {
+        "folder": "Iturburu karpeta",
+        "name": "Proiektuaren izena",
+        "status": "Egoera",
+        "audio": "Audioa",
+        "lyrics": "Letra",
+        "cover": "Estalkia",
+        "album": "Albuma"
+      },
+      "audio_include_one": " {{count}} fitxategia hautatuta",
+      "audio_include_other": " {{count}} fitxategiak hautatuta",
+      "no_audio": "Ez da aurkitu audiorik",
+      "no_lyrics": "Ez da letrarik aurkitu",
+      "no_cover": "Estalkirik ez",
+      "warnings_title": "Abisuak"
+    },
+    "step3": {
+      "title": "Inportatu",
+      "description": "Berretsi fitxategiak kopiatu eta proiektuak sortzeko.",
+      "copy_originals": "Kopiatu jatorrizko fitxategiak liburutegian",
+      "execute_button": "Hasi inportazioa",
+      "progress_title": "Inportatzen…",
+      "created_count": "Sortua: {{count}} ",
+      "skipped_count": "Saltatu: {{count}} ",
+      "done_title": "Inportazioa osatu da",
+      "done_description": "Beheko proiektuak zure liburutegian sortu dira.",
+      "view_project": "Proiektu irekia",
+      "start_over": "Inportazio berria"
+    }
+  },
+  "templates": {
+    "title": "Txantiloiak",
+    "subtitle": "Sunorako gonbita-txantiloi eta meta-etiketak berrerabilgarriak.",
+    "tabs": {
+      "prompts": "Galdetu txantiloiak",
+      "metatags": "Meta-etiketak"
+    },
+    "new_template": "Txantiloi berria",
+    "kind": {
+      "style": "Estiloa",
+      "lyrics": "Letra"
+    },
+    "kind_label": "Jatorra",
+    "delete_confirm_title": "\" {{name}} \" txantiloia ezabatu?",
+    "delete_confirm_description": "Hau ezin da desegin.",
+    "empty": "Ez dago txantiloirik oraindik.",
+    "editor": {
+      "title_new": "Txantiloi berria",
+      "title_edit": "Editatu txantiloia",
+      "name_label": "Izena",
+      "name_placeholder": "adib. Balada akustikoa",
+      "kind_label": "Jatorra",
+      "template_label": "Txantiloiaren testua",
+      "template_hint": "Markatu aldagai bakoitzari dagokion izena giltza kizkur bikoitzekin bilduta; adibidez, \"generoa\" izeneko aldagai bat genero bihurtzen da irekiera bi giltza eta itxiera bitan bilduta.",
+      "variables_label": "Aldagaiak",
+      "variable_add": "Gehitu aldagaia",
+      "variable_name": "Gakoa",
+      "variable_label": "Etiketa",
+      "variable_type": "Mota",
+      "variable_type_string": "Testua",
+      "variable_type_select": "Aukera bakarra",
+      "variable_type_multiselect": "Aukera anitzeko",
+      "variable_type_number": "Zenbakia",
+      "variable_type_boolean": "Bai/ez",
+      "variable_options": "Aukerak (komaz bereizita)",
+      "variable_required": "Beharrezkoa",
+      "save": "Gorde txantiloia"
+    },
+    "metatags": {
+      "title": "Meta-etiketak",
+      "subtitle": "Egiturazko eta estiloko etiketak Sunok ezagutzen ditu letren barruan.",
+      "new_tag": "Etiketa berria",
+      "tag_label": "Etiketa",
+      "tag_placeholder": "adib. gitarra-solo",
+      "category_label": "Kategoria",
+      "tier_label": "Fidagarritasuna",
+      "tier_legend_title": "Fidagarritasunaren kondaira",
+      "tier_legend": {
+        "1": "1. maila — dokumentatua eta koherentea",
+        "2": "2. maila — normalean funtzionatzen du",
+        "3": "3. maila — efektu aldakorra",
+        "4": "4. maila - plazeboa, frogatu gabekoa"
+      },
+      "description_label": "Deskribapena",
+      "delete_confirm_title": "\" {{tag}} \" etiketa ezabatu?",
+      "empty": "Oraindik ez dago meta-etiketa pertsonalizaturik."
+    }
+  },
+  "settings": {
+    "title": "Ezarpenak",
+    "subtitle": "Sistemaren informazioa, hizkuntza eta lehentasun lehenetsiak.",
+    "system_info_title": "Sistema",
+    "version": "Bertsioa",
+    "data_dir": "Datuen karpeta",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Eskuragarri",
+    "ffmpeg_missing": "Ez da aurkitu",
+    "capabilities_title": "Instalatutako gaitasunak",
+    "capability": {
+      "denoise": "Zarata murriztea",
+      "quality": "Kalitatearen hobekuntza",
+      "separate": "Iturburuen bereizketa",
+      "ffmpeg": "FFmpeg bihurketa"
+    },
+    "capability_available": "Eskuragarri",
+    "capability_unavailable": "Ez dago erabilgarri",
+    "gpu_title": "GPU azelerazioa",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime hornitzaileak"
+    },
+    "gpu_none": "Ez da GPU hornitzailerik detektatu",
+    "language_title": "Hizkuntza",
+    "language": {
+      "pt-BR": "portugesa (Brasil)",
+      "en": "ingelesa"
+    },
+    "theme_title": "Itxura",
+    "theme": {
+      "dark": "Iluna",
+      "light": "Argia"
+    },
+    "defaults_title": "Esportatu lehenetsiak",
+    "lufs_target_label": "Helburua LUFS",
+    "lufs_target_hint": "Hasierako iradokizun gisa erabiltzen da exekuzioak esportatzeko. Sunoren lehenetsia -14 LUFS inguruan kokatzen da.",
+    "saved": "Hobespenak gordeta"
+  },
+  "guide": {
+    "title": "Suno grabatzeko gida",
+    "subtitle": "Nola atera emaitzarik onenak lortzen dituzten ahotsa eta gitarra.",
+    "intro": "Suno erreferentzi garbi eta anbiguoekin egiten da onena. Gida honek prestaketa, helburu-mailak eta 3-5 minutuko grabazio-gidoia biltzen ditu.",
+    "sections": {
+      "prep": {
+        "title": "Prestaketa",
+        "body": "Grabatu tratatutako gela batean edo material leun asko duen batean (gortinak, alfonbrak, arropa armairu batean). Itzali haizagailuak eta burrunba egiten duen edozer. Berotu ahotsa 5 minutuz grabatu aurretik."
+      },
+      "levels": {
+        "title": "Mailak: -12 eta -6 dBFS",
+        "body": "Helburua neurgailuaren -12 eta -6 dBFS arteko gailurrak. Tarte horretatik behera, hondoko zarata nabariagoa bihurtzen da; gainetik, mozketa arriskua igotzen da. Erabili Grabatu orrialdeko neurgailua hasi aurretik irabazia ezartzeko."
+      },
+      "distance": {
+        "title": "Mikroaren distantzia: 15-30 cm",
+        "body": "Egon mikrofonotik 15 eta 30 cm-ra. Hori baino hurbilago esplosiboak eta hurbiltasun efektua areagotzen ditu; urrunago gela erreberb eta zarata gehiago jasotzen du."
+      },
+      "script": {
+        "title": "Grabaketa gidoia",
+        "warmup": "Ahotsaren beroketa (1-2 minutu)",
+        "vowels": "Bokal iraunkorrak - a, e, i, o, u",
+        "scales": "Eskala sinpleak, gora eta behera",
+        "excerpt": "Abestiaren zati bat (8 eta 16 konpas)",
+        "dynamics": "Dinamika: leun hasi, ozen amaitu",
+        "spoken_phrase": "Ahozko esaldi bat, Sunok zure ahots-tonua irakur dezan"
+      },
+      "expectations": {
+        "title": "Sunok espero duena",
+        "body": "WAV, 48 kHz, mono, lehorra (erreberbrik edo efekturik gabe), 3 eta 5 minutu arteko erreferentzia. Hartutako 2 minutu garbienak eta adierazgarrienak normalean emaitzarik onenak ematen ditu."
+      }
+    }
+  },
+  "status": {
+    "idea": "Ideia",
+    "em_progresso": "Abian",
+    "quase": "Ia hor",
+    "pronto": "Prest"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Sunoren ahots-gidoia osoa",
+      "desc": "5 minutu gidatu: beroketa, bokalak, eskalak, bi abesti zati, dinamika eta ahozko esaldi bat."
+    },
+    "step": {
+      "warmup": "Ahotsaren beroketa",
+      "warmup_inst": "Askatu aharrausiekin, ezpainen trinoekin (brrr) eta zurrumurru leun batekin minutu batez. Ez dago grabatu beharrik — abestu aurretik eztarria lasaitzea besterik ez da.",
+      "vowels": "Bokal iraunkorrak",
+      "vowels_inst": "Eutsi bokal bakoitza - a, e, i, o, u - 3 eta 4 segundoz zure tonu erosoan, bolumen egonkor batekin. Honek Sunori zure ahotsaren tinbre hutsa jasotzen laguntzen du.",
+      "scales": "Eskala gora eta behera",
+      "scales_inst": "Kanta ezazu eskala sinple bat gora eta gero behera, \"la\" edo \"na\". Ez du perfektua izan behar - helburua zure ahots-barrutia mapatzea da.",
+      "section": "Abestiaren zatia - 1. zatia",
+      "section_inst": "Abestiaren 8 eta 16 konpasak abestu, transmititu nahi duzun benetako intentzioarekin. Lehenetsi argitasuna eta presentzia perfekzio teknikoaren gainetik.",
+      "section2": "Abestiaren zatia - 2. zatia",
+      "section2_inst": "Beste 8 eta 16 konpas abestu, hobe da koru bat edo aurrekoarekin kontrastean dagoen atal bat. Barietate gehiagok modeloari zure ahotsa ikasten laguntzen dio.",
+      "dynamics": "Dinamika: leuna → ozen",
+      "dynamics_inst": "Abestu esaldi bera oso leun hasiz eta ozen amaituz, eztarria estutu gabe. Honek Suno zure ahotsaren barruti dinamikoa erakusten du.",
+      "spoken": "Ahozko esaldia",
+      "spoken_inst": "Hitz egin — ez abestu — esaldi labur eta natural bat, berriketan egongo bazina bezala. Honek Sunori zure ahotsaren benetako tinbrea ezagutzen laguntzen du."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Zaharberritzea",
+      "filter": "Iragazkiak",
+      "dynamics": "Dinamika",
+      "separation": "Bereizketa",
+      "quality": "Kalitatea",
+      "utility": "Erabilgarritasuna",
+      "loudness": "Ozentasuna"
+    },
+    "highpass": "Pasa handiko iragazkia",
+    "lowpass": "Behe-iragazkia",
+    "denoise": "Zarata murriztea",
+    "declip": "Ebakitzea",
+    "declick": "Klik/pop kentzea",
+    "deesser": "De-esser",
+    "gate": "Zarataren atea",
+    "compressor": "Konpresorea",
+    "limiter": "Mugatzailea",
+    "eq": "Berdinketa",
+    "normalize": "Normalizazio gailurra",
+    "loudness": "Ozentasunaren normalizazioa (LUFS)",
+    "reverb_reduce": "Erreberbaren murrizketa",
+    "separate": "Iturburuen bereizketa",
+    "quality": "Kalitatearen hobekuntza (eskala)",
+    "trim_silence": "Isiltasuna moztea",
+    "fade": "Desagertzea / desagertzea",
+    "stereo_to_mono": "Bihurtu monora",
+    "resample": "Berriz laginketa"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Fidagarria",
+      "2": "Normalean funtzionatzen du",
+      "3": "Aldakorra",
+      "4": "Plazeboa"
+    },
+    "category": {
+      "structure": "Egitura",
+      "vocal": "Ahotsa",
+      "instrument": "Instrumentua",
+      "dynamics": "Dinamika",
+      "production": "Ekoizpena",
+      "mood": "Aldartea"
+    },
+    "verse": "Bertsoa",
+    "chorus": "Korua",
+    "bridge": "Zubia",
+    "intro": "Sarrera",
+    "outro": "Outro",
+    "hook": "Amua",
+    "prechorus": "Koru aurrekoa",
+    "instrumental": "Instrumentala",
+    "guitar_solo": "Gitarra bakarlaria",
+    "build_up": "Eraikitzea",
+    "breakdown": "Matxura",
+    "spoken_word": "Ahozko hitza",
+    "whispered": "xuxurlatu zuen",
+    "harmonies": "Harmoniak",
+    "male_vocal": "Gizonezko ahotsa",
+    "female_vocal": "Emakumezko ahotsa",
+    "duet": "Duetoa",
+    "acoustic": "Akustikoa",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Ahots garbia",
+    "voice_guitar_balanced": "Ahots eta gitarra orekatua",
+    "podcast": "Podcasta",
+    "suno_ready": "Suno prest",
+    "gentle_restore": "Berreskuratze leuna",
+    "raw_passthrough": "Prozesatu gabe"
+  },
+  "errors": {
+    "unknown": "Zerbait gaizki joan da.",
+    "network": "Ezin izan da zerbitzarira iritsi.",
+    "validation_error": "Egiaztatu sartu duzun informazioa.",
+    "not_found": "Ez da aurkitu elementua.",
+    "project_not_found": "Proiektua ez da aurkitu.",
+    "take_not_found": "Hartu ez da aurkitu.",
+    "album_not_found": "Ez da aurkitu albuma.",
+    "preset_not_found": "Ez da aurrez ezarri.",
+    "template_not_found": "Ez da txantiloia aurkitu.",
+    "device_busy": "Audio-gailua beste programa batek erabiltzen du.",
+    "device_not_found": "Ez da aurkitu audio gailua.",
+    "already_recording": "Dagoeneko grabaketa bat abian da.",
+    "ffmpeg_missing": "FFmpeg ez dago instalatuta — instalatu fitxategi hau bihurtzeko.",
+    "disk_full": "Ez dago nahikoa diskoan.",
+    "permission_denied": "Emandako biderako baimena ukatu da.",
+    "import_path_not_found": "Ez da inportatzeko bidea aurkitu.",
+    "job_failed": "Ezin izan da prozesatu.",
+    "job_cancelled": "Prozesatzea bertan behera utzi da.",
+    "process_failed": "Ezin izan da hartu-ematea prozesatu.",
+    "export_failed": "Ezin izan da fitxategia esportatu.",
+    "record_failed": "Ezin izan da grabatzen hasi."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Ilaran jarrita",
+      "running": "Korrika",
+      "done": "Eginda",
+      "error": "Huts egin du",
+      "cancelled": "Bertan behera utzita"
+    },
+    "kind": {
+      "process": "Tramitazioa",
+      "export": "Esportatu",
+      "import": "Inportatu",
+      "record": "Grabaketa"
+    }
+  }
+}

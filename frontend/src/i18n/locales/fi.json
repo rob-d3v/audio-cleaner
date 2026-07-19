@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio Cleaner"
+  },
+  "nav": {
+    "library": "Kirjasto",
+    "record": "Record",
+    "import": "Tuo",
+    "templates": "Mallit",
+    "settings": "Asetukset",
+    "guide": "Opas"
+  },
+  "common": {
+    "save": "Tallenna",
+    "saving": "Tallennetaan…",
+    "saved": "Tallennettu",
+    "cancel": "Peruuta",
+    "close": "Sulje",
+    "delete": "Poista",
+    "edit": "Muokkaa",
+    "create": "Luo",
+    "search": "Etsi",
+    "loading": "Ladataan…",
+    "error": "Virhe",
+    "retry": "Yritä uudelleen",
+    "confirm": "Vahvista",
+    "back": "Takaisin",
+    "next": "Seuraavaksi",
+    "continue": "Jatka",
+    "finish": "Valmis",
+    "copy": "Kopioi",
+    "copied": "Kopioitu",
+    "download": "Lataa",
+    "upload": "Lataa",
+    "none": "Ei mitään",
+    "all": "Kaikki",
+    "yes": "Kyllä",
+    "no": "Ei",
+    "select": "Valitse",
+    "optional": "valinnainen",
+    "required": "tarvitaan",
+    "unsaved_changes": "Tallentamattomat muutokset",
+    "name": "Nimi",
+    "status": "Tila",
+    "type": "Kirjoita",
+    "actions": "Toiminnot",
+    "empty": "Tyhjä",
+    "browse": "Selaa",
+    "remove": "Poista",
+    "add": "Lisää",
+    "rename": "Nimeä uudelleen",
+    "duplicate": "Kopioi",
+    "warning": "Varoitus",
+    "locked": "Lukittu",
+    "builtin": "Sisäänrakennettu",
+    "custom": "Mukautettu",
+    "untitled": "Nimetön",
+    "select_placeholder": "Valitse…"
+  },
+  "library": {
+    "title": "Kirjasto",
+    "subtitle": "Ääni- ja kitaraprojektisi ideasta julkaisuun.",
+    "new_project": "Uusi projekti",
+    "new_album": "Uusi albumi",
+    "search_placeholder": "Hae nimellä…",
+    "view": {
+      "grid": "Ruudukko",
+      "albums": "Albumit"
+    },
+    "filters": {
+      "all": "Kaikki"
+    },
+    "take_count_one": " {{count}} ota",
+    "take_count_other": " {{count}} kestää",
+    "updated_at": "Päivitetty {{date}} ",
+    "no_results": {
+      "title": "Projekteja ei löytynyt",
+      "description": "Yritä säätää haku- tai tilasuodatinta."
+    },
+    "empty": {
+      "title": "Kirjastosi on tyhjä",
+      "description": "Aloita uusi projekti tyhjästä tai tuonti vie, joka sinulla on jo levyllä.",
+      "cta_import": "Tuo kansiosta",
+      "cta_new": "Luo projekti"
+    },
+    "project_dialog": {
+      "title": "Uusi projekti",
+      "description": "Anna sille nimi ja valitse tallennustila.",
+      "name_label": "Projektin nimi",
+      "name_placeholder": "esim. Kesä Sade",
+      "mode_label": "tila",
+      "mode": {
+        "voice": "Vain ääni",
+        "voice_guitar": "Ääni + kitara"
+      },
+      "submit": "Luo projekti"
+    },
+    "album_dialog": {
+      "title": "Uusi albumi",
+      "description": "Ryhmittele liittyvät projektit albumiin.",
+      "name_label": "Albumin nimi",
+      "name_placeholder": "esim. Syksyn EP",
+      "submit": "Luo albumi"
+    },
+    "album": {
+      "untitled": "Nimetön albumi",
+      "members_count_one": " {{count}} projekti",
+      "members_count_other": " {{count}} projekteja",
+      "empty": "Tässä albumissa ei ole vielä projekteja.",
+      "delete_confirm_title": "Poistetaanko albumi?",
+      "delete_confirm_description": "Projekteja ei poisteta, ne vain poistetaan linkistä \"{{name}}\"."
+    },
+    "delete_project": {
+      "confirm_title": "Poistetaanko \"{{name}}\"?",
+      "confirm_description": "Tämä poistaa projektin ja sen kaiken. Tätä ei voi kumota."
+    }
+  },
+  "record": {
+    "title": "Record",
+    "subtitle": "Ota puhdas otos, katso tasosi ja seuraa käsikirjoitusta.",
+    "project_label": "Projekti",
+    "project_placeholder": "Valitse projekti",
+    "project_create_quick": "Luo nopea projekti…",
+    "device_label": "Syöttölaite",
+    "device_placeholder": "Valitse laite",
+    "device_default_badge": "Järjestelmän oletus",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Syöttölaitteita ei löytynyt.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Lopeta valvonta",
+    "record_button": "Record",
+    "stop_button": "Pysähdy",
+    "elapsed_label": "Kulunut aika",
+    "status": {
+      "idle": "Tyhjäkäynti",
+      "monitoring": "Valvonta",
+      "recording": "Tallennus",
+      "stopped": "Pysähtynyt"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Huippu",
+      "clip": "Leike"
+    },
+    "guide": {
+      "title": "Ohjattu istunto",
+      "subtitle": "Anna valmentajan opastaa sinut käsikirjoituksen läpi vaihe vaiheelta lämmittelystä puhuttuun lauseeseen.",
+      "loading": "Ladataan skriptiä…",
+      "unavailable": "Ohjattu istunto ei ole vielä saatavilla palvelimella.",
+      "select_project_device": "Valitse projekti ja syöttölaite tallentaaksesi vaiheet suoraan täältä.",
+      "progress": " {{done}} / {{total}} vaihetta",
+      "start_timer": "Käynnistä ajastin",
+      "skip_timer": "Ohita ajastin",
+      "record_step": "Tallenna tämä vaihe",
+      "stop_step": "Lopeta tallennus",
+      "mark_done": "Valmis - seuraava vaihe",
+      "step_recorded": "Ota tallennettuna",
+      "no_record_step": "Lämmittelyvaihe – tallennusta ei tarvita.",
+      "bars_hint": "Noin {{bars}} palkkia",
+      "complete_title": "Käsikirjoitus valmis!",
+      "complete_body": "Olet tallentanut käsikirjoituksen jokaisen vaiheen. Palaa projektin Ääni-välilehdelle ja valitse suosikkikuvasi.",
+      "restart": "Käynnistä skripti uudelleen"
+    },
+    "best2min": {
+      "button": "Löydä parhaat 2 minuuttia (Suno)",
+      "running": "Analysoidaan otetta…",
+      "score_label": "Pisteet",
+      "hint": "Suorittaa koko otoksen energia- ja selkeysanalyysin löytääkseen vahvimman 2 minuutin ikkunan – voit silti säätää aluetta käsin myöhemmin.",
+      "chart_caption": "Pisteet per ikkuna",
+      "unavailable": "Paras 2 minuutin analyysi ei ole vielä saatavilla tällä palvelimella."
+    },
+    "takes_title": "Poimintoja tästä istunnosta",
+    "takes_empty": "Tässä istunnossa ei vielä tallennettu otoksia.",
+    "open_in_project": "Avaa projektissa",
+    "ws_disconnected": "Yhdistetään uudelleen tasomittariin…",
+    "select_project_first": "Aloita valitsemalla projekti.",
+    "select_device_first": "Valitse syöttölaite."
+  },
+  "project": {
+    "back_to_library": "Takaisin kirjastoon",
+    "header": {
+      "status_label": "Tila",
+      "cover_upload": "Lataa kansi",
+      "cover_remove": "Poista kansi",
+      "name_placeholder": "Projektin nimi",
+      "links_title": "Linkit",
+      "add_link": "Lisää linkki",
+      "mode": {
+        "voice": "Vain ääni",
+        "voice_guitar": "Ääni + kitara"
+      }
+    },
+    "tabs": {
+      "audio": "Ääni",
+      "lyrics": "Sanoitukset",
+      "prompts": "Kehotteet",
+      "notes": "Huomautuksia"
+    },
+    "audio": {
+      "takes_title": "kestää",
+      "no_takes": {
+        "title": "Ei ota vielä",
+        "description": "Tallenna uusi otos tai tuo olemassa oleva tiedosto."
+      },
+      "record_new": "Nauhoita uusi kuva",
+      "rating": "Luokitus",
+      "variant": {
+        "raw": "Raaka",
+        "processed": "Käsitelty"
+      },
+      "variant_placeholder": "Versio",
+      "process_button": "Prosessi",
+      "export_button": "Vie",
+      "delete_take_confirm_title": "Poistetaanko tämä kuva?",
+      "delete_take_confirm_description": "Raakaääni ja kaikki käsitellyt versiot poistetaan.",
+      "ab": {
+        "raw": "A · Raaka",
+        "processed": "B · Käsitelty"
+      },
+      "origin": {
+        "recorded": "Äänitetty",
+        "imported": "Tuotu"
+      },
+      "session_label_placeholder": "Istuntotunniste (valinnainen)",
+      "duration": "Kesto",
+      "sample_rate": "Näytetaajuus",
+      "channels": "Kanavat",
+      "created_at": "Äänitetty"
+    },
+    "pipeline": {
+      "title": "Käsittelyketju",
+      "preset_label": "Esiasetus",
+      "preset_none": "Mukautettu ketju",
+      "preset_save": "Tallenna esiasetuksena",
+      "stage_locked": "Lukittu",
+      "stage_requires_extra": "Vaatii lisälaitteen, jota ei ole asennettu",
+      "process_button": "Prosessi kestää",
+      "processing": "Käsitellään…",
+      "job_queued": "Jonossa…",
+      "job_running": "Käsitellään…",
+      "job_done": "Valmis",
+      "job_error": "Epäonnistui",
+      "job_cancelled": "Peruutettu",
+      "cancel_job": "Peruuta",
+      "no_stages": "Ei vaiheita saatavilla."
+    },
+    "export": {
+      "title": "Vie ota",
+      "description": "Renderöi lopullinen tiedosto käsitellystä versiosta.",
+      "variant_label": "Versio",
+      "format_label": "Muoto",
+      "preset_label": "Vie esiasetus",
+      "range_label": "Alue",
+      "range_full": "Täyspitkä",
+      "range_custom": "Mukautettu valikoima",
+      "start_label": "Aloita (s)",
+      "end_label": "Loppu(t)",
+      "submit": "Vie",
+      "progress": "Renderöidään tiedostoa…",
+      "download_ready": "Tiedosto valmis",
+      "download_button": "Lataa tiedosto"
+    },
+    "notes": {
+      "placeholder": "Vapaamuotoiset muistiinpanot tästä projektista…",
+      "saved_at": "Tallennettu {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Kirjoita sanat tähän. Käytä sivussa olevaa palettia Suno-metatunnisteiden lisäämiseen.",
+      "saved_at": "Tallennettu {{time}} ",
+      "saving": "Tallennetaan…",
+      "versions": "Versiot",
+      "versions_empty": "Ei vielä tallennettuja versioita.",
+      "version_preview": "Esikatselu",
+      "restore": "Palauta tämä versio",
+      "restore_confirm_title": "Palautetaanko tämä versio?",
+      "restore_confirm_description": "Nykyinen teksti korvataan versiolla, joka on tallennettu {{date}} .",
+      "metatags_title": "Sisällönkuvauskentät",
+      "metatags_hint": "Napsauta tunnistetta lisätäksesi sen kohdistimen kohdalle.",
+      "metatags_placebo_warning": "Todistamaton – ei välttämättä vaikuta tulokseen.",
+      "metatags_empty": "Ei rekisteröityjä sisällönkuvauskenttiä."
+    },
+    "prompts": {
+      "style_title": "Tyylikehote",
+      "lyrics_title": "Sanoitukset kehottavat",
+      "template_label": "Malli",
+      "template_none": "Ei mallia",
+      "variables_title": "Muuttujat",
+      "preview_title": "Esikatselu",
+      "preview_empty": "Valitse malli ja täytä muuttujat nähdäksesi esikatselun.",
+      "char_count": " {{count}} merkkiä",
+      "char_count_warning": "Suno saattaa lyhentää yli 1000 merkin tyylikehotteita.",
+      "copy": "Kopioi",
+      "copied": "Kopioitu leikepöydälle",
+      "save_to_project": "Tallenna projektiin",
+      "saved_to_project": "Kehote tallennettu projektiin",
+      "history_title": "Historia",
+      "history_empty": "Ei aiempia versioita.",
+      "current_label": "Nykyinen"
+    },
+    "stems": {
+      "title": "Laulu ja kitara",
+      "separate_button": "Erillinen laulu ja kitara",
+      "running": "Erotetaan…",
+      "vocals": "Laulu",
+      "instrumental": "Instrumentaalinen",
+      "process_stem": "Käsittele tämä varsi",
+      "empty": "Tätä otetta ei ole vielä erotettu. Suorita erottelu kuullaksesi laulun ja kitaran eristyksissä.",
+      "capability_missing": "Lähdeerottelua ei ole asennettu tälle palvelimelle.",
+      "unavailable": "Laulun ja kitaran erottelu ei ole vielä käytettävissä tällä palvelimella."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Päällä",
+    "boolean_off": "Pois päältä"
+  },
+  "import": {
+    "title": "Tuo",
+    "subtitle": "Tuo levyllä jo olemassa olevat projektit kirjastoon.",
+    "step_indicator": "Vaihe {{current}} / {{total}} ",
+    "step1": {
+      "title": "Paikanna kansio",
+      "description": "Osoita juurikansiota, jossa on projektisi ja kappaleesi.",
+      "path_label": "Kansion polku",
+      "path_placeholder": "esim. E:\\Robbs\\Pride\\Musiikki\\ROBBS",
+      "recent_label": "Viimeaikaiset",
+      "scan_button": "Skannaa kansio",
+      "scanning": "Skannataan…",
+      "ffmpeg_warning": "FFmpeg ei löydy — tiedostot, jotka tarvitsevat muunnoksen ohitetaan.",
+      "folders_found_one": " {{count}} kansio löytyi",
+      "folders_found_other": " {{count}} kansioita löytyi",
+      "unmatched_files_one": " {{count}} tuntematon tiedosto",
+      "unmatched_files_other": " {{count}} tunnistamattomia tiedostoja"
+    },
+    "step2": {
+      "title": "Tarkista kohteet",
+      "description": "Tarkista nimet, tilat ja tuotavat tiedot ennen vahvistamista.",
+      "select_all": "Valitse kaikki",
+      "table": {
+        "folder": "Lähdekansio",
+        "name": "Projektin nimi",
+        "status": "Tila",
+        "audio": "Ääni",
+        "lyrics": "Sanoitukset",
+        "cover": "Kansi",
+        "album": "Albumi"
+      },
+      "audio_include_one": " {{count}} tiedosto valittu",
+      "audio_include_other": " {{count}} tiedostoa valittu",
+      "no_audio": "Ääntä ei löytynyt",
+      "no_lyrics": "Sanoja ei löytynyt",
+      "no_cover": "Ei kansia",
+      "warnings_title": "Varoitukset"
+    },
+    "step3": {
+      "title": "Tuo",
+      "description": "Vahvista tiedostojen kopioiminen ja projektien luominen.",
+      "copy_originals": "Kopioi alkuperäiset tiedostot kirjastoon",
+      "execute_button": "Aloita tuonti",
+      "progress_title": "Tuodaan…",
+      "created_count": "Luotu: {{count}} ",
+      "skipped_count": "Ohitettu: {{count}} ",
+      "done_title": "Tuonti valmis",
+      "done_description": "Alla olevat projektit on luotu kirjastossasi.",
+      "view_project": "Avoin projekti",
+      "start_over": "Uusi tuonti"
+    }
+  },
+  "templates": {
+    "title": "Mallit",
+    "subtitle": "Uudelleen käytettävät kehotemallit ja sisällönkuvauskentät Sunolle.",
+    "tabs": {
+      "prompts": "Kehotusmalleja",
+      "metatags": "Sisällönkuvauskentät"
+    },
+    "new_template": "Uusi malli",
+    "kind": {
+      "style": "Tyyli",
+      "lyrics": "Sanoitukset"
+    },
+    "kind_label": "Ystävällinen",
+    "delete_confirm_title": "Poistetaanko malli \"{{name}}\"?",
+    "delete_confirm_description": "Tätä ei voi kumota.",
+    "empty": "Ei vielä malleja.",
+    "editor": {
+      "title_new": "Uusi malli",
+      "title_edit": "Muokkaa mallia",
+      "name_label": "Nimi",
+      "name_placeholder": "esim. Akustinen balladi",
+      "kind_label": "Ystävällinen",
+      "template_label": "Mallin teksti",
+      "template_hint": "Merkitse kunkin muuttujan paikka ja sen nimi on kääritty kaksinkertaisiin kihariin aaltosulkeisiin – esimerkiksi \"genre\"-niminen muuttuja muuttuu genreksi, joka on kääritty kahteen avaavaan ja kahteen sulkevaan aaltosulkeeseen.",
+      "variables_label": "Muuttujat",
+      "variable_add": "Lisää muuttuja",
+      "variable_name": "Avain",
+      "variable_label": "Label",
+      "variable_type": "Kirjoita",
+      "variable_type_string": "Teksti",
+      "variable_type_select": "Yksittäinen valinta",
+      "variable_type_multiselect": "Monivalinta",
+      "variable_type_number": "Numero",
+      "variable_type_boolean": "Kyllä/ei",
+      "variable_options": "Vaihtoehdot (pilkuilla erotettu)",
+      "variable_required": "Pakollinen",
+      "save": "Tallenna malli"
+    },
+    "metatags": {
+      "title": "Sisällönkuvauskentät",
+      "subtitle": "Rakenteelliset ja tyylitunnisteet Suno tunnistaa sanoitukset sisältä.",
+      "new_tag": "Uusi tunniste",
+      "tag_label": "Tag",
+      "tag_placeholder": "esim. kitara-soolo",
+      "category_label": "Luokka",
+      "tier_label": "Luotettavuus",
+      "tier_legend_title": "Luotettavuuden legenda",
+      "tier_legend": {
+        "1": "Taso 1 – dokumentoitu ja johdonmukainen",
+        "2": "Taso 2 - yleensä toimii",
+        "3": "Taso 3 – muuttuva vaikutus",
+        "4": "Taso 4 – lumelääke, todistamaton"
+      },
+      "description_label": "Kuvaus",
+      "delete_confirm_title": "Poistetaanko tunniste \"{{tag}}\"?",
+      "empty": "Ei vielä mukautettuja sisällönkuvauskenttiä."
+    }
+  },
+  "settings": {
+    "title": "Asetukset",
+    "subtitle": "Järjestelmätiedot, kieli ja oletusasetukset.",
+    "system_info_title": "Järjestelmä",
+    "version": "Versio",
+    "data_dir": "Datakansio",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Saatavilla",
+    "ffmpeg_missing": "Ei löytynyt",
+    "capabilities_title": "Asennetut ominaisuudet",
+    "capability": {
+      "denoise": "Melunvaimennus",
+      "quality": "Laadun parantaminen",
+      "separate": "Lähteen erottelu",
+      "ffmpeg": "FFmpeg muunnos"
+    },
+    "capability_available": "Saatavilla",
+    "capability_unavailable": "Ei saatavilla",
+    "gpu_title": "GPU-kiihdytys",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime -palveluntarjoajat"
+    },
+    "gpu_none": "Grafiikkasuoritintarjoajia ei havaittu",
+    "language_title": "Kieli",
+    "language": {
+      "pt-BR": "portugali (Brasilia)",
+      "en": "englanti"
+    },
+    "theme_title": "Ulkonäkö",
+    "theme": {
+      "dark": "Tumma",
+      "light": "Kevyt"
+    },
+    "defaults_title": "Vie oletusasetukset",
+    "lufs_target_label": "Kohde LUFS",
+    "lufs_target_hint": "Käytetään aloitusehdotuksena vietäessä. Sunon oletusarvo on noin -14 LUFS.",
+    "saved": "Asetukset tallennettu"
+  },
+  "guide": {
+    "title": "Suno äänitysopas",
+    "subtitle": "Äänen ja kitaran vangitseminen tuottaa parhaat tulokset.",
+    "intro": "Suno toimii parhaiten puhtailla, yksiselitteisillä viittauksilla. Tämä opas kattaa valmistelun, tavoitetasot ja 3–5 minuutin tallennuskäsikirjoituksen.",
+    "sections": {
+      "prep": {
+        "title": "Valmistelu",
+        "body": "Nauhoita käsitellyssä huoneessa tai sellaisessa, jossa on runsaasti pehmeää materiaalia (verhot, matot, vaatteet kaapissa). Sammuta tuulettimet ja kaikki mikä humisee. Lämmitä ääntäsi 5 minuuttia ennen äänitystä."
+      },
+      "levels": {
+        "title": "Tasot: -12 - -6 dBFS",
+        "body": "Tavoittele mittarin huippuja välillä -12 ja -6 dBFS. Tämän alueen alapuolella taustamelu tulee havaittavammaksi; sen yläpuolella leikkausriski kasvaa. Käytä Record-sivun mittaria vahvistaaksesi vahvistuksesi ennen aloittamista."
+      },
+      "distance": {
+        "title": "Mikrofonin etäisyys: 15-30 cm",
+        "body": "Pysy 15-30 cm päässä mikrofonista. Lähempänä sitä liioittelevat räjähteet ja läheisyysvaikutus; kauempana poimii enemmän huoneen kaikua ja melua."
+      },
+      "script": {
+        "title": "Tallennus käsikirjoitus",
+        "warmup": "Laulun lämmittely (1-2 minuuttia)",
+        "vowels": "Jatkuvat vokaalit - a, e, i, o, u",
+        "scales": "Yksinkertaiset vaa'at, ylös ja alas",
+        "excerpt": "Kappalekappale (8-16 tahtia)",
+        "dynamics": "Dynamiikka: aloita pehmeästi, lopeta äänekkäästi",
+        "spoken_phrase": "Yksi puhuttu lause, jotta Suno voi lukea äänensävysi"
+      },
+      "expectations": {
+        "title": "Mitä Suno odottaa",
+        "body": "WAV, 48 kHz, mono, kuiva (ei kaikua tai tehosteita), 3-5 minuuttia referenssiä. Parhaat tulokset tuottavat yleensä puhtain, edustavin 2 minuuttia."
+      }
+    }
+  },
+  "status": {
+    "idea": "Idea",
+    "em_progresso": "Käynnissä",
+    "quase": "Melkein siellä",
+    "pronto": "Valmis"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Sunon täydellinen laulukäsikirjoitus",
+      "desc": "5 ohjattua minuuttia: lämmittely, vokaalit, asteikot, kaksi kappaletta, dynamiikka ja puhuttu fraasi."
+    },
+    "step": {
+      "warmup": "Laulun lämmittely",
+      "warmup_inst": "Löysää haukotuksella, huuletrillillä (brrr) ja pehmeällä huminalla noin minuutin ajan. Ei tarvitse äänittää - se on vain rentouttaa kurkkua ennen laulamista.",
+      "vowels": "Jatkuvat vokaalit",
+      "vowels_inst": "Pidä kutakin vokaalia – a, e, i, o, u – 3–4 sekuntia mukavalla äänenkorkeudellasi tasaisella äänenvoimakkuudella. Tämä auttaa Sunoa poimimaan äänesi puhtaan sointin.",
+      "scales": "Vaaka ylös ja alas",
+      "scales_inst": "Laula yksinkertainen asteikko ylös ja sitten alas \"la\" tai \"na\". Sen ei tarvitse olla täydellinen – tavoitteena on kartoittaa äänialueesi.",
+      "section": "Kappalekappale – osa 1",
+      "section_inst": "Laula 8–16 kappaletta todellisella tarkoituksella, jonka haluat välittää. Priorisoi selkeys ja läsnäolo teknisen täydellisyyden edelle.",
+      "section2": "Kappale kappale – osa 2",
+      "section2_inst": "Laula vielä 8–16 tahtia – mieluiten kuoro tai jakso, joka eroaa edellisestä. Enemmän vaihtelua auttaa mallia oppimaan äänesi.",
+      "dynamics": "Dynamiikka: pehmeä → äänekäs",
+      "dynamics_inst": "Laula sama lause, alkaen erittäin pehmeästi ja päättyen äänekkäästi kurkkua rasittamatta. Tämä näyttää Suno äänesi dynaamisen alueen.",
+      "spoken": "Puhuttu lause",
+      "spoken_inst": "Puhu – älä laula – lyhyt, luonnollinen lause, aivan kuin keskustelisit. Tämä auttaa Sunoa tunnistamaan äänesi todellisen sointin."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restaurointi",
+      "filter": "Suodattimet",
+      "dynamics": "Dynamiikka",
+      "separation": "Erottaminen",
+      "quality": "Laatu",
+      "utility": "Hyödyllisyys",
+      "loudness": "Äänenvoimakkuus"
+    },
+    "highpass": "Ylipäästösuodatin",
+    "lowpass": "Alipäästösuodatin",
+    "denoise": "Melunvaimennus",
+    "declip": "Kaatuminen",
+    "declick": "Click/pop poisto",
+    "deesser": "De-esser",
+    "gate": "Meluportti",
+    "compressor": "Kompressori",
+    "limiter": "Rajoitin",
+    "eq": "Tasoitus",
+    "normalize": "Huippu normalisointi",
+    "loudness": "Äänenvoimakkuuden normalisointi (LUFS)",
+    "reverb_reduce": "Kaiun vähennys",
+    "separate": "Lähteen erottelu",
+    "quality": "Laadun parantaminen (ylempi taso)",
+    "trim_silence": "Hiljainen trimmaus",
+    "fade": "Häivytys sisään / häivytys",
+    "stereo_to_mono": "Muunna monoksi",
+    "resample": "Uudelleennäytteenotto"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Luotettava",
+      "2": "Yleensä toimii",
+      "3": "Muuttuva",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Rakenne",
+      "vocal": "laulu",
+      "instrument": "Instrumentti",
+      "dynamics": "Dynamiikka",
+      "production": "Tuotanto",
+      "mood": "Tunnelma"
+    },
+    "verse": "Jae",
+    "chorus": "Kuoro",
+    "bridge": "Silta",
+    "intro": "Johdanto",
+    "outro": "Outro",
+    "hook": "Koukku",
+    "prechorus": "Esikuoro",
+    "instrumental": "Instrumentaalinen",
+    "guitar_solo": "Kitarasoolo",
+    "build_up": "Rakenne",
+    "breakdown": "Erittely",
+    "spoken_word": "Puhuttu sana",
+    "whispered": "kuiskasi",
+    "harmonies": "Harmonioita",
+    "male_vocal": "Miesten laulu",
+    "female_vocal": "Naislaulu",
+    "duet": "Duetti",
+    "acoustic": "Akustinen",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Puhdas ääni",
+    "voice_guitar_balanced": "Tasapainoinen ääni ja kitara",
+    "podcast": "Podcast",
+    "suno_ready": "Suno valmis",
+    "gentle_restore": "Hellävarainen palautus",
+    "raw_passthrough": "Ei käsittelyä"
+  },
+  "errors": {
+    "unknown": "Jotain meni pieleen.",
+    "network": "Palvelimelle ei saatu yhteyttä.",
+    "validation_error": "Tarkista antamasi tiedot.",
+    "not_found": "Kohdetta ei löydy.",
+    "project_not_found": "Projektia ei löydy.",
+    "take_not_found": "Ota ei löytynyt.",
+    "album_not_found": "Albumia ei löydy.",
+    "preset_not_found": "Esiasetusta ei löydy.",
+    "template_not_found": "Mallia ei löydy.",
+    "device_busy": "Äänilaite on toisen ohjelman käytössä.",
+    "device_not_found": "Äänilaitetta ei löydy.",
+    "already_recording": "Tallennus on jo käynnissä.",
+    "ffmpeg_missing": "FFmpeg ei ole asennettu - asenna se muuntaaksesi tämän tiedoston.",
+    "disk_full": "Ei tarpeeksi levytilaa.",
+    "permission_denied": "Annetun polun lupa evätty.",
+    "import_path_not_found": "Tuontipolkua ei löydy.",
+    "job_failed": "Käsittely epäonnistui.",
+    "job_cancelled": "Käsittely peruutettiin.",
+    "process_failed": "Otuksen käsittely epäonnistui.",
+    "export_failed": "Tiedoston vienti epäonnistui.",
+    "record_failed": "Tallennuksen aloittaminen epäonnistui."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Jonossa",
+      "running": "Juoksemassa",
+      "done": "Valmis",
+      "error": "Epäonnistui",
+      "cancelled": "Peruutettu"
+    },
+    "kind": {
+      "process": "Käsittely",
+      "export": "Vie",
+      "import": "Tuo",
+      "record": "Tallennus"
+    }
+  }
+}

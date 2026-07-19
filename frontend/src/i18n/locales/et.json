@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Heli puhastaja"
+  },
+  "nav": {
+    "library": "Raamatukogu",
+    "record": "Salvestus",
+    "import": "Import",
+    "templates": "Mallid",
+    "settings": "Seaded",
+    "guide": "Juhend"
+  },
+  "common": {
+    "save": "Salvesta",
+    "saving": "Salvestamine…",
+    "saved": "Salvestatud",
+    "cancel": "Tühista",
+    "close": "Sule",
+    "delete": "Kustuta",
+    "edit": "Muuda",
+    "create": "Loo",
+    "search": "Otsi",
+    "loading": "Laadimine…",
+    "error": "Viga",
+    "retry": "Proovi uuesti",
+    "confirm": "Kinnita",
+    "back": "Tagasi",
+    "next": "Edasi",
+    "continue": "Jätka",
+    "finish": "Lõpeta",
+    "copy": "Kopeeri",
+    "copied": "Kopeeritud",
+    "download": "Laadi alla",
+    "upload": "Laadi üles",
+    "none": "Mitte ühtegi",
+    "all": "Kõik",
+    "yes": "Jah",
+    "no": "Ei",
+    "select": "Valige",
+    "optional": "valikuline",
+    "required": "nõutud",
+    "unsaved_changes": "Salvestamata muudatused",
+    "name": "Nimi",
+    "status": "Olek",
+    "type": "Tüüp",
+    "actions": "Tegevused",
+    "empty": "Tühi",
+    "browse": "Sirvige",
+    "remove": "Eemalda",
+    "add": "Lisa",
+    "rename": "Nimeta ümber",
+    "duplicate": "Duplikaat",
+    "warning": "Hoiatus",
+    "locked": "Lukustatud",
+    "builtin": "Sisseehitatud",
+    "custom": "Kohandatud",
+    "untitled": "Pealkirjata",
+    "select_placeholder": "Vali…"
+  },
+  "library": {
+    "title": "Raamatukogu",
+    "subtitle": "Teie hääle- ja kitarriprojektid ideest väljaandeni.",
+    "new_project": "Uus projekt",
+    "new_album": "Uus album",
+    "search_placeholder": "Otsi nime järgi…",
+    "view": {
+      "grid": "Võre",
+      "albums": "Albumid"
+    },
+    "filters": {
+      "all": "Kõik"
+    },
+    "take_count_one": " {{count}} võtta",
+    "take_count_other": " {{count}} võtab",
+    "updated_at": "Värskendatud {{date}} ",
+    "no_results": {
+      "title": "Projekte ei leitud",
+      "description": "Proovige kohandada otsingu- või olekufiltrit."
+    },
+    "empty": {
+      "title": "Teie raamatukogu on tühi",
+      "description": "Alustage uut projekti nullist või importige, mis teil juba kettal on.",
+      "cta_import": "Import kaustast",
+      "cta_new": "Loo projekt"
+    },
+    "project_dialog": {
+      "title": "Uus projekt",
+      "description": "Andke sellele nimi ja valige salvestusrežiim.",
+      "name_label": "Projekti nimi",
+      "name_placeholder": "nt. Suvine vihm",
+      "mode_label": "Režiim",
+      "mode": {
+        "voice": "Ainult hääl",
+        "voice_guitar": "Hääl + kitarr"
+      },
+      "submit": "Loo projekt"
+    },
+    "album_dialog": {
+      "title": "Uus album",
+      "description": "Grupeeri seotud projektid albumisse.",
+      "name_label": "Albumi nimi",
+      "name_placeholder": "nt. Sügisene EP",
+      "submit": "Loo album"
+    },
+    "album": {
+      "untitled": "Pealkirjata album",
+      "members_count_one": " {{count}} projekt",
+      "members_count_other": " {{count}} projektid",
+      "empty": "Selles albumis pole veel projekte.",
+      "delete_confirm_title": "Kas kustutada album?",
+      "delete_confirm_description": "Projekte ei kustutata, vaid need eemaldatakse linkist „{{name}}”."
+    },
+    "delete_project": {
+      "confirm_title": "Kas kustutada \"{{name}}\"?",
+      "confirm_description": "See eemaldab projekti ja kõik selle sissevõtmised. Seda ei saa tagasi võtta."
+    }
+  },
+  "record": {
+    "title": "Salvestus",
+    "subtitle": "Jäädvustage puhas pilt, jälgige oma tasemeid ja järgige stsenaariumi.",
+    "project_label": "Projekt",
+    "project_placeholder": "Valige projekt",
+    "project_create_quick": "Looge kiire projekt…",
+    "device_label": "Sisendseade",
+    "device_placeholder": "Valige seade",
+    "device_default_badge": "Süsteemi vaikeseade",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Ühtegi sisendseadet ei leitud.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Lõpetage jälgimine",
+    "record_button": "Salvestus",
+    "stop_button": "Peatus",
+    "elapsed_label": "Kulunud aeg",
+    "status": {
+      "idle": "Tühikäik",
+      "monitoring": "Järelevalve",
+      "recording": "Salvestamine",
+      "stopped": "Peatatud"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Tipp",
+      "clip": "Klipp"
+    },
+    "guide": {
+      "title": "Juhendatud seanss",
+      "subtitle": "Laske treeneril stsenaariumi samm-sammult läbi viia, alates soojendusest kuni öeldud fraasini.",
+      "loading": "Skripti laadimine…",
+      "unavailable": "Juhendatud seanss pole veel serveris saadaval.",
+      "select_project_device": "Valige projekt ja sisendseade, et salvestada samme otse siit.",
+      "progress": " {{done}} {{total}} sammust",
+      "start_timer": "Käivitage taimer",
+      "skip_timer": "Taimer vahelejätmine",
+      "record_step": "Salvestage see samm",
+      "stop_step": "Lõpetage salvestamine",
+      "mark_done": "Tehtud - järgmine samm",
+      "step_recorded": "Salvesta",
+      "no_record_step": "Soojendusetapp – salvestamist pole vaja.",
+      "bars_hint": "Umbes {{bars}} riba",
+      "complete_title": "Skript on valmis!",
+      "complete_body": "Olete salvestanud stsenaariumi iga sammu. Minge tagasi projekti heli vahekaardile ja valige oma lemmikvõtted.",
+      "restart": "Taaskäivitage skript"
+    },
+    "best2min": {
+      "button": "Leia parimad 2 minutit (Suno)",
+      "running": "Võtte analüüsimine…",
+      "score_label": "Skoor",
+      "hint": "Käitab energia ja selguse analüüsi kogu võtte kohta, et leida selle tugevaim 2-minutiline aken – saate vahemikku ka hiljem käsitsi reguleerida.",
+      "chart_caption": "Skoor akna kohta",
+      "unavailable": "Parim 2 minuti analüüs pole selles serveris veel saadaval."
+    },
+    "takes_title": "Sellest seansist",
+    "takes_empty": "Sellel seansil pole veel võtteid salvestatud.",
+    "open_in_project": "Ava projektis",
+    "ws_disconnected": "Tasememõõtjaga taasühendamine…",
+    "select_project_first": "Alustamiseks valige projekt.",
+    "select_device_first": "Valige sisendseade."
+  },
+  "project": {
+    "back_to_library": "Tagasi raamatukogusse",
+    "header": {
+      "status_label": "Olek",
+      "cover_upload": "Laadi üles kate",
+      "cover_remove": "Eemaldage kate",
+      "name_placeholder": "Projekti nimi",
+      "links_title": "Lingid",
+      "add_link": "Lisa link",
+      "mode": {
+        "voice": "Ainult hääl",
+        "voice_guitar": "Hääl + kitarr"
+      }
+    },
+    "tabs": {
+      "audio": "Heli",
+      "lyrics": "Laulusõnad",
+      "prompts": "Viibad",
+      "notes": "Märkmed"
+    },
+    "audio": {
+      "takes_title": "Võtab",
+      "no_takes": {
+        "title": "Võtteid veel pole",
+        "description": "Salvestage uus ülesvõte või importige olemasolev fail."
+      },
+      "record_new": "Salvestage uus võte",
+      "rating": "Hinnang",
+      "variant": {
+        "raw": "Toores",
+        "processed": "Töödeldud"
+      },
+      "variant_placeholder": "Versioon",
+      "process_button": "Protsess",
+      "export_button": "Ekspordi",
+      "delete_take_confirm_title": "Kas kustutada see võte?",
+      "delete_take_confirm_description": "Toorheli ja kõik töödeldud versioonid eemaldatakse.",
+      "ab": {
+        "raw": "A · Toores",
+        "processed": "B · Töödeldud"
+      },
+      "origin": {
+        "recorded": "Salvestatud",
+        "imported": "Imporditud"
+      },
+      "session_label_placeholder": "Seansi silt (valikuline)",
+      "duration": "Kestus",
+      "sample_rate": "Proovi määr",
+      "channels": "Kanalid",
+      "created_at": "Salvestatud"
+    },
+    "pipeline": {
+      "title": "Töötlemisahel",
+      "preset_label": "Eelseadistatud",
+      "preset_none": "Kohandatud kett",
+      "preset_save": "Salvesta eelseadistusena",
+      "stage_locked": "Lukustatud",
+      "stage_requires_extra": "Nõuab lisa, mida pole installitud",
+      "process_button": "Protsessi võtmine",
+      "processing": "Töötlemine…",
+      "job_queued": "Järjekorras…",
+      "job_running": "Töötlemine…",
+      "job_done": "Valmis",
+      "job_error": "Ebaõnnestunud",
+      "job_cancelled": "Tühistatud",
+      "cancel_job": "Tühista",
+      "no_stages": "Saadaval pole ühtegi etappi."
+    },
+    "export": {
+      "title": "Ekspordi võtta",
+      "description": "Renderdage töödeldud versioonist lõplik fail.",
+      "variant_label": "Versioon",
+      "format_label": "Vorming",
+      "preset_label": "Ekspordi eelseade",
+      "range_label": "Vahemik",
+      "range_full": "Täispikkuses",
+      "range_custom": "Kohandatud vahemik",
+      "start_label": "Algus(id)",
+      "end_label": "Lõpp(id)",
+      "submit": "Ekspordi",
+      "progress": "Faili renderdamine…",
+      "download_ready": "Fail valmis",
+      "download_button": "Laadige fail alla"
+    },
+    "notes": {
+      "placeholder": "Vabas vormis märkmed selle projekti kohta…",
+      "saved_at": "Salvestatud {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Kirjutage laulusõnad siia. Kasutage Suno metasiltide sisestamiseks küljel olevat paletti.",
+      "saved_at": "Salvestatud {{time}} ",
+      "saving": "Salvestamine…",
+      "versions": "Versioonid",
+      "versions_empty": "Salvestatud versioone pole veel.",
+      "version_preview": "Eelvaade",
+      "restore": "Taastage see versioon",
+      "restore_confirm_title": "Kas taastada see versioon?",
+      "restore_confirm_description": "Praegune tekst asendatakse versiooniga, mis on salvestatud {{date}} .",
+      "metatags_title": "Metasildid",
+      "metatags_hint": "Klõpsake sildil, et see kursorisse sisestada.",
+      "metatags_placebo_warning": "Tõestamata – ei pruugi tulemust mõjutada.",
+      "metatags_empty": "Metasilte pole registreeritud."
+    },
+    "prompts": {
+      "style_title": "Stiiliviip",
+      "lyrics_title": "Laulusõnad küsivad",
+      "template_label": "Mall",
+      "template_none": "Mall puudub",
+      "variables_title": "Muutujad",
+      "preview_title": "Eelvaade",
+      "preview_empty": "Eelvaate nägemiseks valige mall ja täitke muutujad.",
+      "char_count": " {{count}} tähemärki",
+      "char_count_warning": "Suno võib üle 1000 tähemärgi pikkuseid stiiliviipasid kärpida.",
+      "copy": "Kopeeri",
+      "copied": "Kopeeriti lõikelauale",
+      "save_to_project": "Salvestage projekti",
+      "saved_to_project": "Viip salvestati projekti",
+      "history_title": "Ajalugu",
+      "history_empty": "Varasemaid versioone pole.",
+      "current_label": "Praegune"
+    },
+    "stems": {
+      "title": "Vokaal ja kitarr",
+      "separate_button": "Vokaal ja kitarr eraldi",
+      "running": "Eraldamine…",
+      "vocals": "Vokaal",
+      "instrumental": "Instrumentaalne",
+      "process_stem": "Töötle see vars",
+      "empty": "Seda võtet pole veel eraldatud. Eraldage, et vokaali ja kitarri eraldi kuulata.",
+      "capability_missing": "Sellesse serverisse pole allika eraldamist installitud.",
+      "unavailable": "Vokaal/kitarri eraldamine pole selles serveris veel saadaval."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Sees",
+    "boolean_off": "Väljas"
+  },
+  "import": {
+    "title": "Import",
+    "subtitle": "Tooge raamatukokku projektid, mis on juba kettal olemas.",
+    "step_indicator": "Samm {{current}}/{{total}} ",
+    "step1": {
+      "title": "Leidke kaust",
+      "description": "Osutage oma projektide ja lugudega juurkaustale.",
+      "path_label": "Kausta tee",
+      "path_placeholder": "nt. E:\\Robbs\\Pride\\Muusika\\ROBBS",
+      "recent_label": "Viimased",
+      "scan_button": "Skanni kaust",
+      "scanning": "Skannimine…",
+      "ffmpeg_warning": "FFmpeg ei leitud — teisendamist vajavad failid jäetakse vahele.",
+      "folders_found_one": " Leiti kaust {{count}}",
+      "folders_found_other": " Leiti {{count}} kausta",
+      "unmatched_files_one": " {{count}} tundmatu fail",
+      "unmatched_files_other": " {{count}} tundmatuid faile"
+    },
+    "step2": {
+      "title": "Vaadake üksused üle",
+      "description": "Enne kinnitamist kontrollige nimesid, olekuid ja imporditavat teavet.",
+      "select_all": "Valige kõik",
+      "table": {
+        "folder": "Lähtekaust",
+        "name": "Projekti nimi",
+        "status": "Olek",
+        "audio": "Heli",
+        "lyrics": "Laulusõnad",
+        "cover": "Kaas",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} fail on valitud",
+      "audio_include_other": " {{count}} faili on valitud",
+      "no_audio": "Heli ei leitud",
+      "no_lyrics": "Laulusõnu ei leitud",
+      "no_cover": "Katteta",
+      "warnings_title": "Hoiatused"
+    },
+    "step3": {
+      "title": "Import",
+      "description": "Kinnitage failide kopeerimine ja projektide loomine.",
+      "copy_originals": "Kopeerige originaalfailid teeki",
+      "execute_button": "Alusta importi",
+      "progress_title": "Importimine…",
+      "created_count": "Loodud: {{count}} ",
+      "skipped_count": "Vahele jäetud: {{count}} ",
+      "done_title": "Import on lõpetatud",
+      "done_description": "Allolevad projektid loodi teie raamatukogus.",
+      "view_project": "Avatud projekt",
+      "start_over": "Uus import"
+    }
+  },
+  "templates": {
+    "title": "Mallid",
+    "subtitle": "Suno korduvkasutatavad viipade mallid ja metasildid.",
+    "tabs": {
+      "prompts": "Viipade mallid",
+      "metatags": "Metasildid"
+    },
+    "new_template": "Uus mall",
+    "kind": {
+      "style": "Stiil",
+      "lyrics": "Laulusõnad"
+    },
+    "kind_label": "Lahke",
+    "delete_confirm_title": "Kas kustutada mall \"{{name}}\"?",
+    "delete_confirm_description": "Seda ei saa tagasi võtta.",
+    "empty": "Malle veel pole.",
+    "editor": {
+      "title_new": "Uus mall",
+      "title_edit": "Muuda malli",
+      "name_label": "Nimi",
+      "name_placeholder": "nt. Akustiline ballaad",
+      "kind_label": "Lahke",
+      "template_label": "Malli tekst",
+      "template_hint": "Märgistage, kuhu iga muutuja kuulub, selle nimega, mis on mähitud kahekordsetesse lokkis sulgudesse – näiteks muutuja nimega \"žanr\" muutub žanriks, mis on mähitud kahte ava- ja kahte sulgesulgu.",
+      "variables_label": "Muutujad",
+      "variable_add": "Lisa muutuja",
+      "variable_name": "Võti",
+      "variable_label": "Silt",
+      "variable_type": "Tüüp",
+      "variable_type_string": "Tekst",
+      "variable_type_select": "Üksik valik",
+      "variable_type_multiselect": "Mitmikvalik",
+      "variable_type_number": "Number",
+      "variable_type_boolean": "Jah/ei",
+      "variable_options": "Valikud (komadega eraldatud)",
+      "variable_required": "Nõutav",
+      "save": "Salvesta mall"
+    },
+    "metatags": {
+      "title": "Metasildid",
+      "subtitle": "Struktuuri- ja stiilisildid Suno tunneb ära laulusõnade sees.",
+      "new_tag": "Uus silt",
+      "tag_label": "Tag",
+      "tag_placeholder": "nt. kitarr-soolo",
+      "category_label": "Kategooria",
+      "tier_label": "Töökindlus",
+      "tier_legend_title": "Usaldusväärsuse legend",
+      "tier_legend": {
+        "1": "1. tase – dokumenteeritud ja järjepidev",
+        "2": "2. tase — tavaliselt töötab",
+        "3": "3. tase – muutuv mõju",
+        "4": "4. tase – platseebo, tõestamata"
+      },
+      "description_label": "Kirjeldus",
+      "delete_confirm_title": "Kas kustutada silt \"{{tag}}\"?",
+      "empty": "Kohandatud metasilte pole veel."
+    }
+  },
+  "settings": {
+    "title": "Seaded",
+    "subtitle": "Süsteemiteave, keel ja vaikeeelistused.",
+    "system_info_title": "Süsteem",
+    "version": "Versioon",
+    "data_dir": "Andmekaust",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Saadaval",
+    "ffmpeg_missing": "Ei leitud",
+    "capabilities_title": "Paigaldatud võimalused",
+    "capability": {
+      "denoise": "Müra vähendamine",
+      "quality": "Kvaliteedi tõstmine",
+      "separate": "Allika eraldamine",
+      "ffmpeg": "FFmpeg teisendus"
+    },
+    "capability_available": "Saadaval",
+    "capability_unavailable": "Pole saadaval",
+    "gpu_title": "GPU kiirendus",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime pakkujad"
+    },
+    "gpu_none": "GPU pakkujaid ei tuvastatud",
+    "language_title": "Keel",
+    "language": {
+      "pt-BR": "portugali keel (Brasiilia)",
+      "en": "inglise keel"
+    },
+    "theme_title": "Välimus",
+    "theme": {
+      "dark": "Tume",
+      "light": "Valgus"
+    },
+    "defaults_title": "Ekspordi vaikesätted",
+    "lufs_target_label": "Sihtige LUFS-i",
+    "lufs_target_hint": "Kasutatakse lähtesoovitusena eksportimisel. Suno vaikeväärtus on umbes -14 LUFS.",
+    "saved": "Eelistused salvestatud"
+  },
+  "guide": {
+    "title": "Suno salvestusjuhend",
+    "subtitle": "Kuidas jäädvustada häält ja kitarri, mis annavad parimaid tulemusi.",
+    "intro": "Suno toimib kõige paremini puhaste ja ühemõtteliste viidetega. See juhend hõlmab ettevalmistust, sihttasemeid ja 3–5-minutilist salvestusskripti.",
+    "sections": {
+      "prep": {
+        "title": "Ettevalmistus",
+        "body": "Salvestage töödeldud ruumis või ruumis, kus on palju pehmet materjali (kardinad, vaibad, riided kapis). Lülitage välja ventilaatorid ja kõik, mis sumiseb. Enne salvestamist soojendage oma häält 5 minutit."
+      },
+      "levels": {
+        "title": "Tasemed: -12 kuni -6 dBFS",
+        "body": "Püüdke mõõtja piike vahemikus -12 kuni -6 dBFS. Sellest vahemikust allpool muutub taustmüra märgatavamaks; sellest kõrgemal tõuseb lõikamisrisk. Enne alustamist kasutage kasumi määramiseks lehel Record mõõdikut."
+      },
+      "distance": {
+        "title": "Mikrofoni kaugus: 15–30 cm",
+        "body": "Jääge mikrofonist 15–30 cm kaugusele. See liialdab lõhkeainete ja lähedusefektiga; kaugemal võtab rohkem ruumi kaja ja müra."
+      },
+      "script": {
+        "title": "Skripti salvestamine",
+        "warmup": "Hääle soojendus (1-2 minutit)",
+        "vowels": "Jätkuvad vokaalid — a, e, i, o, u",
+        "scales": "Lihtsad kaalud, üles ja alla",
+        "excerpt": "Katkend laulust (8-16 takti)",
+        "dynamics": "Dünaamika: alusta vaikselt, lõpeta valjult",
+        "spoken_phrase": "Üks öeldud fraas, et Suno saaks teie hääletooni lugeda"
+      },
+      "expectations": {
+        "title": "Mida Suno ootab",
+        "body": "WAV, 48 kHz, mono, kuiv (ilma kaja ega efektideta), 3–5 minutit võrdlusalust. Kõige puhtam ja esinduslikum 2 minutit võtet annab tavaliselt parimad tulemused."
+      }
+    }
+  },
+  "status": {
+    "idea": "Idee",
+    "em_progresso": "Pooleli",
+    "quase": "Peaaegu kohal",
+    "pronto": "Valmis"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Suno täielik vokaalstsenaarium",
+      "desc": "5 juhendatud minutit: soojendus, täishäälikud, skaalad, kaks laulukatket, dünaamika ja öeldud fraas."
+    },
+    "step": {
+      "warmup": "Vokaal soojendus",
+      "warmup_inst": "Lõdvestuge haigutuste, huulte trillide (brrr) ja pehme suminaga umbes minuti jooksul. Pole vaja salvestada – see on lihtsalt selleks, et enne laulmist kõri lõdvestada.",
+      "vowels": "Püsivad vokaalid",
+      "vowels_inst": "Hoidke iga vokaali – a, e, i, o, u – 3–4 sekundit oma mugaval kõrgusel ja ühtlase helitugevusega. See aitab Sunol tuvastada teie hääle puhta tämbri.",
+      "scales": "Kaalud üles ja alla",
+      "scales_inst": "Laulge lihtsal skaalal üles ja siis alla, kas \"la\" või \"na\". See ei pea olema täiuslik – eesmärk on kaardistada teie hääleulatus.",
+      "section": "Laulu katkend — 1. osa",
+      "section_inst": "Laulge laulu 8–16 takti tõelise kavatsusega, mida soovite edasi anda. Eelistage selgust ja kohalolekut tehnilisele täiuslikkusele.",
+      "section2": "Laulu katkend — 2. osa",
+      "section2_inst": "Laulge veel 8–16 takti – ideaaljuhul refrään või sektsioon, mis on kontrastiks eelmisega. Suurem mitmekesisus aitab modellil teie häält õppida.",
+      "dynamics": "Dünaamika: pehme → vali",
+      "dynamics_inst": "Laulge sama fraasi, alustades väga vaikselt ja lõpetades valjult, ilma kurku pingutamata. See näitab Suno teie hääle dünaamilist ulatust.",
+      "spoken": "Räägitud fraas",
+      "spoken_inst": "Rääkige – ära laula – lühikest loomulikku fraasi, nagu vestleksite. See aitab Sunol ära tunda teie hääle tõelise tämbri."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restaureerimine",
+      "filter": "Filtrid",
+      "dynamics": "Dünaamika",
+      "separation": "Eraldamine",
+      "quality": "Kvaliteet",
+      "utility": "Kasulikkus",
+      "loudness": "Valjus"
+    },
+    "highpass": "Kõrgpääsfilter",
+    "lowpass": "Madalpääsfilter",
+    "denoise": "Müra vähendamine",
+    "declip": "Deklipeerimine",
+    "declick": "Kliki/popi eemaldamine",
+    "deesser": "De-esser",
+    "gate": "Müravärav",
+    "compressor": "Kompressor",
+    "limiter": "Piiraja",
+    "eq": "Tasastamine",
+    "normalize": "Maksimaalne normaliseerimine",
+    "loudness": "Helitugevuse normaliseerimine (LUFS)",
+    "reverb_reduce": "Reverbi vähendamine",
+    "separate": "Allika eraldamine",
+    "quality": "Kvaliteedi parandamine (kallis)",
+    "trim_silence": "Vaikuse trimmimine",
+    "fade": "Sisse-/välja tuhmumine",
+    "stereo_to_mono": "Teisenda monoks",
+    "resample": "Resampling"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Usaldusväärne",
+      "2": "Tavaliselt töötab",
+      "3": "Muutuv",
+      "4": "Platseebo"
+    },
+    "category": {
+      "structure": "Struktuur",
+      "vocal": "Vokaal",
+      "instrument": "Instrument",
+      "dynamics": "Dünaamika",
+      "production": "Tootmine",
+      "mood": "Meeleolu"
+    },
+    "verse": "Salm",
+    "chorus": "Koor",
+    "bridge": "Sild",
+    "intro": "Sissejuhatus",
+    "outro": "Outro",
+    "hook": "Konks",
+    "prechorus": "Eelkoor",
+    "instrumental": "Instrumentaalne",
+    "guitar_solo": "Kitarrisoolo",
+    "build_up": "Ehitamine",
+    "breakdown": "Jaotus",
+    "spoken_word": "Räägitud sõna",
+    "whispered": "sosistas",
+    "harmonies": "Harmooniad",
+    "male_vocal": "Meeste vokaal",
+    "female_vocal": "Naissoost vokaal",
+    "duet": "Duett",
+    "acoustic": "Akustiline",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Puhas hääl",
+    "voice_guitar_balanced": "Tasakaalustatud hääl ja kitarr",
+    "podcast": "Podcast",
+    "suno_ready": "Suno valmis",
+    "gentle_restore": "Õrn taastamine",
+    "raw_passthrough": "Ei mingit töötlemist"
+  },
+  "errors": {
+    "unknown": "Midagi läks valesti.",
+    "network": "Serveriga ei saanud ühendust.",
+    "validation_error": "Kontrollige sisestatud teavet.",
+    "not_found": "Üksust ei leitud.",
+    "project_not_found": "Projekti ei leitud.",
+    "take_not_found": "Võtke ei leitud.",
+    "album_not_found": "Albumit ei leitud.",
+    "preset_not_found": "Eelseadet ei leitud.",
+    "template_not_found": "Malli ei leitud.",
+    "device_busy": "Heliseadet kasutab teine ​​programm.",
+    "device_not_found": "Heliseadet ei leitud.",
+    "already_recording": "Salvestus on juba pooleli.",
+    "ffmpeg_missing": "FFmpeg pole installitud – installige see selle faili teisendamiseks.",
+    "disk_full": "Kettaruumi pole piisavalt.",
+    "permission_denied": "Luba antud tee jaoks keelatud.",
+    "import_path_not_found": "Imporditeed ei leitud.",
+    "job_failed": "Töötlemine ebaõnnestus.",
+    "job_cancelled": "Töötlemine tühistati.",
+    "process_failed": "Võtte töötlemine ebaõnnestus.",
+    "export_failed": "Faili eksportimine ebaõnnestus.",
+    "record_failed": "Salvestamise alustamine ebaõnnestus."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Järjekorras",
+      "running": "Jooksmine",
+      "done": "Valmis",
+      "error": "Ebaõnnestunud",
+      "cancelled": "Tühistatud"
+    },
+    "kind": {
+      "process": "Töötlemine",
+      "export": "Ekspordi",
+      "import": "Import",
+      "record": "Salvestamine"
+    }
+  }
+}

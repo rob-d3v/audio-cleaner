@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Glanhawr Sain"
+  },
+  "nav": {
+    "library": "Llyfrgell",
+    "record": "Cofnod",
+    "import": "Mewnforio",
+    "templates": "Templedi",
+    "settings": "Gosodiadau",
+    "guide": "Tywysydd"
+  },
+  "common": {
+    "save": "Arbed",
+    "saving": "Wrthi'n cadw…",
+    "saved": "Cadwedig",
+    "cancel": "Canslo",
+    "close": "Cau",
+    "delete": "Dileu",
+    "edit": "Golygu",
+    "create": "Creu",
+    "search": "Chwiliwch",
+    "loading": "Wrthi'n llwytho…",
+    "error": "Gwall",
+    "retry": "Ceisiwch eto",
+    "confirm": "Cadarnhau",
+    "back": "Yn ol",
+    "next": "Nesaf",
+    "continue": "Parhau",
+    "finish": "Gorffen",
+    "copy": "Copi",
+    "copied": "Wedi'i gopïo",
+    "download": "Lawrlwythwch",
+    "upload": "Llwytho i fyny",
+    "none": "Dim",
+    "all": "Pawb",
+    "yes": "Oes",
+    "no": "Nac ydw",
+    "select": "Dewiswch",
+    "optional": "dewisol",
+    "required": "ofynnol",
+    "unsaved_changes": "Newidiadau heb eu cadw",
+    "name": "Enw",
+    "status": "Statws",
+    "type": "Math",
+    "actions": "Gweithredoedd",
+    "empty": "Gwag",
+    "browse": "Pori",
+    "remove": "Dileu",
+    "add": "Ychwanegu",
+    "rename": "Ailenwi",
+    "duplicate": "Dyblyg",
+    "warning": "Rhybudd",
+    "locked": "Wedi'i gloi",
+    "builtin": "Adeiledig",
+    "custom": "Custom",
+    "untitled": "Di-deitl",
+    "select_placeholder": "Dewiswch…"
+  },
+  "library": {
+    "title": "Llyfrgell",
+    "subtitle": "Eich prosiectau llais a gitâr, o'r syniad i'r rhyddhau.",
+    "new_project": "Prosiect newydd",
+    "new_album": "Albwm newydd",
+    "search_placeholder": "Chwilio yn ôl enw…",
+    "view": {
+      "grid": "Grid",
+      "albums": "Albymau"
+    },
+    "filters": {
+      "all": "Pawb"
+    },
+    "take_count_one": " {{count}} cymryd",
+    "take_count_other": " {{count}} yn cymryd",
+    "updated_at": "Diweddarwyd {{date}} ",
+    "no_results": {
+      "title": "Ni chanfuwyd unrhyw brosiectau",
+      "description": "Ceisiwch addasu'r hidlydd chwilio neu statws."
+    },
+    "empty": {
+      "title": "Mae eich llyfrgell yn wag",
+      "description": "Dechreuwch brosiect newydd o'r dechrau, neu mae mewnforio yn cymryd sydd gennych eisoes ar ddisg.",
+      "cta_import": "Mewnforio o ffolder",
+      "cta_new": "Creu prosiect"
+    },
+    "project_dialog": {
+      "title": "Prosiect newydd",
+      "description": "Rhowch enw iddo a dewiswch fodd recordio.",
+      "name_label": "Enw'r prosiect",
+      "name_placeholder": "e.e. Glaw Haf",
+      "mode_label": "Modd",
+      "mode": {
+        "voice": "Llais yn unig",
+        "voice_guitar": "Llais + gitâr"
+      },
+      "submit": "Creu prosiect"
+    },
+    "album_dialog": {
+      "title": "Albwm newydd",
+      "description": "Grwpiwch brosiectau cysylltiedig yn albwm.",
+      "name_label": "Enw albwm",
+      "name_placeholder": "e.e. EP yr hydref",
+      "submit": "Creu albwm"
+    },
+    "album": {
+      "untitled": "Albwm di-deitl",
+      "members_count_one": " {{count}} prosiect",
+      "members_count_other": " {{count}} prosiectau",
+      "empty": "Dim prosiectau yn yr albwm hwn eto.",
+      "delete_confirm_title": "Dileu albwm?",
+      "delete_confirm_description": "Ni fydd prosiectau'n cael eu dileu, dim ond wedi'u datgysylltu o \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Dileu \" {{name}} \" ?",
+      "confirm_description": "Mae hyn yn cael gwared ar y prosiect a phob agwedd arno. Ni ellir dadwneud hyn."
+    }
+  },
+  "record": {
+    "title": "Cofnod",
+    "subtitle": "Daliwch gymeriant glân, gwyliwch eich lefelau, a dilynwch y sgript.",
+    "project_label": "Prosiect",
+    "project_placeholder": "Dewiswch brosiect",
+    "project_create_quick": "Creu prosiect cyflym…",
+    "device_label": "Dyfais mewnbwn",
+    "device_placeholder": "Dewiswch ddyfais",
+    "device_default_badge": "System diofyn",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Heb ganfod dyfeisiau mewnbwn.",
+    "monitor_button": "Monitro",
+    "monitor_stop_button": "Rhoi'r gorau i fonitro",
+    "record_button": "Cofnod",
+    "stop_button": "Stopio",
+    "elapsed_label": "Amser a aeth heibio",
+    "status": {
+      "idle": "Segur",
+      "monitoring": "Monitro",
+      "recording": "Recordio",
+      "stopped": "Wedi stopio"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Brig",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Sesiwn dan arweiniad",
+      "subtitle": "Gadewch i'r hyfforddwr eich cerdded trwy'r sgript gam wrth gam, o'r cynhesu i'r ymadrodd llafar.",
+      "loading": "Wrthi'n llwytho sgript…",
+      "unavailable": "Nid yw'r sesiwn dan arweiniad ar gael ar y gweinydd eto.",
+      "select_project_device": "Dewiswch brosiect a dyfais fewnbynnu i gofnodi camau o'r fan hon.",
+      "progress": " {{done}} o {{total}} gamau",
+      "start_timer": "Amserydd cychwyn",
+      "skip_timer": "Hepgor amserydd",
+      "record_step": "Cofnodwch y cam hwn",
+      "stop_step": "Stopio recordio",
+      "mark_done": "Wedi'i wneud - y cam nesaf",
+      "step_recorded": "Cymerwch recordiad",
+      "no_record_step": "Cam cynhesu - dim angen recordiad.",
+      "bars_hint": "Tua {{bars}} bar",
+      "complete_title": "Sgript wedi'i chwblhau!",
+      "complete_body": "Rydych chi wedi recordio pob cam o'r sgript. Ewch yn ôl i dab Sain y prosiect a dewiswch eich hoff bethau.",
+      "restart": "Ailgychwyn y sgript"
+    },
+    "best2min": {
+      "button": "Dod o hyd i'r 2 funud orau (Suno)",
+      "running": "Wrth ddadansoddi'r cymryd…",
+      "score_label": "Sgôr",
+      "hint": "Yn rhedeg dadansoddiad egni ac eglurder dros yr holl gymryd i ddod o hyd i'w ffenestr 2 funud gryfaf - gallwch barhau i addasu'r ystod â llaw wedyn.",
+      "chart_caption": "Sgôr fesul ffenestr",
+      "unavailable": "Nid yw'r dadansoddiad 2-munud gorau ar gael ar y gweinydd hwn eto."
+    },
+    "takes_title": "Yn cymryd o'r sesiwn hon",
+    "takes_empty": "Dim cymryd wedi'i gofnodi yn y sesiwn hon eto.",
+    "open_in_project": "Agor yn y prosiect",
+    "ws_disconnected": "Wrthi'n ailgysylltu â'r mesurydd lefel…",
+    "select_project_first": "Dewiswch brosiect i ddechrau.",
+    "select_device_first": "Dewiswch ddyfais fewnbynnu."
+  },
+  "project": {
+    "back_to_library": "Yn ôl i'r llyfrgell",
+    "header": {
+      "status_label": "Statws",
+      "cover_upload": "Llwythwch y clawr i fyny",
+      "cover_remove": "Tynnwch y clawr",
+      "name_placeholder": "Enw'r prosiect",
+      "links_title": "Cysylltiadau",
+      "add_link": "Ychwanegu dolen",
+      "mode": {
+        "voice": "Llais yn unig",
+        "voice_guitar": "Llais + gitâr"
+      }
+    },
+    "tabs": {
+      "audio": "Sain",
+      "lyrics": "Telyneg",
+      "prompts": "Anogwyr",
+      "notes": "Nodiadau"
+    },
+    "audio": {
+      "takes_title": "Yn cymryd",
+      "no_takes": {
+        "title": "Dim cymryd eto",
+        "description": "Cofnodi cymeriant newydd neu fewnforio ffeil sy'n bodoli eisoes."
+      },
+      "record_new": "Cofnodi cymryd newydd",
+      "rating": "Graddio",
+      "variant": {
+        "raw": "Amrwd",
+        "processed": "Wedi'i brosesu"
+      },
+      "variant_placeholder": "Fersiwn",
+      "process_button": "Proses",
+      "export_button": "Allforio",
+      "delete_take_confirm_title": "Dileu'r cymryd hwn?",
+      "delete_take_confirm_description": "Bydd y sain amrwd a phob fersiwn wedi'i brosesu yn cael ei ddileu.",
+      "ab": {
+        "raw": "A · Amrwd",
+        "processed": "B · Wedi'i brosesu"
+      },
+      "origin": {
+        "recorded": "Wedi'i recordio",
+        "imported": "Wedi'i fewnforio"
+      },
+      "session_label_placeholder": "Label sesiwn (dewisol)",
+      "duration": "Hyd",
+      "sample_rate": "Cyfradd sampl",
+      "channels": "Sianeli",
+      "created_at": "Wedi'i recordio"
+    },
+    "pipeline": {
+      "title": "Cadwyn brosesu",
+      "preset_label": "Rhagosodedig",
+      "preset_none": "Cadwyn personol",
+      "preset_save": "Cadw fel rhagosodiad",
+      "stage_locked": "Wedi'i gloi",
+      "stage_requires_extra": "Angen un ychwanegol nad yw wedi'i osod",
+      "process_button": "Cymryd proses",
+      "processing": "Wrthi'n prosesu…",
+      "job_queued": "Wedi ciwio…",
+      "job_running": "Wrthi'n prosesu…",
+      "job_done": "Wedi'i wneud",
+      "job_error": "Wedi methu",
+      "job_cancelled": "Wedi'i ganslo",
+      "cancel_job": "Canslo",
+      "no_stages": "Dim camau ar gael."
+    },
+    "export": {
+      "title": "Allforio cymryd",
+      "description": "Rendro ffeil derfynol o fersiwn wedi'i phrosesu.",
+      "variant_label": "Fersiwn",
+      "format_label": "Fformat",
+      "preset_label": "Allforio rhagosodiad",
+      "range_label": "Amrediad",
+      "range_full": "Hyd llawn",
+      "range_custom": "Ystod personol",
+      "start_label": "Cychwyn(s)",
+      "end_label": "Diwedd (au)",
+      "submit": "Allforio",
+      "progress": "Wrthi'n rendro ffeil…",
+      "download_ready": "Ffeil yn barod",
+      "download_button": "Lawrlwytho ffeil"
+    },
+    "notes": {
+      "placeholder": "Nodiadau ffurflen am ddim am y prosiect hwn…",
+      "saved_at": "Wedi'i gadw ar {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Ysgrifennwch y geiriau yma. Defnyddiwch y palet ar yr ochr i fewnosod meta-dagiau Suno.",
+      "saved_at": "Wedi'i gadw ar {{time}} ",
+      "saving": "Wrthi'n cadw…",
+      "versions": "Fersiynau",
+      "versions_empty": "Dim fersiynau wedi'u cadw eto.",
+      "version_preview": "Rhagolwg",
+      "restore": "Adfer y fersiwn hwn",
+      "restore_confirm_title": "Adfer y fersiwn hwn?",
+      "restore_confirm_description": "Bydd y fersiwn a gadwyd ar {{date}} yn cymryd lle'r testun presennol.",
+      "metatags_title": "Meta-dagiau",
+      "metatags_hint": "Cliciwch ar dag i'w fewnosod yn y cyrchwr.",
+      "metatags_placebo_warning": "Heb ei brofi - efallai na fydd yn effeithio ar y canlyniad.",
+      "metatags_empty": "Dim meta-dagiau wedi'u cofrestru."
+    },
+    "prompts": {
+      "style_title": "Anogwr arddull",
+      "lyrics_title": "Anogwr geiriau",
+      "template_label": "Templed",
+      "template_none": "Dim templed",
+      "variables_title": "Newidynnau",
+      "preview_title": "Rhagolwg",
+      "preview_empty": "Dewiswch dempled a llenwch y newidynnau i weld rhagolwg.",
+      "char_count": " {{count}} nod",
+      "char_count_warning": "Gall awgrymiadau arddull dros 1000 o nodau gael eu cwtogi gan Suno.",
+      "copy": "Copi",
+      "copied": "Wedi'i gopïo i'r clipfwrdd",
+      "save_to_project": "Arbed i brosiect",
+      "saved_to_project": "Wedi'i gadw'n brydlon i'r prosiect",
+      "history_title": "Hanes",
+      "history_empty": "Dim fersiynau blaenorol.",
+      "current_label": "Cyfredol"
+    },
+    "stems": {
+      "title": "Llais a gitâr",
+      "separate_button": "Lleisiau a gitâr ar wahân",
+      "running": "Wrthi'n gwahanu…",
+      "vocals": "Lleisiau",
+      "instrumental": "Offerynnol",
+      "process_stem": "Prosesu'r coesyn hwn",
+      "empty": "Nid yw'r cymryd hwn wedi'i wahanu eto. Rhedeg ar wahân i glywed y lleisiau a'r gitâr ar wahân.",
+      "capability_missing": "Nid yw gwahaniad tarddiad wedi'i osod ar y gweinydd hwn.",
+      "unavailable": "Nid yw gwahaniad llais/gitâr ar gael ar y gweinydd hwn eto."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Ar",
+    "boolean_off": "I ffwrdd"
+  },
+  "import": {
+    "title": "Mewnforio",
+    "subtitle": "Dewch â phrosiectau sydd eisoes yn bodoli ar ddisg i'r llyfrgell.",
+    "step_indicator": "Cam {{current}} o {{total}} ",
+    "step1": {
+      "title": "Lleoli ffolder",
+      "description": "Pwyntiwch at y ffolder gwraidd gyda'ch prosiectau a'ch traciau.",
+      "path_label": "Llwybr ffolder",
+      "path_placeholder": "e.e. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "diweddar",
+      "scan_button": "Sganio ffolder",
+      "scanning": "Wrthi'n sganio…",
+      "ffmpeg_warning": "Heb ganfod FFmpeg - bydd ffeiliau sydd angen eu trosi yn cael eu hepgor.",
+      "folders_found_one": " {{count}} ffolder wedi'i chanfod",
+      "folders_found_other": " {{count}} ffolderi wedi'u canfod",
+      "unmatched_files_one": " {{count}} ffeil heb ei hadnabod",
+      "unmatched_files_other": " {{count}} ffeiliau nad ydynt yn cael eu hadnabod"
+    },
+    "step2": {
+      "title": "Adolygu eitemau",
+      "description": "Gwiriwch enwau, statws, a beth fydd yn cael ei fewnforio cyn cadarnhau.",
+      "select_all": "Dewiswch bob un",
+      "table": {
+        "folder": "Ffolder ffynhonnell",
+        "name": "Enw'r prosiect",
+        "status": "Statws",
+        "audio": "Sain",
+        "lyrics": "Telyneg",
+        "cover": "Gorchudd",
+        "album": "Albwm"
+      },
+      "audio_include_one": " Ffeil {{count}} wedi'i dewis",
+      "audio_include_other": " Ffeiliau {{count}} wedi'u dewis",
+      "no_audio": "Heb ganfod sain",
+      "no_lyrics": "Heb ganfod geiriau",
+      "no_cover": "Dim gorchudd",
+      "warnings_title": "Rhybuddion"
+    },
+    "step3": {
+      "title": "Mewnforio",
+      "description": "Cadarnhewch i gopïo'r ffeiliau a chreu'r prosiectau.",
+      "copy_originals": "Copïwch ffeiliau gwreiddiol i'r llyfrgell",
+      "execute_button": "Dechrau mewnforio",
+      "progress_title": "Wrthi'n mewnforio…",
+      "created_count": "Wedi'i greu: {{count}} ",
+      "skipped_count": "Wedi'i hepgor: {{count}} ",
+      "done_title": "Mewnforio wedi'i gwblhau",
+      "done_description": "Crëwyd y prosiectau isod yn eich llyfrgell.",
+      "view_project": "Prosiect agored",
+      "start_over": "Mewnforio newydd"
+    }
+  },
+  "templates": {
+    "title": "Templedi",
+    "subtitle": "Templedi prydlon y gellir eu hailddefnyddio a meta-dagiau ar gyfer Suno.",
+    "tabs": {
+      "prompts": "Templedi prydlon",
+      "metatags": "Meta-dagiau"
+    },
+    "new_template": "Templed newydd",
+    "kind": {
+      "style": "Arddull",
+      "lyrics": "Telyneg"
+    },
+    "kind_label": "Caredig",
+    "delete_confirm_title": "Dileu templed \" {{name}} \" ?",
+    "delete_confirm_description": "Ni ellir dadwneud hyn.",
+    "empty": "Dim templedi eto.",
+    "editor": {
+      "title_new": "Templed newydd",
+      "title_edit": "Golygu templed",
+      "name_label": "Enw",
+      "name_placeholder": "e.e. Baled acwstig",
+      "kind_label": "Caredig",
+      "template_label": "Testun templed",
+      "template_hint": "Marciwch ble mae pob newidyn yn perthyn gyda'i enw wedi'i lapio mewn braces cyrliog dwbl - er enghraifft, mae newidyn o'r enw \"genre\" yn dod yn genre wedi'i lapio mewn dau braces agoriadol a dau gau.",
+      "variables_label": "Newidynnau",
+      "variable_add": "Ychwanegu newidyn",
+      "variable_name": "Allwedd",
+      "variable_label": "Label",
+      "variable_type": "Math",
+      "variable_type_string": "Testun",
+      "variable_type_select": "Dewis sengl",
+      "variable_type_multiselect": "Aml-ddewis",
+      "variable_type_number": "Rhif",
+      "variable_type_boolean": "Ydw/na",
+      "variable_options": "Opsiynau (wedi'u gwahanu gan goma)",
+      "variable_required": "Angenrheidiol",
+      "save": "Cadw templed"
+    },
+    "metatags": {
+      "title": "Meta-dagiau",
+      "subtitle": "Tagiau strwythurol ac arddull Mae Suno yn adnabod geiriau mewnol.",
+      "new_tag": "Tag newydd",
+      "tag_label": "Tag",
+      "tag_placeholder": "e.e. gitâr-unawd",
+      "category_label": "Categori",
+      "tier_label": "Dibynadwyedd",
+      "tier_legend_title": "Chwedl dibynadwyedd",
+      "tier_legend": {
+        "1": "Haen 1 — wedi'i dogfennu ac yn gyson",
+        "2": "Haen 2 - yn gweithio fel arfer",
+        "3": "Haen 3 — effaith amrywiol",
+        "4": "Haen 4 — plasebo, heb ei brofi"
+      },
+      "description_label": "Disgrifiad",
+      "delete_confirm_title": "Dileu tag \" {{tag}} \" ?",
+      "empty": "Dim meta-dagiau personol eto."
+    }
+  },
+  "settings": {
+    "title": "Gosodiadau",
+    "subtitle": "Gwybodaeth system, iaith, a dewisiadau diofyn.",
+    "system_info_title": "System",
+    "version": "Fersiwn",
+    "data_dir": "Ffolder data",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Ar gael",
+    "ffmpeg_missing": "Heb ei ganfod",
+    "capabilities_title": "Galluoedd wedi'u gosod",
+    "capability": {
+      "denoise": "Lleihau sŵn",
+      "quality": "Gwella ansawdd",
+      "separate": "Gwahanu ffynhonnell",
+      "ffmpeg": "trosi FFmpeg"
+    },
+    "capability_available": "Ar gael",
+    "capability_unavailable": "Ddim ar gael",
+    "gpu_title": "Cyflymiad GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime darparwyr"
+    },
+    "gpu_none": "Ni chanfuwyd unrhyw ddarparwyr GPU",
+    "language_title": "Iaith",
+    "language": {
+      "pt-BR": "Português (Brasil)",
+      "en": "Saesneg"
+    },
+    "theme_title": "Ymddangosiad",
+    "theme": {
+      "dark": "Tywyll",
+      "light": "Ysgafn"
+    },
+    "defaults_title": "Allforio rhagosodiadau",
+    "lufs_target_label": "Targed LUFS",
+    "lufs_target_hint": "Fe'i defnyddir fel yr awgrym cychwynnol wrth allforio. Mae rhagosodiad Suno yn eistedd o gwmpas -14 LUFS.",
+    "saved": "Dewisiadau wedi'u cadw"
+  },
+  "guide": {
+    "title": "Canllaw recordio Suno",
+    "subtitle": "Sut i ddal llais a gitâr yn cymryd sy'n cael y canlyniadau gorau.",
+    "intro": "Mae Suno yn perfformio orau gyda chyfeiriadau glân, diamwys. Mae'r canllaw hwn yn ymdrin â pharatoi, lefelau targed, a sgript recordio 3-5 munud.",
+    "sections": {
+      "prep": {
+        "title": "Paratoi",
+        "body": "Cofnodwch mewn ystafell wedi'i thrin neu un gyda digon o ddeunydd meddal (llenni, rygiau, dillad mewn cwpwrdd). Diffoddwch y cefnogwyr ac unrhyw beth sy'n sïon. Cynheswch eich llais am 5 munud cyn recordio."
+      },
+      "levels": {
+        "title": "Lefelau: -12 i -6 dBFS",
+        "body": "Anelwch at uchafbwyntiau rhwng -12 a -6 dBFS ar y mesurydd. O dan yr ystod honno, mae sŵn cefndir yn dod yn fwy amlwg; uwch ei ben, mae risg clipio yn codi. Defnyddiwch y mesurydd ar y dudalen Cofnod i osod eich ennill cyn i chi ddechrau."
+      },
+      "distance": {
+        "title": "Pellter meic: 15-30 cm",
+        "body": "Arhoswch 15 i 30 cm o'r meicroffon. Agosach na hynny yn gorliwio plosives ac effaith agosrwydd; ymhellach i ffwrdd yn codi mwy o ystafell reverb a sŵn."
+      },
+      "script": {
+        "title": "Sgript recordio",
+        "warmup": "Cynhesu lleisiol (1-2 funud)",
+        "vowels": "Lladron cynaledig — a, e, i, o, u",
+        "scales": "Graddfeydd syml, i fyny ac i lawr",
+        "excerpt": "Darn o gân (8 i 16 bar)",
+        "dynamics": "Dynameg: dechreuwch yn feddal, gorffen yn uchel",
+        "spoken_phrase": "Un ymadrodd llafar, felly gall Suno ddarllen tôn eich llais"
+      },
+      "expectations": {
+        "title": "Beth mae Suno yn ei ddisgwyl",
+        "body": "WAV, 48 kHz, mono, sych (dim atgyfeiriad nac effeithiau), 3 i 5 munud o gyfeirio. Mae'r 2 funud glanaf, mwyaf cynrychioliadol o'r cymryd fel arfer yn cynhyrchu'r canlyniadau gorau."
+      }
+    }
+  },
+  "status": {
+    "idea": "Syniad",
+    "em_progresso": "Ar y gweill",
+    "quase": "Bron yno",
+    "pronto": "Yn barod"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Sgript leisiol lawn ar gyfer Suno",
+      "desc": "5 munud dan arweiniad: cynhesu, llafariaid, clorian, dau ddarn o gân, dynameg, ac ymadrodd llafar."
+    },
+    "step": {
+      "warmup": "Cynhesu lleisiol",
+      "warmup_inst": "Llacio i fyny gyda dylyfu gên, triliau gwefusau (brrr), a hymian meddal am tua munud. Nid oes angen recordio - dim ond ymlacio'ch gwddf cyn canu.",
+      "vowels": "Llêniaid cynaledig",
+      "vowels_inst": "Daliwch bob llafariad — a, e, i, o, u — am 3 i 4 eiliad wrth eich traw cysurus, gyda chyfaint cyson. Mae hyn yn helpu Suno i godi timbre pur eich llais.",
+      "scales": "Graddfeydd i fyny ac i lawr",
+      "scales_inst": "Canwch raddfa syml i fyny ac yna i lawr, ar \"la\" neu \"na\". Nid oes angen iddo fod yn berffaith - y nod yw mapio eich ystod lleisiol.",
+      "section": "Dyfyniad o'r gân — rhan 1",
+      "section_inst": "Canwch 8 i 16 bar o'r gân, gyda'r bwriad gwirioneddol rydych chi am ei gyfleu. Blaenoriaethu eglurder a phresenoldeb dros berffeithrwydd technegol.",
+      "section2": "Dyfyniad o'r gân — rhan 2",
+      "section2_inst": "Canwch 8 i 16 bar arall — yn ddelfrydol cytgan neu adran sy'n cyferbynnu â'r un blaenorol. Mae mwy o amrywiaeth yn helpu'r model i ddysgu'ch llais.",
+      "dynamics": "Dynameg: meddal → uchel",
+      "dynamics_inst": "Canwch yr un ymadrodd gan ddechrau'n feddal iawn a gorffen yn uchel, heb straenio'ch gwddf. Mae hyn yn dangos ystod ddeinamig eich llais Suno.",
+      "spoken": "Ymadrodd llafar",
+      "spoken_inst": "Siaradwch—peidiwch â chanu—ymadrodd byr, naturiol, fel petaech yn sgwrsio. Mae hyn yn helpu Suno i adnabod timbre go iawn eich llais."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Adferiad",
+      "filter": "Hidlau",
+      "dynamics": "Dynameg",
+      "separation": "Gwahaniad",
+      "quality": "Ansawdd",
+      "utility": "Cyfleustodau",
+      "loudness": "Cryfder"
+    },
+    "highpass": "Hidlydd pas uchel",
+    "lowpass": "Hidlydd pas isel",
+    "denoise": "Lleihau sŵn",
+    "declip": "Yn dirywio",
+    "declick": "Cliciwch/pop tynnu",
+    "deesser": "Dad-esser",
+    "gate": "Giât swn",
+    "compressor": "Cywasgydd",
+    "limiter": "Cyfyngwr",
+    "eq": "Cydraddoli",
+    "normalize": "Normaleiddio brig",
+    "loudness": "normaleiddio cryfder (LUFS)",
+    "reverb_reduce": "Lleihau reverb",
+    "separate": "Gwahanu ffynhonnell",
+    "quality": "Gwella ansawdd (upscale)",
+    "trim_silence": "Tocio distawrwydd",
+    "fade": "pylu i mewn / pylu allan",
+    "stereo_to_mono": "Trosi i mono",
+    "resample": "Ailsamplu"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Dibynadwy",
+      "2": "Fel arfer yn gweithio",
+      "3": "Amrywiol",
+      "4": "plasebo"
+    },
+    "category": {
+      "structure": "Strwythur",
+      "vocal": "Lleisiol",
+      "instrument": "Offeryn",
+      "dynamics": "Dynameg",
+      "production": "Cynhyrchu",
+      "mood": "Hwyliau"
+    },
+    "verse": "Pennill",
+    "chorus": "Cytgan",
+    "bridge": "Pont",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Bachyn",
+    "prechorus": "Rhag-gytgan",
+    "instrumental": "Offerynnol",
+    "guitar_solo": "Unawd gitâr",
+    "build_up": "Adeiladu i fyny",
+    "breakdown": "Chwalfa",
+    "spoken_word": "Gair llafar",
+    "whispered": "Sibrydodd",
+    "harmonies": "Harmoniaid",
+    "male_vocal": "Lleisiol gwrywaidd",
+    "female_vocal": "Llais benywaidd",
+    "duet": "Deuawd",
+    "acoustic": "Acwstig",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Llais glân",
+    "voice_guitar_balanced": "Llais a gitâr cytbwys",
+    "podcast": "Podlediad",
+    "suno_ready": "Suno yn barod",
+    "gentle_restore": "Adferiad ysgafn",
+    "raw_passthrough": "Dim prosesu"
+  },
+  "errors": {
+    "unknown": "Aeth rhywbeth o'i le.",
+    "network": "Methu cyrraedd y gweinydd.",
+    "validation_error": "Gwiriwch y wybodaeth a roesoch.",
+    "not_found": "Heb ganfod yr eitem.",
+    "project_not_found": "Prosiect heb ei ganfod.",
+    "take_not_found": "Cymerwch heb ei ddarganfod.",
+    "album_not_found": "Albwm heb ei ddarganfod.",
+    "preset_not_found": "Rhagosodiad heb ei ganfod.",
+    "template_not_found": "Templed heb ei ganfod.",
+    "device_busy": "Mae dyfais sain yn cael ei defnyddio gan raglen arall.",
+    "device_not_found": "Heb ganfod dyfais sain.",
+    "already_recording": "Mae recordiad eisoes ar y gweill.",
+    "ffmpeg_missing": "Nid yw FFmpeg wedi'i osod - gosodwch ef i drosi'r ffeil hon.",
+    "disk_full": "Dim digon o le ar y ddisg.",
+    "permission_denied": "Gwrthodwyd caniatâd ar gyfer y llwybr a roddwyd.",
+    "import_path_not_found": "Heb ganfod llwybr mewnforio.",
+    "job_failed": "Methodd y prosesu.",
+    "job_cancelled": "Canslwyd prosesu.",
+    "process_failed": "Wedi methu prosesu'r derbyniad.",
+    "export_failed": "Wedi methu ag allforio'r ffeil.",
+    "record_failed": "Wedi methu dechrau recordio."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Ciwio",
+      "running": "Rhedeg",
+      "done": "Wedi'i wneud",
+      "error": "Wedi methu",
+      "cancelled": "Wedi'i ganslo"
+    },
+    "kind": {
+      "process": "Prosesu",
+      "export": "Allforio",
+      "import": "Mewnforio",
+      "record": "Recordio"
+    }
+  }
+}

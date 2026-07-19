@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Qulqulleessituu Sagalee"
+  },
+  "nav": {
+    "library": "Mana kitaabaa",
+    "record": "Galmee",
+    "import": "Galchuu",
+    "templates": "Unkaalee",
+    "settings": "Sajoo",
+    "guide": "Qajeelfama"
+  },
+  "common": {
+    "save": "Qusadhu",
+    "saving": "Qusachuu...",
+    "saved": "Qusatame",
+    "cancel": "Haquu",
+    "close": "Cufi",
+    "delete": "Haquu",
+    "edit": "Gulaali",
+    "create": "Uumuu",
+    "search": "Barbaadi",
+    "loading": "Fe'aa jira...",
+    "error": "Dogoggora",
+    "retry": "Irra deebi'ii yaali",
+    "confirm": "Mirkaneessi",
+    "back": "Duuba",
+    "next": "Itti aansee",
+    "continue": "Itti fufaa",
+    "finish": "Xumura",
+    "copy": "Koppii godhaa",
+    "copied": "Koppii godhame",
+    "download": "Download",
+    "upload": "Olkaa'i",
+    "none": "Tokkollee hin jiru",
+    "all": "Hundi",
+    "yes": "Eeyyee",
+    "no": "Lakki",
+    "select": "Filadhu",
+    "optional": "filannoodha",
+    "required": "barbaachisa",
+    "unsaved_changes": "Jijjiirama hin qusatamne",
+    "name": "Maqaa",
+    "status": "Haala",
+    "type": "Gosa",
+    "actions": "Gochaalee",
+    "empty": "Duwwaa",
+    "browse": "Daawwadhu",
+    "remove": "Buqqisuu",
+    "add": "Dabalata",
+    "rename": "Maqaa jijjiiri",
+    "duplicate": "Duplicate gochuu",
+    "warning": "Akeekkachiisa",
+    "locked": "Cufamee jira",
+    "builtin": "Kan ijaarame",
+    "custom": "Aadaa",
+    "untitled": "Mata duree hin qabne",
+    "select_placeholder": "Filadhu..."
+  },
+  "library": {
+    "title": "Mana kitaabaa",
+    "subtitle": "Pirojektoota sagalee fi gitaara keessanii, yaada irraa kaasee hanga gadhiifamuutti.",
+    "new_project": "Pirojektii haaraa",
+    "new_album": "Albamii haaraa",
+    "search_placeholder": "Maqaadhaan barbaadi...",
+    "view": {
+      "grid": "Giriidii",
+      "albums": "Albamoota"
+    },
+    "filters": {
+      "all": "Hundi"
+    },
+    "take_count_one": " {{count}} fudhachuu",
+    "take_count_other": " {{count}} fudhata",
+    "updated_at": "Kan haaromfame {{date}} ",
+    "no_results": {
+      "title": "Pirojektoonni hin argamne",
+      "description": "Barbaacha ykn calaqqee haalaa sirreessuu yaali."
+    },
+    "empty": {
+      "title": "Manni kitaabaa keessan duwwaa dha",
+      "description": "Pirojektii haaraa jalqabarraa jalqabi, ykn fudhannaa galchuu duraan diskiin irratti qabdu.",
+      "cta_import": "Galmee irraa galchi",
+      "cta_new": "Pirojektii uumuu"
+    },
+    "project_dialog": {
+      "title": "Pirojektii haaraa",
+      "description": "Maqaa itti kennitee haala waraabbii filadhu.",
+      "name_label": "Maqaa pirojektii",
+      "name_placeholder": "fkn. Roobni Gannaa",
+      "mode_label": "Haala",
+      "mode": {
+        "voice": "Sagalee qofa",
+        "voice_guitar": "Sagalee + gitaara"
+      },
+      "submit": "Pirojektii uumuu"
+    },
+    "album_dialog": {
+      "title": "Albamii haaraa",
+      "description": "Pirojektoota walqabatan garee albamii tokkotti.",
+      "name_label": "Maqaa albama",
+      "name_placeholder": "fkn. Birraa EP",
+      "submit": "Albamii uumuu"
+    },
+    "album": {
+      "untitled": "Albamii mata duree hin qabne",
+      "members_count_one": " {{count}} pirojektii",
+      "members_count_other": " {{count}} pirojektoota",
+      "empty": "Albamii kana keessatti pirojektiin hanga ammaatti hin jiru.",
+      "delete_confirm_title": "Albamii haquu?",
+      "delete_confirm_description": "Pirojektoonni hin haqaman, \" {{name}} \" irraa kan hin hidhamne qofa."
+    },
+    "delete_project": {
+      "confirm_title": "\" {{name}} \" haquu?",
+      "confirm_description": "Kunis pirojektichaa fi fudhachuu hunda ni buqqisa. Kun duubatti deebi'uu hin danda'u."
+    }
+  },
+  "record": {
+    "title": "Galmee",
+    "subtitle": "Fudhannaa qulqulluu qabadhu, sadarkaa kee ilaali, fi iskiriiptii hordofi.",
+    "project_label": "Pirojektii",
+    "project_placeholder": "Pirojektii filadhu",
+    "project_create_quick": "Pirojektii saffisaa uumuu...",
+    "device_label": "Meeshaa galtee",
+    "device_placeholder": "Meeshaa filadhu",
+    "device_default_badge": "Durtii sirnaa",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Meeshaaleen galtee hin argamne.",
+    "monitor_button": "Hordoffii",
+    "monitor_stop_button": "Hordoffii dhiisaa",
+    "record_button": "Galmee",
+    "stop_button": "Dhaabbadhu",
+    "elapsed_label": "Yeroo darbe",
+    "status": {
+      "idle": "Hojii malee",
+      "monitoring": "Hordoffii",
+      "recording": "Waraabbii",
+      "stopped": "Dhaabbate"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Peek",
+      "clip": "Kiliippii"
+    },
+    "guide": {
+      "title": "Kutaa qajeelfama qabu",
+      "subtitle": "Leenjisaan tarkaanfii tarkaanfiin, ho’isuu irraa kaasee hanga gaalee dubbatamutti iskiriiptii keessa si haa deemu.",
+      "loading": "Iskiriiptii fe'amaa jira...",
+      "unavailable": "Kutaan qajeelfama qabu ammallee sarvarii irratti hin argamu.",
+      "select_project_device": "Tarkaanfiiwwan sirriitti as irraa galmeessuuf pirojektii fi meeshaa galtee filadhu.",
+      "progress": " {{done}} kan {{total}} tarkaanfii",
+      "start_timer": "Sa'aatii jalqabaa",
+      "skip_timer": "Sa'aatii darbuu",
+      "record_step": "Tarkaanfii kana galmeessi",
+      "stop_step": "Waraabbii dhiisaa",
+      "mark_done": "Raawwatame — tarkaanfii itti aanu",
+      "step_recorded": "Fudhadhu waraabame",
+      "no_record_step": "Tarkaanfii ho’isuu — waraabbii hin barbaachisu.",
+      "bars_hint": "Gara {{bars}} barruu",
+      "complete_title": "Iskiriiptiin xumurameera!",
+      "complete_body": "Tarkaanfii iskiriiptii hunda galmeessiteetta. Gara caancala Sagalee pirojektichaa deebi'aatii fudhannaa jaallattan filadhaa.",
+      "restart": "Iskiriiptii irra deebi'ii jalqabi"
+    },
+    "best2min": {
+      "button": "Daqiiqaa 2 isa gaarii barbaadi (Suno) .",
+      "running": "Xiinxala fudhachuu...",
+      "score_label": "Qabxii",
+      "hint": "Xiinxala anniisaa fi ifa ta'e fudhannaa guutuu irratti fiiga foddaa isaa isa cimaa daqiiqaa 2 argachuuf — ammas booda harkaan fageenya sirreessuu dandeessa.",
+      "chart_caption": "Qabxii foddaa tokkoof",
+      "unavailable": "Xiinxalli daqiiqaa 2 isa gaarii hanga ammaatti sarvarii kana irratti hin argamu."
+    },
+    "takes_title": "Kutaa kana irraa fudhata",
+    "takes_empty": "Kutaa kana keessatti hanga ammaatti fudhatamni galmaa'e hin jiru.",
+    "open_in_project": "Pirojektii keessatti banaa",
+    "ws_disconnected": "Safartuu sadarkaa waliin deebi'anii wal qunnamsiisuu...",
+    "select_project_first": "Jalqabuuf pirojektii filadhu.",
+    "select_device_first": "Meeshaa galtee filadhu."
+  },
+  "project": {
+    "back_to_library": "Gara mana kitaabaatti deebi'aa",
+    "header": {
+      "status_label": "Haala",
+      "cover_upload": "Haguugduu olkaa'uu",
+      "cover_remove": "Haguuggii baafadhu",
+      "name_placeholder": "Maqaa pirojektii",
+      "links_title": "Hidhamtoota",
+      "add_link": "Link itti dabali",
+      "mode": {
+        "voice": "Sagalee qofa",
+        "voice_guitar": "Sagalee + gitaara"
+      }
+    },
+    "tabs": {
+      "audio": "Sagalee",
+      "lyrics": "Lyrics",
+      "prompts": "Kaka'umsa",
+      "notes": "Hubachiisa"
+    },
+    "audio": {
+      "takes_title": "Fudhata",
+      "no_takes": {
+        "title": "No takes ammallee",
+        "description": "Fudhachuu haaraa galmeessi ykn faayilii jiru galchi."
+      },
+      "record_new": "Fudhannaa haaraa galmeessi",
+      "rating": "Sadarkaa kennuu",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Adeemsifame"
+      },
+      "variant_placeholder": "Version",
+      "process_button": "Adeemsa",
+      "export_button": "Al-ergii",
+      "delete_take_confirm_title": "Fudhachuu kana haquu?",
+      "delete_take_confirm_description": "Sagaleen raw fi version processed hundi ni haqama.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Adeemsifame"
+      },
+      "origin": {
+        "recorded": "Warraaqameera",
+        "imported": "Galfame"
+      },
+      "session_label_placeholder": "Asxaa turtii (dirqama) .",
+      "duration": "Turtii",
+      "sample_rate": "Sadarkaa saamuda",
+      "channels": "Chaanaalii",
+      "created_at": "Warraaqameera"
+    },
+    "pipeline": {
+      "title": "Sansalata adeemsa hojii",
+      "preset_label": "Dursee kan qophaa'e",
+      "preset_none": "Sansalata aadaa",
+      "preset_save": "Akka durtiitti saagi",
+      "stage_locked": "Cufamee jira",
+      "stage_requires_extra": "Dabalata kan hin fe'amne barbaada",
+      "process_button": "Adeemsa fudhachuu",
+      "processing": "Adeemsa hojii...",
+      "job_queued": "Tarree keessa jiran...",
+      "job_running": "Adeemsa hojii...",
+      "job_done": "Raawwatame",
+      "job_error": "Kufe",
+      "job_cancelled": "Haqameera",
+      "cancel_job": "Haquu",
+      "no_stages": "Sadarkaaleen hin jiran."
+    },
+    "export": {
+      "title": "Al-ergii fudhachuu",
+      "description": "Faayilii dhumaa gosa adeemsifame irraa agarsiisi.",
+      "variant_label": "Version",
+      "format_label": "Akkaataa",
+      "preset_label": "Dursee saagi al-ergii",
+      "range_label": "Fageenya",
+      "range_full": "Dheerinni isaa guutuu",
+      "range_custom": "Daangaa amala",
+      "start_label": "Jalqaba (s) .",
+      "end_label": "Xumura (wwan) .",
+      "submit": "Al-ergii",
+      "progress": "Faayilii agarsiisaa...",
+      "download_ready": "Faayilii qophaa'eera",
+      "download_button": "Faayila buufachuu"
+    },
+    "notes": {
+      "placeholder": "Yaadannoo unka bilisaa waa'ee pirojektii kanaa...",
+      "saved_at": "{{time}} irratti qusatame. "
+    },
+    "lyrics": {
+      "placeholder": "Jechoota sirbaa isaa asitti barreessi. Meetaa-tags Suno galchuuf paleetii cinaacha irratti fayyadami.",
+      "saved_at": "{{time}} irratti qusatame. ",
+      "saving": "Qusachuu...",
+      "versions": "Versions jedhu",
+      "versions_empty": "Hanga ammaatti version saved hin jiru.",
+      "version_preview": "Dursee ilaaluu",
+      "restore": "Version kana deebisi",
+      "restore_confirm_title": "Version kana deebisuuf?",
+      "restore_confirm_description": "Barreeffamni ammaa gosa {{date}} irratti kuufameen bakka bu'a.",
+      "metatags_title": "Meetaa-tags",
+      "metatags_hint": "Qaree irratti galchuuf mallattoo cuqaasi.",
+      "metatags_placebo_warning": "Hin mirkanoofne — bu’aa irratti dhiibbaa tokkollee qabaachuu danda’a.",
+      "metatags_empty": "Meeta-tags hin galmaa'e."
+    },
+    "prompts": {
+      "style_title": "Gaaffii akkaataa",
+      "lyrics_title": "Lyrics prompt",
+      "template_label": "Unkaa",
+      "template_none": "Unkaa hin qabu",
+      "variables_title": "Jijjiiramoota",
+      "preview_title": "Dursee ilaaluu",
+      "preview_empty": "Unkaa filadhuutii jijjiiramoota guuti durtii ilaaluuf.",
+      "char_count": " {{count}} qubee",
+      "char_count_warning": "Gaaffileen akkaataa arfiilee 1000 ol ta'an Suno'n cicciramuu danda'u.",
+      "copy": "Koppii godhaa",
+      "copied": "Gara clipboard tti waraabame",
+      "save_to_project": "Pirojektii irratti qusadhu",
+      "saved_to_project": "Gaaffiin gara pirojektiitti saagame",
+      "history_title": "Seenaa",
+      "history_empty": "Version duraanii hin jiru.",
+      "current_label": "Yeroo ammaa"
+    },
+    "stems": {
+      "title": "Sagalee fi gitaara",
+      "separate_button": "Sagalee fi gitaara addaan baasuu",
+      "running": "Addaan baasuun...",
+      "vocals": "Sagalee",
+      "instrumental": "Meeshaa",
+      "process_stem": "Hidda kana adeemsi",
+      "empty": "Fudhachuun kun hanga ammaatti adda hin baane. Sagalee fi gitaara adda baafamanii dhaga'uuf addaan ba'uu fiigi.",
+      "capability_missing": "Madda addaan baasuun sarvarii kana irratti hin fe'amne.",
+      "unavailable": "Vocal/guitar separation hanga ammaatti server kana irratti hin argamu."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Irratti",
+    "boolean_off": "Off"
+  },
+  "import": {
+    "title": "Galchuu",
+    "subtitle": "Pirojektoota duraan diskiin jiran gara mana kitaabaa fidi.",
+    "step_indicator": "Tarkaanfii {{current}} kan {{total}} . ",
+    "step1": {
+      "title": "Galmee barbaadi",
+      "description": "Gara galmee hundee pirojektoota fi hordoffii kee waliin agarsiisi.",
+      "path_label": "Daandii galmee",
+      "path_placeholder": "fkn. E:\\Robbs\\Boonsaa\\Muuziqaa\\ROBBS",
+      "recent_label": "Dhiheenya kana",
+      "scan_button": "Galfata sakatta'uu",
+      "scanning": "Scanning gochuu...",
+      "ffmpeg_warning": "FFmpeg hin argamne — faayilii jijjiirraa barbaadan ni darbu.",
+      "folders_found_one": " {{count}} galmeen argame",
+      "folders_found_other": " {{count}} galmeewwan argaman",
+      "unmatched_files_one": " {{count}} faayila hin beekamne",
+      "unmatched_files_other": " {{count}} faayiloota hin beekamne"
+    },
+    "step2": {
+      "title": "Wantoota irra deebi’ii ilaali",
+      "description": "Maqaa, haalawwan, fi maaltu akka galfamu osoo hin mirkaneessiin dura ilaali.",
+      "select_all": "Hundaa filadhu",
+      "table": {
+        "folder": "Galmee madda",
+        "name": "Maqaa pirojektii",
+        "status": "Haala",
+        "audio": "Sagalee",
+        "lyrics": "Lyrics",
+        "cover": "Haguugduu",
+        "album": "Albamii"
+      },
+      "audio_include_one": " {{count}} faayilii filatame",
+      "audio_include_other": " {{count}} faayiloota filataman",
+      "no_audio": "Sagaleen hin argamne",
+      "no_lyrics": "Jechoonni sirbaa hin argamne",
+      "no_cover": "Haguuggii hin qabu",
+      "warnings_title": "Akeekkachiisa"
+    },
+    "step3": {
+      "title": "Galchuu",
+      "description": "Faayilota waraabuu fi pirojektoota uumuuf mirkaneessi.",
+      "copy_originals": "Faayilota jalqabaa gara mana kitaabaatti waraabi",
+      "execute_button": "Galchuu jalqabi",
+      "progress_title": "Galchuu...",
+      "created_count": "Uumame: {{count}} ",
+      "skipped_count": "Kan darbame: {{count}} ",
+      "done_title": "Galchuu xumurameera",
+      "done_description": "Pirojektoonni armaan gadii mana kitaabaa keessan keessatti uumamaniiru.",
+      "view_project": "Pirojektii banaa",
+      "start_over": "Galchuu haaraa"
+    }
+  },
+  "templates": {
+    "title": "Unkaalee",
+    "subtitle": "Unkaalee gaaffii fi meetaa-tags Suno'f irra deebi'amee fayyadamuu danda'an.",
+    "tabs": {
+      "prompts": "Unkaalee gaafachuu",
+      "metatags": "Meetaa-tags"
+    },
+    "new_template": "Unkaa haaraa",
+    "kind": {
+      "style": "Akkaataa",
+      "lyrics": "Lyrics"
+    },
+    "kind_label": "Gaarummaa",
+    "delete_confirm_title": "Unkaa \" {{name}} \" haquu?",
+    "delete_confirm_description": "Kun duubatti deebi'uu hin danda'u.",
+    "empty": "Ammatti unka hin jiru.",
+    "editor": {
+      "title_new": "Unkaa haaraa",
+      "title_edit": "Unkaa gulaaluu",
+      "name_label": "Maqaa",
+      "name_placeholder": "fkn. Baalaadii sagalee",
+      "kind_label": "Gaarummaa",
+      "template_label": "Barreeffama unkaa",
+      "template_hint": "Tokkoon tokkoon jijjiiramaa bakka kan isaa ta'e maqaan isaa qaphxii qaxxaamuraa lamaatiin marfamee mallatteessi — fakkeenyaaf, jijjiiramaan \"gosa\" jedhamuun moggaafame gosa qaphxii banaa lamaa fi cufiinsa lamatti marfame ta'a.",
+      "variables_label": "Jijjiiramoota",
+      "variable_add": "Jijjiiramaa itti dabali",
+      "variable_name": "Furtuu",
+      "variable_label": "Asxaa",
+      "variable_type": "Gosa",
+      "variable_type_string": "Barreeffama",
+      "variable_type_select": "Filannoo tokko qofa",
+      "variable_type_multiselect": "Filannoo dachaa",
+      "variable_type_number": "Lakkoofsa",
+      "variable_type_boolean": "Eeyyee/lakki",
+      "variable_options": "Filannoowwan (komaandiin adda baafaman) .",
+      "variable_required": "Barbaachisaa",
+      "save": "Unkaa qusachuu"
+    },
+    "metatags": {
+      "title": "Meetaa-tags",
+      "subtitle": "Taagiin caasaa fi akkaataa Suno lyrics keessaa ni beeka.",
+      "new_tag": "Taagiin haaraan",
+      "tag_label": "Tag",
+      "tag_placeholder": "fkn. gitaara-solo",
+      "category_label": "Ramaddii",
+      "tier_label": "Amanamummaa",
+      "tier_legend_title": "Oduu durii amanamummaa",
+      "tier_legend": {
+        "1": "Sadarkaa 1ffaa — galmaa’ee fi walsimaa",
+        "2": "Sadarkaa 2ffaa — yeroo baayyee ni hojjeta",
+        "3": "Sadarkaa 3ffaa — bu’aa jijjiiramaa",
+        "4": "Sadarkaa 4ffaa — pilaasboo, kan hin mirkanoofne"
+      },
+      "description_label": "Ibsa",
+      "delete_confirm_title": "Taagiin \" {{tag}} \" haquu?",
+      "empty": "Hanga ammaatti meetaa-tags amala hin jiru."
+    }
+  },
+  "settings": {
+    "title": "Sajoo",
+    "subtitle": "Odeeffannoo sirnaa, afaanii, fi filannoowwan durtii.",
+    "system_info_title": "Sirna",
+    "version": "Version",
+    "data_dir": "Galmee deetaa",
+    "ffmpeg_status": "FFmpeg jedhamuun beekama",
+    "ffmpeg_available": "Argamuu danda'a",
+    "ffmpeg_missing": "Hin argamne",
+    "capabilities_title": "Dandeettiiwwan fe'aman",
+    "capability": {
+      "denoise": "Sagalee hir’isuu",
+      "quality": "Qulqullina fooyyessuu",
+      "separate": "Madda addaan bahuu",
+      "ffmpeg": "Jijjiirraa FFmpeg"
+    },
+    "capability_available": "Argamuu danda'a",
+    "capability_unavailable": "Hin argamne",
+    "gpu_title": "Saffisa GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA jedhamuun beekama",
+      "ort_providers": "ONNX Runtime dhiyeessitoota"
+    },
+    "gpu_none": "Dhiyeessitoonni GPU hin argamne",
+    "language_title": "Afaan",
+    "language": {
+      "pt-BR": "Poorchugaes (Biraasil) .",
+      "en": "Afaan Oromoo"
+    },
+    "theme_title": "Mul'achuu",
+    "theme": {
+      "dark": "Dukkana",
+      "light": "Ifa"
+    },
+    "defaults_title": "Durtii al-ergi",
+    "lufs_target_label": "LUFS irratti xiyyeeffate",
+    "lufs_target_hint": "Yeroo erguu fudhatu akka yaada jalqabaatti fayyadama. Durtii Suno naannoo -14 LUFS taa'a.",
+    "saved": "Filannoon qusatameera"
+  },
+  "guide": {
+    "title": "Qajeelfama waraabbii suno",
+    "subtitle": "Akkaataa sagalee fi gitaara fudhachuu bu'aa gaarii argatu.",
+    "intro": "Suno wabiiwwan qulqulluu, ifa hin taane waliin ga'umsa gaarii qaba. Qajeelfamni kun qophii, sadarkaa galma, fi iskiriiptii waraabbii daqiiqaa 3–5 kan hammatudha.",
+    "sections": {
+      "prep": {
+        "title": "Qophii",
+        "body": "Kutaa wal’aanamaa ykn kan meeshaa lallaafaa baay’ee qabu keessatti galmeessi (goldaa, rugs, uffata kaazinaa keessa jiru). Fanaa fi waan hums ta'e cufaa. Sagalee keessan waraabbii dura daqiiqaa 5f ho'isaa."
+      },
+      "levels": {
+        "title": "Sadarkaa: -12 hanga -6 dBFS",
+        "body": "Meetira irratti -12 fi -6 dBFS gidduutti fiixeewwan kaayyeffadhu. Daangaa sana gadiitti sagaleen duubaa caalaatti mulʼata; isa olitti balaan ciccituu ni dabala. Osoo hin jalqabin dura bu'aa kee saaguuf safartuu fuula Galmee irratti fayyadami."
+      },
+      "distance": {
+        "title": "Fageenya mic: 15–30 cm",
+        "body": "Maaykiroofoonii irraa seentimeetira 15 hanga 30 fagaadhaa. Sana caalaa dhihoo ta’uun plosives fi proximity effect garmalee guddisa; fagootti kan argamu reverb fi sagalee kutaa baay’ee fudhata."
+      },
+      "script": {
+        "title": "Iskiriiptii waraabuu",
+        "warmup": "Sagalee ho’isuu (daqiiqaa 1–2) .",
+        "vowels": "Dubbachiiftuu itti fufiinsa qabu — a, e, i, o, u",
+        "scales": "Miizaana salphaa, olii fi gadi",
+        "excerpt": "Kutaa sirbaa (barruu 8 hanga 16) .",
+        "dynamics": "Daayinamiksii: lallaafaa jalqabuu, sagalee guddaadhaan xumuruu",
+        "spoken_phrase": "Gaalee dubbatame tokko, kanaaf Suno sagalee kee dubbisuu danda'a"
+      },
+      "expectations": {
+        "title": "Waan Suno eegu",
+        "body": "WAV, 48 kHz, mono, dry (reverb ykn effects hin qabu), daqiiqaa 3 hanga 5 wabii. Daqiiqaa 2 kan qulqulluu, bakka bu’aa ta’e fudhachuu yeroo baay’ee bu’aa gaarii argamsiisa."
+      }
+    }
+  },
+  "status": {
+    "idea": "Yaada",
+    "em_progresso": "Adeemsa irra jira",
+    "quase": "Achitti jechuun ni danda'ama",
+    "pronto": "Qophaa'aa"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Iskiriiptii sagalee guutuu Suno",
+      "desc": "Daqiiqaa qajeelfama 5: ho’isuu, dubbachiiftuu, madaallii, kutaalee sirbaa lama, daayinamiksii fi gaalee dubbatame."
+    },
+    "step": {
+      "warmup": "Sagalee ho'isuu",
+      "warmup_inst": "Yawns, lip trills (brrr), fi hum lallaafaa gara daqiiqaa tokkoof laaffisaa. Waraabbii gochuun hin barbaachisu — sirbuu kee dura qoonqoo kee boqochiisuuf qofa.",
+      "vowels": "Dubbachiiftuu itti fufiinsa qabu",
+      "vowels_inst": "Tokkoon tokkoon dubbachiiftuu — a, e, i, o, u — sekondii 3 hanga 4f sagalee mijataa keetiin, sagalee dhaabbataa ta’een qabadhu. Kunis Suno sagalee kee qulqulluu akka fudhatu gargaara.",
+      "scales": "Miizaana olii fi gadi",
+      "scales_inst": "Iskeelii salphaa ol fi achiis gadi, \"la\" ykn \"na\" irratti sirbi. Mudaa kan hin qabne ta’uu hin barbaachisu — galmi isaas hamma sagalee keetii kaartaan kaa’uudha.",
+      "section": "Faarfannaa irraa kutaa — kutaa 1ffaa",
+      "section_inst": "Sirbi sana bar 8 hanga 16 faarfadhu, yaada dhugaa dabarsuu barbaadduun. Mudaa hin qabne teeknikaa caalaa ifa ta’uu fi argamuuf dursa kennuu.",
+      "section2": "Faarfannaa irraa kutaa — kutaa 2ffaa",
+      "section2_inst": "Bar 8 hanga 16 kan biraa faarfadhu — yoo gaarii ta’e chorus ykn kutaa isa duraa wajjin wal faallaa ta’e. Garaagarummaan baay’een moodeelli sagalee kee akka baratu gargaara.",
+      "dynamics": "Daayinamiksii: lallaafaa → sagalee guddaa",
+      "dynamics_inst": "Gaalee wal fakkaatu baay’ee lallaafaa irraa jalqabdee sagalee guddaadhaan xumurtee, qoonqoo kee osoo hin dhiphisin faarfadhu. Kunis Suno sagalee keetii daayinamiik range agarsiisa.",
+      "spoken": "Gaalee dubbatamu",
+      "spoken_inst": "Dubbadhu — hin sirbiin — gaalee gabaabaa, uumamaa, akka waan chatting gootuutti. Kunis Suno sagalee kee isa dhugaa akka adda baasu gargaara."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Deebi'ee dhaabuu",
+      "filter": "Filters",
+      "dynamics": "Daayinamiksii",
+      "separation": "Addaan bahuu",
+      "quality": "Qulqullina",
+      "utility": "Faayidaa",
+      "loudness": "Sagalee guddaa"
+    },
+    "highpass": "Filtara dabarsoo ol’aanaa",
+    "lowpass": "Filtara darbiinsa gadi aanaa",
+    "denoise": "Sagalee hir’isuu",
+    "declip": "Kufaatii",
+    "declick": "Cuqaasuu/pop balleessuu",
+    "deesser": "De-esser jechuun ni danda’ama",
+    "gate": "Karra sagalee",
+    "compressor": "Kompressara",
+    "limiter": "Daangeessaa",
+    "eq": "Walqixxummaa",
+    "normalize": "Normaayizeeshinii olka’aa (peak normalization).",
+    "loudness": "Sagalee guddaa idileessuu (LUFS) .",
+    "reverb_reduce": "Reverb hir'isuu",
+    "separate": "Madda addaan bahuu",
+    "quality": "Qulqullina fooyyessuu (upscale) .",
+    "trim_silence": "Callisuun ciruu",
+    "fade": "Fade in / fade out jedhu",
+    "stereo_to_mono": "Gara monotti jijjiiri",
+    "resample": "Irra deebiin saamuda fudhachuu"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Amanamaadha",
+      "2": "Yeroo baayyee ni hojjeta",
+      "3": "Jijjiiramaa",
+      "4": "Pilaasboo"
+    },
+    "category": {
+      "structure": "Caasaa",
+      "vocal": "Sagalee",
+      "instrument": "Meeshaa",
+      "dynamics": "Daayinamiksii",
+      "production": "Omisha",
+      "mood": "Miira"
+    },
+    "verse": "Keeyyata",
+    "chorus": "Chorus",
+    "bridge": "Riqicha",
+    "intro": "Seensa",
+    "outro": "Outro jedhamuun beekama",
+    "hook": "Hook",
+    "prechorus": "Koorasii duraa",
+    "instrumental": "Meeshaa",
+    "guitar_solo": "Giitaara solo",
+    "build_up": "Ijaarsa-up",
+    "breakdown": "Caccabuu",
+    "spoken_word": "Jecha dubbatame",
+    "whispered": "Jedhee xuxxuqe",
+    "harmonies": "Harmonies",
+    "male_vocal": "Sagalee dhiiraa",
+    "female_vocal": "Sagalee dubartootaa",
+    "duet": "Duet jedhamuun beekama",
+    "acoustic": "Akuustikii",
+    "ad_lib": "Ad-lib jedhamuun beekama"
+  },
+  "presets": {
+    "clean_voice": "Sagalee qulqulluu",
+    "voice_guitar_balanced": "Sagalee & gitaara madaalawaa",
+    "podcast": "Podcast jedhamuun beekama",
+    "suno_ready": "Sunoo qophaa'aa",
+    "gentle_restore": "Lallaafaa deebisuu",
+    "raw_passthrough": "Adeemsi hin jiru"
+  },
+  "errors": {
+    "unknown": "Waan tokkotu dogoggora ta'e.",
+    "network": "Sarvarii bira gahuu hin dandeenye.",
+    "validation_error": "Odeeffannoo galchite ilaali.",
+    "not_found": "Meeshaan hin argamne.",
+    "project_not_found": "Pirojektiin hin argamne.",
+    "take_not_found": "Fudhachuu hin argamne.",
+    "album_not_found": "Albamii hin argamne.",
+    "preset_not_found": "Dursee kan murtaa'e hin argamne.",
+    "template_not_found": "Unkaan hin argamne.",
+    "device_busy": "Meeshaan sagalee sagantaa biraatiin fayyadamaa jira.",
+    "device_not_found": "Meeshaan sagalee hin argamne.",
+    "already_recording": "Waraabbiin duraanuu adeemsifamaa jira.",
+    "ffmpeg_missing": "FFmpeg hin fe'amne — faayilii kana jijjiiruuf fe'i.",
+    "disk_full": "Bakki diskiin gahaa miti.",
+    "permission_denied": "Daandii kennameef hayyamni dhorkame.",
+    "import_path_not_found": "Daandiin galchuu hin argamne.",
+    "job_failed": "Adeemsi isaa hin milkoofne.",
+    "job_cancelled": "Adeemsi isaa haqame.",
+    "process_failed": "Fudhata sana adeemsisuun hin danda'amne.",
+    "export_failed": "Faayilii erguu hin dandeenye.",
+    "record_failed": "Waraabbii jalqabuu hin dandeenye."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Tarree keessa jiru",
+      "running": "Fiigicha",
+      "done": "Raawwatame",
+      "error": "Kufe",
+      "cancelled": "Haqameera"
+    },
+    "kind": {
+      "process": "Adeemsa Hojii",
+      "export": "Al-ergii",
+      "import": "Galchuu",
+      "record": "Waraabbii"
+    }
+  }
+}

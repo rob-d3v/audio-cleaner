@@ -1,0 +1,59 @@
+{
+  "id": "suno-voice-full",
+  "name_key": "scripts.suno_voice_full.name",
+  "description_key": "scripts.suno_voice_full.desc",
+  "target_total_min": 5,
+  "steps": [
+    {
+      "id": "aquecimento",
+      "name_key": "scripts.step.warmup",
+      "duration_s": 60,
+      "instruction_key": "scripts.step.warmup_inst",
+      "record": false
+    },
+    {
+      "id": "vogais",
+      "name_key": "scripts.step.vowels",
+      "duration_s": 45,
+      "instruction_key": "scripts.step.vowels_inst",
+      "record": true
+    },
+    {
+      "id": "escalas",
+      "name_key": "scripts.step.scales",
+      "duration_s": 60,
+      "instruction_key": "scripts.step.scales_inst",
+      "record": true
+    },
+    {
+      "id": "trecho1",
+      "name_key": "scripts.step.section",
+      "duration_s": 40,
+      "instruction_key": "scripts.step.section_inst",
+      "bars": "8-16",
+      "record": true
+    },
+    {
+      "id": "trecho2",
+      "name_key": "scripts.step.section2",
+      "duration_s": 40,
+      "instruction_key": "scripts.step.section2_inst",
+      "bars": "8-16",
+      "record": true
+    },
+    {
+      "id": "dinamica",
+      "name_key": "scripts.step.dynamics",
+      "duration_s": 40,
+      "instruction_key": "scripts.step.dynamics_inst",
+      "record": true
+    },
+    {
+      "id": "frase_falada",
+      "name_key": "scripts.step.spoken",
+      "duration_s": 20,
+      "instruction_key": "scripts.step.spoken_inst",
+      "record": true
+    }
+  ]
+}

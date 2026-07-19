@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio Reiniger"
+  },
+  "nav": {
+    "library": "Biblioteek",
+    "record": "Rekort",
+    "import": "Importiire",
+    "templates": "Vorlagen",
+    "settings": "Instellungen",
+    "guide": "Guia"
+  },
+  "common": {
+    "save": "Reserve",
+    "saving": "Sparen...",
+    "saved": "Kexpaart",
+    "cancel": "Annuler",
+    "close": "Tsum",
+    "delete": "Lës",
+    "edit": "Redakteere",
+    "create": "Kreeere",
+    "search": "Suuch",
+    "loading": "Laden...",
+    "error": "Feeler",
+    "retry": "Noch mool probeere",
+    "confirm": "Konfirmiire",
+    "back": "Zurück",
+    "next": "Als nächstes",
+    "continue": "Wayter",
+    "finish": "Fërtich",
+    "copy": "Kopie",
+    "copied": "Kopiert",
+    "download": "Download",
+    "upload": "Hot laate",
+    "none": "Keen",
+    "all": "Al",
+    "yes": "Yaa",
+    "no": "Nee",
+    "select": "Selekteer .",
+    "optional": "opsioneel",
+    "required": "ferlangt",
+    "unsaved_changes": "Ënerunge woo nët kexpaart këp sin",
+    "name": "Naam",
+    "status": "Status",
+    "type": "Tip",
+    "actions": "Aktsioone",
+    "empty": "Leere",
+    "browse": "Browse",
+    "remove": "Entfernen",
+    "add": "Tuu",
+    "rename": "Ëyert naame",
+    "duplicate": "Duplikaat",
+    "warning": "Waarschuung",
+    "locked": "Ferxlos",
+    "builtin": "Integrierte",
+    "custom": "Persoonlich",
+    "untitled": "Oone titel",
+    "select_placeholder": "Selekteer..."
+  },
+  "library": {
+    "title": "Biblioteek",
+    "subtitle": "Tayn xtim un kitaar proyekte, fon idee pis puplikatsioon.",
+    "new_project": "Neu projëkt",
+    "new_album": "Neu albom",
+    "search_placeholder": "Suuch noo tëm naame...",
+    "view": {
+      "grid": "Raster",
+      "albums": "Albëme"
+    },
+    "filters": {
+      "all": "Al"
+    },
+    "take_count_one": " {{count}} nëme",
+    "take_count_other": " {{count}} nëmt",
+    "updated_at": "Aktualisiert {{date}} ",
+    "no_results": {
+      "title": "Keen projëkte sin kefun këp",
+      "description": "Proop ti suuchung orer status filter aanpase."
+    },
+    "empty": {
+      "title": "Tayn biblioteek is leere .",
+      "description": "Start een nay projëkt fon te xteke, orer importiire tas tuu xon uf te xteke host.",
+      "cta_import": "Importiire fon te folter",
+      "cta_new": "Proyekt mache"
+    },
+    "project_dialog": {
+      "title": "Neu projëkt",
+      "description": "Tuu tëm een naame këpe un een opjetiiw raus suuche.",
+      "name_label": "Proyekt naame",
+      "name_placeholder": "z.B. Somerreen",
+      "mode_label": "Modus",
+      "mode": {
+        "voice": "Ploos Stim",
+        "voice_guitar": "Stiim + kitaar"
+      },
+      "submit": "Proyekt mache"
+    },
+    "album_dialog": {
+      "title": "Neu albom",
+      "description": "Gruppe projëkte woo mit tas se tuun hon in een albom.",
+      "name_label": "Naame fom alpëm",
+      "name_placeholder": "z.B. Herbst EP",
+      "submit": "Album mache"
+    },
+    "album": {
+      "untitled": "Album oone titel",
+      "members_count_one": " {{count}} projëkt",
+      "members_count_other": " {{count}} projëkte",
+      "empty": "Noch khee proyekte in tiise alpëm.",
+      "delete_confirm_title": "Tas alpëm aus lëye?",
+      "delete_confirm_description": "Proyekte wëre nët aus kexmis, ploos fon \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "\" {{name}} \" is tas?",
+      "confirm_description": "Tas tuut te projëkt un yeete take in tëm wëch xafe. Tas khan nët kemacht wëre."
+    }
+  },
+  "record": {
+    "title": "Rekort",
+    "subtitle": "Fang een sauwer take aan, kuk tayn niwele, un fol mit te skript.",
+    "project_label": "Proyekt",
+    "project_placeholder": "Tuu een projëkt raus suuche .",
+    "project_create_quick": "Kreeer een xnël projëkt...",
+    "device_label": "Input-apparat",
+    "device_placeholder": "Wëlt een apparaat raus suuche .",
+    "device_default_badge": "Systeem standard",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Keen input-apparate sin kefun.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Stop ti monitooring",
+    "record_button": "Rekort",
+    "stop_button": "Stop",
+    "elapsed_label": "Ferkangne tsayt",
+    "status": {
+      "idle": "Leetich",
+      "monitoring": "Monitooring",
+      "recording": "Opname",
+      "stopped": "Kextop"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Peak",
+      "clip": "Klip"
+    },
+    "guide": {
+      "title": "Sesioon mit kefiirt",
+      "subtitle": "Los te treener tich xrit noo xrit torich tas skript nëme, fon te uf muutung pis ti kexprochne frase.",
+      "loading": "Skript am laate...",
+      "unavailable": "Ti kefiirt sesioon is noch nët uf em serwer fërtich.",
+      "select_project_device": "Tuu een projëkt un een inlaatungs apteelung raus suuche fer xrite richtich fon too aan foran xraype.",
+      "progress": " {{done}} fon {{total}} xrite",
+      "start_timer": "Aanfangs timer",
+      "skip_timer": "Timer wech",
+      "record_step": "Rekortiire tiise xrit .",
+      "stop_step": "Stop uf te opname",
+      "mark_done": "Fertiint — neekste xrit",
+      "step_recorded": "Nim opname",
+      "no_record_step": "Warm-up step — no recording needed.",
+      "bars_hint": "Unkefeer {{bars}} xteen",
+      "complete_title": "Skript is komplët!",
+      "complete_body": "Tuu host yeete xrit fom skript uf kenom. Tuu tsurik in te projëkt Audio-Tab keen un tayn liipe takes raus suuche.",
+      "restart": "Skript noch mool aan fange"
+    },
+    "best2min": {
+      "button": "Fin ti pëste 2 minute (Suno)",
+      "running": "Analyseere ti nëme...",
+      "score_label": "Punkt",
+      "hint": "Runt en enerxii un klaarheet analyse iwer ti kans tsayt fer sayn xtërekste 2-minute fenster se fine — tuu khanst noch mool te reechle mit te hant aanpase noo heyer.",
+      "chart_caption": "Punkt pro fenster",
+      "unavailable": "Ti pëste-2-minute analyse is noch nët uf tiise serwer fërtich."
+    },
+    "takes_title": "Tas nëmt fon tiise sesioon .",
+    "takes_empty": "Keen takes in tiise sesioon noch uf kenom.",
+    "open_in_project": "Open in proyekt",
+    "ws_disconnected": "Witer ferklaycht mit tëm nivel meter...",
+    "select_project_first": "Choose a project to get started.",
+    "select_device_first": "Wëlt een inlaatungs apparaat raus suuche."
+  },
+  "project": {
+    "back_to_library": "Zurück in ti biblioteek",
+    "header": {
+      "status_label": "Status",
+      "cover_upload": "Ti tëkst uf laate",
+      "cover_remove": "Entfernen Deksel",
+      "name_placeholder": "Proyekt naame",
+      "links_title": "Links",
+      "add_link": "Link hinzufügen",
+      "mode": {
+        "voice": "Ploos Stim",
+        "voice_guitar": "Stiim + kitaar"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Tekst",
+      "prompts": "Ferlange",
+      "notes": "Notas"
+    },
+    "audio": {
+      "takes_title": "Nimt",
+      "no_takes": {
+        "title": "Nee nëmt noch",
+        "description": "Een nay take uf nëme orer een eksistiirente file importiire."
+      },
+      "record_new": "Rekort een nay take .",
+      "rating": "Bewertung",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Ferarwayt"
+      },
+      "variant_placeholder": "Wersioon",
+      "process_button": "Protses",
+      "export_button": "Exportiire",
+      "delete_take_confirm_title": "Lës tas nëme?",
+      "delete_take_confirm_description": "Te raue autio un yeete ferprayt wersikel wërt wëch ketuun.",
+      "ab": {
+        "raw": "A · Rau",
+        "processed": "B · Ferarwayt"
+      },
+      "origin": {
+        "recorded": "Opname",
+        "imported": "Importiert"
+      },
+      "session_label_placeholder": "Sesioon etiket (opsional)",
+      "duration": "Tsayt",
+      "sample_rate": "Probefreis",
+      "channels": "Kanale",
+      "created_at": "Opname"
+    },
+    "pipeline": {
+      "title": "Ferarbeitungs ketrënk",
+      "preset_label": "Vorsetst",
+      "preset_none": "Persoonliche ketrënk",
+      "preset_save": "Speeder als preset",
+      "stage_locked": "Ferxlos",
+      "stage_requires_extra": "Ferlangt en ekstra woo nët instaliirt is",
+      "process_button": "Protses nëme",
+      "processing": "Ferarbeitung...",
+      "job_queued": "In te xteke...",
+      "job_running": "Ferarbeitung...",
+      "job_done": "Fertiint",
+      "job_error": "Ferloer",
+      "job_cancelled": "Annulerëyert",
+      "cancel_job": "Annuler",
+      "no_stages": "Keen stage sin te krijgen."
+    },
+    "export": {
+      "title": "Export nëme",
+      "description": "Render een ëntxlus fon een ferarwayt wersioon.",
+      "variant_label": "Wersioon",
+      "format_label": "Format",
+      "preset_label": "Exportiire foerxtëlung",
+      "range_label": "Range",
+      "range_full": "Volle lengte",
+      "range_custom": "Persoonlich sortiment",
+      "start_label": "Aanfang (s)",
+      "end_label": "Ënd (s)",
+      "submit": "Exportiire",
+      "progress": "Rendering fon te file...",
+      "download_ready": "Date fërtich",
+      "download_button": "Tas file runer laate"
+    },
+    "notes": {
+      "placeholder": "Free-form notes about this project…",
+      "saved_at": "Kexpaart uf {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Xrayp ti lirixe wërter hier. Tuu ti palet uf te sayt penutse fer Suno meta-taache in se xtele.",
+      "saved_at": "Kexpaart uf {{time}} ",
+      "saving": "Sparen...",
+      "versions": "Wersioons",
+      "versions_empty": "Noch khee kexpaartne wersikele.",
+      "version_preview": "Vorschau",
+      "restore": "Restaureere tiise wersikel .",
+      "restore_confirm_title": "Restaureere tiise wersikel?",
+      "restore_confirm_description": "Te aktuaal tëkst wërt ersat mit te wersikel woo uf {{date}} kexpaart kep is.",
+      "metatags_title": "Meta-taache",
+      "metatags_hint": "Click a tag to insert it at the cursor.",
+      "metatags_placebo_warning": "Unproven — may have no effect on the result.",
+      "metatags_empty": "Keen meta-taache sin registriert."
+    },
+    "prompts": {
+      "style_title": "Stiil prompt",
+      "lyrics_title": "Lirik prompt",
+      "template_label": "Vorlage",
+      "template_none": "Keen vorlaam",
+      "variables_title": "Variabel",
+      "preview_title": "Vorschau",
+      "preview_empty": "Tuu een foerxtëlung raus suuche un ti variaable aus fiile fer een foerxtëlung se siin.",
+      "char_count": " {{count}} xrifte",
+      "char_count_warning": "Stiil prompts iwer 1000 xrifte khëne fon Suno trunk kriin.",
+      "copy": "Kopie",
+      "copied": "Kopiert in te xrayp khaste .",
+      "save_to_project": "Spare fer proyekt",
+      "saved_to_project": "Prompt kexpaart fer proyekt",
+      "history_title": "Kexicht",
+      "history_empty": "Keen foerxritne wersikele.",
+      "current_label": "Aktueel"
+    },
+    "stems": {
+      "title": "Vokal un kitaar",
+      "separate_button": "Separate vocals and guitar",
+      "running": "Separateere...",
+      "vocals": "Vokal",
+      "instrumental": "Instrumënte",
+      "process_stem": "Protses tiise stam",
+      "empty": "This take hasn't been separated yet. Run separatsioon fer ti xprooch un ti kitaar in isolatsioon se heere.",
+      "capability_missing": "Queimada separação is nët instaliert uf tiise serwer.",
+      "unavailable": "Vokal/kitaar separatsioon is noch net uf tëm serwer."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Aan",
+    "boolean_off": "Aus"
+  },
+  "import": {
+    "title": "Importiire",
+    "subtitle": "Tuu projëkte woo xon uf te xteke eksistiire, in ti piplioteek pringe.",
+    "step_indicator": "Xrit {{current}} fon {{total}} ",
+    "step1": {
+      "title": "Suuch ti folter",
+      "description": "Tsaych ti wortsel fol mit tayn projëkte un xpiile.",
+      "path_label": "Folder weech",
+      "path_placeholder": "z.B. E:\\Robbs\\Stolz\\Musik\\Robbs",
+      "recent_label": "Rexënt",
+      "scan_button": "Scanne folter",
+      "scanning": "Scanne...",
+      "ffmpeg_warning": "FFmpeg net kefun — ti fiile woo konwersatsioon prauche wëre kexmis.",
+      "folders_found_one": " {{count}} folter kefun",
+      "folders_found_other": " {{count}} folter sin kefun këp",
+      "unmatched_files_one": " {{count}}  unrecognized file",
+      "unmatched_files_other": " {{count}}  unrecognized files"
+    },
+    "step2": {
+      "title": "Items noo kuke",
+      "description": "Kuk ti naame, status un was importiirt wërt eepst tuu tas konfirmiirst.",
+      "select_all": "Selekteer al .",
+      "table": {
+        "folder": "Quelle folder",
+        "name": "Proyekt naame",
+        "status": "Status",
+        "audio": "Audio",
+        "lyrics": "Tekst",
+        "cover": "Cover",
+        "album": "Alpëm"
+      },
+      "audio_include_one": " {{count}} file aus kesuucht",
+      "audio_include_other": " {{count}} fiile aus kesuucht",
+      "no_audio": "Keen audio kefun",
+      "no_lyrics": "Keen lirik kefun",
+      "no_cover": "Keen cover",
+      "warnings_title": "Warnunge"
+    },
+    "step3": {
+      "title": "Importiire",
+      "description": "Konfirmiire fer ti fiile se kopiire un ti projëkte se mache.",
+      "copy_originals": "Copy original files into the library",
+      "execute_button": "Importeere aan fange",
+      "progress_title": "Importiire...",
+      "created_count": "Kemacht: {{count}} ",
+      "skipped_count": "Ferxprung: {{count}} ",
+      "done_title": "Import komplët",
+      "done_description": "The projects below were created in your library.",
+      "view_project": "Open proyekt",
+      "start_over": "Neu import"
+    }
+  },
+  "templates": {
+    "title": "Vorlagen",
+    "subtitle": "Wiederbebruikbare promptvorlagen en meta-tags voor Suno.",
+    "tabs": {
+      "prompts": "Prompt-vorlagen",
+      "metatags": "Meta-taache"
+    },
+    "new_template": "Neue vorlaag",
+    "kind": {
+      "style": "Stiil",
+      "lyrics": "Tekst"
+    },
+    "kind_label": "Liiplich",
+    "delete_confirm_title": "Tas vorlage \" {{name}} \" is?",
+    "delete_confirm_description": "Tas khan nët kemacht wëre.",
+    "empty": "Noch keen vorlagen.",
+    "editor": {
+      "title_new": "Neue vorlaag",
+      "title_edit": "Vorlage ënere",
+      "name_label": "Naam",
+      "name_placeholder": "z.B. Akustixe balada",
+      "kind_label": "Liiplich",
+      "template_label": "Vorlage tëkst",
+      "template_hint": "Markeere woo yeete variawel keheert mit sayn naame in tswaay krupe fon krupe — tsum payxpiil, en variawel mit em naame \"xënwer\" wërt en xënre woo in tswaay ufpau un tswaay xlus xrifte kexrip kept.",
+      "variables_label": "Variabel",
+      "variable_add": "Variabel hinzufügen",
+      "variable_name": "Xlëcht",
+      "variable_label": "Etiket",
+      "variable_type": "Tip",
+      "variable_type_string": "Tekst",
+      "variable_type_select": "Eenfach aus suuche",
+      "variable_type_multiselect": "Multi-selektsioon",
+      "variable_type_number": "Numer",
+      "variable_type_boolean": "Yaa/nee",
+      "variable_options": "Optsioone (mit komma separat)",
+      "variable_required": "Erforderlich",
+      "save": "Vorlage sparen"
+    },
+    "metatags": {
+      "title": "Meta-taache",
+      "subtitle": "Strukturaale un stil etikeete Suno erkennt inwënich lirixe.",
+      "new_tag": "Neue tag",
+      "tag_label": "Tag",
+      "tag_placeholder": "z.B. kitaar-solo",
+      "category_label": "Kategorie",
+      "tier_label": "Fertrauenslichkheet",
+      "tier_legend_title": "Fertraulichkheet lejënt",
+      "tier_legend": {
+        "1": "Tier 1 — dokumentiirt un konsistent .",
+        "2": "Tier 2 — normalerwayse funktsiooniirt",
+        "3": "Tier 3 — variawel effekt",
+        "4": "Tier 4 — plasebo, unpewayst"
+      },
+      "description_label": "Beschreibung",
+      "delete_confirm_title": "Lës tas tag \" {{tag}} \"?",
+      "empty": "Noch keen personalisierte meta-tags."
+    }
+  },
+  "settings": {
+    "title": "Instellungen",
+    "subtitle": "Sisteem informatsioone, xprooch un xprooch woos tuu xprëchst.",
+    "system_info_title": "Sisteem",
+    "version": "Wersioon",
+    "data_dir": "Data folder",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Erhältlich",
+    "ffmpeg_missing": "Niet kefun",
+    "capabilities_title": "Instalierte kapasiteete",
+    "capability": {
+      "denoise": "Ruus reduktsioon",
+      "quality": "Kwaliteet ferpëserung",
+      "separate": "Quelle separatsioon",
+      "ffmpeg": "FFmpeg umwertung"
+    },
+    "capability_available": "Erhältlich",
+    "capability_unavailable": "Nicht disponibel",
+    "gpu_title": "GPU-akseleratsioon",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime aanpeeter"
+    },
+    "gpu_none": "No GPU providers detected",
+    "language_title": "Xprooch",
+    "language": {
+      "pt-BR": "Portukees (Brasilien)",
+      "en": "Ënglisch"
+    },
+    "theme_title": "Aus siin",
+    "theme": {
+      "dark": "Dunkel",
+      "light": "Licht"
+    },
+    "defaults_title": "Exporteere ti xprooch",
+    "lufs_target_label": "Ziel LUFS",
+    "lufs_target_hint": "Gebruikt als aanfangs aanreet wanneer exportiert nimt. Suno's default sits around -14 LUFS.",
+    "saved": "Preferënse sin kexpaart"
+  },
+  "guide": {
+    "title": "Suno opname guide",
+    "subtitle": "Wii ti xtim un ti kitaar se fange, tas ti pëste resultaate kriin.",
+    "intro": "Suno macht tas pëste mit sauwer, unkeweenlich referënse. Tiise hilef tuut ti foer peraytung, ti tsiil niwele un een 3–5 minute opjetiiw skript pexprëche.",
+    "sections": {
+      "prep": {
+        "title": "foer peraytung",
+        "body": "Rekort in een tratamënt orer een mit fiil weech materiaal (gardinen, teppiche, kleenichkheete in een khaste). Turn off fans and anything that hums. Tuu tayn xtim 5 minute uf mache eepst tuu tas uf nëmst."
+      },
+      "levels": {
+        "title": "Niveau: -12 pis -6 dBFS",
+        "body": "Sich fer ti picher tswixich -12 un -6 dBFS uf te meter. Uner tëm xpiichel, wërt te hinerlistiche xraay mee merklich; above it, clipping risk rises. Tuu te meter uf te Rechiirente Khërperxaft penutse fer tayn winxe se xtele eepst tuu aan fangst."
+      },
+      "distance": {
+        "title": "Mikrofoon entfernung: 15–30 cm",
+        "body": "Stay 15 to 30 cm from the microphone. Tichter wii tas, xpiirt sich plosiif un proksimaal efekt; wayter wech pixt mee room rewerb un ruich."
+      },
+      "script": {
+        "title": "Opname skript",
+        "warmup": "Vocal warm-up (1–2 minutes)",
+        "vowels": "Sustained vowels — a, e, i, o, u",
+        "scales": "Simple scales, up and down",
+        "excerpt": "A song excerpt (8 to 16 bars)",
+        "dynamics": "Dynamics: start soft, end loud",
+        "spoken_phrase": "Een kexprochne frase, soo tas Suno tayn vokal toon leese khan"
+      },
+      "expectations": {
+        "title": "Was Suno erwaart",
+        "body": "WAV, 48 kHz, mono, trokne (khee rewolutsioon orer efekte), 3 pis 5 minute fon referëns. Ti sauwerste, representatiifste 2 minute fon te tsayt, pringe normalmënt ti pëste resultaate."
+      }
+    }
+  },
+  "status": {
+    "idea": "Idee",
+    "em_progresso": "In forts",
+    "quase": "Fast tat",
+    "pronto": "Klaar"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Voll vokaal skript fer Suno .",
+      "desc": "5 minute mit kefiirt: uf muute, vokaale, xpiile, tswaay liite ausxtëlunge, dynamik, un een kexprochne frase."
+    },
+    "step": {
+      "warmup": "Vokaal ufwarmung",
+      "warmup_inst": "Los sich mit xteke, lipe trile (brrr), un en xraay noo runer fer unkefeer en minut. Es is nët neetich uf nëme — es is ploos fer tayn hals se entspane eepst tuu singe tuust.",
+      "vowels": "Kehalte vokaale",
+      "vowels_inst": "Hal yeete vokaal — a, e, i, o, u — fer 3 pis 4 sekunte in tayn komfortawel xprooch, mit een xtarek xprooch. Tas hëleft Suno tas pure timbre fon tayn xtim uf nëme.",
+      "scales": "Skala uf un runer",
+      "scales_inst": "Sing en eenfach xkala uf un tan runer, uf \"la\" ore \"na\". Es praucht net perfëkt sin — tas tsiil is tayn xtim se kartoteere.",
+      "section": "Liiter ausxtraal — teel 1",
+      "section_inst": "Sing 8 pis 16 xrite fom kesang, mit te woere intentsioon woos tuu aus lëye wilst. Prioriteet këpe fer ti klarkheet un ti presëns fon te teknixe perfektsioone.",
+      "section2": "Liiter ausxtraal — teel 2",
+      "section2_inst": "Singe noch 8 pis 16 xrite — tas pëste is een xrit orer een teel woo kontrast mit tëm foer heer is. Mee sorte hëleft tas te model tayn xtim lërne tuut.",
+      "dynamics": "Dynamik: ways → xroo",
+      "dynamics_inst": "Sing ti selwich frase aan fange mit fiil xpasich un ëntkeen xroo, oone tayn hals se xpaare. Tas tsaycht Suno sayn xtim sayn dynamixe xpiichel.",
+      "spoken": "Kexprochne frase",
+      "spoken_inst": "Xprech — net singe — een khorts, natiirlich frase, wii wëns tuu xprëchst. Tas hëleft Suno tas woere timbre fon tayn xtim erkhëne."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restauratsioon",
+      "filter": "Filter",
+      "dynamics": "Dynamik",
+      "separation": "Separatsioon",
+      "quality": "Kwaliteet",
+      "utility": "Nutslichkheet",
+      "loudness": "Luut"
+    },
+    "highpass": "Hooch-paas filter",
+    "lowpass": "Filter mit niter-paas",
+    "denoise": "Ruus reduktsioon",
+    "declip": "Enklipse",
+    "declick": "Klik/pop wech xafe",
+    "deesser": "De-eser",
+    "gate": "Ruus port",
+    "compressor": "Kompresor",
+    "limiter": "Limiter",
+    "eq": "Ekwalisatsioon",
+    "normalize": "Pik normalisierung",
+    "loudness": "Normalisierung fon te xprooch (LUFS)",
+    "reverb_reduce": "Rewerb reduktsioon",
+    "separate": "Quelle separatsioon",
+    "quality": "Kwaliteet ferpëserung (opscale)",
+    "trim_silence": "Ruich trim",
+    "fade": "Fade in / fade aus",
+    "stereo_to_mono": "Konwerteere in mono",
+    "resample": "Reprobe"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Fertrauens",
+      "2": "Normaal funktsiooniert",
+      "3": "Variabel",
+      "4": "Plasebo"
+    },
+    "category": {
+      "structure": "Struktur",
+      "vocal": "Vokal",
+      "instrument": "Instrumënt",
+      "dynamics": "Dynamik",
+      "production": "Produktsioon",
+      "mood": "Stimmungs"
+    },
+    "verse": "Versikel",
+    "chorus": "Refrain",
+    "bridge": "Brücke",
+    "intro": "Introtutsioon",
+    "outro": "Aus",
+    "hook": "Haak",
+    "prechorus": "Voor-reen",
+    "instrumental": "Instrumënte",
+    "guitar_solo": "Gitaar solo",
+    "build_up": "Uf paue",
+    "breakdown": "Upruch",
+    "spoken_word": "Kexprochne wort",
+    "whispered": "Flustert",
+    "harmonies": "Harmonie",
+    "male_vocal": "Mannlich vokal",
+    "female_vocal": "Frau vokal",
+    "duet": "Duet",
+    "acoustic": "Akustix",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Sauwer xtim",
+    "voice_guitar_balanced": "Equilibrierte Stim & Gitaar",
+    "podcast": "Podcast",
+    "suno_ready": "Suno klaar",
+    "gentle_restore": "Sanft restaureere",
+    "raw_passthrough": "Keen ferarbeitung"
+  },
+  "errors": {
+    "unknown": "Etwas is ferkheert kang.",
+    "network": "Konnt net te serwer erkhëne.",
+    "validation_error": "Kuk ti informatsioone woos tuu in kexrip host.",
+    "not_found": "Artikel is net kefun.",
+    "project_not_found": "Proyekt nët kefun.",
+    "take_not_found": "Take net kefun.",
+    "album_not_found": "Album is nët kefun këp.",
+    "preset_not_found": "Preset is net kefun.",
+    "template_not_found": "Vorlage is net gefund.",
+    "device_busy": "Audio-apparat is in penutsung fon een aner prokram.",
+    "device_not_found": "Audio apparaat is net kefun.",
+    "already_recording": "Een opname is xon am keen.",
+    "ffmpeg_missing": "FFmpeg is nët instaliirt — instaliirt tas fer tiise file konwerteyere.",
+    "disk_full": "Niks kenuuch plats fer ti xteke.",
+    "permission_denied": "Erlaupnis fer te keptliche weech ferpoot.",
+    "import_path_not_found": "Import weech is net kefun.",
+    "job_failed": "Ti ferarwaytung is ferloer kang.",
+    "job_cancelled": "Ti ferarwaytung waar kanseliert.",
+    "process_failed": "Failed to process the take.",
+    "export_failed": "Failed to export the file.",
+    "record_failed": "Failed to start recording."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Keue",
+      "running": "Running",
+      "done": "Fertiint",
+      "error": "Ferloer",
+      "cancelled": "Annulerëyert"
+    },
+    "kind": {
+      "process": "Ferarbeitung",
+      "export": "Exportiire",
+      "import": "Importiire",
+      "record": "Opname"
+    }
+  }
+}

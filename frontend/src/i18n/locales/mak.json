@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Pembersih Audio"
+  },
+  "nav": {
+    "library": "Perpustakaan",
+    "record": "Catat",
+    "import": "Impor",
+    "templates": "Templat",
+    "settings": "Pangngatoro",
+    "guide": "Panduan"
+  },
+  "common": {
+    "save": "Simpan",
+    "saving": "A'tabung...",
+    "saved": "Ni simpan",
+    "cancel": "Batal",
+    "close": "tutupi",
+    "delete": "Hapus",
+    "edit": "Edit",
+    "create": "appare",
+    "search": "Pa'boyai",
+    "loading": "Loading...",
+    "error": "sala",
+    "retry": "Cobai pole",
+    "confirm": "Konfirmasi",
+    "back": "ammotere",
+    "next": "Ribokoangna",
+    "continue": "tulusu",
+    "finish": "Lebaki",
+    "copy": "Salin",
+    "copied": "Ni salin",
+    "download": "Unduh",
+    "upload": "Upload",
+    "none": "Tena",
+    "all": "Sikontu",
+    "yes": "kamma",
+    "no": "Tena",
+    "select": "Pilei",
+    "optional": "tena naparallu",
+    "required": "niparalluangi",
+    "unsaved_changes": "Pa'pinraang tenayapa ni simpan",
+    "name": "Areng",
+    "status": "Status",
+    "type": "Tipe",
+    "actions": "Panggaukang",
+    "empty": "Kosong",
+    "browse": "Amparessai",
+    "remove": "Pasulu",
+    "add": "tambai",
+    "rename": "Areng beru",
+    "duplicate": "Duplikat",
+    "warning": "Pappiu'rangi",
+    "locked": "Nikunci",
+    "builtin": "Nibangung",
+    "custom": "Kustom",
+    "untitled": "Tena judulna",
+    "select_placeholder": "Pilei..."
+  },
+  "library": {
+    "title": "Perpustakaan",
+    "subtitle": "Proyek suara siagang gitarnu, battu ri ide mange ri rilis.",
+    "new_project": "Proyek beru",
+    "new_album": "Album beru",
+    "search_placeholder": "Boyai siagang areng...",
+    "view": {
+      "grid": "Kisi-kisi",
+      "albums": "Album"
+    },
+    "filters": {
+      "all": "Sikontu"
+    },
+    "take_count_one": " {{count}} angngalle",
+    "take_count_other": " {{count}} angngallei",
+    "updated_at": "Ni update {{date}} ",
+    "no_results": {
+      "title": "Tena proyek ni gappa",
+      "description": "Cobai atoroki pa'pilajarang iareka filter status."
+    },
+    "empty": {
+      "title": "Perpustakaannu kosong",
+      "description": "Appakkaramulami proyek beru battu ri nol, iareka import takes nu rie'mo ri disk.",
+      "cta_import": "Impor battu ri folder",
+      "cta_new": "appareki proyek"
+    },
+    "project_dialog": {
+      "title": "Proyek beru",
+      "description": "sarei areng siagang pilei mode rekaman.",
+      "name_label": "areng proyek",
+      "name_placeholder": "e.g. Bosi musim panas",
+      "mode_label": "Mode",
+      "mode": {
+        "voice": "Sa'ra bawang",
+        "voice_guitar": "Sa'ra + gitar"
+      },
+      "submit": "appareki proyek"
+    },
+    "album_dialog": {
+      "title": "Album beru",
+      "description": "Pa'rappungang proyek-proyek terkait anjari se're album.",
+      "name_label": "areng album",
+      "name_placeholder": "e.g. EP musim gugur",
+      "submit": "appareki album"
+    },
+    "album": {
+      "untitled": "Album tena judulna",
+      "members_count_one": " {{count}} proyek",
+      "members_count_other": " {{count}} proyek",
+      "empty": "Tena proyek ri anne albuma.",
+      "delete_confirm_title": "Hapus album?",
+      "delete_confirm_description": "Proyek-proyek tena na lani hapus, mingka ni unlink battu ri \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Hapus \" {{name}} \"?",
+      "confirm_description": "anne ampa'lanynya'i proyek siagang massing-massing angngallei. anne takkulleai niurangi."
+    }
+  },
+  "record": {
+    "title": "Catat",
+    "subtitle": "Angngalle gambara bersih, parhatikangi tingka'nu, siagang turuki naskah.",
+    "project_label": "Proyek",
+    "project_placeholder": "Pilei se're proyek",
+    "project_create_quick": "appareki proyek sanna' linta'na...",
+    "device_label": "Perangkat input",
+    "device_placeholder": "Pilei se're perangkat",
+    "device_default_badge": "Sistem default",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Tena perangkat input ni gappa.",
+    "monitor_button": "Pantau",
+    "monitor_stop_button": "ammari amparessai",
+    "record_button": "Catat",
+    "stop_button": "ammari",
+    "elapsed_label": "Wattu lebba",
+    "status": {
+      "idle": "Tena anjama",
+      "monitoring": "Pantauang",
+      "recording": "Rekaman",
+      "stopped": "ammari"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Puncak",
+      "clip": "Klip"
+    },
+    "guide": {
+      "title": "Sesi ni pandu",
+      "subtitle": "Lappassangi pelatiha anrurungangko lalang naskah selangkah demi selangkah, battu ri pemanasan mange ri frasa yang dibicarakan.",
+      "loading": "Muat skrip...",
+      "unavailable": "Sesi ni pandui anre'pa na rie' ri server.",
+      "select_project_device": "Pilei proyek siagang perangkat input untuk anrekam langkah-langkah battu anrinni.",
+      "progress": " {{done}} battu ri {{total}} langkah",
+      "start_timer": "Pamulaang wattu",
+      "skip_timer": "Lewati timer",
+      "record_step": "Catat anne langkah",
+      "stop_step": "ammari rekaman",
+      "mark_done": "Lebaki — langkah ribokoangna",
+      "step_recorded": "angngalle rekaman",
+      "no_record_step": "Langkah pemanasan — tena naparallu rekaman.",
+      "bars_hint": "Kira-kira {{bars}} bar",
+      "complete_title": "Naskah lengkap!",
+      "complete_body": "Ikatte lebba ngasemmi anrekam ngasengi langkahna naskah. Ammotere mange ri tab audio proyek siagang ammilei gambara nu sanna nu ero.",
+      "restart": "Pamulai pole skrip"
+    },
+    "best2min": {
+      "button": "amboyai 2 menit kaminang baji (Suno)",
+      "running": "Ansalidiki angngallei...",
+      "score_label": "Nilai",
+      "hint": "Nagaukangi analisis energi siagang kejelasan ri sikontuna angngalle untu amboyai jendela 2-menit kaminang gassinga — akkulleiji nu atoroki rentangna siagang limannu ribokoangna.",
+      "chart_caption": "Nilai per jendela",
+      "unavailable": "Analisis kaminang baji-2-menit tenapa na rie' ri server anne."
+    },
+    "takes_title": "angngalle battu ri anne sesi",
+    "takes_empty": "Tenapa ni rekam ri anne sesi.",
+    "open_in_project": "Bukai ri proyek",
+    "ws_disconnected": "A'sambungang poleang mange ri meter tingka'...",
+    "select_project_first": "Pilei se're proyek untuk appakkaramula.",
+    "select_device_first": "Pilei se're perangkat input."
+  },
+  "project": {
+    "back_to_library": "ammotere mange ri perpustakaan",
+    "header": {
+      "status_label": "Status",
+      "cover_upload": "Upload sampul",
+      "cover_remove": "Pasuluki tutuka",
+      "name_placeholder": "areng proyek",
+      "links_title": "Link",
+      "add_link": "tambai link",
+      "mode": {
+        "voice": "Sa'ra bawang",
+        "voice_guitar": "Sa'ra + gitar"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Lirik",
+      "prompts": "Pappakainga",
+      "notes": "Catatang"
+    },
+    "audio": {
+      "takes_title": "angngalle",
+      "no_takes": {
+        "title": "Tenapa angngalle",
+        "description": "Rekammi angngalle beru iareka impor file yang rie'mo."
+      },
+      "record_new": "Rekammi angngalle beru",
+      "rating": "Rating",
+      "variant": {
+        "raw": "Mentah",
+        "processed": "Niproses"
+      },
+      "variant_placeholder": "Versi",
+      "process_button": "Proses",
+      "export_button": "Ekspor",
+      "delete_take_confirm_title": "Hapus anne take?",
+      "delete_take_confirm_description": "Audio mentah siagang versi yang diproses lani pasulu.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Niproses"
+      },
+      "origin": {
+        "recorded": "Nirekam",
+        "imported": "Impor"
+      },
+      "session_label_placeholder": "Label sesi (opsional)",
+      "duration": "Lantangna",
+      "sample_rate": "Tingkat sampel",
+      "channels": "Saluran",
+      "created_at": "Nirekam"
+    },
+    "pipeline": {
+      "title": "Rantai pemrosesan",
+      "preset_label": "Preset",
+      "preset_none": "Rantai khusus",
+      "preset_save": "Simpan salaku preset",
+      "stage_locked": "Nikunci",
+      "stage_requires_extra": "parallui tambahan yang tena ni pasang",
+      "process_button": "Proses angngallei",
+      "processing": "Amproses...",
+      "job_queued": "Antri...",
+      "job_running": "Amproses...",
+      "job_done": "Lebaki",
+      "job_error": "Gagal",
+      "job_cancelled": "Ni batalkan",
+      "cancel_job": "Batal",
+      "no_stages": "Tena panggung ni sadia."
+    },
+    "export": {
+      "title": "Ekspor angngallei",
+      "description": "Pa'piitteang file paccappureng battu ri versi ni proses.",
+      "variant_label": "Versi",
+      "format_label": "Format",
+      "preset_label": "Ekspor preset",
+      "range_label": "Rentang",
+      "range_full": "lantangna sukku",
+      "range_custom": "Rentang khusus",
+      "start_label": "appakkaramula (s)",
+      "end_label": "Paccappureng (s)",
+      "submit": "Ekspor",
+      "progress": "Berkas rendering...",
+      "download_ready": "Berkas sadia",
+      "download_button": "Unduh file"
+    },
+    "notes": {
+      "placeholder": "Catatang bebas ri sesena anne proyek...",
+      "saved_at": "Ni simpan ri {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Tulisi lirikna anrinni. Pakei palet ri sa'ri untu' antama'i meta-tag Suno.",
+      "saved_at": "Ni simpan ri {{time}} ",
+      "saving": "A'tabung...",
+      "versions": "Versi",
+      "versions_empty": "Tena ija versi ni simpan.",
+      "version_preview": "Pratinjau",
+      "restore": "Pa'jari ammotere' anne versi",
+      "restore_confirm_title": "Ampakabajiki anne versi?",
+      "restore_confirm_description": "Teks kamma kammayya anne lani ganti siagang versi ni simpan ri {{date}} .",
+      "metatags_title": "Meta-tag",
+      "metatags_hint": "Klik se're tag untuk antama ri kursor.",
+      "metatags_placebo_warning": "Tena na ni buktikan — akkullei tena na nia wassele ri wassele.",
+      "metatags_empty": "Tena meta-tag ni daftarkan."
+    },
+    "prompts": {
+      "style_title": "Gaya prompt",
+      "lyrics_title": "Lirik prompt",
+      "template_label": "Templat",
+      "template_none": "Tena template",
+      "variables_title": "Variabel",
+      "preview_title": "Pratinjau",
+      "preview_empty": "Pilei template siagang isi variabel untuk anciniki pratinjau.",
+      "char_count": " {{count}} karakter",
+      "char_count_warning": "Gaya prompt labbi 1000 karakter akkullei ni potong ri Suno.",
+      "copy": "Salin",
+      "copied": "Ni salin mange ri papan klip",
+      "save_to_project": "Simpan mange ri proyek",
+      "saved_to_project": "Prompt ni simpan mange ri proyek",
+      "history_title": "Sejarah",
+      "history_empty": "Tena versi riolo.",
+      "current_label": "kamma kammayya anne"
+    },
+    "stems": {
+      "title": "Vokal siagang gitar",
+      "separate_button": "Vokal siagang gitar sisa'la'",
+      "running": "Appisasa...",
+      "vocals": "Vokal",
+      "instrumental": "Instrumental",
+      "process_stem": "Olah anne batang",
+      "empty": "anne take tenapa na nipisangkai. Pa'bageang pa'bageang untu' allangngere' vokal siagang gitara ri isolasi.",
+      "capability_missing": "Pemisahan sumber tena nipasang ri server anne.",
+      "unavailable": "Pa'bageang vokal/gitar anre'pa na rie' ri server anne."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Ri",
+    "boolean_off": "mate"
+  },
+  "import": {
+    "title": "Impor",
+    "subtitle": "Angngerangi proyek yang lebba nia ri disk mange ri perpustakaan.",
+    "step_indicator": "Langkah {{current}} battu ri {{total}} ",
+    "step1": {
+      "title": "amboyai folder",
+      "description": "Pa'piitteang mange ri folder root siagang proyeknu siagang treknu.",
+      "path_label": "Jalanna folder",
+      "path_placeholder": "e.g. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "beru",
+      "scan_button": "Pindai folder",
+      "scanning": "Scanning...",
+      "ffmpeg_warning": "FFmpeg tena nigappa — file yang parallua nipinra lani skip.",
+      "folders_found_one": " {{count}} folder ni gappa",
+      "folders_found_other": " {{count}} folder ni gappa",
+      "unmatched_files_one": " {{count}} file tenaya ni isse'",
+      "unmatched_files_other": " {{count}} file yang tena ni isse'"
+    },
+    "step2": {
+      "title": "Barang tinjau",
+      "description": "Paressai areng, status, siagang apa yang lani impor riolo nu konfirmasi.",
+      "select_all": "Pilei ngaseng",
+      "table": {
+        "folder": "Folder sumber",
+        "name": "areng proyek",
+        "status": "Status",
+        "audio": "Audio",
+        "lyrics": "Lirik",
+        "cover": "Tutup",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} file nipile",
+      "audio_include_other": " {{count}} file nipile",
+      "no_audio": "Tena audio ni gappa",
+      "no_lyrics": "Tena lirik ni gappa",
+      "no_cover": "Tena tutu",
+      "warnings_title": "Pappiu'rangi"
+    },
+    "step3": {
+      "title": "Impor",
+      "description": "Pa'nassai untu' ansalidiki file-filea siagang appare' proyek-proyek.",
+      "copy_originals": "Salin file asli mange ri perpustakaan",
+      "execute_button": "appakkaramulami impor",
+      "progress_title": "Impor...",
+      "created_count": "Ni paenteng: {{count}} ",
+      "skipped_count": "Nilewai: {{count}} ",
+      "done_title": "Impor lengkap",
+      "done_description": "Proyek-proyek ri bawaya ni paentengi ri perpustakaannu.",
+      "view_project": "Proyek terbuka",
+      "start_over": "Impor beru"
+    }
+  },
+  "templates": {
+    "title": "Templat",
+    "subtitle": "Template prompt siagang meta-tag yang dapat digunakan kembali untuk Suno.",
+    "tabs": {
+      "prompts": "Template prompt",
+      "metatags": "Meta-tag"
+    },
+    "new_template": "Template beru",
+    "kind": {
+      "style": "Gaya",
+      "lyrics": "Lirik"
+    },
+    "kind_label": "baji",
+    "delete_confirm_title": "Hapus template \" {{name}} \"?",
+    "delete_confirm_description": "anne takkulleai niurangi.",
+    "empty": "Tena ija template.",
+    "editor": {
+      "title_new": "Template beru",
+      "title_edit": "Edit template",
+      "name_label": "Areng",
+      "name_placeholder": "e.g. Balada akustik",
+      "kind_label": "baji",
+      "template_label": "Teks template",
+      "template_hint": "Tanrai kemae massing-massing variabel antama siagang arengna ni bungkus ri kurung keriting ganda — ebara'na, variabel niarenga \"genre\" a'jari genre ni bungkus ri rua kurung pa'bukka' siagang rua pa'tutu'.",
+      "variables_label": "Variabel",
+      "variable_add": "tambai variabel",
+      "variable_name": "Kunci",
+      "variable_label": "Label",
+      "variable_type": "Tipe",
+      "variable_type_string": "Teks",
+      "variable_type_select": "Pilei se're",
+      "variable_type_multiselect": "Multi-pilih",
+      "variable_type_number": "nomoro",
+      "variable_type_boolean": "kamma/tena",
+      "variable_options": "Pilihan (nipisangkai siagang koma)",
+      "variable_required": "niparalluangi",
+      "save": "Simpan template"
+    },
+    "metatags": {
+      "title": "Meta-tag",
+      "subtitle": "Tag struktural siagang gaya Suno naisseng lalang lirik.",
+      "new_tag": "Tag beru",
+      "tag_label": "Tag",
+      "tag_placeholder": "e.g. gitar-solo",
+      "category_label": "Kategori",
+      "tier_label": "Keandalan",
+      "tier_legend_title": "Legenda keandalan",
+      "tier_legend": {
+        "1": "Tingkat 1 — nidokumentasikan siagang konsisten",
+        "2": "Tingkat 2 — biasana anjama",
+        "3": "Tingkat 3 — efek variabel",
+        "4": "Tingkat 4 — plasebo, tena na ni buktikan"
+      },
+      "description_label": "Deskripsi",
+      "delete_confirm_title": "Hapus tag \" {{tag}} \"?",
+      "empty": "Tena meta-tag khusus."
+    }
+  },
+  "settings": {
+    "title": "Pangngatoro",
+    "subtitle": "Informasi sistem, bahasa, siagang preferensi default.",
+    "system_info_title": "Sistem",
+    "version": "Versi",
+    "data_dir": "Folder data",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "nia",
+    "ffmpeg_missing": "Tena ni gappa",
+    "capabilities_title": "Kamaccaang nipasang",
+    "capability": {
+      "denoise": "Pa'kurang suara",
+      "quality": "Peningkatan kualitas",
+      "separate": "Pa'bageang sumber",
+      "ffmpeg": "FFmpeg konversi"
+    },
+    "capability_available": "nia",
+    "capability_unavailable": "Tena nakkulle",
+    "gpu_title": "percepatan GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime providers"
+    },
+    "gpu_none": "Tena pa'sadia GPU nideteksi",
+    "language_title": "Bahasa",
+    "language": {
+      "pt-BR": "Portugues (Brasil)",
+      "en": "Inggris"
+    },
+    "theme_title": "penampilan",
+    "theme": {
+      "dark": "sassang",
+      "light": "Cahaya"
+    },
+    "defaults_title": "Ekspor default",
+    "lufs_target_label": "Target LUFS",
+    "lufs_target_hint": "Nipakei salaku saran pammulang ri wattu ekspor angngalle. Suno's default niaki ri -14 LUFS.",
+    "saved": "Preferensi ni simpan"
+  },
+  "guide": {
+    "title": "Panduan rekaman suno",
+    "subtitle": "Antekamma batena angngalle sa'ra siagang gitar angngalle wassele' kaminang baji'.",
+    "intro": "Suno anjama baji siagang referensi bersih siagang tena ambigu. Anne pa'pilajaranga antama'i pa'sadiaang, tingka' target, siagang naskah rekaman 3-5 menit.",
+    "sections": {
+      "prep": {
+        "title": "Persiapan",
+        "body": "Catat ri kamara nirawatang iareka kamara siagang jai bahan lembut (gorden, karpet, pakeang ri lamari). Pamatei kipas siagang apa-apa mamo nu a'gunturu. Pa'nassai sa'rannu 5 menit riolo ri tenanapa nu rekam."
+      },
+      "levels": {
+        "title": "tingka: -12 sanggenna -6 dBFS",
+        "body": "Tujuang puncak antara -12 siagang -6 dBFS ri meter. Ri rawanganna anjo rentang, sa'ra latar belakang a'jari pila' nicini'; irateanna, resiko kliping nai. Pakei meter ri halamang catatang untuk ampaentengi gainnu riolo ri tenanapa nu appakkaramula."
+      },
+      "distance": {
+        "title": "Jarak mikrofon: 15-30 cm",
+        "body": "Ammantang 15 sanggenna 30 cm battu ri mikrofon. Labbi ambani na anjo na pa'la'bangi plosives siagang efek kedekatan; bellaya angngallei labbi jai reverb siagang sa'ra kamara."
+      },
+      "script": {
+        "title": "Naskah rekaman",
+        "warmup": "Pemanasan suara (1-2 menit)",
+        "vowels": "Vokal berkelanjutan — a, e, i, o, u",
+        "scales": "Timbangan sederhana, nai siagang naung",
+        "excerpt": "Se're kutipang lagu (8 sanggenna 16 bar)",
+        "dynamics": "Dinamika: appakkaramula alusu, a'lekko lompo",
+        "spoken_phrase": "Se're frasa nu bicara, sollanna Suno akkulle ambaca nada vokalnu"
+      },
+      "expectations": {
+        "title": "Apa na harapkan Suno",
+        "body": "WAV, 48 kHz, mono, dry (tena reverb atau efek), 3 sanggenna 5 menit referensi. kaminang tangkasa, kaminang representatif 2 menit battu ri angngalle biasana assarei wassele kaminang baji."
+      }
+    }
+  },
+  "status": {
+    "idea": "Ide",
+    "em_progresso": "Ri pa'lampaangna",
+    "quase": "A'reppese'mi anjoreng",
+    "pronto": "Siap"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Naskah vokal lengkap untuk Suno",
+      "desc": "5 menit ni pandu: pemanasan, vokal, skala, rua kutipan lagu, dinamika, siagang frasa bicara."
+    },
+    "step": {
+      "warmup": "Pemanasan vokal",
+      "warmup_inst": "Leppassangi siagang nguap, bibi trill (brrr), siagang hum lembut kira-kira se're menit. Tena naparallu a'rekam — iami antu untu' ampa'le'baki leko'nu riolo akkelong.",
+      "vowels": "Vokal berkelanjutan",
+      "vowels_inst": "Paentengi massing-massing vokal — a, e, i, o, u — 3 sanggenna 4 detik ri nada nyamannu, siagang volume mantap. anne nabantui suno angngalle timbre murni battu ri sa'rannu.",
+      "scales": "Skala nai siagang naung",
+      "scales_inst": "Akkelong skala sederhana nai nampa naung, ri \"la\" atau \"na\". Tena naparallu sukku — tujuanna iamintu ampa'nassai jangkauan vokalnu.",
+      "section": "Kutipan lagu — bageang 1",
+      "section_inst": "Akkelong 8 sanggenna 16 bar lagu, siagang pattujuang tojeng nu ero nu pabattu. Prioritaskan kejelasan siagang kehadiran naia kesempurnaan teknis.",
+      "section2": "Kutipan lagu — bageang 2",
+      "section2_inst": "Akkelong pole 8 sanggenna 16 bar — bajikangngangi paduan suara iareka bageang yang kontras siagang rioloa. Labbi jai rupanna nabantui modele angngassengi sa'rannu.",
+      "dynamics": "Dinamika: alusu → lompo",
+      "dynamics_inst": "Akkelong frasa yang sama appakkaramula sanna' sanna'na siagang a'le'basa' lompo, tena nu pa'risi pa'mai'nu. anne ampa'piitteangi suno rentang dinamis sa'rannu.",
+      "spoken": "Frasa bicara",
+      "spoken_inst": "A'bicara — teako akkelong — frasa sike'de', alami, sangkamma punna a'bicarako. anne nabantui suno angngassengi timbre sitojennaya battu ri sa'rannu."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restorasi",
+      "filter": "Saringan",
+      "dynamics": "Dinamika",
+      "separation": "Pa'bageang",
+      "quality": "Kualitas",
+      "utility": "Utilitas",
+      "loudness": "Kassa'na"
+    },
+    "highpass": "Filter tinggi-pass",
+    "lowpass": "Filter low-pass",
+    "denoise": "Pa'kurang suara",
+    "declip": "Declipping",
+    "declick": "Klik/pop penghapusan",
+    "deesser": "De-esser",
+    "gate": "Gerbang suara",
+    "compressor": "Kompresor",
+    "limiter": "Pambatasang",
+    "eq": "Pa'samaturukang",
+    "normalize": "Normalisasi puncak",
+    "loudness": "Normalisasi suara (LUFS)",
+    "reverb_reduce": "Reduksi gema",
+    "separate": "Pa'bageang sumber",
+    "quality": "Peningkatan kualitas (upscale)",
+    "trim_silence": "Pemangkasan hening",
+    "fade": "Lanynya' antama' / lanynya' assulu'",
+    "stereo_to_mono": "Pinra mange ri mono",
+    "resample": "Sampling ulang"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Andalan",
+      "2": "Biasana anjama",
+      "3": "Variabel",
+      "4": "Plasebo"
+    },
+    "category": {
+      "structure": "Struktur",
+      "vocal": "vokal",
+      "instrument": "Instrumen",
+      "dynamics": "Dinamika",
+      "production": "Produksi",
+      "mood": "Suasana"
+    },
+    "verse": "Ayat",
+    "chorus": "Paduan suara",
+    "bridge": "Jembatan",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Kait",
+    "prechorus": "Pra-paduan suara",
+    "instrumental": "Instrumental",
+    "guitar_solo": "Gitar solo",
+    "build_up": "Pambangunan",
+    "breakdown": "Kerusakan",
+    "spoken_word": "kana nipau",
+    "whispered": "Ni bisik",
+    "harmonies": "Harmoni",
+    "male_vocal": "Vokal bura'ne",
+    "female_vocal": "vokal baine",
+    "duet": "Duet",
+    "acoustic": "Akustik",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Sa'ra tangkasa",
+    "voice_guitar_balanced": "Sa'ra siagang gitar seimbang",
+    "podcast": "Podcast",
+    "suno_ready": "Suno sadia",
+    "gentle_restore": "Ampakabajiki",
+    "raw_passthrough": "Tena pammodelang"
+  },
+  "errors": {
+    "unknown": "Nia apa-apa sala.",
+    "network": "Tena nakkulle anrapi ri server.",
+    "validation_error": "Paressai informasi nu antama.",
+    "not_found": "Barang tena ni gappa.",
+    "project_not_found": "Proyek tena ni gappa.",
+    "take_not_found": "Angngalle tena nigappa.",
+    "album_not_found": "Album tena nigappa.",
+    "preset_not_found": "Preset tena nigappa.",
+    "template_not_found": "Template tena ni gappa.",
+    "device_busy": "Alat audio ni pake ri program maraeng.",
+    "device_not_found": "Alat audio tena ni gappa.",
+    "already_recording": "Se're rekaman lebba'mi nigaukang.",
+    "ffmpeg_missing": "FFmpeg tena na ni pasang — pasang untu' a'pinra anne file.",
+    "disk_full": "Tena nasukku ruang disk.",
+    "permission_denied": "Ijin ni tolak untuk jalur yang diberikan.",
+    "import_path_not_found": "Jalanna impor tena ni gappa.",
+    "job_failed": "Proses gagal.",
+    "job_cancelled": "Prosesna ni batalkangi.",
+    "process_failed": "Tena nakkulle niproses anjo angngallea.",
+    "export_failed": "Tena nakkulle ni ekspor anjo filea.",
+    "record_failed": "Tena nakkulle appakkaramula rekaman."
+  },
+  "jobs": {
+    "status": {
+      "queued": "antri",
+      "running": "Lari",
+      "done": "Lebaki",
+      "error": "Gagal",
+      "cancelled": "Ni batalkan"
+    },
+    "kind": {
+      "process": "Proses",
+      "export": "Ekspor",
+      "import": "Impor",
+      "record": "Rekaman"
+    }
+  }
+}

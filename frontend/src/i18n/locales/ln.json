@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Mopɛtoli ya mongongo"
+  },
+  "nav": {
+    "library": "Bibliotɛkɛ",
+    "record": "Enregistrer",
+    "import": "Kokɔtisa biloko na mboka mopaya",
+    "templates": "Modèles ya kosala",
+    "settings": "Ba paramètres",
+    "guide": "Motambwisi ya motambwisi"
+  },
+  "common": {
+    "save": "Bomba",
+    "saving": "Kobomba mbongo...",
+    "saved": "Ebombami",
+    "cancel": "Annuler",
+    "close": "Bokanga",
+    "delete": "Bolongola",
+    "edit": "Bobongisi",
+    "create": "Bokela",
+    "search": "Bolukaluka",
+    "loading": "Ezali ko charger...",
+    "error": "Libunga",
+    "retry": "Meká lisusu",
+    "confirm": "Confirmer",
+    "back": "Kozonga sima",
+    "next": "Na nsima",
+    "continue": "Koba na likambo yango",
+    "finish": "Silisa",
+    "copy": "Kopi na yango",
+    "copied": "Esalemi kopi",
+    "download": "Télécharger",
+    "upload": "Botia na Internet",
+    "none": "Moko te",
+    "all": "Nyonso",
+    "yes": "Ɛɛ",
+    "no": "Te",
+    "select": "Pona",
+    "optional": "ekoki kozala ya kopona",
+    "required": "esengeli",
+    "unsaved_changes": "Mbongwana oyo ebombami te",
+    "name": "Kombo",
+    "status": "Ezalela ya likambo",
+    "type": "Type",
+    "actions": "Misala",
+    "empty": "Eza pamba",
+    "browse": "Naviguer na kati",
+    "remove": "Longola yango",
+    "add": "Bakisa",
+    "rename": "Bobongola nkombo",
+    "duplicate": "Kosala ba doublons",
+    "warning": "Likebisi",
+    "locked": "Ekangamaki",
+    "builtin": "Etongami na kati",
+    "custom": "Momeseno ya kosala",
+    "untitled": "Ezali na motó ya likambo te",
+    "select_placeholder": "Pona..."
+  },
+  "library": {
+    "title": "Bibliotɛkɛ",
+    "subtitle": "Ba projets na yo ya voix na guitare, depuis idée ti na sortie.",
+    "new_project": "Projet ya sika",
+    "new_album": "Album ya sika",
+    "search_placeholder": "Boluka na kombo...",
+    "view": {
+      "grid": "Grille ya kosala",
+      "albums": "Ba albums ya ba albums"
+    },
+    "filters": {
+      "all": "Nyonso"
+    },
+    "take_count_one": " {{count}} kozwa",
+    "take_count_other": " {{count}} ezuaka",
+    "updated_at": "Mikolo oyo {{date}} ",
+    "no_results": {
+      "title": "Ba projets moko te ezwami",
+      "description": "Meká kobongisa filtre ya boluki to ya ezalela."
+    },
+    "empty": {
+      "title": "Bibliotɛkɛ na yo ezali mpamba",
+      "description": "Bandá projet ya sika à partir ya zéro, to import takes oyo ozali na yango déjà na disque.",
+      "cta_import": "Importer na dossier",
+      "cta_new": "Bosala projet"
+    },
+    "project_dialog": {
+      "title": "Projet ya sika",
+      "description": "Pesa yango kombo pe pona mode ya enregistrement.",
+      "name_label": "Nkombo ya mosala",
+      "name_placeholder": "e.g. Mbula ya Eleko ya Moyi",
+      "mode_label": "Mode ya kosala",
+      "mode": {
+        "voice": "Mongongo kaka",
+        "voice_guitar": "Mongongo + guitare"
+      },
+      "submit": "Bosala projet"
+    },
+    "album_dialog": {
+      "title": "Album ya sika",
+      "description": "Groupe ba projets relatifs na album moko.",
+      "name_label": "Kombo ya album",
+      "name_placeholder": "e.g. Automne EP",
+      "submit": "Bosala album"
+    },
+    "album": {
+      "untitled": "Album oyo ezangi titre",
+      "members_count_one": " {{count}} mosala ya kosala",
+      "members_count_other": " {{count}} misala ya kosala",
+      "empty": "Nanu projet moko te na album oyo.",
+      "delete_confirm_title": "Effacer album?",
+      "delete_confirm_description": "Ba projets eko effacer te, kaka sans lien na \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Kolongola \" {{name}} \"?",
+      "confirm_description": "Yango elongolaka projet mpe nionso kozua na kati na yango. Oyo ekoki kozongisama sima te."
+    }
+  },
+  "record": {
+    "title": "Enregistrer",
+    "subtitle": "Capture a clean take, tala ba niveaux na yo, pe landa script.",
+    "project_label": "Projet ya kosala",
+    "project_placeholder": "Pona projet moko",
+    "project_create_quick": "Bosala projet ya mbangu...",
+    "device_label": "Dispositif ya entrée",
+    "device_placeholder": "Pona aparɛyi moko",
+    "device_default_badge": "Système par défaut",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Ba dispositifs ya entrée ezwami te.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Tika kosala bolandi",
+    "record_button": "Enregistrer",
+    "stop_button": "Botika",
+    "elapsed_label": "Ntango oyo elekaki",
+    "status": {
+      "idle": "Kosala eloko te",
+      "monitoring": "Bolandi",
+      "recording": "Enregistrement ya ba enregistrements",
+      "stopped": "Atelemaki"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Nsɔngɛ ya likoló",
+      "clip": "Clip ya kosala"
+    },
+    "guide": {
+      "title": "Session oyo etambwisami",
+      "subtitle": "Tika molakisi atambolisa yo na kati ya script litambe na litambe, kobanda na kozongisa molunge kino na fraze oyo balobaka.",
+      "loading": "Ezali ko charger script...",
+      "unavailable": "Session guidée ezali nanu te na serveur.",
+      "select_project_device": "Pona projet moko na dispositif ya entrée pona ko enregistrer ba étapes kaka depuis awa.",
+      "progress": " {{done}} ya {{total}} matambe",
+      "start_timer": "Kobanda motángo ya ntango",
+      "skip_timer": "Salá koleka ntango",
+      "record_step": "Kokoma litambe oyo",
+      "stop_step": "Tika ko enregistrer",
+      "mark_done": "Esalemi — litambe oyo elandi",
+      "step_recorded": "Zwá enregistré",
+      "no_record_step": "Etape ya kozongisa molunge — enregistrement moko te esengeli.",
+      "bars_hint": "Pene na {{bars}} ba barres",
+      "complete_title": "Script esili!",
+      "complete_body": "O enregistrer ba étapes nionso ya script. Zongela na onglet Audio ya projet mpe pona ba prises oyo olingaka mingi.",
+      "restart": "Bobandi lisusu script"
+    },
+    "best2min": {
+      "button": "Boluka 2 minutes ya malamu koleka (Suno) .",
+      "running": "Analyse ya kozua...",
+      "score_label": "Point ya ba points",
+      "hint": "Ezali kosala analyse ya énergie mpe ya clarté likolo ya kozua mobimba mpo na koluka fenêtre na yango ya makasi ya 2 minutes — okoki kaka ko ajuster portée na maboko sima.",
+      "chart_caption": "Point na fenêtre moko",
+      "unavailable": "Analyse ya best-2-minutes ezali nanu te na serveur oyo."
+    },
+    "takes_title": "Ezui na session oyo",
+    "takes_empty": "Pas de takes enregistré na session oyo nanu.",
+    "open_in_project": "Fungola na projet",
+    "ws_disconnected": "Kozongisa boyokani na niveau ya compteur...",
+    "select_project_first": "Pona projet moko pona kobanda.",
+    "select_device_first": "Pona dispositif ya entrée."
+  },
+  "project": {
+    "back_to_library": "Kozonga na bibliothèque",
+    "header": {
+      "status_label": "Ezalela ya likambo",
+      "cover_upload": "Botia couverture ya upload",
+      "cover_remove": "Longola ezipeli",
+      "name_placeholder": "Nkombo ya mosala",
+      "links_title": "Ba liens",
+      "add_link": "Bakisa lien",
+      "mode": {
+        "voice": "Mongongo kaka",
+        "voice_guitar": "Mongongo + guitare"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Paroles ya maloba",
+      "prompts": "Makambo oyo esɛngaka",
+      "notes": "Maloba ya ntina"
+    },
+    "audio": {
+      "takes_title": "Ezali kozwa",
+      "no_takes": {
+        "title": "Pas ezuaka nanu",
+        "description": "Enregistrer take ya sika to importer fichier oyo ezali."
+      },
+      "record_new": "Enregistrer kozua ya sika",
+      "rating": "Kopesa motuya",
+      "variant": {
+        "raw": "Brut",
+        "processed": "Esalemi na mosala"
+      },
+      "variant_placeholder": "Version na yango",
+      "process_button": "Processus ya kosala",
+      "export_button": "Kobima na mikili mosusu",
+      "delete_take_confirm_title": "Effacer oyo kozua?",
+      "delete_take_confirm_description": "Audio brut na version nionso oyo esalemi ekolongolama.",
+      "ab": {
+        "raw": "A · Ezali na mbindo",
+        "processed": "B · Esalemi na mosala"
+      },
+      "origin": {
+        "recorded": "Ekomamaki na enregistrement",
+        "imported": "Ekɔtisami na mikili mosusu"
+      },
+      "session_label_placeholder": "Étiquette ya session (ekoki kozala ya bolingi) .",
+      "duration": "Bolai ya ntango",
+      "sample_rate": "Taux ya échantillon",
+      "channels": "Ba chaînes",
+      "created_at": "Ekomamaki na enregistrement"
+    },
+    "pipeline": {
+      "title": "Monyololo ya kosala mosala",
+      "preset_label": "Ebongisami liboso",
+      "preset_none": "Chaîne personnalisée",
+      "preset_save": "Bomba lokola oyo etiamaki liboso",
+      "stage_locked": "Ekangamaki",
+      "stage_requires_extra": "Esengaka extra oyo e installé te",
+      "process_button": "Processus kozua",
+      "processing": "Traitement ya...",
+      "job_queued": "Bazali na molongo...",
+      "job_running": "Traitement ya...",
+      "job_done": "Esili",
+      "job_error": "Elongi te",
+      "job_cancelled": "Elongolami",
+      "cancel_job": "Annuler",
+      "no_stages": "Ba étapes ezali te."
+    },
+    "export": {
+      "title": "Exportation kozua",
+      "description": "Bosala fisyé ya suka uta na version oyo esalemi.",
+      "variant_label": "Version na yango",
+      "format_label": "Format ya kosala",
+      "preset_label": "Exporter pré-réglage ya libanda",
+      "range_label": "Range ya monene",
+      "range_full": "Bolai mobimba",
+      "range_custom": "Gamme personnalisée",
+      "start_label": "Kobanda (ba) .",
+      "end_label": "Nsuka (ba) .",
+      "submit": "Kobima na mikili mosusu",
+      "progress": "Fichier ya kosala rendu...",
+      "download_ready": "Dossier prêt",
+      "download_button": "Télécharger fichier"
+    },
+    "notes": {
+      "placeholder": "Notes ya forme libre sur projet oyo...",
+      "saved_at": "Ebombami na {{time}} . "
+    },
+    "lyrics": {
+      "placeholder": "Koma maloba ya nzembo awa. Salelá palette oyo ezali na mopanzi mpo na kokɔtisa ba méta-étiquettes ya Suno.",
+      "saved_at": "Ebombami na {{time}} . ",
+      "saving": "Kobomba mbongo...",
+      "versions": "Ba versions ya ba versions",
+      "versions_empty": "Naino ba versions oyo ebombami te.",
+      "version_preview": "Botali liboso",
+      "restore": "Zongisa version oyo",
+      "restore_confirm_title": "Kozongisa version oyo?",
+      "restore_confirm_description": "Mokanda ya lelo ekozwa esika ya version oyo ebombami na {{date}} .",
+      "metatags_title": "Ba méta-étiquettes",
+      "metatags_hint": "Finá elembo moko mpo na kokɔtisa yango na curseur.",
+      "metatags_placebo_warning": "Unproven — ekoki kozala na effet moko te na résultat.",
+      "metatags_empty": "Ba méta-tags moko te ekomisami."
+    },
+    "prompts": {
+      "style_title": "Esengi ya style",
+      "lyrics_title": "Prompt ya ba paroles",
+      "template_label": "Modèle ya kosala",
+      "template_none": "Modèle moko te",
+      "variables_title": "Ba variables oyo ekoki kozala",
+      "preview_title": "Botali liboso",
+      "preview_empty": "Pona modèle mpe tondisa ba variables mpo na komona aperçu.",
+      "char_count": " {{count}} bilembo",
+      "char_count_warning": "Ba prompts ya style koleka 1000 caractères ekoki kozua truncated na Suno.",
+      "copy": "Kopi na yango",
+      "copied": "Kopi na tableau de bord",
+      "save_to_project": "Bomba na projet",
+      "saved_to_project": "Prompt ebombami na projet",
+      "history_title": "Lisolo ya kala",
+      "history_empty": "Ba versions ya kala te.",
+      "current_label": "Ya lelo"
+    },
+    "stems": {
+      "title": "Vocals na guitare",
+      "separate_button": "Bokabola vocal na guitare",
+      "running": "Kokabola...",
+      "vocals": "Vocals",
+      "instrumental": "Esaleli ya miziki",
+      "process_stem": "Bosala mosala ya lititi oyo",
+      "empty": "Take oyo ekabwani nanu te. Kima séparation po yoka vocal na guitare na isolement.",
+      "capability_missing": "Bokabwani ya source ezali installé te na serveur oyo.",
+      "unavailable": "Separation vocal/guitar ezali nanu te na serveur oyo."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Na",
+    "boolean_off": "Off"
+  },
+  "import": {
+    "title": "Kokɔtisa biloko na mboka mopaya",
+    "subtitle": "Mema ba projets oyo ezali déjà na disque na bibliothèque.",
+    "step_indicator": "Etape {{current}} ya {{total}} . ",
+    "step1": {
+      "title": "Boluka dossier",
+      "description": "Lakisa na dossier ya misisa na ba projets na ba piste na yo.",
+      "path_label": "Nzela ya dossier",
+      "path_placeholder": "e.g. E:\\Robbs\\Lolendo\\Miziki\\ROBBS",
+      "recent_label": "Kala mingi te",
+      "scan_button": "Dossier ya scanner",
+      "scanning": "Scanning ya...",
+      "ffmpeg_warning": "FFmpeg ezwami te — ba fichiers oyo esengeli kobongwana eko sauter.",
+      "folders_found_one": " {{count}} dossier ezwami",
+      "folders_found_other": " {{count}} ba dossiers ezwami",
+      "unmatched_files_one": " {{count}} fichier oyo eyebani te",
+      "unmatched_files_other": " {{count}} ba fichiers oyo eyebani te"
+    },
+    "step2": {
+      "title": "Bozongela makambo",
+      "description": "Tala ba kombo, ba statuts, pe nini eko kotisama avant o confirmer.",
+      "select_all": "Poná nyonso",
+      "table": {
+        "folder": "Dossier ya source",
+        "name": "Nkombo ya mosala",
+        "status": "Ezalela ya likambo",
+        "audio": "Audio",
+        "lyrics": "Paroles ya maloba",
+        "cover": "Couverture",
+        "album": "Album na yango"
+      },
+      "audio_include_one": " {{count}} fisyé eponami",
+      "audio_include_other": " {{count}} ba fichiers oyo eponami",
+      "no_audio": "Audio moko te ezwami",
+      "no_lyrics": "Paroles ezwami te",
+      "no_cover": "Couverture te",
+      "warnings_title": "Makebi"
+    },
+    "step3": {
+      "title": "Kokɔtisa biloko na mboka mopaya",
+      "description": "Confirmer pona ko copier ba fichiers pe ko créer ba projets.",
+      "copy_originals": "Kopi ya ba fichiers originales na bibliothèque",
+      "execute_button": "Bandá kokɔtisa biloko na mboka",
+      "progress_title": "Kokɔtisa biloko na mboka mopaya...",
+      "created_count": "Esalemi: {{count}} ",
+      "skipped_count": "Esili koleka: {{count}} ",
+      "done_title": "Importation esili",
+      "done_description": "Ba projets oyo ezali awa na se esalemaki na bibliothèque na bino.",
+      "view_project": "Projet ya polele",
+      "start_over": "Importation ya sika"
+    }
+  },
+  "templates": {
+    "title": "Modèles ya kosala",
+    "subtitle": "Modèles ya prompt oyo ekoki kosalelama lisusu mpe ba méta-étiquettes mpo na Suno.",
+    "tabs": {
+      "prompts": "Ba modèles ya prompt",
+      "metatags": "Ba méta-étiquettes"
+    },
+    "new_template": "Modèle ya sika",
+    "kind": {
+      "style": "Style ya kosala",
+      "lyrics": "Paroles ya maloba"
+    },
+    "kind_label": "Boboto",
+    "delete_confirm_title": "Bolongola modèle \" {{name}} \"?",
+    "delete_confirm_description": "Oyo ekoki kozongisama sima te.",
+    "empty": "Modèles moko te nanu.",
+    "editor": {
+      "title_new": "Modèle ya sika",
+      "title_edit": "Modèle ya kobongisa",
+      "name_label": "Kombo",
+      "name_placeholder": "e.g. Ballad ya acoustique",
+      "kind_label": "Boboto",
+      "template_label": "Texte ya modèle",
+      "template_hint": "Mark esika variable moko na moko ezali ya na kombo na yango ezingami na ba parenthèses doubles bouclées — ndakisa, variable oyo ezali na kombo \"genre\" ekomi genre enveloppé na ba parenthèses mibale ya bofungoli mpe mibale ya bokangami.",
+      "variables_label": "Ba variables oyo ekoki kozala",
+      "variable_add": "Bakisa variable",
+      "variable_name": "Fungola",
+      "variable_label": "Etiquette na yango",
+      "variable_type": "Type",
+      "variable_type_string": "Mokanda ya kokoma",
+      "variable_type_select": "Pona moko",
+      "variable_type_multiselect": "Bapona mingi",
+      "variable_type_number": "Motángo",
+      "variable_type_boolean": "Ee/te",
+      "variable_options": "Ba options (ekabolami na virgule) .",
+      "variable_required": "Esengeli",
+      "save": "Bomba modèle"
+    },
+    "metatags": {
+      "title": "Ba méta-étiquettes",
+      "subtitle": "Structural na style tags Suno ayebi na kati ya ba paroles.",
+      "new_tag": "Tag ya sika",
+      "tag_label": "Tag",
+      "tag_placeholder": "e.g. guitare-solo na ye",
+      "category_label": "Catégorie",
+      "tier_label": "Kozala na bondimi",
+      "tier_legend_title": "Lisapo ya bondimi",
+      "tier_legend": {
+        "1": "Niveau 1 — oyo ezali na mikanda mpe oyo ezali na boyokani",
+        "2": "Niveau 2 — mbala mingi esalaka",
+        "3": "Niveau 3 — effet variable",
+        "4": "Niveau 4 — placebo, oyo emonisami te"
+      },
+      "description_label": "Bolimbisi",
+      "delete_confirm_title": "Bolongola tag \" {{tag}} \"?",
+      "empty": "Naino ba meta-tags personnalisés te."
+    }
+  },
+  "settings": {
+    "title": "Ba paramètres",
+    "subtitle": "Ba informations ya système, monoko, na ba préférences par défaut.",
+    "system_info_title": "Système",
+    "version": "Version na yango",
+    "data_dir": "Dossier ya ba données",
+    "ffmpeg_status": "FFmpeg ya FFmpeg",
+    "ffmpeg_available": "Ezali",
+    "ffmpeg_missing": "Ezwami te",
+    "capabilities_title": "Makoki oyo etiamaki",
+    "capability": {
+      "denoise": "Bokiti ya makelele",
+      "quality": "Bobongisi ya qualité",
+      "separate": "Bokabwani ya maziba",
+      "ffmpeg": "Bobongwani ya FFmpeg"
+    },
+    "capability_available": "Ezali",
+    "capability_unavailable": "Ezali te",
+    "gpu_title": "Accélération ya GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA ezali",
+      "ort_providers": "ONNX Ba fournisseurs ya Runtime"
+    },
+    "gpu_none": "Ba fournisseurs ya GPU moko te ba détecté",
+    "language_title": "Monoko",
+    "language": {
+      "pt-BR": "Português (Brésil) .",
+      "en": "Lingala"
+    },
+    "theme_title": "Komonana",
+    "theme": {
+      "dark": "Molili",
+      "light": "Pole"
+    },
+    "defaults_title": "Exporter ba défauts",
+    "lufs_target_label": "Cible ya LUFS",
+    "lufs_target_hint": "Esalemi lokola likanisi ya kobanda tango ya exportation ezuaka. Par défaut ya Suno efandi nzinga nzinga ya -14 LUFS.",
+    "saved": "Ba préférences ebombami"
+  },
+  "guide": {
+    "title": "Guide ya enregistrement ya Suno",
+    "subtitle": "Ndenge nini kokanga mongongo na guitare ezuaka oyo ezuaka ba résultats ya malamu.",
+    "intro": "Suno esalaka malamu koleka na ba références ya propre, sans ambiguïté. Buku oyo etali bolengeli, nivo ya mikano, mpe script ya bokangami ya miniti 3–5.",
+    "sections": {
+      "prep": {
+        "title": "Komibongisa",
+        "body": "Enregistrer na chambre oyo esalemi na traitement to oyo ezali na ebele ya matériel doux (rido, tapis, bilamba na armoire). Boma ba ventilateurs na eloko nionso oyo ezo hums. Chauffer mongongo na yo pendant 5 minutes avant o enregistrer."
+      },
+      "levels": {
+        "title": "Niveau: -12 kino -6 dBFS",
+        "body": "Boluka ba sommets entre -12 na -6 dBFS na compteur. Na nse ya esika yango, makɛlɛlɛ ya nsima ekómaka komonana mingi; likolo na yango, likama ya kokata emati. Salelá métre oyo ezali na lokasa Enregistrer mpo na kotya gain na yo liboso ya kobanda."
+      },
+      "distance": {
+        "title": "Distance ya mic: 15–30 cm",
+        "body": "Tikala na ntaka ya santimɛtrɛ 15 tii 30 longwa na mikro. Pene koleka wana elekisaka ndelo na ba plosives mpe effet de proximité; mosika ezuaka reverb ya chambre mingi na makelele."
+      },
+      "script": {
+        "title": "Script ya enregistrement",
+        "warmup": "Kopelisa mongongo (1–2 minutes) .",
+        "vowels": "Bavoyelle oyo eumelaka — a, e, i, o, u",
+        "scales": "Ba échelles simples, likolo mpe na se",
+        "excerpt": "Eteni ya nzembo (8 kino 16 bars) .",
+        "dynamics": "Dynamique: kobanda na doux, suka na mongongo makasi",
+        "spoken_phrase": "Phrase moko oyo elobelami, mpo Suno akoka kotanga ton ya mongongo na yo"
+      },
+      "expectations": {
+        "title": "Oyo Suno azali kozela",
+        "body": "WAV, 48 kHz, mono, sec (reverb to effets te), 3 à 5 minutes ya référence. 2 minutes oyo eleki peto, oyo ezali représentant mingi ya kozua mbala mingi ebimisaka ba résultats ya malamu koleka."
+      }
+    }
+  },
+  "status": {
+    "idea": "Likanisi",
+    "em_progresso": "Ezali kosalama",
+    "quase": "Pene na kuna",
+    "pronto": "Prêt"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Script vocal mobimba ya Suno",
+      "desc": "Miniti 5 oyo etambwisami: kozongisa molunge, bavoyelle, ba échelles, biteni mibale ya nzembo, dynamique, mpe fraze moko oyo balobaka."
+    },
+    "step": {
+      "warmup": "Kozongisa molunge na mongongo",
+      "warmup_inst": "Longola yango na kolɛmba, kolɛmba mbɛbu (brrr), mpe konguluma ya pɛtɛɛ na boumeli ya miniti soki moko. Pas besoin ya ko enregistrer — ezali kaka pona ko relaxer zolo na yo avant oyemba.",
+      "vowels": "Ba voyelles oyo ewumeli",
+      "vowels_inst": "Simbá mongongo mokomoko — a, e, i, o, u — na boumeli ya segɔnde 3 to 4 na mongongo na yo ya malamu, na mongongo ya kokita te. Yango esalisaka Suno azwa timbre ya peto ya mongongo na yo.",
+      "scales": "Ba échelles likolo mpe na se",
+      "scales_inst": "Yemba échelle moko ya pete likolo pe sima na se, na \"la\" to \"na\". Esengeli te kozala ya kokoka — mokano ezali ya kosala carte ya portée vocale na yo.",
+      "section": "Eteni ya nzembo — eteni 1",
+      "section_inst": "Yemba 8 à 16 barres ya nzembo, na vrai intention oyo olingi ko transmettre. Prioriser clarté mpe présence na esika ya perfection technique.",
+      "section2": "Eteni ya nzembo — eteni 2",
+      "section2_inst": "Yemba ba barres mosusu 8 to 16 — malamu mingi chorus to eteni oyo ekeseni na oyo ya liboso. Kosala makambo ndenge na ndenge mingi esalisaka modɛlɛ ayeba mongongo na yo.",
+      "dynamics": "Dynamique: molayi → makasi",
+      "dynamics_inst": "Yemba fraze moko kobanda na pete mingi mpe kosuka na mongongo makasi, kozanga kotungisa zolo na yo. Yango elakisaka Suno gamme dynamique ya mongongo na yo.",
+      "spoken": "Fraze oyo balobaka",
+      "spoken_inst": "Loba — koyemba te — fraze mokuse, ya bomoto, lokola nde ozali kosolola. Yango esalisaka Suno ayeba vrai timbre ya mongongo na yo."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Kozongisama",
+      "filter": "Ba filtres",
+      "dynamics": "Dynamique ya makambo",
+      "separation": "Bokabwani",
+      "quality": "Qualité ya qualité",
+      "utility": "Utilité ya kosalela",
+      "loudness": "Mongongo makasi"
+    },
+    "highpass": "Filtre ya passe ya likolo",
+    "lowpass": "Filtre ya passe ya nse",
+    "denoise": "Bokiti ya makelele",
+    "declip": "Kokita na nse",
+    "declick": "Kolongolama ya kofina/pop",
+    "deesser": "De-esser, oyo azali",
+    "gate": "Porte ya makelele",
+    "compressor": "Compresseur ya kosala",
+    "limiter": "Mopesi ndelo",
+    "eq": "Bokokani",
+    "normalize": "Normalisation ya sommet",
+    "loudness": "Normalisation ya mongongo makasi (LUFS) .",
+    "reverb_reduce": "Réduction ya reverb",
+    "separate": "Bokabwani ya maziba",
+    "quality": "Bobongisi ya lolenge ya malamu (ya likolo) .",
+    "trim_silence": "Kokatakata silence",
+    "fade": "Fade na kati / fade libanda",
+    "stereo_to_mono": "Bobongola na mono",
+    "resample": "Kozongisa échantillon"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Ekoki kotyelama motema",
+      "2": "Mbala mingi esalaka",
+      "3": "Variable oyo ekoki kobongwana",
+      "4": "Placebo ya komela"
+    },
+    "category": {
+      "structure": "Bokeli ya biloko",
+      "vocal": "Vocal ya mongongo",
+      "instrument": "Esaleli ya esaleli",
+      "dynamics": "Dynamique ya makambo",
+      "production": "Bokeli ya biloko",
+      "mood": "Ezalela ya motema"
+    },
+    "verse": "Vɛrsɛ",
+    "chorus": "Chorale ya kosala",
+    "bridge": "Pont",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Crochet ya kokangama",
+    "prechorus": "Pré-chorale ya liboso",
+    "instrumental": "Esaleli ya miziki",
+    "guitar_solo": "Solo ya guitare",
+    "build_up": "Kotonga-makolo",
+    "breakdown": "Bopanzani",
+    "spoken_word": "Liloba oyo elobelami",
+    "whispered": "Alobaki na mongongo ya nse",
+    "harmonies": "Ba harmonies",
+    "male_vocal": "Vocal ya mobali",
+    "female_vocal": "Vocal ya mwasi",
+    "duet": "Duet oyo ezali na kati",
+    "acoustic": "Acoustique na yango",
+    "ad_lib": "Ad-lib ezali"
+  },
+  "presets": {
+    "clean_voice": "Mongongo ya pɛto",
+    "voice_guitar_balanced": "Voix & guitare équilibrée",
+    "podcast": "Podcast ya podcast",
+    "suno_ready": "Suno azali prêt",
+    "gentle_restore": "Kozongisa na malembe",
+    "raw_passthrough": "Traitement moko te"
+  },
+  "errors": {
+    "unknown": "Eloko moko ekendeki mabe.",
+    "network": "Ekokaki kokoma na serveur te.",
+    "validation_error": "Talá makambo oyo okɔtisi.",
+    "not_found": "Eloko ezwami te.",
+    "project_not_found": "Projet ezwami te.",
+    "take_not_found": "Zwá ezwami te.",
+    "album_not_found": "Album ezwami te.",
+    "preset_not_found": "Preset ezwami te.",
+    "template_not_found": "Modèle ezwami te.",
+    "device_busy": "Dispositif audio ezali kosalelama na programme mosusu.",
+    "device_not_found": "Dispositif audio ezwami te.",
+    "already_recording": "Enregistrement moko esi esalemi.",
+    "ffmpeg_missing": "FFmpeg ezali installé te — installer yango pona ko convertir fichier oyo.",
+    "disk_full": "Esika ya disque ekoki te.",
+    "permission_denied": "Ndingisa eboyamaki mpo na nzela oyo epesami.",
+    "import_path_not_found": "Nzela ya bokɔtisi ezwami te.",
+    "job_failed": "Traitement elongaki te.",
+    "job_cancelled": "Balongolaki mosala ya kosala yango.",
+    "process_failed": "Elongi te kosala mosala ya kozwa.",
+    "export_failed": "Elongi te kobimisa fisyé yango.",
+    "record_failed": "Elongi te kobanda ko enregistrer."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Bazali kosala molɔngɔ",
+      "running": "Kokima mbangu",
+      "done": "Esili",
+      "error": "Elongi te",
+      "cancelled": "Elongolami"
+    },
+    "kind": {
+      "process": "Kosala mosala",
+      "export": "Kobima na mikili mosusu",
+      "import": "Kokɔtisa biloko na mboka mopaya",
+      "record": "Enregistrement ya ba enregistrements"
+    }
+  }
+}

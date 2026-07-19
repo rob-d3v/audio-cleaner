@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "オーディオクリーナー"
+  },
+  "nav": {
+    "library": "図書館",
+    "record": "記録",
+    "import": "インポート",
+    "templates": "テンプレート",
+    "settings": "設定",
+    "guide": "ガイド"
+  },
+  "common": {
+    "save": "保存",
+    "saving": "保存中…",
+    "saved": "保存されました",
+    "cancel": "キャンセル",
+    "close": "閉じる",
+    "delete": "削除",
+    "edit": "編集",
+    "create": "作成",
+    "search": "検索",
+    "loading": "読み込み中…",
+    "error": "エラー",
+    "retry": "再試行",
+    "confirm": "確認する",
+    "back": "戻る",
+    "next": "次へ",
+    "continue": "続ける",
+    "finish": "終了",
+    "copy": "コピー",
+    "copied": "コピーされました",
+    "download": "ダウンロード",
+    "upload": "アップロード",
+    "none": "なし",
+    "all": "すべて",
+    "yes": "はい",
+    "no": "いいえ",
+    "select": "選択",
+    "optional": "オプション",
+    "required": "必須",
+    "unsaved_changes": "未保存の変更",
+    "name": "名前",
+    "status": "ステータス",
+    "type": "種類",
+    "actions": "アクション",
+    "empty": "空の",
+    "browse": "閲覧する",
+    "remove": "削除",
+    "add": "追加",
+    "rename": "名前の変更",
+    "duplicate": "重複",
+    "warning": "警告",
+    "locked": "ロックされています",
+    "builtin": "内蔵",
+    "custom": "カスタム",
+    "untitled": "無題",
+    "select_placeholder": "選択してください…"
+  },
+  "library": {
+    "title": "図書館",
+    "subtitle": "あなたの声とギターのプロジェクトをアイデアからリリースまで。",
+    "new_project": "新しいプロジェクト",
+    "new_album": "新しいアルバム",
+    "search_placeholder": "名前で検索…",
+    "view": {
+      "grid": "グリッド",
+      "albums": "アルバム"
+    },
+    "filters": {
+      "all": "すべて"
+    },
+    "take_count_one": " {{count}} 取る",
+    "take_count_other": " {{count}} かかります",
+    "updated_at": "{{date}} 更新しました ",
+    "no_results": {
+      "title": "プロジェクトが見つかりませんでした",
+      "description": "検索またはステータス フィルターを調整してみてください。"
+    },
+    "empty": {
+      "title": "あなたのライブラリは空です",
+      "description": "新しいプロジェクトを最初から開始するか、ディスク上にすでにあるテイクをインポートします。",
+      "cta_import": "フォルダーからインポート",
+      "cta_new": "プロジェクトの作成"
+    },
+    "project_dialog": {
+      "title": "新しいプロジェクト",
+      "description": "名前を付けて、録画モードを選択します。",
+      "name_label": "プロジェクト名",
+      "name_placeholder": "例:夏の雨",
+      "mode_label": "モード",
+      "mode": {
+        "voice": "音声のみ",
+        "voice_guitar": "声＋ギター"
+      },
+      "submit": "プロジェクトの作成"
+    },
+    "album_dialog": {
+      "title": "新しいアルバム",
+      "description": "関連するプロジェクトをアルバムにグループ化します。",
+      "name_label": "アルバム名",
+      "name_placeholder": "例:秋EP",
+      "submit": "アルバムの作成"
+    },
+    "album": {
+      "untitled": "無題のアルバム",
+      "members_count_one": " {{count}}プロジェクト",
+      "members_count_other": " {{count}} プロジェクト",
+      "empty": "このアルバムにはまだプロジェクトがありません。",
+      "delete_confirm_title": "アルバムを削除しますか?",
+      "delete_confirm_description": "プロジェクトは削除されません。「 {{name}} 」からリンクが解除されるだけです。"
+    },
+    "delete_project": {
+      "confirm_title": "「 {{name}} 」を削除しますか？",
+      "confirm_description": "これにより、プロジェクトとその中のすべてのテイクが削除されます。これを元に戻すことはできません。"
+    }
+  },
+  "record": {
+    "title": "記録",
+    "subtitle": "クリーンなテイクをキャプチャし、レベルを監視し、スクリプトに従います。",
+    "project_label": "プロジェクト",
+    "project_placeholder": "プロジェクトを選択してください",
+    "project_create_quick": "簡単なプロジェクトを作成してください…",
+    "device_label": "入力デバイス",
+    "device_placeholder": "デバイスを選択してください",
+    "device_default_badge": "システムのデフォルト",
+    "device_wasapi_badge": "ワサピ",
+    "device_empty": "入力デバイスが見つかりません。",
+    "monitor_button": "モニター",
+    "monitor_stop_button": "監視を停止する",
+    "record_button": "記録",
+    "stop_button": "停止",
+    "elapsed_label": "経過時間",
+    "status": {
+      "idle": "アイドル状態",
+      "monitoring": "モニタリング",
+      "recording": "録音",
+      "stopped": "停止しました"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "ピーク",
+      "clip": "クリップ"
+    },
+    "guide": {
+      "title": "ガイド付きセッション",
+      "subtitle": "ウォーミングアップから会話のフレーズまで、コーチが台本に沿って段階的に説明します。",
+      "loading": "スクリプトを読み込み中…",
+      "unavailable": "ガイド付きセッションはサーバー上でまだ利用できません。",
+      "select_project_device": "ここからプロジェクトと入力デバイスを選択してステップを記録します。",
+      "progress": " {{done}}/{{total}} ステップ",
+      "start_timer": "タイマーを開始します",
+      "skip_timer": "スキップタイマー",
+      "record_step": "このステップを記録します",
+      "stop_step": "録音を停止する",
+      "mark_done": "完了 — 次のステップ",
+      "step_recorded": "録音されたテイク",
+      "no_record_step": "ウォームアップステップ — 記録は必要ありません。",
+      "bars_hint": "約{{bars}}バー",
+      "complete_title": "スクリプトが完成しました！",
+      "complete_body": "スクリプトのすべてのステップを記録しました。プロジェクトの「オーディオ」タブに戻り、お気に入りのテイクを選択します。",
+      "restart": "スクリプトを再起動します"
+    },
+    "best2min": {
+      "button": "最高の2分間を見つけよう（スノ）",
+      "running": "テイクを分析中…",
+      "score_label": "スコア",
+      "hint": "テイク全体にわたってエネルギーと明瞭さの分析を実行して、最も強い 2 分間のウィンドウを見つけます。その後でも範囲を手動で調整できます。",
+      "chart_caption": "ウィンドウごとのスコア",
+      "unavailable": "ベスト 2 分間の分析は、このサーバーではまだ利用できません。"
+    },
+    "takes_title": "このセッションの抜粋",
+    "takes_empty": "このセッションではまだテイクが録音されていません。",
+    "open_in_project": "プロジェクトで開く",
+    "ws_disconnected": "レベルメーターに再接続中…",
+    "select_project_first": "開始するにはプロジェクトを選択してください。",
+    "select_device_first": "入力デバイスを選択します。"
+  },
+  "project": {
+    "back_to_library": "ライブラリに戻る",
+    "header": {
+      "status_label": "ステータス",
+      "cover_upload": "表紙をアップロードする",
+      "cover_remove": "カバーを外す",
+      "name_placeholder": "プロジェクト名",
+      "links_title": "リンク",
+      "add_link": "リンクを追加",
+      "mode": {
+        "voice": "音声のみ",
+        "voice_guitar": "声+ギター"
+      }
+    },
+    "tabs": {
+      "audio": "オーディオ",
+      "lyrics": "歌詞",
+      "prompts": "プロンプト",
+      "notes": "注意事項"
+    },
+    "audio": {
+      "takes_title": "かかる",
+      "no_takes": {
+        "title": "まだテイクはありません",
+        "description": "新しいテイクを録音するか、既存のファイルをインポートします。"
+      },
+      "record_new": "新しいテイクを録音する",
+      "rating": "評価",
+      "variant": {
+        "raw": "生",
+        "processed": "加工済み"
+      },
+      "variant_placeholder": "バージョン",
+      "process_button": "プロセス",
+      "export_button": "エクスポート",
+      "delete_take_confirm_title": "このテイクを削除しますか?",
+      "delete_take_confirm_description": "未加工のオーディオとすべての処理されたバージョンは削除されます。",
+      "ab": {
+        "raw": "A・生",
+        "processed": "B・加工済み"
+      },
+      "origin": {
+        "recorded": "録音済み",
+        "imported": "輸入品"
+      },
+      "session_label_placeholder": "セッションラベル (オプション)",
+      "duration": "期間",
+      "sample_rate": "サンプルレート",
+      "channels": "チャンネル",
+      "created_at": "録音済み"
+    },
+    "pipeline": {
+      "title": "処理チェーン",
+      "preset_label": "プリセット",
+      "preset_none": "カスタムチェーン",
+      "preset_save": "プリセットとして保存",
+      "stage_locked": "ロックされています",
+      "stage_requires_extra": "インストールされていない追加のものが必要です",
+      "process_button": "プロセステイク",
+      "processing": "処理中…",
+      "job_queued": "待機中…",
+      "job_running": "処理中…",
+      "job_done": "完了",
+      "job_error": "失敗しました",
+      "job_cancelled": "キャンセルされました",
+      "cancel_job": "キャンセル",
+      "no_stages": "利用できるステージはありません。"
+    },
+    "export": {
+      "title": "テイクのエクスポート",
+      "description": "処理されたバージョンから最終ファイルをレンダリングします。",
+      "variant_label": "バージョン",
+      "format_label": "フォーマット",
+      "preset_label": "プリセットのエクスポート",
+      "range_label": "範囲",
+      "range_full": "全長",
+      "range_custom": "カスタム範囲",
+      "start_label": "開始",
+      "end_label": "終了",
+      "submit": "エクスポート",
+      "progress": "ファイルをレンダリング中…",
+      "download_ready": "ファイルの準備ができました",
+      "download_button": "ファイルをダウンロードする"
+    },
+    "notes": {
+      "placeholder": "このプロジェクトに関する自由形式のメモ…",
+      "saved_at": "{{time}} に保存されました "
+    },
+    "lyrics": {
+      "placeholder": "ここに歌詞を書きます。側面のパレットを使用して、Suno メタタグを挿入します。",
+      "saved_at": "{{time}} に保存されました ",
+      "saving": "保存中…",
+      "versions": "バージョン",
+      "versions_empty": "保存されたバージョンはまだありません。",
+      "version_preview": "プレビュー",
+      "restore": "このバージョンを復元する",
+      "restore_confirm_title": "このバージョンを復元しますか?",
+      "restore_confirm_description": "現在のテキストは {{date}} に保存されたバージョンに置き換えられます。",
+      "metatags_title": "メタタグ",
+      "metatags_hint": "タグをクリックしてカーソル位置に挿入します。",
+      "metatags_placebo_warning": "証明されていない - 結果に影響を与えない可能性があります。",
+      "metatags_empty": "メタタグが登録されていません。"
+    },
+    "prompts": {
+      "style_title": "スタイルプロンプト",
+      "lyrics_title": "歌詞プロンプト",
+      "template_label": "テンプレート",
+      "template_none": "テンプレートなし",
+      "variables_title": "変数",
+      "preview_title": "プレビュー",
+      "preview_empty": "テンプレートを選択し、変数を入力してプレビューを表示します。",
+      "char_count": " {{count}} 文字",
+      "char_count_warning": "1000 文字を超えるスタイル プロンプトは、Suno によって切り捨てられる場合があります。",
+      "copy": "コピー",
+      "copied": "クリップボードにコピーされました",
+      "save_to_project": "プロジェクトに保存",
+      "saved_to_project": "プロンプトをプロジェクトに保存しました",
+      "history_title": "歴史",
+      "history_empty": "以前のバージョンはありません。",
+      "current_label": "現在"
+    },
+    "stems": {
+      "title": "ボーカルとギター",
+      "separate_button": "ボーカルとギターを分離",
+      "running": "分離中…",
+      "vocals": "ボーカル",
+      "instrumental": "インストゥルメンタル",
+      "process_stem": "このステムを処理する",
+      "empty": "このテイクはまだ分割されていません。ボーカルとギターを単独で聞くには、セパレーションを実行します。",
+      "capability_missing": "このサーバーにはソース分離がインストールされていません。",
+      "unavailable": "このサーバーではボーカルとギターの分離はまだ利用できません。"
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "オン",
+    "boolean_off": "オフ"
+  },
+  "import": {
+    "title": "インポート",
+    "subtitle": "ディスク上にすでに存在するプロジェクトをライブラリに取り込みます。",
+    "step_indicator": "ステップ{{current}}/{{total}} ",
+    "step1": {
+      "title": "フォルダーの検索",
+      "description": "プロジェクトとトラックが含まれるルート フォルダーをポイントします。",
+      "path_label": "フォルダーパス",
+      "path_placeholder": "例: E:\\ロブズ\\プライド\\音楽\\ロブズ",
+      "recent_label": "最近の",
+      "scan_button": "スキャンフォルダー",
+      "scanning": "スキャン中…",
+      "ffmpeg_warning": "FFmpeg が見つかりません — 変換が必要なファイルはスキップされます。",
+      "folders_found_one": " {{count}} フォルダーが見つかりました",
+      "folders_found_other": " {{count}} フォルダーが見つかりました",
+      "unmatched_files_one": " {{count}} 認識されないファイル",
+      "unmatched_files_other": " {{count}} 認識されないファイル"
+    },
+    "step2": {
+      "title": "レビュー項目",
+      "description": "確定する前に、名前、ステータス、インポートされる内容を確認してください。",
+      "select_all": "すべて選択",
+      "table": {
+        "folder": "ソースフォルダー",
+        "name": "プロジェクト名",
+        "status": "ステータス",
+        "audio": "オーディオ",
+        "lyrics": "歌詞",
+        "cover": "カバー",
+        "album": "アルバム"
+      },
+      "audio_include_one": " {{count}} ファイルが選択されました",
+      "audio_include_other": " {{count}} ファイルが選択されました",
+      "no_audio": "音声が見つかりません",
+      "no_lyrics": "歌詞が見つかりませんでした",
+      "no_cover": "カバーなし",
+      "warnings_title": "警告"
+    },
+    "step3": {
+      "title": "インポート",
+      "description": "ファイルをコピーしてプロジェクトを作成することを確認します。",
+      "copy_originals": "元のファイルをライブラリにコピーする",
+      "execute_button": "インポートを開始する",
+      "progress_title": "インポート中…",
+      "created_count": "作成者: {{count}} ",
+      "skipped_count": "スキップ: {{count}} ",
+      "done_title": "インポートが完了しました",
+      "done_description": "以下のプロジェクトはライブラリに作成されました。",
+      "view_project": "プロジェクトを開く",
+      "start_over": "新規インポート"
+    }
+  },
+  "templates": {
+    "title": "テンプレート",
+    "subtitle": "Suno の再利用可能なプロンプト テンプレートとメタタグ。",
+    "tabs": {
+      "prompts": "プロンプトテンプレート",
+      "metatags": "メタタグ"
+    },
+    "new_template": "新しいテンプレート",
+    "kind": {
+      "style": "スタイル",
+      "lyrics": "歌詞"
+    },
+    "kind_label": "種類",
+    "delete_confirm_title": "テンプレート「 {{name}} 」を削除しますか?",
+    "delete_confirm_description": "これを元に戻すことはできません。",
+    "empty": "テンプレートはまだありません。",
+    "editor": {
+      "title_new": "新しいテンプレート",
+      "title_edit": "テンプレートの編集",
+      "name_label": "名前",
+      "name_placeholder": "例:アコースティックバラード",
+      "kind_label": "種類",
+      "template_label": "テンプレートテキスト",
+      "template_hint": "各変数の名前を二重中括弧で囲んで、各変数が属する場所をマークします。たとえば、「genre」という名前の変数は、2 つの左中括弧と 2 つの右中括弧で囲まれたジャンルになります。",
+      "variables_label": "変数",
+      "variable_add": "変数の追加",
+      "variable_name": "キー",
+      "variable_label": "ラベル",
+      "variable_type": "種類",
+      "variable_type_string": "テキスト",
+      "variable_type_select": "単一選択",
+      "variable_type_multiselect": "複数選択",
+      "variable_type_number": "番号",
+      "variable_type_boolean": "はい/いいえ",
+      "variable_options": "オプション (カンマ区切り)",
+      "variable_required": "必須",
+      "save": "テンプレートの保存"
+    },
+    "metatags": {
+      "title": "メタタグ",
+      "subtitle": "Suno が歌詞内で認識する構造タグとスタイルタグ。",
+      "new_tag": "新しいタグ",
+      "tag_label": "タグ",
+      "tag_placeholder": "例:ギターソロ",
+      "category_label": "カテゴリ",
+      "tier_label": "信頼性",
+      "tier_legend_title": "信頼性の凡例",
+      "tier_legend": {
+        "1": "Tier 1 — 文書化され、一貫性のあるもの",
+        "2": "階層 2 — 通常は機能します",
+        "3": "階層 3 — 変動効果",
+        "4": "レベル 4 — プラセボ、証明されていない"
+      },
+      "description_label": "説明",
+      "delete_confirm_title": "タグ「 {{tag}} 」を削除しますか?",
+      "empty": "カスタム メタタグはまだありません。"
+    }
+  },
+  "settings": {
+    "title": "設定",
+    "subtitle": "システム情報、言語、およびデフォルト設定。",
+    "system_info_title": "システム",
+    "version": "バージョン",
+    "data_dir": "データフォルダ",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "利用可能",
+    "ffmpeg_missing": "見つかりません",
+    "capabilities_title": "インストールされている機能",
+    "capability": {
+      "denoise": "ノイズリダクション",
+      "quality": "品質向上",
+      "separate": "ソース分離",
+      "ffmpeg": "FFmpeg変換"
+    },
+    "capability_available": "利用可能",
+    "capability_unavailable": "利用不可",
+    "gpu_title": "GPUアクセラレーション",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX ランタイム プロバイダー"
+    },
+    "gpu_none": "GPU プロバイダーが検出されませんでした",
+    "language_title": "言語",
+    "language": {
+      "pt-BR": "ポルトガル語 (ブラジル)",
+      "en": "英語"
+    },
+    "theme_title": "外観",
+    "theme": {
+      "dark": "暗い",
+      "light": "ライト"
+    },
+    "defaults_title": "エクスポートのデフォルト",
+    "lufs_target_label": "ターゲットLUFS",
+    "lufs_target_hint": "テイクをエクスポートする際の開始候補として使用されます。 Suno のデフォルトは約 -14 LUFS です。",
+    "saved": "設定が保存されました"
+  },
+  "guide": {
+    "title": "スノレコーディングガイド",
+    "subtitle": "最良の結果を得るために音声とギターのテイクをキャプチャする方法。",
+    "intro": "Suno は、クリーンで明確な参照を使用すると最高のパフォーマンスを発揮します。このガイドでは、準備、目標レベル、3 ～ 5 分の録音スクリプトについて説明します。",
+    "sections": {
+      "prep": {
+        "title": "準備",
+        "body": "処理された部屋、または柔らかい素材（カーテン、敷物、クローゼットの中の衣類）がたくさんある部屋で録音してください。ファンやハム音を発するものはすべて止めてください。録音する前に 5 分間声をウォームアップしてください。"
+      },
+      "levels": {
+        "title": "レベル: -12 ～ -6 dBFS",
+        "body": "メーターの -12 ～ -6 dBFS の間のピークを目指します。その範囲を下回ると、バックグラウンドノイズがより顕著になります。それを超えると、クリッピングのリスクが高まります。開始する前に、Record ページのメーターを使用してゲインを設定します。"
+      },
+      "distance": {
+        "title": "マイク距離：15～30cm",
+        "body": "マイクから 15 ～ 30 cm 離れてください。それより近づくと、破裂音や近接効果が誇張されます。遠くになるほど、部屋の残響やノイズが多く拾われます。"
+      },
+      "script": {
+        "title": "記録スクリプト",
+        "warmup": "ボーカルウォームアップ（1～2分）",
+        "vowels": "持続母音 - a、e、i、o、u",
+        "scales": "シンプルなスケール、上下",
+        "excerpt": "曲の抜粋（8～16小節）",
+        "dynamics": "ダイナミクス: 静かに始まり、最後に大声で終わります",
+        "spoken_phrase": "1 つの発話フレーズで、Suno があなたの声のトーンを読み取ることができます"
+      },
+      "expectations": {
+        "title": "スノが期待していること",
+        "body": "WAV、48 kHz、モノラル、ドライ (リバーブまたはエフェクトなし)、3 ～ 5 分のリファレンス。通常、最もクリーンで最も代表的な 2 分間のテイクが最良の結果を生み出します。"
+      }
+    }
+  },
+  "status": {
+    "idea": "アイデア",
+    "em_progresso": "進行中",
+    "quase": "もうすぐそこ",
+    "pronto": "準備完了"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "スノのフルボーカルスクリプト",
+      "desc": "ガイド付き 5 分: ウォームアップ、母音、スケール、2 曲の抜粋、ダイナミクス、口頭フレーズ。"
+    },
+    "step": {
+      "warmup": "ボーカルウォーミングアップ",
+      "warmup_inst": "あくび、唇のトリル（brrr）、そして柔らかいハム音で約 1 分間緊張をほぐします。録音する必要はありません。歌う前に喉をリラックスさせるだけです。",
+      "vowels": "持続母音",
+      "vowels_inst": "a、e、i、o、u の各母音を、一定の音量で快適なピッチで 3 ～ 4 秒間押し続けます。これにより、Suno はあなたの声の純粋な音色を拾うことができます。",
+      "scales": "スケールアップとスケールダウン",
+      "scales_inst": "「ラ」または「ナ」で単純な音階を上げたり下げたりして歌います。完璧である必要はありません。目標は、自分の声域をマッピングすることです。",
+      "section": "歌の抜粋 — パート 1",
+      "section_inst": "伝えたい真意を込めて、8小節から16小節まで歌います。技術的な完璧さよりも明瞭さと存在感を優先します。",
+      "section2": "歌の抜粋 — パート 2",
+      "section2_inst": "さらに 8 ～ 16 小節を歌います。理想的には、コーラスまたは前の曲と対照的なセクションを歌います。バリエーションが増えると、モデルがあなたの声を学習しやすくなります。",
+      "dynamics": "ダイナミクス: ソフト→ラウド",
+      "dynamics_inst": "喉に負担をかけずに、同じフレーズを非常に小さく始めて大声で終わらせます。これは、Suno さんの声のダイナミック レンジを示しています。",
+      "spoken": "話し言葉",
+      "spoken_inst": "歌わないで、おしゃべりしているかのように、短く自然なフレーズを話します。これは、Suno があなたの声の実際の音色を認識するのに役立ちます。"
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "修復",
+      "filter": "フィルター",
+      "dynamics": "ダイナミクス",
+      "separation": "別離",
+      "quality": "品質",
+      "utility": "ユーティリティ",
+      "loudness": "ラウドネス"
+    },
+    "highpass": "ハイパスフィルター",
+    "lowpass": "ローパスフィルター",
+    "denoise": "ノイズリダクション",
+    "declip": "デクリッピング",
+    "declick": "クリック/ポップの除去",
+    "deesser": "ディエッサー",
+    "gate": "ノイズゲート",
+    "compressor": "コンプレッサー",
+    "limiter": "リミッター",
+    "eq": "イコライゼーション",
+    "normalize": "ピークの正規化",
+    "loudness": "ラウドネス正規化 (LUFS)",
+    "reverb_reduce": "残響低減",
+    "separate": "ソース分離",
+    "quality": "品質向上（高級化）",
+    "trim_silence": "サイレントトリミング",
+    "fade": "フェードイン/フェードアウト",
+    "stereo_to_mono": "モノラルに変換する",
+    "resample": "リサンプリング"
+  },
+  "metatags": {
+    "tier": {
+      "1": "信頼できる",
+      "2": "通常動作します",
+      "3": "変数",
+      "4": "プラセボ"
+    },
+    "category": {
+      "structure": "構造",
+      "vocal": "ボーカル",
+      "instrument": "楽器",
+      "dynamics": "ダイナミクス",
+      "production": "生産",
+      "mood": "気分"
+    },
+    "verse": "詩",
+    "chorus": "コーラス",
+    "bridge": "橋",
+    "intro": "イントロ",
+    "outro": "アウトロ",
+    "hook": "フック",
+    "prechorus": "コーラス前",
+    "instrumental": "インストゥルメンタル",
+    "guitar_solo": "ギターソロ",
+    "build_up": "ビルドアップ",
+    "breakdown": "内訳",
+    "spoken_word": "話し言葉",
+    "whispered": "ささやき声",
+    "harmonies": "ハーモニー",
+    "male_vocal": "男性ボーカル",
+    "female_vocal": "女性ボーカル",
+    "duet": "デュエット",
+    "acoustic": "音響",
+    "ad_lib": "アドリブ"
+  },
+  "presets": {
+    "clean_voice": "きれいな声",
+    "voice_guitar_balanced": "バランスの取れた声とギター",
+    "podcast": "ポッドキャスト",
+    "suno_ready": "スノ準備完了",
+    "gentle_restore": "穏やかな復元",
+    "raw_passthrough": "加工なし"
+  },
+  "errors": {
+    "unknown": "何か問題が発生しました。",
+    "network": "サーバーに到達できませんでした。",
+    "validation_error": "入力した情報を確認してください。",
+    "not_found": "項目が見つかりません。",
+    "project_not_found": "プロジェクトが見つかりません。",
+    "take_not_found": "テイクが見つかりません。",
+    "album_not_found": "アルバムが見つかりません。",
+    "preset_not_found": "プリセットが見つかりません。",
+    "template_not_found": "テンプレートが見つかりません。",
+    "device_busy": "オーディオ デバイスは別のプログラムによって使用されています。",
+    "device_not_found": "オーディオデバイスが見つかりません。",
+    "already_recording": "すでに録音が進行中です。",
+    "ffmpeg_missing": "FFmpeg がインストールされていません。このファイルを変換するには、FFmpeg をインストールしてください。",
+    "disk_full": "ディスク容量が足りません。",
+    "permission_denied": "指定されたパスに対するアクセス許可が拒否されました。",
+    "import_path_not_found": "インポートパスが見つかりません。",
+    "job_failed": "処理に失敗しました。",
+    "job_cancelled": "処理がキャンセルされました。",
+    "process_failed": "テイクの処理に失敗しました。",
+    "export_failed": "ファイルのエクスポートに失敗しました。",
+    "record_failed": "記録の開始に失敗しました。"
+  },
+  "jobs": {
+    "status": {
+      "queued": "キューに入れられました",
+      "running": "ランニング",
+      "done": "完了",
+      "error": "失敗しました",
+      "cancelled": "キャンセルされました"
+    },
+    "kind": {
+      "process": "処理中",
+      "export": "エクスポート",
+      "import": "インポート",
+      "record": "録音"
+    }
+  }
+}

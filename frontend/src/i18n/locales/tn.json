@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Sephepafatsi sa Modumo"
+  },
+  "nav": {
+    "library": "Laeborari",
+    "record": "Rekota",
+    "import": "Thomeloteng",
+    "templates": "Dithempoleite",
+    "settings": "Diseting",
+    "guide": "Kaedi"
+  },
+  "common": {
+    "save": "Boloka",
+    "saving": "Go boloka...",
+    "saved": "E bolokilwe",
+    "cancel": "Khansela",
+    "close": "Tswala",
+    "delete": "Phimola",
+    "edit": "Tseleganya",
+    "create": "Tlhama",
+    "search": "Batla",
+    "loading": "E a laisa...",
+    "error": "Phoso",
+    "retry": "Leka gape",
+    "confirm": "Tlhomamisa",
+    "back": "Morago",
+    "next": "Se se latelang",
+    "continue": "Tswelela",
+    "finish": "Fetsa",
+    "copy": "Kopolola",
+    "copied": "E kopolotswe",
+    "download": "Laisolola",
+    "upload": "Laisa",
+    "none": "Ga go na",
+    "all": "Tsotlhe",
+    "yes": "Ee",
+    "no": "Nnyaa",
+    "select": "Tlhopha",
+    "optional": "ga go tlhokege",
+    "required": "go tlhokega",
+    "unsaved_changes": "Diphetogo tse di sa bolokwang",
+    "name": "Leina",
+    "status": "Seemo",
+    "type": "Mofuta",
+    "actions": "Ditiro",
+    "empty": "Ga go na sepe",
+    "browse": "Batla",
+    "remove": "Tlosa",
+    "add": "Tsenya",
+    "rename": "Leina sešwa",
+    "duplicate": "Poeletso",
+    "warning": "Tlhagiso",
+    "locked": "E notletswe",
+    "builtin": "E e ageletsweng",
+    "custom": "Tlwaelo",
+    "untitled": "Ga e na setlhogo",
+    "select_placeholder": "Tlhopha..."
+  },
+  "library": {
+    "title": "Laeborari",
+    "subtitle": "Diporojeke tsa gago tsa lentswe le katara, go tswa mo mogopolong go ya kwa go gololeng.",
+    "new_project": "Porojeke e ntšhwa",
+    "new_album": "Alebamo e ntšhwa",
+    "search_placeholder": "Batla ka leina...",
+    "view": {
+      "grid": "Keriti",
+      "albums": "Dialebamo"
+    },
+    "filters": {
+      "all": "Tsotlhe"
+    },
+    "take_count_one": " {{count}} tsaya",
+    "take_count_other": " {{count}} e tsaya",
+    "updated_at": "E tlhabolotswe {{date}} ",
+    "no_results": {
+      "title": "Ga go na diporojeke tse di bonweng",
+      "description": "Leka go fetola patlo kgotsa setlhotlhi sa seemo."
+    },
+    "empty": {
+      "title": "Laeborari ya gago ga e na sepe",
+      "description": "Simolola porojeke e ntšhwa go tswa kwa tshimologong, kgotsa romelateng tse o setseng o na le tsone mo disekeng.",
+      "cta_import": "Thomeloteng go tswa mo setsholadifaeleng",
+      "cta_new": "Tlhama porojeke"
+    },
+    "project_dialog": {
+      "title": "Porojeke e ntšhwa",
+      "description": "E fe lebitso mme o kgethe mokgwa wa ho rekota.",
+      "name_label": "Leina la porojeke",
+      "name_placeholder": "sk Pula ya Selemo",
+      "mode_label": "Mokgwa",
+      "mode": {
+        "voice": "Lentswe fela",
+        "voice_guitar": "Lentswe + katara"
+      },
+      "submit": "Tlhama porojeke"
+    },
+    "album_dialog": {
+      "title": "Alebamo e ntšhwa",
+      "description": "Diporojeke tse di amanang le setlhopha mo alebamong.",
+      "name_label": "Leina la alebamo",
+      "name_placeholder": "sk Letlhafula EP",
+      "submit": "Tlhama alebamo"
+    },
+    "album": {
+      "untitled": "Alebamo e e senang setlhogo",
+      "members_count_one": " Porojeke ya {{count}}",
+      "members_count_other": " {{count}} diporojeke",
+      "empty": "Ga go ise go nne le diporojeke mo alebamong eno.",
+      "delete_confirm_title": "Phimola alebamo?",
+      "delete_confirm_description": "Diporojeke ga di kitla di phimolwa, di tla phimolwa fela go tswa mo \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Phimola \" {{name}} \"?",
+      "confirm_description": "Sena se tlosa porojeke le mong le e mong nka ka eona. Se ga se ka ke sa dirololwa."
+    }
+  },
+  "record": {
+    "title": "Rekota",
+    "subtitle": "Tshwara setshwantsho se se phepa, lebelela maemo a gago, mme o latele sekwalwa.",
+    "project_label": "Porojeke",
+    "project_placeholder": "Tlhopha porojeke",
+    "project_create_quick": "Tlhama porojeke e e bonako...",
+    "device_label": "Sediriswa sa tsenyo",
+    "device_placeholder": "Tlhopha sediriswa",
+    "device_default_badge": "Thulaganyetsoruri ya tsamaiso",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Ga go na didiriswa tsa go tsenya tse di bonweng.",
+    "monitor_button": "Tlhokomela",
+    "monitor_stop_button": "Emisa go ela tlhoko",
+    "record_button": "Rekota",
+    "stop_button": "Emisa",
+    "elapsed_label": "Nako e e fetileng",
+    "status": {
+      "idle": "Go sa dire sepe",
+      "monitoring": "Go ela tlhoko",
+      "recording": "Go rekota",
+      "stopped": "E emisitswe"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Setlhoa",
+      "clip": "Setshwantsho"
+    },
+    "guide": {
+      "title": "Thulaganyo e e kaelwang",
+      "subtitle": "Dira gore mokatisi a go tsamaise mo sekwalong kgato ka kgato, go tswa mo go thuthafatseng go ya kwa polelong e e buiwang.",
+      "loading": "Go laisa sekeripiti...",
+      "unavailable": "Thulaganyo e e kaelwang ga e ise e nne teng mo sefareng.",
+      "select_project_device": "Tlhopha porojeke le sediriswa sa go tsenya go rekota dikgato go tswa fano.",
+      "progress": " {{done}} ya {{total}} dikgato",
+      "start_timer": "Selekanako sa go simolola",
+      "skip_timer": "Tlola sebalanako",
+      "record_step": "Rekota kgato e",
+      "stop_step": "Emisa go rekota",
+      "mark_done": "Ke dirile — kgato e e latelang",
+      "step_recorded": "Rekota",
+      "no_record_step": "Kgato ya go thuthafatsa — ga go tlhokege go rekota.",
+      "bars_hint": "Dibara di ka nna {{bars}}",
+      "complete_title": "Sekwalwa se weditswe!",
+      "complete_body": "O gatisitse kgato nngwe le nngwe ya sekwalwa. Boela kwa thebong ya Modumo wa porojeke mme o tlhophe ditshwantsho tse o di ratang.",
+      "restart": "Simolola sekeripiti gape"
+    },
+    "best2min": {
+      "button": "Batla metsotso e le 2 e e gaisang (Suno)",
+      "running": "Go sekaseka...",
+      "score_label": "Maduo",
+      "hint": "E tsamaisa tshekatsheko ya maatla le go tlhaloganyesega ga nako yotlhe go bona fensetere ya yone e e nonofileng ya metsotso e le 2 — o sa ntse o ka fetola selekanyo ka seatla morago ga moo.",
+      "chart_caption": "Maduo ka fensetere",
+      "unavailable": "Tshekatsheko e e gaisang ya metsotso e le 2 ga e ise e nne teng mo sefareng eno."
+    },
+    "takes_title": "Ditsaya go tswa mo thulaganyong eno",
+    "takes_empty": "Ga go ise go rekotiwe ditshwantsho mo thulaganyong eno.",
+    "open_in_project": "Bula mo porojekeng",
+    "ws_disconnected": "Go golagana gape le mmitara wa selekanyo...",
+    "select_project_first": "Tlhopha porojeke e o tla e simololang.",
+    "select_device_first": "Tlhopha sediriswa sa go tsenya."
+  },
+  "project": {
+    "back_to_library": "Boela kwa laeboraring",
+    "header": {
+      "status_label": "Seemo",
+      "cover_upload": "Laisa khabara",
+      "cover_remove": "Tlosa khabara",
+      "name_placeholder": "Leina la porojeke",
+      "links_title": "Dikgokagano",
+      "add_link": "Tsenya kgokagano",
+      "mode": {
+        "voice": "Lentswe fela",
+        "voice_guitar": "Lentswe + katara"
+      }
+    },
+    "tabs": {
+      "audio": "Modumo",
+      "lyrics": "Mafoko",
+      "prompts": "Ditlhotlheletso",
+      "notes": "Dintlha"
+    },
+    "audio": {
+      "takes_title": "E tsaya",
+      "no_takes": {
+        "title": "Ga go ise go tsewe",
+        "description": "Rekota tseo e ntšhwa kgotsa reka faele e e leng teng."
+      },
+      "record_new": "Rekota setshwantsho se sešwa",
+      "rating": "Tekanyetso",
+      "variant": {
+        "raw": "E tala",
+        "processed": "E dirilwe"
+      },
+      "variant_placeholder": "Mofuta",
+      "process_button": "Thulaganyo",
+      "export_button": "Thomelontle",
+      "delete_take_confirm_title": "Phimola setshwantsho seno?",
+      "delete_take_confirm_description": "The tala mamelwang le mong le e mong sebetswa phetolelo tla tlosoa.",
+      "ab": {
+        "raw": "A · E tala",
+        "processed": "B · E dirilwe"
+      },
+      "origin": {
+        "recorded": "E gatisitswe",
+        "imported": "E rometsweteng"
+      },
+      "session_label_placeholder": "Leibole ya nako (ga go tlhokege)",
+      "duration": "Nako",
+      "sample_rate": "Seelo sa sekao",
+      "channels": "Ditšhanele",
+      "created_at": "E gatisitswe"
+    },
+    "pipeline": {
+      "title": "Ketane ya go baakanya",
+      "preset_label": "Sete pele",
+      "preset_none": "Ketane e e itiretsweng",
+      "preset_save": "Boloka jaaka sete",
+      "stage_locked": "E notletswe",
+      "stage_requires_extra": "E tlhoka tlaleletso e e sa tsenngwang",
+      "process_button": "Thulaganyo ya go tsaya",
+      "processing": "Go bereka...",
+      "job_queued": "E mo moleng...",
+      "job_running": "Go bereka...",
+      "job_done": "Ke feditse",
+      "job_error": "E paletswe",
+      "job_cancelled": "E khansetswe",
+      "cancel_job": "Khansela",
+      "no_stages": "Ga go na dikgato tse di leng teng."
+    },
+    "export": {
+      "title": "Thomelontle",
+      "description": "Rantsha faele ya bofelo go tswa mo mofuteng o o dirilweng.",
+      "variant_label": "Mofuta",
+      "format_label": "Fometa",
+      "preset_label": "Romelantle setepele",
+      "range_label": "Mothamo",
+      "range_full": "Boleele jo bo tletseng",
+      "range_custom": "Mofuta o o itebagantseng",
+      "start_label": "Tshimologo",
+      "end_label": "Bokhutlo",
+      "submit": "Thomelontle",
+      "progress": "Faele ya go ranola...",
+      "download_ready": "Faele e siame",
+      "download_button": "Laisolola faele"
+    },
+    "notes": {
+      "placeholder": "Dintlha tsa foromo e e sa duelelweng ka ga porojeke eno...",
+      "saved_at": "E bolokilwe ka {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Kwala mafoko a pina fa. Dirisa phalete e e mo letlhakoreng go tsenya ditheke tsa meta tsa Suno.",
+      "saved_at": "E bolokilwe ka {{time}} ",
+      "saving": "Go boloka...",
+      "versions": "Diphetolelo",
+      "versions_empty": "Ga go ise go nne le mefuta e e bolokilweng.",
+      "version_preview": "Tebopele",
+      "restore": "Busetsa mofuta ono",
+      "restore_confirm_title": "Busetsa mofuta ono?",
+      "restore_confirm_description": "Mokwalo wa ga jaanong o tla emisediwa ka mofuta o o bolokilweng mo go {{date}} .",
+      "metatags_title": "Metatheke",
+      "metatags_hint": "Tobetsa theke go e tsenya mo sesupong.",
+      "metatags_placebo_warning": "Unproven - ka 'na ba le phello efe kapa efe ka sephetho.",
+      "metatags_empty": "Ga go na di-meta-tag tse di kwadisitsweng."
+    },
+    "prompts": {
+      "style_title": "Potso ya setaele",
+      "lyrics_title": "Potso ya mafoko",
+      "template_label": "Thempoleite",
+      "template_none": "Ga go na thempoleite",
+      "variables_title": "Dipharologano",
+      "preview_title": "Tebopele",
+      "preview_empty": "Tlhopha thempoleite o bo o tlatsa diphetogophetogo go bona tebopele.",
+      "char_count": " {{count}} ditlhaka",
+      "char_count_warning": "Ditlhotlheletso tsa setaele tse di fetang ditlhaka di le 1000 di ka nna tsa kgaolwa ke Suno.",
+      "copy": "Kopolola",
+      "copied": "E kopolotswe mo lebokosong la peeletso",
+      "save_to_project": "Boloka mo porojekeng",
+      "saved_to_project": "Potso e bolokilwe mo porojekeng",
+      "history_title": "Hisetori",
+      "history_empty": "Ga go na mefuta e e fetileng.",
+      "current_label": "Ga jaana"
+    },
+    "stems": {
+      "title": "Mantswe le katara",
+      "separate_button": "Mantswe a a farologaneng le katara",
+      "running": "Go kgaoganya...",
+      "vocals": "Mantswe",
+      "instrumental": "Diletswa",
+      "process_stem": "Dira kutu e",
+      "empty": "This take ga e ise e kgaoganngwe. Taboga kgaogano go utlwa mantswe le katara ka go itlhaola.",
+      "capability_missing": "Kgaoganyo ya motswedi ga e a tsenngwa mo sefareng eno.",
+      "unavailable": "Kgaogano ya lentswe/katara ga e ise e nne teng mo sefareng eno."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "On",
+    "boolean_off": "Tima"
+  },
+  "import": {
+    "title": "Thomeloteng",
+    "subtitle": "Tlisa diporojeke tse di setseng di le teng mo disekeng mo laeboraring.",
+    "step_indicator": "Kgato {{current}} ya {{total}} ",
+    "step1": {
+      "title": "Batla foltara",
+      "description": "Supa foldara ya motso ka diporojeke tsa gago le dipina.",
+      "path_label": "Tsela ya setsholadifaele",
+      "path_placeholder": "sk E:\\Robbs\\Boikgantsho\\Mmino\\ROBBS",
+      "recent_label": "Bosheng",
+      "scan_button": "Sekena setsholadifaele",
+      "scanning": "Go sekaseka...",
+      "ffmpeg_warning": "FFmpeg ga e a bonwa — difaele tse di tlhokang phetolo di tla tlolwa.",
+      "folders_found_one": " {{count}} setsholadifaele se bonwe",
+      "folders_found_other": " {{count}} ditsholadifaele di bonwe",
+      "unmatched_files_one": " {{count}} faele e e sa lemogiweng",
+      "unmatched_files_other": " {{count}} difaele tse di sa lemogiweng"
+    },
+    "step2": {
+      "title": "Sekaseka dintlha",
+      "description": "Tlhola maina, maemo, le se se tla romelwateng pele o tlhomamisa.",
+      "select_all": "Tlhopha tsotlhe",
+      "table": {
+        "folder": "Setsholadifaele sa motswedi",
+        "name": "Leina la porojeke",
+        "status": "Seemo",
+        "audio": "Modumo",
+        "lyrics": "Mafoko",
+        "cover": "Khabara",
+        "album": "Alebamo"
+      },
+      "audio_include_one": " {{count}} faele e tlhophilwe",
+      "audio_include_other": " {{count}} difaele di tlhophilwe",
+      "no_audio": "Ga go bonwe modumo",
+      "no_lyrics": "Ga go bonwe mafoko",
+      "no_cover": "Ga go na khabara",
+      "warnings_title": "Ditlhagiso"
+    },
+    "step3": {
+      "title": "Thomeloteng",
+      "description": "Netefatsa go kopololela difaele le go tlhama diporojeke.",
+      "copy_originals": "Kopolola difaele tsa tshimologo mo laeboraring",
+      "execute_button": "Simolola go romelateng",
+      "progress_title": "Go reka...",
+      "created_count": "E tlhamilwe: {{count}} ",
+      "skipped_count": "E tlotswe: {{count}} ",
+      "done_title": "Thomeloteng e weditswe",
+      "done_description": "Diporojeke tse di fa tlase di tlhamilwe mo laeboraring ya gago.",
+      "view_project": "Bula porojeke",
+      "start_over": "Thomeloteng e ntšhwa"
+    }
+  },
+  "templates": {
+    "title": "Dithempoleite",
+    "subtitle": "Dithempoleite tsa potso tse di ka dirisiwang gape le di-meta-tag tsa Suno.",
+    "tabs": {
+      "prompts": "Dithempoleite tsa dipotso",
+      "metatags": "Metatheke"
+    },
+    "new_template": "Thempoleite e ntšhwa",
+    "kind": {
+      "style": "Setaele",
+      "lyrics": "Mafoko"
+    },
+    "kind_label": "Bopelonomi",
+    "delete_confirm_title": "Phimola thempoleite ya \" {{name}} \"?",
+    "delete_confirm_description": "Se ga se ka ke sa dirololwa.",
+    "empty": "Ga go ise go nne le dithempoleite.",
+    "editor": {
+      "title_new": "Thempoleite e ntšhwa",
+      "title_edit": "Tseleganya thempoleite",
+      "name_label": "Leina",
+      "name_placeholder": "sk Pina ya medumo",
+      "kind_label": "Bopelonomi",
+      "template_label": "Mokwalo wa thempoleite",
+      "template_hint": "Tshwaya moo mofuta mongwe le mongwe o leng teng ka leina la one le phuthetswe ka dithapo tse pedi tse di sothegileng — ka sekai, mofuta o o bidiwang \"mofuta\" o nna mofuta o o phuthetsweng ka dithapo tse pedi tse di bulang le tse pedi tse di tswalang.",
+      "variables_label": "Dipharologano",
+      "variable_add": "Tsenya pharologano",
+      "variable_name": "Senotlolo",
+      "variable_label": "Letshwao",
+      "variable_type": "Mofuta",
+      "variable_type_string": "Mokwalo",
+      "variable_type_select": "Tlhopho e le nngwe",
+      "variable_type_multiselect": "Tlhophontsi",
+      "variable_type_number": "Palo",
+      "variable_type_boolean": "Ee/nnyaa",
+      "variable_options": "Ditlhopho (tse di kgaogantsweng ka phegelwana)",
+      "variable_required": "E a tlhokega",
+      "save": "Boloka thempoleite"
+    },
+    "metatags": {
+      "title": "Metatheke",
+      "subtitle": "Ditheke tsa sebopeho le tsa setaele Suno o lemoha mantswe a ka hare.",
+      "new_tag": "Theke e ntšhwa",
+      "tag_label": "Theke",
+      "tag_placeholder": "sk katara e le nosi",
+      "category_label": "Setlhopha",
+      "tier_label": "Go ikanyega",
+      "tier_legend_title": "Mogaka wa go ikanyega",
+      "tier_legend": {
+        "1": "Tier 1 — e e kwadilweng le e e tlhomameng",
+        "2": "Tier 2 — gantsi e a dira",
+        "3": "Tier 3 — ditlamorago tse di farologaneng",
+        "4": "Tier 4 — seokobatsi sa seokobatsi, se se sa netefadiwang"
+      },
+      "description_label": "Tlhaloso",
+      "delete_confirm_title": "Phimola theke ya \" {{tag}} \"?",
+      "empty": "Ga go ise go nne le di-meta-tag tse di itiretsweng."
+    }
+  },
+  "settings": {
+    "title": "Diseting",
+    "subtitle": "Tshedimosetso ya tsamaiso, puo, le ditlhopho tsa thulaganyetsoruri.",
+    "system_info_title": "Tsamaiso",
+    "version": "Mofuta",
+    "data_dir": "Setsholadifaele sa tshedimosetso",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "E teng",
+    "ffmpeg_missing": "Ga e bonwe",
+    "capabilities_title": "Dikgono tse di tsenngwang",
+    "capability": {
+      "denoise": "Phokotso ya modumo",
+      "quality": "Tokafatso ya boleng",
+      "separate": "Kgaogano ya motswedi",
+      "ffmpeg": "Phetolo ya FFmpeg"
+    },
+    "capability_available": "E teng",
+    "capability_unavailable": "Ga e yo",
+    "gpu_title": "go akofisa GPU",
+    "gpu": {
+      "torch_cuda": "Pythotšhe CUDA",
+      "ort_providers": "Batlamedi ba ONNX ba nako ya go dira"
+    },
+    "gpu_none": "Ga go na batlamedi ba GPU ba ba lemogilweng",
+    "language_title": "Puo",
+    "language": {
+      "pt-BR": "Sepotokisi (Brasil)",
+      "en": "Setswana"
+    },
+    "theme_title": "Tebego",
+    "theme": {
+      "dark": "Lefifi",
+      "light": "Lesedi"
+    },
+    "defaults_title": "Romelantle dithulaganyetsoruri",
+    "lufs_target_label": "LUFS e e ikaeletsweng",
+    "lufs_target_hint": "E dirisiwa jaaka tshitshinyo ya tshimologo fa o romela ntle o tsaya. Suno ya thulaganyetsoruri e nna go dikologa -14 LUFS.",
+    "saved": "Ditlhopho di bolokilwe"
+  },
+  "guide": {
+    "title": "Kaedi ya go rekota ya Suno",
+    "subtitle": "Tsela ya go tshwara lentswe le katara e tsaya gore o bone dipholo tse di gaisang.",
+    "intro": "Suno e dira sentle thata ka ditshupiso tse di phepa, tse di sa belaetseng. Kaedi eno e akaretsa go ipaakanyetsa, maemo a a ikaeletsweng, le sekwalwa sa go rekota sa metsotso e le 3–5.",
+    "sections": {
+      "prep": {
+        "title": "Go baakanyetsa",
+        "body": "Rekota mo phaposing e e alafilweng kgotsa e e nang le dilo tse dintsi tse di bonolo (digaretene, dikhapete, diaparo mo lebokosong). Tima di fan le sengwe le sengwe se se dumang. Thuthafatsa lentswe la gago metsotso e le 5 pele ga o rekota."
+      },
+      "levels": {
+        "title": "Maemo: -12 go ya go -6 dBFS",
+        "body": "Ikemisetse ditlhora tse di fa gare ga -12 le -6 dBFS mo mmitareng. Fa o le kwa tlase ga selekanyo seo, modumo wa lemorago o nna le lemotshega thata; fa godimo ga yone, kotsi ya go poma e a tlhatloga. Dirisa mmitara mo tsebeng ya Rekoto go seta poelo ya gago pele o simolola."
+      },
+      "distance": {
+        "title": "Sekgala sa maekerofouno: 15–30 cm",
+        "body": "Dula 15 ho isa ho 30 cm ho tloha maekerofounong. Gaufi go feta moo go feteletsa plosives le phelelo ya go nna gaufi; kgakala e tsaya reverb e ntsi ya kamore le modumo."
+      },
+      "script": {
+        "title": "Go rekota sekeripiti",
+        "warmup": "Go ithutafatsa lentswe (metsotso e le 1–2)",
+        "vowels": "Ditumanosi tse di tshegediwang — a, e, ke, o, u",
+        "scales": "Dikala tse di bonolo, kwa godimo le kwa tlase",
+        "excerpt": "Nopolo ya pina (dibara di le 8 go ya go di le 16)",
+        "dynamics": "Diphetogo: simolola ka bonolo, felela kwa godimo",
+        "spoken_phrase": "Polelwana e le nngwe e e buiwang, gore Suno a kgone go bala segalo sa lentswe la gago"
+      },
+      "expectations": {
+        "title": "Se Suno a se solofetseng",
+        "body": "WAV, 48 kHz, mono, e omile (ga go na reverb kgotsa ditlamorago), metsotso e le 3 go ya go e le 5 ya tshupiso. Metsotso e le 2 e e phepa go gaisa, e e emelang thata ya go tsaya gantsi e ntsha dipholo tse di gaisang."
+      }
+    }
+  },
+  "status": {
+    "idea": "Kgopolo",
+    "em_progresso": "E tsweletse",
+    "quase": "Go batlile go nna koo",
+    "pronto": "E siame"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Mokwalo o o feletseng wa lentswe la ga Suno",
+      "desc": "Metsotso e le 5 e e kaelwang: go ithutafatsa, ditumanosi, dikala, dinopolo tse pedi tsa pina, diphetogo, le polelo e e buiwang."
+    },
+    "step": {
+      "warmup": "Go ithutafatsa lentswe",
+      "warmup_inst": "Rekolola ka go tlhotlhora, go tlhotlhora dipounama (brrr), le go duma ka bonolo mo e ka nnang motsotso. Ga go tlhokege go rekota — ke fela go repa mometso pele o opela.",
+      "vowels": "Ditumanosi tse di tshegediwang",
+      "vowels_inst": "Tshwara tumanosi nngwe le nngwe — a, e, i, o, u — metsotswana e le 3 go ya go e le 4 ka segalo sa gago se se phuthologileng, ka modumo o o tlhomameng. Seno se thusa Suno go tsaya timbre e e phepa ya lentswe la gago.",
+      "scales": "Dikala go ya kwa godimo le kwa tlase",
+      "scales_inst": "Opela sekale se se bonolo go ya kwa godimo le kwa tlase, ka \"la\" kgotsa \"na\". Ga e tlhoke go nna e e itekanetseng — boikaelelo ke go dira mmapa wa lentswe la gago.",
+      "section": "Nopolo ya pina — karolo 1",
+      "section_inst": "Opela dibara di le 8 go ya go di le 16 tsa pina, ka boikaelelo jwa mmatota jo o batlang go bo fetisa. Dira gore go tlhaloganyesega le go nna teng go tle pele ga go itekanela ga setegeniki.",
+      "section2": "Nopolo ya pina — karolo 2",
+      "section2_inst": "Opela dibara tse dingwe di le 8 go ya go di le 16 — go ka nna molemo fa e le khwaere kgotsa karolo e e farologaneng le e e fetileng. More mefutafuta e thusa mohlala ho ithuta lentswe la hao.",
+      "dynamics": "Diphetogo: bonolo → kwa godimo",
+      "dynamics_inst": "Opela polelo e le nngwe o simolola ka bonolo thata mme o felele kwa godimo, o sa gagamatse mometso wa gago. Se se bontsha Suno selekanyo sa maatla a lentswe la gago.",
+      "spoken": "Polelo e e buiwang",
+      "spoken_inst": "Bua — o se ka wa opela — polelo e khutshwane, ya tlholego, jaaka e kete o a tlotla. Seno se thusa Suno go lemoga timbre ya mmatota ya lentswe la gago."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Tsosoloso",
+      "filter": "Ditlhotlhi",
+      "dynamics": "Diphetogo",
+      "separation": "Kgaoganyo",
+      "quality": "Boleng",
+      "utility": "Tiriso",
+      "loudness": "Modumo o o kwa godimo"
+    },
+    "highpass": "Setlhotlhi sa phase e e kwa godimo",
+    "lowpass": "Setlhotlhi sa phase e e kwa tlase",
+    "denoise": "Phokotso ya modumo",
+    "declip": "Go kgaola",
+    "declick": "Go tlosiwa ga tobetso/pop",
+    "deesser": "Tlosa boleng",
+    "gate": "Heke ya modumo",
+    "compressor": "Segateledi",
+    "limiter": "Selekanyetsi",
+    "eq": "Tekatekanyo",
+    "normalize": "Setlhoa sa tlwaelo",
+    "loudness": "Go tlwaetsa modumo o o kwa godimo (LUFS)",
+    "reverb_reduce": "Phokotso ya modumo",
+    "separate": "Kgaogano ya motswedi",
+    "quality": "Tokafatso ya boleng (ya maemo a a kwa godimo)",
+    "trim_silence": "Go poma ka tidimalo",
+    "fade": "Nyamela mo teng / nyelela kwa ntle",
+    "stereo_to_mono": "Fetolela go mono",
+    "resample": "Go dira sekao gape"
+  },
+  "metatags": {
+    "tier": {
+      "1": "E a ikanyega",
+      "2": "Gantsi e a bereka",
+      "3": "Sephetogo",
+      "4": "Seokobatsi"
+    },
+    "category": {
+      "structure": "Popego",
+      "vocal": "Lentswe",
+      "instrument": "Sediriswa",
+      "dynamics": "Diphetogo",
+      "production": "Tlhagiso",
+      "mood": "Maikutlo"
+    },
+    "verse": "Temana ya 1 .",
+    "chorus": "Khorase",
+    "bridge": "Borogo",
+    "intro": "Matseno",
+    "outro": "Outro",
+    "hook": "Hook",
+    "prechorus": "Pele ga khwaere",
+    "instrumental": "Diletswa",
+    "guitar_solo": "Katara solo",
+    "build_up": "Go aga",
+    "breakdown": "Thubego",
+    "spoken_word": "Lefoko le le buiwang",
+    "whispered": "Go sebaseba",
+    "harmonies": "Dikopano",
+    "male_vocal": "Lentswe la monna",
+    "female_vocal": "Lentswe la mosadi",
+    "duet": "Duet",
+    "acoustic": "Modumo",
+    "ad_lib": "Papatso"
+  },
+  "presets": {
+    "clean_voice": "Lentswe le le phepa",
+    "voice_guitar_balanced": "Lentswe le katara e e lekalekaneng",
+    "podcast": "Podkhasete",
+    "suno_ready": "Suno e siame",
+    "gentle_restore": "Busetsa ka bonolo",
+    "raw_passthrough": "Ga go na tiro"
+  },
+  "errors": {
+    "unknown": "Sengwe se ne sa senyega.",
+    "network": "Ga e kgone go fitlhelela sefara.",
+    "validation_error": "Tlhola tshedimosetso e o e tsentseng.",
+    "not_found": "Ntlha ga e a bonwa.",
+    "project_not_found": "Porojeke ga e a bonwa.",
+    "take_not_found": "Tsaya ga a bonwe.",
+    "album_not_found": "Alebamo ga e bonwe.",
+    "preset_not_found": "Sete ga se a bonwa.",
+    "template_not_found": "Thempoleite ga e bonwe.",
+    "device_busy": "Audio sesebediswa e sebediswa ke lenaneo le leng.",
+    "device_not_found": "Sediriswa sa modumo ga se bonwe.",
+    "already_recording": "Go setse go tsweletse ka kgatiso.",
+    "ffmpeg_missing": "FFmpeg ga e a tsenngwa — e tsenye go fetola faele eno.",
+    "disk_full": "Ga go na sebaka se se lekaneng mo disekeng.",
+    "permission_denied": "Tetla e gannwe ya tsela e e neetsweng.",
+    "import_path_not_found": "Tsela ya thomeloteng ga e bonwe.",
+    "job_failed": "Tshebetso e paletswe.",
+    "job_cancelled": "Go dira tiro go ne ga phimolwa.",
+    "process_failed": "E paletswe ke go dira tiro ya go tsaya.",
+    "export_failed": "E paletswe ke go romela faele kwa ntle.",
+    "record_failed": "E paletswe ke go simolola go rekota."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Go tsentswe mo moleng",
+      "running": "Go taboga",
+      "done": "Ke feditse",
+      "error": "E paletswe",
+      "cancelled": "E khansetswe"
+    },
+    "kind": {
+      "process": "Go dira",
+      "export": "Thomelontle",
+      "import": "Thomeloteng",
+      "record": "Go rekota"
+    }
+  }
+}

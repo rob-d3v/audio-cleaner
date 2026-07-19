@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Mea hoʻomaʻemaʻe leo"
+  },
+  "nav": {
+    "library": "Hale Waihona Puke",
+    "record": "Hoʻopaʻa",
+    "import": "Lawe mai",
+    "templates": "Nā kumu hoʻohālike",
+    "settings": "Nā hoʻonohonoho",
+    "guide": "Alakai"
+  },
+  "common": {
+    "save": "Mālama",
+    "saving": "Mālama ʻia…",
+    "saved": "Mālama ʻia",
+    "cancel": "Hoʻopau",
+    "close": "Pani",
+    "delete": "Holoi",
+    "edit": "Hoʻoponopono",
+    "create": "Hana",
+    "search": "Huli",
+    "loading": "Ke hoʻouka nei…",
+    "error": "Kuhihewa",
+    "retry": "E hoao hou",
+    "confirm": "E hōʻoia",
+    "back": "Ke kua",
+    "next": "Aʻe",
+    "continue": "E hoʻomau",
+    "finish": "Hoʻopau",
+    "copy": "kope",
+    "copied": "Kope ʻia",
+    "download": "Hoʻoiho",
+    "upload": "Hoʻouka",
+    "none": "ʻAʻohe",
+    "all": "ʻO nā mea a pau",
+    "yes": "ʻAe",
+    "no": "ʻAʻole",
+    "select": "E koho",
+    "optional": "koho",
+    "required": "koi ʻia",
+    "unsaved_changes": "Nā loli i mālama ʻole ʻia",
+    "name": "inoa",
+    "status": "Kūlana",
+    "type": "ʻAno",
+    "actions": "Nā hana",
+    "empty": "Haʻahaʻa",
+    "browse": "Huli",
+    "remove": "Wehe",
+    "add": "Hoʻohui",
+    "rename": "inoa hou",
+    "duplicate": "Kalua",
+    "warning": "ʻŌlelo aʻo",
+    "locked": "Paʻa",
+    "builtin": "Hoʻokomo ʻia",
+    "custom": "Kuʻuna",
+    "untitled": "ʻAʻole inoa",
+    "select_placeholder": "E koho…"
+  },
+  "library": {
+    "title": "Hale Waihona Puke",
+    "subtitle": "ʻO kāu mau leo a me nā hana kīkā, mai ka manaʻo a hiki i ka hoʻokuʻu ʻana.",
+    "new_project": "Pāhana hou",
+    "new_album": "Album hou",
+    "search_placeholder": "Huli ma ka inoa…",
+    "view": {
+      "grid": "Māhele",
+      "albums": "Albums"
+    },
+    "filters": {
+      "all": "ʻO nā mea a pau"
+    },
+    "take_count_one": " {{count}} lawe",
+    "take_count_other": " {{count}} lawe",
+    "updated_at": "Hōʻano hou ʻia {{date}} ",
+    "no_results": {
+      "title": "ʻAʻohe papahana i loaʻa",
+      "description": "E ho'āʻo e hoʻololi i ka ʻimi a i ʻole ke kānana kūlana."
+    },
+    "empty": {
+      "title": "Ua nele kāu waihona",
+      "description": "E hoʻomaka i kahi papahana hou mai ka wā ʻōpala, a i ʻole lawe ʻia mai ka lawe ʻana iā ʻoe ma ka disk.",
+      "cta_import": "Hoʻokomo mai ka waihona",
+      "cta_new": "Hana i ka papahana"
+    },
+    "project_dialog": {
+      "title": "Pāhana hou",
+      "description": "Hāʻawi iā ia i inoa a koho i kahi ʻano hoʻopaʻa leo.",
+      "name_label": "inoa papahana",
+      "name_placeholder": "e.g. Ua Kaumaka",
+      "mode_label": "Ke ano",
+      "mode": {
+        "voice": "Leo wale nō",
+        "voice_guitar": "Leo + kīkā"
+      },
+      "submit": "Hana i ka papahana"
+    },
+    "album_dialog": {
+      "title": "Album hou",
+      "description": "E hui pū i nā papahana pili i kahi album.",
+      "name_label": "inoa album",
+      "name_placeholder": "e.g. Kaulana EP",
+      "submit": "Hana album"
+    },
+    "album": {
+      "untitled": "Puke inoa ʻole",
+      "members_count_one": " {{count}} papahana",
+      "members_count_other": " {{count}} papahana",
+      "empty": "ʻAʻohe papahana i kēia album.",
+      "delete_confirm_title": "Holoi i ka album?",
+      "delete_confirm_description": "ʻAʻole e holoi ʻia nā papahana, wehe wale ʻia mai \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Holoi \" {{name}} \"?",
+      "confirm_description": "Hoʻopau kēia i ka papahana a me kēlā me kēia lawe i loko. ʻAʻole hiki ke hoʻopau ʻia kēia."
+    }
+  },
+  "record": {
+    "title": "Hoʻopaʻa",
+    "subtitle": "E kiʻi i kahi lawe maʻemaʻe, e nānā i kāu mau pae, a hahai i ka palapala.",
+    "project_label": "Papahana",
+    "project_placeholder": "E koho i kahi papahana",
+    "project_create_quick": "E hana i kahi papahana wikiwiki…",
+    "device_label": "Mea hookomo",
+    "device_placeholder": "E koho i kahi mea hana",
+    "device_default_badge": "Pūnaehana paʻamau",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "ʻAʻohe mea hoʻokomo i loaʻa.",
+    "monitor_button": "Mākaʻikaʻi",
+    "monitor_stop_button": "Hoʻopau i ka nānā ʻana",
+    "record_button": "Hoʻopaʻa",
+    "stop_button": "Kāohi",
+    "elapsed_label": "Ka manawa i hala",
+    "status": {
+      "idle": "palaualelo",
+      "monitoring": "Nānā",
+      "recording": "Hoʻopaʻa ʻana",
+      "stopped": "Ua kū"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Peak",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Kau alakaʻi",
+      "subtitle": "E ʻae i ke kaʻi e alakaʻi iā ʻoe ma ka ʻatikala i kēlā me kēia ʻanuʻu, mai ka pumehana a i ka ʻōlelo ʻōlelo.",
+      "loading": "Ke hoʻouka nei i ka palapala…",
+      "unavailable": "ʻAʻole i loaʻa ke kau alakaʻi ma ke kikowaena.",
+      "select_project_device": "E koho i kahi papahana a me kahi mea hoʻokomo e hoʻopaʻa i nā ʻanuʻu mai ʻaneʻi.",
+      "progress": " {{done}} o {{total}} ʻanuʻu",
+      "start_timer": "Hoʻomaka manawa",
+      "skip_timer": "Hoʻokuʻu i ka manawa",
+      "record_step": "E hoʻopaʻa i kēia ʻanuʻu",
+      "stop_step": "Hoʻopau i ka hoʻopaʻa ʻana",
+      "mark_done": "Hana - kaʻina aʻe",
+      "step_recorded": "Lawe i hoʻopaʻa ʻia",
+      "no_record_step": "Kaʻina pumehana - ʻaʻohe pono e hoʻopaʻa.",
+      "bars_hint": "Ma kahi o {{bars}} pā",
+      "complete_title": "Ua pau ka palapala!",
+      "complete_body": "Ua hoʻopaʻa ʻoe i kēlā me kēia ʻanuʻu o ka palapala. E hoʻi i ka pā Audio o ka papahana a koho i kāu mau punahele punahele.",
+      "restart": "Hoʻomaka hou i ka palapala"
+    },
+    "best2min": {
+      "button": "E ʻimi i nā minuke 2 maikaʻi loa (Suno)",
+      "running": "Ke kālailai ʻana i ka lawe…",
+      "score_label": "Heluhelu",
+      "hint": "E holo ana i ka ikehu a me ka wehewehe ana i ka holo holookoa e imi i kona pukaaniani 2-minuke ikaika loa — hiki no ia oe ke hoololi i ka laula ma ka lima ma hope.",
+      "chart_caption": "Helu no kēlā pukaaniani",
+      "unavailable": "ʻAʻole i loaʻa ka loiloi maikaʻi loa-2 mau minuke ma kēia kikowaena."
+    },
+    "takes_title": "Lawe mai kēia kau",
+    "takes_empty": "ʻAʻohe lawe i hoʻopaʻa ʻia i kēia kau.",
+    "open_in_project": "Wehe ma ka papahana",
+    "ws_disconnected": "Hoʻopili hou ʻia i ka mika pae…",
+    "select_project_first": "E koho i kahi papahana e hoʻomaka ai.",
+    "select_device_first": "E koho i kahi mea hoʻokomo."
+  },
+  "project": {
+    "back_to_library": "Hoʻi i ka waihona",
+    "header": {
+      "status_label": "Kūlana",
+      "cover_upload": "Hoʻouka i ka uhi",
+      "cover_remove": "Wehe i ka uhi",
+      "name_placeholder": "inoa papahana",
+      "links_title": "Nā loulou",
+      "add_link": "Hoʻohui i ka loulou",
+      "mode": {
+        "voice": "Leo wale nō",
+        "voice_guitar": "Leo + kīkā"
+      }
+    },
+    "tabs": {
+      "audio": "Leo",
+      "lyrics": "Nā mele",
+      "prompts": "Nā paipai",
+      "notes": "Nā memo"
+    },
+    "audio": {
+      "takes_title": "Lawe",
+      "no_takes": {
+        "title": "ʻAʻohe lawe i kēia manawa",
+        "description": "E hoʻopaʻa i kahi kiʻi hou a i ʻole e hoʻokomo i kahi faila i loaʻa."
+      },
+      "record_new": "E hoʻopaʻa i kahi kiʻi hou",
+      "rating": "Ka helu",
+      "variant": {
+        "raw": "Maka",
+        "processed": "Hana ʻia"
+      },
+      "variant_placeholder": "Manao",
+      "process_button": "Kaʻina hana",
+      "export_button": "Hoʻokuʻu aku",
+      "delete_take_confirm_title": "Holoi i kēia hana?",
+      "delete_take_confirm_description": "E wehe ʻia ka leo maka a me kēlā me kēia mana i hoʻoponopono ʻia.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Hana ʻia"
+      },
+      "origin": {
+        "recorded": "Hoʻopaʻa ʻia",
+        "imported": "Lawe ʻia mai"
+      },
+      "session_label_placeholder": "Lepili kau (koho)",
+      "duration": "Ka lōʻihi",
+      "sample_rate": "Laʻana laʻana",
+      "channels": "Kānāwai",
+      "created_at": "Hoʻopaʻa ʻia"
+    },
+    "pipeline": {
+      "title": "Kaʻina hana",
+      "preset_label": "Hoʻonohonoho mua",
+      "preset_none": "kaulahao maʻamau",
+      "preset_save": "Mālama e like me ka hoʻonohonoho mua",
+      "stage_locked": "Paʻa",
+      "stage_requires_extra": "Pono i kahi mea hou i hoʻokomo ʻole ʻia",
+      "process_button": "Kaʻina hana",
+      "processing": "Ke hana nei…",
+      "job_queued": "Ka lālani…",
+      "job_running": "Ke hana nei…",
+      "job_done": "Pau",
+      "job_error": "Ua hāʻule",
+      "job_cancelled": "Hoʻopau ʻia",
+      "cancel_job": "Hoʻopau",
+      "no_stages": "ʻAʻohe pae i loaʻa."
+    },
+    "export": {
+      "title": "Lawe i waho",
+      "description": "Hāʻawi i kahi faila hope mai kahi mana i hana ʻia.",
+      "variant_label": "Manao",
+      "format_label": "Hōʻano",
+      "preset_label": "Hoʻopuka paʻa mua",
+      "range_label": "Laulā",
+      "range_full": "piha piha",
+      "range_custom": "Laulā maʻamau",
+      "start_label": "Hoʻomaka (s)",
+      "end_label": "Hoʻopau (mau)",
+      "submit": "Hoʻokuʻu aku",
+      "progress": "Ke hoʻolilo nei i ka faila…",
+      "download_ready": "Mākaukau faila",
+      "download_button": "Hoʻoiho i ka faila"
+    },
+    "notes": {
+      "placeholder": "Nā memo manuahi e pili ana i kēia papahana…",
+      "saved_at": "Mālama ʻia ma {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "E kākau i nā mele ma ʻaneʻi. E hoʻohana i ka palette ma ka ʻaoʻao e hoʻokomo i nā inoa meta-Suno.",
+      "saved_at": "Mālama ʻia ma {{time}} ",
+      "saving": "Mālama ʻia…",
+      "versions": "Nā manaʻo",
+      "versions_empty": "ʻAʻohe mana i mālama ʻia.",
+      "version_preview": "Nāmua",
+      "restore": "Hoʻihoʻi hou i kēia mana",
+      "restore_confirm_title": "Hoʻihoʻi hou i kēia mana?",
+      "restore_confirm_description": "E hoʻololi ʻia ka kikokikona o kēia manawa me ka mana i mālama ʻia ma {{date}} .",
+      "metatags_title": "Nā hōʻailona meta",
+      "metatags_hint": "Kaomi i kahi hōʻailona e hoʻokomo iā ia ma ka piko.",
+      "metatags_placebo_warning": "Unproven - ʻaʻohe hopena i ka hopena.",
+      "metatags_empty": "ʻAʻole i hoʻopaʻa inoa ʻia nā meta-tag."
+    },
+    "prompts": {
+      "style_title": "ʻAno wikiwiki",
+      "lyrics_title": "Hiki i nā mele",
+      "template_label": "Papahana",
+      "template_none": "ʻAʻohe maʻamau",
+      "variables_title": "Nā mea hoʻololi",
+      "preview_title": "Nāmua",
+      "preview_empty": "E koho i ka la'ana a ho'opiha i nā mea ho'ololi e 'ike i ka na'ana.",
+      "char_count": " {{count}} huapalapala",
+      "char_count_warning": "Hiki ke ʻoki ʻia e Suno nā ʻano hoʻoheheʻe ma luna o 1000.",
+      "copy": "kope",
+      "copied": "Kope ʻia i ka papa ʻokiʻoki",
+      "save_to_project": "Mālama i ka papahana",
+      "saved_to_project": "Mālama ʻia ka wikiwiki i ka papahana",
+      "history_title": "Moolelo",
+      "history_empty": "ʻAʻohe mana mua.",
+      "current_label": "ʻO kēia manawa"
+    },
+    "stems": {
+      "title": "Nā leo a me ke kīkā",
+      "separate_button": "Hoʻokaʻawale i nā leo a me ke kīkā",
+      "running": "Ke hoʻokaʻawale nei…",
+      "vocals": "Nā leo",
+      "instrumental": "Mea kani",
+      "process_stem": "E hana i kēia kumu",
+      "empty": "ʻAʻole i hoʻokaʻawale ʻia kēia hana. Holo kaʻawale e lohe i ka leo a me ke kīkā ma kahi kaʻawale.",
+      "capability_missing": "ʻAʻole hoʻokomo ʻia ka hoʻokaʻawale kumu ma kēia kikowaena.",
+      "unavailable": "ʻAʻole i loaʻa ka hoʻokaʻawale leo/kikā ma kēia kikowaena."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Ma ka",
+    "boolean_off": "Paʻa"
+  },
+  "import": {
+    "title": "Lawe mai",
+    "subtitle": "E lawe mai i nā papahana i loaʻa ma ka diski i loko o ka waihona.",
+    "step_indicator": "ʻanuʻu {{current}} o {{total}} ",
+    "step1": {
+      "title": "Huli waihona",
+      "description": "E kuhikuhi i ka waihona kumu me kāu mau papahana a me nā mele.",
+      "path_label": "Alanui waihona",
+      "path_placeholder": "e.g. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "Nā mea hou aku nei",
+      "scan_button": "kōpili waihona",
+      "scanning": "Ke nānā nei…",
+      "ffmpeg_warning": "ʻAʻole i loaʻa ʻo FFmpeg - e lele ʻia nā faila pono e hoʻololi.",
+      "folders_found_one": " Loaʻa ka waihona {{count}}",
+      "folders_found_other": " Loaʻa nā waihona {{count}}",
+      "unmatched_files_one": " {{count}} waihona ʻike ʻole ʻia",
+      "unmatched_files_other": " {{count}} waihona ʻike ʻole ʻia"
+    },
+    "step2": {
+      "title": "Nānā i nā mea",
+      "description": "E nānā i nā inoa, nā kūlana, a me nā mea e lawe ʻia ma mua o ka hōʻoia ʻana.",
+      "select_all": "E koho i nā mea a pau",
+      "table": {
+        "folder": "Puna waihona",
+        "name": "inoa papahana",
+        "status": "Kūlana",
+        "audio": "Leo",
+        "lyrics": "Nā mele",
+        "cover": "Uhi",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} faila i koho ʻia",
+      "audio_include_other": " {{count}} nā faila i koho ʻia",
+      "no_audio": "ʻAʻohe leo i loaʻa",
+      "no_lyrics": "ʻAʻohe huaʻōlelo i loaʻa",
+      "no_cover": "ʻAʻohe uhi",
+      "warnings_title": "Nā ʻōlelo aʻo"
+    },
+    "step3": {
+      "title": "Lawe mai",
+      "description": "E hōʻoia e kope i nā faila a hana i nā papahana.",
+      "copy_originals": "E kope i nā faila kumu i loko o ka waihona",
+      "execute_button": "E hoʻomaka i ka lawe ʻana mai",
+      "progress_title": "Ke lawe mai nei…",
+      "created_count": "Hana ʻia: {{count}} ",
+      "skipped_count": "Hoʻokuʻu ʻia: {{count}} ",
+      "done_title": "Pau ka lawe ʻana mai",
+      "done_description": "Ua hana ʻia nā papahana ma lalo i kāu waihona.",
+      "view_project": "Pāhana wehe",
+      "start_over": "Lawe hou mai"
+    }
+  },
+  "templates": {
+    "title": "Nā kumu hoʻohālike",
+    "subtitle": "Hiki ke hoʻohana hou ʻia nā laʻana a me nā meta-tag no Suno.",
+    "tabs": {
+      "prompts": "ʻO nā maʻamau wikiwiki",
+      "metatags": "Nā hōʻailona meta"
+    },
+    "new_template": "Ka la'ana hou",
+    "kind": {
+      "style": "Kaila",
+      "lyrics": "Nā mele"
+    },
+    "kind_label": "ʻAno",
+    "delete_confirm_title": "Holoi i ka mamana \" {{name}} \"?",
+    "delete_confirm_description": "ʻAʻole hiki ke hoʻopau ʻia kēia.",
+    "empty": "ʻAʻohe maʻamau i kēia manawa.",
+    "editor": {
+      "title_new": "Ka la'ana hou",
+      "title_edit": "Hoʻoponopono maʻamau",
+      "name_label": "inoa",
+      "name_placeholder": "e.g. Acoustic ballad",
+      "kind_label": "ʻAno",
+      "template_label": "kikokikona maʻamau",
+      "template_hint": "E kaha i kahi o kēlā me kēia hoʻololi me kona inoa i wahī ʻia i nā pale ʻāwili ʻelua - no ka laʻana, ua lilo kekahi ʻano i kapa ʻia ʻo \"genre\" i ke ʻano i kāʻei ʻia i ʻelua pani puka a me ʻelua pani pani.",
+      "variables_label": "Nā mea hoʻololi",
+      "variable_add": "Hoʻohui i nā mea hoʻololi",
+      "variable_name": "Ki",
+      "variable_label": "Lepili",
+      "variable_type": "ʻAno",
+      "variable_type_string": "kikokikona",
+      "variable_type_select": "koho hoʻokahi",
+      "variable_type_multiselect": "Koho-nui",
+      "variable_type_number": "Helu",
+      "variable_type_boolean": "ʻAe/ʻaʻole",
+      "variable_options": "Koho (wehe koma)",
+      "variable_required": "Pono",
+      "save": "E mālama i ka laʻana"
+    },
+    "metatags": {
+      "title": "Nā hōʻailona meta",
+      "subtitle": "ʻIke ʻia ʻo Suno i loko o nā mele.",
+      "new_tag": "Lepe hou",
+      "tag_label": "Tag",
+      "tag_placeholder": "e.g. guitar-solo",
+      "category_label": "Māhele",
+      "tier_label": "Paʻa pono",
+      "tier_legend_title": "Kaao hilinaʻi",
+      "tier_legend": {
+        "1": "Papa 1 - i palapala ʻia a kūlike",
+        "2": "Papa 2 - hana mau",
+        "3": "Papa 3 — hopena hoʻololi",
+        "4": "Papa 4 - placebo, unproven"
+      },
+      "description_label": "wehewehe",
+      "delete_confirm_title": "Holoi i ka hōʻailona \" {{tag}} \"?",
+      "empty": "ʻAʻohe hōʻailona meta maʻamau i kēia manawa."
+    }
+  },
+  "settings": {
+    "title": "Nā hoʻonohonoho",
+    "subtitle": "ʻIke ʻōnaehana, ʻōlelo, a me nā makemake paʻamau.",
+    "system_info_title": "Pūnaehana",
+    "version": "Manao",
+    "data_dir": "waihona ʻikepili",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Loaʻa",
+    "ffmpeg_missing": "ʻAʻole i loaʻa",
+    "capabilities_title": "Nā mana i hoʻokomo ʻia",
+    "capability": {
+      "denoise": "Hoemi walaau",
+      "quality": "Hoʻonui maikaʻi",
+      "separate": "Hoʻokaʻawale kumu",
+      "ffmpeg": "Hoʻololi FFmpeg"
+    },
+    "capability_available": "Loaʻa",
+    "capability_unavailable": "Loaʻa ʻole",
+    "gpu_title": "ʻO ka wikiwiki GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "Nā mea hoʻolako ONNX Runtime"
+    },
+    "gpu_none": "ʻAʻohe mea hoʻolako GPU i ʻike ʻia",
+    "language_title": "ʻŌlelo",
+    "language": {
+      "pt-BR": "Pukiki (Brazila)",
+      "en": "Pelekania"
+    },
+    "theme_title": "Ka nana aku",
+    "theme": {
+      "dark": "Poʻeleʻele",
+      "light": "Māmā"
+    },
+    "defaults_title": "Hoʻopuka paʻamau",
+    "lufs_target_label": "Kuhikuhi LUFS",
+    "lufs_target_hint": "Hoʻohana ʻia e like me ka manaʻo hoʻomaka i ka wā e lawe ai i waho. Noho ʻo Suno ma kahi o -14 LUFS.",
+    "saved": "Mālama ʻia nā koho"
+  },
+  "guide": {
+    "title": "Alakaʻi hoʻopaʻa leo ʻo Suno",
+    "subtitle": "Pehea e hopu ai i ka leo a me ke kīkā i loaʻa nā hopena maikaʻi loa.",
+    "intro": "Hana maikaʻi ʻo Suno me nā kuhikuhi maʻemaʻe a maopopo ʻole. Hoʻopili kēia alakaʻi i ka hoʻomākaukau, nā pae i hoʻopaʻa ʻia, a me kahi palapala hoʻopaʻa 3-5 mau minuke.",
+    "sections": {
+      "prep": {
+        "title": "Hoʻomākaukau",
+        "body": "E hoʻopaʻa i loko o kahi lumi i mālama ʻia a i ʻole kekahi me ka nui o nā mea palupalu (nā pale, nā ʻaʻahu, nā lole i loko o kahi keʻena). E hoʻopau i nā mea pā a me nā mea kani. E hoʻomaʻamaʻa i kou leo ​​no 5 mau minuke ma mua o ka hoʻopaʻa ʻana."
+      },
+      "levels": {
+        "title": "Nā pae: -12 a -6 dBFS",
+        "body": "E ʻimi i nā piko ma waena o -12 a me -6 dBFS ma ka mika. Ma lalo o kēlā laula, ʻike ʻia ka walaʻau hope; ma luna aʻe, piʻi aʻe ka pilikia ʻokiʻoki. E hoʻohana i ka mika ma ka ʻaoʻao Record e hoʻonohonoho i kāu waiwai ma mua o kou hoʻomaka ʻana."
+      },
+      "distance": {
+        "title": "Ka mamao mic: 15–30 knm",
+        "body": "E noho 15 a 30 knm mai ka microphone. ʻOi aku ka pili ma mua o ka hoʻonui ʻana i nā plosives a me ka hopena pili; ʻoi aku ka lōʻihi e ʻohi ai i ka reverb lumi a me ka walaʻau."
+      },
+      "script": {
+        "title": "Hoʻopaʻa palapala",
+        "warmup": "Pumehana leo (1-2 minuke)",
+        "vowels": "Nā leo leo paʻa - a, e, i, o, u",
+        "scales": "Nā unahi maʻalahi, i luna a i lalo",
+        "excerpt": "He māhele mele (8 a 16 mau pahu)",
+        "dynamics": "Dynamics: hoʻomaka mālie, hoʻopau leo nui",
+        "spoken_phrase": "Hoʻokahi ʻōlelo i ʻōlelo ʻia, no laila hiki iā Suno ke heluhelu i kou leo leo"
+      },
+      "expectations": {
+        "title": "ʻO ka mea a Suno e manaʻo ai",
+        "body": "WAV, 48 kHz, mono, maloʻo (ʻaʻohe reverb a i ʻole hopena), 3 a 5 mau minuke o ka ʻike. ʻO ka maʻemaʻe, ʻoi aku ka nui o nā minuke 2 o ka lawe ʻana i nā hopena maikaʻi loa."
+      }
+    }
+  },
+  "status": {
+    "idea": "Manaʻo",
+    "em_progresso": "Ke holomua nei",
+    "quase": "Kokoke ma laila",
+    "pronto": "Mākaukau"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Palapala leo piha no Suno",
+      "desc": "5 mau minuke alakaʻi: pumehana, vowels, unahi, ʻelua māhele mele, dynamics, a me ka ʻōlelo."
+    },
+    "step": {
+      "warmup": "Pumehana leo",
+      "warmup_inst": "E hoʻokuʻu me ka ʻūhū, nā lehelehe (brrr), a me ka haʻalulu mālie no kahi minuke. ʻAʻole pono e hoʻopaʻa - e hoʻomaha wale i kou ʻāʻī ma mua o ka hīmeni ʻana.",
+      "vowels": "Vowel paʻa",
+      "vowels_inst": "E hoʻopaʻa i kēlā me kēia vowel - a, e, i, o, u - no 3 a 4 kekona ma kou leo ʻoluʻolu, me ka leo paʻa. Kōkua kēia iā Suno e ʻohi i ke kani maʻemaʻe o kou leo.",
+      "scales": "Piʻi a lalo",
+      "scales_inst": "E hīmeni i kahi unahi maʻalahi i luna a i lalo, ma \"la\" a i ʻole \"na\". ʻAʻole pono ia e hemolele - ʻo ka pahuhopu ka palapala ʻana i kāu laulā leo.",
+      "section": "Mahele mele — ʻāpana 1",
+      "section_inst": "E hīmeni mai 8 a 16 mau pahu o ke mele, me ka manaʻo maoli āu e makemake ai e haʻi. E hoʻokahua i ka mālamalama a me ka noho ʻana ma mua o ka pono ʻenehana.",
+      "section2": "Mahele mele — ʻāpana 2",
+      "section2_inst": "E hīmeni hou mai 8 a 16 mau pahu - ʻoi aku ka maikaʻi o kahi mele a i ʻole kahi ʻāpana e ʻokoʻa me ka mea mua. Kōkua nā ʻano like ʻole i ke kumu hoʻohālike e aʻo i kou leo.",
+      "dynamics": "Dynamics: palupalu → leo nui",
+      "dynamics_inst": "E hīmeni i ka huaʻōlelo hoʻokahi e hoʻomaka mālie a hoʻopau me ka leo nui, me ka ʻole o ka ʻāʻī ʻana i kou ʻāʻī. Hōʻike kēia iā Suno i ka laulā ikaika o kou leo.",
+      "spoken": "ʻŌlelo ʻōlelo",
+      "spoken_inst": "E ʻōlelo — mai hīmeni — he ʻōlelo pōkole a kūlohelohe, me he mea lā e kamaʻilio ana ʻoe. Kōkua kēia iā Suno e ʻike i ke kani maoli o kou leo."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Hoʻihoʻi hou",
+      "filter": "Nā kānana",
+      "dynamics": "Hoʻoikaika kino",
+      "separation": "Kaawale",
+      "quality": "ʻAno maikaʻi",
+      "utility": "Mea hoohana",
+      "loudness": "Ka leo nui"
+    },
+    "highpass": "Kānana kiʻekiʻe",
+    "lowpass": "kānana ala haʻahaʻa",
+    "denoise": "Hoemi walaau",
+    "declip": "Hoʻoemi",
+    "declick": "Kaomi/pop wehe",
+    "deesser": "De-esser",
+    "gate": "ʻīpuka walaʻau",
+    "compressor": "Mea hoʻopili",
+    "limiter": "Ka palena",
+    "eq": "Hoʻolikelike",
+    "normalize": "ʻO ka maʻamau maʻamau",
+    "loudness": "Hoʻoponopono i ka leo nui (LUFS)",
+    "reverb_reduce": "Hoʻemi hoʻihoʻi",
+    "separate": "Hoʻokaʻawale kumu",
+    "quality": "Hoʻonui i ka maikaʻi (kiʻekiʻe)",
+    "trim_silence": "ʻoki hāmau",
+    "fade": "Fade in / fade out",
+    "stereo_to_mono": "E hoʻohuli i ka mono",
+    "resample": "Hoʻopili hou"
+  },
+  "metatags": {
+    "tier": {
+      "1": "hilinaʻi",
+      "2": "Hana mau",
+      "3": "Hoʻololi",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Kapili",
+      "vocal": "Vocal",
+      "instrument": "Mea hana",
+      "dynamics": "Hoʻoikaika kino",
+      "production": "Hana ʻia",
+      "mood": "Manao"
+    },
+    "verse": "Paukū",
+    "chorus": "Mele",
+    "bridge": "Alahaka",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Hooki",
+    "prechorus": "Pre-chorus",
+    "instrumental": "Mea kani",
+    "guitar_solo": "Hoʻokahi kīkā",
+    "build_up": "Kūkulu ʻia",
+    "breakdown": "Haʻihaʻi",
+    "spoken_word": "ʻŌlelo ʻōlelo",
+    "whispered": "Hāwanawana",
+    "harmonies": "Harmonies",
+    "male_vocal": "Leo kāne",
+    "female_vocal": "Leo wahine",
+    "duet": "Duet",
+    "acoustic": "Acoustic",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "leo maʻemaʻe",
+    "voice_guitar_balanced": "Leo kaulike a me ke kīkā",
+    "podcast": "Podcast",
+    "suno_ready": "Mākaukau ʻo Suno",
+    "gentle_restore": "Hoʻihoʻi mālie",
+    "raw_passthrough": "ʻAʻohe hana"
+  },
+  "errors": {
+    "unknown": "Ua hewa kekahi mea.",
+    "network": "ʻAʻole hiki ke hele i ke kikowaena.",
+    "validation_error": "E nānā i ka ʻike āu i hoʻokomo ai.",
+    "not_found": "ʻAʻole i loaʻa ka mea.",
+    "project_not_found": "ʻAʻole i loaʻa ka papahana.",
+    "take_not_found": "Lawe ʻaʻole i loaʻa.",
+    "album_not_found": "ʻAʻole i loaʻa ka album.",
+    "preset_not_found": "ʻAʻole i loaʻa ka preset.",
+    "template_not_found": "ʻAʻole i loaʻa ka laʻana.",
+    "device_busy": "Hoʻohana ʻia ka leo leo e kekahi papahana ʻē aʻe.",
+    "device_not_found": "ʻAʻole i loaʻa ka leo leo.",
+    "already_recording": "Ke hoʻopaʻa ʻia nei.",
+    "ffmpeg_missing": "ʻAʻole hoʻokomo ʻia ʻo FFmpeg - hoʻokomo iā ia e hoʻololi i kēia faila.",
+    "disk_full": "ʻAʻole lawa ka hakahaka disk.",
+    "permission_denied": "ʻAʻole ʻae ʻia no ke ala i hāʻawi ʻia.",
+    "import_path_not_found": "ʻAʻole i loaʻa ke ala lawe mai.",
+    "job_failed": "ʻAʻole i hāʻule ka hana ʻana.",
+    "job_cancelled": "Hoʻopau ʻia ka hana ʻana.",
+    "process_failed": "ʻAʻole hiki ke hana i ka lawe ʻana.",
+    "export_failed": "ʻAʻole hiki ke hoʻokuʻu aku i ka faila.",
+    "record_failed": "ʻAʻole hiki ke hoʻomaka i ka hoʻopaʻa ʻana."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Ka laina laina",
+      "running": "Ke holo nei",
+      "done": "Pau",
+      "error": "Ua hāʻule",
+      "cancelled": "Hoʻopau ʻia"
+    },
+    "kind": {
+      "process": "Kaʻina hana",
+      "export": "Hoʻokuʻu aku",
+      "import": "Lawe mai",
+      "record": "Hoʻopaʻa ʻana"
+    }
+  }
+}

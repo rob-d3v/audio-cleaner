@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Ses arassalaýjy"
+  },
+  "nav": {
+    "library": "Kitaphana",
+    "record": "Recordazga al",
+    "import": "Import",
+    "templates": "Şablonlar",
+    "settings": "Sazlamalar",
+    "guide": "Gollanma"
+  },
+  "common": {
+    "save": "Saklaň",
+    "saving": "Tygşytlamak…",
+    "saved": "Saklandy",
+    "cancel": "Elatyr",
+    "close": ".Akyn",
+    "delete": "Öçür",
+    "edit": "Redaktirläň",
+    "create": "Dörediň",
+    "search": "Gözlemek",
+    "loading": "Adingüklenýär…",
+    "error": "Roralňyşlyk",
+    "retry": "Gaýtadan synanyşyň",
+    "confirm": "Tassykla",
+    "back": "Yzyna",
+    "next": "Indiki",
+    "continue": "Dowam et",
+    "finish": "Tamamla",
+    "copy": "Göçüriň",
+    "copied": "Göçürildi",
+    "download": "Göçürip al",
+    "upload": "Uploadükle",
+    "none": "Hiç",
+    "all": "Hemmesi",
+    "yes": "Hawa",
+    "no": ".Ok",
+    "select": "Saýlaň",
+    "optional": "islege bagly",
+    "required": "talap edilýär",
+    "unsaved_changes": "Saklanmadyk üýtgeşmeler",
+    "name": "Ady",
+    "status": ".Agdaý",
+    "type": "Görnüşi",
+    "actions": "Hereketler",
+    "empty": "Boş",
+    "browse": "Göz aýlaň",
+    "remove": "Aýyr",
+    "add": "Goş",
+    "rename": "Adyny üýtgetmek",
+    "duplicate": "Göçürme",
+    "warning": "Duýduryş",
+    "locked": "Gulply",
+    "builtin": "Gurlan",
+    "custom": "Omörite",
+    "untitled": "Atsyz",
+    "select_placeholder": "Saýlaň ..."
+  },
+  "library": {
+    "title": "Kitaphana",
+    "subtitle": "Ses we gitara taslamalaryňyz, ideýadan başlap.",
+    "new_project": "Täze taslama",
+    "new_album": "Täze albom",
+    "search_placeholder": "Ady boýunça gözläň ...",
+    "view": {
+      "grid": "Grid",
+      "albums": "Albomlar"
+    },
+    "filters": {
+      "all": "Hemmesi"
+    },
+    "take_count_one": " {{count}} al",
+    "take_count_other": " {{count}} alýar",
+    "updated_at": "{{date}} täzelendi ",
+    "no_results": {
+      "title": "Taslama tapylmady",
+      "description": "Gözleg ýa-da ýagdaý süzgüçini sazlap görüň."
+    },
+    "empty": {
+      "title": "Kitaphanaňyz boş",
+      "description": "Täze taslamany noldan başlaň, ýa-da diskde eýýäm import ediň.",
+      "cta_import": "Papkadan import",
+      "cta_new": "Taslama dörediň"
+    },
+    "project_dialog": {
+      "title": "Täze taslama",
+      "description": "Oňa at beriň we ýazgy tertibini saýlaň.",
+      "name_label": "Taslamanyň ady",
+      "name_placeholder": "meselem Tomus ýagyşy",
+      "mode_label": "Reodeim",
+      "mode": {
+        "voice": "Diňe ses",
+        "voice_guitar": "Ses + gitara"
+      },
+      "submit": "Taslama dörediň"
+    },
+    "album_dialog": {
+      "title": "Täze albom",
+      "description": "Baglanyşykly taslamalary albomda toparlaň.",
+      "name_label": "Albomyň ady",
+      "name_placeholder": "meselem Güýz EP",
+      "submit": "Albom dörediň"
+    },
+    "album": {
+      "untitled": "Atsyz albom",
+      "members_count_one": " {{count}} taslama",
+      "members_count_other": " {{count}} taslamalary",
+      "empty": "Bu albomda entek taslama ýok.",
+      "delete_confirm_title": "Albomy pozuň?",
+      "delete_confirm_description": "Taslamalar öçürilmez, diňe \"{{name}}\" -den aýrylmaz."
+    },
+    "delete_project": {
+      "confirm_title": "\"{{name}}\" pozuň?",
+      "confirm_description": "Bu taslamany we her bir zady aýyrýar. Muny yzyna gaýtaryp bolmaz."
+    }
+  },
+  "record": {
+    "title": "Recordazga al",
+    "subtitle": "Arassa surata düşüriň, derejeleriňize tomaşa ediň we ssenariýa eýeriň.",
+    "project_label": "Taslama",
+    "project_placeholder": "Taslama saýlaň",
+    "project_create_quick": "Çalt taslama dörediň…",
+    "device_label": "Giriş enjamy",
+    "device_placeholder": "Enjam saýlaň",
+    "device_default_badge": "Ulgam deslapky",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Giriş enjamlary tapylmady",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Gözegçiligi bes ediň",
+    "record_button": "Recordazga al",
+    "stop_button": "Dur",
+    "elapsed_label": "Geçen wagt",
+    "status": {
+      "idle": "Boş",
+      "monitoring": "Gözegçilik",
+      "recording": "Ordingazga almak",
+      "stopped": "Durdy"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Peak",
+      "clip": "Klip"
+    },
+    "guide": {
+      "title": "Gollanma sessiýasy",
+      "subtitle": "Tälimçi, gyzgynlykdan başlap, aýdylýan sözleme çenli ssenariýany ädim-ädim gezsin.",
+      "loading": "Scriptazgy ýüklenýär…",
+      "unavailable": "Gollanma sessiýasy entek serwerde elýeterli däl.",
+      "select_project_device": "Bu ýerden ädimleri ýazga almak üçin taslama we giriş enjamyny saýlaň.",
+      "progress": " {{done}} {{total}} ädim",
+      "start_timer": "Hasaplaýjy",
+      "skip_timer": "Taymerden geçiň",
+      "record_step": "Bu ädimi ýazga al",
+      "stop_step": "Ordingazga almagy bes ediň",
+      "mark_done": "Boldy - indiki ädim",
+      "step_recorded": "Recordazga al",
+      "no_record_step": "Armyly ädim - ýazgy gerek däl.",
+      "bars_hint": "{{bars}} barlar hakda",
+      "complete_title": "Scriptazgy doly!",
+      "complete_body": "Scriptazuwyň her ädimini ýazga geçirdiň. Taslamanyň Ses goýmasyna gaýdyp, halaýan zatlaryňyzy saýlaň.",
+      "restart": "Scriptazgyny täzeden açyň"
+    },
+    "best2min": {
+      "button": "Iň gowy 2 minudy tapyň (Suno)",
+      "running": "Almagy seljermek…",
+      "score_label": "Bal",
+      "hint": "Iň güýçli 2 minutlyk penjiräni tapmak üçin energiýa we aýdyňlyk derňewini geçirýär - şondan soňam diapazony el bilen sazlap bilersiňiz.",
+      "chart_caption": "Her penjirede bal",
+      "unavailable": "Iň gowy 2 minutlyk derňew entek bu serwerde ýok."
+    },
+    "takes_title": "Bu sessiýadan alýar",
+    "takes_empty": "Bu sessiýada entek ýazgy ýok.",
+    "open_in_project": "Taslamada açyň",
+    "ws_disconnected": "Derejäniň metrine gaýtadan birikmek…",
+    "select_project_first": "Başlamak üçin taslama saýlaň.",
+    "select_device_first": "Giriş enjamyny saýlaň."
+  },
+  "project": {
+    "back_to_library": "Kitaphana dolan",
+    "header": {
+      "status_label": ".Agdaý",
+      "cover_upload": "Gapagy ýükläň",
+      "cover_remove": "Gapagy aýryň",
+      "name_placeholder": "Taslamanyň ady",
+      "links_title": "Salgylar",
+      "add_link": "Salgy goşuň",
+      "mode": {
+        "voice": "Diňe ses",
+        "voice_guitar": "Ses + gitara"
+      }
+    },
+    "tabs": {
+      "audio": "Ses",
+      "lyrics": "Sözleri",
+      "prompts": "Teklipler",
+      "notes": "Bellikler"
+    },
+    "audio": {
+      "takes_title": "Alýar",
+      "no_takes": {
+        "title": "Entek ýok",
+        "description": "Täze almagy ýazga alyň ýa-da bar bolan faýly import ediň."
+      },
+      "record_new": "Täze almagy ýazga alyň",
+      "rating": "Reýting",
+      "variant": {
+        "raw": "Çig",
+        "processed": "Işlenildi"
+      },
+      "variant_placeholder": "Wersiýa",
+      "process_button": "Amal",
+      "export_button": "Eksport",
+      "delete_take_confirm_title": "Bu pozumy?",
+      "delete_take_confirm_description": "Çig ses we her gaýtadan işlenen wersiýa aýrylar.",
+      "ab": {
+        "raw": "A · Çig",
+        "processed": "B · gaýtadan işlenildi"
+      },
+      "origin": {
+        "recorded": "Recordazga alyndy",
+        "imported": "Import edildi"
+      },
+      "session_label_placeholder": "Sessiýa belligi (islege görä)",
+      "duration": "Dowamlylygy",
+      "sample_rate": "Nusga derejesi",
+      "channels": "Kanallar",
+      "created_at": "Recordazga alyndy"
+    },
+    "pipeline": {
+      "title": "Gaýtadan işlemek zynjyry",
+      "preset_label": "Öňünden bellemek",
+      "preset_none": "Omörite zynjyr",
+      "preset_save": "Öňünden kesgitlenen görnüşde ýazdyryň",
+      "stage_locked": "Gulply",
+      "stage_requires_extra": "Gurulmadyk goşmaça talap edýär",
+      "process_button": "Amal",
+      "processing": "Gaýtadan işlemek…",
+      "job_queued": "Nobat ...",
+      "job_running": "Gaýtadan işlemek…",
+      "job_done": "Boldy",
+      "job_error": "Şowsuz",
+      "job_cancelled": "Atyryldy",
+      "cancel_job": "Elatyr",
+      "no_stages": "Tapgyr ýok."
+    },
+    "export": {
+      "title": "Eksport almak",
+      "description": "Işlenen wersiýadan iň soňky faýly beriň.",
+      "variant_label": "Wersiýa",
+      "format_label": "Format",
+      "preset_label": "Eksport deslapky",
+      "range_label": "Aralyk",
+      "range_full": "Doly uzynlyk",
+      "range_custom": "Omörite diapazon",
+      "start_label": "Başlamak",
+      "end_label": "Ahyrlar",
+      "submit": "Eksport",
+      "progress": "Faýl hödürlemek…",
+      "download_ready": "Faýl taýýar",
+      "download_button": "Faýly göçürip al"
+    },
+    "notes": {
+      "placeholder": "Bu taslama barada mugt bellikler…",
+      "saved_at": "{{time}} tygşytlandy "
+    },
+    "lyrics": {
+      "placeholder": "Sözleri şu ýere ýazyň. Suno meta-belliklerini goýmak üçin gapdaldaky palitrany ulanyň.",
+      "saved_at": "{{time}} tygşytlandy ",
+      "saving": "Tygşytlamak…",
+      "versions": "Wersiýalar",
+      "versions_empty": "Saklanan wersiýa ýok.",
+      "version_preview": "Öňünden syn",
+      "restore": "Bu wersiýany dikeldiň",
+      "restore_confirm_title": "Bu wersiýany dikeldiňmi?",
+      "restore_confirm_description": "Häzirki tekst {{date}}-da saklanan wersiýa bilen çalşyrylar.",
+      "metatags_title": "Meta-bellikler",
+      "metatags_hint": "Kursory goýmak üçin bellige basyň.",
+      "metatags_placebo_warning": "Subut edilmedik - netijä hiç hili täsir edip bilmez.",
+      "metatags_empty": "Meta-bellikler hasaba alynmady."
+    },
+    "prompts": {
+      "style_title": "Stil görkezmesi",
+      "lyrics_title": "Söz sözleri",
+      "template_label": "Şablon",
+      "template_none": "Şablon ýok",
+      "variables_title": "Üýtgeýjiler",
+      "preview_title": "Öňünden syn",
+      "preview_empty": "Şablon saýlaň we deslapky syn görmek üçin üýtgeýänleri dolduryň.",
+      "char_count": " {{count}} nyşan",
+      "char_count_warning": "Stil, Suno tarapyndan 1000-den gowrak simwoly kesip biler.",
+      "copy": "Göçüriň",
+      "copied": "Paneli göçürildi",
+      "save_to_project": "Taslama ýazdyryň",
+      "saved_to_project": "Taslama gyssagly saklandy",
+      "history_title": "Taryh",
+      "history_empty": "Öňki wersiýalary ýok.",
+      "current_label": "Häzirki"
+    },
+    "stems": {
+      "title": "Wokal we gitara",
+      "separate_button": "Aýry wokal we gitara",
+      "running": "Aýralyk…",
+      "vocals": "Sesler",
+      "instrumental": "Instrumental",
+      "process_stem": "Bu baldagy gaýtadan işle",
+      "empty": "Bu entek aýrylmady. Aýdym-sazlary we gitarany izolýasiýa diňlemek üçin aýralygy işlediň.",
+      "capability_missing": "Çeşmäni bölmek bu serwerde gurlanok.",
+      "unavailable": "Bu serwerde wokal / gitara bölünişi entek elýeterli däl."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Işlediň",
+    "boolean_off": "Öçürilen"
+  },
+  "import": {
+    "title": "Import",
+    "subtitle": "Diskde bar bolan taslamalary kitaphana getiriň.",
+    "step_indicator": "{{total}} ädim {{current}} ",
+    "step1": {
+      "title": "Papkany tapyň",
+      "description": "Taslamalaryňyz we ýollaryňyz bilen kök bukjany görkeziň.",
+      "path_label": "Papka ýoly",
+      "path_placeholder": "meselem E: \\ Robbs \\ Ulumsylyk \\ Saz \\ ROBBS",
+      "recent_label": "Soňky",
+      "scan_button": "Papkany skanirläň",
+      "scanning": "Skaner…",
+      "ffmpeg_warning": "FFmpeg tapylmady - öwrülişik zerur faýllar geçer.",
+      "folders_found_one": " {{count}} bukjasy tapyldy",
+      "folders_found_other": " {{count}} bukjalar tapyldy",
+      "unmatched_files_one": " {{count}} tanalmaýan faýl",
+      "unmatched_files_other": " {{count}} tanalmaýan faýllar"
+    },
+    "step2": {
+      "title": "Maddalary gözden geçiriň",
+      "description": "Tassyklamazdan ozal atlary, ýagdaýlary we näme getiriljekdigini barlaň.",
+      "select_all": "Hemmesini saýlaň",
+      "table": {
+        "folder": "Çeşme bukjasy",
+        "name": "Taslamanyň ady",
+        "status": ".Agdaý",
+        "audio": "Ses",
+        "lyrics": "Sözleri",
+        "cover": "Gapak",
+        "album": "Albom"
+      },
+      "audio_include_one": " {{count}} faýl saýlandy",
+      "audio_include_other": " {{count}} faýllary saýlandy",
+      "no_audio": "Ses tapylmady",
+      "no_lyrics": "Söz tapylmady",
+      "no_cover": "Gapagy ýok",
+      "warnings_title": "Duýduryş"
+    },
+    "step3": {
+      "title": "Import",
+      "description": "Faýllary göçürip, taslamalary döretmegi tassyklaň.",
+      "copy_originals": "Asyl faýllary kitaphana göçüriň",
+      "execute_button": "Import edip başlaň",
+      "progress_title": "Import…",
+      "created_count": "Döredilen: {{count}} ",
+      "skipped_count": "Geçdi: {{count}} ",
+      "done_title": "Import tamamlandy",
+      "done_description": "Aşakdaky taslamalar kitaphanaňyzda döredildi.",
+      "view_project": "Açyk taslama",
+      "start_over": "Täze import"
+    }
+  },
+  "templates": {
+    "title": "Şablonlar",
+    "subtitle": "Suno üçin gaýtadan ulanylýan gyssagly şablonlar we meta-bellikler.",
+    "tabs": {
+      "prompts": "Çalt galyplar",
+      "metatags": "Meta-bellikler"
+    },
+    "new_template": "Täze şablon",
+    "kind": {
+      "style": "Stil",
+      "lyrics": "Sözleri"
+    },
+    "kind_label": "Hoşniýetlilik",
+    "delete_confirm_title": "\"{{name}}\" şablony pozuň?",
+    "delete_confirm_description": "Muny yzyna gaýtaryp bolmaz.",
+    "empty": "Entek şablon ýok.",
+    "editor": {
+      "title_new": "Täze şablon",
+      "title_edit": "Şablony redaktirläň",
+      "name_label": "Ady",
+      "name_placeholder": "meselem Akustiki ballad",
+      "kind_label": "Hoşniýetlilik",
+      "template_label": "Şablon teksti",
+      "template_hint": "Her üýtgeýjiniň adynyň goşa egrilen ýaýlar bilen örtülen ýerini belläň - mysal üçin, \"reanr\" atly üýtgeýji iki açyk we iki ýapyk ýaý bilen örtülen reanra öwrülýär.",
+      "variables_label": "Üýtgeýjiler",
+      "variable_add": "Üýtgeýjini goşuň",
+      "variable_name": "Açar",
+      "variable_label": "Bellik",
+      "variable_type": "Görnüşi",
+      "variable_type_string": "Tekst",
+      "variable_type_select": "Selecteke saýlaň",
+      "variable_type_multiselect": "Köp saýlaň",
+      "variable_type_number": "San",
+      "variable_type_boolean": "Hawa / ýok",
+      "variable_options": "Görnüşler (vergul bilen bölünen)",
+      "variable_required": "Gerekli",
+      "save": "Şablony ýazdyryň"
+    },
+    "metatags": {
+      "title": "Meta-bellikler",
+      "subtitle": "Gurluş we stil bellikleri Suno içerki sözleri tanadýar.",
+      "new_tag": "Täze bellik",
+      "tag_label": "Bellik",
+      "tag_placeholder": "meselem gitara-solo",
+      "category_label": "Kategoriýa",
+      "tier_label": "Ygtybarlylyk",
+      "tier_legend_title": "Ygtybarly rowaýat",
+      "tier_legend": {
+        "1": "1-nji dereje - resminamalaşdyrylan we yzygiderli",
+        "2": "2-nji dereje - köplenç işleýär",
+        "3": "3-nji dereje - üýtgeýän täsir",
+        "4": "4-nji dereje - plasebo, subut edilmedik"
+      },
+      "description_label": "Düşündiriş",
+      "delete_confirm_title": "\"{{tag}}\" belligini pozuň?",
+      "empty": "Entek ýörite meta-bellikler ýok."
+    }
+  },
+  "settings": {
+    "title": "Sazlamalar",
+    "subtitle": "Ulgam maglumatlary, dil we deslapky saýlawlar.",
+    "system_info_title": "Ulgam",
+    "version": "Wersiýa",
+    "data_dir": "Maglumat bukjasy",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Elýeterli",
+    "ffmpeg_missing": "Tapylmady",
+    "capabilities_title": "Gurlan mümkinçilikler",
+    "capability": {
+      "denoise": "Sesi peseltmek",
+      "quality": "Hiliň ýokarlanmagy",
+      "separate": "Çeşmäniň bölünişi",
+      "ffmpeg": "FFmpeg öwrülişi"
+    },
+    "capability_available": "Elýeterli",
+    "capability_unavailable": "Elýeterli däl",
+    "gpu_title": "GPU tizlenmesi",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Iş wagtyny üpjün edijiler"
+    },
+    "gpu_none": "GPU üpjün edijileri tapylmady",
+    "language_title": "Dil",
+    "language": {
+      "pt-BR": "Português (Braziliýa)",
+      "en": "Iňlis"
+    },
+    "theme_title": "Daş görnüşi",
+    "theme": {
+      "dark": "Garaňky",
+      "light": "Lightagtylyk"
+    },
+    "defaults_title": "Dymmaklyk eksport",
+    "lufs_target_label": "Nyşana LUFS",
+    "lufs_target_hint": "Eksport edilende başlangyç teklip hökmünde ulanylýar. Sunonyň deslapky görnüşi -14 LUFS töweregi.",
+    "saved": "Saýlamalar ýatda saklandy"
+  },
+  "guide": {
+    "title": "Suno ýazgy gollanmasy",
+    "subtitle": "Sesi we gitarany nädip surata düşürmek iň gowy netijeleri alýar.",
+    "intro": "Suno arassa, birmeňzeş salgylanmalar bilen iň gowy çykyş edýär. Bu gollanma taýýarlygy, maksat derejelerini we 3-5 minutlyk ýazgy skriptini öz içine alýar.",
+    "sections": {
+      "prep": {
+        "title": "Taýýarlyk",
+        "body": "Bejerilen otagda ýa-da köp ýumşak materially (perdeler, halylar, şkafdaky eşikler) ýazga alyň. Janköýerleri we gülkünç zatlary öçüriň. Ordingazga almazdan ozal sesiňizi 5 minut gyzdyryň."
+      },
+      "levels": {
+        "title": "Derejeler: -12 -6 dBFS",
+        "body": "Metrde -12 bilen -6 dBFS aralygyndaky pikleri maksat ediniň. Şol aralygyň aşagynda fon sesleri has göze ilýär; ýokarsynda kesmek töwekgelçiligi ýokarlanýar. Başlamazdan ozal girdejiňizi kesgitlemek üçin Recordazgy sahypasyndaky hasaplaýjyny ulanyň."
+      },
+      "distance": {
+        "title": "Mik aralyk: 15-30 sm",
+        "body": "Mikrofondan 15-30 sm uzaklykda boluň. Ondan has ýakyn, plosivleri we ýakynlyk täsirini ulaldýar; has uzakda has köp otag sesleri we ses çykýar."
+      },
+      "script": {
+        "title": "Scriptazga alýan ýazgy",
+        "warmup": "Sesi gyzdyrmak (1-2 minut)",
+        "vowels": "Durnukly çekimli sesler - a, e, i, o, u",
+        "scales": "Upönekeý tereziler, ýokary we aşak",
+        "excerpt": "Aýdymyň bölegi (8-16 bar)",
+        "dynamics": "Dinamika: ýumşak başlaň, gaty ses bilen gutaryň",
+        "spoken_phrase": "Bir aýdylýan söz, şonuň üçin Suno ses äheňiňizi okap biler"
+      },
+      "expectations": {
+        "title": "Sunonyň garaşýan zady",
+        "body": "WAV, 48 kHz, mono, gury (hiç hili täsir ýa-da täsir ýok), 3-5 minutlyk salgylanma. Iň arassa, iň wekili 2 minut wagt almagyň iň gowy netijeleri berýär."
+      }
+    }
+  },
+  "status": {
+    "idea": "Ideýa",
+    "em_progresso": "Dowam edilýär",
+    "quase": "Ol ýerde diýen ýaly",
+    "pronto": "Taýýar"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Suno üçin doly wokal ssenarisi",
+      "desc": "5 gollanma minut: gyzdyrmak, çekimli sesler, tereziler, iki aýdym parçasy, dinamika we aýdylýan söz."
+    },
+    "step": {
+      "warmup": "Wokal gyzdyrmak",
+      "warmup_inst": "Eňek, dodak trilleri (brrr) we bir minut töweregi ýumşak hum bilen gowşadyň. Recordazga geçirmegiň zerurlygy ýok - aýdym aýtmazdan ozal bokurdagyňyzy gowşatmak.",
+      "vowels": "Durnukly çekimli sesler",
+      "vowels_inst": "Her bir sesini - a, e, i, o, u - 3-4 sekuntlap amatly meýdançada, yzygiderli ses bilen saklaň. Bu, Suno sesiňiziň arassa görnüşini almaga kömek edýär.",
+      "scales": "Tereziler ýokary we aşak",
+      "scales_inst": "Laönekeý şkalany ýokaryk, soňra aşak, \"la\" ýa-da \"na\" aýdymlaryny aýdyň. Kämil bolmak hökman däl - maksat ses aralygyňyzy kartalaşdyrmak.",
+      "section": "Aýdymyň bölegi - 1-nji bölüm",
+      "section_inst": "Aýtmak isleýän hakyky niýetiňiz bilen aýdymyň 8-den 16-a çenli aýdym aýdyň. Tehniki kämillikden aýdyňlygy we barlygy ileri tutuň.",
+      "section2": "Aýdymyň bölegi - 2-nji bölüm",
+      "section2_inst": "Anotherene-de 8-den 16-a çenli aýdym aýdyň - iň gowusy hor ýa-da öňki bölümden tapawutly bölüm. Has köp dürlüligi modeliň sesiňizi öwrenmegine kömek edýär.",
+      "dynamics": "Dinamika: ýumşak → gaty",
+      "dynamics_inst": "Bokurdagyňyzy gysmazdan, gaty ýumşak we gaty gutarýan şol bir sözlemi aýdyň. Bu, Suno sesiňiziň dinamiki diapazonyny görkezýär.",
+      "spoken": "Aýdylan söz",
+      "spoken_inst": "Geple - aýdym aýtma - söhbet edýän ýaly gysga, tebigy söz. Bu, Suno sesiňiziň hakyky depgini tanamaga kömek edýär."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Dikeltmek",
+      "filter": "Süzgüçler",
+      "dynamics": "Dinamika",
+      "separation": "Aýralyk",
+      "quality": "Hil",
+      "utility": "Peýdaly",
+      "loudness": "Gaty ses"
+    },
+    "highpass": "Passokary süzgüç",
+    "lowpass": "Pes süzgüç",
+    "denoise": "Sesi peseltmek",
+    "declip": "Pese gaçmak",
+    "declick": "Aýyrmak / basyň",
+    "deesser": "Eser",
+    "gate": "Sesi derwezesi",
+    "compressor": "Kompressor",
+    "limiter": "Çäklendiriji",
+    "eq": "Deňleşdirmek",
+    "normalize": "Iň ýokary kadalaşma",
+    "loudness": "Gaty sesiň kadalaşmagy (LUFS)",
+    "reverb_reduce": "Reverb azaltmak",
+    "separate": "Çeşmäniň bölünişi",
+    "quality": "Hiliň ýokarlanmagy (ýokary göteriliş)",
+    "trim_silence": "Ümsümlik kesmek",
+    "fade": "Öçmek / öçmek",
+    "stereo_to_mono": "Mono öwüriň",
+    "resample": "Resampling"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Ygtybarly",
+      "2": "Adatça işleýär",
+      "3": "Üýtgeýji",
+      "4": "Plasebo"
+    },
+    "category": {
+      "structure": "Gurluşy",
+      "vocal": "Wokal",
+      "instrument": "Gural",
+      "dynamics": "Dinamika",
+      "production": "Önümçilik",
+      "mood": "Keýp"
+    },
+    "verse": "Aýat",
+    "chorus": "Hor",
+    "bridge": "Köprü",
+    "intro": "Giriş",
+    "outro": "Outro",
+    "hook": "Çeňňek",
+    "prechorus": "Hordan öňki",
+    "instrumental": "Instrumental",
+    "guitar_solo": "Gitara solo",
+    "build_up": "Gurmak",
+    "breakdown": "Bölünmek",
+    "spoken_word": "Geplenen söz",
+    "whispered": "Pyşyrdady",
+    "harmonies": "Garmoniýa",
+    "male_vocal": "Erkek wokal",
+    "female_vocal": "Aýal wokal",
+    "duet": "Duet",
+    "acoustic": "Akustik",
+    "ad_lib": "Mahabat"
+  },
+  "presets": {
+    "clean_voice": "Arassa ses",
+    "voice_guitar_balanced": "Deňagramly ses we gitara",
+    "podcast": "Podcast",
+    "suno_ready": "Suno taýýar",
+    "gentle_restore": "Leuwaşlyk bilen dikeltmek",
+    "raw_passthrough": "Gaýtadan işlemek ýok"
+  },
+  "errors": {
+    "unknown": "Bir zat nädogry boldy.",
+    "network": "Serwere baryp bilmedim",
+    "validation_error": "Giren maglumatlaryňyzy barlaň.",
+    "not_found": "Haryt tapylmady",
+    "project_not_found": "Taslama tapylmady",
+    "take_not_found": "Tapylmady",
+    "album_not_found": "Albom tapylmady",
+    "preset_not_found": "Öňünden tapylmady",
+    "template_not_found": "Şablon tapylmady",
+    "device_busy": "Ses enjamy başga bir programma tarapyndan ulanylýar.",
+    "device_not_found": "Ses enjamy tapylmady",
+    "already_recording": "Allazgy eýýäm dowam edýär.",
+    "ffmpeg_missing": "FFmpeg gurulmady - bu faýly öwürmek üçin guruň.",
+    "disk_full": "Disk ýeterlik däl.",
+    "permission_denied": "Berlen ýol üçin rugsat berilmedi.",
+    "import_path_not_found": "Import ýoly tapylmady",
+    "job_failed": "Gaýtadan işlemek şowsuz boldy.",
+    "job_cancelled": "Gaýtadan işlemek ýatyryldy.",
+    "process_failed": "Almagy başarmady.",
+    "export_failed": "Faýly eksport edip bilmedi.",
+    "record_failed": "Ordingazga geçirip bilmedi."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Nobat",
+      "running": "Ylgaýar",
+      "done": "Boldy",
+      "error": "Şowsuz",
+      "cancelled": "Atyryldy"
+    },
+    "kind": {
+      "process": "Gaýtadan işlemek",
+      "export": "Eksport",
+      "import": "Import",
+      "record": "Ordingazga almak"
+    }
+  }
+}

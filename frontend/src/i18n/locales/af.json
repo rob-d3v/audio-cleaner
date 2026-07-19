@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Oudio Skoonmaker"
+  },
+  "nav": {
+    "library": "Biblioteek",
+    "record": "Rekord",
+    "import": "Invoer",
+    "templates": "Sjablone",
+    "settings": "Instellings",
+    "guide": "Gids"
+  },
+  "common": {
+    "save": "Stoor",
+    "saving": "Stoor tans …",
+    "saved": "Gestoor",
+    "cancel": "Kanselleer",
+    "close": "Maak toe",
+    "delete": "Vee uit",
+    "edit": "Wysig",
+    "create": "Skep",
+    "search": "Soek",
+    "loading": "Laai tans …",
+    "error": "Fout",
+    "retry": "Probeer weer",
+    "confirm": "Bevestig",
+    "back": "Terug",
+    "next": "Volgende",
+    "continue": "Gaan voort",
+    "finish": "Voltooi",
+    "copy": "Kopieer",
+    "copied": "Gekopieer",
+    "download": "Laai af",
+    "upload": "Laai op",
+    "none": "Geen",
+    "all": "Almal",
+    "yes": "Ja",
+    "no": "Nee",
+    "select": "Kies",
+    "optional": "opsioneel",
+    "required": "vereis word",
+    "unsaved_changes": "Ongestoorde veranderinge",
+    "name": "Naam",
+    "status": "Status",
+    "type": "Tik",
+    "actions": "Aksies",
+    "empty": "Leeg",
+    "browse": "Blaai deur",
+    "remove": "Verwyder",
+    "add": "Voeg by",
+    "rename": "Hernoem",
+    "duplicate": "Duplikaat",
+    "warning": "Waarskuwing",
+    "locked": "Gesluit",
+    "builtin": "Ingeboude",
+    "custom": "Pasgemaak",
+    "untitled": "Titelloos",
+    "select_placeholder": "Kies..."
+  },
+  "library": {
+    "title": "Biblioteek",
+    "subtitle": "Jou stem- en kitaarprojekte, van idee tot vrystelling.",
+    "new_project": "Nuwe projek",
+    "new_album": "Nuwe album",
+    "search_placeholder": "Soek op naam...",
+    "view": {
+      "grid": "Rooster",
+      "albums": "Albums"
+    },
+    "filters": {
+      "all": "Almal"
+    },
+    "take_count_one": " {{count}} neem",
+    "take_count_other": " {{count}} neem",
+    "updated_at": "Opgedateer {{date}} ",
+    "no_results": {
+      "title": "Geen projekte gevind nie",
+      "description": "Probeer die soek- of statusfilter aanpas."
+    },
+    "empty": {
+      "title": "Jou biblioteek is leeg",
+      "description": "Begin 'n nuwe projek van nuuts af, of voer take in wat jy reeds op skyf het.",
+      "cta_import": "Voer in vanaf gids",
+      "cta_new": "Skep projek"
+    },
+    "project_dialog": {
+      "title": "Nuwe projek",
+      "description": "Gee dit 'n naam en kies 'n opnamemodus.",
+      "name_label": "Projek naam",
+      "name_placeholder": "bv. Somerreën",
+      "mode_label": "Modus",
+      "mode": {
+        "voice": "Slegs stem",
+        "voice_guitar": "Stem + kitaar"
+      },
+      "submit": "Skep projek"
+    },
+    "album_dialog": {
+      "title": "Nuwe album",
+      "description": "Groepeer verwante projekte in 'n album.",
+      "name_label": "Album naam",
+      "name_placeholder": "bv. Herfs EP",
+      "submit": "Skep album"
+    },
+    "album": {
+      "untitled": "Ongetitelde album",
+      "members_count_one": " {{count}} projek",
+      "members_count_other": " {{count}} projekte",
+      "empty": "Nog geen projekte in hierdie album nie.",
+      "delete_confirm_title": "Vee album uit?",
+      "delete_confirm_description": "Projekte sal nie uitgevee word nie, slegs ontkoppel van \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Vee \"{{name}}\" uit?",
+      "confirm_description": "Dit verwyder die projek en elke aanpak daarvan. Dit kan nie ongedaan gemaak word nie."
+    }
+  },
+  "record": {
+    "title": "Rekord",
+    "subtitle": "Neem 'n skoon aanslag, kyk na jou vlakke en volg die draaiboek.",
+    "project_label": "Projek",
+    "project_placeholder": "Kies 'n projek",
+    "project_create_quick": "Skep 'n vinnige projek...",
+    "device_label": "Invoer toestel",
+    "device_placeholder": "Kies 'n toestel",
+    "device_default_badge": "Stelsel verstek",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Geen invoertoestelle gevind nie.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Hou op monitering",
+    "record_button": "Rekord",
+    "stop_button": "Stop",
+    "elapsed_label": "Verstreke tyd",
+    "status": {
+      "idle": "Ledig",
+      "monitoring": "Monitering",
+      "recording": "Opname",
+      "stopped": "Gestop"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Piek",
+      "clip": "Knip"
+    },
+    "guide": {
+      "title": "Begeleide sessie",
+      "subtitle": "Laat die afrigter jou stap vir stap deur die draaiboek lei, van opwarming tot die gesproke frase.",
+      "loading": "Laai tans skrip …",
+      "unavailable": "Die begeleide sessie is nog nie op die bediener beskikbaar nie.",
+      "select_project_device": "Kies 'n projek en 'n invoertoestel om stappe direk van hier af op te teken.",
+      "progress": " {{done}} van {{total}} stappe",
+      "start_timer": "Begin timer",
+      "skip_timer": "Slaan timer oor",
+      "record_step": "Teken hierdie stap aan",
+      "stop_step": "Hou op opneem",
+      "mark_done": "Klaar - volgende stap",
+      "step_recorded": "Neem aangeteken",
+      "no_record_step": "Opwarmstap — geen opname nodig nie.",
+      "bars_hint": "Ongeveer {{bars}} stawe",
+      "complete_title": "Skrip voltooi!",
+      "complete_body": "Jy het elke stap van die skrif opgeneem. Gaan terug na die projek se oudio-oortjie en kies jou gunsteling opnames.",
+      "restart": "Herbegin skrip"
+    },
+    "best2min": {
+      "button": "Vind die beste 2 minute (Suno)",
+      "running": "Ontleed tans die neem …",
+      "score_label": "Telling",
+      "hint": "Voer 'n energie- en helderheidsontleding oor die hele tyd uit om die sterkste 2-minuut-venster te vind - jy kan daarna steeds die reeks met die hand aanpas.",
+      "chart_caption": "Telling per venster",
+      "unavailable": "Die beste-2-minute-analise is nog nie op hierdie bediener beskikbaar nie."
+    },
+    "takes_title": "Neem uit hierdie sessie",
+    "takes_empty": "Geen opnames is nog in hierdie sessie aangeteken nie.",
+    "open_in_project": "Maak oop in projek",
+    "ws_disconnected": "Herkoppel tans aan die vlakmeter …",
+    "select_project_first": "Kies 'n projek om te begin.",
+    "select_device_first": "Kies 'n invoertoestel."
+  },
+  "project": {
+    "back_to_library": "Terug na biblioteek",
+    "header": {
+      "status_label": "Status",
+      "cover_upload": "Laai omslag op",
+      "cover_remove": "Verwyder deksel",
+      "name_placeholder": "Projek naam",
+      "links_title": "Skakels",
+      "add_link": "Voeg skakel by",
+      "mode": {
+        "voice": "Slegs stem",
+        "voice_guitar": "Stem + kitaar"
+      }
+    },
+    "tabs": {
+      "audio": "Oudio",
+      "lyrics": "Lirieke",
+      "prompts": "Vrae",
+      "notes": "Notas"
+    },
+    "audio": {
+      "takes_title": "Neem",
+      "no_takes": {
+        "title": "Nog geen take nie",
+        "description": "Teken 'n nuwe opname op of voer 'n bestaande lêer in."
+      },
+      "record_new": "Teken 'n nuwe opname op",
+      "rating": "Gradering",
+      "variant": {
+        "raw": "Rou",
+        "processed": "Verwerk"
+      },
+      "variant_placeholder": "Weergawe",
+      "process_button": "Proses",
+      "export_button": "Uitvoer",
+      "delete_take_confirm_title": "Vee hierdie take uit?",
+      "delete_take_confirm_description": "Die rou oudio en elke verwerkte weergawe sal verwyder word.",
+      "ab": {
+        "raw": "A · Rou",
+        "processed": "B · Verwerk"
+      },
+      "origin": {
+        "recorded": "Opgeneem",
+        "imported": "Ingevoer"
+      },
+      "session_label_placeholder": "Sessie-etiket (opsioneel)",
+      "duration": "Duur",
+      "sample_rate": "Monstertempo",
+      "channels": "Kanale",
+      "created_at": "Opgeneem"
+    },
+    "pipeline": {
+      "title": "Verwerkingsketting",
+      "preset_label": "Vooraf ingesteld",
+      "preset_none": "Pasgemaakte ketting",
+      "preset_save": "Stoor as voorafinstelling",
+      "stage_locked": "Gesluit",
+      "stage_requires_extra": "Vereis 'n ekstra wat nie geïnstalleer is nie",
+      "process_button": "Proses neem",
+      "processing": "Verwerk tans …",
+      "job_queued": "In tou gestaan …",
+      "job_running": "Verwerk tans …",
+      "job_done": "Klaar",
+      "job_error": "Misluk",
+      "job_cancelled": "Gekanselleer",
+      "cancel_job": "Kanselleer",
+      "no_stages": "Geen stadiums beskikbaar nie."
+    },
+    "export": {
+      "title": "Uitvoer neem",
+      "description": "Gee 'n finale lêer vanaf 'n verwerkte weergawe.",
+      "variant_label": "Weergawe",
+      "format_label": "Formaat",
+      "preset_label": "Uitvoer voorafinstelling",
+      "range_label": "Reeks",
+      "range_full": "Volle lengte",
+      "range_custom": "Pasgemaakte reeks",
+      "start_label": "Begin (s)",
+      "end_label": "Einde (s)",
+      "submit": "Uitvoer",
+      "progress": "Lewer tans lêer …",
+      "download_ready": "Lêer gereed",
+      "download_button": "Laai lêer af"
+    },
+    "notes": {
+      "placeholder": "Vryvorm notas oor hierdie projek...",
+      "saved_at": "Gestoor by {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Skryf die lirieke hier. Gebruik die palet aan die kant om Suno-meta-merkers in te voeg.",
+      "saved_at": "Gestoor by {{time}} ",
+      "saving": "Stoor tans …",
+      "versions": "Weergawes",
+      "versions_empty": "Nog geen gestoorde weergawes nie.",
+      "version_preview": "Voorskou",
+      "restore": "Herstel hierdie weergawe",
+      "restore_confirm_title": "Stel hierdie weergawe terug?",
+      "restore_confirm_description": "Die huidige teks sal vervang word met die weergawe wat op {{date}} gestoor is.",
+      "metatags_title": "Meta-tags",
+      "metatags_hint": "Klik 'n merker om dit by die wyser in te voeg.",
+      "metatags_placebo_warning": "Onbewys - mag geen effek op die resultaat hê nie.",
+      "metatags_empty": "Geen meta-merkers geregistreer nie."
+    },
+    "prompts": {
+      "style_title": "Stylopdrag",
+      "lyrics_title": "Lirieke vra",
+      "template_label": "Sjabloon",
+      "template_none": "Geen sjabloon nie",
+      "variables_title": "Veranderlikes",
+      "preview_title": "Voorskou",
+      "preview_empty": "Kies 'n sjabloon en vul die veranderlikes in om 'n voorskou te sien.",
+      "char_count": " {{count}} karakters",
+      "char_count_warning": "Stylaanwysings van meer as 1000 karakters kan deur Suno afgekap word.",
+      "copy": "Kopieer",
+      "copied": "Gekopieer na knipbord",
+      "save_to_project": "Stoor na projek",
+      "saved_to_project": "Aanvraag is na projek gestoor",
+      "history_title": "Geskiedenis",
+      "history_empty": "Geen vorige weergawes nie.",
+      "current_label": "Huidige"
+    },
+    "stems": {
+      "title": "Sang en kitaar",
+      "separate_button": "Aparte koor en kitaar",
+      "running": "Skei tans …",
+      "vocals": "Sang",
+      "instrumental": "Instrumenteel",
+      "process_stem": "Verwerk hierdie stam",
+      "empty": "Hierdie take is nog nie geskei nie. Begin skeiding om die koor en kitaar in isolasie te hoor.",
+      "capability_missing": "Bronskeiding is nie op hierdie bediener geïnstalleer nie.",
+      "unavailable": "Stem-/kitaarskeiding is nog nie op hierdie bediener beskikbaar nie."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Aan",
+    "boolean_off": "Af"
+  },
+  "import": {
+    "title": "Invoer",
+    "subtitle": "Bring projekte wat reeds op skyf bestaan in die biblioteek.",
+    "step_indicator": "Stap {{current}} van {{total}} ",
+    "step1": {
+      "title": "Vind gids",
+      "description": "Wys na die hoofmap met jou projekte en snitte.",
+      "path_label": "Folderpad",
+      "path_placeholder": "bv. E:\\Robbs\\Pride\\Musiek\\ROBBS",
+      "recent_label": "Onlangs",
+      "scan_button": "Skandeer gids",
+      "scanning": "Skandeer tans …",
+      "ffmpeg_warning": "FFmpeg nie gevind nie - lêers wat omskakeling benodig, sal oorgeslaan word.",
+      "folders_found_one": " {{count}} gids gevind",
+      "folders_found_other": " {{count}} dopgehou gevind",
+      "unmatched_files_one": " {{count}} onherkende lêer",
+      "unmatched_files_other": " {{count}} onherkende lêers"
+    },
+    "step2": {
+      "title": "Hersien items",
+      "description": "Gaan name, statusse en wat ingevoer sal word na voordat dit bevestig word.",
+      "select_all": "Kies alles",
+      "table": {
+        "folder": "Bron gids",
+        "name": "Projek naam",
+        "status": "Status",
+        "audio": "Oudio",
+        "lyrics": "Lirieke",
+        "cover": "Bedekking",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} lêer gekies",
+      "audio_include_other": " {{count}} lêers gekies",
+      "no_audio": "Geen oudio gevind nie",
+      "no_lyrics": "Geen lirieke gevind nie",
+      "no_cover": "Geen dekking nie",
+      "warnings_title": "Waarskuwings"
+    },
+    "step3": {
+      "title": "Invoer",
+      "description": "Bevestig om die lêers te kopieer en die projekte te skep.",
+      "copy_originals": "Kopieer oorspronklike lêers na die biblioteek",
+      "execute_button": "Begin invoer",
+      "progress_title": "Voer tans in …",
+      "created_count": "Geskep: {{count}} ",
+      "skipped_count": "Oorgeslaan: {{count}} ",
+      "done_title": "Invoer voltooi",
+      "done_description": "Die projekte hieronder is in jou biblioteek geskep.",
+      "view_project": "Oop projek",
+      "start_over": "Nuwe invoer"
+    }
+  },
+  "templates": {
+    "title": "Sjablone",
+    "subtitle": "Herbruikbare vinnige sjablone en meta-merkers vir Suno.",
+    "tabs": {
+      "prompts": "Vinnige sjablone",
+      "metatags": "Meta-tags"
+    },
+    "new_template": "Nuwe sjabloon",
+    "kind": {
+      "style": "Styl",
+      "lyrics": "Lirieke"
+    },
+    "kind_label": "Soort",
+    "delete_confirm_title": "Vee sjabloon \" {{name}} \" uit?",
+    "delete_confirm_description": "Dit kan nie ongedaan gemaak word nie.",
+    "empty": "Nog geen sjablone nie.",
+    "editor": {
+      "title_new": "Nuwe sjabloon",
+      "title_edit": "Wysig sjabloon",
+      "name_label": "Naam",
+      "name_placeholder": "bv. Akoestiese ballade",
+      "kind_label": "Soort",
+      "template_label": "Sjabloon teks",
+      "template_hint": "Merk waar elke veranderlike hoort met sy naam toegedraai in dubbele krulhakies — byvoorbeeld, 'n veranderlike genaamd \"genre\" word genre toegedraai in twee openings- en twee sluithakies.",
+      "variables_label": "Veranderlikes",
+      "variable_add": "Voeg veranderlike by",
+      "variable_name": "Sleutel",
+      "variable_label": "Etiket",
+      "variable_type": "Tik",
+      "variable_type_string": "Teks",
+      "variable_type_select": "Enkele kies",
+      "variable_type_multiselect": "Multi-kies",
+      "variable_type_number": "Nommer",
+      "variable_type_boolean": "Ja/nee",
+      "variable_options": "Opsies (kommageskei)",
+      "variable_required": "Vereis",
+      "save": "Stoor sjabloon"
+    },
+    "metatags": {
+      "title": "Meta-tags",
+      "subtitle": "Strukturele en styletikette Suno herken binne lirieke.",
+      "new_tag": "Nuwe tag",
+      "tag_label": "Merk",
+      "tag_placeholder": "bv. kitaar-solo",
+      "category_label": "Kategorie",
+      "tier_label": "Betroubaarheid",
+      "tier_legend_title": "Betroubaarheid legende",
+      "tier_legend": {
+        "1": "Vlak 1 - gedokumenteer en konsekwent",
+        "2": "Vlak 2 - werk gewoonlik",
+        "3": "Vlak 3 - veranderlike effek",
+        "4": "Vlak 4 - placebo, onbewese"
+      },
+      "description_label": "Beskrywing",
+      "delete_confirm_title": "Vee merker \" {{tag}} \" uit?",
+      "empty": "Nog geen pasgemaakte meta-merkers nie."
+    }
+  },
+  "settings": {
+    "title": "Instellings",
+    "subtitle": "Stelselinligting, taal en verstekvoorkeure.",
+    "system_info_title": "Stelsel",
+    "version": "Weergawe",
+    "data_dir": "Data-lêergids",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Beskikbaar",
+    "ffmpeg_missing": "Nie gevind nie",
+    "capabilities_title": "Geïnstalleerde vermoëns",
+    "capability": {
+      "denoise": "Geraasvermindering",
+      "quality": "Kwaliteit verbetering",
+      "separate": "Bron skeiding",
+      "ffmpeg": "FFmpeg-omskakeling"
+    },
+    "capability_available": "Beskikbaar",
+    "capability_unavailable": "Onbeskikbaar",
+    "gpu_title": "GPU versnelling",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime-verskaffers"
+    },
+    "gpu_none": "Geen GPU-verskaffers bespeur nie",
+    "language_title": "Taal",
+    "language": {
+      "pt-BR": "Português (Brasilië)",
+      "en": "Engels"
+    },
+    "theme_title": "Voorkoms",
+    "theme": {
+      "dark": "Donker",
+      "light": "Lig"
+    },
+    "defaults_title": "Uitvoer verstekke",
+    "lufs_target_label": "Teiken LUFS",
+    "lufs_target_hint": "Word gebruik as die beginvoorstel wanneer uitvoer neem. Suno se verstek is ongeveer -14 LUFS.",
+    "saved": "Voorkeure gestoor"
+  },
+  "guide": {
+    "title": "Suno opname gids",
+    "subtitle": "Hoe om stem- en kitaaropnames vas te lê wat die beste resultate kry.",
+    "intro": "Suno presteer die beste met skoon, ondubbelsinnige verwysings. Hierdie gids dek voorbereiding, teikenvlakke en 'n 3–5 minute opname skrif.",
+    "sections": {
+      "prep": {
+        "title": "Voorbereiding",
+        "body": "Teken op in 'n behandelde kamer of een met baie sagte materiaal (gordyne, matte, klere in 'n kas). Skakel waaiers en enigiets wat neurie af. Verhit jou stem vir 5 minute voordat jy opneem."
+      },
+      "levels": {
+        "title": "Vlakke: -12 tot -6 dBFS",
+        "body": "Mik vir pieke tussen -12 en -6 dBFS op die meter. Onder daardie reeks word agtergrondgeraas meer opvallend; daarbo styg die kniprisiko. Gebruik die meter op die Rekord-bladsy om jou wins te stel voordat jy begin."
+      },
+      "distance": {
+        "title": "Mikrofoonafstand: 15–30 cm",
+        "body": "Bly 15 tot 30 cm van die mikrofoon af. Nader as dit oordryf plosiewe en nabyheidseffek; verder weg tel meer kamergalm en geraas op."
+      },
+      "script": {
+        "title": "Opneem skrif",
+        "warmup": "Stemopwarming (1–2 minute)",
+        "vowels": "Volgehoue vokale - a, e, i, o, u",
+        "scales": "Eenvoudige skale, op en af",
+        "excerpt": "'n Liedjie-uittreksel (8 tot 16 mate)",
+        "dynamics": "Dinamika: begin sag, eindig hard",
+        "spoken_phrase": "Een gesproke frase, sodat Suno jou stemtoon kan lees"
+      },
+      "expectations": {
+        "title": "Wat Suno verwag",
+        "body": "WAV, 48 kHz, mono, droog (geen galm of effekte), 3 tot 5 minute se verwysing. Die skoonste, mees verteenwoordigende 2 minute van die neem lewer gewoonlik die beste resultate."
+      }
+    }
+  },
+  "status": {
+    "idea": "Idee",
+    "em_progresso": "Aan die gang",
+    "quase": "Amper daar",
+    "pronto": "Gereed"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Volle vokale skrif vir Suno",
+      "desc": "5 geleide minute: opwarming, vokale, toonlere, twee uittreksels uit liedjies, dinamika en 'n gesproke frase."
+    },
+    "step": {
+      "warmup": "Vokale opwarming",
+      "warmup_inst": "Maak los met gaap, liptrille (brrr) en 'n sagte neurie vir ongeveer 'n minuut. Dit is nie nodig om op te neem nie - dit is net om jou keel te ontspan voordat jy sing.",
+      "vowels": "Volgehoue vokale",
+      "vowels_inst": "Hou elke klinker - a, e, i, o, u - vir 3 tot 4 sekondes op jou gemaklike toonhoogte, met 'n bestendige volume. Dit help Suno om die suiwer timbre van jou stem op te tel.",
+      "scales": "Skaal op en af",
+      "scales_inst": "Sing 'n eenvoudige toonleer op en dan af, op \"la\" of \"na\". Dit hoef nie perfek te wees nie - die doel is om jou vokale reeks te karteer.",
+      "section": "Liedjie uittreksel — deel 1",
+      "section_inst": "Sing 8 tot 16 mate van die liedjie, met die werklike bedoeling wat jy wil oordra. Prioritiseer duidelikheid en teenwoordigheid bo tegniese perfeksie.",
+      "section2": "Liedjie uittreksel - deel 2",
+      "section2_inst": "Sing nog 8 tot 16 mate - ideaal 'n refrein of 'n gedeelte wat in kontras met die vorige een is. Meer verskeidenheid help die model om jou stem te leer.",
+      "dynamics": "Dinamika: sag → hard",
+      "dynamics_inst": "Sing dieselfde frase wat baie sag begin en hard eindig, sonder om jou keel te trek. Dit wys Suno jou stem se dinamiese omvang.",
+      "spoken": "Gesproke frase",
+      "spoken_inst": "Praat - moenie sing nie - 'n kort, natuurlike frase, asof jy gesels. Dit help Suno om die regte timbre van jou stem te herken."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Herstel",
+      "filter": "Filters",
+      "dynamics": "Dinamika",
+      "separation": "Skeiding",
+      "quality": "Kwaliteit",
+      "utility": "Nut",
+      "loudness": "Hardheid"
+    },
+    "highpass": "Hoëdeurlaatfilter",
+    "lowpass": "Laagdeurlaatfilter",
+    "denoise": "Geraasvermindering",
+    "declip": "Ontknip",
+    "declick": "Klik/pop verwydering",
+    "deesser": "De-esser",
+    "gate": "Geraas hek",
+    "compressor": "Kompressor",
+    "limiter": "Beperker",
+    "eq": "Gelykmaking",
+    "normalize": "Piek normalisering",
+    "loudness": "Hardheid normalisering (LUFS)",
+    "reverb_reduce": "Reverb vermindering",
+    "separate": "Bron skeiding",
+    "quality": "Kwaliteitverbetering (opskaal)",
+    "trim_silence": "Stilte snoei",
+    "fade": "Vervaag in / vervaag uit",
+    "stereo_to_mono": "Skakel oor na mono",
+    "resample": "Hermonstering"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Betroubaar",
+      "2": "Werk gewoonlik",
+      "3": "Veranderlik",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Struktuur",
+      "vocal": "Vokaal",
+      "instrument": "Instrument",
+      "dynamics": "Dinamika",
+      "production": "Produksie",
+      "mood": "Bui"
+    },
+    "verse": "Vers",
+    "chorus": "Refrein",
+    "bridge": "Brug",
+    "intro": "Inleiding",
+    "outro": "Outro",
+    "hook": "Haak",
+    "prechorus": "Voorkoor",
+    "instrumental": "Instrumenteel",
+    "guitar_solo": "Kitaar solo",
+    "build_up": "Opbou",
+    "breakdown": "Ineenstorting",
+    "spoken_word": "Gesproke woord",
+    "whispered": "Gefluister",
+    "harmonies": "Harmonieë",
+    "male_vocal": "Manlike vokaal",
+    "female_vocal": "Vroulike vokaal",
+    "duet": "Duet",
+    "acoustic": "Akoesties",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Skoon stem",
+    "voice_guitar_balanced": "Gebalanseerde stem en kitaar",
+    "podcast": "Podcast",
+    "suno_ready": "Suno gereed",
+    "gentle_restore": "Sagte herstel",
+    "raw_passthrough": "Geen verwerking nie"
+  },
+  "errors": {
+    "unknown": "Iets het verkeerd geloop.",
+    "network": "Kon nie die bediener bereik nie.",
+    "validation_error": "Kontroleer die inligting wat jy ingevoer het.",
+    "not_found": "Item nie gevind nie.",
+    "project_not_found": "Projek nie gevind nie.",
+    "take_not_found": "Neem nie gevind nie.",
+    "album_not_found": "Album nie gevind nie.",
+    "preset_not_found": "Voorinstelling nie gevind nie.",
+    "template_not_found": "Sjabloon nie gevind nie.",
+    "device_busy": "Oudiotoestel word deur 'n ander program gebruik.",
+    "device_not_found": "Oudiotoestel nie gevind nie.",
+    "already_recording": "'n Opname is reeds aan die gang.",
+    "ffmpeg_missing": "FFmpeg is nie geïnstalleer nie - installeer dit om hierdie lêer om te skakel.",
+    "disk_full": "Nie genoeg skyfspasie nie.",
+    "permission_denied": "Toestemming geweier vir die gegewe pad.",
+    "import_path_not_found": "Invoerpad nie gevind nie.",
+    "job_failed": "Verwerking het misluk.",
+    "job_cancelled": "Verwerking is gekanselleer.",
+    "process_failed": "Kon nie die neem verwerk nie.",
+    "export_failed": "Kon nie die lêer uitvoer nie.",
+    "record_failed": "Kon nie opneem begin nie."
+  },
+  "jobs": {
+    "status": {
+      "queued": "In die ry",
+      "running": "Hardloop",
+      "done": "Klaar",
+      "error": "Misluk",
+      "cancelled": "Gekanselleer"
+    },
+    "kind": {
+      "process": "Verwerking",
+      "export": "Uitvoer",
+      "import": "Invoer",
+      "record": "Opname"
+    }
+  }
+}

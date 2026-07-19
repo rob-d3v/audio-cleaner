@@ -1,0 +1,47 @@
+# Dados pessoais do usuário — NUNCA comitar
+data/
+*.local.json
+
+# Scripts de validação manual com caminhos pessoais (ex.: pasta de músicas do autor)
+backend/tests/manual/
+
+# Configs locais de dev
+.claude/
+*.local
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Node / frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Modelos de IA baixados
+models/
+*.onnx
+!backend/app/**/fixtures/**/*.onnx
+
+# Skills de agente (tooling de dev, instaladas por usuário)
+.agents/
+.claude/skills/
+
+# SO / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# Logs e temporários
+*.log
+*.part
+.tmp/

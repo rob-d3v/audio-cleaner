@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio ti sukulango"
+  },
+  "nav": {
+    "library": "Bibliothèque",
+    "record": "Enregistrement",
+    "import": "Importer",
+    "templates": "Modèle",
+    "settings": "Paramètres",
+    "guide": "Guide"
+  },
+  "common": {
+    "save": "Bata",
+    "saving": "Sauvegarde...",
+    "saved": "A bata",
+    "cancel": "Annuler",
+    "close": "Fermé",
+    "delete": "Effacé",
+    "edit": "Edit",
+    "create": "Créer",
+    "search": "Gi",
+    "loading": "A yeke charge...",
+    "error": "Erreur",
+    "retry": "Kiri mo tara",
+    "confirm": "Confirmé",
+    "back": "Back .",
+    "next": "Na pekoni",
+    "continue": "Ngbâ ti sara ni .",
+    "finish": "Fini",
+    "copy": "Copié",
+    "copied": "A sara copie ni",
+    "download": "Téléchargé",
+    "upload": "Télécharger",
+    "none": "Mbeni oko pëpe",
+    "all": "Azo kue",
+    "yes": "En",
+    "no": "Ên-ën",
+    "select": "Soro .",
+    "optional": "ye so zo alingbi ti soro",
+    "required": "a hunda",
+    "unsaved_changes": "Achangement so a bata ni pëpe",
+    "name": "Iri",
+    "status": "Statut",
+    "type": "Mara ti",
+    "actions": "Akusala",
+    "empty": "Senge senge",
+    "browse": "Navigation",
+    "remove": "Zia",
+    "add": "Add",
+    "rename": "Changé iri ni",
+    "duplicate": "Double",
+    "warning": "Gboto mê",
+    "locked": "A kanga",
+    "builtin": "A leke ni",
+    "custom": "Coutume",
+    "untitled": "Titre ni ayeke dä pëpe",
+    "select_placeholder": "Soro..."
+  },
+  "library": {
+    "title": "Bibliothèque",
+    "subtitle": "A-projet ti go ti mo na ti guitare, ti londo na idée ti si na sigingo ni.",
+    "new_project": "Fini kusala .",
+    "new_album": "Fini album",
+    "search_placeholder": "Gi na iri ti lo...",
+    "view": {
+      "grid": "Grille",
+      "albums": "Album"
+    },
+    "filters": {
+      "all": "Azo kue"
+    },
+    "take_count_one": " {{count}} mû .",
+    "take_count_other": " {{count}} amû .",
+    "updated_at": "A sara ni {{date}} ",
+    "no_results": {
+      "title": "A wara ambeni kusala pëpe .",
+      "description": "Tara ti leke yâ ti recherche wala filtre ti statut."
+    },
+    "empty": {
+      "title": "Bibliothèque ti e ayeke senge .",
+      "description": "Komanse ti sara mbeni fini kua na tongo nda ni, wala importé ambeni ye so mo yeke na ni awe na ndö ti disque.",
+      "cta_import": "Importer na yâ ti dossier",
+      "cta_new": "Sara mbeni projet"
+    },
+    "project_dialog": {
+      "title": "Fini kusala .",
+      "description": "Mû iri na lo na soro mbeni lege ti enregistrement.",
+      "name_label": "Iri ti kusala ni",
+      "name_placeholder": "pn. Ngu-nzapa ti été",
+      "mode_label": "Mode",
+      "mode": {
+        "voice": "Gi go",
+        "voice_guitar": "Go + ti guitare"
+      },
+      "submit": "Sara mbeni projet"
+    },
+    "album_dialog": {
+      "title": "Fini album",
+      "description": "Groupe ti aprojet so andu ni na yâ ti mbeni album.",
+      "name_label": "Iri ti album ni",
+      "name_placeholder": "pn. EP ti automne",
+      "submit": "Sara album"
+    },
+    "album": {
+      "untitled": "Album so iri ni ayeke dä pëpe",
+      "members_count_one": " {{count}} kusala",
+      "members_count_other": " {{count}} a-projet",
+      "empty": "A yeke wara pëpe ambeni projet na yâ ti album so.",
+      "delete_confirm_title": "Supprimé album ni?",
+      "delete_confirm_description": "A yeke zi ande a-projet ni pëpe, gi a yeke zi ni na \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Effacé \" {{name}} \"?",
+      "confirm_description": "Ye so azi projet ni nga na aye kue so a mû na yâ ni. Ye so alingbi ti kiri na peko pëpe."
+    }
+  },
+  "record": {
+    "title": "Enregistrement",
+    "subtitle": "Capture mbeni propre take, bâ niveau ti mo, na mû peko ti script ni.",
+    "project_label": "Projet",
+    "project_placeholder": "Soro mbeni projet .",
+    "project_create_quick": "Sara mbeni projet hio...",
+    "device_label": "Appareil ti entrée",
+    "device_placeholder": "Soro mbeni appareil .",
+    "device_default_badge": "Système ti defaut",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "A wara pëpe a-appareil ti entrée.",
+    "monitor_button": "Moniteur",
+    "monitor_stop_button": "Zia ti bâ ndo na ndo ti azo .",
+    "record_button": "Enregistrement",
+    "stop_button": "Arrêté",
+    "elapsed_label": "Ngoi so ahon",
+    "status": {
+      "idle": "Idle",
+      "monitoring": "Surveillance",
+      "recording": "Enregistrement",
+      "stopped": "A kanga lege"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Peak",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Session so a fa lege na ni",
+      "subtitle": "Zia si coach ni afa lege na mo na yâ ti script ni kete kete, ti londo na chauffage ti si na atënë so a tene.",
+      "loading": "Script ti chargement...",
+      "unavailable": "Session ti guidé ni ayeke na ndö ti serveur ni ape.",
+      "select_project_device": "Soro mbeni projet nga na mbeni appareil ti enregistrement ti a-étape gï na ndo so.",
+      "progress": " {{done}} ti {{total}} a-étape",
+      "start_timer": "Komanse ti l’heure",
+      "skip_timer": "Honzo ti l’heure",
+      "record_step": "Enregistré étape so .",
+      "stop_step": "Zia enregistrement ni .",
+      "mark_done": "A sara — na pekoni .",
+      "step_recorded": "A enregistré ni .",
+      "no_record_step": "Etape ti chauffage — a hunda pëpe ti enregistré ni.",
+      "bars_hint": "A yeke {{bars}} barre .",
+      "complete_title": "Script ni ahunzi awe!",
+      "complete_body": "E enregistré a-étape kue ti script ni. Zia li ti mo na ndo ti tableau Audio ti projet ni na mo soro ambeni ye so mo ye mingi.",
+      "restart": "Kiri mo komanse script ni"
+    },
+    "best2min": {
+      "button": "Gi ti wara anzoni penze-ngbonga 2 (Suno) .",
+      "running": "Analyse ti mungo...",
+      "score_label": "Note",
+      "hint": "A sara mbeni analyse ti ngangu nga na ti polele na yâ ti ngoi ni kue ti wara ngangu fenêtre ti lo ti penze-ngbonga 2 — mo lingbi ti ngbâ ti leke range ni na maboko na pekoni.",
+      "chart_caption": "Score na fenêtre oko oko",
+      "unavailable": "A yeke nzoni ti sara analyse ti penze-ngbonga 2 na ndö ti serveur so."
+    },
+    "takes_title": "A mû mbage ti session so .",
+    "takes_empty": "A enregistré ambeni ye na yâ ti session so pëpe.",
+    "open_in_project": "Zia na yâ ti projet .",
+    "ws_disconnected": "A yeke kiri ti sara kua na mètre ti niveau...",
+    "select_project_first": "Soro mbeni kua ti komanse na ni.",
+    "select_device_first": "Soro mbeni ye ti ziango na yâ ni."
+  },
+  "project": {
+    "back_to_library": "Kiri na bibliothèque .",
+    "header": {
+      "status_label": "Statut",
+      "cover_upload": "Zia couverture ni",
+      "cover_remove": "Zia couverture ni .",
+      "name_placeholder": "Iri ti kusala ni",
+      "links_title": "A-lien",
+      "add_link": "A zia lien na ndo ni",
+      "mode": {
+        "voice": "Gi go",
+        "voice_guitar": "Go + ti guitare"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Tënë ti bia ni",
+      "prompts": "A hunda",
+      "notes": "Atondo"
+    },
+    "audio": {
+      "takes_title": "A mû",
+      "no_takes": {
+        "title": "No amû encore",
+        "description": "Enregistré mbeni fini take wala importé mbeni fichier so ayeke dä awe."
+      },
+      "record_new": "Enregistré mbeni fini take .",
+      "rating": "Note",
+      "variant": {
+        "raw": "Brut",
+        "processed": "A sara kua na ni"
+      },
+      "variant_placeholder": "Version 1 .",
+      "process_button": "Processus",
+      "export_button": "Tokua ni na kodoro wande",
+      "delete_take_confirm_title": "Effacer ni?",
+      "delete_take_confirm_description": "A yeke zi ande audio brut nga na aversion kue so a sara kua na ni.",
+      "ab": {
+        "raw": "A · Brut",
+        "processed": "B · A sara kua na ni"
+      },
+      "origin": {
+        "recorded": "A enregistré ni",
+        "imported": "A mû ni na kodoro wande"
+      },
+      "session_label_placeholder": "Étiquette ti session (mo soro)",
+      "duration": "Ngoi so aninga",
+      "sample_rate": "Taux d'échantillon",
+      "channels": "Achaîne",
+      "created_at": "A enregistré ni"
+    },
+    "pipeline": {
+      "title": "Chaîne ti sarango kua na ni",
+      "preset_label": "Preset",
+      "preset_none": "Chaîne ti coutume",
+      "preset_save": "Bata ni tongana preset",
+      "stage_locked": "A kanga",
+      "stage_requires_extra": "A hunda ti tene a zia mbeni extra na ndo ni pëpe .",
+      "process_button": "Processus ti mû .",
+      "processing": "A yeke sara kua na ni...",
+      "job_queued": "Molongo...",
+      "job_running": "A yeke sara kua na ni...",
+      "job_done": "A sara awe",
+      "job_error": "A échoué",
+      "job_cancelled": "A annulé ni",
+      "cancel_job": "Annuler",
+      "no_stages": "A yeke wara pëpe a-étape."
+    },
+    "export": {
+      "title": "Exporté ni .",
+      "description": "Render mbeni ndangba fichier so alondo na mbeni version so a sara kua na ni.",
+      "variant_label": "Version 1 .",
+      "format_label": "Format",
+      "preset_label": "Exporté preset",
+      "range_label": "Range",
+      "range_full": "Longueur ni kue",
+      "range_custom": "Gamme ti zo mveni",
+      "start_label": "Komanse (a)",
+      "end_label": "Hunzi (a)",
+      "submit": "Tokua ni na kodoro wande",
+      "progress": "Fichier ti rendu...",
+      "download_ready": "Dossier ni ayeke prêt",
+      "download_button": "Téléchargé fichier ni"
+    },
+    "notes": {
+      "placeholder": "Akete tënë na ndo ti kua so...",
+      "saved_at": "A bata ni na {{time}} . "
+    },
+    "lyrics": {
+      "placeholder": "Sû atënë ti bia ni ge. Lo palette na mbage ti zia na yâ ni a-étiquette ti Suno.",
+      "saved_at": "A bata ni na {{time}} . ",
+      "saving": "Sauvegarde...",
+      "versions": "Aversion",
+      "versions_empty": "A bata aversê ni pëpe.",
+      "version_preview": "Aperçu",
+      "restore": "Kiri na version so .",
+      "restore_confirm_title": "Restauré version so?",
+      "restore_confirm_description": "A yeke zia ande na place ti atënë so ayeke dä fadeso version so a bata ni na {{date}} .",
+      "metatags_title": "A-méta-étiquette",
+      "metatags_hint": "Zia mbeni tag ti zia ni na ndo ti curseur ni.",
+      "metatags_placebo_warning": "Unproven — alingbi ti sara ye oko pëpe na ndo ti ye so asi.",
+      "metatags_empty": "A sû iri ti azo na mbeti pëpe."
+    },
+    "prompts": {
+      "style_title": "Style ti hunda",
+      "lyrics_title": "Tënë ti yâ ti bia ni",
+      "template_label": "Modèle",
+      "template_none": "Modèle ni ayeke dä pëpe",
+      "variables_title": "Aye so ayeke changé",
+      "preview_title": "Aperçu",
+      "preview_empty": "Soro mbeni modèle na mo sû na yâ ni avariable ti bâ mbeni aperçu.",
+      "char_count": " {{count}} a-image",
+      "char_count_warning": "Style so ahunda ti tene a sara kua na a-image ahon 1000 alingbi ti wara trunqué na Suno.",
+      "copy": "Copié",
+      "copied": "A copié ni na tableau ti clip .",
+      "save_to_project": "Enregistrer na projet .",
+      "saved_to_project": "Prompt so a bata ni na projet .",
+      "history_title": "Mbaï",
+      "history_empty": "A yeke wara pëpe ambeni version so ahon.",
+      "current_label": "Fadeso"
+    },
+    "stems": {
+      "title": "Vocal na guitare .",
+      "separate_button": "A kangbi yâ ti go ti mo na guitare .",
+      "running": "Kaïngo popo ti...",
+      "vocals": "Azo ti go",
+      "instrumental": "Ye ti pikango mozoko",
+      "process_stem": "Processé tige so",
+      "empty": "A mû ni ti kangbi yâ ni pëpe. Run séparation ti mä go na guitare na yâ ti isolement.",
+      "capability_missing": "A yeke wara na yâ ti serveur ni source ti kangbingo popo ti aye.",
+      "unavailable": "A kangbi popo ti vocal/guitare na ndo ti serveur so encore ape."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Na .",
+    "boolean_off": "Off"
+  },
+  "import": {
+    "title": "Importer",
+    "subtitle": "Ga na aprojet so ayeke na ndo ti disque awe na yâ ti bibliothèque ni.",
+    "step_indicator": "Etape {{current}} ti {{total}} ",
+    "step1": {
+      "title": "Gi dossier ni",
+      "description": "Fa na ndo ti dossier ti root ni a-projet ti mo nga na a-piste ti mo.",
+      "path_label": "Lege ti dossier",
+      "path_placeholder": "pn. E:\\Robbs\\Fandara\\Mozoko\\ROBBS",
+      "recent_label": "A ninga pëpe",
+      "scan_button": "Scanner dossier",
+      "scanning": "Scanning...",
+      "ffmpeg_warning": "FFmpeg a wara pëpe — a yeke zia ande afichier so a hunda ti changé ni.",
+      "folders_found_one": " {{count}} dossier so a wara .",
+      "folders_found_other": " {{count}} adossier so a wara .",
+      "unmatched_files_one": " {{count}} fichier so a hinga ni pëpe",
+      "unmatched_files_other": " {{count}} afichier so a hinga ni pëpe"
+    },
+    "step2": {
+      "title": "Kiringo na ndo ti aye .",
+      "description": "Bâ a-iri, a-état nga na aye so a yeke ga na ni kozoni si mo confirmé ni.",
+      "select_all": "Soro aye kue .",
+      "table": {
+        "folder": "Dossier ti lingu ni",
+        "name": "Iri ti kusala ni",
+        "status": "Statut",
+        "audio": "Audio",
+        "lyrics": "Tënë ti bia ni",
+        "cover": "Couverture",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} fichier so a soro ni .",
+      "audio_include_other": " {{count}} afichier so a soro ni .",
+      "no_audio": "A wara mbeni audio pëpe",
+      "no_lyrics": "A wara atënë ti yâ ti bia ni pëpe",
+      "no_cover": "Couverture ni ayeke dä pëpe",
+      "warnings_title": "Agboto mê"
+    },
+    "step3": {
+      "title": "Importer",
+      "description": "Confirmé ti copié afichier ni na ti créé aprojet ni.",
+      "copy_originals": "Copié akozo fichier ni na yâ ti bibliothèque ni .",
+      "execute_button": "Komanse ti importé",
+      "progress_title": "Ti ga na ni...",
+      "created_count": "A leke ni: {{count}} ",
+      "skipped_count": "A hon: {{count}} ",
+      "done_title": "Importation ni ahunzi awe",
+      "done_description": "A leke aprojet so ayeke na gbe ni ge na yâ ti bibliothèque ti mo.",
+      "view_project": "Projet so a zi ni",
+      "start_over": "Afini ye so a ga na ni ."
+    }
+  },
+  "templates": {
+    "title": "Modèle",
+    "subtitle": "A lingbi ti kiri ti sara kua na a-modèle ti prompte nga na a-méta-tag ndali ti Suno.",
+    "tabs": {
+      "prompts": "A-modèle ti hundango ye",
+      "metatags": "A-méta-étiquette"
+    },
+    "new_template": "Fini modèle .",
+    "kind": {
+      "style": "Style",
+      "lyrics": "Tënë ti bia ni"
+    },
+    "kind_label": "Nzoni bê",
+    "delete_confirm_title": "Effacé modèle \" {{name}} \"?",
+    "delete_confirm_description": "Ye so alingbi ti kiri na peko pëpe.",
+    "empty": "A yeke wara a-modèle pëpe.",
+    "editor": {
+      "title_new": "Fini modèle .",
+      "title_edit": "Modèle ti lekengo ni",
+      "name_label": "Iri",
+      "name_placeholder": "pn. Ballade acoustique",
+      "kind_label": "Nzoni bê",
+      "template_label": "Modèle ti mbeti",
+      "template_hint": "Marqué ndo so variable oko oko ayeke dä na iri ti lo so a kanga ni na yâ ti a-crochet use — na tapande, mbeni variable so iri ni ayeke “genre” aga genre so a kanga ni na yâ ti a-crochet use ti tongo nda ni nga na a-crochet use ti hunzingo ni.",
+      "variables_label": "Aye so ayeke changé",
+      "variable_add": "A yeke wara variable",
+      "variable_name": "Clé",
+      "variable_label": "Étiquette",
+      "variable_type": "Mara ti",
+      "variable_type_string": "Mbeti",
+      "variable_type_select": "Soro oko",
+      "variable_type_multiselect": "Soro ye mingi",
+      "variable_type_number": "Numéro 1 .",
+      "variable_type_boolean": "En/en",
+      "variable_options": "A-option (a kangbi popo ti ala na virgule)",
+      "variable_required": "A hunda",
+      "save": "Modèle ti batango"
+    },
+    "metatags": {
+      "title": "A-méta-étiquette",
+      "subtitle": "A-étiquette ti structure na ti style Suno ahinga na yâ ti atënë ti yâ ti bia ni.",
+      "new_tag": "Fini tag .",
+      "tag_label": "Tag",
+      "tag_placeholder": "pn. guitare-solo",
+      "category_label": "Catégorie",
+      "tier_label": "Zo alingbi ti zia bê na lo",
+      "tier_legend_title": "Légende ti confiance",
+      "tier_legend": {
+        "1": "Tier 1 — a sû mbeti na ndo ni na ague oko .",
+        "2": "Tier 2 — mingi ni a yeke sala kusala .",
+        "3": "Tier 3 — effet so ayeke changé .",
+        "4": "Niveau 4 — placebo, so a fa ni pëpe ."
+      },
+      "description_label": "Fango nda ti ye",
+      "delete_confirm_title": "Effacé étiquette \" {{tag}} \"?",
+      "empty": "A yeke pëpe a-étiquette ti coutume."
+    }
+  },
+  "settings": {
+    "title": "Paramètres",
+    "subtitle": "Asango ti système ni, yanga ti kodoro ni nga na aye so mo ye.",
+    "system_info_title": "Système",
+    "version": "Version 1 .",
+    "data_dir": "Dossier ti asango",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "A yeke dä",
+    "ffmpeg_missing": "A wara ni pëpe",
+    "capabilities_title": "A leke akode ti .",
+    "capability": {
+      "denoise": "Ti sara si bruit adë",
+      "quality": "Ti sara si qualité ni aga nzoni",
+      "separate": "Source ti kangbingo popo ti",
+      "ffmpeg": "FFmpeg ti gbian"
+    },
+    "capability_available": "A yeke dä",
+    "capability_unavailable": "A yeke wara ni pëpe",
+    "gpu_title": "Accélération ti GPU",
+    "gpu": {
+      "torch_cuda": "PyTorche CUDA",
+      "ort_providers": "ONNX Azo so ayeke mû ngoi ti sarango kua"
+    },
+    "gpu_none": "A wara pëpe azo so ayeke mû GPU .",
+    "language_title": "yanga ti kodoro",
+    "language": {
+      "pt-BR": "Portugal (Brésil)",
+      "en": "Anglais"
+    },
+    "theme_title": "Lege ti bango ndo",
+    "theme": {
+      "dark": "Bingo",
+      "light": "Lumière"
+    },
+    "defaults_title": "Exporté a-defaut",
+    "lufs_target_label": "Cible ti LUFS",
+    "lufs_target_hint": "Lo mû wango ti tongo nda ni na ngoi so lo yeke exporté ni. Suno ti defaut ni aduti na ndo ti -14 LUFS.",
+    "saved": "A bata aye so mo ye"
+  },
+  "guide": {
+    "title": "Guide ti enregistrement ti Suno",
+    "subtitle": "Tongana nyen ti gbu go na guitare amû ti wara anzoni ye.",
+    "intro": "Suno asala kusala nzoni mingi na atondo so ayeke propre, so ayeke na kite oko pëpe. Mbeti so asara tënë na ndo ti lekengo tere, a-niveau ti cible nga na mbeni script ti enregistrement ti penze-ngbonga 3–5.",
+    "sections": {
+      "prep": {
+        "title": "Lekengo ye",
+        "body": "Enregistré ni na yâ ti mbeni chambre so a sara kua na ni wala mbeni chambre so ayeke na gbâ ti aye so ayeke ngangu pëpe (arideau, atapis, abongo na yâ ti mbeni armoire). Zia a-ventilateur nga na aye kue so ayeke huru. Zia go ti mo na yâ ti penze-ngbonga 5 kozoni si mo enregistré ni."
+      },
+      "levels": {
+        "title": "A yeke wara na yâ ni: -12 ti si na -6 dBFS",
+        "body": "A yeke wara akota tênë so ayeke na popo ti -12 na -6 dBFS na ndo ti mètre ni. Na gbe ti range so, bruit ti peko ayeke ga ye so azo ayeke bâ ni mingi; na ndo ni, risque ti clipping ayeke gue na li ni. Lo mû mètre so ayeke na ndo ti lembeti ti Enregistrement ti leke gain ti lo kozoni si lo komanse."
+      },
+      "distance": {
+        "title": "Mic yongo ni ayeke 15–30 cm",
+        "body": "Zia yongo ti micro ni ayeke 15 ti si na 30 cm. A yeke ngangu pëpe ti tene e sara tënë ti plosives nga na effet ti proximité; yongoro mingi a yeke wara gbâ ti reverb ti chambre nga na bruit."
+      },
+      "script": {
+        "title": "Script ti enregistrement",
+        "warmup": "Chauffage ti go (penze-ngbonga 1–2)",
+        "vowels": "A-voyelle so agbu bê ti zo — a, e, i, o, u .",
+        "scales": "Akete échelle, na nduzu nga na gbe ni .",
+        "excerpt": "Mbeni mbage ti bia (abarre 8 ti si na 16)",
+        "dynamics": "Dynamique: komanse na ngangu pëpe, hunzi na kota go",
+        "spoken_phrase": "Mbeni tënë so a tene, tongaso si Suno alingbi ti diko go ti mo ."
+      },
+      "expectations": {
+        "title": "Ye so Suno ayeke ku .",
+        "body": "WAV, 48 kHz, mono, sec (a yeke na reverb wala a-effet pëpe), penze-ngbonga 3 ti si na 5 ti référence. Mingi ni, a yeke nzoni ti tene a mû penze-ngbonga 2 so ayeke propre nga so ayeke fa ye mingi."
+      }
+    }
+  },
+  "status": {
+    "idea": "Idée",
+    "em_progresso": "Na yâ ti guengo na li ni",
+    "quase": "A yeke ndulu na ndo so .",
+    "pronto": "Prêt"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Script ti go ti Suno kue .",
+      "desc": "Minute 5 so a fa lege na ni: chauffage, a-voyelle, a-échelle, ambeni mbage ti bia use, dynamique nga na mbeni tënë so a tene."
+    },
+    "step": {
+      "warmup": "Chauffage ti go",
+      "warmup_inst": "Zia yanga ti mo na lege ti baye, na lege ti atënë ti yanga (brrr), nga na mbeni totongo ti go so ayeke ngangu pëpe teti penze-ngbonga oko tongaso. A hunda pëpe ti enregistré ni — a yeke gi ti tene go ti mo adë kozoni si mo he bia.",
+      "vowels": "A-voyelle so agbu bê ti zo .",
+      "vowels_inst": "Gbu voyelle oko oko — a, e, i, o, u — teti asegonde 3 ti si na 4 na kota go ti mo so ayeke nzoni, na mbeni kota go so ayeke ngbâ lakue. Ye so ayeke mû maboko na Suno ti mä nzoni timbre ti go ti mo.",
+      "scales": "Échelle na nduzu na gbe ni .",
+      "scales_inst": "He mbeni échelle so ayeke ngangu pëpe na nduzu na pekoni na gbe ni, na ndo ti \"la\" wala \"na\". A hunda pëpe ti tene a duti mbilimbili-kue — ye so mo zia na gbele mo ayeke ti sara carte ti go ti mo.",
+      "section": "Mbeni mbage ti bia — mbage 1",
+      "section_inst": "He bia ni na akota barre 8 ti si na 16, na tâ ye so mo ye ti fa. Zia polele nga na dutingo dä na kozo ndo ahon ti duti mbilimbili-kue na lege ti senda-ye.",
+      "section2": "Mbeni mbage ti bia — mbage 2",
+      "section2_inst": "He ambeni barre 8 ti si na 16 — a yeke nzoni ti he mbeni chorale wala mbeni mbage so ayeke nde na ti kozoni. Ti sara ye nde nde mingi ayeke mû maboko na model ni ti manda go ti mo.",
+      "dynamics": "Dynamique: ngangu pëpe → ngangu",
+      "dynamics_inst": "He bia oko tënë so ti to nda ni na ngangu pëpe na ti hunzi na kota go, sân ti tene go ti mo akpengba. Ye so afa Suno so go ti mo ayeke na ngangu.",
+      "spoken": "Tënë so a tene",
+      "spoken_inst": "Sara tënë — he bia pëpe — mbeni nduru tënë so ayeke na lege ni, mo bâ mo tene mo yeke sara lisoro. Ye so ayeke mû maboko na Suno ti hinga tâ timbre ti go ti mo."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Kiringo na aye",
+      "filter": "Afiltre",
+      "dynamics": "Dynamique",
+      "separation": "Kaïngo popo ti azo",
+      "quality": "Qualité",
+      "utility": "Utilité",
+      "loudness": "Kota go"
+    },
+    "highpass": "Filtre ti ga na ni",
+    "lowpass": "Filtre ti hon na gbe ni",
+    "denoise": "Ti sara si bruit adë",
+    "declip": "Ti zi",
+    "declick": "Cliqué/pop ti zi ni",
+    "deesser": "De-ésser",
+    "gate": "Porte ti bruit",
+    "compressor": "Compresseur",
+    "limiter": "Limiteur",
+    "eq": "Egalité",
+    "normalize": "Normalisation ti kota ni",
+    "loudness": "Normalisation ti go ti zo (LUFS)",
+    "reverb_reduce": "Reverb ti réduction",
+    "separate": "Source ti kangbingo popo ti",
+    "quality": "A yeke sara si qualité ni aga nzoni (upscale)",
+    "trim_silence": "Silence ti kongo",
+    "fade": "Fade na yâ ti / fade na gigi .",
+    "stereo_to_mono": "Convertiser na mono .",
+    "resample": "Kiri ti mû échantillon"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Zo ti zia bê na lo",
+      "2": "Mingi ni, a yeke sara kua .",
+      "3": "Variable",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Lege ti lekengo ye",
+      "vocal": "Vocal",
+      "instrument": "Ye ti pikango mozoko",
+      "dynamics": "Dynamique",
+      "production": "Salango ye",
+      "mood": "Humeur"
+    },
+    "verse": "Versê 11 .",
+    "chorus": "Chorale",
+    "bridge": "Pont",
+    "intro": "Kozo tënë",
+    "outro": "Outro",
+    "hook": "Crochet",
+    "prechorus": "Pre-chorale",
+    "instrumental": "Ye ti pikango mozoko",
+    "guitar_solo": "Solo ti guitare",
+    "build_up": "Bungbingo ye",
+    "breakdown": "Kaïngo yâ ti",
+    "spoken_word": "Tënë so a tene",
+    "whispered": "A tene na kete go",
+    "harmonies": "A-harmonie",
+    "male_vocal": "Vocal ti koli",
+    "female_vocal": "Vocal ti wali",
+    "duet": "Duet",
+    "acoustic": "Acoustique",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Go ti propre .",
+    "voice_guitar_balanced": "Voix & guitare équilibré",
+    "podcast": "Podcast",
+    "suno_ready": "Suno prêt .",
+    "gentle_restore": "Restaurer na ngangu pëpe",
+    "raw_passthrough": "A yeke sara kua na ni pëpe"
+  },
+  "errors": {
+    "unknown": "Mbeni ye asi.",
+    "network": "A lingbi ti si na serveur ni pëpe.",
+    "validation_error": "Bâ asango so mo sû.",
+    "not_found": "A wara ye ni pëpe.",
+    "project_not_found": "Projet ni ayeke dä pëpe.",
+    "take_not_found": "Take ti wara ni pëpe.",
+    "album_not_found": "Album ni ayeke dä pëpe.",
+    "preset_not_found": "Preset ni ayeke dä pëpe.",
+    "template_not_found": "Modèle ni ayeke dä pëpe.",
+    "device_busy": "Appareil ti audio ayeke sara kua na mbeni programme nde.",
+    "device_not_found": "A yeke wara pëpe appareil ti audio.",
+    "already_recording": "Mbeni enregistrement ayeke tambela awe.",
+    "ffmpeg_missing": "FFmpeg ayeke na yâ ni pëpe — zia ni ti gbian yâ ti fichier so.",
+    "disk_full": "A yeke pëpe place ti disque.",
+    "permission_denied": "A mû lege pëpe na lege so a mû na lo.",
+    "import_path_not_found": "A wara lege ti importé ni pëpe.",
+    "job_failed": "Processing ni ahon.",
+    "job_cancelled": "A kanga lege na kusala ni.",
+    "process_failed": "Faute ti processé ti mû.",
+    "export_failed": "A lingbi ti exporté fichier ni.",
+    "record_failed": "A lingbi ti komanse ti enregistré ni."
+  },
+  "jobs": {
+    "status": {
+      "queued": "A zia molongo",
+      "running": "Ti kpe loro .",
+      "done": "A sara awe",
+      "error": "A échoué",
+      "cancelled": "A annulé ni"
+    },
+    "kind": {
+      "process": "Sarango kua na ni",
+      "export": "Tokua ni na kodoro wande",
+      "import": "Importer",
+      "record": "Enregistrement"
+    }
+  }
+}

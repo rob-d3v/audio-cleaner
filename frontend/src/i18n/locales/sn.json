@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio Cleaner"
+  },
+  "nav": {
+    "library": "Library",
+    "record": "Record",
+    "import": "Import",
+    "templates": "Matemplate",
+    "settings": "Settings",
+    "guide": "Guide"
+  },
+  "common": {
+    "save": "Sevha",
+    "saving": "Kuchengeta...",
+    "saved": "Saved",
+    "cancel": "Cancel",
+    "close": "Close",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "search": "Search",
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Edza zvakare",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "continue": "Enderera mberi",
+    "finish": "Finish",
+    "copy": "Copy",
+    "copied": "Kopirwa",
+    "download": "Download",
+    "upload": "Upload",
+    "none": "Hapana",
+    "all": "Zvose",
+    "yes": "Hongu",
+    "no": "Kwete",
+    "select": "Sarudza",
+    "optional": "optional",
+    "required": "zvinodiwa",
+    "unsaved_changes": "Shanduko dzisina kuchengetwa",
+    "name": "Zita",
+    "status": "Status",
+    "type": "Type",
+    "actions": "Zviito",
+    "empty": "Empty",
+    "browse": "Browse",
+    "remove": "Bvisa",
+    "add": "Wedzera",
+    "rename": "Rename",
+    "duplicate": "Duplicate",
+    "warning": "Yambiro",
+    "locked": "Yakakiyiwa",
+    "builtin": "Yakavakwa-mukati",
+    "custom": "Custom",
+    "untitled": "Untitled",
+    "select_placeholder": "Sarudza..."
+  },
+  "library": {
+    "title": "Library",
+    "subtitle": "Izwi rako uye gitare mapurojekiti, kubva pane zano kuenda kusunungura.",
+    "new_project": "Chirongwa chitsva",
+    "new_album": "New album",
+    "search_placeholder": "Tsvaga nezita...",
+    "view": {
+      "grid": "Grid",
+      "albums": "Albums"
+    },
+    "filters": {
+      "all": "Zvose"
+    },
+    "take_count_one": " {{count}} tora",
+    "take_count_other": " {{count}} inotora",
+    "updated_at": "Yakagadziridzwa {{date}} ",
+    "no_results": {
+      "title": "Hapana mapurojekiti awanikwa",
+      "description": "Edza kugadzirisa tsvakiridzo kana chimiro chesefa."
+    },
+    "empty": {
+      "title": "Raibhurari yako haina chinhu",
+      "description": "Tanga purojekiti nyowani kubva pakutanga, kana kupinza kunotora iwe wagara uinayo padhisiki.",
+      "cta_import": "Tumira kunze kubva muforodha",
+      "cta_new": "Gadzira chirongwa"
+    },
+    "project_dialog": {
+      "title": "Chirongwa chitsva",
+      "description": "Ipe zita uye sarudza yekurekodha modhi.",
+      "name_label": "Zita rechirongwa",
+      "name_placeholder": "e.g. Mvura yezhizha",
+      "mode_label": "Mode",
+      "mode": {
+        "voice": "Izwi chete",
+        "voice_guitar": "Izwi + gitare"
+      },
+      "submit": "Gadzira chirongwa"
+    },
+    "album_dialog": {
+      "title": "New album",
+      "description": "Boka mapurojekiti ane hukama mualbum.",
+      "name_label": "Album name",
+      "name_placeholder": "e.g. Autumn EP",
+      "submit": "Gadzira album"
+    },
+    "album": {
+      "untitled": "Untitled album",
+      "members_count_one": " {{count}} chirongwa",
+      "members_count_other": " {{count}} mapurojekiti",
+      "empty": "Hapana mapurojekiti mualbum rino.",
+      "delete_confirm_title": "Delete album?",
+      "delete_confirm_description": "Mapurojekiti haazodzimwa, asi haana kubatana kubva ku \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Delete \" {{name}} \"?",
+      "confirm_description": "Izvi zvinobvisa purojekiti uye zvese zvinotora mairi. Izvi hazvigone kugadziriswa."
+    }
+  },
+  "record": {
+    "title": "Record",
+    "subtitle": "Bata kutora kwakachena, tarisa mazinga ako, uye tevera script.",
+    "project_label": "Project",
+    "project_placeholder": "Sarudza chirongwa",
+    "project_create_quick": "Gadzira chirongwa chinokurumidza…",
+    "device_label": "Input mudziyo",
+    "device_placeholder": "Sarudza mudziyo",
+    "device_default_badge": "System default",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Hapana michina yekupinza yawanikwa.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Rega kuongorora",
+    "record_button": "Record",
+    "stop_button": "Mira",
+    "elapsed_label": "Nguva yakapfuura",
+    "status": {
+      "idle": "Idle",
+      "monitoring": "Monitoring",
+      "recording": "Kurekodha",
+      "stopped": "Akamira"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Peak",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Guided session",
+      "subtitle": "Rega murairidzi akufambise mugwaro nhanho nhanho, kubva pakudziya-kumusoro kusvika kumutsara unotaurwa.",
+      "loading": "Kurodha zvinyorwa...",
+      "unavailable": "Iyo inotungamirwa haisati yave kuwanikwa paserver.",
+      "select_project_device": "Sarudza purojekiti uye mudziyo wekupinza kurekodha matanho kubva pano.",
+      "progress": " {{done}} ye {{total}} nhanho",
+      "start_timer": "Tanga timer",
+      "skip_timer": "Skip timer",
+      "record_step": "Nyora danho iri",
+      "stop_step": "Mira kurekodha",
+      "mark_done": "Zvaitwa - nhanho inotevera",
+      "step_recorded": "Tora rekodhi",
+      "no_record_step": "Kudziya-up nhanho - hapana kurekodha kunodiwa.",
+      "bars_hint": "Nezve {{bars}} mabara",
+      "complete_title": "Rugwaro rwakakwana!",
+      "complete_body": "Wakarekodha nhanho yega yega. Dzokera kuAudio tebhu yeprojekiti uye tora zvaunofarira kutora.",
+      "restart": "Tangazve script"
+    },
+    "best2min": {
+      "button": "Tsvaga akanakisa maminetsi maviri (Suno)",
+      "running": "Kuongorora kutora…",
+      "score_label": "Chibodzwa",
+      "hint": "Inoita ongororo yesimba nekujeka pamusoro pekutora kwese kuti uwane hwindo rayo rakasimba remaminetsi maviri - unokwanisa kugadzirisa huwandu neruoko mushure.",
+      "chart_caption": "Zvibodzwa pahwindo",
+      "unavailable": "Iyo yemhando yepamusoro-2-maminetsi ekuongorora haisati yavepo pane ino server."
+    },
+    "takes_title": "Zvinotora kubva muchikamu chino",
+    "takes_empty": "Hapana zvakatorwa zvakarekodhwa muchikamu chino.",
+    "open_in_project": "Vhura muprojekiti",
+    "ws_disconnected": "Kubatanidza kusvika palevel mita…",
+    "select_project_first": "Sarudza purojekiti kuti utange.",
+    "select_device_first": "Sarudza mudziyo wekuisa."
+  },
+  "project": {
+    "back_to_library": "Dzokera kuraibhurari",
+    "header": {
+      "status_label": "Status",
+      "cover_upload": "Upload cover",
+      "cover_remove": "Bvisa chivharo",
+      "name_placeholder": "Zita rechirongwa",
+      "links_title": "Links",
+      "add_link": "Wedzera link",
+      "mode": {
+        "voice": "Izwi chete",
+        "voice_guitar": "Izwi + gitare"
+      }
+    },
+    "tabs": {
+      "audio": "Vadivelu Comedy Audio",
+      "lyrics": "Lyrics",
+      "prompts": "Prompts",
+      "notes": "Notes"
+    },
+    "audio": {
+      "takes_title": "Inotora",
+      "no_takes": {
+        "title": "Hapana zvinotora",
+        "description": "Rekodha kutora kutsva kana unza faira riripo."
+      },
+      "record_new": "Rekodha kutora kutsva",
+      "rating": "Rating",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Yakagadziriswa"
+      },
+      "variant_placeholder": "Version",
+      "process_button": "Process",
+      "export_button": "Export",
+      "delete_take_confirm_title": "Delete this take?",
+      "delete_take_confirm_description": "Iyo mbishi audio uye yega yega yakagadziriswa inobviswa.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Yakagadziriswa"
+      },
+      "origin": {
+        "recorded": "Recorded",
+        "imported": "Kubva kunze kwenyika"
+      },
+      "session_label_placeholder": "Session label (optional)",
+      "duration": "Duration",
+      "sample_rate": "Sample rate",
+      "channels": "Channels",
+      "created_at": "Recorded"
+    },
+    "pipeline": {
+      "title": "Processing cheni",
+      "preset_label": "Preset",
+      "preset_none": "Custom cheni",
+      "preset_save": "Sevha seyakagadzirirwa",
+      "stage_locked": "Yakakiyiwa",
+      "stage_requires_extra": "Inoda imwe yekuwedzera isina kuiswa",
+      "process_button": "Process take",
+      "processing": "Kugadzira...",
+      "job_queued": "Yakaiswa mumutsara...",
+      "job_running": "Kugadzira...",
+      "job_done": "Ndapedza",
+      "job_error": "Akundikana",
+      "job_cancelled": "Kanzurwa",
+      "cancel_job": "Cancel",
+      "no_stages": "Hapana nhanho dziripo."
+    },
+    "export": {
+      "title": "Export take",
+      "description": "Ipa faira yekupedzisira kubva kune yakagadziridzwa shanduro.",
+      "variant_label": "Version",
+      "format_label": "Format",
+      "preset_label": "Export preset",
+      "range_label": "Range",
+      "range_full": "Hurefu hwakazara",
+      "range_custom": "Custom range",
+      "start_label": "Tanga (s)",
+      "end_label": "Kupera (s)",
+      "submit": "Export",
+      "progress": "Kuburitsa faira...",
+      "download_ready": "Faira yakagadzirira",
+      "download_button": "Dhaunirodha faira"
+    },
+    "notes": {
+      "placeholder": "Yemahara-fomu zvinyorwa nezve chirongwa ichi…",
+      "saved_at": "Yachengetwa pa {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Nyora mazwi acho pano. Shandisa palette padivi kuisa Suno meta-tags.",
+      "saved_at": "Yachengetwa pa {{time}} ",
+      "saving": "Kuchengeta...",
+      "versions": "Versions",
+      "versions_empty": "Hapasati pave neshanduro dzakachengetwa.",
+      "version_preview": "Preview",
+      "restore": "Dzosa shanduro iyi",
+      "restore_confirm_title": "Dzosera shanduro iyi?",
+      "restore_confirm_description": "Mavara azvino achatsiviwa neshanduro yakachengetwa pa {{date}} .",
+      "metatags_title": "Meta-tags",
+      "metatags_hint": "Dzvanya tag kuti uiise pane cursor.",
+      "metatags_placebo_warning": "Unproven - inogona kunge isina mhedzisiro pane mhedzisiro.",
+      "metatags_empty": "Hapana meta-tags akanyoreswa."
+    },
+    "prompts": {
+      "style_title": "Chimiro chekukurumidza",
+      "lyrics_title": "Lyrics prompt",
+      "template_label": "Template",
+      "template_none": "Hapana template",
+      "variables_title": "Variables",
+      "preview_title": "Preview",
+      "preview_empty": "Sarudza template uye uzadze izvo zvakasiyana kuti uone preview.",
+      "char_count": " {{count}} mavara",
+      "char_count_warning": "Chimiro chinosimudzira anopfuura 1000 mavara anogona kuderedzwa naSuno.",
+      "copy": "Copy",
+      "copied": "Kopiwa kuclipboard",
+      "save_to_project": "Chengetedza kupurojekiti",
+      "saved_to_project": "Kurumidza kuchengetwa kupurojekiti",
+      "history_title": "Nhoroondo",
+      "history_empty": "Hapana shanduro yapfuura.",
+      "current_label": "Current"
+    },
+    "stems": {
+      "title": "Vocals uye gitare",
+      "separate_button": "Kusiyanisa mazwi uye gitare",
+      "running": "Kupatsanura...",
+      "vocals": "Vocals",
+      "instrumental": "Instrumental",
+      "process_stem": "Gadzirisa dzinde iri",
+      "empty": "Kutora uku hakusati kwaparadzaniswa. Mhanya kupatsanura kuti unzwe kuimba uye gitare uri wega.",
+      "capability_missing": "Kupatsanura kwekwakabva hakuna kuiswa pasevha iyi.",
+      "unavailable": "Kupatsanurwa kwezwi/gitare hakusati kwave kuwanikwa pane ino server."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "On",
+    "boolean_off": "Off"
+  },
+  "import": {
+    "title": "Import",
+    "subtitle": "Hunza mapurojekiti anenge aripo padhisiki muraibhurari.",
+    "step_indicator": "Nhanho {{current}} ye {{total}} ",
+    "step1": {
+      "title": "Tsvaga folda",
+      "description": "Nongedza kumudzi folda nemapurojekiti ako uye mateki.",
+      "path_label": "Folder nzira",
+      "path_placeholder": "e.g. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "Recent",
+      "scan_button": "Scan forodha",
+      "scanning": "Kutarisa...",
+      "ffmpeg_warning": "FFmpeg haina kuwanikwa - mafaera anoda kushandurwa anosvetuka.",
+      "folders_found_one": " {{count}} folda yawanikwa",
+      "folders_found_other": " {{count}} maforodha awanikwa",
+      "unmatched_files_one": " {{count}} faira risingazivikanwe",
+      "unmatched_files_other": " {{count}} mafaira asingazivikanwe"
+    },
+    "step2": {
+      "title": "Ongorora zvinhu",
+      "description": "Tarisa mazita, mastatus, uye chii chichatengeswa kunze kwenyika usati wasimbisa.",
+      "select_all": "Sarudza zvese",
+      "table": {
+        "folder": "Source folder",
+        "name": "Zita rechirongwa",
+        "status": "Status",
+        "audio": "Vadivelu Comedy Audio",
+        "lyrics": "Lyrics",
+        "cover": "Cover",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} faira rakasarudzwa",
+      "audio_include_other": " {{count}} mafaira akasarudzwa",
+      "no_audio": "Hapana audio yawanikwa",
+      "no_lyrics": "Hapana mazwi akawanikwa",
+      "no_cover": "Hapana chivharo",
+      "warnings_title": "Yambiro"
+    },
+    "step3": {
+      "title": "Import",
+      "description": "Simbisa kukopa mafaera uye kugadzira mapurojekiti.",
+      "copy_originals": "Kopa mafaira ekutanga muraibhurari",
+      "execute_button": "Tanga kupinza",
+      "progress_title": "Kutora kunze...",
+      "created_count": "Yakagadzirwa: {{count}} ",
+      "skipped_count": "Yasvetuka: {{count}} ",
+      "done_title": "Kupinza zvinhu zvachose",
+      "done_description": "Mapurojekiti ari pasi apa akagadzirwa muraibhurari yako.",
+      "view_project": "Vhura chirongwa",
+      "start_over": "New import"
+    }
+  },
+  "templates": {
+    "title": "Matemplate",
+    "subtitle": "Reusable prompt templates uye meta-tags yeSuno.",
+    "tabs": {
+      "prompts": "Kurumidza matemplate",
+      "metatags": "Meta-tags"
+    },
+    "new_template": "New template",
+    "kind": {
+      "style": "Style",
+      "lyrics": "Lyrics"
+    },
+    "kind_label": "Kind",
+    "delete_confirm_title": "Delete template \" {{name}} \"?",
+    "delete_confirm_description": "Izvi hazvigone kugadziriswa.",
+    "empty": "Hapana matemplate parizvino.",
+    "editor": {
+      "title_new": "New template",
+      "title_edit": "Rongedza template",
+      "name_label": "Zita",
+      "name_placeholder": "e.g. Acoustic ballad",
+      "kind_label": "Kind",
+      "template_label": "Template text",
+      "template_hint": "Maka apo imwe neimwe vhezheni ine zita rayo yakaputirwa mumakumbo akamonereka maviri - semuenzaniso, shanduko inonzi \"genre\" inova genre yakaputirwa mumabhureki maviri ekuvhara uye maviri ekuvhara.",
+      "variables_label": "Variables",
+      "variable_add": "Add variable",
+      "variable_name": "Key",
+      "variable_label": "Label",
+      "variable_type": "Type",
+      "variable_type_string": "Text",
+      "variable_type_select": "Single sarudza",
+      "variable_type_multiselect": "Multi-select",
+      "variable_type_number": "Number",
+      "variable_type_boolean": "Hongu/kwete",
+      "variable_options": "Sarudzo (zvakaparadzaniswa nemakoma)",
+      "variable_required": "Zvinodiwa",
+      "save": "Sevha template"
+    },
+    "metatags": {
+      "title": "Meta-tags",
+      "subtitle": "Zvimiro uye masitayera tag Suno anoona mukati memazwi.",
+      "new_tag": "New tag",
+      "tag_label": "Tag",
+      "tag_placeholder": "e.g. gitare-solo",
+      "category_label": "Category",
+      "tier_label": "Kuvimbika",
+      "tier_legend_title": "Kuvimbika ngano",
+      "tier_legend": {
+        "1": "Tier 1 - yakanyorwa uye inowirirana",
+        "2": "Tier 2 - kazhinji inoshanda",
+        "3": "Tier 3 - inoshanduka mhedzisiro",
+        "4": "Chikamu 4 - placebo, isina kuratidzwa"
+      },
+      "description_label": "Tsanangudzo",
+      "delete_confirm_title": "Delete tag \" {{tag}} \"?",
+      "empty": "Hapana tsika meta-tags parizvino."
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Ruzivo rweSistimu, mutauro, uye zvinogara zvichidiwa.",
+    "system_info_title": "System",
+    "version": "Version",
+    "data_dir": "Data folder",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Available",
+    "ffmpeg_missing": "Haina kuwanikwa",
+    "capabilities_title": "Akaiswa kugona",
+    "capability": {
+      "denoise": "Kuderedza ruzha",
+      "quality": "Kuvandudza kunaka",
+      "separate": "Kupatsanurwa kubva",
+      "ffmpeg": "FFmpeg kutendeuka"
+    },
+    "capability_available": "Available",
+    "capability_unavailable": "Hauwanikwi",
+    "gpu_title": "GPU kukurumidza",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime vanopa"
+    },
+    "gpu_none": "Hapana vanopa GPU vaonekwa",
+    "language_title": "Mutauro",
+    "language": {
+      "pt-BR": "Português (Brasil)",
+      "en": "English"
+    },
+    "theme_title": "Chitarisiko",
+    "theme": {
+      "dark": "Rima",
+      "light": "Chiedza"
+    },
+    "defaults_title": "Export defaults",
+    "lufs_target_label": "Target LUFS",
+    "lufs_target_hint": "Inoshandiswa seyambiro yekutanga kana kutumira kunze kunotora. Suno's default inogara yakatenderedza -14 LUFS.",
+    "saved": "Zvadiwa zvachengetwa"
+  },
+  "guide": {
+    "title": "Suno rekodhi gwara",
+    "subtitle": "Maitiro ekutora izwi uye gitare zvinotora izvo zvinowana zvakanakisa mhedzisiro.",
+    "intro": "Suno anoita zvakanyanya neakachena, mareferensi asina kujeka. Gwaro iri rinobata gadziriro, nhanho dzetariro, uye 3-5 maminetsi ekurekodha script.",
+    "sections": {
+      "prep": {
+        "title": "Kugadzirira",
+        "body": "Nyora muimba yakarapwa kana imwe ine zvinhu zvakawanda zvakapfava (maketeni, machira, zvipfeko muwadhiropu). Dzima mafeni uye chero chinhu chinonzwika. Dziyisa izwi rako kwemaminitsi mashanu usati warekodha."
+      },
+      "levels": {
+        "title": "Nhamba: -12 kusvika -6 dBFS",
+        "body": "Vavarira kukwirira kuri pakati pe -12 ne -6 dBFS pamamita. Pazasi penzvimbo iyi, ruzha rwekumashure rwunonyanya kuoneka; pamusoro payo, kudonha njodzi inokwira. Shandisa mita paRekodha peji kuti uise kuwana kwako usati watanga."
+      },
+      "distance": {
+        "title": "Mic kure: 15-30 cm",
+        "body": "Gara 15 kusvika 30 cm kubva kumakrofoni. Pedyo kupfuura iyo inowedzeredza plosives uye proximity effect; kure kure anotora mamwe kamuri reverb uye ruzha."
+      },
+      "script": {
+        "title": "Kurekodha script",
+        "warmup": "Kudziya kwezwi (1-2 maminitsi)",
+        "vowels": "Mavhawero akasimba - a, e, i, o, u",
+        "scales": "Zviyero zviri nyore, kumusoro uye pasi",
+        "excerpt": "Chidimbu cherwiyo (8 kusvika 16 mabara)",
+        "dynamics": "Dynamics: tanga zvinyoro, kupera zvine ruzha",
+        "spoken_phrase": "Mutsara mumwe chete unotaurwa, kuti Suno averenge inzwi rako"
+      },
+      "expectations": {
+        "title": "Zvinotarisirwa naSuno",
+        "body": "WAV, 48 kHz, mono, yakaoma (hapana reverb kana mhedzisiro), 3 kusvika ku5 maminetsi ereferensi. Iyo yakachena, yakawanda inomiririra 2 maminetsi ekutora kazhinji inoburitsa zvakanakisa mhedzisiro."
+      }
+    }
+  },
+  "status": {
+    "idea": "Idea",
+    "em_progresso": "Zviri kuitika",
+    "quase": "Kunenge kwasvika",
+    "pronto": "Ready"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Runyoro rwakazara rwezwi reSuno",
+      "desc": "Maminitsi mashanu anotungamirwa: kudziya, mavhawero, zvikero, zvinyorwa zviviri zvenziyo, simba, uye mutsara unotaurwa."
+    },
+    "step": {
+      "warmup": "Vocal warm-up",
+      "warmup_inst": "Sunungura nekuzamura, lip trills (brrr), uye hum yakapfava kweinenge miniti. Hapana chikonzero chekurekodha - kungozorodza huro yako usati waimba.",
+      "vowels": "Mavhawero akasimba",
+      "vowels_inst": "Bata mavhawero ega ega - a, e, i, o, u - kwemasekonzi matatu kusvika mana painzwi rako rakanaka, nevhoriyamu yakatsiga. Izvi zvinobatsira Suno kuti atore ruzha rweizwi rako.",
+      "scales": "Zvikero kumusoro nekudzika",
+      "scales_inst": "Imba chikero chiri nyore kumusoro uye pasi, pa \"la\" kana \"na\". Izvo hazvidi kuve akakwana - chinangwa ndechekumepu yako yezwi.",
+      "section": "Chidimbu cherwiyo - chikamu 1",
+      "section_inst": "Imba 8 kusvika ku16 mabar erwiyo, uine chinangwa chaicho chaunoda kutaura. Isa pamberi kujeka uye kuvapo pane kugona kwehunyanzvi.",
+      "section2": "Chidimbu cherwiyo - chikamu 2",
+      "section2_inst": "Imba mamwe 8 kusvika 16 mabhawa - zvakanaka korasi kana chikamu chinosiyana nechakapfuura. Zvimwe zvakasiyana-siyana zvinobatsira modhi kudzidza izwi rako.",
+      "dynamics": "Dynamics: yakapfava → ruzha",
+      "dynamics_inst": "Imba mutsara mumwe chete uchitanga zvakapfava uye uchipedzisa neruzha, pasina kuomesa huro yako. Izvi zvinoratidza Suno izwi rako rine simba renji.",
+      "spoken": "Mutsara unotaurwa",
+      "spoken_inst": "Taura - usaimba - mutsara mupfupi, wechisikigo, sekunge uri kutaura. Izvi zvinobatsira Suno kuziva manzwi chaiwo ezwi rako."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Kudzorerwa",
+      "filter": "Sefa",
+      "dynamics": "Dynamics",
+      "separation": "Kuparadzana",
+      "quality": "Hunhu",
+      "utility": "Utility",
+      "loudness": "Ruzha"
+    },
+    "highpass": "High-pass sefa",
+    "lowpass": "Low-pass sefa",
+    "denoise": "Kuderedza ruzha",
+    "declip": "Declipping",
+    "declick": "Dzvanya/pop kubviswa",
+    "deesser": "De-esser",
+    "gate": "Noise gate",
+    "compressor": "Compressor",
+    "limiter": "Limiter",
+    "eq": "Kuenzana",
+    "normalize": "Peak normalization",
+    "loudness": "Loudness normalization (LUFS)",
+    "reverb_reduce": "Reverb kuderedza",
+    "separate": "Kupatsanurwa kubva",
+    "quality": "Kuvandudza kunaka (upscale)",
+    "trim_silence": "Silence trimming",
+    "fade": "Kupera mukati / kupera kunze",
+    "stereo_to_mono": "Shandura kuita mono",
+    "resample": "Resampling"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Kuvimbika",
+      "2": "Kazhinji inoshanda",
+      "3": "Variable",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Chimiro",
+      "vocal": "Vocal",
+      "instrument": "Chimbo",
+      "dynamics": "Dynamics",
+      "production": "Kugadzirwa",
+      "mood": "Mood"
+    },
+    "verse": "Ndima",
+    "chorus": "Chorus",
+    "bridge": "Bridge",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Hook",
+    "prechorus": "Pre-chorus",
+    "instrumental": "Instrumental",
+    "guitar_solo": "Gitare rega",
+    "build_up": "Kuvaka-up",
+    "breakdown": "Breakdown",
+    "spoken_word": "Shoko rakataurwa",
+    "whispered": "Akazevezera",
+    "harmonies": "Harmonies",
+    "male_vocal": "Male vocal",
+    "female_vocal": "Mukadzi inzwi",
+    "duet": "Duet",
+    "acoustic": "Acoustic",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Izwi rakachena",
+    "voice_guitar_balanced": "Inzwi rakadzikama & gitare",
+    "podcast": "Podcast",
+    "suno_ready": "Suno ready",
+    "gentle_restore": "Nyoro dzosa",
+    "raw_passthrough": "Hapana kugadzirisa"
+  },
+  "errors": {
+    "unknown": "Pane chakaipa.",
+    "network": "Hatina kukwanisa kusvika pasevha.",
+    "validation_error": "Tarisa ruzivo rwawaisa.",
+    "not_found": "Chinhu hachina kuwanikwa.",
+    "project_not_found": "Project haina kuwanikwa.",
+    "take_not_found": "Tora haina kuwanikwa.",
+    "album_not_found": "Album haina kuwanikwa.",
+    "preset_not_found": "Preset haina kuwanikwa.",
+    "template_not_found": "template haina kuwanikwa.",
+    "device_busy": "Audio mudziyo uri kushandiswa neimwe chirongwa.",
+    "device_not_found": "Audio mudziyo hauna kuwanikwa.",
+    "already_recording": "Kurekodhwa kwave kutoitwa.",
+    "ffmpeg_missing": "FFmpeg haina kuisirwa - isa kuti ichinje faira iri.",
+    "disk_full": "Hapana nzvimbo yakakwana yedhisiki.",
+    "permission_denied": "Mvumo yarambwa yenzira yakapihwa.",
+    "import_path_not_found": "Nzira yekuunza kunze haina kuwanikwa.",
+    "job_failed": "Kugadziridza kwatadza.",
+    "job_cancelled": "Kugadziridza kwakanzurwa.",
+    "process_failed": "Yakundikana kugadzirisa kutora.",
+    "export_failed": "Tatadza kutumira faira kunze kwenyika.",
+    "record_failed": "Tatadza kutanga kurekodha."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Queued",
+      "running": "Kumhanya",
+      "done": "Ndapedza",
+      "error": "Akundikana",
+      "cancelled": "Kanzurwa"
+    },
+    "kind": {
+      "process": "Processing",
+      "export": "Export",
+      "import": "Import",
+      "record": "Kurekodha"
+    }
+  }
+}

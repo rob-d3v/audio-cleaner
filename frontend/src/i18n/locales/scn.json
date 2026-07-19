@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Pulituri di l'audio"
+  },
+  "nav": {
+    "library": "Bibbliuteca",
+    "record": "Riggistra",
+    "import": "Mpurtari",
+    "templates": "Mudelli",
+    "settings": "Impostazzioni",
+    "guide": "Guida"
+  },
+  "common": {
+    "save": "Sarba",
+    "saving": "Risparmiu...",
+    "saved": "Sarbatu",
+    "cancel": "Annulla",
+    "close": "Chiudi",
+    "delete": "Cancillari",
+    "edit": "Mudifica",
+    "create": "Criàri",
+    "search": "Ricerca",
+    "loading": "Caricamentu...",
+    "error": "Erruri",
+    "retry": "Riprova",
+    "confirm": "Cunfirmari",
+    "back": "Torna",
+    "next": "Avanti",
+    "continue": "Cuntinuari",
+    "finish": "Finiri",
+    "copy": "Copia",
+    "copied": "Cupiatu",
+    "download": "Scaricari",
+    "upload": "Carica",
+    "none": "Nuddu",
+    "all": "Tutti",
+    "yes": "Sì",
+    "no": "No",
+    "select": "Scegghiri",
+    "optional": "facultativu",
+    "required": "nicissariu",
+    "unsaved_changes": "Mudifichi nun sarbati",
+    "name": "Nomu",
+    "status": "Statu",
+    "type": "Tipu",
+    "actions": "Azzioni",
+    "empty": "Vacanti",
+    "browse": "Sfoglia",
+    "remove": "Rimuovi",
+    "add": "Aggiungi",
+    "rename": "Rinomina",
+    "duplicate": "Duplicatu",
+    "warning": "Avvertimentu",
+    "locked": "Chiusu",
+    "builtin": "Ncorpuratu",
+    "custom": "Su misura",
+    "untitled": "Senza tìtulu",
+    "select_placeholder": "Scegghiri..."
+  },
+  "library": {
+    "title": "Bibbliuteca",
+    "subtitle": "Li tò pruggetti di vuci e chitarra, di l'idèa â pubbricazzioni.",
+    "new_project": "Novu pruggettu",
+    "new_album": "Album novu",
+    "search_placeholder": "Ricerca pi nomu...",
+    "view": {
+      "grid": "Griglia",
+      "albums": "Album"
+    },
+    "filters": {
+      "all": "Tutti"
+    },
+    "take_count_one": " {{count}} pigghiari",
+    "take_count_other": " {{count}} pigghia",
+    "updated_at": "Aggiornatu {{date}} ",
+    "no_results": {
+      "title": "Nun s'attruvaru pruggetti",
+      "description": "Prova a aggiustari la ricerca o lu filtru di statu."
+    },
+    "empty": {
+      "title": "La tò bibbliuteca è vacanti",
+      "description": "Accumincia nu novu pruggettu di zeru, o mpurta li pigghiati ca già hai nnô discu.",
+      "cta_import": "Mpurtari dâ cartella",
+      "cta_new": "Criari pruggettu"
+    },
+    "project_dialog": {
+      "title": "Novu pruggettu",
+      "description": "Dàcci nu nomu e scegghi na modalità di riggistrazzioni.",
+      "name_label": "Nomu dû pruggettu",
+      "name_placeholder": "p'asempiu Chioggia estiva",
+      "mode_label": "Modu",
+      "mode": {
+        "voice": "Sulu vuci",
+        "voice_guitar": "Vuci + chitarra"
+      },
+      "submit": "Criari pruggettu"
+    },
+    "album_dialog": {
+      "title": "Album novu",
+      "description": "Raggruppari pruggetti currilati nna n'album.",
+      "name_label": "Nomu di l'album",
+      "name_placeholder": "p'asempiu EP d'autunnu",
+      "submit": "Criàri l'album"
+    },
+    "album": {
+      "untitled": "Album senza tìtulu",
+      "members_count_one": " {{count}} pruggettu",
+      "members_count_other": " {{count}} pruggetti",
+      "empty": "Ancora non ci sunnu pruggetti nna chistu album.",
+      "delete_confirm_title": "Cancillari l'album?",
+      "delete_confirm_description": "Li pruggetti nun vennu cancillati, ma sulu scunligati di \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Cancillari \" {{name}} \"?",
+      "confirm_description": "Chistu rimuovi lu pruggettu e ogni vota ca ci nni veni. Chistu nun si po annullari."
+    }
+  },
+  "record": {
+    "title": "Riggistra",
+    "subtitle": "Acquisìri na ripresa pulita, taliari li tò liveḍḍi e seguiri lu cupiuni.",
+    "project_label": "Pruggettu",
+    "project_placeholder": "Scegghi nu pruggettu",
+    "project_create_quick": "Crià nu pruggettu lestu...",
+    "device_label": "Dispusitivi di ngressu",
+    "device_placeholder": "Scegghi nu dispusitivu",
+    "device_default_badge": "Di basi dû sistema",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Nun s'attruvàru dispusitivi di 'nput.",
+    "monitor_button": "Munituri",
+    "monitor_stop_button": "Firmati lu monitoraggiu",
+    "record_button": "Riggistra",
+    "stop_button": "Firmati",
+    "elapsed_label": "Tempu trascorsu",
+    "status": {
+      "idle": "Oziusu",
+      "monitoring": "Monitoraggiu",
+      "recording": "Riggistrazzioni",
+      "stopped": "Firmatu"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Piccu",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Sissioni guidata",
+      "subtitle": "Lassati ca lu coach vi fa attravirsari lu cupiuni passu a passu, dû riscaldamentu â frasi parrata.",
+      "loading": "Caricamentu dû script...",
+      "unavailable": "La sissioni guidata nun è ancora dispunìbbili ntô server.",
+      "select_project_device": "Scegghi nu pruggettu e nu dispusitivu di nput pi arrigistrari li passaggi propriu di ccà.",
+      "progress": " {{done}} di {{total}} passaggi",
+      "start_timer": "Timer di avviamentu",
+      "skip_timer": "Salta lu timer",
+      "record_step": "Arrigistra stu passaggiu",
+      "stop_step": "Smetti la riggistrazzioni",
+      "mark_done": "Fattu - passaggiu appressu",
+      "step_recorded": "Pigghiari rigistratu",
+      "no_record_step": "Passu di riscaldamentu - non è nicissària na rigistrazzioni.",
+      "bars_hint": "Circa {{bars}} barri",
+      "complete_title": "La sciniggiatura è cumpleta!",
+      "complete_body": "Hai arrigistratu ogni passaggiu dû cupiuni. Torna â scheda Audio dû pruggettu e scegghi li riprisi ca ti piaciunu cchiù assai.",
+      "restart": "Riavvia lu script"
+    },
+    "best2min": {
+      "button": "Trova li megghiu 2 minuti (Suno)",
+      "running": "Analizzari la prisenza...",
+      "score_label": "Punteggiu",
+      "hint": "Esegui n'analisi di enirgìa e chiarità pi tuttu lu pirìudu pi truvari la finestra cchiù forti di 2 minuti - doppu si po ancora aggiustari l'intervallu a manu.",
+      "chart_caption": "Punteggiu pi finestra",
+      "unavailable": "L'analisi dî megghiu 2 minuti nun è ancora dispunìbbili supra chistu server."
+    },
+    "takes_title": "Pigghia di sta sissioni",
+    "takes_empty": "Non ci foru ancora riprisi rigistrati nna chista sissioni.",
+    "open_in_project": "Apri ntô pruggettu",
+    "ws_disconnected": "Ricunnetti ô cuntaturi di liveḍḍu...",
+    "select_project_first": "Scegghi nu pruggettu pi accuminciari.",
+    "select_device_first": "Scegghi nu dispusitivu di nput."
+  },
+  "project": {
+    "back_to_library": "Torna â bibbliuteca",
+    "header": {
+      "status_label": "Statu",
+      "cover_upload": "Carica cupirtina",
+      "cover_remove": "Rimuovi la cupirtina",
+      "name_placeholder": "Nomu dû pruggettu",
+      "links_title": "Ligami",
+      "add_link": "Aggiungi link",
+      "mode": {
+        "voice": "Sulu vuci",
+        "voice_guitar": "Vuci + chitarra"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Testi",
+      "prompts": "Suggerimenti",
+      "notes": "Noti"
+    },
+    "audio": {
+      "takes_title": "Ci voli",
+      "no_takes": {
+        "title": "Ancora non si pigghia",
+        "description": "Arrigistra na nova ripresa o mpurta nu file esistenti."
+      },
+      "record_new": "Riggistra na nova ripresa",
+      "rating": "Valutazzioni",
+      "variant": {
+        "raw": "Crudu",
+        "processed": "Trattatu"
+      },
+      "variant_placeholder": "Virsioni",
+      "process_button": "Prucessu",
+      "export_button": "Esporta",
+      "delete_take_confirm_title": "Cancillari sta ripresa?",
+      "delete_take_confirm_description": "L'àudiu crudu e ogni virsioni prucissata verrannu livati.",
+      "ab": {
+        "raw": "A · Crudu",
+        "processed": "B · Trattatu"
+      },
+      "origin": {
+        "recorded": "Riggistratu",
+        "imported": "Mpurtatu"
+      },
+      "session_label_placeholder": "Etichetta dâ sissioni (facultativa)",
+      "duration": "Durata",
+      "sample_rate": "Tassu di campionamentu",
+      "channels": "Canali",
+      "created_at": "Riggistratu"
+    },
+    "pipeline": {
+      "title": "Catina di prucidura",
+      "preset_label": "Preset",
+      "preset_none": "Catina su misura",
+      "preset_save": "Sarba comu prisintatu",
+      "stage_locked": "Chiusu",
+      "stage_requires_extra": "Richiedi n'autru ca nun è stallatu",
+      "process_button": "Prucessu pigghiari",
+      "processing": "Elaborazzioni...",
+      "job_queued": "Fattu 'n fila...",
+      "job_running": "Elaborazzioni...",
+      "job_done": "Fattu",
+      "job_error": "Fallitu",
+      "job_cancelled": "Cancillatu",
+      "cancel_job": "Annulla",
+      "no_stages": "Non ci sunnu palchi dispunìbbili."
+    },
+    "export": {
+      "title": "Esportari pigghiari",
+      "description": "Rinniri nu file finali di na virsioni prucissata.",
+      "variant_label": "Virsioni",
+      "format_label": "Furmatu",
+      "preset_label": "Esporta preset",
+      "range_label": "Gamma",
+      "range_full": "Lunghizza cumpleta",
+      "range_custom": "Gamma pirsunalizzata",
+      "start_label": "Accuminciari (i)",
+      "end_label": "Fini",
+      "submit": "Esporta",
+      "progress": "File di rendering...",
+      "download_ready": "File prontu",
+      "download_button": "Scaricari lu file"
+    },
+    "notes": {
+      "placeholder": "Appunti 'n forma lìbbira supra chistu pruggettu...",
+      "saved_at": "Sarbatu a {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Scrivi li testi ccà. Usa la paletta dû latu pi mèttiri li meta-tag di Suno.",
+      "saved_at": "Sarbatu a {{time}} ",
+      "saving": "Risparmiu...",
+      "versions": "Virsioni",
+      "versions_empty": "Nun ci foru ancora virsiuna sarbati.",
+      "version_preview": "Anteprima",
+      "restore": "Ristabbiliri sta virsioni",
+      "restore_confirm_title": "Ristabbiliri sta virsioni?",
+      "restore_confirm_description": "Lu testu attuali veni scanciatu câ virsiuni sarbata supra {{date}} .",
+      "metatags_title": "Meta-tag",
+      "metatags_hint": "Clicca nu tag pi mèttirilu nnô cursuri.",
+      "metatags_placebo_warning": "Nun dimustratu - putissi nun aviri nuḍḍu effettu ncapu lu risultatu.",
+      "metatags_empty": "Nun ci foru meta-tag arrigistrati."
+    },
+    "prompts": {
+      "style_title": "Richiesta di stili",
+      "lyrics_title": "Prompt dî testi",
+      "template_label": "Mudellu",
+      "template_none": "Nuddu mudellu",
+      "variables_title": "Variàbbili",
+      "preview_title": "Anteprima",
+      "preview_empty": "Scegghi nu mudellu e cumpila li variàbbili pi vìdiri n'anticipazzioni.",
+      "char_count": " {{count}} carattari",
+      "char_count_warning": "Li prumpti di stili cchiù assai di 1000 carattari ponnu èssiri truncati di Suno.",
+      "copy": "Copia",
+      "copied": "Cupiata nti l'appunti",
+      "save_to_project": "Sarba ntô pruggettu",
+      "saved_to_project": "Prompt sarbatu ntô pruggettu",
+      "history_title": "Storia",
+      "history_empty": "Nudda virsiuna pricidenti.",
+      "current_label": "Currenti"
+    },
+    "stems": {
+      "title": "Vuci e chitarra",
+      "separate_button": "Vuci siparati e chitarra",
+      "running": "Siparannu...",
+      "vocals": "Vuci",
+      "instrumental": "Strumintali",
+      "process_stem": "Prucissari stu stelu",
+      "empty": "Sta ripresa non fu ancùora siparata. Run siparazzioni pi sentiri la vuci e la chitarra 'n isulamentu.",
+      "capability_missing": "La siparazzioni dâ funti nun è stallata nna stu sirver.",
+      "unavailable": "La siparazzioni vucali/chitarra non è ancora dispunìbbili nna stu server."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Accesu",
+    "boolean_off": "Spustatu"
+  },
+  "import": {
+    "title": "Mpurtari",
+    "subtitle": "Purtari pruggetti ca esistunu già ntô discu rintra la bibbliuteca.",
+    "step_indicator": "Passu {{current}} di {{total}} ",
+    "step1": {
+      "title": "Truvari la cartella",
+      "description": "Punta â cartella root cchî tò pruggetti e brani.",
+      "path_label": "Percorsu dâ cartella",
+      "path_placeholder": "p'asempiu E:\\Robbs\\Orgogghiu\\Musica\\ROBBS",
+      "recent_label": "Ricenti",
+      "scan_button": "Scansiona la cartella",
+      "scanning": "Scansioni...",
+      "ffmpeg_warning": "FFmpeg nun truvatu - li file ca ànnu bisognu di cunvirsioni vennu saltati.",
+      "folders_found_one": " {{count}} cartella truvata",
+      "folders_found_other": " {{count}} cartelli truvati",
+      "unmatched_files_one": " {{count}} file nun arricanusciutu",
+      "unmatched_files_other": " {{count}} file nun arricanusciuti"
+    },
+    "step2": {
+      "title": "Voci di rivisioni",
+      "description": "Cuntrullari li nomi, li stati e chiḍḍu ca veni ‘mpurtatu prima di cunfirmari.",
+      "select_all": "Scegghiri tutti",
+      "table": {
+        "folder": "Cartella funti",
+        "name": "Nomu dû pruggettu",
+        "status": "Statu",
+        "audio": "Audio",
+        "lyrics": "Testi",
+        "cover": "Cupirtina",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} file scigghiutu",
+      "audio_include_other": " {{count}} file scigghiuti",
+      "no_audio": "Nun s'attruvau nudda àudiu",
+      "no_lyrics": "Nun si trovanu li testi",
+      "no_cover": "Nisciuna cupirtina",
+      "warnings_title": "Avvisi"
+    },
+    "step3": {
+      "title": "Mpurtari",
+      "description": "Cunfirmari di cupiari li file e criari li pruggetti.",
+      "copy_originals": "Cupia li file urigginali ntâ bibbliuteca",
+      "execute_button": "Accuminciari l'impurtazzioni",
+      "progress_title": "Mpurtari...",
+      "created_count": "Criatu: {{count}} ",
+      "skipped_count": "Saltatu: {{count}} ",
+      "done_title": "Mpurtazzioni cumpleta",
+      "done_description": "Li pruggetti sutta foru criati rintra la tò bibbliuteca.",
+      "view_project": "Pruggettu apertu",
+      "start_over": "Nova mpurtazzioni"
+    }
+  },
+  "templates": {
+    "title": "Mudelli",
+    "subtitle": "Mudelli e meta-tag riutilizzabbili pi Suno.",
+    "tabs": {
+      "prompts": "Mudelli di prompt",
+      "metatags": "Meta-tag"
+    },
+    "new_template": "Novu mudellu",
+    "kind": {
+      "style": "Stili",
+      "lyrics": "Testi"
+    },
+    "kind_label": "Gintili",
+    "delete_confirm_title": "Cancillari lu mudellu \" {{name}} \"?",
+    "delete_confirm_description": "Chistu nun si po annullari.",
+    "empty": "Ancora nuḍḍu mudellu.",
+    "editor": {
+      "title_new": "Novu mudellu",
+      "title_edit": "Mudifica mudellu",
+      "name_label": "Nomu",
+      "name_placeholder": "p'asempiu Ballata acùstica",
+      "kind_label": "Gintili",
+      "template_label": "Testu dû mudellu",
+      "template_hint": "Signa unni apparteni ogni variàbbili cû sò nomu avvoltu ntra parèntisi ricci duppi - pi diri, na variàbbili chiamata \"gèniri\" addiventa gèniri avvoltu ntra du' parèntisi d'apirtura e du' parèntisi di chiusura.",
+      "variables_label": "Variàbbili",
+      "variable_add": "Aggiungi variàbbili",
+      "variable_name": "Chiavi",
+      "variable_label": "Etichetta",
+      "variable_type": "Tipu",
+      "variable_type_string": "Testu",
+      "variable_type_select": "Scelta sìngula",
+      "variable_type_multiselect": "Multi-silizzioni",
+      "variable_type_number": "Nùmmuru",
+      "variable_type_boolean": "Sì/no",
+      "variable_options": "Opzioni (siparati di na virgula)",
+      "variable_required": "Richiestu",
+      "save": "Sarba mudellu"
+    },
+    "metatags": {
+      "title": "Meta-tag",
+      "subtitle": "Li tag strutturali e di stili ca Suno arricanusci dintra li testi.",
+      "new_tag": "Nova tag",
+      "tag_label": "Etichetta",
+      "tag_placeholder": "p'asempiu chitarra-sulu",
+      "category_label": "Catigurìa",
+      "tier_label": "Affidabbilità",
+      "tier_legend_title": "Liggenna di l'affidabbilità",
+      "tier_legend": {
+        "1": "Liveddu 1 - ducumintatu e coirenti",
+        "2": "Livellu 2 - di sòlitu funziona",
+        "3": "Livellu 3 - effettu variàbbili",
+        "4": "Livellu 4 - placebo, nun dimustratu"
+      },
+      "description_label": "Descrizzioni",
+      "delete_confirm_title": "Cancillari lu tag \" {{tag}} \"?",
+      "empty": "Ancora nun ci sunnu meta-tag pirsunalizzati."
+    }
+  },
+  "settings": {
+    "title": "Impostazzioni",
+    "subtitle": "Nfurmazzioni dû sistema, lingua e prifirenze di basi.",
+    "system_info_title": "Sistema",
+    "version": "Virsioni",
+    "data_dir": "Cartella dati",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Disponìbbili",
+    "ffmpeg_missing": "Nun fu truvatu",
+    "capabilities_title": "Capacità stallati",
+    "capability": {
+      "denoise": "Riduzzioni dû scrùsciu",
+      "quality": "Miglioramentu dâ qualità",
+      "separate": "Siparazzioni dâ funti",
+      "ffmpeg": "Cunvirsioni FFmpeg"
+    },
+    "capability_available": "Disponìbbili",
+    "capability_unavailable": "Nun dispunìbbili",
+    "gpu_title": "Accilirazzioni dâ GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "Furnitura di tempu di esecuzzioni ONNX"
+    },
+    "gpu_none": "Nun fu rilivatu furnitura di GPU",
+    "language_title": "Lingua",
+    "language": {
+      "pt-BR": "Português (Brasili)",
+      "en": "ngrisi"
+    },
+    "theme_title": "Aspettu",
+    "theme": {
+      "dark": "Scuru",
+      "light": "Luci"
+    },
+    "defaults_title": "Difault di l'esportazzioni",
+    "lufs_target_label": "LUFS di mira",
+    "lufs_target_hint": "Usatu comu suggerimentu di partenza quannu si esportanu. Lu difautu di Suno è circa -14 LUFS.",
+    "saved": "Li prifirenze sarbati"
+  },
+  "guide": {
+    "title": "Guida di riggistrazzioni Suno",
+    "subtitle": "Comu acquisiri la vuci e la chitarra pigghia li risultati cchiù boni.",
+    "intro": "Suno fa megghiu cu rifirimenti puliti e senza ambiguità. Chista guida cumprenni la priparazzioni, li livelli di mira e nu script di rigistrazzioni di 3-5 minuti.",
+    "sections": {
+      "prep": {
+        "title": "Priparazzioni",
+        "body": "Registrari nta na stanza trattata o una cu assài matiriali morbidu (tinni, tappeti, vistiti nta n'armariu). Spegni li vintilatura e tuttu chiḍḍu ca ronza. Riscalda la vuci pi 5 minuti prima di rigistrari."
+      },
+      "levels": {
+        "title": "Liveddi: di -12 a -6 dBFS",
+        "body": "Mira a vetti ntra -12 e -6 dBFS nnô mitru. Sutta chiḍḍa gamma, lu scrùsciu di funnu addiventa cchiù evidenti; supra, aumenta lu rìsicu di tagghiu. Usa lu cuntaturi nnâ pàggina Riggistra pi stabbiliri lu guadagnu prima di accuminciari."
+      },
+      "distance": {
+        "title": "Distanza dû microfunu: 15-30 cm",
+        "body": "Rimani di 15 a 30 cm dô microfunu. Cchiù vicinu di chiḍḍu esaggira li plosivi e l'effettu di vicinanza; cchiù luntanu arricògghi cchiù riverbu di stanza e scrùsciu."
+      },
+      "script": {
+        "title": "Cupiuni di riggistrazzioni",
+        "warmup": "Warm-up vucali (1-2 minuti)",
+        "vowels": "Vucali sustinuti — a, e, i, o, u",
+        "scales": "Scali sìmprici, supra e sutta",
+        "excerpt": "Nu estrattu di na canzuna (8 a 16 barri)",
+        "dynamics": "Dinamica: ncuminciari duci, finiri forti",
+        "spoken_phrase": "Na frasi parrata, accussì Suno pò lèggiri lu to tonu vucali"
+      },
+      "expectations": {
+        "title": "Chiddu ca Suno s'aspetta",
+        "body": "WAV, 48 kHz, monu, asciuttu (senza riverbu o effetti), di 3 a 5 minuti di rifirimentu. Li 2 minuti cchiù puliti e rapprisintanti dâ ripresa di sòlitu prudùciunu li risultati cchiù boni."
+      }
+    }
+  },
+  "status": {
+    "idea": "Idea",
+    "em_progresso": "'N prugressu",
+    "quase": "Quasi ccà",
+    "pronto": "Pronti"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Cupiuni vucali cumpleta pi Suno",
+      "desc": "5 minuti guidati: warm-up, vucali, scali, dui estratti di canzuna, dinàmica e na frasi parrata."
+    },
+    "step": {
+      "warmup": "Riscaldamentu vucali",
+      "warmup_inst": "Allentati cu sbadigghi, trilli di labbra (brrr) e nu ronzu morbidu pi circa nu minutu. Non c'è bisognu di rigistrari, è sulu pi rilassari la gula prima di cantari.",
+      "vowels": "Vucali sustinuti",
+      "vowels_inst": "Teni ogni vucali - a, e, i, o, u - pi 3 o 4 sicunni ô tonu còmudu, cu nu vulumi custanti. Chistu aiuta Suno a pigghiari lu timbre puru dâ to vuci.",
+      "scales": "Scala supra e sutta",
+      "scales_inst": "Cantari na sèmplici scala supra e poi sutta, supra \"la\" o \"na\". Non c'è bisognu di èssiri pirfettu, l'obbiettivu è mappari la tò gamma vucali.",
+      "section": "Estrattu dâ canzuna — parti 1",
+      "section_inst": "Canta di 8 a 16 barri dâ canzuna, câ vera ntinzioni ca voli trasmèttiri. Priuritari la chiarezza e la prisenza supra la pirfizzioni tecnica.",
+      "section2": "Estrattu dâ canzuna — parti 2",
+      "section2_inst": "Cantari n'àutri 8 o 16 barri, idialmenti nu ritornellu o na sizzioni ca cuntrasta cu chiḍḍa pricidenti. Cchiù varietà aiuta lu modellu a 'mparari la tò vuci.",
+      "dynamics": "Dinamica: moda → forte",
+      "dynamics_inst": "Canta la stissa frasi accuminciannu assài morbida e fininnu a vuci alta, senza sforzari la gula. Chistu mustra a Suno l'intervallu dinàmicu dâ tò vuci.",
+      "spoken": "Frasi parrata",
+      "spoken_inst": "Parra - non cantari - na frasi curta e naturali, comu si stàssi chiacchiariànnu. Chistu aiuta Suno a arricanùsciri lu timbre riali dâ tò vuci."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Ristauru",
+      "filter": "Filtri",
+      "dynamics": "Dinàmica",
+      "separation": "Siparazzioni",
+      "quality": "Qualità",
+      "utility": "Utilità",
+      "loudness": "Altizza"
+    },
+    "highpass": "Filtru passaggiu àutu",
+    "lowpass": "Filtru passa-vasciu",
+    "denoise": "Riduzzioni dû scrùsciu",
+    "declip": "Diclippannu",
+    "declick": "Rimuzzioni dû clic/pop",
+    "deesser": "Di-esser",
+    "gate": "Canceddu dû scrùsciu",
+    "compressor": "Cumpressuri",
+    "limiter": "Limitaturi",
+    "eq": "Equalizzazzioni",
+    "normalize": "Nurmalizzazzioni di màssimu",
+    "loudness": "Nurmalizzazzioni dâ vuci (LUFS)",
+    "reverb_reduce": "Riduzzioni dû riverbu",
+    "separate": "Siparazzioni dâ funti",
+    "quality": "Miglioramentu dâ qualità (di lussu)",
+    "trim_silence": "Tagghiu dû silenziu",
+    "fade": "Sfuma dintra / sfuma",
+    "stereo_to_mono": "Cunvirtiri 'n mono",
+    "resample": "Ricampionamentu"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Affidàbbili",
+      "2": "Di sòlitu funziona",
+      "3": "Variàbbili",
+      "4": "Placebu"
+    },
+    "category": {
+      "structure": "Struttura",
+      "vocal": "Vucali",
+      "instrument": "Strummentu",
+      "dynamics": "Dinàmica",
+      "production": "Pruduzzioni",
+      "mood": "Stati d'animu"
+    },
+    "verse": "Versi",
+    "chorus": "Ritornellu",
+    "bridge": "Ponti",
+    "intro": "Introduzzioni",
+    "outro": "Outro",
+    "hook": "Ganciu",
+    "prechorus": "Pre-riturnellu",
+    "instrumental": "Strumintali",
+    "guitar_solo": "Solu di chitarra",
+    "build_up": "Accumulu",
+    "breakdown": "Rumpitura",
+    "spoken_word": "Palora parrata",
+    "whispered": "Sussurrò",
+    "harmonies": "Armunìi",
+    "male_vocal": "Vucali maschili",
+    "female_vocal": "Vucali fimminili",
+    "duet": "Duettu",
+    "acoustic": "Acùstica",
+    "ad_lib": "Pubbrica di pubblicità"
+  },
+  "presets": {
+    "clean_voice": "Vuci pulita",
+    "voice_guitar_balanced": "Vuci e chitarra equilibbrati",
+    "podcast": "Podcast",
+    "suno_ready": "Suno pronta",
+    "gentle_restore": "Ristauru dilicatu",
+    "raw_passthrough": "Nisciuna prucidura"
+  },
+  "errors": {
+    "unknown": "Quarchi cosa sbagghiò.",
+    "network": "Nun arriniscìu a agghicari ô sirver.",
+    "validation_error": "Cuntrolla li nfurmazzioni ca ‘nsiristi.",
+    "not_found": "Articulu nun truvatu.",
+    "project_not_found": "Pruggettu nun truvatu.",
+    "take_not_found": "Pigghiari non truvatu.",
+    "album_not_found": "Album nun truvatu.",
+    "preset_not_found": "Preset nun truvatu.",
+    "template_not_found": "Mudellu nun truvatu.",
+    "device_busy": "Lu dispusitivu audiu è usatu di n'autru prugramma.",
+    "device_not_found": "Dispusitivi audio nun truvatu.",
+    "already_recording": "Na rigistrazzioni è già 'n corsu.",
+    "ffmpeg_missing": "FFmpeg nun è stallatu - stallalu pi cummirtiri stu file.",
+    "disk_full": "Nun c'è bastanti spazziu ntô discu.",
+    "permission_denied": "Lu pirmissu nigatu pû percorsu datu.",
+    "import_path_not_found": "Nun truvatu lu percorsu di mpurtazzioni.",
+    "job_failed": "L'elaborazzioni fallìu.",
+    "job_cancelled": "L'elaborazzioni fu cancillata.",
+    "process_failed": "Non riniscìu a prucissari la ripresa.",
+    "export_failed": "Nun arriniscìu a esportari lu file.",
+    "record_failed": "Non arriniscìu a accuminciari la riggistrazzioni."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Fattu 'n fila",
+      "running": "Curriri",
+      "done": "Fattu",
+      "error": "Fallitu",
+      "cancelled": "Cancillatu"
+    },
+    "kind": {
+      "process": "Elaborazzioni",
+      "export": "Esporta",
+      "import": "Mpurtari",
+      "record": "Riggistrazzioni"
+    }
+  }
+}

@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio Cleaner"
+  },
+  "nav": {
+    "library": "Biblioteca",
+    "record": "Înregistrează",
+    "import": "Import",
+    "templates": "Șabloane",
+    "settings": "Setări",
+    "guide": "Ghid"
+  },
+  "common": {
+    "save": "Salvați",
+    "saving": "Se salvează…",
+    "saved": "Salvat",
+    "cancel": "Anulează",
+    "close": "Închide",
+    "delete": "Ștergeți",
+    "edit": "Editați",
+    "create": "Creați",
+    "search": "Caută",
+    "loading": "Se încarcă…",
+    "error": "Eroare",
+    "retry": "Reîncercați",
+    "confirm": "Confirmați",
+    "back": "Înapoi",
+    "next": "În continuare",
+    "continue": "Continuă",
+    "finish": "Termină",
+    "copy": "Copiere",
+    "copied": "Copiat",
+    "download": "Descărcați",
+    "upload": "Încărcați",
+    "none": "Niciuna",
+    "all": "Toate",
+    "yes": "Da",
+    "no": "Nu",
+    "select": "Selectați",
+    "optional": "opțional",
+    "required": "necesar",
+    "unsaved_changes": "Modificări nesalvate",
+    "name": "Nume",
+    "status": "Stare",
+    "type": "Tip",
+    "actions": "Acțiuni",
+    "empty": "Gol",
+    "browse": "Răsfoiește",
+    "remove": "Eliminați",
+    "add": "Adăugați",
+    "rename": "Redenumiți",
+    "duplicate": "Duplicat",
+    "warning": "Avertisment",
+    "locked": "Blocat",
+    "builtin": "Încorporat",
+    "custom": "Personalizat",
+    "untitled": "Fără titlu",
+    "select_placeholder": "Selectați…"
+  },
+  "library": {
+    "title": "Biblioteca",
+    "subtitle": "Proiectele tale de voce și chitară, de la idee până la lansare.",
+    "new_project": "Proiect nou",
+    "new_album": "Album nou",
+    "search_placeholder": "Cauta dupa nume...",
+    "view": {
+      "grid": "Grilă",
+      "albums": "Albume"
+    },
+    "filters": {
+      "all": "Toate"
+    },
+    "take_count_one": " {{count}} ia",
+    "take_count_other": " {{count}} ia",
+    "updated_at": "Actualizat {{date}} ",
+    "no_results": {
+      "title": "Nu au fost găsite proiecte",
+      "description": "Încercați să ajustați filtrul de căutare sau de stare."
+    },
+    "empty": {
+      "title": "Biblioteca ta este goală",
+      "description": "Începeți un nou proiect de la zero sau importați luările pe care le aveți deja pe disc.",
+      "cta_import": "Import din folder",
+      "cta_new": "Creați proiect"
+    },
+    "project_dialog": {
+      "title": "Proiect nou",
+      "description": "Dați-i un nume și alegeți un mod de înregistrare.",
+      "name_label": "Numele proiectului",
+      "name_placeholder": "de ex. Ploaia de vară",
+      "mode_label": "Modul",
+      "mode": {
+        "voice": "Numai voce",
+        "voice_guitar": "Voce + chitara"
+      },
+      "submit": "Creați proiect"
+    },
+    "album_dialog": {
+      "title": "Album nou",
+      "description": "Grupați proiectele conexe într-un album.",
+      "name_label": "Numele albumului",
+      "name_placeholder": "de ex. EP de toamnă",
+      "submit": "Creați album"
+    },
+    "album": {
+      "untitled": "Album fără titlu",
+      "members_count_one": " {{count}} proiect",
+      "members_count_other": " {{count}} proiecte",
+      "empty": "Încă nu există proiecte în acest album.",
+      "delete_confirm_title": "Ștergeți albumul?",
+      "delete_confirm_description": "Proiectele nu vor fi șterse, ci doar deconectate de la „{{name}}”."
+    },
+    "delete_project": {
+      "confirm_title": "Ștergeți „{{name}}”?",
+      "confirm_description": "Acest lucru elimină proiectul și fiecare interpretare a acestuia. Acest lucru nu poate fi anulat."
+    }
+  },
+  "record": {
+    "title": "Înregistrează",
+    "subtitle": "Capturați o imagine curată, urmăriți-vă nivelurile și urmați scenariul.",
+    "project_label": "Proiect",
+    "project_placeholder": "Alege un proiect",
+    "project_create_quick": "Creați un proiect rapid...",
+    "device_label": "Dispozitiv de intrare",
+    "device_placeholder": "Alegeți un dispozitiv",
+    "device_default_badge": "Implicit de sistem",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Nu s-au găsit dispozitive de intrare.",
+    "monitor_button": "Monitorizați",
+    "monitor_stop_button": "Opriți monitorizarea",
+    "record_button": "Înregistrează",
+    "stop_button": "Opreste-te",
+    "elapsed_label": "Timp scurs",
+    "status": {
+      "idle": "Inactiv",
+      "monitoring": "Monitorizare",
+      "recording": "Înregistrare",
+      "stopped": "oprit"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Vârful",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Sesiune ghidată",
+      "subtitle": "Lăsați antrenorul să vă ghideze prin scenariu pas cu pas, de la încălzire până la fraza rostită.",
+      "loading": "Se încarcă scriptul...",
+      "unavailable": "Sesiunea ghidată nu este încă disponibilă pe server.",
+      "select_project_device": "Alegeți un proiect și un dispozitiv de intrare pentru a înregistra pași chiar de aici.",
+      "progress": " {{done}} din {{total}} pași",
+      "start_timer": "Porniți cronometrul",
+      "skip_timer": "Sari peste cronometru",
+      "record_step": "Înregistrați acest pas",
+      "stop_step": "Opriți înregistrarea",
+      "mark_done": "Gata - pasul următor",
+      "step_recorded": "Luați înregistrat",
+      "no_record_step": "Etapa de încălzire — nu este necesară înregistrarea.",
+      "bars_hint": "Aproximativ {{bars}} bare",
+      "complete_title": "Scriptul complet!",
+      "complete_body": "Ai înregistrat fiecare pas al scenariului. Întoarceți-vă la fila Audio a proiectului și alegeți fotografiile preferate.",
+      "restart": "Reporniți scriptul"
+    },
+    "best2min": {
+      "button": "Găsiți cele mai bune 2 minute (Suno)",
+      "running": "Se analizează preluarea...",
+      "score_label": "Scor",
+      "hint": "Efectuează o analiză a energiei și a clarității pe întreaga durată pentru a găsi cea mai puternică fereastră de 2 minute - puteți în continuare să reglați intervalul manual după aceea.",
+      "chart_caption": "Scor per fereastră",
+      "unavailable": "Cele mai bune analize de 2 minute nu sunt încă disponibile pe acest server."
+    },
+    "takes_title": "Preluări din această sesiune",
+    "takes_empty": "În această sesiune nu s-a înregistrat încă nicio preluare.",
+    "open_in_project": "Deschis în proiect",
+    "ws_disconnected": "Se reconecta la contorul de nivel...",
+    "select_project_first": "Alegeți un proiect pentru a începe.",
+    "select_device_first": "Alegeți un dispozitiv de intrare."
+  },
+  "project": {
+    "back_to_library": "Înapoi la bibliotecă",
+    "header": {
+      "status_label": "Stare",
+      "cover_upload": "Încărcați coperta",
+      "cover_remove": "Scoateți capacul",
+      "name_placeholder": "Numele proiectului",
+      "links_title": "Legături",
+      "add_link": "Adăugați link",
+      "mode": {
+        "voice": "Numai voce",
+        "voice_guitar": "Voce + chitara"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Versuri",
+      "prompts": "Îndemnuri",
+      "notes": "Note"
+    },
+    "audio": {
+      "takes_title": "Ia",
+      "no_takes": {
+        "title": "Încă nu sunt luate",
+        "description": "Înregistrați o nouă preluare sau importați un fișier existent."
+      },
+      "record_new": "Înregistrați o nouă luare",
+      "rating": "Evaluare",
+      "variant": {
+        "raw": "Brut",
+        "processed": "Procesat"
+      },
+      "variant_placeholder": "Versiune",
+      "process_button": "Proces",
+      "export_button": "Exportați",
+      "delete_take_confirm_title": "Ștergeți această preluare?",
+      "delete_take_confirm_description": "Audio brut și fiecare versiune procesată vor fi eliminate.",
+      "ab": {
+        "raw": "A · Brut",
+        "processed": "B · Procesat"
+      },
+      "origin": {
+        "recorded": "Înregistrat",
+        "imported": "Importat"
+      },
+      "session_label_placeholder": "Eticheta sesiunii (opțional)",
+      "duration": "Durata",
+      "sample_rate": "Rata de eșantionare",
+      "channels": "Canale",
+      "created_at": "Înregistrat"
+    },
+    "pipeline": {
+      "title": "Lanțul de procesare",
+      "preset_label": "Presetat",
+      "preset_none": "Lanț personalizat",
+      "preset_save": "Salvați ca presetare",
+      "stage_locked": "Blocat",
+      "stage_requires_extra": "Necesită un plus care nu este instalat",
+      "process_button": "Procesul de preluare",
+      "processing": "Se procesează...",
+      "job_queued": "În coadă…",
+      "job_running": "Se procesează...",
+      "job_done": "Gata",
+      "job_error": "A eșuat",
+      "job_cancelled": "Anulat",
+      "cancel_job": "Anulează",
+      "no_stages": "Nu există etape disponibile."
+    },
+    "export": {
+      "title": "Preluare de export",
+      "description": "Redați un fișier final dintr-o versiune procesată.",
+      "variant_label": "Versiune",
+      "format_label": "Format",
+      "preset_label": "Exportați presetarea",
+      "range_label": "Gama",
+      "range_full": "Lungime întreagă",
+      "range_custom": "Gamă personalizată",
+      "start_label": "Început(e)",
+      "end_label": "Sfârșit(e)",
+      "submit": "Exportați",
+      "progress": "Se redă fișierul...",
+      "download_ready": "Fișier gata",
+      "download_button": "Descărcați fișierul"
+    },
+    "notes": {
+      "placeholder": "Note în formă liberă despre acest proiect...",
+      "saved_at": "Salvat la {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Scrie versurile aici. Utilizați paleta din lateral pentru a introduce meta-etichete Suno.",
+      "saved_at": "Salvat la {{time}} ",
+      "saving": "Se salvează…",
+      "versions": "Versiuni",
+      "versions_empty": "Nu există încă versiuni salvate.",
+      "version_preview": "Previzualizare",
+      "restore": "Restaurați această versiune",
+      "restore_confirm_title": "Restabiliți această versiune?",
+      "restore_confirm_description": "Textul curent va fi înlocuit cu versiunea salvată pe {{date}} .",
+      "metatags_title": "Meta-etichete",
+      "metatags_hint": "Faceți clic pe o etichetă pentru a o insera la cursor.",
+      "metatags_placebo_warning": "Nedovedit - poate să nu aibă niciun efect asupra rezultatului.",
+      "metatags_empty": "Nu au fost înregistrate meta-etichete."
+    },
+    "prompts": {
+      "style_title": "Solicitare de stil",
+      "lyrics_title": "Solicitare versuri",
+      "template_label": "Șablon",
+      "template_none": "Fără șablon",
+      "variables_title": "Variabile",
+      "preview_title": "Previzualizare",
+      "preview_empty": "Alegeți un șablon și completați variabilele pentru a vedea o previzualizare.",
+      "char_count": " {{count}} caractere",
+      "char_count_warning": "Solicitările de stil de peste 1000 de caractere pot fi trunchiate de Suno.",
+      "copy": "Copiere",
+      "copied": "Copiat în clipboard",
+      "save_to_project": "Salvați în proiect",
+      "saved_to_project": "Solicitarea a fost salvată în proiect",
+      "history_title": "istorie",
+      "history_empty": "Fără versiuni anterioare.",
+      "current_label": "Curent"
+    },
+    "stems": {
+      "title": "Voce și chitară",
+      "separate_button": "Voce și chitară separate",
+      "running": "Se separă…",
+      "vocals": "Voce",
+      "instrumental": "instrumental",
+      "process_stem": "Procesați această tulpină",
+      "empty": "Această preluare nu a fost încă separată. Rulați separarea pentru a auzi vocea și chitara izolat.",
+      "capability_missing": "Separarea surselor nu este instalată pe acest server.",
+      "unavailable": "Separarea voce/chitară nu este încă disponibilă pe acest server."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Pornit",
+    "boolean_off": "Oprit"
+  },
+  "import": {
+    "title": "Import",
+    "subtitle": "Aduceți în bibliotecă proiectele care există deja pe disc.",
+    "step_indicator": "Pasul {{current}} din {{total}} ",
+    "step1": {
+      "title": "Localizați folderul",
+      "description": "Indicați spre folderul rădăcină cu proiectele și melodiile dvs.",
+      "path_label": "Calea folderului",
+      "path_placeholder": "de ex. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "Recent",
+      "scan_button": "Scanează folderul",
+      "scanning": "Se scanează…",
+      "ffmpeg_warning": "FFmpeg nu a fost găsit — fișierele care necesită conversie vor fi omise.",
+      "folders_found_one": " Dosarul {{count}} găsit",
+      "folders_found_other": " {{count}} dosare găsite",
+      "unmatched_files_one": " {{count}} fișier nerecunoscut",
+      "unmatched_files_other": " {{count}} fișiere nerecunoscute"
+    },
+    "step2": {
+      "title": "Examinați articolele",
+      "description": "Verificați numele, stările și ceea ce va fi importat înainte de a confirma.",
+      "select_all": "Selectați toate",
+      "table": {
+        "folder": "Dosarul sursă",
+        "name": "Numele proiectului",
+        "status": "Stare",
+        "audio": "Audio",
+        "lyrics": "Versuri",
+        "cover": "Acoperire",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} fișier selectat",
+      "audio_include_other": " {{count}} fișiere selectate",
+      "no_audio": "Nu a fost găsit niciun sunet",
+      "no_lyrics": "Nu s-au găsit versuri",
+      "no_cover": "Fără acoperire",
+      "warnings_title": "Avertismente"
+    },
+    "step3": {
+      "title": "Import",
+      "description": "Confirmați pentru a copia fișierele și a crea proiecte.",
+      "copy_originals": "Copiați fișierele originale în bibliotecă",
+      "execute_button": "Începeți importul",
+      "progress_title": "Se importă...",
+      "created_count": "Creat: {{count}} ",
+      "skipped_count": "Omis: {{count}} ",
+      "done_title": "Import finalizat",
+      "done_description": "Proiectele de mai jos au fost create în biblioteca dvs.",
+      "view_project": "Proiect deschis",
+      "start_over": "Import nou"
+    }
+  },
+  "templates": {
+    "title": "Șabloane",
+    "subtitle": "Șabloane de prompt reutilizabile și meta-etichete pentru Suno.",
+    "tabs": {
+      "prompts": "Șabloane prompte",
+      "metatags": "Meta-etichete"
+    },
+    "new_template": "Șablon nou",
+    "kind": {
+      "style": "Stil",
+      "lyrics": "Versuri"
+    },
+    "kind_label": "amabil",
+    "delete_confirm_title": "Ștergeți șablonul „{{name}}”?",
+    "delete_confirm_description": "Acest lucru nu poate fi anulat.",
+    "empty": "Încă nu există șabloane.",
+    "editor": {
+      "title_new": "Șablon nou",
+      "title_edit": "Editați șablonul",
+      "name_label": "Nume",
+      "name_placeholder": "de ex. Baladă acustică",
+      "kind_label": "amabil",
+      "template_label": "Text șablon",
+      "template_hint": "Marcați unde aparține fiecare variabilă cu numele înfășurat în acolade duble — de exemplu, o variabilă numită „gen” devine gen înfășurat în două acolade de deschidere și două de închidere.",
+      "variables_label": "Variabile",
+      "variable_add": "Adăugați o variabilă",
+      "variable_name": "cheie",
+      "variable_label": "Etichetă",
+      "variable_type": "Tip",
+      "variable_type_string": "Text",
+      "variable_type_select": "Selectare unică",
+      "variable_type_multiselect": "Selectare multiplă",
+      "variable_type_number": "Număr",
+      "variable_type_boolean": "Da/nu",
+      "variable_options": "Opțiuni (separate prin virgulă)",
+      "variable_required": "Necesar",
+      "save": "Salvați șablonul"
+    },
+    "metatags": {
+      "title": "Meta-etichete",
+      "subtitle": "Etichete structurale și de stil Suno recunoaște versurile din interior.",
+      "new_tag": "Etichetă nouă",
+      "tag_label": "Etichetați",
+      "tag_placeholder": "de ex. chitară-solo",
+      "category_label": "categorie",
+      "tier_label": "Fiabilitate",
+      "tier_legend_title": "Legenda de fiabilitate",
+      "tier_legend": {
+        "1": "Nivelul 1 — documentat și consecvent",
+        "2": "Nivelul 2 — de obicei funcționează",
+        "3": "Nivelul 3 — efect variabil",
+        "4": "Nivelul 4 - placebo, nedovedit"
+      },
+      "description_label": "Descriere",
+      "delete_confirm_title": "Ștergeți eticheta „{{tag}}”?",
+      "empty": "Nu există încă metaetichete personalizate."
+    }
+  },
+  "settings": {
+    "title": "Setări",
+    "subtitle": "Informații de sistem, limbă și preferințe implicite.",
+    "system_info_title": "Sistem",
+    "version": "Versiune",
+    "data_dir": "Dosar de date",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Disponibil",
+    "ffmpeg_missing": "Nu a fost găsit",
+    "capabilities_title": "Capabilitati instalate",
+    "capability": {
+      "denoise": "Reducerea zgomotului",
+      "quality": "Îmbunătățirea calității",
+      "separate": "Separarea sursei",
+      "ffmpeg": "Conversie FFmpeg"
+    },
+    "capability_available": "Disponibil",
+    "capability_unavailable": "Indisponibil",
+    "gpu_title": "Accelerație GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "Furnizori ONNX Runtime"
+    },
+    "gpu_none": "Nu au fost detectați furnizori de GPU",
+    "language_title": "Limba",
+    "language": {
+      "pt-BR": "Portugheză (Brazilia)",
+      "en": "engleză"
+    },
+    "theme_title": "Aspectul",
+    "theme": {
+      "dark": "Întuneric",
+      "light": "Lumină"
+    },
+    "defaults_title": "Exportați valorile implicite",
+    "lufs_target_label": "LUFS țintă",
+    "lufs_target_hint": "Folosit ca sugestie de pornire la exportul de reprize. Valoarea implicită a lui Suno este în jur de -14 LUFS.",
+    "saved": "Preferințe salvate"
+  },
+  "guide": {
+    "title": "Ghid de înregistrare Suno",
+    "subtitle": "Cum să captezi voce și chitară care obțin cele mai bune rezultate.",
+    "intro": "Suno se descurcă cel mai bine cu referințe curate, fără ambiguitate. Acest ghid acoperă pregătirea, nivelurile țintă și un scenariu de înregistrare de 3-5 minute.",
+    "sections": {
+      "prep": {
+        "title": "Pregătirea",
+        "body": "Înregistrați într-o cameră tratată sau una cu mult material moale (draperii, covoare, haine într-un dulap). Opriți ventilatoarele și orice zumzet. Încălzește-ți vocea timp de 5 minute înainte de a înregistra."
+      },
+      "levels": {
+        "title": "Niveluri: -12 până la -6 dBFS",
+        "body": "Țintește-te la vârfuri între -12 și -6 dBFS pe metru. Sub acest interval, zgomotul de fundal devine mai vizibil; deasupra acestuia, riscul de tăiere crește. Utilizați contorul de pe pagina Înregistrare pentru a vă seta câștigul înainte de a începe."
+      },
+      "distance": {
+        "title": "Distanța microfon: 15–30 cm",
+        "body": "Stai la 15 până la 30 cm de microfon. Mai aproape de atât exagerează plozivele și efectul de proximitate; mai departe captează mai multă reverb și zgomot."
+      },
+      "script": {
+        "title": "Scenariul de înregistrare",
+        "warmup": "Încălzire vocală (1-2 minute)",
+        "vowels": "Vocale susținute - a, e, i, o, u",
+        "scales": "Cântare simple, în sus și în jos",
+        "excerpt": "Un fragment de cântec (8 până la 16 bare)",
+        "dynamics": "Dinamica: începe ușor, se termină cu voce tare",
+        "spoken_phrase": "O frază rostită, astfel încât Suno să vă poată citi tonul vocal"
+      },
+      "expectations": {
+        "title": "La ce se așteaptă Suno",
+        "body": "WAV, 48 kHz, mono, uscat (fără reverb sau efecte), 3 până la 5 minute de referință. Cele mai curate, cele mai reprezentative 2 minute de luare produc de obicei cele mai bune rezultate."
+      }
+    }
+  },
+  "status": {
+    "idea": "idee",
+    "em_progresso": "În curs",
+    "quase": "Aproape acolo",
+    "pronto": "Gata"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Scenariul vocal complet pentru Suno",
+      "desc": "5 minute ghidate: încălzire, vocale, cântare, două fragmente de cântec, dinamică și o frază vorbită."
+    },
+    "step": {
+      "warmup": "Încălzire vocală",
+      "warmup_inst": "Relaxați-vă cu căscăturile, trilurile buzelor (brrr) și un zumzet ușor timp de aproximativ un minut. Nu este nevoie să înregistrați - este doar pentru a vă relaxa gâtul înainte de a cânta.",
+      "vowels": "Vocale susținute",
+      "vowels_inst": "Țineți fiecare vocală - a, e, i, o, u - timp de 3 până la 4 secunde la înălțimea dvs. confortabilă, cu un volum constant. Acest lucru îl ajută pe Suno să capteze timbrul pur al vocii tale.",
+      "scales": "Se scalează în sus și în jos",
+      "scales_inst": "Cântați o scară simplă în sus și apoi în jos, pe „la” sau „na”. Nu trebuie să fie perfect – scopul este să vă cartografiez gama vocală.",
+      "section": "Fragment din cântec - partea 1",
+      "section_inst": "Cântați între 8 și 16 batai ale melodiei, cu intenția reală pe care doriți să o transmiteți. Prioritați claritatea și prezența față de perfecțiunea tehnică.",
+      "section2": "Fragment din cântec - partea a 2-a",
+      "section2_inst": "Cântați încă 8 până la 16 batoane - în mod ideal, un refren sau o secțiune care contrastează cu cea anterioară. Mai multă varietate ajută modelul să-ți învețe vocea.",
+      "dynamics": "Dinamica: moale → tare",
+      "dynamics_inst": "Cântați aceeași frază începând foarte moale și terminând cu voce tare, fără a vă încorda gâtul. Aceasta arată Suno intervalul dinamic al vocii tale.",
+      "spoken": "Fraza rostită",
+      "spoken_inst": "Vorbește — nu cânta — o frază scurtă, naturală, de parcă ai fi vorbit. Acest lucru îl ajută pe Suno să recunoască timbrul real al vocii tale."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restaurare",
+      "filter": "Filtre",
+      "dynamics": "Dinamica",
+      "separation": "Separarea",
+      "quality": "Calitate",
+      "utility": "Utilitate",
+      "loudness": "zgomot"
+    },
+    "highpass": "Filtru trece-înalt",
+    "lowpass": "Filtru trece jos",
+    "denoise": "Reducerea zgomotului",
+    "declip": "Decuparea",
+    "declick": "Eliminare clic/pop",
+    "deesser": "De-esser",
+    "gate": "Poarta de zgomot",
+    "compressor": "Compresor",
+    "limiter": "Limitator",
+    "eq": "Egalizare",
+    "normalize": "Normalizare maximă",
+    "loudness": "Normalizarea sonorității (LUFS)",
+    "reverb_reduce": "Reducerea reverberei",
+    "separate": "Separarea sursei",
+    "quality": "Îmbunătățirea calității (upscale)",
+    "trim_silence": "Tăierea tăcerii",
+    "fade": "Fade in/fade out",
+    "stereo_to_mono": "Convertiți în mono",
+    "resample": "Reeșantionarea"
+  },
+  "metatags": {
+    "tier": {
+      "1": "De încredere",
+      "2": "De obicei funcționează",
+      "3": "Variabilă",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Structura",
+      "vocal": "Vocală",
+      "instrument": "Instrument",
+      "dynamics": "Dinamica",
+      "production": "Productie",
+      "mood": "Starea de spirit"
+    },
+    "verse": "vers",
+    "chorus": "Refren",
+    "bridge": "Podul",
+    "intro": "Introducere",
+    "outro": "Outro",
+    "hook": "Cârlig",
+    "prechorus": "Pre-cor",
+    "instrumental": "instrumental",
+    "guitar_solo": "Solo la chitară",
+    "build_up": "Acumulare",
+    "breakdown": "Defalcare",
+    "spoken_word": "Cuvânt rostit",
+    "whispered": "şoptit",
+    "harmonies": "Armonii",
+    "male_vocal": "Vocal masculin",
+    "female_vocal": "Vocală feminină",
+    "duet": "Duet",
+    "acoustic": "acustic",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Voce curată",
+    "voice_guitar_balanced": "Voce și chitară echilibrate",
+    "podcast": "Podcast",
+    "suno_ready": "Suno gata",
+    "gentle_restore": "Refacere blândă",
+    "raw_passthrough": "Fără procesare"
+  },
+  "errors": {
+    "unknown": "Ceva a mers prost.",
+    "network": "Nu am putut ajunge la server.",
+    "validation_error": "Verificați informațiile pe care le-ați introdus.",
+    "not_found": "Element nu a fost găsit.",
+    "project_not_found": "Proiectul nu a fost găsit.",
+    "take_not_found": "Ia nu a fost găsit.",
+    "album_not_found": "Albumul nu a fost găsit.",
+    "preset_not_found": "Presetarea nu a fost găsită.",
+    "template_not_found": "Șablonul nu a fost găsit.",
+    "device_busy": "Dispozitivul audio este utilizat de un alt program.",
+    "device_not_found": "Dispozitiv audio nu a fost găsit.",
+    "already_recording": "O înregistrare este deja în curs.",
+    "ffmpeg_missing": "FFmpeg nu este instalat - instalați-l pentru a converti acest fișier.",
+    "disk_full": "Nu este suficient spațiu pe disc.",
+    "permission_denied": "Permisiune refuzată pentru calea dată.",
+    "import_path_not_found": "Calea de import nu a fost găsită.",
+    "job_failed": "Procesarea nu a reușit.",
+    "job_cancelled": "Procesarea a fost anulată.",
+    "process_failed": "Nu s-a procesat preluarea.",
+    "export_failed": "Nu s-a putut exporta fișierul.",
+    "record_failed": "Nu s-a putut începe înregistrarea."
+  },
+  "jobs": {
+    "status": {
+      "queued": "În coadă",
+      "running": "Alergarea",
+      "done": "Gata",
+      "error": "A eșuat",
+      "cancelled": "Anulat"
+    },
+    "kind": {
+      "process": "Prelucrare",
+      "export": "Exportați",
+      "import": "Import",
+      "record": "Înregistrare"
+    }
+  }
+}

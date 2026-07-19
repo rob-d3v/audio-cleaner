@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio Təmizləyici"
+  },
+  "nav": {
+    "library": "Kitabxana",
+    "record": "Qeyd",
+    "import": "İdxal",
+    "templates": "Şablonlar",
+    "settings": "Parametrlər",
+    "guide": "Bələdçi"
+  },
+  "common": {
+    "save": "Saxla",
+    "saving": "Yadda saxlanılır...",
+    "saved": "Saxlandı",
+    "cancel": "Ləğv et",
+    "close": "Bağlayın",
+    "delete": "Sil",
+    "edit": "Redaktə et",
+    "create": "Yaradın",
+    "search": "Axtar",
+    "loading": "Yüklənir...",
+    "error": "Xəta",
+    "retry": "Yenidən cəhd edin",
+    "confirm": "Təsdiq edin",
+    "back": "Geri",
+    "next": "Sonrakı",
+    "continue": "Davam et",
+    "finish": "Bitir",
+    "copy": "Kopyalayın",
+    "copied": "Kopyalandı",
+    "download": "Yüklə",
+    "upload": "Yüklə",
+    "none": "Heç biri",
+    "all": "Hamısı",
+    "yes": "Bəli",
+    "no": "yox",
+    "select": "seçin",
+    "optional": "isteğe bağlıdır",
+    "required": "tələb olunur",
+    "unsaved_changes": "Saxlanmamış dəyişikliklər",
+    "name": "ad",
+    "status": "Vəziyyət",
+    "type": "Növ",
+    "actions": "Fəaliyyətlər",
+    "empty": "Boş",
+    "browse": "Gözdən keçirin",
+    "remove": "Sil",
+    "add": "əlavə et",
+    "rename": "Adını dəyişdirin",
+    "duplicate": "Dublikat",
+    "warning": "Xəbərdarlıq",
+    "locked": "Bağlanıb",
+    "builtin": "Daxili",
+    "custom": "Xüsusi",
+    "untitled": "Başlıqsız",
+    "select_placeholder": "Seçin..."
+  },
+  "library": {
+    "title": "Kitabxana",
+    "subtitle": "İdeyadan tutmuş buraxılışa qədər səs və gitara layihələriniz.",
+    "new_project": "Yeni layihə",
+    "new_album": "Yeni albom",
+    "search_placeholder": "Adla axtar...",
+    "view": {
+      "grid": "Grid",
+      "albums": "Albomlar"
+    },
+    "filters": {
+      "all": "Hamısı"
+    },
+    "take_count_one": " {{count}} alın",
+    "take_count_other": " {{count}} alır",
+    "updated_at": "Yenilənib {{date}} ",
+    "no_results": {
+      "title": "Layihə tapılmadı",
+      "description": "Axtarış və ya status filtrini tənzimləməyə çalışın."
+    },
+    "empty": {
+      "title": "Kitabxananız boşdur",
+      "description": "Sıfırdan yeni layihəyə başlayın və ya idxal diskinizdə artıq var.",
+      "cta_import": "Qovluqdan idxal edin",
+      "cta_new": "Layihə yaradın"
+    },
+    "project_dialog": {
+      "title": "Yeni layihə",
+      "description": "Ona ad verin və qeyd rejimi seçin.",
+      "name_label": "Layihənin adı",
+      "name_placeholder": "məs. Yay Yağışı",
+      "mode_label": "Rejim",
+      "mode": {
+        "voice": "Yalnız səs",
+        "voice_guitar": "Səs + gitara"
+      },
+      "submit": "Layihə yaradın"
+    },
+    "album_dialog": {
+      "title": "Yeni albom",
+      "description": "Əlaqədar layihələri albomda qruplaşdırın.",
+      "name_label": "Albom adı",
+      "name_placeholder": "məs. Payız EP",
+      "submit": "Albom yaradın"
+    },
+    "album": {
+      "untitled": "Başlıqsız albom",
+      "members_count_one": " {{count}} layihəsi",
+      "members_count_other": " {{count}} layihələr",
+      "empty": "Bu albomda hələ layihə yoxdur.",
+      "delete_confirm_title": "Albom silinsin?",
+      "delete_confirm_description": "Layihələr silinməyəcək, yalnız \" {{name}} \" ilə əlaqəsi kəsiləcək."
+    },
+    "delete_project": {
+      "confirm_title": "\" {{name}} \" silinsin?",
+      "confirm_description": "Bu, layihəni və ona daxil olan hər şeyi silir. Bu geri qaytarıla bilməz."
+    }
+  },
+  "record": {
+    "title": "Qeyd",
+    "subtitle": "Təmiz çəkiliş edin, səviyyələrinizə baxın və skriptə əməl edin.",
+    "project_label": "Layihə",
+    "project_placeholder": "Layihə seçin",
+    "project_create_quick": "Sürətli layihə yaradın...",
+    "device_label": "Giriş cihazı",
+    "device_placeholder": "Cihaz seçin",
+    "device_default_badge": "Sistem standartı",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Heç bir daxiletmə cihazı tapılmadı.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Monitorinqi dayandırın",
+    "record_button": "Qeyd",
+    "stop_button": "Dayan",
+    "elapsed_label": "Keçən vaxt",
+    "status": {
+      "idle": "Boş",
+      "monitoring": "Monitorinq",
+      "recording": "Səsyazma",
+      "stopped": "Dayandı"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Pik",
+      "clip": "Klip"
+    },
+    "guide": {
+      "title": "Bələdçili sessiya",
+      "subtitle": "Qoy məşqçi sizə isinmə hərəkətindən tutmuş danışıq ifadəsinə qədər ssenarini addım-addım öyrətsin.",
+      "loading": "Skript yüklənir...",
+      "unavailable": "Bələdçili sessiya hələ serverdə mövcud deyil.",
+      "select_project_device": "Buradan addımları qeyd etmək üçün layihə və giriş cihazı seçin.",
+      "progress": " {{total}} addımdan {{done}}",
+      "start_timer": "Taymeri işə salın",
+      "skip_timer": "Taymeri atlayın",
+      "record_step": "Bu addımı qeyd edin",
+      "stop_step": "Yazmağı dayandırın",
+      "mark_done": "Bitdi - növbəti addım",
+      "step_recorded": "Qeydə alın",
+      "no_record_step": "İstiləşmə addımı - qeydə ehtiyac yoxdur.",
+      "bars_hint": "Təxminən {{bars}} bar",
+      "complete_title": "Skript tamamlandı!",
+      "complete_body": "Skriptin hər addımını qeyd etmisiniz. Layihənin Audio tabına qayıdın və sevimli çəkilişlərinizi seçin.",
+      "restart": "Skripti yenidən başladın"
+    },
+    "best2min": {
+      "button": "Ən yaxşı 2 dəqiqəni tapın (Suno)",
+      "running": "Qəbul təhlil edilir...",
+      "score_label": "Hesab",
+      "hint": "Ən güclü 2 dəqiqəlik pəncərəni tapmaq üçün bütün çəkiliş üzrə enerji və aydınlıq təhlili aparır – siz yenə də diapazonu daha sonra əl ilə tənzimləyə bilərsiniz.",
+      "chart_caption": "Pəncərə başına xal",
+      "unavailable": "Ən yaxşı 2 dəqiqəlik analiz hələ bu serverdə mövcud deyil."
+    },
+    "takes_title": "Bu sessiyadan götürür",
+    "takes_empty": "Bu sessiyada hələ heç bir çəkiliş qeydə alınmayıb.",
+    "open_in_project": "Layihədə açın",
+    "ws_disconnected": "Səviyyə ölçən cihaza yenidən qoşulur...",
+    "select_project_first": "Başlamaq üçün bir layihə seçin.",
+    "select_device_first": "Daxiletmə cihazını seçin."
+  },
+  "project": {
+    "back_to_library": "Kitabxanaya qayıt",
+    "header": {
+      "status_label": "Vəziyyət",
+      "cover_upload": "Qapağı yükləyin",
+      "cover_remove": "Qapağı çıxarın",
+      "name_placeholder": "Layihənin adı",
+      "links_title": "Bağlantılar",
+      "add_link": "Link əlavə edin",
+      "mode": {
+        "voice": "Yalnız səs",
+        "voice_guitar": "Səs + gitara"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Mahnı sözləri",
+      "prompts": "Təkliflər",
+      "notes": "Qeydlər"
+    },
+    "audio": {
+      "takes_title": "alır",
+      "no_takes": {
+        "title": "Hələ çəkiliş yoxdur",
+        "description": "Yeni çəkiliş yazın və ya mövcud faylı idxal edin."
+      },
+      "record_new": "Yeni çəkiliş qeyd edin",
+      "rating": "Reytinq",
+      "variant": {
+        "raw": "Xam",
+        "processed": "Emal edilib"
+      },
+      "variant_placeholder": "Versiya",
+      "process_button": "Proses",
+      "export_button": "İxrac",
+      "delete_take_confirm_title": "Bu çəkiliş silinsin?",
+      "delete_take_confirm_description": "Xam audio və hər işlənmiş versiya silinəcək.",
+      "ab": {
+        "raw": "A · Xam",
+        "processed": "B · İşlənmiş"
+      },
+      "origin": {
+        "recorded": "Qeydə alınıb",
+        "imported": "İdxal edilib"
+      },
+      "session_label_placeholder": "Sessiya etiketi (isteğe bağlı)",
+      "duration": "Müddət",
+      "sample_rate": "Nümunə dərəcəsi",
+      "channels": "Kanallar",
+      "created_at": "Qeydə alınıb"
+    },
+    "pipeline": {
+      "title": "Emal zənciri",
+      "preset_label": "Əvvəlcədən təyin",
+      "preset_none": "Xüsusi zəncir",
+      "preset_save": "Əvvəlcədən təyin edilmiş kimi yadda saxlayın",
+      "stage_locked": "Bağlanıb",
+      "stage_requires_extra": "Quraşdırılmamış əlavə tələb olunur",
+      "process_button": "Proses qəbulu",
+      "processing": "Emal edilir...",
+      "job_queued": "Növbəyə…",
+      "job_running": "Emal edilir...",
+      "job_done": "Bitdi",
+      "job_error": "Uğursuz oldu",
+      "job_cancelled": "Ləğv edildi",
+      "cancel_job": "Ləğv et",
+      "no_stages": "Mövcud mərhələ yoxdur."
+    },
+    "export": {
+      "title": "İxrac qəbulu",
+      "description": "İşlənmiş versiyadan son faylı göstərin.",
+      "variant_label": "Versiya",
+      "format_label": "Format",
+      "preset_label": "Əvvəlcədən ixrac et",
+      "range_label": "Aralığı",
+      "range_full": "Tam uzunluq",
+      "range_custom": "Fərdi diapazon",
+      "start_label": "Başlanğıc(lar)",
+      "end_label": "Son (s)",
+      "submit": "İxrac",
+      "progress": "Fayl göstərilir...",
+      "download_ready": "Fayl hazırdır",
+      "download_button": "Faylı endirin"
+    },
+    "notes": {
+      "placeholder": "Bu layihə haqqında sərbəst formada qeydlər...",
+      "saved_at": "{{time}} tarixində yadda saxlanıldı "
+    },
+    "lyrics": {
+      "placeholder": "Mahnı sözlərini bura yazın. Suno meta-teqlərini daxil etmək üçün yan tərəfdəki palitradan istifadə edin.",
+      "saved_at": "{{time}} tarixində yadda saxlanıldı ",
+      "saving": "Yadda saxlanılır...",
+      "versions": "Versiyalar",
+      "versions_empty": "Hələ saxlanmış versiya yoxdur.",
+      "version_preview": "Önizləmə",
+      "restore": "Bu versiyanı bərpa edin",
+      "restore_confirm_title": "Bu versiya bərpa edilsin?",
+      "restore_confirm_description": "Cari mətn {{date}} tarixində saxlanmış versiya ilə əvəz olunacaq.",
+      "metatags_title": "Meta etiketlər",
+      "metatags_hint": "Kursorun üzərinə daxil etmək üçün etiketə klikləyin.",
+      "metatags_placebo_warning": "Sübut edilməmiş - nəticəyə heç bir təsiri olmaya bilər.",
+      "metatags_empty": "Heç bir meta teq qeydə alınmayıb."
+    },
+    "prompts": {
+      "style_title": "Stil xəbərdarlığı",
+      "lyrics_title": "Mahnı mətni xəbərdarlığı",
+      "template_label": "Şablon",
+      "template_none": "Şablon yoxdur",
+      "variables_title": "Dəyişənlər",
+      "preview_title": "Önizləmə",
+      "preview_empty": "Şablon seçin və önizləməni görmək üçün dəyişənləri doldurun.",
+      "char_count": " {{count}} simvol",
+      "char_count_warning": "1000-dən çox simvoldan ibarət üslub təklifləri Suno tərəfindən kəsilə bilər.",
+      "copy": "Kopyalayın",
+      "copied": "Buferə kopyalandı",
+      "save_to_project": "Layihədə yadda saxlayın",
+      "saved_to_project": "Prospekt layihədə saxlandı",
+      "history_title": "Tarix",
+      "history_empty": "Əvvəlki versiyalar yoxdur.",
+      "current_label": "Cari"
+    },
+    "stems": {
+      "title": "Vokal və gitara",
+      "separate_button": "Ayrı vokal və gitara",
+      "running": "Ayrılır...",
+      "vocals": "Vokal",
+      "instrumental": "Instrumental",
+      "process_stem": "Bu kökü emal edin",
+      "empty": "Bu çəkiliş hələ ayrılmayıb. Vokal və gitara səslərini ayrı-ayrılıqda eşitmək üçün ayrılıqda işləyin.",
+      "capability_missing": "Mənbənin ayrılması bu serverdə quraşdırılmayıb.",
+      "unavailable": "Vokal/gitara ayırma hələ bu serverdə mövcud deyil."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Aktiv",
+    "boolean_off": "Söndür"
+  },
+  "import": {
+    "title": "İdxal",
+    "subtitle": "Diskdə artıq mövcud olan layihələri kitabxanaya gətirin.",
+    "step_indicator": "Addım {{current}}/{{total}} ",
+    "step1": {
+      "title": "Qovluğu tapın",
+      "description": "Layihələriniz və treklərinizlə kök qovluğuna işarə edin.",
+      "path_label": "Qovluq yolu",
+      "path_placeholder": "məs. E:\\Robbs\\Pride\\Musiqi\\ROBBS",
+      "recent_label": "Son",
+      "scan_button": "Skan qovluğu",
+      "scanning": "Skan edilir...",
+      "ffmpeg_warning": "FFmpeg tapılmadı — çevrilməyə ehtiyacı olan fayllar atlanacaq.",
+      "folders_found_one": " {{count}} qovluğu tapıldı",
+      "folders_found_other": " {{count}} qovluq tapıldı",
+      "unmatched_files_one": " {{count}} tanınmayan fayl",
+      "unmatched_files_other": " {{count}} tanınmayan fayllar"
+    },
+    "step2": {
+      "title": "Elementləri nəzərdən keçirin",
+      "description": "Təsdiq etməzdən əvvəl adları, statusları və nələrin idxal ediləcəyini yoxlayın.",
+      "select_all": "Hamısını seçin",
+      "table": {
+        "folder": "Mənbə qovluğu",
+        "name": "Layihənin adı",
+        "status": "Vəziyyət",
+        "audio": "Audio",
+        "lyrics": "Mahnı sözləri",
+        "cover": "Qapaq",
+        "album": "Albom"
+      },
+      "audio_include_one": " {{count}} fayl seçildi",
+      "audio_include_other": " {{count}} fayl seçildi",
+      "no_audio": "Audio tapılmadı",
+      "no_lyrics": "Heç bir söz tapılmadı",
+      "no_cover": "Qapaq yoxdur",
+      "warnings_title": "Xəbərdarlıqlar"
+    },
+    "step3": {
+      "title": "İdxal",
+      "description": "Faylları kopyalamaq və layihələr yaratmaq üçün təsdiqləyin.",
+      "copy_originals": "Orijinal faylları kitabxanaya köçürün",
+      "execute_button": "İdxal etməyə başlayın",
+      "progress_title": "Import edilir...",
+      "created_count": "Yaradıldı: {{count}} ",
+      "skipped_count": "Keçildi: {{count}} ",
+      "done_title": "İdxal tamamlandı",
+      "done_description": "Aşağıdakı layihələr kitabxananızda yaradılmışdır.",
+      "view_project": "Açıq layihə",
+      "start_over": "Yeni idxal"
+    }
+  },
+  "templates": {
+    "title": "Şablonlar",
+    "subtitle": "Suno üçün təkrar istifadə edilə bilən məlumat şablonları və meta-teqlər.",
+    "tabs": {
+      "prompts": "Tələb şablonları",
+      "metatags": "Meta etiketlər"
+    },
+    "new_template": "Yeni şablon",
+    "kind": {
+      "style": "Stil",
+      "lyrics": "Mahnı sözləri"
+    },
+    "kind_label": "mehriban",
+    "delete_confirm_title": "\" {{name}} \" şablonu silinsin?",
+    "delete_confirm_description": "Bu geri qaytarıla bilməz.",
+    "empty": "Hələ şablon yoxdur.",
+    "editor": {
+      "title_new": "Yeni şablon",
+      "title_edit": "Şablonu redaktə edin",
+      "name_label": "ad",
+      "name_placeholder": "məs. Akustik ballada",
+      "kind_label": "mehriban",
+      "template_label": "Şablon mətni",
+      "template_hint": "Hər bir dəyişənin adını qoşa buruq mötərizələrə bükülmüş şəkildə qeyd edin - məsələn, \"janr\" adlı dəyişən iki açılış və iki bağlama mötərizəsinə bükülmüş janra çevrilir.",
+      "variables_label": "Dəyişənlər",
+      "variable_add": "Dəyişən əlavə edin",
+      "variable_name": "Açar",
+      "variable_label": "Etiket",
+      "variable_type": "Növ",
+      "variable_type_string": "Mətn",
+      "variable_type_select": "Tək seçim",
+      "variable_type_multiselect": "Çoxlu seçim",
+      "variable_type_number": "Nömrə",
+      "variable_type_boolean": "Bəli/yox",
+      "variable_options": "Seçimlər (vergüllə ayrılmış)",
+      "variable_required": "Tələb olunur",
+      "save": "Şablonu yadda saxlayın"
+    },
+    "metatags": {
+      "title": "Meta etiketlər",
+      "subtitle": "Struktur və üslub teqləri Suno sözlərin daxilində tanıyır.",
+      "new_tag": "Yeni etiket",
+      "tag_label": "Tag",
+      "tag_placeholder": "məs. gitara-solo",
+      "category_label": "Kateqoriya",
+      "tier_label": "Etibarlılıq",
+      "tier_legend_title": "Etibarlılıq əfsanəsi",
+      "tier_legend": {
+        "1": "Səviyyə 1 — sənədləşdirilmiş və ardıcıl",
+        "2": "Tier 2 - adətən işləyir",
+        "3": "3-cü səviyyə - dəyişən effekt",
+        "4": "4-cü səviyyə - plasebo, sübut olunmamış"
+      },
+      "description_label": "Təsvir",
+      "delete_confirm_title": "\" {{tag}} \" teqi silinsin?",
+      "empty": "Fərdi meta-teq hələ yoxdur."
+    }
+  },
+  "settings": {
+    "title": "Parametrlər",
+    "subtitle": "Sistem məlumatı, dil və standart seçimlər.",
+    "system_info_title": "Sistem",
+    "version": "Versiya",
+    "data_dir": "Məlumat qovluğu",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Mövcuddur",
+    "ffmpeg_missing": "Tapılmadı",
+    "capabilities_title": "Quraşdırılmış imkanlar",
+    "capability": {
+      "denoise": "Səs-küyün azaldılması",
+      "quality": "Keyfiyyətin artırılması",
+      "separate": "Mənbənin ayrılması",
+      "ffmpeg": "FFmpeg çevrilməsi"
+    },
+    "capability_available": "Mövcuddur",
+    "capability_unavailable": "Əlçatan deyil",
+    "gpu_title": "GPU sürətləndirilməsi",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime provayderləri"
+    },
+    "gpu_none": "Heç bir GPU provayderi aşkarlanmadı",
+    "language_title": "Dil",
+    "language": {
+      "pt-BR": "Portuqal dili (Braziliya)",
+      "en": "İngilis dili"
+    },
+    "theme_title": "Görünüş",
+    "theme": {
+      "dark": "Qaranlıq",
+      "light": "İşıq"
+    },
+    "defaults_title": "Defoltları ixrac edin",
+    "lufs_target_label": "Hədəf LUFS",
+    "lufs_target_hint": "İxrac edərkən başlanğıc təklifi kimi istifadə olunur. Suno'nun standartı -14 LUFS ətrafında oturur.",
+    "saved": "Tərcihlər yadda saxlanıldı"
+  },
+  "guide": {
+    "title": "Suno qeyd bələdçisi",
+    "subtitle": "Ən yaxşı nəticələr əldə edən səs və gitara çəkilişlərini necə çəkmək olar.",
+    "intro": "Suno təmiz, birmənalı istinadlarla ən yaxşı şəkildə çıxış edir. Bu təlimat hazırlıq, hədəf səviyyələri və 3-5 dəqiqəlik qeyd skriptini əhatə edir.",
+    "sections": {
+      "prep": {
+        "title": "Hazırlıq",
+        "body": "Müalicə olunan otaqda və ya çoxlu yumşaq material (pərdələr, kilimlər, şkafda paltar) olan bir otaqda qeyd edin. Fanatları və vızıldayan hər şeyi söndürün. Yazmadan əvvəl səsinizi 5 dəqiqə qızdırın."
+      },
+      "levels": {
+        "title": "Səviyyələr: -12 ilə -6 dBFS",
+        "body": "Sayğacda -12 ilə -6 dBFS arasında olan zirvələri hədəfləyin. Bu diapazonun altında fon səs-küyü daha nəzərə çarpan olur; yuxarıda, kəsmə riski yüksəlir. Başlamazdan əvvəl qazancınızı təyin etmək üçün Qeyd səhifəsində sayğacdan istifadə edin."
+      },
+      "distance": {
+        "title": "Mikrofon məsafəsi: 15-30 sm",
+        "body": "Mikrofondan 15-30 sm məsafədə qalın. Bundan daha yaxın, partlayıcı və yaxınlıq təsirini şişirdir; daha uzaqda daha çox otaq reverb və səs-küy götürür."
+      },
+      "script": {
+        "title": "Qeyd skripti",
+        "warmup": "Vokal istiləşmə (1-2 dəqiqə)",
+        "vowels": "Davamlı saitlər — a, e, i, o, u",
+        "scales": "Sadə tərəzi, yuxarı və aşağı",
+        "excerpt": "Mahnı parçası (8-16 bar)",
+        "dynamics": "Dinamik: yumşaq başlayın, yüksək səslə bitir",
+        "spoken_phrase": "Bir danışıq ifadəsi, beləliklə Suno sizin səs tonunuzu oxuya bilsin"
+      },
+      "expectations": {
+        "title": "Suno nə gözləyir",
+        "body": "WAV, 48 kHz, mono, quru (reverb və ya effekt yoxdur), 3-5 dəqiqə istinad. Ən təmiz, ən təsirli 2 dəqiqəlik çəkiliş adətən ən yaxşı nəticələr verir."
+      }
+    }
+  },
+  "status": {
+    "idea": "İdeya",
+    "em_progresso": "Davam edir",
+    "quase": "Demək olar ki, orada",
+    "pronto": "Hazır"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Suno üçün tam vokal ssenarisi",
+      "desc": "5 rəhbər dəqiqə: isinmə, saitlər, tərəzi, iki mahnı parçası, dinamika və danışıq ifadəsi."
+    },
+    "step": {
+      "warmup": "Vokal istiləşmə",
+      "warmup_inst": "Təxminən bir dəqiqə əsnəmə, dodaq titrəmə (brrr) və yumşaq zümzümə ilə rahatlayın. Yazmağa ehtiyac yoxdur - mahnı oxumazdan əvvəl sadəcə boğazınızı rahatlaşdırmaqdır.",
+      "vowels": "Davamlı saitlər",
+      "vowels_inst": "Hər saiti - a, e, i, o, u - rahat səs tonunuzda, sabit səslə 3-4 saniyə saxlayın. Bu, Suno-ya səsinizin saf tembrini seçməyə kömək edir.",
+      "scales": "Tərəzi yuxarı və aşağı",
+      "scales_inst": "Sadə miqyasda yuxarı və sonra aşağı, \"la\" və ya \"na\" ilə oxuyun. Mükəmməl olmaq lazım deyil - məqsəd səs diapazonunuzu xəritələşdirməkdir.",
+      "section": "Mahnıdan fraqment - 1-ci hissə",
+      "section_inst": "Çatdırmaq istədiyiniz əsl niyyətlə mahnının 8-16 bəndini oxuyun. Aydınlıq və mövcudluğu texniki mükəmməllikdən üstün tutun.",
+      "section2": "Mahnıdan fraqment - 2-ci hissə",
+      "section2_inst": "Daha 8-16 bar oxuyun - ideal olaraq xor və ya əvvəlki ilə ziddiyyət təşkil edən bölmə. Daha çox müxtəliflik modelin səsinizi öyrənməsinə kömək edir.",
+      "dynamics": "Dinamik: yumşaq → yüksək",
+      "dynamics_inst": "Boğazınızı sıxmadan çox yumşaq başlayıb yüksək səslə bitən eyni ifadəni oxuyun. Bu, Suno səsinizin dinamik diapazonunu göstərir.",
+      "spoken": "Danışıq ifadəsi",
+      "spoken_inst": "Danış - oxuma - qısa, təbii bir ifadə, sanki söhbət edirsən. Bu, Suno-ya səsinizin əsl tembrini tanımağa kömək edir."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Bərpa",
+      "filter": "Filtrlər",
+      "dynamics": "Dinamikalar",
+      "separation": "Ayrılıq",
+      "quality": "Keyfiyyət",
+      "utility": "Utility",
+      "loudness": "Səs ucalığı"
+    },
+    "highpass": "Yüksək keçirici filtr",
+    "lowpass": "Aşağı keçirici filtr",
+    "denoise": "Səs-küyün azaldılması",
+    "declip": "Kırılma",
+    "declick": "Klik/pop silinməsi",
+    "deesser": "De-esser",
+    "gate": "Səs-küy qapısı",
+    "compressor": "Kompressor",
+    "limiter": "Məhdudlaşdırıcı",
+    "eq": "Bərabərləşdirmə",
+    "normalize": "Pik normallaşma",
+    "loudness": "Səsin normallaşdırılması (LUFS)",
+    "reverb_reduce": "Reverb azaldılması",
+    "separate": "Mənbənin ayrılması",
+    "quality": "Keyfiyyətin artırılması (yüksək səviyyəli)",
+    "trim_silence": "Səssiz kəsmə",
+    "fade": "Solğun / solğun",
+    "stereo_to_mono": "Mono-ya çevirin",
+    "resample": "Yenidən nümunə götürmə"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Etibarlı",
+      "2": "Adətən işləyir",
+      "3": "Dəyişən",
+      "4": "Plasebo"
+    },
+    "category": {
+      "structure": "Struktur",
+      "vocal": "Vokal",
+      "instrument": "Alət",
+      "dynamics": "Dinamikalar",
+      "production": "İstehsal",
+      "mood": "Əhval-ruhiyyə"
+    },
+    "verse": "ayə",
+    "chorus": "Xor",
+    "bridge": "Körpü",
+    "intro": "Giriş",
+    "outro": "Outro",
+    "hook": "Qarmaq",
+    "prechorus": "Ön xor",
+    "instrumental": "Instrumental",
+    "guitar_solo": "Gitara solo",
+    "build_up": "Quraşdırma",
+    "breakdown": "Dağılma",
+    "spoken_word": "Danışıq söz",
+    "whispered": "pıçıldadı",
+    "harmonies": "Harmoniyalar",
+    "male_vocal": "Kişi vokal",
+    "female_vocal": "Qadın vokal",
+    "duet": "Duet",
+    "acoustic": "Akustik",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Təmiz səs",
+    "voice_guitar_balanced": "Balanslı səs və gitara",
+    "podcast": "Podkast",
+    "suno_ready": "Suno hazırdır",
+    "gentle_restore": "Zərif bərpa",
+    "raw_passthrough": "Emal yoxdur"
+  },
+  "errors": {
+    "unknown": "Nəsə xəta baş verdi.",
+    "network": "Serverə daxil olmaq mümkün olmadı.",
+    "validation_error": "Daxil etdiyiniz məlumatları yoxlayın.",
+    "not_found": "Element tapılmadı.",
+    "project_not_found": "Layihə tapılmadı.",
+    "take_not_found": "Tapılmadı.",
+    "album_not_found": "Albom tapılmadı.",
+    "preset_not_found": "Əvvəlcədən təyin tapılmadı.",
+    "template_not_found": "Şablon tapılmadı.",
+    "device_busy": "Audio cihazı başqa proqram tərəfindən istifadə olunur.",
+    "device_not_found": "Audio cihazı tapılmadı.",
+    "already_recording": "Artıq çəkiliş aparılır.",
+    "ffmpeg_missing": "FFmpeg quraşdırılmayıb — bu faylı çevirmək üçün onu quraşdırın.",
+    "disk_full": "Disk sahəsi kifayət deyil.",
+    "permission_denied": "Verilmiş yol üçün icazə rədd edildi.",
+    "import_path_not_found": "İdxal yolu tapılmadı.",
+    "job_failed": "Emal alınmadı.",
+    "job_cancelled": "Emal ləğv edildi.",
+    "process_failed": "Çekimi emal etmək alınmadı.",
+    "export_failed": "Faylı ixrac etmək alınmadı.",
+    "record_failed": "Yazmağa başlamaq alınmadı."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Növbədə",
+      "running": "Qaçış",
+      "done": "Bitdi",
+      "error": "Uğursuz oldu",
+      "cancelled": "Ləğv edildi"
+    },
+    "kind": {
+      "process": "Emal edilir",
+      "export": "İxrac",
+      "import": "İdxal",
+      "record": "Səsyazma"
+    }
+  }
+}

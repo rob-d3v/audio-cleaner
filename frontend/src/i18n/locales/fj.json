@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Vakasavasavataki ni rorogo"
+  },
+  "nav": {
+    "library": "Valenivolavola",
+    "record": "Rekodi",
+    "import": "Kauta mai",
+    "templates": "ivakaraitaki",
+    "settings": "Tuvatuva",
+    "guide": "Dusidusi"
+  },
+  "common": {
+    "save": "Maroroya",
+    "saving": "Vakabulai...",
+    "saved": "Vakabulai",
+    "cancel": "Bokoca",
+    "close": "Voleka",
+    "delete": "Bokoca",
+    "edit": "Edita",
+    "create": "Bulia",
+    "search": "Vakasaqara",
+    "loading": "Vakavodoki tiko...",
+    "error": "Cala",
+    "retry": "Tovolea tale",
+    "confirm": "Vakadeitaka",
+    "back": "Lesu tale",
+    "next": "Tarava",
+    "continue": "Tomana tiko",
+    "finish": "Vakaotia",
+    "copy": "Kopi",
+    "copied": "Kopitaki",
+    "download": "Lavetaka",
+    "upload": "Vakavodoki",
+    "none": "Sega",
+    "all": "Taucoko",
+    "yes": "Io",
+    "no": "Sega",
+    "select": "Digitaka",
+    "optional": "digidigi",
+    "required": "e gadrevi",
+    "unsaved_changes": "Veisau sega ni maroroi",
+    "name": "Yaca",
+    "status": "iTuvaki",
+    "type": "Taipa",
+    "actions": "Cakacaka",
+    "empty": "Lala",
+    "browse": "Vakaraica",
+    "remove": "Kauta laivi",
+    "add": "Kuria",
+    "rename": "Vakayacana tale",
+    "duplicate": "Vakaruataki",
+    "warning": "iVakasala",
+    "locked": "Lokataki",
+    "builtin": "Tara-ena",
+    "custom": "Vakatovotovo",
+    "untitled": "Sega ni vakayacani",
+    "select_placeholder": "Digitaka..."
+  },
+  "library": {
+    "title": "Valenivolavola",
+    "subtitle": "Na nomu domo kei na cakacaka ni qita, mai na vakasama ki na sereki.",
+    "new_project": "Cakacaka vou",
+    "new_album": "Katokatoni vou",
+    "search_placeholder": "Vakasaqara ena yaca...",
+    "view": {
+      "grid": "Gridi",
+      "albums": "Katokatoni"
+    },
+    "filters": {
+      "all": "Taucoko"
+    },
+    "take_count_one": " {{count}} taura",
+    "take_count_other": " {{count}} taura",
+    "updated_at": "Vakavoutaki {{date}} ",
+    "no_results": {
+      "title": "E sega ni kune e dua na cakacaka",
+      "description": "Tovolea mo veisautaka na vakasaqaqara se na ituvaki ni filter."
+    },
+    "empty": {
+      "title": "Sa lala tu na nomu valenivola .",
+      "description": "Tekivutaka e dua na cakacaka vou mai na itekivu, se import taura o sa tiko ena disiki.",
+      "cta_import": "Kauta mai na folder",
+      "cta_new": "Cakava na cakacaka"
+    },
+    "project_dialog": {
+      "title": "Cakacaka vou",
+      "description": "Solia vua e dua na yaca ka digitaka e dua na ivakarau ni katokatoni.",
+      "name_label": "Yaca ni cakacaka",
+      "name_placeholder": "t.s. Uca ni vulaikatakata",
+      "mode_label": "Mode",
+      "mode": {
+        "voice": "Vosa ga",
+        "voice_guitar": "Voz + qita"
+      },
+      "submit": "Cakava na cakacaka"
+    },
+    "album_dialog": {
+      "title": "Katokatoni vou",
+      "description": "Ilawalawa na cakacaka veiwekani ki na dua na katokatoni.",
+      "name_label": "Yaca ni katokatoni",
+      "name_placeholder": "t.s. EP ni vulaitubutubu",
+      "submit": "Cakava na katokatoni"
+    },
+    "album": {
+      "untitled": "Album sega ni vakayacana",
+      "members_count_one": " {{count}} cakacaka",
+      "members_count_other": " {{count}} cakacaka",
+      "empty": "Se bera ni dua na cakacaka ena ivola oqo.",
+      "delete_confirm_title": "Bokoca na katokatoni?",
+      "delete_confirm_description": "Na veicakacaka ena sega ni bokoci, ena sega ni semati ga mai na \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Bokoca na \" {{name}} \"?",
+      "confirm_description": "Oqo e kauta laivi na cakacaka kei na veika kece e taura kina. E sega ni rawa ni vakasukai oqo."
+    }
+  },
+  "record": {
+    "title": "Rekodi",
+    "subtitle": "Taura e dua na taura savasava, raica na nomu ivakatagedegede, ka muria na volavola.",
+    "project_label": "Cakacaka",
+    "project_placeholder": "Digitaka e dua na cakacaka .",
+    "project_create_quick": "Cakava e dua na cakacaka totolo...",
+    "device_label": "Na misini ni vakacuru",
+    "device_placeholder": "Digitaka e dua na iyaya .",
+    "device_default_badge": "Na ivakarau ni ivakarau",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "E sega ni kunei na misini ni vakacuru ilavo.",
+    "monitor_button": "Monita",
+    "monitor_stop_button": "Muduka na veivakasarasarataki",
+    "record_button": "Rekodi",
+    "stop_button": "Cegu",
+    "elapsed_label": "Gauna sa oti",
+    "status": {
+      "idle": "Sega ni cakacaka",
+      "monitoring": "Monitor",
+      "recording": "Katokatoni",
+      "stopped": "Tu vakadua"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Ulunivanua",
+      "clip": "Kilip"
+    },
+    "guide": {
+      "title": "Soqoni veidusimaki",
+      "subtitle": "Me lako vata kei iko na dauniveivakatavulici ena volavola ena veikalawa, mai na vakatakatari-cake ki na malanivosa vosataki.",
+      "loading": "Vakavodoki tiko na volavola...",
+      "unavailable": "Na soqoni ni veidusimaki e se bera ni tiko ena server.",
+      "select_project_device": "Digitaka e dua na cakacaka kei na dua na iyaya ni vakacuru ilavo me volai na ikalawa dodonu mai eke.",
+      "progress": " {{done}} de {{total}} ikalawa",
+      "start_timer": "Tekivu na gauna",
+      "skip_timer": "Laiva na gauna",
+      "record_step": "Rekotaka na ikalawa oqo .",
+      "stop_step": "Muduka na katokatoni",
+      "mark_done": "Sa oti — na ikalawa e tarava",
+      "step_recorded": "Taura na itukutuku",
+      "no_record_step": "Na ikalawa ni katakata — sega ni gadrevi na katokatoni.",
+      "bars_hint": "Me baleta na {{bars}} na kau",
+      "complete_title": "Sa taucoko na volavola!",
+      "complete_body": "O sa vola na veisala kece ni volavola. Ulu lesu tale ki na tabana ni Audio ni cakacaka ka digitaka na nomu taleitaka na taura.",
+      "restart": "Tekivutaka tale na volavola"
+    },
+    "best2min": {
+      "button": "Vaqara na kena vinaka duadua 2 na miniti (Suno)",
+      "running": "Vakadikeva na taura...",
+      "score_label": "Sikoa",
+      "hint": "Cici e dua na kaukauwa kei na matata ni vakadidike ena taucoko ni taura me kunei na kena kaukauwa duadua 2-miniti katubaleka — e rawa ni o se veisautaka tikoga na rabailevu ena liga ni oti.",
+      "chart_caption": "Sikoa ena dua na katubaleka",
+      "unavailable": "Na vakadidike vinaka duadua-2-miniti e se bera ni tiko ena veiqaravi oqo."
+    },
+    "takes_title": "Tauri mai na soqoni oqo",
+    "takes_empty": "Sega ni dua na taura e volai ena soqoni oqo se bera.",
+    "open_in_project": "Dolava na cakacaka",
+    "ws_disconnected": "Semati tale ki na mita ni ivakatagedegede...",
+    "select_project_first": "Digitaka e dua na cakacaka mo tekivu kina.",
+    "select_device_first": "Digitaka e dua na iyaya ni vakacuru ilavo."
+  },
+  "project": {
+    "back_to_library": "Lesu tale ki valenivolavola",
+    "header": {
+      "status_label": "iTuvaki",
+      "cover_upload": "Vakauta cake na iubi",
+      "cover_remove": "Kauta laivi na iubi",
+      "name_placeholder": "Yaca ni cakacaka",
+      "links_title": "Veisemati",
+      "add_link": "Kuria na isema",
+      "mode": {
+        "voice": "Vosa ga",
+        "voice_guitar": "Voz + qita"
+      }
+    },
+    "tabs": {
+      "audio": "Rogo",
+      "lyrics": "Vosa ni sere",
+      "prompts": "Veivakauqeti",
+      "notes": "iTukutuku"
+    },
+    "audio": {
+      "takes_title": "Taura",
+      "no_takes": {
+        "title": "Se bera ni taura",
+        "description": "Rekotaka e dua na taura vou se vakacuruma e dua na faile sa tu rawa."
+      },
+      "record_new": "Rekotaka e dua na taura vou",
+      "rating": "Vakatovotovo",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Vakarautaki"
+      },
+      "variant_placeholder": "Vakadewa",
+      "process_button": "Cakacaka",
+      "export_button": "Vakauta yani",
+      "delete_take_confirm_title": "Bokoca na taura oqo?",
+      "delete_take_confirm_description": "Na rorogo raw kei na veivakadewataki kece sara ena kau laivi.",
+      "ab": {
+        "raw": "A · Rawa",
+        "processed": "B · Vakarautaki"
+      },
+      "origin": {
+        "recorded": "Rekoditaki",
+        "imported": "Kauta mai"
+      },
+      "session_label_placeholder": "Na ivakatakilakila ni soqoni (digidigi)",
+      "duration": "Balavu",
+      "sample_rate": "Na iwiliwili ni ivakaraitaki",
+      "channels": "Sala",
+      "created_at": "Rekoditaki"
+    },
+    "pipeline": {
+      "title": "Cakacaka ni sinucodo",
+      "preset_label": "Vakarautaki",
+      "preset_none": "Cadena personalizada",
+      "preset_save": "Maroroya me vaka e sa vakarautaki tu",
+      "stage_locked": "Lokataki",
+      "stage_requires_extra": "E gadrevi e dua na ikuri ni sega ni vakacurumi",
+      "process_button": "Taura na iwalewale",
+      "processing": "Vakarautaki...",
+      "job_queued": "Laini...",
+      "job_running": "Vakarautaki...",
+      "job_done": "Sa oti",
+      "job_error": "Sega ni rawa",
+      "job_cancelled": "Sa bokoci",
+      "cancel_job": "Bokoca",
+      "no_stages": "E sega ni dua na siteji e rawa."
+    },
+    "export": {
+      "title": "Vakauta ki vanua tani",
+      "description": "Vakadewataka e dua na iotioti ni faile mai na dua na vakadewa vakarautaki.",
+      "variant_label": "Vakadewa",
+      "format_label": "Fomati",
+      "preset_label": "Vakauta mai na ituvatuva taumada",
+      "range_label": "Range",
+      "range_full": "Na balavu taucoko",
+      "range_custom": "Range vakaitaukei",
+      "start_label": "Tekivu (s)",
+      "end_label": "Mudu (s)",
+      "submit": "Vakauta yani",
+      "progress": "Faile ni vakaraitaki...",
+      "download_ready": "Sa vakarau tu na faile",
+      "download_button": "Lavetaka na faile"
+    },
+    "notes": {
+      "placeholder": "Na itukutuku galala me baleta na cakacaka oqo...",
+      "saved_at": "Vakabulai ena {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Vola na kena vosa eke. Vakayagataka na paleti ena yasana me vakacurumi kina na meta-tagi ni Suno.",
+      "saved_at": "Vakabulai ena {{time}} ",
+      "saving": "Vakabulai...",
+      "versions": "Vakadewa",
+      "versions_empty": "Se bera ni vakabulai na vakadewa.",
+      "version_preview": "Raica taumada",
+      "restore": "Vakalesuya mai na ilavelave oqo",
+      "restore_confirm_title": "Vakalesuya mai na itukutuku oqo?",
+      "restore_confirm_description": "Na ivola ni gauna oqo ena vakaisosomitaki ena kena itukutuku maroroi ena {{date}} .",
+      "metatags_title": "Meta-tagi",
+      "metatags_hint": "Kiliki ena dua na tag me vakacurumi ena ivakatakilakila.",
+      "metatags_placebo_warning": "Sega ni vakadinadinataki — ena sega beka ni dua na kena revurevu ena kena isau.",
+      "metatags_empty": "E sega ni dua na meta-tagi e rejisitataki."
+    },
+    "prompts": {
+      "style_title": "Totolo ni ivakarau",
+      "lyrics_title": "Totolo ni vosa",
+      "template_label": "ivakaraitaki",
+      "template_none": "Sega na ivakaraitaki",
+      "variables_title": "Veisau",
+      "preview_title": "Raica taumada",
+      "preview_empty": "Digitaka e dua na ivakaraitaki ka vakacuruma na veisau me raica e dua na ivakaraitaki.",
+      "char_count": " {{count}} matanivola",
+      "char_count_warning": "Na veivakauqeti ni ivakarau e sivia na 1000 na matanivola e rawa ni vakalekalekataki mai vei Suno.",
+      "copy": "Kopi",
+      "copied": "Kopitaki ki na papa ni volavola",
+      "save_to_project": "Maroroya ki na cakacaka",
+      "saved_to_project": "Vakabulai vakatotolo ki na cakacaka",
+      "history_title": "iTukutuku Makawa",
+      "history_empty": "Sega na vakadewa taumada.",
+      "current_label": "Ena gauna oqo"
+    },
+    "stems": {
+      "title": "Vocal y guitarra",
+      "separate_button": "Vocal separada y guitarra .",
+      "running": "Veitawasei...",
+      "vocals": "Vosa",
+      "instrumental": "Iyaya ni vakatagi",
+      "process_stem": "Cakacakataka na vunikau oqo",
+      "empty": "Na take oqo e se bera ni wasei. Cici veibiu me rogoca na domo kei na qita ena vakatikitiki.",
+      "capability_missing": "Na veibiu ni ivurevure e sega ni vakacurumi ena veiqaravi oqo.",
+      "unavailable": "Na veibiu ni vosa/qita e se bera ni tiko ena veiqaravi oqo."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Ena",
+    "boolean_off": "Off"
+  },
+  "import": {
+    "title": "Kauta mai",
+    "subtitle": "Kauta mai na veicakacaka sa tu ena disiki ki na valenivolavola.",
+    "step_indicator": "Kalawa {{current}} ni {{total}} ",
+    "step1": {
+      "title": "Vaqara na folder",
+      "description": "Dusia na folder ni yavu kei na nomu cakacaka kei na sala.",
+      "path_label": "Sala ni folder",
+      "path_placeholder": "t.s. E: \\ Robs \\ Viavialevu \\ Sere \\ Robbs",
+      "recent_label": "Se qai oti toka ga",
+      "scan_button": "Sikena na folder",
+      "scanning": "Vakadidike...",
+      "ffmpeg_warning": "FFmpeg sega ni kunei — na faile e gadrevi kina na saumaki mai ena vakawaleni.",
+      "folders_found_one": " {{count}} folder kunei",
+      "folders_found_other": " {{count}} na folder e kunei",
+      "unmatched_files_one": " {{count}} faile sega ni kilai",
+      "unmatched_files_other": " {{count}} faile sega ni kilai"
+    },
+    "step2": {
+      "title": "Railesuva na veika",
+      "description": "Raica na yaca, ituvaki, kei na veika ena vakacurumi ni bera ni vakadeitaki.",
+      "select_all": "Digitaka kece",
+      "table": {
+        "folder": "Folder ni ivurevure",
+        "name": "Yaca ni cakacaka",
+        "status": "iTuvaki",
+        "audio": "Rogo",
+        "lyrics": "Vosa ni sere",
+        "cover": "Ubi",
+        "album": "Katokatoni"
+      },
+      "audio_include_one": " {{count}} faile digitaki",
+      "audio_include_other": " {{count}} faile digitaki",
+      "no_audio": "Sega ni kunei na rorogo",
+      "no_lyrics": "Sega ni kune na vosa",
+      "no_cover": "Sega na iubi",
+      "warnings_title": "iVakasala"
+    },
+    "step3": {
+      "title": "Kauta mai",
+      "description": "Vakadeitaka mo vakabira na faile ka bulia na veicakacaka.",
+      "copy_originals": "Kopitaka na faile taumada ki na valenivola .",
+      "execute_button": "Tekivu vakacuruma",
+      "progress_title": "Vakauta mai...",
+      "created_count": "Bulia: {{count}} ",
+      "skipped_count": "Sa sivi: {{count}} ",
+      "done_title": "Vakacuruma oti",
+      "done_description": "Na veicakacaka e ra era a buli ena nomu valenivolavola.",
+      "view_project": "Dolava na cakacaka",
+      "start_over": "Vakacurumi vou"
+    }
+  },
+  "templates": {
+    "title": "ivakaraitaki",
+    "subtitle": "Vakayagataki tale na ivakarau ni totolo kei na meta-tagi me baleta na Suno.",
+    "tabs": {
+      "prompts": "Na ivakaraitaki ni totolo",
+      "metatags": "Meta-tagi"
+    },
+    "new_template": "Na ivakaraitaki vou",
+    "kind": {
+      "style": "ivakarau",
+      "lyrics": "Vosa ni sere"
+    },
+    "kind_label": "Yalovinaka",
+    "delete_confirm_title": "Borrar la plantilla \" {{name}} \"?",
+    "delete_confirm_description": "E sega ni rawa ni vakasukai oqo.",
+    "empty": "Se bera ni dua na ivakaraitaki.",
+    "editor": {
+      "title_new": "Na ivakaraitaki vou",
+      "title_edit": "Edita na ivakaraitaki",
+      "name_label": "Yaca",
+      "name_placeholder": "t.s. Balada ni rorogo",
+      "kind_label": "Yalovinaka",
+      "template_label": "Vosa ni ivakaraitaki",
+      "template_hint": "Vakatakilakilataka na vanua e tiko kina na veisau yadua kei na kena yaca e vakacurumi ena rua na curly na veivakadeitaki — me kena ivakaraitaki, e dua na veisau e vakatokai na \"mataqali\" e yaco me mataqali e vakacurumi ena rua na dolavi kei na rua na veivakadeitaki ni sogo.",
+      "variables_label": "Veisau",
+      "variable_add": "Kuria na veisau",
+      "variable_name": "Ki",
+      "variable_label": "Vakatakilakila",
+      "variable_type": "Taipa",
+      "variable_type_string": "Vosa",
+      "variable_type_select": "Digidigi duadua",
+      "variable_type_multiselect": "Digitaka vakalevu",
+      "variable_type_number": "Naba",
+      "variable_type_boolean": "Io/sega",
+      "variable_options": "Digidigi (tawasei ena koma)",
+      "variable_required": "E gadrevi",
+      "save": "Maroroya na ivakaraitaki"
+    },
+    "metatags": {
+      "title": "Meta-tagi",
+      "subtitle": "Na ituvatuva kei na ivakarau ni ivakatakilakila Suno kila ena loma ni vosa.",
+      "new_tag": "Tag vou",
+      "tag_label": "Tagi",
+      "tag_placeholder": "t.s. qita-duadua",
+      "category_label": "Wasewase",
+      "tier_label": "Nuitaki",
+      "tier_legend_title": "Na italanoa nuitaki",
+      "tier_legend": {
+        "1": "Tier 1 — volai ka tudei .",
+        "2": "Tier 2 — dau cakacaka .",
+        "3": "Tier 3 — veisautaki ni kena revurevu",
+        "4": "Tier 4 — wainimate gaga, sega ni vakadinadinataki"
+      },
+      "description_label": "ivakamacala",
+      "delete_confirm_title": "Bokoca na ivakatakilakila \" {{tag}} \"?",
+      "empty": "Se bera ni dua na meta-tagi vakaitaukei."
+    }
+  },
+  "settings": {
+    "title": "Tuvatuva",
+    "subtitle": "Na itukutuku ni ivakarau, vosa, kei na gagadre taumada.",
+    "system_info_title": "Sistema",
+    "version": "Vakadewa",
+    "data_dir": "Folder ni itukutuku",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "E tiko",
+    "ffmpeg_missing": "Sega ni kune",
+    "capabilities_title": "Na veika e rawa ni vakacurumi",
+    "capability": {
+      "denoise": "Vakalailaitaki ni rorogo",
+      "quality": "Vakatorocaketaki ni ivakarau",
+      "separate": "Veitawasei ni ivurevure",
+      "ffmpeg": "Veisau ni FFmpeg"
+    },
+    "capability_available": "E tiko",
+    "capability_unavailable": "Sega ni rawati",
+    "gpu_title": "Totolo ni GPU",
+    "gpu": {
+      "torch_cuda": "CUDA",
+      "ort_providers": "ONNX Vakarautaka na gauna ni cici"
+    },
+    "gpu_none": "E sega ni kunei na veiqaravi ni GPU",
+    "language_title": "Vosa",
+    "language": {
+      "pt-BR": "Potukali (Peresilesi)",
+      "en": "Vakavalagi"
+    },
+    "theme_title": "Kena irairai",
+    "theme": {
+      "dark": "Butobuto",
+      "light": "Rarama"
+    },
+    "defaults_title": "Vakauta tani na ivakarau",
+    "lufs_target_label": "Takete ni LUFS",
+    "lufs_target_hint": "Vakayagataki me vaka na vakatutu ni tekivu ni sa vakau yani e taura. Na ivakarau ni Suno e dabe wavolita na -14 LUFS.",
+    "saved": "Sa maroroi na veika e vinakati"
+  },
+  "guide": {
+    "title": "Dusidusi ni katokatoni ni Suno",
+    "subtitle": "Na sala me tauri kina na domo kei na qita e taura me rawata na vua vinaka duadua.",
+    "intro": "Suno vakayacora vinaka duadua ena savasava, sega ni vakatitiqataki na veivakadeitaki. Na idusidusi oqo e kovuta na vakavakarau, na ivakatagedegede ni takete, kei na dua na ivola ni katoni ni 3–5 na miniti.",
+    "sections": {
+      "prep": {
+        "title": "Vakavakarau",
+        "body": "Rekodi ena dua na rumu e qaravi se dua e levu kina na iyaya malumu (ilati, rugs, isulu ena dua na katubaleka). Bokoca na fans kei na veika kece e hum. Vakamamacataka na domomu me 5 na miniti ni bera ni o katona."
+      },
+      "levels": {
+        "title": "Vakatagedegede: -12 ki na -6 dBFS",
+        "body": "Na inaki me baleta na veiulu-ni-vanua ena maliwa ni -12 kei na -6 dBFS ena mita. Ena ruku ni vanua oqori, sa qai laurai vakalevu cake na rorogo ni taudaku; e cake, e tubu cake na ririko ni veisele. Vakayagataka na mita ena tabana ni Rekodi me vakarautaka na nomu rawaka ni bera ni o tekivu."
+      },
+      "distance": {
+        "title": "Mic yawa: 15-30 cm",
+        "body": "Mo tiko ena 15 ki na 30 cm mai na maikrofoni. Voleka cake mai na kena e vakalevutaka na plosives kei na kena revurevu voleka; vakayawa cake e taura e levu cake na rumu reverb kei na rorogo."
+      },
+      "script": {
+        "title": "Rekodi ni volavola",
+        "warmup": "Vakamamacataki ni domo (1–2 na miniti)",
+        "vowels": "Na vosa vakatautauvata — a, e, au, o, u .",
+        "scales": "Na ivakarau rawarawa, cake kei na sobu",
+        "excerpt": "E dua na tiki ni sere (8 ki na 16 na barausa)",
+        "dynamics": "Dinamika: tekivu malumu, cava ena domoilevu",
+        "spoken_phrase": "Dua ga na vosa e cavuti, me rawa kina vei Suno me wilika na nomu domo ."
+      },
+      "expectations": {
+        "title": "Na ka e namaka o Suno .",
+        "body": "WAV, 48 kHz, duabau, mamaca (sega na reverb se na kena revurevu), 3 ki na 5 na miniti ni veivakadeitaki. Na savasava duadua, matataka duadua 2 na miniti ni taura e dau vakavuna na vua vinaka duadua."
+      }
+    }
+  },
+  "status": {
+    "idea": "Vakasama",
+    "em_progresso": "Sa toso tiko",
+    "quase": "Voleka ni tiko kina .",
+    "pronto": "Vakarau"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Volavola taucoko ni domo me baleta na Suno",
+      "desc": "5 na miniti veidusimaki: vakamamacataki, vosa, ivakarau, rua na tiki ni sere, dinamika, kei na dua na malanivosa vosataki."
+    },
+    "step": {
+      "warmup": "Vakamamacataki ni domo",
+      "warmup_inst": "Vakalolomataka na yawns, gusu ni gusu (brrr), kei na dua na hum malumu me rauta ni dua na miniti. Sega ni gadrevi mo katona — sa ikoya ga me vakaceguya na nomu gusu ni bera ni o lagasere.",
+      "vowels": "Na vosa vakatautauvata",
+      "vowels_inst": "Taura matua na vosa yadua — a, e, i, o, u — me 3 ina 4 na sekodi ena nomu domo vakacegu, ena dua na domo tudei. Oqo e vukei Suno me taura na timbre savasava ni domomu.",
+      "scales": "Vakatautauvatataki cake kei na sobu",
+      "scales_inst": "Lagata e dua na ivakarau rawarawa cake ka qai sobu, ena \"la\" se \"na\". E sega ni gadrevi me uasivi sara — na inaki me mapetaka na nomu vosa.",
+      "section": "Tikina ni sere — iwase 1",
+      "section_inst": "Lagata e 8 ina 16 na tiki ni sere, kei na inaki dina o via vakadewataka. Vakaliuca na matata kei na tiko mai na uasivi vakatekinoloji.",
+      "section2": "Tikina ni sere — iwasewase 2",
+      "section2_inst": "Lagata tale e 8 ki na 16 na barasi — vinaka duadua e dua na sere se dua na iwasewase e veibasai kei na kena e liu. Na veimataqali levu cake e vukea na ivakaraitaki me vulica na domomu.",
+      "dynamics": "Dinamika: malumu → rogo levu",
+      "dynamics_inst": "Lagata na malanivosa vata ga oqori me tekivu malumu sara ka cava ena domoilevu, ka kakua ni vakamalumalumutaka na nomu gusu. Oqo e vakaraitaka Suno na nomu domo ni dinamika.",
+      "spoken": "Vosa vosataki",
+      "spoken_inst": "Vosa — kakua ni lagasere — e dua na malanivosa lekaleka, vakayago, me vaka ni o veitalanoa tiko. Oqo e vukei Suno me kila na timbre dina ni domomu."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Veivakalesuimai",
+      "filter": "Veisau",
+      "dynamics": "Dinamika",
+      "separation": "Veitawasei",
+      "quality": "Vinaka",
+      "utility": "Yaga",
+      "loudness": "Rogo levu"
+    },
+    "highpass": "Filta ni pasi cecere",
+    "lowpass": "Filita ni pasi lailai",
+    "denoise": "Vakalailaitaki ni rorogo",
+    "declip": "Toso sobu",
+    "declick": "Kiliki/kauta laivi na pop",
+    "deesser": "Kauta laivi",
+    "gate": "Matamata ni rorogo",
+    "compressor": "Kompireta",
+    "limiter": "Vakaiyalayala",
+    "eq": "Veivakatautauvatataki",
+    "normalize": "Na kena ivakarau cecere",
+    "loudness": "Vakatautauvatataki ni domo levu (LUFS)",
+    "reverb_reduce": "Vakalailaitaki ni reverb",
+    "separate": "Veitawasei ni ivurevure",
+    "quality": "Vakatorocaketaki ni ivakarau (vakatorocaketaki)",
+    "trim_silence": "Vakanomodi",
+    "fade": "Yali yani / yali yani",
+    "stereo_to_mono": "Veisau ki na mono",
+    "resample": "Vakatovotovotaka tale"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Nuitaki",
+      "2": "Dau cakacaka",
+      "3": "Veisau",
+      "4": "Veivakabulai"
+    },
+    "category": {
+      "structure": "Tuvatuva",
+      "vocal": "Vosa",
+      "instrument": "iyaya ni vakatagi",
+      "dynamics": "Dinamika",
+      "production": "Cakacaka",
+      "mood": "Yalo"
+    },
+    "verse": "Tikina e 14 .",
+    "chorus": "Sere",
+    "bridge": "Icurucuru",
+    "intro": "iVakamacala Taumada",
+    "outro": "Taudaku",
+    "hook": "Mata",
+    "prechorus": "Sere ni bera",
+    "instrumental": "Iyaya ni vakatagi",
+    "guitar_solo": "Solo de guitarra",
+    "build_up": "Tara cake",
+    "breakdown": "Veisaqasaqa",
+    "spoken_word": "Vosa cavuti",
+    "whispered": "Vosavosa",
+    "harmonies": "Veivakaduavatataki",
+    "male_vocal": "Vosa tagane",
+    "female_vocal": "Vosa vakayalewa",
+    "duet": "Duet",
+    "acoustic": "Akustiki",
+    "ad_lib": "iVolatukutuku"
+  },
+  "presets": {
+    "clean_voice": "Vosa savasava",
+    "voice_guitar_balanced": "Voz equilibrado & guitarra",
+    "podcast": "Podikasiti",
+    "suno_ready": "Suno vakarau",
+    "gentle_restore": "Vakalesui mai vakamalua",
+    "raw_passthrough": "Sega ni cakacakataki"
+  },
+  "errors": {
+    "unknown": "E dua na ka e cala.",
+    "network": "E sega ni rawa ni yaco ki na dauveiqaravi.",
+    "validation_error": "Raica na itukutuku o vakacuruma.",
+    "not_found": "Sega ni kune na iyaya.",
+    "project_not_found": "Sega ni kune na cakacaka.",
+    "take_not_found": "Taura sega ni kunei.",
+    "album_not_found": "Sega ni kune na katokatoni.",
+    "preset_not_found": "Sega ni kune.",
+    "template_not_found": "Sega ni kune na ivakaraitaki.",
+    "device_busy": "Na misini ni vakarorogo e vakayagataki tiko ena dua tale na parokaramu.",
+    "device_not_found": "Sega ni kunei na misini ni vakarorogo.",
+    "already_recording": "Sa vakayacori tiko e dua na katokatoni.",
+    "ffmpeg_missing": "FFmpeg e sega ni vakacurumi — vakacurumi me veisautaka na faile oqo.",
+    "disk_full": "Sega ni rauta na vanua ni disiki.",
+    "permission_denied": "E sega ni vakatarai na veivakadonui me baleta na sala e soli.",
+    "import_path_not_found": "E sega ni kune na sala ni vakacuru ilavo.",
+    "job_failed": "E sega ni rawa na kena cakacakataki.",
+    "job_cancelled": "E vakadaroi na kena vakarautaki.",
+    "process_failed": "E sega ni rawa ni vakayacori na taura.",
+    "export_failed": "E sega ni rawa ni vakau na faile.",
+    "record_failed": "E sega ni rawa ni tekivu na katokatoni."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Laini",
+      "running": "Cici",
+      "done": "Sa oti",
+      "error": "Sega ni rawa",
+      "cancelled": "Sa bokoci"
+    },
+    "kind": {
+      "process": "Vakarautaki",
+      "export": "Vakauta yani",
+      "import": "Kauta mai",
+      "record": "Katokatoni"
+    }
+  }
+}

@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Тозакунандаи аудио"
+  },
+  "nav": {
+    "library": "Китобхона",
+    "record": "Сабт кардан",
+    "import": "Воридот",
+    "templates": "Шаблонҳо",
+    "settings": "Танзимотҳо",
+    "guide": "Роҳнамо"
+  },
+  "common": {
+    "save": "Захира кунед",
+    "saving": "Захира…",
+    "saved": "Захира карда шуд",
+    "cancel": "Бекор кардан",
+    "close": "Пӯшед",
+    "delete": "Нобуд кунед",
+    "edit": "Таҳрир",
+    "create": "Эҷод кунед",
+    "search": "Ҷустуҷӯ",
+    "loading": "Бор карда мешавад…",
+    "error": "Хатогӣ",
+    "retry": "Аз нав кӯшиш кунед",
+    "confirm": "Тасдиқ кунед",
+    "back": "Бозгашт",
+    "next": "Оянда",
+    "continue": "Давом додан",
+    "finish": "Анҷом",
+    "copy": "Нусхабардорӣ",
+    "copied": "Нусхабардорӣ",
+    "download": "Зеркашӣ кунед",
+    "upload": "Бор кунед",
+    "none": "Ҳеҷ",
+    "all": "Ҳама",
+    "yes": "Бале",
+    "no": "Не",
+    "select": "Интихоб кунед",
+    "optional": "ихтиёрӣ",
+    "required": "талаб карда мешавад",
+    "unsaved_changes": "Тағироти захиранашуда",
+    "name": "Ном",
+    "status": "Статус",
+    "type": "Навъи",
+    "actions": "Амалҳо",
+    "empty": "холӣ",
+    "browse": "Мурури",
+    "remove": "Хориҷ кунед",
+    "add": "Илова",
+    "rename": "Номи дигар",
+    "duplicate": "Дубликат",
+    "warning": "Огоҳӣ",
+    "locked": "Қулф карда шудааст",
+    "builtin": "Дохилшуда",
+    "custom": "Фармоишгар",
+    "untitled": "Бе унвон",
+    "select_placeholder": "Интихоб кунед…"
+  },
+  "library": {
+    "title": "Китобхона",
+    "subtitle": "Лоиҳаҳои овозӣ ва гитараи шумо, аз идея то нашр.",
+    "new_project": "Лоиҳаи нав",
+    "new_album": "Албоми нав",
+    "search_placeholder": "Ҷустуҷӯ аз рӯи ном…",
+    "view": {
+      "grid": "Шабака",
+      "albums": "Албомҳо"
+    },
+    "filters": {
+      "all": "Ҳама"
+    },
+    "take_count_one": " {{count}} гирифтан",
+    "take_count_other": " {{count}} мегирад",
+    "updated_at": "Навсозӣ {{date}} ",
+    "no_results": {
+      "title": "Ягон лоиҳа ёфт нашуд",
+      "description": "Кӯшиш кунед, ки филтри ҷустуҷӯ ё вазъро танзим кунед."
+    },
+    "empty": {
+      "title": "Китобхонаи шумо холист",
+      "description": "Лоиҳаи навро аз сифр оғоз кунед, ё воридотро мегирад, ки шумо аллакай дар диск доред.",
+      "cta_import": "Воридот аз папка",
+      "cta_new": "Эҷоди лоиҳа"
+    },
+    "project_dialog": {
+      "title": "Лоиҳаи нав",
+      "description": "Ба он ном диҳед ва ҳолати сабтро интихоб кунед.",
+      "name_label": "Номи лоиҳа",
+      "name_placeholder": "масалан. Борони тобистона",
+      "mode_label": "Режим",
+      "mode": {
+        "voice": "Танҳо овоз",
+        "voice_guitar": "Овоз + гитара"
+      },
+      "submit": "Эҷоди лоиҳа"
+    },
+    "album_dialog": {
+      "title": "Албоми нав",
+      "description": "Лоиҳаҳои марбут ба албомро гурӯҳбандӣ кунед.",
+      "name_label": "Номи албом",
+      "name_placeholder": "масалан. Тирамоҳ EP",
+      "submit": "Эҷоди албом"
+    },
+    "album": {
+      "untitled": "Албоми бе ном",
+      "members_count_one": " {{count}} лоиҳа",
+      "members_count_other": " {{count}} лоиҳаҳо",
+      "empty": "Дар ин албом ҳоло ягон лоиҳа вуҷуд надорад.",
+      "delete_confirm_title": "Албом нест карда шавад?",
+      "delete_confirm_description": "Лоиҳаҳо нест карда намешаванд, танҳо аз \" {{name}} \" ҷудо карда мешаванд."
+    },
+    "delete_project": {
+      "confirm_title": "\"{{name}}\" нест карда шавад?",
+      "confirm_description": "Ин лоиҳа ва ҳар як қабули онро хориҷ мекунад. Инро бекор кардан мумкин нест."
+    }
+  },
+  "record": {
+    "title": "Сабт кардан",
+    "subtitle": "Сурати тоза гиред, сатҳҳои худро тамошо кунед ва скриптро риоя кунед.",
+    "project_label": "Лоиҳа",
+    "project_placeholder": "Лоиҳаро интихоб кунед",
+    "project_create_quick": "Эҷоди лоиҳаи зуд…",
+    "device_label": "Дастгоҳи воридотӣ",
+    "device_placeholder": "Дастгоҳро интихоб кунед",
+    "device_default_badge": "Пешфарзи система",
+    "device_wasapi_badge": "ВАСАПИ",
+    "device_empty": "Ягон дастгоҳи воридотӣ ёфт нашуд.",
+    "monitor_button": "Монитор",
+    "monitor_stop_button": "Мониторингро қатъ кунед",
+    "record_button": "Сабт кардан",
+    "stop_button": "Истед",
+    "elapsed_label": "Вақти гузашта",
+    "status": {
+      "idle": "Бекор",
+      "monitoring": "Мониторинг",
+      "recording": "Сабт кардан",
+      "stopped": "Истед"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Қулла",
+      "clip": "Клип"
+    },
+    "guide": {
+      "title": "Сеанси роҳнамоӣ",
+      "subtitle": "Бигзор тренер ба шумо скриптро зина ба зина аз гармкунӣ то ибораи гуфторӣ роҳнамоӣ кунад.",
+      "loading": "Скрипт бор карда мешавад…",
+      "unavailable": "Сеанси роҳнамоӣ ҳанӯз дар сервер дастрас нест.",
+      "select_project_device": "Лоиҳа ва дастгоҳи вурудро барои сабти қадамҳо аз ин ҷо интихоб кунед.",
+      "progress": " {{done}} аз {{total}} қадамҳо",
+      "start_timer": "Таймерро оғоз кунед",
+      "skip_timer": "Гузаронидани таймер",
+      "record_step": "Ин қадамро сабт кунед",
+      "stop_step": "Сабтро қатъ кунед",
+      "mark_done": "Иҷро шуд - қадами оянда",
+      "step_recorded": "Сабт кунед",
+      "no_record_step": "Қадами гармкунӣ - сабт лозим нест.",
+      "bars_hint": "Тақрибан {{bars}} барҳо",
+      "complete_title": "Скрипт тамом шуд!",
+      "complete_body": "Шумо ҳар як қадами скриптро сабт кардаед. Ба ҷадвали аудиои лоиҳа баргардед ва аксҳои дӯстдоштаи худро интихоб кунед.",
+      "restart": "Скриптро аз нав оғоз кунед"
+    },
+    "best2min": {
+      "button": "Беҳтарин 2 дақиқаро пайдо кунед (Суно)",
+      "running": "Таҳлили қабули…",
+      "score_label": "Хол",
+      "hint": "Барои дарёфти равзанаи қавитарин 2-дақиқаи он дар тӯли тамоми вақт таҳлили энергия ва возеҳиро иҷро мекунад - шумо ба ҳар ҳол метавонед диапазонро бо дасти худ танзим кунед.",
+      "chart_caption": "Хол барои як тиреза",
+      "unavailable": "Таҳлили беҳтарини 2 дақиқа дар ин сервер ҳанӯз дастрас нест."
+    },
+    "takes_title": "Аз ин сессия гирифта мешавад",
+    "takes_empty": "Дар ин иҷлосия то ҳол ягон сабт сабт нашудааст.",
+    "open_in_project": "Дар лоиҳа кушоед",
+    "ws_disconnected": "Пайвастшавӣ ба метри сатҳ…",
+    "select_project_first": "Барои оғози кор лоиҳаеро интихоб кунед.",
+    "select_device_first": "Дастгоҳи вурудро интихоб кунед."
+  },
+  "project": {
+    "back_to_library": "Бозгашт ба китобхона",
+    "header": {
+      "status_label": "Статус",
+      "cover_upload": "Сарпӯшро бор кунед",
+      "cover_remove": "Сарпӯшро хориҷ кунед",
+      "name_placeholder": "Номи лоиҳа",
+      "links_title": "Пайвандҳо",
+      "add_link": "Истинод илова кунед",
+      "mode": {
+        "voice": "Танҳо овоз",
+        "voice_guitar": "Овоз + гитара"
+      }
+    },
+    "tabs": {
+      "audio": "Аудио",
+      "lyrics": "Лирика",
+      "prompts": "Пешниҳодҳо",
+      "notes": "Қайдҳо"
+    },
+    "audio": {
+      "takes_title": "мегирад",
+      "no_takes": {
+        "title": "То ҳол нест",
+        "description": "Сабти нав сабт кунед ё файли мавҷударо ворид кунед."
+      },
+      "record_new": "Навори навро сабт кунед",
+      "rating": "Рейтинг",
+      "variant": {
+        "raw": "Хом",
+        "processed": "Коркард"
+      },
+      "variant_placeholder": "Версия",
+      "process_button": "Раванд",
+      "export_button": "Содирот",
+      "delete_take_confirm_title": "Ин сабтро нест кунед?",
+      "delete_take_confirm_description": "Аудиои хом ва ҳар як версияи коркардшуда хориҷ карда мешавад.",
+      "ab": {
+        "raw": "A · Хом",
+        "processed": "B · Коркард"
+      },
+      "origin": {
+        "recorded": "Сабт карда шудааст",
+        "imported": "Ворид карда шудааст"
+      },
+      "session_label_placeholder": "Нишони сессия (ихтиёрӣ)",
+      "duration": "Давомнокӣ",
+      "sample_rate": "Меъёри намуна",
+      "channels": "Каналҳо",
+      "created_at": "Сабт карда шудааст"
+    },
+    "pipeline": {
+      "title": "Занҷири коркард",
+      "preset_label": "Пешакӣ",
+      "preset_none": "Занҷири фармоишӣ",
+      "preset_save": "Ҳамчун муқарраршуда захира кунед",
+      "stage_locked": "Қулф карда шудааст",
+      "stage_requires_extra": "Талаботи иловагӣ, ки насб нашудааст",
+      "process_button": "Қабули раванд",
+      "processing": "Коркард...",
+      "job_queued": "Дар навбат…",
+      "job_running": "Коркард...",
+      "job_done": "Иҷро шуд",
+      "job_error": "Муваффақ шуд",
+      "job_cancelled": "Бекор карда шуд",
+      "cancel_job": "Бекор кардан",
+      "no_stages": "Ягон марҳила дастрас нест."
+    },
+    "export": {
+      "title": "Гирифтани содирот",
+      "description": "Файли ниҳоиро аз версияи коркардшуда пешниҳод кунед.",
+      "variant_label": "Версия",
+      "format_label": "Формат",
+      "preset_label": "Содироти пешакӣ",
+      "range_label": "Диапазон",
+      "range_full": "Full length",
+      "range_custom": "Custom range",
+      "start_label": "Start (s)",
+      "end_label": "Анҷом (ҳо)",
+      "submit": "Содирот",
+      "progress": "Намоиши файл…",
+      "download_ready": "File ready",
+      "download_button": "Файлро зеркашӣ кунед"
+    },
+    "notes": {
+      "placeholder": "Қайдҳои озод дар бораи ин лоиҳа…",
+      "saved_at": "Дар {{time}} захира шудааст "
+    },
+    "lyrics": {
+      "placeholder": "Матнҳоро дар ин ҷо нависед. Палитраро дар паҳлӯ барои ворид кардани мета-тегҳои Suno истифода баред.",
+      "saved_at": "Saved at  {{time}} ",
+      "saving": "Saving…",
+      "versions": "Версияҳо",
+      "versions_empty": "Ҳанӯз версияи захирашуда нест.",
+      "version_preview": "Пешнамоиш",
+      "restore": "Ин версияро барқарор кунед",
+      "restore_confirm_title": "Ин версия барқарор карда шавад?",
+      "restore_confirm_description": "Матни ҷорӣ бо версияи дар {{date}} захирашуда иваз карда мешавад.",
+      "metatags_title": "Мета-тегҳо",
+      "metatags_hint": "Барои ворид кардани он ба курсор тегро клик кунед.",
+      "metatags_placebo_warning": "Исботнашуда - метавонад ба натиҷа таъсир нарасонад.",
+      "metatags_empty": "Ягон метатег ба қайд гирифта нашудааст."
+    },
+    "prompts": {
+      "style_title": "Пешниҳоди услуб",
+      "lyrics_title": "Матни суруд",
+      "template_label": "Шаблон",
+      "template_none": "Шаблон нест",
+      "variables_title": "Тағйирёбандаҳо",
+      "preview_title": "Пешнамоиш",
+      "preview_empty": "Шаблонро интихоб кунед ва тағирёбандаҳоро барои дидани пешнамоиш пур кунед.",
+      "char_count": " {{count}} аломат",
+      "char_count_warning": "Пешниҳоди услуби зиёда аз 1000 аломат метавонад аз ҷониби Suno бурида шавад.",
+      "copy": "Нусхабардорӣ",
+      "copied": "Ба буфер нусхабардорӣ карда шуд",
+      "save_to_project": "Ба лоиҳа захира кунед",
+      "saved_to_project": "Савол дар лоиҳа захира карда шуд",
+      "history_title": "Таърих",
+      "history_empty": "Версияҳои қаблӣ нест.",
+      "current_label": "ҷорӣ"
+    },
+    "stems": {
+      "title": "Вокал ва гитара",
+      "separate_button": "Вокал ва гитара алоҳида",
+      "running": "Ҷудо кардан…",
+      "vocals": "Вокал",
+      "instrumental": "Инструменталй",
+      "process_stem": "Ин пояро коркард кунед",
+      "empty": "Ин бахш то ҳол ҷудо нашудааст. Ҷудокуниро иҷро кунед, то вокал ва гитараро дар алоҳидагӣ бишнавед.",
+      "capability_missing": "Ҷудокунии манбаъ дар ин сервер насб нашудааст.",
+      "unavailable": "Ҷудокунии вокал/гитара дар ин сервер ҳанӯз дастрас нест."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Дар",
+    "boolean_off": "Хомӯш"
+  },
+  "import": {
+    "title": "Воридот",
+    "subtitle": "Лоиҳаҳоеро, ки аллакай дар диск мавҷуданд, ба китобхона оваред.",
+    "step_indicator": "Қадами {{current}} аз {{total}} ",
+    "step1": {
+      "title": "Locate folder",
+      "description": "Бо лоиҳаҳо ва роҳҳои худ ба папкаи реша ишора кунед.",
+      "path_label": "Folder path",
+      "path_placeholder": "масалан. E: \\ Robbs \\ Pride \\ Music \\ ROBBS",
+      "recent_label": "Ба наздикӣ",
+      "scan_button": "Scan folder",
+      "scanning": "Сканкунӣ…",
+      "ffmpeg_warning": "FFmpeg ёфт нашуд — файлҳое, ки ба табдил ниёз доранд, гузаронида мешаванд.",
+      "folders_found_one": " {{count}} ҷузвдон ёфт",
+      "folders_found_other": " {{count}} ҷузвдонҳо ёфт шуданд",
+      "unmatched_files_one": " {{count}} файли шинохтанашуда",
+      "unmatched_files_other": " {{count}} файлҳои шинохтанашуда"
+    },
+    "step2": {
+      "title": "Баррасии ашё",
+      "description": "Пеш аз тасдиқ, номҳо, вазъиятҳо ва чизҳои воридшавандаро санҷед.",
+      "select_all": "Ҳамаро интихоб кунед",
+      "table": {
+        "folder": "Папкаи манбаъ",
+        "name": "Project name",
+        "status": "Status",
+        "audio": "Аудио",
+        "lyrics": "Lyrics",
+        "cover": "Сарпӯш",
+        "album": "Албом"
+      },
+      "audio_include_one": " {{count}} файл интихоб шуд",
+      "audio_include_other": " {{count}}  files selected",
+      "no_audio": "Ягон аудио ёфт нашуд",
+      "no_lyrics": "Ягон матн ёфт нашуд",
+      "no_cover": "No cover",
+      "warnings_title": "Warnings"
+    },
+    "step3": {
+      "title": "Воридот",
+      "description": "Барои нусхабардории файлҳо ва сохтани лоиҳаҳо тасдиқ кунед.",
+      "copy_originals": "Файлҳои аслиро ба китобхона нусхабардорӣ кунед",
+      "execute_button": "Start import",
+      "progress_title": "Воридот…",
+      "created_count": "Cохта шуд: {{count}} ",
+      "skipped_count": "Skipped:  {{count}} ",
+      "done_title": "Воридот анҷом ёфт",
+      "done_description": "Лоиҳаҳои дар поён овардашуда дар китобхонаи шумо сохта шудаанд.",
+      "view_project": "Open project",
+      "start_over": "New import"
+    }
+  },
+  "templates": {
+    "title": "Templates",
+    "subtitle": "Шаблонҳои фаврии такрорӣ ва мета-тегҳо барои Suno.",
+    "tabs": {
+      "prompts": "Prompt templates",
+      "metatags": "Мета-тегҳо"
+    },
+    "new_template": "Шаблони нав",
+    "kind": {
+      "style": "Услуб",
+      "lyrics": "Lyrics"
+    },
+    "kind_label": "Kind",
+    "delete_confirm_title": "Шаблон \" {{name}} \" нест карда шавад?",
+    "delete_confirm_description": "This can't be undone.",
+    "empty": "Ҳанӯз шаблонҳо нестанд.",
+    "editor": {
+      "title_new": "New template",
+      "title_edit": "Edit template",
+      "name_label": "Ном",
+      "name_placeholder": "e.g. Acoustic ballad",
+      "kind_label": "Kind",
+      "template_label": "Template text",
+      "template_hint": "Қайд кунед, ки ҳар як тағирёбанда бо номи худ дар қавсҳои ҷингила печонидашуда тааллуқ дорад - масалан, тағирёбанда бо номи \"жанр\" ба жанр табдил меёбад, ки дар ду қавси кушода ва ду қавси пӯшида печонида шудааст.",
+      "variables_label": "Тағйирёбандаҳо",
+      "variable_add": "Add variable",
+      "variable_name": "Калид",
+      "variable_label": "Label",
+      "variable_type": "Type",
+      "variable_type_string": "Матн",
+      "variable_type_select": "Single select",
+      "variable_type_multiselect": "Интихоби бисёрҷониба",
+      "variable_type_number": "Шумораи",
+      "variable_type_boolean": "Yes/no",
+      "variable_options": "Имконот (вергул ҷудо)",
+      "variable_required": "Талаб карда мешавад",
+      "save": "Шаблонро захира кунед"
+    },
+    "metatags": {
+      "title": "Мета-тегҳо",
+      "subtitle": "Тегҳои сохторӣ ва услубӣ Suno дар дохили матнро эътироф мекунад.",
+      "new_tag": "Теги нав",
+      "tag_label": "Tag",
+      "tag_placeholder": "масалан. гитара-соло",
+      "category_label": "Категория",
+      "tier_label": "Эътимоднокӣ",
+      "tier_legend_title": "Қиссаи эътимоднокӣ",
+      "tier_legend": {
+        "1": "Сатҳи 1 - ҳуҷҷатгузорӣ ва пайваста",
+        "2": "Сатҳи 2 - одатан кор мекунад",
+        "3": "Сатҳи 3 - таъсири тағйирёбанда",
+        "4": "Сатҳи 4 - плацебо, исботнашуда"
+      },
+      "description_label": "Тавсифи",
+      "delete_confirm_title": "Теги \" {{tag}} \" нест карда шавад?",
+      "empty": "Ҳанӯз метатегҳои фармоишӣ вуҷуд надоранд."
+    }
+  },
+  "settings": {
+    "title": "Танзимотҳо",
+    "subtitle": "Маълумоти система, забон ва афзалиятҳои пешфарз.",
+    "system_info_title": "Система",
+    "version": "Версия",
+    "data_dir": "Папкаи маълумот",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "дастрас",
+    "ffmpeg_missing": "ёфт нашуд",
+    "capabilities_title": "Қобилиятҳои насбшуда",
+    "capability": {
+      "denoise": "Кам кардани садо",
+      "quality": "Баланд бардоштани сифат",
+      "separate": "Ҷудокунии манбаъ",
+      "ffmpeg": "Табдили FFmpeg"
+    },
+    "capability_available": "дастрас",
+    "capability_unavailable": "Unavailable",
+    "gpu_title": "суръатбахшии GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime providers"
+    },
+    "gpu_none": "Ягон провайдери GPU ошкор нашудааст",
+    "language_title": "Забон",
+    "language": {
+      "pt-BR": "Português (Brasil)",
+      "en": "англисӣ"
+    },
+    "theme_title": "Намуди зоҳирӣ",
+    "theme": {
+      "dark": "Dark",
+      "light": "Нур"
+    },
+    "defaults_title": "Пешфарзҳои содиротӣ",
+    "lufs_target_label": "Ҳадафи LUFS",
+    "lufs_target_hint": "Ҳангоми содирот ҳамчун пешниҳоди ибтидоӣ истифода мешавад. Пешфарз Suno нишастааст атрофи -14 LUFS.",
+    "saved": "Афзалиятҳо захира карда шуданд"
+  },
+  "guide": {
+    "title": "Дастури сабти Suno",
+    "subtitle": "Чӣ тавр сабт кардани овоз ва гитара, ки натиҷаҳои беҳтарин ба даст меоранд.",
+    "intro": "Suno бо истинодҳои тоза ва якхела беҳтарин кор мекунад. Ин дастур омодагӣ, сатҳҳои мақсаднок ва скрипти сабти 3-5 дақиқаро дар бар мегирад.",
+    "sections": {
+      "prep": {
+        "title": "Тайёрӣ",
+        "body": "Дар як ҳуҷраи коркардшуда ё як ҳуҷра бо маводи мулоим (пардаҳо, қолинҳо, либосҳо дар ҷевон) сабт кунед. Мухлисҳо ва ҳама чизеро, ки садо медиҳад, хомӯш кунед. Пеш аз сабт овози худро 5 дақиқа гарм кунед."
+      },
+      "levels": {
+        "title": "Сатҳи: -12 то -6 dBFS",
+        "body": "Ҳадафи қуллаҳои байни -12 ва -6 dBFS дар метр. Дар поёнтар аз ин диапазон садои замина бештар намоён мешавад; аз болои он, хавфи буридани он меафзояд. Пеш аз оғоз кардан, ҳисобкунакро дар саҳифаи Сабт истифода баред, то фоидаи худро муқаррар кунед."
+      },
+      "distance": {
+        "title": "Mic distance: 15–30 cm",
+        "body": "Аз микрофон 15 то 30 см дур монед. Наздиктар аз он муболиғаи таркиш ва таъсири наздик; дуртар reverb ва садои ҳуҷраи бештар мегирад."
+      },
+      "script": {
+        "title": "Скрипти сабт",
+        "warmup": "Гарм кардани овоз (1-2 дақиқа)",
+        "vowels": "Садонокҳои устувор — а, е, и, о, у",
+        "scales": "Тарозуи оддӣ, боло ва поён",
+        "excerpt": "Иқтибос аз суруд (8 то 16 бар)",
+        "dynamics": "Динамика: нарм оғоз кунед, бо овози баланд анҷом диҳед",
+        "spoken_phrase": "Як ибораи гуфторшуда, то Суно оҳанги овози шуморо бихонад"
+      },
+      "expectations": {
+        "title": "What Suno expects",
+        "body": "WAV, 48 кГц, моно, хушк (бе реверб ё эффект), аз 3 то 5 дақиқаи истинод. 2 дақиқаи тозатарин ва аз ҳама намояндагӣ одатан натиҷаҳои беҳтарин медиҳад."
+      }
+    }
+  },
+  "status": {
+    "idea": "Idea",
+    "em_progresso": "In progress",
+    "quase": "Almost there",
+    "pronto": "Тайёр"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Скрипти пурраи вокалӣ барои Suno",
+      "desc": "5 дақиқаи роҳнамо: гармкунӣ, садонокҳо, тарозуҳо, ду порчаи суруд, динамика ва ибораи гуфтугӯӣ."
+    },
+    "step": {
+      "warmup": "Гарм кардани овоз",
+      "warmup_inst": "Тақрибан як дақиқа бо дашномҳо, триллҳои лаб (brrr) ва садои нарм воз кунед. Сабт кардан лозим нест - ин танҳо пеш аз сурудхонӣ гулӯятонро ором кардан лозим аст.",
+      "vowels": "Садонокҳои устувор",
+      "vowels_inst": "Ҳар як садонокро - a, e, i, o, u - барои 3 то 4 сония дар баландии бароҳати худ бо баландии устувор нигоҳ доред. Ин ба Суно кӯмак мекунад, ки тембри тозаи овози шуморо гирад.",
+      "scales": "Миқёси боло ва поён",
+      "scales_inst": "Миқёси оддиро боло ва сипас поён, дар \"la\" ё \"na\" хонед. Он шарт нест, ки комил бошад - ҳадаф харитаи диапазони вокалии шумост.",
+      "section": "Порчаи суруд — кисми 1",
+      "section_inst": "Аз 8 то 16 сатри сурудро бо нияти воқеие, ки мехоҳед интиқол диҳед, бихонед. Возеҳи ва ҳузурро бар мукаммалии техникӣ авлавият диҳед.",
+      "section2": "Порчаи суруд — кисми 2",
+      "section2_inst": "Аз 8 то 16 бари дигар суруд хонед - беҳтарин хор ё бахше, ки бо порчаи қаблӣ мухолиф аст. Гуногунии бештар ба модел кӯмак мекунад, ки овози шуморо омӯзад.",
+      "dynamics": "Динамика: нарм → баланд",
+      "dynamics_inst": "Ҳамон ибораро аз хеле нарм сар карда, бо овози баланд тамом кунед, бидуни фишори гулӯ. Ин диапазони динамикии овози шуморо Suno нишон медиҳад.",
+      "spoken": "Ибораи гуфташуда",
+      "spoken_inst": "Гап кардан — нахонед — ибораи кутох ва табий, ки гуё сухбат карда истода бошед. Ин ба Суно кӯмак мекунад, ки тембри воқеии овози шуморо эътироф кунад."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Барқарорсозӣ",
+      "filter": "Филтрҳо",
+      "dynamics": "Динамика",
+      "separation": "Ҷудоӣ",
+      "quality": "Сифат",
+      "utility": "Утилита",
+      "loudness": "Баландӣ"
+    },
+    "highpass": "Филтри баландгузар",
+    "lowpass": "Филтри паст-гузар",
+    "denoise": "Noise reduction",
+    "declip": "Кашидани",
+    "declick": "Ангуштзанӣ/несткунии поп",
+    "deesser": "Де-эссер",
+    "gate": "Дарвозаи садо",
+    "compressor": "Компрессор",
+    "limiter": "Маҳдудкунанда",
+    "eq": "Баробаркунӣ",
+    "normalize": "Нормализатсияи қулла",
+    "loudness": "Нормализатсияи баландӣ (LUFS)",
+    "reverb_reduce": "Камшавии реверб",
+    "separate": "Ҷудокунии манбаъ",
+    "quality": "Баланд бардоштани сифат (баланд)",
+    "trim_silence": "Тозакунии хомӯшӣ",
+    "fade": "Fade in / fade out",
+    "stereo_to_mono": "Convert to mono",
+    "resample": "Навсозии намуна"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Эътимоднок",
+      "2": "Одатан кор мекунад",
+      "3": "Тағйирёбанда",
+      "4": "Плацебо"
+    },
+    "category": {
+      "structure": "Сохтор",
+      "vocal": "Вокал",
+      "instrument": "Асбоб",
+      "dynamics": "Dynamics",
+      "production": "Истехсолот",
+      "mood": "Кайфият"
+    },
+    "verse": "Оят",
+    "chorus": "Хор",
+    "bridge": "Пул",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Ҳук",
+    "prechorus": "Хори пешакӣ",
+    "instrumental": "Instrumental",
+    "guitar_solo": "Соло гитара",
+    "build_up": "Сохтмон",
+    "breakdown": "Тақсим",
+    "spoken_word": "Spoken word",
+    "whispered": "Пичиррос зад",
+    "harmonies": "Harmonies",
+    "male_vocal": "Овози мард",
+    "female_vocal": "Овози зан",
+    "duet": "Дуэт",
+    "acoustic": "Акустикӣ",
+    "ad_lib": "Ад-либ"
+  },
+  "presets": {
+    "clean_voice": "Овози тоза",
+    "voice_guitar_balanced": "Овози мутавозин ва гитара",
+    "podcast": "Podcast",
+    "suno_ready": "Suno ready",
+    "gentle_restore": "Gentle restore",
+    "raw_passthrough": "No processing"
+  },
+  "errors": {
+    "unknown": "Something went wrong.",
+    "network": "Ба сервер расида натавонист.",
+    "validation_error": "Маълумоти воридшударо тафтиш кунед.",
+    "not_found": "Item not found.",
+    "project_not_found": "Project not found.",
+    "take_not_found": "Take not found.",
+    "album_not_found": "Албом ёфт нашуд.",
+    "preset_not_found": "Танзимоти пешакӣ ёфт нашуд.",
+    "template_not_found": "Шаблон ёфт нашуд.",
+    "device_busy": "Дастгоҳи аудиоӣ аз ҷониби барномаи дигар истифода мешавад.",
+    "device_not_found": "Audio device not found.",
+    "already_recording": "Сабт аллакай ҷараён дорад.",
+    "ffmpeg_missing": "FFmpeg насб нашудааст — онро барои табдил додани ин файл насб кунед.",
+    "disk_full": "Фазои диск кофӣ нест.",
+    "permission_denied": "Иҷозат барои роҳи додашуда рад карда шуд.",
+    "import_path_not_found": "Роҳи воридот ёфт нашуд.",
+    "job_failed": "Коркард ноком шуд.",
+    "job_cancelled": "Коркард бекор карда шуд.",
+    "process_failed": "Коркарди гирифтан муяссар нашуд.",
+    "export_failed": "Файлро содир карда натавонист.",
+    "record_failed": "Оғози сабт натавонист."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Дар навбат",
+      "running": "Давидан",
+      "done": "Иҷро шуд",
+      "error": "Муваффақ шуд",
+      "cancelled": "Бекор карда шуд"
+    },
+    "kind": {
+      "process": "Коркард",
+      "export": "Содирот",
+      "import": "Воридот",
+      "record": "Сабт кардан"
+    }
+  }
+}

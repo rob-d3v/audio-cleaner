@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "د آډیو کلینر"
+  },
+  "nav": {
+    "library": "کتابتون",
+    "record": "ریکارډ",
+    "import": "واردول",
+    "templates": "کينډۍ",
+    "settings": "ترتیبات",
+    "guide": "لارښود"
+  },
+  "common": {
+    "save": "خوندي کړئ",
+    "saving": "خوندي کول…",
+    "saved": "خوندي شوی",
+    "cancel": "لغوه کړئ",
+    "close": "تړل",
+    "delete": "ړنګول",
+    "edit": "سمون",
+    "create": "جوړ کړئ",
+    "search": "لټون",
+    "loading": "بار کول…",
+    "error": "تېروتنه",
+    "retry": "بیا هڅه وکړئ",
+    "confirm": "تایید کړه",
+    "back": "شاته",
+    "next": "بل",
+    "continue": "ادامه ورکړئ",
+    "finish": "ختم",
+    "copy": "کاپي",
+    "copied": "کاپي",
+    "download": "ډاونلوډ کړئ",
+    "upload": "پورته کول",
+    "none": "هیڅ نه",
+    "all": "ټول",
+    "yes": "هو",
+    "no": "نه",
+    "select": "وټاکئ",
+    "optional": "اختیاري",
+    "required": "اړین",
+    "unsaved_changes": "نه خوندي شوي بدلونونه",
+    "name": "نوم",
+    "status": "حالت",
+    "type": "ډول",
+    "actions": "کړنې",
+    "empty": "خالي",
+    "browse": "لټون وکړئ",
+    "remove": "لرې کړئ",
+    "add": "اضافه کړئ",
+    "rename": "نوم بدل کړئ",
+    "duplicate": "نقل",
+    "warning": "خبرتیا",
+    "locked": "تړل شوی",
+    "builtin": "جوړ شوی",
+    "custom": "دودیز",
+    "untitled": "بې سرلیکنه",
+    "select_placeholder": "وټاکئ…"
+  },
+  "library": {
+    "title": "کتابتون",
+    "subtitle": "ستاسو غږ او ګیتار پروژې ، له نظره خوشې کولو پورې.",
+    "new_project": "نوې پروژه",
+    "new_album": "نوی البوم",
+    "search_placeholder": "د نوم له مخې لټون…",
+    "view": {
+      "grid": "گرډ",
+      "albums": "البومونه"
+    },
+    "filters": {
+      "all": "ټول"
+    },
+    "take_count_one": " {{count}} واخلي",
+    "take_count_other": " {{count}} اخلي",
+    "updated_at": "تازه شوی {{date}} ",
+    "no_results": {
+      "title": "هیڅ پروژه ونه موندل شوه",
+      "description": "د لټون یا حالت فلټر تنظیم کولو هڅه وکړئ."
+    },
+    "empty": {
+      "title": "ستاسو کتابتون خالي دی",
+      "description": "یوه نوې پروژه له سکریچ څخه پیل کړئ، یا وارد کړئ چې تاسو دمخه په ډیسک کې لرئ.",
+      "cta_import": "له فولډر څخه وارد کړئ",
+      "cta_new": "پروژه جوړه کړئ"
+    },
+    "project_dialog": {
+      "title": "نوې پروژه",
+      "description": "دې ته نوم ورکړئ او د ثبت کولو حالت غوره کړئ.",
+      "name_label": "د پروژې نوم",
+      "name_placeholder": "د مثال په توګه د اوړي باران",
+      "mode_label": "موډ",
+      "mode": {
+        "voice": "یوازې غږ",
+        "voice_guitar": "غږ + ګیتار"
+      },
+      "submit": "پروژه جوړه کړئ"
+    },
+    "album_dialog": {
+      "title": "نوی البوم",
+      "description": "اړونده پروژې په البوم کې ګروپ کړئ.",
+      "name_label": "د البوم نوم",
+      "name_placeholder": "د مثال په توګه د مني EP",
+      "submit": "البوم جوړ کړئ"
+    },
+    "album": {
+      "untitled": "بې عنوان البوم",
+      "members_count_one": " {{count}} پروژه",
+      "members_count_other": " {{count}} پروژې",
+      "empty": "په دې البوم کې تراوسه کومه پروژه نشته.",
+      "delete_confirm_title": "البوم ړنګ کړئ؟",
+      "delete_confirm_description": "پروژې به ړنګې نشي، یوازې د \"{{name}}\" څخه غیر تړل شوي."
+    },
+    "delete_project": {
+      "confirm_title": "\"{{name}}\" ړنګ کړئ؟",
+      "confirm_description": "دا پروژه لیرې کوي او هر یو په دې کې اخلي. دا نه شي ختمېدای."
+    }
+  },
+  "record": {
+    "title": "ریکارډ",
+    "subtitle": "یو پاک ټیک واخلئ، خپلې کچې وګورئ، او سکریپټ تعقیب کړئ.",
+    "project_label": "پروژه",
+    "project_placeholder": "یوه پروژه غوره کړئ",
+    "project_create_quick": "یوه چټکه پروژه جوړه کړئ...",
+    "device_label": "د ننوتلو وسیله",
+    "device_placeholder": "یو وسیله غوره کړئ",
+    "device_default_badge": "د سیسټم ډیفالټ",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "هیڅ ان پټ وسایل ونه موندل شول.",
+    "monitor_button": "څارنه",
+    "monitor_stop_button": "څارنه بنده کړئ",
+    "record_button": "ریکارډ",
+    "stop_button": "ودریږئ",
+    "elapsed_label": "تېر شوی وخت",
+    "status": {
+      "idle": "بې کاره",
+      "monitoring": "څارنه",
+      "recording": "ثبت کول",
+      "stopped": "ودرېده"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "چوکۍ",
+      "clip": "کلیپ"
+    },
+    "guide": {
+      "title": "لارښود غونډه",
+      "subtitle": "اجازه راکړئ چې کوچ تاسو د سکریپټ له لارې ګام په ګام حرکت وکړي، له ګرمۍ څخه تر خبرې شوي جملې پورې.",
+      "loading": "سکریپټ پورته کول…",
+      "unavailable": "لارښود ناسته تر اوسه په سرور کې شتون نلري.",
+      "select_project_device": "له دې ځایه د ګامونو ثبتولو لپاره یوه پروژه او د ان پټ وسیله غوره کړئ.",
+      "progress": " {{done}} د {{total}} مرحلې",
+      "start_timer": "ټایمر پیل کړئ",
+      "skip_timer": "ټایمر پریږدئ",
+      "record_step": "دا ګام ثبت کړئ",
+      "stop_step": "ثبت کول بند کړئ",
+      "mark_done": "بشپړ شوی - بل ګام",
+      "step_recorded": "ثبت کړي",
+      "no_record_step": "د تودوخې مرحله - هیڅ ریکارډ ته اړتیا نشته.",
+      "bars_hint": "شاوخوا {{bars}} بارونه",
+      "complete_title": "سکریپټ بشپړ شو!",
+      "complete_body": "تاسو د سکریپټ هر ګام ثبت کړی دی. د پروژې آډیو ټب ته بیرته لاړشئ او خپل غوره ټیکونه غوره کړئ.",
+      "restart": "سکریپټ بیا پیل کړئ"
+    },
+    "best2min": {
+      "button": "غوره 2 دقیقې ومومئ (سنو)",
+      "running": "د اخیستلو تحلیل…",
+      "score_label": "سکور",
+      "hint": "د دې قوي 2 دقیقې کړکۍ موندلو لپاره په ټوله برخه کې د انرژي او وضاحت تحلیل پرمخ وړي - تاسو لاهم کولی شئ وروسته له دې د لاس په واسطه حد تنظیم کړئ.",
+      "chart_caption": "د هرې کړکۍ نمرې",
+      "unavailable": "د غوره 2 دقیقو تحلیل لاهم پدې سرور کې شتون نلري."
+    },
+    "takes_title": "له دې غونډې څخه اخلي",
+    "takes_empty": "په دې غونډه کې تر اوسه کومه پېښه نه ده ثبت شوې.",
+    "open_in_project": "په پروژه کې خلاص کړئ",
+    "ws_disconnected": "د لیول میټر سره بیا نښلول…",
+    "select_project_first": "د پیل کولو لپاره یوه پروژه غوره کړئ.",
+    "select_device_first": "د ننوتلو وسیله غوره کړئ."
+  },
+  "project": {
+    "back_to_library": "بېرته کتابتون ته",
+    "header": {
+      "status_label": "حالت",
+      "cover_upload": "پوښ پورته کړئ",
+      "cover_remove": "پوښ لرې کړئ",
+      "name_placeholder": "د پروژې نوم",
+      "links_title": "لینکونه",
+      "add_link": "لینک اضافه کړئ",
+      "mode": {
+        "voice": "یوازې غږ",
+        "voice_guitar": "غږ + ګیتار"
+      }
+    },
+    "tabs": {
+      "audio": "آډیو",
+      "lyrics": "غزل",
+      "prompts": "پرانستل",
+      "notes": "یادښتونه"
+    },
+    "audio": {
+      "takes_title": "اخلي",
+      "no_takes": {
+        "title": "تر اوسه نه اخلي",
+        "description": "یو نوی اخیستل ثبت کړئ یا موجوده فایل وارد کړئ."
+      },
+      "record_new": "یو نوی اخیستل ثبت کړئ",
+      "rating": "درجه بندي",
+      "variant": {
+        "raw": "خام",
+        "processed": "پروسس شوی"
+      },
+      "variant_placeholder": "نسخه",
+      "process_button": "پروسه",
+      "export_button": "صادرول",
+      "delete_take_confirm_title": "دا ټیک ړنګ کړئ؟",
+      "delete_take_confirm_description": "خام آډیو او هر پروسس شوی نسخه به لیرې شي.",
+      "ab": {
+        "raw": "A · خام",
+        "processed": "ب · پروسس شوی"
+      },
+      "origin": {
+        "recorded": "ثبت شوی",
+        "imported": "وارد شوي"
+      },
+      "session_label_placeholder": "د سیشن لیبل (اختیاري)",
+      "duration": "موده",
+      "sample_rate": "د نمونې نرخ",
+      "channels": "چینلونه",
+      "created_at": "ثبت شوی"
+    },
+    "pipeline": {
+      "title": "د پروسس سلسله",
+      "preset_label": "مخکینۍ",
+      "preset_none": "دودیز سلسله",
+      "preset_save": "د مخکینۍ په توګه خوندي کړئ",
+      "stage_locked": "تړل شوی",
+      "stage_requires_extra": "یو اضافي ته اړتیا لري چې نصب شوي ندي",
+      "process_button": "د پروسې اخیستل",
+      "processing": "پروسس کول…",
+      "job_queued": "کتار…",
+      "job_running": "پروسس کول…",
+      "job_done": "ترسره شو",
+      "job_error": "ناکام شو",
+      "job_cancelled": "لغوه شو",
+      "cancel_job": "لغوه کړئ",
+      "no_stages": "هیڅ مرحلې شتون نلري."
+    },
+    "export": {
+      "title": "صادرات اخیستل",
+      "description": "د پروسس شوي نسخې څخه وروستی فایل وړاندې کړئ.",
+      "variant_label": "نسخه",
+      "format_label": "بڼه",
+      "preset_label": "پری سیټ صادر کړئ",
+      "range_label": "رینج",
+      "range_full": "بشپړ اوږدوالی",
+      "range_custom": "د ګمرک حد",
+      "start_label": "پیل",
+      "end_label": "پای",
+      "submit": "صادرول",
+      "progress": "د دوتنې وړاندې کول…",
+      "download_ready": "دوتنه چمتو ده",
+      "download_button": "فایل ډاونلوډ کړئ"
+    },
+    "notes": {
+      "placeholder": "د دې پروژې په اړه وړیا فورمې یادښتونه…",
+      "saved_at": "په {{time}} کې خوندي شوی "
+    },
+    "lyrics": {
+      "placeholder": "دلته غزل ولیکئ. د سنو میټا ټاګونو داخلولو لپاره په اړخ کې پیلټ وکاروئ.",
+      "saved_at": "په {{time}} کې خوندي شوی ",
+      "saving": "خوندي کول…",
+      "versions": "نسخې",
+      "versions_empty": "تراوسه کومه نسخه خوندي شوې نه ده.",
+      "version_preview": "مخکتنه",
+      "restore": "دا نسخه بحال کړئ",
+      "restore_confirm_title": "دا نسخه بحال کړئ؟",
+      "restore_confirm_description": "اوسنی متن به په {{date}} کې خوندي شوي نسخه سره بدل شي.",
+      "metatags_title": "میټا ټګونه",
+      "metatags_hint": "په کرسر کې د داخلولو لپاره ټاګ باندې کلیک وکړئ.",
+      "metatags_placebo_warning": "غیر ثابت - ممکن په پایله کې هیڅ اغیزه ونلري.",
+      "metatags_empty": "هیڅ میټا ټګونه ثبت شوي ندي."
+    },
+    "prompts": {
+      "style_title": "سټایل سمدستي",
+      "lyrics_title": "د سندرو ګړندی",
+      "template_label": "کينډۍ",
+      "template_none": "هیڅ ټیمپلیټ نشته",
+      "variables_title": "متغیرات",
+      "preview_title": "مخکتنه",
+      "preview_empty": "یو ټیمپلیټ غوره کړئ او د مخکتنې لیدو لپاره متغیرونه ډک کړئ.",
+      "char_count": " {{count}} حروف",
+      "char_count_warning": "سټایل ته اشاره کول له 1000 څخه ډیر حروف ممکن د سنو لخوا قطع شي.",
+      "copy": "کاپي",
+      "copied": "کلپ بورډ ته کاپي شوی",
+      "save_to_project": "پروژې ته خوندي کړئ",
+      "saved_to_project": "پرامپټ پروژې ته خوندي شو",
+      "history_title": "تاریخ",
+      "history_empty": "پخوانۍ نسخې نشته.",
+      "current_label": "اوسنۍ"
+    },
+    "stems": {
+      "title": "غږونه او ګیتار",
+      "separate_button": "جلا غږونه او ګیتار",
+      "running": "جلا کول…",
+      "vocals": "غږونه",
+      "instrumental": "وسیله",
+      "process_stem": "دا ډډ پروسس کړئ",
+      "empty": "دا برخه لا نه ده جلا شوې. په انزوا کې د غږونو او ګیتار اوریدو لپاره جلا کول.",
+      "capability_missing": "د سرچینې جلا کول پدې سرور کې ندي نصب شوي.",
+      "unavailable": "د غږ/ګیتار جلا کول تر اوسه په دې سرور کې شتون نلري."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "پر",
+    "boolean_off": "بند"
+  },
+  "import": {
+    "title": "واردول",
+    "subtitle": "هغه پروژې چې دمخه په ډیسک کې شتون لري کتابتون ته راوړئ.",
+    "step_indicator": "ګام {{current}} د {{total}} ",
+    "step1": {
+      "title": "فولډر ومومئ",
+      "description": "د خپلو پروژو او ټریکونو سره روټ فولډر ته اشاره وکړئ.",
+      "path_label": "د فولډر لاره",
+      "path_placeholder": "د مثال په توګه E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "وروستي",
+      "scan_button": "فولډر سکین کړئ",
+      "scanning": "سکین کول…",
+      "ffmpeg_warning": "FFmpeg ونه موندل شو - هغه فایلونه چې تبادلې ته اړتیا لري پریښودل شي.",
+      "folders_found_one": " {{count}} فولډر وموندل شو",
+      "folders_found_other": " {{count}} فولډرونه وموندل شول",
+      "unmatched_files_one": " {{count}} نا پیژندل شوی فایل",
+      "unmatched_files_other": " {{count}} ناپیژندل شوي فایلونه"
+    },
+    "step2": {
+      "title": "د توکو بیاکتنه",
+      "description": "نومونه، حالتونه او هغه څه چې د تایید کولو دمخه به وارد شي چیک کړئ.",
+      "select_all": "ټول وټاکئ",
+      "table": {
+        "folder": "د سرچینې فولډر",
+        "name": "د پروژې نوم",
+        "status": "حالت",
+        "audio": "آډیو",
+        "lyrics": "غزل",
+        "cover": "پوښ",
+        "album": "البوم"
+      },
+      "audio_include_one": " {{count}} فایل غوره شوی",
+      "audio_include_other": " {{count}} فایلونه غوره شوي",
+      "no_audio": "هیڅ غږ ونه موندل شو",
+      "no_lyrics": "هیڅ سندره ونه موندل شوه",
+      "no_cover": "نه پوښ",
+      "warnings_title": "اخطارونه"
+    },
+    "step3": {
+      "title": "واردول",
+      "description": "د فایلونو کاپي کولو تصدیق وکړئ او پروژې رامینځته کړئ.",
+      "copy_originals": "اصلي فایلونه په کتابتون کې کاپي کړئ",
+      "execute_button": "واردول پیل کړئ",
+      "progress_title": "واردول…",
+      "created_count": "جوړ شوی: {{count}} ",
+      "skipped_count": "پریښودل: {{count}} ",
+      "done_title": "واردول بشپړ شو",
+      "done_description": "لاندې پروژې ستاسو په کتابتون کې جوړې شوې.",
+      "view_project": "پروژه پرانیستل",
+      "start_over": "نوی واردات"
+    }
+  },
+  "templates": {
+    "title": "کينډۍ",
+    "subtitle": "د سنو لپاره د بیا کارولو وړ پرامپټ ټیمپلیټونه او میټا ټګونه.",
+    "tabs": {
+      "prompts": "سمدستي ټیمپلیټونه",
+      "metatags": "میټا ټګونه"
+    },
+    "new_template": "نوې کينډۍ",
+    "kind": {
+      "style": "سټایل",
+      "lyrics": "غزل"
+    },
+    "kind_label": "ډول",
+    "delete_confirm_title": "کينډۍ \"{{name}}\" ړنګ کړئ؟",
+    "delete_confirm_description": "دا نه شي ختمېدای.",
+    "empty": "تر اوسه هیڅ ټیمپلیټ نشته.",
+    "editor": {
+      "title_new": "نوې کينډۍ",
+      "title_edit": "کينډۍ سمول",
+      "name_label": "نوم",
+      "name_placeholder": "د مثال په توګه اکوسټیک بیلډ",
+      "kind_label": "ډول",
+      "template_label": "د کينډۍ متن",
+      "template_hint": "په نښه کړئ چیرې چې هر متغیر د هغه نوم سره تړاو لري چې په دوه ګونی خړوبونو کې پوښل شوي - د مثال په توګه، د \"ژانر\" په نوم یو متغیر په دوه پرانیستې او دوه تړلو بندونو کې ژانر کیږي.",
+      "variables_label": "متغیرات",
+      "variable_add": "متغیر اضافه کړئ",
+      "variable_name": "کلید",
+      "variable_label": "لیبل",
+      "variable_type": "ډول",
+      "variable_type_string": "متن",
+      "variable_type_select": "واحد انتخاب",
+      "variable_type_multiselect": "څو انتخاب",
+      "variable_type_number": "شمیره",
+      "variable_type_boolean": "هو/نه",
+      "variable_options": "اختیارونه (د کوما سره جلا شوي)",
+      "variable_required": "اړین دی",
+      "save": "کينډۍ خوندي کړئ"
+    },
+    "metatags": {
+      "title": "میټا ټګونه",
+      "subtitle": "ساختماني او سټایل ټګونه سنو د سندرو دننه پیژني.",
+      "new_tag": "نوې ټګ",
+      "tag_label": "ټګ",
+      "tag_placeholder": "د مثال په توګه ګیتار - سولو",
+      "category_label": "کټګوري",
+      "tier_label": "اعتبار",
+      "tier_legend_title": "د اعتبار افسانه",
+      "tier_legend": {
+        "1": "1 درجه - مستند او ثابت",
+        "2": "ټیر 2 - معمولا کار کوي",
+        "3": "دریمه درجه - متغیر اغیزه",
+        "4": "څلورمه درجه - پلیسبو، غیر ثابت شوی"
+      },
+      "description_label": "تفصیل",
+      "delete_confirm_title": "ټاګ \"{{tag}}\" ړنګ کړئ؟",
+      "empty": "تراوسه هیڅ دودیز میټا ټګونه ندي."
+    }
+  },
+  "settings": {
+    "title": "ترتیبات",
+    "subtitle": "د سیسټم معلومات، ژبه، او ډیفالټ غوره توبونه.",
+    "system_info_title": "سیسټم",
+    "version": "نسخه",
+    "data_dir": "د معلوماتو فولډر",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "شته",
+    "ffmpeg_missing": "ونه موندل شو",
+    "capabilities_title": "نصب شوي وړتیاوې",
+    "capability": {
+      "denoise": "د شور کمول",
+      "quality": "د کیفیت لوړول",
+      "separate": "د سرچینې جلا کول",
+      "ffmpeg": "د FFmpeg تبادله"
+    },
+    "capability_available": "شته",
+    "capability_unavailable": "نه شته",
+    "gpu_title": "د GPU سرعت",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "د ONNX چلولو چمتو کونکي"
+    },
+    "gpu_none": "هیڅ GPU چمتو کونکي ندي موندل شوي",
+    "language_title": "ژبه",
+    "language": {
+      "pt-BR": "پرتګالي (برازیل)",
+      "en": "انګلیسي"
+    },
+    "theme_title": "بڼه",
+    "theme": {
+      "dark": "تیاره",
+      "light": "رڼا"
+    },
+    "defaults_title": "ډیفالټ صادر کړئ",
+    "lufs_target_label": "هدف LUFS",
+    "lufs_target_hint": "د پیل وړاندیز په توګه کارول کیږي کله چې صادرات اخلي. د سنو ډیفالټ شاوخوا -14 LUFS ناست دی.",
+    "saved": "غوره توبونه خوندي شول"
+  },
+  "guide": {
+    "title": "د سنو ثبتولو لارښود",
+    "subtitle": "د غږ او ګیتار اخیستلو څرنګوالی چې غوره پایلې ترلاسه کوي.",
+    "intro": "سنو د پاک، غیر واضح حوالې سره غوره ترسره کوي. دا لارښود چمتووالی، د هدف کچه، او د 3-5 دقیقو ثبت کولو سکریپټ پوښي.",
+    "sections": {
+      "prep": {
+        "title": "تیاری",
+        "body": "په یوه درملنه شوې خونه کې ثبت کړئ یا په کافي اندازه نرم مواد ولري (پردې، غالۍ، جامې په الماری کې). پرستار او هر هغه څه چې غوسه کوي بند کړئ. د ثبتولو دمخه د 5 دقیقو لپاره خپل غږ ګرم کړئ."
+      },
+      "levels": {
+        "title": "کچه: -12 څخه تر -6 dBFS",
+        "body": "په متر کې د -12 او -6 dBFS تر منځ د څوکو لپاره هدف وټاکئ. د دې سلسلې لاندې، د شالید شور ډیر د پام وړ کیږي؛ د دې څخه پورته، د کلپ کولو خطر لوړیږي. د ریکارډ پاڼې کې میټر وکاروئ مخکې لدې چې تاسو پیل کړئ خپله ګټه تنظیم کړئ."
+      },
+      "distance": {
+        "title": "د مایک فاصله: 15-30 سانتي متره",
+        "body": "د مایکروفون څخه د 15 څخه تر 30 سانتي مترو پورې پاتې شئ. د دې په پرتله نږدې چاودیدونکي او د نږدي اغیزې مبالغه کوي؛ ډیر لیرې د کوټې ډیر غږ او شور پورته کوي."
+      },
+      "script": {
+        "title": "د ثبت سکریپټ",
+        "warmup": "غږی تودوخه (1-2 دقیقې)",
+        "vowels": "دوامدار واولونه - a, e, i, o, u",
+        "scales": "ساده ترازو، پورته او ښکته",
+        "excerpt": "د سندرې اقتباس (له 8 څخه تر 16 پورې)",
+        "dynamics": "متحرکات: نرم پیل کړئ، په لوړ غږ پای ته ورسیږئ",
+        "spoken_phrase": "یوه خبرې شوې جمله، نو سنو کولی شي ستاسو غږیز سر ولولي"
+      },
+      "expectations": {
+        "title": "سنو څه تمه لري",
+        "body": "WAV، 48 kHz، مونو، وچ (هیڅ تکرار یا تاثیرات)، د حوالې له 3 څخه تر 5 دقیقو پورې. تر ټولو پاک، تر ټولو نمایشي 2 دقیقې اخیستل معمولا غوره پایلې تولیدوي."
+      }
+    }
+  },
+  "status": {
+    "idea": "خیال",
+    "em_progresso": "په پرمختګ کې",
+    "quase": "تقریبا هلته",
+    "pronto": "چمتو"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "د سنو لپاره بشپړ غږیز سکریپټ",
+      "desc": "5 لارښود دقیقې: تودوخه، غږونه، ترازو، د سندرو دوه اقتباسونه، متحرکات، او یوه ویل شوي جمله."
+    },
+    "step": {
+      "warmup": "غږی تودوخه",
+      "warmup_inst": "د یخ وهلو، د شونډو ټریل (brrr) او د شاوخوا یوې دقیقې لپاره د نرم حمام سره نرم کړئ. ثبت کولو ته اړتیا نشته - دا یوازې د سندرې ویلو دمخه ستاسو ستوني آرام کول دي.",
+      "vowels": "دوامداره غږونه",
+      "vowels_inst": "هر واول - a, e, i, o, u - د 3 څخه تر 4 ثانیو لپاره په خپل آرامۍ پیچ کې وساتئ، په ثابت حجم سره. دا د سنو سره مرسته کوي چې ستاسو د غږ خالص ټبر غوره کړي.",
+      "scales": "ترازو پورته او ښکته",
+      "scales_inst": "یو ساده پیمانه پورته او بیا ښکته په \"لا\" یا \"نا\" کې سندرې ووایاست. دا اړتیا نلري چې بشپړ وي - موخه دا ده چې ستاسو د غږ سلسله نقشه کړئ.",
+      "section": "د سندرو اقتباس - لومړۍ برخه",
+      "section_inst": "د سندرې له 8 څخه تر 16 پورې سندرې ووایاست، د ریښتینې ارادې سره چې تاسو یې بیانول غواړئ. د تخنیکي بشپړتیا په پرتله روښانه کولو او شتون ته لومړیتوب ورکړئ.",
+      "section2": "د سندرو اقتباس - دویمه برخه",
+      "section2_inst": "نور له 8 څخه تر 16 پورې سندرې ووایاست - په مثالي توګه یو کورس یا هغه برخه چې د تیر سره توپیر لري. ډیر ډولونه موډل سره ستاسو غږ زده کولو کې مرسته کوي.",
+      "dynamics": "متحرکات: نرم → لوړ",
+      "dynamics_inst": "هماغه جمله وغږیږئ چې په ډیره نرمه پیل کیږي او په لوړ غږ پای ته رسیږي، پرته له دې چې ستاسو ستوني فشار راوړي. دا ستاسو د غږ متحرک سلسله سنو ښیې.",
+      "spoken": "خبرې شوې جمله",
+      "spoken_inst": "خبرې وکړئ - سندرې مه کوئ - یو لنډ، طبیعي جمله، لکه څنګه چې تاسو خبرې کوئ. دا د سنو سره مرسته کوي چې ستاسو د غږ ریښتیني ټبر پیژني."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "بیا رغونه",
+      "filter": "فلټرونه",
+      "dynamics": "متحرکات",
+      "separation": "جلا کول",
+      "quality": "کیفیت",
+      "utility": "افادیت",
+      "loudness": "لوړ غږ"
+    },
+    "highpass": "د لوړ پاس فلټر",
+    "lowpass": "د ټیټ پاس فلټر",
+    "denoise": "د شور کمول",
+    "declip": "ردول",
+    "declick": "کلیک/پاپ لرې کول",
+    "deesser": "ډی ایسسر",
+    "gate": "د شور دروازه",
+    "compressor": "کمپرسور",
+    "limiter": "محدود",
+    "eq": "انډول کول",
+    "normalize": "لوړ نورمال کول",
+    "loudness": "د لوړ غږ نورمال کول (LUFS)",
+    "reverb_reduce": "د ریورب کمول",
+    "separate": "د سرچینې جلا کول",
+    "quality": "د کیفیت لوړول (په لوړه کچه)",
+    "trim_silence": "د چوپتیا ترمینل",
+    "fade": "له مینځه وړل / له مینځه وړل",
+    "stereo_to_mono": "مونو ته واړوئ",
+    "resample": "بیا نمونه کول"
+  },
+  "metatags": {
+    "tier": {
+      "1": "د باور وړ",
+      "2": "معمولا کار کوي",
+      "3": "متغیر",
+      "4": "پلیسبو"
+    },
+    "category": {
+      "structure": "جوړښت",
+      "vocal": "غږ",
+      "instrument": "وسیله",
+      "dynamics": "متحرکات",
+      "production": "تولید",
+      "mood": "مزاج"
+    },
+    "verse": "آیت",
+    "chorus": "کوروس",
+    "bridge": "پل",
+    "intro": "تعارف",
+    "outro": "Outro",
+    "hook": "هک",
+    "prechorus": "مخکینۍ کورس",
+    "instrumental": "وسیله",
+    "guitar_solo": "ګیتار سولو",
+    "build_up": "جوړول",
+    "breakdown": "ماتول",
+    "spoken_word": "خبرې شوې کلمه",
+    "whispered": "چيغې وهلې",
+    "harmonies": "همغږي",
+    "male_vocal": "د نارینه غږ",
+    "female_vocal": "ښځینه غږ",
+    "duet": "دوۍ",
+    "acoustic": "اکوسټیک",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "پاک غږ",
+    "voice_guitar_balanced": "متوازن غږ او ګیتار",
+    "podcast": "پوډکاسټ",
+    "suno_ready": "سنو چمتو دی",
+    "gentle_restore": "نرم بیا رغونه",
+    "raw_passthrough": "هیڅ پروسس کول"
+  },
+  "errors": {
+    "unknown": "یو څه غلط شو.",
+    "network": "سرور ته ونه رسیدل.",
+    "validation_error": "هغه معلومات چیک کړئ چې تاسو یې داخل کړي.",
+    "not_found": "توکي ونه موندل شول.",
+    "project_not_found": "پروژه ونه موندل شوه.",
+    "take_not_found": "ونه موندل شو.",
+    "album_not_found": "البوم ونه موندل شو.",
+    "preset_not_found": "پریزیټ ونه موندل شو.",
+    "template_not_found": "کينډۍ ونه موندل شوه.",
+    "device_busy": "د آډیو وسیله د بل پروګرام لخوا کارول کیږي.",
+    "device_not_found": "د آډیو وسیله ونه موندل شوه.",
+    "already_recording": "یو ریکارډ لا ​​دمخه په پرمختګ کې دی.",
+    "ffmpeg_missing": "FFmpeg نه دی نصب شوی - د دې فایل بدلولو لپاره یې نصب کړئ.",
+    "disk_full": "کافي ډیسک ځای نلري.",
+    "permission_denied": "د ورکړل شوې لارې لپاره اجازه رد شوه.",
+    "import_path_not_found": "د وارداتو لاره ونه موندل شوه.",
+    "job_failed": "پروسس ناکام شو.",
+    "job_cancelled": "پروسس کول لغوه شو.",
+    "process_failed": "د اخیستلو پروسس کولو کې پاتې راغلی.",
+    "export_failed": "د فایل په صادرولو کې پاتې راغلی.",
+    "record_failed": "د ثبت پیل کولو کې پاتې راغلی."
+  },
+  "jobs": {
+    "status": {
+      "queued": "کتار",
+      "running": "چلول",
+      "done": "ترسره شو",
+      "error": "ناکام شو",
+      "cancelled": "لغوه شو"
+    },
+    "kind": {
+      "process": "پروسس کول",
+      "export": "صادرول",
+      "import": "واردول",
+      "record": "ثبت کول"
+    }
+  }
+}

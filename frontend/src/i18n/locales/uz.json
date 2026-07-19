@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio tozalovchi"
+  },
+  "nav": {
+    "library": "Kutubxona",
+    "record": "Yozib olish",
+    "import": "Import",
+    "templates": "Shablonlar",
+    "settings": "Sozlamalar",
+    "guide": "Qoʻllanma"
+  },
+  "common": {
+    "save": "Saqlash",
+    "saving": "Saqlanmoqda…",
+    "saved": "Saqlangan",
+    "cancel": "Bekor qilish",
+    "close": "Yopish",
+    "delete": "Oʻchirish",
+    "edit": "Tahrirlash",
+    "create": "Yaratish",
+    "search": "Qidiruv",
+    "loading": "Yuklanmoqda…",
+    "error": "Xato",
+    "retry": "Qayta urinish",
+    "confirm": "Tasdiqlang",
+    "back": "Orqaga",
+    "next": "Keyingi",
+    "continue": "Davom eting",
+    "finish": "Tugatish",
+    "copy": "Nusxalash",
+    "copied": "Ko‘chirildi",
+    "download": "Yuklab oling",
+    "upload": "Yuklash",
+    "none": "Yo'q",
+    "all": "Hammasi",
+    "yes": "Ha",
+    "no": "Yo'q",
+    "select": "Tanlang",
+    "optional": "ixtiyoriy",
+    "required": "talab qilinadi",
+    "unsaved_changes": "Saqlanmagan o'zgarishlar",
+    "name": "Ism",
+    "status": "Status",
+    "type": "Turi",
+    "actions": "Harakatlar",
+    "empty": "Bo'sh",
+    "browse": "Ko‘rib chiqish",
+    "remove": "O'chirish",
+    "add": "Qo'shish",
+    "rename": "Nomini o'zgartirish",
+    "duplicate": "Dublikat",
+    "warning": "Ogohlantirish",
+    "locked": "Qulflangan",
+    "builtin": "O'rnatilgan",
+    "custom": "Maxsus",
+    "untitled": "Sarlavhasiz",
+    "select_placeholder": "Tanlang…"
+  },
+  "library": {
+    "title": "Kutubxona",
+    "subtitle": "Sizning ovozingiz va gitara loyihalaringiz, g'oyadan tortib to nashrga qadar.",
+    "new_project": "Yangi loyiha",
+    "new_album": "Yangi albom",
+    "search_placeholder": "Ism bo'yicha qidirish...",
+    "view": {
+      "grid": "To‘r",
+      "albums": "Albomlar"
+    },
+    "filters": {
+      "all": "Hammasi"
+    },
+    "take_count_one": " {{count}} olish",
+    "take_count_other": " {{count}} oladi",
+    "updated_at": "Yangilangan {{date}} ",
+    "no_results": {
+      "title": "Hech qanday loyiha topilmadi",
+      "description": "Qidiruv yoki holat filtrini sozlashga harakat qiling."
+    },
+    "empty": {
+      "title": "Kutubxonangiz boʻsh",
+      "description": "Yangi loyihani noldan boshlang, yoki import sizda allaqachon diskda mavjud bo'ladi.",
+      "cta_import": "Jilddan import qilish",
+      "cta_new": "Loyiha yaratish"
+    },
+    "project_dialog": {
+      "title": "Yangi loyiha",
+      "description": "Unga nom bering va yozib olish rejimini tanlang.",
+      "name_label": "Loyiha nomi",
+      "name_placeholder": "masalan. Yozgi yomg'ir",
+      "mode_label": "Rejim",
+      "mode": {
+        "voice": "Faqat ovoz",
+        "voice_guitar": "Ovoz + gitara"
+      },
+      "submit": "Loyiha yaratish"
+    },
+    "album_dialog": {
+      "title": "Yangi albom",
+      "description": "Tegishli loyihalarni albomga guruhlang.",
+      "name_label": "Albom nomi",
+      "name_placeholder": "masalan. Kuz EP",
+      "submit": "Albom yaratish"
+    },
+    "album": {
+      "untitled": "Nomsiz albom",
+      "members_count_one": " {{count}} loyihasi",
+      "members_count_other": " {{count}} loyihalar",
+      "empty": "Bu albomda hali hech qanday loyiha mavjud emas.",
+      "delete_confirm_title": "Albom oʻchirilsinmi?",
+      "delete_confirm_description": "Loyihalar oʻchirilmaydi, faqat “{{name}}” dan uziladi."
+    },
+    "delete_project": {
+      "confirm_title": "“{{name}}” oʻchirilsinmi?",
+      "confirm_description": "Bu loyihani va undagi har bir qabulni olib tashlaydi. Buni ortga qaytarib bo‘lmaydi."
+    }
+  },
+  "record": {
+    "title": "Yozib olish",
+    "subtitle": "Toza suratga oling, darajalaringizni kuzatib boring va skriptga amal qiling.",
+    "project_label": "Loyiha",
+    "project_placeholder": "Loyihani tanlang",
+    "project_create_quick": "Tez loyiha yarating…",
+    "device_label": "Kirish qurilmasi",
+    "device_placeholder": "Qurilmani tanlang",
+    "device_default_badge": "Tizim standarti",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Hech qanday kiritish moslamasi topilmadi.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Monitoringni to'xtating",
+    "record_button": "Yozib olish",
+    "stop_button": "To'xtang",
+    "elapsed_label": "O'tgan vaqt",
+    "status": {
+      "idle": "Bo'sh",
+      "monitoring": "Monitoring",
+      "recording": "Yozib olish",
+      "stopped": "To'xtatildi"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Tepalik",
+      "clip": "Klip"
+    },
+    "guide": {
+      "title": "Boshqariladigan sessiya",
+      "subtitle": "Murabbiy sizni stsenariy bo'yicha bosqichma-bosqich, isinishdan tortib, og'zaki iboraga qadar o'tkazishiga ruxsat bering.",
+      "loading": "Skript yuklanmoqda…",
+      "unavailable": "Boshqariladigan seans hali serverda mavjud emas.",
+      "select_project_device": "Qadamlarni shu yerdan yozib olish uchun loyiha va kiritish qurilmasini tanlang.",
+      "progress": " {{done}} / {{total}} qadamlar",
+      "start_timer": "Taymerni ishga tushirish",
+      "skip_timer": "Taymerni o'tkazib yuborish",
+      "record_step": "Ushbu qadamni yozib oling",
+      "stop_step": "Yozishni to'xtating",
+      "mark_done": "Bajarildi - keyingi qadam",
+      "step_recorded": "Yozib oling",
+      "no_record_step": "Isitish bosqichi - yozib olish shart emas.",
+      "bars_hint": "Taxminan {{bars}} bar",
+      "complete_title": "Skript tugallandi!",
+      "complete_body": "Skriptning har bir bosqichini yozib oldingiz. Loyihaning Audio yorlig'iga qayting va sevimli suratlaringizni tanlang.",
+      "restart": "Skriptni qayta ishga tushiring"
+    },
+    "best2min": {
+      "button": "Eng yaxshi 2 daqiqani toping (Suno)",
+      "running": "Qabul qilish tahlil qilinmoqda…",
+      "score_label": "Gol",
+      "hint": "Uning eng kuchli 2 daqiqalik oynasini topish uchun butun vaqt davomida energiya va ravshanlik tahlilini o‘tkazadi — keyin ham diapazonni qo‘lda sozlashingiz mumkin.",
+      "chart_caption": "Har bir oyna uchun ball",
+      "unavailable": "Eng yaxshi 2 daqiqalik tahlil hali bu serverda mavjud emas."
+    },
+    "takes_title": "Ushbu sessiyadan olingan",
+    "takes_empty": "Ushbu sessiyada hali hech qanday suratga olish qayd etilmagan.",
+    "open_in_project": "Loyihada ochish",
+    "ws_disconnected": "Daraja oʻlchagichga qayta ulanmoqda…",
+    "select_project_first": "Boshlash uchun loyihani tanlang.",
+    "select_device_first": "Kirish qurilmasini tanlang."
+  },
+  "project": {
+    "back_to_library": "Kutubxonaga qaytish",
+    "header": {
+      "status_label": "Status",
+      "cover_upload": "Muqova yuklash",
+      "cover_remove": "Qopqoqni olib tashlang",
+      "name_placeholder": "Loyiha nomi",
+      "links_title": "Havolalar",
+      "add_link": "Havolani qo'shish",
+      "mode": {
+        "voice": "Faqat ovoz",
+        "voice_guitar": "Ovoz + gitara"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Qo'shiq matni",
+      "prompts": "Ko'rsatmalar",
+      "notes": "Eslatmalar"
+    },
+    "audio": {
+      "takes_title": "oladi",
+      "no_takes": {
+        "title": "Hozircha olish yo'q",
+        "description": "Yangi tasvirni yozib oling yoki mavjud faylni import qiling."
+      },
+      "record_new": "Yangi suratga olish",
+      "rating": "Reyting",
+      "variant": {
+        "raw": "Xom",
+        "processed": "Qayta ishlangan"
+      },
+      "variant_placeholder": "Versiya",
+      "process_button": "Jarayon",
+      "export_button": "Eksport",
+      "delete_take_confirm_title": "Bu surat oʻchirilsinmi?",
+      "delete_take_confirm_description": "Xom audio va har bir qayta ishlangan versiya olib tashlanadi.",
+      "ab": {
+        "raw": "A · Xom",
+        "processed": "B · Qayta ishlangan"
+      },
+      "origin": {
+        "recorded": "Yozib olingan",
+        "imported": "Import qilingan"
+      },
+      "session_label_placeholder": "Seans yorlig'i (ixtiyoriy)",
+      "duration": "Davomiyligi",
+      "sample_rate": "Namuna darajasi",
+      "channels": "Kanallar",
+      "created_at": "Yozib olingan"
+    },
+    "pipeline": {
+      "title": "Qayta ishlash zanjiri",
+      "preset_label": "Oldindan oʻrnatilgan",
+      "preset_none": "Maxsus zanjir",
+      "preset_save": "Oldindan o'rnatilgan sifatida saqlang",
+      "stage_locked": "Qulflangan",
+      "stage_requires_extra": "O'rnatilmagan qo'shimchani talab qiladi",
+      "process_button": "Jarayonni qabul qilish",
+      "processing": "Qayta ishlanmoqda…",
+      "job_queued": "Navbatda…",
+      "job_running": "Qayta ishlanmoqda…",
+      "job_done": "Bajarildi",
+      "job_error": "Muvaffaqiyatsiz",
+      "job_cancelled": "Bekor qilingan",
+      "cancel_job": "Bekor qilish",
+      "no_stages": "Bosqichlar mavjud emas."
+    },
+    "export": {
+      "title": "Eksport olish",
+      "description": "Qayta ishlangan versiyadan yakuniy faylni ko'rsatish.",
+      "variant_label": "Versiya",
+      "format_label": "Format",
+      "preset_label": "Oldindan o'rnatilgan eksport",
+      "range_label": "Diapazon",
+      "range_full": "To'liq uzunlik",
+      "range_custom": "Maxsus diapazon",
+      "start_label": "Boshlash (lar)",
+      "end_label": "Oxiri (lar)",
+      "submit": "Eksport",
+      "progress": "Fayl ko‘rsatilmoqda…",
+      "download_ready": "Fayl tayyor",
+      "download_button": "Faylni yuklab oling"
+    },
+    "notes": {
+      "placeholder": "Ushbu loyiha haqida erkin shakldagi eslatmalar…",
+      "saved_at": "{{time}} da saqlangan "
+    },
+    "lyrics": {
+      "placeholder": "Qo'shiq matnini shu yerda yozing. Suno meta-teglarini kiritish uchun yon tomondagi palitradan foydalaning.",
+      "saved_at": "{{time}} da saqlangan ",
+      "saving": "Saqlanmoqda…",
+      "versions": "Versiyalar",
+      "versions_empty": "Hozircha saqlangan versiyalar yoʻq.",
+      "version_preview": "Ko‘rib chiqish",
+      "restore": "Ushbu versiyani tiklang",
+      "restore_confirm_title": "Ushbu versiya tiklansinmi?",
+      "restore_confirm_description": "Joriy matn {{date}} da saqlangan versiya bilan almashtiriladi.",
+      "metatags_title": "Meta teglar",
+      "metatags_hint": "Kursorga kiritish uchun tegni bosing.",
+      "metatags_placebo_warning": "Tasdiqlanmagan - natijaga ta'sir qilmasligi mumkin.",
+      "metatags_empty": "Hech qanday meta-teglar qayd etilmagan."
+    },
+    "prompts": {
+      "style_title": "Uslub so'rovi",
+      "lyrics_title": "Qo'shiq so'rovi",
+      "template_label": "Shablon",
+      "template_none": "Shablon yo'q",
+      "variables_title": "O'zgaruvchilar",
+      "preview_title": "Ko‘rib chiqish",
+      "preview_empty": "Oldindan ko'rishni ko'rish uchun shablonni tanlang va o'zgaruvchilarni to'ldiring.",
+      "char_count": " {{count}} belgilar",
+      "char_count_warning": "1000 dan ortiq belgidan iborat uslub takliflari Suno tomonidan qisqartirilishi mumkin.",
+      "copy": "Nusxalash",
+      "copied": "Buferga nusxalandi",
+      "save_to_project": "Loyihaga saqlash",
+      "saved_to_project": "Soʻrov loyihaga saqlandi",
+      "history_title": "Tarix",
+      "history_empty": "Oldingi versiyalar yo'q.",
+      "current_label": "Hozirgi"
+    },
+    "stems": {
+      "title": "Vokal va gitara",
+      "separate_button": "Vokal va gitara alohida",
+      "running": "Ajratilmoqda…",
+      "vocals": "Vokal",
+      "instrumental": "Instrumental",
+      "process_stem": "Ushbu novdani qayta ishlang",
+      "empty": "Bu surat hali ajratilmagan. Vokal va gitarani alohida tinglash uchun ajrating.",
+      "capability_missing": "Bu serverda manbalarni ajratish oʻrnatilmagan.",
+      "unavailable": "Vokal/gitara ajratish hali bu serverda mavjud emas."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Yoniq",
+    "boolean_off": "Oʻchirilgan"
+  },
+  "import": {
+    "title": "Import",
+    "subtitle": "Diskda allaqachon mavjud bo'lgan loyihalarni kutubxonaga keltiring.",
+    "step_indicator": "Qadam {{current}} / {{total}} ",
+    "step1": {
+      "title": "Jildni toping",
+      "description": "Loyihalaringiz va treklaringiz bilan ildiz papkasiga ishora qiling.",
+      "path_label": "Papka yo'li",
+      "path_placeholder": "masalan. E:\\Robbs\\Pride\\Musiqa\\ROBBS",
+      "recent_label": "Yaqinda",
+      "scan_button": "Jildni skanerlash",
+      "scanning": "Skanerlanmoqda…",
+      "ffmpeg_warning": "FFmpeg topilmadi — konvertatsiya qilinishi kerak boʻlgan fayllar oʻtkazib yuboriladi.",
+      "folders_found_one": " {{count}} jild topildi",
+      "folders_found_other": " {{count}} jild topildi",
+      "unmatched_files_one": " {{count}} noma'lum fayl",
+      "unmatched_files_other": " {{count}} tanib bo'lmaydigan fayllar"
+    },
+    "step2": {
+      "title": "Elementlarni ko'rib chiqish",
+      "description": "Tasdiqlashdan oldin nomlar, holatlar va import qilinadigan narsalarni tekshiring.",
+      "select_all": "Hammasini tanlang",
+      "table": {
+        "folder": "Manba papkasi",
+        "name": "Loyiha nomi",
+        "status": "Status",
+        "audio": "Audio",
+        "lyrics": "Qo'shiq matni",
+        "cover": "Qopqoq",
+        "album": "Albom"
+      },
+      "audio_include_one": " {{count}} fayl tanlandi",
+      "audio_include_other": " {{count}} fayllar tanlandi",
+      "no_audio": "Hech qanday audio topilmadi",
+      "no_lyrics": "Hech qanday qoʻshiq soʻzlari topilmadi",
+      "no_cover": "Qopqoq yo'q",
+      "warnings_title": "Ogohlantirishlar"
+    },
+    "step3": {
+      "title": "Import",
+      "description": "Fayllarni nusxalash va loyihalarni yaratishni tasdiqlang.",
+      "copy_originals": "Asl fayllarni kutubxonaga nusxalash",
+      "execute_button": "Import qilishni boshlang",
+      "progress_title": "Import qilinmoqda…",
+      "created_count": "Yaratilgan: {{count}} ",
+      "skipped_count": "Oʻtkazib yuborildi: {{count}} ",
+      "done_title": "Import tugallandi",
+      "done_description": "Quyidagi loyihalar kutubxonangizda yaratilgan.",
+      "view_project": "Ochiq loyiha",
+      "start_over": "Yangi import"
+    }
+  },
+  "templates": {
+    "title": "Shablonlar",
+    "subtitle": "Suno uchun qayta foydalanish mumkin bo'lgan tezkor andozalar va meta-teglar.",
+    "tabs": {
+      "prompts": "Tezkor shablonlar",
+      "metatags": "Meta teglar"
+    },
+    "new_template": "Yangi shablon",
+    "kind": {
+      "style": "Uslub",
+      "lyrics": "Qo'shiq matni"
+    },
+    "kind_label": "Mehribon",
+    "delete_confirm_title": "\"{{name}}\" shablonini oʻchirib tashlaysizmi?",
+    "delete_confirm_description": "Buni ortga qaytarib bo‘lmaydi.",
+    "empty": "Hozircha shablon yo‘q.",
+    "editor": {
+      "title_new": "Yangi shablon",
+      "title_edit": "Shablonni tahrirlash",
+      "name_label": "Ism",
+      "name_placeholder": "masalan. Akustik ballada",
+      "kind_label": "Mehribon",
+      "template_label": "Shakl matni",
+      "template_hint": "Har bir oʻzgaruvchining qayerga tegishli ekanligini ikki jingalak qavs ichiga oʻralgan holda belgilang – masalan, “janr” deb nomlangan oʻzgaruvchi ikkita ochilish va ikkita yopilish qavsga oʻralgan janrga aylanadi.",
+      "variables_label": "O'zgaruvchilar",
+      "variable_add": "O'zgaruvchini qo'shish",
+      "variable_name": "Kalit",
+      "variable_label": "Yorliq",
+      "variable_type": "Turi",
+      "variable_type_string": "Matn",
+      "variable_type_select": "Yagona tanlov",
+      "variable_type_multiselect": "Ko'p tanlov",
+      "variable_type_number": "Raqam",
+      "variable_type_boolean": "Ha/yo'q",
+      "variable_options": "Variantlar (vergul bilan ajratilgan)",
+      "variable_required": "Majburiy",
+      "save": "Shablonni saqlash"
+    },
+    "metatags": {
+      "title": "Meta teglar",
+      "subtitle": "Strukturaviy va uslub teglari Suno lyrics ichida taniydi.",
+      "new_tag": "Yangi teg",
+      "tag_label": "teg",
+      "tag_placeholder": "masalan. gitara-yakkaxon",
+      "category_label": "Turkum",
+      "tier_label": "Ishonchlilik",
+      "tier_legend_title": "Ishonchlilik afsonasi",
+      "tier_legend": {
+        "1": "1-darajali - hujjatlashtirilgan va izchil",
+        "2": "2-darajali - odatda ishlaydi",
+        "3": "3-darajali - o'zgaruvchan effekt",
+        "4": "4-darajali - platsebo, isbotlanmagan"
+      },
+      "description_label": "Tavsif",
+      "delete_confirm_title": "“{{tag}}” tegi oʻchirilsinmi?",
+      "empty": "Hozircha maxsus meta-teglar mavjud emas."
+    }
+  },
+  "settings": {
+    "title": "Sozlamalar",
+    "subtitle": "Tizim ma'lumotlari, til va standart sozlamalar.",
+    "system_info_title": "Tizim",
+    "version": "Versiya",
+    "data_dir": "Ma'lumotlar papkasi",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Mavjud",
+    "ffmpeg_missing": "Topilmadi",
+    "capabilities_title": "O'rnatilgan qobiliyatlar",
+    "capability": {
+      "denoise": "Shovqinni kamaytirish",
+      "quality": "Sifatni oshirish",
+      "separate": "Manbani ajratish",
+      "ffmpeg": "FFmpeg konvertatsiyasi"
+    },
+    "capability_available": "Mavjud",
+    "capability_unavailable": "Mavjud emas",
+    "gpu_title": "GPU tezlashishi",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime provayderlari"
+    },
+    "gpu_none": "Hech qanday GPU provayderi aniqlanmadi",
+    "language_title": "Til",
+    "language": {
+      "pt-BR": "Português (Braziliya)",
+      "en": "Ingliz"
+    },
+    "theme_title": "Tashqi ko'rinish",
+    "theme": {
+      "dark": "Qorong'i",
+      "light": "Nur"
+    },
+    "defaults_title": "Standartlarni eksport qilish",
+    "lufs_target_label": "Maqsadli LUFS",
+    "lufs_target_hint": "Eksport qilishda boshlang'ich taklif sifatida ishlatiladi. Suno standarti -14 LUFS atrofida.",
+    "saved": "Afzalliklar saqlandi"
+  },
+  "guide": {
+    "title": "Suno yozish uchun qo'llanma",
+    "subtitle": "Ovoz va gitara uchun qanday suratga olish mumkin, bu eng yaxshi natijalarni beradi.",
+    "intro": "Suno toza, aniq havolalar bilan eng yaxshi ishlaydi. Ushbu qo'llanma tayyorgarlik, maqsadli darajalar va 3-5 daqiqalik yozish skriptini o'z ichiga oladi.",
+    "sections": {
+      "prep": {
+        "title": "Tayyorgarlik",
+        "body": "Yozib olingan xonada yoki juda ko'p yumshoq materiallar (pardalar, gilamlar, shkafdagi kiyimlar) bo'lgan xonada yozib oling. Muxlislarni va g'o'ng'illagan narsalarni o'chiring. Yozishdan oldin ovozingizni 5 daqiqa qizdiring."
+      },
+      "levels": {
+        "title": "Darajalar: -12 dan -6 dBFS",
+        "body": "Metrda -12 dan -6 dBFS gacha bo'lgan cho'qqilarga intiling. Ushbu diapazon ostida fon shovqini sezilarli bo'ladi; uning ustida, kesish xavfi ortadi. Ishni boshlashdan oldin daromadingizni belgilash uchun Yozuv sahifasidagi hisoblagichdan foydalaning."
+      },
+      "distance": {
+        "title": "Mikrofon masofasi: 15-30 sm",
+        "body": "Mikrofondan 15-30 sm masofada turing. Undan ko'ra yaqinroq portlovchi va yaqinlik ta'sirini oshirib yuboradi; uzoqroqda ko'proq xona reverb va shovqinni tanlaydi."
+      },
+      "script": {
+        "title": "Yozib olish skripti",
+        "warmup": "Ovozni isitish (1-2 daqiqa)",
+        "vowels": "Barqaror unlilar — a, e, i, o, u",
+        "scales": "Oddiy tarozi, yuqoriga va pastga",
+        "excerpt": "Qo'shiqdan parcha (8-16 bar)",
+        "dynamics": "Dinamik: yumshoq boshlanadi, baland ovozda tugaydi",
+        "spoken_phrase": "Suno sizning ovoz ohangingizni o'qiy olishi uchun bitta og'zaki ibora"
+      },
+      "expectations": {
+        "title": "Suno nimani kutmoqda",
+        "body": "WAV, 48 kHz, mono, quruq (reverb yoki effektsiz), 3 dan 5 minutgacha mos yozuvlar. Eng toza, eng vakillik 2 daqiqasi odatda eng yaxshi natijalarni beradi."
+      }
+    }
+  },
+  "status": {
+    "idea": "Fikr",
+    "em_progresso": "Davom etilmoqda",
+    "quase": "Deyarli bor",
+    "pronto": "Tayyor"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Suno uchun to'liq vokal skript",
+      "desc": "5 boshqariladigan daqiqalar: isinish, unlilar, tarozilar, ikkita qo'shiq parchasi, dinamika va og'zaki ibora."
+    },
+    "step": {
+      "warmup": "Ovozni isitish",
+      "warmup_inst": "Taxminan bir daqiqa davomida yawns, lab trills (brrr) va yumshoq g'uvullash bilan gevşetin. Yozib olishning hojati yo'q - bu qo'shiq aytishdan oldin tomog'ingizni bo'shashtirish.",
+      "vowels": "Barqaror unlilar",
+      "vowels_inst": "Har bir unlini - a, e, i, o, u - 3-4 soniya davomida o'zingiz uchun qulay balandlikda, barqaror ovoz bilan ushlab turing. Bu Sunoga ovozingizning sof tembrini olishga yordam beradi.",
+      "scales": "Masshtabni yuqoriga va pastga tushiradi",
+      "scales_inst": "Oddiy o'lchovni yuqoriga va keyin pastga, \"la\" yoki \"na\" da kuylang. Bu mukammal bo'lishi shart emas - maqsad sizning ovoz diapazoningizni xaritalashdir.",
+      "section": "Qo'shiqdan parcha - 1-qism",
+      "section_inst": "O'zingiz etkazmoqchi bo'lgan haqiqiy niyat bilan 8 dan 16 tagacha qo'shiqni kuylang. Texnik mukammallikdan ko'ra aniqlik va mavjudlikni birinchi o'ringa qo'ying.",
+      "section2": "Qo'shiqdan parcha - 2-qism",
+      "section2_inst": "Yana 8 dan 16 tagacha qo'shiq kuylang - ideal holda xor yoki oldingi qismga qarama-qarshi bo'lgan qism. Ko'proq xilma-xillik modelga sizning ovozingizni o'rganishga yordam beradi.",
+      "dynamics": "Dinamik: yumshoq → baland ovozda",
+      "dynamics_inst": "Xuddi shu iborani juda yumshoq boshlab, baland ovozda, tomog'ingizni tortmasdan kuylang. Bu Suno ovozingizning dinamik diapazonini ko'rsatadi.",
+      "spoken": "Og'zaki ibora",
+      "spoken_inst": "Gapiring - qo'shiq aytmang - qisqa, tabiiy ibora, go'yo suhbatlashayotgandek. Bu Sunoga ovozingizning haqiqiy tembrini tanib olishga yordam beradi."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Qayta tiklash",
+      "filter": "Filtrlar",
+      "dynamics": "Dinamiklar",
+      "separation": "Ajratish",
+      "quality": "Sifat",
+      "utility": "Utility",
+      "loudness": "Ovoz balandligi"
+    },
+    "highpass": "Yuqori o'tkazuvchan filtr",
+    "lowpass": "Past chastotali filtr",
+    "denoise": "Shovqinni kamaytirish",
+    "declip": "Chiqib ketish",
+    "declick": "Bosing/pop olib tashlash",
+    "deesser": "De-esser",
+    "gate": "Shovqin eshigi",
+    "compressor": "Kompressor",
+    "limiter": "Cheklovchi",
+    "eq": "Tenglash",
+    "normalize": "Maksimal normalizatsiya",
+    "loudness": "Ovoz balandligini normallashtirish (LUFS)",
+    "reverb_reduce": "Reverbning qisqarishi",
+    "separate": "Manbani ajratish",
+    "quality": "Sifatni oshirish (yuqori darajali)",
+    "trim_silence": "Ovozsiz kesish",
+    "fade": "Yo'qolish / o'chib ketish",
+    "stereo_to_mono": "Monoga aylantiring",
+    "resample": "Qayta namuna olish"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Ishonchli",
+      "2": "Odatda ishlaydi",
+      "3": "O'zgaruvchan",
+      "4": "Platsebo"
+    },
+    "category": {
+      "structure": "Tuzilishi",
+      "vocal": "Vokal",
+      "instrument": "Asbob",
+      "dynamics": "Dinamiklar",
+      "production": "Ishlab chiqarish",
+      "mood": "Kayfiyat"
+    },
+    "verse": "Oyat",
+    "chorus": "Xor",
+    "bridge": "Ko'prik",
+    "intro": "Kirish",
+    "outro": "Outro",
+    "hook": "Kanca",
+    "prechorus": "Oldindan xor",
+    "instrumental": "Instrumental",
+    "guitar_solo": "Gitara yakkaxon",
+    "build_up": "Qurilish",
+    "breakdown": "Buzilish",
+    "spoken_word": "Og'zaki so'z",
+    "whispered": "pichirladi",
+    "harmonies": "Harmoniyalar",
+    "male_vocal": "Erkak vokali",
+    "female_vocal": "Ayol vokali",
+    "duet": "Duet",
+    "acoustic": "Akustik",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Toza ovoz",
+    "voice_guitar_balanced": "Muvozanatli ovoz va gitara",
+    "podcast": "Podkast",
+    "suno_ready": "Suno tayyor",
+    "gentle_restore": "Yumshoq tiklash",
+    "raw_passthrough": "Ishlov berilmagan"
+  },
+  "errors": {
+    "unknown": "Nimadir xato ketdi.",
+    "network": "Serverga ulanib boʻlmadi.",
+    "validation_error": "Siz kiritgan ma'lumotlarni tekshiring.",
+    "not_found": "Element topilmadi.",
+    "project_not_found": "Loyiha topilmadi.",
+    "take_not_found": "Olish topilmadi.",
+    "album_not_found": "Albom topilmadi.",
+    "preset_not_found": "Oldindan sozlash topilmadi.",
+    "template_not_found": "Andoza topilmadi.",
+    "device_busy": "Audio qurilma boshqa dastur tomonidan foydalanilmoqda.",
+    "device_not_found": "Audio qurilma topilmadi.",
+    "already_recording": "Yozib olish allaqachon davom etmoqda.",
+    "ffmpeg_missing": "FFmpeg o'rnatilmagan — ushbu faylni aylantirish uchun uni o'rnating.",
+    "disk_full": "Diskda joy yetarli emas.",
+    "permission_denied": "Berilgan yoʻl uchun ruxsat rad etildi.",
+    "import_path_not_found": "Import yoʻli topilmadi.",
+    "job_failed": "Ishlov berilmadi.",
+    "job_cancelled": "Qayta ishlash bekor qilindi.",
+    "process_failed": "Tasvirga ishlov berilmadi.",
+    "export_failed": "Faylni eksport qilib bo‘lmadi.",
+    "record_failed": "Yozishni boshlab bo‘lmadi."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Navbatda",
+      "running": "Yugurish",
+      "done": "Bajarildi",
+      "error": "Muvaffaqiyatsiz",
+      "cancelled": "Bekor qilingan"
+    },
+    "kind": {
+      "process": "Qayta ishlash",
+      "export": "Eksport",
+      "import": "Import",
+      "record": "Yozib olish"
+    }
+  }
+}

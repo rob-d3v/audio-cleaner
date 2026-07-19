@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Inneal-glanaidh claisneachd"
+  },
+  "nav": {
+    "library": "Leabharlann",
+    "record": "Clàr",
+    "import": "Import",
+    "templates": "Teamplaidean",
+    "settings": "Suidhichidhean",
+    "guide": "Stiùiridh"
+  },
+  "common": {
+    "save": "Sàbhail",
+    "saving": "A’ sàbhaladh…",
+    "saved": "Air a shàbhaladh",
+    "cancel": "Sguir dheth",
+    "close": "Dùin",
+    "delete": "Sguab às",
+    "edit": "Deasaich",
+    "create": "Cruthaich",
+    "search": "Rannsaich",
+    "loading": "A’ luchdachadh…",
+    "error": "Mearachd",
+    "retry": "Feuch a-rithist",
+    "confirm": "Dearbhaich",
+    "back": "Air ais",
+    "next": "Air adhart",
+    "continue": "Lean air adhart",
+    "finish": "Crìochnaich",
+    "copy": "Dèan lethbhreac",
+    "copied": "Rinn lethbhreac",
+    "download": "Luchdaich sìos",
+    "upload": "Luchdaich suas",
+    "none": "Chan eil gin",
+    "all": "Uile",
+    "yes": "Seadh",
+    "no": "Chan eil",
+    "select": "Tagh",
+    "optional": "roghainneil",
+    "required": "dhìth",
+    "unsaved_changes": "Atharrachaidhean nach deach a shàbhaladh",
+    "name": "Ainm",
+    "status": "Inbhe",
+    "type": "Seòrsa",
+    "actions": "Gnìomhan",
+    "empty": "Falamh",
+    "browse": "Dèan brobhsadh",
+    "remove": "Thoir air falbh",
+    "add": "Cuir ris",
+    "rename": "Ath-ainmich",
+    "duplicate": "Dùblachadh",
+    "warning": "Rabhadh",
+    "locked": "Air a ghlasadh",
+    "builtin": "Air a thogail a-steach",
+    "custom": "Gnàthach",
+    "untitled": "Gun tiotal",
+    "select_placeholder": "Tagh…"
+  },
+  "library": {
+    "title": "Leabharlann",
+    "subtitle": "Do phròiseactan guth is giotàr, bho bheachd gu sgaoileadh.",
+    "new_project": "Pròiseact ùr",
+    "new_album": "An clàr ùr",
+    "search_placeholder": "Rannsaich le ainm…",
+    "view": {
+      "grid": "Clèithe",
+      "albums": "Album"
+    },
+    "filters": {
+      "all": "Uile"
+    },
+    "take_count_one": " {{count}} gabh",
+    "take_count_other": " {{count}} a’ gabhail",
+    "updated_at": "Ùraichte {{date}} ",
+    "no_results": {
+      "title": "Cha deach pròiseactan a lorg",
+      "description": "Feuch ris a’ chriathrag sgrùdaidh no inbhe atharrachadh."
+    },
+    "empty": {
+      "title": "Tha an leabharlann agad falamh",
+      "description": "Tòisich pròiseact ùr bhon fhìor thoiseach, no bheir in-mhalairt a tha agad mar-thà air diosc.",
+      "cta_import": "Ion-phortaich bhon phasgan",
+      "cta_new": "Cruthaich pròiseact"
+    },
+    "project_dialog": {
+      "title": "Pròiseact ùr",
+      "description": "Thoir ainm dha agus tagh modh clàraidh.",
+      "name_label": "Ainm a’ phròiseict",
+      "name_placeholder": "m.e. Uisge Samhraidh",
+      "mode_label": "Modh",
+      "mode": {
+        "voice": "Guth a-mhàin",
+        "voice_guitar": "Guth + giotàr"
+      },
+      "submit": "Cruthaich pròiseact"
+    },
+    "album_dialog": {
+      "title": "An clàr ùr",
+      "description": "Luchdaich a-nuas cruinneachadh de phròiseactan co-cheangailte ann an clàr.",
+      "name_label": "Ainm albam",
+      "name_placeholder": "m.e. Foghar EP",
+      "submit": "Cruthaich album"
+    },
+    "album": {
+      "untitled": "Album gun tiotal",
+      "members_count_one": " {{count}} pròiseact",
+      "members_count_other": " {{count}} pròiseactan",
+      "empty": "Chan eil pròiseactan air a’ chlàr seo fhathast.",
+      "delete_confirm_title": "Sguab às an clàr?",
+      "delete_confirm_description": "Cha tèid pròiseactan a sguabadh às, dìreach neo-cheangailte o \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Sguab às \" {{name}} \"?",
+      "confirm_description": "Bidh seo a’ toirt air falbh a’ phròiseact agus a h-uile sealladh a th’ ann. Chan urrainnear seo a chuir dheth."
+    }
+  },
+  "record": {
+    "title": "Clàr",
+    "subtitle": "Glac glan, cùm sùil air na h-ìrean agad, agus lean an sgriobt.",
+    "project_label": "Pròiseact",
+    "project_placeholder": "Tagh pròiseact",
+    "project_create_quick": "Cruthaich pròiseact sgiobalta…",
+    "device_label": "Inneal cuir a-steach",
+    "device_placeholder": "Tagh inneal",
+    "device_default_badge": "Ro-shealladh siostam",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Cha deach innealan cuir a-steach a lorg.",
+    "monitor_button": "Cumail sùil",
+    "monitor_stop_button": "Cuir stad air sgrùdadh",
+    "record_button": "Clàr",
+    "stop_button": "Stad",
+    "elapsed_label": "Chaidh ùine seachad",
+    "status": {
+      "idle": "dìomhanach",
+      "monitoring": "A' cumail sùil",
+      "recording": "Clàradh",
+      "stopped": "Sguir"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "stùc",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Seisean treòraichte",
+      "subtitle": "Leig leis a’ choidse do choiseachd tron sgriobt ceum air cheum, bho bhlàthachadh gu abairt labhairteach.",
+      "loading": "A’ luchdachadh an sgriobt…",
+      "unavailable": "Chan eil an seisean treòraichte ri fhaighinn air an fhrithealaiche fhathast.",
+      "select_project_device": "Tagh pròiseact agus inneal cuir a-steach gus ceumannan a chlàradh dìreach às an seo.",
+      "progress": " {{done}} de {{total}} ceumannan",
+      "start_timer": "Tòisich timer",
+      "skip_timer": "Leum an timer",
+      "record_step": "Clàraich an ceum seo",
+      "stop_step": "Cuir stad air clàradh",
+      "mark_done": "Dèanta - an ath cheum",
+      "step_recorded": "Gabh air a chlàradh",
+      "no_record_step": "Ceum blàthachaidh - chan eil feum air clàradh.",
+      "bars_hint": "Mu bhàraichean {{bars}}",
+      "complete_title": "Sgriobt coileanta!",
+      "complete_body": "Tha thu air a h-uile ceum den sgriobt a chlàradh. Rach air ais gu taba Fuaim a’ phròiseict agus tagh na rudan as fheàrr leat.",
+      "restart": "Ath-thòisich an sgriobt"
+    },
+    "best2min": {
+      "button": "Lorg an 2 mhionaid as fheàrr (Suno)",
+      "running": "A’ dèanamh anailis air an glacadh…",
+      "score_label": "Sgòr",
+      "hint": "A’ ruith mion-sgrùdadh lùth is soilleireachd thairis air an t-slighe gu lèir gus an uinneag 2-mionaid as làidire a lorg - faodaidh tu fhathast an raon atharrachadh le làimh às deidh sin.",
+      "chart_caption": "Sgòr gach uinneag",
+      "unavailable": "Chan eil an anailis as fheàrr-2-mionaidean ri fhaighinn air an fhrithealaiche seo fhathast."
+    },
+    "takes_title": "A’ gabhail bhon t-seisean seo",
+    "takes_empty": "Chan eil fianais sam bith air a chlàradh san t-seisean seo fhathast.",
+    "open_in_project": "Fosgailte sa phròiseact",
+    "ws_disconnected": "Ag ath-cheangal ris a’ mheatair ìre…",
+    "select_project_first": "Tagh pròiseact airson tòiseachadh.",
+    "select_device_first": "Tagh inneal cuir a-steach."
+  },
+  "project": {
+    "back_to_library": "Air ais dhan leabharlann",
+    "header": {
+      "status_label": "Inbhe",
+      "cover_upload": "Luchdaich a-nuas cover",
+      "cover_remove": "Thoir air falbh còmhdach",
+      "name_placeholder": "Ainm a’ phròiseict",
+      "links_title": "Ceanglaichean",
+      "add_link": "Cuir ceangal ris",
+      "mode": {
+        "voice": "Guth a-mhàin",
+        "voice_guitar": "Guth + giotàr"
+      }
+    },
+    "tabs": {
+      "audio": "Fuaim",
+      "lyrics": "Lyrics",
+      "prompts": "Molaidhean",
+      "notes": "Notaichean"
+    },
+    "audio": {
+      "takes_title": "A' gabhail",
+      "no_takes": {
+        "title": "Chan eil glacadh fhathast",
+        "description": "Clàraich glacadh ùr no cuir a-steach faidhle a tha ann mu thràth."
+      },
+      "record_new": "Clàraich tionndadh ùr",
+      "rating": "Rangachadh",
+      "variant": {
+        "raw": "amh",
+        "processed": "Air a phròiseasadh"
+      },
+      "variant_placeholder": "Tionndadh",
+      "process_button": "Pròiseas",
+      "export_button": "Às-mhalairt",
+      "delete_take_confirm_title": "Sguab às an glacadh seo?",
+      "delete_take_confirm_description": "Thèid an fhuaim amh agus gach dreach giullachd a thoirt air falbh.",
+      "ab": {
+        "raw": "A · amh",
+        "processed": "B · Air a ghiollachd"
+      },
+      "origin": {
+        "recorded": "Air a chlàradh",
+        "imported": "Air a thoirt a-steach"
+      },
+      "session_label_placeholder": "Bileag seisean (roghainneil)",
+      "duration": "Fad",
+      "sample_rate": "Ìre sampall",
+      "channels": "Sianalan",
+      "created_at": "Air a chlàradh"
+    },
+    "pipeline": {
+      "title": "Slabhraidh giollachd",
+      "preset_label": "Ro-shuidhichte",
+      "preset_none": "Slabhraidh àbhaisteach",
+      "preset_save": "Sàbhail mar ro-shuidhichte",
+      "stage_locked": "Air a ghlasadh",
+      "stage_requires_extra": "Tha feum air rud a bharrachd nach eil air a stàladh",
+      "process_button": "Glacadh pròiseas",
+      "processing": "A’ giullachd…",
+      "job_queued": "Ciudha…",
+      "job_running": "A’ giullachd…",
+      "job_done": "Dèanta",
+      "job_error": "Dh'fhàillig",
+      "job_cancelled": "Air a chur dheth",
+      "cancel_job": "Sguir dheth",
+      "no_stages": "Chan eil ìrean ri fhaighinn."
+    },
+    "export": {
+      "title": "Gabh às-mhalairt",
+      "description": "Thoir seachad faidhle deireannach bho dhreach giullachd.",
+      "variant_label": "Tionndadh",
+      "format_label": "Cruth",
+      "preset_label": "Às-mhalairt ro-shuidhichte",
+      "range_label": "Raon",
+      "range_full": "Fad iomlan",
+      "range_custom": "Raon gnàthaichte",
+      "start_label": "Tòisich(ean)",
+      "end_label": "Deireadh (ean)",
+      "submit": "Às-mhalairt",
+      "progress": "A’ toirt seachad faidhle…",
+      "download_ready": "Faidhle deiseil",
+      "download_button": "Luchdaich sìos file"
+    },
+    "notes": {
+      "placeholder": "Notaichean air a ' phròiseact seo le bhith a saor an asgaidh. . .",
+      "saved_at": "Air a shàbhaladh aig {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Sgrìobh na facail an seo. Cleachd am paileas air an taobh gus meta-tags Suno a chuir a-steach.",
+      "saved_at": "Air a shàbhaladh aig {{time}} ",
+      "saving": "A’ sàbhaladh…",
+      "versions": "Tionndaidhean",
+      "versions_empty": "Chan eil dreachan air an sàbhaladh fhathast.",
+      "version_preview": "Ro-shealladh",
+      "restore": "Thoir air ais an dreach seo",
+      "restore_confirm_title": "Thoir air ais an dreach seo?",
+      "restore_confirm_description": "Thèid an dreach a chaidh a shàbhaladh air {{date}} a chur na àite an teacsa làithreach.",
+      "metatags_title": "Meta-tagaichean",
+      "metatags_hint": "Cliog air tag gus a chuir a-steach aig a’ chursair.",
+      "metatags_placebo_warning": "Gun dearbhadh - is dòcha nach bi buaidh sam bith aige air an toradh.",
+      "metatags_empty": "Chan eil meta-tags clàraichte."
+    },
+    "prompts": {
+      "style_title": "Spreagadh stoidhle",
+      "lyrics_title": "Briathran òran",
+      "template_label": "Teamplaid",
+      "template_none": "Gun teamplaid",
+      "variables_title": "Caochlaidhean",
+      "preview_title": "Ro-shealladh",
+      "preview_empty": "Tagh teamplaid agus lìon a-steach na caochladairean gus ro-shealladh fhaicinn.",
+      "char_count": " {{count}} caractaran",
+      "char_count_warning": "Faodaidh molaidhean stoidhle còrr air 1000 caractar a bhith air an giorrachadh le Suno.",
+      "copy": "Dèan lethbhreac",
+      "copied": "Air a chopaigeadh gu clipboard",
+      "save_to_project": "Sàbhail gu pròiseact",
+      "saved_to_project": "Gu sgiobalta air a shàbhaladh don phròiseact",
+      "history_title": "Eachdraidh",
+      "history_empty": "Gun dreachan roimhe.",
+      "current_label": "Gnàthach"
+    },
+    "stems": {
+      "title": "Guthan agus guitar",
+      "separate_button": "Guthan fa leth agus giotàr",
+      "running": "A’ sgaradh…",
+      "vocals": "Guthan",
+      "instrumental": "Ionnsramaid",
+      "process_stem": "Pròiseas a 'chas seo",
+      "empty": "Chan eil an glacadh seo air a sgaradh fhathast. Ruith dealachadh gus na guthan agus an giotàr a chluinntinn leotha fhèin.",
+      "capability_missing": "Chan eil sgaradh stòr air a stàladh air an fhrithealaiche seo.",
+      "unavailable": "Chan eil dealachadh guth/giotàr ri fhaighinn air an fhrithealaiche seo fhathast."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Air adhart",
+    "boolean_off": "dheth"
+  },
+  "import": {
+    "title": "Import",
+    "subtitle": "Thoir pròiseactan a tha mar-thà air diosc a-steach don leabharlann.",
+    "step_indicator": "Ceum {{current}} à {{total}} ",
+    "step1": {
+      "title": "Lorg pasgan",
+      "description": "Comharraich am pasgan root leis na pròiseactan agus na slighean agad.",
+      "path_label": "Slighe pasgan",
+      "path_placeholder": "m.e. E: \\ Robbs \\ Pride \\ Music \\ ROBBS",
+      "recent_label": "O chionn ghoirid",
+      "scan_button": "Sgan pasgan",
+      "scanning": "A’ sganadh…",
+      "ffmpeg_warning": "Cha deach FFmpeg a lorg - thèid faidhlichean a dh’ fheumas tionndadh a sheachnadh.",
+      "folders_found_one": " {{count}} pasgan air a lorg",
+      "folders_found_other": " {{count}} pasgain air an lorg",
+      "unmatched_files_one": " {{count}} faidhle neo-aithnichte",
+      "unmatched_files_other": " {{count}} faidhlichean neo-aithnichte"
+    },
+    "step2": {
+      "title": "Dèan lèirmheas air nithean",
+      "description": "Thoir sùil air ainmean, inbhean, agus dè a thèid a thoirt a-steach mus tèid a dhearbhadh.",
+      "select_all": "Tagh a h-uile",
+      "table": {
+        "folder": "Pasgan stòr",
+        "name": "Ainm a’ phròiseict",
+        "status": "Inbhe",
+        "audio": "Fuaim",
+        "lyrics": "Lyrics",
+        "cover": "Còmhdaich",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} faidhle air a thaghadh",
+      "audio_include_other": " {{count}} faidhlichean air an taghadh",
+      "no_audio": "Cha deach fuaim a lorg",
+      "no_lyrics": "Cha deach faclan a lorg",
+      "no_cover": "Gun chòmhdach",
+      "warnings_title": "Rabhaidhean"
+    },
+    "step3": {
+      "title": "Import",
+      "description": "Dearbhaich lethbhreac a dhèanamh de na faidhlichean agus na pròiseactan a chruthachadh.",
+      "copy_originals": "Dèan lethbhreac de na faidhlichean tùsail a-steach don leabharlann",
+      "execute_button": "Tòisich in-mhalairt",
+      "progress_title": "A’ toirt a-steach…",
+      "created_count": "Cruthaichte: {{count}} ",
+      "skipped_count": "Air a leum: {{count}} ",
+      "done_title": "Import coileanta",
+      "done_description": "Chaidh na pròiseactan gu h-ìosal a chruthachadh anns an leabharlann agad.",
+      "view_project": "Pròiseact fosgailte",
+      "start_over": "In-mhalairt ùr"
+    }
+  },
+  "templates": {
+    "title": "Teamplaidean",
+    "subtitle": "Teamplaidean sgiobalta ath-chleachdadh agus meta-tags airson Suno.",
+    "tabs": {
+      "prompts": "Teamplaidean sgiobalta",
+      "metatags": "Meta-tagaichean"
+    },
+    "new_template": "Teamplaid ùr",
+    "kind": {
+      "style": "Stoidhle",
+      "lyrics": "Lyrics"
+    },
+    "kind_label": "Math",
+    "delete_confirm_title": "Sguab às teamplaid \" {{name}} \"?",
+    "delete_confirm_description": "Chan urrainnear seo a chuir dheth.",
+    "empty": "Chan eil teamplaidean ann fhathast.",
+    "editor": {
+      "title_new": "Teamplaid ùr",
+      "title_edit": "Deasaich teamplaid",
+      "name_label": "Ainm",
+      "name_placeholder": "m.e. Dàn fuaimneach",
+      "kind_label": "Math",
+      "template_label": "Teacs teamplaid",
+      "template_hint": "Comharraich far a bheil gach caochladair leis an ainm air a phasgadh ann an sèbhirean lùbach dùbailte - mar eisimpleir, bidh caochladair leis an t-ainm “gnè” gu bhith na ghnè air a phasgadh ann an dà fhosgladh agus dà chrann dùnaidh.",
+      "variables_label": "Caochlaidhean",
+      "variable_add": "Cuir caochladair ris",
+      "variable_name": "iuchair",
+      "variable_label": "Label",
+      "variable_type": "Seòrsa",
+      "variable_type_string": "Teacs",
+      "variable_type_select": "Taghadh singilte",
+      "variable_type_multiselect": "Ioma-thaghadh",
+      "variable_type_number": "Aireamh",
+      "variable_type_boolean": "Tha/chan eil",
+      "variable_options": "Roghainnean (sgaraichte le cromag)",
+      "variable_required": "A dhìth",
+      "save": "Sàbhail teamplaid"
+    },
+    "metatags": {
+      "title": "Meta-tagaichean",
+      "subtitle": "Tagaichean structarail agus stoidhle Tha Suno ag aithneachadh faclan a-staigh.",
+      "new_tag": "Tag ùr",
+      "tag_label": "Tag",
+      "tag_placeholder": "m.e. giotàr-aonar",
+      "category_label": "Roinn-seòrsa",
+      "tier_label": "earbsachd",
+      "tier_legend_title": "Uirsgeul earbsachd",
+      "tier_legend": {
+        "1": "Ìre 1 - clàraichte agus cunbhalach",
+        "2": "Ìre 2 - mar as trice ag obair",
+        "3": "Ìre 3 - buaidh caochlaideach",
+        "4": "Ìre 4 - placebo, gun dearbhadh"
+      },
+      "description_label": "Tuairisgeul",
+      "delete_confirm_title": "Sguab às an taga \" {{tag}} \"?",
+      "empty": "Chan eil meta-tags gnàthaichte ann fhathast."
+    }
+  },
+  "settings": {
+    "title": "Suidhichidhean",
+    "subtitle": "Fiosrachadh siostam, cànan, agus roghainnean bunaiteach.",
+    "system_info_title": "Siostam",
+    "version": "Tionndadh",
+    "data_dir": "Pasgan dàta",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Ri fhaighinn",
+    "ffmpeg_missing": "Cha deach a lorg",
+    "capabilities_title": "Comasan air an stàladh",
+    "capability": {
+      "denoise": "Lùghdachadh fuaim",
+      "quality": "Àrdachadh càileachd",
+      "separate": "Dealachadh stòr",
+      "ffmpeg": "Tionndadh FFmpeg"
+    },
+    "capability_available": "Ri fhaighinn",
+    "capability_unavailable": "Chan eil ri fhaighinn",
+    "gpu_title": "Luathachadh GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "Solaraichean ONNX Runtime"
+    },
+    "gpu_none": "Cha deach solaraichean GPU a lorg",
+    "language_title": "Cànain",
+    "language": {
+      "pt-BR": "Português (Brasil)",
+      "en": "Beurla"
+    },
+    "theme_title": "Coltas",
+    "theme": {
+      "dark": "Dorch",
+      "light": "Solas"
+    },
+    "defaults_title": "Às-mhalairt easbhaidhean",
+    "lufs_target_label": "Targaid LUFS",
+    "lufs_target_hint": "Air a chleachdadh mar mholadh tòiseachaidh nuair a bheir às-mhalairt. Tha bunait Suno timcheall air -14 LUFS.",
+    "saved": "Roghainnean air an sàbhaladh"
+  },
+  "guide": {
+    "title": "Stiùireadh clàraidh Suno",
+    "subtitle": "Mar a ghlacas tu guth is giotàr a gheibh na toraidhean as fheàrr.",
+    "intro": "Bidh Suno a’ coileanadh as fheàrr le iomraidhean glan, gun teagamh. Tha an iùl seo a’ còmhdach ullachadh, ìrean targaid, agus sgriobt clàraidh 3-5 mionaidean.",
+    "sections": {
+      "prep": {
+        "title": "Ullachadh",
+        "body": "Clàraich ann an seòmar làimhseachaidh no fear le pailteas de stuth bog (cùirt, bratan-ùrlair, aodach ann an clòsaid). Cuir dheth an luchd-leantainn agus rud sam bith a tha a’ cromadh. Blàthaich do ghuth airson 5 mionaidean mus clàraich thu."
+      },
+      "levels": {
+        "title": "Ìrean: -12 gu -6 dBFS",
+        "body": "Amas airson stùcan eadar -12 agus -6 dBFS air a’ mheatair. Fon raon sin, bidh fuaim cùil a’ fàs nas follaisiche; os a chionn, tha cunnart bearraidh ag èirigh. Cleachd am meatair air duilleag a’ Chlàr gus do bhuannachd a shuidheachadh mus tòisich thu."
+      },
+      "distance": {
+        "title": "Astar mic: 15-30 cm",
+        "body": "Fuirich 15 gu 30 cm bhon mhicreofon. Tha nas fhaisge na sin a 'dèanamh iomadachadh air plosives agus buaidh faisg air làimh; nas fhaide air falbh a’ togail barrachd ath-thionndaidh rùm agus fuaim."
+      },
+      "script": {
+        "title": "Sgriobt clàraidh",
+        "warmup": "Teasachadh guth (1-2 mionaid)",
+        "vowels": "Fuaimreagan seasmhach – a, e, i, o, u",
+        "scales": "Sgèilean sìmplidh, suas is sìos",
+        "excerpt": "Earrann òran (8 gu 16 bàraichean)",
+        "dynamics": "Dynamics: tòisich bog, cuir crìoch air àrd",
+        "spoken_phrase": "Aon abairt labhairteach, gus an leugh Suno an guth gutha agad"
+      },
+      "expectations": {
+        "title": "Na tha Suno an dùil",
+        "body": "WAV, 48 kHz, mono, tioram (gun ath-thionndadh no buaidhean), 3 gu 5 mionaidean de iomradh. Mar as trice bheir an 2 mhionaid as glaine, as riochdaiche den ghlacadh na toraidhean as fheàrr."
+      }
+    }
+  },
+  "status": {
+    "idea": "Beachd",
+    "em_progresso": "Ann an adhartas",
+    "quase": "Cha mhòr nach eil",
+    "pronto": "Ready"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Sgriobt gutha slàn airson Suno",
+      "desc": "5 mionaidean treòraichte: blàthachadh, fuaimreagan, lannan, dà earrann de dh’òrain, daineamaigs, agus abairt labhairteach."
+    },
+    "step": {
+      "warmup": "Teasachadh guth",
+      "warmup_inst": "Fuasgail suas le yawns, trills bilean (brrr), agus hum bog airson timcheall air mionaid. Chan eil feum air clàradh - chan eil ann ach do amhaich a ghabhail fois mus seinn thu.",
+      "vowels": "Fuaimreagan seasmhach",
+      "vowels_inst": "Cùm gach fuaimreag - a, e, i, o, u - airson 3 gu 4 diogan aig do raon-cluiche cofhurtail, le tomhas-lìonaidh cunbhalach. Cuidichidh seo Suno le bhith a’ togail timbre fìor do ghuth.",
+      "scales": "Sgèile suas is sìos",
+      "scales_inst": "Seinn sgèile shìmplidh suas is an uairsin sìos, air \"la\" no \"na\". Chan fheum e a bhith foirfe - is e an amas do raon gutha a mhapadh.",
+      "section": "Òrain-nuas pàirt 1",
+      "section_inst": "Seinn 8 gu 16 bàraichean den òran, leis an fhìor rùn a tha thu airson a thoirt seachad. Thoir prìomhachas do shoilleireachd agus làthaireachd thairis air foirfeachd theicnigeach.",
+      "section2": "Òrain-nuas pàirt 2",
+      "section2_inst": "Seinn 8 gu 16 bàraichean eile - mas fheàrr sèist no earrann a tha eadar-dhealaichte bhon fhear roimhe. Bidh barrachd measgachadh a’ cuideachadh a’ mhodail gus do ghuth ionnsachadh.",
+      "dynamics": "Dynamics: bog → àrd",
+      "dynamics_inst": "Seinn an aon abairt a 'tòiseachadh gu math bog agus a' crìochnachadh àrd, gun a bhith a 'cur cuideam air do amhaich. Tha seo a’ sealltainn raon fiùghantach do ghuth aig Suno.",
+      "spoken": "Abairt air a labhairt",
+      "spoken_inst": "Bruidhinn – na seinn – abairt ghoirid, nàdarrach, mar gum biodh tu a’ cabadaich. Cuidichidh seo Suno le bhith ag aithneachadh fìor timbre do ghuth."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Ath-nuadhachadh",
+      "filter": "Criathragan",
+      "dynamics": "Dynamics",
+      "separation": "Dealachadh",
+      "quality": "Càileachd",
+      "utility": "Goireas",
+      "loudness": "Gile"
+    },
+    "highpass": "Criathrag pas àrd",
+    "lowpass": "Criathrag pas-ìosal",
+    "denoise": "Lùghdachadh fuaim",
+    "declip": "A 'crìonadh",
+    "declick": "Cliog / pop air falbh",
+    "deesser": "De-esser",
+    "gate": "Geata fuaim",
+    "compressor": "Compressor",
+    "limiter": "Crìochan",
+    "eq": "Co-ionannachd",
+    "normalize": "Normalachadh stùc",
+    "loudness": "Normalachadh fuaim (LUFS)",
+    "reverb_reduce": "Lùghdachadh reverb",
+    "separate": "Dealachadh stòr",
+    "quality": "Àrdachadh càileachd (àrdachadh)",
+    "trim_silence": "Sàmhchair bearradh",
+    "fade": "Searg a-steach / seargadh a-mach",
+    "stereo_to_mono": "Tionndaidh gu mono",
+    "resample": "Ath-shamhlachadh"
+  },
+  "metatags": {
+    "tier": {
+      "1": "earbsach",
+      "2": "Mar as trice ag obair",
+      "3": "Caochlaideach",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Structar",
+      "vocal": "Gutha",
+      "instrument": "Ionnsramaid",
+      "dynamics": "Dynamics",
+      "production": "Riochdachadh",
+      "mood": "Mothachadh"
+    },
+    "verse": "Rann",
+    "chorus": "Sèist",
+    "bridge": "Drochaid",
+    "intro": "Ro-ràdh",
+    "outro": "A-muigh",
+    "hook": "dubhan",
+    "prechorus": "Ro-chois",
+    "instrumental": "Ionnsramaid",
+    "guitar_solo": "Guitar solo",
+    "build_up": "Togail suas",
+    "breakdown": "Briseadh sìos",
+    "spoken_word": "Facal air a labhairt",
+    "whispered": "Whispered",
+    "harmonies": "Co-sheirm",
+    "male_vocal": "Guth fireann",
+    "female_vocal": "Guth boireann",
+    "duet": "Duit",
+    "acoustic": "Fuaimneach",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Guth glan",
+    "voice_guitar_balanced": "Guth cothromach agus giotàr",
+    "podcast": "Pod-chraoladh",
+    "suno_ready": "Suno deiseil",
+    "gentle_restore": "Ath-bheothachadh socair",
+    "raw_passthrough": "Gun ghiollachd"
+  },
+  "errors": {
+    "unknown": "Chaidh rudeigin ceàrr.",
+    "network": "Cha b' urrainn dhuinn am frithealaiche a ruighinn.",
+    "validation_error": "Thoir sùil air an fhiosrachadh a chuir thu a-steach.",
+    "not_found": "Cha deach an nì a lorg.",
+    "project_not_found": "Pròiseact cha deach a lorg.",
+    "take_not_found": "Gabh nach deach a lorg.",
+    "album_not_found": "Album cha deach a lorg.",
+    "preset_not_found": "Preset cha deach a lorg.",
+    "template_not_found": "Cha deach an teamplaid a lorg.",
+    "device_busy": "Tha inneal claisneachd ga chleachdadh le prògram eile.",
+    "device_not_found": "Cha deach inneal claisneachd a lorg.",
+    "already_recording": "Tha clàradh a' dol air adhart mu thràth.",
+    "ffmpeg_missing": "Chan eil FFmpeg air a stàladh - stàlaich e gus am faidhle seo a thionndadh.",
+    "disk_full": "Chan eil àite diosg gu leòr ann.",
+    "permission_denied": "Chaidh cead a dhiùltadh airson an t-slighe a chaidh a thoirt seachad.",
+    "import_path_not_found": "Cha deach slighe in-mhalairt a lorg.",
+    "job_failed": "Dh'fhàillig giollachd.",
+    "job_cancelled": "Chaidh pròiseasadh a chuir dheth.",
+    "process_failed": "Dh'fhàillig làimhseachadh an glacadh.",
+    "export_failed": "Dh'fhàillig às-phortadh an fhaidhle.",
+    "record_failed": "Dh'fhàillig tòiseachadh air clàradh."
+  },
+  "jobs": {
+    "status": {
+      "queued": "ciudha",
+      "running": "A' ruith",
+      "done": "Dèanta",
+      "error": "Dh'fhàillig",
+      "cancelled": "Air a chur dheth"
+    },
+    "kind": {
+      "process": "Giullachd",
+      "export": "Às-mhalairt",
+      "import": "Import",
+      "record": "Clàradh"
+    }
+  }
+}

@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio Cleaner"
+  },
+  "nav": {
+    "library": "Bibliotek",
+    "record": "Optag",
+    "import": "Importer",
+    "templates": "Skabeloner",
+    "settings": "Indstillinger",
+    "guide": "Vejledning"
+  },
+  "common": {
+    "save": "Gem",
+    "saving": "Gemmer...",
+    "saved": "Gemt",
+    "cancel": "Annuller",
+    "close": "Luk",
+    "delete": "Slet",
+    "edit": "Rediger",
+    "create": "Opret",
+    "search": "Søg",
+    "loading": "Indlæser...",
+    "error": "Fejl",
+    "retry": "Prøv igen",
+    "confirm": "Bekræft",
+    "back": "Tilbage",
+    "next": "Næste",
+    "continue": "Fortsæt",
+    "finish": "Afslut",
+    "copy": "Kopiér",
+    "copied": "Kopieret",
+    "download": "Download",
+    "upload": "Upload",
+    "none": "Ingen",
+    "all": "Alle",
+    "yes": "Ja",
+    "no": "Nej",
+    "select": "Vælg",
+    "optional": "valgfrit",
+    "required": "påkrævet",
+    "unsaved_changes": "Ikke-gemte ændringer",
+    "name": "Navn",
+    "status": "Status",
+    "type": "Type",
+    "actions": "Handlinger",
+    "empty": "Tom",
+    "browse": "Gennemse",
+    "remove": "Fjern",
+    "add": "Tilføj",
+    "rename": "Omdøb",
+    "duplicate": "Duplikat",
+    "warning": "Advarsel",
+    "locked": "Låst",
+    "builtin": "Indbygget",
+    "custom": "Brugerdefineret",
+    "untitled": "Uden titel",
+    "select_placeholder": "Vælg..."
+  },
+  "library": {
+    "title": "Bibliotek",
+    "subtitle": "Din stemme- og guitarprojekter, fra idé til udgivelse.",
+    "new_project": "Nyt projekt",
+    "new_album": "Nyt album",
+    "search_placeholder": "Søg på navn...",
+    "view": {
+      "grid": "Gitter",
+      "albums": "Albums"
+    },
+    "filters": {
+      "all": "Alle"
+    },
+    "take_count_one": " {{count}} tage",
+    "take_count_other": " {{count}} tager",
+    "updated_at": "Opdateret {{date}} ",
+    "no_results": {
+      "title": "Ingen projekter fundet",
+      "description": "Prøv at justere søge- eller statusfilteret."
+    },
+    "empty": {
+      "title": "Dit bibliotek er tomt",
+      "description": "Start et nyt projekt fra bunden, eller importer de billeder, du allerede har på disken.",
+      "cta_import": "Importer fra mappe",
+      "cta_new": "Opret projekt"
+    },
+    "project_dialog": {
+      "title": "Nyt projekt",
+      "description": "Giv det et navn, og vælg en optagetilstand.",
+      "name_label": "Projektnavn",
+      "name_placeholder": "f.eks. Sommerregn",
+      "mode_label": "tilstand",
+      "mode": {
+        "voice": "Kun stemme",
+        "voice_guitar": "Stemme + guitar"
+      },
+      "submit": "Opret projekt"
+    },
+    "album_dialog": {
+      "title": "Nyt album",
+      "description": "Gruppér relaterede projekter i et album.",
+      "name_label": "Albumnavn",
+      "name_placeholder": "f.eks. Efterårs EP",
+      "submit": "Opret album"
+    },
+    "album": {
+      "untitled": "Unavngivet album",
+      "members_count_one": " {{count}} projekt",
+      "members_count_other": " {{count}} projekter",
+      "empty": "Ingen projekter i dette album endnu.",
+      "delete_confirm_title": "Vil du slette album?",
+      "delete_confirm_description": "Projekter vil ikke blive slettet, kun fjernet fra \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Vil du slette \" {{name}} \"?",
+      "confirm_description": "Dette fjerner projektet og alle indgreb i det. Dette kan ikke fortrydes."
+    }
+  },
+  "record": {
+    "title": "Optag",
+    "subtitle": "Tag et rent billede, se dine niveauer, og følg scriptet.",
+    "project_label": "Projekt",
+    "project_placeholder": "Vælg et projekt",
+    "project_create_quick": "Opret et hurtigt projekt...",
+    "device_label": "Input enhed",
+    "device_placeholder": "Vælg en enhed",
+    "device_default_badge": "System standard",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Ingen input-enheder fundet.",
+    "monitor_button": "Overvåg",
+    "monitor_stop_button": "Stop overvågning",
+    "record_button": "Optag",
+    "stop_button": "Stop",
+    "elapsed_label": "Forløbet tid",
+    "status": {
+      "idle": "Inaktiv",
+      "monitoring": "Overvågning",
+      "recording": "Optagelse",
+      "stopped": "Stoppet"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Peak",
+      "clip": "Klip"
+    },
+    "guide": {
+      "title": "Guidet session",
+      "subtitle": "Lad træneren lede dig gennem manuskriptet trin for trin, fra opvarmning til den talte sætning.",
+      "loading": "Indlæser script...",
+      "unavailable": "Den guidede session er endnu ikke tilgængelig på serveren.",
+      "select_project_device": "Vælg et projekt og en inputenhed for at optage trin lige herfra.",
+      "progress": " {{done}} af {{total}} trin",
+      "start_timer": "Start timer",
+      "skip_timer": "Spring timer over",
+      "record_step": "Optag dette trin",
+      "stop_step": "Stop optagelsen",
+      "mark_done": "Færdig - næste skridt",
+      "step_recorded": "Tag optaget",
+      "no_record_step": "Opvarmningstrin — ingen optagelse nødvendig.",
+      "bars_hint": "Omkring {{bars}} søjler",
+      "complete_title": "Script færdigt!",
+      "complete_body": "Du har optaget hvert trin i scriptet. Gå tilbage til projektets Audio-fane, og vælg dine yndlingsoptagelser.",
+      "restart": "Genstart scriptet"
+    },
+    "best2min": {
+      "button": "Find de bedste 2 minutter (Suno)",
+      "running": "Analyserer optagelsen...",
+      "score_label": "Score",
+      "hint": "Kører en energi- og klarhedsanalyse over hele optagelsen for at finde dets stærkeste 2-minutters vindue - du kan stadig justere rækkevidden i hånden bagefter.",
+      "chart_caption": "Score pr. vindue",
+      "unavailable": "Den bedste 2-minutters analyse er endnu ikke tilgængelig på denne server."
+    },
+    "takes_title": "Tager fra denne session",
+    "takes_empty": "Ingen optagelser registreret i denne session endnu.",
+    "open_in_project": "Åben i projekt",
+    "ws_disconnected": "Genopretter forbindelse til niveaumåleren...",
+    "select_project_first": "Vælg et projekt for at komme i gang.",
+    "select_device_first": "Vælg en inputenhed."
+  },
+  "project": {
+    "back_to_library": "Tilbage til biblioteket",
+    "header": {
+      "status_label": "Status",
+      "cover_upload": "Upload cover",
+      "cover_remove": "Fjern dækslet",
+      "name_placeholder": "Projektnavn",
+      "links_title": "Links",
+      "add_link": "Tilføj link",
+      "mode": {
+        "voice": "Kun stemme",
+        "voice_guitar": "Stemme + guitar"
+      }
+    },
+    "tabs": {
+      "audio": "Lyd",
+      "lyrics": "Sangtekster",
+      "prompts": "Spørger",
+      "notes": "Noter"
+    },
+    "audio": {
+      "takes_title": "Tager",
+      "no_takes": {
+        "title": "Ingen optagelser endnu",
+        "description": "Optag et nyt tag eller importer en eksisterende fil."
+      },
+      "record_new": "Optag et nyt tag",
+      "rating": "Bedømmelse",
+      "variant": {
+        "raw": "Rå",
+        "processed": "Bearbejdet"
+      },
+      "variant_placeholder": "version",
+      "process_button": "Proces",
+      "export_button": "Eksporter",
+      "delete_take_confirm_title": "Vil du slette dette tag?",
+      "delete_take_confirm_description": "Den rå lyd og hver behandlede version vil blive fjernet.",
+      "ab": {
+        "raw": "A · Rå",
+        "processed": "B · Bearbejdet"
+      },
+      "origin": {
+        "recorded": "Optaget",
+        "imported": "Importeret"
+      },
+      "session_label_placeholder": "Sessionsetiket (valgfrit)",
+      "duration": "Varighed",
+      "sample_rate": "Sample rate",
+      "channels": "Kanaler",
+      "created_at": "Optaget"
+    },
+    "pipeline": {
+      "title": "Forarbejdningskæde",
+      "preset_label": "Forudindstillet",
+      "preset_none": "Custom kæde",
+      "preset_save": "Gem som forudindstilling",
+      "stage_locked": "Låst",
+      "stage_requires_extra": "Kræver en ekstra, der ikke er installeret",
+      "process_button": "Proces tage",
+      "processing": "Behandler...",
+      "job_queued": "I kø...",
+      "job_running": "Behandler...",
+      "job_done": "Færdig",
+      "job_error": "Mislykkedes",
+      "job_cancelled": "Annulleret",
+      "cancel_job": "Annuller",
+      "no_stages": "Ingen tilgængelige etaper."
+    },
+    "export": {
+      "title": "Eksport tage",
+      "description": "Gengiv en endelig fil fra en behandlet version.",
+      "variant_label": "version",
+      "format_label": "Format",
+      "preset_label": "Eksporter forudindstilling",
+      "range_label": "Rækkevidde",
+      "range_full": "Fuld længde",
+      "range_custom": "Brugerdefineret rækkevidde",
+      "start_label": "Start(er)",
+      "end_label": "Slut (r)",
+      "submit": "Eksporter",
+      "progress": "Gengiver fil...",
+      "download_ready": "Filen er klar",
+      "download_button": "Download fil"
+    },
+    "notes": {
+      "placeholder": "Noter i frit format om dette projekt...",
+      "saved_at": "Gemt på {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Skriv teksten her. Brug paletten på siden til at indsætte Suno-metatags.",
+      "saved_at": "Gemt på {{time}} ",
+      "saving": "Gemmer...",
+      "versions": "Versioner",
+      "versions_empty": "Ingen gemte versioner endnu.",
+      "version_preview": "Forhåndsvisning",
+      "restore": "Gendan denne version",
+      "restore_confirm_title": "Vil du gendanne denne version?",
+      "restore_confirm_description": "Den aktuelle tekst vil blive erstattet med den version, der er gemt på {{date}}.",
+      "metatags_title": "Meta-tags",
+      "metatags_hint": "Klik på et mærke for at indsætte det ved markøren.",
+      "metatags_placebo_warning": "Ubevist - har muligvis ingen effekt på resultatet.",
+      "metatags_empty": "Ingen meta-tags registreret."
+    },
+    "prompts": {
+      "style_title": "Stilprompt",
+      "lyrics_title": "Tekstprompt",
+      "template_label": "Skabelon",
+      "template_none": "Ingen skabelon",
+      "variables_title": "Variabler",
+      "preview_title": "Forhåndsvisning",
+      "preview_empty": "Vælg en skabelon, og udfyld variablerne for at se en forhåndsvisning.",
+      "char_count": " {{count}} tegn",
+      "char_count_warning": "Style-prompter over 1000 tegn kan blive afkortet af Suno.",
+      "copy": "Kopiér",
+      "copied": "Kopieret til udklipsholder",
+      "save_to_project": "Gem til projekt",
+      "saved_to_project": "Spørgsmål gemt i projektet",
+      "history_title": "Historie",
+      "history_empty": "Ingen tidligere versioner.",
+      "current_label": "Nuværende"
+    },
+    "stems": {
+      "title": "Vokal og guitar",
+      "separate_button": "Separat vokal og guitar",
+      "running": "Adskiller...",
+      "vocals": "Vokal",
+      "instrumental": "Instrumental",
+      "process_stem": "Bearbejd denne stilk",
+      "empty": "Dette take er ikke blevet adskilt endnu. Kør adskillelse for at høre vokalen og guitaren isoleret.",
+      "capability_missing": "Kildeadskillelse er ikke installeret på denne server.",
+      "unavailable": "Vokal/guitar-adskillelse er endnu ikke tilgængelig på denne server."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "På",
+    "boolean_off": "Fra"
+  },
+  "import": {
+    "title": "Importer",
+    "subtitle": "Bring projekter, der allerede findes på disken, ind i biblioteket.",
+    "step_indicator": "Trin {{current}} af {{total}} ",
+    "step1": {
+      "title": "Find mappe",
+      "description": "Peg på rodmappen med dine projekter og spor.",
+      "path_label": "Mappesti",
+      "path_placeholder": "f.eks. E:\\Robbs\\Pride\\Musik\\ROBBS",
+      "recent_label": "Seneste",
+      "scan_button": "Scan mappe",
+      "scanning": "Scanner...",
+      "ffmpeg_warning": "FFmpeg ikke fundet — filer, der skal konverteres, vil blive sprunget over.",
+      "folders_found_one": " {{count}} mappe fundet",
+      "folders_found_other": " {{count}} mapper fundet",
+      "unmatched_files_one": " {{count}} ikke-genkendt fil",
+      "unmatched_files_other": " {{count}} ikke-genkendte filer"
+    },
+    "step2": {
+      "title": "Gennemgå varer",
+      "description": "Tjek navne, statusser og hvad der vil blive importeret, før du bekræfter.",
+      "select_all": "Vælg alle",
+      "table": {
+        "folder": "Kilde mappe",
+        "name": "Projektnavn",
+        "status": "Status",
+        "audio": "Lyd",
+        "lyrics": "Sangtekster",
+        "cover": "Dæk",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} fil valgt",
+      "audio_include_other": " {{count}} filer valgt",
+      "no_audio": "Ingen lyd fundet",
+      "no_lyrics": "Ingen sangtekster fundet",
+      "no_cover": "Ingen dækning",
+      "warnings_title": "Advarsler"
+    },
+    "step3": {
+      "title": "Importer",
+      "description": "Bekræft at kopiere filerne og oprette projekterne.",
+      "copy_originals": "Kopier originalfiler til biblioteket",
+      "execute_button": "Start import",
+      "progress_title": "Importerer...",
+      "created_count": "Oprettet: {{count}} ",
+      "skipped_count": "Sprang over: {{count}} ",
+      "done_title": "Import færdig",
+      "done_description": "Nedenstående projekter blev oprettet i dit bibliotek.",
+      "view_project": "Åbent projekt",
+      "start_over": "Ny import"
+    }
+  },
+  "templates": {
+    "title": "Skabeloner",
+    "subtitle": "Genanvendelige promptskabeloner og meta-tags til Suno.",
+    "tabs": {
+      "prompts": "Spørg skabeloner",
+      "metatags": "Meta-tags"
+    },
+    "new_template": "Ny skabelon",
+    "kind": {
+      "style": "Stil",
+      "lyrics": "Sangtekster"
+    },
+    "kind_label": "Venlig",
+    "delete_confirm_title": "Slet skabelon \" {{name}} \"?",
+    "delete_confirm_description": "Dette kan ikke fortrydes.",
+    "empty": "Ingen skabeloner endnu.",
+    "editor": {
+      "title_new": "Ny skabelon",
+      "title_edit": "Rediger skabelon",
+      "name_label": "Navn",
+      "name_placeholder": "f.eks. Akustisk ballade",
+      "kind_label": "Venlig",
+      "template_label": "Skabelontekst",
+      "template_hint": "Marker, hvor hver variabel hører hjemme med dens navn pakket ind i dobbelte krøllede klammeparenteser - for eksempel bliver en variabel ved navn \"genre\" til genre pakket ind i to indledende og to afsluttende klammeparenteser.",
+      "variables_label": "Variabler",
+      "variable_add": "Tilføj variabel",
+      "variable_name": "Nøgle",
+      "variable_label": "Etiket",
+      "variable_type": "Type",
+      "variable_type_string": "Tekst",
+      "variable_type_select": "Enkelt udvalg",
+      "variable_type_multiselect": "Multi-select",
+      "variable_type_number": "Nummer",
+      "variable_type_boolean": "Ja/nej",
+      "variable_options": "Indstillinger (kommasepareret)",
+      "variable_required": "Påkrævet",
+      "save": "Gem skabelon"
+    },
+    "metatags": {
+      "title": "Meta-tags",
+      "subtitle": "Strukturelle og stilmæssige tags Suno genkender inde i teksterne.",
+      "new_tag": "Nyt tag",
+      "tag_label": "Tag",
+      "tag_placeholder": "f.eks. guitar-solo",
+      "category_label": "Kategori",
+      "tier_label": "Pålidelighed",
+      "tier_legend_title": "Pålidelighedslegende",
+      "tier_legend": {
+        "1": "Niveau 1 - dokumenteret og konsekvent",
+        "2": "Niveau 2 - fungerer normalt",
+        "3": "Niveau 3 — variabel effekt",
+        "4": "Tier 4 - placebo, ikke bevist"
+      },
+      "description_label": "Beskrivelse",
+      "delete_confirm_title": "Slet tag \" {{tag}} \"?",
+      "empty": "Ingen brugerdefinerede meta-tags endnu."
+    }
+  },
+  "settings": {
+    "title": "Indstillinger",
+    "subtitle": "Systemoplysninger, sprog og standardindstillinger.",
+    "system_info_title": "System",
+    "version": "version",
+    "data_dir": "Data mappe",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Tilgængelig",
+    "ffmpeg_missing": "Ikke fundet",
+    "capabilities_title": "Installerede muligheder",
+    "capability": {
+      "denoise": "Støjreduktion",
+      "quality": "Kvalitetsforbedring",
+      "separate": "Kildeadskillelse",
+      "ffmpeg": "FFmpeg konvertering"
+    },
+    "capability_available": "Tilgængelig",
+    "capability_unavailable": "Ikke tilgængelig",
+    "gpu_title": "GPU acceleration",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime-udbydere"
+    },
+    "gpu_none": "Ingen GPU-udbydere fundet",
+    "language_title": "Sprog",
+    "language": {
+      "pt-BR": "Português (Brasil)",
+      "en": "engelsk"
+    },
+    "theme_title": "Udseende",
+    "theme": {
+      "dark": "Mørk",
+      "light": "Lys"
+    },
+    "defaults_title": "Eksporter standardindstillinger",
+    "lufs_target_label": "Mål LUFS",
+    "lufs_target_hint": "Bruges som startforslag ved eksport af take. Sunos standard er omkring -14 LUFS.",
+    "saved": "Præferencer gemt"
+  },
+  "guide": {
+    "title": "Suno optagelse guide",
+    "subtitle": "Sådan indfanger du stemme- og guitaroptagelser, der får de bedste resultater.",
+    "intro": "Suno klarer sig bedst med rene, entydige referencer. Denne vejledning dækker forberedelse, målniveauer og et 3-5 minutters optagelsesscript.",
+    "sections": {
+      "prep": {
+        "title": "Forberedelse",
+        "body": "Optag i et behandlet rum eller et med masser af blødt materiale (gardiner, tæpper, tøj i et skab). Sluk for blæsere og alt, der nynner. Varm din stemme op i 5 minutter før optagelse."
+      },
+      "levels": {
+        "title": "Niveauer: -12 til -6 dBFS",
+        "body": "Sigt efter toppe mellem -12 og -6 dBFS på måleren. Under dette område bliver baggrundsstøjen mere mærkbar; over den stiger risikoen for klipning. Brug måleren på Record-siden til at indstille din forstærkning, før du starter."
+      },
+      "distance": {
+        "title": "Mikrofonafstand: 15–30 cm",
+        "body": "Hold dig 15 til 30 cm fra mikrofonen. Tættere end det overdriver plosiver og nærhedseffekt; længere væk opfanger mere rumklang og støj."
+      },
+      "script": {
+        "title": "Optagelse af script",
+        "warmup": "Vokalopvarmning (1-2 minutter)",
+        "vowels": "Vedvarende vokaler - a, e, i, o, u",
+        "scales": "Simpel vægt, op og ned",
+        "excerpt": "Et sanguddrag (8 til 16 takter)",
+        "dynamics": "Dynamik: start blødt, slut højt",
+        "spoken_phrase": "Én talt sætning, så Suno kan læse din vokale tone"
+      },
+      "expectations": {
+        "title": "Hvad Suno forventer",
+        "body": "WAV, 48 kHz, mono, tør (ingen rumklang eller effekter), 3 til 5 minutters reference. De reneste, mest repræsentative 2 minutter af tagningen giver normalt de bedste resultater."
+      }
+    }
+  },
+  "status": {
+    "idea": "Idé",
+    "em_progresso": "I gang",
+    "quase": "Næsten der",
+    "pronto": "Klar"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Fuldt vokalmanuskript til Suno",
+      "desc": "5 guidede minutter: opvarmning, vokaler, skalaer, to sanguddrag, dynamik og en talt frase."
+    },
+    "step": {
+      "warmup": "Vokal opvarmning",
+      "warmup_inst": "Løs op med gab, læbe-triller (brrr) og en blød brummen i cirka et minut. Ingen grund til at optage - det er bare at slappe af i halsen, før du synger.",
+      "vowels": "Vedvarende vokaler",
+      "vowels_inst": "Hold hver vokal - a, e, i, o, u - i 3 til 4 sekunder på din behagelige tonehøjde, med en konstant lydstyrke. Dette hjælper Suno med at opfange din stemmes rene klang.",
+      "scales": "Skalerer op og ned",
+      "scales_inst": "Syng en simpel skala op og derefter ned, på \"la\" eller \"na\". Det behøver ikke at være perfekt – målet er at kortlægge dit stemmeområde.",
+      "section": "Sanguddrag - del 1",
+      "section_inst": "Syng 8 til 16 takter af sangen med den virkelige hensigt, du ønsker at formidle. Prioriter klarhed og nærvær frem for teknisk perfektion.",
+      "section2": "Sanguddrag - del 2",
+      "section2_inst": "Syng yderligere 8 til 16 takter - ideelt set et omkvæd eller en sektion, der står i kontrast til den forrige. Mere variation hjælper modellen med at lære din stemme.",
+      "dynamics": "Dynamik: blød → højt",
+      "dynamics_inst": "Syng den samme sætning, der starter meget blødt og slutter højt, uden at anstrenge din hals. Dette viser Suno din stemmes dynamiske område.",
+      "spoken": "Talt sætning",
+      "spoken_inst": "Tal - syng ikke - en kort, naturlig sætning, som om du chattede. Dette hjælper Suno med at genkende din stemmes rigtige klang."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restaurering",
+      "filter": "Filtre",
+      "dynamics": "Dynamik",
+      "separation": "Adskillelse",
+      "quality": "Kvalitet",
+      "utility": "Utility",
+      "loudness": "Lydstyrke"
+    },
+    "highpass": "Højpasfilter",
+    "lowpass": "Lavpas filter",
+    "denoise": "Støjreduktion",
+    "declip": "Afklipning",
+    "declick": "Klik/pop fjernelse",
+    "deesser": "De-esser",
+    "gate": "Støjport",
+    "compressor": "Kompressor",
+    "limiter": "Begrænser",
+    "eq": "Udligning",
+    "normalize": "Top normalisering",
+    "loudness": "Loudness normalization (LUFS)",
+    "reverb_reduce": "Reverb-reduktion",
+    "separate": "Kildeadskillelse",
+    "quality": "Kvalitetsforbedring (opskalere)",
+    "trim_silence": "Stilhed trimning",
+    "fade": "Fade ind / fade ud",
+    "stereo_to_mono": "Konverter til mono",
+    "resample": "Gensampling"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Pålidelig",
+      "2": "Virker normalt",
+      "3": "Variabel",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Struktur",
+      "vocal": "Vokal",
+      "instrument": "Instrument",
+      "dynamics": "Dynamik",
+      "production": "Produktion",
+      "mood": "Stemning"
+    },
+    "verse": "Vers",
+    "chorus": "Omkvæd",
+    "bridge": "Bro",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Krog",
+    "prechorus": "For-omkvæd",
+    "instrumental": "Instrumental",
+    "guitar_solo": "Guitar solo",
+    "build_up": "Opbygning",
+    "breakdown": "Opdeling",
+    "spoken_word": "Talt ord",
+    "whispered": "Hviskede",
+    "harmonies": "Harmonier",
+    "male_vocal": "Mandlig vokal",
+    "female_vocal": "Kvindevokal",
+    "duet": "Duet",
+    "acoustic": "Akustisk",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Ren stemme",
+    "voice_guitar_balanced": "Afbalanceret stemme og guitar",
+    "podcast": "Podcast",
+    "suno_ready": "Suno klar",
+    "gentle_restore": "Skånsom gendannelse",
+    "raw_passthrough": "Ingen behandling"
+  },
+  "errors": {
+    "unknown": "Noget gik galt.",
+    "network": "Kunne ikke nå serveren.",
+    "validation_error": "Tjek de oplysninger, du har indtastet.",
+    "not_found": "Varen blev ikke fundet.",
+    "project_not_found": "Projekt ikke fundet.",
+    "take_not_found": "Tag ikke fundet.",
+    "album_not_found": "Album ikke fundet.",
+    "preset_not_found": "Forudindstilling blev ikke fundet.",
+    "template_not_found": "Skabelonen blev ikke fundet.",
+    "device_busy": "Lydenheden er i brug af et andet program.",
+    "device_not_found": "Lydenheden blev ikke fundet.",
+    "already_recording": "En optagelse er allerede i gang.",
+    "ffmpeg_missing": "FFmpeg er ikke installeret - installer det for at konvertere denne fil.",
+    "disk_full": "Ikke nok diskplads.",
+    "permission_denied": "Tilladelse nægtet for den givne sti.",
+    "import_path_not_found": "Importstien blev ikke fundet.",
+    "job_failed": "Behandlingen mislykkedes.",
+    "job_cancelled": "Behandlingen blev annulleret.",
+    "process_failed": "Optagelsen kunne ikke behandles.",
+    "export_failed": "Kunne ikke eksportere filen.",
+    "record_failed": "Kunne ikke starte optagelsen."
+  },
+  "jobs": {
+    "status": {
+      "queued": "I kø",
+      "running": "Løb",
+      "done": "Færdig",
+      "error": "Mislykkedes",
+      "cancelled": "Annulleret"
+    },
+    "kind": {
+      "process": "Behandling",
+      "export": "Eksporter",
+      "import": "Importer",
+      "record": "Optagelse"
+    }
+  }
+}

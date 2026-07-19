@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Panlinis ng Audio"
+  },
+  "nav": {
+    "library": "Aklatan",
+    "record": "Itala",
+    "import": "Mag-import",
+    "templates": "Mga template",
+    "settings": "Mga setting",
+    "guide": "Patnubay"
+  },
+  "common": {
+    "save": "I-save",
+    "saving": "Sine-save...",
+    "saved": "Nai-save",
+    "cancel": "Kanselahin",
+    "close": "Isara",
+    "delete": "Tanggalin",
+    "edit": "I-edit",
+    "create": "Lumikha",
+    "search": "Maghanap",
+    "loading": "Naglo-load…",
+    "error": "Error",
+    "retry": "Subukan muli",
+    "confirm": "Kumpirmahin",
+    "back": "Bumalik",
+    "next": "Susunod",
+    "continue": "Magpatuloy",
+    "finish": "Tapusin",
+    "copy": "Kopyahin",
+    "copied": "Kinopya",
+    "download": "I-download",
+    "upload": "Mag-upload",
+    "none": "wala",
+    "all": "Lahat",
+    "yes": "Oo",
+    "no": "Hindi",
+    "select": "Pumili",
+    "optional": "opsyonal",
+    "required": "kinakailangan",
+    "unsaved_changes": "Mga hindi na-save na pagbabago",
+    "name": "Pangalan",
+    "status": "Katayuan",
+    "type": "Uri",
+    "actions": "Mga aksyon",
+    "empty": "Walang laman",
+    "browse": "Mag-browse",
+    "remove": "Alisin",
+    "add": "Idagdag",
+    "rename": "Palitan ang pangalan",
+    "duplicate": "Duplicate",
+    "warning": "Babala",
+    "locked": "Naka-lock",
+    "builtin": "Naka-built-in",
+    "custom": "Custom",
+    "untitled": "Walang pamagat",
+    "select_placeholder": "Pumili…"
+  },
+  "library": {
+    "title": "Aklatan",
+    "subtitle": "Ang iyong boses at mga proyekto ng gitara, mula sa ideya hanggang sa paglabas.",
+    "new_project": "Bagong proyekto",
+    "new_album": "Bagong album",
+    "search_placeholder": "Maghanap ayon sa pangalan...",
+    "view": {
+      "grid": "Grid",
+      "albums": "Mga album"
+    },
+    "filters": {
+      "all": "Lahat"
+    },
+    "take_count_one": " {{count}} kunin",
+    "take_count_other": " {{count}} tumatagal",
+    "updated_at": "Na-update {{date}} ",
+    "no_results": {
+      "title": "Walang nakitang mga proyekto",
+      "description": "Subukang ayusin ang paghahanap o filter ng katayuan."
+    },
+    "empty": {
+      "title": "Walang laman ang iyong library",
+      "description": "Magsimula ng bagong proyekto mula sa simula, o ang pag-import ay dadalhin mo na sa disk.",
+      "cta_import": "Mag-import mula sa folder",
+      "cta_new": "Lumikha ng proyekto"
+    },
+    "project_dialog": {
+      "title": "Bagong proyekto",
+      "description": "Bigyan ito ng pangalan at pumili ng recording mode.",
+      "name_label": "Pangalan ng proyekto",
+      "name_placeholder": "hal. Tag-ulan na Tag-init",
+      "mode_label": "Mode",
+      "mode": {
+        "voice": "Boses lang",
+        "voice_guitar": "Boses + gitara"
+      },
+      "submit": "Lumikha ng proyekto"
+    },
+    "album_dialog": {
+      "title": "Bagong album",
+      "description": "Igrupo ang mga kaugnay na proyekto sa isang album.",
+      "name_label": "Pangalan ng album",
+      "name_placeholder": "hal. Taglagas EP",
+      "submit": "Lumikha ng album"
+    },
+    "album": {
+      "untitled": "Walang pamagat na album",
+      "members_count_one": " {{count}} proyekto",
+      "members_count_other": " {{count}} mga proyekto",
+      "empty": "Wala pang proyekto sa album na ito.",
+      "delete_confirm_title": "Tanggalin ang album?",
+      "delete_confirm_description": "Hindi matatanggal ang mga proyekto, ia-unlink lang sa \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Tanggalin ang \" {{name}} \"?",
+      "confirm_description": "Inaalis nito ang proyekto at ang bawat pagkuha nito. Hindi na ito maaaring bawiin."
+    }
+  },
+  "record": {
+    "title": "Itala",
+    "subtitle": "Kumuha ng malinis na pagkuha, panoorin ang iyong mga antas, at sundin ang script.",
+    "project_label": "Proyekto",
+    "project_placeholder": "Pumili ng proyekto",
+    "project_create_quick": "Gumawa ng mabilis na proyekto...",
+    "device_label": "Input device",
+    "device_placeholder": "Pumili ng device",
+    "device_default_badge": "Default ng system",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Walang nakitang mga input device.",
+    "monitor_button": "Subaybayan",
+    "monitor_stop_button": "Itigil ang pagsubaybay",
+    "record_button": "Itala",
+    "stop_button": "Tumigil ka",
+    "elapsed_label": "Lumipas na oras",
+    "status": {
+      "idle": "Idle",
+      "monitoring": "Pagsubaybay",
+      "recording": "Pagre-record",
+      "stopped": "Huminto"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Tuktok",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Pinatnubayang session",
+      "subtitle": "Hayaang gabayan ka ng coach sa script nang sunud-sunod, mula sa warm-up hanggang sa binibigkas na parirala.",
+      "loading": "Nilo-load ang script…",
+      "unavailable": "Ang ginabayang session ay hindi pa available sa server.",
+      "select_project_device": "Pumili ng proyekto at isang input device para mag-record ng mga hakbang mula dito.",
+      "progress": " {{done}} ng {{total}} hakbang",
+      "start_timer": "Simulan ang timer",
+      "skip_timer": "Laktawan ang timer",
+      "record_step": "Itala ang hakbang na ito",
+      "stop_step": "Itigil ang pagre-record",
+      "mark_done": "Tapos na - susunod na hakbang",
+      "step_recorded": "Kunin ang naitala",
+      "no_record_step": "Warm-up step — hindi kailangan ng recording.",
+      "bars_hint": "Mga {{bars}} bar",
+      "complete_title": "Kumpleto na ang script!",
+      "complete_body": "Naitala mo ang bawat hakbang ng script. Bumalik sa tab na Audio ng proyekto at piliin ang iyong mga paboritong take.",
+      "restart": "I-restart ang script"
+    },
+    "best2min": {
+      "button": "Hanapin ang pinakamagandang 2 minuto (Suno)",
+      "running": "Sinusuri ang pagkuha...",
+      "score_label": "Puntos",
+      "hint": "Nagpapatakbo ng isang pagsusuri ng enerhiya at kalinawan sa buong pagkuha upang mahanap ang pinakamalakas nitong 2 minutong palugit — maaari mo pa ring ayusin ang hanay sa pamamagitan ng kamay pagkatapos.",
+      "chart_caption": "Marka sa bawat window",
+      "unavailable": "Ang pinakamahusay na 2 minutong pagsusuri ay hindi pa available sa server na ito."
+    },
+    "takes_title": "Kumuha mula sa session na ito",
+    "takes_empty": "Wala pang naitalang pagkuha sa session na ito.",
+    "open_in_project": "Buksan sa proyekto",
+    "ws_disconnected": "Kumokonekta muli sa level meter...",
+    "select_project_first": "Pumili ng proyekto para makapagsimula.",
+    "select_device_first": "Pumili ng input device."
+  },
+  "project": {
+    "back_to_library": "Bumalik sa library",
+    "header": {
+      "status_label": "Katayuan",
+      "cover_upload": "Mag-upload ng cover",
+      "cover_remove": "Alisin ang takip",
+      "name_placeholder": "Pangalan ng proyekto",
+      "links_title": "Mga link",
+      "add_link": "Magdagdag ng link",
+      "mode": {
+        "voice": "Boses lang",
+        "voice_guitar": "Boses + gitara"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Lyrics",
+      "prompts": "Mga senyales",
+      "notes": "Mga Tala"
+    },
+    "audio": {
+      "takes_title": "tumatagal",
+      "no_takes": {
+        "title": "Wala pang kumukuha",
+        "description": "Mag-record ng bagong take o mag-import ng kasalukuyang file."
+      },
+      "record_new": "Mag-record ng bagong take",
+      "rating": "Rating",
+      "variant": {
+        "raw": "hilaw",
+        "processed": "Naproseso"
+      },
+      "variant_placeholder": "Bersyon",
+      "process_button": "Proseso",
+      "export_button": "I-export",
+      "delete_take_confirm_title": "I-delete ang take na ito?",
+      "delete_take_confirm_description": "Aalisin ang raw audio at bawat naprosesong bersyon.",
+      "ab": {
+        "raw": "A · Hilaw",
+        "processed": "B · Naproseso"
+      },
+      "origin": {
+        "recorded": "Naitala",
+        "imported": "Na-import"
+      },
+      "session_label_placeholder": "Label ng session (opsyonal)",
+      "duration": "Tagal",
+      "sample_rate": "Sample rate",
+      "channels": "Mga channel",
+      "created_at": "Naitala"
+    },
+    "pipeline": {
+      "title": "Pagproseso ng chain",
+      "preset_label": "Preset",
+      "preset_none": "Custom na chain",
+      "preset_save": "I-save bilang preset",
+      "stage_locked": "Naka-lock",
+      "stage_requires_extra": "Nangangailangan ng dagdag na hindi naka-install",
+      "process_button": "Pagkuha ng proseso",
+      "processing": "Pinoproseso…",
+      "job_queued": "Nakapila…",
+      "job_running": "Pinoproseso…",
+      "job_done": "Tapos na",
+      "job_error": "Nabigo",
+      "job_cancelled": "Kinansela",
+      "cancel_job": "Kanselahin",
+      "no_stages": "Walang magagamit na mga yugto."
+    },
+    "export": {
+      "title": "I-export ang pagkuha",
+      "description": "Mag-render ng panghuling file mula sa naprosesong bersyon.",
+      "variant_label": "Bersyon",
+      "format_label": "Format",
+      "preset_label": "I-export ang preset",
+      "range_label": "Saklaw",
+      "range_full": "Buong haba",
+      "range_custom": "Custom na hanay",
+      "start_label": "Simula (mga)",
+      "end_label": "(mga) wakas",
+      "submit": "I-export",
+      "progress": "Nire-render ang file...",
+      "download_ready": "Handa na ang file",
+      "download_button": "Mag-download ng file"
+    },
+    "notes": {
+      "placeholder": "Libreng-form na mga tala tungkol sa proyektong ito...",
+      "saved_at": "Na-save sa {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Isulat ang lyrics dito. Gamitin ang palette sa gilid para maglagay ng mga meta-tag ng Suno.",
+      "saved_at": "Na-save sa {{time}} ",
+      "saving": "Sine-save...",
+      "versions": "Mga bersyon",
+      "versions_empty": "Wala pang naka-save na bersyon.",
+      "version_preview": "Silipin",
+      "restore": "Ibalik ang bersyon na ito",
+      "restore_confirm_title": "Ibalik ang bersyon na ito?",
+      "restore_confirm_description": "Ang kasalukuyang teksto ay papalitan ng bersyong naka-save sa {{date}} .",
+      "metatags_title": "Mga meta-tag",
+      "metatags_hint": "I-click ang isang tag para ipasok ito sa cursor.",
+      "metatags_placebo_warning": "Hindi napatunayan — maaaring walang epekto sa resulta.",
+      "metatags_empty": "Walang nakarehistrong meta-tag."
+    },
+    "prompts": {
+      "style_title": "Prompt ng istilo",
+      "lyrics_title": "prompt ng lyrics",
+      "template_label": "Template",
+      "template_none": "Walang template",
+      "variables_title": "Mga variable",
+      "preview_title": "Silipin",
+      "preview_empty": "Pumili ng template at punan ang mga variable para makakita ng preview.",
+      "char_count": " {{count}} character",
+      "char_count_warning": "Maaaring putulin ni Suno ang mga style prompt na higit sa 1000 character.",
+      "copy": "Kopyahin",
+      "copied": "Kinopya sa clipboard",
+      "save_to_project": "I-save sa proyekto",
+      "saved_to_project": "Na-save ang prompt sa project",
+      "history_title": "Kasaysayan",
+      "history_empty": "Walang mga nakaraang bersyon.",
+      "current_label": "Kasalukuyan"
+    },
+    "stems": {
+      "title": "Vocal at gitara",
+      "separate_button": "Paghiwalayin ang mga vocal at gitara",
+      "running": "Naghihiwalay...",
+      "vocals": "Vocals",
+      "instrumental": "Instrumental",
+      "process_stem": "Iproseso ang tangkay na ito",
+      "empty": "Ang take na ito ay hindi pa pinaghihiwalay. Patakbuhin ang paghihiwalay upang marinig ang mga vocal at gitara sa paghihiwalay.",
+      "capability_missing": "Hindi naka-install ang source separation sa server na ito.",
+      "unavailable": "Hindi pa available ang vocal/guitar separation sa server na ito."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Naka-on",
+    "boolean_off": "Naka-off"
+  },
+  "import": {
+    "title": "Mag-import",
+    "subtitle": "Dalhin ang mga proyekto na mayroon na sa disk sa library.",
+    "step_indicator": "Hakbang {{current}} ng {{total}} ",
+    "step1": {
+      "title": "Hanapin ang folder",
+      "description": "Ituro ang root folder kasama ang iyong mga proyekto at track.",
+      "path_label": "Daan ng folder",
+      "path_placeholder": "hal. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "Kamakailan",
+      "scan_button": "I-scan ang folder",
+      "scanning": "Ini-scan...",
+      "ffmpeg_warning": "Hindi nahanap ang FFmpeg — ang mga file na nangangailangan ng conversion ay lalaktawan.",
+      "folders_found_one": " {{count}} folder ang nakita",
+      "folders_found_other": " {{count}} folder ang nakita",
+      "unmatched_files_one": " {{count}} hindi nakikilalang file",
+      "unmatched_files_other": " {{count}} hindi nakikilalang mga file"
+    },
+    "step2": {
+      "title": "Suriin ang mga item",
+      "description": "Suriin ang mga pangalan, status, at kung ano ang ii-import bago kumpirmahin.",
+      "select_all": "Piliin lahat",
+      "table": {
+        "folder": "Pinagmulan na folder",
+        "name": "Pangalan ng proyekto",
+        "status": "Katayuan",
+        "audio": "Audio",
+        "lyrics": "Lyrics",
+        "cover": "Takpan",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} file ang napili",
+      "audio_include_other": " {{count}} file ang napili",
+      "no_audio": "Walang nakitang audio",
+      "no_lyrics": "Walang nakitang lyrics",
+      "no_cover": "Walang takip",
+      "warnings_title": "Mga babala"
+    },
+    "step3": {
+      "title": "Mag-import",
+      "description": "Kumpirmahin na kopyahin ang mga file at gawin ang mga proyekto.",
+      "copy_originals": "Kopyahin ang mga orihinal na file sa library",
+      "execute_button": "Simulan ang pag-import",
+      "progress_title": "Ini-import…",
+      "created_count": "Nilikha: {{count}} ",
+      "skipped_count": "Nilaktawan: {{count}} ",
+      "done_title": "Kumpleto na ang pag-import",
+      "done_description": "Ang mga proyekto sa ibaba ay ginawa sa iyong library.",
+      "view_project": "Buksan ang proyekto",
+      "start_over": "Bagong import"
+    }
+  },
+  "templates": {
+    "title": "Mga template",
+    "subtitle": "Muling magagamit na mga template ng prompt at meta-tag para sa Suno.",
+    "tabs": {
+      "prompts": "Mga template ng prompt",
+      "metatags": "Mga meta-tag"
+    },
+    "new_template": "Bagong template",
+    "kind": {
+      "style": "Estilo",
+      "lyrics": "Lyrics"
+    },
+    "kind_label": "Mabait",
+    "delete_confirm_title": "Tanggalin ang template na \" {{name}} \"?",
+    "delete_confirm_description": "Hindi na ito maaaring bawiin.",
+    "empty": "Wala pang mga template.",
+    "editor": {
+      "title_new": "Bagong template",
+      "title_edit": "I-edit ang template",
+      "name_label": "Pangalan",
+      "name_placeholder": "hal. Acoustic ballad",
+      "kind_label": "Mabait",
+      "template_label": "Teksto ng template",
+      "template_hint": "Markahan kung saan kabilang ang bawat variable na may pangalan nito na nakabalot sa double curly braces — halimbawa, ang isang variable na pinangalanang \"genre\" ay nagiging genre na nakabalot sa dalawang opening at dalawang closing brace.",
+      "variables_label": "Mga variable",
+      "variable_add": "Magdagdag ng variable",
+      "variable_name": "Susi",
+      "variable_label": "Label",
+      "variable_type": "Uri",
+      "variable_type_string": "Text",
+      "variable_type_select": "Isang piling",
+      "variable_type_multiselect": "Multi-select",
+      "variable_type_number": "Numero",
+      "variable_type_boolean": "Oo/hindi",
+      "variable_options": "Mga Opsyon (pinaghihiwalay ng kuwit)",
+      "variable_required": "Kinakailangan",
+      "save": "I-save ang template"
+    },
+    "metatags": {
+      "title": "Mga meta-tag",
+      "subtitle": "Structural at style tag na kinikilala ni Suno sa loob ng lyrics.",
+      "new_tag": "Bagong tag",
+      "tag_label": "Tag",
+      "tag_placeholder": "hal. gitara-solo",
+      "category_label": "Kategorya",
+      "tier_label": "pagiging maaasahan",
+      "tier_legend_title": "Alamat ng pagiging maaasahan",
+      "tier_legend": {
+        "1": "Tier 1 — dokumentado at pare-pareho",
+        "2": "Tier 2 — karaniwang gumagana",
+        "3": "Tier 3 — variable na epekto",
+        "4": "Tier 4 — placebo, hindi napatunayan"
+      },
+      "description_label": "Paglalarawan",
+      "delete_confirm_title": "Tanggalin ang tag na \" {{tag}} \"?",
+      "empty": "Wala pang custom na meta-tag."
+    }
+  },
+  "settings": {
+    "title": "Mga setting",
+    "subtitle": "Impormasyon ng system, wika, at mga default na kagustuhan.",
+    "system_info_title": "Sistema",
+    "version": "Bersyon",
+    "data_dir": "Folder ng data",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Available",
+    "ffmpeg_missing": "Hindi nahanap",
+    "capabilities_title": "Mga naka-install na kakayahan",
+    "capability": {
+      "denoise": "Pagbawas ng ingay",
+      "quality": "Pagpapahusay ng kalidad",
+      "separate": "Paghihiwalay ng pinagmulan",
+      "ffmpeg": "FFmpeg conversion"
+    },
+    "capability_available": "Available",
+    "capability_unavailable": "Hindi magagamit",
+    "gpu_title": "Pagpapabilis ng GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "Mga provider ng ONNX Runtime"
+    },
+    "gpu_none": "Walang natukoy na mga provider ng GPU",
+    "language_title": "Wika",
+    "language": {
+      "pt-BR": "Português (Brasil)",
+      "en": "Ingles"
+    },
+    "theme_title": "Hitsura",
+    "theme": {
+      "dark": "Madilim",
+      "light": "Liwanag"
+    },
+    "defaults_title": "I-export ang mga default",
+    "lufs_target_label": "Target ang LUFS",
+    "lufs_target_hint": "Ginamit bilang panimulang mungkahi kapag tumatagal ang pag-export. Ang default ni Suno ay nasa -14 LUFS.",
+    "saved": "Nai-save ang mga kagustuhan"
+  },
+  "guide": {
+    "title": "Gabay sa pag-record ng Suno",
+    "subtitle": "Paano kumuha ng boses at gitara na kumuha ng pinakamahusay na mga resulta.",
+    "intro": "Pinakamahusay na gumaganap ang Suno sa malinis at hindi malabo na mga sanggunian. Sinasaklaw ng gabay na ito ang paghahanda, mga antas ng target, at isang 3–5 minutong script ng pagre-record.",
+    "sections": {
+      "prep": {
+        "title": "Paghahanda",
+        "body": "I-record sa isang ginagamot na silid o isang may maraming malambot na materyal (mga kurtina, alpombra, damit sa isang aparador). Patayin ang mga tagahanga at anumang bagay na umuugong. Painitin ang iyong boses sa loob ng 5 minuto bago mag-record."
+      },
+      "levels": {
+        "title": "Mga Antas: -12 hanggang -6 dBFS",
+        "body": "Layunin ang mga taluktok sa pagitan ng -12 at -6 dBFS sa metro. Sa ibaba ng saklaw na iyon, nagiging mas kapansin-pansin ang ingay sa background; sa itaas nito, tumataas ang panganib sa pagputol. Gamitin ang metro sa pahina ng Record upang itakda ang iyong pakinabang bago ka magsimula."
+      },
+      "distance": {
+        "title": "Distansya ng mikropono: 15–30 cm",
+        "body": "Manatiling 15 hanggang 30 cm mula sa mikropono. Mas malapit kaysa sa pinalalaki ang mga plosive at proximity effect; mas malayo ay nakakakuha ng higit pang room reverb at ingay."
+      },
+      "script": {
+        "title": "Pagre-record ng script",
+        "warmup": "Vocal warm-up (1–2 minuto)",
+        "vowels": "Sustained vowels — a, e, i, o, u",
+        "scales": "Mga simpleng kaliskis, pataas at pababa",
+        "excerpt": "Isang sipi ng kanta (8 hanggang 16 na bar)",
+        "dynamics": "Dynamics: magsimula ng malambot, magtapos nang malakas",
+        "spoken_phrase": "Isang pasalitang parirala, para mabasa ni Suno ang iyong tono ng boses"
+      },
+      "expectations": {
+        "title": "Ang inaasahan ni Suno",
+        "body": "WAV, 48 kHz, mono, tuyo (walang reverb o effect), 3 hanggang 5 minutong reference. Ang pinakamalinis, pinakakinakatawan na 2 minuto ng pagkuha ay kadalasang gumagawa ng pinakamahusay na mga resulta."
+      }
+    }
+  },
+  "status": {
+    "idea": "Ideya",
+    "em_progresso": "Isinasagawa",
+    "quase": "Malapit na",
+    "pronto": "handa na"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Buong vocal script para kay Suno",
+      "desc": "5 guided minutes: warm-up, vowels, scales, dalawang sipi ng kanta, dynamics, at isang binibigkas na parirala."
+    },
+    "step": {
+      "warmup": "Vocal warm-up",
+      "warmup_inst": "Lumuwag sa pamamagitan ng paghikab, lip trills (brrr), at isang mahinang ugong nang halos isang minuto. Hindi na kailangang mag-record — ito ay para lang i-relax ang iyong lalamunan bago kumanta.",
+      "vowels": "Sustained vowels",
+      "vowels_inst": "Hawakan ang bawat patinig — a, e, i, o, u — sa loob ng 3 hanggang 4 na segundo sa iyong komportableng pitch, nang may matatag na volume. Tinutulungan nito si Suno na makuha ang purong timbre ng iyong boses.",
+      "scales": "Ang mga kaliskis ay pataas at pababa",
+      "scales_inst": "Kumanta ng simpleng iskala pataas at pagkatapos ay pababa, sa \"la\" o \"na\". Hindi kailangang maging perpekto — ang layunin ay imapa ang iyong vocal range.",
+      "section": "Sipi ng kanta - bahagi 1",
+      "section_inst": "Kumanta ng 8 hanggang 16 na bar ng kanta, na may tunay na intensyon na nais mong iparating. Unahin ang kalinawan at presensya kaysa sa teknikal na pagiging perpekto.",
+      "section2": "Sipi ng kanta - bahagi 2",
+      "section2_inst": "Kumanta ng isa pang 8 hanggang 16 na bar — pinakamainam na isang koro o isang seksyon na kaibahan sa nauna. Nakakatulong ang mas maraming pagkakaiba-iba sa modelo na matutunan ang iyong boses.",
+      "dynamics": "Dynamics: malambot → malakas",
+      "dynamics_inst": "Kantahin ang parehong parirala na nagsisimula sa napakalambot at nagtatapos nang malakas, nang hindi pinipigilan ang iyong lalamunan. Ipinapakita nito kay Suno ang dynamic range ng iyong boses.",
+      "spoken": "Binibigkas na parirala",
+      "spoken_inst": "Magsalita — huwag kumanta — isang maikli, natural na parirala, na parang nakikipag-chat ka. Nakakatulong ito kay Suno na makilala ang tunay na timbre ng iyong boses."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Pagpapanumbalik",
+      "filter": "Mga filter",
+      "dynamics": "Dynamics",
+      "separation": "paghihiwalay",
+      "quality": "Kalidad",
+      "utility": "Utility",
+      "loudness": "Kalakasan"
+    },
+    "highpass": "High-pass na filter",
+    "lowpass": "Low-pass na filter",
+    "denoise": "Pagbawas ng ingay",
+    "declip": "Nagde-declip",
+    "declick": "Pag-alis ng click/pop",
+    "deesser": "De-esser",
+    "gate": "Gate ng ingay",
+    "compressor": "Compressor",
+    "limiter": "Limiter",
+    "eq": "Pagpapantay",
+    "normalize": "Tuktok na normalisasyon",
+    "loudness": "Normalization ng Loudness (LUFS)",
+    "reverb_reduce": "Pagbawas ng reverb",
+    "separate": "Paghihiwalay ng pinagmulan",
+    "quality": "Pagpapahusay ng kalidad (upscale)",
+    "trim_silence": "Pag-trim ng katahimikan",
+    "fade": "Fade in / fade out",
+    "stereo_to_mono": "I-convert sa mono",
+    "resample": "Resampling"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Maaasahan",
+      "2": "Karaniwang gumagana",
+      "3": "Variable",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Istruktura",
+      "vocal": "Bokal",
+      "instrument": "Instrumento",
+      "dynamics": "Dynamics",
+      "production": "Produksyon",
+      "mood": "Mood"
+    },
+    "verse": "taludtod",
+    "chorus": "Koro",
+    "bridge": "tulay",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Hook",
+    "prechorus": "Pre-chorus",
+    "instrumental": "Instrumental",
+    "guitar_solo": "solong gitara",
+    "build_up": "Build-up",
+    "breakdown": "Pagkasira",
+    "spoken_word": "Binibigkas na salita",
+    "whispered": "Bulong",
+    "harmonies": "Harmonies",
+    "male_vocal": "Lalaking vocal",
+    "female_vocal": "Vocal ng babae",
+    "duet": "Duet",
+    "acoustic": "Acoustic",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Malinis na boses",
+    "voice_guitar_balanced": "Balanseng boses at gitara",
+    "podcast": "Podcast",
+    "suno_ready": "Handa na si Suno",
+    "gentle_restore": "Malumanay na pagpapanumbalik",
+    "raw_passthrough": "Walang pagpoproseso"
+  },
+  "errors": {
+    "unknown": "Nagkaproblema.",
+    "network": "Hindi maabot ang server.",
+    "validation_error": "Suriin ang impormasyong iyong ipinasok.",
+    "not_found": "Hindi nahanap ang item.",
+    "project_not_found": "Hindi nahanap ang proyekto.",
+    "take_not_found": "Kunin ay hindi natagpuan.",
+    "album_not_found": "Hindi nahanap ang album.",
+    "preset_not_found": "Hindi nahanap ang preset.",
+    "template_not_found": "Hindi nahanap ang template.",
+    "device_busy": "Ang audio device ay ginagamit ng isa pang program.",
+    "device_not_found": "Hindi nahanap ang audio device.",
+    "already_recording": "Kasalukuyang isinasagawa ang isang pag-record.",
+    "ffmpeg_missing": "Hindi naka-install ang FFmpeg — i-install ito para i-convert ang file na ito.",
+    "disk_full": "Walang sapat na espasyo sa disk.",
+    "permission_denied": "Tinanggihan ang pahintulot para sa ibinigay na landas.",
+    "import_path_not_found": "Hindi nahanap ang path ng pag-import.",
+    "job_failed": "Nabigo ang pagproseso.",
+    "job_cancelled": "Kinansela ang pagproseso.",
+    "process_failed": "Nabigong iproseso ang pagkuha.",
+    "export_failed": "Nabigong i-export ang file.",
+    "record_failed": "Nabigong simulan ang pagre-record."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Nakapila",
+      "running": "Tumatakbo",
+      "done": "Tapos na",
+      "error": "Nabigo",
+      "cancelled": "Kinansela"
+    },
+    "kind": {
+      "process": "Pinoproseso",
+      "export": "I-export",
+      "import": "Mag-import",
+      "record": "Pagre-record"
+    }
+  }
+}

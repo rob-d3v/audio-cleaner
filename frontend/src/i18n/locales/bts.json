@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Pembersih Audio"
+  },
+  "nav": {
+    "library": "Perpustakaan",
+    "record": "Rekam",
+    "import": "Impor",
+    "templates": "Templat",
+    "settings": "Pangaturan",
+    "guide": "Panduan"
+  },
+  "common": {
+    "save": "Simpan",
+    "saving": "Manabung...",
+    "saved": "Isimpan",
+    "cancel": "Batalhon",
+    "close": "Tutup",
+    "delete": "Hapus",
+    "edit": "Sunting",
+    "create": "Mambahen",
+    "search": "Mangindahi",
+    "loading": "Mamuat...",
+    "error": "Hasalahan",
+    "retry": "Coba use",
+    "confirm": "Pastihon",
+    "back": "Mulak",
+    "next": "Selanjutni",
+    "continue": "Toruskon",
+    "finish": "Saloseihon",
+    "copy": "Salin",
+    "copied": "Isalin",
+    "download": "Unduh",
+    "upload": "Unggah",
+    "none": "Lang dong",
+    "all": "Haganup",
+    "yes": "Tongon",
+    "no": "Lang",
+    "select": "Pilih",
+    "optional": "lang pala",
+    "required": "ihaporluhon",
+    "unsaved_changes": "Parubahan na lape isimpan",
+    "name": "Goran",
+    "status": "Status",
+    "type": "Jenis",
+    "actions": "Pambahenan",
+    "empty": "Kosong",
+    "browse": "Jelajahi",
+    "remove": "Padaoh",
+    "add": "Tambahkon",
+    "rename": "Gantihon ma goranni",
+    "duplicate": "Duplikat",
+    "warning": "Sipasingat",
+    "locked": "Tarkunci",
+    "builtin": "Ipajongjong",
+    "custom": "Adat",
+    "untitled": "Lang marjudul",
+    "select_placeholder": "Pilih..."
+  },
+  "library": {
+    "title": "Perpustakaan",
+    "subtitle": "Proyek sora pakon gitar nassiam, humbani ide das hubani rilis.",
+    "new_project": "Proyek na baru",
+    "new_album": "Album na baru",
+    "search_placeholder": "Pindahi marhitei goran...",
+    "view": {
+      "grid": "Kisi-kisi",
+      "albums": "Album"
+    },
+    "filters": {
+      "all": "Haganup"
+    },
+    "take_count_one": " {{count}} buat",
+    "take_count_other": " {{count}} mambuat",
+    "updated_at": "Iperbarui {{date}} ",
+    "no_results": {
+      "title": "Lang dong jumpah proyek",
+      "description": "Coba ma ubah filter pencarian atap status."
+    },
+    "empty": {
+      "title": "Kosong do perpustakaan nassiam",
+      "description": "Pungkah ma sada proyek na baru humbani nol, atap impor ma na dob dong bani disk.",
+      "cta_import": "Impor humbani folder",
+      "cta_new": "Mambahen proyek"
+    },
+    "project_dialog": {
+      "title": "Proyek na baru",
+      "description": "Bere ma goranni janah pilih ma mode rekaman.",
+      "name_label": "Goran proyek",
+      "name_placeholder": "misalni. Udan Musim Panas",
+      "mode_label": "Mode",
+      "mode": {
+        "voice": "Pitah sora",
+        "voice_guitar": "Sora + gitar"
+      },
+      "submit": "Mambahen proyek"
+    },
+    "album_dialog": {
+      "title": "Album na baru",
+      "description": "Patumpuhon proyek-proyek na markaitan hubagas sada album.",
+      "name_label": "Goran ni album",
+      "name_placeholder": "misalni. EP musim gugur",
+      "submit": "Mambahen album"
+    },
+    "album": {
+      "untitled": "Album na lang marjudul",
+      "members_count_one": " {{count}} proyek",
+      "members_count_other": " {{count}} proyek",
+      "empty": "Lang dong ope proyek bani album on.",
+      "delete_confirm_title": "Manghapus album?",
+      "delete_confirm_description": "Proyek lang boi ihapus, pitah ibuka humbani \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Hapus \" {{name}} \"?",
+      "confirm_description": "On padaohkon proyek pakon ganup na ibuat ibagas ai. On lang boi iulakkon."
+    }
+  },
+  "record": {
+    "title": "Rekam",
+    "subtitle": "Tangkap ma gambar na borsih, tonton ma tingkatmu, anjaha ihutkon ma naskah ai.",
+    "project_label": "Proyek",
+    "project_placeholder": "Pilih ma sada proyek",
+    "project_create_quick": "Mambahen sada proyek na podas...",
+    "device_label": "Alat masukan",
+    "device_placeholder": "Pilih sada alat",
+    "device_default_badge": "Sistem bawaan",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Lang dong jumpah alat masukan.",
+    "monitor_button": "Pantau",
+    "monitor_stop_button": "Ulang be mamareksa",
+    "record_button": "Rekam",
+    "stop_button": "Maronti",
+    "elapsed_label": "Panorang na dob salpu",
+    "status": {
+      "idle": "Lang marhorja",
+      "monitoring": "Pantauan",
+      "recording": "Manrekam",
+      "stopped": "Maronti"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Puncak",
+      "clip": "Klip"
+    },
+    "guide": {
+      "title": "Sesi na itogu",
+      "subtitle": "Palopas ma pelatih mambobahon naskah ai langkah demi langkah, humbani pemanasan das hubani kalimat na ihatahon.",
+      "loading": "Mamuat skrip...",
+      "unavailable": "Sesi na itogu lang dong ope bani server.",
+      "select_project_device": "Pilih ma sada proyek pakon alat masukan laho manrekam langkah-langkah hunjon.",
+      "progress": " {{done}} humbani {{total}} langkah",
+      "start_timer": "Mulai panorang",
+      "skip_timer": "Lewati timer",
+      "record_step": "Rekam ma langkah on",
+      "stop_step": "Pasohkon rekaman",
+      "mark_done": "Domma salosei — langkah selanjutni",
+      "step_recorded": "Buat na dob irekam",
+      "no_record_step": "Langkah pemanasan — lang pala porlu rekaman.",
+      "bars_hint": "Hira-hira {{bars}} batang",
+      "complete_title": "Naskah domma salosei!",
+      "complete_body": "Domma i rekam ham ganup langkah ni naskah ai. Mulak ma ham hu tab Audio proyek ai anjaha pilih ma gambar na iharosuhkon ham.",
+      "restart": "Mulai use skrip"
+    },
+    "best2min": {
+      "button": "Dapot ma 2 menit na sidearan (Suno)",
+      "running": "Manganalisa na ibuat...",
+      "score_label": "Skor",
+      "hint": "Ibahen do analisis energi pakon kejelasan bani ganup pengambilan laho mangindahi jendela 2 menit na paling kuat — boi ope nasiam menyesuaihon rentang ai marhitei tangan dob ai.",
+      "chart_caption": "Skor per jendela",
+      "unavailable": "Analisis 2 menit na sidearan lape dong bani server on."
+    },
+    "takes_title": "Ibuat humbani sesi on",
+    "takes_empty": "Lang dong ope pengambilan na i rekam bani sesi on.",
+    "open_in_project": "Buka bani proyek",
+    "ws_disconnected": "Mardomu use hubani meter tingkat...",
+    "select_project_first": "Pilih ma sada proyek laho mamungkah.",
+    "select_device_first": "Pilih ma sada alat masukan."
+  },
+  "project": {
+    "back_to_library": "Mulak hu perpustakaan",
+    "header": {
+      "status_label": "Status",
+      "cover_upload": "Unggahkon sampul",
+      "cover_remove": "Padaoh tutup",
+      "name_placeholder": "Goran proyek",
+      "links_title": "Tautan",
+      "add_link": "Tambahkon link",
+      "mode": {
+        "voice": "Pitah sora",
+        "voice_guitar": "Sora + gitar"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Lirik",
+      "prompts": "Podah",
+      "notes": "Catatan"
+    },
+    "audio": {
+      "takes_title": "Mambuat",
+      "no_takes": {
+        "title": "Lang dong ope na mambuat",
+        "description": "Rekam ma take na baru atap impor ma file na domma dong."
+      },
+      "record_new": "Rekam ma sada pengambilan na baru",
+      "rating": "Rating",
+      "variant": {
+        "raw": "Mentah",
+        "processed": "Iproses"
+      },
+      "variant_placeholder": "Versi",
+      "process_button": "Proses",
+      "export_button": "Ekspor",
+      "delete_take_confirm_title": "Hapus ma on?",
+      "delete_take_confirm_description": "Audio mentah pakon ganup versi na dob iproses ipadaoh.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Iproses"
+      },
+      "origin": {
+        "recorded": "Irekam",
+        "imported": "Iimpor"
+      },
+      "session_label_placeholder": "Label sesi (lang pala)",
+      "duration": "Dokahni",
+      "sample_rate": "Tingkat sampel",
+      "channels": "Saluran",
+      "created_at": "Irekam"
+    },
+    "pipeline": {
+      "title": "Rantai pengolahan",
+      "preset_label": "Ibahen hinan",
+      "preset_none": "Rantai khusus",
+      "preset_save": "Simpan songon na dob itontuhon",
+      "stage_locked": "Tarkunci",
+      "stage_requires_extra": "Porlu tambahan na lape ipasang",
+      "process_button": "Proses na ibuat",
+      "processing": "Mamproses...",
+      "job_queued": "Marbaris...",
+      "job_running": "Mamproses...",
+      "job_done": "Domma salosei",
+      "job_error": "Gagal",
+      "job_cancelled": "Ibatalhon",
+      "cancel_job": "Batalhon",
+      "no_stages": "Lang dong panggung na sirsir."
+    },
+    "export": {
+      "title": "Ekspor",
+      "description": "Bahen ma file na parpudi humbani versi na dob iproses.",
+      "variant_label": "Versi",
+      "format_label": "Format",
+      "preset_label": "Ekspor preset",
+      "range_label": "Kisaran",
+      "range_full": "Ganjang na gok",
+      "range_custom": "Rentang khusus",
+      "start_label": "Mulai (s)",
+      "end_label": "Ujungni (s)",
+      "submit": "Ekspor",
+      "progress": "Berkas rendering...",
+      "download_ready": "Berkas domma sirsir",
+      "download_button": "Unduh file"
+    },
+    "notes": {
+      "placeholder": "Catatan bebas pasal proyek on...",
+      "saved_at": "Isimpan bani {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Suratkon ma lirikni ijon. Pakei ma palet na i samping laho pamasukkon meta-tag Suno.",
+      "saved_at": "Isimpan bani {{time}} ",
+      "saving": "Manabung...",
+      "versions": "Versi",
+      "versions_empty": "Lang dong ope versi na isimpan.",
+      "version_preview": "Pratinjau",
+      "restore": "Paulakkon versi on",
+      "restore_confirm_title": "Paulakhon versi on?",
+      "restore_confirm_description": "Teks na sonari on igantihkon ma ai pakon versi na isimpan bani {{date}} .",
+      "metatags_title": "Meta-tag",
+      "metatags_hint": "Klik ma sada tag laho pamasukkon ai hu kursor.",
+      "metatags_placebo_warning": "Lang terbukti — ra do lang marpangkorhon bani hasilni.",
+      "metatags_empty": "Lang dong meta-tag na tardaftar."
+    },
+    "prompts": {
+      "style_title": "Gaya na isuruh",
+      "lyrics_title": "Lirik podah",
+      "template_label": "Templat",
+      "template_none": "Lang dong template",
+      "variables_title": "Variabel",
+      "preview_title": "Pratinjau",
+      "preview_empty": "Pilih ma sada template anjaha isi ma variabel-variabel ai laho mangidah pratinjau.",
+      "char_count": " {{count}} karakter",
+      "char_count_warning": "Gaya na mangindo lobih humbani 1000 karakter boi iponggolhon Suno.",
+      "copy": "Salin",
+      "copied": "Isalin hu papan klip",
+      "save_to_project": "Simpan hu proyek",
+      "saved_to_project": "Suruh na isimpan hu proyek",
+      "history_title": "Sejarah",
+      "history_empty": "Lang dong versi sebelumni.",
+      "current_label": "Sonari"
+    },
+    "stems": {
+      "title": "Vokal pakon gitar",
+      "separate_button": "Pisahkon vokal pakon gitar",
+      "running": "Marsirang...",
+      "vocals": "Suara",
+      "instrumental": "Instrumental",
+      "process_stem": "Olah batang on",
+      "empty": "On lape ipisahon. Mardalan ma parsirangan laho manangar vokal pakon gitar ibagas isolasi.",
+      "capability_missing": "Pemisahan sumber lang ipasang bani server on.",
+      "unavailable": "Pemisahan vokal/gitar lape dong bani server on."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Bani",
+    "boolean_off": "Matei"
+  },
+  "import": {
+    "title": "Impor",
+    "subtitle": "Boan ma proyek na domma dong bani disk hu perpustakaan.",
+    "step_indicator": "Langkah {{current}} humbani {{total}} ",
+    "step1": {
+      "title": "Mangidah folder",
+      "description": "Tuduhkon ma hu folder root pakon proyek pakon trek nasiam.",
+      "path_label": "Dalan map",
+      "path_placeholder": "misalni. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "Baru-baru on",
+      "scan_button": "Pindai folder",
+      "scanning": "Mamindai...",
+      "ffmpeg_warning": "FFmpeg lang jumpah — file na porlu iubah lang ipindahi.",
+      "folders_found_one": " {{count}} map jumpah",
+      "folders_found_other": " {{count}} folder na jumpah",
+      "unmatched_files_one": " {{count}} file na lang itandai",
+      "unmatched_files_other": " {{count}} file na lang itandai"
+    },
+    "step2": {
+      "title": "Ulas ma barang-barang",
+      "description": "Pareksa ma goran, status, pakon aha na laho iimport paima isahkon.",
+      "select_all": "Pilih haganup",
+      "table": {
+        "folder": "Folder sumber",
+        "name": "Goran proyek",
+        "status": "Status",
+        "audio": "Audio",
+        "lyrics": "Lirik",
+        "cover": "Sampul",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} file na ipilih",
+      "audio_include_other": " {{count}} file na ipilih",
+      "no_audio": "Lang dong jumpah audio",
+      "no_lyrics": "Lang dong jumpah lirik",
+      "no_cover": "Lang dong tutup",
+      "warnings_title": "Sipasingat"
+    },
+    "step3": {
+      "title": "Impor",
+      "description": "Konfirmasi laho mansalin file-file ai pakon mambahen proyek-proyek ai.",
+      "copy_originals": "Salin file asli hu perpustakaan",
+      "execute_button": "Mulai ma impor",
+      "progress_title": "Impor...",
+      "created_count": "Ibahen: {{count}} ",
+      "skipped_count": "Ilewati: {{count}} ",
+      "done_title": "Impor lengkap",
+      "done_description": "Proyek-proyek na i toruh on ibahen i perpustakaan nassiam.",
+      "view_project": "Buka proyek",
+      "start_over": "Impor na baru"
+    }
+  },
+  "templates": {
+    "title": "Templat",
+    "subtitle": "Templat pakon meta-tag na boi ipakei use bani Suno.",
+    "tabs": {
+      "prompts": "Templat na podas",
+      "metatags": "Meta-tag"
+    },
+    "new_template": "Templat na baru",
+    "kind": {
+      "style": "Gaya",
+      "lyrics": "Lirik"
+    },
+    "kind_label": "Bujur",
+    "delete_confirm_title": "Hapus template \" {{name}} \"?",
+    "delete_confirm_description": "On lang boi iulakkon.",
+    "empty": "Lang dong ope template.",
+    "editor": {
+      "title_new": "Templat na baru",
+      "title_edit": "Sunting ma template",
+      "name_label": "Goran",
+      "name_placeholder": "misalni. Balada akustik",
+      "kind_label": "Bujur",
+      "template_label": "Teks template",
+      "template_hint": "Tandai ma ija ganup variabel masuk pakon goranni na ibungkus bani tanda kurung ganda — misalni, sada variabel na margoran \"genre\" gabe genre na ibaluti bani dua tanda kurung pembuka pakon dua tanda kurung penutup.",
+      "variables_label": "Variabel",
+      "variable_add": "Tambahkon variabel",
+      "variable_name": "Kunci",
+      "variable_label": "Label",
+      "variable_type": "Jenis",
+      "variable_type_string": "Teks",
+      "variable_type_select": "Pilihan tunggal",
+      "variable_type_multiselect": "Pilih-ganda",
+      "variable_type_number": "Nomor",
+      "variable_type_boolean": "Tongon/lang",
+      "variable_options": "Pilihan (ipisahon koma)",
+      "variable_required": "Ihaporluhon",
+      "save": "Simpan template"
+    },
+    "metatags": {
+      "title": "Meta-tag",
+      "subtitle": "Tag struktural pakon gaya Suno mananda ibagas lirik.",
+      "new_tag": "Tag na baru",
+      "tag_label": "Tag",
+      "tag_placeholder": "misalni. gitar-solo",
+      "category_label": "Kategori",
+      "tier_label": "Keandalan",
+      "tier_legend_title": "Legenda keandalan",
+      "tier_legend": {
+        "1": "Tingkat 1 — idokumentasihon pakon konsisten",
+        "2": "Tingkat 2 — somalni marhorja",
+        "3": "Tingkat 3 — efek variabel",
+        "4": "Tingkat 4 — plasebo, lape terbukti"
+      },
+      "description_label": "Hatorangan",
+      "delete_confirm_title": "Hapus tag \" {{tag}} \"?",
+      "empty": "Lang dong ope meta-tag khusus."
+    }
+  },
+  "settings": {
+    "title": "Pangaturan",
+    "subtitle": "Informasi sistem, bahasa, pakon pilihan bawaan.",
+    "system_info_title": "Sistem",
+    "version": "Versi",
+    "data_dir": "Map data",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Tarsadia",
+    "ffmpeg_missing": "Lang jumpah",
+    "capabilities_title": "Kemampuan na dob ipasang",
+    "capability": {
+      "denoise": "Pangurangan sora",
+      "quality": "Peningkatan kualitas",
+      "separate": "Pemisahan sumber",
+      "ffmpeg": "Konversi FFmpeg"
+    },
+    "capability_available": "Tarsadia",
+    "capability_unavailable": "Lang sirsir",
+    "gpu_title": "Percepatan GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "Penyedia ONNX Runtime"
+    },
+    "gpu_none": "Lang dong penyedia GPU na tardeteksi",
+    "language_title": "Bahasa",
+    "language": {
+      "pt-BR": "Português (Brasil)",
+      "en": "Hata Inggris"
+    },
+    "theme_title": "Penampilan",
+    "theme": {
+      "dark": "Golap",
+      "light": "Panondang"
+    },
+    "defaults_title": "Ekspor bawaan",
+    "lufs_target_label": "Target LUFS",
+    "lufs_target_hint": "Igunahon sebagai saran awal sanggah mengekspor takes. Default ni Suno hira-hira -14 LUFS.",
+    "saved": "Pilihan na dob isimpan"
+  },
+  "guide": {
+    "title": "Panduan rekaman Suno",
+    "subtitle": "Sonaha manangkap sora pakon gitar na dapot hasil na sidearan.",
+    "intro": "Suno dear do horjani marhiteihon referensi na borsih anjaha lang ambigu. Panduan on manlangkopi persiapan, tingkat target, pakon naskah rekaman 3-5 menit.",
+    "sections": {
+      "prep": {
+        "title": "Persiapan",
+        "body": "Rekam ma i kamar na dob irawat atap na bahat bahan na lembut (tirei, karpet, pakeian i lamari). Pamatei ma kipas angin pakon aha pe na marhusip. Pagara ma soramu 5 menit paima manrekam."
+      },
+      "levels": {
+        "title": "Tingkat: -12 das hubani -6 dBFS",
+        "body": "Martujuan ma bani puncak antara -12 pakon -6 dBFS bani meter. I toruh ni rentang ai, lambin taridah ma sora latarbelakang; i atasni ai, resiko kliping naik. Pakei ma meter bani halaman Rekam laho mangatur untungmu paima mamungkah."
+      },
+      "distance": {
+        "title": "Jarak mikrofon: 15-30 cm",
+        "body": "Tinggal ma 15 ronsi 30 cm humbani mikrofon. Dohor hunjai mambahen plosives pakon efek kedekatan gabe marlobih-lobih; lambin daoh lambin bahat do reverb pakon sora i ruangan."
+      },
+      "script": {
+        "title": "Naskah rekaman",
+        "warmup": "Pemanasan vokal (1-2 menit)",
+        "vowels": "Vokal na totap — a, e, i, o, u",
+        "scales": "Timbangan na sederhana, hu atas pakon hu toruh",
+        "excerpt": "Sada kutipan doding (8 ronsi 16 bar)",
+        "dynamics": "Dinamika: mulai lembut, ujungni gogoh",
+        "spoken_phrase": "Sada kalimat na ihatahon, ase boi ibasa si Suno nada vokalmu"
+      },
+      "expectations": {
+        "title": "Aha na iarapkon si Suno",
+        "body": "WAV, 48 kHz, mono, kering (lang dong reverb atap efek), 3 ronsi 5 menit referensi. menit na paling borsih, paling representatif humbani pengambilan somalni mambere hasil na sidearan."
+      }
+    }
+  },
+  "status": {
+    "idea": "Ide",
+    "em_progresso": "Sedang berlangsung",
+    "quase": "Hampir ijai",
+    "pronto": "Siap"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Naskah vokal lengkap untuk Suno",
+      "desc": "5 menit na itogu: pemanasan, vokal, tangga nada, dua kutipan doding, dinamika, pakon sada kalimat na ihatahon."
+    },
+    "step": {
+      "warmup": "Pemanasan vokal",
+      "warmup_inst": "Longgarhon ma marhitei na manguap, marhusip bibir (brrr), pakon marhusip na lembut hira-hira saminit. Lang pala manrekam — pitah laho pasonangkon tenggorokan do hansa paima mandoding.",
+      "vowels": "Vokal na totap",
+      "vowels_inst": "Tahan ma ganup vokal — a, e, i, o, u — sadokah 3 ronsi 4 detik bani nada na nyaman, pakon volume na totap. On mangurupi Suno mangalop timbre murni ni soramu.",
+      "scales": "Timbangan hu atas pakon hu toruh",
+      "scales_inst": "Mandodingkon sada skala na sederhana hu atas dob ai hu toruh, bani \"la\" atap \"na\". Lang pala sempurna — tujuanni aima laho mametakan jangkauan vokal nasiam.",
+      "section": "Kutipan doding — bagian 1",
+      "section_inst": "Dodingkon ma 8 ronsi 16 bar ni doding ai, pakon maksud na sasintongni na sihol padaskonmu. Prioritaskon ma kejelasan pakon kehadiran marimbang kesempurnaan teknis.",
+      "section2": "Kutipan doding — bagian 2",
+      "section2_inst": "Mandodingkon ma use 8 ronsi 16 bar — idealni paduan suara atap bagian na berbeda pakon na sebelumni. Lambin bahat ragam na mangurupi model ai marlajar sora nasiam.",
+      "dynamics": "Dinamika: lembut → gogoh",
+      "dynamics_inst": "Dodingkon ma kalimat na sarupa mamungkah humbani na lembut janah marujung gogoh, tanpa mambahen tenggorokan. On pataridahkon Suno jangkauan dinamis ni sora nasiam.",
+      "spoken": "Kalimat na ihatahon",
+      "spoken_inst": "Marsahap — ulang mandoding — sada kalimat na pondok, na alami, songon na marbuali. On mangurupi Suno mananda timbre na sasintongni humbani sora nasiam."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Pemulihan",
+      "filter": "Saring-saring",
+      "dynamics": "Dinamika",
+      "separation": "Parsirangan",
+      "quality": "Kualitas",
+      "utility": "Utilitas",
+      "loudness": "Gogoh"
+    },
+    "highpass": "Filter high-pass",
+    "lowpass": "Filter low-pass",
+    "denoise": "Pangurangan sora",
+    "declip": "Manurunkon",
+    "declick": "Klik/pop padaohkon",
+    "deesser": "De-esser",
+    "gate": "Gerbang sora",
+    "compressor": "Kompresor",
+    "limiter": "Pembatas",
+    "eq": "Parsamaan",
+    "normalize": "Normalisasi puncak",
+    "loudness": "Normalisasi sora na gogoh (LUFS)",
+    "reverb_reduce": "Pangurangan gema",
+    "separate": "Pemisahan sumber",
+    "quality": "Peningkatan kualitas (mewah)",
+    "trim_silence": "Pamotong na sip",
+    "fade": "Luntur masuk / luntur luar",
+    "stereo_to_mono": "Ubah gabe mono",
+    "resample": "Mansampel use"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Boi ihaporsayai",
+      "2": "Somalni marhorja",
+      "3": "Variabel",
+      "4": "Plasebo"
+    },
+    "category": {
+      "structure": "Struktur",
+      "vocal": "Vokal",
+      "instrument": "Instrumen",
+      "dynamics": "Dinamika",
+      "production": "Produksi",
+      "mood": "Suasana"
+    },
+    "verse": "Ayat",
+    "chorus": "Koor",
+    "bridge": "Jembatan",
+    "intro": "Parlobei",
+    "outro": "Outro",
+    "hook": "Kait",
+    "prechorus": "Pra-koor",
+    "instrumental": "Instrumental",
+    "guitar_solo": "Gitar solo",
+    "build_up": "Pajongjongkon",
+    "breakdown": "Kerusakan",
+    "spoken_word": "Hata na ihatahon",
+    "whispered": "Marhusip",
+    "harmonies": "Harmoni",
+    "male_vocal": "Vokal dalahi",
+    "female_vocal": "Vokal naboru",
+    "duet": "Duet",
+    "acoustic": "Akustik",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Sora na borsih",
+    "voice_guitar_balanced": "Sorani pakon gitar na seimbang",
+    "podcast": "Podcast",
+    "suno_ready": "Suno sirsir",
+    "gentle_restore": "Paulihon na lembut",
+    "raw_passthrough": "Lang dong pemrosesan"
+  },
+  "errors": {
+    "unknown": "Dong na lepak.",
+    "network": "Lang boi das hu server.",
+    "validation_error": "Pareksa ma hatorangan na dob ipamasuk nasiam.",
+    "not_found": "Barang lang jumpah.",
+    "project_not_found": "Proyek lang jumpah.",
+    "take_not_found": "Lang jumpah.",
+    "album_not_found": "Album lang jumpah.",
+    "preset_not_found": "Preset lang jumpah.",
+    "template_not_found": "Templat lang jumpah.",
+    "device_busy": "Alat audio ipakei program na legan.",
+    "device_not_found": "Alat audio lang jumpah.",
+    "already_recording": "Sada rekaman domma mardalan.",
+    "ffmpeg_missing": "FFmpeg lape ipasang — pasang ma ai laho mangubah file on.",
+    "disk_full": "Lang sungkup ruang disk.",
+    "permission_denied": "Ijin lang ibere bani dalan na dob ibere.",
+    "import_path_not_found": "Lang jumpah dalan impor.",
+    "job_failed": "Gagal do prosesni.",
+    "job_cancelled": "Pemrosesan domma ibatasi.",
+    "process_failed": "Gagal mamproses pengambilan ai.",
+    "export_failed": "Gagal do i ekspor file ai.",
+    "record_failed": "Gagal mamungkah rekaman."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Marbaris",
+      "running": "Marlintun",
+      "done": "Domma salosei",
+      "error": "Gagal",
+      "cancelled": "Ibatalhon"
+    },
+    "kind": {
+      "process": "Mamproses",
+      "export": "Ekspor",
+      "import": "Impor",
+      "record": "Manrekam"
+    }
+  }
+}

@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Netejador d'àudio"
+  },
+  "nav": {
+    "library": "Biblioteca",
+    "record": "Registre",
+    "import": "Importar",
+    "templates": "Plantilles",
+    "settings": "Configuració",
+    "guide": "Guia"
+  },
+  "common": {
+    "save": "Desa",
+    "saving": "S'està desant…",
+    "saved": "Desat",
+    "cancel": "Cancel·la",
+    "close": "Tancar",
+    "delete": "Suprimeix",
+    "edit": "Edita",
+    "create": "Crear",
+    "search": "Cerca",
+    "loading": "S'està carregant…",
+    "error": "Error",
+    "retry": "Torna-ho a provar",
+    "confirm": "Confirmeu",
+    "back": "Enrere",
+    "next": "A continuació",
+    "continue": "Continua",
+    "finish": "Acabar",
+    "copy": "Còpia",
+    "copied": "Copiat",
+    "download": "Descarregar",
+    "upload": "Carrega",
+    "none": "Cap",
+    "all": "Tots",
+    "yes": "Sí",
+    "no": "No",
+    "select": "Seleccioneu",
+    "optional": "opcional",
+    "required": "requerit",
+    "unsaved_changes": "Canvis no desats",
+    "name": "Nom",
+    "status": "Estat",
+    "type": "Tipus",
+    "actions": "Accions",
+    "empty": "Buit",
+    "browse": "Navega",
+    "remove": "Eliminar",
+    "add": "Afegeix",
+    "rename": "Canvia el nom",
+    "duplicate": "Duplicat",
+    "warning": "Avís",
+    "locked": "Tancat",
+    "builtin": "Integrat",
+    "custom": "Personalitzat",
+    "untitled": "Sense títol",
+    "select_placeholder": "Seleccioneu…"
+  },
+  "library": {
+    "title": "Biblioteca",
+    "subtitle": "Els teus projectes de veu i guitarra, des de la idea fins al llançament.",
+    "new_project": "Nou projecte",
+    "new_album": "Nou àlbum",
+    "search_placeholder": "Cerca per nom...",
+    "view": {
+      "grid": "Quadrícula",
+      "albums": "Àlbums"
+    },
+    "filters": {
+      "all": "Tots"
+    },
+    "take_count_one": " {{count}} pren",
+    "take_count_other": " {{count}} pren",
+    "updated_at": "Actualitzat {{date}} ",
+    "no_results": {
+      "title": "No s'han trobat projectes",
+      "description": "Proveu d'ajustar el filtre de cerca o d'estat."
+    },
+    "empty": {
+      "title": "La teva biblioteca està buida",
+      "description": "Inicieu un projecte nou des de zero o importeu les preses que ja teniu al disc.",
+      "cta_import": "Importa des de la carpeta",
+      "cta_new": "Crear projecte"
+    },
+    "project_dialog": {
+      "title": "Nou projecte",
+      "description": "Doneu-li un nom i trieu un mode d'enregistrament.",
+      "name_label": "Nom del projecte",
+      "name_placeholder": "p. ex. Pluja d'estiu",
+      "mode_label": "Mode",
+      "mode": {
+        "voice": "Només veu",
+        "voice_guitar": "Veu + guitarra"
+      },
+      "submit": "Crear projecte"
+    },
+    "album_dialog": {
+      "title": "Nou àlbum",
+      "description": "Agrupa projectes relacionats en un àlbum.",
+      "name_label": "Nom de l'àlbum",
+      "name_placeholder": "p. ex. EP de tardor",
+      "submit": "Crea un àlbum"
+    },
+    "album": {
+      "untitled": "Àlbum sense títol",
+      "members_count_one": " {{count}} projecte",
+      "members_count_other": " {{count}} projectes",
+      "empty": "Encara no hi ha cap projecte en aquest àlbum.",
+      "delete_confirm_title": "Vols suprimir l'àlbum?",
+      "delete_confirm_description": "Els projectes no se suprimiran, només se desenllaçaran de \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Vols suprimir \" {{name}} \"?",
+      "confirm_description": "Això elimina el projecte i totes les seves interpretacions. Això no es pot desfer."
+    }
+  },
+  "record": {
+    "title": "Registre",
+    "subtitle": "Captura una presa neta, mira els teus nivells i segueix el guió.",
+    "project_label": "Projecte",
+    "project_placeholder": "Trieu un projecte",
+    "project_create_quick": "Crea un projecte ràpid...",
+    "device_label": "Dispositiu d'entrada",
+    "device_placeholder": "Trieu un dispositiu",
+    "device_default_badge": "Sistema predeterminat",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "No s'han trobat dispositius d'entrada.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Aturar el seguiment",
+    "record_button": "Registre",
+    "stop_button": "Atureu-vos",
+    "elapsed_label": "Temps transcorregut",
+    "status": {
+      "idle": "Inactiu",
+      "monitoring": "Seguiment",
+      "recording": "Gravació",
+      "stopped": "Parat"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Cim",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Sessió guiada",
+      "subtitle": "Deixa que l'entrenador t'acompanyi pas a pas pel guió, des de l'escalfament fins a la frase parlada.",
+      "loading": "S'està carregant l'script...",
+      "unavailable": "La sessió guiada encara no està disponible al servidor.",
+      "select_project_device": "Trieu un projecte i un dispositiu d'entrada per gravar els passos des d'aquí.",
+      "progress": " {{done}} de {{total}} passos",
+      "start_timer": "Inicieu el temporitzador",
+      "skip_timer": "Omet el temporitzador",
+      "record_step": "Enregistreu aquest pas",
+      "stop_step": "Atura la gravació",
+      "mark_done": "Fet: el següent pas",
+      "step_recorded": "Pren gravada",
+      "no_record_step": "Pas d'escalfament: no cal gravar.",
+      "bars_hint": "Al voltant de {{bars}} barres",
+      "complete_title": "Guió complet!",
+      "complete_body": "Heu gravat cada pas del guió. Torna a la pestanya Àudio del projecte i tria les teves preses preferides.",
+      "restart": "Reinicieu l'script"
+    },
+    "best2min": {
+      "button": "Troba els millors 2 minuts (Suno)",
+      "running": "S'està analitzant la presa...",
+      "score_label": "Puntuació",
+      "hint": "Realitza una anàlisi d'energia i claredat durant tota la presa per trobar la seva finestra de 2 minuts més forta; després, encara podeu ajustar el rang a mà.",
+      "chart_caption": "Puntuació per finestra",
+      "unavailable": "La millor anàlisi de 2 minuts encara no està disponible en aquest servidor."
+    },
+    "takes_title": "Tres d'aquesta sessió",
+    "takes_empty": "Encara no s'ha registrat cap presa en aquesta sessió.",
+    "open_in_project": "Obert en projecte",
+    "ws_disconnected": "S'està tornant a connectar al mesurador de nivell...",
+    "select_project_first": "Trieu un projecte per començar.",
+    "select_device_first": "Trieu un dispositiu d'entrada."
+  },
+  "project": {
+    "back_to_library": "Torna a la biblioteca",
+    "header": {
+      "status_label": "Estat",
+      "cover_upload": "Carrega la portada",
+      "cover_remove": "Traieu la coberta",
+      "name_placeholder": "Nom del projecte",
+      "links_title": "Enllaços",
+      "add_link": "Afegeix un enllaç",
+      "mode": {
+        "voice": "Només veu",
+        "voice_guitar": "Veu + guitarra"
+      }
+    },
+    "tabs": {
+      "audio": "Àudio",
+      "lyrics": "Lletres",
+      "prompts": "Indicacions",
+      "notes": "Notes"
+    },
+    "audio": {
+      "takes_title": "Prens",
+      "no_takes": {
+        "title": "Encara no hi ha cap presa",
+        "description": "Grava una nova presa o importa un fitxer existent."
+      },
+      "record_new": "Grava una nova presa",
+      "rating": "Valoració",
+      "variant": {
+        "raw": "Crua",
+        "processed": "Processat"
+      },
+      "variant_placeholder": "Versió",
+      "process_button": "Procés",
+      "export_button": "Exporta",
+      "delete_take_confirm_title": "Vols suprimir aquesta presa?",
+      "delete_take_confirm_description": "L'àudio en brut i totes les versions processades s'eliminaran.",
+      "ab": {
+        "raw": "A · Cru",
+        "processed": "B · Tramitat"
+      },
+      "origin": {
+        "recorded": "Gravat",
+        "imported": "Importat"
+      },
+      "session_label_placeholder": "Etiqueta de sessió (opcional)",
+      "duration": "Durada",
+      "sample_rate": "Freqüència de mostreig",
+      "channels": "Canals",
+      "created_at": "Gravat"
+    },
+    "pipeline": {
+      "title": "Cadena de processament",
+      "preset_label": "Preestablert",
+      "preset_none": "Cadena personalitzada",
+      "preset_save": "Desa com a predefinit",
+      "stage_locked": "Tancat",
+      "stage_requires_extra": "Requereix un extra que no està instal·lat",
+      "process_button": "Presa del procés",
+      "processing": "S'està processant...",
+      "job_queued": "A la cua...",
+      "job_running": "S'està processant...",
+      "job_done": "Fet",
+      "job_error": "Ha fallat",
+      "job_cancelled": "Cancel·lat",
+      "cancel_job": "Cancel·la",
+      "no_stages": "No hi ha etapes disponibles."
+    },
+    "export": {
+      "title": "Exportar presa",
+      "description": "Renderitzar un fitxer final a partir d'una versió processada.",
+      "variant_label": "Versió",
+      "format_label": "Format",
+      "preset_label": "Exporta el valor predefinit",
+      "range_label": "Interval",
+      "range_full": "Longitud total",
+      "range_custom": "Gamma personalitzada",
+      "start_label": "Inici (s)",
+      "end_label": "Final (s)",
+      "submit": "Exporta",
+      "progress": "S'està renderitzant el fitxer...",
+      "download_ready": "Fitxer a punt",
+      "download_button": "Descarregar fitxer"
+    },
+    "notes": {
+      "placeholder": "Notes de forma lliure sobre aquest projecte...",
+      "saved_at": "Desat a les {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Escriu la lletra aquí. Utilitzeu la paleta del costat per inserir metaetiquetes Suno.",
+      "saved_at": "Desat a les {{time}} ",
+      "saving": "S'està desant…",
+      "versions": "Versions",
+      "versions_empty": "Encara no hi ha cap versió desada.",
+      "version_preview": "Vista prèvia",
+      "restore": "Restaura aquesta versió",
+      "restore_confirm_title": "Voleu restaurar aquesta versió?",
+      "restore_confirm_description": "El text actual es substituirà per la versió desada el {{date}} .",
+      "metatags_title": "Metaetiquetes",
+      "metatags_hint": "Feu clic a una etiqueta per inserir-la al cursor.",
+      "metatags_placebo_warning": "No provat: pot no tenir cap efecte en el resultat.",
+      "metatags_empty": "No hi ha metaetiquetes registrades."
+    },
+    "prompts": {
+      "style_title": "Indicador d'estil",
+      "lyrics_title": "Lletra de sol·licitud",
+      "template_label": "Plantilla",
+      "template_none": "Sense plantilla",
+      "variables_title": "Variables",
+      "preview_title": "Vista prèvia",
+      "preview_empty": "Trieu una plantilla i ompliu les variables per veure'n una vista prèvia.",
+      "char_count": " {{count}} caràcters",
+      "char_count_warning": "Suno pot truncar les sol·licituds d'estil de més de 1.000 caràcters.",
+      "copy": "Còpia",
+      "copied": "S'ha copiat al porta-retalls",
+      "save_to_project": "Desa al projecte",
+      "saved_to_project": "S'ha desat la petició al projecte",
+      "history_title": "Història",
+      "history_empty": "No hi ha versions anteriors.",
+      "current_label": "Actual"
+    },
+    "stems": {
+      "title": "Veu i guitarra",
+      "separate_button": "Separar veu i guitarra",
+      "running": "Separant…",
+      "vocals": "Vocals",
+      "instrumental": "Instrumental",
+      "process_stem": "Processa aquesta tija",
+      "empty": "Aquesta presa encara no s'ha separat. Executeu la separació per escoltar la veu i la guitarra de manera aïllada.",
+      "capability_missing": "La separació de fonts no està instal·lada en aquest servidor.",
+      "unavailable": "La separació veu/guitarra encara no està disponible en aquest servidor."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Encès",
+    "boolean_off": "Apagat"
+  },
+  "import": {
+    "title": "Importar",
+    "subtitle": "Porta els projectes que ja existeixen al disc a la biblioteca.",
+    "step_indicator": "Pas {{current}} de {{total}} ",
+    "step1": {
+      "title": "Localitza la carpeta",
+      "description": "Apunteu a la carpeta arrel amb els vostres projectes i pistes.",
+      "path_label": "Ruta de la carpeta",
+      "path_placeholder": "p. ex. E:\\Robbs\\Pride\\Música\\ROBBS",
+      "recent_label": "Recent",
+      "scan_button": "Escaneja la carpeta",
+      "scanning": "S'està escanejant…",
+      "ffmpeg_warning": "No s'ha trobat FFmpeg: els fitxers que necessiten conversió es saltaran.",
+      "folders_found_one": " S'ha trobat la carpeta {{count}}",
+      "folders_found_other": " {{count}} carpetes trobades",
+      "unmatched_files_one": " {{count}} fitxer no reconegut",
+      "unmatched_files_other": " {{count}} fitxers no reconeguts"
+    },
+    "step2": {
+      "title": "Revisa els elements",
+      "description": "Comproveu els noms, els estats i el que s'importarà abans de confirmar.",
+      "select_all": "Seleccioneu-ho tot",
+      "table": {
+        "folder": "Carpeta font",
+        "name": "Nom del projecte",
+        "status": "Estat",
+        "audio": "Àudio",
+        "lyrics": "Lletres",
+        "cover": "Portada",
+        "album": "Àlbum"
+      },
+      "audio_include_one": " {{count}} fitxer seleccionat",
+      "audio_include_other": " {{count}} fitxers seleccionats",
+      "no_audio": "No s'ha trobat cap àudio",
+      "no_lyrics": "No s'ha trobat cap lletra",
+      "no_cover": "Sense coberta",
+      "warnings_title": "Avisos"
+    },
+    "step3": {
+      "title": "Importar",
+      "description": "Confirmeu per copiar els fitxers i crear els projectes.",
+      "copy_originals": "Copieu els fitxers originals a la biblioteca",
+      "execute_button": "Inicia la importació",
+      "progress_title": "S'està important…",
+      "created_count": "Creat: {{count}} ",
+      "skipped_count": "Omès: {{count}} ",
+      "done_title": "Importació completada",
+      "done_description": "Els projectes següents s'han creat a la vostra biblioteca.",
+      "view_project": "Projecte obert",
+      "start_over": "Nova importació"
+    }
+  },
+  "templates": {
+    "title": "Plantilles",
+    "subtitle": "Plantilles d'indicadors i metaetiquetes reutilitzables per a Suno.",
+    "tabs": {
+      "prompts": "Plantilles promptes",
+      "metatags": "Metaetiquetes"
+    },
+    "new_template": "Nova plantilla",
+    "kind": {
+      "style": "Estil",
+      "lyrics": "Lletres"
+    },
+    "kind_label": "amable",
+    "delete_confirm_title": "Vols suprimir la plantilla \" {{name}} \"?",
+    "delete_confirm_description": "Això no es pot desfer.",
+    "empty": "Encara no hi ha plantilles.",
+    "editor": {
+      "title_new": "Nova plantilla",
+      "title_edit": "Edita la plantilla",
+      "name_label": "Nom",
+      "name_placeholder": "p. ex. Balada acústica",
+      "kind_label": "amable",
+      "template_label": "Text de plantilla",
+      "template_hint": "Marqueu on pertany cada variable amb el seu nom embolicat amb claus dobles; per exemple, una variable anomenada \"gènere\" es converteix en gènere embolicat en dues claus d'obertura i dues claus de tancament.",
+      "variables_label": "Variables",
+      "variable_add": "Afegeix variable",
+      "variable_name": "clau",
+      "variable_label": "Etiqueta",
+      "variable_type": "Tipus",
+      "variable_type_string": "Text",
+      "variable_type_select": "Selecció única",
+      "variable_type_multiselect": "Selecció múltiple",
+      "variable_type_number": "Número",
+      "variable_type_boolean": "Sí/no",
+      "variable_options": "Opcions (separades per comes)",
+      "variable_required": "Obligatori",
+      "save": "Desa la plantilla"
+    },
+    "metatags": {
+      "title": "Metaetiquetes",
+      "subtitle": "Etiquetes estructurals i d'estil que Suno reconeix dins de les lletres.",
+      "new_tag": "Nova etiqueta",
+      "tag_label": "Etiqueta",
+      "tag_placeholder": "p. ex. guitarra-solo",
+      "category_label": "Categoria",
+      "tier_label": "Fiabilitat",
+      "tier_legend_title": "Llegenda de la fiabilitat",
+      "tier_legend": {
+        "1": "Nivell 1: documentat i coherent",
+        "2": "Nivell 2: normalment funciona",
+        "3": "Nivell 3: efecte variable",
+        "4": "Nivell 4: placebo, no provat"
+      },
+      "description_label": "Descripció",
+      "delete_confirm_title": "Vols suprimir l'etiqueta \" {{tag}} \"?",
+      "empty": "Encara no hi ha metaetiquetes personalitzades."
+    }
+  },
+  "settings": {
+    "title": "Configuració",
+    "subtitle": "Informació del sistema, idioma i preferències predeterminades.",
+    "system_info_title": "Sistema",
+    "version": "Versió",
+    "data_dir": "Carpeta de dades",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Disponible",
+    "ffmpeg_missing": "No s'ha trobat",
+    "capabilities_title": "Capacitats instal·lades",
+    "capability": {
+      "denoise": "Reducció de soroll",
+      "quality": "Millora de la qualitat",
+      "separate": "Separació de fonts",
+      "ffmpeg": "Conversió FFmpeg"
+    },
+    "capability_available": "Disponible",
+    "capability_unavailable": "No disponible",
+    "gpu_title": "Acceleració de la GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "Proveïdors de temps d'execució ONNX"
+    },
+    "gpu_none": "No s'ha detectat cap proveïdor de GPU",
+    "language_title": "Llengua",
+    "language": {
+      "pt-BR": "Portuguès (Brasil)",
+      "en": "Anglès"
+    },
+    "theme_title": "Aparença",
+    "theme": {
+      "dark": "Fosc",
+      "light": "Llum"
+    },
+    "defaults_title": "Exporta els valors predeterminats",
+    "lufs_target_label": "Objectiu LUFS",
+    "lufs_target_hint": "S'utilitza com a suggeriment inicial quan s'exporten les preses. El valor predeterminat de Suno es troba al voltant de -14 LUFS.",
+    "saved": "S'han desat les preferències"
+  },
+  "guide": {
+    "title": "Guia d'enregistrament Suno",
+    "subtitle": "Com capturar preses de veu i guitarra que obtenen els millors resultats.",
+    "intro": "Suno funciona millor amb referències netes i sense ambigüitats. Aquesta guia cobreix la preparació, els nivells objectiu i un guió de gravació de 3 a 5 minuts.",
+    "sections": {
+      "prep": {
+        "title": "Preparació",
+        "body": "Grava en una habitació tractada o amb molt material suau (cortines, catifes, roba en un armari). Apagueu els ventiladors i qualsevol cosa que tarumin. Escalfeu la veu durant 5 minuts abans de gravar."
+      },
+      "levels": {
+        "title": "Nivells: -12 a -6 dBFS",
+        "body": "Apunteu als pics entre -12 i -6 dBFS al mesurador. Per sota d'aquest rang, el soroll de fons es fa més notable; per sobre, augmenta el risc de retall. Utilitzeu el mesurador de la pàgina Enregistrament per establir el vostre guany abans de començar."
+      },
+      "distance": {
+        "title": "Distància del micròfon: 15-30 cm",
+        "body": "Mantingueu-vos entre 15 i 30 cm del micròfon. Més a prop que això exagera les oclusives i l'efecte de proximitat; més lluny capta més reverb i soroll de l'habitació."
+      },
+      "script": {
+        "title": "Guió de gravació",
+        "warmup": "Escalfament vocal (1-2 minuts)",
+        "vowels": "Vocals sostingudes: a, e, i, o, u",
+        "scales": "Escales simples, amunt i avall",
+        "excerpt": "Un fragment de la cançó (de 8 a 16 compassos)",
+        "dynamics": "Dinàmica: començar suau, acabar fort",
+        "spoken_phrase": "Una frase parlada, perquè Suno pugui llegir el vostre to vocal"
+      },
+      "expectations": {
+        "title": "El que Suno espera",
+        "body": "WAV, 48 kHz, mono, sec (sense reverb ni efectes), de 3 a 5 minuts de referència. Els 2 minuts més nets i representatius de la presa solen produir els millors resultats."
+      }
+    }
+  },
+  "status": {
+    "idea": "Idea",
+    "em_progresso": "En curs",
+    "quase": "Gairebé allà",
+    "pronto": "A punt"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Guió vocal complet per a Suno",
+      "desc": "5 minuts guiats: escalfament, vocals, escales, dos fragments de cançons, dinàmiques i una frase parlada."
+    },
+    "step": {
+      "warmup": "Escalfament vocal",
+      "warmup_inst": "Afluixa amb badalls, trins de llavis (brrr) i un zumbit suau durant aproximadament un minut. No cal gravar, només és relaxar la gola abans de cantar.",
+      "vowels": "Vocals sostingudes",
+      "vowels_inst": "Manteniu cada vocal (a, e, i, o, u) durant 3 o 4 segons al vostre to còmode, amb un volum constant. Això ajuda a Suno a recollir el timbre pur de la teva veu.",
+      "scales": "Escales amunt i avall",
+      "scales_inst": "Canta una escala simple amunt i després avall, en \"la\" o \"na\". No cal que sigui perfecte: l'objectiu és mapejar el vostre rang vocal.",
+      "section": "Fragment de la cançó - part 1",
+      "section_inst": "Canta de 8 a 16 compassos de la cançó, amb la intenció real que vols transmetre. Prioritza la claredat i la presència per sobre de la perfecció tècnica.",
+      "section2": "Fragment de la cançó - part 2",
+      "section2_inst": "Canta entre 8 i 16 compassos més, idealment un cor o una secció que contrasti amb l'anterior. Més varietat ajuda el model a aprendre la teva veu.",
+      "dynamics": "Dinàmica: suau → fort",
+      "dynamics_inst": "Canta la mateixa frase començant molt suau i acabant fort, sense esforçar-te la gola. Això mostra a Suno el rang dinàmic de la teva veu.",
+      "spoken": "Frase parlada",
+      "spoken_inst": "Parla —no cantis— una frase curta i natural, com si estiguessis xerrant. Això ajuda a Suno a reconèixer el timbre real de la teva veu."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restauració",
+      "filter": "Filtres",
+      "dynamics": "Dinàmica",
+      "separation": "Separació",
+      "quality": "Qualitat",
+      "utility": "Utilitat",
+      "loudness": "sonoritat"
+    },
+    "highpass": "Filtre de pas alt",
+    "lowpass": "Filtre de pas baix",
+    "denoise": "Reducció de soroll",
+    "declip": "Reducció",
+    "declick": "Eliminació de clic/pop",
+    "deesser": "De-esser",
+    "gate": "Porta del soroll",
+    "compressor": "Compressor",
+    "limiter": "Limitador",
+    "eq": "Igualació",
+    "normalize": "Normalització màxima",
+    "loudness": "Normalització de la sonoritat (LUFS)",
+    "reverb_reduce": "Reducció de reverberació",
+    "separate": "Separació de fonts",
+    "quality": "Millora de la qualitat (excel·lent)",
+    "trim_silence": "Retall de silenci",
+    "fade": "S'esvaeix / esvaeix",
+    "stereo_to_mono": "Converteix a mono",
+    "resample": "Remostreig"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Fiable",
+      "2": "Normalment funciona",
+      "3": "Variable",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Estructura",
+      "vocal": "Vocal",
+      "instrument": "Instrument",
+      "dynamics": "Dinàmica",
+      "production": "Producció",
+      "mood": "Estat d'ànim"
+    },
+    "verse": "vers",
+    "chorus": "Cor",
+    "bridge": "Pont",
+    "intro": "Introducció",
+    "outro": "Outro",
+    "hook": "Ganxo",
+    "prechorus": "Precor",
+    "instrumental": "Instrumental",
+    "guitar_solo": "Solo de guitarra",
+    "build_up": "Acumulació",
+    "breakdown": "Avaria",
+    "spoken_word": "Paraula parlada",
+    "whispered": "va xiuxiuejar",
+    "harmonies": "Harmonies",
+    "male_vocal": "Vocal masculina",
+    "female_vocal": "Vocal femenina",
+    "duet": "Duet",
+    "acoustic": "Acústica",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Veu neta",
+    "voice_guitar_balanced": "Guitarra i veu equilibrats",
+    "podcast": "Podcast",
+    "suno_ready": "Suno llest",
+    "gentle_restore": "Restauració suau",
+    "raw_passthrough": "Sense processament"
+  },
+  "errors": {
+    "unknown": "Alguna cosa va fallar.",
+    "network": "No s'ha pogut arribar al servidor.",
+    "validation_error": "Comproveu la informació que heu introduït.",
+    "not_found": "Element no trobat.",
+    "project_not_found": "Projecte no trobat.",
+    "take_not_found": "Pren no trobat.",
+    "album_not_found": "No s'ha trobat l'àlbum.",
+    "preset_not_found": "No s'ha trobat el valor predefinit.",
+    "template_not_found": "No s'ha trobat la plantilla.",
+    "device_busy": "Un altre programa està utilitzant el dispositiu d'àudio.",
+    "device_not_found": "No s'ha trobat el dispositiu d'àudio.",
+    "already_recording": "Una gravació ja està en curs.",
+    "ffmpeg_missing": "FFmpeg no està instal·lat: instal·leu-lo per convertir aquest fitxer.",
+    "disk_full": "No hi ha prou espai al disc.",
+    "permission_denied": "S'ha denegat el permís per al camí donat.",
+    "import_path_not_found": "No s'ha trobat el camí d'importació.",
+    "job_failed": "Ha fallat el processament.",
+    "job_cancelled": "S'ha cancel·lat el processament.",
+    "process_failed": "No s'ha pogut processar la presa.",
+    "export_failed": "No s'ha pogut exportar el fitxer.",
+    "record_failed": "No s'ha pogut iniciar la gravació."
+  },
+  "jobs": {
+    "status": {
+      "queued": "En cua",
+      "running": "Córrer",
+      "done": "Fet",
+      "error": "Ha fallat",
+      "cancelled": "Cancel·lat"
+    },
+    "kind": {
+      "process": "Tramitació",
+      "export": "Exporta",
+      "import": "Importar",
+      "record": "Gravació"
+    }
+  }
+}

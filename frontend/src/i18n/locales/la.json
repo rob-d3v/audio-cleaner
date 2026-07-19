@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio Cleaner"
+  },
+  "nav": {
+    "library": "Library",
+    "record": "Record",
+    "import": "Import",
+    "templates": "Templates",
+    "settings": "Occasus",
+    "guide": "Dux"
+  },
+  "common": {
+    "save": "Servare",
+    "saving": "Salvis…",
+    "saved": "salvus",
+    "cancel": "Cancel",
+    "close": "Close",
+    "delete": "Delere",
+    "edit": "Edit",
+    "create": "Create",
+    "search": "Investigatio",
+    "loading": "Loading…",
+    "error": "Error",
+    "retry": "Retry",
+    "confirm": "Confirm",
+    "back": "Retro",
+    "next": "Proximum",
+    "continue": "continue",
+    "finish": "perago",
+    "copy": "Copy",
+    "copied": "Copied",
+    "download": "Download",
+    "upload": "Upload",
+    "none": "Nullus",
+    "all": "All",
+    "yes": "Ita",
+    "no": "No",
+    "select": "Lego",
+    "optional": "ad libitum",
+    "required": "requiritur",
+    "unsaved_changes": "unsaved mutationes",
+    "name": "Nomen",
+    "status": "Status",
+    "type": "Type",
+    "actions": "Actiones",
+    "empty": "inanis",
+    "browse": "Browse",
+    "remove": "Aufer",
+    "add": "Add",
+    "rename": "Rename",
+    "duplicate": "Duplicare",
+    "warning": "Monitum",
+    "locked": "clausa",
+    "builtin": "inaedificata",
+    "custom": "Consuetudinem",
+    "untitled": "Untitled",
+    "select_placeholder": "Lego…"
+  },
+  "library": {
+    "title": "Library",
+    "subtitle": "Vocem tuam et incepta cithara, ab opinione dimittere.",
+    "new_project": "Novum consilium",
+    "new_album": "Novum album",
+    "search_placeholder": "Quaere nomen…",
+    "view": {
+      "grid": "Eget",
+      "albums": "Albums"
+    },
+    "filters": {
+      "all": "All"
+    },
+    "take_count_one": "{{count}} take",
+    "take_count_other": "{{count}} takes",
+    "updated_at": "Updated {{date}}",
+    "no_results": {
+      "title": "Nulla incepta invenerunt",
+      "description": "Conare quaestionis vel status colum aptans."
+    },
+    "empty": {
+      "title": "Bibliotheca tua vacua est",
+      "description": "Satus novum consilium a scabere, vel importa sumit iam habes in orbe.",
+      "cta_import": "Import ex folder",
+      "cta_new": "Create project"
+    },
+    "project_dialog": {
+      "title": "Novum consilium",
+      "description": "Da ei nomen, et modum describendi elige.",
+      "name_label": "Nomen Project",
+      "name_placeholder": "e.g. Aestas Pluvia",
+      "mode_label": "Modus",
+      "mode": {
+        "voice": "Vox solum",
+        "voice_guitar": "Vox + guitar"
+      },
+      "submit": "Create project"
+    },
+    "album_dialog": {
+      "title": "Novum album",
+      "description": "Coetus affinis incepta in album.",
+      "name_label": "Album name",
+      "name_placeholder": "e.g. autumnus EP",
+      "submit": "Create album"
+    },
+    "album": {
+      "untitled": "Album",
+      "members_count_one": "{{count}} project",
+      "members_count_other": "{{count}} projects",
+      "empty": "No in hoc albo adhuc.",
+      "delete_confirm_title": "Delete album?",
+      "delete_confirm_description": "Incepta non delebuntur, solum ex \"{{name}}\" coniuncto."
+    },
+    "delete_project": {
+      "confirm_title": "Delere \"{{name}}\"?",
+      "confirm_description": "Id tollit voluptua singulis eam. Hoc fieri infectum non potest."
+    }
+  },
+  "record": {
+    "title": "Record",
+    "subtitle": "Cape mundum, sume munda, custodi gradus tuos, et sequere scripturam.",
+    "project_label": "Project",
+    "project_placeholder": "Elige project",
+    "project_create_quick": "Creare velox consilium…",
+    "device_label": "Input fabrica",
+    "device_placeholder": "Elige fabrica",
+    "device_default_badge": "Ratio default",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Nulla input inventa inventa sunt.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Subsisto magna",
+    "record_button": "Record",
+    "stop_button": "Subsisto",
+    "elapsed_label": "Tempus elapsum",
+    "status": {
+      "idle": "otiosus",
+      "monitoring": "Cras",
+      "recording": "Recordatio",
+      "stopped": "constitit"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Peak",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Sessionem ductu",
+      "subtitle": "Sit tibi raeda per scriptionem gradiens pedetentim, a fermentum usque ad locutionem vocalem.",
+      "loading": "Loading script…",
+      "unavailable": "Sessionis ductus in calculonis servi adhuc praesto non est.",
+      "select_project_device": "Elige consilium et fabrica initus est ut hinc gressus recordentur.",
+      "progress": "{{done}} of {{total}} steps",
+      "start_timer": "Satus timor",
+      "skip_timer": "Skip timer",
+      "record_step": "Hoc gradum recordarentur",
+      "stop_step": "Subsisto memoria",
+      "mark_done": "Factum - proximus gradus",
+      "step_recorded": "Accipe memoriae",
+      "no_record_step": "Gradus fermentum - nulla memoria opus est.",
+      "bars_hint": "About {{bars}} bars",
+      "complete_title": "Completum Script!",
+      "complete_body": "Omnem scriptionis gradum perscripsisti. Caput ad tergum tabulae proiectionis Audio et carpere ventus capit.",
+      "restart": "Sileo scriptor"
+    },
+    "best2min": {
+      "button": "Reperio optimum II minuta (Suno)",
+      "running": "Analyzing the take…",
+      "score_label": "score",
+      "hint": "Analysis energia et perspicuitas per totum currit ut suum fortissimum 2-minutum fenestra reperiat — postea manu teli aptare potes.",
+      "chart_caption": "Ustulo per fenestra",
+      "unavailable": "Optima 2-minutarum analysis huic servo adhuc praesto non est."
+    },
+    "takes_title": "Sumit ex hac sessione",
+    "takes_empty": "Nulla in hac sessione tamen scripta suscipit.",
+    "open_in_project": "Apertum in project",
+    "ws_disconnected": "Reconnecting to the level meter…",
+    "select_project_first": "Elige consilium ut incipiat.",
+    "select_device_first": "Elige initus fabrica."
+  },
+  "project": {
+    "back_to_library": "Ad bibliothecam",
+    "header": {
+      "status_label": "Status",
+      "cover_upload": "Index operimentum",
+      "cover_remove": "Aufer operimentum",
+      "name_placeholder": "Nomen Project",
+      "links_title": "Vincula",
+      "add_link": "Add link",
+      "mode": {
+        "voice": "Vox solum",
+        "voice_guitar": "Vox + guitar"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Lyrics",
+      "prompts": "Promptus",
+      "notes": "Notae"
+    },
+    "audio": {
+      "takes_title": "Takes",
+      "no_takes": {
+        "title": "Nulla suscipit sed",
+        "description": "Recordarentur novi accipiendi vel importandi file existentium."
+      },
+      "record_new": "Recordarentur novum take",
+      "rating": "Rating",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Processionaliter"
+      },
+      "variant_placeholder": "Version",
+      "process_button": "Processus",
+      "export_button": "Exportare",
+      "delete_take_confirm_title": "Delere hoc accipe?",
+      "delete_take_confirm_description": "Rudis audio et omnis versio processit tolletur.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Processed"
+      },
+      "origin": {
+        "recorded": "Exposita",
+        "imported": "Importari"
+      },
+      "session_label_placeholder": "Sessio titulus (libitum)",
+      "duration": "Duratio",
+      "sample_rate": "Sample rate",
+      "channels": "Channels",
+      "created_at": "Exposita"
+    },
+    "pipeline": {
+      "title": "Processus catenae",
+      "preset_label": "Preset",
+      "preset_none": "Custom catena",
+      "preset_save": "Servo ut consectetur",
+      "stage_locked": "clausa",
+      "stage_requires_extra": "Requirit extra quod non installed",
+      "process_button": "Processus tolles",
+      "processing": "Processus…",
+      "job_queued": "Queue...",
+      "job_running": "Processus…",
+      "job_done": "Done",
+      "job_error": "Defecit",
+      "job_cancelled": "Pax",
+      "cancel_job": "Cancel",
+      "no_stages": "Nulla tempus cursus consectetur."
+    },
+    "export": {
+      "title": "Export take",
+      "description": "Redde limam finalem ex versione processionaliter.",
+      "variant_label": "Version",
+      "format_label": "Forma",
+      "preset_label": "Exportare",
+      "range_label": "Range",
+      "range_full": "Plena longitudo",
+      "range_custom": "Custom range",
+      "start_label": "Initium (s)",
+      "end_label": "Finis (s)",
+      "submit": "Exportare",
+      "progress": "File reddendo…",
+      "download_ready": "File parati",
+      "download_button": "Download file"
+    },
+    "notes": {
+      "placeholder": "Libera forma notas de hoc project…",
+      "saved_at": "Saved at {{time}}"
+    },
+    "lyrics": {
+      "placeholder": "Lyrics hic scribe. Utere palette in latere inserere Suno meta-tags.",
+      "saved_at": "Saved at {{time}}",
+      "saving": "Salvis…",
+      "versions": "Versiones",
+      "versions_empty": "No versiones adhuc servatae sunt.",
+      "version_preview": "Praevius",
+      "restore": "Restitue hanc versionem",
+      "restore_confirm_title": "Hanc versionem restitue?",
+      "restore_confirm_description": "The current text will be replaced with the version saved on {{date}}.",
+      "metatags_title": "Meta-tags",
+      "metatags_hint": "Tessera tag ad cursorem inserere.",
+      "metatags_placebo_warning": "Probatum — nullum effectum in evento habere potest.",
+      "metatags_empty": "Meta-tags non relatus est."
+    },
+    "prompts": {
+      "style_title": "Style promptum",
+      "lyrics_title": "Lyrics prompt",
+      "template_label": "Formula",
+      "template_none": "Nulla template",
+      "variables_title": "Variabiles",
+      "preview_title": "Praevius",
+      "preview_empty": "Exemplum elige et imple in differentiis ut praevisum videas.",
+      "char_count": "{{count}} characters",
+      "char_count_warning": "Stylus suggerit super 1000 characteres fortasse a Suno truncato.",
+      "copy": "Copy",
+      "copied": "Clipboard copied",
+      "save_to_project": "Servo in project",
+      "saved_to_project": "Promptus salvus ad project",
+      "history_title": "Historia",
+      "history_empty": "nullae priores versiones.",
+      "current_label": "Current"
+    },
+    "stems": {
+      "title": "Vocales et Cithara",
+      "separate_button": "Singula vocales et cithara",
+      "running": "Separare…",
+      "vocals": "Vocales",
+      "instrumental": "Instrumental",
+      "process_stem": "Hoc aliquid caulis",
+      "empty": "Hoc ne separata adhuc. Currite separationem ad vocales audiendas et in sola cithara.",
+      "capability_missing": "Fons separatio in hoc servo non installed.",
+      "unavailable": "Vocalis/cithara separatio huic servo adhuc praesto non est."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "On",
+    "boolean_off": "Off"
+  },
+  "import": {
+    "title": "Import",
+    "subtitle": "Affer incepta quae iam exstant in disco in bibliothecam.",
+    "step_indicator": "Step {{current}} of {{total}}",
+    "step1": {
+      "title": "Locate folder",
+      "description": "Monstrare radicem folder cum inceptis et vestigiis.",
+      "path_label": "Folder iter",
+      "path_placeholder": "e.g. E:\\Robbs superbia Musica ROBBS",
+      "recent_label": "Recentes",
+      "scan_button": "Scan folder",
+      "scanning": "Scanning…",
+      "ffmpeg_warning": "FFmpeg non invenitur — lima quae conversionis indigenti praetermittenda erit.",
+      "folders_found_one": "{{count}} folder found",
+      "folders_found_other": "{{count}} folders found",
+      "unmatched_files_one": "{{count}} unrecognized file",
+      "unmatched_files_other": "{{count}} unrecognized files"
+    },
+    "step2": {
+      "title": "Review items",
+      "description": "Perscriptio nomina, status, et quid ante confirmationem invehantur.",
+      "select_all": "Select all",
+      "table": {
+        "folder": "Fons folder",
+        "name": "Nomen Project",
+        "status": "Status",
+        "audio": "Audio",
+        "lyrics": "Lyrics",
+        "cover": "Cover",
+        "album": "Album"
+      },
+      "audio_include_one": "{{count}} file selected",
+      "audio_include_other": "{{count}} files selected",
+      "no_audio": "Non audio inventum",
+      "no_lyrics": "No lyrics found",
+      "no_cover": "Non operimentum",
+      "warnings_title": "Monitiones"
+    },
+    "step3": {
+      "title": "Import",
+      "description": "Confirma ut effingo lima incepta et crea.",
+      "copy_originals": "Effingo originale files in bibliotheca",
+      "execute_button": "Satus import",
+      "progress_title": "Inferentes…",
+      "created_count": "Created: {{count}}",
+      "skipped_count": "Skipped: {{count}}",
+      "done_title": "Inferre completum",
+      "done_description": "Consilia infra facta sunt in bibliotheca tua.",
+      "view_project": "Open project",
+      "start_over": "Novum import"
+    }
+  },
+  "templates": {
+    "title": "Templates",
+    "subtitle": "Promptum Reusable templates et meta-tags pro Suno.",
+    "tabs": {
+      "prompts": "Promptus template",
+      "metatags": "Meta-tags"
+    },
+    "new_template": "Novum template",
+    "kind": {
+      "style": "Style",
+      "lyrics": "Lyrics"
+    },
+    "kind_label": "Benignus",
+    "delete_confirm_title": "Delete template \"{{name}}\"?",
+    "delete_confirm_description": "Hoc fieri infectum non potest.",
+    "empty": "No templates sed.",
+    "editor": {
+      "title_new": "Novum template",
+      "title_edit": "Edit template",
+      "name_label": "Nomen",
+      "name_placeholder": "e.g. Chorus NAENIA",
+      "kind_label": "Benignus",
+      "template_label": "Formula text",
+      "template_hint": "Mark ubi singulae variabiles sunt cum nomine suo duplicibus crispis bracteis involutis, verbi gratia, variabilis \"genre\" nominata fit genus duobus apertis et duobus clausuris involutum.",
+      "variables_label": "Variabiles",
+      "variable_add": "Adde variabilis",
+      "variable_name": "Clavis",
+      "variable_label": "Label",
+      "variable_type": "Type",
+      "variable_type_string": "Textum",
+      "variable_type_select": "unum eligere",
+      "variable_type_multiselect": "Multi-selectis",
+      "variable_type_number": "Numerus",
+      "variable_type_boolean": "Ita / no",
+      "variable_options": "Optiones (comma-separatae)",
+      "variable_required": "required",
+      "save": "Salvum template"
+    },
+    "metatags": {
+      "title": "Meta-tags",
+      "subtitle": "Structural et stilus tags Suno intus lyrics agnoscit.",
+      "new_tag": "New tag",
+      "tag_label": "Tag",
+      "tag_placeholder": "e.g. Cithara-solo",
+      "category_label": "Categoria",
+      "tier_label": "Reliability",
+      "tier_legend_title": "Reliability legend",
+      "tier_legend": {
+        "1": "ORDO I - documentis et constantibus",
+        "2": "ORDO II - plerumque operatur",
+        "3": "ORDO III - variabilis effectus",
+        "4": "ORDO 4 - placebo, probatum"
+      },
+      "description_label": "Descriptio",
+      "delete_confirm_title": "Delere tag \"{{tag}}\"?",
+      "empty": "No custom texts adhuc."
+    }
+  },
+  "settings": {
+    "title": "Occasus",
+    "subtitle": "Systema informationum, linguarum, et optionum defaultrum.",
+    "system_info_title": "Systema",
+    "version": "Version",
+    "data_dir": "Data folder",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Praesto",
+    "ffmpeg_missing": "Non inveni",
+    "capabilities_title": "elit elit",
+    "capability": {
+      "denoise": "sonitus reductionis",
+      "quality": "Qualitas amplificationem",
+      "separate": "Fons separationis",
+      "ffmpeg": "FFmpeg conversionem"
+    },
+    "capability_available": "Praesto",
+    "capability_unavailable": "Unavailable",
+    "gpu_title": "GPU acceleratio",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime providers"
+    },
+    "gpu_none": "Nulla GPU providers deprehensa",
+    "language_title": "Linguae",
+    "language": {
+      "pt-BR": "Português (Brasil)",
+      "en": "Anglicus"
+    },
+    "theme_title": "Aspectus",
+    "theme": {
+      "dark": "Dark",
+      "light": "lux"
+    },
+    "defaults_title": "Defaltis exportare",
+    "lufs_target_label": "scopum LUFS",
+    "lufs_target_hint": "Adhibetur ut suggestione incipiens cum educendi accipit. Default Suno sedet circa -14 LUFS.",
+    "saved": "Optiones salvus erit"
+  },
+  "guide": {
+    "title": "Suno memoria dux",
+    "subtitle": "Quam vocem capere et citharam sumit qui optimos consequitur.",
+    "intro": "Suno optime cum mundo, sine ambiguitate p. Hic dux apparatum, scopum campester, ac 3-5 minutam scripturam operit.",
+    "sections": {
+      "prep": {
+        "title": "Praeparatio",
+        "body": "Nota in cella tractata vel una cum copia materiae mollis (aulaea, tegimenta, vestes in armario). Averte fans et quidquid murmurat. Fove vocem tuam pro 5 minutis ante recordationem."
+      },
+      "levels": {
+        "title": "Gradus: -12 ad -6 dBFS",
+        "body": "Contendunt cacumina inter -12 et -6 dBFS in metrum. Sub hoc ambitu, color sonus magis conspicuus fit; supereminet, periculum detondens oritur. Metre in Record pagina utere ut lucrum tuum apponas antequam incipias."
+      },
+      "distance": {
+        "title": "Mic procul: 15-30 cm",
+        "body": "Mane 15 ad 30 cm e tortor ligula. Propius quam exaggerat plosives et propinquitas effectus; longius locum tollit sonum et sonum."
+      },
+      "script": {
+        "title": "Recordatio script",
+        "warmup": "Vocalis fermentum (1-2 minuta)",
+        "vowels": "Vocales sustinuerunt - a, e, i, o, u",
+        "scales": "Simplex squama, sursum et deorsum",
+        "excerpt": "Carmen excerptum (8 ad 16 vectes)",
+        "dynamics": "Edidit: committitur mollis, fine magna",
+        "spoken_phrase": "Una locutio locuta est, ut Suno sonum vocalem tuum legere possit"
+      },
+      "expectations": {
+        "title": "Quid Suno expectet",
+        "body": "WAV, 48 kHz, mono, siccum (nullum verbum vel effectus), 3 ad 5 minuta referuntur. Mundissima, maxime repraesentativa 2 minuta sumendi optimos proventus plerumque producere consuevit."
+      }
+    }
+  },
+  "status": {
+    "idea": "Idea",
+    "em_progresso": "In progress",
+    "quase": "Fere ibi",
+    "pronto": "Paratus"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Plena vocalis scriptum pro Suno",
+      "desc": "5 Minuta ducuntur: fermentum, vocales, squamae, duo excerpta cantus, motus et locutio vocalis."
+    },
+    "step": {
+      "warmup": "Vocalis fermentum",
+      "warmup_inst": "Solve oscitationes, labrum trills (brrr), et huml mollis circiter minutam. Non opus est memorare — iustum est iugulum tuum ante cantum relaxare.",
+      "vowels": "Sustentari vocales",
+      "vowels_inst": "Utramque vocalem habe - a, e, i, o, u - pro 3 ad 4 secundas in tua commoda pice, constanti volumine. Hoc juvat Suno puri sonum tollere vocis tuae.",
+      "scales": "Statera sursum et deorsum",
+      "scales_inst": "Simplex scala sursum et deorsum canta, super \"la\" vel \"na\". Non opus est ut perfectus sit — finis est ut vocalem seriem describam.",
+      "section": "Song excerptum",
+      "section_inst": "8 Cantate ad 16 clausuras cantici, cum intentione reali quam voles importare. Claritas et praesentia in technica perfectione prioritizare.",
+      "section2": "Song excerptum",
+      "section2_inst": "Alterum 8 ad 16 vectes cantate — specimen chorus vel sectioni quae cum priori opponit. Pluris varietas adiuvat exemplar vocis tuae discere.",
+      "dynamics": "Edidit: mollis → magna",
+      "dynamics_inst": "Canta eadem phrasis incipiens valde mollis et sine voce desinens gutturi tuo. Hoc Suno ostendit vocem tuam dynamicam.",
+      "spoken": "locutus est sententia",
+      "spoken_inst": "Loquere — noli cantare — brevis et naturalis sententia quasi fabularis. Hoc adiuvat Suno verum sonum vocis tuae agnoscere."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Reparatio",
+      "filter": "Filtra",
+      "dynamics": "Edidit",
+      "separation": "Separatio",
+      "quality": "Qualitas",
+      "utility": "utilitas",
+      "loudness": "magnificentia"
+    },
+    "highpass": "Summus faucibus filter",
+    "lowpass": "Humilis-transeat filter",
+    "denoise": "sonitus reductionis",
+    "declip": "Declipping",
+    "declick": "Click / pop remotionem",
+    "deesser": "De-esser",
+    "gate": "sonitus porta",
+    "compressor": "Compressor",
+    "limiter": "Limiter",
+    "eq": "Aequatio",
+    "normalize": "Apicem ordinationem",
+    "loudness": "Magnitudo ordinationem (LUFS)",
+    "reverb_reduce": "Reverb reductionem",
+    "separate": "Fons separationis",
+    "quality": "Qualis amplificationem (upscale)",
+    "trim_silence": "Silentium torulo",
+    "fade": "Pade in / deficiet",
+    "stereo_to_mono": "Convertere ad mono",
+    "resample": "Resampling"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Reliable",
+      "2": "Plerumque operatur",
+      "3": "Variabilis",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Structure",
+      "vocal": "Vocalis",
+      "instrument": "Instrumentum",
+      "dynamics": "Edidit",
+      "production": "Productio",
+      "mood": "Modus"
+    },
+    "verse": "Vers",
+    "chorus": "Chorus",
+    "bridge": "Pontis",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Hook",
+    "prechorus": "Pre-chorus",
+    "instrumental": "Instrumental",
+    "guitar_solo": "Cithara solo",
+    "build_up": "Constructum-sursum",
+    "breakdown": "Naufragii",
+    "spoken_word": "locutus est verbum",
+    "whispered": "susurrabant",
+    "harmonies": "Harmonies",
+    "male_vocal": "vocalis masculina",
+    "female_vocal": "vocalis femina",
+    "duet": "Duet",
+    "acoustic": "Acoustic",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Vox munda",
+    "voice_guitar_balanced": "Vox librata & cithara",
+    "podcast": "Podcast",
+    "suno_ready": "Suno paratus",
+    "gentle_restore": "mitis restituet",
+    "raw_passthrough": "Non processus"
+  },
+  "errors": {
+    "unknown": "Aliquid abiit iniuriam.",
+    "network": "Pervenire non poterat calculonis servi.",
+    "validation_error": "Reprehendo ingressus indicium.",
+    "not_found": "Item non invenitur.",
+    "project_not_found": "Project not found.",
+    "take_not_found": "Non inveni.",
+    "album_not_found": "Album not found.",
+    "preset_not_found": "Pellentesque non invenerunt.",
+    "template_not_found": "Formula non invenitur.",
+    "device_busy": "Instrumentum audio ab alio programmate in usu est.",
+    "device_not_found": "Audio fabrica non inveni.",
+    "already_recording": "A memoria iam instat.",
+    "ffmpeg_missing": "FFmpeg non installatur — instituo ut hunc fasciculum convertas.",
+    "disk_full": "Non satis orbis tractus.",
+    "permission_denied": "Licentia datam viam negavit.",
+    "import_path_not_found": "Iter importare non invenitur.",
+    "job_failed": "Processus incassum.",
+    "job_cancelled": "Processus instat.",
+    "process_failed": "Incassum processus sumo.",
+    "export_failed": "Defecit tabella exportare.",
+    "record_failed": "Defecit in memoria incipere."
+  },
+  "jobs": {
+    "status": {
+      "queued": "amet",
+      "running": "Running",
+      "done": "Done",
+      "error": "Defecit",
+      "cancelled": "Pax"
+    },
+    "kind": {
+      "process": "Processing",
+      "export": "Exportare",
+      "import": "Import",
+      "record": "Recordatio"
+    }
+  }
+}

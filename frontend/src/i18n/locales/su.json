@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Ngabersihan Audio"
+  },
+  "nav": {
+    "library": "Perpustakaan",
+    "record": "Rékam",
+    "import": "Impor",
+    "templates": "Citakan",
+    "settings": "Setélan",
+    "guide": "Pituduh"
+  },
+  "common": {
+    "save": "Simpen",
+    "saving": "Nyimpen…",
+    "saved": "Disimpen",
+    "cancel": "Ngabolaykeun",
+    "close": "Tutup",
+    "delete": "Hapus",
+    "edit": "Édit",
+    "create": "Nyiptakeun",
+    "search": "Pilarian",
+    "loading": "Ngamuat…",
+    "error": "Kasalahan",
+    "retry": "Coba deui",
+    "confirm": "Konpirmasi",
+    "back": "Balik deui",
+    "next": "Salajengna",
+    "continue": "Teraskeun",
+    "finish": "Bérés",
+    "copy": "nyalin",
+    "copied": "Disalin",
+    "download": "Ngundeur",
+    "upload": "unggah",
+    "none": "Euweuh",
+    "all": "Sadayana",
+    "yes": "Sumuhun",
+    "no": "No",
+    "select": "Pilih",
+    "optional": "pilihan",
+    "required": "diperlukeun",
+    "unsaved_changes": "Parobahan teu disimpen",
+    "name": "Ngaran",
+    "status": "Status",
+    "type": "Tipe",
+    "actions": "lampah",
+    "empty": "Kosong",
+    "browse": "Kotektak",
+    "remove": "Cabut",
+    "add": "Tambihan",
+    "rename": "Ganti ngaran",
+    "duplicate": "Duplikat",
+    "warning": "Awas",
+    "locked": "Dikonci",
+    "builtin": "Diwangun-di",
+    "custom": "Adat",
+    "untitled": "Teu judulna",
+    "select_placeholder": "Pilih…"
+  },
+  "library": {
+    "title": "Perpustakaan",
+    "subtitle": "Proyék sora sareng gitar anjeun, ti ideu dugi ka ngaleupaskeun.",
+    "new_project": "proyék anyar",
+    "new_album": "albeum anyar",
+    "search_placeholder": "Pilarian dumasar ngaran…",
+    "view": {
+      "grid": "Grid",
+      "albums": "albeum"
+    },
+    "filters": {
+      "all": "Sadayana"
+    },
+    "take_count_one": " {{count}} nyandak",
+    "take_count_other": " {{count}} nyokot",
+    "updated_at": "Diropéa {{date}} ",
+    "no_results": {
+      "title": "Taya proyék kapanggih",
+      "description": "Coba saluyukeun pilarian atawa filter status."
+    },
+    "empty": {
+      "title": "Perpustakaan anjeun kosong",
+      "description": "Mimitian proyék anyar ti mimiti, atanapi impor nyandak anjeun parantos aya dina disk.",
+      "cta_import": "Impor ti polder",
+      "cta_new": "Jieun proyék"
+    },
+    "project_dialog": {
+      "title": "proyék anyar",
+      "description": "Pasihan nami sareng pilih modeu rekaman.",
+      "name_label": "Ngaran proyék",
+      "name_placeholder": "misalna. Usum Hujan",
+      "mode_label": "Modus",
+      "mode": {
+        "voice": "Sora wungkul",
+        "voice_guitar": "Sora + gitar"
+      },
+      "submit": "Jieun proyék"
+    },
+    "album_dialog": {
+      "title": "albeum anyar",
+      "description": "Grup proyék patali kana albeum.",
+      "name_label": "Ngaran albeum",
+      "name_placeholder": "misalna. gugur EP",
+      "submit": "Jieun albeum"
+    },
+    "album": {
+      "untitled": "Albeum teu judulna",
+      "members_count_one": " {{count}} proyék",
+      "members_count_other": " {{count}} proyék",
+      "empty": "Henteu aya proyék dina albeum ieu.",
+      "delete_confirm_title": "Pupus albeum?",
+      "delete_confirm_description": "Proyék moal dipupus, ngan diputuskeun tina \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Hapus \"{{name}}\"?",
+      "confirm_description": "Ieu ngaleungitkeun proyék sareng unggal nyandak éta. Ieu teu bisa dibolaykeun."
+    }
+  },
+  "record": {
+    "title": "Rékam",
+    "subtitle": "Candak katingal bersih, lalajo tingkat anjeun, tur turutan naskah.",
+    "project_label": "Proyék",
+    "project_placeholder": "Milih hiji proyék",
+    "project_create_quick": "Jieun proyék gancang…",
+    "device_label": "alat input",
+    "device_placeholder": "Pilih alat",
+    "device_default_badge": "Sistem standar",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Teu kapanggih alat input.",
+    "monitor_button": "Ngawaskeun",
+    "monitor_stop_button": "Eureun ngawaskeun",
+    "record_button": "Rékam",
+    "stop_button": "Eureun",
+    "elapsed_label": "Waktos anu kalangkung",
+    "status": {
+      "idle": "dianggurkeun",
+      "monitoring": "Ngawaskeun",
+      "recording": "Ngarékam",
+      "stopped": "Dieureunkeun"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Puncak",
+      "clip": "Klip"
+    },
+    "guide": {
+      "title": "Sesi dipandu",
+      "subtitle": "Hayu palatih leumpang anjeun ngaliwatan naskah step by step, ti haneut-up ka frase diucapkeun.",
+      "loading": "Ngamuat skrip…",
+      "unavailable": "Sesi anu dipandu teu acan sayogi dina server.",
+      "select_project_device": "Pilih proyék sareng alat input pikeun ngarékam léngkah langsung ti dieu.",
+      "progress": " {{done}} tina {{total}} léngkah",
+      "start_timer": "Mimitian timer",
+      "skip_timer": "Leupaskeun timer",
+      "record_step": "Rékam léngkah ieu",
+      "stop_step": "Eureun ngarékam",
+      "mark_done": "Réngsé - lengkah saterusna",
+      "step_recorded": "Candak dirékam",
+      "no_record_step": "Léngkah pemanasan - teu kedah ngarékam.",
+      "bars_hint": "Sakitar {{bars}} bar",
+      "complete_title": "Naskah lengkep!",
+      "complete_body": "Anjeun parantos ngarékam unggal léngkah naskah. Balik deui ka tab Audio proyék sareng pilih paporit anjeun.",
+      "restart": "Balikan deui skrip"
+    },
+    "best2min": {
+      "button": "Milarian 2 menit pangsaéna (Suno)",
+      "running": "Nganalisis hasil…",
+      "score_label": "Skor",
+      "hint": "Ngajalankeun analisa énergi sareng kajelasan dina sadaya waktos pikeun milarian jandela 2-menit anu paling kuat - anjeun masih tiasa nyaluyukeun rentang ku tangan saatosna.",
+      "chart_caption": "Skor per jandela",
+      "unavailable": "Analisis pangalusna-2-menit teu sadia dina server ieu acan."
+    },
+    "takes_title": "Nyokot tina sési ieu",
+    "takes_empty": "Henteu aya catetan anu kacatet dina sési ieu.",
+    "open_in_project": "Buka dina proyék",
+    "ws_disconnected": "Nyambungkeun deui ka méter tingkat…",
+    "select_project_first": "Pilih proyék pikeun ngamimitian.",
+    "select_device_first": "Pilih alat input."
+  },
+  "project": {
+    "back_to_library": "Balik deui ka perpustakaan",
+    "header": {
+      "status_label": "Status",
+      "cover_upload": "Unggah panutup",
+      "cover_remove": "Cabut panutup",
+      "name_placeholder": "Ngaran proyék",
+      "links_title": "Tumbu",
+      "add_link": "Tambahkeun link",
+      "mode": {
+        "voice": "Sora wungkul",
+        "voice_guitar": "Sora + gitar"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Lirik",
+      "prompts": "Pangjurung",
+      "notes": "Catetan"
+    },
+    "audio": {
+      "takes_title": "Nyandak",
+      "no_takes": {
+        "title": "Taya nyokot acan",
+        "description": "Rékam catetan énggal atanapi impor file anu tos aya."
+      },
+      "record_new": "Ngarekam nyokot anyar",
+      "rating": "Peunteun",
+      "variant": {
+        "raw": "atah",
+        "processed": "Diolah"
+      },
+      "variant_placeholder": "Vérsi",
+      "process_button": "Prosés",
+      "export_button": "Ékspor",
+      "delete_take_confirm_title": "Hapus catetan ieu?",
+      "delete_take_confirm_description": "Audio atah sareng unggal vérsi anu diolah bakal dipupus.",
+      "ab": {
+        "raw": "A · Atah",
+        "processed": "B · Diolah"
+      },
+      "origin": {
+        "recorded": "Dirékam",
+        "imported": "Diimpor"
+      },
+      "session_label_placeholder": "Label sesi (opsional)",
+      "duration": "Lilana",
+      "sample_rate": "Laju sampel",
+      "channels": "Saluran",
+      "created_at": "Dirékam"
+    },
+    "pipeline": {
+      "title": "Ngolah ranté",
+      "preset_label": "Prasetél",
+      "preset_none": "ranté custom",
+      "preset_save": "Simpen salaku prasetél",
+      "stage_locked": "Dikonci",
+      "stage_requires_extra": "Merlukeun tambahan nu teu dipasang",
+      "process_button": "Prosés nyandak",
+      "processing": "Ngolah…",
+      "job_queued": "Ngantri…",
+      "job_running": "Ngolah…",
+      "job_done": "Réngsé",
+      "job_error": "Gagal",
+      "job_cancelled": "Dibolaykeun",
+      "cancel_job": "Ngabolaykeun",
+      "no_stages": "Taya tahap sadia."
+    },
+    "export": {
+      "title": "Ékspor nyandak",
+      "description": "Jieun file final ti versi olahan.",
+      "variant_label": "Vérsi",
+      "format_label": "Formatna",
+      "preset_label": "Ékspor prasetél",
+      "range_label": "Rentang",
+      "range_full": "Panjang pinuh",
+      "range_custom": "rentang custom",
+      "start_label": "Mimitian (s)",
+      "end_label": "Tungtung (s)",
+      "submit": "Ékspor",
+      "progress": "Rendering file…",
+      "download_ready": "Berkas siap",
+      "download_button": "Unduh file"
+    },
+    "notes": {
+      "placeholder": "Catetan bentuk gratis ngeunaan proyék ieu…",
+      "saved_at": "Disimpen dina {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Tulis lirikna di dieu. Anggo palette di sisi pikeun nyelapkeun meta-tag Suno.",
+      "saved_at": "Disimpen dina {{time}} ",
+      "saving": "Nyimpen…",
+      "versions": "Vérsi",
+      "versions_empty": "Henteu aya vérsi anu disimpen.",
+      "version_preview": "Sawangan",
+      "restore": "Mulangkeun versi ieu",
+      "restore_confirm_title": "Balikkeun versi ieu?",
+      "restore_confirm_description": "Téks anu ayeuna bakal diganti ku vérsi anu disimpen dina {{date}} .",
+      "metatags_title": "Meta-tag",
+      "metatags_hint": "Klik tag pikeun nyelapkeun dina kursor.",
+      "metatags_placebo_warning": "Unproven - mungkin teu boga pangaruh dina hasilna.",
+      "metatags_empty": "Taya meta-tag didaptarkeun."
+    },
+    "prompts": {
+      "style_title": "Gaya ajakan",
+      "lyrics_title": "Lirik ajakan",
+      "template_label": "Citakan",
+      "template_none": "Taya citakan",
+      "variables_title": "Variabel",
+      "preview_title": "Sawangan",
+      "preview_empty": "Pilih template sareng eusian variabel pikeun ningali sawangan.",
+      "char_count": " {{count}} karakter",
+      "char_count_warning": "Gaya nyarankeun langkung ti 1000 karakter tiasa dipotong ku Suno.",
+      "copy": "nyalin",
+      "copied": "Disalin kana clipboard",
+      "save_to_project": "Simpen kana proyék",
+      "saved_to_project": "Ajakan disimpen kana proyék",
+      "history_title": "Sajarah",
+      "history_empty": "Taya versi saméméhna.",
+      "current_label": "ayeuna"
+    },
+    "stems": {
+      "title": "Vokal jeung gitar",
+      "separate_button": "Vokal sareng gitar misah",
+      "running": "Pisahkeun…",
+      "vocals": "Vokal",
+      "instrumental": "Instrumental",
+      "process_stem": "Ngolah batang ieu",
+      "empty": "Ieu nyokot teu acan dipisahkeun. Ngajalankeun separation ngadangu vokal jeung gitar di isolasi.",
+      "capability_missing": "Pemisahan sumber henteu dipasang dina server ieu.",
+      "unavailable": "Separation vokal/gitar tacan sadia dina server ieu."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Dina",
+    "boolean_off": "Pareum"
+  },
+  "import": {
+    "title": "Impor",
+    "subtitle": "Bawa proyék nu geus aya dina disk kana perpustakaan.",
+    "step_indicator": "Lengkah {{current}} tina {{total}} ",
+    "step1": {
+      "title": "Manggihan folder",
+      "description": "Tunjuk kana polder akar sareng proyék sareng lagu anjeun.",
+      "path_label": "Jalur folder",
+      "path_placeholder": "misalna. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "panganyarna",
+      "scan_button": "Scan folder",
+      "scanning": "Nyeken…",
+      "ffmpeg_warning": "FFmpeg henteu kapendak - file anu peryogi konvérsi bakal dilewatan.",
+      "folders_found_one": " {{count}} polder kapanggih",
+      "folders_found_other": " {{count}} polder kapanggih",
+      "unmatched_files_one": " {{count}} file teu dikenal",
+      "unmatched_files_other": " {{count}} file teu dikenal"
+    },
+    "step2": {
+      "title": "Tinjauan item",
+      "description": "Pariksa nami, status, sareng naon anu bakal diimpor sateuacan mastikeun.",
+      "select_all": "Pilih sadayana",
+      "table": {
+        "folder": "Polder sumber",
+        "name": "Ngaran proyék",
+        "status": "Status",
+        "audio": "Audio",
+        "lyrics": "Lirik",
+        "cover": "Panutup",
+        "album": "albeum"
+      },
+      "audio_include_one": " {{count}} file dipilih",
+      "audio_include_other": " {{count}} file dipilih",
+      "no_audio": "Taya audio kapanggih",
+      "no_lyrics": "Teu kapanggih lirik",
+      "no_cover": "Taya panutup",
+      "warnings_title": "Perhatosan"
+    },
+    "step3": {
+      "title": "Impor",
+      "description": "Konfirmasi pikeun nyalin file sareng ngadamel proyék.",
+      "copy_originals": "Nyalin file asli ka perpustakaan",
+      "execute_button": "Mimitian impor",
+      "progress_title": "Ngimpor…",
+      "created_count": "Dijieun: {{count}} ",
+      "skipped_count": "Dilewatan: {{count}} ",
+      "done_title": "Impor réngsé",
+      "done_description": "Proyék di handap ieu dijieun dina perpustakaan anjeun.",
+      "view_project": "Buka proyék",
+      "start_over": "impor anyar"
+    }
+  },
+  "templates": {
+    "title": "Citakan",
+    "subtitle": "Témplat ajakan anu tiasa dianggo deui sareng meta-tag pikeun Suno.",
+    "tabs": {
+      "prompts": "témplat ajakan",
+      "metatags": "Meta-tag"
+    },
+    "new_template": "template anyar",
+    "kind": {
+      "style": "Gaya",
+      "lyrics": "Lirik"
+    },
+    "kind_label": "Jenis",
+    "delete_confirm_title": "Hapus template \" {{name}} \"?",
+    "delete_confirm_description": "Ieu teu bisa dibolaykeun.",
+    "empty": "Teu acan aya témplat.",
+    "editor": {
+      "title_new": "template anyar",
+      "title_edit": "Edit template",
+      "name_label": "Ngaran",
+      "name_placeholder": "misalna. Balad akustik",
+      "kind_label": "Jenis",
+      "template_label": "Téks template",
+      "template_hint": "Cirian dimana tiap variabel milik kalawan ngaranna dibungkus ku kurung keriting ganda - contona, variabel ngaranna \"genre\" janten genre dibungkus ku dua lawang jeung dua kurung nutup.",
+      "variables_label": "Variabel",
+      "variable_add": "Tambahkeun variabel",
+      "variable_name": "konci",
+      "variable_label": "Label",
+      "variable_type": "Tipe",
+      "variable_type_string": "Téks",
+      "variable_type_select": "Pilih tunggal",
+      "variable_type_multiselect": "Multi-pilihan",
+      "variable_type_number": "Jumlah",
+      "variable_type_boolean": "Sumuhun / henteu",
+      "variable_options": "Pilihan (dipisahkeun koma)",
+      "variable_required": "Dibutuhkeun",
+      "save": "Simpen template"
+    },
+    "metatags": {
+      "title": "Meta-tag",
+      "subtitle": "Tag struktural jeung gaya Suno ngakuan jero lirik.",
+      "new_tag": "Tag anyar",
+      "tag_label": "Tag",
+      "tag_placeholder": "misalna. gitar-solo",
+      "category_label": "Kategori",
+      "tier_label": "Reliabiliti",
+      "tier_legend_title": "Legenda reliabiliti",
+      "tier_legend": {
+        "1": "Tingkat 1 - didokumentasikeun sareng konsisten",
+        "2": "Tier 2 - biasana jalan",
+        "3": "Tier 3 - pangaruh variabel",
+        "4": "Tier 4 - placebo, unproven"
+      },
+      "description_label": "Katerangan",
+      "delete_confirm_title": "Hapus tag \" {{tag}} \"?",
+      "empty": "Teu acan aya meta-tag khusus."
+    }
+  },
+  "settings": {
+    "title": "Setélan",
+    "subtitle": "Inpormasi sistem, basa, sareng kahoyong standar.",
+    "system_info_title": "Sistim",
+    "version": "Vérsi",
+    "data_dir": "Polder data",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "sadia",
+    "ffmpeg_missing": "Teu kapanggih",
+    "capabilities_title": "Kamampuhan dipasang",
+    "capability": {
+      "denoise": "Ngurangan bising",
+      "quality": "Ningkatkeun kualitas",
+      "separate": "Pemisahan sumber",
+      "ffmpeg": "Konversi FFmpeg"
+    },
+    "capability_available": "sadia",
+    "capability_unavailable": "Teu sadia",
+    "gpu_title": "akselerasi GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "Panyadia ONNX Runtime"
+    },
+    "gpu_none": "Taya panyadia GPU kauninga",
+    "language_title": "Basa",
+    "language": {
+      "pt-BR": "Português (Brasil)",
+      "en": "Inggris"
+    },
+    "theme_title": "Penampilan",
+    "theme": {
+      "dark": "Poek",
+      "light": "Caang"
+    },
+    "defaults_title": "Ékspor standar",
+    "lufs_target_label": "Target LUFS",
+    "lufs_target_hint": "Dipaké salaku saran dimimitian nalika exporting nyokot. standar Suno urang sits sabudeureun -14 LUFS.",
+    "saved": "Préferénsi disimpen"
+  },
+  "guide": {
+    "title": "Pituduh rékaman Suno",
+    "subtitle": "Kumaha néwak sora sareng gitar nyandak éta kéngingkeun hasil anu pangsaéna.",
+    "intro": "Suno ngalaksanakeun pangalusna kalawan bersih, rujukan unambiguous. Pituduh ieu nyertakeun persiapan, tingkat target, sareng naskah rekaman 3-5 menit.",
+    "sections": {
+      "prep": {
+        "title": "Persiapan",
+        "body": "Rékam di kamar anu dirawat atanapi anu seueur bahan lemes (gorden, karpét, baju dina lomari). Pareuman kipas sareng naon waé anu hums. Panaskeun sora anjeun 5 menit sateuacan ngarékam."
+      },
+      "levels": {
+        "title": "Tingkat: -12 nepi ka -6 dBFS",
+        "body": "Tujuan pikeun puncak antara -12 sareng -6 dBFS dina méter. Handapeun rentang éta, noise latar jadi leuwih noticeable; luhureun eta, résiko clipping naék. Anggo méter dina halaman Rékam pikeun nyetél kauntungan anjeun sateuacan ngamimitian."
+      },
+      "distance": {
+        "title": "Jarak mic: 15–30 cm",
+        "body": "Tetep 15 nepi ka 30 cm tina mikropon. Ngadeukeutan ti nu exaggerates plosives jeung pangaruh jarak; leuwih jauh nyokot leuwih reverb kamar jeung noise."
+      },
+      "script": {
+        "title": "Ngarékam naskah",
+        "warmup": "Pemanasan vokal (1-2 menit)",
+        "vowels": "Vokal sustained - a, e, i, o, u",
+        "scales": "Skala basajan, luhur jeung ka handap",
+        "excerpt": "Kutipan lagu (8 nepi ka 16 bar)",
+        "dynamics": "Dinamika: mimiti lemes, tungtung nyaring",
+        "spoken_phrase": "Hiji frasa anu diucapkeun, ku kituna Suno tiasa maca nada vokal anjeun"
+      },
+      "expectations": {
+        "title": "Naon Suno ekspektasi",
+        "body": "WAV, 48 kHz, mono, garing (euweuh reverb atawa épék), 3 nepi ka 5 menit rujukan. The cleanest, paling wawakil 2 menit nyokot biasana ngahasilkeun hasil pangalusna."
+      }
+    }
+  },
+  "status": {
+    "idea": "Gagasan",
+    "em_progresso": "Dina kamajuan",
+    "quase": "Méh aya",
+    "pronto": "Siap"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Aksara vokal pinuh pikeun Suno",
+      "desc": "5 menit terpandu: haneut-up, vokal, skala, dua cutatan lagu, dinamika, jeung frasa lisan."
+    },
+    "step": {
+      "warmup": "Pemanasan vokal",
+      "warmup_inst": "Loosen up kalawan yawns, trills lip (brrr), sarta hum lemes salila kira hiji menit. Henteu kedah ngarékam - éta ngan ukur bersantai tikoro sateuacan nyanyi.",
+      "vowels": "Vokal sustained",
+      "vowels_inst": "Tahan unggal vokal - a, e, i, o, u - pikeun 3 nepi ka 4 detik dina pitch nyaman Anjeun, kalawan volume ajeg. Ieu ngabantuan Suno milih nada murni tina sora anjeun.",
+      "scales": "Timbangan luhur jeung ka handap",
+      "scales_inst": "Nyanyi skala basajan ka luhur lajeng ka handap, dina \"la\" atawa \"na\". Henteu kedah sampurna - tujuanana nyaéta pikeun memetakan rentang vokal anjeun.",
+      "section": "Petikan lagu - bagian 1",
+      "section_inst": "Nyanyi 8 nepi ka 16 bar lagu, kalawan niat sabenerna rék ditepikeun. Prioritaskeun kajelasan sareng ayana tibatan kasampurnaan téknis.",
+      "section2": "Petikan lagu - bagian 2",
+      "section2_inst": "Nyanyi deui 8 nepi ka 16 bar - ideally chorus atawa bagian nu kontras jeung saméméhna. Langkung seueur variasi ngabantosan modél diajar sora anjeun.",
+      "dynamics": "Dinamika: lemes → nyaring",
+      "dynamics_inst": "Nyanyi frasa anu sami dimimitian pisan lemes sareng ditungtungan nyaring, tanpa nyaring tikoro anjeun. Ieu nembongkeun Suno rentang dinamis sora anjeun.",
+      "spoken": "Kalimah anu diucapkeun",
+      "spoken_inst": "Nyarita — ulah nyanyi — pondok, frasa alami, saolah-olah anjeun ngobrol. Ieu ngabantuan Suno ngakuan timbre nyata sora anjeun."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Pamulihan",
+      "filter": "Saringan",
+      "dynamics": "Dinamika",
+      "separation": "pipisahan",
+      "quality": "Kualitas",
+      "utility": "Utiliti",
+      "loudness": "Loudness"
+    },
+    "highpass": "High-pass filter",
+    "lowpass": "Saringan low-pass",
+    "denoise": "Ngurangan bising",
+    "declip": "Ngaleutikan",
+    "declick": "Pencét / pop panyabutan",
+    "deesser": "De-esser",
+    "gate": "Gerbang sora",
+    "compressor": "Kompresor",
+    "limiter": "Wates",
+    "eq": "Kasaruaan",
+    "normalize": "Normalisasi puncak",
+    "loudness": "Normalisasi Loudness (LUFS)",
+    "reverb_reduce": "réduksi reverb",
+    "separate": "Pemisahan sumber",
+    "quality": "Ningkatkeun kualitas (upscale)",
+    "trim_silence": "Panyumputan tiiseun",
+    "fade": "Fade in / fade out",
+    "stereo_to_mono": "Ngarobah mono",
+    "resample": "Resampling"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Bisa diandelkeun",
+      "2": "Biasana dianggo",
+      "3": "Variabel",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Struktur",
+      "vocal": "Vokal",
+      "instrument": "Instrumén",
+      "dynamics": "Dinamika",
+      "production": "Produksi",
+      "mood": "wanda"
+    },
+    "verse": "Ayat",
+    "chorus": "Chorus",
+    "bridge": "Sasak",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Hook",
+    "prechorus": "Pra-chorus",
+    "instrumental": "Instrumental",
+    "guitar_solo": "Gitar solo",
+    "build_up": "Pangwangunan",
+    "breakdown": "Ngarecah",
+    "spoken_word": "Kecap anu diucapkeun",
+    "whispered": "Diceungceurikan",
+    "harmonies": "Harmoni",
+    "male_vocal": "Vokal lalaki",
+    "female_vocal": "Vokal awéwé",
+    "duet": "Duet",
+    "acoustic": "Akustik",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Sora beresih",
+    "voice_guitar_balanced": "Sora saimbang & gitar",
+    "podcast": "Podcast",
+    "suno_ready": "Suno siap",
+    "gentle_restore": "Lembut mulangkeun",
+    "raw_passthrough": "Taya ngolah"
+  },
+  "errors": {
+    "unknown": "Aya nu lepat.",
+    "network": "Teu bisa ngahontal server.",
+    "validation_error": "Pariksa inpormasi anu anjeun lebetkeun.",
+    "not_found": "Item teu kapanggih.",
+    "project_not_found": "Proyék teu kapanggih.",
+    "take_not_found": "Candak teu kapanggih.",
+    "album_not_found": "Albeum teu kapanggih.",
+    "preset_not_found": "Prasetél teu kapanggih.",
+    "template_not_found": "Citakan teu kapanggih.",
+    "device_busy": "Alat audio keur dipake ku program sejen.",
+    "device_not_found": "Alat audio teu kapanggih.",
+    "already_recording": "Ngarékam parantos lumangsung.",
+    "ffmpeg_missing": "FFmpeg henteu dipasang - pasang pikeun ngarobih file ieu.",
+    "disk_full": "Teu cukup spasi disk.",
+    "permission_denied": "Idin nampik pikeun jalur dibikeun.",
+    "import_path_not_found": "jalur impor teu kapanggih.",
+    "job_failed": "Ngolah gagal.",
+    "job_cancelled": "Ngolahna dibolaykeun.",
+    "process_failed": "Gagal ngolah nyokot.",
+    "export_failed": "Gagal ngékspor file.",
+    "record_failed": "Gagal ngamimitian ngarékam."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Ngantri",
+      "running": "Lumpat",
+      "done": "Réngsé",
+      "error": "Gagal",
+      "cancelled": "Dibolaykeun"
+    },
+    "kind": {
+      "process": "Ngolah",
+      "export": "Ékspor",
+      "import": "Impor",
+      "record": "Ngarékam"
+    }
+  }
+}

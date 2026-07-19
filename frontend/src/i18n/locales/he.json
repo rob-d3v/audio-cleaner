@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "מנקה אודיו"
+  },
+  "nav": {
+    "library": "ספריה",
+    "record": "הקלט",
+    "import": "ייבוא",
+    "templates": "תבניות",
+    "settings": "הגדרות",
+    "guide": "מדריך"
+  },
+  "common": {
+    "save": "שמור",
+    "saving": "שומר...",
+    "saved": "נשמר",
+    "cancel": "בטל",
+    "close": "סגור",
+    "delete": "מחק",
+    "edit": "ערוך",
+    "create": "צור",
+    "search": "חפש",
+    "loading": "טוען...",
+    "error": "שגיאה",
+    "retry": "נסה שוב",
+    "confirm": "אשר",
+    "back": "חזרה",
+    "next": "הבא",
+    "continue": "המשך",
+    "finish": "סיים",
+    "copy": "העתק",
+    "copied": "הועתק",
+    "download": "הורד",
+    "upload": "העלה",
+    "none": "אין",
+    "all": "הכל",
+    "yes": "כן",
+    "no": "לא",
+    "select": "בחר",
+    "optional": "אופציונלי",
+    "required": "נדרש",
+    "unsaved_changes": "שינויים שלא נשמרו",
+    "name": "שם",
+    "status": "סטטוס",
+    "type": "הקלד",
+    "actions": "פעולות",
+    "empty": "ריק",
+    "browse": "עיין",
+    "remove": "הסר",
+    "add": "הוסף",
+    "rename": "שנה שם",
+    "duplicate": "שכפול",
+    "warning": "אזהרה",
+    "locked": "נעול",
+    "builtin": "מובנה",
+    "custom": "מותאם אישית",
+    "untitled": "ללא כותרת",
+    "select_placeholder": "בחר…"
+  },
+  "library": {
+    "title": "ספריה",
+    "subtitle": "פרויקטי הקול והגיטרה שלך, מרעיון ועד שחרור.",
+    "new_project": "פרויקט חדש",
+    "new_album": "אלבום חדש",
+    "search_placeholder": "חפש לפי שם...",
+    "view": {
+      "grid": "רשת",
+      "albums": "אלבומים"
+    },
+    "filters": {
+      "all": "הכל"
+    },
+    "take_count_one": " {{count}} לקחת",
+    "take_count_other": " {{count}} לוקח",
+    "updated_at": "עודכן {{date}} ",
+    "no_results": {
+      "title": "לא נמצאו פרויקטים",
+      "description": "נסה להתאים את מסנן החיפוש או הסטטוס."
+    },
+    "empty": {
+      "title": "הספרייה שלך ריקה",
+      "description": "התחל פרויקט חדש מאפס, או ייבא טייקים שכבר יש לך בדיסק.",
+      "cta_import": "ייבוא מתיקיה",
+      "cta_new": "צור פרויקט"
+    },
+    "project_dialog": {
+      "title": "פרויקט חדש",
+      "description": "תן לו שם ובחר מצב הקלטה.",
+      "name_label": "שם הפרויקט",
+      "name_placeholder": "למשל גשם קיץ",
+      "mode_label": "מצב",
+      "mode": {
+        "voice": "קול בלבד",
+        "voice_guitar": "קול + גיטרה"
+      },
+      "submit": "צור פרויקט"
+    },
+    "album_dialog": {
+      "title": "אלבום חדש",
+      "description": "קבץ פרויקטים קשורים לאלבום.",
+      "name_label": "שם האלבום",
+      "name_placeholder": "למשל אי.פי סתיו",
+      "submit": "צור אלבום"
+    },
+    "album": {
+      "untitled": "אלבום ללא שם",
+      "members_count_one": " פרויקט {{count}}",
+      "members_count_other": " {{count}} פרויקטים",
+      "empty": "אין עדיין פרויקטים באלבום זה.",
+      "delete_confirm_title": "למחוק את האלבום?",
+      "delete_confirm_description": "פרויקטים לא יימחקו, רק יבוטלו מ-\" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "למחוק את \" {{name}} \"?",
+      "confirm_description": "זה מסיר את הפרויקט וכל גישה בו. לא ניתן לבטל את זה."
+    }
+  },
+  "record": {
+    "title": "הקלט",
+    "subtitle": "צלם תמונה נקייה, צפה ברמות שלך ופעל לפי התסריט.",
+    "project_label": "פרויקט",
+    "project_placeholder": "בחר פרויקט",
+    "project_create_quick": "צור פרויקט מהיר...",
+    "device_label": "מכשיר קלט",
+    "device_placeholder": "בחר מכשיר",
+    "device_default_badge": "ברירת המחדל של המערכת",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "לא נמצאו התקני קלט.",
+    "monitor_button": "צג",
+    "monitor_stop_button": "תפסיק לפקח",
+    "record_button": "הקלט",
+    "stop_button": "עצור",
+    "elapsed_label": "זמן שחלף",
+    "status": {
+      "idle": "סרק",
+      "monitoring": "ניטור",
+      "recording": "הקלטה",
+      "stopped": "נעצר"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "שיא",
+      "clip": "קליפ"
+    },
+    "guide": {
+      "title": "מפגש מודרך",
+      "subtitle": "תן למאמן להדריך אותך דרך התסריט צעד אחר צעד, מהחימום ועד לביטוי המדובר.",
+      "loading": "טוען סקריפט...",
+      "unavailable": "ההפעלה המודרכת עדיין לא זמינה בשרת.",
+      "select_project_device": "בחר פרויקט והתקן קלט כדי להקליט שלבים ישירות מכאן.",
+      "progress": " {{done}} מתוך {{total}} צעדים",
+      "start_timer": "הפעל טיימר",
+      "skip_timer": "דלג על טיימר",
+      "record_step": "הקלט את השלב הזה",
+      "stop_step": "תפסיק להקליט",
+      "mark_done": "בוצע - השלב הבא",
+      "step_recorded": "קח מוקלט",
+      "no_record_step": "שלב חימום - אין צורך בהקלטה.",
+      "bars_hint": "בערך {{bars}} ברים",
+      "complete_title": "התסריט הושלם!",
+      "complete_body": "הקלטת כל שלב בתסריט. חזור לכרטיסיית האודיו של הפרויקט ובחר את הצילומים המועדפים עליך.",
+      "restart": "הפעל מחדש את הסקריפט"
+    },
+    "best2min": {
+      "button": "מצא את 2 הדקות הטובות ביותר (Suno)",
+      "running": "מנתח את הטייק…",
+      "score_label": "ציון",
+      "hint": "מפעיל ניתוח אנרגיה ובהירות על כל הטייק כדי למצוא את החלון החזק ביותר של 2 דקות - אתה עדיין יכול להתאים את הטווח ביד לאחר מכן.",
+      "chart_caption": "ציון לכל חלון",
+      "unavailable": "הניתוח הטוב ביותר של 2 הדקות אינו זמין עדיין בשרת זה."
+    },
+    "takes_title": "לוקח מהמפגש הזה",
+    "takes_empty": "עדיין לא תועדו טייקים בסשן הזה.",
+    "open_in_project": "פתוח בפרויקט",
+    "ws_disconnected": "מתחבר מחדש למד הרמה...",
+    "select_project_first": "בחר פרויקט כדי להתחיל.",
+    "select_device_first": "בחר התקן קלט."
+  },
+  "project": {
+    "back_to_library": "חזרה לספרייה",
+    "header": {
+      "status_label": "סטטוס",
+      "cover_upload": "העלה כריכה",
+      "cover_remove": "הסר את המכסה",
+      "name_placeholder": "שם הפרויקט",
+      "links_title": "קישורים",
+      "add_link": "הוסף קישור",
+      "mode": {
+        "voice": "קול בלבד",
+        "voice_guitar": "קול + גיטרה"
+      }
+    },
+    "tabs": {
+      "audio": "אודיו",
+      "lyrics": "מילים",
+      "prompts": "הנחיות",
+      "notes": "הערות"
+    },
+    "audio": {
+      "takes_title": "לוקח",
+      "no_takes": {
+        "title": "עדיין אין טייקים",
+        "description": "הקלט טייק חדש או ייבא קובץ קיים."
+      },
+      "record_new": "הקלט טייק חדש",
+      "rating": "דירוג",
+      "variant": {
+        "raw": "גלם",
+        "processed": "מעובד"
+      },
+      "variant_placeholder": "גרסה",
+      "process_button": "תהליך",
+      "export_button": "ייצוא",
+      "delete_take_confirm_title": "למחוק את הטייק הזה?",
+      "delete_take_confirm_description": "האודיו הגולמי וכל גרסה מעובדת יוסרו.",
+      "ab": {
+        "raw": "א · גלם",
+        "processed": "ב · מעובד"
+      },
+      "origin": {
+        "recorded": "הוקלט",
+        "imported": "מיובא"
+      },
+      "session_label_placeholder": "תווית הפעלה (אופציונלי)",
+      "duration": "משך זמן",
+      "sample_rate": "קצב דגימה",
+      "channels": "ערוצים",
+      "created_at": "הוקלט"
+    },
+    "pipeline": {
+      "title": "שרשרת עיבוד",
+      "preset_label": "מוגדר מראש",
+      "preset_none": "שרשרת בהתאמה אישית",
+      "preset_save": "שמור כקביעה מראש",
+      "stage_locked": "נעול",
+      "stage_requires_extra": "דורש תוספת שאינה מותקנת",
+      "process_button": "לקחת תהליך",
+      "processing": "מעבד...",
+      "job_queued": "בתור...",
+      "job_running": "מעבד...",
+      "job_done": "בוצע",
+      "job_error": "נכשל",
+      "job_cancelled": "בוטלה",
+      "cancel_job": "בטל",
+      "no_stages": "אין שלבים זמינים."
+    },
+    "export": {
+      "title": "ייצוא לקחת",
+      "description": "עיבוד קובץ סופי מגרסה מעובדת.",
+      "variant_label": "גרסה",
+      "format_label": "פורמט",
+      "preset_label": "ייצוא מוגדר מראש",
+      "range_label": "טווח",
+      "range_full": "אורך מלא",
+      "range_custom": "טווח מותאם אישית",
+      "start_label": "התחל (ים)",
+      "end_label": "סוף (ים)",
+      "submit": "ייצוא",
+      "progress": "מעבד קובץ...",
+      "download_ready": "הקובץ מוכן",
+      "download_button": "הורד קובץ"
+    },
+    "notes": {
+      "placeholder": "הערות בצורה חופשית על פרויקט זה...",
+      "saved_at": "נשמר ב-{{time}} "
+    },
+    "lyrics": {
+      "placeholder": "כתוב את המילים כאן. השתמש בפלטה שבצד כדי להכניס מטא-תגים של Suno.",
+      "saved_at": "נשמר ב-{{time}} ",
+      "saving": "שומר...",
+      "versions": "גרסאות",
+      "versions_empty": "עדיין אין גרסאות שמורות.",
+      "version_preview": "תצוגה מקדימה",
+      "restore": "שחזר גרסה זו",
+      "restore_confirm_title": "לשחזר את הגרסה הזו?",
+      "restore_confirm_description": "הטקסט הנוכחי יוחלף בגרסה שנשמרה ב-{{date}}.",
+      "metatags_title": "מטא-תגים",
+      "metatags_hint": "לחץ על תג כדי להכניס אותו לסמן.",
+      "metatags_placebo_warning": "לא מוכח - ייתכן שלא תהיה השפעה על התוצאה.",
+      "metatags_empty": "לא נרשמו מטא-תגים."
+    },
+    "prompts": {
+      "style_title": "הנחיה בסגנון",
+      "lyrics_title": "בקשת מילים",
+      "template_label": "תבנית",
+      "template_none": "אין תבנית",
+      "variables_title": "משתנים",
+      "preview_title": "תצוגה מקדימה",
+      "preview_empty": "בחר תבנית ומלא את המשתנים כדי לראות תצוגה מקדימה.",
+      "char_count": " {{count}} תווים",
+      "char_count_warning": "הנחיות סגנון של יותר מ-1000 תווים עלולות להיקטע על ידי Suno.",
+      "copy": "העתק",
+      "copied": "הועתק ללוח",
+      "save_to_project": "שמור לפרויקט",
+      "saved_to_project": "הבקשה נשמרה בפרויקט",
+      "history_title": "היסטוריה",
+      "history_empty": "אין גרסאות קודמות.",
+      "current_label": "נוכחי"
+    },
+    "stems": {
+      "title": "שירה וגיטרה",
+      "separate_button": "הפרד שירה וגיטרה",
+      "running": "מפריד...",
+      "vocals": "שירה",
+      "instrumental": "אינסטרומנטלי",
+      "process_stem": "מעבד את הגזע הזה",
+      "empty": "הטייק הזה עדיין לא הופרד. הפעל הפרדה כדי לשמוע את השירה והגיטרה בבידוד.",
+      "capability_missing": "הפרדת מקורות לא מותקנת בשרת זה.",
+      "unavailable": "הפרדה ווקאלית/גיטרה אינה זמינה עדיין בשרת זה."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "פועל",
+    "boolean_off": "כבוי"
+  },
+  "import": {
+    "title": "ייבוא",
+    "subtitle": "הכנס פרויקטים שכבר קיימים בדיסק לספרייה.",
+    "step_indicator": "שלב {{current}} מתוך {{total}} ",
+    "step1": {
+      "title": "אתר תיקיה",
+      "description": "הצבע על תיקיית השורש עם הפרויקטים והרצועות שלך.",
+      "path_label": "נתיב תיקיה",
+      "path_placeholder": "למשל E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "לאחרונה",
+      "scan_button": "סרוק תיקייה",
+      "scanning": "סורק...",
+      "ffmpeg_warning": "FFmpeg לא נמצא - קבצים שצריכים המרה ידלגו.",
+      "folders_found_one": " נמצאה תיקיית {{count}}",
+      "folders_found_other": " נמצאו {{count}} תיקיות",
+      "unmatched_files_one": " {{count}} קובץ לא מזוהה",
+      "unmatched_files_other": " {{count}} קבצים לא מזוהים"
+    },
+    "step2": {
+      "title": "סקור פריטים",
+      "description": "בדוק שמות, סטטוסים ומה ייבא לפני האישור.",
+      "select_all": "בחר הכל",
+      "table": {
+        "folder": "תיקיית מקור",
+        "name": "שם הפרויקט",
+        "status": "סטטוס",
+        "audio": "אודיו",
+        "lyrics": "מילים",
+        "cover": "כיסוי",
+        "album": "אלבום"
+      },
+      "audio_include_one": " קובץ {{count}} נבחר",
+      "audio_include_other": " {{count}} קבצים נבחרו",
+      "no_audio": "לא נמצא אודיו",
+      "no_lyrics": "לא נמצאו מילים",
+      "no_cover": "אין כיסוי",
+      "warnings_title": "אזהרות"
+    },
+    "step3": {
+      "title": "ייבוא",
+      "description": "אשר כדי להעתיק את הקבצים וליצור את הפרויקטים.",
+      "copy_originals": "העתק קבצים מקוריים לספרייה",
+      "execute_button": "התחל לייבא",
+      "progress_title": "מייבא...",
+      "created_count": "נוצר: {{count}} ",
+      "skipped_count": "דילוג: {{count}} ",
+      "done_title": "הייבוא הושלם",
+      "done_description": "הפרויקטים למטה נוצרו בספרייה שלך.",
+      "view_project": "פרויקט פתוח",
+      "start_over": "ייבוא חדש"
+    }
+  },
+  "templates": {
+    "title": "תבניות",
+    "subtitle": "תבניות הנחיות ומטא תגיות לשימוש חוזר עבור Suno.",
+    "tabs": {
+      "prompts": "תבניות בקשה",
+      "metatags": "מטא-תגים"
+    },
+    "new_template": "תבנית חדשה",
+    "kind": {
+      "style": "סגנון",
+      "lyrics": "מילים"
+    },
+    "kind_label": "אדיב",
+    "delete_confirm_title": "למחוק את התבנית \" {{name}} \"?",
+    "delete_confirm_description": "לא ניתן לבטל את זה.",
+    "empty": "עדיין אין תבניות.",
+    "editor": {
+      "title_new": "תבנית חדשה",
+      "title_edit": "ערוך תבנית",
+      "name_label": "שם",
+      "name_placeholder": "למשל בלדה אקוסטית",
+      "kind_label": "אדיב",
+      "template_label": "טקסט תבנית",
+      "template_hint": "סמן היכן כל משתנה שייך כששמו עטוף בסוגריים כפולים מתולתלים - לדוגמה, משתנה בשם \"ז'אנר\" הופך לז'אנר עטוף בשני סוגרים נפתחים ושני סוגרים.",
+      "variables_label": "משתנים",
+      "variable_add": "הוסף משתנה",
+      "variable_name": "מפתח",
+      "variable_label": "תווית",
+      "variable_type": "הקלד",
+      "variable_type_string": "טקסט",
+      "variable_type_select": "בחירה בודדת",
+      "variable_type_multiselect": "בחירה מרובה",
+      "variable_type_number": "מספר",
+      "variable_type_boolean": "כן/לא",
+      "variable_options": "אפשרויות (מופרדות בפסיק)",
+      "variable_required": "חובה",
+      "save": "שמור תבנית"
+    },
+    "metatags": {
+      "title": "מטא-תגים",
+      "subtitle": "תגיות מבניות וסגנונות Suno מזהה בתוך מילות השיר.",
+      "new_tag": "תג חדש",
+      "tag_label": "תג",
+      "tag_placeholder": "למשל גיטרה-סולו",
+      "category_label": "קטגוריה",
+      "tier_label": "אמינות",
+      "tier_legend_title": "אגדת אמינות",
+      "tier_legend": {
+        "1": "שכבה 1 - מתועדת ועקבית",
+        "2": "שכבה 2 - בדרך כלל עובד",
+        "3": "שכבה 3 - אפקט משתנה",
+        "4": "שכבה 4 - פלצבו, לא מוכח"
+      },
+      "description_label": "תיאור",
+      "delete_confirm_title": "למחוק את התג \" {{tag}} \"?",
+      "empty": "עדיין אין מטא-תגים מותאמים אישית."
+    }
+  },
+  "settings": {
+    "title": "הגדרות",
+    "subtitle": "מידע מערכת, שפה והעדפות ברירת מחדל.",
+    "system_info_title": "מערכת",
+    "version": "גרסה",
+    "data_dir": "תיקיית נתונים",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "זמין",
+    "ffmpeg_missing": "לא נמצא",
+    "capabilities_title": "יכולות מותקנות",
+    "capability": {
+      "denoise": "הפחתת רעש",
+      "quality": "שיפור איכות",
+      "separate": "הפרדת מקורות",
+      "ffmpeg": "המרת FFmpeg"
+    },
+    "capability_available": "זמין",
+    "capability_unavailable": "לא זמין",
+    "gpu_title": "האצת GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ספקי זמן ריצה של ONNX"
+    },
+    "gpu_none": "לא זוהו ספקי GPU",
+    "language_title": "שפה",
+    "language": {
+      "pt-BR": "Português (ברזיל)",
+      "en": "אנגלית"
+    },
+    "theme_title": "מראה",
+    "theme": {
+      "dark": "כהה",
+      "light": "אור"
+    },
+    "defaults_title": "ברירת מחדל לייצא",
+    "lufs_target_label": "היעד LUFS",
+    "lufs_target_hint": "משמש כהצעה להתחלה בעת ייצוא טייקים. ברירת המחדל של Suno היא סביב -14 LUFS.",
+    "saved": "ההעדפות נשמרו"
+  },
+  "guide": {
+    "title": "מדריך הקלטות של Suno",
+    "subtitle": "איך ללכוד קול וגיטרה שמקבלים את התוצאות הטובות ביותר.",
+    "intro": "Suno מתפקד בצורה הטובה ביותר עם הפניות נקיות וחד משמעיות. מדריך זה מכסה הכנה, רמות יעד ותסריט הקלטה של ​​3-5 דקות.",
+    "sections": {
+      "prep": {
+        "title": "הכנה",
+        "body": "הקלט בחדר מטופל או בחדר עם הרבה חומר רך (וילונות, שטיחים, בגדים בארון). כבה מאווררים וכל מה שמזמזם. לחמם את הקול שלך במשך 5 דקות לפני ההקלטה."
+      },
+      "levels": {
+        "title": "רמות: -12 עד -6 dBFS",
+        "body": "כוון לשיאים בין -12 ל-6 dBFS במד. מתחת לטווח זה, רעשי הרקע הופכים בולטים יותר; מעליו, הסיכון לגזירה עולה. השתמש במד בדף ההקלטה כדי להגדיר את הרווח שלך לפני שתתחיל."
+      },
+      "distance": {
+        "title": "מרחק מיקרופון: 15-30 ס\"מ",
+        "body": "הישאר 15 עד 30 ס\"מ מהמיקרופון. יותר קרוב מזה מקצין את הפלסיבים ואת אפקט הקרבה; רחוק יותר קולט יותר הדהוד ורעש בחדר."
+      },
+      "script": {
+        "title": "תסריט הקלטה",
+        "warmup": "חימום קולי (1-2 דקות)",
+        "vowels": "תנועות מתמשכות - א, ה, i, o, u",
+        "scales": "מאזניים פשוטים, למעלה ולמטה",
+        "excerpt": "קטע שיר (8 עד 16 תיבות)",
+        "dynamics": "דינמיקה: התחל רך, סוף חזק",
+        "spoken_phrase": "משפט אחד מדובר, כדי שסונו תוכל לקרוא את הטון הקולי שלך"
+      },
+      "expectations": {
+        "title": "מה שסונו מצפה",
+        "body": "WAV, 48 קילו-הרץ, מונו, יבש (ללא הדהוד או אפקטים), 3 עד 5 דקות של התייחסות. 2 הדקות הנקיות והמייצגות ביותר של הטייק בדרך כלל מניבות את התוצאות הטובות ביותר."
+      }
+    }
+  },
+  "status": {
+    "idea": "רעיון",
+    "em_progresso": "בתהליך",
+    "quase": "כמעט שם",
+    "pronto": "מוכן"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "תסריט ווקאלי מלא עבור Suno",
+      "desc": "5 דקות מודרכות: חימום, תנועות, סולמות, שני קטעי שיר, דינמיקה ומשפט מדובר."
+    },
+    "step": {
+      "warmup": "חימום קולי",
+      "warmup_inst": "השתחררו עם פיהוקים, רצועות שפתיים (brrr), וזמזום רך למשך כדקה. אין צורך להקליט - זה רק להרפות את הגרון לפני השירה.",
+      "vowels": "תנועות מתמשכות",
+      "vowels_inst": "החזק כל תנועות - a, e, i, o, u - למשך 3 עד 4 שניות בגובה הצליל הנוח שלך, עם עוצמת קול קבועה. זה עוזר ל-Suno לקלוט את הגוון הטהור של הקול שלך.",
+      "scales": "קנה מידה מעלה ומטה",
+      "scales_inst": "שר סולם פשוט למעלה ואחר כך למטה, על \"לה\" או \"נה\". זה לא צריך להיות מושלם - המטרה היא למפות את טווח הקול שלך.",
+      "section": "קטע שיר - חלק 1",
+      "section_inst": "שר 8 עד 16 תיבות של השיר, מתוך כוונה אמיתית שאתה רוצה להעביר. תעדוף בהירות ונוכחות על פני שלמות טכנית.",
+      "section2": "קטע שיר - חלק 2",
+      "section2_inst": "שרו עוד 8 עד 16 תיבות - באופן אידיאלי פזמון או קטע שעומד בניגוד לקודמו. מגוון רב יותר עוזר לדוגמנית ללמוד את הקול שלך.",
+      "dynamics": "דינמיקה: רכה → רועשת",
+      "dynamics_inst": "שרו את אותו משפט שמתחיל מאוד רך ומסתיים בקול רם, מבלי להתאמץ בגרון. זה מציג את הטווח הדינמי של הקול שלך ב-Suno.",
+      "spoken": "ביטוי מדובר",
+      "spoken_inst": "דבר - אל תשיר - משפט קצר וטבעי, כאילו אתה מפטפט. זה עוזר ל-Suno לזהות את הגוון האמיתי של הקול שלך."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "שיקום",
+      "filter": "מסננים",
+      "dynamics": "דינמיקה",
+      "separation": "הפרדה",
+      "quality": "איכות",
+      "utility": "שירות",
+      "loudness": "קולניות"
+    },
+    "highpass": "מסנן במעבר גבוה",
+    "lowpass": "מסנן במעבר נמוך",
+    "denoise": "הפחתת רעש",
+    "declip": "מחיקת גזרות",
+    "declick": "הסרת קליק/פופ",
+    "deesser": "דה-סר",
+    "gate": "שער רעש",
+    "compressor": "מדחס",
+    "limiter": "מגביל",
+    "eq": "שיוויון",
+    "normalize": "שיא נורמליזציה",
+    "loudness": "נורמליזציה של עוצמת קול (LUFS)",
+    "reverb_reduce": "הפחתת הדהוד",
+    "separate": "הפרדת מקורות",
+    "quality": "שיפור איכות (יוקרתי)",
+    "trim_silence": "חיתוך שקט",
+    "fade": "דהייה / דהייה החוצה",
+    "stereo_to_mono": "המר למונו",
+    "resample": "דגימה מחדש"
+  },
+  "metatags": {
+    "tier": {
+      "1": "אמין",
+      "2": "בדרך כלל עובד",
+      "3": "משתנה",
+      "4": "פלצבו"
+    },
+    "category": {
+      "structure": "מבנה",
+      "vocal": "ווקאלי",
+      "instrument": "מכשיר",
+      "dynamics": "דינמיקה",
+      "production": "הפקה",
+      "mood": "מצב רוח"
+    },
+    "verse": "פסוק",
+    "chorus": "פזמון",
+    "bridge": "גשר",
+    "intro": "הקדמה",
+    "outro": "אוטרו",
+    "hook": "הוק",
+    "prechorus": "קדם פזמון",
+    "instrumental": "אינסטרומנטלי",
+    "guitar_solo": "סולו גיטרה",
+    "build_up": "הצטברות",
+    "breakdown": "התמוטטות",
+    "spoken_word": "מילה מדוברת",
+    "whispered": "לחש",
+    "harmonies": "הרמוניות",
+    "male_vocal": "שירה גברית",
+    "female_vocal": "שירה נשית",
+    "duet": "דואט",
+    "acoustic": "אקוסטית",
+    "ad_lib": "אד-ליב"
+  },
+  "presets": {
+    "clean_voice": "קול נקי",
+    "voice_guitar_balanced": "קול מאוזן וגיטרה",
+    "podcast": "פודקאסט",
+    "suno_ready": "סונו מוכן",
+    "gentle_restore": "שחזור עדין",
+    "raw_passthrough": "אין עיבוד"
+  },
+  "errors": {
+    "unknown": "משהו השתבש.",
+    "network": "לא ניתן היה להגיע לשרת.",
+    "validation_error": "בדוק את המידע שהזנת.",
+    "not_found": "פריט לא נמצא.",
+    "project_not_found": "הפרויקט לא נמצא.",
+    "take_not_found": "קח לא נמצא.",
+    "album_not_found": "האלבום לא נמצא.",
+    "preset_not_found": "ההגדרה מראש לא נמצאה.",
+    "template_not_found": "התבנית לא נמצאה.",
+    "device_busy": "מכשיר השמע נמצא בשימוש על ידי תוכנה אחרת.",
+    "device_not_found": "מכשיר שמע לא נמצא.",
+    "already_recording": "הקלטה כבר מתבצעת.",
+    "ffmpeg_missing": "FFmpeg אינו מותקן - התקן אותו כדי להמיר קובץ זה.",
+    "disk_full": "אין מספיק מקום בדיסק.",
+    "permission_denied": "ההרשאה נדחתה עבור הנתיב הנתון.",
+    "import_path_not_found": "נתיב הייבוא ​​לא נמצא.",
+    "job_failed": "העיבוד נכשל.",
+    "job_cancelled": "העיבוד בוטל.",
+    "process_failed": "עיבוד הטייק נכשל.",
+    "export_failed": "ייצוא הקובץ נכשל.",
+    "record_failed": "התחלת ההקלטה נכשלה."
+  },
+  "jobs": {
+    "status": {
+      "queued": "בתור",
+      "running": "ריצה",
+      "done": "בוצע",
+      "error": "נכשל",
+      "cancelled": "בוטלה"
+    },
+    "kind": {
+      "process": "עיבוד",
+      "export": "ייצוא",
+      "import": "ייבוא",
+      "record": "הקלטה"
+    }
+  }
+}

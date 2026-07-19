@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Naetaer kleweled"
+  },
+  "nav": {
+    "library": "Levraoueg",
+    "record": "Enrollañ",
+    "import": "Enporzhiañ",
+    "templates": "Patromoù",
+    "settings": "Arventennoù",
+    "guide": "Titouroù"
+  },
+  "common": {
+    "save": "Enrollañ",
+    "saving": "Enrollañ...",
+    "saved": "Enrollet",
+    "cancel": "Nullañ",
+    "close": "Serriñ",
+    "delete": "Dilemel",
+    "edit": "Kemmañ",
+    "create": "Krouiñ",
+    "search": "Klask",
+    "loading": "O kargañ...",
+    "error": "Fazi",
+    "retry": "Adklask",
+    "confirm": "Kadarnaat",
+    "back": "En-dro",
+    "next": "Da heul",
+    "continue": "Kenderc'hel",
+    "finish": "Echuiñ",
+    "copy": "Eilañ",
+    "copied": "Eilet",
+    "download": "Pellgargañ",
+    "upload": "Pellgargañ",
+    "none": "Hini ebet",
+    "all": "An holl",
+    "yes": "Ya",
+    "no": "Nann",
+    "select": "Dibabit",
+    "optional": "dibab",
+    "required": "rekis",
+    "unsaved_changes": "Kemmoù nann enrollet",
+    "name": "Anv",
+    "status": "Statud",
+    "type": "Seurt",
+    "actions": "Oberoù",
+    "empty": "Goullo",
+    "browse": "Merdeiñ",
+    "remove": "Dilemel",
+    "add": "Ouzhpennañ",
+    "rename": "Adlakaat anv",
+    "duplicate": "Eilañ",
+    "warning": "Diwallit",
+    "locked": "Prennet",
+    "builtin": "Enkorfet",
+    "custom": "Personelaet",
+    "untitled": "Hep titl",
+    "select_placeholder": "Dibabit..."
+  },
+  "library": {
+    "title": "Levraoueg",
+    "subtitle": "Ho raktresoù mouezh ha gitar, eus ar mennozh d'an embann.",
+    "new_project": "Raktres nevez |",
+    "new_album": "Albom nevez |",
+    "search_placeholder": "Klask dre anv...",
+    "view": {
+      "grid": "Grillenn",
+      "albums": "Albomoù"
+    },
+    "filters": {
+      "all": "An holl"
+    },
+    "take_count_one": " {{count}} kemer",
+    "take_count_other": " {{count}} a gemer",
+    "updated_at": "Hizivaet {{date}} ",
+    "no_results": {
+      "title": "Raktres ebet bet kavet",
+      "description": "Klaskit reizhañ ar sil klask pe statud."
+    },
+    "empty": {
+      "title": "Goullo eo ho levraoueg",
+      "description": "Kregiñ gant ur raktres nevez adalek ar penn-kentañ, pe enporzhiañ an elfennoù hoc'h eus war ar bladenn dija.",
+      "cta_import": "Enporzhiañ eus an teuliad",
+      "cta_new": "Krouiñ ur raktres"
+    },
+    "project_dialog": {
+      "title": "Raktres nevez |",
+      "description": "Roit un anv dezhañ ha dibabit ur mod enrollañ.",
+      "name_label": "Anv ar raktres",
+      "name_placeholder": "da sk. Glav an hañv",
+      "mode_label": "Mod",
+      "mode": {
+        "voice": "Mouezh hepken",
+        "voice_guitar": "Mouezh + gitar"
+      },
+      "submit": "Krouiñ ur raktres"
+    },
+    "album_dialog": {
+      "title": "Albom nevez |",
+      "description": "Strollañ raktresoù liammet en ur bladenn.",
+      "name_label": "Anv ar bladenn",
+      "name_placeholder": "da sk. EP an diskar-amzer",
+      "submit": "Krouiñ un albom"
+    },
+    "album": {
+      "untitled": "Albom hep titl",
+      "members_count_one": " {{count}} raktres",
+      "members_count_other": " {{count}} raktresoù",
+      "empty": "Raktres ebet er bladenn-mañ c'hoazh.",
+      "delete_confirm_title": "Dilemel albom ?",
+      "delete_confirm_description": "Ne vo ket diverket ar raktresoù, nemet distaget diouzh \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Dilemel \" {{name}} \"?",
+      "confirm_description": "Gant-se e vez tennet ar raktres hag an holl draoù a zo ennañ. Ne c'haller ket distreiñ."
+    }
+  },
+  "record": {
+    "title": "Enrollañ",
+    "subtitle": "Tapout ur sell glan, sellet ouzh ho liveoù ha heuliañ ar senario.",
+    "project_label": "Raktres",
+    "project_placeholder": "Dibab ur raktres",
+    "project_create_quick": "Krouiñ ur raktres buan...",
+    "device_label": "Urzhiataer mont e-barzh",
+    "device_placeholder": "Dibab un dafariad",
+    "device_default_badge": "Dre ziouer ar reizhiad",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "N'eus bet kavet urzhiataer enporzhiañ ebet.",
+    "monitor_button": "Monitour",
+    "monitor_stop_button": "Paouez da evezhiañ",
+    "record_button": "Enrollañ",
+    "stop_button": "Paouez",
+    "elapsed_label": "Amzer tremenet",
+    "status": {
+      "idle": "Didalvoud",
+      "monitoring": "Heuliañ",
+      "recording": "Enrollañ",
+      "stopped": "Paouezet"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Beg",
+      "clip": "Klip"
+    },
+    "guide": {
+      "title": "Emvod heñchet",
+      "subtitle": "Lakaat ar c'hoarier da gas ac'hanoc'h dre ar senario tamm-ha-tamm, eus ar c'hoari betek ar frazenn gomzet.",
+      "loading": "O kargañ ar skript...",
+      "unavailable": "N'eo ket hegerz an dalc'h heñchet war ar servijer c'hoazh.",
+      "select_project_device": "Dibabit ur raktres hag un dafariad enporzhiañ evit enrollañ ar pazennoù adalek amañ.",
+      "progress": " {{done}} eus {{total}} pazennoù",
+      "start_timer": "Amzer loc'hañ",
+      "skip_timer": "Dilezel an amzer",
+      "record_step": "Enrollañ ar pazenn-mañ",
+      "stop_step": "Paouez da enrollañ",
+      "mark_done": "Echu — pazenn da heul",
+      "step_recorded": "Kemer enrollet",
+      "no_record_step": "Pazenn tommañ — n'eus ket ezhomm da enrollañ.",
+      "bars_hint": "War-dro {{bars}} barrennoù",
+      "complete_title": "Echu eo ar senario !",
+      "complete_body": "Enrollet hoc'h eus pep pazenn eus ar senario. Distreiñ d'an ivinell Audio eus ar raktres ha dibab ho skeudennoù karetañ.",
+      "restart": "Adloc'hañ ar skript"
+    },
+    "best2min": {
+      "button": "Kavout an 2 vunutenn wellañ (Suno)",
+      "running": "O dielfennañ ar c'hemer...",
+      "score_label": "Skor",
+      "hint": "Ober a ra un dielfennadur energiezh ha sklaerder war an holl filmoù evit kavout ar prenestr 2 vunutenn kreñvañ — gallout a rit c'hoazh adreizhañ ar c'hementad gant an dorn goude-se.",
+      "chart_caption": "Skor dre brenestr",
+      "unavailable": "N'eo ket hegerz an dielfennadur 2 vunutenn gwellañ war ar servijer-mañ c'hoazh."
+    },
+    "takes_title": "Tennet eus ar c'hentelioù-mañ",
+    "takes_empty": "N'eus bet enrollet film ebet en abadenn-mañ c'hoazh.",
+    "open_in_project": "Digeriñ er raktres",
+    "ws_disconnected": "Adkevreañ ouzh ar metr live...",
+    "select_project_first": "Dibabit ur raktres evit kregiñ.",
+    "select_device_first": "Dibabit un dafariad enporzhiañ."
+  },
+  "project": {
+    "back_to_library": "Distreiñ d'al levraoueg",
+    "header": {
+      "status_label": "Statud",
+      "cover_upload": "Pellgargañ ar golo",
+      "cover_remove": "Lemel ar golo",
+      "name_placeholder": "Anv ar raktres",
+      "links_title": "Liammoù",
+      "add_link": "Ouzhpennañ ul liamm",
+      "mode": {
+        "voice": "Mouezh hepken",
+        "voice_guitar": "Mouezh + gitar"
+      }
+    },
+    "tabs": {
+      "audio": "Klevet",
+      "lyrics": "Komzoù",
+      "prompts": "Goulennoù",
+      "notes": "Notennoù"
+    },
+    "audio": {
+      "takes_title": "Kemer a ra",
+      "no_takes": {
+        "title": "Taol ebet c'hoazh",
+        "description": "Enrollañ un adtapout nevez pe enporzhiañ ur restr zo anezhi dija."
+      },
+      "record_new": "Enrollañ un abadenn nevez",
+      "rating": "Priziañ",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Treuzfurmet"
+      },
+      "variant_placeholder": "Stumm",
+      "process_button": "Argerzh",
+      "export_button": "Ezporzhiañ",
+      "delete_take_confirm_title": "Dilemel an taol-mañ ?",
+      "delete_take_confirm_description": "Tennet e vo ar son c'hrouet hag an holl stummoù treuzfurmet.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Treuzfurmet"
+      },
+      "origin": {
+        "recorded": "Enrollet",
+        "imported": "Enporzhiet"
+      },
+      "session_label_placeholder": "Tikedenn an dalc'h (dibar)",
+      "duration": "Padelezh",
+      "sample_rate": "Feur skoueriekaat",
+      "channels": "Chadennoù",
+      "created_at": "Enrollet"
+    },
+    "pipeline": {
+      "title": "Enkadenn treuzfurmiñ",
+      "preset_label": "Raktreset",
+      "preset_none": "Enkadenn personelaet",
+      "preset_save": "Enrollañ evel raklakaet",
+      "stage_locked": "Prennet",
+      "stage_requires_extra": "Ret eo kaout un ouzhpenn ha n'eo ket staliet",
+      "process_button": "Kemer an argerzh",
+      "processing": "O treuzfurmiñ...",
+      "job_queued": "E-barzh ar renk...",
+      "job_running": "O treuzfurmiñ...",
+      "job_done": "Echu",
+      "job_error": "C'hwitet",
+      "job_cancelled": "Nullet",
+      "cancel_job": "Nullañ",
+      "no_stages": "Leurenn ebet."
+    },
+    "export": {
+      "title": "Kemer ezporzhiañ",
+      "description": "Reiñ ur restr diwezhañ diwar ur stumm treuzfurmet.",
+      "variant_label": "Stumm",
+      "format_label": "Furmaozañ",
+      "preset_label": "Ezporzhiañ raklakaet",
+      "range_label": "Hent",
+      "range_full": "Hirder leun",
+      "range_custom": "Amzer personelaet",
+      "start_label": "Kregiñ (où)",
+      "end_label": "Dibenn (où)",
+      "submit": "Ezporzhiañ",
+      "progress": "Restr o reiñ...",
+      "download_ready": "Prest eo ar restr",
+      "download_button": "Pellgargañ ar restr"
+    },
+    "notes": {
+      "placeholder": "Notennoù frank diwar-benn ar raktres-mañ...",
+      "saved_at": "Enrollet da {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Skrivit ar c'homzoù amañ. Implijit ar paled war an tu evit enlakaat meta-tikedennoù Suno.",
+      "saved_at": "Enrollet da {{time}} ",
+      "saving": "Enrollañ...",
+      "versions": "Stummoù",
+      "versions_empty": "Stumm enrollet ebet c'hoazh.",
+      "version_preview": "Rakwelet",
+      "restore": "Adderaouekaat ar stumm-mañ",
+      "restore_confirm_title": "Adderaouekaat ar stumm-mañ ?",
+      "restore_confirm_description": "Erlec'hiet e vo an destenn bremanel gant an hini enrollet d'an {{date}} .",
+      "metatags_title": "Meta-tikedennoù",
+      "metatags_hint": "Klikit war un dikedenn evit he lakaat e-barzh ar merdeer.",
+      "metatags_placebo_warning": "N'eo ket bet prouet — n'en deus efed ebet war an disoc'h marteze.",
+      "metatags_empty": "Meta-tikedenn ebet enrollet."
+    },
+    "prompts": {
+      "style_title": "Goulennoù stil",
+      "lyrics_title": "Goulennoù evit ar c'homzoù",
+      "template_label": "Patrom",
+      "template_none": "Patrom ebet",
+      "variables_title": "Argemmennoù",
+      "preview_title": "Rakwelet",
+      "preview_empty": "Dibabit ur patrom ha leuniit an argemmennoù evit gwelet ur rakweled.",
+      "char_count": " {{count}} arouezennoù",
+      "char_count_warning": "Ar goulennoù stil ouzhpenn 1000 arouezenn a c'hall bezañ troc'het gant Suno.",
+      "copy": "Eilañ",
+      "copied": "Eilet d'ar c'hlipbord",
+      "save_to_project": "Enrollañ er raktres",
+      "saved_to_project": "Enrollet eo bet ar goulenn er raktres",
+      "history_title": "Istor |",
+      "history_empty": "Stumm kent ebet.",
+      "current_label": "Bremañ"
+    },
+    "stems": {
+      "title": "Kan ha gitar",
+      "separate_button": "Kan ha gitar distag",
+      "running": "Dispartiañ...",
+      "vocals": "Kan",
+      "instrumental": "Binvioù",
+      "process_stem": "Treuzfurmiñ ar c'hef-mañ",
+      "empty": "N'eo ket bet dispartiet an taol-mañ c'hoazh. Redek disparti evit klevet ar c'han hag ar gitar en o-unan.",
+      "capability_missing": "N'eo ket staliet an disrann mammenn war an dafariad-mañ.",
+      "unavailable": "N'eo ket hegerz an disparti kan/gitar war ar servijer-mañ c'hoazh."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "War",
+    "boolean_off": "Diweredekaet"
+  },
+  "import": {
+    "title": "Enporzhiañ",
+    "subtitle": "Degas raktresoù a zo dija war ar bladenn el levraoueg.",
+    "step_indicator": "Pazenn {{current}} eus {{total}} ",
+    "step1": {
+      "title": "Kavout an teuliad",
+      "description": "Diskouezit an teuliad gwrizienn gant ho raktresoù hag ho roudoù.",
+      "path_label": "Hent an teuliad",
+      "path_placeholder": "da sk. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "Nevez zo",
+      "scan_button": "Teuliad skaniñ",
+      "scanning": "O skaniñ...",
+      "ffmpeg_warning": "FFmpeg n'eo ket bet kavet — dilezet e vo ar restroù o deus ezhomm da vezañ amdreiñ.",
+      "folders_found_one": " {{count}} teuliad kavet",
+      "folders_found_other": " {{count}} teuliadoù bet kavet",
+      "unmatched_files_one": " {{count}} restr dianavezet",
+      "unmatched_files_other": " {{count}} restroù dianavezet"
+    },
+    "step2": {
+      "title": "Adwelet elfennoù",
+      "description": "Gwiriit an anvioù, ar statudoù hag ar pezh a vo enporzhiet a-raok kadarnaat.",
+      "select_all": "Dibab an holl",
+      "table": {
+        "folder": "Teuliad tarzh",
+        "name": "Anv ar raktres",
+        "status": "Statud",
+        "audio": "Klevet",
+        "lyrics": "Komzoù",
+        "cover": "Golo",
+        "album": "Albom"
+      },
+      "audio_include_one": " {{count}} restr diuzet",
+      "audio_include_other": " {{count}} restroù dibabet",
+      "no_audio": "N'eus bet kavet son ebet",
+      "no_lyrics": "N'eus bet kavet komzoù ebet",
+      "no_cover": "Golo ebet",
+      "warnings_title": "Diwalloù"
+    },
+    "step3": {
+      "title": "Enporzhiañ",
+      "description": "Kadarnait evit kopiañ ar restroù ha krouiñ ar raktresoù.",
+      "copy_originals": "Eilañ restroù orin el levraoueg",
+      "execute_button": "Kregiñ gant an enporzhiañ",
+      "progress_title": "Enporzhiañ...",
+      "created_count": "Krouet : {{count}} ",
+      "skipped_count": "Dilezet : {{count}} ",
+      "done_title": "Echu eo an enporzhiañ",
+      "done_description": "En ho levraoueg eo bet krouet ar raktresoù amañ dindan.",
+      "view_project": "Digeriñ ar raktres",
+      "start_over": "Enporzhiadur nevez"
+    }
+  },
+  "templates": {
+    "title": "Patromoù",
+    "subtitle": "Patromoù goulenn ha meta-tikedennoù a c'haller adimplijout evit Suno.",
+    "tabs": {
+      "prompts": "Patromoù goulenn",
+      "metatags": "Meta-tikedennoù"
+    },
+    "new_template": "Patrom nevez",
+    "kind": {
+      "style": "Stil",
+      "lyrics": "Komzoù"
+    },
+    "kind_label": "Madelezhus",
+    "delete_confirm_title": "Dilemel ar patrom \" {{name}} \"?",
+    "delete_confirm_description": "Ne c'haller ket distreiñ.",
+    "empty": "Patrom ebet c'hoazh.",
+    "editor": {
+      "title_new": "Patrom nevez",
+      "title_edit": "Kemmañ ar patrom",
+      "name_label": "Anv",
+      "name_placeholder": "da sk. Kanaouenn akoustek",
+      "kind_label": "Madelezhus",
+      "template_label": "Testenn ar patrom",
+      "template_hint": "Merkañ pelec'h emañ pep argemmenn gant hec'h anv enrollet e-touez krommelloù doubl — da skouer, un argemmenn anvet \"genre\" a zeu da vezañ genre enrollet e-touez daou c'hroashent digoradur ha daou c'hroashent klozañ.",
+      "variables_label": "Argemmennoù",
+      "variable_add": "Ouzhpennañ an argemmenn",
+      "variable_name": "Alc'hwez",
+      "variable_label": "Tikedenn",
+      "variable_type": "Seurt",
+      "variable_type_string": "Testenn",
+      "variable_type_select": "Dibab unvan",
+      "variable_type_multiselect": "Liesdibab",
+      "variable_type_number": "Niver",
+      "variable_type_boolean": "Ya/nann",
+      "variable_options": "Dibarzhioù (dispartiet gant virgulenn)",
+      "variable_required": "Ret eo",
+      "save": "Enrollañ ar patrom"
+    },
+    "metatags": {
+      "title": "Meta-tikedennoù",
+      "subtitle": "Tikedennoù frammadurel ha stil a anavez Suno e-barzh ar gerioù.",
+      "new_tag": "Tikedenn nevez",
+      "tag_label": "Tag",
+      "tag_placeholder": "da sk. gitar-solo",
+      "category_label": "Rummad",
+      "tier_label": "Fiziañs",
+      "tier_legend_title": "Mojenn ar fiziañs",
+      "tier_legend": {
+        "1": "Live 1 — teuliet ha kempoell",
+        "2": "Live 2 — a ya en-dro peurliesañ",
+        "3": "Live 3 — efed kemmus",
+        "4": "Live 4 — plasebo, hep prouenn"
+      },
+      "description_label": "Deskrivadur",
+      "delete_confirm_title": "Dilemel an dikedenn \" {{tag}} \" ?",
+      "empty": "Meta-tiked personelaet ebet c'hoazh."
+    }
+  },
+  "settings": {
+    "title": "Arventennoù",
+    "subtitle": "Titouroù ar reizhiad, ar yezh hag ar pennaennoù dre ziouer.",
+    "system_info_title": "Reizhiad",
+    "version": "Stumm",
+    "data_dir": "Teuliad roadennoù",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Hegerz",
+    "ffmpeg_missing": "N'eo ket bet kavet",
+    "capabilities_title": "Barregezhioù staliet",
+    "capability": {
+      "denoise": "Digreskiñ trouz",
+      "quality": "Gwellaat ar c'halite",
+      "separate": "Dispartiañ ar vammenn",
+      "ffmpeg": "Treiñ FFmpeg"
+    },
+    "capability_available": "Hegerz",
+    "capability_unavailable": "N'eo ket hegerz",
+    "gpu_title": "buanaat ar GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "pourvezerien ONNX Runtime"
+    },
+    "gpu_none": "N'eus bet kavet pourvezer GPU ebet",
+    "language_title": "Yezh",
+    "language": {
+      "pt-BR": "Portugal (Brazil)",
+      "en": "saozneg"
+    },
+    "theme_title": "Gwel",
+    "theme": {
+      "dark": "Teñval",
+      "light": "Gouloù"
+    },
+    "defaults_title": "Ezporzhiañ dre ziouer",
+    "lufs_target_label": "LUFS tarzh",
+    "lufs_target_hint": "Implijet e vez evel mennozh kregiñ pa vez ezporzhiet an taolioù. War-dro -14 LUFS eo ar feur dre ziouer gant Suno.",
+    "saved": "Dibarzhioù enrollet"
+  },
+  "guide": {
+    "title": "Titouroù enrollañ Suno",
+    "subtitle": "Penaos tapout ar vouezh hag ar gitar a zegas an disoc'hoù gwellañ.",
+    "intro": "Suno a ya gwelloc'h gant daveoù glan ha dister. Ar c'hemennadenn-mañ a denn d'ar prientiñ, d'al liveoù pal, ha d'ur senario enrollañ 3-5 munutenn.",
+    "sections": {
+      "prep": {
+        "title": "Prientiñ",
+        "body": "Enrollañ en ur sal tretet pe en unan gant kalz a dafar dous (rideozoù, tapisoù, dilhad en ur c'hloz). Lazhañ ar ventilatourien ha kement tra a c'hwezh. Tommit ho mouezh e-pad 5 munutenn a-raok enrollañ."
+      },
+      "levels": {
+        "title": "Liveoù : -12 da -6 dBFS",
+        "body": "Klaskit pikoù etre -12 ha -6 dBFS war ar metrad. Dindan ar rann-se e teu ar brud a-dreñv da vezañ muioc'h merzet ; a-us dezhañ e kresk ar riskloù troc'hañ. Implijit ar metr war ar bajenn Enrollañ evit termeniñ ho gounid a-raok kregiñ."
+      },
+      "distance": {
+        "title": "Pellder ar mikro : 15–30 cm",
+        "body": "Chomit 15 da 30 cm diouzh ar mikro. Tostañ eget se a laka ar plosivoù hag an efed tostaat da vezañ brasoc'h ; pelloc'h e vez muioc'h a reverb ha trouz er sal."
+      },
+      "script": {
+        "title": "Skrid enrollañ",
+        "warmup": "Tommañ ar vouezh (1–2 vunutenn)",
+        "vowels": "Vogalennoù padus — a, e, i, o, u",
+        "scales": "Skeudennoù eeun, war-zu an nec'h hag an traoñ",
+        "excerpt": "Un tamm kanaouenn (8 da 16 barrenn)",
+        "dynamics": "Dinamik : kregiñ dous, echuiñ kreñv",
+        "spoken_phrase": "Ur frazenn dre gomz, evit ma c'hallfe Suno lenn ho ton mouezh"
+      },
+      "expectations": {
+        "title": "Ar pezh a c'hortoz Suno",
+        "body": "WAV, 48 kHz, mono, sec'h (hep reverb pe efedoù), 3 da 5 munutenn dave. An 2 vunutenn glanañ ha dileuriañ eus ar filmadenn a ginnig an disoc'hoù gwellañ peurliesañ."
+      }
+    }
+  },
+  "status": {
+    "idea": "Mennozh",
+    "em_progresso": "O vont war-raok",
+    "quase": "Tost eno",
+    "pronto": "Prest"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Senario kan klok evit Suno",
+      "desc": "5 munutenn heñchet : tommañ, vogalennoù, skeulioù, daou rann eus ar ganaouenn, dinamikoù, hag ur frazenn dre gomz."
+    },
+    "step": {
+      "warmup": "Tommañ ar vouezh",
+      "warmup_inst": "Lakaat ho kalon gant mousc'hoarzhoù, troc'hadennoù muzelloù (brrr), hag ur c'hwezhadenn dous e-pad ur vunutenn bennak. N'eus ket ezhomm da enrollañ — evit dihuniñ ar c'houzoug a-raok kanañ eo hepken.",
+      "vowels": "Vogalennoù padus",
+      "vowels_inst": "Dalc'hit pep vogalenn — a, e, i, o, u — e-pad 3 pe 4 eilenn gant ho ton aes, gant ur vouezh stank. Gant-se e sikour Suno da dapout timbre glan ho mouezh.",
+      "scales": "Skeudennoù war-zu an nec'h hag an traoñ",
+      "scales_inst": "Kanit ur skalfad simpl war-zu an nec'h ha war-zu an traoñ goude, war \"la\" pe \"na\". N'eo ket ret dezhañ bezañ parfet — ar pal eo kartennaouiñ ho tachenn vouezh.",
+      "section": "Pennad kanaouenn — lodenn 1",
+      "section_inst": "Kanit 8 pe 16 troad eus ar ganaouenn, gant ar gwir youl a fell deoc'h treuzkas. Lakaat ar sklaerder hag ar bezañs da gentañ war ar barfeted teknikel.",
+      "section2": "Pennad kanaouenn — lodenn 2",
+      "section2_inst": "Kanit 8 pe 16 ton all — ur c'hor pe ur rann a glot gant an hini a-raok, gwelloc'h eo. Muioc'h a liesseurted a sikour ar patrom da zeskiñ ho mouezh.",
+      "dynamics": "Dinamikoù : dous → kreñv",
+      "dynamics_inst": "Kanit ar memes frazenn o kregiñ dous-tre hag o echuiñ kreñv, hep strishaat ho gouzoug. Diskouez a ra Suno ment dinamek ho mouezh.",
+      "spoken": "Frazenn dre gomz",
+      "spoken_inst": "Komzit — na ganit ket — ur frazenn verr ha naturel, evel pa vijec'h o flapañ. Gant-se e sikour Suno da anavezout gwir timbre ho mouezh."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Adkempenn",
+      "filter": "Siloù",
+      "dynamics": "Dinamikoù",
+      "separation": "Dispartiañ",
+      "quality": "Kalite",
+      "utility": "Talvoudegezh",
+      "loudness": "Trouz"
+    },
+    "highpass": "Sil tremen uhel",
+    "lowpass": "Sil tremen izel",
+    "denoise": "Digreskiñ trouz",
+    "declip": "Dilemel",
+    "declick": "Dilemel ar c'hlik/pop",
+    "deesser": "Di-esser",
+    "gate": "Porzh trouz",
+    "compressor": "Gwaskañ",
+    "limiter": "Bevenner",
+    "eq": "Kevataladur",
+    "normalize": "Normaladur uhelañ",
+    "loudness": "Normaladur ar vouezh (LUFS)",
+    "reverb_reduce": "Digreskiñ an advouezhiañ",
+    "separate": "Dispartiañ ar vammenn",
+    "quality": "Gwellaat ar c'halite (uhel)",
+    "trim_silence": "Troc'hañ ar sioulder",
+    "fade": "Diverkañ e-barzh / diverkañ",
+    "stereo_to_mono": "Treiñ da mono",
+    "resample": "Adsampling"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Fiziañs",
+      "2": "Labourat a ra peurliesañ",
+      "3": "Argemmenn",
+      "4": "Plasebo"
+    },
+    "category": {
+      "structure": "Struktur",
+      "vocal": "Kan",
+      "instrument": "Benveg",
+      "dynamics": "Dinamikoù",
+      "production": "Produiñ",
+      "mood": "Aergelc'h"
+    },
+    "verse": "gwerzenn",
+    "chorus": "Labour-kanañ",
+    "bridge": "Pont",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Krog",
+    "prechorus": "Rak-laz-kanañ",
+    "instrumental": "Binvioù",
+    "guitar_solo": "Gitar solo",
+    "build_up": "Sevel",
+    "breakdown": "Disrann",
+    "spoken_word": "Komz komzet",
+    "whispered": "C'hwitellat",
+    "harmonies": "Harmonioù",
+    "male_vocal": "Mouezh gourel",
+    "female_vocal": "Kan merc'hed",
+    "duet": "Daouad",
+    "acoustic": "Akoustek",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Mouezh glan",
+    "voice_guitar_balanced": "Mouezh ha gitar kempoell",
+    "podcast": "Podkast",
+    "suno_ready": "Suno prest",
+    "gentle_restore": "Adderaouekaat dous",
+    "raw_passthrough": "Tretañ ebet"
+  },
+  "errors": {
+    "unknown": "Un dra bennak a zo aet fall.",
+    "network": "N'eus ket bet gallet tizhout ar servijer.",
+    "validation_error": "Gwiriit an titouroù hoc'h eus lakaet.",
+    "not_found": "Elfenn n'eo ket bet kavet.",
+    "project_not_found": "N'eo ket bet kavet ar raktres.",
+    "take_not_found": "Kemer n'eo ket bet kavet.",
+    "album_not_found": "Albom n'eo ket bet kavet.",
+    "preset_not_found": "N'eo ket bet kavet an arventenn.",
+    "template_not_found": "N'eo ket bet kavet ar patrom.",
+    "device_busy": "Ar benveg kleweled a zo implijet gant ur programm all.",
+    "device_not_found": "N'eo ket bet kavet un dafariad kleweled.",
+    "already_recording": "Un enrolladenn a zo o vont war-raok dija.",
+    "ffmpeg_missing": "N'eo ket staliet FFmpeg — stalit anezhañ evit amdreiñ ar restr-mañ.",
+    "disk_full": "N'eus ket a blas a-walc'h war ar bladenn.",
+    "permission_denied": "Nac'het eo bet an aotre evit an hent roet.",
+    "import_path_not_found": "N'eo ket bet kavet an hent enporzhiañ.",
+    "job_failed": "C'hwitet en deus an tretañ.",
+    "job_cancelled": "Nullet eo bet an tretañ.",
+    "process_failed": "C'hwitet en deus treuzfurmet an tennañ.",
+    "export_failed": "C'hwitet ezporzhiañ ar restr.",
+    "record_failed": "C'hwitet en deus kroget gant an enrollañ."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Lakaet e renk",
+      "running": "O redek",
+      "done": "Echu",
+      "error": "C'hwitet",
+      "cancelled": "Nullet"
+    },
+    "kind": {
+      "process": "Tretañ",
+      "export": "Ezporzhiañ",
+      "import": "Enporzhiañ",
+      "record": "Enrollañ"
+    }
+  }
+}

@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Hljóðhreinsiefni"
+  },
+  "nav": {
+    "library": "Bókasafn",
+    "record": "Upptaka",
+    "import": "Innflutningur",
+    "templates": "Sniðmát",
+    "settings": "Stillingar",
+    "guide": "Leiðsögumaður"
+  },
+  "common": {
+    "save": "Vista",
+    "saving": "Vistar...",
+    "saved": "Vistað",
+    "cancel": "Hætta við",
+    "close": "Loka",
+    "delete": "Eyða",
+    "edit": "Breyta",
+    "create": "Búa til",
+    "search": "Leita",
+    "loading": "Hleður…",
+    "error": "Villa",
+    "retry": "Reyndu aftur",
+    "confirm": "Staðfesta",
+    "back": "Til baka",
+    "next": "Næst",
+    "continue": "Halda áfram",
+    "finish": "Ljúktu",
+    "copy": "Afrita",
+    "copied": "Afritað",
+    "download": "Sækja",
+    "upload": "Hlaða upp",
+    "none": "Engin",
+    "all": "Allt",
+    "yes": "Já",
+    "no": "Nei",
+    "select": "Veldu",
+    "optional": "valfrjálst",
+    "required": "krafist",
+    "unsaved_changes": "Óvistaðar breytingar",
+    "name": "Nafn",
+    "status": "Staða",
+    "type": "Tegund",
+    "actions": "Aðgerðir",
+    "empty": "Tómt",
+    "browse": "Skoðaðu",
+    "remove": "Fjarlægja",
+    "add": "Bæta við",
+    "rename": "Endurnefna",
+    "duplicate": "Afrit",
+    "warning": "Viðvörun",
+    "locked": "Læst",
+    "builtin": "Innbyggður",
+    "custom": "Sérsniðin",
+    "untitled": "Án titils",
+    "select_placeholder": "Veldu…"
+  },
+  "library": {
+    "title": "Bókasafn",
+    "subtitle": "Rödd þín og gítarverkefni, frá hugmynd til útgáfu.",
+    "new_project": "Nýtt verkefni",
+    "new_album": "Ný plata",
+    "search_placeholder": "Leita eftir nafni…",
+    "view": {
+      "grid": "Grid",
+      "albums": "Albúm"
+    },
+    "filters": {
+      "all": "Allt"
+    },
+    "take_count_one": " {{count}} taka",
+    "take_count_other": " {{count}} tekur",
+    "updated_at": "Uppfært {{date}} ",
+    "no_results": {
+      "title": "Engin verkefni fundust",
+      "description": "Prófaðu að stilla leitar- eða stöðusíuna."
+    },
+    "empty": {
+      "title": "Bókasafnið þitt er tómt",
+      "description": "Byrjaðu nýtt verkefni frá grunni, eða flyttu inn myndir sem þú hefur þegar á disknum.",
+      "cta_import": "Flytja inn úr möppu",
+      "cta_new": "Búa til verkefni"
+    },
+    "project_dialog": {
+      "title": "Nýtt verkefni",
+      "description": "Gefðu því nafn og veldu upptökuham.",
+      "name_label": "Heiti verkefnis",
+      "name_placeholder": "t.d. Sumarrigning",
+      "mode_label": "Mode",
+      "mode": {
+        "voice": "Aðeins rödd",
+        "voice_guitar": "Rödd + gítar"
+      },
+      "submit": "Búa til verkefni"
+    },
+    "album_dialog": {
+      "title": "Ný plata",
+      "description": "Flokkaðu tengdum verkefnum í albúm.",
+      "name_label": "Nafn albúms",
+      "name_placeholder": "t.d. Haust EP",
+      "submit": "Búa til albúm"
+    },
+    "album": {
+      "untitled": "Ónefnd plata",
+      "members_count_one": " {{count}} verkefni",
+      "members_count_other": " {{count}} verkefni",
+      "empty": "Engin verkefni í þessari plötu ennþá.",
+      "delete_confirm_title": "Eyða albúmi?",
+      "delete_confirm_description": "Verkefnum verður ekki eytt, aðeins aftengt frá \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Eyða \"{{name}}\"?",
+      "confirm_description": "Þetta fjarlægir verkefnið og hverja töku í því. Þetta er ekki hægt að afturkalla."
+    }
+  },
+  "record": {
+    "title": "Upptaka",
+    "subtitle": "Taktu hreina töku, horfðu á borðin þín og fylgdu handritinu.",
+    "project_label": "Verkefni",
+    "project_placeholder": "Veldu verkefni",
+    "project_create_quick": "Búðu til fljótlegt verkefni...",
+    "device_label": "Inntakstæki",
+    "device_placeholder": "Veldu tæki",
+    "device_default_badge": "Sjálfgefið kerfi",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Engin inntakstæki fundust.",
+    "monitor_button": "Fylgjast með",
+    "monitor_stop_button": "Hætta að fylgjast með",
+    "record_button": "Upptaka",
+    "stop_button": "Hættu",
+    "elapsed_label": "Tími liðinn",
+    "status": {
+      "idle": "Aðgerðarlaus",
+      "monitoring": "Eftirlit",
+      "recording": "Upptaka",
+      "stopped": "Hætt"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Hámarki",
+      "clip": "Klipp"
+    },
+    "guide": {
+      "title": "Leiðsögn",
+      "subtitle": "Leyfðu þjálfaranum að leiða þig í gegnum handritið skref fyrir skref, frá upphitun til talaðrar setningar.",
+      "loading": "Hleður skriftu...",
+      "unavailable": "Leiðsögnin er ekki enn tiltæk á þjóninum.",
+      "select_project_device": "Veldu verkefni og inntakstæki til að skrá skref strax héðan.",
+      "progress": " {{done}} af {{total}} skrefum",
+      "start_timer": "Byrja tímamælir",
+      "skip_timer": "Slepptu tímamæli",
+      "record_step": "Skráðu þetta skref",
+      "stop_step": "Hættu að taka upp",
+      "mark_done": "Lokið - næsta skref",
+      "step_recorded": "Taktu upp",
+      "no_record_step": "Upphitunarskref — engin þörf á upptöku.",
+      "bars_hint": "Um {{bars}} strik",
+      "complete_title": "Handriti lokið!",
+      "complete_body": "Þú hefur tekið upp hvert skref handritsins. Farðu aftur á hljóðflipann verkefnisins og veldu uppáhalds myndirnar þínar.",
+      "restart": "Endurræstu handritið"
+    },
+    "best2min": {
+      "button": "Finndu bestu 2 mínúturnar (Suno)",
+      "running": "Er að greina tökuna…",
+      "score_label": "Skora",
+      "hint": "Keyrir orku- og skýrleikagreiningu yfir alla tökuna til að finna sterkasta 2-mínútna gluggann - þú getur samt stillt bilið með höndunum eftir það.",
+      "chart_caption": "Einkunn fyrir hvern glugga",
+      "unavailable": "Besta 2-mínútna greiningin er ekki enn tiltæk á þessum netþjóni."
+    },
+    "takes_title": "Tekur af þessu þingi",
+    "takes_empty": "Engar tökur skráðar í þessari lotu ennþá.",
+    "open_in_project": "Opið í verkefni",
+    "ws_disconnected": "Tengist aftur við stigmælinn...",
+    "select_project_first": "Veldu verkefni til að byrja.",
+    "select_device_first": "Veldu inntakstæki."
+  },
+  "project": {
+    "back_to_library": "Aftur á bókasafnið",
+    "header": {
+      "status_label": "Staða",
+      "cover_upload": "Hladdu upp forsíðu",
+      "cover_remove": "Fjarlægðu hlífina",
+      "name_placeholder": "Heiti verkefnis",
+      "links_title": "Tenglar",
+      "add_link": "Bæta við tengli",
+      "mode": {
+        "voice": "Aðeins rödd",
+        "voice_guitar": "Rödd + gítar"
+      }
+    },
+    "tabs": {
+      "audio": "Hljóð",
+      "lyrics": "Textar",
+      "prompts": "Hvetja",
+      "notes": "Skýringar"
+    },
+    "audio": {
+      "takes_title": "Tekur",
+      "no_takes": {
+        "title": "Engin tekur ennþá",
+        "description": "Taktu upp nýja töku eða fluttu inn núverandi skrá."
+      },
+      "record_new": "Taktu upp nýja töku",
+      "rating": "Einkunn",
+      "variant": {
+        "raw": "Hrátt",
+        "processed": "Unnið"
+      },
+      "variant_placeholder": "Útgáfa",
+      "process_button": "Ferli",
+      "export_button": "Útflutningur",
+      "delete_take_confirm_title": "Eyða þessari töku?",
+      "delete_take_confirm_description": "Hrátt hljóð og sérhver unnin útgáfa verður fjarlægð.",
+      "ab": {
+        "raw": "A · Hrátt",
+        "processed": "B · Unnið"
+      },
+      "origin": {
+        "recorded": "Skráð",
+        "imported": "Innflutt"
+      },
+      "session_label_placeholder": "Setumerki (valfrjálst)",
+      "duration": "Lengd",
+      "sample_rate": "Sýnatíðni",
+      "channels": "Rásir",
+      "created_at": "Skráð"
+    },
+    "pipeline": {
+      "title": "Vinnslukeðja",
+      "preset_label": "Forstillt",
+      "preset_none": "Sérsniðin keðja",
+      "preset_save": "Vista sem forstilling",
+      "stage_locked": "Læst",
+      "stage_requires_extra": "Krefst aukabúnaðar sem er ekki uppsettur",
+      "process_button": "Ferli taka",
+      "processing": "Vinnur…",
+      "job_queued": "Í biðröð…",
+      "job_running": "Vinnur…",
+      "job_done": "Búið",
+      "job_error": "Mistókst",
+      "job_cancelled": "Hætt við",
+      "cancel_job": "Hætta við",
+      "no_stages": "Engir áfangar í boði."
+    },
+    "export": {
+      "title": "Útflutningur taka",
+      "description": "Gerðu lokaskrá úr unnin útgáfu.",
+      "variant_label": "Útgáfa",
+      "format_label": "Snið",
+      "preset_label": "Flytja út forstilling",
+      "range_label": "Svið",
+      "range_full": "Full lengd",
+      "range_custom": "Sérsniðið úrval",
+      "start_label": "Byrja (s)",
+      "end_label": "Lok (s)",
+      "submit": "Útflutningur",
+      "progress": "Gerir skrá...",
+      "download_ready": "Skrá tilbúin",
+      "download_button": "Sækja skrá"
+    },
+    "notes": {
+      "placeholder": "Skýringar í frjálsu formi um þetta verkefni...",
+      "saved_at": "Vistað á {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Skrifaðu textann hér. Notaðu litatöfluna á hliðinni til að setja inn Suno meta-merki.",
+      "saved_at": "Vistað á {{time}} ",
+      "saving": "Vistar...",
+      "versions": "Útgáfur",
+      "versions_empty": "Engar vistaðar útgáfur ennþá.",
+      "version_preview": "Forskoðun",
+      "restore": "Endurheimtu þessa útgáfu",
+      "restore_confirm_title": "Endurheimta þessa útgáfu?",
+      "restore_confirm_description": "Núverandi texti verður skipt út fyrir útgáfuna sem er vistuð á {{date}}.",
+      "metatags_title": "Metamerki",
+      "metatags_hint": "Smelltu á merki til að setja það inn við bendilinn.",
+      "metatags_placebo_warning": "Ósannað - gæti ekki haft nein áhrif á niðurstöðuna.",
+      "metatags_empty": "Engin meta-merki skráð."
+    },
+    "prompts": {
+      "style_title": "Stílboð",
+      "lyrics_title": "Hvetjandi texta",
+      "template_label": "Sniðmát",
+      "template_none": "Ekkert sniðmát",
+      "variables_title": "Breytur",
+      "preview_title": "Forskoðun",
+      "preview_empty": "Veldu sniðmát og fylltu út breyturnar til að sjá forskoðun.",
+      "char_count": " {{count}} stafir",
+      "char_count_warning": "Stílbeiðnir yfir 1000 stafir geta verið styttir af Suno.",
+      "copy": "Afrita",
+      "copied": "Afritað á klippiborð",
+      "save_to_project": "Vista í verkefni",
+      "saved_to_project": "Tilkynning vistuð í verkefni",
+      "history_title": "Saga",
+      "history_empty": "Engar fyrri útgáfur.",
+      "current_label": "Núverandi"
+    },
+    "stems": {
+      "title": "Söngur og gítar",
+      "separate_button": "Aðskilið söng og gítar",
+      "running": "Aðskilur...",
+      "vocals": "Söngur",
+      "instrumental": "Hljóðfæraleikur",
+      "process_stem": "Vinndu þennan stilk",
+      "empty": "Þessi töku hefur ekki verið aðskilin ennþá. Keyrðu aðskilnað til að heyra sönginn og gítarinn í einangrun.",
+      "capability_missing": "Upprunaaðskilnaður er ekki settur upp á þessum þjóni.",
+      "unavailable": "Söng-/gítaraðskilnaður er ekki enn í boði á þessum þjóni."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Á",
+    "boolean_off": "Slökkt"
+  },
+  "import": {
+    "title": "Innflutningur",
+    "subtitle": "Komdu með verkefni sem þegar eru til á diski inn á bókasafnið.",
+    "step_indicator": "Skref {{current}} af {{total}} ",
+    "step1": {
+      "title": "Finndu möppu",
+      "description": "Bentu á rótarmöppuna með verkefnum þínum og lögum.",
+      "path_label": "Möppuslóð",
+      "path_placeholder": "t.d. E:\\Robbs\\Pride\\Tónlist\\ROBBS",
+      "recent_label": "Nýleg",
+      "scan_button": "Skanna möppu",
+      "scanning": "Skannar…",
+      "ffmpeg_warning": "FFmpeg fannst ekki - skrám sem þarfnast umbreytingar verður sleppt.",
+      "folders_found_one": " {{count}} mappa fannst",
+      "folders_found_other": " {{count}} möppur fundust",
+      "unmatched_files_one": " {{count}} óþekkt skrá",
+      "unmatched_files_other": " {{count}} óþekktar skrár"
+    },
+    "step2": {
+      "title": "Farið yfir atriði",
+      "description": "Athugaðu nöfn, stöður og hvað verður flutt inn áður en þú staðfestir.",
+      "select_all": "Veldu allt",
+      "table": {
+        "folder": "Heimildarmöppu",
+        "name": "Heiti verkefnis",
+        "status": "Staða",
+        "audio": "Hljóð",
+        "lyrics": "Textar",
+        "cover": "Kápa",
+        "album": "Albúm"
+      },
+      "audio_include_one": " {{count}} skrá valin",
+      "audio_include_other": " {{count}} skrár valdar",
+      "no_audio": "Ekkert hljóð fannst",
+      "no_lyrics": "Enginn texti fannst",
+      "no_cover": "Engin kápa",
+      "warnings_title": "Viðvaranir"
+    },
+    "step3": {
+      "title": "Innflutningur",
+      "description": "Staðfestu að afrita skrárnar og búa til verkefnin.",
+      "copy_originals": "Afritaðu upprunalegu skrárnar í bókasafnið",
+      "execute_button": "Byrjaðu innflutning",
+      "progress_title": "Flytur inn...",
+      "created_count": "Búið til: {{count}} ",
+      "skipped_count": "Sleppt: {{count}} ",
+      "done_title": "Innflutningi lokið",
+      "done_description": "Verkefnin hér að neðan voru búin til í bókasafninu þínu.",
+      "view_project": "Opið verkefni",
+      "start_over": "Nýr innflutningur"
+    }
+  },
+  "templates": {
+    "title": "Sniðmát",
+    "subtitle": "Endurnotanleg hvetjasniðmát og meta-merki fyrir Suno.",
+    "tabs": {
+      "prompts": "Hvetja sniðmát",
+      "metatags": "Metamerki"
+    },
+    "new_template": "Nýtt sniðmát",
+    "kind": {
+      "style": "Stíll",
+      "lyrics": "Textar"
+    },
+    "kind_label": "Vingjarnlegur",
+    "delete_confirm_title": "Eyða sniðmáti \" {{name}} \"?",
+    "delete_confirm_description": "Þetta er ekki hægt að afturkalla.",
+    "empty": "Engin sniðmát ennþá.",
+    "editor": {
+      "title_new": "Nýtt sniðmát",
+      "title_edit": "Breyta sniðmáti",
+      "name_label": "Nafn",
+      "name_placeholder": "t.d. Akústísk ballaða",
+      "kind_label": "Vingjarnlegur",
+      "template_label": "Texti sniðmáts",
+      "template_hint": "Merktu hvar hver breyta tilheyrir með nafni hennar vafið í tvöfalda krullaða axlabönd — til dæmis verður breyta sem heitir „tegund“ að tegund sem er vafið í tvær opnunar- og tvær lokasleppur.",
+      "variables_label": "Breytur",
+      "variable_add": "Bæta við breytu",
+      "variable_name": "Lykill",
+      "variable_label": "Merki",
+      "variable_type": "Tegund",
+      "variable_type_string": "Texti",
+      "variable_type_select": "Einfalt val",
+      "variable_type_multiselect": "Fjölval",
+      "variable_type_number": "Númer",
+      "variable_type_boolean": "Já/nei",
+      "variable_options": "Valkostir (aðskilin með kommum)",
+      "variable_required": "Áskilið",
+      "save": "Vista sniðmát"
+    },
+    "metatags": {
+      "title": "Metamerki",
+      "subtitle": "Uppbyggingar- og stílmerki Suno þekkir texta.",
+      "new_tag": "Nýtt merki",
+      "tag_label": "Merkja",
+      "tag_placeholder": "t.d. gítar-sóló",
+      "category_label": "Flokkur",
+      "tier_label": "Áreiðanleiki",
+      "tier_legend_title": "Áreiðanleikagoðsögn",
+      "tier_legend": {
+        "1": "Tier 1 - skjalfest og í samræmi",
+        "2": "Tier 2 - virkar venjulega",
+        "3": "Tier 3 — breytileg áhrif",
+        "4": "Tier 4 - lyfleysa, ósannað"
+      },
+      "description_label": "Lýsing",
+      "delete_confirm_title": "Eyða merkinu \" {{tag}} \"?",
+      "empty": "Engin sérsniðin meta-merki ennþá."
+    }
+  },
+  "settings": {
+    "title": "Stillingar",
+    "subtitle": "Kerfisupplýsingar, tungumál og sjálfgefnar stillingar.",
+    "system_info_title": "Kerfi",
+    "version": "Útgáfa",
+    "data_dir": "Gagnamöppu",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Í boði",
+    "ffmpeg_missing": "Fannst ekki",
+    "capabilities_title": "Uppsettir möguleikar",
+    "capability": {
+      "denoise": "Hávaðaminnkun",
+      "quality": "Gæðaaukning",
+      "separate": "Upprunaaðskilnaður",
+      "ffmpeg": "FFmpeg umbreytingu"
+    },
+    "capability_available": "Í boði",
+    "capability_unavailable": "Ekki tiltækt",
+    "gpu_title": "GPU hröðun",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime veitendur"
+    },
+    "gpu_none": "Engar GPU veitendur fundust",
+    "language_title": "Tungumál",
+    "language": {
+      "pt-BR": "Português (Brasilía)",
+      "en": "ensku"
+    },
+    "theme_title": "Útlit",
+    "theme": {
+      "dark": "Myrkur",
+      "light": "Ljós"
+    },
+    "defaults_title": "Útflutningur sjálfgefið",
+    "lufs_target_label": "Miða á LUFS",
+    "lufs_target_hint": "Notað sem upphafstillaga þegar útflutningur tekur. Sjálfgefið er hjá Suno um -14 LUFS.",
+    "saved": "Kjörstillingar vistaðar"
+  },
+  "guide": {
+    "title": "Suno upptökuleiðbeiningar",
+    "subtitle": "Hvernig á að fanga radd- og gítartak sem ná sem bestum árangri.",
+    "intro": "Suno stendur sig best með hreinum, ótvíræðum tilvísunum. Þessi handbók fjallar um undirbúning, markstig og 3–5 mínútna upptökuhandrit.",
+    "sections": {
+      "prep": {
+        "title": "Undirbúningur",
+        "body": "Taktu upp í meðhöndluðu herbergi eða með miklu mjúku efni (gardínur, mottur, föt í skáp). Slökktu á viftum og öllu sem raular. Hitaðu röddina í 5 mínútur áður en þú tekur upp."
+      },
+      "levels": {
+        "title": "Stig: -12 til -6 dBFS",
+        "body": "Miðaðu við toppa á milli -12 og -6 dBFS á mælinum. Fyrir neðan það svið verður bakgrunnshljóð meira áberandi; fyrir ofan það eykst klippahætta. Notaðu mælinn á Record síðunni til að stilla ávinninginn þinn áður en þú byrjar."
+      },
+      "distance": {
+        "title": "Fjarlægð hljóðnema: 15–30 cm",
+        "body": "Vertu 15 til 30 cm frá hljóðnemanum. Nær en það ýkir plosives og nálægðaráhrif; lengra í burtu tekur upp meiri reverb og hávaða."
+      },
+      "script": {
+        "title": "Upptökuhandrit",
+        "warmup": "Raddupphitun (1–2 mínútur)",
+        "vowels": "Viðvarandi sérhljóðar - a, e, i, o, u",
+        "scales": "Einföld vog, upp og niður",
+        "excerpt": "Lagaútdráttur (8 til 16 taktar)",
+        "dynamics": "Dynamics: byrja mjúkt, enda hátt",
+        "spoken_phrase": "Ein töluð setning, svo Suno geti lesið raddhljóminn þinn"
+      },
+      "expectations": {
+        "title": "Það sem Suno býst við",
+        "body": "WAV, 48 kHz, mónó, þurrt (engin reverb eða áhrif), 3 til 5 mínútna viðmiðun. Hreinustu, dæmigerðustu 2 mínúturnar af tökunni gefa venjulega bestan árangur."
+      }
+    }
+  },
+  "status": {
+    "idea": "Hugmynd",
+    "em_progresso": "Í vinnslu",
+    "quase": "Næstum það",
+    "pronto": "Tilbúið"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Fullt raddhandrit fyrir Suno",
+      "desc": "5 mínútur með leiðsögn: upphitun, sérhljóðar, tónstigar, tvö lagabrot, dýnamík og talað setning."
+    },
+    "step": {
+      "warmup": "Raddupphitun",
+      "warmup_inst": "Losaðu þig um með geispum, varatrillum (brrr) og mjúku suð í um það bil eina mínútu. Engin þörf á að taka upp - það er bara að slaka á hálsinum áður en þú syngur.",
+      "vowels": "Viðvarandi sérhljóðar",
+      "vowels_inst": "Haltu hverju sérhljóði - a, e, i, o, u - í 3 til 4 sekúndur á þægilegum tónhæð, með jöfnum hljóðstyrk. Þetta hjálpar Suno að taka upp hreinan tón röddarinnar þinnar.",
+      "scales": "Skalar upp og niður",
+      "scales_inst": "Syngdu einfaldan tónstiga upp og svo niður, á \"la\" eða \"na\". Það þarf ekki að vera fullkomið - markmiðið er að kortleggja raddsviðið þitt.",
+      "section": "Lagaútdráttur - 1. hluti",
+      "section_inst": "Syngdu 8 til 16 takta af laginu, með raunverulegan ásetning sem þú vilt koma á framfæri. Forgangsraða skýrleika og nærveru fram yfir tæknilega fullkomnun.",
+      "section2": "Lagaútdráttur - hluti 2",
+      "section2_inst": "Syngdu 8 til 16 takta í viðbót - helst kór eða kafla sem er andstæður þeim fyrri. Meiri fjölbreytni hjálpar fyrirsætunni að læra röddina þína.",
+      "dynamics": "Dynamics: mjúkt → hátt",
+      "dynamics_inst": "Syngdu sömu setninguna sem byrjar mjög mjúkt og endar hátt, án þess að þenja hálsinn. Þetta sýnir kraftmikið svið röddarinnar Suno.",
+      "spoken": "Töluð setning",
+      "spoken_inst": "Talaðu — ekki syngja — stutta, náttúrulega setningu, eins og þú værir að spjalla. Þetta hjálpar Suno að þekkja raunverulegan tón röddarinnar þinnar."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Endurreisn",
+      "filter": "Síur",
+      "dynamics": "Dynamics",
+      "separation": "Aðskilnaður",
+      "quality": "Gæði",
+      "utility": "Gagnsemi",
+      "loudness": "Hávær"
+    },
+    "highpass": "Hárásarsía",
+    "lowpass": "Lágrásarsía",
+    "denoise": "Hávaðaminnkun",
+    "declip": "Afklippur",
+    "declick": "Smelltu/popp fjarlæging",
+    "deesser": "De-esser",
+    "gate": "Hávaðahlið",
+    "compressor": "Þjappa",
+    "limiter": "Takmarkari",
+    "eq": "Jöfnun",
+    "normalize": "Hámarks normalization",
+    "loudness": "Normalization loudness (LUFS)",
+    "reverb_reduce": "Reverb minnkun",
+    "separate": "Upprunaaðskilnaður",
+    "quality": "Gæðaaukning (uppskala)",
+    "trim_silence": "Þögn klipping",
+    "fade": "Hverfa inn / hverfa út",
+    "stereo_to_mono": "Umbreyta í mónó",
+    "resample": "Endursýnataka"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Áreiðanlegur",
+      "2": "Virkar venjulega",
+      "3": "Breytilegt",
+      "4": "Lyfleysa"
+    },
+    "category": {
+      "structure": "Uppbygging",
+      "vocal": "Söngur",
+      "instrument": "Hljóðfæri",
+      "dynamics": "Dynamics",
+      "production": "Framleiðsla",
+      "mood": "Stemning"
+    },
+    "verse": "Vísa",
+    "chorus": "Kór",
+    "bridge": "Brú",
+    "intro": "Inngangur",
+    "outro": "Outro",
+    "hook": "Krókur",
+    "prechorus": "Forkór",
+    "instrumental": "Hljóðfæraleikur",
+    "guitar_solo": "Gítarsóló",
+    "build_up": "Uppbygging",
+    "breakdown": "Sundurliðun",
+    "spoken_word": "Talað orð",
+    "whispered": "Hvíslaði",
+    "harmonies": "Samhljómur",
+    "male_vocal": "Karlkyns söngur",
+    "female_vocal": "Kvenkyns söngur",
+    "duet": "Dúett",
+    "acoustic": "Hljóðræn",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Hrein rödd",
+    "voice_guitar_balanced": "Rödd í jafnvægi og gítar",
+    "podcast": "Podcast",
+    "suno_ready": "Suno tilbúinn",
+    "gentle_restore": "Mild endurreisn",
+    "raw_passthrough": "Engin vinnsla"
+  },
+  "errors": {
+    "unknown": "Eitthvað fór úrskeiðis.",
+    "network": "Ekki tókst að ná í þjóninn.",
+    "validation_error": "Athugaðu upplýsingarnar sem þú slóst inn.",
+    "not_found": "Atriði fannst ekki.",
+    "project_not_found": "Verkefni fannst ekki.",
+    "take_not_found": "Taka fannst ekki.",
+    "album_not_found": "Albúm fannst ekki.",
+    "preset_not_found": "Forstilling fannst ekki.",
+    "template_not_found": "Sniðmát fannst ekki.",
+    "device_busy": "Hljóðtæki er í notkun af öðru forriti.",
+    "device_not_found": "Hljóðtæki fannst ekki.",
+    "already_recording": "Upptaka er þegar í gangi.",
+    "ffmpeg_missing": "FFmpeg er ekki sett upp - settu það upp til að umbreyta þessari skrá.",
+    "disk_full": "Ekki nóg pláss.",
+    "permission_denied": "Leyfi hafnað fyrir tiltekna slóð.",
+    "import_path_not_found": "Innflutningsslóð fannst ekki.",
+    "job_failed": "Vinnsla mistókst.",
+    "job_cancelled": "Hætt var við vinnslu.",
+    "process_failed": "Mistókst að vinna úr tökunni.",
+    "export_failed": "Mistókst að flytja skrána út.",
+    "record_failed": "Ekki tókst að hefja upptöku."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Í biðröð",
+      "running": "Hlaupandi",
+      "done": "Búið",
+      "error": "Mistókst",
+      "cancelled": "Hætt við"
+    },
+    "kind": {
+      "process": "Vinnsla",
+      "export": "Útflutningur",
+      "import": "Innflutningur",
+      "record": "Upptaka"
+    }
+  }
+}

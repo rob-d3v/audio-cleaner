@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio Cleaner (kan saniyalan)."
+  },
+  "nav": {
+    "library": "Kitabumaraso",
+    "record": "Sɛbɛnni kɛ",
+    "import": "Import (Sɔrɔdasi) don",
+    "templates": "Modèles (sɛbɛnniw) minnu bɛ yen",
+    "settings": "Segin-ka-bɔnyew",
+    "guide": "Gafe min bɛ taa ɲɛ"
+  },
+  "common": {
+    "save": "Save (Kɔlɔsili).",
+    "saving": "Kɔlɔsili...",
+    "saved": "Kisilen don",
+    "cancel": "Cancel (Kalan) kɛ",
+    "close": "A da tugu",
+    "delete": "Delete (Bɔ) kɛ",
+    "edit": "Labɛnni kɛ",
+    "create": "Dabɔ",
+    "search": "Ɲini",
+    "loading": "Loading...",
+    "error": "Misali",
+    "retry": "Aw ye a lajɛ kokura",
+    "confirm": "Aw ye a dafa",
+    "back": "Kɔfɛ",
+    "next": "O kɔfɛ",
+    "continue": "Aw bɛ taa a fɛ",
+    "finish": "A laban",
+    "copy": "Kopi kɛ",
+    "copied": "Kopi kɛra",
+    "download": "Télécharger",
+    "upload": "Aw ye a bila",
+    "none": "Foyi tɛ yen",
+    "all": "Bɛɛ",
+    "yes": "Ɔwɔ",
+    "no": "Ayi",
+    "select": "A sugandi",
+    "optional": "a bɛ se ka kɛ a yɛrɛ sago la",
+    "required": "wajibiyalen don",
+    "unsaved_changes": "Yɛlɛma minnu ma mara",
+    "name": "Tɔgɔ",
+    "status": "Jamana cogoya",
+    "type": "Suguda",
+    "actions": "Waleya minnu bɛ kɛ",
+    "empty": "A lankolon don",
+    "browse": "Browse (Bɔli) kɛ",
+    "remove": "Aw bɛ a bɔ",
+    "add": "Aw bɛ fara a kan",
+    "rename": "Tɔgɔ caman wɛrɛ",
+    "duplicate": "Duplicate (Duplicate) kɛ",
+    "warning": "Ladilikan",
+    "locked": "A datugulen don",
+    "builtin": "A bɛ jɔ a kɔnɔ",
+    "custom": "Laada",
+    "untitled": "Title tɛ a la",
+    "select_placeholder": "Sugandili kɛ..."
+  },
+  "library": {
+    "title": "Kitabumaraso",
+    "subtitle": "I ka kan ni gitari porozɛw, k’a ta hakilina na ka se bɔli ma.",
+    "new_project": "Porozɛ kura",
+    "new_album": "Albamu kura",
+    "search_placeholder": "Ɲini ka kɛɲɛ ni tɔgɔ ye...",
+    "view": {
+      "grid": "Grid (Grid) ye",
+      "albums": "Albamuw (albamuw)."
+    },
+    "filters": {
+      "all": "Bɛɛ"
+    },
+    "take_count_one": " {{count}} ta",
+    "take_count_other": " {{count}} bɛ ta",
+    "updated_at": "Kuma kura donna {{date}} . ",
+    "no_results": {
+      "title": "Porozɛ si ma sɔrɔ",
+      "description": "A ɲini ka ɲinini walima cogoya filɛri ladilan."
+    },
+    "empty": {
+      "title": "Aw ka gafemarayɔrɔ lankolon don",
+      "description": "Porozɛ kura daminɛ ka bɔ fɛn fɔlɔ la, walima import takes minnu bɛ i bolo kaban disiki kan.",
+      "cta_import": "Import ka bɔ foli la",
+      "cta_new": "Porozɛ dabɔ"
+    },
+    "project_dialog": {
+      "title": "Porozɛ kura",
+      "description": "Tɔgɔ di a ma ani ka fɔlicogo dɔ sugandi.",
+      "name_label": "Porozɛ tɔgɔ",
+      "name_placeholder": "misali la. Samiya Sanji",
+      "mode_label": "Mode (Mode) ye",
+      "mode": {
+        "voice": "Kan dɔrɔn de bɛ fɔ",
+        "voice_guitar": "Kan + gitari"
+      },
+      "submit": "Porozɛ dabɔ"
+    },
+    "album_dialog": {
+      "title": "Albamu kura",
+      "description": "Porozɛ minnu bɛ tali kɛ ɲɔgɔn na, olu kulu ka kɛ albamu ye.",
+      "name_label": "Albamu tɔgɔ",
+      "name_placeholder": "misali la. Otomɛ EP",
+      "submit": "Albamu dabɔ"
+    },
+    "album": {
+      "untitled": "Albamu min tɔgɔ ma fɔ",
+      "members_count_one": " {{count}} porozɛ",
+      "members_count_other": " {{count}} porozɛw",
+      "empty": "Porozɛ si ma Kɛ nin albamu in kɔnɔ fɔlɔ.",
+      "delete_confirm_title": "Album supprimer wa?",
+      "delete_confirm_description": "Porozɛw tɛna bɔ yen, u tɛna ɲɔgɔn sɔrɔ dɔrɔn ka bɔ \" {{name}} \" la."
+    },
+    "delete_project": {
+      "confirm_title": "\" {{name}} \" bɔli?",
+      "confirm_description": "O bɛ poroze ni a ta bɛɛ bɔ yen. Nin tɛ se ka kɔsegin."
+    }
+  },
+  "record": {
+    "title": "Sɛbɛnni kɛ",
+    "subtitle": "Aw ye ta saniyalen minɛ, ka aw ka nivow lajɛ, ka tugu sɛbɛnni kɔ.",
+    "project_label": "Porozɛ",
+    "project_placeholder": "Porozɛ dɔ sugandi",
+    "project_create_quick": "Porozɛ teliyalen dɔ dabɔ...",
+    "device_label": "Donanw ka minɛn",
+    "device_placeholder": "Minɛn dɔ sugandi",
+    "device_default_badge": "Sistɛmu ka default",
+    "device_wasapi_badge": "WASAPI ye",
+    "device_empty": "Donna-minɛn si ma Sɔrɔ.",
+    "monitor_button": "Kɔlɔsilikɛlan",
+    "monitor_stop_button": "Aw bɛ kɔlɔsili dabila",
+    "record_button": "Sɛbɛnni kɛ",
+    "stop_button": "A dabila",
+    "elapsed_label": "Waati tɛmɛnen",
+    "status": {
+      "idle": "Idle (baarakɛbali).",
+      "monitoring": "Kɔlɔsili",
+      "recording": "Ka sɛbɛnni kɛ",
+      "stopped": "A jɔra"
+    },
+    "meter": {
+      "rms": "RMS ye",
+      "peak": "Peak (kɛrɛnkɛrɛnnenya la).",
+      "clip": "Clip (Klip) ye"
+    },
+    "guide": {
+      "title": "Session guidée (lajɛ ɲɛminɛlen).",
+      "subtitle": "A to coach k’i bilasira sɛbɛnni kɔnɔ senfɛ-senfɛ, k’a ta sumaya la ka taa a bila kumasen fɔlen na.",
+      "loading": "Script bɛ ka doni...",
+      "unavailable": "Session guided (ladon) ma sɔrɔ sèrwɛri kan fɔlɔ.",
+      "select_project_device": "Porozɛ ni donna-minɛn dɔ sugandi walasa ka fɛɛrɛw sɛbɛn ka bɔ yan yɛrɛ.",
+      "progress": " {{done}} ka {{total}} taamasiɲɛw",
+      "start_timer": "Waati jatebɔ daminɛ",
+      "skip_timer": "Tɛmɛ waati jatebɔlan kan",
+      "record_step": "Aw bɛ nin wale in sɛbɛn",
+      "stop_step": "Aw ye sɛbɛnni dabila",
+      "mark_done": "Done — taabolo nata",
+      "step_recorded": "Take recorded (sɛbɛnni) ta",
+      "no_record_step": "Warm-up step — fɔlisen si mago tɛ.",
+      "bars_hint": "Baro {{bars}} ɲɔgɔn",
+      "complete_title": "Script dafalen don!",
+      "complete_body": "I ye sɛbɛnnibolo in senfɛta bɛɛ sɛbɛn. Aw bɛ segin ka taa poroze ka Audio tab la ani ka taw ta minnu ka di aw ye kosɛbɛ.",
+      "restart": "Script daminɛ kokura"
+    },
+    "best2min": {
+      "button": "A ɲini ka miniti 2 ɲumanw sɔrɔ (Suno) .",
+      "running": "Analyse ka take...",
+      "score_label": "Score (Sɔrɔ) ye",
+      "hint": "A bɛ fanga ni jɛya sɛgɛsɛgɛli kɛ ta bɛɛ kan walasa k’a ka miniti 2 finɛtiri barikama sɔrɔ — i bɛ se ka yɔrɔ ladilan hali bi ni bolo ye o kɔfɛ.",
+      "chart_caption": "Jatebɔ kɛ finɛtiri kelen-kelen bɛɛ la",
+      "unavailable": "Miniti 2-sɛgɛsɛgɛli min ka fisa, o ma sɔrɔ nin sèrwɛri in kan fɔlɔ."
+    },
+    "takes_title": "A bɛ ta ka bɔ nin kalan in na",
+    "takes_empty": "No takes recorded in this session fɔlɔ.",
+    "open_in_project": "Da wulilen don poroze kɔnɔ",
+    "ws_disconnected": "Ka segin ka don nivo mètre la...",
+    "select_project_first": "Porozɛ dɔ sugandi walisa k’a daminɛ.",
+    "select_device_first": "A’ ye donna-minɛn dɔ sugandi."
+  },
+  "project": {
+    "back_to_library": "Segin ka taa gafemarayɔrɔ la",
+    "header": {
+      "status_label": "Jamana cogoya",
+      "cover_upload": "Upload ka cover",
+      "cover_remove": "Aw bɛ datugulan bɔ",
+      "name_placeholder": "Porozɛ tɔgɔ",
+      "links_title": "Liens (Jɛkuluw).",
+      "add_link": "A’ ye jɛgɛnsira fara a kan",
+      "mode": {
+        "voice": "Kan dɔrɔn de bɛ fɔ",
+        "voice_guitar": "Kan + gitari"
+      }
+    },
+    "tabs": {
+      "audio": "Odio",
+      "lyrics": "Paroles ka kumaw",
+      "prompts": "Ladilikan minnu bɛ kɛ",
+      "notes": "Kɔlɔsiliw"
+    },
+    "audio": {
+      "takes_title": "Take",
+      "no_takes": {
+        "title": "No takes fɔlɔ",
+        "description": "Take kura sɛbɛn walima ka filen kɔrɔ dɔ don a kɔnɔ."
+      },
+      "record_new": "Aw ye ta kura sɛbɛn",
+      "rating": "Jateminɛ kɛcogo",
+      "variant": {
+        "raw": "Raw (Raw) ye",
+        "processed": "A bɛ baara kɛ ni a ye"
+      },
+      "variant_placeholder": "Version (Bɔcogo).",
+      "process_button": "Taabolo",
+      "export_button": "Jagokɛyɔrɔw la",
+      "delete_take_confirm_title": "Delete nin ta?",
+      "delete_take_confirm_description": "Odio raw ani version processed bɛɛ bɛna bɔ yen.",
+      "ab": {
+        "raw": "A · Kɔrɔlen",
+        "processed": "B · A bɛ baara kɛ"
+      },
+      "origin": {
+        "recorded": "A sɛbɛnna",
+        "imported": "A bɛ don jamana kɔnɔ"
+      },
+      "session_label_placeholder": "Session label (a bɛ se ka kɛ) .",
+      "duration": "A kuntaala janya",
+      "sample_rate": "Misali ta hakɛ",
+      "channels": "Kanal minnu bɛ yen",
+      "created_at": "A sɛbɛnna"
+    },
+    "pipeline": {
+      "title": "Baarakɛcogo cakɛda",
+      "preset_label": "A sigilen don ka kɔn o ɲɛ",
+      "preset_none": "Cakɛda ladamulen",
+      "preset_save": "Aw bɛ a mara i n’a fɔ a bilalen bɛ cogo min na",
+      "stage_locked": "A datugulen don",
+      "stage_requires_extra": "A bɛ dɔ fara a kan min ma sigi sen kan",
+      "process_button": "Taabolo ta",
+      "processing": "Baarakɛcogo...",
+      "job_queued": "Layidu talen...",
+      "job_running": "Baarakɛcogo...",
+      "job_done": "A kɛra",
+      "job_error": "A dɛsɛra",
+      "job_cancelled": "A ye a dabila",
+      "cancel_job": "Cancel (Kalan) kɛ",
+      "no_stages": "Etape si tɛ yen."
+    },
+    "export": {
+      "title": "Export ka taa",
+      "description": "Filen laban dɔ jira ka bɔ baarakɛcogo la.",
+      "variant_label": "Version (Bɔcogo).",
+      "format_label": "Fɔcogo",
+      "preset_label": "Export préset (ka bɔ kɛnɛ kan).",
+      "range_label": "Range (yɔrɔ) min bɛ yen",
+      "range_full": "Janya dafalen",
+      "range_custom": "Custom range ye",
+      "start_label": "Daminɛ (w) .",
+      "end_label": "A laban (w) .",
+      "submit": "Jagokɛyɔrɔw la",
+      "progress": "Rendering file...",
+      "download_ready": "Filen labɛnnen don",
+      "download_button": "Télécharger file"
+    },
+    "notes": {
+      "placeholder": "Notes gratuites ka ɲɛsin nin porozɛ in ma...",
+      "saved_at": "A maralen bɛ {{time}} . "
+    },
+    "lyrics": {
+      "placeholder": "Aw ye dɔnkiliw kumaw sɛbɛn yan. Baara kɛ ni paleti ye min bɛ kɛrɛ fɛ walasa ka Suno meta-tags don a kɔnɔ.",
+      "saved_at": "A maralen bɛ {{time}} . ",
+      "saving": "Kɔlɔsili...",
+      "versions": "Versions (Bɔcogo) minnu bɛ yen",
+      "versions_empty": "Versions saved si ma sɔrɔ fɔlɔ.",
+      "version_preview": "A lajɛ fɔlɔ",
+      "restore": "Aw ye nin bɔko in lasegin a cogo kɔrɔ la",
+      "restore_confirm_title": "Nin version in lasegin a cogo kɔrɔ la wa?",
+      "restore_confirm_description": "sɛbɛnni min bɛ sen na sisan , o bɛna bila a nɔ na ni a bɔcogo ye min maralen bɛ {{date}} kan .",
+      "metatags_title": "Meta-tagw (taamaʃyɛnw).",
+      "metatags_hint": "Tag dɔ digi walasa k’a don kurufe la.",
+      "metatags_placebo_warning": "A ma sɛgɛsɛgɛ — a bɛ se ka kɛ ko a tɛ nɔ bila a nɔ na.",
+      "metatags_empty": "Meta-tag si ma sɛbɛn."
+    },
+    "prompts": {
+      "style_title": "Style prompt (cogo jiracogo).",
+      "lyrics_title": "Lyrics prompt (fɔlikan fɔcogo).",
+      "template_label": "Modèle (Modèle) ye",
+      "template_none": "Modèle (modèle) tɛ yen",
+      "variables_title": "Yɛlɛma-yɛlɛma",
+      "preview_title": "A lajɛ fɔlɔ",
+      "preview_empty": "Jatebla dɔ sugandi ka fɛn caman sɛmɛntiyalenw fa walasa ka ɲɛjirali dɔ ye.",
+      "char_count": " {{count}} taamasiyɛnw",
+      "char_count_warning": "Style prompts minnu ka ca ni 1000 ye, olu bɛ se ka tigɛ Suno fɛ.",
+      "copy": "Kopi kɛ",
+      "copied": "Kopi kɛra ka kɛ clipboard kɔnɔ",
+      "save_to_project": "Aw bɛ a mara ka kɛ poroze ye",
+      "saved_to_project": "Prompt maralen don poroze kɔnɔ",
+      "history_title": "Tariku",
+      "history_empty": "A bɔcogo kɔrɔw si tɛ yen.",
+      "current_label": "Sisan"
+    },
+    "stems": {
+      "title": "Vocals ani gitari",
+      "separate_button": "Vocal ni gitari faranfasi",
+      "running": "Ka faranfasi...",
+      "vocals": "Vocals (kanfɔkanw).",
+      "instrumental": "Fɔlifɛnw ye",
+      "process_stem": "Aw bɛ nin jirisun in baara",
+      "empty": "Nin ta in ma faranfasi fɔlɔ. Boli farali la walasa ka kan ni gitari mɛn u dan na.",
+      "capability_missing": "Source separation ma Sìgi nin sèrwɛri in kan.",
+      "unavailable": "Vocal/guitar separation ma sɔrɔ nin sèrwɛri in kan fɔlɔ."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "On",
+    "boolean_off": "Off"
+  },
+  "import": {
+    "title": "Import (Sɔrɔdasi) don",
+    "subtitle": "Porozɛ minnu bɛ disiki kan kaban, aw ka olu lase gafemarayɔrɔ la.",
+    "step_indicator": "Taabolo {{current}} ka {{total}} . ",
+    "step1": {
+      "title": "Foli (foli) ɲini",
+      "description": "I bolo da root folder kan n’i ka porozew ni tracks ye.",
+      "path_label": "Foli sira",
+      "path_placeholder": "misali la. E:\\Robbs\\Pride\\Misikili\\ROBBS",
+      "recent_label": "Kɔsa in na",
+      "scan_button": "Scan foli",
+      "scanning": "Scanning ye...",
+      "ffmpeg_warning": "FFmpeg ma sɔrɔ — dosiye minnu mago bɛ fɛn caman tigɛli la, olu bɛna tɛmɛ.",
+      "folders_found_one": " {{count}} foli sɔrɔla",
+      "folders_found_other": " {{count}} foli minnu sɔrɔla",
+      "unmatched_files_one": " {{count}} filen dɔnbali",
+      "unmatched_files_other": " {{count}} dosiye minnu ma dɔn"
+    },
+    "step2": {
+      "title": "Seginkanni fɛnw kan",
+      "description": "Tɔgɔw, cogoyaw ani fɛn minnu bɛna don a kɔnɔ, olu lajɛ sani i ka a sɛmɛntiya.",
+      "select_all": "A bɛɛ sugandi",
+      "table": {
+        "folder": "Source foli (Sɔrɔyɔrɔ) foli",
+        "name": "Porozɛ tɔgɔ",
+        "status": "Jamana cogoya",
+        "audio": "Odio",
+        "lyrics": "Paroles ka kumaw",
+        "cover": "Datugulan",
+        "album": "Albamu (Albamu) ye"
+      },
+      "audio_include_one": " {{count}} filen sugandilen",
+      "audio_include_other": " {{count}} filew sugandilenw",
+      "no_audio": "Odio si ma sɔrɔ",
+      "no_lyrics": "No lyrics ma sɔrɔ",
+      "no_cover": "Datugulan tɛ yen",
+      "warnings_title": "Ladilikanw"
+    },
+    "step3": {
+      "title": "Import (Sɔrɔdasi) don",
+      "description": "A sɛgɛsɛgɛ ka dosiyew kopi kɛ ani ka porozew da.",
+      "copy_originals": "Dosiyɛri fɔlɔw kopi kɛ gafemarayɔrɔ la",
+      "execute_button": "Aw bɛ fɛnw doncogo daminɛ",
+      "progress_title": "Importing...",
+      "created_count": "Dabɔra: {{count}} ",
+      "skipped_count": "A tɛmɛna: {{count}} ",
+      "done_title": "Import dafalen don",
+      "done_description": "Porozɛ minnu bɛ duguma, olu dabɔra aw ka gafemarayɔrɔ la.",
+      "view_project": "Porozɛ da wulilen",
+      "start_over": "Import kura"
+    }
+  },
+  "templates": {
+    "title": "Modèles (sɛbɛnniw) minnu bɛ yen",
+    "subtitle": "Prompt templates ani meta-tags minnu bɛ se ka baara kokura Suno kama.",
+    "tabs": {
+      "prompts": "Prompt templates (fɔcogo misaliw).",
+      "metatags": "Meta-tagw (taamaʃyɛnw)."
+    },
+    "new_template": "Modèle kura",
+    "kind": {
+      "style": "Style (cogo) ye",
+      "lyrics": "Paroles ka kumaw"
+    },
+    "kind_label": "Ka ɲumanya kɛ",
+    "delete_confirm_title": "Modèle \" {{name}} \" bɔli?",
+    "delete_confirm_description": "Nin tɛ se ka kɔsegin.",
+    "empty": "Template si ma sɔrɔ fɔlɔ.",
+    "editor": {
+      "title_new": "Modèle kura",
+      "title_edit": "Modèle (sɛbɛnni) ladilan",
+      "name_label": "Tɔgɔ",
+      "name_placeholder": "misali la. Balade acoustique (balade acoustique) ye",
+      "kind_label": "Ka ɲumanya kɛ",
+      "template_label": "Modèle sɛbɛnni",
+      "template_hint": "Taamaʃyɛn Kɛ yɔrɔ min na fɛnɲɛnɛma kelen-kelen bɛɛ bɛ yɔrɔ min na n'a tɔgɔ sirilen bɛ ni 'sèn fla ye — misali la, fɛnɲɛnɛma min tɔgɔ ye ko \"genre\" o bɛ Kɛ genre ye min sirilen bɛ dakun fla ni dakun fla la.",
+      "variables_label": "Yɛlɛma-yɛlɛma",
+      "variable_add": "A’ ye fɛn caman sɛgɛsɛgɛli fara a kan",
+      "variable_name": "Key",
+      "variable_label": "Label (Label) ye",
+      "variable_type": "Suguda",
+      "variable_type_string": "Sɛbɛnni",
+      "variable_type_select": "Sugandili kelen",
+      "variable_type_multiselect": "Sugandili caman kɛ",
+      "variable_type_number": "Nimɔrɔ",
+      "variable_type_boolean": "Ɔwɔ/ayi",
+      "variable_options": "Sugandili (minnu bɛ danfara ni komandi ye) .",
+      "variable_required": "Wajibiyalen don",
+      "save": "Save template (sɛbɛnni) min bɛ kɛ"
+    },
+    "metatags": {
+      "title": "Meta-tagw (taamaʃyɛnw).",
+      "subtitle": "Structural and style tags Suno bɛ kɔnɔna dɔnkiliw dɔn.",
+      "new_tag": "Tag kura",
+      "tag_label": "Tag (Tag) ye",
+      "tag_placeholder": "misali la. gitari-solo",
+      "category_label": "Kategori (kategori) la",
+      "tier_label": "Ka da a kan",
+      "tier_legend_title": "Daŋaniya taasibila",
+      "tier_legend": {
+        "1": "Tier 1 — sɛbɛnnen ani min bɛ bɛn ɲɔgɔn ma",
+        "2": "Tier 2 — a ka c’a la, a bɛ baara kɛ",
+        "3": "Tier 3 — nɔ bɛrɛbɛrɛ",
+        "4": "Tier 4 — furakisɛ, min ma sɛgɛsɛgɛ"
+      },
+      "description_label": "Ɲɛfɔli",
+      "delete_confirm_title": "Tag \" {{tag}} \" bɔ yen?",
+      "empty": "Meta-tag ladamulen si tɛ yen fɔlɔ."
+    }
+  },
+  "settings": {
+    "title": "Segin-ka-bɔnyew",
+    "subtitle": "Sisεmεti kunnafoniw, kan, ani fεεrεw.",
+    "system_info_title": "Sistɛmu (Système) ye",
+    "version": "Version (Bɔcogo).",
+    "data_dir": "Donanw ka foli",
+    "ffmpeg_status": "FFmpeg ye",
+    "ffmpeg_available": "A bɛ sɔrɔ",
+    "ffmpeg_missing": "A ma Sɔrɔ",
+    "capabilities_title": "Seko ni dɔnko sigilenw",
+    "capability": {
+      "denoise": "Mankan dɔgɔyali",
+      "quality": "Jogoɲumanya yiriwali",
+      "separate": "Sosow ka faranfasi",
+      "ffmpeg": "FFmpeg bεε bε bεn"
+    },
+    "capability_available": "A bɛ sɔrɔ",
+    "capability_unavailable": "A tɛ sɔrɔ",
+    "gpu_title": "GPU teliya la",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA ye baara kɛ",
+      "ort_providers": "ONNX Runtime baarakɛlaw"
+    },
+    "gpu_none": "GPU dilanbaga si ma Sɔrɔ",
+    "language_title": "Kanko",
+    "language": {
+      "pt-BR": "Português (Brésil) jamana na.",
+      "en": "Bamanankan"
+    },
+    "theme_title": "Yecogo",
+    "theme": {
+      "dark": "Dibi donna",
+      "light": "Yeelen"
+    },
+    "defaults_title": "Export defaults (Dɔ̀gɔjida-falen-falen).",
+    "lufs_target_label": "Laɲini LUFS ye",
+    "lufs_target_hint": "A bɛ kɛ i n’a fɔ daminɛ hakilina ni jago bɛ taa ni a ye. Suno ka default sigilen bɛ -14 LUFS lamini na.",
+    "saved": "Preferences (Preferences) minnu bɛ mara"
+  },
+  "guide": {
+    "title": "Suno ka sɛbɛnni ɲɛminɛbaga",
+    "subtitle": "Kan ni gitari minɛcogo bɛ ta minnu bɛ nɔ ɲuman sɔrɔ.",
+    "intro": "Suno bɛ baara kɛ ka ɲɛ ni kunnafoni saniyalenw ye, minnu tɛ jɛya. Nin gafe in bɛ labɛnni, laɲini hakɛw, ani miniti 3–5 sɛbɛnni sɛbɛnni ɲɛfɔ.",
+    "sections": {
+      "prep": {
+        "title": "Labɛnni",
+        "body": "Aw bɛ a sɛbɛn so furakɛlen kɔnɔ walima so min kɔnɔ fɛn nɔgɔlen caman bɛ yen (ridow, finiw, finiw min bɛ kɛ finidoncogo la). Aw bɛ fanw ni fɛn o fɛn bɛ mankan bɔ, aw bɛ o faga. Aw bɛ aw kan sumaya miniti 5 kɔnɔ sani aw ka a fɔ."
+      },
+      "levels": {
+        "title": "Nivow: -12 fo -6 dBFS",
+        "body": "Aw bɛ aw jija ka a kuncɛw sɔrɔ -12 ni -6 dBFS cɛ mɛtɛrɛ kan. O yɔrɔ in duguma, kɔkan mankan bɛ Kɔlɔsi ka Tɛmɛ; a sanfɛ, clipping farati bɛ wuli. Baara kɛ ni mɛtɛrɛ ye min bɛ Record ɲɛ kan walasa k’i ka tɔnɔ sigi sani i ka daminɛ."
+      },
+      "distance": {
+        "title": "Miki janya: santimɛtɛrɛ 15–30",
+        "body": "Aw bɛ to santimɛtɛrɛ 15 fo 30 ka bɔ mikro la. Ka surunya o la, o bɛ plosives ni proximity effect (proximity effect) damatɛmɛ; yɔrɔ jan bɛ so reverb ni mankan caman ta."
+      },
+      "script": {
+        "title": "Script min bɛ sɛbɛnni kɛ",
+        "warmup": "Kan ka sumaya (miniti 1–2) .",
+        "vowels": "Kanhakɛ sabatilenw — a, e, i, o, u",
+        "scales": "Sɛgɛsɛgɛli nɔgɔmanw, sanfɛ ni duguma",
+        "excerpt": "Dɔnkili yɔrɔ dɔ (bari 8 fo 16) .",
+        "dynamics": "Dynamique: daminɛ nɔgɔya la, laban ni kanba ye",
+        "spoken_phrase": "Kumasen kelen fɔlen, walasa Suno ka se k’i ka kan fɔcogo kalan"
+      },
+      "expectations": {
+        "title": "Suno bɛ min makɔnɔ",
+        "body": "WAV, 48 kHz, mono, dry (reverb walima effects tɛ), miniti 3 fo 5 ka ɲɛsin a ma. A ka c’a la, miniti 2 min saniyalen don, min bɛ mɔgɔ jira kosɛbɛ, o bɛ nɔ ɲuman bɔ."
+      }
+    }
+  },
+  "status": {
+    "idea": "Hakilina",
+    "em_progresso": "A bɛ sen na",
+    "quase": "A bɛ se ka kɛ yen",
+    "pronto": "Labɛnnen don"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Script vocal dafalen ye Suno ye",
+      "desc": "miniti 5 ɲɛminɛlenw : sumaya, kanhakɛw, balansi, dɔnkilidacogo fila, dinamikɛ, ani kumasen fɔlen."
+    },
+    "step": {
+      "warmup": "Kan ka sumaya",
+      "warmup_inst": "Aw bɛ aw lajɔ ni sɔgɔsɔgɔninjɛ ye, ni dawolo sɔgɔli ye (brrr), ani ni sɔgɔsɔgɔninjɛ nɔgɔman ye miniti kelen ɲɔgɔn. Wajibi tɛ ka fɔli kɛ — o ye ka i da lafiya dɔrɔn sani i ka dɔnkili da.",
+      "vowels": "Kanhakɛ sabatilenw",
+      "vowels_inst": "Kanhakɛ kelen-kelen bɛɛ minɛ — a, e, i, o, u — fo sekɔndi 3 fo 4 i ka kanhakɛ la min bɛ i lafiya, ni kumakan hakɛ basigilen ye. O bɛ Suno dɛmɛ k’i kan saniyalen ta.",
+      "scales": "Sɛgɛsɛgɛli bɛ kɛ sanfɛ ni duguma",
+      "scales_inst": "Aw bɛ dɔnkili nɔgɔman dɔ da sanfɛ ka sɔrɔ ka jigin, \"la\" walima \"na\" kan. A man kan ka kɛ dafalen ye — laɲini ye ka i ka kan hakɛ karti.",
+      "section": "Dɔnkili yɔrɔ dɔ — tilayɔrɔba 1",
+      "section_inst": "Dɔnkili da 8 fo 16, ni ŋaniya lakika ye i b’a fɛ ka min lase. Aw bɛ ɲɛfɔli jɛlen ni kɛli bila jɔyɔrɔ fɔlɔ la ka tɛmɛ dafalenya kan fɛɛrɛko siratigɛ la.",
+      "section2": "Dɔnkili yɔrɔ dɔ — tilayɔrɔba 2nan",
+      "section2_inst": "Aw bɛ dɔnkili da 8 fo 16 wɛrɛ la — a ka fisa aw ka dɔnkilida walima yɔrɔ min ni tɛmɛnen ta tɛ kelen ye. Fɛn suguya caman bɛ modɛli dɛmɛ k’i kan dege.",
+      "dynamics": "Dynamique: nɔgɔlen → kanba",
+      "dynamics_inst": "Aw bɛ o kumasen kelen in da ka daminɛ ni nɔgɔya ye kosɛbɛ ka laban ni kanba ye, k’a sɔrɔ aw ma aw dawolo degun. O bɛ Suno i kan ka fanga bonya jira.",
+      "spoken": "Kumasen fɔlen",
+      "spoken_inst": "Kuma — kana dɔnkili da — kumasen surun ye, min bɛ kɛ cogo la, i n’a fɔ i bɛ baro kɛ. O bɛ Suno dɛmɛ k’i kan fɔcogo lakika dɔn."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Segin-ka-bɔnye",
+      "filter": "Filɛriw",
+      "dynamics": "Dynamique (Dinamiki) (Dynamique).",
+      "separation": "Kɔrɔbɔli",
+      "quality": "Jogo ɲuman",
+      "utility": "Nafa sɔrɔli",
+      "loudness": "Mankanba fɔli"
+    },
+    "highpass": "Filɛri min bɛ tɛmɛn sanfɛ",
+    "lowpass": "Filɛri min bɛ tɛmɛn duguma",
+    "denoise": "Mankan dɔgɔyali",
+    "declip": "Ka jigin",
+    "declick": "Click/pop bɔli",
+    "deesser": "De-esser ka baara",
+    "gate": "Mankan da la",
+    "compressor": "Kompresseur (Kompresseur) ye",
+    "limiter": "Dantigɛlikɛla",
+    "eq": "Bɛnbaliya",
+    "normalize": "Normalisasiyɔn kuncɛlen",
+    "loudness": "Mankan normalisation (LUFS) .",
+    "reverb_reduce": "Reverb dɔgɔyali",
+    "separate": "Sosow ka faranfasi",
+    "quality": "Jogoɲumanya yiriwali (upscale) .",
+    "trim_silence": "Silence trimming (makun tigɛcogo).",
+    "fade": "Fade in / fade ka bɔ",
+    "stereo_to_mono": "A bɛ Yɛlɛma ka Kɛ mono ye",
+    "resample": "Sampling (sampling) kɛcogo kura"
+  },
+  "metatags": {
+    "tier": {
+      "1": "A bɛ se ka da a kan",
+      "2": "A ka c’a la, a bɛ baara kɛ",
+      "3": "Yɛlɛma-yɛlɛma",
+      "4": "Placebo (banakisɛfagalan min bɛ wele ko placebo)."
+    },
+    "category": {
+      "structure": "Jateminɛ kɛcogo",
+      "vocal": "Vocal (kan fɔcogo).",
+      "instrument": "Minɛn min bɛ Kɛ",
+      "dynamics": "Dynamique (Dinamiki) (Dynamique).",
+      "production": "Fɛn dilanni",
+      "mood": "Dusukunnataw"
+    },
+    "verse": "Vɛrise",
+    "chorus": "Chorus (fɔlikan) ye",
+    "bridge": "Pont (Blan) ye",
+    "intro": "Intro (dakun fɔlɔ).",
+    "outro": "Outro (Outro) ye",
+    "hook": "Kɔlɔsili",
+    "prechorus": "Ka kɔn dɔnkilida ɲɛ",
+    "instrumental": "Fɔlifɛnw ye",
+    "guitar_solo": "Gitaa solo",
+    "build_up": "So jɔli-ka-bɔ",
+    "breakdown": "Tiɲɛni",
+    "spoken_word": "Kuma fɔlen",
+    "whispered": "A ye sɔgɔsɔgɔ kɛ",
+    "harmonies": "Bɛnkanw (Harmonies).",
+    "male_vocal": "Cɛw ka kumakan",
+    "female_vocal": "Muso ka kumakan",
+    "duet": "Duet (duet) ye",
+    "acoustic": "Acoustique (Akustik) ye",
+    "ad_lib": "Ad-lib ye"
+  },
+  "presets": {
+    "clean_voice": "Kan saniyalen",
+    "voice_guitar_balanced": "Kumakan & gitari balansi",
+    "podcast": "Podcast (Podcast) ye",
+    "suno_ready": "Suno labɛnnen don",
+    "gentle_restore": "Segin ni dususuma ye",
+    "raw_passthrough": "Baarakɛcogo tɛ yen"
+  },
+  "errors": {
+    "unknown": "Fɛn dɔ ma ɲɛ.",
+    "network": "A ma Se ka Se sèrvèr ma.",
+    "validation_error": "I ye kunnafoni minnu don, olu lajɛ.",
+    "not_found": "Fɛn min ma Sɔrɔ.",
+    "project_not_found": "Porozɛ ma sɔrɔ.",
+    "take_not_found": "Take ma sɔrɔ.",
+    "album_not_found": "Albamu ma Sɔrɔ.",
+    "preset_not_found": "Preset ma sɔrɔ.",
+    "template_not_found": "Modèle ma sɔrɔ.",
+    "device_busy": "Odio minɛn bɛ baara la porogaramu wɛrɛ fɛ.",
+    "device_not_found": "Lamɛnnikɛlan ma sɔrɔ.",
+    "already_recording": "Fɔlisen dɔ bɛ sen na kaban.",
+    "ffmpeg_missing": "FFmpeg ma sigi sen kan — a sigi sen kan walasa ka nin dosiye in sɛmɛntiya.",
+    "disk_full": "Disiki yɔrɔ bɛrɛ tɛ yen.",
+    "permission_denied": "Izini ma Sɔn sira dilen in na.",
+    "import_path_not_found": "Import sira ma sɔrɔ.",
+    "job_failed": "Baarakɛcogo ma ɲɛ.",
+    "job_cancelled": "Baarakɛcogo tun tiɲɛna.",
+    "process_failed": "A ma se ka baara kɛ ni take ye.",
+    "export_failed": "A ma se ka dosiye in bila ka taa jamana wɛrɛw la.",
+    "record_failed": "A ma se ka fɔli daminɛ."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Layidu talen don",
+      "running": "Boli",
+      "done": "A kɛra",
+      "error": "A dɛsɛra",
+      "cancelled": "A ye a dabila"
+    },
+    "kind": {
+      "process": "Baarakɛcogo",
+      "export": "Jagokɛyɔrɔw la",
+      "import": "Import (Sɔrɔdasi) don",
+      "record": "Ka sɛbɛnni kɛ"
+    }
+  }
+}

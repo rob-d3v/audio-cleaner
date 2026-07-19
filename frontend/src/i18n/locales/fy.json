@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio Cleaner"
+  },
+  "nav": {
+    "library": "Bibleteek",
+    "record": "Record",
+    "import": "Ymportearje",
+    "templates": "Sjabloanen",
+    "settings": "Ynstellings",
+    "guide": "Gids"
+  },
+  "common": {
+    "save": "Bewarje",
+    "saving": "Besparret…",
+    "saved": "Opslein",
+    "cancel": "Ofbrekke",
+    "close": "Slút",
+    "delete": "Wiskje",
+    "edit": "Bewurkje",
+    "create": "Create",
+    "search": "Sykje",
+    "loading": "Laden…",
+    "error": "Flater",
+    "retry": "Opnij besykje",
+    "confirm": "Befêstigje",
+    "back": "Werom",
+    "next": "Folgjende",
+    "continue": "Trochgean",
+    "finish": "Finish",
+    "copy": "Kopiearje",
+    "copied": "Kopiearre",
+    "download": "Download",
+    "upload": "Upload",
+    "none": "Gjin",
+    "all": "Allegear",
+    "yes": "Ja",
+    "no": "Nee",
+    "select": "Selektearje",
+    "optional": "opsjoneel",
+    "required": "fereaske",
+    "unsaved_changes": "Net bewarre feroarings",
+    "name": "Namme",
+    "status": "Status",
+    "type": "Type",
+    "actions": "Aksjes",
+    "empty": "Leech",
+    "browse": "Blêdzje",
+    "remove": "Fuortsmite",
+    "add": "Add",
+    "rename": "Omneame",
+    "duplicate": "Duplikaat",
+    "warning": "Warskôging",
+    "locked": "Op slot",
+    "builtin": "Ynboude",
+    "custom": "Oanpast",
+    "untitled": "Untitled",
+    "select_placeholder": "Selektearje…"
+  },
+  "library": {
+    "title": "Bibleteek",
+    "subtitle": "Jo stim- en gitaarprojekten, fan idee oant frijlitting.",
+    "new_project": "Nij projekt",
+    "new_album": "Nij album",
+    "search_placeholder": "Sykje op namme...",
+    "view": {
+      "grid": "Grid",
+      "albums": "Albums"
+    },
+    "filters": {
+      "all": "Allegear"
+    },
+    "take_count_one": " {{count}} nimme",
+    "take_count_other": " {{count}} nimt",
+    "updated_at": "Bywurke {{date}} ",
+    "no_results": {
+      "title": "Gjin projekten fûn",
+      "description": "Besykje it syk- of statusfilter oan te passen."
+    },
+    "empty": {
+      "title": "Jo bibleteek is leech",
+      "description": "Begjin in nij projekt fanôf it begjin, of ymportearje nimt jo al op skiif.",
+      "cta_import": "Ymportearje út map",
+      "cta_new": "Meitsje projekt"
+    },
+    "project_dialog": {
+      "title": "Nij projekt",
+      "description": "Jou it in namme en kies in opnamemodus.",
+      "name_label": "Projekt namme",
+      "name_placeholder": "bgl. Summer Rain",
+      "mode_label": "Mode",
+      "mode": {
+        "voice": "Allinnich stim",
+        "voice_guitar": "Stim + gitaar"
+      },
+      "submit": "Meitsje projekt"
+    },
+    "album_dialog": {
+      "title": "Nij album",
+      "description": "Groepearje relatearre projekten yn in album.",
+      "name_label": "Album namme",
+      "name_placeholder": "bgl. Herfst EP",
+      "submit": "Album meitsje"
+    },
+    "album": {
+      "untitled": "Untitel album",
+      "members_count_one": " {{count}} projekt",
+      "members_count_other": " {{count}} projekten",
+      "empty": "Der binne noch gjin projekten yn dit album.",
+      "delete_confirm_title": "Album wiskje?",
+      "delete_confirm_description": "Projekten sille net wiske wurde, allinich loskeppele fan \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "\"{{name}}\" wiskje?",
+      "confirm_description": "Dit smyt it projekt en elke take yn it fuort. Dit kin net ûngedien makke wurde."
+    }
+  },
+  "record": {
+    "title": "Record",
+    "subtitle": "Fange in skjinne take, besjoch jo nivo's en folgje it skript.",
+    "project_label": "Projekt",
+    "project_placeholder": "Kies in projekt",
+    "project_create_quick": "Meitsje in fluch projekt ...",
+    "device_label": "Ynfier apparaat",
+    "device_placeholder": "Kies in apparaat",
+    "device_default_badge": "Systeem standert",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Gjin ynfierapparaten fûn.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Stopje monitoring",
+    "record_button": "Record",
+    "stop_button": "Stopje",
+    "elapsed_label": "Ferline tiid",
+    "status": {
+      "idle": "Idle",
+      "monitoring": "Monitoring",
+      "recording": "Opname",
+      "stopped": "Ophâlden"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Peak",
+      "clip": "Klip"
+    },
+    "guide": {
+      "title": "Begeliede sesje",
+      "subtitle": "Lit de coach jo stap foar stap troch it skript liede, fan opwaarming oant de sprutsen sin.",
+      "loading": "Skript wurdt laden...",
+      "unavailable": "De begeliede sesje is noch net beskikber op de tsjinner.",
+      "select_project_device": "Kies in projekt en in ynfierapparaat om stappen direkt fanôf hjir op te nimmen.",
+      "progress": " {{done}} fan {{total}} stappen",
+      "start_timer": "Start timer",
+      "skip_timer": "Oerslaan timer",
+      "record_step": "Record dizze stap",
+      "stop_step": "Stopje mei opnimmen",
+      "mark_done": "Dien - folgjende stap",
+      "step_recorded": "Nim opnommen",
+      "no_record_step": "Warm-up stap - gjin opname nedich.",
+      "bars_hint": "Oer {{bars}} bars",
+      "complete_title": "Skript kompleet!",
+      "complete_body": "Jo hawwe elke stap fan it skript opnommen. Gean werom nei it ljepblêd Audio fan it projekt en kies jo favorite take.",
+      "restart": "Skript opnij starte"
+    },
+    "best2min": {
+      "button": "Fyn de bêste 2 minuten (Suno)",
+      "running": "It analysearjen fan de take ...",
+      "score_label": "Skoare",
+      "hint": "Rint in enerzjy- en dúdlikensanalyze oer de heule take om it sterkste finster fan 2 minuten te finen - jo kinne it berik dêrnei noch mei de hân oanpasse.",
+      "chart_caption": "Skoare per finster",
+      "unavailable": "De bêste-2-minuten analyze is noch net beskikber op dizze tsjinner."
+    },
+    "takes_title": "Nimt fan dizze sesje",
+    "takes_empty": "Gjin take opnommen yn dizze sesje noch.",
+    "open_in_project": "Iepenje yn projekt",
+    "ws_disconnected": "Op 'e nij ferbine mei de nivometer...",
+    "select_project_first": "Kies in projekt om te begjinnen.",
+    "select_device_first": "Kies in ynfierapparaat."
+  },
+  "project": {
+    "back_to_library": "Werom nei biblioteek",
+    "header": {
+      "status_label": "Status",
+      "cover_upload": "Upload cover",
+      "cover_remove": "Fuortsmite cover",
+      "name_placeholder": "Projekt namme",
+      "links_title": "Links",
+      "add_link": "Add keppeling",
+      "mode": {
+        "voice": "Allinnich stim",
+        "voice_guitar": "Stim + gitaar"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Lyrics",
+      "prompts": "Oanfragen",
+      "notes": "Notysjes"
+    },
+    "audio": {
+      "takes_title": "Takes",
+      "no_takes": {
+        "title": "Noch gjin take",
+        "description": "Nim in nije take op of ymportearje in besteand bestân."
+      },
+      "record_new": "Opnimme in nije take",
+      "rating": "Wurdearring",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Ferwurke"
+      },
+      "variant_placeholder": "Ferzje",
+      "process_button": "Proses",
+      "export_button": "Eksportearje",
+      "delete_take_confirm_title": "Dizze take wiskje?",
+      "delete_take_confirm_description": "De rauwe audio en elke ferwurke ferzje wurde fuortsmiten.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Ferwurke"
+      },
+      "origin": {
+        "recorded": "Opnommen",
+        "imported": "Ymportearre"
+      },
+      "session_label_placeholder": "Sesjelabel (opsjoneel)",
+      "duration": "Duration",
+      "sample_rate": "Sample rate",
+      "channels": "Channels",
+      "created_at": "Opnommen"
+    },
+    "pipeline": {
+      "title": "Ferwurkjen keten",
+      "preset_label": "Foarynsteld",
+      "preset_none": "Oanpaste ketting",
+      "preset_save": "Bewarje as preset",
+      "stage_locked": "Op slot",
+      "stage_requires_extra": "Fereasket in ekstra dy't net ynstallearre is",
+      "process_button": "Proses nimme",
+      "processing": "Behannelt…",
+      "job_queued": "Wachtrige…",
+      "job_running": "Behannelt…",
+      "job_done": "Dien",
+      "job_error": "Mislearre",
+      "job_cancelled": "Annulearre",
+      "cancel_job": "Ofbrekke",
+      "no_stages": "Gjin poadia beskikber."
+    },
+    "export": {
+      "title": "Eksportearje nimme",
+      "description": "Renderje in lêste bestân fan in ferwurke ferzje.",
+      "variant_label": "Ferzje",
+      "format_label": "Format",
+      "preset_label": "Eksportearje preset",
+      "range_label": "Range",
+      "range_full": "Folsleine lingte",
+      "range_custom": "Oanpaste berik",
+      "start_label": "Start (s)",
+      "end_label": "Einde (s)",
+      "submit": "Eksportearje",
+      "progress": "Bestân werjaan...",
+      "download_ready": "Bestân klear",
+      "download_button": "Download triem"
+    },
+    "notes": {
+      "placeholder": "Free-form notysjes oer dit projekt ...",
+      "saved_at": "Opslein op {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Skriuw hjir de teksten. Brûk it palet oan 'e kant om Suno-meta-tags yn te foegjen.",
+      "saved_at": "Opslein op {{time}} ",
+      "saving": "Besparret…",
+      "versions": "Ferzjes",
+      "versions_empty": "Noch gjin bewarre ferzjes.",
+      "version_preview": "Foarbyld",
+      "restore": "Weromsette dizze ferzje",
+      "restore_confirm_title": "Dizze ferzje weromsette?",
+      "restore_confirm_description": "De hjoeddeistige tekst sil ferfongen wurde troch de ferzje dy't bewarre is op {{date}}.",
+      "metatags_title": "Meta-tags",
+      "metatags_hint": "Klikje op in tag om it by de rinnerke yn te foegjen.",
+      "metatags_placebo_warning": "Unproven - kin gjin effekt hawwe op it resultaat.",
+      "metatags_empty": "Gjin meta-tags registrearre."
+    },
+    "prompts": {
+      "style_title": "Styl prompt",
+      "lyrics_title": "Lyrics prompt",
+      "template_label": "Sjabloan",
+      "template_none": "Gjin sjabloan",
+      "variables_title": "Fariabelen",
+      "preview_title": "Foarbyld",
+      "preview_empty": "Kies in sjabloan en folje de fariabelen yn om in foarbyld te sjen.",
+      "char_count": " {{count}} tekens",
+      "char_count_warning": "Stylprompts fan mear dan 1000 karakters kinne troch Suno ôfbrutsen wurde.",
+      "copy": "Kopiearje",
+      "copied": "Kopiearje nei klamboerd",
+      "save_to_project": "Bewarje nei projekt",
+      "saved_to_project": "Prompt bewarre yn projekt",
+      "history_title": "Skiednis",
+      "history_empty": "Gjin eardere ferzjes.",
+      "current_label": "Aktueel"
+    },
+    "stems": {
+      "title": "Sang en gitaar",
+      "separate_button": "Separate sang en gitaar",
+      "running": "Skiedt…",
+      "vocals": "Vocals",
+      "instrumental": "Ynstruminteel",
+      "process_stem": "Ferwurkje dizze stam",
+      "empty": "Dizze take is noch net skieden. Run skieding om de sang en gitaar yn isolemint te hearren.",
+      "capability_missing": "Boarneskieding is net ynstallearre op dizze tsjinner.",
+      "unavailable": "Sang-/gitaarskieding is noch net beskikber op dizze tsjinner."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Oan",
+    "boolean_off": "Off"
+  },
+  "import": {
+    "title": "Ymportearje",
+    "subtitle": "Bring projekten dy't al op skiif besteane yn 'e bibleteek.",
+    "step_indicator": "Stap {{current}} fan {{total}} ",
+    "step1": {
+      "title": "Sykje map",
+      "description": "Rjochtsje nei de rootmap mei jo projekten en tracks.",
+      "path_label": "Mappaad",
+      "path_placeholder": "bgl. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "Recent",
+      "scan_button": "Scan map",
+      "scanning": "Scannen…",
+      "ffmpeg_warning": "FFmpeg net fûn - bestannen dy't konverzje nedich binne sille wurde oerslein.",
+      "folders_found_one": " {{count}} map fûn",
+      "folders_found_other": " {{count}} mappen fûn",
+      "unmatched_files_one": " {{count}} net werkend bestân",
+      "unmatched_files_other": " {{count}} net werkenne bestannen"
+    },
+    "step2": {
+      "title": "Review items",
+      "description": "Kontrolearje nammen, statusen en wat sil wurde ymporteare foardat jo befêstigje.",
+      "select_all": "Selektearje alles",
+      "table": {
+        "folder": "Boarne map",
+        "name": "Projekt namme",
+        "status": "Status",
+        "audio": "Audio",
+        "lyrics": "Lyrics",
+        "cover": "Cover",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} triem selektearre",
+      "audio_include_other": " {{count}} triemmen selektearre",
+      "no_audio": "Gjin audio fûn",
+      "no_lyrics": "Gjin teksten fûn",
+      "no_cover": "Gjin dekking",
+      "warnings_title": "Warskôgings"
+    },
+    "step3": {
+      "title": "Ymportearje",
+      "description": "Befêstigje om de bestannen te kopiearjen en de projekten te meitsjen.",
+      "copy_originals": "Kopiearje orizjinele bestannen yn 'e bibleteek",
+      "execute_button": "Begjin ymportearje",
+      "progress_title": "Ymportearje...",
+      "created_count": "makke: {{count}} ",
+      "skipped_count": "Oerslaan: {{count}} ",
+      "done_title": "Ymport kompleet",
+      "done_description": "De projekten hjirûnder binne makke yn jo bibleteek.",
+      "view_project": "Iepen projekt",
+      "start_over": "Nije ymport"
+    }
+  },
+  "templates": {
+    "title": "Sjabloanen",
+    "subtitle": "Herbrûkbere promptsjabloanen en meta-tags foar Suno.",
+    "tabs": {
+      "prompts": "Prompt sjabloanen",
+      "metatags": "Meta-tags"
+    },
+    "new_template": "Nije sjabloan",
+    "kind": {
+      "style": "Styl",
+      "lyrics": "Lyrics"
+    },
+    "kind_label": "Kind",
+    "delete_confirm_title": "Sjabloan \" {{name}} \" wiskje?",
+    "delete_confirm_description": "Dit kin net ûngedien makke wurde.",
+    "empty": "Noch gjin sjabloanen.",
+    "editor": {
+      "title_new": "Nije sjabloan",
+      "title_edit": "Template bewurkje",
+      "name_label": "Namme",
+      "name_placeholder": "bgl. Akoestyske ballade",
+      "kind_label": "Kind",
+      "template_label": "Template tekst",
+      "template_hint": "Markearje wêr't elke fariabele heart mei syn namme ferpakt yn dûbele krullende beugels - bygelyks in fariabele mei de namme \"sjenre\" wurdt sjenre ferpakt yn twa iepenings- en twa slutende beugels.",
+      "variables_label": "Fariabelen",
+      "variable_add": "Add fariabele",
+      "variable_name": "Key",
+      "variable_label": "Label",
+      "variable_type": "Type",
+      "variable_type_string": "Tekst",
+      "variable_type_select": "Single selektearje",
+      "variable_type_multiselect": "Multi-selektearje",
+      "variable_type_number": "Number",
+      "variable_type_boolean": "Ja/nee",
+      "variable_options": "Opsjes (komma-skieden)",
+      "variable_required": "Required",
+      "save": "Bewarje sjabloan"
+    },
+    "metatags": {
+      "title": "Meta-tags",
+      "subtitle": "Struktuer- en styltags Suno herkent binnen teksten.",
+      "new_tag": "Nije tag",
+      "tag_label": "Tag",
+      "tag_placeholder": "bgl. gitaar-solo",
+      "category_label": "Category",
+      "tier_label": "Betrouberens",
+      "tier_legend_title": "Betrouwbaarheid leginde",
+      "tier_legend": {
+        "1": "Tier 1 - dokumintearre en konsekwint",
+        "2": "Tier 2 - wurket normaal",
+        "3": "Tier 3 - fariabele effekt",
+        "4": "Tier 4 - placebo, net bewiisd"
+      },
+      "description_label": "Beskriuwing",
+      "delete_confirm_title": "Tag \" {{tag}} \" wiskje?",
+      "empty": "Noch gjin oanpaste meta-tags."
+    }
+  },
+  "settings": {
+    "title": "Ynstellings",
+    "subtitle": "Systeemynformaasje, taal en standertfoarkarren.",
+    "system_info_title": "Systeem",
+    "version": "Ferzje",
+    "data_dir": "Data map",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Beskikber",
+    "ffmpeg_missing": "Net fûn",
+    "capabilities_title": "Ynstallearre mooglikheden",
+    "capability": {
+      "denoise": "Noise reduksje",
+      "quality": "Kwaliteitsferbettering",
+      "separate": "Boarne skieding",
+      "ffmpeg": "FFmpeg konverzje"
+    },
+    "capability_available": "Beskikber",
+    "capability_unavailable": "Net beskikber",
+    "gpu_title": "GPU fersnelling",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime-oanbieders"
+    },
+    "gpu_none": "Gjin GPU-oanbieders ûntdutsen",
+    "language_title": "Taal",
+    "language": {
+      "pt-BR": "Português (Brazylje)",
+      "en": "Ingelsk"
+    },
+    "theme_title": "Uterlik",
+    "theme": {
+      "dark": "Dûnker",
+      "light": "Ljocht"
+    },
+    "defaults_title": "Eksportearje standerts",
+    "lufs_target_label": "Doel LUFS",
+    "lufs_target_hint": "Wurdt brûkt as begjinsuggestie by eksportearjen nimt. De standert fan Suno sit om -14 LUFS.",
+    "saved": "Foarkarren bewarre"
+  },
+  "guide": {
+    "title": "Suno opname gids",
+    "subtitle": "Hoe kinne jo stim en gitaar opnimme dy't de bêste resultaten krije.",
+    "intro": "Suno docht it bêste mei skjinne, ûndûbelsinnige referinsjes. Dizze hantlieding behannelt tarieding, doelnivo's, en in 3-5 minuten opnameskript.",
+    "sections": {
+      "prep": {
+        "title": "Tarieding",
+        "body": "Opnimme yn in behannele keamer of ien mei in soad sêft materiaal (gerdinen, tapiten, klean yn in kast). Skeakelje fans en alles dat bromt. Warmje jo stim 5 minuten op foardat jo opnimme."
+      },
+      "levels": {
+        "title": "Nivo's: -12 oan -6 dBFS",
+        "body": "Doel foar piken tusken -12 en -6 dBFS op 'e meter. Under dat berik wurdt eftergrûnlûd mear opfallend; boppe it, clipping risiko nimt ta. Brûk de meter op 'e Record side om jo winst yn te stellen foardat jo begjinne."
+      },
+      "distance": {
+        "title": "Mic ôfstân: 15-30 sm",
+        "body": "Bliuw 15 oant 30 sm fan 'e mikrofoan. Nauwer as dat oerdriuwt plosiven en tichtby effekt; fierder fuort pakt mear keamergalm en lûd op."
+      },
+      "script": {
+        "title": "Opname skript",
+        "warmup": "Vocal warm-up (1-2 minuten)",
+        "vowels": "Oanhâldende lûden - a, e, i, o, u",
+        "scales": "Ienfâldige skalen, op en del",
+        "excerpt": "In lietúttreksel (8 oant 16 maten)",
+        "dynamics": "Dynamics: begjinne sêft, ein lûd",
+        "spoken_phrase": "Ien sprutsen sin, sadat Suno jo fokale toan lêze kin"
+      },
+      "expectations": {
+        "title": "Wat Suno ferwachtet",
+        "body": "WAV, 48 kHz, mono, droech (gjin reverb of effekten), 3 oant 5 minuten referinsje. De skjinste, meast represintative 2 minuten fan 'e take produsearje normaal de bêste resultaten."
+      }
+    }
+  },
+  "status": {
+    "idea": "Idee",
+    "em_progresso": "Yn útfiering",
+    "quase": "Der hast",
+    "pronto": "Klear"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Folsleine fokaal skript foar Suno",
+      "desc": "5 begeliede minuten: warming-up, klinkers, skalen, twa ferskes, dynamyk en in sprutsen frase."
+    },
+    "step": {
+      "warmup": "Vocal warming-up",
+      "warmup_inst": "Losmeitsje mei gaps, lippentrilling (brrr), en in sêft brom foar sawat in minút. Gjin needsaak om op te nimmen - it is gewoan om jo kiel te ûntspannen foardat jo sjonge.",
+      "vowels": "Oanhâldende lûden",
+      "vowels_inst": "Hâld elke lûd - a, e, i, o, u - foar 3 oant 4 sekonden op jo noflike toanhichte, mei in fêst folume. Dit helpt Suno it suvere timbre fan jo stim op te nimmen.",
+      "scales": "Skalen op en del",
+      "scales_inst": "Sjong in ienfâldige skaal omheech en dan del, op \"la\" of \"na\". It hoecht net perfekt te wêzen - it doel is om jo stimberik yn kaart te bringen.",
+      "section": "Liedtekst - diel 1",
+      "section_inst": "Sjong 8 oant 16 maten fan it ferske, mei de echte bedoeling dy't jo wolle oerbringe. Prioritearje dúdlikens en oanwêzigens boppe technyske perfeksje.",
+      "section2": "Liedtekst - diel 2",
+      "section2_inst": "Sjong noch 8 oant 16 maten - by útstek in koar as in seksje dy't kontrast mei de foarige. Mear ferskaat helpt it model jo stim te learen.",
+      "dynamics": "Dynamyk: sêft → lûd",
+      "dynamics_inst": "Sjong deselde sin dy't heul sêft begjint en lûd einiget, sûnder jo kiel te spannen. Dit toant it dynamyske berik fan jo stim Suno.",
+      "spoken": "Sprekke frase",
+      "spoken_inst": "Sprek - net sjonge - in koarte, natuerlike útdrukking, as wiene jo petearen. Dit helpt Suno it echte timbre fan jo stim te herkennen."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restauraasje",
+      "filter": "Filters",
+      "dynamics": "Dynamics",
+      "separation": "Skieding",
+      "quality": "Kwaliteit",
+      "utility": "Utility",
+      "loudness": "Loudness"
+    },
+    "highpass": "High-pass filter",
+    "lowpass": "Low-pass filter",
+    "denoise": "Noise reduksje",
+    "declip": "Declipping",
+    "declick": "Klik / pop ferwidering",
+    "deesser": "De-esser",
+    "gate": "Noise poarte",
+    "compressor": "Compressor",
+    "limiter": "Limiter",
+    "eq": "Equalization",
+    "normalize": "Peak normalisearring",
+    "loudness": "Loudness Normalization (LUFS)",
+    "reverb_reduce": "Reverb reduksje",
+    "separate": "Boarne skieding",
+    "quality": "Kwaliteitsferbettering (upscale)",
+    "trim_silence": "Stilte trimmen",
+    "fade": "Fade in / fade out",
+    "stereo_to_mono": "Konvertearje nei mono",
+    "resample": "Resampling"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Betrouber",
+      "2": "Gewoanlik wurket",
+      "3": "Fariabel",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Struktuer",
+      "vocal": "Vocal",
+      "instrument": "Ynstrumint",
+      "dynamics": "Dynamics",
+      "production": "Produksje",
+      "mood": "Mood"
+    },
+    "verse": "Fers",
+    "chorus": "Koar",
+    "bridge": "Brêge",
+    "intro": "Yntro",
+    "outro": "Outro",
+    "hook": "Hook",
+    "prechorus": "Pre-koar",
+    "instrumental": "Ynstruminteel",
+    "guitar_solo": "Gitaar solo",
+    "build_up": "Opbou",
+    "breakdown": "Ferdieling",
+    "spoken_word": "Spoken wurd",
+    "whispered": "Fluistere",
+    "harmonies": "Harmonies",
+    "male_vocal": "Manlike fokaal",
+    "female_vocal": "Female stim",
+    "duet": "Duet",
+    "acoustic": "Akoestyske",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Skjinne stim",
+    "voice_guitar_balanced": "Balansearre stim & gitaar",
+    "podcast": "Podcast",
+    "suno_ready": "Suno klear",
+    "gentle_restore": "Gentle weromsette",
+    "raw_passthrough": "Gjin ferwurking"
+  },
+  "errors": {
+    "unknown": "Der gie wat mis.",
+    "network": "Koe de tsjinner net berikke.",
+    "validation_error": "Kontrolearje de ynformaasje dy't jo ynfierd hawwe.",
+    "not_found": "Item net fûn.",
+    "project_not_found": "Projekt net fûn.",
+    "take_not_found": "Nim net fûn.",
+    "album_not_found": "Album net fûn.",
+    "preset_not_found": "Foarynstelling net fûn.",
+    "template_not_found": "Sjabloan net fûn.",
+    "device_busy": "Audioapparaat is yn gebrûk troch in oar programma.",
+    "device_not_found": "Audioapparaat net fûn.",
+    "already_recording": "In opname is al dwaande.",
+    "ffmpeg_missing": "FFmpeg is net ynstalleare - ynstallearje it om dit bestân te konvertearjen.",
+    "disk_full": "Net genôch skiifromte.",
+    "permission_denied": "Tastimming wegere foar it opjûne paad.",
+    "import_path_not_found": "Ymportpaad net fûn.",
+    "job_failed": "Ferwurking mislearre.",
+    "job_cancelled": "Ferwurking waard annulearre.",
+    "process_failed": "It ferwurkjen fan de take is net slagge.",
+    "export_failed": "It eksportearjen fan it bestân is mislearre.",
+    "record_failed": "It begjinnen fan opname is mislearre."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Wachtrige",
+      "running": "Running",
+      "done": "Dien",
+      "error": "Mislearre",
+      "cancelled": "Annulearre"
+    },
+    "kind": {
+      "process": "Ferwurking",
+      "export": "Eksportearje",
+      "import": "Ymportearje",
+      "record": "Opname"
+    }
+  }
+}

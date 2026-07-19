@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Pulitô audio"
+  },
+  "nav": {
+    "library": "Biblioteca",
+    "record": "Registra",
+    "import": "Importâ",
+    "templates": "Modelli",
+    "settings": "Impostaçioin",
+    "guide": "Guida"
+  },
+  "common": {
+    "save": "Salvâ",
+    "saving": "Salvâ...",
+    "saved": "Sarvou",
+    "cancel": "Annulla",
+    "close": "Serrâ",
+    "delete": "Cancellâ",
+    "edit": "Modificâ",
+    "create": "Creâ",
+    "search": "Reçerca",
+    "loading": "Carregando...",
+    "error": "Errô",
+    "retry": "Provâ torna",
+    "confirm": "Confermâ",
+    "back": "Torna",
+    "next": "Avanti",
+    "continue": "Continuâ",
+    "finish": "Finî",
+    "copy": "Copia",
+    "copied": "Copiou",
+    "download": "Scaricâ",
+    "upload": "Carregâ",
+    "none": "Nisciun",
+    "all": "Tutti",
+    "yes": "Sì",
+    "no": "No",
+    "select": "Seleçionâ",
+    "optional": "facoltäio",
+    "required": "neçessäio",
+    "unsaved_changes": "Cangiamenti no sarvæ",
+    "name": "Nomme",
+    "status": "Stato",
+    "type": "Tipo",
+    "actions": "Açioin",
+    "empty": "Veuo",
+    "browse": "Sfoggiâ",
+    "remove": "Remove",
+    "add": "Azzonta",
+    "rename": "Cangiâ o nomme",
+    "duplicate": "Duplicâ",
+    "warning": "Avvertimento",
+    "locked": "Serrou",
+    "builtin": "Incorpoou",
+    "custom": "Personalizzou",
+    "untitled": "Sensa titolo",
+    "select_placeholder": "Seleçionâ..."
+  },
+  "library": {
+    "title": "Biblioteca",
+    "subtitle": "I tò progetti de voxe e chitarra, da l'idea a-o relascio.",
+    "new_project": "Neuvo progetto",
+    "new_album": "Neuvo album",
+    "search_placeholder": "Çerca pe nomme...",
+    "view": {
+      "grid": "Grixella",
+      "albums": "Album"
+    },
+    "filters": {
+      "all": "Tutti"
+    },
+    "take_count_one": " {{count}} piggiâ",
+    "take_count_other": " {{count}} o piggia",
+    "updated_at": "Aggiornou {{date}} ",
+    "no_results": {
+      "title": "No s'é attrovou nisciun progetto",
+      "description": "Prova à regolâ o filtro de reçerca ò de stato."
+    },
+    "empty": {
+      "title": "A vòstra biblioteca a l'é veua",
+      "description": "Commensâ un neuvo progetto da-o prinçipio, ò importâ o piggiâ ch'o l'é za in sciô disco.",
+      "cta_import": "Importâ da-a cartella",
+      "cta_new": "Creâ o progetto"
+    },
+    "project_dialog": {
+      "title": "Neuvo progetto",
+      "description": "Dæghe un nomme e çerne unna modalitæ de registraçion.",
+      "name_label": "Nomme do progetto",
+      "name_placeholder": "p.e. Piövia d'istæ",
+      "mode_label": "Modo",
+      "mode": {
+        "voice": "Solo voxe",
+        "voice_guitar": "Voxe + chitarra"
+      },
+      "submit": "Creâ o progetto"
+    },
+    "album_dialog": {
+      "title": "Neuvo album",
+      "description": "Raggruppâ di progetti ligæ inte un album.",
+      "name_label": "Nomme de l'album",
+      "name_placeholder": "p.e. EP d'ötunno",
+      "submit": "Creâ l'album"
+    },
+    "album": {
+      "untitled": "Album sensa titolo",
+      "members_count_one": " {{count}} progetto",
+      "members_count_other": " {{count}} progetti",
+      "empty": "Nisciun progetto inte sto disco ancon.",
+      "delete_confirm_title": "Cancellâ l'album?",
+      "delete_confirm_description": "I progetti no saian cancellæ, sôo che descollegæ da \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Cancellâ \" {{name}} \"?",
+      "confirm_description": "Sto fæto o l'elimina o progetto e tutte e piggiæ drento. Sto fæto o no peu ëse desfæto."
+    }
+  },
+  "record": {
+    "title": "Registra",
+    "subtitle": "Cattuâ unna registraçion netta, ammiâ i vòstri livelli e anâ apreuvo a-a sceneggiatua.",
+    "project_label": "Progetto",
+    "project_placeholder": "Sceglie un progetto",
+    "project_create_quick": "Creâ un progetto spedio...",
+    "device_label": "Dispoxitivo d'input",
+    "device_placeholder": "Sceglie un dispoxitivo .",
+    "device_default_badge": "Predefinio do scistema",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Nisciun dispoxitivo d'input o l'é stæto attrovou.",
+    "monitor_button": "Monitô",
+    "monitor_stop_button": "Fermâ o monitoraggio",
+    "record_button": "Registra",
+    "stop_button": "Fermâse",
+    "elapsed_label": "Tempo passou",
+    "status": {
+      "idle": "Ottivo",
+      "monitoring": "Controllo",
+      "recording": "Registraçion",
+      "stopped": "Fermou"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Cimma",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Sescion guiddâ",
+      "subtitle": "Lasciâ che o coach o t'ammie pe-a sceneggiatua passo à passo, da-o rescädamento a-a frase parlâ.",
+      "loading": "Carregando o script...",
+      "unavailable": "A sescion guiddâ a no l'é ancon disponibile in sciô server.",
+      "select_project_device": "Çerne un progetto e un dispoxitivo d'input pe registrâ i pasci giusto da chì.",
+      "progress": " {{done}} de {{total}} pasci",
+      "start_timer": "Temporizzatô d'avvio",
+      "skip_timer": "Saltâ o temporizzatô",
+      "record_step": "Registra sto passo",
+      "stop_step": "Fermâ a registraçion",
+      "mark_done": "Fæto — passo apreuvo",
+      "step_recorded": "Piggiâ registrou",
+      "no_record_step": "Passo de rescädamento – no gh'é beseugno de registraçion.",
+      "bars_hint": "Ciù o meno {{bars}} barre",
+      "complete_title": "Sceneggiatua completa!",
+      "complete_body": "O l'à registrou tutti i pasci da sceneggiatua. Torna a-a scheda Audio do progetto e çerne e vòstre registraçioin preferie.",
+      "restart": "Reavvia o script"
+    },
+    "best2min": {
+      "button": "Trova i megio 2 menuti (Suno)",
+      "running": "Analizzando a piggiâ...",
+      "score_label": "Punteggio",
+      "hint": "O l'exegue unn'analixi d'energia e de ciæitæ in sce l'intrega preisa pe attrovâ o seu barcon ciù fòrte de doî menuti – dapeu peu ancon regolâ a gamma à man.",
+      "chart_caption": "Puntuaçion pe finestra",
+      "unavailable": "L'analixi di megio 2 menuti a no l'é ancon disponibile in sce sto server."
+    },
+    "takes_title": "Piggia da sta sescion",
+    "takes_empty": "Nisciuña registraçion a l'é stæta ancon registrâ inte sta sescion.",
+    "open_in_project": "Averto into progetto",
+    "ws_disconnected": "Reconnescionâse a-o contatô de livello...",
+    "select_project_first": "Scegli un progetto pe comensâ.",
+    "select_device_first": "Sceglie un dispoxitivo d'input."
+  },
+  "project": {
+    "back_to_library": "Torna a-a biblioteca",
+    "header": {
+      "status_label": "Stato",
+      "cover_upload": "Carregâ a covertiña",
+      "cover_remove": "Remove a covertua",
+      "name_placeholder": "Nomme do progetto",
+      "links_title": "Collegamenti",
+      "add_link": "Azzonta un link",
+      "mode": {
+        "voice": "Solo voxe",
+        "voice_guitar": "Voxe + chitarra"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Testi",
+      "prompts": "Prompt",
+      "notes": "Notte"
+    },
+    "audio": {
+      "takes_title": "Piggia",
+      "no_takes": {
+        "title": "No piggia ancon",
+        "description": "Registra unna neuva preisa ò importa un file existente."
+      },
+      "record_new": "Registra unna neuva piggiâ",
+      "rating": "Valutaçion",
+      "variant": {
+        "raw": "Crudo",
+        "processed": "Trattao"
+      },
+      "variant_placeholder": "Verscion",
+      "process_button": "Proçesso",
+      "export_button": "Esportâ",
+      "delete_take_confirm_title": "Cancellâ sta piggiâ?",
+      "delete_take_confirm_description": "L'audio gròsso e tutte e verscioin elaboræ saian remposse.",
+      "ab": {
+        "raw": "A · Crudo",
+        "processed": "B · Trattou"
+      },
+      "origin": {
+        "recorded": "Registrou",
+        "imported": "Importou"
+      },
+      "session_label_placeholder": "Etichetta de sescion (facoltäio)",
+      "duration": "Duâ",
+      "sample_rate": "Frequensa de campionamento",
+      "channels": "Cannæ",
+      "created_at": "Registrou"
+    },
+    "pipeline": {
+      "title": "Cadeña de trattamento",
+      "preset_label": "Preset",
+      "preset_none": "Cadeña personalizzâ",
+      "preset_save": "Salvâ comme preset",
+      "stage_locked": "Serrou",
+      "stage_requires_extra": "O domanda un extra ch'o no l'é installou",
+      "process_button": "Proçesso piggiâ",
+      "processing": "Elaboraçion...",
+      "job_queued": "In fila...",
+      "job_running": "Elaboraçion...",
+      "job_done": "Fæto",
+      "job_error": "Fallio",
+      "job_cancelled": "Annullou",
+      "cancel_job": "Annulla",
+      "no_stages": "Nisciuña scena à dispoxiçion."
+    },
+    "export": {
+      "title": "Esportâ piggiâ",
+      "description": "Render un file finale da unna verscion elaborâ.",
+      "variant_label": "Verscion",
+      "format_label": "Formato",
+      "preset_label": "Esportâ o preset",
+      "range_label": "Gamma",
+      "range_full": "Longhixe completa",
+      "range_custom": "Gamma personalizzâ",
+      "start_label": "Comenso (i)",
+      "end_label": "Fin (e)",
+      "submit": "Esportâ",
+      "progress": "File de rendering...",
+      "download_ready": "File pronto",
+      "download_button": "Scaricâ o file"
+    },
+    "notes": {
+      "placeholder": "Appunti in forma libera in sce sto progetto...",
+      "saved_at": "Salvou a-o {{time}} . "
+    },
+    "lyrics": {
+      "placeholder": "Scrive i testi chì. Utilizzâ a paletta in sciô canto pe inserî i meta-tag de Suno.",
+      "saved_at": "Salvou a-o {{time}} . ",
+      "saving": "Salvâ...",
+      "versions": "Verscioin",
+      "versions_empty": "Nisciuña verscion sarvâ ancon.",
+      "version_preview": "Anteprima",
+      "restore": "Restaurâ sta verscion",
+      "restore_confirm_title": "Restaurâ sta verscion?",
+      "restore_confirm_description": "O testo corrente o saià sostituio da-a verscion sarvâ in sce {{date}} .",
+      "metatags_title": "Meta-tag",
+      "metatags_hint": "Clicca in sce un tag pe inserîlo a-o cursô.",
+      "metatags_placebo_warning": "No demostrou – o no peu avei nisciun effetto in sciô resultato.",
+      "metatags_empty": "Nisciun meta-tag registrou."
+    },
+    "prompts": {
+      "style_title": "Prompt de stile",
+      "lyrics_title": "Prompt de testi",
+      "template_label": "Modello",
+      "template_none": "Nisciun modello",
+      "variables_title": "Variabile",
+      "preview_title": "Anteprima",
+      "preview_empty": "Sceglie un modello e compie e variabile pe vedde unn'anteprimma.",
+      "char_count": " {{count}} caratteri",
+      "char_count_warning": "I prompt de stile de ciù de 1000 caratteri peuan ëse troncæ da Suno.",
+      "copy": "Copia",
+      "copied": "Copiou in sciô clipboard",
+      "save_to_project": "Salvâ into progetto",
+      "saved_to_project": "Prompt sarvou into progetto",
+      "history_title": "Stöia",
+      "history_empty": "Nisciuña verscion preçedente.",
+      "current_label": "Corrente"
+    },
+    "stems": {
+      "title": "Voxe e chitarra",
+      "separate_button": "Voxe separâ e chitarra",
+      "running": "Separando...",
+      "vocals": "Voxe",
+      "instrumental": "Strumentale",
+      "process_stem": "Elaborâ sto stemma",
+      "empty": "Sta piggiâ a no l'é ancon stæta separâ. Corrî a separaçion pe senti a voxe e a chitarra in isoamento.",
+      "capability_missing": "A separaçion de vivagne a no l'é installâ in sce sto server.",
+      "unavailable": "A separaçion vocale/chitarra a no l'é ancon disponibile in sce sto server."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "On",
+    "boolean_off": "Spento"
+  },
+  "import": {
+    "title": "Importâ",
+    "subtitle": "Portâ di progetti ch'existe za in sciô disco inta biblioteca.",
+    "step_indicator": "Passo {{current}} de {{total}} ",
+    "step1": {
+      "title": "Localizzâ a cartella",
+      "description": "Punta a cartella root co-i to progetti e e tracce.",
+      "path_label": "Percorso da cartella",
+      "path_placeholder": "p.e. E:\\Robbs\\Orgoggio\\Muxica\\ROBBS",
+      "recent_label": "Reçente",
+      "scan_button": "Scansionâ cartella",
+      "scanning": "Scanscion...",
+      "ffmpeg_warning": "FFmpeg no l'é stæto attrovou — i file ch'an beseugno de converscion saian saltæ.",
+      "folders_found_one": " {{count}} cartella attrovâ",
+      "folders_found_other": " {{count}} cartelle attrovæ",
+      "unmatched_files_one": " {{count}} file no reconosciuo",
+      "unmatched_files_other": " {{count}} file no reconosciui"
+    },
+    "step2": {
+      "title": "Articoli de revixon",
+      "description": "Controllâ i nommi, i stati e quello ch'o saià importou avanti de confermâlo.",
+      "select_all": "Seleçionâ tutti .",
+      "table": {
+        "folder": "Cartella de origine",
+        "name": "Nomme do progetto",
+        "status": "Stato",
+        "audio": "Audio",
+        "lyrics": "Testi",
+        "cover": "Copertina",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} file seleçionou",
+      "audio_include_other": " {{count}} file seleçionæ",
+      "no_audio": "No l'é stæto attrovou nisciun audio",
+      "no_lyrics": "No gh'é stæto attrovou di testi",
+      "no_cover": "Nisciuña covertiña",
+      "warnings_title": "Avvertimenti"
+    },
+    "step3": {
+      "title": "Importâ",
+      "description": "Confermâ pe copiâ i file e creâ i progetti.",
+      "copy_originals": "Copiâ i file originäi inta biblioteca .",
+      "execute_button": "Commensâ l'importaçion",
+      "progress_title": "Importâ...",
+      "created_count": "Creou: {{count}} ",
+      "skipped_count": "Saltou: {{count}} ",
+      "done_title": "Importâ completo",
+      "done_description": "I progetti chì sotta son stæti creæ inta vòstra biblioteca.",
+      "view_project": "Progetto averto",
+      "start_over": "Neuva importaçion"
+    }
+  },
+  "templates": {
+    "title": "Modelli",
+    "subtitle": "Modelli de prompt e meta-tag che se peuan deuviâ torna pe Suno.",
+    "tabs": {
+      "prompts": "Modelli de prompt",
+      "metatags": "Meta-tag"
+    },
+    "new_template": "Neuvo modello",
+    "kind": {
+      "style": "Stile",
+      "lyrics": "Testi"
+    },
+    "kind_label": "Gentile",
+    "delete_confirm_title": "Cancellâ o modello \" {{name}} \"?",
+    "delete_confirm_description": "Sto fæto o no peu ëse desfæto.",
+    "empty": "Ancon nisciun modello.",
+    "editor": {
+      "title_new": "Neuvo modello",
+      "title_edit": "Modificâ o modello",
+      "name_label": "Nomme",
+      "name_placeholder": "p.e. Balladda acustica",
+      "kind_label": "Gentile",
+      "template_label": "Testo do modello",
+      "template_hint": "Marca donde ògni variabile a l'appartëgne co-o seu nomme inguggeito inte dogge parentexi risse; pe fâ un exempio, unna variabile ciammâ \"genere\" a vëgne genere inguggeito inte doe parentexi d'avertua e doe de chiusura.",
+      "variables_label": "Variabile",
+      "variable_add": "Azzonta variabile",
+      "variable_name": "Tave",
+      "variable_label": "Etichetta",
+      "variable_type": "Tipo",
+      "variable_type_string": "Testo",
+      "variable_type_select": "Seleçion sencia",
+      "variable_type_multiselect": "Multi-seleçion",
+      "variable_type_number": "Numero",
+      "variable_type_boolean": "Sì/no",
+      "variable_options": "Opçioin (separæ da-e virgole)",
+      "variable_required": "Obrigatöio",
+      "save": "Salvâ o modello"
+    },
+    "metatags": {
+      "title": "Meta-tag",
+      "subtitle": "I tag strutturali e de stile Suno o reconosce drento i testi.",
+      "new_tag": "Neuva tag",
+      "tag_label": "Tag",
+      "tag_placeholder": "p.e. chitarra-solo",
+      "category_label": "Categoria",
+      "tier_label": "Affidabilitæ",
+      "tier_legend_title": "Lezzendia d'affidabilitæ",
+      "tier_legend": {
+        "1": "Livello 1 — documentou e coerente",
+        "2": "Livello 2 — pe commun o fonçioña",
+        "3": "Livello 3 — effetto variabile",
+        "4": "Livello 4 — placebo, no demostrou"
+      },
+      "description_label": "Descriçion",
+      "delete_confirm_title": "Cancellâ l'etichetta \" {{tag}} \"?",
+      "empty": "Ancon nisciun meta-tag personalizzou."
+    }
+  },
+  "settings": {
+    "title": "Impostaçioin",
+    "subtitle": "Informaçioin in sciô scistema, lengua e preferense predefinie.",
+    "system_info_title": "Scistema",
+    "version": "Verscion",
+    "data_dir": "Cartella di dæti",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Disponibile",
+    "ffmpeg_missing": "No l'é stæto attrovou",
+    "capabilities_title": "Capaçitæ installæ",
+    "capability": {
+      "denoise": "Reduçion do rumô",
+      "quality": "Megioamento da qualitæ",
+      "separate": "Separaçion de vivagne",
+      "ffmpeg": "Converscion FFmpeg"
+    },
+    "capability_available": "Disponibile",
+    "capability_unavailable": "No disponibile",
+    "gpu_title": "Acceleraçion da GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "Fornitoî de tempo de execuçion ONNX"
+    },
+    "gpu_none": "Nisciun fornitô de GPU o l'é stæto individuou",
+    "language_title": "Lengua",
+    "language": {
+      "pt-BR": "Portogheixi (Brasî)",
+      "en": "Ingleise"
+    },
+    "theme_title": "Apparensa",
+    "theme": {
+      "dark": "Scuo",
+      "light": "Luxe"
+    },
+    "defaults_title": "I impostaçioin predefinie d'esportaçion",
+    "lufs_target_label": "LUFS de destinaçion",
+    "lufs_target_hint": "Deuviou comme suggerimento de comenso quande s'esporta e piggie. L'impostaçion predefinia de Suno a l'é d'in gio à -14 LUFS.",
+    "saved": "Preferense stæte sarvæ"
+  },
+  "guide": {
+    "title": "Guida de registraçion Suno",
+    "subtitle": "Comme cattuâ a voxe e a chitarra piggiâ che ottëgnan i megio exiti.",
+    "intro": "Suno o l'à e megio prestaçioin con di referimenti netti e sensa ambiguitæ. Sta guidda a creuve a preparaçion, i livelli de destinaçion e unna sceneggiatua de registraçion de 3-5 menuti.",
+    "sections": {
+      "prep": {
+        "title": "Preparaçion",
+        "body": "Registra inte unna stançia trattâ ò unna con ben ben de mateiâ morbido (tende, tappeti, vestî inte un armäio). Spegne i ventilatoî e quæ se segge cösa ch'a ronza. Scalda a voxe pe 5 menuti avanti de registrâ."
+      },
+      "levels": {
+        "title": "Livelli: da -12 à -6 dBFS",
+        "body": "Obiettivo de çimme tra -12 e -6 dBFS in sciô contatô. De sotta à quella gamma, o rumô de fondo o vëgne ciù notteive; de d'ato, o reisego de clipping o monta. Utilizzâ o contatô inta pagina Record pe impostâ o guägno primma de comensâ."
+      },
+      "distance": {
+        "title": "Distansa do microfono: 15-30 cm",
+        "body": "Arresta da-i 15 a-i 30 cm da-o microfòn. Ciù vexin che quello o l'esagera i ploscivi e l'effetto de proscimitæ; ciù lontan o piggia ciù reverb de stançia e rumô."
+      },
+      "script": {
+        "title": "Sceneggiatua de registraçion",
+        "warmup": "Rescädamento vocale (1-2 menuti)",
+        "vowels": "Vocale sostegnue — a, e, i, o, u .",
+        "scales": "Scæ sence, in çimma e in basso",
+        "excerpt": "Un estratto de canson (da 8 a 16 barre)",
+        "dynamics": "Dinamica: comensâ morbido, finî à fòrte",
+        "spoken_phrase": "Unna frase parlâ, coscì che o Suno o pòsse leze o seu ton vocale"
+      },
+      "expectations": {
+        "title": "Quello che o Suno o s'aspëta",
+        "body": "WAV, 48 kHz, mono, secco (nisciuña reverbera ò effetti), da 3 à 5 menuti de referensa. I 2 menuti ciù netti e rappresentativi da registraçion pe commun produxan i megio exiti."
+      }
+    }
+  },
+  "status": {
+    "idea": "Idea",
+    "em_progresso": "In corso",
+    "quase": "Squæxi lì .",
+    "pronto": "Pronto"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Sceneggiatua vocale completa pe Suno",
+      "desc": "5 menuti guiddæ: warm-up, vocale, scæ, doî estræti de cansoin, dinamica, e unna frase parlâ."
+    },
+    "step": {
+      "warmup": "Rescädamento vocale",
+      "warmup_inst": "Deslenguâse con di sciäti, di trilli di lappi (brrr), e un ronzo morbido pe un menûto pöcassæ. No beseugna registrâ – o l'é solo che pe deslenguâ a goa avanti de cantâ.",
+      "vowels": "Vocale sostegnue .",
+      "vowels_inst": "Tegnî ògni vocale — a, e, i, o, u — pe 3 ò 4 segondi a-o vòstro ton conforteive, con un volumme fermo. Sto fæto o l'aggiutta Suno à piggiâ o timbro puo da vòstra voxe.",
+      "scales": "Scâ in çimma e in basso",
+      "scales_inst": "Cantâ unna scâ sencia in çimma e dapeu in basso, in sce \"la\" ò \"na\". No l'à beseugno d'ëse perfetto – l'obiettivo o l'é de mappâ a vòstra gamma vocale.",
+      "section": "Estratto de canson — parte 1",
+      "section_inst": "Canta da-e 8 a-e 16 battue da canson, co-a vea intençion che veu trasmette. Prioritæ a-a ciæitæ e a-a presensa in sciâ perfeçion tecnica.",
+      "section2": "Estratto de canson — parte 2",
+      "section2_inst": "Cantâ atre 8 à 16 barre – idealmente un cöo ò unna seçion ch'a contrasta con quella preçedente. Ciù varietæ a l'aggiutta o modello à imprende a vòstra voxe.",
+      "dynamics": "Dinamica: morbido → forte",
+      "dynamics_inst": "Canta a mæxima frase comensando ben ben morbida e finindo à fòrte, sensa strenze a goa. Sto fæto o mostra à Suno a gamma dinamica da vòstra voxe.",
+      "spoken": "Frase parlâ",
+      "spoken_inst": "Parla — no cantâ — unna frase curta e naturale, comme se ti fïse apreuvo à ciattâ. Sto fæto o l'aggiutta o Suno à reconosce o veo timbro da vòstra voxe."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restauro",
+      "filter": "Filtri",
+      "dynamics": "Dinamica",
+      "separation": "Separaçion",
+      "quality": "Qualitæ",
+      "utility": "Utilitæ",
+      "loudness": "Fortezza"
+    },
+    "highpass": "Filtro passa-erto",
+    "lowpass": "Filtro passa-basso",
+    "denoise": "Reduçion do rumô",
+    "declip": "Declippando",
+    "declick": "Remoçion do clic/pop",
+    "deesser": "De-esser",
+    "gate": "Portâ de rumô",
+    "compressor": "Compressô",
+    "limiter": "Limitatô",
+    "eq": "Equalizzaçion",
+    "normalize": "Normalizzaçion de çimma",
+    "loudness": "Normalizzaçion da fòrsa (LUFS)",
+    "reverb_reduce": "Reduçion do reverb",
+    "separate": "Separaçion de vivagne",
+    "quality": "Megioamento da qualitæ (upscale)",
+    "trim_silence": "Taggio do scilensio",
+    "fade": "Sfogâ drento / sfogâ feua",
+    "stereo_to_mono": "Convertî in mono",
+    "resample": "Recampionamento"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Affiâ",
+      "2": "Pe commun o fonçioña",
+      "3": "Variabile",
+      "4": "Plaçebo"
+    },
+    "category": {
+      "structure": "Struttua",
+      "vocal": "Vocale",
+      "instrument": "Strumento",
+      "dynamics": "Dinamica",
+      "production": "Produçion",
+      "mood": "Umore"
+    },
+    "verse": "Verso",
+    "chorus": "Cöro",
+    "bridge": "Ponte",
+    "intro": "Introduçion",
+    "outro": "Outro",
+    "hook": "Gancio",
+    "prechorus": "Pre-cöro",
+    "instrumental": "Strumentale",
+    "guitar_solo": "Solo de chitarra",
+    "build_up": "Accumulo",
+    "breakdown": "Decompoxiçion",
+    "spoken_word": "Paròlla parlâ",
+    "whispered": "Sussurrou",
+    "harmonies": "Armonie",
+    "male_vocal": "Vocale mascoliña",
+    "female_vocal": "Vocale feminiña",
+    "duet": "Duetto",
+    "acoustic": "Acustico",
+    "ad_lib": "Libbricata d'annunçio"
+  },
+  "presets": {
+    "clean_voice": "Voxe netta",
+    "voice_guitar_balanced": "Voxe & chitarra equilibræ",
+    "podcast": "Podcast",
+    "suno_ready": "Suno pronto",
+    "gentle_restore": "Restauro delicato",
+    "raw_passthrough": "Nisciuña trattaçion"
+  },
+  "errors": {
+    "unknown": "Quarcösa o l'é anæto mâ.",
+    "network": "No l'é stæto poscibile razzonze o server.",
+    "validation_error": "Controllâ e informaçioin ch'o l'é stæto inserio.",
+    "not_found": "Articolo no trovou.",
+    "project_not_found": "Progetto no attrovou.",
+    "take_not_found": "Piggiâ no attrovou.",
+    "album_not_found": "Album no l'é stæto attrovou.",
+    "preset_not_found": "No l'é stæto attrovou o preset.",
+    "template_not_found": "Modello no attrovou.",
+    "device_busy": "O dispoxitivo audio o l'é deuviou da un atro programma.",
+    "device_not_found": "Dispoxitivo audio no l'é stæto attrovou.",
+    "already_recording": "Unna registraçion a l'é za in corso.",
+    "ffmpeg_missing": "FFmpeg o no l'é installou — installâlo pe convertî sto file.",
+    "disk_full": "No gh'é assæ de spaçio in sciô disco.",
+    "permission_denied": "O permisso o l'é stæto refuou pe-o percorso dæto.",
+    "import_path_not_found": "Percorso d'importaçion o no l'é stæto attrovou.",
+    "job_failed": "L'elaboraçion a l'é fallia.",
+    "job_cancelled": "L'elaboraçion a l'é stæta annullâ.",
+    "process_failed": "No l'é arriescio à elaborâ a preisa.",
+    "export_failed": "No l'é stæto poscibile esportâ o file.",
+    "record_failed": "No l'é stæto poscibile comensâ a registraçion."
+  },
+  "jobs": {
+    "status": {
+      "queued": "In fila",
+      "running": "Corsa",
+      "done": "Fæto",
+      "error": "Fallio",
+      "cancelled": "Annullou"
+    },
+    "kind": {
+      "process": "Elaboraçion",
+      "export": "Esportâ",
+      "import": "Importâ",
+      "record": "Registraçion"
+    }
+  }
+}

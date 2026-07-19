@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Gin ma lwoko dwan"
+  },
+  "nav": {
+    "library": "Ot ma ki gwoko iye buk",
+    "record": "rekod",
+    "import": "Kelo ki woko",
+    "templates": "Kit ma ki yubu kwede",
+    "settings": "Kit ma ki keto kwede",
+    "guide": "Lanyut"
+  },
+  "common": {
+    "save": "Gwok",
+    "saving": "Gwoko...",
+    "saved": "ki gwoko",
+    "cancel": "Juko",
+    "close": "Cego",
+    "delete": "Kwany",
+    "edit": "Lok",
+    "create": "Yub",
+    "search": "Yeny",
+    "loading": "Tye ka keto...",
+    "error": "Bal",
+    "retry": "Tem doki",
+    "confirm": "Mok",
+    "back": "Dok cen",
+    "next": "Ma lubo",
+    "continue": "Mede anyim",
+    "finish": "tyeko",
+    "copy": "Kwany",
+    "copied": "Ki kwanyo",
+    "download": "Kwany",
+    "upload": "Ket",
+    "none": "Pe",
+    "all": "weng",
+    "yes": "Ada",
+    "no": "Ku",
+    "select": "Yer",
+    "optional": "pi miite",
+    "required": "mite",
+    "unsaved_changes": "Aloka loka ma pe ki gwoko",
+    "name": "Nying",
+    "status": "Kit ma tye kwede",
+    "type": "Co",
+    "actions": "Tic",
+    "empty": "Odong nono",
+    "browse": "Yeny",
+    "remove": "Kwany",
+    "add": "Med",
+    "rename": "Lok nying",
+    "duplicate": "Nyut",
+    "warning": "Cik",
+    "locked": "Ki loro",
+    "builtin": "Ki gedo iye",
+    "custom": "Cultom",
+    "untitled": "Labongo nying",
+    "select_placeholder": "Yer..."
+  },
+  "library": {
+    "title": "Ot ma ki gwoko iye buk",
+    "subtitle": "Dwan ni ki yub me gita ni, cake i tam nio wa i gonyo ne.",
+    "new_project": "Yub manyen",
+    "new_album": "wer manyen",
+    "search_placeholder": "Yeny ki nying...",
+    "view": {
+      "grid": "Grid",
+      "albums": "Buk wer"
+    },
+    "filters": {
+      "all": "weng"
+    },
+    "take_count_one": " {{count}} kwanyo",
+    "take_count_other": " {{count}} tero",
+    "updated_at": "Ki medo {{date}} ",
+    "no_results": {
+      "title": "Pe ki nongo yub mo kiken",
+      "description": "Tem loko gin ma imito yenyo onyo kit ma ki keto kwede."
+    },
+    "empty": {
+      "title": "ot ma ki gwoko iye buk ni tye nono",
+      "description": "Yab yub manyen ki i acaki, onyo ikel jami ma dong itye kwede i disk.",
+      "cta_import": "Kel ki i folda",
+      "cta_new": "Yub yub"
+    },
+    "project_dialog": {
+      "title": "Yub manyen",
+      "description": "Mi ne nying ki iyero kit me mako ne.",
+      "name_label": "Nying yub ni",
+      "name_placeholder": "e.g. Kot me kare me cwir",
+      "mode_label": "Kit",
+      "mode": {
+        "voice": "Dwon keken",
+        "voice_guitar": "Dwan + gita"
+      },
+      "submit": "Yub yub"
+    },
+    "album_dialog": {
+      "title": "wer manyen",
+      "description": "Dul jami ma rwate i buk me wer.",
+      "name_label": "Nying albam",
+      "name_placeholder": "e.g. EP me kare me kac",
+      "submit": "Yub wer"
+    },
+    "album": {
+      "untitled": "Buk ma pe ki nying",
+      "members_count_one": " {{count}} yub",
+      "members_count_other": " {{count}} yub",
+      "empty": "Pe tye yub mo i buk man.",
+      "delete_confirm_title": "Kwanyo wer?",
+      "delete_confirm_description": "Yub pe kibi kwanyo gi woko, ento ki bi kwanyo gi ki i \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Kwanyo \" {{name}} \"?",
+      "confirm_description": "Man kwanyo yub ni ki jami weny ma tye iye. Man pe kitwero dwoko cen."
+    }
+  },
+  "record": {
+    "title": "rekod",
+    "subtitle": "Kwany gin ma ki kwanyo maber, nen rwom ni, ki lub gin ma ki coyo ni.",
+    "project_label": "Yub",
+    "project_placeholder": "Yer yub mo",
+    "project_create_quick": "Yub yub ma oyot...",
+    "device_label": "Gin ma ki keto iye jami",
+    "device_placeholder": "Yer jami tic",
+    "device_default_badge": "Gin ma ki keto i yub ni",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Pe ki nongo jami ma ki keto iye.",
+    "monitor_button": "Neno",
+    "monitor_stop_button": "Juk neno",
+    "record_button": "rekod",
+    "stop_button": "Cung",
+    "elapsed_label": "kare ma okato",
+    "status": {
+      "idle": "Pe tiyo",
+      "monitoring": "Neno",
+      "recording": "mako lok",
+      "stopped": "ki juku"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Wi got",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Pwony ma ki telo",
+      "subtitle": "Wek lapwony ni oter in i kin gin ma ki coyo ni, ki i acaki nio wa i lok ma ki waco.",
+      "loading": "Tye ka keto coc...",
+      "unavailable": "Dul ma ki nyutu ni pe tye i kom jami ma ki keto i cim ni.",
+      "select_project_device": "Yer yub ki gin ma ibi keto iye jami me coyo rwom ki kany.",
+      "progress": " {{done}} me {{total}} tyelo",
+      "start_timer": "Cako cawa",
+      "skip_timer": "Wek cawa",
+      "record_step": "Coo rwom man",
+      "stop_step": "Wek mako lok",
+      "mark_done": "Otum — tyelo mukene",
+      "step_recorded": "Kwany ma ki mako",
+      "no_record_step": "Tyelo tyelo me yube — pi miite ni ki coc.",
+      "bars_hint": "Ma romo {{bars}} bars",
+      "complete_title": "Coc dong otum!",
+      "complete_body": "I mako jami weny ma tye i coc ni. Dok cen i dul ma ki lwongo ni Audio tab me yub ni ki iyero jami ma in imaro.",
+      "restart": "Yab coc odoco"
+    },
+    "best2min": {
+      "button": "Nwong dakika 2 maber loyo (Suno)",
+      "running": "Kwano gin ma ki kwanyo...",
+      "score_label": "wel",
+      "hint": "Tiimo teko ki rwom me nyamo lok i kom gin ni weny me nongo kare ma tek loyo me dakika 2 — ki in pwod itwero loko rwom ne ki cingi ingee.",
+      "chart_caption": "wel ma ki nongo pi wang dirica acel acel",
+      "unavailable": "Kwedo ngec maber loyo pi dakika 2 pe tye i kom jami ni."
+    },
+    "takes_title": "Kwanyo ki i yub man",
+    "takes_empty": "Pe tye gin mo ma ki mako i yub man.",
+    "open_in_project": "Yabo i yub ni",
+    "ws_disconnected": "Medo rwate ki rwom me mita...",
+    "select_project_first": "Yer yub ma ibi cako kwede.",
+    "select_device_first": "Yer gin ma ibi keto iye jami."
+  },
+  "project": {
+    "back_to_library": "Dok cen i ot ma ki gwoko iye buk",
+    "header": {
+      "status_label": "Kit ma tye kwede",
+      "cover_upload": "Ket karatac me lwongo",
+      "cover_remove": "Kwany gin ma ki umu kwede",
+      "name_placeholder": "Nying yub ni",
+      "links_title": "Link",
+      "add_link": "Med link",
+      "mode": {
+        "voice": "Dwon keken",
+        "voice_guitar": "Dwan + gita"
+      }
+    },
+    "tabs": {
+      "audio": "Dwon",
+      "lyrics": "lok me wer",
+      "prompts": "Peny",
+      "notes": "Lok ma ki coyo"
+    },
+    "audio": {
+      "takes_title": "kwanyo",
+      "no_takes": {
+        "title": "Pe tye gin mo ma ki kwanyo",
+        "description": "Coo gin manyen onyo kelo gin ma dong tye con."
+      },
+      "record_new": "Coo gin manyen",
+      "rating": "Kit ma ki keto kwede",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Ki tiyo kwede"
+      },
+      "variant_placeholder": "kit ma ki loko kwede",
+      "process_button": "Kit me timo",
+      "export_button": "Cwalo woko",
+      "delete_take_confirm_title": "Kwanyo gin ni?",
+      "delete_take_confirm_description": "Dwan ma ki winyo ki jami ma ki tiyo kwede ki bi kwanyo woko.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Ki tiyo kwede"
+      },
+      "origin": {
+        "recorded": "Ki mako",
+        "imported": "ki kelo"
+      },
+      "session_label_placeholder": "Labol me yub (pe imito)",
+      "duration": "kare",
+      "sample_rate": "wel ma ki nyutu",
+      "channels": "yoo me yoo",
+      "created_at": "Ki mako"
+    },
+    "pipeline": {
+      "title": "Yub me tic",
+      "preset_label": "Ki keto con",
+      "preset_none": "Gin ma ki yubu pi ngat acel acel",
+      "preset_save": "Gwok ma calo gin ma ki keto con",
+      "stage_locked": "Ki loro",
+      "stage_requires_extra": "mito gin mukene ma pe ki keto",
+      "process_button": "Kwanyo kit me tic",
+      "processing": "Tiimo...",
+      "job_queued": "Ki keto i lain...",
+      "job_running": "Tiimo...",
+      "job_done": "Otum",
+      "job_error": "Pe opoto",
+      "job_cancelled": "ki jwayo",
+      "cancel_job": "Juko",
+      "no_stages": "Pe tye kabedo mo ma tye."
+    },
+    "export": {
+      "title": "Cwalo woko",
+      "description": "Nyut gin ma ki coyo me agiki ki i gin ma ki tiyo kwede.",
+      "variant_label": "kit ma ki loko kwede",
+      "format_label": "Kit me yubu",
+      "preset_label": "Cwalo jami ma ki yubu con",
+      "range_label": "Bor",
+      "range_full": "Bor ne weny",
+      "range_custom": "Kit ma ki yubu kwede",
+      "start_label": "Cak (s)",
+      "end_label": "Agiki (s)",
+      "submit": "Cwalo woko",
+      "progress": "Nyutu karatac...",
+      "download_ready": "Karatac tye atera",
+      "download_button": "Kwany karatac ni"
+    },
+    "notes": {
+      "placeholder": "Coc ma ki coyo labongo culu pi yub man...",
+      "saved_at": "Ki gwoko i {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Co lok me wer kany. Tii ki karatac ma tye tung cing me keto Suno meta-tags.",
+      "saved_at": "Ki gwoko i {{time}} ",
+      "saving": "Gwoko...",
+      "versions": "kit ma pat pat",
+      "versions_empty": "Pe tye gin mo ma ki gwoko.",
+      "version_preview": "Nen ma okwongo",
+      "restore": "Dwok kit man",
+      "restore_confirm_title": "dwoko cen gin ni?",
+      "restore_confirm_description": "Coc ma tye i kare ni ki bi loko ki ma ki gwoko i {{date}} .",
+      "metatags_title": "Meta-tags",
+      "metatags_hint": "Dii i kom gin ma ki keto me keto ne i lanyut.",
+      "metatags_placebo_warning": "Pe ki moko — twero bedo ki adwogi mo keken i kom adwogi ne.",
+      "metatags_empty": "Pe ki coyo meta-tags mo."
+    },
+    "prompts": {
+      "style_title": "Kit me coc",
+      "lyrics_title": "Lok me wer",
+      "template_label": "Kit ma ki yubu kwede",
+      "template_none": "Pe tye gin mo ma ki yubu",
+      "variables_title": "Jami ma pat pat",
+      "preview_title": "Nen ma okwongo",
+      "preview_empty": "Yer gin ma ki nyutu ki ipong jami ma pat pat me neno gin ma ki bi nyutu.",
+      "char_count": " {{count}} coc",
+      "char_count_warning": "Coc ma ki coyo ma kato coc 1000 twero bedo ma ki juku ki Suno.",
+      "copy": "Kwany",
+      "copied": "ki coyo i clipboard",
+      "save_to_project": "Gwok i yub",
+      "saved_to_project": "Ki gwoko i yub",
+      "history_title": "Lok macon",
+      "history_empty": "Pe tye gin macon.",
+      "current_label": "Kombedi"
+    },
+    "stems": {
+      "title": "wer ki gita",
+      "separate_button": "poko wer ki gita",
+      "running": "Poko...",
+      "vocals": "Dwan",
+      "instrumental": "Jami me wer",
+      "process_stem": "Tii ki yat man",
+      "empty": "Gin ma ki kwanyo ni pwod pe ki poko. Rub apoka poka me winyo dwan ki gita ma pat pat.",
+      "capability_missing": "Poko jami ma ki nongo ki iye pe ki keto i kom jami ma ki tiyo kwede ni.",
+      "unavailable": "Poko wer/gitar pe tye i kom jami ni kombedi."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "On",
+    "boolean_off": "Off"
+  },
+  "import": {
+    "title": "Kelo ki woko",
+    "subtitle": "Kel yub ma dong tye i disk i ot ma ki gwoko iye buk.",
+    "step_indicator": "Tyelo {{current}} me {{total}} ",
+    "step1": {
+      "title": "Nong folda",
+      "description": "Nyut kama ki gwoko iye jami ni ki yub ni ki jami ma ki lubo.",
+      "path_label": "Yo me folda",
+      "path_placeholder": "e.g. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "Cokcok ni",
+      "scan_button": "Kwan folda",
+      "scanning": "Neno...",
+      "ffmpeg_warning": "FFmpeg pe ki nongo — gin ma mite me loko ki bi kato woko.",
+      "folders_found_one": " {{count}} folda ma ki nongo",
+      "folders_found_other": " {{count}} folders ma kinongo",
+      "unmatched_files_one": " {{count}} karatac ma pe ki ngeyo",
+      "unmatched_files_other": " {{count}} karatac ma pe ki ngeyo"
+    },
+    "step2": {
+      "title": "Nen jami ni",
+      "description": "Nen nying, rwom, ki ngo ma ki bi kelo ma pwod pi ki moko.",
+      "select_all": "Yer weng",
+      "table": {
+        "folder": "Kabedo ma ki gwoko iye jami",
+        "name": "Nying yub ni",
+        "status": "Kit ma tye kwede",
+        "audio": "Dwon",
+        "lyrics": "lok me wer",
+        "cover": "Um",
+        "album": "Buk wer"
+      },
+      "audio_include_one": " {{count}} gin ma ki yero",
+      "audio_include_other": " {{count}} karatac ma ki yero",
+      "no_audio": "Pe ki nongo dwan mo",
+      "no_lyrics": "pe ki nongo lok me wer ni",
+      "no_cover": "Pe ki umu",
+      "warnings_title": "Cik"
+    },
+    "step3": {
+      "title": "Kelo ki woko",
+      "description": "Mok tammi me kwanyo karatac ni ki yubu yub ni.",
+      "copy_originals": "Coy karatac macon i ot ma ki gwoko iye buk",
+      "execute_button": "Yab kelo jami ki woko",
+      "progress_title": "kelo...",
+      "created_count": "Ki yubu: {{count}} ",
+      "skipped_count": "Ki kato: {{count}} ",
+      "done_title": "Kelo jami ki i lobo mukene dong otum",
+      "done_description": "Yub ma piny kany ki yubu gi i ot ma ki gwoko iye buk ni.",
+      "view_project": "Yabo yub",
+      "start_over": "Kelo jami manyen ki woko"
+    }
+  },
+  "templates": {
+    "title": "Kit ma ki yubu kwede",
+    "subtitle": "Kit me tic ki jami ma ki lwongo ni prompt templates ki meta-tags pi Suno.",
+    "tabs": {
+      "prompts": "Nyut kit ma ki yubu kwede",
+      "metatags": "Meta-tags"
+    },
+    "new_template": "Kit me yubu manyen",
+    "kind": {
+      "style": "kit",
+      "lyrics": "lok me wer"
+    },
+    "kind_label": "Kica",
+    "delete_confirm_title": "Kwanyo gin ma ki coyo ni \" {{name}} \"?",
+    "delete_confirm_description": "Man pe kitwero dwoko cen.",
+    "empty": "Pe tye gin mo ma ki yubu.",
+    "editor": {
+      "title_new": "Kit me yubu manyen",
+      "title_edit": "Lok kit ma ki yubu kwede",
+      "name_label": "Nying",
+      "name_placeholder": "e.g. wer ma ki lwongo ni Acoustic ballad",
+      "kind_label": "Kica",
+      "template_label": "Coc ma ki yubu",
+      "template_hint": "Ket lanyut kama gin acel acel tye iye ki nyinge ma ki keto i dul ma ki lwongo ni double curly braces — me labolle, gin ma ki lwongo ni \"genre\" doko genre ma ki keto i dul aryo me yabo ki aryo me agiki.",
+      "variables_label": "Jami ma pat pat",
+      "variable_add": "Med gin ma twero loko",
+      "variable_name": "Lagony",
+      "variable_label": "Nyut nying",
+      "variable_type": "Co",
+      "variable_type_string": "Coc",
+      "variable_type_select": "Yer acel",
+      "variable_type_multiselect": "Yer jami mapol",
+      "variable_type_number": "Namba",
+      "variable_type_boolean": "Ada/ku",
+      "variable_options": "Jami ma ki yero (ki poko ki coc)",
+      "variable_required": "Mite",
+      "save": "Gwok gin ma ki nyutu ni"
+    },
+    "metatags": {
+      "title": "Meta-tags",
+      "subtitle": "Kit ma ki yubu kwede ki kit ma ki yubu kwede Suno ngeyo lok ma tye i kin wer.",
+      "new_tag": "Nying manyen",
+      "tag_label": "Ket nying",
+      "tag_placeholder": "e.g. gita-solo",
+      "category_label": "Dul",
+      "tier_label": "Genne",
+      "tier_legend_title": "lok ma mako genne",
+      "tier_legend": {
+        "1": "rwom me acel — ma ki coyo piny ki ma rwate",
+        "2": "rwom me 2 — pol kare tiyo",
+        "3": "Dul me 3 — adwogi ma pat pat",
+        "4": "Dul me 4 — yat ma pe ki tiyo kwede, ma pe ki moko"
+      },
+      "description_label": "Lok ma ki waco",
+      "delete_confirm_title": "Kwanyo gin ma ki lwongo ni \" {{tag}} \"?",
+      "empty": "Pe tye meta-tags ma ki yubu piri keni."
+    }
+  },
+  "settings": {
+    "title": "Kit ma ki keto kwede",
+    "subtitle": "Ngec ma mako yub, leb, ki gin ma ki maro.",
+    "system_info_title": "Cik me tic",
+    "version": "kit ma ki loko kwede",
+    "data_dir": "Ka gwoko ngec",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Tye",
+    "ffmpeg_missing": "Pe kinongo",
+    "capabilities_title": "Kero ma ki keto",
+    "capability": {
+      "denoise": "Dwoko woo",
+      "quality": "Medo rwom me tic",
+      "separate": "poko kin jami ma oa ki iye",
+      "ffmpeg": "loko FFmpeg"
+    },
+    "capability_available": "Tye",
+    "capability_unavailable": "Pe tye",
+    "gpu_title": "GPU acceleration",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime providers"
+    },
+    "gpu_none": "Pe ki nongo ngat mo ma miyo GPU",
+    "language_title": "leb",
+    "language": {
+      "pt-BR": "Português (Brasil)",
+      "en": "leb munu"
+    },
+    "theme_title": "Kit ma nen kwede",
+    "theme": {
+      "dark": "col",
+      "light": "Lero"
+    },
+    "defaults_title": "Cwalo jami ma ki keto con",
+    "lufs_target_label": "LUFS ma ki miito",
+    "lufs_target_hint": "Ki tiiyo kwede ma calo gin ma ki cako kwede ka ki cwalo jami woko. Suno's default tye i -14 LUFS.",
+    "saved": "Jami ma ki maro ki gwoko"
+  },
+  "guide": {
+    "title": "Lagony me mako wer pa Suno",
+    "subtitle": "Kit me mako dwan ki gita ma kelo adwogi maber.",
+    "intro": "Suno tiyo maber loyo ki jami maleng, ma pe ki ngeyo. Labol man kwako yub, rwom me yub, ki coc me mako pi dakika 3-5.",
+    "sections": {
+      "prep": {
+        "title": "Yubbe",
+        "body": "Co i ot ma ki yubu maber onyo ma tye ki jami ma mwonya madwong (katen, bongo, bongi i ot ma ki gwoko iye jami). Neko mac ki gin mo kiken ma tye ka koko. Med dwani pi dakika 5 ma pwod pi i mako."
+      },
+      "levels": {
+        "title": "rwom: -12 onyo -6 dBFS",
+        "body": "Tem pi rwom ma malo ma tye i kin -12 ki -6 dBFS i kom mita. I te rwom meno, koko ma tye angec bedo ma nen maber; malo ne, peko me turo jami mede. Tii ki mita ma tye i pot karatac me rekod me keto gin ma ibi nongo ma pwod pi icako."
+      },
+      "distance": {
+        "title": "Bor pa Mic: 15-30 cm",
+        "body": "Bed 15 onyo 30 cm ki i dwan. Cok loyo meno medo lok ma ki lwongo ni plosives ki proximity effect; ka mabor nongo tye ka winyo dwan malongo ki koko."
+      },
+      "script": {
+        "title": "mako lok ma ki coyo",
+        "warmup": "Weko lok (dakika 1-2)",
+        "vowels": "Dwon ma ki mako — a, e, i, o, u",
+        "scales": "Lapim ma yot, malo ki piny",
+        "excerpt": "wer ma ki kwanyo (8 onyo 16 bars)",
+        "dynamics": "Lok: cako mot, gik ki dwan malongo",
+        "spoken_phrase": "Lok acel ma kiloko, wek Suno oniang dwani"
+      },
+      "expectations": {
+        "title": "Gin ma Suno tye ka kuro",
+        "body": "WAV, 48 kHz, mono, dry (pe ki winyo dwan onyo adwogi), 3 onyo 5 dakika me nyutu. Dakika 2 ma ki kwanyo maleng, ma nyutu jami maber pol kare kelo adwogi maber loyo."
+      }
+    }
+  },
+  "status": {
+    "idea": "Tam",
+    "em_progresso": "Tye ka wot anyim",
+    "quase": "Cok cok",
+    "pronto": "Tye atera"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Coc me wer pi Suno",
+      "desc": "5 dakika ma ki telo: yub, dwan, rwom, dul wer aryo, kit ma gi loko kwede, ki lok ma ki waco."
+    },
+    "step": {
+      "warmup": "Weko dwan",
+      "warmup_inst": "Bed agonya ki koko, lok ma ki lwongo ni lip trills (brrr), ki lok ma mwol pi dakika acel. Pe mitte ni i rekod — tye me kweyo cwinyi ma peya i wer.",
+      "vowels": "Vowel ma ki gwoko",
+      "vowels_inst": "Mak dwan acel acel — a, e, i, o, u — pi ceken 3 onyo 4 i dwan ma rwate, ki dwan ma rwate. Man konyo Suno me nongo dwan maber me dwani.",
+      "scales": "rwom me malo ki piny",
+      "scales_inst": "Wer wer ma yot malo ki piny, i kom \"la\" onyo \"na\". Pe miite ni obed maber — yub ne tye me nyutu rwom me dwan ni.",
+      "section": "wer ma ki kwanyo — dul me acel",
+      "section_inst": "Wer 8 onyo 16 me wer ni, ki gin ma imito nyutu. Ket lok ma ki ngeyo maber ki bedo tye ma loyo jami ma ki tiyo kwede maber.",
+      "section2": "wer ma ki kwanyo — dul me 2",
+      "section2_inst": "Wer wer mukene 8 onyo 16 — maber loyo wer ma ki lwongo ni chorus onyo dul ma pat ki ma okato ni. Jami mapol ma pat pat konyo latin kwan ni me pwonyo dwani.",
+      "dynamics": "Dynamics: mot → dwan malongo",
+      "dynamics_inst": "Wer lok acel-lu kun icako ki dwan malongo ki gik ki dwan malongo, labongo diyo dogi. Man nyutu Suno kit ma dwani loko kwede.",
+      "spoken": "Lok ma kiloko",
+      "spoken_inst": "Lok — pi i wer — lok ma tidi, ma rwate, ma calo in itye ka lok. Man konyo Suno me ngeyo dwani kikome."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "dwoko cen",
+      "filter": "Jami ma ki kwanyo",
+      "dynamics": "Dynamics",
+      "separation": "Poko",
+      "quality": "rwom",
+      "utility": "Jami ma konyo",
+      "loudness": "Dwan malongo"
+    },
+    "highpass": "Gin ma ki lwongo ni high-pass filter",
+    "lowpass": "Low-pass filter",
+    "denoise": "Dwoko woo",
+    "declip": "dwoko piny",
+    "declick": "Dii/kwanyo kwanyo",
+    "deesser": "De-esser",
+    "gate": "doggola ma koko",
+    "compressor": "Gin ma ki lwongo ni Compressor",
+    "limiter": "Lageng",
+    "eq": "rom",
+    "normalize": "Peak normalization",
+    "loudness": "dwoko dwan malongo (LUFS)",
+    "reverb_reduce": "Dwoko dwan",
+    "separate": "poko kin jami ma oa ki iye",
+    "quality": "medo rom pa jami (ma malo)",
+    "trim_silence": "Kwanyo ling ling",
+    "fade": "Rweny woko / rweny woko",
+    "stereo_to_mono": "Lok me doko mono",
+    "resample": "Kwano odoco"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Genne",
+      "2": "Pol kare tiyo",
+      "3": "Gin ma twero loko",
+      "4": "Yat ma pe ki tic kwede"
+    },
+    "category": {
+      "structure": "Kit ma ki yubu kwede",
+      "vocal": "Dwan",
+      "instrument": "Gin me wer",
+      "dynamics": "Dynamics",
+      "production": "Yub",
+      "mood": "Kit ma iwiinyo kwede"
+    },
+    "verse": "Tyeng",
+    "chorus": "Chorus",
+    "bridge": "pem",
+    "intro": "acaki",
+    "outro": "Outro",
+    "hook": "Hook",
+    "prechorus": "Ma pwod peya ki goyo wer",
+    "instrumental": "Jami me wer",
+    "guitar_solo": "Gita acel acel",
+    "build_up": "Yubu",
+    "breakdown": "Turo",
+    "spoken_word": "Lok ma kiloko",
+    "whispered": "Ki lok mot",
+    "harmonies": "Harmonies",
+    "male_vocal": "Dwan lacoo",
+    "female_vocal": "Dwan ma dako",
+    "duet": "Duet",
+    "acoustic": "Dwon",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Dwon maleng",
+    "voice_guitar_balanced": "Dwan ma opore ki gita",
+    "podcast": "Podcast",
+    "suno_ready": "Suno tye atera",
+    "gentle_restore": "dwoko piny mot mot",
+    "raw_passthrough": "Pe ki tiimo ne"
+  },
+  "errors": {
+    "unknown": "Gin mo obale.",
+    "network": "Pe twero rwate ki latic.",
+    "validation_error": "Nen ngec ma i keto ni.",
+    "not_found": "Gin ma pe ki nongo.",
+    "project_not_found": "Yub pe ki nongo.",
+    "take_not_found": "Pe ki nongo.",
+    "album_not_found": "Album pe ki nongo.",
+    "preset_not_found": "Gin ma ki keto con pe ki nongo.",
+    "template_not_found": "Kit ma ki yubu kwede pe ki nongo.",
+    "device_busy": "Gin ma ki tiyo kwede me winyo dwan tye ka tic ki yub mukene.",
+    "device_not_found": "Gin ma ki tiyo kwede me winyo dwan pe ki nongo.",
+    "already_recording": "Rekod dong tye ka wot anyim.",
+    "ffmpeg_missing": "FFmpeg pe ki keto — ket ne me loko gin ni.",
+    "disk_full": "Pe tye kabedo ma oromo i disk.",
+    "permission_denied": "Ki kwero twero pi yoo ma kimiyo ni.",
+    "import_path_not_found": "Yo me kelo jami pe ki nongo.",
+    "job_failed": "Tiimo ne obale.",
+    "job_cancelled": "Ki juku tic me tic kwede.",
+    "process_failed": "Pe ki twero tic ki gin ma ki kwanyo ni.",
+    "export_failed": "Pe ki twero cwalo gin ni woko.",
+    "record_failed": "Pe otwero cako mako wer."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Ki keto i lain",
+      "running": "Ngwec",
+      "done": "Otum",
+      "error": "Pe opoto",
+      "cancelled": "ki jwayo"
+    },
+    "kind": {
+      "process": "Tiimo",
+      "export": "Cwalo woko",
+      "import": "Kelo ki woko",
+      "record": "mako lok"
+    }
+  }
+}

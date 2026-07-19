@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Odio Hetsemɔ"
+  },
+  "nav": {
+    "library": "Wolotoohe",
+    "record": "Ŋmaa",
+    "import": "Kɛjɛ maŋsɛɛ",
+    "templates": "Templɛtii",
+    "settings": "Hetooi",
+    "guide": "Gbɛtsɔɔmɔ"
+  },
+  "common": {
+    "save": "Kɛto",
+    "saving": "Too...",
+    "saved": "Ahere",
+    "cancel": "Fo mli",
+    "close": "Gbalamɔ",
+    "delete": "Gbalamɔ",
+    "edit": "Tsakemɔ",
+    "create": "Bɔɔ",
+    "search": "Taomɔ",
+    "loading": "Miiwo...",
+    "error": "Tɔmɔ",
+    "retry": "Kaa ekoŋŋ",
+    "confirm": "Ma nɔ mi",
+    "back": "Sɛɛ",
+    "next": "Nɔ ni tsa nɔ",
+    "continue": "Tsa nɔ",
+    "finish": "Gbe naa",
+    "copy": "Kopi",
+    "copied": "Afee kɔpi",
+    "download": "Gbalamɔ",
+    "upload": "Kɛwo nɔ",
+    "none": "Eko bɛ",
+    "all": "Fɛɛ",
+    "yes": "Hɛɛ",
+    "no": "Dabi",
+    "select": "Halamɔ",
+    "optional": "nɔ ni mɔ ko halaa",
+    "required": "he miihia",
+    "unsaved_changes": "Tsakemɔi ni akɛtooo",
+    "name": "Gbɛi",
+    "status": "Shihilɛ",
+    "type": "Taip",
+    "actions": "Nifeemɔi",
+    "empty": "Efee efolo",
+    "browse": "Kwɛmɔ",
+    "remove": "Jiemɔ",
+    "add": "Kɛfata he",
+    "rename": "Tsakemɔ gbɛi",
+    "duplicate": "Ekome",
+    "warning": "Kɔkɔbɔɔ",
+    "locked": "Aŋa",
+    "builtin": "Akɛwo mli",
+    "custom": "Kusum",
+    "untitled": "Yitso bɛ he",
+    "select_placeholder": "Halamɔ..."
+  },
+  "library": {
+    "title": "Wolotoohe",
+    "subtitle": "Ogbee kɛ guitar nitsumɔi, kɛjɛ susumɔ nɔ kɛyashi kpojiemɔ nɔ.",
+    "new_project": "Nitsumɔ hee",
+    "new_album": "Albɔm hee",
+    "search_placeholder": "Taomɔ gbɛi...",
+    "view": {
+      "grid": "Grid",
+      "albums": "Albɔm"
+    },
+    "filters": {
+      "all": "Fɛɛ"
+    },
+    "take_count_one": " {{count}} ŋɔɔ",
+    "take_count_other": " {{count}} heɔ",
+    "updated_at": "Atsake {{date}} ",
+    "no_results": {
+      "title": "Anaaa nitsumɔi komɛi",
+      "description": "Bɔɔmɔdɛŋ ni otsake taomɔ loo shihilɛ filta lɛ."
+    },
+    "empty": {
+      "title": "Owolotoohe lɛ mli efee shwɛm",
+      "description": "Je nitsumɔ hee shishi kɛjɛ shishijee, loo import takes ni oyɔɔ momo yɛ disk nɔ.",
+      "cta_import": "Kɛjɛ folda mli",
+      "cta_new": "Bɔɔ nitsumɔ"
+    },
+    "project_dialog": {
+      "title": "Nitsumɔ hee",
+      "description": "Ha lɛ gbɛi ni ohala gbɛ ni oootsɔ nɔ okɛtswa lala.",
+      "name_label": "Nitsumɔ gbɛi",
+      "name_placeholder": "nɔkwɛmɔnɔ Latsaa Be mli Nugbɔ",
+      "mode_label": "Mode",
+      "mode": {
+        "voice": "Gbee pɛ",
+        "voice_guitar": "Gbee + saŋkui"
+      },
+      "submit": "Bɔɔ nitsumɔ"
+    },
+    "album_dialog": {
+      "title": "Albɔm hee",
+      "description": "Kuu nitsumɔi ni kɔɔ he awo lala wolo mli.",
+      "name_label": "Albɔm gbɛi",
+      "name_placeholder": "nɔkwɛmɔnɔ Fɛ̃i be mli EP",
+      "submit": "Bɔɔ lala wolo"
+    },
+    "album": {
+      "untitled": "Album ni bɛ yitso",
+      "members_count_one": " {{count}} nitsumɔ lɛ",
+      "members_count_other": " {{count}} nitsumɔi",
+      "empty": "Nitsumɔ ko bɛ lala wolo nɛɛ mli lolo.",
+      "delete_confirm_title": "Gbalamɔ lala wolo lɛ?",
+      "delete_confirm_description": "Ajieŋ nitsumɔi lɛ, ajie kɛjɛ \" {{name}} \" pɛ."
+    },
+    "delete_project": {
+      "confirm_title": "Gbalamɔ \" {{name}} \"?",
+      "confirm_description": "Enɛ jieɔ nitsumɔ lɛ kɛ nɔ fɛɛ nɔ ni akɛwoɔ mli lɛ. Anyɛɛɛ aku enɛ sɛɛ."
+    }
+  },
+  "record": {
+    "title": "Ŋmaa",
+    "subtitle": "Kpɔ̃ɔ nɔ ko ni he tse, kwɛmɔ ogbɛhei lɛ, ni onyiɛ niŋmaa lɛ sɛɛ.",
+    "project_label": "Nitsumɔ",
+    "project_placeholder": "Halamɔ nitsumɔ ko",
+    "project_create_quick": "Bɔɔ nitsumɔ oya...",
+    "device_label": "Nɔ ni akɛwoɔ mli",
+    "device_placeholder": "Halamɔ tsɔne ko",
+    "device_default_badge": "Gbɛjianɔtoo lɛ shishijee",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Anaaa nibii ni akɛwoɔ mli.",
+    "monitor_button": "Kwɛmɔ",
+    "monitor_stop_button": "Kpaa kwɛmɔ",
+    "record_button": "Ŋmaa",
+    "stop_button": "Kpa",
+    "elapsed_label": "Be ni eho",
+    "status": {
+      "idle": "Efeee nɔ ko",
+      "monitoring": "Nɔkwɛmɔ",
+      "recording": "Nibii ni aŋmala ashwie shi",
+      "stopped": "Ekpa"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Yitso",
+      "clip": "Klip"
+    },
+    "guide": {
+      "title": "Gbɛtsɔɔmɔ nifeemɔ",
+      "subtitle": "Ha tsɔselɔ lɛ atsɔɔ bo gbɛ yɛ niŋmaa lɛ mli fitsofitso, kɛjɛ hejɔɔmɔ nɔ kɛyashi wiemɔ kuku ni awieɔ lɛ nɔ.",
+      "loading": "Skript miiwo...",
+      "unavailable": "Gbɛtsɔɔmɔ nifeemɔ lɛ bɛ sɛɛva lɛ nɔ lolo.",
+      "select_project_device": "Halamɔ nitsumɔ kɛ nibii ni akɛwoɔ mli ni okɛŋmala gbɛi kɛjɛ biɛ.",
+      "progress": " {{done}} kɛjɛ {{total}} gbɛi",
+      "start_timer": "Je be he",
+      "skip_timer": "Tsɔɔmɔ be",
+      "record_step": "ŋmaa gbɛ nɛɛ oshwie shi",
+      "stop_step": "Kpaa nibii ni aŋmalaa lɛ",
+      "mark_done": "Afee — nɔ ni nyiɛ sɛɛ",
+      "step_recorded": "Ŋɔɔ ni aŋmala ashwie shi",
+      "no_record_step": "Warm-up gbɛ — niŋmaa he ehiaaa.",
+      "bars_hint": "Aaafee {{bars}} bars",
+      "complete_title": "Script lɛ egbe naa!",
+      "complete_body": "Okɛ niŋmaa lɛ mli gbɛ fɛɛ gbɛ ewo wolo nɔ. Yitso sɛɛ kɛya nitsumɔ lɛ Audio tab lɛ nɔ ni ohala nɔ ni osumɔɔ waa.",
+      "restart": "Je niŋmaa lɛ shishi ekoŋŋ"
+    },
+    "best2min": {
+      "button": "Taomɔ minitii enyɔ ni hi fe fɛɛ (Suno)",
+      "running": "Nibii amlipɛimɔ...",
+      "score_label": "Skor",
+      "hint": "Ekɛ hewalɛ kɛ mlitsɔɔmɔ mlipɛimɔ tsuɔ nii yɛ be fɛɛ mli koni ena minitii enyɔ samflɛ ni mli wa fe fɛɛ — obaanyɛ okɛ onine atsake sɛɛgbɛ lɛ lolo yɛ no sɛɛ.",
+      "chart_caption": "Skor yɛ samflɛ fɛɛ samflɛ mli",
+      "unavailable": "Minitii enyɔ mlipɛimɔ ni hi fe fɛɛ lɛ bɛ sɛɛva nɛɛ nɔ lolo."
+    },
+    "takes_title": "Ajieɔ kɛjɛɔ kpee nɛɛ mli",
+    "takes_empty": "Akɛ nɔ ko ni aŋmala ashwie shi yɛ kpee nɛɛ mli lolo.",
+    "open_in_project": "Gbelemɔ yɛ nitsumɔ lɛ mli",
+    "ws_disconnected": "Mikɛ mita lɛ miitsa ekoŋŋ...",
+    "select_project_first": "Halamɔ nitsumɔ ko ni obaaje shishi.",
+    "select_device_first": "Halamɔ tsɔne ni akɛwoɔ mli."
+  },
+  "project": {
+    "back_to_library": "Ku sɛɛ kɛya wojiatoohe lɛ",
+    "header": {
+      "status_label": "Shihilɛ",
+      "cover_upload": "Kɛ hiɛ lɛ awo nɔ",
+      "cover_remove": "Jiemɔ nɔ ni akɛhaa lɛ",
+      "name_placeholder": "Nitsumɔ gbɛi",
+      "links_title": "Linki",
+      "add_link": "Kɛ link afata he",
+      "mode": {
+        "voice": "Gbee pɛ",
+        "voice_guitar": "Gbee + saŋkui"
+      }
+    },
+    "tabs": {
+      "audio": "Odio",
+      "lyrics": "Wiemɔi",
+      "prompts": "Nɔ ni tsirɛɔ",
+      "notes": "Nɔ ni aŋmala ashwie shi"
+    },
+    "audio": {
+      "takes_title": "Eheɔ",
+      "no_takes": {
+        "title": "No heɔ lolo",
+        "description": "ŋmaa nɔ hee loo okɛ faili ni yɔɔ momo aba."
+      },
+      "record_new": "ŋmaa nɔ hee ko",
+      "rating": "Susumɔ",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Atsu he nii"
+      },
+      "variant_placeholder": "Version",
+      "process_button": "Gbɛjianɔtoo",
+      "export_button": "Majemɔ",
+      "delete_take_confirm_title": "Jiemɔ nɛkɛ nɔ nɛɛ?",
+      "delete_take_confirm_description": "Abaajie raw odio lɛ kɛ nɔ fɛɛ nɔ ni atsu he nii lɛ kɛjɛ mli.",
+      "ab": {
+        "raw": "A · Eko",
+        "processed": "B · Atsu he nii"
+      },
+      "origin": {
+        "recorded": "Aŋmala awo wolo nɔ",
+        "imported": "Akɛba"
+      },
+      "session_label_placeholder": "Be lɛ kadimɔ (kɛji oosumɔ)",
+      "duration": "Be ni Eheɔ",
+      "sample_rate": "Nɔkwɛmɔnɔ nyɔmɔwoo",
+      "channels": "Chanɛlii",
+      "created_at": "Aŋmala awo wolo nɔ"
+    },
+    "pipeline": {
+      "title": "Nitsumɔ tsɔne",
+      "preset_label": "Ato momo",
+      "preset_none": "Kusum tsɔne",
+      "preset_save": "Kɛto akɛ ato momo",
+      "stage_locked": "Aŋa",
+      "stage_requires_extra": "Ebiɔ ekroko ni akɛwooo mli",
+      "process_button": "Gbɛjianɔtoo he",
+      "processing": "Etsuɔ nii...",
+      "job_queued": "Ato sɛɛ...",
+      "job_running": "Etsuɔ nii...",
+      "job_done": "Agbe naa",
+      "job_error": "Eyeee omanye",
+      "job_cancelled": "Afo mli",
+      "cancel_job": "Fo mli",
+      "no_stages": "Stage ko bɛ."
+    },
+    "export": {
+      "title": "Majemɔ maŋsɛɛ",
+      "description": "Ha naagbee faili kɛjɛ henɔ ni atsu he nii.",
+      "variant_label": "Version",
+      "format_label": "Gbɛjianɔtoo",
+      "preset_label": "Tsɔɔmɔ nɔ ni ato momo",
+      "range_label": "He ni eyɔɔ",
+      "range_full": "Elɛɛmɔ muu lɛ fɛɛ",
+      "range_custom": "Kusum henɔi",
+      "start_label": "Je shishi (s)",
+      "end_label": "Naagbee (s)",
+      "submit": "Majemɔ",
+      "progress": "Faili tsɔɔmɔ...",
+      "download_ready": "Fail lɛ efee klalo",
+      "download_button": "Gbalamɔ faili lɛ"
+    },
+    "notes": {
+      "placeholder": "Niŋmaa ni aheee nɔ ko yɛ nitsumɔ nɛɛ he...",
+      "saved_at": "Akɛto yɛ {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Ŋmaa lala lɛ mli wiemɔi lɛ yɛ biɛ. Kɛ paleti ni yɔɔ afã lɛ atsu nii ni okɛ Suno meta-tags awo mli.",
+      "saved_at": "Akɛto yɛ {{time}} ",
+      "saving": "Too...",
+      "versions": "henɔi",
+      "versions_empty": "Akɛ henɔi lɛ etoko lolo.",
+      "version_preview": "Kwɛmɔ hiɛkpamɔ",
+      "restore": "Ku sɛɛ okɛ nɛkɛ henɔ nɛɛ aba",
+      "restore_confirm_title": "Ani okɛ henɔ nɛɛ aku sɛɛ aba?",
+      "restore_confirm_description": "Abaatsake niŋmaa ni yɔɔ amrɔ nɛɛ kɛ nɔ ni akɛto yɛ {{date}} .",
+      "metatags_title": "Meta-tags",
+      "metatags_hint": "Klikimɔ tag ko nɔ ni okɛwo cursor lɛ nɔ.",
+      "metatags_placebo_warning": "Atsɔɔɔ mli — ekolɛ ebɛ hewalɛ ko yɛ nɔ ni jɛ mli ba lɛ nɔ.",
+      "metatags_empty": "Meta-tags ko bɛ ni aŋmala."
+    },
+    "prompts": {
+      "style_title": "Style oya",
+      "lyrics_title": "Wiemɔi oya",
+      "template_label": "Template",
+      "template_none": "Template ko bɛ",
+      "variables_title": "Nibii sɔrɔtoi",
+      "preview_title": "Kwɛmɔ hiɛkpamɔ",
+      "preview_empty": "Tsɔɔmɔ tɛmplate ni okɛ nibii sɔrɔtoi lɛ awo mli koni ona nɔ ni tsɔɔ hiɛ.",
+      "char_count": " {{count}} niŋmaa okadii",
+      "char_count_warning": "Suno baanyɛ afo niŋmaa okadii ni fa fe 1000 mli.",
+      "copy": "Kopi",
+      "copied": "Akɛwo klipbɔd lɛ nɔ",
+      "save_to_project": "Kɛto nitsumɔ lɛ he",
+      "saved_to_project": "Akɛto nitsumɔ lɛ he oya",
+      "history_title": "Yinɔsane",
+      "history_empty": "Nɔ ni eho lɛ bɛ.",
+      "current_label": "Amrɔ nɛɛ"
+    },
+    "stems": {
+      "title": "Gbee kɛ saŋkui",
+      "separate_button": "Gbalamɔ gbee kɛ guitar",
+      "running": "Mligbalamɔ...",
+      "vocals": "Gbee",
+      "instrumental": "Saŋkui",
+      "process_stem": "Tsu stem nɛɛ he nii",
+      "empty": "Ajarako take nɛɛ mli lolo. Jofoi mligbalamɔ koni onu lalai kɛ guitar lɛ he yɛ he ko.",
+      "capability_missing": "Akɛ jɛɛhe mligbalamɔ ewo sɛɛva nɛɛ nɔ.",
+      "unavailable": "Vocal/guitar mligbalamɔ bɛ sɛɛva nɛɛ nɔ lolo."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Nɔ",
+    "boolean_off": "Gbe"
+  },
+  "import": {
+    "title": "Kɛjɛ maŋsɛɛ",
+    "subtitle": "Kɛ nitsumɔi ni yɔɔ disk nɔ momo lɛ aba wojiatoohe lɛ.",
+    "step_indicator": "Gbɛ {{current}} kɛjɛ {{total}} ",
+    "step1": {
+      "title": "Taomɔ folda",
+      "description": "Tsɔɔmɔ root folda lɛ kɛ onitsumɔi kɛ lalai lɛ.",
+      "path_label": "Folda gbɛ",
+      "path_placeholder": "nɔkwɛmɔnɔ E:\\Robbs\\Henɔwomɔ\\Lala\\ROBBS",
+      "recent_label": "Nyɛsɛɛ nɛɛ",
+      "scan_button": "Skan folda",
+      "scanning": "Skanning...",
+      "ffmpeg_warning": "Anaaa FFmpeg — abaafo faili ni he hiaa tsakemɔ lɛ mli.",
+      "folders_found_one": " {{count}} folda ni ana",
+      "folders_found_other": " {{count}} folda ni ana",
+      "unmatched_files_one": " {{count}} faili ni ayoooo",
+      "unmatched_files_other": " {{count}} faili ni ayoooo"
+    },
+    "step2": {
+      "title": "Kwɛmɔ nibii amli",
+      "description": "Kwɛmɔ gbɛi, shihilɛi, kɛ nɔ ni abaaba dani oma nɔ mi.",
+      "select_all": "Halamɔ fɛɛ",
+      "table": {
+        "folder": "Folda jɛɛhe",
+        "name": "Nitsumɔ gbɛi",
+        "status": "Shihilɛ",
+        "audio": "Odio",
+        "lyrics": "Wiemɔi",
+        "cover": "Hamɔ",
+        "album": "Albɔm"
+      },
+      "audio_include_one": " {{count}} faili ni ahala",
+      "audio_include_other": " {{count}} faili ni ahala",
+      "no_audio": "Anaaa odio",
+      "no_lyrics": "Anaaa lala lɛ mli wiemɔi",
+      "no_cover": "Nɔ ko bɛ he",
+      "warnings_title": "Kɔkɔbɔɔi"
+    },
+    "step3": {
+      "title": "Kɛjɛ maŋsɛɛ",
+      "description": "Ma nɔ mi akɛ obaakɔpi faili lɛ ni ofee nitsumɔi lɛ.",
+      "copy_originals": "Kopi faili shishijee lɛ kɛya wojiatoohe lɛ",
+      "execute_button": "Je import shishi",
+      "progress_title": "Miiba...",
+      "created_count": "Abɔ: {{count}} ",
+      "skipped_count": "Afo mli: {{count}} ",
+      "done_title": "Import egbe naa",
+      "done_description": "Afee nitsumɔi ni yɔɔ shishi nɛɛ yɛ owolotoohe lɛ.",
+      "view_project": "Gbelemɔ nitsumɔ lɛ",
+      "start_over": "Nɔ hee ni akɛba"
+    }
+  },
+  "templates": {
+    "title": "Templɛtii",
+    "subtitle": "Template kɛ meta-tags ni akɛtsuɔ nii ekoŋŋ kɛha Suno.",
+    "tabs": {
+      "prompts": "Template ni yɔɔ oya",
+      "metatags": "Meta-tags"
+    },
+    "new_template": "Template hee",
+    "kind": {
+      "style": "Stail",
+      "lyrics": "Wiemɔi"
+    },
+    "kind_label": "Mlihilɛ",
+    "delete_confirm_title": "Gbalamɔ tɛmplate \" {{name}} \"?",
+    "delete_confirm_description": "Anyɛɛɛ aku enɛ sɛɛ.",
+    "empty": "Template ko bɛ lolo.",
+    "editor": {
+      "title_new": "Template hee",
+      "title_edit": "Tsakemɔ tɛmplate lɛ",
+      "name_label": "Gbɛi",
+      "name_placeholder": "nɔkwɛmɔnɔ Akustik lala",
+      "kind_label": "Mlihilɛ",
+      "template_label": "Template niŋmaa",
+      "template_hint": "Kadimɔ he ni nɔ ni tsakeɔ lɛ eko fɛɛ eko yɔɔ lɛ kɛ egbɛi ni akɛwo ŋwɛi ŋtayaai enyɔ mli — nɔkwɛmɔnɔ, nɔ ni tsakeɔ ni atsɛɔ lɛ \"genre\" lɛ bafeɔ nɔ̃ ni akɛwo ŋtayaai enyɔ ni gbeleɔ kɛ naagbee lɛ mli.",
+      "variables_label": "Nibii sɔrɔtoi",
+      "variable_add": "Kɛ henɔi afata he",
+      "variable_name": "Saji",
+      "variable_label": "Yitso",
+      "variable_type": "Taip",
+      "variable_type_string": "Niŋmaa",
+      "variable_type_select": "Halamɔ kome",
+      "variable_type_multiselect": "Halamɔ babaoo",
+      "variable_type_number": "Yibɔ",
+      "variable_type_boolean": "Hɛɛ/daabi",
+      "variable_options": "Hegbɛi (koma gbala mli)",
+      "variable_required": "Ehe miihia",
+      "save": "Template lɛ ato"
+    },
+    "metatags": {
+      "title": "Meta-tags",
+      "subtitle": "Gbɛjianɔtoo kɛ style tags Suno yɔseɔ wiemɔi lɛ amli.",
+      "new_tag": "Tag hee",
+      "tag_label": "Tag",
+      "tag_placeholder": "nɔkwɛmɔnɔ saŋku-kome",
+      "category_label": "Henɔi",
+      "tier_label": "Hekɛnɔfɔɔ",
+      "tier_legend_title": "Hekɛnɔfɔɔ he abɛbua",
+      "tier_legend": {
+        "1": "Tier 1 — ni aŋmala ashwie shi ni yaa nɔ daa",
+        "2": "Tier 2 — bei pii lɛ etsuɔ nii",
+        "3": "Tier 3 — nɔ ni jɛɔ mli baa ni tsakeɔ",
+        "4": "Tier 4 — tsofa ni akɛwoɔ mɔ mli, ni bɛ odaseyeli"
+      },
+      "description_label": "Mligbalamɔ",
+      "delete_confirm_title": "Jiemɔ okadi \" {{tag}} \"?",
+      "empty": "Meta-tags ko bɛ lolo."
+    }
+  },
+  "settings": {
+    "title": "Hetooi",
+    "subtitle": "Gbɛjianɔtoo he saji, wiemɔ, kɛ nibii ni osumɔɔ.",
+    "system_info_title": "Gbɛjianɔtoo",
+    "version": "Version",
+    "data_dir": "Data folda",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Eyɛ",
+    "ffmpeg_missing": "Anaaa",
+    "capabilities_title": "Hewalɛi ni akɛwo mli",
+    "capability": {
+      "denoise": "Deŋmegbomɔ nɔtsemɔ",
+      "quality": "Nɔ ni hi jogbaŋŋ lɛ nɔyaa",
+      "separate": "He ni jɛ lɛ mligbalamɔ",
+      "ffmpeg": "FFmpeg tsakemɔ"
+    },
+    "capability_available": "Eyɛ",
+    "capability_unavailable": "Ebɛ",
+    "gpu_title": "GPU oyaiyeli",
+    "gpu": {
+      "torch_cuda": "PyTɔɔ CUDA",
+      "ort_providers": "ONNX Runbe nitsulɔi"
+    },
+    "gpu_none": "Anaaa GPU halɔi komɛi",
+    "language_title": "Wiemɔ",
+    "language": {
+      "pt-BR": "Pɔtugalbii (Brasil)",
+      "en": "Blɔfo"
+    },
+    "theme_title": "Hefɛo",
+    "theme": {
+      "dark": "Duŋ",
+      "light": "La"
+    },
+    "defaults_title": "Tsɔɔmɔ nɔ ni ato lɛ",
+    "lufs_target_label": "LUFS ni akɛmamɔ hiɛ",
+    "lufs_target_hint": "Akɛtsuɔ nii akɛ shishijee ŋaawoo beni akɛyaa maŋsɛɛ lɛ heɔ. Suno shishijee lɛ ta shi yɛ -14 LUFS he.",
+    "saved": "Akɛ suɔmɔi eto"
+  },
+  "guide": {
+    "title": "Suno niŋmaa gbɛtsɔɔmɔ",
+    "subtitle": "Bɔ ni afeɔ amɔɔ gbee kɛ guitar heɔ ni anáa yibii ni hi fe fɛɛ.",
+    "intro": "Suno tsuɔ nii jogbaŋŋ kɛ saji ni he tse, ni shishinumɔ bɛ he. Gbɛtsɔɔmɔ nɛɛ wieɔ hesaamɔ, otii ni akɛmamɔ hiɛ, kɛ minitii 3–5 niŋmaa ni aŋmalaa lɛ he.",
+    "sections": {
+      "prep": {
+        "title": "Hesaamɔ",
+        "body": "Ŋmalamɔ yɛ tsu ko ni atsa mli loo tsu ko ni nibii ni yɔɔ blɛoo babaoo yɔɔ mli (muji, tsɔji, atadei ni yɔɔ tsɔne mli). Gbe fans kɛ nɔ fɛɛ nɔ ni tswaa gbee. Okɛ ogbee lɛ awo la mli minitii 5 dani okɛwo tsɔne mli."
+      },
+      "levels": {
+        "title": "Gbɛjianɔtoi: -12 kɛyashi -6 dBFS",
+        "body": "Kwɛmɔ ŋwɛi ŋwɛi ni yɔɔ -12 kɛ -6 dBFS teŋ yɛ mita lɛ nɔ. Yɛ nakai ŋwɛi ŋta lɛ shishi lɛ, sɛɛgbɛ gbɛɛmɔ lɛ bafeɔ nɔ ni kadiɔ mɔ waa; yɛ enɔ lɛ, oshara ni ji ŋmɔlɔ lɛ yaa hiɛ. Kɛ mita ni yɔɔ Record baafa lɛ nɔ lɛ ato o-gain lɛ he gbɛjianɔ dani obɔi."
+      },
+      "distance": {
+        "title": "Mic jɛkɛmɔ: 15-30 cm",
+        "body": "Okɛ maikrofon lɛ teŋ jɛkɛmɔ ahi shi 15 kɛyashi 30 cm. Nɔ ni bɛŋkɛ fe nakai lɛ feɔ plosives kɛ bɛŋkɛmɔ he hewalɛ; shɔŋŋ lɛ jieɔ room reverb kɛ dede babaoo."
+      },
+      "script": {
+        "title": "Niŋmaa ni aŋmalaa",
+        "warmup": "Gbee mlidɔɔ (minitii 1–2)",
+        "vowels": "Vowels ni yaa nɔ — a, e, i, o, u",
+        "scales": "Sɛkɛli ni yɔɔ mlɛo, ŋwɛi kɛ shikpɔŋ",
+        "excerpt": "Lala mli kuku (8 kɛyashi 16)",
+        "dynamics": "Hewalɛ: jeɔ shishi blɛoo, gbeɔ naa waa",
+        "spoken_phrase": "Wiemɔ kuku kome ni awie, koni Suno anyɛ akane ogbee lɛ"
+      },
+      "expectations": {
+        "title": "Nɔ ni Suno kpaa gbɛ",
+        "body": "WAV, 48 kHz, mono, dry (akɛ gbee loo nɔ ko ni jɛɔ mli baa), minitii 3 kɛyashi 5 ni akɛkwɛɔ nii amli. Bei pii lɛ, minitii 2 ni he tse fe fɛɛ, ni damɔ shi fe fɛɛ lɛ haa nɔ ni hi fe fɛɛ baa."
+      }
+    }
+  },
+  "status": {
+    "idea": "Jwɛŋmɔ",
+    "em_progresso": "Yɛ hiɛyaa mli",
+    "quase": "Shwɛ fioo ni ebaashɛ jɛmɛ",
+    "pronto": "Efee klalo"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Gbee niŋmaa muu lɛ fɛɛ kɛha Suno",
+      "desc": "Minitii 5 ni akudɔɔ: shweremɔ, vowels, skel, lala mli kukuji enyɔ, dynamics, kɛ wiemɔ kuku ni awieɔ."
+    },
+    "step": {
+      "warmup": "Gbee mlidɔɔ",
+      "warmup_inst": "Gbalamɔ ohe kɛ ŋmɔlɔ, lip trills (brrr), kɛ ŋmɔlɔ ni yɔɔ blɛoo aaafee minitii kome. Ehe ehiaaa ni okɛ ohe awo mli — eji ni okɛ otsitsi lɛ ajɔɔ ohe dani ola lala kɛkɛ.",
+      "vowels": "Vowels ni ahiɔ shi",
+      "vowels_inst": "Hiɛ vowel fɛɛ vowel — a, e, i, o, u — sɛkɛndii 3 kɛyashi 4 yɛ ogbɛɛmɔ ni haa ohe jɔɔ lɛ naa, kɛ gbee ni yɔɔ shiŋŋ. Enɛ yeɔ ebuaa Suno ni ejieɔ ogbee lɛ mli gbee krɔŋŋ lɛ kpo.",
+      "scales": "Skel kɛyaa ŋwɛi kɛ shikpɔŋ",
+      "scales_inst": "Lala skel ni yɔɔ mlɛo kɛyaa ŋwɛi kɛ shi, yɛ \"la\" loo \"na\". Ehe ehiaaa ni eye emuu — oti ni ma ehiɛ ji ni okɛ ogbee lɛ afee map.",
+      "section": "Lala mli kuku — fã 1",
+      "section_inst": "Lala lala lɛ mli saji 8 kɛyashi 16, kɛ yiŋtoo diɛŋtsɛ ni otaoɔ otsɔɔ lɛ. Ha mlitsɔɔmɔ kɛ hiɛ ni yɔɔ lɛ afee nɔ ni he hiaa fe ŋaa gbɛ nɔ emuuyeli.",
+      "section2": "Lala mli kuku — fã 2",
+      "section2_inst": "Lala 8 kɛyashi 16 krokomɛi — kɛ́ ebaahi lɛ, lala loo fã ko ni kɛ nɔ ni tsɔ hiɛ lɛ kpãaa gbee. Srɔtoi babaoo yeɔ ebuaa mɔdɛl lɛ ni ekaseɔ ogbee.",
+      "dynamics": "Hewalɛ: blɛoo → gbee ni wa",
+      "dynamics_inst": "Lala wiemɔ kuku kome too lɛ nɔŋŋ ni obɔi blɛoo waa ni ogbe naa waa, ni okɛ otsitsi akatswa. Enɛ tsɔɔ Suno bɔ ni ogbee lɛ tsakeɔ ehaa.",
+      "spoken": "Wiemɔ kuku ni awie",
+      "spoken_inst": "Wiemɔ — kaala — wiemɔ kuku, ni ji adebɔɔ mli wiemɔ, tamɔ nɔ ni nyɛmiigba sane. Enɛ yeɔ ebuaa Suno ni eyɔseɔ ogbee lɛ mli gbee diɛŋtsɛ."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Saamɔ",
+      "filter": "Filta",
+      "dynamics": "Hewalɛ",
+      "separation": "Mligbalamɔ",
+      "quality": "Nɔ ni hi",
+      "utility": "He ni akɛtsuɔ nii",
+      "loudness": "Gbɛɛmɔ ni naa wa"
+    },
+    "highpass": "Filta ni hoɔ ŋwɛi",
+    "lowpass": "Filta ni tsɔɔ shishi",
+    "denoise": "Deŋmegbomɔ nɔtsemɔ",
+    "declip": "Kliping",
+    "declick": "Klikimɔ/pop jiemɔ",
+    "deesser": "De-eser",
+    "gate": "Deŋmee shinaa",
+    "compressor": "Kɔmprɛsa",
+    "limiter": "Husu",
+    "eq": "Ekomefeemɔ",
+    "normalize": "Nɔ ni fe fɛɛ",
+    "loudness": "Gbɛɛmɔ ni naa wa (LUFS)",
+    "reverb_reduce": "Reverb nɔtsemɔ",
+    "separate": "He ni jɛ lɛ mligbalamɔ",
+    "quality": "Nɔ ni hi jogbaŋŋ (hiɛyaa)",
+    "trim_silence": "Diŋŋfeemɔ mlifomɔ",
+    "fade": "Fade mli / fade kpo",
+    "stereo_to_mono": "Tsakemɔ kɛya mono nɔ",
+    "resample": "Nɔkwɛmɔnɔ ekoŋŋ"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Anyɛɔ akɛ he fɔ̃ɔ nɔ",
+      "2": "Bei pii lɛ, etsuɔ nii",
+      "3": "Nɔ ni tsakeɔ",
+      "4": "Tsofa ni akɛwoɔ mɔ mli"
+    },
+    "category": {
+      "structure": "Gbɛjianɔtoo",
+      "vocal": "Gbee",
+      "instrument": "Saŋkui",
+      "dynamics": "Hewalɛ",
+      "production": "Nifeemɔ",
+      "mood": "Su"
+    },
+    "verse": "Kuku",
+    "chorus": "Lalafolɔi",
+    "bridge": "Blɔfo",
+    "intro": "Hiɛkpamɔ",
+    "outro": "Kpojiemɔ",
+    "hook": "Hook",
+    "prechorus": "Dani lala",
+    "instrumental": "Saŋkui",
+    "guitar_solo": "Saŋku kome pɛ",
+    "build_up": "Tsumaa-tswaa",
+    "breakdown": "Mligbalamɔ",
+    "spoken_word": "Wiemɔ ni awie",
+    "whispered": "Wiemɔ bibioo",
+    "harmonies": "Harmonii",
+    "male_vocal": "Hii gbee",
+    "female_vocal": "Yoo gbee",
+    "duet": "Duet",
+    "acoustic": "Akustik",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Gbee ni he tse",
+    "voice_guitar_balanced": "Gbee ni ja kɛ saŋkui",
+    "podcast": "Pɔdkasti",
+    "suno_ready": "Suno klalo",
+    "gentle_restore": "Kuu sɛɛ afee blɛoo",
+    "raw_passthrough": "Nitsumɔ ko bɛ"
+  },
+  "errors": {
+    "unknown": "Nɔ ko eyaaa nɔ jogbaŋŋ.",
+    "network": "Enyɛɛɛ eshɛ sɛɛva lɛ he.",
+    "validation_error": "Kwɛmɔ saji ni okɛwo mli lɛ.",
+    "not_found": "Anaaa nɔ ko.",
+    "project_not_found": "Anaaa nitsumɔ lɛ.",
+    "take_not_found": "Anaaa Take.",
+    "album_not_found": "Anaaa lala wolo lɛ.",
+    "preset_not_found": "Anaaa nɔ ni ato.",
+    "template_not_found": "Anaaa tɛmplate lɛ.",
+    "device_busy": "Gbɛjianɔtoo kroko kɛ tsɔne ni akɛboɔ saji atoɔ lɛ miitsu nii.",
+    "device_not_found": "Anaaa odio tsɔne.",
+    "already_recording": "Amɛmiitswa lala ko momo.",
+    "ffmpeg_missing": "FFmpeg lɛ bɛ mli — wo mli koni otsake faili nɛɛ.",
+    "disk_full": "Disk lɛ nɔ he ko bɛ.",
+    "permission_denied": "Akpoo gbɛ kɛha gbɛ ni aha lɛ.",
+    "import_path_not_found": "Anaaa gbɛ ni akɛbaa maŋsɛɛ.",
+    "job_failed": "Nitsumɔ lɛ yeee omanye.",
+    "job_cancelled": "Afo nitsumɔ lɛ mli.",
+    "process_failed": "Eyeee omanye ni etsu take lɛ he nii.",
+    "export_failed": "Enyɛɛɛ ekɛ faili lɛ aya maŋsɛɛ.",
+    "record_failed": "Eyeee obɔi niŋmaa."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Ato gbɛjianɔ",
+      "running": "Foidamɔ",
+      "done": "Agbe naa",
+      "error": "Eyeee omanye",
+      "cancelled": "Afo mli"
+    },
+    "kind": {
+      "process": "Nitsumɔ",
+      "export": "Majemɔ",
+      "import": "Kɛjɛ maŋsɛɛ",
+      "record": "Nibii ni aŋmala ashwie shi"
+    }
+  }
+}

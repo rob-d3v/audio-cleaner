@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Čistač zvuka"
+  },
+  "nav": {
+    "library": "Knjižnica",
+    "record": "Zapis",
+    "import": "uvoz",
+    "templates": "Predlošci",
+    "settings": "postavke",
+    "guide": "vodič"
+  },
+  "common": {
+    "save": "spremiti",
+    "saving": "Spremanje...",
+    "saved": "Spremljeno",
+    "cancel": "Odustani",
+    "close": "Zatvori",
+    "delete": "Izbriši",
+    "edit": "Uredi",
+    "create": "Stvorite",
+    "search": "Traži",
+    "loading": "učitavanje...",
+    "error": "Greška",
+    "retry": "Pokušaj ponovo",
+    "confirm": "Potvrdi",
+    "back": "natrag",
+    "next": "Dalje",
+    "continue": "nastavi",
+    "finish": "završiti",
+    "copy": "Kopiraj",
+    "copied": "Kopirano",
+    "download": "preuzimanje",
+    "upload": "Upload",
+    "none": "Nijedan",
+    "all": "sve",
+    "yes": "da",
+    "no": "br",
+    "select": "Odaberite",
+    "optional": "neobavezan",
+    "required": "potrebno",
+    "unsaved_changes": "Nespremljene promjene",
+    "name": "Ime",
+    "status": "Status",
+    "type": "Vrsta",
+    "actions": "Radnje",
+    "empty": "Prazna",
+    "browse": "Pregledaj",
+    "remove": "Ukloniti",
+    "add": "Dodaj",
+    "rename": "Preimenuj",
+    "duplicate": "Duplikat",
+    "warning": "Upozorenje",
+    "locked": "Zaključano",
+    "builtin": "Ugrađeni",
+    "custom": "Custom",
+    "untitled": "Bez naslova",
+    "select_placeholder": "Odaberite…"
+  },
+  "library": {
+    "title": "Knjižnica",
+    "subtitle": "Vaši projekti za glas i gitaru, od ideje do objave.",
+    "new_project": "Novi projekt",
+    "new_album": "Novi album",
+    "search_placeholder": "Traži po imenu…",
+    "view": {
+      "grid": "Mreža",
+      "albums": "Albumi"
+    },
+    "filters": {
+      "all": "sve"
+    },
+    "take_count_one": " {{count}} uzeti",
+    "take_count_other": " {{count}} uzima",
+    "updated_at": "Ažurirano {{date}} ",
+    "no_results": {
+      "title": "Nema pronađenih projekata",
+      "description": "Pokušajte prilagoditi filtar pretraživanja ili statusa."
+    },
+    "empty": {
+      "title": "Vaša biblioteka je prazna",
+      "description": "Započnite novi projekt od nule ili uvezite snimke koje već imate na disku.",
+      "cta_import": "Uvezi iz mape",
+      "cta_new": "Izradi projekt"
+    },
+    "project_dialog": {
+      "title": "Novi projekt",
+      "description": "Dodijelite mu naziv i odaberite način snimanja.",
+      "name_label": "Naziv projekta",
+      "name_placeholder": "npr. Ljetna kiša",
+      "mode_label": "Način rada",
+      "mode": {
+        "voice": "Samo glas",
+        "voice_guitar": "Glas + gitara"
+      },
+      "submit": "Izradi projekt"
+    },
+    "album_dialog": {
+      "title": "Novi album",
+      "description": "Grupirajte povezane projekte u album.",
+      "name_label": "Naziv albuma",
+      "name_placeholder": "npr. Jesenski EP",
+      "submit": "Stvori album"
+    },
+    "album": {
+      "untitled": "Album bez naziva",
+      "members_count_one": " {{count}} projekt",
+      "members_count_other": " {{count}} projekti",
+      "empty": "U ovom albumu još nema projekata.",
+      "delete_confirm_title": "Izbrisati album?",
+      "delete_confirm_description": "Projekti neće biti izbrisani, samo prekinuti vezu s \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Izbrisati \" {{name}} \"?",
+      "confirm_description": "Time se uklanja projekt i svaki njegov potez. Ovo se ne može poništiti."
+    }
+  },
+  "record": {
+    "title": "Zapis",
+    "subtitle": "Snimite čist udarac, gledajte svoje razine i slijedite scenarij.",
+    "project_label": "Projekt",
+    "project_placeholder": "Odaberite projekt",
+    "project_create_quick": "Napravite brzi projekt…",
+    "device_label": "Ulazni uređaj",
+    "device_placeholder": "Odaberite uređaj",
+    "device_default_badge": "Zadana vrijednost sustava",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Nije pronađen nijedan ulazni uređaj.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Prekini praćenje",
+    "record_button": "Zapis",
+    "stop_button": "Stani",
+    "elapsed_label": "Proteklo vrijeme",
+    "status": {
+      "idle": "besposlen",
+      "monitoring": "Praćenje",
+      "recording": "Snimanje",
+      "stopped": "Zaustavljeno"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Vrhunac",
+      "clip": "Isječak"
+    },
+    "guide": {
+      "title": "Vođena sesija",
+      "subtitle": "Neka vas trener provede kroz scenarij korak po korak, od zagrijavanja do izgovorene fraze.",
+      "loading": "Učitavanje skripte...",
+      "unavailable": "Vođena sesija još nije dostupna na poslužitelju.",
+      "select_project_device": "Odavde odaberite projekt i ulazni uređaj za snimanje koraka.",
+      "progress": " {{done}} od {{total}} koraka",
+      "start_timer": "Pokreni mjerač vremena",
+      "skip_timer": "Preskoči mjerač vremena",
+      "record_step": "Zabilježite ovaj korak",
+      "stop_step": "Zaustavi snimanje",
+      "mark_done": "Gotovo — sljedeći korak",
+      "step_recorded": "Uzmi snimljeno",
+      "no_record_step": "Korak zagrijavanja — nije potrebno snimanje.",
+      "bars_hint": "Oko {{bars}} barova",
+      "complete_title": "Skripta dovršena!",
+      "complete_body": "Snimili ste svaki korak scenarija. Vratite se na karticu Audio projekta i odaberite svoje omiljene snimke.",
+      "restart": "Ponovno pokrenite skriptu"
+    },
+    "best2min": {
+      "button": "Pronađite najbolje 2 minute (Suno)",
+      "running": "Analizirajući uzimanje…",
+      "score_label": "rezultat",
+      "hint": "Provodi analizu energije i jasnoće tijekom cijelog snimanja kako bi pronašao najjači 2-minutni prozor — nakon toga još uvijek možete ručno podesiti raspon.",
+      "chart_caption": "Rezultat po prozoru",
+      "unavailable": "Najbolja analiza od 2 minute još nije dostupna na ovom poslužitelju."
+    },
+    "takes_title": "Prenosi s ove sesije",
+    "takes_empty": "U ovoj sesiji još nema snimljenih snimaka.",
+    "open_in_project": "Otvoreno u projektu",
+    "ws_disconnected": "Ponovno povezivanje s mjeračem razine...",
+    "select_project_first": "Odaberite projekt za početak.",
+    "select_device_first": "Odaberite ulazni uređaj."
+  },
+  "project": {
+    "back_to_library": "Natrag u knjižnicu",
+    "header": {
+      "status_label": "Status",
+      "cover_upload": "Učitaj omot",
+      "cover_remove": "Uklonite poklopac",
+      "name_placeholder": "Naziv projekta",
+      "links_title": "Linkovi",
+      "add_link": "Dodaj vezu",
+      "mode": {
+        "voice": "Samo glas",
+        "voice_guitar": "Glas + gitara"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Lyrics",
+      "prompts": "Upiti",
+      "notes": "Bilješke"
+    },
+    "audio": {
+      "takes_title": "Uzima",
+      "no_takes": {
+        "title": "Još nema snimanja",
+        "description": "Snimite novi snimak ili uvezite postojeću datoteku."
+      },
+      "record_new": "Snimite novi snimak",
+      "rating": "Ocjena",
+      "variant": {
+        "raw": "Sirovo",
+        "processed": "Obrađeno"
+      },
+      "variant_placeholder": "Verzija",
+      "process_button": "Proces",
+      "export_button": "Izvoz",
+      "delete_take_confirm_title": "Izbrisati ovaj snimak?",
+      "delete_take_confirm_description": "Neobrađeni zvuk i svaka obrađena verzija bit će uklonjeni.",
+      "ab": {
+        "raw": "A · Sirovo",
+        "processed": "B · Obrađeno"
+      },
+      "origin": {
+        "recorded": "Snimljeno",
+        "imported": "Uvezeno"
+      },
+      "session_label_placeholder": "Oznaka sesije (nije obavezno)",
+      "duration": "Trajanje",
+      "sample_rate": "Brzina uzorkovanja",
+      "channels": "Kanali",
+      "created_at": "Snimljeno"
+    },
+    "pipeline": {
+      "title": "Lanac obrade",
+      "preset_label": "Unaprijed postavljeno",
+      "preset_none": "Lanac po narudžbi",
+      "preset_save": "Spremi kao unaprijed postavljeno",
+      "stage_locked": "Zaključano",
+      "stage_requires_extra": "Zahtijeva dodatak koji nije instaliran",
+      "process_button": "Proces uzeti",
+      "processing": "Obrada…",
+      "job_queued": "U redu čekanja…",
+      "job_running": "Obrada…",
+      "job_done": "Gotovo",
+      "job_error": "neuspješno",
+      "job_cancelled": "Otkazano",
+      "cancel_job": "Odustani",
+      "no_stages": "Nema dostupnih faza."
+    },
+    "export": {
+      "title": "Izvoz uzeti",
+      "description": "Renderirajte konačnu datoteku iz obrađene verzije.",
+      "variant_label": "Verzija",
+      "format_label": "Format",
+      "preset_label": "Izvoz unaprijed postavljenih postavki",
+      "range_label": "Raspon",
+      "range_full": "Puna dužina",
+      "range_custom": "Prilagođeni raspon",
+      "start_label": "Početak (i)",
+      "end_label": "Kraj(i)",
+      "submit": "Izvoz",
+      "progress": "Renderiranje datoteke…",
+      "download_ready": "Turpija spremna",
+      "download_button": "Preuzmite datoteku"
+    },
+    "notes": {
+      "placeholder": "Bilješke u slobodnom obliku o ovom projektu...",
+      "saved_at": "Spremljeno u {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Ovdje napiši tekst. Koristite paletu sa strane za umetanje Suno meta-oznaka.",
+      "saved_at": "Spremljeno u {{time}} ",
+      "saving": "Spremanje...",
+      "versions": "Verzije",
+      "versions_empty": "Još nema spremljenih verzija.",
+      "version_preview": "Pregled",
+      "restore": "Vrati ovu verziju",
+      "restore_confirm_title": "Vratiti ovu verziju?",
+      "restore_confirm_description": "Trenutačni tekst bit će zamijenjen verzijom spremljenom {{date}}.",
+      "metatags_title": "Meta-oznake",
+      "metatags_hint": "Pritisnite oznaku da biste je umetnuli na kursor.",
+      "metatags_placebo_warning": "Nedokazano — možda neće utjecati na rezultat.",
+      "metatags_empty": "Nema registriranih metaoznaka."
+    },
+    "prompts": {
+      "style_title": "Uputa za stil",
+      "lyrics_title": "Uputa za stihove",
+      "template_label": "Predložak",
+      "template_none": "Bez predloška",
+      "variables_title": "Varijable",
+      "preview_title": "Pregled",
+      "preview_empty": "Odaberite predložak i ispunite varijable da biste vidjeli pregled.",
+      "char_count": " {{count}} znakova",
+      "char_count_warning": "Suno može skratiti stilske upite preko 1000 znakova.",
+      "copy": "Kopiraj",
+      "copied": "Kopirano u međuspremnik",
+      "save_to_project": "Spremi u projekt",
+      "saved_to_project": "Upit je spremljen u projekt",
+      "history_title": "Povijest",
+      "history_empty": "Nema prethodnih verzija.",
+      "current_label": "Trenutni"
+    },
+    "stems": {
+      "title": "Vokal i gitara",
+      "separate_button": "Odvojeni vokal i gitara",
+      "running": "Odvajanje...",
+      "vocals": "vokal",
+      "instrumental": "instrumental",
+      "process_stem": "Obradite ovu stabljiku",
+      "empty": "Ovaj snimak još nije odvojen. Pokrenite odvajanje da biste čuli vokale i gitaru u izolaciji.",
+      "capability_missing": "Odvajanje izvora nije instalirano na ovom poslužitelju.",
+      "unavailable": "Odvajanje vokala/gitare još nije dostupno na ovom poslužitelju."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Uključeno",
+    "boolean_off": "Isključeno"
+  },
+  "import": {
+    "title": "uvoz",
+    "subtitle": "Donesite projekte koji već postoje na disku u knjižnicu.",
+    "step_indicator": "Korak {{current}} od {{total}} ",
+    "step1": {
+      "title": "Pronađite mapu",
+      "description": "Pokažite na korijensku mapu sa svojim projektima i stazama.",
+      "path_label": "Put do mape",
+      "path_placeholder": "npr. E:\\Robbs\\Pride\\Glazba\\ROBBS",
+      "recent_label": "Nedavno",
+      "scan_button": "Skeniraj mapu",
+      "scanning": "Skeniranje...",
+      "ffmpeg_warning": "FFmpeg nije pronađen — datoteke koje trebaju konverziju bit će preskočene.",
+      "folders_found_one": " Pronađena mapa {{count}}",
+      "folders_found_other": " {{count}} pronađenih mapa",
+      "unmatched_files_one": " {{count}} neprepoznata datoteka",
+      "unmatched_files_other": " {{count}} neprepoznate datoteke"
+    },
+    "step2": {
+      "title": "Pregledajte artikle",
+      "description": "Provjerite imena, statuse i što će se uvesti prije potvrde.",
+      "select_all": "Odaberite sve",
+      "table": {
+        "folder": "Izvorna mapa",
+        "name": "Naziv projekta",
+        "status": "Status",
+        "audio": "Audio",
+        "lyrics": "Lyrics",
+        "cover": "Poklopac",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} odabrana datoteka",
+      "audio_include_other": " {{count}} odabranih datoteka",
+      "no_audio": "Nije pronađen zvuk",
+      "no_lyrics": "Nije pronađen nijedan tekst",
+      "no_cover": "Bez pokrića",
+      "warnings_title": "Upozorenja"
+    },
+    "step3": {
+      "title": "uvoz",
+      "description": "Potvrdite kopiranje datoteka i izradu projekata.",
+      "copy_originals": "Kopirajte izvorne datoteke u knjižnicu",
+      "execute_button": "Započni uvoz",
+      "progress_title": "Uvoz...",
+      "created_count": "Kreirano: {{count}} ",
+      "skipped_count": "Preskočeno: {{count}} ",
+      "done_title": "Uvoz dovršen",
+      "done_description": "Projekti u nastavku stvoreni su u vašoj knjižnici.",
+      "view_project": "Otvoreni projekt",
+      "start_over": "Novi uvoz"
+    }
+  },
+  "templates": {
+    "title": "Predlošci",
+    "subtitle": "Predlošci upita za višekratnu upotrebu i metaoznake za Suno.",
+    "tabs": {
+      "prompts": "Brzi predlošci",
+      "metatags": "Meta-oznake"
+    },
+    "new_template": "Novi predložak",
+    "kind": {
+      "style": "Stil",
+      "lyrics": "Lyrics"
+    },
+    "kind_label": "ljubazan",
+    "delete_confirm_title": "Izbrisati predložak \" {{name}} \"?",
+    "delete_confirm_description": "Ovo se ne može poništiti.",
+    "empty": "Još nema predložaka.",
+    "editor": {
+      "title_new": "Novi predložak",
+      "title_edit": "Uredi predložak",
+      "name_label": "Ime",
+      "name_placeholder": "npr. Akustična balada",
+      "kind_label": "ljubazan",
+      "template_label": "Tekst predloška",
+      "template_hint": "Označite gdje svaka varijabla pripada svojim imenom u dvostrukim vitičastim zagradama — na primjer, varijabla pod nazivom \"žanr\" postaje žanr umotana u dvije otvorene i dvije završne zagrade.",
+      "variables_label": "Varijable",
+      "variable_add": "Dodaj varijablu",
+      "variable_name": "Ključ",
+      "variable_label": "Oznaka",
+      "variable_type": "Vrsta",
+      "variable_type_string": "Tekst",
+      "variable_type_select": "Jedan odabir",
+      "variable_type_multiselect": "Višestruki odabir",
+      "variable_type_number": "broj",
+      "variable_type_boolean": "Da/ne",
+      "variable_options": "Opcije (odvojene zarezom)",
+      "variable_required": "Obavezno",
+      "save": "Spremi predložak"
+    },
+    "metatags": {
+      "title": "Meta-oznake",
+      "subtitle": "Strukturne i stilske oznake Suno prepoznaje unutar tekstova.",
+      "new_tag": "Nova oznaka",
+      "tag_label": "Oznaka",
+      "tag_placeholder": "npr. gitara-solo",
+      "category_label": "Kategorija",
+      "tier_label": "Pouzdanost",
+      "tier_legend_title": "Legenda o pouzdanosti",
+      "tier_legend": {
+        "1": "Razina 1 — dokumentirana i dosljedna",
+        "2": "Razina 2 — obično radi",
+        "3": "Razina 3 — promjenjiv učinak",
+        "4": "Razina 4 — placebo, nedokazano"
+      },
+      "description_label": "Opis",
+      "delete_confirm_title": "Izbrisati oznaku \" {{tag}} \"?",
+      "empty": "Još nema prilagođenih metaoznaka."
+    }
+  },
+  "settings": {
+    "title": "postavke",
+    "subtitle": "Informacije o sustavu, jeziku i zadanim postavkama.",
+    "system_info_title": "sustav",
+    "version": "Verzija",
+    "data_dir": "Mapa podataka",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "na raspolaganju",
+    "ffmpeg_missing": "Nije pronađeno",
+    "capabilities_title": "Instalirane mogućnosti",
+    "capability": {
+      "denoise": "Smanjenje buke",
+      "quality": "Poboljšanje kvalitete",
+      "separate": "Odvajanje izvora",
+      "ffmpeg": "FFmpeg konverzija"
+    },
+    "capability_available": "na raspolaganju",
+    "capability_unavailable": "Nedostupan",
+    "gpu_title": "GPU ubrzanje",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime pružatelji usluga"
+    },
+    "gpu_none": "Nije otkriven nijedan GPU pružatelj usluga",
+    "language_title": "Jezik",
+    "language": {
+      "pt-BR": "português (Brazil)",
+      "en": "engleski"
+    },
+    "theme_title": "Izgled",
+    "theme": {
+      "dark": "tamno",
+      "light": "svjetlo"
+    },
+    "defaults_title": "Izvezi zadane postavke",
+    "lufs_target_label": "Ciljani LUFS",
+    "lufs_target_hint": "Koristi se kao početni prijedlog prilikom izvoza. Sunoova zadana vrijednost je oko -14 LUFS.",
+    "saved": "Postavke spremljene"
+  },
+  "guide": {
+    "title": "Suno vodič za snimanje",
+    "subtitle": "Kako snimiti snimke glasa i gitare koji daju najbolje rezultate.",
+    "intro": "Suno ima najbolje rezultate s čistim, nedvosmislenim referencama. Ovaj vodič pokriva pripremu, ciljane razine i skriptu za snimanje od 3 do 5 minuta.",
+    "sections": {
+      "prep": {
+        "title": "Priprema",
+        "body": "Snimajte u tretiranoj prostoriji ili u prostoriji s puno mekog materijala (zavjese, prostirke, odjeća u ormaru). Isključite ventilatore i sve što zuji. Zagrijte glas 5 minuta prije snimanja."
+      },
+      "levels": {
+        "title": "Razine: -12 do -6 dBFS",
+        "body": "Ciljajte na vršne vrijednosti između -12 i -6 dBFS na mjeraču. Ispod tog raspona, pozadinska buka postaje uočljivija; iznad toga raste rizik od rezanja. Upotrijebite mjerač na stranici Record kako biste postavili dobit prije početka."
+      },
+      "distance": {
+        "title": "Udaljenost mikrofona: 15–30 cm",
+        "body": "Ostanite 15 do 30 cm od mikrofona. Bliže od toga preuveličava eksplozive i učinak blizine; dalje hvata više reverba i buke u prostoriji."
+      },
+      "script": {
+        "title": "Scenarij za snimanje",
+        "warmup": "Vokalno zagrijavanje (1-2 minute)",
+        "vowels": "Trajni samoglasnici — a, e, i, o, u",
+        "scales": "Jednostavne skale, gore i dolje",
+        "excerpt": "Ulomak pjesme (8 do 16 taktova)",
+        "dynamics": "Dinamika: početak tiho, kraj glasno",
+        "spoken_phrase": "Jedna izgovorena fraza, tako da Suno može pročitati vaš vokalni ton"
+      },
+      "expectations": {
+        "title": "Što Suno očekuje",
+        "body": "WAV, 48 kHz, mono, suho (bez reverba ili efekata), 3 do 5 minuta reference. Najčišće, najreprezentativnije 2 minute snimanja obično daju najbolje rezultate."
+      }
+    }
+  },
+  "status": {
+    "idea": "Ideja",
+    "em_progresso": "U tijeku",
+    "quase": "Još malo pa smo stigli",
+    "pronto": "spreman"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Cijeli vokalni scenarij za Suno",
+      "desc": "5 vođenih minuta: zagrijavanje, samoglasnici, ljestvice, dva ulomka pjesme, dinamika i izgovorena fraza."
+    },
+    "step": {
+      "warmup": "Vokalno zagrijavanje",
+      "warmup_inst": "Opustite se uz zijevanje, trljanje usana (brrr) i tiho pjevušenje otprilike minutu. Nema potrebe za snimanjem — samo da opustite grlo prije pjevanja.",
+      "vowels": "Trajni samoglasnici",
+      "vowels_inst": "Zadržite svaki samoglasnik — a, e, i, o, u — 3 do 4 sekunde na visini koja vam je udobna, uz ujednačenu glasnoću. To pomaže Sunou da uhvati čistu boju vašeg glasa.",
+      "scales": "Vage gore i dolje",
+      "scales_inst": "Pjevajte jednostavnu ljestvicu gore pa dolje, na \"la\" ili \"na\". Ne mora biti savršen — cilj je mapirati vaš glasovni raspon.",
+      "section": "Odlomak pjesme — 1. dio",
+      "section_inst": "Otpjevajte 8 do 16 taktova pjesme, s pravom namjerom koju želite prenijeti. Dajte prednost jasnoći i prisutnosti ispred tehničke savršenosti.",
+      "section2": "Odlomak pjesme — 2. dio",
+      "section2_inst": "Otpjevajte još 8 do 16 taktova — idealno bi bilo refren ili dio koji je u kontrastu s prethodnim. Više raznolikosti pomaže modelu da nauči vaš glas.",
+      "dynamics": "Dinamika: tiho → glasno",
+      "dynamics_inst": "Otpjevajte istu frazu počevši vrlo tiho i završivši glasno, bez naprezanja grla. Ovo pokazuje Suno dinamički raspon vašeg glasa.",
+      "spoken": "Govorna fraza",
+      "spoken_inst": "Govorite - ne pjevajte - kratku, prirodnu frazu, kao da čavrljate. To pomaže Suno prepoznati stvarnu boju vašeg glasa."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restauracija",
+      "filter": "Filteri",
+      "dynamics": "Dinamika",
+      "separation": "Razdvajanje",
+      "quality": "Kvaliteta",
+      "utility": "Korisnost",
+      "loudness": "Glasnoća"
+    },
+    "highpass": "Visokopropusni filtar",
+    "lowpass": "Niskopropusni filtar",
+    "denoise": "Smanjenje buke",
+    "declip": "Declipping",
+    "declick": "Uklanjanje klika/iskakanja",
+    "deesser": "De-esser",
+    "gate": "Vrata za buku",
+    "compressor": "kompresor",
+    "limiter": "Limiter",
+    "eq": "Izjednačavanje",
+    "normalize": "Vršna normalizacija",
+    "loudness": "Normalizacija glasnoće (LUFS)",
+    "reverb_reduce": "Smanjenje odjeka",
+    "separate": "Odvajanje izvora",
+    "quality": "Poboljšanje kvalitete (upscale)",
+    "trim_silence": "Tiho obrezivanje",
+    "fade": "Fade in / fade out",
+    "stereo_to_mono": "Pretvori u mono",
+    "resample": "Ponovno uzorkovanje"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Pouzdan",
+      "2": "Obično radi",
+      "3": "Varijabilna",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Struktura",
+      "vocal": "Vokalna",
+      "instrument": "Instrument",
+      "dynamics": "Dinamika",
+      "production": "Proizvodnja",
+      "mood": "raspoloženje"
+    },
+    "verse": "Stih",
+    "chorus": "Zbor",
+    "bridge": "Most",
+    "intro": "uvod",
+    "outro": "Outro",
+    "hook": "Kuka",
+    "prechorus": "Predzbor",
+    "instrumental": "instrumental",
+    "guitar_solo": "Solo gitara",
+    "build_up": "Nagomilavanje",
+    "breakdown": "Kvar",
+    "spoken_word": "Izgovorena riječ",
+    "whispered": "Šaputala",
+    "harmonies": "Harmonije",
+    "male_vocal": "Muški vokal",
+    "female_vocal": "Ženski vokal",
+    "duet": "Duet",
+    "acoustic": "Akustična",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Čist glas",
+    "voice_guitar_balanced": "Uravnoteženi glas i gitara",
+    "podcast": "Podcast",
+    "suno_ready": "Suno spreman",
+    "gentle_restore": "Nježno obnavljanje",
+    "raw_passthrough": "Bez obrade"
+  },
+  "errors": {
+    "unknown": "Nešto nije u redu.",
+    "network": "Nije moguće doći do poslužitelja.",
+    "validation_error": "Provjerite podatke koje ste unijeli.",
+    "not_found": "Stavka nije pronađena.",
+    "project_not_found": "Projekt nije pronađen.",
+    "take_not_found": "Preuzimanje nije pronađeno.",
+    "album_not_found": "Album nije pronađen.",
+    "preset_not_found": "Unaprijed postavljeno nije pronađeno.",
+    "template_not_found": "Predložak nije pronađen.",
+    "device_busy": "Audio uređaj koristi drugi program.",
+    "device_not_found": "Audio uređaj nije pronađen.",
+    "already_recording": "Snimanje je već u tijeku.",
+    "ffmpeg_missing": "FFmpeg nije instaliran — instalirajte ga da biste pretvorili ovu datoteku.",
+    "disk_full": "Nema dovoljno prostora na disku.",
+    "permission_denied": "Dopuštenje je odbijeno za navedeni put.",
+    "import_path_not_found": "Putanja uvoza nije pronađena.",
+    "job_failed": "Obrada nije uspjela.",
+    "job_cancelled": "Obrada je otkazana.",
+    "process_failed": "Obrada snimanja nije uspjela.",
+    "export_failed": "Izvoz datoteke nije uspio.",
+    "record_failed": "Pokretanje snimanja nije uspjelo."
+  },
+  "jobs": {
+    "status": {
+      "queued": "U redu čekanja",
+      "running": "Trčanje",
+      "done": "Gotovo",
+      "error": "neuspješno",
+      "cancelled": "Otkazano"
+    },
+    "kind": {
+      "process": "Obrada",
+      "export": "Izvoz",
+      "import": "uvoz",
+      "record": "Snimanje"
+    }
+  }
+}

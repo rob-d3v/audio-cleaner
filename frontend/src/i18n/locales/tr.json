@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Ses Temizleyici"
+  },
+  "nav": {
+    "library": "Kütüphane",
+    "record": "Kayıt",
+    "import": "İthalat",
+    "templates": "Şablonlar",
+    "settings": "Ayarlar",
+    "guide": "Rehber"
+  },
+  "common": {
+    "save": "Kaydet",
+    "saving": "Kaydediliyor…",
+    "saved": "Kaydedildi",
+    "cancel": "İptal",
+    "close": "Kapat",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "create": "Oluştur",
+    "search": "Ara",
+    "loading": "Yükleniyor…",
+    "error": "Hata",
+    "retry": "Yeniden dene",
+    "confirm": "Onayla",
+    "back": "Geri",
+    "next": "Sonraki",
+    "continue": "Devam et",
+    "finish": "Bitiş",
+    "copy": "Kopyala",
+    "copied": "Kopyalandı",
+    "download": "İndir",
+    "upload": "Yükle",
+    "none": "Yok",
+    "all": "Hepsi",
+    "yes": "Evet",
+    "no": "Hayır",
+    "select": "Seç",
+    "optional": "isteğe bağlı",
+    "required": "gerekli",
+    "unsaved_changes": "Kaydedilmemiş değişiklikler",
+    "name": "İsim",
+    "status": "Durum",
+    "type": "Tür",
+    "actions": "Eylemler",
+    "empty": "Boş",
+    "browse": "Göz at",
+    "remove": "Kaldır",
+    "add": "Ekle",
+    "rename": "Yeniden adlandır",
+    "duplicate": "Çoğalt",
+    "warning": "Uyarı",
+    "locked": "Kilitli",
+    "builtin": "Yerleşik",
+    "custom": "Özel",
+    "untitled": "İsimsiz",
+    "select_placeholder": "Seç…"
+  },
+  "library": {
+    "title": "Kütüphane",
+    "subtitle": "Fikirden yayına kadar ses ve gitar projeleriniz.",
+    "new_project": "Yeni proje",
+    "new_album": "Yeni albüm",
+    "search_placeholder": "İsme göre ara…",
+    "view": {
+      "grid": "Izgara",
+      "albums": "Albümler"
+    },
+    "filters": {
+      "all": "Hepsi"
+    },
+    "take_count_one": " {{count}} al",
+    "take_count_other": " {{count}} alır",
+    "updated_at": "Güncellendi {{date}} ",
+    "no_results": {
+      "title": "Hiçbir proje bulunamadı",
+      "description": "Arama veya durum filtresini ayarlamayı deneyin."
+    },
+    "empty": {
+      "title": "Kitaplığınız boş",
+      "description": "Sıfırdan yeni bir proje başlatın veya halihazırda diskinizde bulunan almaları içe aktarın.",
+      "cta_import": "Klasörden içe aktar",
+      "cta_new": "Proje oluştur"
+    },
+    "project_dialog": {
+      "title": "Yeni proje",
+      "description": "Ona bir ad verin ve bir kayıt modu seçin.",
+      "name_label": "Proje adı",
+      "name_placeholder": "örneğin Yaz Yağmuru",
+      "mode_label": "Mod",
+      "mode": {
+        "voice": "Yalnızca ses",
+        "voice_guitar": "Ses + gitar"
+      },
+      "submit": "Proje oluştur"
+    },
+    "album_dialog": {
+      "title": "Yeni albüm",
+      "description": "İlgili projeleri bir albümde gruplayın.",
+      "name_label": "Albüm adı",
+      "name_placeholder": "örneğin Sonbahar EP'si",
+      "submit": "Albüm oluştur"
+    },
+    "album": {
+      "untitled": "Başlıksız albüm",
+      "members_count_one": " {{count}} proje",
+      "members_count_other": " {{count}} projeler",
+      "empty": "Bu albümde henüz proje yok.",
+      "delete_confirm_title": "Albüm silinsin mi?",
+      "delete_confirm_description": "Projeler silinmeyecek, yalnızca \" {{name}} \" ile olan bağlantı kaldırılacak."
+    },
+    "delete_project": {
+      "confirm_title": "\" {{name}} \" silinsin mi?",
+      "confirm_description": "Bu, projeyi ve içindeki her şeyi kaldırır. Bu geri alınamaz."
+    }
+  },
+  "record": {
+    "title": "Kayıt",
+    "subtitle": "Temiz bir çekim yapın, seviyelerinizi izleyin ve senaryoyu takip edin.",
+    "project_label": "Proje",
+    "project_placeholder": "Bir proje seçin",
+    "project_create_quick": "Hızlı bir proje oluşturun…",
+    "device_label": "Giriş cihazı",
+    "device_placeholder": "Bir cihaz seçin",
+    "device_default_badge": "Sistem varsayılanı",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Giriş cihazı bulunamadı.",
+    "monitor_button": "Monitör",
+    "monitor_stop_button": "İzlemeyi durdur",
+    "record_button": "Kayıt",
+    "stop_button": "Durdur",
+    "elapsed_label": "Geçen süre",
+    "status": {
+      "idle": "Boşta",
+      "monitoring": "İzleme",
+      "recording": "Kayıt",
+      "stopped": "Durduruldu"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Zirve",
+      "clip": "Klip"
+    },
+    "guide": {
+      "title": "Rehberli oturum",
+      "subtitle": "Koçun, ısınmadan sözlü ifadeye kadar senaryo boyunca size adım adım yol göstermesine izin verin.",
+      "loading": "Komut dosyası yükleniyor…",
+      "unavailable": "Rehberli oturum henüz sunucuda mevcut değil.",
+      "select_project_device": "Adımları doğrudan buradan kaydetmek için bir proje ve giriş cihazı seçin.",
+      "progress": " {{done}} / {{total}} adım",
+      "start_timer": "Zamanlayıcıyı başlat",
+      "skip_timer": "Zamanlayıcıyı atla",
+      "record_step": "Bu adımı kaydedin",
+      "stop_step": "Kaydı durdur",
+      "mark_done": "Bitti — sonraki adım",
+      "step_recorded": "Kayıt al",
+      "no_record_step": "Isınma adımı — kayda gerek yok.",
+      "bars_hint": "{{bars}} çubuklar hakkında",
+      "complete_title": "Senaryo tamamlandı!",
+      "complete_body": "Senaryonun her adımını kaydettiniz. Projenin Ses sekmesine geri dönün ve favori çekimlerinizi seçin.",
+      "restart": "Komut dosyasını yeniden başlat"
+    },
+    "best2min": {
+      "button": "En iyi 2 dakikayı bulun (Suno)",
+      "running": "Çekim analiz ediliyor…",
+      "score_label": "Puan",
+      "hint": "En güçlü 2 dakikalık pencereyi bulmak için tüm çekim boyunca bir enerji ve berraklık analizi yapar; aralığı daha sonra elle ayarlayabilirsiniz.",
+      "chart_caption": "Pencere başına puan",
+      "unavailable": "En iyi 2 dakikalık analiz henüz bu sunucuda mevcut değil."
+    },
+    "takes_title": "Bu oturumdan alıntılar",
+    "takes_empty": "Bu oturumda henüz kayıtlı bir kayıt yok.",
+    "open_in_project": "Projede aç",
+    "ws_disconnected": "Seviye ölçere yeniden bağlanılıyor…",
+    "select_project_first": "Başlamak için bir proje seçin.",
+    "select_device_first": "Bir giriş cihazı seçin."
+  },
+  "project": {
+    "back_to_library": "Kütüphaneye geri dön",
+    "header": {
+      "status_label": "Durum",
+      "cover_upload": "Kapağı yükle",
+      "cover_remove": "Kapağı çıkarın",
+      "name_placeholder": "Proje adı",
+      "links_title": "Bağlantılar",
+      "add_link": "Bağlantı ekle",
+      "mode": {
+        "voice": "Yalnızca ses",
+        "voice_guitar": "Ses + gitar"
+      }
+    },
+    "tabs": {
+      "audio": "Ses",
+      "lyrics": "Şarkı sözleri",
+      "prompts": "İstemler",
+      "notes": "Notlar"
+    },
+    "audio": {
+      "takes_title": "Alır",
+      "no_takes": {
+        "title": "Henüz çekim yok",
+        "description": "Yeni bir çekim kaydedin veya mevcut bir dosyayı içe aktarın."
+      },
+      "record_new": "Yeni bir çekim kaydedin",
+      "rating": "Derecelendirme",
+      "variant": {
+        "raw": "Ham",
+        "processed": "İşlendi"
+      },
+      "variant_placeholder": "Sürüm",
+      "process_button": "Süreç",
+      "export_button": "İhracat",
+      "delete_take_confirm_title": "Bu çekim silinsin mi?",
+      "delete_take_confirm_description": "Ham ses ve işlenmiş tüm sürümler kaldırılacaktır.",
+      "ab": {
+        "raw": "A · Ham",
+        "processed": "B · İşlenmiş"
+      },
+      "origin": {
+        "recorded": "Kaydedildi",
+        "imported": "İthal"
+      },
+      "session_label_placeholder": "Oturum etiketi (isteğe bağlı)",
+      "duration": "Süre",
+      "sample_rate": "Örnekleme oranı",
+      "channels": "Kanallar",
+      "created_at": "Kaydedildi"
+    },
+    "pipeline": {
+      "title": "İşleme zinciri",
+      "preset_label": "Ön ayar",
+      "preset_none": "Özel zincir",
+      "preset_save": "Ön ayar olarak kaydet",
+      "stage_locked": "Kilitli",
+      "stage_requires_extra": "Yüklü olmayan bir ekstra gerektirir",
+      "process_button": "Süreç alımı",
+      "processing": "İşleniyor…",
+      "job_queued": "Sıraya alındı…",
+      "job_running": "İşleniyor…",
+      "job_done": "Bitti",
+      "job_error": "Başarısız",
+      "job_cancelled": "İptal edildi",
+      "cancel_job": "İptal",
+      "no_stages": "Hiçbir aşama mevcut değil."
+    },
+    "export": {
+      "title": "İhracat alımı",
+      "description": "İşlenmiş bir sürümden son bir dosya oluşturun.",
+      "variant_label": "Sürüm",
+      "format_label": "Biçim",
+      "preset_label": "Ön ayarı dışa aktar",
+      "range_label": "Aralık",
+      "range_full": "Tam uzunluk",
+      "range_custom": "Özel aralık",
+      "start_label": "Başlangıç(lar)",
+      "end_label": "Bitiş (ler)",
+      "submit": "İhracat",
+      "progress": "Dosya oluşturuluyor…",
+      "download_ready": "Dosya hazır",
+      "download_button": "Dosyayı indir"
+    },
+    "notes": {
+      "placeholder": "Bu proje hakkında serbest biçimli notlar…",
+      "saved_at": "{{time}} tarihinde kaydedildi "
+    },
+    "lyrics": {
+      "placeholder": "Şarkı sözlerini buraya yazın. Suno meta etiketlerini eklemek için yandaki paleti kullanın.",
+      "saved_at": "{{time}} tarihinde kaydedildi ",
+      "saving": "Kaydediliyor…",
+      "versions": "Sürümler",
+      "versions_empty": "Henüz kayıtlı sürüm yok.",
+      "version_preview": "Önizleme",
+      "restore": "Bu sürümü geri yükle",
+      "restore_confirm_title": "Bu sürüm geri yüklensin mi?",
+      "restore_confirm_description": "Mevcut metin {{date}}'de kayıtlı versiyonla değiştirilecektir.",
+      "metatags_title": "Meta etiketler",
+      "metatags_hint": "İmlece eklemek için bir etiketi tıklayın.",
+      "metatags_placebo_warning": "Kanıtlanmamış – sonuç üzerinde hiçbir etkisi olmayabilir.",
+      "metatags_empty": "Kayıtlı meta etiket yok."
+    },
+    "prompts": {
+      "style_title": "Stil istemi",
+      "lyrics_title": "Şarkı sözü istemi",
+      "template_label": "Şablon",
+      "template_none": "Şablon yok",
+      "variables_title": "Değişkenler",
+      "preview_title": "Önizleme",
+      "preview_empty": "Bir şablon seçin ve önizlemeyi görmek için değişkenleri doldurun.",
+      "char_count": " {{count}} karakter",
+      "char_count_warning": "1000'den fazla karakter içeren stil istemleri Suno tarafından kesilebilir.",
+      "copy": "Kopyala",
+      "copied": "Panoya kopyalandı",
+      "save_to_project": "Projeye kaydet",
+      "saved_to_project": "İstem projeye kaydedildi",
+      "history_title": "Tarih",
+      "history_empty": "Önceki sürüm yok.",
+      "current_label": "Mevcut"
+    },
+    "stems": {
+      "title": "Vokal ve gitar",
+      "separate_button": "Ayrı vokal ve gitar",
+      "running": "Ayrılıyor…",
+      "vocals": "Vokaller",
+      "instrumental": "enstrümantal",
+      "process_stem": "Bu sapı işleyin",
+      "empty": "Bu çekim henüz ayrılmadı. Vokalleri ve gitarı ayrı ayrı duymak için ayrılığı çalıştırın.",
+      "capability_missing": "Kaynak ayırma bu sunucuda yüklü değil.",
+      "unavailable": "Vokal/gitar ayrımı henüz bu sunucuda mevcut değil."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Açık",
+    "boolean_off": "Kapalı"
+  },
+  "import": {
+    "title": "İthalat",
+    "subtitle": "Diskte zaten mevcut olan projeleri kitaplığa getirin.",
+    "step_indicator": "Adım {{current}} / {{total}} ",
+    "step1": {
+      "title": "Klasörü bulun",
+      "description": "Projelerinizin ve parçalarınızın bulunduğu kök klasörün üzerine gelin.",
+      "path_label": "Klasör yolu",
+      "path_placeholder": "örneğin E:\\Robbs\\Pride\\Müzik\\ROBBS",
+      "recent_label": "Son",
+      "scan_button": "Klasörü tara",
+      "scanning": "Taranıyor…",
+      "ffmpeg_warning": "FFmpeg bulunamadı — dönüştürülmesi gereken dosyalar atlanacak.",
+      "folders_found_one": " {{count}} klasör bulundu",
+      "folders_found_other": " {{count}} klasör bulundu",
+      "unmatched_files_one": " {{count}} tanınmayan dosya",
+      "unmatched_files_other": " {{count}} tanınmayan dosyalar"
+    },
+    "step2": {
+      "title": "Öğeleri inceleyin",
+      "description": "Onaylamadan önce adları, durumları ve nelerin içe aktarılacağını kontrol edin.",
+      "select_all": "Tümünü seç",
+      "table": {
+        "folder": "Kaynak klasörü",
+        "name": "Proje adı",
+        "status": "Durum",
+        "audio": "Ses",
+        "lyrics": "Şarkı sözleri",
+        "cover": "Kapak",
+        "album": "Albüm"
+      },
+      "audio_include_one": " {{count}} dosya seçildi",
+      "audio_include_other": " {{count}} dosyalar seçildi",
+      "no_audio": "Ses bulunamadı",
+      "no_lyrics": "Şarkı sözü bulunamadı",
+      "no_cover": "Kapak yok",
+      "warnings_title": "Uyarılar"
+    },
+    "step3": {
+      "title": "İthalat",
+      "description": "Dosyaları kopyalamayı ve projeleri oluşturmayı onaylayın.",
+      "copy_originals": "Orijinal dosyaları kitaplığa kopyalayın",
+      "execute_button": "İçe aktarmayı başlat",
+      "progress_title": "İçe aktarılıyor…",
+      "created_count": "Oluşturuldu: {{count}} ",
+      "skipped_count": "Atlandı: {{count}} ",
+      "done_title": "İçe aktarma tamamlandı",
+      "done_description": "Aşağıdaki projeler kitaplığınızda oluşturuldu.",
+      "view_project": "Projeyi aç",
+      "start_over": "Yeni içe aktarma"
+    }
+  },
+  "templates": {
+    "title": "Şablonlar",
+    "subtitle": "Suno için yeniden kullanılabilir bilgi istemi şablonları ve meta etiketler.",
+    "tabs": {
+      "prompts": "Bilgi istemi şablonları",
+      "metatags": "Meta etiketler"
+    },
+    "new_template": "Yeni şablon",
+    "kind": {
+      "style": "Stil",
+      "lyrics": "Şarkı sözleri"
+    },
+    "kind_label": "tür",
+    "delete_confirm_title": "\" {{name}} \" şablonu silinsin mi?",
+    "delete_confirm_description": "Bu geri alınamaz.",
+    "empty": "Henüz şablon yok.",
+    "editor": {
+      "title_new": "Yeni şablon",
+      "title_edit": "Şablonu düzenle",
+      "name_label": "İsim",
+      "name_placeholder": "örneğin Akustik balad",
+      "kind_label": "tür",
+      "template_label": "Şablon metni",
+      "template_hint": "Her değişkenin ait olduğu yeri, adı çift süslü parantez içine alınarak işaretleyin; örneğin, \"tür\" adlı bir değişken, iki açılış ve iki kapanış paranteziyle sarılmış tür haline gelir.",
+      "variables_label": "Değişkenler",
+      "variable_add": "Değişken ekle",
+      "variable_name": "Anahtar",
+      "variable_label": "Etiket",
+      "variable_type": "Tür",
+      "variable_type_string": "Metin",
+      "variable_type_select": "Tek seçim",
+      "variable_type_multiselect": "Çoklu seçim",
+      "variable_type_number": "Sayı",
+      "variable_type_boolean": "Evet/hayır",
+      "variable_options": "Seçenekler (virgülle ayrılmış)",
+      "variable_required": "Gerekli",
+      "save": "Şablonu kaydet"
+    },
+    "metatags": {
+      "title": "Meta etiketler",
+      "subtitle": "Suno'nun şarkı sözlerinin içinde tanıdığı yapısal ve stil etiketleri.",
+      "new_tag": "Yeni etiket",
+      "tag_label": "Etiket",
+      "tag_placeholder": "örneğin gitar solosu",
+      "category_label": "Kategori",
+      "tier_label": "Güvenilirlik",
+      "tier_legend_title": "Güvenilirlik efsanesi",
+      "tier_legend": {
+        "1": "1. Kademe – belgelenmiş ve tutarlı",
+        "2": "2. Kademe – genellikle işe yarar",
+        "3": "Aşama 3 – değişken etki",
+        "4": "Kademe 4 — plasebo, kanıtlanmamış"
+      },
+      "description_label": "Açıklama",
+      "delete_confirm_title": "\" {{tag}} \" etiketi silinsin mi?",
+      "empty": "Henüz özel meta etiket yok."
+    }
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "subtitle": "Sistem bilgileri, dil ve varsayılan tercihler.",
+    "system_info_title": "Sistem",
+    "version": "Sürüm",
+    "data_dir": "Veri klasörü",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Mevcut",
+    "ffmpeg_missing": "Bulunamadı",
+    "capabilities_title": "Yüklü yetenekler",
+    "capability": {
+      "denoise": "Gürültü azaltma",
+      "quality": "Kalite geliştirme",
+      "separate": "Kaynak ayrımı",
+      "ffmpeg": "FFmpeg dönüşümü"
+    },
+    "capability_available": "Mevcut",
+    "capability_unavailable": "Kullanılamıyor",
+    "gpu_title": "GPU hızlandırma",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Çalışma Zamanı sağlayıcıları"
+    },
+    "gpu_none": "GPU sağlayıcısı algılanmadı",
+    "language_title": "Dil",
+    "language": {
+      "pt-BR": "Portekizce (Brezilya)",
+      "en": "İngilizce"
+    },
+    "theme_title": "Görünüm",
+    "theme": {
+      "dark": "Karanlık",
+      "light": "Işık"
+    },
+    "defaults_title": "Varsayılanları dışa aktar",
+    "lufs_target_label": "Hedef LUFS",
+    "lufs_target_hint": "Dışa aktarım sırasında başlangıç önerisi olarak kullanılır. Suno'nun varsayılan değeri -14 LUFS civarındadır.",
+    "saved": "Tercihler kaydedildi"
+  },
+  "guide": {
+    "title": "Suno kayıt kılavuzu",
+    "subtitle": "En iyi sonuçları elde eden ses ve gitar çekimlerinin nasıl yakalanacağı.",
+    "intro": "Suno, temiz ve net referanslarla en iyi performansı gösterir. Bu kılavuz; hazırlığı, hedef seviyeleri ve 3-5 dakikalık bir kayıt metnini kapsar.",
+    "sections": {
+      "prep": {
+        "title": "Hazırlık",
+        "body": "İşlem görmüş bir odada veya bol miktarda yumuşak malzemenin (perdeler, kilimler, dolaptaki giysiler) bulunduğu bir odada kayıt yapın. Fanları ve uğultu yapan her şeyi kapatın. Kaydetmeden önce sesinizi 5 dakika ısıtın."
+      },
+      "levels": {
+        "title": "Seviyeler: -12 ila -6 dBFS",
+        "body": "Ölçüm cihazında -12 ile -6 dBFS arasındaki tepe noktalarını hedefleyin. Bu aralığın altında arka plan gürültüsü daha belirgin hale gelir; bunun üzerinde kırılma riski artar. Başlamadan önce kazancınızı ayarlamak için Kayıt sayfasındaki ölçüm cihazını kullanın."
+      },
+      "distance": {
+        "title": "Mikrofon mesafesi: 15–30 cm",
+        "body": "Mikrofondan 15 ila 30 cm uzakta durun. Bundan daha yakını patlayıcıları ve yakınlık etkisini abartır; daha uzakta daha fazla oda yankısı ve gürültü alır."
+      },
+      "script": {
+        "title": "Komut dosyası kaydetme",
+        "warmup": "Vokal ısınma (1-2 dakika)",
+        "vowels": "Uzun sesli harfler — a, e, i, o, u",
+        "scales": "Basit ölçekler, yukarı ve aşağı",
+        "excerpt": "Bir şarkı alıntısı (8 ila 16 bar)",
+        "dynamics": "Dinamikler: Yumuşak başlayın, yüksek sesle bitirin",
+        "spoken_phrase": "Suno'nun ses tonunuzu okuyabilmesi için söylenen tek bir cümle"
+      },
+      "expectations": {
+        "title": "Suno'nun beklediği şey",
+        "body": "WAV, 48 kHz, mono, kuru (yankı veya efekt yok), 3 ila 5 dakikalık referans. Çekimin en temiz, en temsili 2 dakikalık kısmı genellikle en iyi sonuçları verir."
+      }
+    }
+  },
+  "status": {
+    "idea": "Fikir",
+    "em_progresso": "Devam ediyor",
+    "quase": "Neredeyse orada",
+    "pronto": "Hazır"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Suno'nun tam vokal senaryosu",
+      "desc": "5 rehberli dakika: ısınma, sesli harfler, diziler, iki şarkı alıntısı, dinamikler ve sözlü bir ifade."
+    },
+    "step": {
+      "warmup": "Vokal ısınma",
+      "warmup_inst": "Yaklaşık bir dakika boyunca esneme, dudak titremesi (brrr) ve yumuşak bir uğultu ile gevşeyin. Kaydetmeye gerek yok; sadece şarkı söylemeden önce boğazınızı rahatlatmak içindir.",
+      "vowels": "Uzun sesli harfler",
+      "vowels_inst": "Her sesli harfi - a, e, i, o, u - rahat ettiğiniz ses perdesinde ve sabit bir ses seviyesinde 3 ila 4 saniye boyunca tutun. Bu, Suno'nun sesinizin saf tınısını yakalamasına yardımcı olur.",
+      "scales": "Yukarı ve aşağı ölçeklenir",
+      "scales_inst": "\"La\" veya \"na\" ile basit bir yukarı ve aşağı ölçek söyleyin. Mükemmel olmasına gerek yok; amaç ses aralığınızın haritasını çıkarmaktır.",
+      "section": "Şarkı alıntısı – bölüm 1",
+      "section_inst": "İletmek istediğiniz gerçek niyetle şarkının 8 ila 16 ölçüsünü söyleyin. Teknik mükemmellik yerine netlik ve mevcudiyete öncelik verin.",
+      "section2": "Şarkı alıntısı – bölüm 2",
+      "section2_inst": "8 ila 16 ölçü daha söyleyin; ideal olarak bir koro veya bir öncekiyle tezat oluşturan bir bölüm. Daha fazla çeşitlilik, modelin sesinizi öğrenmesine yardımcı olur.",
+      "dynamics": "Dinamikler: yumuşak → yüksek",
+      "dynamics_inst": "Aynı cümleyi çok yumuşak başlayıp yüksek sesle, boğazınızı zorlamadan söyleyin. Bu Suno'ya sesinizin dinamik aralığını gösterir.",
+      "spoken": "Sözlü ifade",
+      "spoken_inst": "Sanki sohbet ediyormuş gibi kısa, doğal bir cümle konuşun - şarkı söylemeyin -. Bu, Suno'nun sesinizin gerçek tınısını tanımasına yardımcı olur."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restorasyon",
+      "filter": "Filtreler",
+      "dynamics": "Dinamik",
+      "separation": "Ayırma",
+      "quality": "Kalite",
+      "utility": "Yardımcı Program",
+      "loudness": "Ses yüksekliği"
+    },
+    "highpass": "Yüksek geçiş filtresi",
+    "lowpass": "Alçak geçiren filtre",
+    "denoise": "Gürültü azaltma",
+    "declip": "Çökme",
+    "declick": "Tıklama/açma kaldırma",
+    "deesser": "Esser",
+    "gate": "Gürültü kapısı",
+    "compressor": "Kompresör",
+    "limiter": "Sınırlayıcı",
+    "eq": "Eşitleme",
+    "normalize": "Tepe normalizasyonu",
+    "loudness": "Ses yüksekliği normalizasyonu (LUFS)",
+    "reverb_reduce": "Yankı azaltma",
+    "separate": "Kaynak ayrımı",
+    "quality": "Kalite geliştirme (lüks)",
+    "trim_silence": "Sessizlik düzeltme",
+    "fade": "Yavaş yavaş kaybolma / kaybolma",
+    "stereo_to_mono": "Monoya dönüştür",
+    "resample": "Yeniden örnekleme"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Güvenilir",
+      "2": "Genellikle işe yarar",
+      "3": "Değişken",
+      "4": "Plasebo"
+    },
+    "category": {
+      "structure": "Yapı",
+      "vocal": "Vokal",
+      "instrument": "Enstrüman",
+      "dynamics": "Dinamik",
+      "production": "Üretim",
+      "mood": "Ruh hali"
+    },
+    "verse": "Ayet",
+    "chorus": "Koro",
+    "bridge": "Köprü",
+    "intro": "Giriş",
+    "outro": "Çıkış",
+    "hook": "Kanca",
+    "prechorus": "Koro öncesi",
+    "instrumental": "enstrümantal",
+    "guitar_solo": "Gitar solosu",
+    "build_up": "İnşaat",
+    "breakdown": "Arıza",
+    "spoken_word": "Konuşulan kelime",
+    "whispered": "Fısıldadı",
+    "harmonies": "Armoniler",
+    "male_vocal": "Erkek vokal",
+    "female_vocal": "Kadın vokal",
+    "duet": "Düet",
+    "acoustic": "akustik",
+    "ad_lib": "Doğaçlama"
+  },
+  "presets": {
+    "clean_voice": "Temiz ses",
+    "voice_guitar_balanced": "Dengeli ses ve gitar",
+    "podcast": "Podcast",
+    "suno_ready": "Suno'ya hazır",
+    "gentle_restore": "Nazik geri yükleme",
+    "raw_passthrough": "İşlem yok"
+  },
+  "errors": {
+    "unknown": "Bir şeyler ters gitti.",
+    "network": "Sunucuya ulaşılamadı.",
+    "validation_error": "Girdiğiniz bilgileri kontrol edin.",
+    "not_found": "Öğe bulunamadı.",
+    "project_not_found": "Proje bulunamadı.",
+    "take_not_found": "Bulunamadı.",
+    "album_not_found": "Albüm bulunamadı.",
+    "preset_not_found": "Ön ayar bulunamadı.",
+    "template_not_found": "Şablon bulunamadı.",
+    "device_busy": "Ses aygıtı başka bir program tarafından kullanılıyor.",
+    "device_not_found": "Ses cihazı bulunamadı.",
+    "already_recording": "Bir kayıt zaten devam ediyor.",
+    "ffmpeg_missing": "FFmpeg yüklü değil; bu dosyayı dönüştürmek için yükleyin.",
+    "disk_full": "Yeterli disk alanı yok.",
+    "permission_denied": "Verilen yol için izin reddedildi.",
+    "import_path_not_found": "İçe aktarma yolu bulunamadı.",
+    "job_failed": "İşleme başarısız oldu.",
+    "job_cancelled": "İşleme iptal edildi.",
+    "process_failed": "Alma işlenemedi.",
+    "export_failed": "Dosya dışa aktarılamadı.",
+    "record_failed": "Kayıt başlatılamadı."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Sıraya alındı",
+      "running": "Koşu",
+      "done": "Bitti",
+      "error": "Başarısız",
+      "cancelled": "İptal edildi"
+    },
+    "kind": {
+      "process": "İşleme",
+      "export": "İhracat",
+      "import": "İthalat",
+      "record": "Kayıt"
+    }
+  }
+}

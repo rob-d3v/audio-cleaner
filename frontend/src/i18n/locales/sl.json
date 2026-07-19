@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Čistilec zvoka"
+  },
+  "nav": {
+    "library": "Knjižnica",
+    "record": "Zapis",
+    "import": "Uvozi",
+    "templates": "Predloge",
+    "settings": "nastavitve",
+    "guide": "Vodnik"
+  },
+  "common": {
+    "save": "Shrani",
+    "saving": "Shranjevanje ...",
+    "saved": "Shranjeno",
+    "cancel": "Prekliči",
+    "close": "Zapri",
+    "delete": "Izbriši",
+    "edit": "Uredi",
+    "create": "Ustvari",
+    "search": "Iskanje",
+    "loading": "Nalaganje ...",
+    "error": "Napaka",
+    "retry": "Poskusite znova",
+    "confirm": "Potrdi",
+    "back": "Nazaj",
+    "next": "Naprej",
+    "continue": "Nadaljuj",
+    "finish": "Končaj",
+    "copy": "Kopiraj",
+    "copied": "Kopirano",
+    "download": "Prenos",
+    "upload": "Naloži",
+    "none": "Noben",
+    "all": "Vse",
+    "yes": "ja",
+    "no": "št",
+    "select": "Izberite",
+    "optional": "izbirno",
+    "required": "potrebno",
+    "unsaved_changes": "Neshranjene spremembe",
+    "name": "Ime",
+    "status": "Stanje",
+    "type": "Vrsta",
+    "actions": "Dejanja",
+    "empty": "prazno",
+    "browse": "Prebrskaj",
+    "remove": "Odstrani",
+    "add": "Dodaj",
+    "rename": "Preimenuj",
+    "duplicate": "Dvojnik",
+    "warning": "Opozorilo",
+    "locked": "Zaklenjeno",
+    "builtin": "Vgradna",
+    "custom": "Po meri",
+    "untitled": "Brez naslova",
+    "select_placeholder": "Izberite ..."
+  },
+  "library": {
+    "title": "Knjižnica",
+    "subtitle": "Vaši glasovni in kitarski projekti, od ideje do izdaje.",
+    "new_project": "Nov projekt",
+    "new_album": "Nov album",
+    "search_placeholder": "Iskanje po imenu ...",
+    "view": {
+      "grid": "Mreža",
+      "albums": "Albumi"
+    },
+    "filters": {
+      "all": "Vse"
+    },
+    "take_count_one": " {{count}} vzemi",
+    "take_count_other": " {{count}} traja",
+    "updated_at": "Posodobljeno {{date}} ",
+    "no_results": {
+      "title": "Ni najdenih projektov",
+      "description": "Poskusite prilagoditi filter za iskanje ali stanje."
+    },
+    "empty": {
+      "title": "Vaša knjižnica je prazna",
+      "description": "Začnite nov projekt iz nič ali uvozite posnetke, ki jih že imate na disku.",
+      "cta_import": "Uvozi iz mape",
+      "cta_new": "Ustvari projekt"
+    },
+    "project_dialog": {
+      "title": "Nov projekt",
+      "description": "Poimenujte ga in izberite način snemanja.",
+      "name_label": "Ime projekta",
+      "name_placeholder": "npr. Poletni dež",
+      "mode_label": "Način",
+      "mode": {
+        "voice": "Samo glas",
+        "voice_guitar": "Glas + kitara"
+      },
+      "submit": "Ustvari projekt"
+    },
+    "album_dialog": {
+      "title": "Nov album",
+      "description": "Združite povezane projekte v album.",
+      "name_label": "Ime albuma",
+      "name_placeholder": "npr. Jesenski EP",
+      "submit": "Ustvari album"
+    },
+    "album": {
+      "untitled": "Album brez naslova",
+      "members_count_one": " {{count}} projekt",
+      "members_count_other": " {{count}} projektov",
+      "empty": "V tem albumu še ni projektov.",
+      "delete_confirm_title": "Želite izbrisati album?",
+      "delete_confirm_description": "Projekti ne bodo izbrisani, le prekinjena bo povezava z » {{name}} «."
+    },
+    "delete_project": {
+      "confirm_title": "Želite izbrisati » {{name}} «?",
+      "confirm_description": "To odstrani projekt in vse v njem. Tega ni mogoče razveljaviti."
+    }
+  },
+  "record": {
+    "title": "Zapis",
+    "subtitle": "Ujemite čist posnetek, opazujte svoje ravni in sledite scenariju.",
+    "project_label": "Projekt",
+    "project_placeholder": "Izberite projekt",
+    "project_create_quick": "Ustvarite hiter projekt ...",
+    "device_label": "Vhodna naprava",
+    "device_placeholder": "Izberite napravo",
+    "device_default_badge": "Sistemsko privzeto",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Ni najdenih vhodnih naprav.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Nehajte spremljati",
+    "record_button": "Zapis",
+    "stop_button": "Stop",
+    "elapsed_label": "Pretečeni čas",
+    "status": {
+      "idle": "nedejaven",
+      "monitoring": "Spremljanje",
+      "recording": "Snemanje",
+      "stopped": "ustavil"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Peak",
+      "clip": "Posnetek"
+    },
+    "guide": {
+      "title": "Vodena seja",
+      "subtitle": "Naj vas trener korak za korakom vodi skozi scenarij, od ogrevanja do izgovorjene fraze.",
+      "loading": "Nalaganje skripta …",
+      "unavailable": "Vodena seja še ni na voljo na strežniku.",
+      "select_project_device": "Tukaj izberite projekt in vhodno napravo za beleženje korakov.",
+      "progress": " {{done}} od {{total}} korakov",
+      "start_timer": "Zaženi časovnik",
+      "skip_timer": "Preskoči časovnik",
+      "record_step": "Zabeležite ta korak",
+      "stop_step": "Ustavi snemanje",
+      "mark_done": "Končano — naslednji korak",
+      "step_recorded": "Posneti",
+      "no_record_step": "Ogrevalni korak — snemanje ni potrebno.",
+      "bars_hint": "Približno {{bars}} barov",
+      "complete_title": "Skript je končan!",
+      "complete_body": "Posneli ste vsak korak scenarija. Vrnite se na zavihek Audio projekta in izberite svoje najljubše posnetke.",
+      "restart": "Znova zaženi skript"
+    },
+    "best2min": {
+      "button": "Poiščite najboljši 2 minuti (Suno)",
+      "running": "Analiza odvzema ...",
+      "score_label": "rezultat",
+      "hint": "Izvaja analizo energije in jasnosti v celotnem kadru, da najde najmočnejše 2-minutno okno — nato lahko še vedno ročno prilagodite obseg.",
+      "chart_caption": "Ocena na okno",
+      "unavailable": "Najboljša 2-minutna analiza še ni na voljo na tem strežniku."
+    },
+    "takes_title": "Povzetki iz te seje",
+    "takes_empty": "V tej seji še ni posnetih posnetkov.",
+    "open_in_project": "Odpri v projektu",
+    "ws_disconnected": "Ponovna povezava z merilnikom nivoja …",
+    "select_project_first": "Za začetek izberite projekt.",
+    "select_device_first": "Izberite vhodno napravo."
+  },
+  "project": {
+    "back_to_library": "Nazaj v knjižnico",
+    "header": {
+      "status_label": "Stanje",
+      "cover_upload": "Naloži naslovnico",
+      "cover_remove": "Odstranite pokrov",
+      "name_placeholder": "Ime projekta",
+      "links_title": "Povezave",
+      "add_link": "Dodaj povezavo",
+      "mode": {
+        "voice": "Samo glas",
+        "voice_guitar": "Glas + kitara"
+      }
+    },
+    "tabs": {
+      "audio": "Avdio",
+      "lyrics": "Besedila",
+      "prompts": "Pozivi",
+      "notes": "Opombe"
+    },
+    "audio": {
+      "takes_title": "Vzame",
+      "no_takes": {
+        "title": "Ni še nobenega prevzema",
+        "description": "Posnemite nov posnetek ali uvozite obstoječo datoteko."
+      },
+      "record_new": "Posnemite nov posnetek",
+      "rating": "Ocena",
+      "variant": {
+        "raw": "Surovo",
+        "processed": "Obdelano"
+      },
+      "variant_placeholder": "Različica",
+      "process_button": "Proces",
+      "export_button": "Izvozi",
+      "delete_take_confirm_title": "Želite izbrisati ta posnetek?",
+      "delete_take_confirm_description": "Neobdelani zvok in vse obdelane različice bodo odstranjeni.",
+      "ab": {
+        "raw": "A · Surovo",
+        "processed": "B · Predelano"
+      },
+      "origin": {
+        "recorded": "Posneto",
+        "imported": "Uvoženo"
+      },
+      "session_label_placeholder": "Oznaka seje (neobvezno)",
+      "duration": "Trajanje",
+      "sample_rate": "Stopnja vzorčenja",
+      "channels": "Kanali",
+      "created_at": "Posneto"
+    },
+    "pipeline": {
+      "title": "Obdelovalna veriga",
+      "preset_label": "Prednastavitev",
+      "preset_none": "Verižica po meri",
+      "preset_save": "Shrani kot prednastavitev",
+      "stage_locked": "Zaklenjeno",
+      "stage_requires_extra": "Potreben je dodatek, ki ni nameščen",
+      "process_button": "Proces take",
+      "processing": "Obdelava …",
+      "job_queued": "V čakalni vrsti ...",
+      "job_running": "Obdelava …",
+      "job_done": "Končano",
+      "job_error": "Ni uspelo",
+      "job_cancelled": "Preklicano",
+      "cancel_job": "Prekliči",
+      "no_stages": "Ni stopenj na voljo."
+    },
+    "export": {
+      "title": "Izvozni prevzem",
+      "description": "Upodobi končno datoteko iz obdelane različice.",
+      "variant_label": "Različica",
+      "format_label": "Oblika",
+      "preset_label": "Izvoz prednastavitve",
+      "range_label": "Razpon",
+      "range_full": "Polna dolžina",
+      "range_custom": "Razpon po meri",
+      "start_label": "Začetek (s)",
+      "end_label": "Konec (i)",
+      "submit": "Izvozi",
+      "progress": "Upodabljanje datoteke ...",
+      "download_ready": "Datoteka pripravljena",
+      "download_button": "Prenesi datoteko"
+    },
+    "notes": {
+      "placeholder": "Opombe v prosti obliki o tem projektu ...",
+      "saved_at": "Shranjeno pri {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Tukaj napišite besedilo. Za vstavljanje metaoznak Suno uporabite paleto ob strani.",
+      "saved_at": "Shranjeno pri {{time}} ",
+      "saving": "Shranjevanje ...",
+      "versions": "Različice",
+      "versions_empty": "Ni še shranjenih različic.",
+      "version_preview": "Predogled",
+      "restore": "Obnovi to različico",
+      "restore_confirm_title": "Obnoviti to različico?",
+      "restore_confirm_description": "Trenutno besedilo bo zamenjano z različico, shranjeno {{date}}.",
+      "metatags_title": "Metaoznake",
+      "metatags_hint": "Kliknite oznako, da jo vstavite na kazalec.",
+      "metatags_placebo_warning": "Nedokazano — morda ne vpliva na rezultat.",
+      "metatags_empty": "Ni registriranih metaoznak."
+    },
+    "prompts": {
+      "style_title": "Poziv za slog",
+      "lyrics_title": "Poziv za besedilo",
+      "template_label": "Predloga",
+      "template_none": "Brez predloge",
+      "variables_title": "Spremenljivke",
+      "preview_title": "Predogled",
+      "preview_empty": "Izberite predlogo in izpolnite spremenljivke, da si ogledate predogled.",
+      "char_count": " {{count}} znakov",
+      "char_count_warning": "Suno lahko skrajša slogovne pozive z več kot 1000 znaki.",
+      "copy": "Kopiraj",
+      "copied": "Kopirano v odložišče",
+      "save_to_project": "Shrani v projekt",
+      "saved_to_project": "Poziv shranjen v projekt",
+      "history_title": "Zgodovina",
+      "history_empty": "Ni prejšnjih različic.",
+      "current_label": "Trenutno"
+    },
+    "stems": {
+      "title": "Vokal in kitara",
+      "separate_button": "Ločeno vokal in kitaro",
+      "running": "Ločevanje ...",
+      "vocals": "Vokal",
+      "instrumental": "instrumental",
+      "process_stem": "Obdelajte to steblo",
+      "empty": "Ta posnetek še ni bil ločen. Zaženite ločitev, da slišite vokal in kitaro ločeno.",
+      "capability_missing": "Ločevanje vira ni nameščeno na tem strežniku.",
+      "unavailable": "Ločevanje vokala/kitare še ni na voljo na tem strežniku."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Vklopljeno",
+    "boolean_off": "Izključeno"
+  },
+  "import": {
+    "title": "Uvozi",
+    "subtitle": "Prenesite projekte, ki že obstajajo na disku, v knjižnico.",
+    "step_indicator": "Korak {{current}} od {{total}} ",
+    "step1": {
+      "title": "Poiščite mapo",
+      "description": "Pokažite na korensko mapo s svojimi projekti in skladbami.",
+      "path_label": "Pot mape",
+      "path_placeholder": "npr. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "Nedavno",
+      "scan_button": "Skeniraj mapo",
+      "scanning": "skeniranje ...",
+      "ffmpeg_warning": "FFmpeg ni najden — datoteke, ki potrebujejo pretvorbo, bodo preskočene.",
+      "folders_found_one": " Najdena mapa {{count}}",
+      "folders_found_other": " Najdenih {{count}} map",
+      "unmatched_files_one": " {{count}} neprepoznana datoteka",
+      "unmatched_files_other": " {{count}} neprepoznanih datotek"
+    },
+    "step2": {
+      "title": "Pregled predmetov",
+      "description": "Pred potrditvijo preverite imena, statuse in kaj bo uvoženo.",
+      "select_all": "Izberite vse",
+      "table": {
+        "folder": "Izvorna mapa",
+        "name": "Ime projekta",
+        "status": "Stanje",
+        "audio": "Avdio",
+        "lyrics": "Besedila",
+        "cover": "Pokrov",
+        "album": "Album"
+      },
+      "audio_include_one": " Izbrana datoteka {{count}}",
+      "audio_include_other": " {{count}} izbranih datotek",
+      "no_audio": "Ni zvoka",
+      "no_lyrics": "Ni besedila",
+      "no_cover": "Brez pokrova",
+      "warnings_title": "Opozorila"
+    },
+    "step3": {
+      "title": "Uvozi",
+      "description": "Potrdite, da kopirate datoteke in ustvarite projekte.",
+      "copy_originals": "Kopirajte izvirne datoteke v knjižnico",
+      "execute_button": "Začni uvoz",
+      "progress_title": "Uvažanje ...",
+      "created_count": "Ustvarjeno: {{count}} ",
+      "skipped_count": "Preskočeno: {{count}} ",
+      "done_title": "Uvoz končan",
+      "done_description": "Spodnji projekti so bili ustvarjeni v vaši knjižnici.",
+      "view_project": "Odprt projekt",
+      "start_over": "Nov uvoz"
+    }
+  },
+  "templates": {
+    "title": "Predloge",
+    "subtitle": "Predloge pozivov za večkratno uporabo in metaoznake za Suno.",
+    "tabs": {
+      "prompts": "Predloge za pozive",
+      "metatags": "Metaoznake"
+    },
+    "new_template": "Nova predloga",
+    "kind": {
+      "style": "Slog",
+      "lyrics": "Besedila"
+    },
+    "kind_label": "Prijazen",
+    "delete_confirm_title": "Izbrisati predlogo \" {{name}} \"?",
+    "delete_confirm_description": "Tega ni mogoče razveljaviti.",
+    "empty": "Predlog še ni.",
+    "editor": {
+      "title_new": "Nova predloga",
+      "title_edit": "Uredi predlogo",
+      "name_label": "Ime",
+      "name_placeholder": "npr. Akustična balada",
+      "kind_label": "Prijazen",
+      "template_label": "Besedilo predloge",
+      "template_hint": "Označite, kam posamezna spremenljivka spada, z njenim imenom, zavitim v dvojne zavite oklepaje – na primer, spremenljivka z imenom »žanr« postane žanr, zavit v dva začetna in dva zapiralna oklepaja.",
+      "variables_label": "Spremenljivke",
+      "variable_add": "Dodajte spremenljivko",
+      "variable_name": "Ključ",
+      "variable_label": "Oznaka",
+      "variable_type": "Vrsta",
+      "variable_type_string": "Besedilo",
+      "variable_type_select": "Ena izbira",
+      "variable_type_multiselect": "Večkratna izbira",
+      "variable_type_number": "številka",
+      "variable_type_boolean": "Da/ne",
+      "variable_options": "Možnosti (ločene z vejicami)",
+      "variable_required": "Obvezno",
+      "save": "Shrani predlogo"
+    },
+    "metatags": {
+      "title": "Metaoznake",
+      "subtitle": "Strukturne in slogovne oznake Suno prepozna znotraj besedil.",
+      "new_tag": "Nova oznaka",
+      "tag_label": "Oznaka",
+      "tag_placeholder": "npr. kitara-solo",
+      "category_label": "Kategorija",
+      "tier_label": "Zanesljivost",
+      "tier_legend_title": "Legenda o zanesljivosti",
+      "tier_legend": {
+        "1": "Stopnja 1 — dokumentirano in dosledno",
+        "2": "Stopnja 2 — običajno deluje",
+        "3": "Stopnja 3 — spremenljiv učinek",
+        "4": "Stopnja 4 — placebo, nedokazano"
+      },
+      "description_label": "Opis",
+      "delete_confirm_title": "Izbrisati oznako \" {{tag}} \"?",
+      "empty": "Še ni metaoznak po meri."
+    }
+  },
+  "settings": {
+    "title": "nastavitve",
+    "subtitle": "Sistemske informacije, jezik in privzete nastavitve.",
+    "system_info_title": "Sistem",
+    "version": "Različica",
+    "data_dir": "Podatkovna mapa",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Na voljo",
+    "ffmpeg_missing": "Ni najden",
+    "capabilities_title": "Nameščene zmogljivosti",
+    "capability": {
+      "denoise": "Zmanjšanje hrupa",
+      "quality": "Izboljšanje kakovosti",
+      "separate": "Ločitev vira",
+      "ffmpeg": "Pretvorba FFmpeg"
+    },
+    "capability_available": "Na voljo",
+    "capability_unavailable": "Ni na voljo",
+    "gpu_title": "GPU pospešek",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "Ponudniki izvajalnega okolja ONNX"
+    },
+    "gpu_none": "Zaznan ni bil noben ponudnik GPE",
+    "language_title": "Jezik",
+    "language": {
+      "pt-BR": "português (Brazilija)",
+      "en": "angleščina"
+    },
+    "theme_title": "Videz",
+    "theme": {
+      "dark": "Temno",
+      "light": "Svetloba"
+    },
+    "defaults_title": "Izvozi privzete nastavitve",
+    "lufs_target_label": "Ciljni LUFS",
+    "lufs_target_hint": "Uporablja se kot začetni predlog pri izvozu posnetkov. Privzeta vrednost Suno je okoli -14 LUFS.",
+    "saved": "Nastavitve shranjene"
+  },
+  "guide": {
+    "title": "Vodnik za snemanje Suno",
+    "subtitle": "Kako zajeti glas in kitaro, da dobite najboljše rezultate.",
+    "intro": "Suno najbolje deluje s čistimi, nedvoumnimi referencami. Ta vodnik zajema pripravo, ciljne ravni in 3–5 minutni snemalni scenarij.",
+    "sections": {
+      "prep": {
+        "title": "Priprava",
+        "body": "Snemajte v obdelanem prostoru ali v prostoru z veliko mehkega materiala (zavese, preproge, oblačila v omari). Izklopite ventilatorje in vse, kar brni. Pred snemanjem 5 minut ogrevajte glas."
+      },
+      "levels": {
+        "title": "Stopnje: -12 do -6 dBFS",
+        "body": "Ciljajte na vrhove med -12 in -6 dBFS na merilniku. Pod tem obsegom postane hrup v ozadju bolj opazen; nad njo se poveča tveganje odreza. Uporabite merilnik na strani Record, da nastavite dobiček, preden začnete."
+      },
+      "distance": {
+        "title": "Razdalja mikrofona: 15–30 cm",
+        "body": "Ostanite 15 do 30 cm od mikrofona. Bližje od tega pretirava z eksplozivnostjo in učinkom bližine; dlje stran zajame več odmeva in hrupa v prostoru."
+      },
+      "script": {
+        "title": "Snemalni scenarij",
+        "warmup": "Vokalno ogrevanje (1–2 minuti)",
+        "vowels": "Trajni samoglasniki — a, e, i, o, u",
+        "scales": "Preproste lestvice, gor in dol",
+        "excerpt": "Odlomek pesmi (8 do 16 taktov)",
+        "dynamics": "Dinamika: začetek mehak, konec glasen",
+        "spoken_phrase": "Ena izgovorjena fraza, tako da lahko Suno prebere vaš vokalni ton"
+      },
+      "expectations": {
+        "title": "Kaj Suno pričakuje",
+        "body": "WAV, 48 kHz, mono, suho (brez odjeka ali učinkov), 3 do 5 minut referenčnega zvoka. Najbolj čiste, najbolj reprezentativne 2 minuti posnetka običajno dajejo najboljše rezultate."
+      }
+    }
+  },
+  "status": {
+    "idea": "Ideja",
+    "em_progresso": "V teku",
+    "quase": "Skoraj tam",
+    "pronto": "pripravljena"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Celoten vokalni scenarij za Suno",
+      "desc": "5 vodenih minut: ogrevanje, samoglasniki, lestvice, dva odlomka pesmi, dinamika in govorjeni stavek."
+    },
+    "step": {
+      "warmup": "Vokalno ogrevanje",
+      "warmup_inst": "Približno minuto se sprostite z zehanjem, trljanjem ustnic (brrr) in tihim brenčanjem. Ni potrebe po snemanju — le za sprostitev grla pred petjem.",
+      "vowels": "Trajni samoglasniki",
+      "vowels_inst": "Držite vsak samoglasnik – a, e, i, o, u – 3 do 4 sekunde na vaši udobni višini in z enakomerno glasnostjo. To pomaga Sunu zaznati čisti ton vašega glasu.",
+      "scales": "Lestvice gor in dol",
+      "scales_inst": "Zapojte preprosto lestvico navzgor in navzdol, na \"la\" ali \"na\". Ni nujno, da je popoln – cilj je preslikati vaš glasovni razpon.",
+      "section": "Odlomek pesmi — 1. del",
+      "section_inst": "Zapojte 8 do 16 taktov pesmi z resničnim namenom, ki ga želite sporočiti. Dajte prednost jasnosti in prisotnosti pred tehnično popolnostjo.",
+      "section2": "Odlomek pesmi — 2. del",
+      "section2_inst": "Zapojte še 8 do 16 taktov — idealno je refren ali del, ki je v nasprotju s prejšnjim. Večja raznolikost pomaga modelu, da se nauči vašega glasu.",
+      "dynamics": "Dinamika: tiho → glasno",
+      "dynamics_inst": "Zapojte isti stavek, začnite zelo tiho in končajte glasno, ne da bi obremenjevali grlo. To Suno prikazuje dinamični razpon vašega glasu.",
+      "spoken": "Govorjena fraza",
+      "spoken_inst": "Govorite - ne pojte - kratko, naravno frazo, kot da bi klepetali. To pomaga Sunu prepoznati pravi ton vašega glasu."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Obnova",
+      "filter": "Filtri",
+      "dynamics": "Dinamika",
+      "separation": "Ločitev",
+      "quality": "Kakovost",
+      "utility": "Pripomoček",
+      "loudness": "Glasnost"
+    },
+    "highpass": "Visokofreskovni filter",
+    "lowpass": "Nizkoprepustni filter",
+    "denoise": "Zmanjšanje hrupa",
+    "declip": "Odrezovanje",
+    "declick": "Odstranitev klika/pop",
+    "deesser": "De-esser",
+    "gate": "Vrata za hrup",
+    "compressor": "Kompresor",
+    "limiter": "Omejevalnik",
+    "eq": "Izenačenje",
+    "normalize": "Najvišja normalizacija",
+    "loudness": "Normalizacija glasnosti (LUFS)",
+    "reverb_reduce": "Zmanjšanje odmeva",
+    "separate": "Ločitev vira",
+    "quality": "Izboljšanje kakovosti (upscale)",
+    "trim_silence": "Tiho obrezovanje",
+    "fade": "Zatemnitev / zatemnitev",
+    "stereo_to_mono": "Pretvori v mono",
+    "resample": "Ponovno vzorčenje"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Zanesljiv",
+      "2": "Ponavadi deluje",
+      "3": "Spremenljivka",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Struktura",
+      "vocal": "Vokalna",
+      "instrument": "Instrument",
+      "dynamics": "Dinamika",
+      "production": "Proizvodnja",
+      "mood": "Razpoloženje"
+    },
+    "verse": "verz",
+    "chorus": "Zbor",
+    "bridge": "Most",
+    "intro": "uvod",
+    "outro": "Outro",
+    "hook": "Kavelj",
+    "prechorus": "Predzbor",
+    "instrumental": "instrumental",
+    "guitar_solo": "Solo kitara",
+    "build_up": "Nabiranje",
+    "breakdown": "Razčlenitev",
+    "spoken_word": "Izgovorjena beseda",
+    "whispered": "Šepetal",
+    "harmonies": "Harmonije",
+    "male_vocal": "Moški vokal",
+    "female_vocal": "Ženski vokal",
+    "duet": "Duet",
+    "acoustic": "Akustična",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Čist glas",
+    "voice_guitar_balanced": "Uravnotežen glas in kitara",
+    "podcast": "Podcast",
+    "suno_ready": "Suno pripravljen",
+    "gentle_restore": "Nežna obnovitev",
+    "raw_passthrough": "Brez obdelave"
+  },
+  "errors": {
+    "unknown": "Nekaj je šlo narobe.",
+    "network": "Strežnika ni bilo mogoče doseči.",
+    "validation_error": "Preverite podatke, ki ste jih vnesli.",
+    "not_found": "Predmet ni bil najden.",
+    "project_not_found": "Projekt ni bil najden.",
+    "take_not_found": "Prevzeti ni bil najden.",
+    "album_not_found": "Album ni bil najden.",
+    "preset_not_found": "Prednastavitve ni mogoče najti.",
+    "template_not_found": "Predloge ni mogoče najti.",
+    "device_busy": "Avdio napravo uporablja drug program.",
+    "device_not_found": "Zvočne naprave ni bilo mogoče najti.",
+    "already_recording": "Snemanje že poteka.",
+    "ffmpeg_missing": "FFmpeg ni nameščen — namestite ga za pretvorbo te datoteke.",
+    "disk_full": "Ni dovolj prostora na disku.",
+    "permission_denied": "Dovoljenje za dano pot zavrnjeno.",
+    "import_path_not_found": "Uvozne poti ni mogoče najti.",
+    "job_failed": "Obdelava ni uspela.",
+    "job_cancelled": "Obdelava je bila preklicana.",
+    "process_failed": "Posnetka ni bilo mogoče obdelati.",
+    "export_failed": "Datoteke ni bilo mogoče izvoziti.",
+    "record_failed": "Začetek snemanja ni uspel."
+  },
+  "jobs": {
+    "status": {
+      "queued": "V čakalni vrsti",
+      "running": "tek",
+      "done": "Končano",
+      "error": "Ni uspelo",
+      "cancelled": "Preklicano"
+    },
+    "kind": {
+      "process": "Obdelava",
+      "export": "Izvozi",
+      "import": "Uvozi",
+      "record": "Snemanje"
+    }
+  }
+}

@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio Cleaner a Ɛho Tew"
+  },
+  "nav": {
+    "library": "Nhomakorabea",
+    "record": "Kyerɛwtohɔ",
+    "import": "Nneɛma a wɔde fi amannɔne ba",
+    "templates": "Nhwɛsode ahorow",
+    "settings": "Nsiesiei a Wɔde Yɛ Adwuma",
+    "guide": "Akwankyerɛfo"
+  },
+  "common": {
+    "save": "Fa sie",
+    "saving": "Sikakorabea...",
+    "saved": "Wɔakora so",
+    "cancel": "Twa mu",
+    "close": "Bɛto mu",
+    "delete": "Popa no",
+    "edit": "Sesa no",
+    "create": "Bɔ",
+    "search": "Hwehwɛ mu",
+    "loading": "Loading...",
+    "error": "Mfomso a ɛbae",
+    "retry": "San bɔ mmɔden bio",
+    "confirm": "Si so dua",
+    "back": "San akyi",
+    "next": "Nea edi hɔ",
+    "continue": "Toa so",
+    "finish": "Wie",
+    "copy": "Kɔpi",
+    "copied": "Wɔayɛ ho mfonini",
+    "download": "Twe",
+    "upload": "Fa gu so",
+    "none": "Obiara nni hɔ",
+    "all": "Ne nyinaa",
+    "yes": "Yiw",
+    "no": "Dabi",
+    "select": "Paw",
+    "optional": "nea wopɛ",
+    "required": "a wɔhwehwɛ",
+    "unsaved_changes": "Nsakrae a wɔankora so",
+    "name": "Edin",
+    "status": "Gyinabea",
+    "type": "Type",
+    "actions": "Nneyɛe a wɔyɛ",
+    "empty": "Da mpan",
+    "browse": "Hwehwɛ mu",
+    "remove": "Yi fi hɔ",
+    "add": "Fa ka ho",
+    "rename": "Sesa din foforo",
+    "duplicate": "Yɛ nea wɔayɛ no abien",
+    "warning": "Kɔkɔbɔ",
+    "locked": "Wɔatoto mu",
+    "builtin": "Wɔde ahyɛ mu",
+    "custom": "Amanne kwan so",
+    "untitled": "Asɛmti a enni mu",
+    "select_placeholder": "Paw..."
+  },
+  "library": {
+    "title": "Nhomakorabea",
+    "subtitle": "Wo nne ne guitar projects, efi adwene so kosi nea woayi no adi so.",
+    "new_project": "Dwumadi foforo",
+    "new_album": "Album foforo",
+    "search_placeholder": "Hwehwɛ din mu...",
+    "view": {
+      "grid": "Grid a wɔde yɛ adwuma",
+      "albums": "Album ahorow a wɔde yɛ nnwom"
+    },
+    "filters": {
+      "all": "Ne nyinaa"
+    },
+    "take_count_one": " {{count}} gye",
+    "take_count_other": " {{count}} gye",
+    "updated_at": "Wɔayɛ no foforo {{date}} ",
+    "no_results": {
+      "title": "Wonhuu nnwuma biara",
+      "description": "Bɔ mmɔden sɛ wobɛsesa search anaa status filter no."
+    },
+    "empty": {
+      "title": "Wo nhomakorabea no da mpan",
+      "description": "Fi ase adwuma foforo fi mfiase, anaasɛ import takes a wowɔ dedaw wɔ disk so.",
+      "cta_import": "Fa fi folda mu ba",
+      "cta_new": "Yɛ adwuma no"
+    },
+    "project_dialog": {
+      "title": "Dwumadi foforo",
+      "description": "Ma no din na paw ɔkwan a wobɛfa so akyere nsɛm agu hama so.",
+      "name_label": "Dwumadie no din",
+      "name_placeholder": "s.e., s.e. Awɔw Bere mu Osu",
+      "mode_label": "Ɔkwan a wɔfa so yɛ adwuma",
+      "mode": {
+        "voice": "Ɛnne nkutoo",
+        "voice_guitar": "Ɛnne + guitar"
+      },
+      "submit": "Yɛ adwuma no"
+    },
+    "album_dialog": {
+      "title": "Album foforo",
+      "description": "Kuw nnwuma a ɛfa ho ma ɛyɛ album.",
+      "name_label": "Album no din",
+      "name_placeholder": "s.e., s.e. Osutɔbere mu EP",
+      "submit": "Yɛ album"
+    },
+    "album": {
+      "untitled": "Album a enni asɛmti",
+      "members_count_one": " {{count}} adwuma no",
+      "members_count_other": " {{count}} nnwuma ahorow",
+      "empty": "No projects wɔ saa album yi mu de besi nnɛ.",
+      "delete_confirm_title": "Popa album no?",
+      "delete_confirm_description": "Wɔrenpopa projects, nko ara na unlinked fi \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Popa \" {{name}} \" no?",
+      "confirm_description": "Eyi yi adwuma no ne biribiara a ɛfa mu no fi hɔ. Wɔrentumi nsan eyi nyɛ hwee."
+    }
+  },
+  "record": {
+    "title": "Kyerɛwtohɔ",
+    "subtitle": "Capture a clean take, hwɛ wo levels, na di script no akyi.",
+    "project_label": "Dwumadie no",
+    "project_placeholder": "Paw adwuma bi a wobɛyɛ",
+    "project_create_quick": "Yɛ adwuma a ɛyɛ ntɛm...",
+    "device_label": "Input afiri a wɔde hyɛ mu",
+    "device_placeholder": "Paw afiri bi a wode bɛyɛ adwuma",
+    "device_default_badge": "System default",
+    "device_wasapi_badge": "WASAPI na ɔkyerɛwee",
+    "device_empty": "Wonhuu mfiri biara a wɔde hyɛ mu.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Gyae sɛ wobɛhwɛ nneɛma so",
+    "record_button": "Kyerɛwtohɔ",
+    "stop_button": "Gyae",
+    "elapsed_label": "Bere a atwam",
+    "status": {
+      "idle": "Ɔnyɛ hwee",
+      "monitoring": "Nneɛma a wɔhwɛ so",
+      "recording": "Nsɛm a Wɔkyere gu kasɛt so",
+      "stopped": "Wogyaee"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Peak",
+      "clip": "Clip no"
+    },
+    "guide": {
+      "title": "Nhyiam a wɔkyerɛ kwan",
+      "subtitle": "Ma ɔkyerɛkyerɛfo no mfa wo nkɔ nkyerɛwee no mu anammɔn anammɔn, fi ɔhyew so kosi kasasin a wɔka so.",
+      "loading": "Wode script no rehyɛ mu...",
+      "unavailable": "Guided session no nnya mmaa server no so.",
+      "select_project_device": "Paw project ne input device a wode bɛkyerɛw anammɔn ahorow afi ha pɛɛ.",
+      "progress": " {{done}} a ɛyɛ {{total}} anammɔn",
+      "start_timer": "Fi ase bere nhyehyɛe",
+      "skip_timer": "Skip bere a wɔde yɛ adwuma",
+      "record_step": "Kyerɛw anammɔn yi to hɔ",
+      "stop_step": "Gyae sɛ wobɛkyere agu hama so",
+      "mark_done": "Done — anammɔn a edi hɔ",
+      "step_recorded": "Fa nea wɔakyere agu hama so",
+      "no_record_step": "Warm-up step — ɛho nhia sɛ wɔkyere nsɛm gu kasɛt so.",
+      "bars_hint": "Bɛyɛ {{bars}} bars",
+      "complete_title": "Script no awie!",
+      "complete_body": "Woakyerɛw anammɔn biara a ɛwɔ script no mu. San kɔ project no Audio tab no so na paw nea w’ani gye ho paa.",
+      "restart": "San hyɛ script ase bio"
+    },
+    "best2min": {
+      "button": "Hwehwɛ simma 2 a eye sen biara (Suno) .",
+      "running": "Analyzing the take...",
+      "score_label": "Nkonimdi",
+      "hint": "Runs ahoɔden ne pefeeyɛ nhwehwɛmu wɔ nyinaa fa hwehwɛ ne 2-simma mfɛnsere a ɛyɛ den sen biara — woda so ara betumi asiesie range no denam nsa akyi.",
+      "chart_caption": "Nkonimdi wɔ mfɛnsere biara mu",
+      "unavailable": "Best-2-minutes analysis no nnya mmaa saa server yi so."
+    },
+    "takes_title": "Fa fi saa nhyiam yi mu",
+    "takes_empty": "No takes recorded wɔ saa session yi mu de besi nnɛ.",
+    "open_in_project": "Bue wɔ adwuma no mu",
+    "ws_disconnected": "Reconnecting to level mita no...",
+    "select_project_first": "Paw adwuma bi a wode befi ase.",
+    "select_device_first": "Paw afiri a wode hyɛ mu."
+  },
+  "project": {
+    "back_to_library": "San kɔ nhomakorabea",
+    "header": {
+      "status_label": "Gyinabea",
+      "cover_upload": "Upload cover so",
+      "cover_remove": "Yi kataso no fi hɔ",
+      "name_placeholder": "Dwumadie no din",
+      "links_title": "Nkitahodi ahorow",
+      "add_link": "Fa link ka ho",
+      "mode": {
+        "voice": "Ɛnne nkutoo",
+        "voice_guitar": "Ɛnne + guitar"
+      }
+    },
+    "tabs": {
+      "audio": "Ɔdio a wɔde tie",
+      "lyrics": "Nnwom no mu nsɛm",
+      "prompts": "Nsɛm a Wɔka Kyerɛ",
+      "notes": "Nsɛm a Wɔahyɛ no Nsow"
+    },
+    "audio": {
+      "takes_title": "Ɛgye",
+      "no_takes": {
+        "title": "No takes de besi nnɛ",
+        "description": "Kyerɛw take foforo anaa fa fael a ɛwɔ hɔ dedaw ba."
+      },
+      "record_new": "Kyerɛw take foforo bi",
+      "rating": "Rating a wɔde ma",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Wɔayɛ ho adwuma"
+      },
+      "variant_placeholder": "Nkyerɛase no",
+      "process_button": "Adeyɛ a wɔyɛ",
+      "export_button": "Nneɛma a wɔde kɔ amannɔne",
+      "delete_take_confirm_title": "Popa eyi fa?",
+      "delete_take_confirm_description": "Wɔbɛyi raw audio ne version biara a wɔayɛ ho adwuma no afiri hɔ.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Wɔayɛ ho adwuma"
+      },
+      "origin": {
+        "recorded": "Wɔakyere agu hama so",
+        "imported": "Wɔde fi amannɔne ba"
+      },
+      "session_label_placeholder": "Nhyiam no label (wɔpɛ) .",
+      "duration": "Bere tenten a Egye",
+      "sample_rate": "Nhwɛsode dodow",
+      "channels": "Channel ahorow a wɔde di dwuma",
+      "created_at": "Wɔakyere agu hama so"
+    },
+    "pipeline": {
+      "title": "Nkɔnsɔnkɔnsɔn a wɔde yɛ adwuma",
+      "preset_label": "Wɔahyɛ da asiesie",
+      "preset_none": "Amanne nkɔnsɔnkɔnsɔn",
+      "preset_save": "Fa sie sɛnea wɔahyɛ da ayɛ",
+      "stage_locked": "Wɔatoto mu",
+      "stage_requires_extra": "Ɛhwehwɛ sɛ wonya extra a wɔmfa nhyɛɛ mu",
+      "process_button": "Adeyɛ a wɔfa",
+      "processing": "Nneɛma a wɔyɛ...",
+      "job_queued": "Wɔayɛ ntonto...",
+      "job_running": "Nneɛma a wɔyɛ...",
+      "job_done": "Wɔayɛ",
+      "job_error": "Adi nkogu",
+      "job_cancelled": "Wɔatwa mu",
+      "cancel_job": "Twa mu",
+      "no_stages": "Stages biara nni hɔ a ɛwɔ hɔ."
+    },
+    "export": {
+      "title": "Export fa kɔ amannɔne",
+      "description": "Fa fael a etwa to fi nkyerɛase a wɔayɛ ho adwuma mu.",
+      "variant_label": "Nkyerɛase no",
+      "format_label": "Ɔkwan a wɔfa so yɛ no",
+      "preset_label": "Export preset a wɔahyɛ da ayɛ",
+      "range_label": "Range a ɛwɔ hɔ",
+      "range_full": "Ne tenten nyinaa",
+      "range_custom": "Amanne kwan so range",
+      "start_label": "Mfiase (s) .",
+      "end_label": "Awiei (s) .",
+      "submit": "Nneɛma a wɔde kɔ amannɔne",
+      "progress": "Fael a wɔrekyerɛ ase...",
+      "download_ready": "Fael no ayɛ krado",
+      "download_button": "Twe fael no"
+    },
+    "notes": {
+      "placeholder": "Free-form nsɛm a wɔakyerɛw afa saa adwuma yi ho...",
+      "saved_at": "Wɔakora so wɔ {{time}} . "
+    },
+    "lyrics": {
+      "placeholder": "Kyerɛw nnwom no mu nsɛm wɔ ha. Fa palette a ɛwɔ nkyɛn no di dwuma de Suno meta-tags hyɛ mu.",
+      "saved_at": "Wɔakora so wɔ {{time}} . ",
+      "saving": "Sikakorabea...",
+      "versions": "Nkyerɛase ahorow",
+      "versions_empty": "Nkyerɛase biara nni hɔ a wɔakora so de besi nnɛ.",
+      "version_preview": "Nhwɛso a edi kan",
+      "restore": "San fa saa nkyerɛase yi ba",
+      "restore_confirm_title": "San de saa nkyerɛase yi ba?",
+      "restore_confirm_description": "Wɔde nkyerɛase a wɔde asie wɔ {{date}} no besi nkyerɛwee a ɛwɔ hɔ mprempren no ananmu.",
+      "metatags_title": "Meta-tags a wɔde kyerɛw nsɛm",
+      "metatags_hint": "Klik tag bi so na fa hyɛ cursor no so.",
+      "metatags_placebo_warning": "Unproven — ebia enni nkɛntɛnso biara wɔ nea ebefi mu aba no so.",
+      "metatags_empty": "Meta-tags biara nni hɔ a wɔakyerɛw din."
+    },
+    "prompts": {
+      "style_title": "Style a wɔde kyerɛw nsɛm",
+      "lyrics_title": "Nsɛm a wɔka kyerɛ",
+      "template_label": "Nhwɛsode",
+      "template_none": "Nhwɛsode biara nni hɔ",
+      "variables_title": "Nneɛma a ɛsakrasakra",
+      "preview_title": "Nhwɛso a edi kan",
+      "preview_empty": "Paw template na hyɛ variables no ma na woahu preview.",
+      "char_count": " {{count}} nkyerɛwde",
+      "char_count_warning": "Style prompts bɛboro nkyerɛwde 1000 betumi anya truncated denam Suno so.",
+      "copy": "Kɔpi",
+      "copied": "Wɔayɛ no kɔpi wɔ clipboard so",
+      "save_to_project": "Fa sie wɔ project no mu",
+      "saved_to_project": "Prompt a wɔde asie wɔ project no mu",
+      "history_title": "Abakɔsɛm",
+      "history_empty": "Nkyerɛase ahorow a atwam biara nni hɔ.",
+      "current_label": "Mprempren de"
+    },
+    "stems": {
+      "title": "Nnwom ne guitar",
+      "separate_button": "Tetew nne ne guitar mu",
+      "running": "Wɔtetew mu...",
+      "vocals": "Nnwom a wɔde bɔ nnwom",
+      "instrumental": "Nnwinnade a Wɔde Di Dwuma",
+      "process_stem": "Di saa dua yi ho dwuma",
+      "empty": "Saa take yi nnya ntetew mu. Run separation na woate vocals ne guitar no wɔ isolation.",
+      "capability_missing": "Source separation no nnyɛ instɔlehyɛn wɔ saa server yi so.",
+      "unavailable": "Vocal/guitar mpaepaemu no nnya mmae wɔ saa server yi so."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "On",
+    "boolean_off": "Off"
+  },
+  "import": {
+    "title": "Nneɛma a wɔde fi amannɔne ba",
+    "subtitle": "Fa nnwuma a ɛwɔ disk so dedaw no bra nhomakorabea no mu.",
+    "step_indicator": "Anamɔn {{current}} a ɛyɛ {{total}} . ",
+    "step1": {
+      "title": "Hwehwɛ folda no mu",
+      "description": "Fa wo projects ne tracks no twe adwene si root folder no so.",
+      "path_label": "Folda kwan",
+      "path_placeholder": "s.e., s.e. E:\\Robbs\\Ahantan\\Nnwom\\ROBBS",
+      "recent_label": "Nnansa yi ara",
+      "scan_button": "Scan folda no mu",
+      "scanning": "Scanning a wɔreyɛ...",
+      "ffmpeg_warning": "FFmpeg not found — fael a ɛhia nsakraeɛ no bɛkɔ so.",
+      "folders_found_one": " {{count}} folda a wɔahu",
+      "folders_found_other": " {{count}} folda ahorow a wɔahu",
+      "unmatched_files_one": " {{count}} fael a wonnim",
+      "unmatched_files_other": " {{count}} fael ahorow a wonnim"
+    },
+    "step2": {
+      "title": "Hwɛ nneɛma mu",
+      "description": "Hwɛ edin, tebea, ne nea wɔde bɛba ansa na woasi so dua.",
+      "select_all": "Paw ne nyinaa",
+      "table": {
+        "folder": "Source folda a ɛwɔ hɔ",
+        "name": "Dwumadie no din",
+        "status": "Gyinabea",
+        "audio": "Ɔdio a wɔde tie",
+        "lyrics": "Nnwom no mu nsɛm",
+        "cover": "Nkataso",
+        "album": "Album a ɛwɔ hɔ"
+      },
+      "audio_include_one": " {{count}} fael a wɔapaw",
+      "audio_include_other": " {{count}} fael ahorow a wɔapaw",
+      "no_audio": "Wonhuu ɔdio biara",
+      "no_lyrics": "Wonhuu nnwom no mu nsɛm biara",
+      "no_cover": "Nkataso biara nni hɔ",
+      "warnings_title": "Kɔkɔbɔ ahorow"
+    },
+    "step3": {
+      "title": "Nneɛma a wɔde fi amannɔne ba",
+      "description": "Si so dua sɛ wobɛkyerɛw fael ahorow no na woayɛ nnwuma no.",
+      "copy_originals": "Kɔpi mfitiase fael ahorow no kɔ nhomakorabea hɔ",
+      "execute_button": "Fi ase de nneɛma ba amannɔne",
+      "progress_title": "Nneɛma a wɔde fi amannɔne ba...",
+      "created_count": "Wɔabɔ no: {{count}} ",
+      "skipped_count": "Wɔahuruw: {{count}} . ",
+      "done_title": "Import awie",
+      "done_description": "Wɔyɛɛ nnwuma a ɛwɔ aseɛ ha yi wɔ wo nwomakorabea.",
+      "view_project": "Open project no",
+      "start_over": "Nneɛma foforo a wɔde fi amannɔne ba"
+    }
+  },
+  "templates": {
+    "title": "Nhwɛsode ahorow",
+    "subtitle": "Nsusuwii a wɔde di dwuma bio ne meta-tags ma Suno.",
+    "tabs": {
+      "prompts": "Nsusuwii ahorow a wɔde bisabisa nkurɔfo",
+      "metatags": "Meta-tags a wɔde kyerɛw nsɛm"
+    },
+    "new_template": "Nhwɛsode foforo",
+    "kind": {
+      "style": "Ɔkwan a wɔfa so yɛ ade",
+      "lyrics": "Nnwom no mu nsɛm"
+    },
+    "kind_label": "Ɔyamyefo",
+    "delete_confirm_title": "Popa nsusuwso \" {{name}} \"?",
+    "delete_confirm_description": "Wɔrentumi nsan eyi nyɛ hwee.",
+    "empty": "Template biara nni hɔ de besi nnɛ.",
+    "editor": {
+      "title_new": "Nhwɛsode foforo",
+      "title_edit": "Sesa nsusuwso",
+      "name_label": "Edin",
+      "name_placeholder": "s.e., s.e. Nnyigyei a wɔde bɔ nnwom",
+      "kind_label": "Ɔyamyefo",
+      "template_label": "Template nkyerɛwee",
+      "template_hint": "Hyɛ baabi a nsakrae biara yɛ ne dea agyirae a wɔde ne din abɔ mu wɔ nkyerɛwde a ɛyɛ kurukuruwa abien mu — sɛ nhwɛso no, nsakrae bi a wɔato din \"genre\" bɛyɛ genre a wɔde abɔso abien a wɔde bue ano ne abien a wɔde wie.",
+      "variables_label": "Nneɛma a ɛsakrasakra",
+      "variable_add": "Fa variable ka ho",
+      "variable_name": "Key",
+      "variable_label": "Label a wɔde hyɛ mu",
+      "variable_type": "Type",
+      "variable_type_string": "Nsɛm a wɔakyerɛw",
+      "variable_type_select": "Single paw",
+      "variable_type_multiselect": "Nneɛma pii a wɔpaw",
+      "variable_type_number": "Nnɔmba",
+      "variable_type_boolean": "Yiw/dabi",
+      "variable_options": "Nneɛma a wubetumi apaw (wɔde koma atew mu) .",
+      "variable_required": "Wɔhwehwɛ sɛ wɔyɛ",
+      "save": "Sie template no"
+    },
+    "metatags": {
+      "title": "Meta-tags a wɔde kyerɛw nsɛm",
+      "subtitle": "Structural ne style tags Suno hu emu nsɛm mu.",
+      "new_tag": "Tag foforo",
+      "tag_label": "Tag",
+      "tag_placeholder": "s.e., s.e. guitar-solo a wɔde di dwuma",
+      "category_label": "Ɔfã",
+      "tier_label": "Ahotoso a wotumi de ho to so",
+      "tier_legend_title": "Ahotoso ho anansesɛm",
+      "tier_legend": {
+        "1": "Tier 1 — wɔakyerɛw na ɛyɛ pɛpɛɛpɛ",
+        "2": "Tier 2 — mpɛn pii no ɛyɛ adwuma",
+        "3": "Tier 3 — nkɛntɛnso a ɛsakra",
+        "4": "Tier 4 — placebo, a wontumi nnye ho adanse"
+      },
+      "description_label": "Nkyerɛkyerɛmu",
+      "delete_confirm_title": "Popa tag \" {{tag}} \"?",
+      "empty": "Meta-tags a wɔahyɛ da ayɛ biara nni hɔ de besi nnɛ."
+    }
+  },
+  "settings": {
+    "title": "Nsiesiei a Wɔde Yɛ Adwuma",
+    "subtitle": "System ho nsɛm, kasa, ne default preferences.",
+    "system_info_title": "Nhyehyɛe",
+    "version": "Nkyerɛase no",
+    "data_dir": "Data folda a wɔde kyerɛw nsɛm",
+    "ffmpeg_status": "FFmpeg na ɛyɛ",
+    "ffmpeg_available": "Ɛwɔ hɔ",
+    "ffmpeg_missing": "Wɔnhu",
+    "capabilities_title": "Nneɛma a wɔde ahyɛ mu",
+    "capability": {
+      "denoise": "Dede a wɔtew so",
+      "quality": "Nneɛma a ɛyɛ papa a wɔbɛma anya nkɔso",
+      "separate": "Fibea a wɔpaapae mu",
+      "ffmpeg": "FFmpeg nsakraeɛ"
+    },
+    "capability_available": "Ɛwɔ hɔ",
+    "capability_unavailable": "Ɛnyɛ nea wobetumi anya",
+    "gpu_title": "GPU a wɔde yɛ ntɛmntɛm",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA na ɛyɛ adwuma",
+      "ort_providers": "ONNX Runtime a wɔde ma"
+    },
+    "gpu_none": "GPU a wɔde ma biara nni hɔ a wɔanhu",
+    "language_title": "Kasa a wɔka",
+    "language": {
+      "pt-BR": "Português (Brasil) na ɛwɔ hɔ.",
+      "en": "Twi kasa"
+    },
+    "theme_title": "Sɛnea ɛte",
+    "theme": {
+      "dark": "Esum mu",
+      "light": "Hann"
+    },
+    "defaults_title": "Export defaults a wɔde kɔ amannɔne",
+    "lufs_target_label": "Fa w’ani si LUFS so",
+    "lufs_target_hint": "Wɔde di dwuma sɛ nyansahyɛ a wɔde fi ase bere a wɔde kɔ amannɔne gye. Suno default no tena bɛyɛ -14 LUFS.",
+    "saved": "Wɔakora nneɛma a wopɛ so"
+  },
+  "guide": {
+    "title": "Suno a wɔde kyere nsɛm gu kasɛt so akwankyerɛ",
+    "subtitle": "Sɛnea wɔkyere nne ne guitar gye a ɛma wonya nea eye sen biara.",
+    "intro": "Suno yɛ adwuma yiye wɔ nsɛm a ɛho tew a emu nna hɔ a wɔde gyina hɔ ma so. Saa akwankyerɛ yi fa ahosiesie, botaeɛ dodoɔ, ne simma 3–5 a wɔde kyere nsɛm gu kasɛt so ho asɛm.",
+    "sections": {
+      "prep": {
+        "title": "Ahosiesie a wɔyɛ",
+        "body": "Kyerɛw wɔ dan a wɔayɛ ho adwuma anaa nea nneɛma a ɛyɛ mmerɛw pii wom mu (ntama, ntama, ntade a ɛwɔ ɔdan a wɔde nneɛma gu mu). Dum fans ne biribiara a ɛyɛ dede. Ma wo nne yɛ hyew simma 5 ansa na woakyere agu hama so."
+      },
+      "levels": {
+        "title": "Nneɛma a ɛwɔ soro: -12 kosi -6 dBFS",
+        "body": "Fa w’ani si so sɛ wobɛma peaks a ɛwɔ -12 ne -6 dBFS ntam wɔ mita no so. Wɔ saa kwan no ase no, dede a ɛwɔ akyi no yɛ nea wotumi hu kɛse; wɔ n’atifi no, asiane a ɛwɔ hɔ sɛ wobetwitwa nneɛma no kɔ soro. Fa mita a ɛwɔ Record krataafa no so no hyehyɛ wo mfaso ansa na woafi ase."
+      },
+      "distance": {
+        "title": "Mic kwan tenten: 15–30 cm",
+        "body": "Tena baabi a ɛne afiri a wɔde kasa no ntam kwan yɛ sɛntimita 15 kosi 30. Nea ɛbɛn sen saa no ma plosives ne proximity effect yɛ kɛse; akyirikyiri no gye dan mu reverb ne dede pii."
+      },
+      "script": {
+        "title": "Nkyerɛwee a wɔkyere gu kasɛt so",
+        "warmup": "Ɛnne a wɔde yɛ hyew (simma 1–2) .",
+        "vowels": "Ɛnne nnyigyei a ɛkɔ so — a, e, i, o, u",
+        "scales": "nsenia a ɛnyɛ den, kɔ soro ne fam",
+        "excerpt": "Dwom bi a wɔatwe afi mu (bars 8 kosi 16) .",
+        "dynamics": "Dynamics: fi ase brɛoo, ba awiei denneennen",
+        "spoken_phrase": "Kasasin biako a wɔka, sɛnea ɛbɛyɛ a Suno betumi akenkan wo nne nne"
+      },
+      "expectations": {
+        "title": "Nea Suno hwɛ kwan",
+        "body": "WAV, 48 kHz, mono, dry (reverb anaa nsunsuanso biara nni hɔ), simma 3 kosi 5 a wɔde kyerɛw. Simma 2 a ɛho tew sen biara na ɛyɛ ananmusifo sen biara wɔ fa no mu no taa ma nea eye sen biara ba."
+      }
+    }
+  },
+  "status": {
+    "idea": "Adwene a ɛwɔ hɔ",
+    "em_progresso": "Wɔrekɔ so",
+    "quase": "Ɛkame ayɛ sɛ ɛwɔ hɔ",
+    "pronto": "Wɔasiesie wɔn ho"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Vocal script a edi mũ ma Suno",
+      "desc": "Simma 5 a wɔkyerɛ kwan: ɔhyew, ɛnne nnyigyei, nsenia, nnwom abien a wɔatwe afi mu, ahoɔden, ne kasasin a wɔka."
+    },
+    "step": {
+      "warmup": "Ɛnne a wɔde yɛ hyew",
+      "warmup_inst": "Fa yawns, anofafa trills (brrr), ne hum a ɛyɛ brɛoo bɛyɛ simma biako gyae wo ho. Ɛho nhia sɛ wobɛkyere — ɛyɛ sɛ wobɛma wo menewa ayɛ mmerɛw ansa na woato dwom kɛkɛ.",
+      "vowels": "Ɛnne nnyigyei a ɛkɔ so daa",
+      "vowels_inst": "Kura ɛnne nnyigyei biara — a, e, i, o, u — simma 3 kosi 4 wɔ wo nne a ɛyɛ fɛ mu, a ɛnne nne a ɛyɛ pintinn. Eyi boa Suno ma ɔfa wo nne a ɛyɛ kronkron no.",
+      "scales": "Scales a ɛkɔ soro ne fam",
+      "scales_inst": "To scale a ɛnyɛ den kɔ soro na afei to fam, wɔ \"la\" anaa \"na\" so. Ɛho nhia sɛ ɛyɛ pɛpɛɛpɛ — botae no ne sɛ wobɛma wo nne dodow ayɛ map.",
+      "section": "Dwom a wɔatwe afi mu — ɔfã 1",
+      "section_inst": "To dwom no mu 8 kosi 16, na fa adwene ankasa a wopɛ sɛ woda no adi. Fa pefeeyɛ ne baabi a ɛwɔ hɔ di kan sen mfiridwuma mu pɛyɛ.",
+      "section2": "Dwom a wɔatwe afi mu — ɔfã 2",
+      "section2_inst": "To dwom foforo 8 kosi 16 bars — sɛnea ɛbɛyɛ yiye no, chorus anaa ɔfã a ɛne nea atwam no bɔ abira. Nneɛma ahorow pii boa model no ma osua wo nne.",
+      "dynamics": "Dynamics: ɛyɛ mmerɛw → denden",
+      "dynamics_inst": "To kasasin koro no ara fi ase brɛoo yiye na ba awiei denneennen, a worenhyɛ wo menewa mu den. Eyi kyerɛ Suno wo nne a ɛyɛ nnam.",
+      "spoken": "Kasasin a wɔka",
+      "spoken_inst": "Kasa — nnto dwom — kasasin tiawa, abɔde mu kasasin, te sɛ nea worebɔ nkɔmmɔ. Eyi boa Suno ma ohu wo nne no nne ankasa."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Sanba a Wɔbɛsan Asiesie",
+      "filter": "Nneɛma a wɔde yiyi nneɛma mu",
+      "dynamics": "Nneɛma a ɛyɛ nnam",
+      "separation": "Ntetewmu",
+      "quality": "Nneɛma a ɛyɛ papa",
+      "utility": "Mfaso a Wɔde Di Dwuma",
+      "loudness": "Nnyigyei a ɛyɛ den"
+    },
+    "highpass": "High-pass afiri a wɔde yiyi nneɛma mu",
+    "lowpass": "Nneɛma a wɔde yiyi mu a ɛba fam",
+    "denoise": "Dede a wɔtew so",
+    "declip": "Declipping",
+    "declick": "Klik/pop yi fi hɔ",
+    "deesser": "De-esser a wɔde kyerɛw nsɛm",
+    "gate": "Dede pon",
+    "compressor": "Compressor a wɔde hyɛ mu",
+    "limiter": "Anohyetofo",
+    "eq": "Nneɛma a wɔde yɛ pɛ",
+    "normalize": "Peak normalization a ɛkɔ soro",
+    "loudness": "Loudness normalization (LUFS) a wɔde yɛ nneɛma a ɛyɛ den .",
+    "reverb_reduce": "Reverb a wɔtew so",
+    "separate": "Fibea a wɔpaapae mu",
+    "quality": "Nneɛma pa a wɔma ɛkɔ soro (upscale) .",
+    "trim_silence": "Kommyɛ a wɔde twitwa nneɛma",
+    "fade": "Fade in / fade fi mu",
+    "stereo_to_mono": "Dane no kɔ mono mu",
+    "resample": "Nhwɛsode a wɔsan yɛ"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Wotumi de ho to so",
+      "2": "Mpɛn pii no, ɛyɛ adwuma",
+      "3": "Nsakrae a ɛsakra",
+      "4": "Placebo a wɔde ma"
+    },
+    "category": {
+      "structure": "Nhyehyɛe a Wɔde Yɛ Adwuma",
+      "vocal": "Vocal",
+      "instrument": "Adwinnade a Wɔde Di Dwuma",
+      "dynamics": "Nneɛma a ɛyɛ nnam",
+      "production": "Nneɛma a wɔyɛ",
+      "mood": "Adwene mu adwene"
+    },
+    "verse": "Nkyekyem",
+    "chorus": "Chorus a wɔde di dwuma",
+    "bridge": "Bridge",
+    "intro": "Nnianim asɛm",
+    "outro": "Outro na ɔkyerɛwee",
+    "hook": "Hook a wɔde hyɛ mu",
+    "prechorus": "Pre-chorus a wɔde di dwuma",
+    "instrumental": "Nnwinnade a Wɔde Di Dwuma",
+    "guitar_solo": "Guitar a ɔbɔ no nkutoo",
+    "build_up": "Nneɛma a wɔde si dan",
+    "breakdown": "Nneɛma a Ɛpaapae",
+    "spoken_word": "Asɛm a wɔka",
+    "whispered": "Wɔde asɛm a ɛyɛ sereserew",
+    "harmonies": "Nneɛma a ɛne ne ho hyia",
+    "male_vocal": "Mmarima nne a wɔde bɔ nnwom",
+    "female_vocal": "Ɔbea nne a ɔbɔ",
+    "duet": "Duet a wɔde di dwuma",
+    "acoustic": "Acoustic a wɔde yɛ nneɛma",
+    "ad_lib": "Ad-lib na ɛwɔ hɔ"
+  },
+  "presets": {
+    "clean_voice": "Ɛnne a ɛho tew",
+    "voice_guitar_balanced": "Ɛnne & guitar a ɛkari pɛ",
+    "podcast": "Podcast a wɔde di dwuma",
+    "suno_ready": "Suno ayɛ krado",
+    "gentle_restore": "Dwodwo san de ba",
+    "raw_passthrough": "No processing biara nni hɔ"
+  },
+  "errors": {
+    "unknown": "Biribi ankɔ yiye.",
+    "network": "Entumi nkɔ server no so.",
+    "validation_error": "Hwɛ nsɛm a wode hyɛɛ mu no.",
+    "not_found": "Item a wɔanhu.",
+    "project_not_found": "Project no nnya nhuu.",
+    "take_not_found": "Fa no nnya nhunuu.",
+    "album_not_found": "Album no nnya nhuu.",
+    "preset_not_found": "Preset no nnya nhuu.",
+    "template_not_found": "Template no nnya nhuu.",
+    "device_busy": "Dwumadi foforo bi na ɛde afiri a wɔde tie nsɛm redi dwuma.",
+    "device_not_found": "Wɔanhu afiri a wɔde tie nsɛm.",
+    "already_recording": "Wɔreyɛ bi a wɔakyere agu hama so dedaw.",
+    "ffmpeg_missing": "FFmpeg no nnyɛ instɔl — instɔl no na dannan fael yi.",
+    "disk_full": "Disk space a ɛnnɔɔso.",
+    "permission_denied": "Wɔpow kwan mma ɔkwan a wɔde ama no.",
+    "import_path_not_found": "Wɔanhu ɔkwan a wɔfa so de nneɛma fi amannɔne ba.",
+    "job_failed": "Nneɛma a wɔyɛe no antumi anyɛ yiye.",
+    "job_cancelled": "Wɔtwaa dwumadie no mu.",
+    "process_failed": "Antumi anni take no ho dwuma.",
+    "export_failed": "Entumi mfa fael no nkɔ amannɔne.",
+    "record_failed": "Antumi amfi ase ankyere nnwom agu hama so."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Wɔayɛ ntonto",
+      "running": "Mmirikatu a wɔde tu mmirika",
+      "done": "Wɔayɛ",
+      "error": "Adi nkogu",
+      "cancelled": "Wɔatwa mu"
+    },
+    "kind": {
+      "process": "Nneɛma a wɔyɛ",
+      "export": "Nneɛma a wɔde kɔ amannɔne",
+      "import": "Nneɛma a wɔde fi amannɔne ba",
+      "record": "Nsɛm a Wɔkyere gu kasɛt so"
+    }
+  }
+}

@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio Cleaner"
+  },
+  "nav": {
+    "library": "Bibliotek",
+    "record": "Spela in",
+    "import": "Importera",
+    "templates": "Mallar",
+    "settings": "Inställningar",
+    "guide": "Guide"
+  },
+  "common": {
+    "save": "Spara",
+    "saving": "Sparar...",
+    "saved": "Sparad",
+    "cancel": "Avbryt",
+    "close": "Stäng",
+    "delete": "Ta bort",
+    "edit": "Redigera",
+    "create": "Skapa",
+    "search": "Sök",
+    "loading": "Laddar...",
+    "error": "Fel",
+    "retry": "Försök igen",
+    "confirm": "Bekräfta",
+    "back": "Tillbaka",
+    "next": "Nästa",
+    "continue": "Fortsätt",
+    "finish": "Avsluta",
+    "copy": "Kopiera",
+    "copied": "Kopierade",
+    "download": "Ladda ner",
+    "upload": "Ladda upp",
+    "none": "Inga",
+    "all": "Alla",
+    "yes": "Ja",
+    "no": "Nej",
+    "select": "Välj",
+    "optional": "valfritt",
+    "required": "krävs",
+    "unsaved_changes": "Osparade ändringar",
+    "name": "Namn",
+    "status": "Status",
+    "type": "Typ",
+    "actions": "Åtgärder",
+    "empty": "Tom",
+    "browse": "Bläddra",
+    "remove": "Ta bort",
+    "add": "Lägg till",
+    "rename": "Byt namn",
+    "duplicate": "Duplicera",
+    "warning": "Varning",
+    "locked": "Låst",
+    "builtin": "Inbyggd",
+    "custom": "Anpassad",
+    "untitled": "Namnlös",
+    "select_placeholder": "Välj..."
+  },
+  "library": {
+    "title": "Bibliotek",
+    "subtitle": "Dina röst- och gitarrprojekt, från idé till release.",
+    "new_project": "Nytt projekt",
+    "new_album": "Nytt album",
+    "search_placeholder": "Sök på namn...",
+    "view": {
+      "grid": "Grid",
+      "albums": "Album"
+    },
+    "filters": {
+      "all": "Alla"
+    },
+    "take_count_one": " {{count}} ta",
+    "take_count_other": " {{count}} tar",
+    "updated_at": "Uppdaterad {{date}} ",
+    "no_results": {
+      "title": "Inga projekt hittades",
+      "description": "Prova att justera sök- eller statusfiltret."
+    },
+    "empty": {
+      "title": "Ditt bibliotek är tomt",
+      "description": "Starta ett nytt projekt från början, eller importera tagningar du redan har på disken.",
+      "cta_import": "Importera från mapp",
+      "cta_new": "Skapa projekt"
+    },
+    "project_dialog": {
+      "title": "Nytt projekt",
+      "description": "Ge det ett namn och välj ett inspelningsläge.",
+      "name_label": "Projektnamn",
+      "name_placeholder": "t.ex. Sommarregn",
+      "mode_label": "Läge",
+      "mode": {
+        "voice": "Endast röst",
+        "voice_guitar": "Röst + gitarr"
+      },
+      "submit": "Skapa projekt"
+    },
+    "album_dialog": {
+      "title": "Nytt album",
+      "description": "Gruppera relaterade projekt till ett album.",
+      "name_label": "Albumnamn",
+      "name_placeholder": "t.ex. Höst EP",
+      "submit": "Skapa album"
+    },
+    "album": {
+      "untitled": "Namnlöst album",
+      "members_count_one": " {{count}} projekt",
+      "members_count_other": " {{count}} projekt",
+      "empty": "Inga projekt i detta album ännu.",
+      "delete_confirm_title": "Ta bort album?",
+      "delete_confirm_description": "Projekt kommer inte att tas bort, bara bortkopplade från \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Ta bort \" {{name}} \"?",
+      "confirm_description": "Detta tar bort projektet och varje inställning i det. Detta kan inte ångras."
+    }
+  },
+  "record": {
+    "title": "Spela in",
+    "subtitle": "Fånga ett rent grepp, titta på dina nivåer och följ manuset.",
+    "project_label": "Projekt",
+    "project_placeholder": "Välj ett projekt",
+    "project_create_quick": "Skapa ett snabbt projekt...",
+    "device_label": "Inmatningsenhet",
+    "device_placeholder": "Välj en enhet",
+    "device_default_badge": "Systemstandard",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Inga indataenheter hittades.",
+    "monitor_button": "Övervaka",
+    "monitor_stop_button": "Sluta bevaka",
+    "record_button": "Spela in",
+    "stop_button": "Sluta",
+    "elapsed_label": "Förfluten tid",
+    "status": {
+      "idle": "Inaktiv",
+      "monitoring": "Övervakning",
+      "recording": "Inspelning",
+      "stopped": "Slutade"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Peak",
+      "clip": "Klipp"
+    },
+    "guide": {
+      "title": "Guidad session",
+      "subtitle": "Låt coachen leda dig genom manuset steg för steg, från uppvärmning till den talade frasen.",
+      "loading": "Läser in skript...",
+      "unavailable": "Den guidade sessionen är inte tillgänglig på servern ännu.",
+      "select_project_device": "Välj ett projekt och en inmatningsenhet för att spela in steg direkt härifrån.",
+      "progress": " {{done}} av {{total}} steg",
+      "start_timer": "Starta timer",
+      "skip_timer": "Hoppa över timer",
+      "record_step": "Spela in detta steg",
+      "stop_step": "Sluta spela in",
+      "mark_done": "Klart - nästa steg",
+      "step_recorded": "Ta inspelat",
+      "no_record_step": "Uppvärmningssteg — ingen inspelning behövs.",
+      "bars_hint": "Cirka {{bars}} staplar",
+      "complete_title": "Skriptet klart!",
+      "complete_body": "Du har spelat in varje steg i manuset. Gå tillbaka till projektets Audio-flik och välj dina favoritbilder.",
+      "restart": "Starta om skriptet"
+    },
+    "best2min": {
+      "button": "Hitta de bästa 2 minuterna (Suno)",
+      "running": "Analyserar resultatet...",
+      "score_label": "Betyg",
+      "hint": "Kör en energi- och klarhetsanalys över hela taget för att hitta dess starkaste 2-minutersfönster – du kan fortfarande justera intervallet för hand efteråt.",
+      "chart_caption": "Poäng per fönster",
+      "unavailable": "Analysen av bästa 2 minuter är inte tillgänglig på den här servern ännu."
+    },
+    "takes_title": "Tar från denna session",
+    "takes_empty": "Inga tagningar har registrerats i denna session ännu.",
+    "open_in_project": "Öppna i projekt",
+    "ws_disconnected": "Återansluter till nivåmätaren...",
+    "select_project_first": "Välj ett projekt för att komma igång.",
+    "select_device_first": "Välj en inmatningsenhet."
+  },
+  "project": {
+    "back_to_library": "Tillbaka till biblioteket",
+    "header": {
+      "status_label": "Status",
+      "cover_upload": "Ladda upp omslag",
+      "cover_remove": "Ta bort locket",
+      "name_placeholder": "Projektnamn",
+      "links_title": "Länkar",
+      "add_link": "Lägg till länk",
+      "mode": {
+        "voice": "Endast röst",
+        "voice_guitar": "Röst + gitarr"
+      }
+    },
+    "tabs": {
+      "audio": "Ljud",
+      "lyrics": "Texter",
+      "prompts": "Uppmaningar",
+      "notes": "Anteckningar"
+    },
+    "audio": {
+      "takes_title": "Tar",
+      "no_takes": {
+        "title": "Inga tag än",
+        "description": "Spela in en ny tagning eller importera en befintlig fil."
+      },
+      "record_new": "Spela in en ny tagning",
+      "rating": "Betyg",
+      "variant": {
+        "raw": "Rå",
+        "processed": "Bearbetas"
+      },
+      "variant_placeholder": "Version",
+      "process_button": "Process",
+      "export_button": "Exportera",
+      "delete_take_confirm_title": "Vill du ta bort den här tagningen?",
+      "delete_take_confirm_description": "Råljudet och varje bearbetad version kommer att tas bort.",
+      "ab": {
+        "raw": "A · Rå",
+        "processed": "B · Bearbetad"
+      },
+      "origin": {
+        "recorded": "Inspelad",
+        "imported": "Importerad"
+      },
+      "session_label_placeholder": "Sessionsetikett (valfritt)",
+      "duration": "Varaktighet",
+      "sample_rate": "Samplingsfrekvens",
+      "channels": "Kanaler",
+      "created_at": "Inspelad"
+    },
+    "pipeline": {
+      "title": "Bearbetningskedja",
+      "preset_label": "Förinställd",
+      "preset_none": "Anpassad kedja",
+      "preset_save": "Spara som förinställning",
+      "stage_locked": "Låst",
+      "stage_requires_extra": "Kräver en extra som inte är installerad",
+      "process_button": "Process ta",
+      "processing": "Bearbetar...",
+      "job_queued": "I kö...",
+      "job_running": "Bearbetar...",
+      "job_done": "Klart",
+      "job_error": "Misslyckades",
+      "job_cancelled": "Avbruten",
+      "cancel_job": "Avbryt",
+      "no_stages": "Inga tillgängliga etapper."
+    },
+    "export": {
+      "title": "Export ta",
+      "description": "Rendera en slutlig fil från en bearbetad version.",
+      "variant_label": "Version",
+      "format_label": "Format",
+      "preset_label": "Exportera förinställning",
+      "range_label": "Räckvidd",
+      "range_full": "Full längd",
+      "range_custom": "Anpassat sortiment",
+      "start_label": "Start (s)",
+      "end_label": "Slut (s)",
+      "submit": "Exportera",
+      "progress": "Återger fil...",
+      "download_ready": "Filen är klar",
+      "download_button": "Ladda ner filen"
+    },
+    "notes": {
+      "placeholder": "Anteckningar i fritt format om detta projekt...",
+      "saved_at": "Sparad på {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Skriv texten här. Använd paletten på sidan för att infoga Suno-metataggar.",
+      "saved_at": "Sparad på {{time}} ",
+      "saving": "Sparar...",
+      "versions": "Versioner",
+      "versions_empty": "Inga sparade versioner ännu.",
+      "version_preview": "Förhandsgranska",
+      "restore": "Återställ den här versionen",
+      "restore_confirm_title": "Återställa den här versionen?",
+      "restore_confirm_description": "Den aktuella texten kommer att ersättas med versionen sparad på {{date}} .",
+      "metatags_title": "Metataggar",
+      "metatags_hint": "Klicka på en tagg för att infoga den vid markören.",
+      "metatags_placebo_warning": "Obevisat – kan inte ha någon effekt på resultatet.",
+      "metatags_empty": "Inga metataggar registrerade."
+    },
+    "prompts": {
+      "style_title": "Stiluppmaning",
+      "lyrics_title": "Textuppmaning",
+      "template_label": "Mall",
+      "template_none": "Ingen mall",
+      "variables_title": "Variabler",
+      "preview_title": "Förhandsgranska",
+      "preview_empty": "Välj en mall och fyll i variablerna för att se en förhandsvisning.",
+      "char_count": " {{count}} tecken",
+      "char_count_warning": "Stiluppmaningar över 1000 tecken kan trunkeras av Suno.",
+      "copy": "Kopiera",
+      "copied": "Kopierade till urklipp",
+      "save_to_project": "Spara till projekt",
+      "saved_to_project": "Uppmaningen har sparats i projektet",
+      "history_title": "Historia",
+      "history_empty": "Inga tidigare versioner.",
+      "current_label": "Aktuell"
+    },
+    "stems": {
+      "title": "Sång och gitarr",
+      "separate_button": "Separat sång och gitarr",
+      "running": "Separerar...",
+      "vocals": "Sång",
+      "instrumental": "Instrumental",
+      "process_stem": "Bearbeta denna stam",
+      "empty": "Denna tagning har inte separerats ännu. Kör separation för att höra sång och gitarr isolerat.",
+      "capability_missing": "Källseparation är inte installerad på den här servern.",
+      "unavailable": "Separation av sång/gitarr är inte tillgänglig på den här servern än."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "På",
+    "boolean_off": "Av"
+  },
+  "import": {
+    "title": "Importera",
+    "subtitle": "Ta med projekt som redan finns på disken till biblioteket.",
+    "step_indicator": "Steg {{current}} av {{total}} ",
+    "step1": {
+      "title": "Hitta mappen",
+      "description": "Peka på rotmappen med dina projekt och spår.",
+      "path_label": "Mappsökväg",
+      "path_placeholder": "t.ex. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "Nyligen",
+      "scan_button": "Skanna mappen",
+      "scanning": "Skannar...",
+      "ffmpeg_warning": "FFmpeg hittades inte — filer som behöver konverteras kommer att hoppas över.",
+      "folders_found_one": " {{count}} mapp hittades",
+      "folders_found_other": " {{count}} mappar hittades",
+      "unmatched_files_one": " {{count}} okänd fil",
+      "unmatched_files_other": " {{count}} okända filer"
+    },
+    "step2": {
+      "title": "Granska objekt",
+      "description": "Kontrollera namn, status och vad som kommer att importeras innan du bekräftar.",
+      "select_all": "Välj alla",
+      "table": {
+        "folder": "Källmapp",
+        "name": "Projektnamn",
+        "status": "Status",
+        "audio": "Ljud",
+        "lyrics": "Texter",
+        "cover": "Omslag",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} fil vald",
+      "audio_include_other": " {{count}} filer valda",
+      "no_audio": "Inget ljud hittades",
+      "no_lyrics": "Inga texter hittades",
+      "no_cover": "Inget lock",
+      "warnings_title": "Varningar"
+    },
+    "step3": {
+      "title": "Importera",
+      "description": "Bekräfta att kopiera filerna och skapa projekten.",
+      "copy_originals": "Kopiera originalfilerna till biblioteket",
+      "execute_button": "Starta import",
+      "progress_title": "Importerar...",
+      "created_count": "Skapad: {{count}} ",
+      "skipped_count": "Hoppade över: {{count}} ",
+      "done_title": "Importen slutförd",
+      "done_description": "Projekten nedan skapades i ditt bibliotek.",
+      "view_project": "Öppet projekt",
+      "start_over": "Ny import"
+    }
+  },
+  "templates": {
+    "title": "Mallar",
+    "subtitle": "Återanvändbara promptmallar och metataggar för Suno.",
+    "tabs": {
+      "prompts": "Snabbmallar",
+      "metatags": "Metataggar"
+    },
+    "new_template": "Ny mall",
+    "kind": {
+      "style": "Stil",
+      "lyrics": "Texter"
+    },
+    "kind_label": "Snäll",
+    "delete_confirm_title": "Ta bort mallen \" {{name}} \"?",
+    "delete_confirm_description": "Detta kan inte ångras.",
+    "empty": "Inga mallar ännu.",
+    "editor": {
+      "title_new": "Ny mall",
+      "title_edit": "Redigera mall",
+      "name_label": "Namn",
+      "name_placeholder": "t.ex. Akustisk ballad",
+      "kind_label": "Snäll",
+      "template_label": "Malltext",
+      "template_hint": "Markera var varje variabel hör hemma med dess namn insvept i dubbla krulliga klammerparenteser — till exempel blir en variabel som heter \"genre\" genre insvept i två öppnande och två avslutande klammerparenteser.",
+      "variables_label": "Variabler",
+      "variable_add": "Lägg till variabel",
+      "variable_name": "Nyckel",
+      "variable_label": "Etikett",
+      "variable_type": "Typ",
+      "variable_type_string": "Text",
+      "variable_type_select": "Enkelval",
+      "variable_type_multiselect": "Flerval",
+      "variable_type_number": "Nummer",
+      "variable_type_boolean": "Ja/nej",
+      "variable_options": "Alternativ (kommaseparerade)",
+      "variable_required": "Krävs",
+      "save": "Spara mall"
+    },
+    "metatags": {
+      "title": "Metataggar",
+      "subtitle": "Strukturella och stiltaggar Suno känner igen texter inuti.",
+      "new_tag": "Ny tag",
+      "tag_label": "Tagga",
+      "tag_placeholder": "t.ex. gitarr-solo",
+      "category_label": "Kategori",
+      "tier_label": "Tillförlitlighet",
+      "tier_legend_title": "Tillförlitlighetslegend",
+      "tier_legend": {
+        "1": "Nivå 1 — dokumenterad och konsekvent",
+        "2": "Nivå 2 - fungerar vanligtvis",
+        "3": "Nivå 3 — variabel effekt",
+        "4": "Nivå 4 - placebo, oprövad"
+      },
+      "description_label": "Beskrivning",
+      "delete_confirm_title": "Ta bort taggen \" {{tag}} \"?",
+      "empty": "Inga anpassade metataggar ännu."
+    }
+  },
+  "settings": {
+    "title": "Inställningar",
+    "subtitle": "Systeminformation, språk och standardinställningar.",
+    "system_info_title": "System",
+    "version": "Version",
+    "data_dir": "Datamapp",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Tillgänglig",
+    "ffmpeg_missing": "Hittade inte",
+    "capabilities_title": "Installerade funktioner",
+    "capability": {
+      "denoise": "Brusreducering",
+      "quality": "Kvalitetsförbättring",
+      "separate": "Källseparation",
+      "ffmpeg": "FFmpeg-konvertering"
+    },
+    "capability_available": "Tillgänglig",
+    "capability_unavailable": "Ej tillgänglig",
+    "gpu_title": "GPU acceleration",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime-leverantörer"
+    },
+    "gpu_none": "Inga GPU-leverantörer upptäcktes",
+    "language_title": "Språk",
+    "language": {
+      "pt-BR": "Português (Brasilien)",
+      "en": "engelska"
+    },
+    "theme_title": "Utseende",
+    "theme": {
+      "dark": "Mörkt",
+      "light": "Ljus"
+    },
+    "defaults_title": "Exportera standardinställningar",
+    "lufs_target_label": "Mål LUFS",
+    "lufs_target_hint": "Används som startförslag vid export av take. Sunos standard är runt -14 LUFS.",
+    "saved": "Inställningar sparade"
+  },
+  "guide": {
+    "title": "Suno inspelningsguide",
+    "subtitle": "Hur man fångar röst och gitarr som ger bästa resultat.",
+    "intro": "Suno presterar bäst med rena, entydiga referenser. Den här guiden täcker förberedelser, målnivåer och ett 3–5 minuters inspelningsmanus.",
+    "sections": {
+      "prep": {
+        "title": "Förberedelse",
+        "body": "Spela in i ett behandlat rum eller ett med mycket mjukt material (gardiner, mattor, kläder i en garderob). Stäng av fläktar och allt som surrar. Värm upp din röst i 5 minuter innan du spelar in."
+      },
+      "levels": {
+        "title": "Nivåer: -12 till -6 dBFS",
+        "body": "Sikta på toppar mellan -12 och -6 dBFS på mätaren. Under det intervallet blir bakgrundsljudet mer märkbart; ovanför den ökar risken för klippning. Använd mätaren på Record-sidan för att ställa in din förstärkning innan du börjar."
+      },
+      "distance": {
+        "title": "Mikrofonavstånd: 15–30 cm",
+        "body": "Håll dig 15 till 30 cm från mikrofonen. Närmare än så överdriver plosiver och närhetseffekt; längre bort plockar upp mer rumsreverb och brus."
+      },
+      "script": {
+        "title": "Inspelning av manus",
+        "warmup": "Vokaluppvärmning (1–2 minuter)",
+        "vowels": "Ihållande vokaler — a, e, i, o, u",
+        "scales": "Enkla vågar, upp och ner",
+        "excerpt": "Ett sångutdrag (8 till 16 takter)",
+        "dynamics": "Dynamik: börja mjukt, sluta högt",
+        "spoken_phrase": "En talad fras, så att Suno kan läsa din sångton"
+      },
+      "expectations": {
+        "title": "Vad Suno förväntar sig",
+        "body": "WAV, 48 kHz, mono, torr (ingen efterklang eller effekter), 3 till 5 minuters referens. De renaste, mest representativa 2 minuterna av tagningen ger vanligtvis de bästa resultaten."
+      }
+    }
+  },
+  "status": {
+    "idea": "Idé",
+    "em_progresso": "Pågår",
+    "quase": "Nästan där",
+    "pronto": "Klar"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Fullständigt sångmanus för Suno",
+      "desc": "5 guidade minuter: uppvärmning, vokaler, skalor, två sångutdrag, dynamik och en talad fras."
+    },
+    "step": {
+      "warmup": "Vokal uppvärmning",
+      "warmup_inst": "Slappna av med gäspningar, läpptrillar (brrr) och ett mjukt brum i ungefär en minut. Du behöver inte spela in – det är bara att slappna av i halsen innan du sjunger.",
+      "vowels": "Ihållande vokaler",
+      "vowels_inst": "Håll varje vokal - a, e, i, o, u - i 3 till 4 sekunder på din bekväma tonhöjd, med en stadig volym. Detta hjälper Suno att plocka upp din rösts rena klang.",
+      "scales": "Skalar upp och ner",
+      "scales_inst": "Sjung en enkel skala upp och sedan ner, på \"la\" eller \"na\". Det behöver inte vara perfekt – målet är att kartlägga ditt röstomfång.",
+      "section": "Låtutdrag — del 1",
+      "section_inst": "Sjung 8 till 16 takter av sången, med den verkliga avsikten du vill förmedla. Prioritera tydlighet och närvaro framför teknisk perfektion.",
+      "section2": "Låtutdrag - del 2",
+      "section2_inst": "Sjung ytterligare 8 till 16 takter — helst en refräng eller ett avsnitt som står i kontrast till det föregående. Mer variation hjälper modellen att lära sig din röst.",
+      "dynamics": "Dynamik: mjuk → högt",
+      "dynamics_inst": "Sjung samma fras som börjar väldigt mjukt och slutar högt, utan att anstränga halsen. Detta visar Suno din rösts dynamiska omfång.",
+      "spoken": "Talad fras",
+      "spoken_inst": "Tala — sjung inte — en kort, naturlig fras, som om du chattade. Detta hjälper Suno att känna igen din rösts verkliga klang."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restaurering",
+      "filter": "Filter",
+      "dynamics": "Dynamik",
+      "separation": "Separation",
+      "quality": "Kvalitet",
+      "utility": "Utility",
+      "loudness": "Ljudstyrka"
+    },
+    "highpass": "Högpassfilter",
+    "lowpass": "Lågpassfilter",
+    "denoise": "Brusreducering",
+    "declip": "Avklippning",
+    "declick": "Klicka/pop-borttagning",
+    "deesser": "De-esser",
+    "gate": "Noise gate",
+    "compressor": "Kompressor",
+    "limiter": "Begränsare",
+    "eq": "Utjämning",
+    "normalize": "Maximal normalisering",
+    "loudness": "Loudness normalization (LUFS)",
+    "reverb_reduce": "Reverb-reduktion",
+    "separate": "Källseparation",
+    "quality": "Kvalitetsförbättring (uppskala)",
+    "trim_silence": "Tystnad trimning",
+    "fade": "Tona in / tona ut",
+    "stereo_to_mono": "Konvertera till mono",
+    "resample": "Omsampling"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Pålitlig",
+      "2": "Fungerar oftast",
+      "3": "Variabel",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Struktur",
+      "vocal": "Vokal",
+      "instrument": "Instrument",
+      "dynamics": "Dynamik",
+      "production": "Produktion",
+      "mood": "Humör"
+    },
+    "verse": "Vers",
+    "chorus": "Refräng",
+    "bridge": "Bro",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Krok",
+    "prechorus": "Pre-chorus",
+    "instrumental": "Instrumental",
+    "guitar_solo": "Gitarr solo",
+    "build_up": "Uppbyggnad",
+    "breakdown": "Fördelning",
+    "spoken_word": "Talat ord",
+    "whispered": "Viskade",
+    "harmonies": "Harmonier",
+    "male_vocal": "Manlig sång",
+    "female_vocal": "Kvinnlig sång",
+    "duet": "Duett",
+    "acoustic": "Akustisk",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Ren röst",
+    "voice_guitar_balanced": "Balanserad röst och gitarr",
+    "podcast": "Podcast",
+    "suno_ready": "Suno redo",
+    "gentle_restore": "Mild återställning",
+    "raw_passthrough": "Ingen bearbetning"
+  },
+  "errors": {
+    "unknown": "Något gick fel.",
+    "network": "Kunde inte nå servern.",
+    "validation_error": "Kontrollera informationen du angett.",
+    "not_found": "Objektet hittades inte.",
+    "project_not_found": "Projektet hittades inte.",
+    "take_not_found": "Ta inte hittat.",
+    "album_not_found": "Albumet hittades inte.",
+    "preset_not_found": "Förinställning hittades inte.",
+    "template_not_found": "Mallen hittades inte.",
+    "device_busy": "Ljudenheten används av ett annat program.",
+    "device_not_found": "Ljudenhet hittades inte.",
+    "already_recording": "En inspelning pågår redan.",
+    "ffmpeg_missing": "FFmpeg är inte installerat — installera det för att konvertera den här filen.",
+    "disk_full": "Inte tillräckligt med diskutrymme.",
+    "permission_denied": "Tillstånd nekad för den angivna sökvägen.",
+    "import_path_not_found": "Importsökvägen hittades inte.",
+    "job_failed": "Bearbetningen misslyckades.",
+    "job_cancelled": "Bearbetningen avbröts.",
+    "process_failed": "Det gick inte att bearbeta tagningen.",
+    "export_failed": "Det gick inte att exportera filen.",
+    "record_failed": "Det gick inte att starta inspelningen."
+  },
+  "jobs": {
+    "status": {
+      "queued": "I kö",
+      "running": "Löpning",
+      "done": "Klart",
+      "error": "Misslyckades",
+      "cancelled": "Avbruten"
+    },
+    "kind": {
+      "process": "Bearbetning",
+      "export": "Exportera",
+      "import": "Importera",
+      "record": "Inspelning"
+    }
+  }
+}

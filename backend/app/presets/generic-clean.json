@@ -1,0 +1,27 @@
+{
+  "id": "generic-clean",
+  "builtin": true,
+  "name_key": "presets.generic_clean",
+  "description_key": "presets.generic_clean_desc",
+  "chain": {
+    "stages": [
+      { "id": "highpass", "enabled": true, "params": { "freq": 80 } },
+      { "id": "denoise_dfn3", "enabled": true, "params": {} },
+      { "id": "denoise_nr", "enabled": false, "params": {} },
+      { "id": "deesser", "enabled": true, "params": {} },
+      { "id": "eq", "enabled": false, "params": {} },
+      { "id": "compressor", "enabled": true, "params": { "ratio": 2.5, "threshold_db": -20 } },
+      { "id": "limiter", "enabled": true, "params": { "ceiling_db": -1.0 } },
+      { "id": "loudness", "enabled": true, "params": { "lufs_target": -16, "true_peak_max_db": -1 } },
+      { "id": "trim_silence", "enabled": false, "params": {} }
+    ]
+  },
+  "export": {
+    "format": "wav",
+    "sample_rate": 48000,
+    "bit_depth": 24,
+    "channels": 1,
+    "max_duration_s": null,
+    "peak_range_dbfs": null
+  }
+}

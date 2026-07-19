@@ -1,0 +1,15 @@
+{
+  "id": "raw",
+  "builtin": true,
+  "name_key": "presets.raw",
+  "description_key": "presets.raw_desc",
+  "chain": { "stages": [] },
+  "export": {
+    "format": "wav",
+    "sample_rate": 48000,
+    "bit_depth": 24,
+    "channels": 1,
+    "max_duration_s": null,
+    "peak_range_dbfs": null
+  }
+}

@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Pastrues audio"
+  },
+  "nav": {
+    "library": "Biblioteka",
+    "record": "Regjistro",
+    "import": "Importi",
+    "templates": "Modelet",
+    "settings": "Cilësimet",
+    "guide": "Udhëzues"
+  },
+  "common": {
+    "save": "Ruaj",
+    "saving": "Po ruan…",
+    "saved": "U ruajt",
+    "cancel": "Anulo",
+    "close": "Mbylle",
+    "delete": "Fshije",
+    "edit": "Redakto",
+    "create": "Krijo",
+    "search": "Kërko",
+    "loading": "Po ngarkohet…",
+    "error": "Gabim",
+    "retry": "Provo sërish",
+    "confirm": "Konfirmo",
+    "back": "Mbrapa",
+    "next": "Tjetra",
+    "continue": "Vazhdoni",
+    "finish": "Përfundo",
+    "copy": "Kopjo",
+    "copied": "E kopjuar",
+    "download": "Shkarkoni",
+    "upload": "Ngarko",
+    "none": "Asnjë",
+    "all": "Të gjitha",
+    "yes": "po",
+    "no": "Nr",
+    "select": "Zgjidhni",
+    "optional": "opsionale",
+    "required": "kërkohet",
+    "unsaved_changes": "Ndryshime të paruajtura",
+    "name": "Emri",
+    "status": "Statusi",
+    "type": "Lloji",
+    "actions": "Veprimet",
+    "empty": "Bosh",
+    "browse": "Shfletoni",
+    "remove": "Hiq",
+    "add": "Shtoni",
+    "rename": "Riemërto",
+    "duplicate": "Dublikatë",
+    "warning": "Paralajmërim",
+    "locked": "E mbyllur",
+    "builtin": "I integruar",
+    "custom": "Me porosi",
+    "untitled": "Pa titull",
+    "select_placeholder": "Zgjidh…"
+  },
+  "library": {
+    "title": "Biblioteka",
+    "subtitle": "Projektet tuaja të zërit dhe kitarës, nga ideja në publikim.",
+    "new_project": "Projekt i ri",
+    "new_album": "Albumi i ri",
+    "search_placeholder": "Kërko sipas emrit…",
+    "view": {
+      "grid": "Rrjeti",
+      "albums": "Albumet"
+    },
+    "filters": {
+      "all": "Të gjitha"
+    },
+    "take_count_one": " {{count}} merr",
+    "take_count_other": " {{count}} merr",
+    "updated_at": "Përditësuar {{date}} ",
+    "no_results": {
+      "title": "Nuk u gjet asnjë projekt",
+      "description": "Provoni të rregulloni filtrin e kërkimit ose statusit."
+    },
+    "empty": {
+      "title": "Biblioteka juaj është bosh",
+      "description": "Nisni një projekt të ri nga e para, ose importoni ju tashmë keni në disk.",
+      "cta_import": "Importo nga dosja",
+      "cta_new": "Krijo projekt"
+    },
+    "project_dialog": {
+      "title": "Projekt i ri",
+      "description": "Jepini një emër dhe zgjidhni një mënyrë regjistrimi.",
+      "name_label": "Emri i projektit",
+      "name_placeholder": "p.sh. Shi Veror",
+      "mode_label": "Modaliteti",
+      "mode": {
+        "voice": "Vetëm zë",
+        "voice_guitar": "Zë + kitarë"
+      },
+      "submit": "Krijo projekt"
+    },
+    "album_dialog": {
+      "title": "Albumi i ri",
+      "description": "Gruponi projektet e lidhura në një album.",
+      "name_label": "Emri i albumit",
+      "name_placeholder": "p.sh. EP e vjeshtës",
+      "submit": "Krijo album"
+    },
+    "album": {
+      "untitled": "Albumi pa titull",
+      "members_count_one": " {{count}} projekt",
+      "members_count_other": " {{count}} projekte",
+      "empty": "Nuk ka ende projekte në këtë album.",
+      "delete_confirm_title": "Të fshihet albumi?",
+      "delete_confirm_description": "Projektet nuk do të fshihen, vetëm do të shkëputen nga \" {{name}}\"."
+    },
+    "delete_project": {
+      "confirm_title": "Të fshihet \" {{name}} \"?",
+      "confirm_description": "Kjo heq projektin dhe çdo marrje në të. Kjo nuk mund të zhbëhet."
+    }
+  },
+  "record": {
+    "title": "Regjistro",
+    "subtitle": "Kapni një pamje të pastër, shikoni nivelet tuaja dhe ndiqni skenarin.",
+    "project_label": "Projekti",
+    "project_placeholder": "Zgjidhni një projekt",
+    "project_create_quick": "Krijo një projekt të shpejtë…",
+    "device_label": "Pajisja hyrëse",
+    "device_placeholder": "Zgjidhni një pajisje",
+    "device_default_badge": "Parazgjedhja e sistemit",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Nuk u gjet asnjë pajisje hyrëse.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Ndaloni monitorimin",
+    "record_button": "Regjistro",
+    "stop_button": "Ndalo",
+    "elapsed_label": "Koha e kaluar",
+    "status": {
+      "idle": "I papunë",
+      "monitoring": "Monitorimi",
+      "recording": "Regjistrimi",
+      "stopped": "Ndaloi"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Maja",
+      "clip": "Klip"
+    },
+    "guide": {
+      "title": "Sesion i drejtuar",
+      "subtitle": "Lëreni trajnerin t'ju përshkruajë skenarin hap pas hapi, nga ngrohja deri te fraza e folur.",
+      "loading": "Po ngarkon skriptin…",
+      "unavailable": "Sesioni i drejtuar nuk ofrohet ende në server.",
+      "select_project_device": "Zgjidhni një projekt dhe një pajisje hyrëse për të regjistruar hapat që nga këtu.",
+      "progress": " {{done}} nga {{total}} hapa",
+      "start_timer": "Nis kohëmatësin",
+      "skip_timer": "Kapërceni kohëmatësin",
+      "record_step": "Regjistroni këtë hap",
+      "stop_step": "Ndalo regjistrimin",
+      "mark_done": "U krye - hapi tjetër",
+      "step_recorded": "Merrni të regjistruar",
+      "no_record_step": "Hapi i ngrohjes - nuk nevojitet regjistrim.",
+      "bars_hint": "Rreth {{bars}} shufra",
+      "complete_title": "Skripti u plotësua!",
+      "complete_body": "Ju keni regjistruar çdo hap të skenarit. Kthehuni te skeda Audio e projektit dhe zgjidhni fotot tuaja të preferuara.",
+      "restart": "Rinis skriptin"
+    },
+    "best2min": {
+      "button": "Gjeni 2 minutat më të mira (Suno)",
+      "running": "Duke analizuar marrjen…",
+      "score_label": "Rezultati",
+      "hint": "Kryen një analizë energjie dhe qartësie në të gjithë hapjen për të gjetur dritaren e saj më të fortë 2-minutëshe - mund ta rregulloni prapëseprapë diapazonin me dorë më pas.",
+      "chart_caption": "Rezultati për dritare",
+      "unavailable": "Analiza më e mirë 2-minutëshe nuk disponohet ende në këtë server."
+    },
+    "takes_title": "Marrë nga kjo seancë",
+    "takes_empty": "Nuk është regjistruar ende asnjë marrje në këtë seancë.",
+    "open_in_project": "Hapur në projekt",
+    "ws_disconnected": "Po rilidhet me matësin e nivelit…",
+    "select_project_first": "Zgjidhni një projekt për të filluar.",
+    "select_device_first": "Zgjidhni një pajisje hyrëse."
+  },
+  "project": {
+    "back_to_library": "Kthehu në bibliotekë",
+    "header": {
+      "status_label": "Statusi",
+      "cover_upload": "Ngarko kopertinën",
+      "cover_remove": "Hiqni kapakun",
+      "name_placeholder": "Emri i projektit",
+      "links_title": "Lidhjet",
+      "add_link": "Shto lidhje",
+      "mode": {
+        "voice": "Vetëm zë",
+        "voice_guitar": "Zë + kitarë"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Teksti i këngës",
+      "prompts": "Kërkesat",
+      "notes": "Shënime"
+    },
+    "audio": {
+      "takes_title": "Merr",
+      "no_takes": {
+        "title": "Nuk ka marrë ende",
+        "description": "Regjistroni një marrje të re ose importoni një skedar ekzistues."
+      },
+      "record_new": "Regjistroni një marrje të re",
+      "rating": "Vlerësimi",
+      "variant": {
+        "raw": "Të papërpunuara",
+        "processed": "Të përpunuara"
+      },
+      "variant_placeholder": "Versioni",
+      "process_button": "Procesi",
+      "export_button": "Eksporto",
+      "delete_take_confirm_title": "Të fshihet kjo marrje?",
+      "delete_take_confirm_description": "Audioja e papërpunuar dhe çdo version i përpunuar do të hiqen.",
+      "ab": {
+        "raw": "A · Të papërpunuara",
+        "processed": "B · Përpunuar"
+      },
+      "origin": {
+        "recorded": "I regjistruar",
+        "imported": "I importuar"
+      },
+      "session_label_placeholder": "Etiketa e sesionit (opsionale)",
+      "duration": "Kohëzgjatja",
+      "sample_rate": "Norma e mostrës",
+      "channels": "Kanalet",
+      "created_at": "I regjistruar"
+    },
+    "pipeline": {
+      "title": "Zinxhiri i përpunimit",
+      "preset_label": "Paracaktuar",
+      "preset_none": "Zinxhirë me porosi",
+      "preset_save": "Ruaje si të paracaktuar",
+      "stage_locked": "E mbyllur",
+      "stage_requires_extra": "Kërkon një shtesë që nuk është e instaluar",
+      "process_button": "Marrja e procesit",
+      "processing": "Po përpunohet…",
+      "job_queued": "Në radhë…",
+      "job_running": "Po përpunohet…",
+      "job_done": "U krye",
+      "job_error": "Dështoi",
+      "job_cancelled": "Anuluar",
+      "cancel_job": "Anulo",
+      "no_stages": "Nuk ka faza të disponueshme."
+    },
+    "export": {
+      "title": "Merrni eksport",
+      "description": "Paraqitni një skedar përfundimtar nga një version i përpunuar.",
+      "variant_label": "Versioni",
+      "format_label": "Formati",
+      "preset_label": "Eksporto paracaktimin",
+      "range_label": "Gama",
+      "range_full": "Gjatësia e plotë",
+      "range_custom": "Gama e personalizuar",
+      "start_label": "Fillimi (t)",
+      "end_label": "Fundi (t)",
+      "submit": "Eksporto",
+      "progress": "Skedari po jep…",
+      "download_ready": "Skedari gati",
+      "download_button": "Shkarko skedarin"
+    },
+    "notes": {
+      "placeholder": "Shënime në formë të lirë për këtë projekt…",
+      "saved_at": "Ruajtur në {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Shkruani tekstin këtu. Përdorni paletën në anë për të futur meta-etiketat Suno.",
+      "saved_at": "Ruajtur në {{time}} ",
+      "saving": "Po ruan…",
+      "versions": "Versionet",
+      "versions_empty": "Nuk ka ende versione të ruajtura.",
+      "version_preview": "Parapamje",
+      "restore": "Rivendos këtë version",
+      "restore_confirm_title": "Të rivendoset ky version?",
+      "restore_confirm_description": "Teksti aktual do të zëvendësohet me versionin e ruajtur në {{date}}.",
+      "metatags_title": "Meta-etiketat",
+      "metatags_hint": "Klikoni një etiketë për ta futur në kursor.",
+      "metatags_placebo_warning": "E paprovuar - mund të mos ketë efekt në rezultat.",
+      "metatags_empty": "Nuk është regjistruar asnjë meta-etiketë."
+    },
+    "prompts": {
+      "style_title": "Stil i shpejtë",
+      "lyrics_title": "Teksti i shpejtë",
+      "template_label": "shabllon",
+      "template_none": "Asnjë shabllon",
+      "variables_title": "Variablat",
+      "preview_title": "Parapamje",
+      "preview_empty": "Zgjidhni një shabllon dhe plotësoni variablat për të parë një pamje paraprake.",
+      "char_count": " {{count}} karaktere",
+      "char_count_warning": "Kërkon stil mbi 1000 karaktere mund të shkurtohen nga Suno.",
+      "copy": "Kopjo",
+      "copied": "Kopjuar në kujtesën e fragmenteve",
+      "save_to_project": "Ruaj në projekt",
+      "saved_to_project": "Kërkesa u ruajt në projekt",
+      "history_title": "Historia",
+      "history_empty": "Nuk ka versione të mëparshme.",
+      "current_label": "Aktuale"
+    },
+    "stems": {
+      "title": "Vokal dhe kitarë",
+      "separate_button": "Të ndara vokale dhe kitarë",
+      "running": "Po ndahet…",
+      "vocals": "Vokale",
+      "instrumental": "Instrumentale",
+      "process_stem": "Përpunoni këtë kërcell",
+      "empty": "Kjo marrje nuk është ndarë ende. Vraponi ndarjen për të dëgjuar vokalin dhe kitarën në izolim.",
+      "capability_missing": "Ndarja e burimit nuk është e instaluar në këtë server.",
+      "unavailable": "Ndarja vokal/kitarë nuk ofrohet ende në këtë server."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Aktiv",
+    "boolean_off": "Joaktiv"
+  },
+  "import": {
+    "title": "Importi",
+    "subtitle": "Sillni projektet që ekzistojnë tashmë në disk në bibliotekë.",
+    "step_indicator": "Hapi {{current}} nga {{total}} ",
+    "step1": {
+      "title": "Gjeni dosjen",
+      "description": "Drejtojeni dosjen rrënjësore me projektet dhe gjurmët tuaja.",
+      "path_label": "Rruga e dosjes",
+      "path_placeholder": "p.sh. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "E fundit",
+      "scan_button": "Skanoni dosjen",
+      "scanning": "Po skanon…",
+      "ffmpeg_warning": "FFmpeg nuk u gjet - skedarët që kanë nevojë për konvertim do të anashkalohen.",
+      "folders_found_one": " Dosja {{count}} u gjet",
+      "folders_found_other": " {{count}} dosje u gjetën",
+      "unmatched_files_one": " {{count}} skedar i panjohur",
+      "unmatched_files_other": " {{count}} skedarë të panjohur"
+    },
+    "step2": {
+      "title": "Rishikoni artikujt",
+      "description": "Kontrolloni emrat, statuset dhe çfarë do të importohet përpara se të konfirmoni.",
+      "select_all": "Zgjidh të gjitha",
+      "table": {
+        "folder": "Dosja burimore",
+        "name": "Emri i projektit",
+        "status": "Statusi",
+        "audio": "Audio",
+        "lyrics": "Teksti i këngës",
+        "cover": "Mbulesë",
+        "album": "Albumi"
+      },
+      "audio_include_one": " Skedari {{count}} i zgjedhur",
+      "audio_include_other": " {{count}} skedarë të zgjedhur",
+      "no_audio": "Nuk u gjet asnjë audio",
+      "no_lyrics": "Nuk u gjet asnjë tekst",
+      "no_cover": "Asnjë mbulesë",
+      "warnings_title": "Paralajmërimet"
+    },
+    "step3": {
+      "title": "Importi",
+      "description": "Konfirmoni të kopjoni skedarët dhe të krijoni projektet.",
+      "copy_originals": "Kopjoni skedarët origjinalë në bibliotekë",
+      "execute_button": "Filloni importin",
+      "progress_title": "Importimi…",
+      "created_count": "Krijuar: {{count}} ",
+      "skipped_count": "Kapërceu: {{count}} ",
+      "done_title": "Importi përfundoi",
+      "done_description": "Projektet e mëposhtme janë krijuar në bibliotekën tuaj.",
+      "view_project": "Projekt i hapur",
+      "start_over": "Importi i ri"
+    }
+  },
+  "templates": {
+    "title": "Modelet",
+    "subtitle": "Modele të shpejtë të ripërdorshëm dhe meta-etiketa për Suno.",
+    "tabs": {
+      "prompts": "Modele të shpejta",
+      "metatags": "Meta-etiketat"
+    },
+    "new_template": "Model i ri",
+    "kind": {
+      "style": "Stili",
+      "lyrics": "Teksti i këngës"
+    },
+    "kind_label": "E sjellshme",
+    "delete_confirm_title": "Të fshihet shablloni \" {{name}} \"?",
+    "delete_confirm_description": "Kjo nuk mund të zhbëhet.",
+    "empty": "Nuk ka ende shabllone.",
+    "editor": {
+      "title_new": "Model i ri",
+      "title_edit": "Redakto shabllonin",
+      "name_label": "Emri",
+      "name_placeholder": "p.sh. Baladë akustike",
+      "kind_label": "E sjellshme",
+      "template_label": "Teksti i shabllonit",
+      "template_hint": "Shënoni se ku i përket secila variabël me emrin e saj të mbështjellë me kllapa kaçurrela të dyfishta - për shembull, një variabël i quajtur \"zhanër\" bëhet zhanër i mbështjellë në dy kllapa hapëse dhe dy mbyllëse.",
+      "variables_label": "Variablat",
+      "variable_add": "Shto variabël",
+      "variable_name": "Çelësi",
+      "variable_label": "Etiketa",
+      "variable_type": "Lloji",
+      "variable_type_string": "Teksti",
+      "variable_type_select": "Zgjidhje e vetme",
+      "variable_type_multiselect": "Përzgjedhja e shumëfishtë",
+      "variable_type_number": "Numri",
+      "variable_type_boolean": "Po/jo",
+      "variable_options": "Opsionet (të ndara me presje)",
+      "variable_required": "E detyrueshme",
+      "save": "Ruaj shabllonin"
+    },
+    "metatags": {
+      "title": "Meta-etiketat",
+      "subtitle": "Etiketat strukturore dhe të stilit që Suno njeh tekstet e brendshme.",
+      "new_tag": "Etiketë e re",
+      "tag_label": "Etiketë",
+      "tag_placeholder": "p.sh. kitarë-solo",
+      "category_label": "Kategoria",
+      "tier_label": "Besueshmëria",
+      "tier_legend_title": "Legjenda e besueshmërisë",
+      "tier_legend": {
+        "1": "Niveli 1 - i dokumentuar dhe i qëndrueshëm",
+        "2": "Niveli 2 - zakonisht funksionon",
+        "3": "Niveli 3 - efekti i ndryshueshëm",
+        "4": "Niveli 4 - placebo, i paprovuar"
+      },
+      "description_label": "Përshkrimi",
+      "delete_confirm_title": "Të fshihet etiketa \" {{tag}} \"?",
+      "empty": "Ende nuk ka meta-etiketa të personalizuara."
+    }
+  },
+  "settings": {
+    "title": "Cilësimet",
+    "subtitle": "Informacioni i sistemit, gjuha dhe preferencat e paracaktuara.",
+    "system_info_title": "Sistemi",
+    "version": "Versioni",
+    "data_dir": "Dosja e të dhënave",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Në dispozicion",
+    "ffmpeg_missing": "Nuk u gjet",
+    "capabilities_title": "Aftësitë e instaluara",
+    "capability": {
+      "denoise": "Reduktimi i zhurmës",
+      "quality": "Rritja e cilësisë",
+      "separate": "Ndarja e burimit",
+      "ffmpeg": "Konvertimi FFmpeg"
+    },
+    "capability_available": "Në dispozicion",
+    "capability_unavailable": "I padisponueshëm",
+    "gpu_title": "Përshpejtimi i GPU-së",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "Ofruesit e ONNX Runtime"
+    },
+    "gpu_none": "Nuk u zbuluan ofrues GPU",
+    "language_title": "Gjuha",
+    "language": {
+      "pt-BR": "portugalisht (Brazil)",
+      "en": "anglisht"
+    },
+    "theme_title": "Pamja e jashtme",
+    "theme": {
+      "dark": "E errët",
+      "light": "Drita"
+    },
+    "defaults_title": "Eksporto parazgjedhjet",
+    "lufs_target_label": "Objektivi LUFS",
+    "lufs_target_hint": "Përdoret si sugjerim fillestar kur eksportimi merr. Parazgjedhja e Suno është rreth -14 LUFS.",
+    "saved": "Preferencat u ruajtën"
+  },
+  "guide": {
+    "title": "Udhëzues regjistrimi Suno",
+    "subtitle": "Si të kapni zërin dhe kitarën që marrin rezultatet më të mira.",
+    "intro": "Suno performon më së miri me referenca të pastra dhe të paqarta. Ky udhëzues mbulon përgatitjen, nivelet e synuara dhe një skenar regjistrimi 3–5 minuta.",
+    "sections": {
+      "prep": {
+        "title": "Përgatitja",
+        "body": "Regjistroni në një dhomë të trajtuar ose në një dhomë me shumë materiale të buta (perde, qilima, rroba në një dollap). Fikni tifozët dhe çdo gjë që gumëzhin. Ngroheni zërin tuaj për 5 minuta përpara se të regjistroni."
+      },
+      "levels": {
+        "title": "Nivelet: -12 deri -6 dBFS",
+        "body": "Synoni për maja midis -12 dhe -6 dBFS në metër. Nën atë diapazon, zhurma e sfondit bëhet më e dukshme; mbi të, rritet rreziku i prerjes. Përdorni njehsorin në faqen Regjistro për të vendosur fitimin tuaj përpara se të filloni."
+      },
+      "distance": {
+        "title": "Distanca e mikrofonit: 15–30 cm",
+        "body": "Qëndroni 15 deri në 30 cm nga mikrofoni. Më afër se kaq ekzagjeron plozivët dhe efektin e afërsisë; më larg merr më shumë jehonë dhe zhurmë të dhomës."
+      },
+      "script": {
+        "title": "Skenari i regjistrimit",
+        "warmup": "Ngrohja e zërit (1–2 minuta)",
+        "vowels": "Zanoret e qëndrueshme - a, e, i, o, u",
+        "scales": "Peshore të thjeshta, lart e poshtë",
+        "excerpt": "Një fragment kënge (8 deri në 16 bare)",
+        "dynamics": "Dinamika: filloni butësisht, përfundoni me zë të lartë",
+        "spoken_phrase": "Një frazë e folur, kështu që Suno mund të lexojë tonin tuaj vokal"
+      },
+      "expectations": {
+        "title": "Ajo që pret Suno",
+        "body": "WAV, 48 kHz, mono, e thatë (pa reverb ose efekte), 3 deri në 5 minuta referencë. 2 minutat më të pastra, më përfaqësuese të marrjes zakonisht japin rezultatet më të mira."
+      }
+    }
+  },
+  "status": {
+    "idea": "Ideja",
+    "em_progresso": "Në vazhdim",
+    "quase": "Pothuajse aty",
+    "pronto": "Gati"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Skenar i plotë vokal për Suno",
+      "desc": "5 minuta të drejtuara: ngrohja, zanoret, shkallët, dy fragmente këngësh, dinamika dhe një frazë e folur."
+    },
+    "step": {
+      "warmup": "Ngrohje vokale",
+      "warmup_inst": "Lëshojeni me gogësira, gërvishtje buzësh (brrr) dhe një zhurmë të butë për rreth një minutë. Nuk ka nevojë të regjistroni - është thjesht për të relaksuar fytin tuaj përpara se të këndoni.",
+      "vowels": "Zanoret e qëndrueshme",
+      "vowels_inst": "Mbajeni secilën zanore - a, e, i, o, u - për 3 deri në 4 sekonda në lartësinë tuaj të rehatshme, me një volum të qëndrueshëm. Kjo e ndihmon Suno të kuptojë timbrin e pastër të zërit tuaj.",
+      "scales": "Shkallët lart e poshtë",
+      "scales_inst": "Këndoni një shkallë të thjeshtë lart e më pas poshtë, me \"la\" ose \"na\". Nuk ka nevojë të jetë e përsosur - qëllimi është të hartoni gamën tuaj vokale.",
+      "section": "Fragment kënge - pjesa 1",
+      "section_inst": "Këndoni 8 deri në 16 bare të këngës, me qëllimin e vërtetë që dëshironi të përcillni. Jepini përparësi qartësisë dhe pranisë mbi përsosmërinë teknike.",
+      "section2": "Fragment kënge - pjesa 2",
+      "section2_inst": "Këndoni 8 deri në 16 bare të tjera - në mënyrë ideale një kor ose një seksion që është në kontrast me atë të mëparshëm. Më shumë shumëllojshmëri e ndihmon modelen të mësojë zërin tuaj.",
+      "dynamics": "Dinamika: e butë → me zë të lartë",
+      "dynamics_inst": "Këndoni të njëjtën frazë duke filluar shumë butë dhe duke përfunduar me zë të lartë, pa e lodhur fytin. Kjo tregon Suno diapazonin dinamik të zërit tuaj.",
+      "spoken": "Fraza e folur",
+      "spoken_inst": "Flisni - mos këndoni - një frazë të shkurtër, të natyrshme, sikur të jeni duke biseduar. Kjo e ndihmon Suno të njohë timbrin e vërtetë të zërit tuaj."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restaurimi",
+      "filter": "Filtrat",
+      "dynamics": "Dinamika",
+      "separation": "Ndarja",
+      "quality": "Cilësia",
+      "utility": "Shërbimet",
+      "loudness": "Loudness"
+    },
+    "highpass": "Filtër me kalim të lartë",
+    "lowpass": "Filtër me kalim të ulët",
+    "denoise": "Reduktimi i zhurmës",
+    "declip": "Në rënie",
+    "declick": "Heqja e klikimit/pop-it",
+    "deesser": "De-esser",
+    "gate": "Porta e zhurmës",
+    "compressor": "Kompresor",
+    "limiter": "Kufizues",
+    "eq": "Barazimi",
+    "normalize": "Normalizimi maksimal",
+    "loudness": "Normalizimi i zërit (LUFS)",
+    "reverb_reduce": "Reduktimi i reverb",
+    "separate": "Ndarja e burimit",
+    "quality": "Përmirësimi i cilësisë (i lartë)",
+    "trim_silence": "Prerja e heshtjes",
+    "fade": "Zbehet / zbehet",
+    "stereo_to_mono": "Konverto në mono",
+    "resample": "Rimostrimi"
+  },
+  "metatags": {
+    "tier": {
+      "1": "E besueshme",
+      "2": "Zakonisht funksionon",
+      "3": "E ndryshueshme",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Struktura",
+      "vocal": "Vokale",
+      "instrument": "Instrumenti",
+      "dynamics": "Dinamika",
+      "production": "Prodhimi",
+      "mood": "Gjendja shpirtërore"
+    },
+    "verse": "Ajeti",
+    "chorus": "Refreni",
+    "bridge": "Ura",
+    "intro": "Hyrje",
+    "outro": "Outro",
+    "hook": "Hook",
+    "prechorus": "Pre-kor",
+    "instrumental": "Instrumentale",
+    "guitar_solo": "Solo kitarë",
+    "build_up": "Ndërtimi",
+    "breakdown": "Zbërthimi",
+    "spoken_word": "Fjalë e folur",
+    "whispered": "pëshpëriti",
+    "harmonies": "Harmonitë",
+    "male_vocal": "Vokal mashkullor",
+    "female_vocal": "Vokal femëror",
+    "duet": "Duet",
+    "acoustic": "Akustike",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Zëri i pastër",
+    "voice_guitar_balanced": "Zëri dhe kitarë e ekuilibruar",
+    "podcast": "Podcast",
+    "suno_ready": "Suno gati",
+    "gentle_restore": "Rivendosja e butë",
+    "raw_passthrough": "Asnjë përpunim"
+  },
+  "errors": {
+    "unknown": "Diçka shkoi keq.",
+    "network": "Nuk arrita dot te serveri.",
+    "validation_error": "Kontrolloni informacionin që keni futur.",
+    "not_found": "Artikulli nuk u gjet.",
+    "project_not_found": "Projekti nuk u gjet.",
+    "take_not_found": "Merr nuk u gjet.",
+    "album_not_found": "Albumi nuk u gjet.",
+    "preset_not_found": "Paracaktimi nuk u gjet.",
+    "template_not_found": "Modeli nuk u gjet.",
+    "device_busy": "Pajisja audio është në përdorim nga një program tjetër.",
+    "device_not_found": "Pajisja audio nuk u gjet.",
+    "already_recording": "Një regjistrim është tashmë në proces.",
+    "ffmpeg_missing": "FFmpeg nuk është i instaluar — instalojeni për ta kthyer këtë skedar.",
+    "disk_full": "Nuk ka hapësirë ​​të mjaftueshme në disk.",
+    "permission_denied": "Leja u refuzua për rrugën e dhënë.",
+    "import_path_not_found": "Rruga e importit nuk u gjet.",
+    "job_failed": "Përpunimi dështoi.",
+    "job_cancelled": "Përpunimi u anulua.",
+    "process_failed": "Dështoi në përpunimin e marrjes.",
+    "export_failed": "Eksportimi i skedarit dështoi.",
+    "record_failed": "Fillimi i regjistrimit dështoi."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Në radhë",
+      "running": "Vrapimi",
+      "done": "U krye",
+      "error": "Dështoi",
+      "cancelled": "Anuluar"
+    },
+    "kind": {
+      "process": "Përpunimi",
+      "export": "Eksporto",
+      "import": "Importi",
+      "record": "Regjistrimi"
+    }
+  }
+}

@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Limpiadó di Oudio"
+  },
+  "nav": {
+    "library": "Biblioteka",
+    "record": "Rekord",
+    "import": "Importá",
+    "templates": "Plantilla",
+    "settings": "Ahustonan",
+    "guide": "Guia"
+  },
+  "common": {
+    "save": "Warda",
+    "saving": "Spar…",
+    "saved": "Warda",
+    "cancel": "Kanselá",
+    "close": "Sera",
+    "delete": "Elimina",
+    "edit": "Editá",
+    "create": "Krea",
+    "search": "Buska",
+    "loading": "Ta kargando…",
+    "error": "Eror",
+    "retry": "Purba di nobo",
+    "confirm": "Konfirmá",
+    "back": "Bek",
+    "next": "Siguiente",
+    "continue": "Sigui",
+    "finish": "Kaba",
+    "copy": "Kopia",
+    "copied": "Kopia",
+    "download": "Download",
+    "upload": "Subi",
+    "none": "Ningun",
+    "all": "Tur",
+    "yes": "Si",
+    "no": "No",
+    "select": "Selektá",
+    "optional": "opshonal",
+    "required": "nesesario",
+    "unsaved_changes": "Kambionan no wardá",
+    "name": "Nòmber",
+    "status": "Status",
+    "type": "Tipo",
+    "actions": "Akshonnan",
+    "empty": "Bashi",
+    "browse": "Buska",
+    "remove": "Kita",
+    "add": "Agregá",
+    "rename": "Renombra",
+    "duplicate": "Dupliká",
+    "warning": "Atvertensia",
+    "locked": "Tranká",
+    "builtin": "Inkorporá",
+    "custom": "Personalisa",
+    "untitled": "Sin título",
+    "select_placeholder": "Selektá…"
+  },
+  "library": {
+    "title": "Biblioteka",
+    "subtitle": "Bo bos i proyektonan di guitara, di idea te na lansamentu.",
+    "new_project": "Proyekto nobo",
+    "new_album": "Album nobo",
+    "search_placeholder": "Buska pa nòmber…",
+    "view": {
+      "grid": "Grid",
+      "albums": "Albumnan"
+    },
+    "filters": {
+      "all": "Tur"
+    },
+    "take_count_one": " {{count}} tuma",
+    "take_count_other": " {{count}} ta tuma",
+    "updated_at": "A aktualisá {{date}} ",
+    "no_results": {
+      "title": "No a haña proyekto",
+      "description": "Purba ahusta e filter di búskeda òf status."
+    },
+    "empty": {
+      "title": "Bo biblioteka ta bashi",
+      "description": "Kuminsá un proyekto nobo for di nada, òf importá ta tuma ku bo tin kaba riba disk.",
+      "cta_import": "Importá for di map",
+      "cta_new": "Krea proyekto"
+    },
+    "project_dialog": {
+      "title": "Proyekto nobo",
+      "description": "Dun'é un nòmber i skohe un moda di grabashon.",
+      "name_label": "Nòmber di proyekto",
+      "name_placeholder": "p.e. Yobida di Zomer",
+      "mode_label": "Modo",
+      "mode": {
+        "voice": "Bos so",
+        "voice_guitar": "Bos + guitara"
+      },
+      "submit": "Krea proyekto"
+    },
+    "album_dialog": {
+      "title": "Album nobo",
+      "description": "Agrupá proyektonan relashoná den un álbum.",
+      "name_label": "Nòmber di álbum",
+      "name_placeholder": "p.e. EP di herfst",
+      "submit": "Krea álbum"
+    },
+    "album": {
+      "untitled": "Album sin título",
+      "members_count_one": " {{count}} proyekto",
+      "members_count_other": " {{count}} proyektonan",
+      "empty": "No tin proyekto den e álbum aki ainda.",
+      "delete_confirm_title": "Elimina álbum?",
+      "delete_confirm_description": "Proyektonan lo no wòrdu eliminá, solamente deslink for di \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Elimina \" {{name}} \"?",
+      "confirm_description": "Esaki ta kita e proyekto i tur kos den dje. Esaki no por wòrdu deshací."
+    }
+  },
+  "record": {
+    "title": "Rekord",
+    "subtitle": "Kapturá un take limpi, wak bo nivelnan, i sigui e skript.",
+    "project_label": "Proyekto",
+    "project_placeholder": "Skohe un proyekto",
+    "project_create_quick": "Krea un proyekto rápido…",
+    "device_label": "Aparato di entrada",
+    "device_placeholder": "Skohe un aparato",
+    "device_default_badge": "Sistema predeterminá",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "No a haña aparatonan di entrada.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Stòp di monitoriá",
+    "record_button": "Rekord",
+    "stop_button": "Stòp",
+    "elapsed_label": "Tempu ku a transkurí",
+    "status": {
+      "idle": "Inactivo",
+      "monitoring": "Monitoreo",
+      "recording": "Grabashon",
+      "stopped": "A stòp"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Piku",
+      "clip": "Klip"
+    },
+    "guide": {
+      "title": "Seshon guiá",
+      "subtitle": "Laga e coach guia bo dor di e skript paso pa paso, for di warm-up te na e frase papia.",
+      "loading": "Ta kargando skript…",
+      "unavailable": "E seshon guiá no ta disponibel riba e servidor ainda.",
+      "select_project_device": "Skohe un proyekto i un aparato di entrada pa graba pasonan for di aki mes.",
+      "progress": " {{done}} di {{total}} stapnan",
+      "start_timer": "Timer di kuminsá",
+      "skip_timer": "Salta e tempu",
+      "record_step": "Graba e paso aki",
+      "stop_step": "Stòp di graba",
+      "mark_done": "Kla — siguiente paso",
+      "step_recorded": "Tuma grabá",
+      "no_record_step": "Paso di warm-up — no mester di grabashon.",
+      "bars_hint": "Mas o ménos {{bars}} bar",
+      "complete_title": "Skript kompleto!",
+      "complete_body": "Bo a graba kada paso di e skript. Bai bèk na e tab di Audio di e proyekto i skohe bo potrètnan faborito.",
+      "restart": "Reinisá e skript"
+    },
+    "best2min": {
+      "button": "Buska e mihó 2 minüt (Suno)",
+      "running": "Analisando e tumamentu...",
+      "score_label": "Skor",
+      "hint": "Ta hasi un analisis di energia i klaridat riba henter e tumamentu pa haña su bentana di 2 minüt mas fuerte — bo por ahusta e rango na man despues.",
+      "chart_caption": "Skor pa bentana",
+      "unavailable": "E mihó analisis di 2 minüt no ta disponibel riba e servidor aki ainda."
+    },
+    "takes_title": "Saka for di e seshon aki",
+    "takes_empty": "No a graba ningun toma den e seshon aki ainda.",
+    "open_in_project": "Habri den proyekto",
+    "ws_disconnected": "Rekonektando na e meter di nivel…",
+    "select_project_first": "Skohe un proyekto pa kuminsá.",
+    "select_device_first": "Skohe un aparato di entrada."
+  },
+  "project": {
+    "back_to_library": "Bek na biblioteka",
+    "header": {
+      "status_label": "Status",
+      "cover_upload": "Subi portada",
+      "cover_remove": "Kita e tapa",
+      "name_placeholder": "Nòmber di proyekto",
+      "links_title": "Linknan",
+      "add_link": "Agregá link",
+      "mode": {
+        "voice": "Bos so",
+        "voice_guitar": "Bos + guitara"
+      }
+    },
+    "tabs": {
+      "audio": "Oudio",
+      "lyrics": "Letra",
+      "prompts": "Prompts",
+      "notes": "Notanan"
+    },
+    "audio": {
+      "takes_title": "Tuma",
+      "no_takes": {
+        "title": "No ta tuma ainda",
+        "description": "Graba un take nobo òf importá un archivo eksistente."
+      },
+      "record_new": "Graba un take nobo",
+      "rating": "Klasifikashon",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Prosesá"
+      },
+      "variant_placeholder": "Vershon",
+      "process_button": "Proseso",
+      "export_button": "Eksportashon",
+      "delete_take_confirm_title": "Elimina e tumamentu aki?",
+      "delete_take_confirm_description": "E oudio brutu i tur vershon prosesá lo wòrdu kita.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Prosesá"
+      },
+      "origin": {
+        "recorded": "Grabá",
+        "imported": "Importá"
+      },
+      "session_label_placeholder": "Etikèt di seshon (opshonal)",
+      "duration": "Durashon",
+      "sample_rate": "Tarifa di muestra",
+      "channels": "Kanalnan",
+      "created_at": "Grabá"
+    },
+    "pipeline": {
+      "title": "Kadena di prosesamentu",
+      "preset_label": "Preset",
+      "preset_none": "Kadena personalisá",
+      "preset_save": "Warda komo preset",
+      "stage_locked": "Tranká",
+      "stage_requires_extra": "Ta rekerí un èkstra ku no ta instalá",
+      "process_button": "Proseso tuma",
+      "processing": "Prosesamentu…",
+      "job_queued": "den fila…",
+      "job_running": "Prosesamentu…",
+      "job_done": "Kla",
+      "job_error": "Frakasá",
+      "job_cancelled": "Kanselá",
+      "cancel_job": "Kanselá",
+      "no_stages": "No tin etapa disponibel."
+    },
+    "export": {
+      "title": "Tuma eksportashon",
+      "description": "Render un archivo final for di un vershon prosesá.",
+      "variant_label": "Vershon",
+      "format_label": "Formato",
+      "preset_label": "Preset di eksportashon",
+      "range_label": "Rango",
+      "range_full": "Longitud kompleto",
+      "range_custom": "Rango personalisá",
+      "start_label": "Kuminsá (nan)",
+      "end_label": "Fin(nan)",
+      "submit": "Eksportashon",
+      "progress": "Archivo di renderisashon…",
+      "download_ready": "Archivo kla",
+      "download_button": "Deskargá e archivo"
+    },
+    "notes": {
+      "placeholder": "Notanan den forma liber tokante e proyekto aki…",
+      "saved_at": "Warda na {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Skirbi e letra aki. Usa e paleta na banda pa insertá meta-tagnan di Suno.",
+      "saved_at": "Warda na {{time}} ",
+      "saving": "Spar…",
+      "versions": "Vershonnan",
+      "versions_empty": "No tin vershonnan wardá ainda.",
+      "version_preview": "Previsualisashon",
+      "restore": "Restorá e vershon aki",
+      "restore_confirm_title": "Restorá e vershon aki?",
+      "restore_confirm_description": "E teksto aktual lo wòrdu remplasá ku e vershon wardá riba {{date}} .",
+      "metatags_title": "Meta-tags",
+      "metatags_hint": "Klik riba un tag pa hink'é na e kursor.",
+      "metatags_placebo_warning": "No probá — no por tin efekto riba e resultado.",
+      "metatags_empty": "No tin meta-tag registrá."
+    },
+    "prompts": {
+      "style_title": "Prompt di estilo",
+      "lyrics_title": "Prompt di letra",
+      "template_label": "Plantilla",
+      "template_none": "No tin plantilla",
+      "variables_title": "Variabelnan",
+      "preview_title": "Previsualisashon",
+      "preview_empty": "Skohe un plantilla i yena e variabelnan pa mira un previsualisashon.",
+      "char_count": " {{count}} karakter",
+      "char_count_warning": "Estilo di preguntanan riba 1000 karakter por wòrdu kòrtá dor di Suno.",
+      "copy": "Kopia",
+      "copied": "Kopia pa clipboard",
+      "save_to_project": "Warda pa proyekto",
+      "saved_to_project": "Prompt wardá pa proyekto",
+      "history_title": "Historia",
+      "history_empty": "No tin vershonnan anterior.",
+      "current_label": "Aktual"
+    },
+    "stems": {
+      "title": "Vokal i guitara",
+      "separate_button": "Vokal i guitara separá",
+      "running": "Separando…",
+      "vocals": "Vokalnan",
+      "instrumental": "Instrumental",
+      "process_stem": "Prosesá e stam aki",
+      "empty": "E take aki no a wòrdu separá ainda. Kore separashon pa tende e vokalnan i guitara den isolashon.",
+      "capability_missing": "Separashon di fuente no ta instalá riba e servidor aki.",
+      "unavailable": "Separashon vokal/guitara no ta disponibel riba e servidor aki ainda."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Riba",
+    "boolean_off": "Apagá"
+  },
+  "import": {
+    "title": "Importá",
+    "subtitle": "Trese proyektonan ku ta eksistí kaba riba disk den e biblioteka.",
+    "step_indicator": "Paso {{current}} di {{total}} ",
+    "step1": {
+      "title": "Lokalisá e map",
+      "description": "Mustra riba e map di rais ku bo proyektonan i pistanan.",
+      "path_label": "Trayekto di map",
+      "path_placeholder": "p.e. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "Resiente",
+      "scan_button": "Skan e map",
+      "scanning": "Skan...",
+      "ffmpeg_warning": "FFmpeg no a haña — archivonan ku mester di kombershon lo wòrdu saltá.",
+      "folders_found_one": " {{count}} map hañá",
+      "folders_found_other": " {{count}} mapnan a haña",
+      "unmatched_files_one": " {{count}} archivo no rekonosé",
+      "unmatched_files_other": " {{count}} archivonan no rekonosé"
+    },
+    "step2": {
+      "title": "Repasá artíkulonan",
+      "description": "Kontrolá nòmbernan, statusnan i kiko lo wòrdu importá promé ku konfirmá.",
+      "select_all": "Selektá tur",
+      "table": {
+        "folder": "Map di fuente",
+        "name": "Nòmber di proyekto",
+        "status": "Status",
+        "audio": "Oudio",
+        "lyrics": "Letra",
+        "cover": "Tapa",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} archivo selektá",
+      "audio_include_other": " {{count}} archivonan selektá",
+      "no_audio": "No a haña oudio",
+      "no_lyrics": "No a haña letra",
+      "no_cover": "No tapa",
+      "warnings_title": "Atvertensia"
+    },
+    "step3": {
+      "title": "Importá",
+      "description": "Konfirmá pa kopia e archivonan i krea e proyektonan.",
+      "copy_originals": "Kopia e archivonan original den e biblioteka",
+      "execute_button": "Kuminsá importashon",
+      "progress_title": "Importando…",
+      "created_count": "Kreá: {{count}} ",
+      "skipped_count": "Saltá: {{count}} ",
+      "done_title": "Importashon kompleto",
+      "done_description": "E proyektonan aki bou a wòrdu kreá den bo biblioteka.",
+      "view_project": "Proyekto habrí",
+      "start_over": "Importashon nobo"
+    }
+  },
+  "templates": {
+    "title": "Plantilla",
+    "subtitle": "Plantillanan di prompt i meta-tagnan reusabel pa Suno.",
+    "tabs": {
+      "prompts": "Plantilla di prompt",
+      "metatags": "Meta-tags"
+    },
+    "new_template": "Plantilla nobo",
+    "kind": {
+      "style": "Estilo",
+      "lyrics": "Letra"
+    },
+    "kind_label": "Amabel",
+    "delete_confirm_title": "Elimina e plantilla \" {{name}} \"?",
+    "delete_confirm_description": "Esaki no por wòrdu deshací.",
+    "empty": "No tin plantilla ainda.",
+    "editor": {
+      "title_new": "Plantilla nobo",
+      "title_edit": "Editá e plantilla",
+      "name_label": "Nòmber",
+      "name_placeholder": "p.e. Balada akustiko",
+      "kind_label": "Amabel",
+      "template_label": "Teksto di plantilla",
+      "template_hint": "Marka unda kada variabel ta pertenesé ku su nòmber envolví den dòbel brasa krul — por ehèmpel, un variabel ku yama “género” ta bira género envolví den dos brasa di apertura i dos brasa di klousura.",
+      "variables_label": "Variabelnan",
+      "variable_add": "Agregá variabel",
+      "variable_name": "Yabi",
+      "variable_label": "Label",
+      "variable_type": "Tipo",
+      "variable_type_string": "Teksto",
+      "variable_type_select": "Selekshon úniko",
+      "variable_type_multiselect": "Multi-selekta",
+      "variable_type_number": "Number",
+      "variable_type_boolean": "Si/no",
+      "variable_options": "Opshonnan (separá pa kòma)",
+      "variable_required": "Rekerí",
+      "save": "Warda e plantilla"
+    },
+    "metatags": {
+      "title": "Meta-tags",
+      "subtitle": "Tagnan struktural i estilo Suno ta rekonosé letranan paden.",
+      "new_tag": "Tag nobo",
+      "tag_label": "Tag",
+      "tag_placeholder": "p.e. guitara-solo",
+      "category_label": "Kategoria",
+      "tier_label": "Konfiabilidat",
+      "tier_legend_title": "Leyenda di konfiabilidat",
+      "tier_legend": {
+        "1": "Nivel 1 — dokumentá i konsistente",
+        "2": "Nivel 2 — normalmente ta funshoná",
+        "3": "Nivel 3 — efekto variabel",
+        "4": "Nivel 4 — plasebo, no probá"
+      },
+      "description_label": "Deskripshon",
+      "delete_confirm_title": "Elimina e tag \" {{tag}} \"?",
+      "empty": "No tin meta-tag personalisá ainda."
+    }
+  },
+  "settings": {
+    "title": "Ahustonan",
+    "subtitle": "Informashon di sistema, idioma i preferensia predeterminá.",
+    "system_info_title": "Sistema",
+    "version": "Vershon",
+    "data_dir": "Map di dato",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Disponibel",
+    "ffmpeg_missing": "No a haña",
+    "capabilities_title": "Kapasidatnan instalá",
+    "capability": {
+      "denoise": "Redukshon di zonido",
+      "quality": "Mehorashon di kalidat",
+      "separate": "Separashon di fuente",
+      "ffmpeg": "Kombershon di FFmpeg"
+    },
+    "capability_available": "Disponibel",
+    "capability_unavailable": "No ta disponibel",
+    "gpu_title": "Aselerashon di GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "Proveedónan di tempu di ehekushon di ONNX"
+    },
+    "gpu_none": "No a detektá proveedónan di GPU",
+    "language_title": "Idioma",
+    "language": {
+      "pt-BR": "Portugues (Brasil)",
+      "en": "Ingles"
+    },
+    "theme_title": "Apariensia",
+    "theme": {
+      "dark": "Skur",
+      "light": "Lus"
+    },
+    "defaults_title": "Defaultnan di eksportashon",
+    "lufs_target_label": "LUFS di meta",
+    "lufs_target_hint": "Uza komo e sugerensia di inisio ora di eksportá ta tuma. Suno su default ta alrededor di -14 LUFS.",
+    "saved": "Preferensianan wardá"
+  },
+  "guide": {
+    "title": "Guia di grabashon di Suno",
+    "subtitle": "Kon pa kapta bos i guitara ta tuma ku ta haña e mihó resultadonan.",
+    "intro": "Suno ta funshoná mihó ku referensianan limpi i inambiguo. E guia aki ta kubri preparashon, nivelnan di meta, i un skript di grabashon di 3-5 minüt.",
+    "sections": {
+      "prep": {
+        "title": "Preparashon",
+        "body": "Graba den un kamber tratá òf unu ku hopi material suave (kortina, tapijt, paña den un kashi). Paga e fanátikonan i kualke kos ku ta zundra. Keinta bo bos pa 5 minüt promé ku graba."
+      },
+      "levels": {
+        "title": "Nivelnan: -12 pa -6 dBFS",
+        "body": "Meta pa puntanan entre -12 i -6 dBFS riba e meter. Bou di e rango ei, zonido di fondo ta bira mas notabel; riba dje, e riesgo di kòrtamentu ta subi. Usa e meter riba e página di Registro pa pone bo ganashi promé ku bo kuminsá."
+      },
+      "distance": {
+        "title": "Distansha di mikrofon: 15-30 cm",
+        "body": "Keda 15 pa 30 cm for di e mikrofon. Mas serka ku esei ta eksagerá plosivonan i efekto di serkania; mas leu ta kohe mas reverb i zonido di kamber."
+      },
+      "script": {
+        "title": "Skript di grabashon",
+        "warmup": "Kalentamentu vokal (1-2 minüt)",
+        "vowels": "Vokalnan sostené — a, e, i, o, u",
+        "scales": "Skala simpel, ariba i abou",
+        "excerpt": "Un fragmento di kantika (8 pa 16 bar)",
+        "dynamics": "Dinámika: kuminsá suave, kaba duru",
+        "spoken_phrase": "Un frase papia, pa Suno por lesa bo tono vokal"
+      },
+      "expectations": {
+        "title": "Kiko Suno ta spera",
+        "body": "WAV, 48 kHz, mono, seku (sin reverb òf efektonan), 3 pa 5 minüt di referensia. E 2 minütnan mas limpi i mas representativo di e tumamentu por lo general ta produsí e mihó resultadonan."
+      }
+    }
+  },
+  "status": {
+    "idea": "Idea",
+    "em_progresso": "Den proseso",
+    "quase": "Kasi einan",
+    "pronto": "Kla"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Skript vokal kompletu pa Suno",
+      "desc": "5 minüt guiá: warm-up, vokalnan, eskala, dos ekstrakto di kantika, dinámika, i un frase papia."
+    },
+    "step": {
+      "warmup": "Kalentamentu vokal",
+      "warmup_inst": "Laga bo kurpa ku bobedad, lip trill (brrr), i un zundramentu suave pa mas o ménos un minüt. No mester graba — ta djis pa relahá bo garganta promé ku bo kanta.",
+      "vowels": "Vokalnan sostené",
+      "vowels_inst": "Tene kada vokal — a, e, i, o, u — pa 3 pa 4 sekònde na bo tono kómodo, ku un volúmen konstante. Esaki ta yuda Suno kapta e timbre puru di bo bos.",
+      "scales": "Skala ariba i abou",
+      "scales_inst": "Canta un scala simpel ariba y despues abao, riba “la” of “na”. E no mester ta perfekto — e meta ta pa mapa bo alkanse vokal.",
+      "section": "Ekstrakto di kantika — parti 1",
+      "section_inst": "Kanta 8 pa 16 bara di e kansion, ku e intenshon real ku bo ke transmití. Priorisá klaridat i presensia riba perfekshon tékniko.",
+      "section2": "Ekstrakto di kantika — parti 2",
+      "section2_inst": "Kanta 8 pa 16 bar mas — idealmente un koro òf un sekshon ku ta kontrastá ku esun anterior. Mas variedat ta yuda e modelo siña bo bos.",
+      "dynamics": "Dinámika: suave → duru",
+      "dynamics_inst": "Canta e mesun frase cuminsando hopi suave y terminando duro, sin strain bo garganta. Esaki ta mustra Suno e rango dinámiko di bo bos.",
+      "spoken": "Frase papia",
+      "spoken_inst": "Papia — no kanta — un frase kòrtiku i natural, komo si fuera bo ta kòmbersá. Esaki ta yuda Suno rekonosé e timbre real di bo bos."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restourashon",
+      "filter": "Filternan",
+      "dynamics": "Dinámika",
+      "separation": "Separashon",
+      "quality": "Kalidat",
+      "utility": "Utilidat",
+      "loudness": "Zonido haltu"
+    },
+    "highpass": "Filter di pasa haltu",
+    "lowpass": "Filter di pasa abou",
+    "denoise": "Redukshon di zonido",
+    "declip": "Declipping",
+    "declick": "Eliminashon di klik/pop",
+    "deesser": "De-esser",
+    "gate": "Porta di zonido",
+    "compressor": "Kompresor",
+    "limiter": "Limitadó",
+    "eq": "Igualisashon",
+    "normalize": "Normalisashon di punta",
+    "loudness": "Normalisashon di bos haltu (LUFS)",
+    "reverb_reduce": "Redukshon di reverb",
+    "separate": "Separashon di fuente",
+    "quality": "Mehorashon di kalidat (di luho)",
+    "trim_silence": "Kòrtamentu di silensio",
+    "fade": "Fade in / fade out",
+    "stereo_to_mono": "Kombertí pa mono",
+    "resample": "Resampling"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Konfiabel",
+      "2": "Normalmente ta funshoná",
+      "3": "Variabel",
+      "4": "Plasebo"
+    },
+    "category": {
+      "structure": "Struktura",
+      "vocal": "Vokal",
+      "instrument": "Instrumento",
+      "dynamics": "Dinámika",
+      "production": "Produkshon",
+      "mood": "Humor"
+    },
+    "verse": "Versíkulo",
+    "chorus": "Koro",
+    "bridge": "Brug",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Hook",
+    "prechorus": "Pre-koro",
+    "instrumental": "Instrumental",
+    "guitar_solo": "Solo di guitara",
+    "build_up": "Konstrukshon",
+    "breakdown": "Desglose",
+    "spoken_word": "Palabra papia",
+    "whispered": "A fluister",
+    "harmonies": "Harmonianan",
+    "male_vocal": "Vokal maskulino",
+    "female_vocal": "Vokal femenino",
+    "duet": "Duet",
+    "acoustic": "Akustiko",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Bos limpi",
+    "voice_guitar_balanced": "Bos i guitara balansá",
+    "podcast": "Podcast",
+    "suno_ready": "Suno kla",
+    "gentle_restore": "Restaurashon suave",
+    "raw_passthrough": "No tin prosesamentu"
+  },
+  "errors": {
+    "unknown": "Algu a bai robes.",
+    "network": "No por a yega na e servidor.",
+    "validation_error": "Kontrolá e informashon ku bo a introdusí.",
+    "not_found": "Artíkulo no a haña.",
+    "project_not_found": "Proyekto no a haña.",
+    "take_not_found": "Tuma no a haña.",
+    "album_not_found": "Album no a haña.",
+    "preset_not_found": "Preset no a haña.",
+    "template_not_found": "No a haña e plantilla.",
+    "device_busy": "E aparato di oudio ta den uso pa un otro programa.",
+    "device_not_found": "Aparato di oudio no a haña.",
+    "already_recording": "Un grabashon ta den proseso kaba.",
+    "ffmpeg_missing": "FFmpeg no ta instalá — instal’é pa kombertí e archivo aki.",
+    "disk_full": "No tin sufisiente espasio riba disk.",
+    "permission_denied": "Permiso nenga pa e kaminda duná.",
+    "import_path_not_found": "Trayekto di importashon no a haña.",
+    "job_failed": "Prosesamentu a frakasá.",
+    "job_cancelled": "Prosesamentu a keda kanselá.",
+    "process_failed": "No a logra prosesá e tumamentu.",
+    "export_failed": "No a logra eksportá e archivo.",
+    "record_failed": "No a logra kuminsá graba."
+  },
+  "jobs": {
+    "status": {
+      "queued": "den fila",
+      "running": "Kore",
+      "done": "Kla",
+      "error": "Frakasá",
+      "cancelled": "Kanselá"
+    },
+    "kind": {
+      "process": "Prosesamentu",
+      "export": "Eksportashon",
+      "import": "Importá",
+      "record": "Grabashon"
+    }
+  }
+}

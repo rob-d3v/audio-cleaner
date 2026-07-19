@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "오디오 클리너"
+  },
+  "nav": {
+    "library": "도서관",
+    "record": "기록",
+    "import": "가져오기",
+    "templates": "템플릿",
+    "settings": "설정",
+    "guide": "가이드"
+  },
+  "common": {
+    "save": "저장",
+    "saving": "저장 중…",
+    "saved": "저장됨",
+    "cancel": "취소",
+    "close": "닫기",
+    "delete": "삭제",
+    "edit": "편집",
+    "create": "만들기",
+    "search": "검색",
+    "loading": "로드 중…",
+    "error": "오류",
+    "retry": "재시도",
+    "confirm": "확인",
+    "back": "뒤로",
+    "next": "다음",
+    "continue": "계속",
+    "finish": "마침",
+    "copy": "복사",
+    "copied": "복사됨",
+    "download": "다운로드",
+    "upload": "업로드",
+    "none": "없음",
+    "all": "모두",
+    "yes": "예",
+    "no": "아니요",
+    "select": "선택",
+    "optional": "선택사항",
+    "required": "필수",
+    "unsaved_changes": "저장되지 않은 변경사항",
+    "name": "이름",
+    "status": "상태",
+    "type": "유형",
+    "actions": "작업",
+    "empty": "비어 있음",
+    "browse": "찾아보기",
+    "remove": "제거",
+    "add": "추가",
+    "rename": "이름 바꾸기",
+    "duplicate": "중복",
+    "warning": "경고",
+    "locked": "잠김",
+    "builtin": "내장",
+    "custom": "맞춤",
+    "untitled": "제목 없음",
+    "select_placeholder": "선택…"
+  },
+  "library": {
+    "title": "도서관",
+    "subtitle": "아이디어부터 출시까지 당신의 목소리와 기타 프로젝트.",
+    "new_project": "새 프로젝트",
+    "new_album": "새 앨범",
+    "search_placeholder": "이름으로 검색…",
+    "view": {
+      "grid": "그리드",
+      "albums": "앨범"
+    },
+    "filters": {
+      "all": "모두"
+    },
+    "take_count_one": " {{count}} 테이크",
+    "take_count_other": " {{count}} 소요",
+    "updated_at": "업데이트됨 {{date}} ",
+    "no_results": {
+      "title": "프로젝트를 찾을 수 없습니다.",
+      "description": "검색 또는 상태 필터를 조정해 보세요."
+    },
+    "empty": {
+      "title": "라이브러리가 비어 있습니다.",
+      "description": "처음부터 새 프로젝트를 시작하거나 이미 디스크에 있는 가져오기를 수행하세요.",
+      "cta_import": "폴더에서 가져오기",
+      "cta_new": "프로젝트 생성"
+    },
+    "project_dialog": {
+      "title": "새 프로젝트",
+      "description": "이름을 지정하고 녹음 모드를 선택하십시오.",
+      "name_label": "프로젝트 이름",
+      "name_placeholder": "예를 들어 여름비",
+      "mode_label": "모드",
+      "mode": {
+        "voice": "음성만",
+        "voice_guitar": "보이스+기타"
+      },
+      "submit": "프로젝트 생성"
+    },
+    "album_dialog": {
+      "title": "새 앨범",
+      "description": "관련 프로젝트를 앨범으로 그룹화합니다.",
+      "name_label": "앨범명",
+      "name_placeholder": "예를 들어 가을 EP",
+      "submit": "앨범 만들기"
+    },
+    "album": {
+      "untitled": "제목 없는 앨범",
+      "members_count_one": " {{count}} 프로젝트",
+      "members_count_other": " {{count}} 프로젝트",
+      "empty": "이 앨범에는 아직 프로젝트가 없습니다.",
+      "delete_confirm_title": "앨범을 삭제하시겠습니까?",
+      "delete_confirm_description": "프로젝트는 삭제되지 않으며 \" {{name}} \"에서 연결 해제만 됩니다."
+    },
+    "delete_project": {
+      "confirm_title": "' {{name}} '을 삭제하시겠습니까?",
+      "confirm_description": "이렇게 하면 프로젝트와 해당 프로젝트의 모든 테이크가 제거됩니다. 이 작업은 취소할 수 없습니다."
+    }
+  },
+  "record": {
+    "title": "기록",
+    "subtitle": "깔끔한 테이크를 캡처하고, 레벨을 관찰하고, 스크립트를 따르세요.",
+    "project_label": "프로젝트",
+    "project_placeholder": "프로젝트를 선택하세요",
+    "project_create_quick": "빠른 프로젝트 만들기…",
+    "device_label": "입력 장치",
+    "device_placeholder": "기기를 선택하세요",
+    "device_default_badge": "시스템 기본값",
+    "device_wasapi_badge": "와스피",
+    "device_empty": "입력 장치를 찾을 수 없습니다.",
+    "monitor_button": "모니터",
+    "monitor_stop_button": "모니터링 중지",
+    "record_button": "기록",
+    "stop_button": "중지",
+    "elapsed_label": "경과 시간",
+    "status": {
+      "idle": "유휴",
+      "monitoring": "모니터링",
+      "recording": "녹음",
+      "stopped": "중지됨"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "피크",
+      "clip": "클립"
+    },
+    "guide": {
+      "title": "안내 세션",
+      "subtitle": "코치가 워밍업부터 말하기 문구까지 스크립트를 단계별로 안내해 드립니다.",
+      "loading": "스크립트 로드 중…",
+      "unavailable": "가이드 세션은 아직 서버에서 사용할 수 없습니다.",
+      "select_project_device": "여기에서 바로 단계를 기록할 프로젝트와 입력 장치를 선택하세요.",
+      "progress": " {{done}}/{{total}}걸음",
+      "start_timer": "타이머 시작",
+      "skip_timer": "타이머 건너뛰기",
+      "record_step": "이 단계를 기록하세요",
+      "stop_step": "녹음 중지",
+      "mark_done": "완료 — 다음 단계",
+      "step_recorded": "녹음을 하세요",
+      "no_record_step": "준비 단계 - 녹음이 필요하지 않습니다.",
+      "bars_hint": "약 {{bars}} 바",
+      "complete_title": "스크립트 완료!",
+      "complete_body": "스크립트의 모든 단계를 기록했습니다. 프로젝트의 오디오 탭으로 돌아가서 마음에 드는 테이크를 선택하세요.",
+      "restart": "스크립트 다시 시작"
+    },
+    "best2min": {
+      "button": "최고의 2분을 찾아보세요 (Suno)",
+      "running": "테이크 분석 중…",
+      "score_label": "점수",
+      "hint": "전체 테이크에 걸쳐 에너지 및 선명도 분석을 실행하여 가장 강력한 2분 창을 찾습니다. 이후에도 범위를 수동으로 조정할 수 있습니다.",
+      "chart_caption": "창당 점수",
+      "unavailable": "이 서버에서는 아직 최고 2분 분석을 사용할 수 없습니다."
+    },
+    "takes_title": "이번 세션에서 얻은 내용",
+    "takes_empty": "이 세션에는 아직 녹음된 테이크가 없습니다.",
+    "open_in_project": "프로젝트에서 열기",
+    "ws_disconnected": "레벨 측정기에 다시 연결하는 중…",
+    "select_project_first": "시작하려면 프로젝트를 선택하세요.",
+    "select_device_first": "입력 장치를 선택하세요."
+  },
+  "project": {
+    "back_to_library": "도서관으로 돌아가기",
+    "header": {
+      "status_label": "상태",
+      "cover_upload": "표지 업로드",
+      "cover_remove": "커버 제거",
+      "name_placeholder": "프로젝트 이름",
+      "links_title": "링크",
+      "add_link": "링크 추가",
+      "mode": {
+        "voice": "음성만",
+        "voice_guitar": "보이스+기타"
+      }
+    },
+    "tabs": {
+      "audio": "오디오",
+      "lyrics": "가사",
+      "prompts": "프롬프트",
+      "notes": "메모"
+    },
+    "audio": {
+      "takes_title": "소요",
+      "no_takes": {
+        "title": "아직 테이크가 없습니다.",
+        "description": "새로운 테이크를 녹음하거나 기존 파일을 가져옵니다."
+      },
+      "record_new": "새로운 테이크를 녹음하세요",
+      "rating": "등급",
+      "variant": {
+        "raw": "원시",
+        "processed": "처리됨"
+      },
+      "variant_placeholder": "버전",
+      "process_button": "프로세스",
+      "export_button": "수출",
+      "delete_take_confirm_title": "이 테이크를 삭제하시겠습니까?",
+      "delete_take_confirm_description": "원시 오디오와 처리된 모든 버전이 제거됩니다.",
+      "ab": {
+        "raw": "A · 생",
+        "processed": "B·가공됨"
+      },
+      "origin": {
+        "recorded": "녹음됨",
+        "imported": "수입됨"
+      },
+      "session_label_placeholder": "세션 라벨(선택사항)",
+      "duration": "기간",
+      "sample_rate": "샘플링 속도",
+      "channels": "채널",
+      "created_at": "녹음됨"
+    },
+    "pipeline": {
+      "title": "처리 체인",
+      "preset_label": "프리셋",
+      "preset_none": "커스텀 체인",
+      "preset_save": "사전 설정으로 저장",
+      "stage_locked": "잠김",
+      "stage_requires_extra": "설치되지 않은 추가 항목이 필요합니다.",
+      "process_button": "프로세스 소요",
+      "processing": "처리 중…",
+      "job_queued": "대기 중…",
+      "job_running": "처리 중…",
+      "job_done": "완료",
+      "job_error": "실패",
+      "job_cancelled": "취소됨",
+      "cancel_job": "취소",
+      "no_stages": "사용 가능한 단계가 없습니다."
+    },
+    "export": {
+      "title": "수출 테이크",
+      "description": "처리된 버전에서 최종 파일을 렌더링합니다.",
+      "variant_label": "버전",
+      "format_label": "형식",
+      "preset_label": "사전 설정 내보내기",
+      "range_label": "범위",
+      "range_full": "전체 길이",
+      "range_custom": "맞춤 범위",
+      "start_label": "시작(들)",
+      "end_label": "종료(들)",
+      "submit": "수출",
+      "progress": "렌더링 파일 중…",
+      "download_ready": "파일 준비됨",
+      "download_button": "파일 다운로드"
+    },
+    "notes": {
+      "placeholder": "이 프로젝트에 대한 자유 형식의 메모…",
+      "saved_at": "{{time}}에 저장됨 "
+    },
+    "lyrics": {
+      "placeholder": "여기에 가사를 적어보세요. Suno 메타태그를 삽입하려면 측면의 팔레트를 사용하세요.",
+      "saved_at": "{{time}}에 저장됨 ",
+      "saving": "저장 중…",
+      "versions": "버전",
+      "versions_empty": "아직 저장된 버전이 없습니다.",
+      "version_preview": "미리보기",
+      "restore": "이 버전을 복원하세요",
+      "restore_confirm_title": "이 버전을 복원하시겠습니까?",
+      "restore_confirm_description": "현재 텍스트는 {{date}}에 저장된 버전으로 대체됩니다.",
+      "metatags_title": "메타태그",
+      "metatags_hint": "태그를 클릭하면 커서 위치에 삽입됩니다.",
+      "metatags_placebo_warning": "입증되지 않음 — 결과에 영향을 미치지 않을 수 있습니다.",
+      "metatags_empty": "등록된 메타태그가 없습니다."
+    },
+    "prompts": {
+      "style_title": "스타일 프롬프트",
+      "lyrics_title": "가사 프롬프트",
+      "template_label": "템플릿",
+      "template_none": "템플릿 없음",
+      "variables_title": "변수",
+      "preview_title": "미리보기",
+      "preview_empty": "템플릿을 선택하고 변수를 입력하여 미리보기를 확인하세요.",
+      "char_count": " {{count}} 문자",
+      "char_count_warning": "1000자가 넘는 스타일 프롬프트는 Suno에서 잘릴 수 있습니다.",
+      "copy": "복사",
+      "copied": "클립보드에 복사됨",
+      "save_to_project": "프로젝트에 저장",
+      "saved_to_project": "프로젝트에 프롬프트가 저장되었습니다.",
+      "history_title": "역사",
+      "history_empty": "이전 버전이 없습니다.",
+      "current_label": "현재"
+    },
+    "stems": {
+      "title": "보컬과 기타",
+      "separate_button": "보컬과 기타가 분리되어",
+      "running": "분리 중…",
+      "vocals": "보컬",
+      "instrumental": "기악",
+      "process_stem": "이 줄기를 처리하세요",
+      "empty": "이 테이크는 아직 분리되지 않았습니다. 분리를 실행하여 보컬과 기타를 분리하여 들어보세요.",
+      "capability_missing": "이 서버에는 소스 분리가 설치되어 있지 않습니다.",
+      "unavailable": "이 서버에서는 아직 보컬/기타 분리를 사용할 수 없습니다."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "켜기",
+    "boolean_off": "끄기"
+  },
+  "import": {
+    "title": "가져오기",
+    "subtitle": "디스크에 이미 존재하는 프로젝트를 라이브러리로 가져옵니다.",
+    "step_indicator": "{{total}} 중 {{current}}단계 ",
+    "step1": {
+      "title": "폴더 찾기",
+      "description": "프로젝트와 트랙이 있는 루트 폴더를 가리킵니다.",
+      "path_label": "폴더 경로",
+      "path_placeholder": "예를 들어 E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "최근",
+      "scan_button": "스캔 폴더",
+      "scanning": "스캔 중…",
+      "ffmpeg_warning": "FFmpeg를 찾을 수 없음 — 변환이 필요한 파일은 건너뜁니다.",
+      "folders_found_one": " {{count}} 폴더를 찾았습니다",
+      "folders_found_other": " {{count}} 폴더를 찾았습니다.",
+      "unmatched_files_one": " {{count}} 인식할 수 없는 파일",
+      "unmatched_files_other": " {{count}} 인식할 수 없는 파일"
+    },
+    "step2": {
+      "title": "항목 검토",
+      "description": "확인하기 전에 이름, 상태, 가져올 항목을 확인하세요.",
+      "select_all": "모두 선택",
+      "table": {
+        "folder": "소스 폴더",
+        "name": "프로젝트 이름",
+        "status": "상태",
+        "audio": "오디오",
+        "lyrics": "가사",
+        "cover": "표지",
+        "album": "앨범"
+      },
+      "audio_include_one": " {{count}} 파일이 선택됨",
+      "audio_include_other": " {{count}} 파일이 선택됨",
+      "no_audio": "오디오를 찾을 수 없습니다.",
+      "no_lyrics": "가사를 찾을 수 없습니다",
+      "no_cover": "덮개 없음",
+      "warnings_title": "경고"
+    },
+    "step3": {
+      "title": "가져오기",
+      "description": "파일 복사를 확인하고 프로젝트를 생성합니다.",
+      "copy_originals": "원본 파일을 라이브러리에 복사",
+      "execute_button": "가져오기 시작",
+      "progress_title": "가져오는 중…",
+      "created_count": "생성된 날짜: {{count}} ",
+      "skipped_count": "건너뛴 날짜: {{count}} ",
+      "done_title": "가져오기 완료",
+      "done_description": "아래 프로젝트가 라이브러리에 생성되었습니다.",
+      "view_project": "프로젝트 열기",
+      "start_over": "새로운 수입"
+    }
+  },
+  "templates": {
+    "title": "템플릿",
+    "subtitle": "Suno용 재사용 가능한 프롬프트 템플릿 및 메타태그.",
+    "tabs": {
+      "prompts": "프롬프트 템플릿",
+      "metatags": "메타태그"
+    },
+    "new_template": "새 템플릿",
+    "kind": {
+      "style": "스타일",
+      "lyrics": "가사"
+    },
+    "kind_label": "종류",
+    "delete_confirm_title": "' {{name}} ' 템플릿을 삭제하시겠습니까?",
+    "delete_confirm_description": "이 작업은 취소할 수 없습니다.",
+    "empty": "아직 템플릿이 없습니다.",
+    "editor": {
+      "title_new": "새 템플릿",
+      "title_edit": "템플릿 편집",
+      "name_label": "이름",
+      "name_placeholder": "예를 들어 어쿠스틱 발라드",
+      "kind_label": "종류",
+      "template_label": "템플릿 텍스트",
+      "template_hint": "각 변수가 속한 위치를 이름을 이중 중괄호로 묶어서 표시합니다. 예를 들어 \"genre\"라는 변수는 두 개의 여는 중괄호와 두 개의 닫는 중괄호로 묶인 장르가 됩니다.",
+      "variables_label": "변수",
+      "variable_add": "변수 추가",
+      "variable_name": "열쇠",
+      "variable_label": "라벨",
+      "variable_type": "유형",
+      "variable_type_string": "텍스트",
+      "variable_type_select": "단일 선택",
+      "variable_type_multiselect": "다중 선택",
+      "variable_type_number": "번호",
+      "variable_type_boolean": "예/아니요",
+      "variable_options": "옵션(쉼표로 구분)",
+      "variable_required": "필수",
+      "save": "템플릿 저장"
+    },
+    "metatags": {
+      "title": "메타태그",
+      "subtitle": "구조 및 스타일 태그 Suno는 내부 가사를 인식합니다.",
+      "new_tag": "새 태그",
+      "tag_label": "태그",
+      "tag_placeholder": "예를 들어 기타 솔로",
+      "category_label": "카테고리",
+      "tier_label": "신뢰성",
+      "tier_legend_title": "신뢰성 범례",
+      "tier_legend": {
+        "1": "Tier 1 — 문서화되고 일관됨",
+        "2": "Tier 2 - 일반적으로 작동함",
+        "3": "3단계 — 가변 효과",
+        "4": "Tier 4 — 위약, 입증되지 않음"
+      },
+      "description_label": "설명",
+      "delete_confirm_title": "' {{tag}} ' 태그를 삭제하시겠습니까?",
+      "empty": "아직 맞춤 메타태그가 없습니다."
+    }
+  },
+  "settings": {
+    "title": "설정",
+    "subtitle": "시스템 정보, 언어 및 기본 환경 설정.",
+    "system_info_title": "시스템",
+    "version": "버전",
+    "data_dir": "데이터 폴더",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "가능",
+    "ffmpeg_missing": "찾을 수 없음",
+    "capabilities_title": "설치된 기능",
+    "capability": {
+      "denoise": "소음 감소",
+      "quality": "품질향상",
+      "separate": "소스 분리",
+      "ffmpeg": "FFmpeg 변환"
+    },
+    "capability_available": "가능",
+    "capability_unavailable": "이용 불가",
+    "gpu_title": "GPU 가속",
+    "gpu": {
+      "torch_cuda": "파이토치 CUDA",
+      "ort_providers": "ONNX 런타임 공급자"
+    },
+    "gpu_none": "GPU 제공업체가 감지되지 않았습니다.",
+    "language_title": "언어",
+    "language": {
+      "pt-BR": "포르투갈어(브라질)",
+      "en": "영어"
+    },
+    "theme_title": "외관",
+    "theme": {
+      "dark": "어둠",
+      "light": "빛"
+    },
+    "defaults_title": "기본값 내보내기",
+    "lufs_target_label": "대상 LUFS",
+    "lufs_target_hint": "테이크를 내보낼 때 시작 제안으로 사용됩니다. Suno의 기본값은 -14 LUFS 정도입니다.",
+    "saved": "환경설정이 저장되었습니다."
+  },
+  "guide": {
+    "title": "선오 녹음 가이드",
+    "subtitle": "최상의 결과를 얻을 수 있는 음성 및 기타 테이크를 캡처하는 방법입니다.",
+    "intro": "Suno는 깨끗하고 명확한 참조로 최고의 성능을 발휘합니다. 이 가이드에서는 준비, 목표 수준, 3~5분 녹음 스크립트를 다룹니다.",
+    "sections": {
+      "prep": {
+        "title": "준비",
+        "body": "잘 처리된 방이나 부드러운 소재(커튼, 양탄자, 옷장 안의 옷)가 많이 있는 방에서 녹음하세요. 팬과 윙윙거리는 모든 것을 끄십시오. 녹음하기 전에 5분 동안 목소리를 준비하세요."
+      },
+      "levels": {
+        "title": "레벨: -12 ~ -6dBFS",
+        "body": "미터에서 -12~-6dBFS 사이의 피크를 목표로 하세요. 해당 범위 아래에서는 배경 소음이 더 눈에 띄게 됩니다. 그 이상에서는 클리핑 위험이 높아집니다. 시작하기 전에 레코드 페이지의 미터를 사용하여 게인을 설정하십시오."
+      },
+      "distance": {
+        "title": "마이크 거리: 15~30cm",
+        "body": "마이크에서 15~30cm 거리를 유지하세요. 그보다 가까우면 파열음과 근접 효과가 과장됩니다. 멀리 있을수록 더 많은 룸 리버브와 노이즈가 포착됩니다."
+      },
+      "script": {
+        "title": "녹음 스크립트",
+        "warmup": "보컬 워밍업(1~2분)",
+        "vowels": "지속 모음 — a, e, i, o, u",
+        "scales": "간단한 저울, 위아래로",
+        "excerpt": "노래 발췌(8~16마디)",
+        "dynamics": "역학: 부드럽게 시작하고 크게 끝남",
+        "spoken_phrase": "Suno가 당신의 목소리 톤을 읽을 수 있는 하나의 음성 문구"
+      },
+      "expectations": {
+        "title": "Suno가 기대하는 것",
+        "body": "WAV, 48kHz, 모노, 드라이(리버브 또는 효과 없음), 참조용 3~5분. 일반적으로 가장 깨끗하고 대표적인 2분 분량의 촬영이 최상의 결과를 낳습니다."
+      }
+    }
+  },
+  "status": {
+    "idea": "아이디어",
+    "em_progresso": "진행 중",
+    "quase": "거의 다 왔어",
+    "pronto": "준비"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Suno의 전체 보컬 스크립트",
+      "desc": "5분 안내: 워밍업, 모음, 음계, 노래 발췌 2개, 강약 및 구어."
+    },
+    "step": {
+      "warmup": "보컬 워밍업",
+      "warmup_inst": "약 1분 동안 하품, 입술 트릴(brrr) 및 부드러운 윙윙거림을 들으며 긴장을 풀어보세요. 녹음할 필요가 없습니다. 노래하기 전에 목의 긴장을 풀기만 하면 됩니다.",
+      "vowels": "지속 모음",
+      "vowels_inst": "각 모음(a, e, i, o, u)을 편안한 음조로 일정한 음량으로 3~4초 동안 유지합니다. 이는 Suno가 목소리의 순수한 음색을 포착하는 데 도움이 됩니다.",
+      "scales": "확장 및 축소",
+      "scales_inst": "\"la\" 또는 \"na\"에서 간단한 음계를 올렸다가 낮추어 노래합니다. 완벽할 필요는 없습니다. 목표는 보컬 범위를 매핑하는 것입니다.",
+      "section": "노래 발췌 — 1부",
+      "section_inst": "전달하고 싶은 진정한 의도를 담아 8~16마디의 노래를 불러보세요. 기술적인 완벽함보다 명확성과 존재감을 우선시합니다.",
+      "section2": "노래 발췌 — 2부",
+      "section2_inst": "8~16마디를 더 부르세요. 이상적으로는 이전 노래와 대조되는 코러스나 섹션을 부르세요. 다양성이 높을수록 모델이 사용자의 목소리를 배우는 데 도움이 됩니다.",
+      "dynamics": "역학: 부드러움 → 시끄러움",
+      "dynamics_inst": "목에 무리를 주지 않고 아주 부드럽게 시작해서 큰 소리로 끝나는 같은 구절을 부르세요. 이것은 Suno 목소리의 다이내믹 레인지를 보여줍니다.",
+      "spoken": "음성 문구",
+      "spoken_inst": "노래하지 말고 대화하는 것처럼 짧고 자연스러운 문구를 말하세요. 이는 Suno가 사용자 목소리의 실제 음색을 인식하는 데 도움이 됩니다."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "복원",
+      "filter": "필터",
+      "dynamics": "역학",
+      "separation": "분리",
+      "quality": "품질",
+      "utility": "유틸리티",
+      "loudness": "음량"
+    },
+    "highpass": "하이패스 필터",
+    "lowpass": "저역 통과 필터",
+    "denoise": "소음 감소",
+    "declip": "디클리핑",
+    "declick": "클릭/팝 제거",
+    "deesser": "디에서",
+    "gate": "노이즈 게이트",
+    "compressor": "압축기",
+    "limiter": "리미터",
+    "eq": "균등화",
+    "normalize": "피크 정규화",
+    "loudness": "음량 정규화(LUFS)",
+    "reverb_reduce": "리버브 감소",
+    "separate": "소스 분리",
+    "quality": "품질향상(upscale)",
+    "trim_silence": "무음 트리밍",
+    "fade": "페이드 인/페이드 아웃",
+    "stereo_to_mono": "모노로 변환",
+    "resample": "리샘플링"
+  },
+  "metatags": {
+    "tier": {
+      "1": "신뢰성",
+      "2": "일반적으로 작동합니다",
+      "3": "변수",
+      "4": "위약"
+    },
+    "category": {
+      "structure": "구조",
+      "vocal": "보컬",
+      "instrument": "악기",
+      "dynamics": "역학",
+      "production": "생산",
+      "mood": "기분"
+    },
+    "verse": "구절",
+    "chorus": "합창",
+    "bridge": "다리",
+    "intro": "소개",
+    "outro": "아웃트로",
+    "hook": "후크",
+    "prechorus": "프리코러스",
+    "instrumental": "기악",
+    "guitar_solo": "기타 솔로",
+    "build_up": "빌드업",
+    "breakdown": "고장",
+    "spoken_word": "음성 단어",
+    "whispered": "속삭였다",
+    "harmonies": "하모니",
+    "male_vocal": "남성 보컬",
+    "female_vocal": "여성 보컬",
+    "duet": "듀엣",
+    "acoustic": "어쿠스틱",
+    "ad_lib": "애드립"
+  },
+  "presets": {
+    "clean_voice": "깨끗한 목소리",
+    "voice_guitar_balanced": "균형 잡힌 보이스와 기타",
+    "podcast": "팟캐스트",
+    "suno_ready": "수노 준비 완료",
+    "gentle_restore": "부드러운 복원",
+    "raw_passthrough": "처리 안함"
+  },
+  "errors": {
+    "unknown": "문제가 발생했습니다.",
+    "network": "서버에 연결할 수 없습니다.",
+    "validation_error": "입력한 정보를 확인하세요.",
+    "not_found": "항목을 찾을 수 없습니다.",
+    "project_not_found": "프로젝트를 찾을 수 없습니다.",
+    "take_not_found": "찾을 수 없습니다.",
+    "album_not_found": "앨범을 찾을 수 없습니다.",
+    "preset_not_found": "사전 설정을 찾을 수 없습니다.",
+    "template_not_found": "템플릿을 찾을 수 없습니다.",
+    "device_busy": "다른 프로그램에서 오디오 장치를 사용 중입니다.",
+    "device_not_found": "오디오 장치를 찾을 수 없습니다.",
+    "already_recording": "이미 녹음이 진행 중입니다.",
+    "ffmpeg_missing": "FFmpeg가 설치되어 있지 않습니다. 이 파일을 변환하려면 설치하세요.",
+    "disk_full": "디스크 공간이 부족합니다.",
+    "permission_denied": "해당 경로에 대한 권한이 거부되었습니다.",
+    "import_path_not_found": "가져오기 경로를 찾을 수 없습니다.",
+    "job_failed": "처리에 실패했습니다.",
+    "job_cancelled": "처리가 취소되었습니다.",
+    "process_failed": "테이크를 처리하지 못했습니다.",
+    "export_failed": "파일을 내보내지 못했습니다.",
+    "record_failed": "녹화를 시작하지 못했습니다."
+  },
+  "jobs": {
+    "status": {
+      "queued": "대기 중",
+      "running": "달리기",
+      "done": "완료",
+      "error": "실패",
+      "cancelled": "취소됨"
+    },
+    "kind": {
+      "process": "처리",
+      "export": "수출",
+      "import": "가져오기",
+      "record": "녹음"
+    }
+  }
+}

@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Isihlanzi Somsindo"
+  },
+  "nav": {
+    "library": "Umtapowolwazi",
+    "record": "Qopha",
+    "import": "Ngenisa",
+    "templates": "Izifanekiso",
+    "settings": "Izilungiselelo",
+    "guide": "Umhlahlandlela"
+  },
+  "common": {
+    "save": "Londoloza",
+    "saving": "Iyalondoloza...",
+    "saved": "Kulondoloziwe",
+    "cancel": "Khansela",
+    "close": "Vala",
+    "delete": "Susa",
+    "edit": "Hlela",
+    "create": "Dala",
+    "search": "Sesha",
+    "loading": "Iyalayisha...",
+    "error": "Iphutha",
+    "retry": "Zama futhi",
+    "confirm": "Qinisekisa",
+    "back": "Emuva",
+    "next": "Okulandelayo",
+    "continue": "Qhubeka",
+    "finish": "Qeda",
+    "copy": "Kopisha",
+    "copied": "Kukopishiwe",
+    "download": "Landa",
+    "upload": "Layisha",
+    "none": "Lutho",
+    "all": "Konke",
+    "yes": "Yebo",
+    "no": "Cha",
+    "select": "Khetha",
+    "optional": "ngokuzikhethela",
+    "required": "okudingekayo",
+    "unsaved_changes": "Izinguquko ezingalondoloziwe",
+    "name": "Igama",
+    "status": "Isimo",
+    "type": "Uhlobo",
+    "actions": "Izenzo",
+    "empty": "Akunalutho",
+    "browse": "Phequlula",
+    "remove": "Susa",
+    "add": "Engeza",
+    "rename": "Qamba kabusha",
+    "duplicate": "Impinda",
+    "warning": "Isexwayiso",
+    "locked": "Kukhiyiwe",
+    "builtin": "Kwakhelwe ngaphakathi",
+    "custom": "Ngokwezifiso",
+    "untitled": "Ayinasihloko",
+    "select_placeholder": "Khetha..."
+  },
+  "library": {
+    "title": "Umtapowolwazi",
+    "subtitle": "Izwi lakho nesiginci amaphrojekthi, kusukela embonweni kuya ekukhululweni.",
+    "new_project": "Iphrojekthi entsha",
+    "new_album": "I-albhamu entsha",
+    "search_placeholder": "Sesha ngegama...",
+    "view": {
+      "grid": "Igridi",
+      "albums": "Ama-albhamu"
+    },
+    "filters": {
+      "all": "Konke"
+    },
+    "take_count_one": " {{count}} thatha",
+    "take_count_other": " {{count}} kuthatha",
+    "updated_at": "Kubuyekeziwe {{date}} ",
+    "no_results": {
+      "title": "Awekho amaphrojekthi atholiwe",
+      "description": "Zama ukulungisa usesho noma isihlungi sesimo."
+    },
+    "empty": {
+      "title": "Ilabhulali yakho ayinalutho",
+      "description": "Qala iphrojekthi entsha kusukela ekuqaleni, noma ukungenisa kuthatha osuvele unayo kudiski.",
+      "cta_import": "Ngenisa kusuka kufolda",
+      "cta_new": "Dala iphrojekthi"
+    },
+    "project_dialog": {
+      "title": "Iphrojekthi entsha",
+      "description": "Inikeze igama bese ukhetha imodi yokurekhoda.",
+      "name_label": "Igama lephrojekthi",
+      "name_placeholder": "isib. Imvula Yasehlobo",
+      "mode_label": "Imodi",
+      "mode": {
+        "voice": "Izwi kuphela",
+        "voice_guitar": "Izwi + isiginci"
+      },
+      "submit": "Dala iphrojekthi"
+    },
+    "album_dialog": {
+      "title": "I-albhamu entsha",
+      "description": "Hlanganisa amaphrojekthi ahlobene abe i-albhamu.",
+      "name_label": "Igama le-albhamu",
+      "name_placeholder": "isib. Ikwindla EP",
+      "submit": "Dala i-albhamu"
+    },
+    "album": {
+      "untitled": "I-albhamu engenasihloko",
+      "members_count_one": " {{count}} iphrojekthi",
+      "members_count_other": " {{count}} amaphrojekthi",
+      "empty": "Awekho amaphrojekthi kule albhamu okwamanje.",
+      "delete_confirm_title": "Susa i-albhamu?",
+      "delete_confirm_description": "Amaphrojekthi ngeke asuswe, kuphela asuswe ukuxhumanisa kokuthi \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Susa \" {{name}} \"?",
+      "confirm_description": "Lokhu kususa iphrojekthi nakho konke ukuthatha kuyo. Lokhu akukwazi ukuhlehliswa."
+    }
+  },
+  "record": {
+    "title": "Qopha",
+    "subtitle": "Thatha ukuthatha okuhlanzekile, buka amaleveli akho, bese ulandela iskripthi.",
+    "project_label": "Iphrojekthi",
+    "project_placeholder": "Khetha iphrojekthi",
+    "project_create_quick": "Dala iphrojekthi esheshayo...",
+    "device_label": "Idivayisi yokufaka",
+    "device_placeholder": "Khetha idivayisi",
+    "device_default_badge": "Okuzenzakalelayo kwesistimu",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Awekho amadivayisi okokufaka atholiwe.",
+    "monitor_button": "Gada",
+    "monitor_stop_button": "Misa ukuqapha",
+    "record_button": "Qopha",
+    "stop_button": "Yima",
+    "elapsed_label": "Isikhathi esidlulile",
+    "status": {
+      "idle": "Ayisebenzi",
+      "monitoring": "Ukuqapha",
+      "recording": "Iyaqopha",
+      "stopped": "Imile"
+    },
+    "meter": {
+      "rms": "I-RMS",
+      "peak": "Isiqongo",
+      "clip": "Isiqeshana"
+    },
+    "guide": {
+      "title": "Iseshini eqondisiwe",
+      "subtitle": "Vumela umqeqeshi akuhambise kuskripthi isinyathelo ngesinyathelo, ukusuka ekufudumaleni kuye emshweni okhulunyiwe.",
+      "loading": "Ilayisha umbhalo...",
+      "unavailable": "Iseshini eqondisiwe ayitholakali kuseva okwamanje.",
+      "select_project_device": "Khetha iphrojekthi kanye nedivayisi yokufaka ukuze urekhode izinyathelo ukusuka lapha.",
+      "progress": " {{done}} wezinyathelo ezingu-{{total}}",
+      "start_timer": "Qala isibali sikhathi",
+      "skip_timer": "Yeqa isibali sikhathi",
+      "record_step": "Rekhoda lesi sinyathelo",
+      "stop_step": "Misa ukurekhoda",
+      "mark_done": "Kwenziwe - isinyathelo esilandelayo",
+      "step_recorded": "Thatha okurekhodiwe",
+      "no_record_step": "Isinyathelo sokufudumala — akukho ukurekhoda okudingekayo.",
+      "bars_hint": "Cishe amabha angu-{{bars}}",
+      "complete_title": "Iskriphthi siqediwe!",
+      "complete_body": "Urekhode zonke izinyathelo zombhalo. Buyela emuva kuthebhu yomsindo yephrojekthi bese ukhetha okuthandayo.",
+      "restart": "Qala kabusha iskripthi"
+    },
+    "best2min": {
+      "button": "Thola amaminithi angu-2 angcono kakhulu (i-Suno)",
+      "running": "Ihlaziya ukuthatha...",
+      "score_label": "Amaphuzu",
+      "hint": "Isebenzisa ukuhlaziya kwamandla nokucaca kukho konke ukuthatha ukuze ithole iwindi layo eliqine kakhulu lemizuzu emi-2 — usengakwazi ukulungisa ububanzi ngesandla ngemva kwalokho.",
+      "chart_caption": "Amaphuzu ngewindi ngalinye",
+      "unavailable": "Ukuhlaziya okuhamba phambili kwemizuzu emi-2 akutholakali kule seva okwamanje."
+    },
+    "takes_title": "Ithatha kule seshini",
+    "takes_empty": "Akukho kuthatha okurekhodiwe kulesi sikhathi okwamanje.",
+    "open_in_project": "Vula kuphrojekthi",
+    "ws_disconnected": "Ixhumeka kabusha kumitha yeleveli...",
+    "select_project_first": "Khetha iphrojekthi ukuze uqalise.",
+    "select_device_first": "Khetha idivayisi yokufaka."
+  },
+  "project": {
+    "back_to_library": "Buyela kulabhulali",
+    "header": {
+      "status_label": "Isimo",
+      "cover_upload": "Layisha ikhava",
+      "cover_remove": "Susa ikhava",
+      "name_placeholder": "Igama lephrojekthi",
+      "links_title": "Izixhumanisi",
+      "add_link": "Engeza isixhumanisi",
+      "mode": {
+        "voice": "Izwi kuphela",
+        "voice_guitar": "Izwi + isiginci"
+      }
+    },
+    "tabs": {
+      "audio": "Umsindo",
+      "lyrics": "Izingoma",
+      "prompts": "Ukwaziswa",
+      "notes": "Amanothi"
+    },
+    "audio": {
+      "takes_title": "Kuthatha",
+      "no_takes": {
+        "title": "Akukho okuthathayo okwamanje",
+        "description": "Rekhoda ukuthatha okusha noma ngenisa ifayela elikhona."
+      },
+      "record_new": "Rekhoda ukuthatha okusha",
+      "rating": "Isilinganiso",
+      "variant": {
+        "raw": "Okuluhlaza",
+        "processed": "Kucutshunguliwe"
+      },
+      "variant_placeholder": "Inguqulo",
+      "process_button": "Inqubo",
+      "export_button": "Thekelisa",
+      "delete_take_confirm_title": "Susa lokhu kuthathwa?",
+      "delete_take_confirm_description": "Umsindo ongahluziwe kanye nayo yonke inguqulo ecutshunguliwe izosuswa.",
+      "ab": {
+        "raw": "A · Okuluhlaza",
+        "processed": "B · Kucutshungulwe"
+      },
+      "origin": {
+        "recorded": "Irekhodiwe",
+        "imported": "Ingenisiwe"
+      },
+      "session_label_placeholder": "Ilebula yesikhathi (ongakukhetha)",
+      "duration": "Ubude besikhathi",
+      "sample_rate": "Isilinganiso sesampula",
+      "channels": "Iziteshi",
+      "created_at": "Irekhodiwe"
+    },
+    "pipeline": {
+      "title": "Ukucubungula iketango",
+      "preset_label": "Setha kusengaphambili",
+      "preset_none": "Iketango langokwezifiso",
+      "preset_save": "Londoloza njengokusethiwe ngaphambilini",
+      "stage_locked": "Kukhiyiwe",
+      "stage_requires_extra": "Idinga okungeziwe okungafakiwe",
+      "process_button": "Ukuthatha inqubo",
+      "processing": "Iyacubungula...",
+      "job_queued": "Kufakwe kulayini...",
+      "job_running": "Iyacubungula...",
+      "job_done": "Kwenziwe",
+      "job_error": "Yehlulekile",
+      "job_cancelled": "Kukhanseliwe",
+      "cancel_job": "Khansela",
+      "no_stages": "Azikho izigaba ezitholakalayo."
+    },
+    "export": {
+      "title": "Ukuthekelisa ukuthatha",
+      "description": "Nikeza ifayela lokugcina elisuka enguqulweni ecutshunguliwe.",
+      "variant_label": "Inguqulo",
+      "format_label": "Ifomethi",
+      "preset_label": "Khipha ukusetha ngaphambilini",
+      "range_label": "Ibanga",
+      "range_full": "Ubude obugcwele",
+      "range_custom": "Ibanga langokwezifiso",
+      "start_label": "Qala (izi)",
+      "end_label": "Qeda (izi)",
+      "submit": "Thekelisa",
+      "progress": "Inikezela ngefayela...",
+      "download_ready": "Ifayela selilungile",
+      "download_button": "Landa ifayela"
+    },
+    "notes": {
+      "placeholder": "Amanothi efomu lamahhala mayelana nale phrojekthi...",
+      "saved_at": "Kulondolozwe kokuthi {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Bhala amagama lapha. Sebenzisa iphalethi eseceleni ukuze ufake ama-meta-tags e-Suno.",
+      "saved_at": "Kulondolozwe kokuthi {{time}} ",
+      "saving": "Iyalondoloza...",
+      "versions": "Izinguqulo",
+      "versions_empty": "Azikho izinguqulo ezilondoloziwe okwamanje.",
+      "version_preview": "Buka kuqala",
+      "restore": "Buyisela le nguqulo",
+      "restore_confirm_title": "Buyisela le nguqulo?",
+      "restore_confirm_description": "Umbhalo wamanje uzothathelwa indawo inguqulo elondolozwe kokuthi {{date}} .",
+      "metatags_title": "I-Meta-tags",
+      "metatags_hint": "Chofoza umaka ukuze uwufake kukhesa.",
+      "metatags_placebo_warning": "Akuqinisekisiwe - kungase kungabi namphumela kumphumela.",
+      "metatags_empty": "Awekho ama-meta-tags abhalisiwe."
+    },
+    "prompts": {
+      "style_title": "Ukwaziswa kwesitayela",
+      "lyrics_title": "Ukwaziswa kwamagama",
+      "template_label": "Isifanekiso",
+      "template_none": "Asikho isifanekiso",
+      "variables_title": "Okuguquguqukayo",
+      "preview_title": "Buka kuqala",
+      "preview_empty": "Khetha isifanekiso bese ugcwalisa okuguquguqukayo ukuze ubone ukubuka kuqala.",
+      "char_count": " {{count}} izinhlamvu",
+      "char_count_warning": "Isitayela siyala izinhlamvu ezingaphezu kuka-1000 zingancishiswa yi-Suno.",
+      "copy": "Kopisha",
+      "copied": "Ikopishelwe ebhodini lokunamathisela",
+      "save_to_project": "Londoloza kuphrojekthi",
+      "saved_to_project": "Ukwaziswa kulondolozwe kuphrojekthi",
+      "history_title": "Umlando",
+      "history_empty": "Azikho izinguqulo zangaphambilini.",
+      "current_label": "Okwamanje"
+    },
+    "stems": {
+      "title": "Vocals kanye guitar",
+      "separate_button": "Hlukanisa amazwi nesiginci",
+      "running": "Iyahlukanisa...",
+      "vocals": "Amazwi",
+      "instrumental": "Izinsimbi",
+      "process_stem": "Sicubungula lesi siqu",
+      "empty": "Lokhu kuthatha akukakahlukaniswa. Gijimani ngokwehlukana ukuze uzwe izingoma nesiginci zodwa.",
+      "capability_missing": "Ukuhlukaniswa komthombo akufakiwe kule seva.",
+      "unavailable": "Ukuhlukaniswa kwezwi/isiginci akukakatholakali kule seva okwamanje."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Vuliwe",
+    "boolean_off": "Valiwe"
+  },
+  "import": {
+    "title": "Ngenisa",
+    "subtitle": "Letha amaphrojekthi asevele ekhona kudiski kulabhulali.",
+    "step_indicator": "Isinyathelo {{current}} kwezingu-{{total}} ",
+    "step1": {
+      "title": "Thola ifolda",
+      "description": "Khomba impande yefolda enamaphrojekthi namathrekhi akho.",
+      "path_label": "Indlela yefolda",
+      "path_placeholder": "isib. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "Kwakamuva",
+      "scan_button": "Skena ifolda",
+      "scanning": "Iyaskena...",
+      "ffmpeg_warning": "I-FFmpeg ayitholakali - amafayela adinga ukuguqulwa azokweqiwa.",
+      "folders_found_one": " {{count}} ifolda itholiwe",
+      "folders_found_other": " {{count}} amafolda atholiwe",
+      "unmatched_files_one": " {{count}} ifayela elingaziwa",
+      "unmatched_files_other": " {{count}} amafayela angaziwa"
+    },
+    "step2": {
+      "title": "Buyekeza izinto",
+      "description": "Hlola amagama, izimo, nalokho okuzongeniswa ngaphambi kokuqinisekisa.",
+      "select_all": "Khetha konke",
+      "table": {
+        "folder": "Ifolda engumthombo",
+        "name": "Igama lephrojekthi",
+        "status": "Isimo",
+        "audio": "Umsindo",
+        "lyrics": "Izingoma",
+        "cover": "Ikhava",
+        "album": "I-albhamu"
+      },
+      "audio_include_one": " {{count}} ifayela elikhethiwe",
+      "audio_include_other": " {{count}} amafayela akhethiwe",
+      "no_audio": "Awukho umsindo otholiwe",
+      "no_lyrics": "Awekho amazwi atholakele",
+      "no_cover": "Ayikho ikhava",
+      "warnings_title": "Izixwayiso"
+    },
+    "step3": {
+      "title": "Ngenisa",
+      "description": "Qinisekisa ukukopisha amafayela futhi udale amaphrojekthi.",
+      "copy_originals": "Kopisha amafayela angempela kulabhulali",
+      "execute_button": "Qala ukungenisa",
+      "progress_title": "Iyangenisa...",
+      "created_count": "Idaliwe: {{count}} ",
+      "skipped_count": "Kweqiwe: {{count}} ",
+      "done_title": "Ukungenisa kuqedile",
+      "done_description": "Amaphrojekthi angezansi adalwe kulabhulali yakho.",
+      "view_project": "Vula iphrojekthi",
+      "start_over": "Ukungenisa okusha"
+    }
+  },
+  "templates": {
+    "title": "Izifanekiso",
+    "subtitle": "Izifanekiso zokwaziswa ezingasebenziseka kabusha nama-meta-tags we-Suno.",
+    "tabs": {
+      "prompts": "Izifanekiso ezisheshayo",
+      "metatags": "I-Meta-tags"
+    },
+    "new_template": "Isifanekiso esisha",
+    "kind": {
+      "style": "Isitayela",
+      "lyrics": "Izingoma"
+    },
+    "kind_label": "Uhlobo",
+    "delete_confirm_title": "Susa isifanekiso \" {{name}} \"?",
+    "delete_confirm_description": "Lokhu akukwazi ukuhlehliswa.",
+    "empty": "Azikho izifanekiso okwamanje.",
+    "editor": {
+      "title_new": "Isifanekiso esisha",
+      "title_edit": "Hlela isifanekiso",
+      "name_label": "Igama",
+      "name_placeholder": "isib. I-acoustic ballad",
+      "kind_label": "Uhlobo",
+      "template_label": "Umbhalo wesifanekiso",
+      "template_hint": "Maka lapho okuhlukile ngakunye negama lakho eligoqwe ngezikaki ezigoqene kabili - isibonelo, okuhlukile okubizwa ngokuthi \"uhlobo\" kuba uhlobo olusongwe ngezinsimbi ezimbili zokuvula nezimbili zokuvala.",
+      "variables_label": "Okuguquguqukayo",
+      "variable_add": "Engeza okuguquguqukayo",
+      "variable_name": "Ukhiye",
+      "variable_label": "Ilebula",
+      "variable_type": "Uhlobo",
+      "variable_type_string": "Umbhalo",
+      "variable_type_select": "Ukukhetha okukodwa",
+      "variable_type_multiselect": "Khetha okuningi",
+      "variable_type_number": "Inombolo",
+      "variable_type_boolean": "Yebo/cha",
+      "variable_options": "Izinketho (zihlukaniswe ngokhefana)",
+      "variable_required": "Kudingeka",
+      "save": "Londoloza isifanekiso"
+    },
+    "metatags": {
+      "title": "I-Meta-tags",
+      "subtitle": "Omaki besakhiwo nesitayela u-Suno uyababona amagama angaphakathi.",
+      "new_tag": "Umaka omusha",
+      "tag_label": "Maka",
+      "tag_placeholder": "isib. isiginci-solo",
+      "category_label": "Isigaba",
+      "tier_label": "Ukwethembeka",
+      "tier_legend_title": "Inganekwane enokwethenjelwa",
+      "tier_legend": {
+        "1": "Isigaba 1 - sibhaliwe futhi asiguquguquki",
+        "2": "Isigaba 2 - ngokuvamile siyasebenza",
+        "3": "Isigaba 3 - umphumela oguquguqukayo",
+        "4": "Isigaba 4 - indawo ye-placebo, engafakazelwanga"
+      },
+      "description_label": "Incazelo",
+      "delete_confirm_title": "Susa umaka \" {{tag}} \"?",
+      "empty": "Awekho ama-meta-tag angokwezifiso okwamanje."
+    }
+  },
+  "settings": {
+    "title": "Izilungiselelo",
+    "subtitle": "Ulwazi lwesistimu, ulimi, nezintandokazi ezizenzakalelayo.",
+    "system_info_title": "Uhlelo",
+    "version": "Inguqulo",
+    "data_dir": "Ifolda yedatha",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Iyatholakala",
+    "ffmpeg_missing": "Ayitholakali",
+    "capabilities_title": "Amakhono afakiwe",
+    "capability": {
+      "denoise": "Ukunciphisa umsindo",
+      "quality": "Ukuthuthukiswa kwekhwalithi",
+      "separate": "Ukuhlukaniswa komthombo",
+      "ffmpeg": "FFmpeg ukuguqulwa"
+    },
+    "capability_available": "Iyatholakala",
+    "capability_unavailable": "Ayitholakali",
+    "gpu_title": "Ukusheshisa kwe-GPU",
+    "gpu": {
+      "torch_cuda": "I-PyTorch CUDA",
+      "ort_providers": "Abahlinzeki besikhathi sokusebenza kwe-ONNX"
+    },
+    "gpu_none": "Abekho abahlinzeki be-GPU abatholiwe",
+    "language_title": "Ulimi",
+    "language": {
+      "pt-BR": "Isi-Portuguese (Brasil)",
+      "en": "IsiNgisi"
+    },
+    "theme_title": "Ukubukeka",
+    "theme": {
+      "dark": "Kumnyama",
+      "light": "Ukukhanya"
+    },
+    "defaults_title": "Khipha okuzenzakalelayo",
+    "lufs_target_label": "I-LUFS eqondiwe",
+    "lufs_target_hint": "Isetshenziswa njengesiphakamiso sokuqala lapho ukuthunyelwa kuthatha. Okuzenzakalelayo kuka-Suno kuhlala cishe -14 LUFS.",
+    "saved": "Izintandokazi zilondoloziwe"
+  },
+  "guide": {
+    "title": "Umhlahlandlela wokuqopha we-Suno",
+    "subtitle": "Indlela yokuthwebula izwi nesiginci kuthatha okuthola imiphumela engcono kakhulu.",
+    "intro": "I-Suno yenza kahle kakhulu ngezithenjwa ezihlanzekile, ezicacile. Lo mhlahlandlela uhlanganisa ukulungiselela, amazinga okuhlosiwe, kanye neskripthi sokurekhoda semizuzu emi-3–5.",
+    "sections": {
+      "prep": {
+        "title": "Ukulungiselela",
+        "body": "Qopha egumbini eliphathwe kahle noma elinezinto eziningi ezithambile (amakhethini, ama-rugs, izingubo ekhabetheni). Vala abalandeli nanoma yini ehubhayo. Zifudumeze izwi lakho imizuzu emi-5 ngaphambi kokurekhoda."
+      },
+      "levels": {
+        "title": "Amazinga: -12 kuya ku-6 dBFS",
+        "body": "Khomba iziqongo eziphakathi kuka -12 kanye -6 dBFS kumitha. Ngaphansi kwalolo bubanzi, umsindo ongemuva ubonakala kakhulu; ngaphezu kwaso, ingozi yokunqamula iyanda. Sebenzisa imitha ekhasini Lokurekhoda ukuze usethe inzuzo yakho ngaphambi kokuthi uqale."
+      },
+      "distance": {
+        "title": "Ibanga le-Mic: 15-30 cm",
+        "body": "Hlala ku-15 kuya ku-30 cm ukusuka kumakrofoni. Eduze kunalokho kwenza ihaba ngeziqhumane kanye nomphumela wokuba seduze; kude uthatha isaga segumbi nomsindo."
+      },
+      "script": {
+        "title": "Iskripthi sokurekhoda",
+        "warmup": "Ukufudumala kwezwi (1-2 imizuzu)",
+        "vowels": "Onkamisa abagxilile — a, e, i, o, u",
+        "scales": "Izikali ezilula, phezulu naphansi",
+        "excerpt": "Ingcaphuno yengoma (amabha ayi-8 kuye kwayi-16)",
+        "dynamics": "Amandla: qala ngokuthambile, gcina phezulu",
+        "spoken_phrase": "Ibinzana elilodwa elikhulunywayo, ukuze u-Suno akwazi ukufunda iphimbo lakho"
+      },
+      "expectations": {
+        "title": "Okulindelwe nguSuno",
+        "body": "I-WAV, 48 kHz, i-mono, yomile (ayikho isaga noma imiphumela), imizuzu emi-3 ukuya kwemi-5 yereferensi. Amaminithi angu-2 ahlanzekile, amele kakhulu okuthatha ngokuvamile akhiqiza imiphumela engcono kakhulu."
+      }
+    }
+  },
+  "status": {
+    "idea": "Umbono",
+    "em_progresso": "Iyaqhubeka",
+    "quase": "Cishe usufikile",
+    "pronto": "Ilungile"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Umbhalo ogcwele wezwi we-Suno",
+      "desc": "Imizuzu emi-5 eqondisiwe: ukufudumala, onkamisa, izikali, izingcaphuno zezingoma ezimbili, amandla, kanye nebinzana elikhulunywayo."
+    },
+    "step": {
+      "warmup": "Ukufudumala kwezwi",
+      "warmup_inst": "Zithukulule ngokuzamula, izindebe zomlomo (brrr), kanye nezwi elithambile cishe umzuzu. Asikho isidingo sokuqopha — wukuphumuza umphimbo wakho ngaphambi kokucula.",
+      "vowels": "Onkamisa abagxilile",
+      "vowels_inst": "Bamba unkamisa ngamunye — a, e, i, o, u — amasekhondi angu-3 ukuya kwangu-4 kuphimbo lakho elinethezekile, ngevolumu enganyakazi. Lokhu kusiza u-Suno ukuthi athathe i-timbre emsulwa yezwi lakho.",
+      "scales": "Izikali phezulu naphansi",
+      "scales_inst": "Cula isikali esilula phezulu bese phansi, ku-\"la\" noma \"na\". Akudingi ukuthi iphelele — umgomo uwukubala uhla lwephimbo lakho.",
+      "section": "Ingcaphuno yengoma - ingxenye 1",
+      "section_inst": "Cula imigoqo eyi-8 kuya kweyi-16 yengoma, ngenhloso yangempela ofuna ukuyidlulisa. Beka kuqala ukucaca nokuba khona kunokuphelela kobuchwepheshe.",
+      "section2": "Ingcaphuno yengoma - ingxenye 2",
+      "section2_inst": "Cula amanye amabha angu-8 kuya kwangu-16 - ingoma ekahle noma ingxenye ephikisana nedlule. Ukuhlukahluka okwengeziwe kusiza imodeli ukuthi ifunde izwi lakho.",
+      "dynamics": "Amandla: okuthambile → phezulu",
+      "dynamics_inst": "Hlabelela umusho ofanayo uqale ngokuthambile kakhulu futhi uphethe ngokuzwakalayo, ngaphandle kokuqinisa umphimbo wakho. Lokhu kubonisa i-Suno ibanga eliguqukayo lezwi lakho.",
+      "spoken": "Inkulumo ekhulunywayo",
+      "spoken_inst": "Khuluma — ungaculi — ibinzana elifushane, lemvelo, sengathi uyaxoxa. Lokhu kusiza u-Suno ukubona i-timbre yangempela yezwi lakho."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Ukubuyisela",
+      "filter": "Izihlungi",
+      "dynamics": "Amandla",
+      "separation": "Ukwehlukana",
+      "quality": "Ikhwalithi",
+      "utility": "Isisetshenziswa",
+      "loudness": "Umsindo"
+    },
+    "highpass": "Isihlungi se-high-pass",
+    "lowpass": "Isihlungi se-low-pass",
+    "denoise": "Ukunciphisa umsindo",
+    "declip": "Yehla",
+    "declick": "Chofoza/pop ukususwa",
+    "deesser": "I-De-esser",
+    "gate": "Isango lomsindo",
+    "compressor": "I-Compressor",
+    "limiter": "Umkhawulo",
+    "eq": "Ukulinganisa",
+    "normalize": "Isilinganiso esiphezulu",
+    "loudness": "I-Loudness normalization (LUFS)",
+    "reverb_reduce": "Ukuncishiswa kwesaga",
+    "separate": "Ukuhlukaniswa komthombo",
+    "quality": "Ukuthuthukiswa kwekhwalithi (phezulu)",
+    "trim_silence": "Kuthule ukusika",
+    "fade": "Fade in / fade out",
+    "stereo_to_mono": "Guqula ibe mono",
+    "resample": "Ukusampula kabusha"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Uthembekile",
+      "2": "Ngokuvamile kusebenza",
+      "3": "Iyaguquguquka",
+      "4": "I-Placebo"
+    },
+    "category": {
+      "structure": "Isakhiwo",
+      "vocal": "Ngezwi",
+      "instrument": "Insimbi",
+      "dynamics": "Amandla",
+      "production": "Ukukhiqiza",
+      "mood": "Isimo sengqondo"
+    },
+    "verse": "Ivesi",
+    "chorus": "Ikhorasi",
+    "bridge": "Ibhuloho",
+    "intro": "Isingeniso",
+    "outro": "I-Outro",
+    "hook": "Hook",
+    "prechorus": "I-Pre-chorus",
+    "instrumental": "Izinsimbi",
+    "guitar_solo": "Isiginci Sodwa",
+    "build_up": "Ukwakha-up",
+    "breakdown": "Ukuhlukana",
+    "spoken_word": "Kukhulunywa izwi",
+    "whispered": "Ehleba",
+    "harmonies": "Ukuvumelana",
+    "male_vocal": "Izwi lowesilisa",
+    "female_vocal": "Izwi lowesifazane",
+    "duet": "I-Duet",
+    "acoustic": "I-Acoustic",
+    "ad_lib": "Isikhangiso"
+  },
+  "presets": {
+    "clean_voice": "Izwi elihlanzekile",
+    "voice_guitar_balanced": "Izwi nesiginci esinokulinganisela",
+    "podcast": "Iphodikhasti",
+    "suno_ready": "USuno ulungile",
+    "gentle_restore": "Ukubuyisela okumnene",
+    "raw_passthrough": "Akukho ukucutshungulwa"
+  },
+  "errors": {
+    "unknown": "Kukhona okungahambanga kahle.",
+    "network": "Ayikwazanga ukufinyelela iseva.",
+    "validation_error": "Hlola ulwazi olufakile.",
+    "not_found": "Into ayitholakali.",
+    "project_not_found": "Iphrojekthi ayitholakali.",
+    "take_not_found": "Ukuthatha akutholakali.",
+    "album_not_found": "I-albhamu ayitholakali.",
+    "preset_not_found": "Ukusethwa ngaphambilini akutholakali.",
+    "template_not_found": "Isifanekiso asitholakali.",
+    "device_busy": "Idivayisi yomsindo isetshenziswa olunye uhlelo.",
+    "device_not_found": "Idivayisi yomsindo ayitholakali.",
+    "already_recording": "Ukurekhodwa sekuvele kuyaqhubeka.",
+    "ffmpeg_missing": "I-FFmpeg ayifakiwe — yifake ukuze uguqule leli fayela.",
+    "disk_full": "Asikho isikhala esanele sediski.",
+    "permission_denied": "Imvume inqatshelwe endleleni enikeziwe.",
+    "import_path_not_found": "Indlela yokungenisa ayitholakali.",
+    "job_failed": "Ukucubungula kuhlulekile.",
+    "job_cancelled": "Ukucubungula kukhanseliwe.",
+    "process_failed": "Yehlulekile ukucubungula ukuthatha.",
+    "export_failed": "Yehlulekile ukukhipha ifayela.",
+    "record_failed": "Yehlulekile ukuqala ukurekhoda."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Kufakwe kulayini",
+      "running": "Ukugijima",
+      "done": "Kwenziwe",
+      "error": "Yehlulekile",
+      "cancelled": "Kukhanseliwe"
+    },
+    "kind": {
+      "process": "Iyacubungula",
+      "export": "Thekelisa",
+      "import": "Ngenisa",
+      "record": "Iyaqopha"
+    }
+  }
+}

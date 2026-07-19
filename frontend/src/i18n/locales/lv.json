@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio tīrītājs"
+  },
+  "nav": {
+    "library": "Bibliotēka",
+    "record": "Ieraksts",
+    "import": "Importēt",
+    "templates": "Veidnes",
+    "settings": "Iestatījumi",
+    "guide": "Ceļvedis"
+  },
+  "common": {
+    "save": "Saglabāt",
+    "saving": "Notiek saglabāšana…",
+    "saved": "Saglabāts",
+    "cancel": "Atcelt",
+    "close": "Aizvērt",
+    "delete": "Dzēst",
+    "edit": "Rediģēt",
+    "create": "Izveidot",
+    "search": "Meklēt",
+    "loading": "Notiek ielāde…",
+    "error": "Kļūda",
+    "retry": "Mēģiniet vēlreiz",
+    "confirm": "Apstiprināt",
+    "back": "Atpakaļ",
+    "next": "Tālāk",
+    "continue": "Turpināt",
+    "finish": "Pabeigt",
+    "copy": "Kopēt",
+    "copied": "Kopēts",
+    "download": "Lejupielādēt",
+    "upload": "Augšupielādēt",
+    "none": "Nav",
+    "all": "Visi",
+    "yes": "Jā",
+    "no": "Nē",
+    "select": "Izvēlieties",
+    "optional": "pēc izvēles",
+    "required": "nepieciešams",
+    "unsaved_changes": "Nesaglabātas izmaiņas",
+    "name": "Vārds",
+    "status": "Statuss",
+    "type": "Tips",
+    "actions": "Darbības",
+    "empty": "Tukšs",
+    "browse": "Pārlūkot",
+    "remove": "Noņemt",
+    "add": "Pievienot",
+    "rename": "Pārdēvēt",
+    "duplicate": "Dublikāts",
+    "warning": "Brīdinājums",
+    "locked": "Bloķēts",
+    "builtin": "Iebūvēts",
+    "custom": "Pielāgots",
+    "untitled": "Bez nosaukuma",
+    "select_placeholder": "Izvēlieties…"
+  },
+  "library": {
+    "title": "Bibliotēka",
+    "subtitle": "Jūsu balss un ģitāras projekti no idejas līdz izlaidumam.",
+    "new_project": "Jauns projekts",
+    "new_album": "Jauns albums",
+    "search_placeholder": "Meklēt pēc vārda…",
+    "view": {
+      "grid": "Režģis",
+      "albums": "Albumi"
+    },
+    "filters": {
+      "all": "Visi"
+    },
+    "take_count_one": " {{count}} ņemt",
+    "take_count_other": " {{count}} aizņem",
+    "updated_at": "Atjaunināts {{date}} ",
+    "no_results": {
+      "title": "Nav atrasts neviens projekts",
+      "description": "Mēģiniet pielāgot meklēšanas vai statusa filtru."
+    },
+    "empty": {
+      "title": "Jūsu bibliotēka ir tukša",
+      "description": "Sāciet jaunu projektu no jauna vai importējiet to, kas jums jau ir diskā.",
+      "cta_import": "Importēt no mapes",
+      "cta_new": "Izveidot projektu"
+    },
+    "project_dialog": {
+      "title": "Jauns projekts",
+      "description": "Piešķiriet tai nosaukumu un izvēlieties ierakstīšanas režīmu.",
+      "name_label": "Projekta nosaukums",
+      "name_placeholder": "piem. Vasaras lietus",
+      "mode_label": "Režīms",
+      "mode": {
+        "voice": "Tikai balss",
+        "voice_guitar": "Balss + ģitāra"
+      },
+      "submit": "Izveidot projektu"
+    },
+    "album_dialog": {
+      "title": "Jauns albums",
+      "description": "Grupējiet saistītos projektus albumā.",
+      "name_label": "Albuma nosaukums",
+      "name_placeholder": "piem. Rudens EP",
+      "submit": "Izveidot albumu"
+    },
+    "album": {
+      "untitled": "Albums bez nosaukuma",
+      "members_count_one": " {{count}} projekts",
+      "members_count_other": " {{count}} projekti",
+      "empty": "Šajā albumā vēl nav projektu.",
+      "delete_confirm_title": "Vai dzēst albumu?",
+      "delete_confirm_description": "Projekti netiks dzēsti, tikai atsaistīti no “{{name}}”."
+    },
+    "delete_project": {
+      "confirm_title": "Vai dzēst \"{{name}}\"?",
+      "confirm_description": "Tādējādi tiek noņemts projekts un visi tajā iekļautie elementi. Šo darbību nevar atsaukt."
+    }
+  },
+  "record": {
+    "title": "Ieraksts",
+    "subtitle": "Uzņemiet skaidru attēlu, vērojiet savus līmeņus un izpildiet scenāriju.",
+    "project_label": "Projekts",
+    "project_placeholder": "Izvēlieties projektu",
+    "project_create_quick": "Izveidojiet ātru projektu…",
+    "device_label": "Ievades ierīce",
+    "device_placeholder": "Izvēlieties ierīci",
+    "device_default_badge": "Sistēmas noklusējums",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Nav atrasta neviena ievades ierīce.",
+    "monitor_button": "Monitors",
+    "monitor_stop_button": "Pārtraukt uzraudzību",
+    "record_button": "Ieraksts",
+    "stop_button": "Stop",
+    "elapsed_label": "Pagājušais laiks",
+    "status": {
+      "idle": "Dīkstāvē",
+      "monitoring": "Uzraudzība",
+      "recording": "Ierakstīšana",
+      "stopped": "Apstājās"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Virsotne",
+      "clip": "Klips"
+    },
+    "guide": {
+      "title": "Vadīta sesija",
+      "subtitle": "Ļaujiet trenerim soli pa solim iepazīstināt jūs ar scenāriju, sākot no iesildīšanās līdz izrunātajai frāzei.",
+      "loading": "Notiek skripta ielāde…",
+      "unavailable": "Vadītā sesija vēl nav pieejama serverī.",
+      "select_project_device": "Izvēlieties projektu un ievades ierīci, lai ierakstītu darbības tieši no šejienes.",
+      "progress": " {{done}} no {{total}} soļiem",
+      "start_timer": "Sāciet taimeri",
+      "skip_timer": "Izlaist taimeri",
+      "record_step": "Ierakstiet šo soli",
+      "stop_step": "Pārtraukt ierakstīšanu",
+      "mark_done": "Gatavs - nākamais solis",
+      "step_recorded": "Uzņemt ierakstītu",
+      "no_record_step": "Iesildīšanās solis — nav nepieciešams ieraksts.",
+      "bars_hint": "Apmēram {{bars}} joslas",
+      "complete_title": "Skripts ir pabeigts!",
+      "complete_body": "Jūs esat ierakstījis katru skripta soli. Dodieties atpakaļ uz projekta cilni Audio un izvēlieties savus iecienītākos attēlus.",
+      "restart": "Restartējiet skriptu"
+    },
+    "best2min": {
+      "button": "Atrodiet labākās 2 minūtes (Suno)",
+      "running": "Notiek uzņemšanas analīze…",
+      "score_label": "Rezultāts",
+      "hint": "Veic enerģijas un skaidrības analīzi visā filmā, lai atrastu spēcīgāko 2 minūšu logu — jūs joprojām varat pielāgot diapazonu ar roku.",
+      "chart_caption": "Rezultāts katrā logā",
+      "unavailable": "Labākā 2 minūšu analīze šajā serverī vēl nav pieejama."
+    },
+    "takes_title": "Ņem no šīs sesijas",
+    "takes_empty": "Šajā sesijā vēl nav ierakstīts neviens uzņēmums.",
+    "open_in_project": "Atvērt projektā",
+    "ws_disconnected": "Notiek atkārtota savienojuma izveide ar līmeņa mērītāju…",
+    "select_project_first": "Lai sāktu, izvēlieties projektu.",
+    "select_device_first": "Izvēlieties ievades ierīci."
+  },
+  "project": {
+    "back_to_library": "Atpakaļ uz bibliotēku",
+    "header": {
+      "status_label": "Statuss",
+      "cover_upload": "Augšupielādēt vāku",
+      "cover_remove": "Noņemiet vāku",
+      "name_placeholder": "Projekta nosaukums",
+      "links_title": "Saites",
+      "add_link": "Pievienot saiti",
+      "mode": {
+        "voice": "Tikai balss",
+        "voice_guitar": "Balss + ģitāra"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Dziesmu vārdi",
+      "prompts": "Uzvednes",
+      "notes": "Piezīmes"
+    },
+    "audio": {
+      "takes_title": "Paņem",
+      "no_takes": {
+        "title": "Vēl nav uzņemtas",
+        "description": "Ierakstiet jaunu attēlu vai importējiet esošu failu."
+      },
+      "record_new": "Ierakstiet jaunu uzņemšanu",
+      "rating": "Vērtējums",
+      "variant": {
+        "raw": "Neapstrādāts",
+        "processed": "Apstrādāts"
+      },
+      "variant_placeholder": "Versija",
+      "process_button": "Process",
+      "export_button": "Eksportēt",
+      "delete_take_confirm_title": "Vai dzēst šo attēlu?",
+      "delete_take_confirm_description": "Neapstrādātais audio un visas apstrādātās versijas tiks noņemtas.",
+      "ab": {
+        "raw": "A · Neapstrādāts",
+        "processed": "B · Apstrādāts"
+      },
+      "origin": {
+        "recorded": "Ierakstīts",
+        "imported": "Importēts"
+      },
+      "session_label_placeholder": "Sesijas iezīme (neobligāti)",
+      "duration": "Ilgums",
+      "sample_rate": "Izlases ātrums",
+      "channels": "Kanāli",
+      "created_at": "Ierakstīts"
+    },
+    "pipeline": {
+      "title": "Apstrādes ķēde",
+      "preset_label": "Iepriekš iestatīts",
+      "preset_none": "Pielāgota ķēde",
+      "preset_save": "Saglabāt kā iepriekš iestatītu",
+      "stage_locked": "Bloķēts",
+      "stage_requires_extra": "Nepieciešama papildu ierīce, kas nav instalēta",
+      "process_button": "Procesa ņemšana",
+      "processing": "Notiek apstrāde…",
+      "job_queued": "Rindā…",
+      "job_running": "Notiek apstrāde…",
+      "job_done": "Gatavs",
+      "job_error": "Neizdevās",
+      "job_cancelled": "Atcelts",
+      "cancel_job": "Atcelt",
+      "no_stages": "Nav pieejams neviens posms."
+    },
+    "export": {
+      "title": "Eksporta paņemšana",
+      "description": "Renderējiet galīgo failu no apstrādātas versijas.",
+      "variant_label": "Versija",
+      "format_label": "Formāts",
+      "preset_label": "Eksportēt sākotnējo iestatījumu",
+      "range_label": "Diapazons",
+      "range_full": "Pilnā garumā",
+      "range_custom": "Pielāgots diapazons",
+      "start_label": "Sākums (s)",
+      "end_label": "Beigas",
+      "submit": "Eksportēt",
+      "progress": "Notiek faila renderēšana…",
+      "download_ready": "Fails gatavs",
+      "download_button": "Lejupielādēt failu"
+    },
+    "notes": {
+      "placeholder": "Brīvas formas piezīmes par šo projektu…",
+      "saved_at": "Saglabāts {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Raksti dziesmu tekstus šeit. Izmantojiet sānu paleti, lai ievietotu Suno metatagus.",
+      "saved_at": "Saglabāts {{time}} ",
+      "saving": "Notiek saglabāšana…",
+      "versions": "Versijas",
+      "versions_empty": "Vēl nav nevienas saglabātas versijas.",
+      "version_preview": "Priekšskatījums",
+      "restore": "Atjaunot šo versiju",
+      "restore_confirm_title": "Vai atjaunot šo versiju?",
+      "restore_confirm_description": "Pašreizējais teksts tiks aizstāts ar versiju, kas saglabāta {{date}}.",
+      "metatags_title": "Meta tagi",
+      "metatags_hint": "Noklikšķiniet uz atzīmes, lai ievietotu to kursorā.",
+      "metatags_placebo_warning": "Nepierādīts — var neietekmēt rezultātu.",
+      "metatags_empty": "Nav reģistrēts neviens metatags."
+    },
+    "prompts": {
+      "style_title": "Stila uzvedne",
+      "lyrics_title": "Dziesmu tekstu uzvedne",
+      "template_label": "Veidne",
+      "template_none": "Nav veidnes",
+      "variables_title": "Mainīgie lielumi",
+      "preview_title": "Priekšskatījums",
+      "preview_empty": "Izvēlieties veidni un aizpildiet mainīgos, lai redzētu priekšskatījumu.",
+      "char_count": " {{count}} rakstzīmes",
+      "char_count_warning": "Suno var saīsināt stila uzvednes, kuru garums pārsniedz 1000 rakstzīmes.",
+      "copy": "Kopēt",
+      "copied": "Kopēts starpliktuvē",
+      "save_to_project": "Saglabāt projektā",
+      "saved_to_project": "Uzvedne ir saglabāta projektā",
+      "history_title": "Vēsture",
+      "history_empty": "Nav iepriekšējo versiju.",
+      "current_label": "Pašreizējais"
+    },
+    "stems": {
+      "title": "Vokāls un ģitāra",
+      "separate_button": "Atsevišķs vokāls un ģitāra",
+      "running": "Notiek atdalīšana…",
+      "vocals": "Vokāls",
+      "instrumental": "Instrumentāls",
+      "process_stem": "Apstrādājiet šo kātu",
+      "empty": "Šī darbība vēl nav izdalīta. Veiciet atdalīšanu, lai dzirdētu vokālu un ģitāru atsevišķi.",
+      "capability_missing": "Avota atdalīšana šajā serverī nav instalēta.",
+      "unavailable": "Vokāla/ģitāras atdalīšana šajā serverī vēl nav pieejama."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Ieslēgts",
+    "boolean_off": "Izslēgts"
+  },
+  "import": {
+    "title": "Importēt",
+    "subtitle": "Ievietojiet bibliotēkā projektus, kas jau pastāv diskā.",
+    "step_indicator": "{{current}}. darbība no {{total}} ",
+    "step1": {
+      "title": "Atrodiet mapi",
+      "description": "Norādiet uz saknes mapi ar saviem projektiem un ierakstiem.",
+      "path_label": "Mapes ceļš",
+      "path_placeholder": "piem. E:\\Robbs\\Pride\\Mūzika\\ROBBS",
+      "recent_label": "Nesen",
+      "scan_button": "Skenēt mapi",
+      "scanning": "Notiek skenēšana…",
+      "ffmpeg_warning": "FFmpeg nav atrasts — faili, kuriem nepieciešama konvertēšana, tiks izlaisti.",
+      "folders_found_one": " Atrasta mape {{count}}",
+      "folders_found_other": " Atrastas {{count}} mapes",
+      "unmatched_files_one": " {{count}} neatpazīts fails",
+      "unmatched_files_other": " {{count}} neatpazīti faili"
+    },
+    "step2": {
+      "title": "Pārskatiet vienumus",
+      "description": "Pirms apstiprināšanas pārbaudiet vārdus, statusus un to, kas tiks importēts.",
+      "select_all": "Atlasiet visu",
+      "table": {
+        "folder": "Avota mape",
+        "name": "Projekta nosaukums",
+        "status": "Statuss",
+        "audio": "Audio",
+        "lyrics": "Dziesmu vārdi",
+        "cover": "Vāks",
+        "album": "Albums"
+      },
+      "audio_include_one": " {{count}} fails ir atlasīts",
+      "audio_include_other": " {{count}} faili atlasīti",
+      "no_audio": "Audio nav atrasts",
+      "no_lyrics": "Dziesmu vārdi nav atrasti",
+      "no_cover": "Nav vāka",
+      "warnings_title": "Brīdinājumi"
+    },
+    "step3": {
+      "title": "Importēt",
+      "description": "Apstipriniet, lai kopētu failus un izveidotu projektus.",
+      "copy_originals": "Kopējiet oriģinālos failus bibliotēkā",
+      "execute_button": "Sākt importēšanu",
+      "progress_title": "Notiek importēšana…",
+      "created_count": "Izveidots: {{count}} ",
+      "skipped_count": "Izlaists: {{count}} ",
+      "done_title": "Importēšana ir pabeigta",
+      "done_description": "Tālāk minētie projekti tika izveidoti jūsu bibliotēkā.",
+      "view_project": "Atvērts projekts",
+      "start_over": "Jauns imports"
+    }
+  },
+  "templates": {
+    "title": "Veidnes",
+    "subtitle": "Atkārtoti lietojamas uzvedņu veidnes un metatagi Suno.",
+    "tabs": {
+      "prompts": "Uzvedņu veidnes",
+      "metatags": "Meta tagi"
+    },
+    "new_template": "Jauna veidne",
+    "kind": {
+      "style": "Stils",
+      "lyrics": "Dziesmu vārdi"
+    },
+    "kind_label": "Laipni",
+    "delete_confirm_title": "Vai dzēst veidni \"{{name}}\"?",
+    "delete_confirm_description": "Šo darbību nevar atsaukt.",
+    "empty": "Vēl nav nevienas veidnes.",
+    "editor": {
+      "title_new": "Jauna veidne",
+      "title_edit": "Rediģēt veidni",
+      "name_label": "Vārds",
+      "name_placeholder": "piem. Akustiskā balāde",
+      "kind_label": "Laipni",
+      "template_label": "Veidnes teksts",
+      "template_hint": "Atzīmējiet katra mainīgā piederības vietu ar tā nosaukumu, kas ietīts dubultās krokainās iekavās — piemēram, mainīgais ar nosaukumu “žanrs” kļūst par žanru, kas ietīts divās atverošās un divās noslēdzošās iekavās.",
+      "variables_label": "Mainīgie lielumi",
+      "variable_add": "Pievienot mainīgo",
+      "variable_name": "Atslēga",
+      "variable_label": "Etiķete",
+      "variable_type": "Tips",
+      "variable_type_string": "Teksts",
+      "variable_type_select": "Viena atlase",
+      "variable_type_multiselect": "Vairākas atlases",
+      "variable_type_number": "Numurs",
+      "variable_type_boolean": "Jā/nē",
+      "variable_options": "Opcijas (atdalītas ar komatu)",
+      "variable_required": "Obligāti",
+      "save": "Saglabāt veidni"
+    },
+    "metatags": {
+      "title": "Meta tagi",
+      "subtitle": "Strukturālās un stila atzīmes Suno atpazīst dziesmu tekstus.",
+      "new_tag": "Jauna atzīme",
+      "tag_label": "Tag",
+      "tag_placeholder": "piem. ģitāra-solo",
+      "category_label": "Kategorija",
+      "tier_label": "Uzticamība",
+      "tier_legend_title": "Uzticamības leģenda",
+      "tier_legend": {
+        "1": "1. līmenis — dokumentēts un konsekvents",
+        "2": "2. līmenis — parasti darbojas",
+        "3": "3. līmenis — mainīgs efekts",
+        "4": "4. līmenis — placebo, nepierādīts"
+      },
+      "description_label": "Apraksts",
+      "delete_confirm_title": "Vai dzēst atzīmi \"{{tag}}\"?",
+      "empty": "Vēl nav pielāgotu metatagu."
+    }
+  },
+  "settings": {
+    "title": "Iestatījumi",
+    "subtitle": "Sistēmas informācija, valoda un noklusējuma preferences.",
+    "system_info_title": "Sistēma",
+    "version": "Versija",
+    "data_dir": "Datu mape",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Pieejams",
+    "ffmpeg_missing": "Nav atrasts",
+    "capabilities_title": "Instalētās iespējas",
+    "capability": {
+      "denoise": "Trokšņa samazināšana",
+      "quality": "Kvalitātes uzlabošana",
+      "separate": "Avotu atdalīšana",
+      "ffmpeg": "FFmpeg konvertēšana"
+    },
+    "capability_available": "Pieejams",
+    "capability_unavailable": "Nav pieejams",
+    "gpu_title": "GPU paātrinājums",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX izpildlaika nodrošinātāji"
+    },
+    "gpu_none": "Nav atrasts neviens GPU nodrošinātājs",
+    "language_title": "Valoda",
+    "language": {
+      "pt-BR": "portugāļu (Brazīlija)",
+      "en": "angļu valoda"
+    },
+    "theme_title": "Izskats",
+    "theme": {
+      "dark": "Tumšs",
+      "light": "Gaisma"
+    },
+    "defaults_title": "Eksportēt noklusējuma iestatījumus",
+    "lufs_target_label": "Mērķis LUFS",
+    "lufs_target_hint": "Tiek izmantots kā sākuma ieteikums eksportēšanas laikā. Suno noklusējuma vērtība ir aptuveni -14 LUFS.",
+    "saved": "Preferences saglabātas"
+  },
+  "guide": {
+    "title": "Suno ierakstīšanas ceļvedis",
+    "subtitle": "Balss un ģitāras uzņemšana, kas nodrošina vislabākos rezultātus.",
+    "intro": "Suno vislabāk darbojas ar tīrām, nepārprotamām atsaucēm. Šajā rokasgrāmatā ir aprakstīta sagatavošanās, mērķa līmeņi un 3–5 minūšu ierakstīšanas skripts.",
+    "sections": {
+      "prep": {
+        "title": "Sagatavošana",
+        "body": "Ierakstiet apstrādātā telpā vai telpā, kurā ir daudz mīksta materiāla (aizkari, paklāji, drēbes skapī). Izslēdziet ventilatorus un visu, kas dūko. Pirms ierakstīšanas iesildiet savu balsi 5 minūtes."
+      },
+      "levels": {
+        "title": "Līmeņi: -12 līdz -6 dBFS",
+        "body": "Mērītāja mērķis ir sasniegt maksimumus no -12 līdz -6 dBFS. Zem šī diapazona fona troksnis kļūst pamanāmāks; virs tā palielinās apgriešanas risks. Izmantojiet mērītāju lapā Ieraksts, lai iestatītu pieaugumu pirms darba sākšanas."
+      },
+      "distance": {
+        "title": "Mikrofona attālums: 15–30 cm",
+        "body": "Palieciet 15 līdz 30 cm attālumā no mikrofona. Tuvāk nekā tas pārspīlē sprāgstvielas un tuvuma efektu; tālāk uztver vairāk telpas reverb un trokšņu."
+      },
+      "script": {
+        "title": "Ierakstīšanas skripts",
+        "warmup": "Vokālā iesildīšana (1-2 minūtes)",
+        "vowels": "Ilgstošie patskaņi — a, e, i, o, u",
+        "scales": "Vienkārši svari, uz augšu un uz leju",
+        "excerpt": "Dziesmas fragments (8 līdz 16 taktis)",
+        "dynamics": "Dinamika: sāciet maigi, beidziet skaļi",
+        "spoken_phrase": "Viena izrunāta frāze, lai Suno varētu nolasīt jūsu balss toni"
+      },
+      "expectations": {
+        "title": "Ko Suno sagaida",
+        "body": "WAV, 48 kHz, mono, sausais (bez reverb vai efektiem), 3–5 minūtes atsauces. Vistīrākās, reprezentatīvākās 2 minūtes uzņemšanas parasti nodrošina vislabākos rezultātus."
+      }
+    }
+  },
+  "status": {
+    "idea": "Ideja",
+    "em_progresso": "Notiek",
+    "quase": "Gandrīz klāt",
+    "pronto": "Gatavs"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Pilns Suno vokālais scenārijs",
+      "desc": "5 minūtes ar gidu: iesildīšanās, patskaņi, skalas, divi dziesmu fragmenti, dinamika un izrunāta frāze."
+    },
+    "step": {
+      "warmup": "Vokālā iesildīšana",
+      "warmup_inst": "Atbrīvojieties ar žāvām, lūpu trilēšanu (brrr) un mīkstu dūkoņu apmēram minūti. Nav nepieciešams ierakstīt — tas ir vienkārši, lai pirms dziedāšanas atslābinātu kaklu.",
+      "vowels": "Ilgstoši patskaņi",
+      "vowels_inst": "Turiet katru patskaņi — a, e, i, o, u — 3–4 sekundes sev ērtā augstumā ar vienmērīgu skaļumu. Tas palīdz Suno uztvert jūsu balss tīro tembru.",
+      "scales": "Svari uz augšu un uz leju",
+      "scales_inst": "Dziediet ar vienkāršu skalu uz augšu un pēc tam uz leju uz \"la\" vai \"na\". Tam nav jābūt perfektam — mērķis ir kartēt jūsu balss diapazonu.",
+      "section": "Dziesmas fragments — 1. daļa",
+      "section_inst": "Dziediet no 8 līdz 16 dziesmas taktīm ar patieso nodomu, ko vēlaties nodot. Dodiet priekšroku skaidrībai un klātbūtnei, nevis tehniskajai pilnībai.",
+      "section2": "Dziesmas fragments — 2. daļa",
+      "section2_inst": "Nodziediet vēl 8 līdz 16 taktis — ideālā gadījumā koris vai sadaļa, kas kontrastē ar iepriekšējo. Lielāka dažādība palīdz modelei apgūt jūsu balsi.",
+      "dynamics": "Dinamika: mīksta → skaļa",
+      "dynamics_inst": "Dziediet to pašu frāzi, sākot ļoti maigi un beidzot skaļi, nesasprindzinot kaklu. Tas parāda Suno jūsu balss dinamisko diapazonu.",
+      "spoken": "Izrunātā frāze",
+      "spoken_inst": "Runājiet — nedziediet — īsu, dabisku frāzi, it kā jūs pļāpātu. Tas palīdz Suno atpazīt jūsu balss īsto tembru."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restaurācija",
+      "filter": "Filtri",
+      "dynamics": "Dinamika",
+      "separation": "Atdalīšana",
+      "quality": "Kvalitāte",
+      "utility": "Lietderība",
+      "loudness": "Skaļums"
+    },
+    "highpass": "Augstas caurlaidības filtrs",
+    "lowpass": "Zemas caurlaidības filtrs",
+    "denoise": "Trokšņa samazināšana",
+    "declip": "Atbrīvošanās",
+    "declick": "Klikšķu/uznirstošo elementu noņemšana",
+    "deesser": "De-esser",
+    "gate": "Trokšņa vārti",
+    "compressor": "Kompresors",
+    "limiter": "Ierobežotājs",
+    "eq": "Izlīdzināšana",
+    "normalize": "Maksimālā normalizācija",
+    "loudness": "Skaļuma normalizācija (LUFS)",
+    "reverb_reduce": "Reverb samazināšana",
+    "separate": "Avotu atdalīšana",
+    "quality": "Kvalitātes uzlabošana (augstvērtīga)",
+    "trim_silence": "Klusuma apgriešana",
+    "fade": "Izbalināt/izbalināt",
+    "stereo_to_mono": "Konvertēt uz mono",
+    "resample": "Atkārtota paraugu ņemšana"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Uzticams",
+      "2": "Parasti darbojas",
+      "3": "Mainīgs",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Struktūra",
+      "vocal": "Vokāls",
+      "instrument": "Instruments",
+      "dynamics": "Dinamika",
+      "production": "Ražošana",
+      "mood": "Noskaņojums"
+    },
+    "verse": "Pants",
+    "chorus": "Koris",
+    "bridge": "Tilts",
+    "intro": "Ievads",
+    "outro": "Outro",
+    "hook": "Āķis",
+    "prechorus": "Pirmskoris",
+    "instrumental": "Instrumentāls",
+    "guitar_solo": "Ģitāras solo",
+    "build_up": "Apbūve",
+    "breakdown": "Sadalījums",
+    "spoken_word": "Izrunātais vārds",
+    "whispered": "čukstēja",
+    "harmonies": "Harmonijas",
+    "male_vocal": "Vīriešu vokāls",
+    "female_vocal": "Sieviešu vokāls",
+    "duet": "Duets",
+    "acoustic": "Akustisks",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Tīra balss",
+    "voice_guitar_balanced": "Sabalansēta balss un ģitāra",
+    "podcast": "Podcast",
+    "suno_ready": "Suno gatavs",
+    "gentle_restore": "Maiga atjaunošana",
+    "raw_passthrough": "Nav apstrādes"
+  },
+  "errors": {
+    "unknown": "Kaut kas nogāja greizi.",
+    "network": "Nevarēja sasniegt serveri.",
+    "validation_error": "Pārbaudiet ievadīto informāciju.",
+    "not_found": "Vienums nav atrasts.",
+    "project_not_found": "Projekts nav atrasts.",
+    "take_not_found": "Ņemt nav atrasts.",
+    "album_not_found": "Albums nav atrasts.",
+    "preset_not_found": "Sākotnējais iestatījums nav atrasts.",
+    "template_not_found": "Veidne nav atrasta.",
+    "device_busy": "Audio ierīci izmanto cita programma.",
+    "device_not_found": "Audio ierīce nav atrasta.",
+    "already_recording": "Ieraksts jau notiek.",
+    "ffmpeg_missing": "FFmpeg nav instalēts — instalējiet to, lai konvertētu šo failu.",
+    "disk_full": "Nepietiek diska vietas.",
+    "permission_denied": "Atļauja liegta norādītajam ceļam.",
+    "import_path_not_found": "Importēšanas ceļš nav atrasts.",
+    "job_failed": "Apstrāde neizdevās.",
+    "job_cancelled": "Apstrāde tika atcelta.",
+    "process_failed": "Neizdevās apstrādāt uzņemšanu.",
+    "export_failed": "Neizdevās eksportēt failu.",
+    "record_failed": "Neizdevās sākt ierakstīšanu."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Rindā",
+      "running": "Skriešana",
+      "done": "Gatavs",
+      "error": "Neizdevās",
+      "cancelled": "Atcelts"
+    },
+    "kind": {
+      "process": "Apstrāde",
+      "export": "Eksportēt",
+      "import": "Importēt",
+      "record": "Ierakstīšana"
+    }
+  }
+}

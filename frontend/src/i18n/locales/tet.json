@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Limpeza Áudiu"
+  },
+  "nav": {
+    "library": "Biblioteka",
+    "record": "Rejistu",
+    "import": "Importasaun",
+    "templates": "Modelu sira",
+    "settings": "Konfigurasaun sira",
+    "guide": "Matadalan"
+  },
+  "common": {
+    "save": "Rai",
+    "saving": "Poupa...",
+    "saved": "Salva ona",
+    "cancel": "Kansela",
+    "close": "Taka",
+    "delete": "Apaga",
+    "edit": "Edita",
+    "create": "Kria",
+    "search": "Buka",
+    "loading": "Loading...",
+    "error": "Erru",
+    "retry": "Koko filafali",
+    "confirm": "Konfirma",
+    "back": "Fila fali",
+    "next": "Tuir mai",
+    "continue": "Kontinua",
+    "finish": "Remata",
+    "copy": "Kopia",
+    "copied": "Kopia",
+    "download": "Download",
+    "upload": "Upload",
+    "none": "Laiha",
+    "all": "Hotu-hotu",
+    "yes": "Sim",
+    "no": "Lae",
+    "select": "Hili",
+    "optional": "opsionál",
+    "required": "presiza",
+    "unsaved_changes": "Mudansa sira ne'ebé la rai",
+    "name": "Naran",
+    "status": "Estatutu",
+    "type": "Tipu",
+    "actions": "Asaun sira",
+    "empty": "Mamuk",
+    "browse": "Buka",
+    "remove": "Hasai",
+    "add": "Hatama",
+    "rename": "Troka naran",
+    "duplicate": "Duplikadu",
+    "warning": "Alerta",
+    "locked": "Travadu",
+    "builtin": "Inkorporadu",
+    "custom": "Personalizadu",
+    "untitled": "La ho títulu",
+    "select_placeholder": "Hili..."
+  },
+  "library": {
+    "title": "Biblioteka",
+    "subtitle": "Ita-boot nia lian no projetu sira guitarra nian, hosi ideia to'o lansamentu.",
+    "new_project": "Projetu foun",
+    "new_album": "Album foun",
+    "search_placeholder": "Buka ho naran...",
+    "view": {
+      "grid": "Grid",
+      "albums": "Álbum sira"
+    },
+    "filters": {
+      "all": "Hotu-hotu"
+    },
+    "take_count_one": " {{count}} foti",
+    "take_count_other": " {{count}} foti",
+    "updated_at": "Atualizadu {{date}} ",
+    "no_results": {
+      "title": "La hetan projetu ruma",
+      "description": "Koko atu ajusta peskiza ka filtru estatutu nian."
+    },
+    "empty": {
+      "title": "Ita-boot nia biblioteka mamuk",
+      "description": "Hahú projetu foun ida hosi zero, ka hatama buat sira ne'ebé ita-boot iha ona iha disk.",
+      "cta_import": "Importa husi pasta",
+      "cta_new": "Kria projetu"
+    },
+    "project_dialog": {
+      "title": "Projetu foun",
+      "description": "Fó naran ida no hili modo gravasaun ida.",
+      "name_label": "Naran projetu",
+      "name_placeholder": "n.e. Udan bailoron nian",
+      "mode_label": "Modu",
+      "mode": {
+        "voice": "Lian deit",
+        "voice_guitar": "Lian + guitarra"
+      },
+      "submit": "Kria projetu"
+    },
+    "album_dialog": {
+      "title": "Album foun",
+      "description": "Agrupa projetu sira ne'ebé iha relasaun iha álbun ida.",
+      "name_label": "Naran album",
+      "name_placeholder": "n.e. EP Outono",
+      "submit": "Kria album"
+    },
+    "album": {
+      "untitled": "Álbum lahó títulu",
+      "members_count_one": " {{count}} projetu",
+      "members_count_other": " {{count}} projetu sira",
+      "empty": "Seidauk iha projetu iha álbun ida-ne'e.",
+      "delete_confirm_title": "Apaga álbun?",
+      "delete_confirm_description": "Projetu sira sei la apaga, só hasai ligasaun hosi \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Apaga \" {{name}} \"?",
+      "confirm_description": "Ida-ne'e hasai projetu no buat hotu-hotu iha laran. Ida-ne'e labele halo fali."
+    }
+  },
+  "record": {
+    "title": "Rejistu",
+    "subtitle": "Kaptura foto ida ne'ebé moos, haree ita-boot nia nivel sira, no tuir skript.",
+    "project_label": "Projetu",
+    "project_placeholder": "Hili projetu ida",
+    "project_create_quick": "Kria projetu lalais ida...",
+    "device_label": "Dispozitivu input",
+    "device_placeholder": "Hili dispozitivu ida",
+    "device_default_badge": "Sistema padraun",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "La hetan dispozitivu input nian.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Hapara monitorizasaun",
+    "record_button": "Rejistu",
+    "stop_button": "Para",
+    "elapsed_label": "Tempu ne'ebé liu ona",
+    "status": {
+      "idle": "Ociozu",
+      "monitoring": "Monitorizasaun",
+      "recording": "Gravasaun",
+      "stopped": "Paradu"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Piku",
+      "clip": "Klip"
+    },
+    "guide": {
+      "title": "Sesaun ho orientasaun",
+      "subtitle": "Husik treinadór lori ita-boot liuhosi skript etapa ba etapa, hosi aquecimento to'o fraze ne'ebé ko'alia.",
+      "loading": "Karrega hela skript...",
+      "unavailable": "Sesaun ho orientasaun seidauk disponivel iha servidór.",
+      "select_project_device": "Hili projetu ida no dispozitivu input ida atu grava etapa sira kedas husi ne'e.",
+      "progress": " {{done}} husi {{total}} pasu sira",
+      "start_timer": "Hahú tempu",
+      "skip_timer": "Salta tempu",
+      "record_step": "Rejista etapa ida-ne'e",
+      "stop_step": "Para gravasaun",
+      "mark_done": "Hotu ona — pasu tuirmai",
+      "step_recorded": "Foti gravadu",
+      "no_record_step": "Etapa manas nian — la presiza gravasaun.",
+      "bars_hint": "Besik {{bars}} barra sira",
+      "complete_title": "Skript kompletu ona!",
+      "complete_body": "Ita-boot grava ona etapa hotu-hotu hosi skript. Fila fali ba projetu nia tab Audio no hili ita-boot nia foto favoritu sira.",
+      "restart": "Hahú fali skript"
+    },
+    "best2min": {
+      "button": "Buka minutu 2 ne'ebé di'ak liu (Suno)",
+      "running": "Analiza hela...",
+      "score_label": "Pontuasaun",
+      "hint": "Hala'o análize enerjia no klareza nian iha tempu tomak hodi hetan nia janela minutu 2 ne'ebé maka'as liu — ita-boot bele ajusta nafatin alkanse ho liman hafoin.",
+      "chart_caption": "Pontuasaun ba janela ida-idak",
+      "unavailable": "Análize minutu-2 ne'ebé di'ak liu seidauk disponivel iha servidór ida-ne'e."
+    },
+    "takes_title": "Foti husi sesaun ida-ne'e",
+    "takes_empty": "Seidauk iha filmajen ne'ebé maka grava iha sesaun ida-ne'e.",
+    "open_in_project": "Loke iha projetu",
+    "ws_disconnected": "Liga fali ba metru nivel nian...",
+    "select_project_first": "Hili projetu ida atu hahú.",
+    "select_device_first": "Hili dispozitivu input ida."
+  },
+  "project": {
+    "back_to_library": "Fila fali ba biblioteka",
+    "header": {
+      "status_label": "Estatutu",
+      "cover_upload": "Upload kapa",
+      "cover_remove": "Hasai kapa",
+      "name_placeholder": "Naran projetu",
+      "links_title": "Ligasaun sira",
+      "add_link": "Hatama ligasaun",
+      "mode": {
+        "voice": "Lian deit",
+        "voice_guitar": "Lian + guitarra"
+      }
+    },
+    "tabs": {
+      "audio": "Áudiu",
+      "lyrics": "Lirika",
+      "prompts": "Prompts",
+      "notes": "Notas"
+    },
+    "audio": {
+      "takes_title": "Foti",
+      "no_takes": {
+        "title": "Seidauk iha foti",
+        "description": "Grava foti foun ida ka hatama arkivu ida ne'ebé eziste ona."
+      },
+      "record_new": "Grava foti foun ida",
+      "rating": "Klasifikasaun",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Prosesa ona"
+      },
+      "variant_placeholder": "Versaun",
+      "process_button": "Prosesu",
+      "export_button": "Esportasaun",
+      "delete_take_confirm_title": "Apaga ida-ne'e?",
+      "delete_take_confirm_description": "Áudiu brutu no versaun prosesadu hotu-hotu sei hasai.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Prosesa ona"
+      },
+      "origin": {
+        "recorded": "Grava ona",
+        "imported": "Importadu"
+      },
+      "session_label_placeholder": "Label sesaun nian (opsionál)",
+      "duration": "Durasaun",
+      "sample_rate": "Taxa amostra nian",
+      "channels": "Kanál sira",
+      "created_at": "Grava ona"
+    },
+    "pipeline": {
+      "title": "Kadeia prosesamentu",
+      "preset_label": "Preset",
+      "preset_none": "Kadeia personalizadu",
+      "preset_save": "Rai hanesan preset",
+      "stage_locked": "Travadu",
+      "stage_requires_extra": "Presiza estra ida ne'ebé maka la instala",
+      "process_button": "Prosesu foti",
+      "processing": "Prosesamentu...",
+      "job_queued": "Fila...",
+      "job_running": "Prosesamentu...",
+      "job_done": "Hotu ona",
+      "job_error": "Falla",
+      "job_cancelled": "Kanseladu",
+      "cancel_job": "Kansela",
+      "no_stages": "Laiha palku sira ne'ebé disponivel."
+    },
+    "export": {
+      "title": "Foti esportasaun",
+      "description": "Halo arkivu finál ida hosi versaun ne'ebé prosesa ona.",
+      "variant_label": "Versaun",
+      "format_label": "Formatu",
+      "preset_label": "Esporta preset",
+      "range_label": "Alkanse",
+      "range_full": "Komprimentu tomak",
+      "range_custom": "Gama personalizadu",
+      "start_label": "Hahú (sira)",
+      "end_label": "Finál (sira)",
+      "submit": "Esportasaun",
+      "progress": "Renderizasaun arkivu...",
+      "download_ready": "Arkivu prontu",
+      "download_button": "Download arkivu"
+    },
+    "notes": {
+      "placeholder": "Nota sira ho forma livre kona-ba projetu ida-ne'e...",
+      "saved_at": "Rai iha {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Hakerek lirik iha ne'e. Uza paleta iha sorin hodi hatama meta-tag Suno nian.",
+      "saved_at": "Rai iha {{time}} ",
+      "saving": "Poupa...",
+      "versions": "Versaun sira",
+      "versions_empty": "Seidauk iha versaun sira ne'ebé maka rai ona.",
+      "version_preview": "Previzaun",
+      "restore": "Restaura versaun ida-ne'e",
+      "restore_confirm_title": "Restaura versaun ida-ne'e?",
+      "restore_confirm_description": "Testu atuál sei troka ho versaun ne'ebé maka rai iha {{date}} .",
+      "metatags_title": "Meta-tags",
+      "metatags_hint": "Klik tag ida hodi hatama iha kursór.",
+      "metatags_placebo_warning": "La prova — bele laiha efeitu ba rezultadu.",
+      "metatags_empty": "Laiha meta-tag sira ne'ebé rejista ona."
+    },
+    "prompts": {
+      "style_title": "Estilu prompt",
+      "lyrics_title": "Prompt ba lirika sira",
+      "template_label": "Modelu",
+      "template_none": "Laiha modelu",
+      "variables_title": "Variavel sira",
+      "preview_title": "Previzaun",
+      "preview_empty": "Hili modelu ida no prenxe variável sira hodi haree previzaun ida.",
+      "char_count": " {{count}} karakter sira",
+      "char_count_warning": "Estilu sira ne'ebé husu liu karakter 1000 bele hetan tesi hosi Suno.",
+      "copy": "Kopia",
+      "copied": "Kopia ba clipboard",
+      "save_to_project": "Rai iha projetu",
+      "saved_to_project": "Prompt salva ona ba projetu",
+      "history_title": "Istória",
+      "history_empty": "Laiha versaun anteriór sira.",
+      "current_label": "Atuál"
+    },
+    "stems": {
+      "title": "Vokál no guitarra",
+      "separate_button": "Vokál no guitarra ketak",
+      "running": "Haketak...",
+      "vocals": "Vokál sira",
+      "instrumental": "Instrumentál",
+      "process_stem": "Prosesa ai-tahan ida-ne'e",
+      "empty": "Ida-ne'e seidauk haketak. Halao separasaun hodi rona vokál no guitarra iha izolamentu.",
+      "capability_missing": "Separasaun fonte nian la instala iha servidór ida-ne'e.",
+      "unavailable": "Separasaun vokál/guitarra seidauk disponivel iha servidór ida-ne'e."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Iha",
+    "boolean_off": "Mate"
+  },
+  "import": {
+    "title": "Importasaun",
+    "subtitle": "Lori projetu sira ne'ebé maka eziste ona iha disk ba iha biblioteka.",
+    "step_indicator": "Etapa {{current}} husi {{total}} ",
+    "step1": {
+      "title": "Lokaliza pasta",
+      "description": "Hatudu ba pasta abut ho ita-boot nia projetu no faixa sira.",
+      "path_label": "Dalan ba pasta",
+      "path_placeholder": "n.e. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "Foin lalais ne'e",
+      "scan_button": "Eskanea pasta",
+      "scanning": "Eskaneamentu...",
+      "ffmpeg_warning": "FFmpeg la hetan — arkivu sira ne'ebé presiza konversaun sei la hetan.",
+      "folders_found_one": " {{count}} hetan ona pasta",
+      "folders_found_other": " {{count}} pasta sira hetan ona",
+      "unmatched_files_one": " {{count}} arkivu ne'ebé la rekoñese",
+      "unmatched_files_other": " {{count}} arkivu sira ne'ebé la rekoñese"
+    },
+    "step2": {
+      "title": "Revizaun ba sasán sira",
+      "description": "Verifika naran sira, estatutu sira, no saida maka sei hatama molok konfirma.",
+      "select_all": "Hili hotu",
+      "table": {
+        "folder": "Pasta fonte",
+        "name": "Naran projetu",
+        "status": "Estatutu",
+        "audio": "Áudiu",
+        "lyrics": "Lirika",
+        "cover": "Kapa",
+        "album": "Álbun"
+      },
+      "audio_include_one": " {{count}} arkivu ne'ebé hili ona",
+      "audio_include_other": " {{count}} arkivu sira ne'ebé maka hili ona",
+      "no_audio": "La hetan audio",
+      "no_lyrics": "La hetan lirika",
+      "no_cover": "Laiha kapa",
+      "warnings_title": "Alerta sira"
+    },
+    "step3": {
+      "title": "Importasaun",
+      "description": "Konfirma atu kopia arkivu sira no kria projetu sira.",
+      "copy_originals": "Kopia arkivu orijinál sira ba biblioteka",
+      "execute_button": "Hahú importasaun",
+      "progress_title": "Importa...",
+      "created_count": "Kria ona: {{count}} ",
+      "skipped_count": "La liu: {{count}} ",
+      "done_title": "Importasaun kompletu",
+      "done_description": "Projetu sira iha kraik ne'e kria iha ita-boot nia biblioteka.",
+      "view_project": "Loke projetu",
+      "start_over": "Importasaun foun"
+    }
+  },
+  "templates": {
+    "title": "Modelu sira",
+    "subtitle": "Modelu sira no meta-tag sira ne'ebé bele uza filafali ba Suno.",
+    "tabs": {
+      "prompts": "Modelu sira ne'ebé lalais",
+      "metatags": "Meta-tags"
+    },
+    "new_template": "Modelu foun",
+    "kind": {
+      "style": "Estilu",
+      "lyrics": "Lirika"
+    },
+    "kind_label": "Laran-di'ak",
+    "delete_confirm_title": "Apaga modelu \" {{name}} \"?",
+    "delete_confirm_description": "Ida-ne'e labele halo fali.",
+    "empty": "Seidauk iha modelu sira.",
+    "editor": {
+      "title_new": "Modelu foun",
+      "title_edit": "Edita modelu",
+      "name_label": "Naran",
+      "name_placeholder": "n.e. Balada akustika",
+      "kind_label": "Laran-di'ak",
+      "template_label": "Testu modelu",
+      "template_hint": "Marka iha ne'ebé maka variável ida-idak pertense ho nia naran ne'ebé maka taka ho trasu duplu — porezemplu, variável ida ho naran \"jéneru\" sai hanesan jéneru ne'ebé maka taka ho trasu abertura rua no taka rua.",
+      "variables_label": "Variavel sira",
+      "variable_add": "Hatama variável",
+      "variable_name": "Xave",
+      "variable_label": "Label",
+      "variable_type": "Tipu",
+      "variable_type_string": "Testu",
+      "variable_type_select": "Hili ida de'it",
+      "variable_type_multiselect": "Hili barak",
+      "variable_type_number": "Númeru",
+      "variable_type_boolean": "Sim/lae",
+      "variable_options": "Opsaun sira (haketak ho vírgula)",
+      "variable_required": "Presiza",
+      "save": "Rai modelu"
+    },
+    "metatags": {
+      "title": "Meta-tags",
+      "subtitle": "Tag estruturál no estilu nian Suno rekoñese iha lirika sira nia laran.",
+      "new_tag": "Tag foun",
+      "tag_label": "Tag",
+      "tag_placeholder": "n.e. guitarra-solo",
+      "category_label": "Kategoria",
+      "tier_label": "Konfiabilidade",
+      "tier_legend_title": "Lenda konfiabilidade nian",
+      "tier_legend": {
+        "1": "Nivel 1 — dokumentadu no konsistente",
+        "2": "Nivel 2 — normalmente funsiona",
+        "3": "Nivel 3 — efeitu variável",
+        "4": "Nivel 4 — plasebo, la prova"
+      },
+      "description_label": "Deskrisaun",
+      "delete_confirm_title": "Apaga tag \" {{tag}} \"?",
+      "empty": "Seidauk iha meta-tag personalizadu."
+    }
+  },
+  "settings": {
+    "title": "Konfigurasaun sira",
+    "subtitle": "Informasaun sistema, linguajen, no preferénsia padraun sira.",
+    "system_info_title": "Sistema",
+    "version": "Versaun",
+    "data_dir": "Pasta dadus",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Disponivel",
+    "ffmpeg_missing": "La hetan",
+    "capabilities_title": "Kapasidade sira ne'ebé instala ona",
+    "capability": {
+      "denoise": "Redusaun barullu",
+      "quality": "Hasa'e kualidade",
+      "separate": "Separasaun fonte",
+      "ffmpeg": "Konversaun FFmpeg"
+    },
+    "capability_available": "Disponivel",
+    "capability_unavailable": "La disponivel",
+    "gpu_title": "Aselerasaun GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "Fornesedór sira ONNX Runtime nian"
+    },
+    "gpu_none": "Laiha fornesedór GPU ne'ebé detekta",
+    "language_title": "Lian",
+    "language": {
+      "pt-BR": "Português (Brazil)",
+      "en": "Inglés"
+    },
+    "theme_title": "Aparénsia",
+    "theme": {
+      "dark": "Nakukun",
+      "light": "Naroman"
+    },
+    "defaults_title": "Exportasaun padraun sira",
+    "lufs_target_label": "LUFS Alvu",
+    "lufs_target_hint": "Uza hanesan sujestaun inísiu bainhira esporta takes. Suno nia padraun maka -14 LUFS.",
+    "saved": "Preferénsia sira ne'ebé rai ona"
+  },
+  "guide": {
+    "title": "Matadalan gravasaun Suno",
+    "subtitle": "Oinsá atu kaptura lian no guitarra ne'ebé hetan rezultadu di'ak liu.",
+    "intro": "Suno hala'o di'ak liu ho referénsia sira ne'ebé moos no la iha ambiguidade. Matadalan ida-ne'e kobre preparasaun, nivel alvu sira, no skript gravasaun ida ho minutu 3-5.",
+    "sections": {
+      "prep": {
+        "title": "Preparasaun",
+        "body": "Grava iha kuartu ne'ebé trata ona ka ida ho materiál ne'ebé mamar barak (kurtina, tapete, roupa iha armáriu). Hamate ventilador sira no buat hotu ne'ebé maka runguranga. Hamanas ita-boot nia lian durante minutu 5 molok grava."
+      },
+      "levels": {
+        "title": "Nivel sira: -12 to'o -6 dBFS",
+        "body": "Buka atu hetan pontu aas sira entre -12 no -6 dBFS iha metru. Iha alkanse ne'e nia okos, barullu iha fundo sai notavel liu; iha leten, risku tesi nian sa'e. Uza metru iha pájina Rejistu nian hodi tau ita-boot nia lukru molok ita-boot hahú."
+      },
+      "distance": {
+        "title": "Distánsia mikrofone nian: 15-30 cm",
+        "body": "Hadook 15 to'o 30 cm hosi mikrofone. Besik liu fali ida-ne'e ezajera plosivu sira no efeitu prosimidade; dook liu hetan tan reverb no barullu iha kuartu."
+      },
+      "script": {
+        "title": "Gravasaun skript",
+        "warmup": "Akesimentu vokál (minutu 1-2)",
+        "vowels": "Vogál sustentadu sira — a, e, i, o, u",
+        "scales": "Eskala simples, tun sa'e",
+        "excerpt": "Knananuk ida (8 to'o 16 bar)",
+        "dynamics": "Dinámika: hahú ho kmaan, remata ho lian maka'as",
+        "spoken_phrase": "Fraze ida ne'ebé ko'alia, atu nune'e Suno bele lee ita-boot nia lian"
+      },
+      "expectations": {
+        "title": "Saida maka Suno hein",
+        "body": "WAV, 48 kHz, mono, maran (la iha reverb ka efeitu sira), minutu 3 to'o 5 referénsia nian. Minutu 2 ne'ebé moos liu, reprezentativu liu hosi foti normalmente produz rezultadu di'ak liu."
+      }
+    }
+  },
+  "status": {
+    "idea": "Ideia",
+    "em_progresso": "Iha hela progresu",
+    "quase": "Besik iha ne'ebá",
+    "pronto": "Prontu"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Skript vokál kompletu ba Suno",
+      "desc": "Minutu 5 ho orientasaun: aquecimento, vogál sira, eskala sira, espresaun knananuk rua, dinámika, no fraze ida ne'ebé ko'alia."
+    },
+    "step": {
+      "warmup": "Akesimentu vokál",
+      "warmup_inst": "Hakmatek ho hamnasa, ibun-been (brrr), no lian ne'ebé kmaan durante minutu ida. La presiza atu grava — ida-ne'e atu relaxa de'it ita-boot nia kakorok molok kanta.",
+      "vowels": "Vogál sira ne'ebé sustenta",
+      "vowels_inst": "Kaer metin vogál ida-idak — a, e, i, o, u — durante segundu 3 to'o 4 iha ita-boot nia lian ne'ebé konfortavel, ho volume ne'ebé metin. Ida-ne'e ajuda Suno atu komprende timbre ne'ebé moos husi ita-boot nia lian.",
+      "scales": "Eskala tun sa'e",
+      "scales_inst": "Kanta eskala simples ida ba leten no depois ba kraik, iha \"la\" ka \"na\". La presiza sai perfeitu — objetivu maka atu halo mapa ba ita-boot nia alkanse vokál.",
+      "section": "Espresaun knananuk nian — parte 1",
+      "section_inst": "Kanta barra 8 to'o 16 hosi knananuk, ho intensaun loloos ne'ebé ita-boot hakarak hato'o. Prioritiza klareza no prezensa duké perfeisaun téknika.",
+      "section2": "Espresaun knananuk nian — parte 2",
+      "section2_inst": "Kanta tan barra 8 to'o 16 — idealmente koru ida ka seksaun ida ne'ebé kontrasta ho ida anteriór. Variedade barak liu ajuda modelu aprende ita-boot nia lian.",
+      "dynamics": "Dinámika: kmaan → maka'as",
+      "dynamics_inst": "Kanta fraze hanesan hahú ho lian neneik tebes no remata ho lian maka'as, lahó haka'as ita-boot nia kakorok. Ida-ne'e hatudu ba Suno ita-boot nia lian nia alkanse dinámiku.",
+      "spoken": "Fraze ne'ebé ko'alia",
+      "spoken_inst": "Ko'alia — lalika kanta — fraze badak no naturál, hanesan ita-boot konversa hela. Ida-ne'e ajuda Suno rekoñese timbre loloos husi ita-boot nia lian."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restaurasaun",
+      "filter": "Filtru sira",
+      "dynamics": "Dinámika",
+      "separation": "Separasaun",
+      "quality": "Kualidade",
+      "utility": "Utilidade",
+      "loudness": "Lian maka'as"
+    },
+    "highpass": "Filtru pasa-altu",
+    "lowpass": "Filtru pasa-baixu",
+    "denoise": "Redusaun barullu",
+    "declip": "Declipping",
+    "declick": "Hasai klik/pop",
+    "deesser": "De-esser",
+    "gate": "Portaun barullu",
+    "compressor": "Kompresor",
+    "limiter": "Limitadór",
+    "eq": "Ekualizasaun",
+    "normalize": "Normalizasaun másimu",
+    "loudness": "Normalizasaun lian maka'as (LUFS)",
+    "reverb_reduce": "Redusaun reverb",
+    "separate": "Separasaun fonte",
+    "quality": "Hasa'e kualidade (eskala aas)",
+    "trim_silence": "Tesi silénsiu",
+    "fade": "Fade in / fade out",
+    "stereo_to_mono": "Konverte ba mono",
+    "resample": "Resampling"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Konfiavel",
+      "2": "Normalmente funsiona",
+      "3": "Variavel",
+      "4": "Plasebo"
+    },
+    "category": {
+      "structure": "Estrutura",
+      "vocal": "Vokál",
+      "instrument": "Instrumentu",
+      "dynamics": "Dinámika",
+      "production": "Produsaun",
+      "mood": "Mood"
+    },
+    "verse": "Versíkulu",
+    "chorus": "Koru",
+    "bridge": "Ponte",
+    "intro": "Introdusaun",
+    "outro": "Outro",
+    "hook": "Kail",
+    "prechorus": "Pré-koru",
+    "instrumental": "Instrumentál",
+    "guitar_solo": "Guitarra solo",
+    "build_up": "Harii",
+    "breakdown": "Avariasaun",
+    "spoken_word": "Liafuan ne'ebé ko'alia",
+    "whispered": "Bisbixu",
+    "harmonies": "Armonia sira",
+    "male_vocal": "Vokál mane nian",
+    "female_vocal": "Vokál feto",
+    "duet": "Duet",
+    "acoustic": "Akustiku",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Lian moos",
+    "voice_guitar_balanced": "Lian & guitarra ne'ebé ekilibradu",
+    "podcast": "Podcast",
+    "suno_ready": "Suno prontu",
+    "gentle_restore": "Restaura ho kmaan",
+    "raw_passthrough": "Laiha prosesamentu"
+  },
+  "errors": {
+    "unknown": "Buat ruma la'o sala.",
+    "network": "La konsege to'o iha servidór.",
+    "validation_error": "Verifika informasaun ne'ebé ita-boot hatama.",
+    "not_found": "Sasan la hetan.",
+    "project_not_found": "Projetu la hetan.",
+    "take_not_found": "Foti la hetan.",
+    "album_not_found": "Album la hetan.",
+    "preset_not_found": "Preset la hetan.",
+    "template_not_found": "Modelu la hetan.",
+    "device_busy": "Dispozitivu áudiu nian uza hela hosi programa seluk.",
+    "device_not_found": "Dispozitivu audio la hetan.",
+    "already_recording": "Gravasaun ida hala'o daudaun ona.",
+    "ffmpeg_missing": "FFmpeg seidauk instala — instala atu konverte arkivu ida-ne'e.",
+    "disk_full": "La iha espasu disk ne'ebé sufisiente.",
+    "permission_denied": "Lisensa negadu ba dalan ne'ebé maka fó.",
+    "import_path_not_found": "Dalan importasaun nian la hetan.",
+    "job_failed": "Prosesamentu la konsege.",
+    "job_cancelled": "Prosesamentu kansela tiha ona.",
+    "process_failed": "La konsege prosesa foti.",
+    "export_failed": "La konsege esporta arkivu.",
+    "record_failed": "La konsege hahú gravasaun."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Fila",
+      "running": "Halai",
+      "done": "Hotu ona",
+      "error": "Falla",
+      "cancelled": "Kanseladu"
+    },
+    "kind": {
+      "process": "Prosesamentu",
+      "export": "Esportasaun",
+      "import": "Importasaun",
+      "record": "Gravasaun"
+    }
+  }
+}

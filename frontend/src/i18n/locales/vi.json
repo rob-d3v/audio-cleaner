@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Trình dọn dẹp âm thanh"
+  },
+  "nav": {
+    "library": "Thư viện",
+    "record": "Ghi lại",
+    "import": "Nhập khẩu",
+    "templates": "Mẫu",
+    "settings": "Cài đặt",
+    "guide": "hướng dẫn"
+  },
+  "common": {
+    "save": "Lưu",
+    "saving": "Đang lưu…",
+    "saved": "Đã lưu",
+    "cancel": "Hủy bỏ",
+    "close": "Đóng",
+    "delete": "Xóa",
+    "edit": "Chỉnh sửa",
+    "create": "Tạo",
+    "search": "Tìm kiếm",
+    "loading": "Đang tải…",
+    "error": "Lỗi",
+    "retry": "Thử lại",
+    "confirm": "Xác nhận",
+    "back": "Quay lại",
+    "next": "Tiếp theo",
+    "continue": "Tiếp tục",
+    "finish": "Kết thúc",
+    "copy": "Sao chép",
+    "copied": "Đã sao chép",
+    "download": "Tải xuống",
+    "upload": "Tải lên",
+    "none": "không có",
+    "all": "Tất cả",
+    "yes": "Có",
+    "no": "Không",
+    "select": "chọn",
+    "optional": "tùy chọn",
+    "required": "bắt buộc",
+    "unsaved_changes": "Những thay đổi chưa được lưu",
+    "name": "Tên",
+    "status": "Trạng thái",
+    "type": "loại",
+    "actions": "hành động",
+    "empty": "trống",
+    "browse": "Duyệt qua",
+    "remove": "Xóa",
+    "add": "Thêm",
+    "rename": "Đổi tên",
+    "duplicate": "trùng lặp",
+    "warning": "Cảnh báo",
+    "locked": "Đã khóa",
+    "builtin": "Tích hợp sẵn",
+    "custom": "tùy chỉnh",
+    "untitled": "Không có tiêu đề",
+    "select_placeholder": "Chọn…"
+  },
+  "library": {
+    "title": "Thư viện",
+    "subtitle": "Dự án giọng hát và guitar của bạn, từ ý tưởng đến phát hành.",
+    "new_project": "Dự án mới",
+    "new_album": "Album mới",
+    "search_placeholder": "Tìm kiếm theo tên…",
+    "view": {
+      "grid": "Lưới",
+      "albums": "Album"
+    },
+    "filters": {
+      "all": "Tất cả"
+    },
+    "take_count_one": " {{count}} lấy",
+    "take_count_other": " {{count}} mất",
+    "updated_at": "Đã cập nhật {{date}} ",
+    "no_results": {
+      "title": "Không tìm thấy dự án nào",
+      "description": "Hãy thử điều chỉnh bộ lọc tìm kiếm hoặc trạng thái."
+    },
+    "empty": {
+      "title": "Thư viện của bạn trống",
+      "description": "Bắt đầu một dự án mới từ đầu hoặc nhập dự án mà bạn đã có trên đĩa.",
+      "cta_import": "Nhập từ thư mục",
+      "cta_new": "Tạo dự án"
+    },
+    "project_dialog": {
+      "title": "Dự án mới",
+      "description": "Đặt tên cho nó và chọn chế độ ghi.",
+      "name_label": "Tên dự án",
+      "name_placeholder": "ví dụ: Mưa mùa hè",
+      "mode_label": "Chế độ",
+      "mode": {
+        "voice": "Chỉ giọng nói",
+        "voice_guitar": "Giọng hát + ghita"
+      },
+      "submit": "Tạo dự án"
+    },
+    "album_dialog": {
+      "title": "Album mới",
+      "description": "Nhóm các dự án liên quan vào một album.",
+      "name_label": "Tên album",
+      "name_placeholder": "ví dụ: EP mùa thu",
+      "submit": "Tạo album"
+    },
+    "album": {
+      "untitled": "Album không có tiêu đề",
+      "members_count_one": " dự án {{count}}",
+      "members_count_other": " {{count}} dự án",
+      "empty": "Chưa có dự án nào trong album này.",
+      "delete_confirm_title": "Xóa album?",
+      "delete_confirm_description": "Các dự án sẽ không bị xóa, chỉ được hủy liên kết khỏi \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Xóa \" {{name}} \"?",
+      "confirm_description": "Điều này loại bỏ dự án và mọi thứ trong đó. Không thể hoàn tác việc này."
+    }
+  },
+  "record": {
+    "title": "Ghi lại",
+    "subtitle": "Ghi lại cảnh quay rõ ràng, xem cấp độ của bạn và làm theo kịch bản.",
+    "project_label": "dự án",
+    "project_placeholder": "Chọn một dự án",
+    "project_create_quick": "Tạo một dự án nhanh chóng…",
+    "device_label": "Thiết bị đầu vào",
+    "device_placeholder": "Chọn một thiết bị",
+    "device_default_badge": "Mặc định hệ thống",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Không tìm thấy thiết bị đầu vào nào.",
+    "monitor_button": "Màn hình",
+    "monitor_stop_button": "Dừng giám sát",
+    "record_button": "Ghi lại",
+    "stop_button": "Dừng lại",
+    "elapsed_label": "Thời gian đã trôi qua",
+    "status": {
+      "idle": "Nhàn rỗi",
+      "monitoring": "Giám sát",
+      "recording": "Ghi âm",
+      "stopped": "Đã dừng"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Đỉnh",
+      "clip": "Đoạn phim"
+    },
+    "guide": {
+      "title": "Buổi hướng dẫn",
+      "subtitle": "Hãy để huấn luyện viên hướng dẫn bạn từng bước trong kịch bản, từ phần khởi động đến đoạn nói.",
+      "loading": "Đang tải tập lệnh…",
+      "unavailable": "Phiên hướng dẫn chưa có sẵn trên máy chủ.",
+      "select_project_device": "Chọn một dự án và thiết bị đầu vào để ghi lại các bước ngay từ đây.",
+      "progress": " {{done}} trong số {{total}} bước",
+      "start_timer": "Bắt đầu hẹn giờ",
+      "skip_timer": "Bỏ qua bộ đếm thời gian",
+      "record_step": "Ghi lại bước này",
+      "stop_step": "Dừng ghi",
+      "mark_done": "Xong - bước tiếp theo",
+      "step_recorded": "Hãy ghi lại",
+      "no_record_step": "Bước khởi động - không cần ghi âm.",
+      "bars_hint": "Khoảng {{bars}} thanh",
+      "complete_title": "Kịch bản hoàn tất!",
+      "complete_body": "Bạn đã ghi lại từng bước của kịch bản. Quay lại tab Âm thanh của dự án và chọn đoạn bạn yêu thích.",
+      "restart": "Khởi động lại tập lệnh"
+    },
+    "best2min": {
+      "button": "Tìm 2 phút hay nhất (Suno)",
+      "running": "Phân tích việc thực hiện…",
+      "score_label": "Điểm",
+      "hint": "Chạy phân tích năng lượng và độ rõ trong toàn bộ quá trình để tìm ra khoảng thời gian 2 phút mạnh nhất — sau đó bạn vẫn có thể điều chỉnh phạm vi bằng tay.",
+      "chart_caption": "Điểm trên mỗi cửa sổ",
+      "unavailable": "Phân tích tốt nhất trong 2 phút chưa có trên máy chủ này."
+    },
+    "takes_title": "Mất từ phiên này",
+    "takes_empty": "Chưa có lượt nào được ghi lại trong phiên này.",
+    "open_in_project": "Mở trong dự án",
+    "ws_disconnected": "Đang kết nối lại với máy đo mức…",
+    "select_project_first": "Chọn một dự án để bắt đầu.",
+    "select_device_first": "Chọn thiết bị đầu vào."
+  },
+  "project": {
+    "back_to_library": "Quay lại thư viện",
+    "header": {
+      "status_label": "Trạng thái",
+      "cover_upload": "Tải ảnh bìa lên",
+      "cover_remove": "Tháo nắp",
+      "name_placeholder": "Tên dự án",
+      "links_title": "Liên kết",
+      "add_link": "Thêm liên kết",
+      "mode": {
+        "voice": "Chỉ giọng nói",
+        "voice_guitar": "Giọng hát + ghita"
+      }
+    },
+    "tabs": {
+      "audio": "Âm thanh",
+      "lyrics": "Lời bài hát",
+      "prompts": "Lời nhắc",
+      "notes": "Ghi chú"
+    },
+    "audio": {
+      "takes_title": "Mất",
+      "no_takes": {
+        "title": "Chưa có lần nào",
+        "description": "Ghi lại lần chụp mới hoặc nhập tệp hiện có."
+      },
+      "record_new": "Ghi lại một lần mới",
+      "rating": "Đánh giá",
+      "variant": {
+        "raw": "thô",
+        "processed": "Đã xử lý"
+      },
+      "variant_placeholder": "Phiên bản",
+      "process_button": "Quy trình",
+      "export_button": "Xuất khẩu",
+      "delete_take_confirm_title": "Xóa cảnh này?",
+      "delete_take_confirm_description": "Âm thanh thô và mọi phiên bản đã xử lý sẽ bị xóa.",
+      "ab": {
+        "raw": "A · Nguyên",
+        "processed": "B · Đã xử lý"
+      },
+      "origin": {
+        "recorded": "Đã ghi âm",
+        "imported": "Đã nhập"
+      },
+      "session_label_placeholder": "Nhãn phiên (tùy chọn)",
+      "duration": "Thời lượng",
+      "sample_rate": "Tỷ lệ mẫu",
+      "channels": "Kênh",
+      "created_at": "Đã ghi âm"
+    },
+    "pipeline": {
+      "title": "Dây chuyền chế biến",
+      "preset_label": "cài sẵn",
+      "preset_none": "Chuỗi tùy chỉnh",
+      "preset_save": "Lưu làm giá trị đặt trước",
+      "stage_locked": "Đã khóa",
+      "stage_requires_extra": "Yêu cầu bổ sung chưa được cài đặt",
+      "process_button": "Quá trình thực hiện",
+      "processing": "Đang xử lý…",
+      "job_queued": "Đã xếp hàng…",
+      "job_running": "Đang xử lý…",
+      "job_done": "Xong",
+      "job_error": "thất bại",
+      "job_cancelled": "Đã hủy",
+      "cancel_job": "Hủy bỏ",
+      "no_stages": "Không có giai đoạn nào có sẵn."
+    },
+    "export": {
+      "title": "Xuất khẩu",
+      "description": "Kết xuất tệp cuối cùng từ phiên bản đã xử lý.",
+      "variant_label": "Phiên bản",
+      "format_label": "định dạng",
+      "preset_label": "Xuất giá trị đặt trước",
+      "range_label": "Phạm vi",
+      "range_full": "Chiều dài đầy đủ",
+      "range_custom": "Phạm vi tùy chỉnh",
+      "start_label": "Bắt đầu (các)",
+      "end_label": "(Các) kết thúc",
+      "submit": "Xuất khẩu",
+      "progress": "Đang hiển thị tệp…",
+      "download_ready": "Tệp đã sẵn sàng",
+      "download_button": "Tải tập tin xuống"
+    },
+    "notes": {
+      "placeholder": "Ghi chú dạng tự do về dự án này…",
+      "saved_at": "Đã lưu tại {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Viết lời bài hát ở đây. Sử dụng bảng màu ở bên cạnh để chèn thẻ meta Suno.",
+      "saved_at": "Đã lưu tại {{time}} ",
+      "saving": "Đang lưu…",
+      "versions": "Phiên bản",
+      "versions_empty": "Chưa có phiên bản nào được lưu.",
+      "version_preview": "Xem trước",
+      "restore": "Khôi phục phiên bản này",
+      "restore_confirm_title": "Khôi phục phiên bản này?",
+      "restore_confirm_description": "Văn bản hiện tại sẽ được thay thế bằng phiên bản được lưu trên {{date}} .",
+      "metatags_title": "Thẻ meta",
+      "metatags_hint": "Bấm vào một thẻ để chèn nó vào con trỏ.",
+      "metatags_placebo_warning": "Chưa được chứng minh - có thể không ảnh hưởng đến kết quả.",
+      "metatags_empty": "Không có thẻ meta nào được đăng ký."
+    },
+    "prompts": {
+      "style_title": "Lời nhắc kiểu",
+      "lyrics_title": "Lời nhắc lời bài hát",
+      "template_label": "mẫu",
+      "template_none": "Không có mẫu",
+      "variables_title": "Biến",
+      "preview_title": "Xem trước",
+      "preview_empty": "Chọn một mẫu và điền vào các biến để xem bản xem trước.",
+      "char_count": " {{count}} ký tự",
+      "char_count_warning": "Lời nhắc về văn phong trên 1000 ký tự có thể bị Suno cắt bớt.",
+      "copy": "Sao chép",
+      "copied": "Đã sao chép vào bảng nhớ tạm",
+      "save_to_project": "Lưu vào dự án",
+      "saved_to_project": "Đã lưu lời nhắc vào dự án",
+      "history_title": "lịch sử",
+      "history_empty": "Không có phiên bản trước.",
+      "current_label": "hiện tại"
+    },
+    "stems": {
+      "title": "Giọng hát và guitar",
+      "separate_button": "Tách biệt vocal và guitar",
+      "running": "Tách…",
+      "vocals": "Giọng hát",
+      "instrumental": "nhạc cụ",
+      "process_stem": "Xử lý gốc này",
+      "empty": "Phần này vẫn chưa được tách ra. Chạy tách biệt để nghe giọng hát và guitar một cách riêng biệt.",
+      "capability_missing": "Tính năng tách nguồn chưa được cài đặt trên máy chủ này.",
+      "unavailable": "Tính năng tách giọng hát/guitar chưa khả dụng trên máy chủ này."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Bật",
+    "boolean_off": "Tắt"
+  },
+  "import": {
+    "title": "Nhập khẩu",
+    "subtitle": "Đưa các dự án đã tồn tại trên đĩa vào thư viện.",
+    "step_indicator": "Bước {{current}} của {{total}} ",
+    "step1": {
+      "title": "Xác định vị trí thư mục",
+      "description": "Trỏ tới thư mục gốc chứa các dự án và bản nhạc của bạn.",
+      "path_label": "Đường dẫn thư mục",
+      "path_placeholder": "ví dụ: E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "Gần đây",
+      "scan_button": "Quét thư mục",
+      "scanning": "Đang quét…",
+      "ffmpeg_warning": "Không tìm thấy FFmpeg - các tệp cần chuyển đổi sẽ bị bỏ qua.",
+      "folders_found_one": " Đã tìm thấy thư mục {{count}}",
+      "folders_found_other": " Đã tìm thấy {{count}} thư mục",
+      "unmatched_files_one": " {{count}} tệp không được nhận dạng",
+      "unmatched_files_other": " {{count}} tệp không được nhận dạng"
+    },
+    "step2": {
+      "title": "Xem lại các mục",
+      "description": "Kiểm tra tên, trạng thái và nội dung sẽ được nhập trước khi xác nhận.",
+      "select_all": "Chọn tất cả",
+      "table": {
+        "folder": "Thư mục nguồn",
+        "name": "Tên dự án",
+        "status": "Trạng thái",
+        "audio": "Âm thanh",
+        "lyrics": "Lời bài hát",
+        "cover": "Bìa",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} tệp đã được chọn",
+      "audio_include_other": " {{count}} tệp đã chọn",
+      "no_audio": "Không tìm thấy âm thanh",
+      "no_lyrics": "Không tìm thấy lời bài hát",
+      "no_cover": "Không che chắn",
+      "warnings_title": "Cảnh báo"
+    },
+    "step3": {
+      "title": "Nhập khẩu",
+      "description": "Xác nhận để sao chép các tập tin và tạo các dự án.",
+      "copy_originals": "Copy file gốc vào thư viện",
+      "execute_button": "Bắt đầu nhập",
+      "progress_title": "Đang nhập khẩu…",
+      "created_count": "Đã tạo: {{count}} ",
+      "skipped_count": "Đã bỏ qua: {{count}} ",
+      "done_title": "Nhập hoàn tất",
+      "done_description": "Các dự án bên dưới đã được tạo trong thư viện của bạn.",
+      "view_project": "Mở dự án",
+      "start_over": "Nhập khẩu mới"
+    }
+  },
+  "templates": {
+    "title": "Mẫu",
+    "subtitle": "Các mẫu lời nhắc và thẻ meta có thể tái sử dụng cho Suno.",
+    "tabs": {
+      "prompts": "Mẫu lời nhắc",
+      "metatags": "Thẻ meta"
+    },
+    "new_template": "Mẫu mới",
+    "kind": {
+      "style": "phong cách",
+      "lyrics": "Lời bài hát"
+    },
+    "kind_label": "loại",
+    "delete_confirm_title": "Xóa mẫu \" {{name}} \"?",
+    "delete_confirm_description": "Không thể hoàn tác việc này.",
+    "empty": "Chưa có mẫu nào.",
+    "editor": {
+      "title_new": "Mẫu mới",
+      "title_edit": "Chỉnh sửa mẫu",
+      "name_label": "Tên",
+      "name_placeholder": "ví dụ: Bản ballad acoustic",
+      "kind_label": "loại",
+      "template_label": "Văn bản mẫu",
+      "template_hint": "Đánh dấu vị trí của mỗi biến bằng tên của nó được bao bọc trong dấu ngoặc nhọn đôi — ví dụ: một biến có tên \"thể loại\" sẽ trở thành thể loại được bao bọc trong hai dấu ngoặc nhọn mở và hai dấu ngoặc đóng.",
+      "variables_label": "Biến",
+      "variable_add": "Thêm biến",
+      "variable_name": "Chìa khóa",
+      "variable_label": "Nhãn",
+      "variable_type": "loại",
+      "variable_type_string": "văn bản",
+      "variable_type_select": "Chọn một lần",
+      "variable_type_multiselect": "Chọn nhiều lần",
+      "variable_type_number": "Số",
+      "variable_type_boolean": "Có/không",
+      "variable_options": "Tùy chọn (được phân tách bằng dấu phẩy)",
+      "variable_required": "Bắt buộc",
+      "save": "Lưu mẫu"
+    },
+    "metatags": {
+      "title": "Thẻ meta",
+      "subtitle": "Thẻ cấu trúc và phong cách Suno nhận ra bên trong lời bài hát.",
+      "new_tag": "Thẻ mới",
+      "tag_label": "Gắn thẻ",
+      "tag_placeholder": "ví dụ: solo guitar",
+      "category_label": "Danh mục",
+      "tier_label": "Độ tin cậy",
+      "tier_legend_title": "Huyền thoại về độ tin cậy",
+      "tier_legend": {
+        "1": "Cấp 1 - được ghi chép và nhất quán",
+        "2": "Cấp 2 - thường hoạt động",
+        "3": "Cấp 3 - hiệu ứng thay đổi",
+        "4": "Cấp 4 - giả dược, chưa được chứng minh"
+      },
+      "description_label": "Mô tả",
+      "delete_confirm_title": "Xóa thẻ \" {{tag}} \"?",
+      "empty": "Chưa có thẻ meta tùy chỉnh nào."
+    }
+  },
+  "settings": {
+    "title": "Cài đặt",
+    "subtitle": "Thông tin hệ thống, ngôn ngữ và tùy chọn mặc định.",
+    "system_info_title": "Hệ thống",
+    "version": "Phiên bản",
+    "data_dir": "Thư mục dữ liệu",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Có sẵn",
+    "ffmpeg_missing": "Không tìm thấy",
+    "capabilities_title": "Khả năng được cài đặt",
+    "capability": {
+      "denoise": "Giảm tiếng ồn",
+      "quality": "nâng cao chất lượng",
+      "separate": "Tách nguồn",
+      "ffmpeg": "chuyển đổi FFmpeg"
+    },
+    "capability_available": "Có sẵn",
+    "capability_unavailable": "Không có sẵn",
+    "gpu_title": "tăng tốc GPU",
+    "gpu": {
+      "torch_cuda": "CUDA PyTorch",
+      "ort_providers": "Nhà cung cấp thời gian chạy ONNX"
+    },
+    "gpu_none": "Không phát hiện thấy nhà cung cấp GPU nào",
+    "language_title": "Ngôn ngữ",
+    "language": {
+      "pt-BR": "Người Bồ Đào Nha (Brasil)",
+      "en": "Tiếng Anh"
+    },
+    "theme_title": "Ngoại hình",
+    "theme": {
+      "dark": "Tối",
+      "light": "Ánh sáng"
+    },
+    "defaults_title": "Xuất mặc định",
+    "lufs_target_label": "LUFS mục tiêu",
+    "lufs_target_hint": "Được sử dụng làm gợi ý bắt đầu khi xuất. Giá trị mặc định của Suno nằm ở khoảng -14 LUFS.",
+    "saved": "Đã lưu tùy chọn"
+  },
+  "guide": {
+    "title": "Hướng dẫn ghi âm Suno",
+    "subtitle": "Cách thu âm giọng nói và ghita để đạt được kết quả tốt nhất.",
+    "intro": "Suno hoạt động tốt nhất với các tài liệu tham khảo rõ ràng, rõ ràng. Hướng dẫn này bao gồm việc chuẩn bị, mức độ mục tiêu và kịch bản ghi âm dài 3–5 phút.",
+    "sections": {
+      "prep": {
+        "title": "Chuẩn bị",
+        "body": "Ghi âm trong phòng đã được xử lý hoặc phòng có nhiều chất liệu mềm (rèm, thảm, quần áo trong tủ). Tắt quạt và bất cứ thứ gì kêu vo vo. Làm nóng giọng nói của bạn trong 5 phút trước khi ghi âm."
+      },
+      "levels": {
+        "title": "Mức: -12 đến -6 dBFS",
+        "body": "Hãy nhắm tới mức đỉnh từ -12 đến -6 dBFS trên máy đo. Dưới phạm vi đó, tiếng ồn xung quanh trở nên dễ nhận thấy hơn; trên nó, rủi ro cắt giảm tăng lên. Sử dụng đồng hồ đo trên trang Ghi để đặt mức tăng của bạn trước khi bắt đầu."
+      },
+      "distance": {
+        "title": "Khoảng cách mic: 15–30 cm",
+        "body": "Đứng cách micro từ 15 đến 30 cm. Gần hơn mức đó sẽ phóng đại âm nổ và hiệu ứng lân cận; ở xa hơn sẽ thu được nhiều âm vang và tiếng ồn trong phòng hơn."
+      },
+      "script": {
+        "title": "Kịch bản ghi âm",
+        "warmup": "Khởi động giọng hát (1–2 phút)",
+        "vowels": "Nguyên âm duy trì - a, e, i, o, u",
+        "scales": "Cân đơn giản, lên xuống",
+        "excerpt": "Một đoạn trích bài hát (8 đến 16 ô nhịp)",
+        "dynamics": "Động lực: bắt đầu nhẹ nhàng, kết thúc ồn ào",
+        "spoken_phrase": "Một cụm từ được nói ra để Suno có thể đọc được giọng nói của bạn"
+      },
+      "expectations": {
+        "title": "Suno mong đợi điều gì",
+        "body": "WAV, 48 kHz, mono, khô (không có hồi âm hoặc hiệu ứng), tham chiếu từ 3 đến 5 phút. Khoảng thời gian 2 phút rõ ràng nhất, tiêu biểu nhất thường mang lại kết quả tốt nhất."
+      }
+    }
+  },
+  "status": {
+    "idea": "Ý tưởng",
+    "em_progresso": "Đang tiến hành",
+    "quase": "Gần như ở đó",
+    "pronto": "Sẵn sàng"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Kịch bản vocal đầy đủ của Suno",
+      "desc": "5 phút hướng dẫn: khởi động, nguyên âm, thang âm, hai đoạn trích bài hát, động lực và một đoạn nói."
+    },
+    "step": {
+      "warmup": "Khởi động giọng hát",
+      "warmup_inst": "Thư giãn bằng cách ngáp, nhếch môi (brrr) và ngâm nga nhẹ nhàng trong khoảng một phút. Không cần ghi âm - chỉ cần thư giãn cổ họng trước khi hát.",
+      "vowels": "nguyên âm duy trì",
+      "vowels_inst": "Giữ từng nguyên âm - a, e, i, o, u - trong 3 đến 4 giây ở cao độ thoải mái, với âm lượng ổn định. Điều này giúp Suno thu được âm sắc thuần khiết trong giọng nói của bạn.",
+      "scales": "Cân lên và xuống",
+      "scales_inst": "Hát một thang âm đơn giản lên rồi xuống, trên \"la\" hoặc \"na\". Nó không cần phải hoàn hảo - mục tiêu là lập bản đồ phạm vi giọng hát của bạn.",
+      "section": "Trích đoạn bài hát – phần 1",
+      "section_inst": "Hát từ 8 đến 16 ô nhịp của bài hát với ý đồ thực sự mà bạn muốn truyền tải. Ưu tiên sự rõ ràng và hiện diện hơn là sự hoàn hảo về mặt kỹ thuật.",
+      "section2": "Trích đoạn bài hát – phần 2",
+      "section2_inst": "Hát thêm 8 đến 16 ô nhịp nữa - lý tưởng nhất là một đoạn điệp khúc hoặc một đoạn tương phản với đoạn trước. Sự đa dạng hơn sẽ giúp người mẫu học được giọng nói của bạn.",
+      "dynamics": "Động lực: nhẹ → to",
+      "dynamics_inst": "Hát cùng một cụm từ, bắt đầu rất nhẹ nhàng và kết thúc thật to mà không bị căng cổ họng. Điều này cho Suno thấy dải động của giọng nói của bạn.",
+      "spoken": "Cụm từ nói",
+      "spoken_inst": "Nói - không hát - một cụm từ ngắn, tự nhiên, như thể bạn đang trò chuyện. Điều này giúp Suno nhận ra âm sắc thực sự của giọng nói của bạn."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Phục hồi",
+      "filter": "Bộ lọc",
+      "dynamics": "Động lực học",
+      "separation": "Sự tách biệt",
+      "quality": "chất lượng",
+      "utility": "Tiện ích",
+      "loudness": "Độ ồn"
+    },
+    "highpass": "Bộ lọc thông cao",
+    "lowpass": "Bộ lọc thông thấp",
+    "denoise": "Giảm tiếng ồn",
+    "declip": "Đang cắt",
+    "declick": "Loại bỏ nhấp chuột/pop",
+    "deesser": "Máy khử tinh chất",
+    "gate": "Cổng chống ồn",
+    "compressor": "Máy nén",
+    "limiter": "giới hạn",
+    "eq": "Cân bằng",
+    "normalize": "Chuẩn hóa đỉnh",
+    "loudness": "Chuẩn hóa âm lượng (LUFS)",
+    "reverb_reduce": "Giảm âm vang",
+    "separate": "Tách nguồn",
+    "quality": "Nâng cao chất lượng (cao cấp)",
+    "trim_silence": "Cắt tỉa im lặng",
+    "fade": "Làm mờ dần / mờ dần",
+    "stereo_to_mono": "Chuyển đổi sang đơn âm",
+    "resample": "Lấy mẫu lại"
+  },
+  "metatags": {
+    "tier": {
+      "1": "đáng tin cậy",
+      "2": "Thường hoạt động",
+      "3": "Biến",
+      "4": "Giả dược"
+    },
+    "category": {
+      "structure": "Cấu trúc",
+      "vocal": "Giọng hát",
+      "instrument": "Nhạc cụ",
+      "dynamics": "Động lực học",
+      "production": "Sản xuất",
+      "mood": "tâm trạng"
+    },
+    "verse": "câu thơ",
+    "chorus": "Điệp khúc",
+    "bridge": "Cầu",
+    "intro": "giới thiệu",
+    "outro": "ngoại truyện",
+    "hook": "Móc",
+    "prechorus": "Tiền điệp khúc",
+    "instrumental": "nhạc cụ",
+    "guitar_solo": "Độc tấu ghi-ta",
+    "build_up": "Xây dựng",
+    "breakdown": "Sự cố",
+    "spoken_word": "Lời nói",
+    "whispered": "thì thầm",
+    "harmonies": "Hòa âm",
+    "male_vocal": "Giọng nam",
+    "female_vocal": "Giọng nữ",
+    "duet": "Song ca",
+    "acoustic": "Âm thanh",
+    "ad_lib": "Quảng cáo"
+  },
+  "presets": {
+    "clean_voice": "Giọng nói trong trẻo",
+    "voice_guitar_balanced": "Cân bằng giọng nói và guitar",
+    "podcast": "Podcast",
+    "suno_ready": "Suno đã sẵn sàng",
+    "gentle_restore": "Khôi phục nhẹ nhàng",
+    "raw_passthrough": "Không xử lý"
+  },
+  "errors": {
+    "unknown": "Đã xảy ra lỗi.",
+    "network": "Không thể truy cập máy chủ.",
+    "validation_error": "Kiểm tra thông tin bạn đã nhập.",
+    "not_found": "Không tìm thấy mục.",
+    "project_not_found": "Dự án không được tìm thấy.",
+    "take_not_found": "Lấy không tìm thấy.",
+    "album_not_found": "Không tìm thấy album.",
+    "preset_not_found": "Không tìm thấy cài đặt trước.",
+    "template_not_found": "Không tìm thấy mẫu.",
+    "device_busy": "Thiết bị âm thanh đang được sử dụng bởi một chương trình khác.",
+    "device_not_found": "Không tìm thấy thiết bị âm thanh.",
+    "already_recording": "Quá trình ghi đang được tiến hành.",
+    "ffmpeg_missing": "FFmpeg chưa được cài đặt - hãy cài đặt nó để chuyển đổi tệp này.",
+    "disk_full": "Không đủ dung lượng đĩa.",
+    "permission_denied": "Quyền bị từ chối đối với đường dẫn đã cho.",
+    "import_path_not_found": "Không tìm thấy đường dẫn nhập.",
+    "job_failed": "Xử lý không thành công.",
+    "job_cancelled": "Quá trình xử lý đã bị hủy.",
+    "process_failed": "Không thể xử lý lượt nhận.",
+    "export_failed": "Không xuất được tệp.",
+    "record_failed": "Không thể bắt đầu ghi."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Đã xếp hàng",
+      "running": "Đang chạy",
+      "done": "Xong",
+      "error": "thất bại",
+      "cancelled": "Đã hủy"
+    },
+    "kind": {
+      "process": "Đang xử lý",
+      "export": "Xuất khẩu",
+      "import": "Nhập khẩu",
+      "record": "Ghi âm"
+    }
+  }
+}

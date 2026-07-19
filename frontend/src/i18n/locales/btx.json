@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Pembersih Audio"
+  },
+  "nav": {
+    "library": "Perpustakaan",
+    "record": "Rekam .",
+    "import": "Impor",
+    "templates": "Cetak",
+    "settings": "Pengaturan",
+    "guide": "Panduan"
+  },
+  "common": {
+    "save": "Simpan",
+    "saving": "Hemat...",
+    "saved": "Simpan",
+    "cancel": "Batalken",
+    "close": "Tutup",
+    "delete": "Hapus",
+    "edit": "Sunting",
+    "create": "Erbahan",
+    "search": "Darami",
+    "loading": "Muat...",
+    "error": "Kesalahen",
+    "retry": "Cubaken mulihi",
+    "confirm": "Konfirmasi",
+    "back": "Mulihken",
+    "next": "Selanjutna",
+    "continue": "Terusken",
+    "finish": "Selesai",
+    "copy": "Salin .",
+    "copied": "Isalin",
+    "download": "Unduh",
+    "upload": "Unggah",
+    "none": "La lit",
+    "all": "Kerina .",
+    "yes": "Enggo",
+    "no": "Labo",
+    "select": "Pilih .",
+    "optional": "pilihen",
+    "required": "iperluken",
+    "unsaved_changes": "Perubahen si la isimpan",
+    "name": "Gelar",
+    "status": "Status",
+    "type": "Jenis",
+    "actions": "Perbahanen .",
+    "empty": "Kosong",
+    "browse": "Jelajahi",
+    "remove": "Hapus",
+    "add": "Tambah",
+    "rename": "Ganti gelarna",
+    "duplicate": "Duplikat",
+    "warning": "Persinget .",
+    "locked": "Ikunci",
+    "builtin": "Si enggo ibangun",
+    "custom": "Adat",
+    "untitled": "La lit judulna",
+    "select_placeholder": "Pilih..."
+  },
+  "library": {
+    "title": "Perpustakaan",
+    "subtitle": "Proyek sora ras gitarndu, mulai ide seh rilis.",
+    "new_project": "Proyek si mbaru .",
+    "new_album": "Album si mbaru .",
+    "search_placeholder": "Darami alu gelar...",
+    "view": {
+      "grid": "Kisi-kisi",
+      "albums": "Album"
+    },
+    "filters": {
+      "all": "Kerina ."
+    },
+    "take_count_one": " {{count}} muat",
+    "take_count_other": " {{count}} muat .",
+    "updated_at": "Iperbarui {{date}} . ",
+    "no_results": {
+      "title": "La lit proyek si idat .",
+      "description": "Cobalah sesuaiken pencarian ntah pe filter status."
+    },
+    "empty": {
+      "title": "Perpustakaanndu enggo kosong .",
+      "description": "Mulailah sada proyek si mbaru i bas nol nari, ntah pe import takes si enggo lit bas diskndu.",
+      "cta_import": "Impor i bas map nari .",
+      "cta_new": "Buatlah proyek ."
+    },
+    "project_dialog": {
+      "title": "Proyek si mbaru .",
+      "description": "Bereken gelarna janah pilih mode rekaman.",
+      "name_label": "Gelar proyek .",
+      "name_placeholder": "misalna Udan Musim Panas",
+      "mode_label": "Modus",
+      "mode": {
+        "voice": "Sora saja .",
+        "voice_guitar": "Sora + gitar ."
+      },
+      "submit": "Buatlah proyek ."
+    },
+    "album_dialog": {
+      "title": "Album si mbaru .",
+      "description": "Kelompokken proyek-proyek si berhubungen jadi sada album.",
+      "name_label": "Gelar albumna",
+      "name_placeholder": "misalna Musim gugur EP .",
+      "submit": "Erbahan album ."
+    },
+    "album": {
+      "untitled": "Album si la lit judulna",
+      "members_count_one": " {{count}} proyek .",
+      "members_count_other": " {{count}} proyek .",
+      "empty": "La lit proyek ibas album enda.",
+      "delete_confirm_title": "Hapus nge albumndu?",
+      "delete_confirm_description": "Proyek-proyek labo kari ihapus, hanya unlink ibas \" {{name}} \" nari."
+    },
+    "delete_project": {
+      "confirm_title": "Hapus \" {{name}} \"?",
+      "confirm_description": "Enda mbuangken proyek ras tep-tep take i bas si e. Enda la banci ibalikken."
+    }
+  },
+  "record": {
+    "title": "Rekam .",
+    "subtitle": "Tangkaplah sada take si bersih, perdiatekenlah tingkatndu, janah ikutkenlah naskah.",
+    "project_label": "Proyek",
+    "project_placeholder": "Pilihlah sada proyek .",
+    "project_create_quick": "Buatlah sada proyek si pedas...",
+    "device_label": "Alat masuken",
+    "device_placeholder": "Pilih sada alat .",
+    "device_default_badge": "Sistem si enggo ibahan",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "La lit alat masuken si idat.",
+    "monitor_button": "Pantau",
+    "monitor_stop_button": "Ngadilah memantau .",
+    "record_button": "Rekam .",
+    "stop_button": "Ngadi",
+    "elapsed_label": "Waktu si enggo lewat",
+    "status": {
+      "idle": "Nganggur",
+      "monitoring": "Pemantauan",
+      "recording": "Rekaman",
+      "stopped": "Ngadi"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Puncak",
+      "clip": "Klip"
+    },
+    "guide": {
+      "title": "Sesi si ipandu .",
+      "subtitle": "Biar pelatih ndalani naskah langkah demi langkah, mulai pemanasen seh ku kalimat si ibelasken.",
+      "loading": "Muat naskah...",
+      "unavailable": "Sesi si ipandu enda lenga lit i bas server.",
+      "select_project_device": "Pilih sada proyek ras alat masuken guna ngerekam langkah-langkah langsung i jenda nari.",
+      "progress": " {{done}} i bas {{total}} langkah .",
+      "start_timer": "Mulai waktu",
+      "skip_timer": "Lewati waktu",
+      "record_step": "Rekamlah langkah enda .",
+      "stop_step": "Ngadiken rekaman .",
+      "mark_done": "Enggo dung — langkah selanjutna .",
+      "step_recorded": "Ibuatna rekaman .",
+      "no_record_step": "Langkah pemanasen — la perlu rekaman.",
+      "bars_hint": "Kira-kira {{bars}} batang .",
+      "complete_title": "Naskah enggo lengkap!",
+      "complete_body": "Enggo icatatndu tep-tep langkah naskah e. Mulihken ku tab Audio proyek e janah pilih take si ngena atendu.",
+      "restart": "Mulai mulihi naskah"
+    },
+    "best2min": {
+      "button": "Ndarami si mehulina 2 menit (Suno) .",
+      "running": "Menganalisa si ibuat...",
+      "score_label": "Skor",
+      "hint": "Ilakokenna analisis energi ras kejelasen i bas kerina take guna ndarami jendela 2 menit si megegehna — banci denga isesuaikenndu rentangna alu tan kenca si e.",
+      "chart_caption": "Skor per jendela .",
+      "unavailable": "Analisis si mehulina-2 menit lenga lit i bas server enda."
+    },
+    "takes_title": "Ibuat i bas sesi enda nari .",
+    "takes_empty": "La lit take si icatat ibas sesi enda.",
+    "open_in_project": "Buka i bas proyek .",
+    "ws_disconnected": "Ihubungken mulihi ku meter tingkat...",
+    "select_project_first": "Pilih sada proyek guna mulai.",
+    "select_device_first": "Pilih sada alat masuken."
+  },
+  "project": {
+    "back_to_library": "Mulihken ku perpustakaan .",
+    "header": {
+      "status_label": "Status",
+      "cover_upload": "Unggah sampul",
+      "cover_remove": "Itangtangina penutupna .",
+      "name_placeholder": "Gelar proyek .",
+      "links_title": "Tauten",
+      "add_link": "Tambahken link",
+      "mode": {
+        "voice": "Sora saja .",
+        "voice_guitar": "Sora + gitar ."
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Lirik lagu enda",
+      "prompts": "Pedah",
+      "notes": "Cataten"
+    },
+    "audio": {
+      "takes_title": "Buat",
+      "no_takes": {
+        "title": "La lit si muat .",
+        "description": "Rekamlah sada take si mbaru ntah pe impor sada file si enggo lit."
+      },
+      "record_new": "Rekam sada take si mbaru .",
+      "rating": "Penilaian",
+      "variant": {
+        "raw": "Mentah",
+        "processed": "Iproses"
+      },
+      "variant_placeholder": "Versi 1.1.",
+      "process_button": "Prosesna",
+      "export_button": "Ekspor",
+      "delete_take_confirm_title": "Hapuskenlah enda?",
+      "delete_take_confirm_description": "Audio mentah ras tep-tep versi si nggo iproses e itangtangi.",
+      "ab": {
+        "raw": "A · Mentah",
+        "processed": "B · Iproses ."
+      },
+      "origin": {
+        "recorded": "I rekam",
+        "imported": "Iimport"
+      },
+      "session_label_placeholder": "Label sesi (la perlu)",
+      "duration": "Durasi",
+      "sample_rate": "Tingkat sampel",
+      "channels": "Saluran",
+      "created_at": "I rekam"
+    },
+    "pipeline": {
+      "title": "Rantai pengolahen .",
+      "preset_label": "Tetapken lebe",
+      "preset_none": "Rantai khusus .",
+      "preset_save": "Simpan bagi si enggo itetapken .",
+      "stage_locked": "Ikunci",
+      "stage_requires_extra": "Perlu tambahen si la ipasang .",
+      "process_button": "Proses muat .",
+      "processing": "Pengolahen...",
+      "job_queued": "Ngantri...",
+      "job_running": "Pengolahen...",
+      "job_done": "Enggo dung",
+      "job_error": "Gagal",
+      "job_cancelled": "Ibatasi",
+      "cancel_job": "Batalken",
+      "no_stages": "La lit tahapen si lit."
+    },
+    "export": {
+      "title": "Ekspor muat .",
+      "description": "Renderken sada file si terakhir i bas versi si enggo iproses nari.",
+      "variant_label": "Versi 1.1.",
+      "format_label": "Format",
+      "preset_label": "Ekspor si enggo itetapken",
+      "range_label": "Kisaran",
+      "range_full": "Gedangna lengkap .",
+      "range_custom": "Kisaran khusus",
+      "start_label": "Mulai (-na)",
+      "end_label": "Dung (-na)",
+      "submit": "Ekspor",
+      "progress": "Berkas si ibahan...",
+      "download_ready": "Berkas enggo siap",
+      "download_button": "Unduh file"
+    },
+    "notes": {
+      "placeholder": "Cataten bentuk bebas kerna proyek enda...",
+      "saved_at": "Simpan ibas {{time}} . "
+    },
+    "lyrics": {
+      "placeholder": "Tulisken lirikna i jenda. Gunaken palet si lit i samping guna namaken meta-tag Suno.",
+      "saved_at": "Simpan ibas {{time}} . ",
+      "saving": "Hemat...",
+      "versions": "Versi-versi",
+      "versions_empty": "La lit versi si isimpan.",
+      "version_preview": "Pratinjau",
+      "restore": "Pulihken versi enda .",
+      "restore_confirm_title": "Pulihken nge versi enda?",
+      "restore_confirm_description": "Teks si genduari igantiken alu versi si isimpan i bas {{date}} .",
+      "metatags_title": "Meta-tanda",
+      "metatags_hint": "Klik sada tag guna namakenca i bas kursor.",
+      "metatags_placebo_warning": "La terbukti — banci saja la lit pengaruhna man hasilna.",
+      "metatags_empty": "La lit meta-tag si terdaftar."
+    },
+    "prompts": {
+      "style_title": "Gaya si mindo",
+      "lyrics_title": "Lirik lagu si minter",
+      "template_label": "Cetak",
+      "template_none": "La lit cetakan .",
+      "variables_title": "Variabel",
+      "preview_title": "Pratinjau",
+      "preview_empty": "Pilih sada template janah isilah variabel-variabel e gelah banci idahndu pratinjau.",
+      "char_count": " {{count}} karakterna",
+      "char_count_warning": "Gaya si isuruh lebih 1000 karakter banci saja ipotong Suno.",
+      "copy": "Salin .",
+      "copied": "Isalin ku papan klip .",
+      "save_to_project": "Simpan ku proyek .",
+      "saved_to_project": "Isuruh isimpan ku proyek .",
+      "history_title": "Sejarah",
+      "history_empty": "La lit versi si mbarenda.",
+      "current_label": "Gundari"
+    },
+    "stems": {
+      "title": "Vokal ras gitar .",
+      "separate_button": "Vokal ras gitar si terpisah .",
+      "running": "Memisahken...",
+      "vocals": "Vokal",
+      "instrumental": "Alat-alat",
+      "process_stem": "Olah batang enda .",
+      "empty": "Take enda lenga terpisahken. Lari pemisahan guna megiken vokal ras gitar secara terpisah.",
+      "capability_missing": "Pemisahan sumber enda ipasang ibas server enda.",
+      "unavailable": "Pemisahan vokal/gitar lenga lit ibas server enda."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "On",
+    "boolean_off": "Off"
+  },
+  "import": {
+    "title": "Impor",
+    "subtitle": "Baba proyek-proyek si enggo lit i bas disk ku bas perpustakaan.",
+    "step_indicator": "Langkah {{current}} ibas {{total}} . ",
+    "step1": {
+      "title": "Daramilah map .",
+      "description": "Tuduhken ku folder root ras proyek-proyek ras trek-trekndu.",
+      "path_label": "Jalur map",
+      "path_placeholder": "misalna E:\\Robbs\\Kebanggaan\\Musik\\Robbs",
+      "recent_label": "Baru-baru enda",
+      "scan_button": "Pindai map",
+      "scanning": "Memindai...",
+      "ffmpeg_warning": "FFmpeg la idat — file si perlu iubah pasti i skip.",
+      "folders_found_one": " {{count}} map enggo idat .",
+      "folders_found_other": " {{count}} map si idat .",
+      "unmatched_files_one": " {{count}} berkas si la itandai",
+      "unmatched_files_other": " {{count}} berkas si la itandai"
+    },
+    "step2": {
+      "title": "Tinjau barang-barang .",
+      "description": "Perdiateken gelar, status, ras kai si nandangi iimport ope denga ikonfirmasi.",
+      "select_all": "Pilih kerina .",
+      "table": {
+        "folder": "Map sumber .",
+        "name": "Gelar proyek .",
+        "status": "Status",
+        "audio": "Audio",
+        "lyrics": "Lirik lagu enda",
+        "cover": "Sampul",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} berkas si enggo ipilih .",
+      "audio_include_other": " {{count}} berkas si enggo ipilih .",
+      "no_audio": "La lit audio si idat",
+      "no_lyrics": "La lit lirikna si idat",
+      "no_cover": "La lit penutupna .",
+      "warnings_title": "Persinget"
+    },
+    "step3": {
+      "title": "Impor",
+      "description": "Konfirmasiken guna menyalin file-file ras erbahan proyek-proyek.",
+      "copy_originals": "Salin file aslina ku perpustakaan .",
+      "execute_button": "Mulai impor .",
+      "progress_title": "Impor...",
+      "created_count": "Si ibahan: {{count}} . ",
+      "skipped_count": "I lewati: {{count}} . ",
+      "done_title": "Impor enggo lengkap .",
+      "done_description": "Proyek-proyek si lit i teruh enda ibahan i perpustakaanndu.",
+      "view_project": "Proyek si terbuka .",
+      "start_over": "Impor si mbaru ."
+    }
+  },
+  "templates": {
+    "title": "Cetak",
+    "subtitle": "Templat si banci ipake mulihi ras meta-tag guna Suno.",
+    "tabs": {
+      "prompts": "Templat si mindo .",
+      "metatags": "Meta-tanda"
+    },
+    "new_template": "Templat si mbaru .",
+    "kind": {
+      "style": "Gaya",
+      "lyrics": "Lirik lagu enda"
+    },
+    "kind_label": "Mehuli",
+    "delete_confirm_title": "Hapuslah cetakan \" {{name}} \"?",
+    "delete_confirm_description": "Enda la banci ibalikken.",
+    "empty": "La lit template si lit.",
+    "editor": {
+      "title_new": "Templat si mbaru .",
+      "title_edit": "Sunting templat",
+      "name_label": "Gelar",
+      "name_placeholder": "misalna Balada akustik .",
+      "kind_label": "Mehuli",
+      "template_label": "Teks cetakan",
+      "template_hint": "Tandai i ja tiap variabel masuk alu gelarna si ibaluti alu tanda kurung keriting ganda — misalna, sada variabel si gelarna “genre” jadi genre si ibaluti alu dua tanda kurung pembuka ras dua tanda kurung penutup.",
+      "variables_label": "Variabel",
+      "variable_add": "Tambahken variabel .",
+      "variable_name": "Kunci",
+      "variable_label": "Label",
+      "variable_type": "Jenis",
+      "variable_type_string": "Teks",
+      "variable_type_select": "Pilih sada .",
+      "variable_type_multiselect": "Multi-pilih",
+      "variable_type_number": "Nomor 1.1.",
+      "variable_type_boolean": "Payo/lang",
+      "variable_options": "Pilihen (ipisahken alu tanda koma)",
+      "variable_required": "Iperluken",
+      "save": "Simpan templat"
+    },
+    "metatags": {
+      "title": "Meta-tanda",
+      "subtitle": "Tag struktural ras gaya Suno nandai i bas lirik.",
+      "new_tag": "Tag si mbaru .",
+      "tag_label": "Tag",
+      "tag_placeholder": "misalna gitar-solo",
+      "category_label": "Kategori",
+      "tier_label": "Keandalen",
+      "tier_legend_title": "Legenda keandalan .",
+      "tier_legend": {
+        "1": "Tingkat 1 — enggo idokumentasiken ras konsisten .",
+        "2": "Tingkat 2 — biasana erdahin .",
+        "3": "Tingkat 3 — efek si banci berubah-ubah .",
+        "4": "Tingkat 4 — plasebo, si la terbukti ."
+      },
+      "description_label": "Keterangan",
+      "delete_confirm_title": "Hapus tag \" {{tag}} \"?",
+      "empty": "La lit meta-tag khusus si lit."
+    }
+  },
+  "settings": {
+    "title": "Pengaturan",
+    "subtitle": "Informasi sistem, bahasa, ras si ipilihndu.",
+    "system_info_title": "Sistem .",
+    "version": "Versi 1.1.",
+    "data_dir": "Map data .",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Tersedia",
+    "ffmpeg_missing": "Labo idat .",
+    "capabilities_title": "Kemampuan si enggo ipasang .",
+    "capability": {
+      "denoise": "Pengurangan sora .",
+      "quality": "Peningkatan kualitas .",
+      "separate": "Pemisahan sumber .",
+      "ffmpeg": "FFmpeg perubahen"
+    },
+    "capability_available": "Tersedia",
+    "capability_unavailable": "La tersedia",
+    "gpu_title": "Percepatan GPU .",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Penyedia waktu erdalan ."
+    },
+    "gpu_none": "La lit penyedia GPU si terdeteksi .",
+    "language_title": "Bahasa",
+    "language": {
+      "pt-BR": "Kalak Portugis (Brasil)",
+      "en": "Bahasa Indonesia"
+    },
+    "theme_title": "Penampilen",
+    "theme": {
+      "dark": "Gelap",
+      "light": "Terang"
+    },
+    "defaults_title": "Ekspor si default",
+    "lufs_target_label": "Sasaran LUFS .",
+    "lufs_target_hint": "Igunaken jadi saran awal ibas ekspor muat. Suno si bawaan kundul sekitar -14 LUFS.",
+    "saved": "Pilihen si isimpan"
+  },
+  "guide": {
+    "title": "Panduan rekaman Suno .",
+    "subtitle": "Cara menangkap suara ras gitar takes si ndatken hasil si mehulina.",
+    "intro": "Suno erdahin alu mehuli alu referensi si bersih ras la ambigu. Panduan enda ncakup persiapen, tingkat target, ras naskah rekaman 3–5 menit.",
+    "sections": {
+      "prep": {
+        "title": "Persiapen .",
+        "body": "Rekam i bas ruangen si irawat ntah pe si melala bahan si lembut (gorden, karpet, uis i bas lemari). Mateken kipas angin ras kai pe si erdengum. Pemanas sorandu 5 menit ope denga ngerekam."
+      },
+      "levels": {
+        "title": "Tingkatna: -12 seh ku -6 dBFS .",
+        "body": "Tujunna eme puncak antara -12 ras -6 dBFS ibas meter. I teruh rentang e, sora latar belakang jadi lebih teridah; i datasna, resiko kliping naik. Gunaken meter si lit bas halamen Rekam guna ngaturken keuntungenndu ope denga mulai."
+      },
+      "distance": {
+        "title": "Jarak mikro: 15-30 cm .",
+        "body": "Tetaplah 15 seh 30 cm arah mikrofon nari. Lebih ndeher asangken si e melebih-lebihken plosif ras efek kedekatan; lebih ndauh ngangkat lebih ruang reverb ras sora."
+      },
+      "script": {
+        "title": "Naskah rekaman .",
+        "warmup": "Pemanasen vokal (1-2 menit) .",
+        "vowels": "Vokal si ipertahanken — a, e, i, o, u .",
+        "scales": "Timbangan si sederhana, nangkih ras nusur .",
+        "excerpt": "Sada kutipen lagu (8 seh 16 bar) .",
+        "dynamics": "Dinamika : mulai alu lembut, dungna alu sora si megang .",
+        "spoken_phrase": "Sada kalimat si ibelasken, gelah banci ibaca Suno nada vokalndu ."
+      },
+      "expectations": {
+        "title": "Kai si iarapken Suno .",
+        "body": "WAV, 48 kHz, mono, kering (la lit reverb ntah pe efek), 3 seh ku 5 menit acuan. Si paling bersih, paling mewakili 2 menit si ibuat biasana mereken hasil si mehulina."
+      }
+    }
+  },
+  "status": {
+    "idea": "Ide",
+    "em_progresso": "I bas perdalanen .",
+    "quase": "Hampir lit .",
+    "pronto": "Siap"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Naskah vokal lengkap man Suno .",
+      "desc": "5 menit si ipandu: pemanasen, vokal, skala, dua kutipen lagu, dinamika, ras sada kalimat si ibelasken."
+    },
+    "step": {
+      "warmup": "Pemanasen vokal .",
+      "warmup_inst": "Longgarken alu menguap, bibir si ergeruhguh (brrr), ras sora si lembut kira-kira sada menit dekahna. La perlu ngerekam — e guna ngelepasken tenggoroken saja ope denga rende.",
+      "vowels": "Vokal si berkelanjuten .",
+      "vowels_inst": "Pegang tiap vokal — a, e, i, o, u — 3 seh ku 4 detik alu nada si nyaman, alu volume si tetap. Enda nampati Suno ngangkat timbre murni sorandu.",
+      "scales": "Timbangan ku datas ras ku teruh .",
+      "scales_inst": "Endeken skala sederhana ku datas kenca si e ku teruh, i bas \"la\" ntah pe \"na\". Labo perlu sempurna — tujunna eme guna mpetaken jangkauan vokalndu.",
+      "section": "Kutipen lagu — bagin 1 .",
+      "section_inst": "Endeken 8 seh ku 16 bar lagu e, alu niat si tuhu-tuhu si atendu ipesehndu. Prioritasken kejelasen ras kehadiren asangken kesempurnaan teknis.",
+      "section2": "Kutipen lagu — bagin 2 .",
+      "section2_inst": "Endekenlah 8 seh ku 16 bar nari — si mehulina paduan suara ntah pe bagin si kontras ras si mbarenda. Lebih erbage-bage nampati model e erlajar sorandu.",
+      "dynamics": "Dinamika: lembut → megang .",
+      "dynamics_inst": "Endekenlah kalimat si seri mulai alu lembut kel janah dungna alu sora si megang, alu la ngeregangken tenggorokenndu. Enda ncidahken Suno jangkauan dinamis sorandu.",
+      "spoken": "Kalimat si ibelasken .",
+      "spoken_inst": "Ngerana — ula rende — alu kalimat si gendek ras alami, tempa-tempa kam sangana ngobrol. Enda nampati Suno nandai timbre sorandu si tuhu-tuhu."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Pemulihen",
+      "filter": "Saringan",
+      "dynamics": "Dinamika",
+      "separation": "Perpisahen .",
+      "quality": "Kualitas .",
+      "utility": "Kegunaan",
+      "loudness": "Sora si megang"
+    },
+    "highpass": "Saringan si lewat tinggi",
+    "lowpass": "Saringan si lewat rendah",
+    "denoise": "Pengurangan sora .",
+    "declip": "Nggunting",
+    "declick": "Klik/pop penghapusen .",
+    "deesser": "De-esser",
+    "gate": "Gerbang si ribut .",
+    "compressor": "Kompresor",
+    "limiter": "Pembatas",
+    "eq": "Persamaan",
+    "normalize": "Puncak normalisasi .",
+    "loudness": "Normalisasi sora si megang (LUFS) .",
+    "reverb_reduce": "Pengurangan reverb .",
+    "separate": "Pemisahan sumber .",
+    "quality": "Peningkatan kualitas (kelas atas) .",
+    "trim_silence": "Sinik pemangkasen .",
+    "fade": "Pudar masuk / pudar ndarat .",
+    "stereo_to_mono": "Tukar ku mono .",
+    "resample": "Penampel mulihi"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Banci iandalken",
+      "2": "Biasana erdahin .",
+      "3": "Variabel",
+      "4": "Plasebo"
+    },
+    "category": {
+      "structure": "Struktur .",
+      "vocal": "Vokal",
+      "instrument": "Alat musik",
+      "dynamics": "Dinamika",
+      "production": "Produksi",
+      "mood": "Suasana hati"
+    },
+    "verse": "Ayat 1 .",
+    "chorus": "Paduan suara",
+    "bridge": "Jembatan",
+    "intro": "Intro",
+    "outro": "Keluar",
+    "hook": "Kait",
+    "prechorus": "Pra-paduan suara",
+    "instrumental": "Alat-alat",
+    "guitar_solo": "Solo gitar .",
+    "build_up": "Membangun-bangun",
+    "breakdown": "Kerusaken .",
+    "spoken_word": "Kata si ibelasken .",
+    "whispered": "Ibisikkenna",
+    "harmonies": "Harmonis",
+    "male_vocal": "Vokal dilaki .",
+    "female_vocal": "Vokal diberu .",
+    "duet": "Duet",
+    "acoustic": "Akustik",
+    "ad_lib": "Iklan-lib"
+  },
+  "presets": {
+    "clean_voice": "Sora si bersih .",
+    "voice_guitar_balanced": "Sora & gitar si seimbang .",
+    "podcast": "Podkast",
+    "suno_ready": "Suno enggo siap .",
+    "gentle_restore": "Pemulihen alu lembut .",
+    "raw_passthrough": "La lit pengolahenna ."
+  },
+  "errors": {
+    "unknown": "Lit si la mehuli si terjadi.",
+    "network": "Labo banci seh ku server.",
+    "validation_error": "Periksalah keterangen si imasukkenndu.",
+    "not_found": "Barang si la idat.",
+    "project_not_found": "Proyek si la idat.",
+    "take_not_found": "Take enda jumpa.",
+    "album_not_found": "Album enda enggo jumpa.",
+    "preset_not_found": "Preset enda lit.",
+    "template_not_found": "Templat enda lit.",
+    "device_busy": "Perangkat audio si ipake program si deban.",
+    "device_not_found": "Perangkat audio la lit.",
+    "already_recording": "Sada rekaman enggo sangana erdalan.",
+    "ffmpeg_missing": "FFmpeg enda enggo ipasang — pasanglah guna mengkonversi file enda.",
+    "disk_full": "Labo cukup ruang disk.",
+    "permission_denied": "Izin itulak guna dalan si ibereken.",
+    "import_path_not_found": "Jalur impor enda lit.",
+    "job_failed": "Pengolahenna gagal.",
+    "job_cancelled": "Pengolahenna enggo ibatasi.",
+    "process_failed": "Gagal i bas ngolah si ibuat.",
+    "export_failed": "Gagal nge ekspor file e.",
+    "record_failed": "Gagal mulai ngerekam."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Ngantri",
+      "running": "Erdalan .",
+      "done": "Enggo dung",
+      "error": "Gagal",
+      "cancelled": "Ibatalken"
+    },
+    "kind": {
+      "process": "Pengolahen",
+      "export": "Ekspor",
+      "import": "Impor",
+      "record": "Rekaman"
+    }
+  }
+}

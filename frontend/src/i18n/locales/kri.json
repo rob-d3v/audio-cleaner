@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Di wan we de klin di Odio"
+  },
+  "nav": {
+    "library": "Laybri",
+    "record": "Rikɔd",
+    "import": "Impɔt",
+    "templates": "Template dɛn we dɛn kin yuz",
+    "settings": "Sɛtin dɛn we dɛn dɔn mek",
+    "guide": "Gayd fɔ di pɔsin"
+  },
+  "common": {
+    "save": "Sev am",
+    "saving": "Sevin...",
+    "saved": "Dɛn dɔn sev am",
+    "cancel": "Kansel",
+    "close": "Klos",
+    "delete": "Dilit fɔ dilit",
+    "edit": "Ɛdit",
+    "create": "Krio",
+    "search": "Sɔch",
+    "loading": "We yu de lod...",
+    "error": "Mistek we dɛn mek",
+    "retry": "Tray bak",
+    "confirm": "Kɔnfɛm",
+    "back": "Bak bak",
+    "next": "Neks wan",
+    "continue": "Kɔntinyu fɔ du dat",
+    "finish": "Finish am fɔ dɔn",
+    "copy": "Kɔpi",
+    "copied": "Dɛn bin kɔpi am",
+    "download": "Daunlod am",
+    "upload": "Uplod am",
+    "none": "Nɔn nɔ de",
+    "all": "Ɔl dis",
+    "yes": "Yɛs",
+    "no": "Nɔ",
+    "select": "Pik di pikchɔ",
+    "optional": "opshɔnal tin fɔ du",
+    "required": "we dɛn nid fɔ du",
+    "unsaved_changes": "Chenj dɛn we dɛn nɔ sev",
+    "name": "Nem",
+    "status": "Status we pɔsin gɛt",
+    "type": "Tayp",
+    "actions": "Akshɔn dɛn",
+    "empty": "Ɛmpti",
+    "browse": "Brayz yu",
+    "remove": "Rimov am",
+    "add": "Add",
+    "rename": "Rinem di nem",
+    "duplicate": "Dupliket",
+    "warning": "Wonin",
+    "locked": "Dɛn dɔn lɔk am",
+    "builtin": "Dɛn bil am insay",
+    "custom": "Kastɔm",
+    "untitled": "Nɔ gɛt taytul",
+    "select_placeholder": "Selekt..."
+  },
+  "library": {
+    "title": "Laybri",
+    "subtitle": "Yu vɔys ɛn gita projɛkt, frɔm aydia to rilis.",
+    "new_project": "Nyu prɔjek",
+    "new_album": "Nyu albam",
+    "search_placeholder": "Sɔch bay nem...",
+    "view": {
+      "grid": "Grid we dɛn kɔl",
+      "albums": "Albam dɛn we dɛn kin yuz"
+    },
+    "filters": {
+      "all": "Ɔl dis"
+    },
+    "take_count_one": " {{count}} tek",
+    "take_count_other": " {{count}} de tek",
+    "updated_at": "Dɛn dɔn ɔpdet am {{date}} ",
+    "no_results": {
+      "title": "No projɛkt nɔ de we dɛn fɛn",
+      "description": "Tray fɔ ajɔst di sɔch ɔ di stetɔs filta."
+    },
+    "empty": {
+      "title": "Yu laybri dɔn ɛmti",
+      "description": "Start nyu projɛkt frɔm skrach, ɔ import teks we yu dɔn ɔlrɛdi gɛt na disk.",
+      "cta_import": "Impɔt frɔm fɔlda",
+      "cta_new": "Krio projɛkt"
+    },
+    "project_dialog": {
+      "title": "Nyu prɔjek",
+      "description": "Gi am nem ɛn pik wan we fɔ rikodin.",
+      "name_label": "Di nem fɔ di prɔjek",
+      "name_placeholder": "ɛgz., ɛgz. Sɔm Ren we kin kam",
+      "mode_label": "Di we aw dɛn de du am",
+      "mode": {
+        "voice": "Voys nɔmɔ",
+        "voice_guitar": "Voys + gita"
+      },
+      "submit": "Krio projɛkt"
+    },
+    "album_dialog": {
+      "title": "Nyu albam",
+      "description": "Grup rilayt projɛkt dɛn insay wan albam.",
+      "name_label": "Di nem fɔ di albam",
+      "name_placeholder": "ɛgz., ɛgz. Ɔtɔm EP",
+      "submit": "Krio albam"
+    },
+    "album": {
+      "untitled": "Albam we nɔ gɛt taytul",
+      "members_count_one": " {{count}} projɛkt",
+      "members_count_other": " {{count}} prɔjɛkt dɛn",
+      "empty": "No projɛkt nɔ de na dis albam yet.",
+      "delete_confirm_title": "Dilit albam?",
+      "delete_confirm_description": "Dɛn nɔ go dilit di prɔjek dɛn, dɛn nɔ go gɛt link frɔm \" {{name}} \" nɔmɔ."
+    },
+    "delete_project": {
+      "confirm_title": "Dilit \" {{name}} \"?",
+      "confirm_description": "Dis de pul di projɛkt ɛn ɛvri tek insay am. Dis nɔ go ebul fɔ undone."
+    }
+  },
+  "record": {
+    "title": "Rikɔd",
+    "subtitle": "Kapchɔ wan klin tek, wach yu lɛvɛl dɛn, ɛn fala di skript.",
+    "project_label": "Projek we dɛn de du",
+    "project_placeholder": "Pik wan prɔjɛkt",
+    "project_create_quick": "Krio wan kwik projɛkt...",
+    "device_label": "Input divays",
+    "device_placeholder": "Pik wan divays",
+    "device_default_badge": "Sistem difɔlt",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "No input divays nɔ de we dɛn fɛn.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Stɔp fɔ monitar",
+    "record_button": "Rikɔd",
+    "stop_button": "Stɔp",
+    "elapsed_label": "Tɛm we dɔn pas",
+    "status": {
+      "idle": "Idle, i nɔ de du natin",
+      "monitoring": "Monitoring we dɛn de du",
+      "recording": "Fɔ rɛkɔd",
+      "stopped": "I bin stɔp"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Pik we dɛn kɔl",
+      "clip": "Klip we dɛn kɔl"
+    },
+    "guide": {
+      "title": "Seshɔn we dɛn de gayd",
+      "subtitle": "Mek di kɔch waka yu tru di skript stɛp bay stɛp, frɔm wam-ap to di frayz we dɛn tɔk.",
+      "loading": "We yu de lod skript...",
+      "unavailable": "Di gayd seshɔn nɔ de na di sava yet.",
+      "select_project_device": "Pik wan prɔjek ɛn wan input divays fɔ rikodɔ stɛp dɛn rayt frɔm ya.",
+      "progress": " {{done}} ɔf {{total}} stɛp dɛn",
+      "start_timer": "Start di tayma",
+      "skip_timer": "Skip di tayma",
+      "record_step": "Rikɔd dis step",
+      "stop_step": "Stɔp fɔ rikodɔm",
+      "mark_done": "Done — nɛks step",
+      "step_recorded": "Tek we dɛn dɔn rɛkɔd",
+      "no_record_step": "Wom-ap step — no rikodin nid.",
+      "bars_hint": "Na lɛk {{bars}} bar dɛn",
+      "complete_title": "Skript dɔn kɔmplit!",
+      "complete_body": "Yu don rekod evri step fo di skript. Hed bak to di projɛkt in Odio tab ɛn pik yu fav tek dɛn.",
+      "restart": "Ristart skript bak"
+    },
+    "best2min": {
+      "button": "Fɛn di bɛst 2 minit (Suno) .",
+      "running": "Analyzing di tek...",
+      "score_label": "Skɔ",
+      "hint": "Rɔn wan ɛnaji ɛn klia analisis ova di ɔl tek fɔ fɛn in strɔngest 2 minit winda — yu kin stil ajɔst di rɛnj wit an afta dat.",
+      "chart_caption": "Skɔ fɔ ɛni winda",
+      "unavailable": "Di bɛst-2-minit analisis nɔ de na dis sava yet."
+    },
+    "takes_title": "Tek frɔm dis sɛshɔn",
+    "takes_empty": "No teks rekod in dis seshon yet.",
+    "open_in_project": "Opin in projɛkt",
+    "ws_disconnected": "Rikonekt to di levul mita...",
+    "select_project_first": "Pik wan prɔjek fɔ bigin.",
+    "select_device_first": "Pik wan input divays."
+  },
+  "project": {
+    "back_to_library": "Bak to laybri",
+    "header": {
+      "status_label": "Status we pɔsin gɛt",
+      "cover_upload": "Uplod di kɔva",
+      "cover_remove": "Rimov di kɔva",
+      "name_placeholder": "Di nem fɔ di prɔjek",
+      "links_title": "Links dɛn we de",
+      "add_link": "Add link",
+      "mode": {
+        "voice": "Voys nɔmɔ",
+        "voice_guitar": "Voys + gita"
+      }
+    },
+    "tabs": {
+      "audio": "Odio we dɛn kin yuz",
+      "lyrics": "Liriks fɔ di wɔd dɛn",
+      "prompts": "Di tin dɛn we dɛn kin tɛl pipul dɛn fɔ du",
+      "notes": "Notis dɛn"
+    },
+    "audio": {
+      "takes_title": "Teks",
+      "no_takes": {
+        "title": "No teks yet",
+        "description": "Rikɔd nyu tek ɔ import fayl we dɔn de."
+      },
+      "record_new": "Rikɔd wan nyu tek",
+      "rating": "Di raytin",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Dɛn dɔn prosɛs am"
+      },
+      "variant_placeholder": "Vɛshɔn we dɛn mek",
+      "process_button": "Di we aw dɛn de du am",
+      "export_button": "Ɛkspɔt",
+      "delete_take_confirm_title": "Dilit dis tek?",
+      "delete_take_confirm_description": "Di raw odio ɛn ɛvri vɛshɔn we dɛn dɔn prosɛs go kɔmɔt.",
+      "ab": {
+        "raw": "A · Raw we dɛn kɔl",
+        "processed": "B · Dɛn dɔn prosɛs am"
+      },
+      "origin": {
+        "recorded": "Dɛn dɔn rɛkɔd am",
+        "imported": "Dɛn dɔn import am"
+      },
+      "session_label_placeholder": "Lebul fɔ di sɛshɔn (we yu kin pik) .",
+      "duration": "Di tɛm we i fɔ tek",
+      "sample_rate": "Sampul rεt",
+      "channels": "Chanɛl dɛn",
+      "created_at": "Dɛn dɔn rɛkɔd am"
+    },
+    "pipeline": {
+      "title": "Prɔsesin chen",
+      "preset_label": "Preset we dɛn dɔn sɛt",
+      "preset_none": "Kastom chen we dɛn mek",
+      "preset_save": "Sev as yu dɔn sɛt am",
+      "stage_locked": "Dɛn dɔn lɔk am",
+      "stage_requires_extra": "Rikways wan ekstra we nɔ instɔl",
+      "process_button": "Proses tek",
+      "processing": "Prosesin we dɛn de du...",
+      "job_queued": "Di wan dɛn we de na di kiyu...",
+      "job_running": "Prosesin we dɛn de du...",
+      "job_done": "Dɛn dɔn du am",
+      "job_error": "I nɔ bin ebul fɔ du am",
+      "job_cancelled": "Dɛn dɔn kansel am",
+      "cancel_job": "Kansel",
+      "no_stages": "No stej nɔ de we de."
+    },
+    "export": {
+      "title": "Ekspɔt tek",
+      "description": "Rɛnda wan las fayl frɔm wan vɛshɔn we dɛn dɔn prosɛs.",
+      "variant_label": "Vɛshɔn we dɛn mek",
+      "format_label": "Fɔmat",
+      "preset_label": "Ekspɔt prɛs sɛt",
+      "range_label": "Rɛnj we dɛn kɔl",
+      "range_full": "Ful lɔng",
+      "range_custom": "Kastom rɛnj",
+      "start_label": "Start (dɛn) .",
+      "end_label": "Ɛnd (dɛn) .",
+      "submit": "Ɛkspɔt",
+      "progress": "Fayl we de rɛnd...",
+      "download_ready": "Fayl dɔn rɛdi",
+      "download_button": "Daunlod fayl"
+    },
+    "notes": {
+      "placeholder": "Fri-fɔm not dɛn bɔt dis prɔjek...",
+      "saved_at": "Sev am na {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Rayt di liriks ya. Yuz di palet we de na di sayd fɔ put Suno mɛta-tɛg dɛn.",
+      "saved_at": "Sev am na {{time}} ",
+      "saving": "Sevin...",
+      "versions": "Vɛshɔn dɛn",
+      "versions_empty": "No sev vɛshɔn dɛn yet.",
+      "version_preview": "Fɔ si di tɛm bifo dis tɛm",
+      "restore": "Ristɔr dis vɛshɔn",
+      "restore_confirm_title": "Ristɔr dis vɛshɔn?",
+      "restore_confirm_description": "Di tɛks we de naw go riples wit di vɛshɔn we dɛn dɔn kip na {{date}} .",
+      "metatags_title": "Meta-tag dɛn we dɛn kin yuz",
+      "metatags_hint": "Klik wan tag fɔ put am na di kɔsa.",
+      "metatags_placebo_warning": "Unproven — kin nɔ gɛt ɛni ifɛkt pan di rizɔlt.",
+      "metatags_empty": "No meta-tags nɔ de we dɛn rɛjista."
+    },
+    "prompts": {
+      "style_title": "Stayl prɔmpt",
+      "lyrics_title": "Liriks prompt",
+      "template_label": "Template we dɛn kin yuz",
+      "template_none": "No tɛmplat nɔ de",
+      "variables_title": "Di tin dɛn we kin chenj chenj",
+      "preview_title": "Fɔ si di tɛm bifo dis tɛm",
+      "preview_empty": "Pik wan tɛmplat ɛn ful-ɔp di vayriɔbul dɛn fɔ si wan prɛviu.",
+      "char_count": " {{count}} karakta dɛn",
+      "char_count_warning": "Stayl prompt ova 1000 karakta kin get truncated by Suno.",
+      "copy": "Kɔpi",
+      "copied": "Dɛn kɔpi am na klipbɔd",
+      "save_to_project": "Sev to projɛkt",
+      "saved_to_project": "Prɔmpt we dɛn dɔn kip fɔ projɛkt",
+      "history_title": "Istri bɔt istri",
+      "history_empty": "No fɔs vɛshɔn dɛn nɔ de.",
+      "current_label": "Naw"
+    },
+    "stems": {
+      "title": "Vokal ɛn gita",
+      "separate_button": "Separet vokal ɛn gita",
+      "running": "Separet...",
+      "vocals": "Vokal dɛn",
+      "instrumental": "Instrɔmɛnt we dɛn kin yuz fɔ mek tin dɛn",
+      "process_stem": "Proses dis stem",
+      "empty": "Dis tek no bin separet yet. Rɔn separeshɔn fɔ yɛri di vokal ɛn gita insay aysolɛshɔn.",
+      "capability_missing": "Sos separeshɔn nɔ instɔl na dis sava.",
+      "unavailable": "Vokal/gita separeshɔn nɔ de na dis sava yet."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "On",
+    "boolean_off": "Off"
+  },
+  "import": {
+    "title": "Impɔt",
+    "subtitle": "Bring projɛkt dɛn we dɔn ɔlrɛdi de na disk insay di laybri.",
+    "step_indicator": "Step {{current}} ɔf {{total}} . ",
+    "step1": {
+      "title": "Luk fɔ di fɔlda",
+      "description": "Point to di rut folda wit yu projɛkt ɛn trak dɛn.",
+      "path_label": "Di rod fɔ di fɔlda",
+      "path_placeholder": "ɛgz., ɛgz. E:\\Robbs\\Prayd\\Myuzik\\ROBBS",
+      "recent_label": "I nɔ tu te yet",
+      "scan_button": "Skan fɔlda",
+      "scanning": "Skan we dɛn de skan...",
+      "ffmpeg_warning": "FFmpeg nɔ fɛn — fayl dɛn we nid kɔnvɔshɔn go skip.",
+      "folders_found_one": " {{count}} fɔlda we dɛn dɔn fɛn",
+      "folders_found_other": " {{count}} fɔlda dɛn we dɛn dɔn fɛn",
+      "unmatched_files_one": " {{count}} fayl we dɛn nɔ no",
+      "unmatched_files_other": " {{count}} fayl dɛn we dɛn nɔ no"
+    },
+    "step2": {
+      "title": "Rivyu di tin dɛn we dɛn dɔn tɔk bɔt",
+      "description": "Chek nem, stetus, ɛn wetin dɛn go import bifo yu kɔnfɔm.",
+      "select_all": "Pik ɔl",
+      "table": {
+        "folder": "Sos fɔlda",
+        "name": "Di nem fɔ di prɔjek",
+        "status": "Status we pɔsin gɛt",
+        "audio": "Odio we dɛn kin yuz",
+        "lyrics": "Liriks fɔ di wɔd dɛn",
+        "cover": "Kɔva",
+        "album": "Albam we dɛn mek"
+      },
+      "audio_include_one": " {{count}} fayl we dɛn dɔn pik",
+      "audio_include_other": " {{count}} fayl dɛn we dɛn dɔn pik",
+      "no_audio": "No odio nɔ de we dɛn fɛn",
+      "no_lyrics": "No liriks nɔ de we dɛn fɛn",
+      "no_cover": "No kɔva nɔ de",
+      "warnings_title": "Wonin dɛn"
+    },
+    "step3": {
+      "title": "Impɔt",
+      "description": "Kɔnfɛm fɔ kɔpi di fayl dɛn ɛn mek di prɔjek dɛn.",
+      "copy_originals": "Kɔpi di ɔrijinal fayl dɛn na di laybri",
+      "execute_button": "Start fɔ import",
+      "progress_title": "Impɔtant...",
+      "created_count": "Dɛn mek am: {{count}} ",
+      "skipped_count": "Skip: {{count}} . ",
+      "done_title": "Import komplit",
+      "done_description": "Dɛn mek di prɔjek dɛn we de dɔŋ ya na yu laybri.",
+      "view_project": "Opin projɛkt",
+      "start_over": "Nyu import"
+    }
+  },
+  "templates": {
+    "title": "Template dɛn we dɛn kin yuz",
+    "subtitle": "Riyuzable prompt tɛmplat ɛn mɛta-tɛg fɔ Suno.",
+    "tabs": {
+      "prompts": "Prɔmpt tɛmplat dɛn",
+      "metatags": "Meta-tag dɛn we dɛn kin yuz"
+    },
+    "new_template": "Nyu tɛmplat",
+    "kind": {
+      "style": "Stayl",
+      "lyrics": "Liriks fɔ di wɔd dɛn"
+    },
+    "kind_label": "Na gud pɔsin",
+    "delete_confirm_title": "Dilit tɛmplat \" {{name}} \"?",
+    "delete_confirm_description": "Dis nɔ go ebul fɔ undone.",
+    "empty": "No templates nɔ de yet.",
+    "editor": {
+      "title_new": "Nyu tɛmplat",
+      "title_edit": "Ɛdit tɛmplat",
+      "name_label": "Nem",
+      "name_placeholder": "ɛgz., ɛgz. Balad we gɛt akostik",
+      "kind_label": "Na gud pɔsin",
+      "template_label": "Template teks",
+      "template_hint": "Mak usay ɛni vɛriɔbul de wit in nem we dɛn rap wit dabl kɔl bres — fɔ ɛgzampul, wan vɛriɔbul we dɛn kɔl \"jɛnɛreshɔn\" kin bi jɛnɛreshɔn we dɛn rap insay tu bres we de opin ɛn tu we de klos.",
+      "variables_label": "Di tin dɛn we kin chenj chenj",
+      "variable_add": "Ad vayriɔbul",
+      "variable_name": "Ki",
+      "variable_label": "Lebul we dɛn kɔl",
+      "variable_type": "Tayp",
+      "variable_type_string": "Teks",
+      "variable_type_select": "Singl pik",
+      "variable_type_multiselect": "Mɔlti-sɛlekt",
+      "variable_type_number": "Nɔmba",
+      "variable_type_boolean": "Yɛs/nɔ",
+      "variable_options": "Opshɔn dɛn (we dɛn separet wit kɔma) .",
+      "variable_required": "Na tin we dɛn nid fɔ du",
+      "save": "Sev tɛmplat"
+    },
+    "metatags": {
+      "title": "Meta-tag dɛn we dɛn kin yuz",
+      "subtitle": "Structural ɛn stayl tag dɛn Suno de rɛkɔgnayz insay liriks.",
+      "new_tag": "Nyu tag",
+      "tag_label": "Tag",
+      "tag_placeholder": "ɛgz., ɛgz. gita-solo-solo",
+      "category_label": "Kategori we dɛn kɔl",
+      "tier_label": "Di we aw pɔsin kin abop pan am",
+      "tier_legend_title": "Rilaybiliti lɛjɛnd",
+      "tier_legend": {
+        "1": "Tier 1 — we gɛt dɔkyumɛnt ɛn we nɔ de chenj",
+        "2": "Tier 2 — kin wok",
+        "3": "Tier 3 — variebul ifekt",
+        "4": "Tier 4 — plesibo, we nɔ pruv"
+      },
+      "description_label": "Diskripshɔn",
+      "delete_confirm_title": "Dilit tag \" {{tag}} \"?",
+      "empty": "No kɔstɔm mɛta-tɛg dɛn yet."
+    }
+  },
+  "settings": {
+    "title": "Sɛtin dɛn we dɛn dɔn mek",
+    "subtitle": "Sistem infɔmeshɔn, langwej, ɛn difɔlt prɛferɛns dɛn.",
+    "system_info_title": "Sistɛm",
+    "version": "Vɛshɔn we dɛn mek",
+    "data_dir": "Data fɔlda",
+    "ffmpeg_status": "FFmpeg we yu de yuz",
+    "ffmpeg_available": "Yu kin gɛt am",
+    "ffmpeg_missing": "Nɔto fɔ fɛn am",
+    "capabilities_title": "Di tin dɛn we dɛn dɔn instɔl",
+    "capability": {
+      "denoise": "Fɔ ridyus di nɔys",
+      "quality": "Kwaliti ɛnhansmɛnt",
+      "separate": "Sos separeshɔn",
+      "ffmpeg": "FFmpeg konvεshכn"
+    },
+    "capability_available": "Yu kin gɛt am",
+    "capability_unavailable": "Nɔ de fɔ yuz am",
+    "gpu_title": "GPU aksilarayshɔn",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA we de mek yu yuz am",
+      "ort_providers": "ONNX Runtime prɔvayda dɛn"
+    },
+    "gpu_none": "No GPU provayda dɛn nɔ detekt",
+    "language_title": "Langwej we yu de tɔk",
+    "language": {
+      "pt-BR": "Pɔtyugis (Brasil) .",
+      "en": "Inglish"
+    },
+    "theme_title": "Di we aw i tan",
+    "theme": {
+      "dark": "Dak dak",
+      "light": "Layt"
+    },
+    "defaults_title": "Ɛkspɔt difɔlt dɛn",
+    "lufs_target_label": "Target di LUFS",
+    "lufs_target_hint": "Yuz am as di statin sajeshɔn we yu de ɛkspɔt tek. Suno in difɔlt sidɔm rawnd -14 LUFS.",
+    "saved": "Prɛferɛns dɛn we dɛn dɔn kip"
+  },
+  "guide": {
+    "title": "Suno rikodin gayd",
+    "subtitle": "Aw fɔ kapchɔ vɔys ɛn gita tek dɛn we kin gɛt di bɛst rizɔlt.",
+    "intro": "Suno de du di bɛst wit klin, unambiguous rɛfrɛns dɛn. Dis gayd de kɔba di pripiamɛnt, di target lɛvɛl, ɛn wan 3–5 minit rikodin skript.",
+    "sections": {
+      "prep": {
+        "title": "Fɔ pripia",
+        "body": "Rikɔd na rum we dɛn dɔn trit ɔ wan we gɛt bɔku sɔft matirial (kɔtin, rug, klos insay kloz). Off fans ɛn ɛnitin we de hum. Wom yu vɔys fɔ 5 minit bifo yu rɛkɔd."
+      },
+      "levels": {
+        "title": "Levɛl dɛn: -12 to -6 dBFS",
+        "body": "Aim fɔ pik bitwin -12 ɛn -6 dBFS na di mita. We pɔsin de dɔŋ da say de, pipul dɛn kin notis di nɔys we de na di bakgrɔn mɔ; oba am, di risk fɔ klip de go ɔp. Yuz di mita we de na di Rikɔd pej fɔ sɛt yu geyn bifo yu bigin."
+      },
+      "distance": {
+        "title": "Mik distans: 15–30 cm",
+        "body": "Stay 15 to 30 cm frɔm di maykrofon. Klos pas dat de ɛgzajarayt plosives ɛn proksimiti ifɛkt; fa fawe de pik op mɔ rum rivab ɛn nɔys."
+      },
+      "script": {
+        "title": "Skript fɔ rikodin",
+        "warmup": "Vokal wam-ap (1–2 minit) .",
+        "vowels": "Vaybul dɛn we de kɔntinyu fɔ de — a, e, i, o, u",
+        "scales": "Simpul skel, ɔp ɛn dɔŋ",
+        "excerpt": "Wan pat pan siŋ (8 to 16 bar) .",
+        "dynamics": "Dynamics: stat saf, dɔn lawd wan",
+        "spoken_phrase": "Wan frayz we yu tɔk, so Suno go ebul fɔ rid yu vɔkal tɔyn"
+      },
+      "expectations": {
+        "title": "Wetin Suno de ɛkspɛkt",
+        "body": "WAV, 48 kHz, mono, dray (nɔ gɛt rivab ɔ ifɛkt), 3 to 5 minit fɔ rɛfrɛns. Di klin, mɔs ripɔt 2 minit fɔ di tek kin prodyuz di bɛst rizɔlt."
+      }
+    }
+  },
+  "status": {
+    "idea": "Aydia",
+    "em_progresso": "In prɔgrɛs",
+    "quase": "Klosap to de",
+    "pronto": "Yu dɔn rɛdi"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Ful vokal skript fɔ Suno",
+      "desc": "5 minit dɛn we dɛn gayd: wam-ap, vaybul, skel, tu siŋ dɛn we dɛn pul, dinamik, ɛn wan frayz we dɛn tɔk."
+    },
+    "step": {
+      "warmup": "Vokal wam-ap",
+      "warmup_inst": "Luz am wit yawn, lip trill (brrr), ɛn wan saf saf hum fɔ lɛk wan minit. No nid fɔ rikodɔ — na jɔs fɔ rilaks yu trot bifo yu siŋ.",
+      "vowels": "Vaybul dɛn we de kɔntinyu fɔ de",
+      "vowels_inst": "Hol ɛni vaybul — a, e, i, o, u — fɔ 3 to 4 sɛkɔn na yu kɔmfyut pitch, wit wan stedi volyum. Dis de ɛp Suno fɔ pik di klin timbre fɔ yu vɔys.",
+      "scales": "Skel dɛn de ɔp ɛn dɔŋ",
+      "scales_inst": "Siŋ wan simpul skel ɔp ɛn afta dat dɔŋ, pan \"la\" ɔ \"na\". I nɔ nid fɔ bi pafɛkt — di gol na fɔ map yu vokal rɛnj.",
+      "section": "Sɔm pat pan di siŋ dɛn — pat 1",
+      "section_inst": "Siŋ 8 to 16 bar dɛn na di siŋ, wit di rial tin we yu want fɔ tɔk bɔt. Prioritiz klia ɛn prezɛns pas tɛknikal pafɛkt.",
+      "section2": "Sɔm pat pan di siŋ dɛn — pat 2",
+      "section2_inst": "Siŋ ɔda 8 to 16 ba — i fayn fɔ mek yu siŋ wan kɔrɛkt ɔ wan pat we difrɛn frɔm di wan we bin de bifo. Mɔ difrɛn tin dɛn kin ɛp di mɔdel fɔ lan yu vɔys.",
+      "dynamics": "Daynamiks: saf → lawd wan",
+      "dynamics_inst": "Siŋ di sem frayz stat rili saf ɛn dɔn lawd wan, we yu nɔ strɛch yu trot. Dis de sho Suno yu vɔys in dinamik rɛnj.",
+      "spoken": "Frays we dɛn de tɔk",
+      "spoken_inst": "Tɔk — nɔ siŋ — shɔt, natura frɛz, lɛk se yu de chat. Dis de ɛp Suno fɔ no di rial timbre fɔ yu vɔys."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Ristɔreshɔn",
+      "filter": "Filta dɛn",
+      "dynamics": "Daynamiks we de mek pɔsin ebul fɔ du sɔntin",
+      "separation": "Separeshɔn",
+      "quality": "Kwaliti",
+      "utility": "Yutiliti we yu kin yuz",
+      "loudness": "Fɔ mek lawd lawd wan"
+    },
+    "highpass": "Filta we gɛt ay-pas",
+    "lowpass": "Filta we gɛt lɔw-pas",
+    "denoise": "Fɔ ridyus di nɔys",
+    "declip": "Fɔ go dɔŋ",
+    "declick": "Klik/pop fɔ pul am",
+    "deesser": "De-esser, we de mek pɔsin nɔ ebul fɔ du am",
+    "gate": "Nɔys get",
+    "compressor": "Kɔmpreshɔn",
+    "limiter": "Limita we de stɔp",
+    "eq": "Ikwalayzeshɔn",
+    "normalize": "Pik nɔmalization",
+    "loudness": "Nɔmalization fɔ lawdnɛs (LUFS) .",
+    "reverb_reduce": "Rivεb rεdukshכn",
+    "separate": "Sos separeshɔn",
+    "quality": "Kwaliti ɛnhansmɛnt (ɔpskal) .",
+    "trim_silence": "Silɛns trim",
+    "fade": "Fade in / fade aut",
+    "stereo_to_mono": "Kɔnvɔyt to mono",
+    "resample": "Risampling we dɛn de du"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Wi kin abop pan am",
+      "2": "Bɔku tɛm, i kin wok",
+      "3": "Variable we kin chenj",
+      "4": "Plɛsɛbo we dɛn kɔl"
+    },
+    "category": {
+      "structure": "Strukchɔ we dɛn mek",
+      "vocal": "Vokal we de tɔk",
+      "instrument": "Instrumɛnt we dɛn kin yuz",
+      "dynamics": "Daynamiks we de mek pɔsin ebul fɔ du sɔntin",
+      "production": "Prodakshɔn we dɛn de mek",
+      "mood": "Di we aw pɔsin de fil"
+    },
+    "verse": "Vas",
+    "chorus": "Kɔras we dɛn kɔl",
+    "bridge": "Brij we dɛn kɔl Brij",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Huk",
+    "prechorus": "Pri-kɔras bifo tɛm",
+    "instrumental": "Instrɔmɛnt we dɛn kin yuz fɔ mek tin dɛn",
+    "guitar_solo": "Gita solɔ",
+    "build_up": "Bil-ap fɔ bil",
+    "breakdown": "Brekdɔwn we dɔn brok",
+    "spoken_word": "Wɔd we dɛn tɔk",
+    "whispered": "I bin de wispa",
+    "harmonies": "Di wan dɛn we gɛt wanwɔd",
+    "male_vocal": "Male vokal we de tɔk",
+    "female_vocal": "Female vokal we de tɔk",
+    "duet": "Duet we dɛn kɔl",
+    "acoustic": "Akɔstik",
+    "ad_lib": "Ad-lib we dɛn kɔl"
+  },
+  "presets": {
+    "clean_voice": "Klin vɔys",
+    "voice_guitar_balanced": "Balans vɔys & gita",
+    "podcast": "Podkas we dɛn kin kɔl",
+    "suno_ready": "Suno rɛdi",
+    "gentle_restore": "Jɛntil ristɔr",
+    "raw_passthrough": "No prɔsesin nɔ de"
+  },
+  "errors": {
+    "unknown": "Sɔntin bin rɔng.",
+    "network": "I nɔ bin ebul fɔ rich na di sava.",
+    "validation_error": "Chek di infɔmeshɔn we yu dɔn put.",
+    "not_found": "Item nɔ fɛn.",
+    "project_not_found": "Projek we dɛn nɔ fɛn.",
+    "take_not_found": "Tek nɔ fɛn.",
+    "album_not_found": "Albam nɔ fɛn.",
+    "preset_not_found": "Preset nɔ fɛn.",
+    "template_not_found": "Template nɔ fɛn.",
+    "device_busy": "Wan ɔda program de yuz odio divays.",
+    "device_not_found": "Odio divays nɔ fɛn.",
+    "already_recording": "Wan rikodin dɔn ɔlrɛdi de go bifo.",
+    "ffmpeg_missing": "FFmpeg nɔ instɔl — instɔl am fɔ kɔnvɔyt dis fayl.",
+    "disk_full": "Nɔto inof disk spɛs.",
+    "permission_denied": "Dɛn nɔ gri fɔ gi pɔsin rayt fɔ di rod we dɛn gi am.",
+    "import_path_not_found": "Impɔt path nɔ fɛn.",
+    "job_failed": "Di prɔses nɔ bin wok.",
+    "job_cancelled": "Dɛn bin kansel di prɔses.",
+    "process_failed": "Failed fɔ prosɛs di tek.",
+    "export_failed": "Failed fɔ ɛkspɔtɔt di fayl.",
+    "record_failed": "I nɔ bin ebul fɔ bigin fɔ rikodɔm."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Dɛn bin de na di kiyu",
+      "running": "Fɔ rɔn",
+      "done": "Dɛn dɔn du am",
+      "error": "I nɔ bin ebul fɔ du am",
+      "cancelled": "Dɛn dɔn kansel am"
+    },
+    "kind": {
+      "process": "Di we aw dɛn de du di wok",
+      "export": "Ɛkspɔt",
+      "import": "Impɔt",
+      "record": "Fɔ rɛkɔd"
+    }
+  }
+}

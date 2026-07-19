@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Pambarasiahan Suaro"
+  },
+  "nav": {
+    "library": "Pustaka",
+    "record": "Catatan",
+    "import": "Impor",
+    "templates": "Cetak",
+    "settings": "Pangaturan",
+    "guide": "Panduan"
+  },
+  "common": {
+    "save": "Simpan",
+    "saving": "Hemat...",
+    "saved": "Disimpan",
+    "cancel": "Batal",
+    "close": "Tutuik",
+    "delete": "Hapuih",
+    "edit": "Suntiang",
+    "create": "Buek",
+    "search": "Cari",
+    "loading": "Sadang mamuek...",
+    "error": "Kasalahan",
+    "retry": "Cubo baliak",
+    "confirm": "Konfirmasikan",
+    "back": "Baliak",
+    "next": "Salanjuiknyo",
+    "continue": "Lanjuik",
+    "finish": "Salasai",
+    "copy": "Salin",
+    "copied": "Disalin",
+    "download": "Unduh",
+    "upload": "Unggah",
+    "none": "Indak ado",
+    "all": "Sadonyo",
+    "yes": "Iyo",
+    "no": "Indak",
+    "select": "Piliah",
+    "optional": "indak buliah",
+    "required": "diparalukan",
+    "unsaved_changes": "Parubahan nan alun disimpan",
+    "name": "Namo",
+    "status": "Kaadaan",
+    "type": "Tipe",
+    "actions": "Tindakan",
+    "empty": "Kosong",
+    "browse": "Jalajah",
+    "remove": "Buang",
+    "add": "Tambah",
+    "rename": "Ganti namo",
+    "duplicate": "Duplikat",
+    "warning": "Paringatan",
+    "locked": "Dikunci",
+    "builtin": "Dibuek",
+    "custom": "Adat",
+    "untitled": "Indak bajudul",
+    "select_placeholder": "Piliah..."
+  },
+  "library": {
+    "title": "Pustaka",
+    "subtitle": "Proyek suaro jo gitar sanak, dari ide sampai rilis.",
+    "new_project": "Proyek baru",
+    "new_album": "Album baru",
+    "search_placeholder": "Cari manuruik namo...",
+    "view": {
+      "grid": "Kisi",
+      "albums": "Album"
+    },
+    "filters": {
+      "all": "Sadonyo"
+    },
+    "take_count_one": " {{count}} ambiak",
+    "take_count_other": " {{count}} mamakan wakatu",
+    "updated_at": "Diperbarui {{date}} ",
+    "no_results": {
+      "title": "Indak ado proyek nan ditamukan",
+      "description": "Cubo sasuaikan saringan pancarian atau status."
+    },
+    "empty": {
+      "title": "Perpustakaan awak kosong",
+      "description": "Mulai proyek baru dari nol, atau impor maambiak nan alah ado di disk.",
+      "cta_import": "Impor dari map",
+      "cta_new": "Buek proyek"
+    },
+    "project_dialog": {
+      "title": "Proyek baru",
+      "description": "Agiah namo dan piliah mode rekaman.",
+      "name_label": "Namo proyek",
+      "name_placeholder": "misalnyo Hujan Musim Panas",
+      "mode_label": "Mode",
+      "mode": {
+        "voice": "Suaro sajo",
+        "voice_guitar": "Suaro + gitar"
+      },
+      "submit": "Buek proyek"
+    },
+    "album_dialog": {
+      "title": "Album baru",
+      "description": "Kalompokkan proyek-proyek nan takaik manjadi album.",
+      "name_label": "Namo album",
+      "name_placeholder": "misalnyo Musim gugur EP",
+      "submit": "Buek album"
+    },
+    "album": {
+      "untitled": "Album indak ado judul",
+      "members_count_one": " Proyek {{count}}",
+      "members_count_other": " proyek {{count}}",
+      "empty": "Alun ado proyek di album ko lai.",
+      "delete_confirm_title": "Hapuih album?",
+      "delete_confirm_description": "Proyek indak akan diapuih, hanyo dibuang dari \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Hapuih \" {{name}} \"?",
+      "confirm_description": "Iko maapuih proyek dan satiok maambiak di dalamnyo. Iko indak bisa dibatalkan."
+    }
+  },
+  "record": {
+    "title": "Catatan",
+    "subtitle": "Tangkap take nan barasiah, tonton tingkek sanak, dan ikuik naskah.",
+    "project_label": "Proyek",
+    "project_placeholder": "Piliah proyek",
+    "project_create_quick": "Buek proyek nan capek...",
+    "device_label": "Alat masuak",
+    "device_placeholder": "Piliah perangkat",
+    "device_default_badge": "Sistem lalai",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Indak ado alat masuak nan basuo.",
+    "monitor_button": "Pantau",
+    "monitor_stop_button": "Barantilah mamantau",
+    "record_button": "Catatan",
+    "stop_button": "Baranti",
+    "elapsed_label": "Wakatu nan balalu",
+    "status": {
+      "idle": "Manganggur",
+      "monitoring": "Pantauan",
+      "recording": "Rekaman",
+      "stopped": "Baranti"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Puncak",
+      "clip": "Klip"
+    },
+    "guide": {
+      "title": "Sesi dipandu",
+      "subtitle": "Bialah pelatih tu manjalani naskah salangkah demi salangkah, dari pemanasan sampai ka kalimat nan diucapkan.",
+      "loading": "Mamuek naskah...",
+      "unavailable": "Sesi nan dipandu alun ado di server lai.",
+      "select_project_device": "Piliah proyek jo alat input untuak mancatat langkah-langkah lansuang dari siko.",
+      "progress": " {{done}} dari {{total}} langkah",
+      "start_timer": "Pangatur wakatu mulai",
+      "skip_timer": "Lewati wakatu",
+      "record_step": "Cataik langkah ko",
+      "stop_step": "Baranti marekam",
+      "mark_done": "Salasai — langkah barikuiknyo",
+      "step_recorded": "Ambiak direkam",
+      "no_record_step": "Langkah pemanasan — indak paralu rekaman.",
+      "bars_hint": "Kiro-kiro {{bars}} batang",
+      "complete_title": "Naskah langkok!",
+      "complete_body": "Sanak lah mancatat satiok langkah naskah. Baliak ka tab Audio proyek dan piliah take favorit Sanak.",
+      "restart": "Mulai baliak naskah"
+    },
+    "best2min": {
+      "button": "Cari nan paliang rancak 2 minik (Suno)",
+      "running": "Menganalisa nan diambiak...",
+      "score_label": "Nilai",
+      "hint": "Manjalankan analisis energi jo kajalehan pado saluruah take untuak mancari jendela 2 miniknyo nan paliang kuek — Sanak masih dapek manyasuaian jangkauan jo tangan sasudahnyo.",
+      "chart_caption": "Skor per jendela",
+      "unavailable": "Analisa nan paliang rancak-2 minik alun ado di server ko lai."
+    },
+    "takes_title": "Diambiak dari sesi ko",
+    "takes_empty": "Indak ado takes nan direkam dalam sesi ko lai.",
+    "open_in_project": "Bukak di proyek",
+    "ws_disconnected": "Manyambuang baliak ka meter tingkek...",
+    "select_project_first": "Piliah proyek untuak mamulai.",
+    "select_device_first": "Piliah alat masuak."
+  },
+  "project": {
+    "back_to_library": "Baliak ka perpustakaan",
+    "header": {
+      "status_label": "Kaadaan",
+      "cover_upload": "Unggah panutuik",
+      "cover_remove": "Buang panutuik",
+      "name_placeholder": "Namo proyek",
+      "links_title": "Tautan",
+      "add_link": "Tambah tautan",
+      "mode": {
+        "voice": "Suaro sajo",
+        "voice_guitar": "Suaro + gitar"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Lirik lagu",
+      "prompts": "Paminta",
+      "notes": "Catatan"
+    },
+    "audio": {
+      "takes_title": "Butuh",
+      "no_takes": {
+        "title": "Indak ado maambiak lai",
+        "description": "Cataik take baru atau impor berkas nan alah ado."
+      },
+      "record_new": "Cataik ambiak baru",
+      "rating": "Rating",
+      "variant": {
+        "raw": "Mantah",
+        "processed": "Diolah"
+      },
+      "variant_placeholder": "Versi",
+      "process_button": "Proses",
+      "export_button": "Ekspor",
+      "delete_take_confirm_title": "Hapuih ambiak ko?",
+      "delete_take_confirm_description": "Audio mentah jo satiok versi nan diolah akan dihapuih.",
+      "ab": {
+        "raw": "A · Mantah",
+        "processed": "B · Diolah"
+      },
+      "origin": {
+        "recorded": "Dicatat",
+        "imported": "Diimpor"
+      },
+      "session_label_placeholder": "Label sesi (indak paralu)",
+      "duration": "Durasi",
+      "sample_rate": "Tingkat sampel",
+      "channels": "Saluran",
+      "created_at": "Dicatat"
+    },
+    "pipeline": {
+      "title": "Rantai pangolahan",
+      "preset_label": "Praset",
+      "preset_none": "Rantai adaik",
+      "preset_save": "Simpan sabagai nan alah ditetapkan",
+      "stage_locked": "Dikunci",
+      "stage_requires_extra": "Paralu tambahan nan alun dipasang",
+      "process_button": "Proses ambiak",
+      "processing": "Pangolahan...",
+      "job_queued": "Antri...",
+      "job_running": "Pangolahan...",
+      "job_done": "Salasai",
+      "job_error": "Gagal",
+      "job_cancelled": "Dibatalkan",
+      "cancel_job": "Batal",
+      "no_stages": "Indak ado panggung nan tasadio."
+    },
+    "export": {
+      "title": "Ekspor ambiak",
+      "description": "Render berkas tarakhia dari versi nan diproses.",
+      "variant_label": "Versi",
+      "format_label": "Bantuak",
+      "preset_label": "Ekspor saratan",
+      "range_label": "Kisaran",
+      "range_full": "Panjang panuah",
+      "range_custom": "Kisaran sasuai",
+      "start_label": "Mulai (s)",
+      "end_label": "Akhia",
+      "submit": "Ekspor",
+      "progress": "Berkas nan dibuek...",
+      "download_ready": "Berkas siap",
+      "download_button": "Unduh berkas"
+    },
+    "notes": {
+      "placeholder": "Catatan bantuak bebas tantang proyek ko...",
+      "saved_at": "Disimpan pado {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Tulis liriknyo di siko. Gunokan palet di sampiang untuak mamasuakan meta-tag Suno.",
+      "saved_at": "Disimpan pado {{time}} ",
+      "saving": "Hemat...",
+      "versions": "Versi",
+      "versions_empty": "Alun ado versi nan disimpan lai.",
+      "version_preview": "Pratinjau",
+      "restore": "Puliahan versi ko",
+      "restore_confirm_title": "Mambaliakan versi ko?",
+      "restore_confirm_description": "Teks nan kini akan diganti jo versi nan disimpan pado {{date}} .",
+      "metatags_title": "Meta-tando",
+      "metatags_hint": "Klik tag untuak mamasuakannyo pado kursor.",
+      "metatags_placebo_warning": "Indak tabukti — mungkin indak ado pangaruahnyo pado hasilnyo.",
+      "metatags_empty": "Indak ado meta-tag nan didaftarkan."
+    },
+    "prompts": {
+      "style_title": "Pamintak gaya",
+      "lyrics_title": "Lirik lagu mintak",
+      "template_label": "Cetak",
+      "template_none": "Indak ado cetakan",
+      "variables_title": "Variabel",
+      "preview_title": "Pratinjau",
+      "preview_empty": "Piliah templat dan isi variabel untuak mancaliak pratinjau.",
+      "char_count": " {{count}} karakter",
+      "char_count_warning": "Gaya nan mamintak labiah dari 1000 karakter mungkin dapek dipotong dek Suno.",
+      "copy": "Salin",
+      "copied": "Disalin ka papan klip",
+      "save_to_project": "Simpan untuak proyek",
+      "saved_to_project": "Prompt disimpan untuak proyek",
+      "history_title": "Sejarah",
+      "history_empty": "Indak ado versi sabalunnyo.",
+      "current_label": "Kini"
+    },
+    "stems": {
+      "title": "Vokal jo gitar .",
+      "separate_button": "Vokal jo gitar tapisah .",
+      "running": "Mamisahkan...",
+      "vocals": "Vokal",
+      "instrumental": "Alat",
+      "process_stem": "Olah batang ko .",
+      "empty": "Take ko alun dipisahkan lai. Lari pamisahan untuak mandanga vokal jo gitar sacaro terisolasi.",
+      "capability_missing": "Pamisahan sumber indak dipasang di server ko.",
+      "unavailable": "Pamisahan vokal/gitar alun ado di server ko lai."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Hiduik",
+    "boolean_off": "Mati"
+  },
+  "import": {
+    "title": "Impor",
+    "subtitle": "Baok proyek-proyek nan alah ado di disk ka dalam perpustakaan.",
+    "step_indicator": "Langkah {{current}} dari {{total}} ",
+    "step1": {
+      "title": "Cari map",
+      "description": "Tunjuak ka folder root jo proyek-proyek dan trek Sanak.",
+      "path_label": "Jalur map",
+      "path_placeholder": "misalnyo E:\\Robbs\\Kabanggaan\\Musik\\Robbs",
+      "recent_label": "Baru-baru ko",
+      "scan_button": "Pindai map",
+      "scanning": "Mamindai...",
+      "ffmpeg_warning": "FFmpeg indak basuo — berkas nan paralu dikonversi akan dilewakan.",
+      "folders_found_one": " Map {{count}} ditamukan",
+      "folders_found_other": " {{count}} folder nan ditamukan",
+      "unmatched_files_one": " {{count}} berkas nan indak diakui",
+      "unmatched_files_other": " {{count}} berkas nan alun diakui"
+    },
+    "step2": {
+      "title": "Ulasan barang",
+      "description": "Pareso namo, status, jo apo nan ka diimpor sabalun mamastian.",
+      "select_all": "Piliah sadonyo",
+      "table": {
+        "folder": "Map sumber",
+        "name": "Namo proyek",
+        "status": "Kaadaan",
+        "audio": "Audio",
+        "lyrics": "Lirik lagu",
+        "cover": "Panutuik",
+        "album": "Album"
+      },
+      "audio_include_one": " Berkas {{count}} dipiliah",
+      "audio_include_other": " {{count}} berkas nan dipiliah",
+      "no_audio": "Indak ado audio nan basuo",
+      "no_lyrics": "Lirik lagu indak basuo",
+      "no_cover": "Indak ado panutuik",
+      "warnings_title": "Paringatan"
+    },
+    "step3": {
+      "title": "Impor",
+      "description": "Konfirmasi untuak manyalin file-file dan mambuek proyek-proyek.",
+      "copy_originals": "Salin berkas asli ka dalam pustaka .",
+      "execute_button": "Mulai impor",
+      "progress_title": "Maimpor...",
+      "created_count": "Dibuek: {{count}} ",
+      "skipped_count": "Dilewakan: {{count}} ",
+      "done_title": "Impor langkok",
+      "done_description": "Proyek-proyek di bawah ko dibuek di perpustakaan Sanak.",
+      "view_project": "Proyek tabukak",
+      "start_over": "Impor baru"
+    }
+  },
+  "templates": {
+    "title": "Cetak",
+    "subtitle": "Templat prompt jo meta-tag nan dapek dipakai baliak untuak Suno.",
+    "tabs": {
+      "prompts": "Templat nan mintak",
+      "metatags": "Meta-tando"
+    },
+    "new_template": "templat baru",
+    "kind": {
+      "style": "Gaya",
+      "lyrics": "Lirik lagu"
+    },
+    "kind_label": "Baik hati",
+    "delete_confirm_title": "Hapuih templat \" {{name}} \"?",
+    "delete_confirm_description": "Iko indak bisa dibatalkan.",
+    "empty": "Alun ado templat lai.",
+    "editor": {
+      "title_new": "templat baru",
+      "title_edit": "Suntiang templat",
+      "name_label": "Namo",
+      "name_placeholder": "misalnyo Balada akustik",
+      "kind_label": "Baik hati",
+      "template_label": "Teks templat",
+      "template_hint": "Tandai dima satiok variabel tamasuak jo namonyo nan dibungkuih jo kurung karitiang ganda — misalnyo, variabel nan banamo \"genre\" manjadi genre nan dibungkuih jo duo kurung pambukaan jo duo kurung panutuik.",
+      "variables_label": "Variabel",
+      "variable_add": "Tambah variabel",
+      "variable_name": "Kunci",
+      "variable_label": "Label",
+      "variable_type": "Tipe",
+      "variable_type_string": "Teks",
+      "variable_type_select": "Piliah tungga",
+      "variable_type_multiselect": "Banyak-piliah",
+      "variable_type_number": "Angka",
+      "variable_type_boolean": "Iyo/indak",
+      "variable_options": "Pilihan (dipisahkan jo koma)",
+      "variable_required": "Diparalukan",
+      "save": "Simpan templat"
+    },
+    "metatags": {
+      "title": "Meta-tando",
+      "subtitle": "Tag struktural jo gaya Suno kenali di dalam lirik.",
+      "new_tag": "Tag baru",
+      "tag_label": "Tag",
+      "tag_placeholder": "misalnyo gitar-solo",
+      "category_label": "Kategori",
+      "tier_label": "Kahandalan",
+      "tier_legend_title": "Tambo kahandalan",
+      "tier_legend": {
+        "1": "Tingkat 1 — didokumentasikan dan konsisten",
+        "2": "Tingkat 2 — biasonyo bakarajo",
+        "3": "Tingkat 3 — efek nan bisa bavariasi",
+        "4": "Tingkat 4 — plasebo, indak tabukti"
+      },
+      "description_label": "Uraian",
+      "delete_confirm_title": "Hapuih tag \" {{tag}} \"?",
+      "empty": "Alun ado meta-tag adat lai."
+    }
+  },
+  "settings": {
+    "title": "Pangaturan",
+    "subtitle": "Informasi sistem, bahaso, jo piliahan bawaan.",
+    "system_info_title": "Sistem",
+    "version": "Versi",
+    "data_dir": "Map data",
+    "ffmpeg_status": "FFmeg",
+    "ffmpeg_available": "Tasadio",
+    "ffmpeg_missing": "Indak basuo",
+    "capabilities_title": "Kamampuan nan dipasang",
+    "capability": {
+      "denoise": "Pangurangan suaro",
+      "quality": "Paningkekan mutu",
+      "separate": "Pamisahan sumber",
+      "ffmpeg": "Paubahan FFmpeg"
+    },
+    "capability_available": "Tasadio",
+    "capability_unavailable": "Indak tasadio",
+    "gpu_title": "Percepatan GPU",
+    "gpu": {
+      "torch_cuda": "Obor Py CUDA",
+      "ort_providers": "Panyadio wakatu jalan ONNX"
+    },
+    "gpu_none": "Indak ado panyadio GPU nan tadeteksi",
+    "language_title": "Bahaso",
+    "language": {
+      "pt-BR": "Portugis (Brasil)",
+      "en": "Inggirih"
+    },
+    "theme_title": "Panampilan",
+    "theme": {
+      "dark": "Kalam",
+      "light": "Cahayo"
+    },
+    "defaults_title": "Ekspor lalai",
+    "lufs_target_label": "Sasaran LUFS",
+    "lufs_target_hint": "Dipakai sabagai saran awal katiko maekspor maambiak. Bawaan Suno duduak sakitar -14 LUFS.",
+    "saved": "Piliahan disimpan"
+  },
+  "guide": {
+    "title": "Panduan rekaman Suno",
+    "subtitle": "Baa caronyo manangkap suaro jo gitar maambiak nan mandapek hasil nan paliang rancak.",
+    "intro": "Suno tampil paliang rancak jo referensi nan barasiah dan indak ambigu. Panduan ko mancakuik parsiapan, tingkek sasaran, jo naskah rekaman 3–5 minik.",
+    "sections": {
+      "prep": {
+        "title": "Persiapan",
+        "body": "Cataik di ruangan nan dirawat atau nan banyak bahan lunak (gorden, sajadah, baju di lamari). Matikan kipas angin jo apo sajo nan bergema. Angekkan suaro salamo 5 minik sabalun marekam."
+      },
+      "levels": {
+        "title": "Tingkat: -12 sampai -6 dBFS",
+        "body": "Tujuan untuak puncak antaro -12 jo -6 dBFS pado meter. Di bawah jangkauan itu, bunyi latar balakang manjadi labiah taraso; di atehnyo, resiko kliping naiak. Gunokan meter di halaman Rekam untuak maatur keuntungan sabalun mamulai."
+      },
+      "distance": {
+        "title": "Jarak mikro: 15-30 cm",
+        "body": "Tingga 15 sampai 30 cm dari mikrofon. Labiah dakek dari itu malabiahi plosif jo efek dakek; labiah jauah manjapuik reverb ruangan jo ribut nan labiah banyak."
+      },
+      "script": {
+        "title": "Naskah rekaman",
+        "warmup": "Pamanasan vokal (1-2 minik)",
+        "vowels": "Vokal nan balanjuik — a, e, ambo, o, u",
+        "scales": "Timbangan sederhana, naiak turun",
+        "excerpt": "Sabuah kutipan lagu (8 sampai 16 bar)",
+        "dynamics": "Dinamika: mulai lambuik, akhianyo kareh",
+        "spoken_phrase": "Satu kalimat nan diucapkan, supayo Suno bisa mambaco nada vokal sanak"
+      },
+      "expectations": {
+        "title": "Apo nan diharokkan dek Suno .",
+        "body": "WAV, 48 kHz, mono, kariang (indak ado reverb atau efek), 3 sampai 5 minik acuan. Nan paliang barasiah, paliang mawakili 2 minik dari take biasonyo mahasilkan hasil nan paliang rancak."
+      }
+    }
+  },
+  "status": {
+    "idea": "Ide",
+    "em_progresso": "Sadang balangsuang",
+    "quase": "Ampia sampai di sinan .",
+    "pronto": "Siap"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Naskah vokal lengkap untuak Suno .",
+      "desc": "5 minik dipandu: pemanasan, vokal, skala, duo kutipan lagu, dinamika, jo frasa nan diucapkan."
+    },
+    "step": {
+      "warmup": "Pamanasan vokal",
+      "warmup_inst": "Longgarkan jo kuah, bibia manggigia (brrr), jo bunyi hum lambuik salamo sakitar saminggu. Indak paralu marekam — itu hanyo untuak malapehkan lihie sabalun manyanyi.",
+      "vowels": "Vokal nan balanjuik",
+      "vowels_inst": "Pacik satiok vokal — a, e, i, o, u — salamo 3 inggo 4 datiak pado nada nan nyaman, jo volume nan mantap. Hal iko mambantu Suno manjapuik timbre murni suaro sanak.",
+      "scales": "Timbangan naiak turun .",
+      "scales_inst": "Manyanyikan skala sederhana ka ateh dan kamudian ka bawah, pado \"la\" atau \"na\". Indak paralu samparono — tujuannyo untuak mametakan jangkauan vokal awak.",
+      "section": "Kutipan lagu — bagian 1 .",
+      "section_inst": "Nyanyikan 8 sampai 16 bar lagu tu, jo niaik sabananyo nan nio disampaikan. Dahulukan kejelasan jo kehadiran daripado kesempurnaan teknis.",
+      "section2": "Kutipan lagu — bagian 2 .",
+      "section2_inst": "Nyanyikan lai 8 inggo 16 bar — idealnyo paduan suaro atau bagian nan kontras jo nan sabalunnyo. Labiah baragam mambantu model baraja suaro awak.",
+      "dynamics": "Dinamika: lambuik → kareh",
+      "dynamics_inst": "Nyanyikan kalimat nan samo mulai sangaik lambuik dan berakhir kareh, tanpa maregang lihie. Iko manunjuakkan Suno jangkauan dinamis suaro awak.",
+      "spoken": "Ungkapan nan diucapkan",
+      "spoken_inst": "Mangecek — jan manyanyi — kalimat nan singkek, alami, seolah-olah sadang maota. Hal iko mambantu Suno untuak mengenali timbre suaro awak nan sabananyo."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Pamulihan",
+      "filter": "Saringan",
+      "dynamics": "Dinamika",
+      "separation": "Pamisahan",
+      "quality": "Mutu",
+      "utility": "Kagunaan",
+      "loudness": "Kareh suaro"
+    },
+    "highpass": "Saringan luluih tinggi",
+    "lowpass": "Saringan luluih randah",
+    "denoise": "Pangurangan suaro",
+    "declip": "Manguntiang",
+    "declick": "Panghapusan klik/pop",
+    "deesser": "Buanglah",
+    "gate": "Gerbang riuh",
+    "compressor": "Kompresor",
+    "limiter": "Pambatas",
+    "eq": "Panyamaan",
+    "normalize": "Normalisasi puncak",
+    "loudness": "Normalisasi kareh suaro (LUF)",
+    "reverb_reduce": "Pangurangan reverb",
+    "separate": "Pamisahan sumber",
+    "quality": "Paningkekan mutu (kelas ateh)",
+    "trim_silence": "Diam mamangkas",
+    "fade": "Pudar masuak / pudar kalua",
+    "stereo_to_mono": "Maubah manjadi mono",
+    "resample": "Mancontoh ulang"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Dapek diandalkan",
+      "2": "Biasonyo bakarajo",
+      "3": "Variabel",
+      "4": "Plasebo"
+    },
+    "category": {
+      "structure": "Struktur",
+      "vocal": "Vokal",
+      "instrument": "Alat",
+      "dynamics": "Dinamika",
+      "production": "Produksi",
+      "mood": "Suasana hati"
+    },
+    "verse": "Ayat",
+    "chorus": "Paduan suaro",
+    "bridge": "Jambatan",
+    "intro": "Intro",
+    "outro": "Kalua",
+    "hook": "Kail",
+    "prechorus": "Pra-paduan suaro",
+    "instrumental": "Alat",
+    "guitar_solo": "Solo gitar .",
+    "build_up": "Mambangun",
+    "breakdown": "Runtuah",
+    "spoken_word": "Kato nan diucapkan",
+    "whispered": "Dibisiak",
+    "harmonies": "Harmoni",
+    "male_vocal": "Vokal laki-laki",
+    "female_vocal": "Vokal padusi",
+    "duet": "Duet",
+    "acoustic": "Akustik",
+    "ad_lib": "Iklan"
+  },
+  "presets": {
+    "clean_voice": "Suaro barasiah",
+    "voice_guitar_balanced": "Suaro & gitar nan seimbang",
+    "podcast": "Podkast",
+    "suno_ready": "Suno siap .",
+    "gentle_restore": "Pulihan jo lembut",
+    "raw_passthrough": "Indak ado pamrosesan"
+  },
+  "errors": {
+    "unknown": "Ado nan salah.",
+    "network": "Indak bisa manjangkau server.",
+    "validation_error": "Pareso informasi nan Sanak masuakkan.",
+    "not_found": "Barang indak basuo.",
+    "project_not_found": "Proyek indak basuo.",
+    "take_not_found": "Ambiak indak basuo.",
+    "album_not_found": "Album indak basuo.",
+    "preset_not_found": "Preset indak basuo.",
+    "template_not_found": "Templat indak basuo.",
+    "device_busy": "Alat audio dipakai dek program lain.",
+    "device_not_found": "Alat audio indak basuo.",
+    "already_recording": "Sabuah rekaman alah sadang balangsuang.",
+    "ffmpeg_missing": "FFmpeg alun dipasang — pasang untuak mangubah berkas ko.",
+    "disk_full": "Indak cukuik tampek disk.",
+    "permission_denied": "Izin ditolak untuak jalur nan diagiah.",
+    "import_path_not_found": "Jalur impor indak basuo.",
+    "job_failed": "Pangolahan gagal.",
+    "job_cancelled": "Pangolahannyo dibatalkan.",
+    "process_failed": "Gagal mamproses nan maambiak.",
+    "export_failed": "Gagal untuak maekspor berkas.",
+    "record_failed": "Gagal untuak mamulai rekaman."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Antri",
+      "running": "Balari",
+      "done": "Salasai",
+      "error": "Gagal",
+      "cancelled": "Dibatalkan"
+    },
+    "kind": {
+      "process": "Pangolahan",
+      "export": "Ekspor",
+      "import": "Impor",
+      "record": "Rekaman"
+    }
+  }
+}

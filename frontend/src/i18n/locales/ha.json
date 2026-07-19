@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Mai Tsabtace Sauti"
+  },
+  "nav": {
+    "library": "Laburare",
+    "record": "Yi rikodin",
+    "import": "Shigo da",
+    "templates": "Samfura",
+    "settings": "Saituna",
+    "guide": "Jagora"
+  },
+  "common": {
+    "save": "Ajiye",
+    "saving": "Ana ajiyewa…",
+    "saved": "Ajiye",
+    "cancel": "Soke",
+    "close": "Kusa",
+    "delete": "Share",
+    "edit": "Gyara",
+    "create": "Ƙirƙiri",
+    "search": "Bincika",
+    "loading": "Ana lodawa…",
+    "error": "Kuskure",
+    "retry": "Sake gwadawa",
+    "confirm": "Tabbatar",
+    "back": "Baya",
+    "next": "Na gaba",
+    "continue": "Ci gaba",
+    "finish": "Gama",
+    "copy": "Kwafi",
+    "copied": "Kwafi",
+    "download": "Zazzagewa",
+    "upload": "Loda",
+    "none": "Babu",
+    "all": "Duka",
+    "yes": "Ee",
+    "no": "A'a",
+    "select": "Zaɓi",
+    "optional": "na zaɓi",
+    "required": "ake bukata",
+    "unsaved_changes": "Canje-canjen da ba a ajiye su ba",
+    "name": "Suna",
+    "status": "Matsayi",
+    "type": "Nau'in",
+    "actions": "Ayyuka",
+    "empty": "Babu komai",
+    "browse": "lilo",
+    "remove": "Cire",
+    "add": "Ƙara",
+    "rename": "Sake suna",
+    "duplicate": "Kwafi",
+    "warning": "Gargadi",
+    "locked": "Kulle",
+    "builtin": "Gina-ciki",
+    "custom": "Custom",
+    "untitled": "Mara suna",
+    "select_placeholder": "Zaɓi…"
+  },
+  "library": {
+    "title": "Laburare",
+    "subtitle": "Ayyukan muryar ku da guitar, daga ra'ayi zuwa saki.",
+    "new_project": "Sabon aikin",
+    "new_album": "Sabon kundi",
+    "search_placeholder": "Bincika da suna…",
+    "view": {
+      "grid": "Grid",
+      "albums": "Albums"
+    },
+    "filters": {
+      "all": "Duka"
+    },
+    "take_count_one": " {{count}} dauka",
+    "take_count_other": " {{count}} daukan",
+    "updated_at": "An sabunta {{date}} ",
+    "no_results": {
+      "title": "Babu ayyukan da aka samu",
+      "description": "Gwada daidaita ma'aunin bincike ko matsayi."
+    },
+    "empty": {
+      "title": "Laburarenku fanko ne",
+      "description": "Fara sabon aiki daga karce, ko shigo da kaya yana ɗaukar ku riga kuna kan faifai.",
+      "cta_import": "Shigo daga babban fayil",
+      "cta_new": "Ƙirƙiri aikin"
+    },
+    "project_dialog": {
+      "title": "Sabon aikin",
+      "description": "Ba shi suna kuma zaɓi yanayin rikodi.",
+      "name_label": "Sunan aikin",
+      "name_placeholder": "misali Ruwan Rani",
+      "mode_label": "Yanayin",
+      "mode": {
+        "voice": "Murya kawai",
+        "voice_guitar": "Murya + guitar"
+      },
+      "submit": "Ƙirƙiri aikin"
+    },
+    "album_dialog": {
+      "title": "Sabon kundi",
+      "description": "Ayyukan da suka danganci rukuni cikin kundin.",
+      "name_label": "Sunan Album",
+      "name_placeholder": "misali Kaka EP",
+      "submit": "Ƙirƙiri kundi"
+    },
+    "album": {
+      "untitled": "Album mara taken",
+      "members_count_one": " {{count}} aikin",
+      "members_count_other": " {{count}} ayyuka",
+      "empty": "Babu ayyuka a cikin wannan kundin tukuna.",
+      "delete_confirm_title": "Share albam?",
+      "delete_confirm_description": "Ba za a share ayyukan ba, kawai an cire haɗin daga \"{{name}}\"."
+    },
+    "delete_project": {
+      "confirm_title": "Share\" {{name}}\"?",
+      "confirm_description": "Wannan yana kawar da aikin da kowane ɗaukar ciki. Ba za a iya soke wannan ba."
+    }
+  },
+  "record": {
+    "title": "Yi rikodin",
+    "subtitle": "Ɗauki ɗauka mai tsabta, kalli matakan ku, kuma ku bi rubutun.",
+    "project_label": "Aikin",
+    "project_placeholder": "Zaɓi aikin",
+    "project_create_quick": "Ƙirƙiri aiki mai sauri…",
+    "device_label": "Na'urar shigarwa",
+    "device_placeholder": "Zaɓi na'ura",
+    "device_default_badge": "Tsohuwar tsarin",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Ba a sami na'urorin shigarwa ba.",
+    "monitor_button": "Saka idanu",
+    "monitor_stop_button": "Dakatar da sa ido",
+    "record_button": "Yi rikodin",
+    "stop_button": "Tsaya",
+    "elapsed_label": "Lokaci ya wuce",
+    "status": {
+      "idle": "Rago",
+      "monitoring": "Saka idanu",
+      "recording": "Rikodi",
+      "stopped": "Tsaya"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Kololuwa",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Zaman jagora",
+      "subtitle": "Bari kociyan ya bi ku ta cikin rubutun mataki-mataki, daga dumi-duminsu zuwa jumlar magana.",
+      "loading": "Ana loda rubutun…",
+      "unavailable": "Ba a samun zaman jagoran akan sabar tukuna.",
+      "select_project_device": "Zaɓi aikin da na'urar shigarwa don yin rikodin matakai daga nan.",
+      "progress": " {{done}} na {{total}} matakai",
+      "start_timer": "Fara mai ƙidayar lokaci",
+      "skip_timer": "Tsallake mai ƙidayar lokaci",
+      "record_step": "Yi rikodin wannan matakin",
+      "stop_step": "Dakatar da rikodi",
+      "mark_done": "Anyi - mataki na gaba",
+      "step_recorded": "Dauki rikodin",
+      "no_record_step": "Matakin dumama - babu buƙatar yin rikodi.",
+      "bars_hint": "Kimanin sanduna {{bars}}",
+      "complete_title": "Rubutun cikakke!",
+      "complete_body": "Kun yi rikodin kowane mataki na rubutun. Komawa shafin Audio na aikin kuma zaɓi abubuwan da kuka fi so.",
+      "restart": "Sake kunna rubutun"
+    },
+    "best2min": {
+      "button": "Nemo mafi kyawun mintuna 2 (Suno)",
+      "running": "Ana nazarin ɗaukar…",
+      "score_label": "Maki",
+      "hint": "Yana gudanar da bincike na makamashi da tsaftar gabaɗayan ɗauka don nemo tagarsa mafi ƙarfi na mintuna 2 - har yanzu kuna iya daidaita kewayon da hannu bayan haka.",
+      "chart_caption": "Maki kowane taga",
+      "unavailable": "Binciken mafi kyawun-mintuna 2 ba ya samuwa akan wannan uwar garken tukuna."
+    },
+    "takes_title": "Ana ɗauka daga wannan zaman",
+    "takes_empty": "Ba a yi rikodin ɗauka a cikin wannan zaman ba tukuna.",
+    "open_in_project": "Bude cikin aikin",
+    "ws_disconnected": "Ana sake haɗawa zuwa mitar matakin…",
+    "select_project_first": "Zaɓi aikin don farawa.",
+    "select_device_first": "Zaɓi na'urar shigarwa."
+  },
+  "project": {
+    "back_to_library": "Komawa ɗakin karatu",
+    "header": {
+      "status_label": "Matsayi",
+      "cover_upload": "Loda murfin",
+      "cover_remove": "Cire murfin",
+      "name_placeholder": "Sunan aikin",
+      "links_title": "Hanyoyin haɗi",
+      "add_link": "Ƙara hanyar haɗin gwiwa",
+      "mode": {
+        "voice": "Murya kawai",
+        "voice_guitar": "Murya + guitar"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Waƙoƙi",
+      "prompts": "Ƙaddamarwa",
+      "notes": "Bayanan kula"
+    },
+    "audio": {
+      "takes_title": "Yana ɗauka",
+      "no_takes": {
+        "title": "Babu ɗauka tukuna",
+        "description": "Yi rikodin sabon ɗauka ko shigo da fayil na yanzu."
+      },
+      "record_new": "Yi rikodin sabon ɗauka",
+      "rating": "Rating",
+      "variant": {
+        "raw": "Danye",
+        "processed": "An sarrafa"
+      },
+      "variant_placeholder": "Sigar",
+      "process_button": "Tsari",
+      "export_button": "fitarwa",
+      "delete_take_confirm_title": "Share wannan daukar?",
+      "delete_take_confirm_description": "Za a cire danyen sautin sauti da kowane sigar da aka sarrafa.",
+      "ab": {
+        "raw": "A · Ruwa",
+        "processed": "B · An sarrafa"
+      },
+      "origin": {
+        "recorded": "An yi rikodin",
+        "imported": "Shigo da shi"
+      },
+      "session_label_placeholder": "Alamar zama (na zaɓi)",
+      "duration": "Tsawon lokaci",
+      "sample_rate": "Yawan samfurin",
+      "channels": "Tashoshi",
+      "created_at": "An yi rikodin"
+    },
+    "pipeline": {
+      "title": "Sarkar sarrafawa",
+      "preset_label": "Saita",
+      "preset_none": "Sarkar al'ada",
+      "preset_save": "Ajiye azaman saiti",
+      "stage_locked": "Kulle",
+      "stage_requires_extra": "Yana buƙatar ƙarin wanda ba a sanya shi ba",
+      "process_button": "Tsarin ɗauka",
+      "processing": "Ana aiwatarwa…",
+      "job_queued": "An yi layi…",
+      "job_running": "Ana aiwatarwa…",
+      "job_done": "Anyi",
+      "job_error": "Ba a yi nasara ba",
+      "job_cancelled": "An soke",
+      "cancel_job": "Soke",
+      "no_stages": "Babu matakai da ke akwai."
+    },
+    "export": {
+      "title": "ɗaukan fitarwa",
+      "description": "Sanya fayil na ƙarshe daga sigar da aka sarrafa.",
+      "variant_label": "Sigar",
+      "format_label": "Tsarin",
+      "preset_label": "Saita fitarwa",
+      "range_label": "Rage",
+      "range_full": "Cikakken tsayi",
+      "range_custom": "Kewayo na al'ada",
+      "start_label": "Fara (s)",
+      "end_label": "Ƙarshe (s)",
+      "submit": "fitarwa",
+      "progress": "Fayil na nunawa…",
+      "download_ready": "Shirye fayil",
+      "download_button": "Zazzage fayil"
+    },
+    "notes": {
+      "placeholder": "Bayanin tsari na kyauta game da wannan aikin…",
+      "saved_at": "Ajiye a {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Rubuta wakokin nan. Yi amfani da palette a gefe don saka alamar- meta-Suno.",
+      "saved_at": "Ajiye a {{time}} ",
+      "saving": "Ana ajiyewa…",
+      "versions": "Sigogi",
+      "versions_empty": "Babu sigar da aka ajiye tukuna.",
+      "version_preview": "Dubawa",
+      "restore": "Maida wannan sigar",
+      "restore_confirm_title": "Maida wannan sigar?",
+      "restore_confirm_description": "Za a maye gurbin rubutu na yanzu tare da sigar da aka ajiye akan {{date}} .",
+      "metatags_title": "Meta-tags",
+      "metatags_hint": "Danna alamar don saka shi a siginan kwamfuta.",
+      "metatags_placebo_warning": "Ba a tabbatar da shi ba - ƙila ba shi da tasiri akan sakamakon.",
+      "metatags_empty": "Babu meta-tags rajista."
+    },
+    "prompts": {
+      "style_title": "Saurin salo",
+      "lyrics_title": "Saukar wasiƙa",
+      "template_label": "Samfura",
+      "template_none": "Babu samfuri",
+      "variables_title": "Masu canji",
+      "preview_title": "Dubawa",
+      "preview_empty": "Zaɓi samfuri kuma cika masu canji don ganin samfoti.",
+      "char_count": " {{count}} haruffa",
+      "char_count_warning": "Salon yana haifar da harufa sama da 1000 Suno na iya yanke su.",
+      "copy": "Kwafi",
+      "copied": "An kwafi zuwa allo",
+      "save_to_project": "Ajiye zuwa aiki",
+      "saved_to_project": "Ajiye gaggawa zuwa aiki",
+      "history_title": "Tarihi",
+      "history_empty": "Babu sigar baya.",
+      "current_label": "A halin yanzu"
+    },
+    "stems": {
+      "title": "Vocals da guitar",
+      "separate_button": "Rarrabe vocals da guitar",
+      "running": "Rabewa…",
+      "vocals": "Muryar murya",
+      "instrumental": "Kayan aiki",
+      "process_stem": "Tsara wannan tushe",
+      "empty": "Ba a raba wannan ɗaukar ba tukuna. Gudu rabuwa don jin muryoyin da guitar a keɓe.",
+      "capability_missing": "Ba a shigar da rabuwar tushe akan wannan uwar garken ba.",
+      "unavailable": "Babu rabuwar murya/guitar akan wannan uwar garken tukuna."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Kunna",
+    "boolean_off": "Kashe"
+  },
+  "import": {
+    "title": "Shigo da",
+    "subtitle": "Kawo ayyukan da suka riga sun wanzu akan faifai cikin ɗakin karatu.",
+    "step_indicator": "Mataki {{current}} na {{total}} ",
+    "step1": {
+      "title": "Nemo babban fayil",
+      "description": "Nuna babban fayil ɗin tushen tare da ayyukanku da waƙoƙinku.",
+      "path_label": "Hanyar babban fayil",
+      "path_placeholder": "misali E: \\ Robbs \\ Girman kai \\ Music \\ ROBBS",
+      "recent_label": "Kwanan nan",
+      "scan_button": "Duba babban fayil",
+      "scanning": "Ana dubawa…",
+      "ffmpeg_warning": "Ba a sami FFmpeg ba - fayilolin da ke buƙatar juyawa za a tsallake su.",
+      "folders_found_one": " An sami babban fayil {{count}}",
+      "folders_found_other": " An sami manyan fayiloli {{count}}",
+      "unmatched_files_one": " {{count}} fayil ɗin da ba a gane shi ba",
+      "unmatched_files_other": " {{count}} fayilolin da ba a gane su ba"
+    },
+    "step2": {
+      "title": "Bitar abubuwa",
+      "description": "Bincika sunaye, matsayi, da abin da za a shigo da su kafin tabbatarwa.",
+      "select_all": "Zaɓi duka",
+      "table": {
+        "folder": "Tushen fayil",
+        "name": "Sunan aikin",
+        "status": "Matsayi",
+        "audio": "Audio",
+        "lyrics": "Waƙoƙi",
+        "cover": "Rufewa",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} fayil da aka zaɓa",
+      "audio_include_other": " {{count}} fayilolin da aka zaɓa",
+      "no_audio": "Babu sauti da aka samu",
+      "no_lyrics": "Ba a sami wakokin ba",
+      "no_cover": "Babu murfin",
+      "warnings_title": "Gargadi"
+    },
+    "step3": {
+      "title": "Shigo da",
+      "description": "Tabbatar da kwafin fayilolin da ƙirƙirar ayyukan.",
+      "copy_originals": "Kwafi fayilolin asali cikin ɗakin karatu",
+      "execute_button": "Fara shigo da kaya",
+      "progress_title": "Ana shigo da…",
+      "created_count": "An ƙirƙira: {{count}} ",
+      "skipped_count": "An tsallake: {{count}} ",
+      "done_title": "An gama shigo da shi",
+      "done_description": "Ayyukan da ke ƙasa an ƙirƙira su a cikin ɗakin karatu na ku.",
+      "view_project": "Bude aikin",
+      "start_over": "Sabon shigo da kaya"
+    }
+  },
+  "templates": {
+    "title": "Samfura",
+    "subtitle": "Samfuran gaggawa da za'a iya sake amfani da su da kuma alamar meta don Suno.",
+    "tabs": {
+      "prompts": "Samfuran gaggawa",
+      "metatags": "Meta-tags"
+    },
+    "new_template": "Sabon samfuri",
+    "kind": {
+      "style": "Salo",
+      "lyrics": "Waƙoƙi"
+    },
+    "kind_label": "Irin",
+    "delete_confirm_title": "Share samfuri \"{{name}}\"?",
+    "delete_confirm_description": "Ba za a iya soke wannan ba.",
+    "empty": "Babu samfuri tukuna.",
+    "editor": {
+      "title_new": "Sabon samfuri",
+      "title_edit": "Shirya samfuri",
+      "name_label": "Suna",
+      "name_placeholder": "misali Acoustic ballad",
+      "kind_label": "Irin",
+      "template_label": "Rubutun samfuri",
+      "template_hint": "Alama inda kowane ma'auni ya kasance tare da sunansa a nannade cikin takalmin katako mai lanƙwasa sau biyu - alal misali, ma'auni mai suna \"Genre\" ya zama nau'i a nannade cikin buɗaɗɗen buɗewa biyu da takalmin rufewa biyu.",
+      "variables_label": "Masu canji",
+      "variable_add": "Ƙara m",
+      "variable_name": "Maɓalli",
+      "variable_label": "Lakabi",
+      "variable_type": "Nau'in",
+      "variable_type_string": "Rubutu",
+      "variable_type_select": "Zaɓi ɗaya",
+      "variable_type_multiselect": "Multi-zaɓi",
+      "variable_type_number": "Lamba",
+      "variable_type_boolean": "Ee/a'a",
+      "variable_options": "Zaɓuɓɓuka (wakafi-rabu)",
+      "variable_required": "Da ake bukata",
+      "save": "Ajiye samfuri"
+    },
+    "metatags": {
+      "title": "Meta-tags",
+      "subtitle": "Tsari da salo tags Suno ya gane kalmomin ciki.",
+      "new_tag": "Sabuwar tag",
+      "tag_label": "Tag",
+      "tag_placeholder": "misali guitar-solo",
+      "category_label": "Kashi",
+      "tier_label": "Dogara",
+      "tier_legend_title": "Amintaccen labari",
+      "tier_legend": {
+        "1": "Tier 1 - rubuce da daidaito",
+        "2": "Tier 2 - yawanci yana aiki",
+        "3": "Tier 3 - m sakamako",
+        "4": "Tier 4 - placebo, wanda ba a tabbatar da shi ba"
+      },
+      "description_label": "Bayani",
+      "delete_confirm_title": "Share tag \"{{tag}}\"?",
+      "empty": "Babu alamar meta-tag na al'ada tukuna."
+    }
+  },
+  "settings": {
+    "title": "Saituna",
+    "subtitle": "Bayanin tsarin, harshe, da zaɓin tsoho.",
+    "system_info_title": "Tsari",
+    "version": "Sigar",
+    "data_dir": "Babban fayil ɗin bayanai",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Akwai",
+    "ffmpeg_missing": "Ba a samu ba",
+    "capabilities_title": "Abubuwan da aka shigar",
+    "capability": {
+      "denoise": "Rage surutu",
+      "quality": "Haɓaka inganci",
+      "separate": "Rabuwar tushen",
+      "ffmpeg": "Canjin FFmpeg"
+    },
+    "capability_available": "Akwai",
+    "capability_unavailable": "Babu",
+    "gpu_title": "Haɗawar GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Masu ba da lokacin aiki"
+    },
+    "gpu_none": "Ba a gano masu samar da GPU ba",
+    "language_title": "Harshe",
+    "language": {
+      "pt-BR": "Português (Brasil)",
+      "en": "Turanci"
+    },
+    "theme_title": "Bayyanar",
+    "theme": {
+      "dark": "Duhu",
+      "light": "Haske"
+    },
+    "defaults_title": "Export Predefinicións",
+    "lufs_target_label": "Farashin LUFS",
+    "lufs_target_hint": "Ana amfani dashi azaman shawarar farawa lokacin fitarwa yana ɗauka. Tsohuwar Suno yana zaune a kusa da -14 LUFS.",
+    "saved": "Ajiye abubuwan da aka zaɓa"
+  },
+  "guide": {
+    "title": "Jagorar rikodi Suno",
+    "subtitle": "Yadda ake ɗaukar murya da guitar yana ɗaukar wannan yana samun sakamako mafi kyau.",
+    "intro": "Suno yana aiki mafi kyau tare da tsaftataccen bayani, mara tabbas. Wannan jagorar ya ƙunshi shirye-shirye, matakan manufa, da rubutun rikodi na mintuna 3-5.",
+    "sections": {
+      "prep": {
+        "title": "Shiri",
+        "body": "Yi rikodin a cikin ɗakin da aka bi da shi ko ɗaya tare da abubuwa masu laushi masu yawa (labule, tagulla, tufafi a cikin kabad). Kashe magoya baya da duk wani abu mai ban sha'awa. Dumi muryar ku na mintuna 5 kafin yin rikodi."
+      },
+      "levels": {
+        "title": "Matakan: -12 zuwa -6 dBFS",
+        "body": "Nufin kololuwa tsakanin -12 da -6 dBFS akan mita. A ƙasan wannan kewayon, hayaniyar baya ta zama mafi sananne; sama da shi, clipping hadarin ya tashi. Yi amfani da mita akan shafin rikodin don saita riba kafin farawa."
+      },
+      "distance": {
+        "title": "Nisa mic: 15-30 cm",
+        "body": "Tsaya 15 zuwa 30 cm daga makirufo. Kusa da hakan yana ƙara haɓakar plosives da tasirin kusanci; nisa yana ɗaukar karin reverb da hayaniya."
+      },
+      "script": {
+        "title": "Rubutun rikodi",
+        "warmup": "Dumin sautin murya (minti 1-2)",
+        "vowels": "Wasula masu dorewa - a, e, i, o, u",
+        "scales": "Ma'auni mai sauƙi, sama da ƙasa",
+        "excerpt": "Sashin waƙa (sanduna 8 zuwa 16)",
+        "dynamics": "Dynamics: fara laushi, ƙare da ƙarfi",
+        "spoken_phrase": "Jumlar magana ɗaya, don haka Suno zai iya karanta sautin muryar ku"
+      },
+      "expectations": {
+        "title": "Abin da Suno ke tsammani",
+        "body": "WAV, 48 kHz, mono, bushe (babu reverb ko tasiri), 3 zuwa 5 mintuna na tunani. Mafi tsabta, mafi wakilcin mintuna 2 na ɗaukar yawanci yana samar da sakamako mafi kyau."
+      }
+    }
+  },
+  "status": {
+    "idea": "Ra'ayi",
+    "em_progresso": "Ana ci gaba",
+    "quase": "Kusan akwai",
+    "pronto": "Shirya"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Cikakken rubutun muryar Suno",
+      "desc": "Mintuna 5 masu jagora: dumama, wasali, ma'auni, ɓangarorin waƙa guda biyu, kuzari, da kuma magana."
+    },
+    "step": {
+      "warmup": "dumin murya",
+      "warmup_inst": "A kwance tare da hamma, lips trills (brrr), da tattausan huma na kamar minti daya. Babu buƙatar yin rikodin - kawai don shakatawa makogwaron ku kafin yin waƙa.",
+      "vowels": "Wasula masu dorewa",
+      "vowels_inst": "Riƙe kowane wasali - a, e, i, o, u - na tsawon daƙiƙa 3 zuwa 4 a wurin jin daɗin ku, tare da tsayayyen ƙara. Wannan yana taimaka wa Suno ya ɗauki tsantsar sautin muryar ku.",
+      "scales": "Sikeli sama da ƙasa",
+      "scales_inst": "Yi waƙa mai sauƙi sama sannan ƙasa, akan \"la\" ko \"na\". Ba ya buƙatar zama cikakke - makasudin shine taswirar kewayon muryar ku.",
+      "section": "Cigaban waƙar - part 1",
+      "section_inst": "Rara sanduna 8 zuwa 16 na waƙar, tare da ainihin niyyar da kuke son isarwa. Ba da fifikon tsabta da kasancewar sama da kamalar fasaha.",
+      "section2": "Cigaban waƙar - part 2",
+      "section2_inst": "Rera wani sanduna 8 zuwa 16 - da kyau ƙungiyar mawaƙa ko sashin da ya bambanta da na baya. Ƙarin iri-iri yana taimaka wa ƙirar koyon muryar ku.",
+      "dynamics": "Dynamics: taushi → m",
+      "dynamics_inst": "Waƙar wannan jumla tana farawa da taushi sosai kuma tana ƙarewa da ƙarfi, ba tare da ƙulla makogwaro ba. Wannan yana nuna Suno tsayayyen kewayon muryar ku.",
+      "spoken": "Maganar magana",
+      "spoken_inst": "Yi magana - kar ku raira waƙa - gajeriyar magana ta dabi'a, kamar kuna hira. Wannan yana taimaka wa Suno gane ainihin sautin muryar ku."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Maidowa",
+      "filter": "Tace",
+      "dynamics": "Dynamics",
+      "separation": "Rabuwa",
+      "quality": "inganci",
+      "utility": "Amfani",
+      "loudness": "Surutu"
+    },
+    "highpass": "Tace ta wuce",
+    "lowpass": "Ƙarƙashin wucewa tace",
+    "denoise": "Rage surutu",
+    "declip": "Ragewa",
+    "declick": "Danna/ cire cirewa",
+    "deesser": "De-esser",
+    "gate": "Ƙofar hayaniya",
+    "compressor": "Compressor",
+    "limiter": "Iyakance",
+    "eq": "Daidaitawa",
+    "normalize": "Kololuwar daidaitawa",
+    "loudness": "Daidaita ƙarar ƙara (LUFS)",
+    "reverb_reduce": "Rage magana",
+    "separate": "Rabuwar tushen",
+    "quality": "Haɓaka inganci (mafi girma)",
+    "trim_silence": "Gyaran shiru",
+    "fade": "Fade cikin / shuɗewa",
+    "stereo_to_mono": "Maida zuwa mono",
+    "resample": "Sake samfur"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Abin dogaro",
+      "2": "Yawancin lokaci yana aiki",
+      "3": "Mai canzawa",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Tsarin",
+      "vocal": "Murya",
+      "instrument": "Kayan aiki",
+      "dynamics": "Dynamics",
+      "production": "Production",
+      "mood": "Hali"
+    },
+    "verse": "Aya",
+    "chorus": "Chorus",
+    "bridge": "Gada",
+    "intro": "Gabatarwa",
+    "outro": "Outro",
+    "hook": "Kugiya",
+    "prechorus": "Pre-corus",
+    "instrumental": "Kayan aiki",
+    "guitar_solo": "Guitar solo",
+    "build_up": "Ginawa",
+    "breakdown": "Rushewa",
+    "spoken_word": "Maganar magana",
+    "whispered": "Wasiƙa",
+    "harmonies": "Harmonies",
+    "male_vocal": "muryar namiji",
+    "female_vocal": "Muryar mace",
+    "duet": "Duet",
+    "acoustic": "Acoustic",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Tsaftace murya",
+    "voice_guitar_balanced": "Madaidaicin murya & guitar",
+    "podcast": "Podcast",
+    "suno_ready": "Suno shirye",
+    "gentle_restore": "Maida hankali",
+    "raw_passthrough": "Babu sarrafawa"
+  },
+  "errors": {
+    "unknown": "Wani abu ya faru.",
+    "network": "An kasa isa ga uwar garken.",
+    "validation_error": "Duba bayanan da kuka shigar.",
+    "not_found": "Ba a samo abu ba.",
+    "project_not_found": "Ba a samo aikin ba.",
+    "take_not_found": "Take ba a samu ba.",
+    "album_not_found": "Ba a samo kundi ba.",
+    "preset_not_found": "Ba a samo saiti ba.",
+    "template_not_found": "Ba a sami samfuri ba.",
+    "device_busy": "Ana amfani da na'urar sauti ta wani shirin.",
+    "device_not_found": "Ba a samo na'urar sauti ba.",
+    "already_recording": "An riga an fara yin rikodi.",
+    "ffmpeg_missing": "Ba a shigar da FFmpeg ba - shigar da shi don canza wannan fayil ɗin.",
+    "disk_full": "Bai isa sararin faifai ba.",
+    "permission_denied": "An ƙi izini don hanyar da aka bayar.",
+    "import_path_not_found": "Ba a samo hanyar shigo da kaya ba.",
+    "job_failed": "An gaza aiwatarwa.",
+    "job_cancelled": "An soke aiwatarwa.",
+    "process_failed": "An kasa aiwatar da ɗaukar.",
+    "export_failed": "An kasa fitar da fayil ɗin.",
+    "record_failed": "An kasa fara yin rikodi."
+  },
+  "jobs": {
+    "status": {
+      "queued": "An yi layi",
+      "running": "Gudu",
+      "done": "Anyi",
+      "error": "Ba a yi nasara ba",
+      "cancelled": "An soke"
+    },
+    "kind": {
+      "process": "Gudanarwa",
+      "export": "fitarwa",
+      "import": "Shigo da",
+      "record": "Rikodi"
+    }
+  }
+}

@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Kisafishaji cha Sauti"
+  },
+  "nav": {
+    "library": "Maktaba",
+    "record": "Rekodi",
+    "import": "Ingiza",
+    "templates": "Violezo",
+    "settings": "Mipangilio",
+    "guide": "Mwongozo"
+  },
+  "common": {
+    "save": "Hifadhi",
+    "saving": "Inahifadhi...",
+    "saved": "Imehifadhiwa",
+    "cancel": "Ghairi",
+    "close": "Funga",
+    "delete": "Futa",
+    "edit": "Hariri",
+    "create": "Unda",
+    "search": "Tafuta",
+    "loading": "Inapakia...",
+    "error": "Hitilafu",
+    "retry": "Jaribu tena",
+    "confirm": "Thibitisha",
+    "back": "Nyuma",
+    "next": "Inayofuata",
+    "continue": "Endelea",
+    "finish": "Maliza",
+    "copy": "Nakili",
+    "copied": "Imenakiliwa",
+    "download": "Pakua",
+    "upload": "Pakia",
+    "none": "Hakuna",
+    "all": "Wote",
+    "yes": "Ndiyo",
+    "no": "Hapana",
+    "select": "Chagua",
+    "optional": "hiari",
+    "required": "inahitajika",
+    "unsaved_changes": "Mabadiliko ambayo hayajahifadhiwa",
+    "name": "Jina",
+    "status": "Hali",
+    "type": "Aina",
+    "actions": "Vitendo",
+    "empty": "Tupu",
+    "browse": "Vinjari",
+    "remove": "Ondoa",
+    "add": "Ongeza",
+    "rename": "Badilisha jina",
+    "duplicate": "Nakala",
+    "warning": "Onyo",
+    "locked": "Imefungwa",
+    "builtin": "Imejengwa ndani",
+    "custom": "Desturi",
+    "untitled": "Haina jina",
+    "select_placeholder": "Chagua..."
+  },
+  "library": {
+    "title": "Maktaba",
+    "subtitle": "Miradi yako ya sauti na gitaa, kutoka kwa wazo hadi kutolewa.",
+    "new_project": "Mradi mpya",
+    "new_album": "Albamu mpya",
+    "search_placeholder": "Tafuta kwa jina...",
+    "view": {
+      "grid": "Gridi",
+      "albums": "Albamu"
+    },
+    "filters": {
+      "all": "Wote"
+    },
+    "take_count_one": " {{count}} kuchukua",
+    "take_count_other": " {{count}} inachukua",
+    "updated_at": "Imesasishwa {{date}} ",
+    "no_results": {
+      "title": "Hakuna miradi iliyopatikana",
+      "description": "Jaribu kurekebisha utafutaji au kichujio cha hali."
+    },
+    "empty": {
+      "title": "Maktaba yako ni tupu",
+      "description": "Anzisha mradi mpya kutoka mwanzo, au kuagiza kunakuchukua tayari unayo kwenye diski.",
+      "cta_import": "Ingiza kutoka kwa folda",
+      "cta_new": "Unda mradi"
+    },
+    "project_dialog": {
+      "title": "Mradi mpya",
+      "description": "Ipe jina na uchague hali ya kurekodi.",
+      "name_label": "Jina la mradi",
+      "name_placeholder": "k.m. Mvua ya Majira ya joto",
+      "mode_label": "Hali",
+      "mode": {
+        "voice": "Sauti pekee",
+        "voice_guitar": "Sauti + gitaa"
+      },
+      "submit": "Unda mradi"
+    },
+    "album_dialog": {
+      "title": "Albamu mpya",
+      "description": "Panga miradi inayohusiana na kuwa albamu.",
+      "name_label": "Jina la albamu",
+      "name_placeholder": "k.m. Autumn EP",
+      "submit": "Unda albamu"
+    },
+    "album": {
+      "untitled": "Albamu isiyo na jina",
+      "members_count_one": " {{count}} mradi",
+      "members_count_other": " {{count}} miradi",
+      "empty": "Bado hakuna miradi katika albamu hii.",
+      "delete_confirm_title": "Ungependa kufuta albamu?",
+      "delete_confirm_description": "Miradi haitafutwa, itatenganishwa pekee na \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Ungependa kufuta \" {{name}} \"?",
+      "confirm_description": "Hii inaondoa mradi na kila kuchukua ndani yake. Hili haliwezi kutenduliwa."
+    }
+  },
+  "record": {
+    "title": "Rekodi",
+    "subtitle": "Piga picha safi, tazama viwango vyako, na ufuate hati.",
+    "project_label": "Mradi",
+    "project_placeholder": "Chagua mradi",
+    "project_create_quick": "Unda mradi wa haraka...",
+    "device_label": "Kifaa cha kuingiza",
+    "device_placeholder": "Chagua kifaa",
+    "device_default_badge": "Chaguomsingi ya mfumo",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Hakuna vifaa vya kuingiza data vilivyopatikana.",
+    "monitor_button": "Kufuatilia",
+    "monitor_stop_button": "Acha ufuatiliaji",
+    "record_button": "Rekodi",
+    "stop_button": "Acha",
+    "elapsed_label": "Wakati uliopita",
+    "status": {
+      "idle": "Bila kufanya kitu",
+      "monitoring": "Ufuatiliaji",
+      "recording": "Kurekodi",
+      "stopped": "Imesimamishwa"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Kilele",
+      "clip": "Klipu"
+    },
+    "guide": {
+      "title": "Kipindi kilichoongozwa",
+      "subtitle": "Ruhusu kocha akutembeze kwenye hati hatua kwa hatua, kutoka joto hadi kifungu cha maneno.",
+      "loading": "Inapakia hati...",
+      "unavailable": "Kipindi kinachoongozwa bado hakipatikani kwenye seva.",
+      "select_project_device": "Chagua mradi na kifaa cha kuingiza ili kurekodi hatua kutoka hapa.",
+      "progress": " {{done}} kati ya hatua {{total}}",
+      "start_timer": "Anza kipima muda",
+      "skip_timer": "Ruka kipima muda",
+      "record_step": "Rekodi hatua hii",
+      "stop_step": "Acha kurekodi",
+      "mark_done": "Imefanywa - hatua inayofuata",
+      "step_recorded": "Chukua kumbukumbu",
+      "no_record_step": "Hatua ya kuongeza joto - hakuna kurekodi inahitajika.",
+      "bars_hint": "Takriban baa {{bars}}",
+      "complete_title": "Hati imekamilika!",
+      "complete_body": "Umerekodi kila hatua ya hati. Rudi kwenye kichupo cha Sauti cha mradi na uchague sauti unazopenda.",
+      "restart": "Anzisha upya hati"
+    },
+    "best2min": {
+      "button": "Pata dakika 2 bora (Suno)",
+      "running": "Inachambua kuchukua…",
+      "score_label": "Alama",
+      "hint": "Hufanya uchanganuzi wa nishati na uwazi katika kipindi kizima ili kupata dirisha thabiti zaidi la dakika 2 - bado unaweza kurekebisha masafa kwa mkono baadaye.",
+      "chart_caption": "Alama kwa kila dirisha",
+      "unavailable": "Uchambuzi bora wa dakika 2 bado haupatikani kwenye seva hii."
+    },
+    "takes_title": "Inachukua kutoka kwa kikao hiki",
+    "takes_empty": "Bado hakuna matukio yaliyorekodiwa katika kipindi hiki.",
+    "open_in_project": "Fungua katika mradi",
+    "ws_disconnected": "Inaunganisha tena kwa kiwango cha mita...",
+    "select_project_first": "Chagua mradi ili kuanza.",
+    "select_device_first": "Chagua kifaa cha kuingiza data."
+  },
+  "project": {
+    "back_to_library": "Rudi kwenye maktaba",
+    "header": {
+      "status_label": "Hali",
+      "cover_upload": "Pakia jalada",
+      "cover_remove": "Ondoa kifuniko",
+      "name_placeholder": "Jina la mradi",
+      "links_title": "Viungo",
+      "add_link": "Ongeza kiungo",
+      "mode": {
+        "voice": "Sauti pekee",
+        "voice_guitar": "Sauti + gitaa"
+      }
+    },
+    "tabs": {
+      "audio": "Sauti",
+      "lyrics": "Maneno ya Nyimbo",
+      "prompts": "Vidokezo",
+      "notes": "Vidokezo"
+    },
+    "audio": {
+      "takes_title": "Inachukua",
+      "no_takes": {
+        "title": "Hakuna inachukua bado",
+        "description": "Rekodi nakala mpya au leta faili iliyopo."
+      },
+      "record_new": "Rekodi mwito mpya",
+      "rating": "Ukadiriaji",
+      "variant": {
+        "raw": "Mbichi",
+        "processed": "Imechakatwa"
+      },
+      "variant_placeholder": "Toleo",
+      "process_button": "Mchakato",
+      "export_button": "Hamisha",
+      "delete_take_confirm_title": "Ungependa kufuta mwito huu?",
+      "delete_take_confirm_description": "Sauti mbichi na kila toleo lililochakatwa litaondolewa.",
+      "ab": {
+        "raw": "A · Mbichi",
+        "processed": "B · Imechakatwa"
+      },
+      "origin": {
+        "recorded": "Imerekodiwa",
+        "imported": "Imeingizwa"
+      },
+      "session_label_placeholder": "Lebo ya kipindi (si lazima)",
+      "duration": "Muda",
+      "sample_rate": "Kiwango cha sampuli",
+      "channels": "Vituo",
+      "created_at": "Imerekodiwa"
+    },
+    "pipeline": {
+      "title": "Mnyororo wa usindikaji",
+      "preset_label": "Weka mapema",
+      "preset_none": "Mlolongo maalum",
+      "preset_save": "Hifadhi kama ulivyoweka mapema",
+      "stage_locked": "Imefungwa",
+      "stage_requires_extra": "Inahitaji ziada ambayo haijasakinishwa",
+      "process_button": "Mchakato kuchukua",
+      "processing": "Inachakata...",
+      "job_queued": "Imewekwa kwenye foleni...",
+      "job_running": "Inachakata...",
+      "job_done": "Imekamilika",
+      "job_error": "Imeshindwa",
+      "job_cancelled": "Imeghairiwa",
+      "cancel_job": "Ghairi",
+      "no_stages": "Hakuna hatua zinazopatikana."
+    },
+    "export": {
+      "title": "Hamisha kuchukua",
+      "description": "Toa faili ya mwisho kutoka kwa toleo lililochakatwa.",
+      "variant_label": "Toleo",
+      "format_label": "Umbizo",
+      "preset_label": "Hamisha mipangilio ya awali",
+      "range_label": "Masafa",
+      "range_full": "Urefu kamili",
+      "range_custom": "Masafa maalum",
+      "start_label": "Anza (s)",
+      "end_label": "Mwisho (s)",
+      "submit": "Hamisha",
+      "progress": "Inatoa faili...",
+      "download_ready": "Faili iko tayari",
+      "download_button": "Pakua faili"
+    },
+    "notes": {
+      "placeholder": "Maelezo ya fomu bila malipo kuhusu mradi huu...",
+      "saved_at": "Imehifadhiwa saa {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Andika maneno hapa. Tumia ubao ulio upande ili kuingiza meta-tagi za Suno.",
+      "saved_at": "Imehifadhiwa saa {{time}} ",
+      "saving": "Inahifadhi...",
+      "versions": "Matoleo",
+      "versions_empty": "Bado hakuna matoleo yaliyohifadhiwa.",
+      "version_preview": "Hakiki",
+      "restore": "Rejesha toleo hili",
+      "restore_confirm_title": "Ungependa kurejesha toleo hili?",
+      "restore_confirm_description": "Maandishi ya sasa yatabadilishwa na toleo lililohifadhiwa kwenye {{date}} .",
+      "metatags_title": "Meta-tag",
+      "metatags_hint": "Bofya lebo ili kuiingiza kwenye kielekezi.",
+      "metatags_placebo_warning": "Haijathibitishwa - inaweza kuwa haina athari kwenye matokeo.",
+      "metatags_empty": "Hakuna meta-tagi zilizosajiliwa."
+    },
+    "prompts": {
+      "style_title": "Mtindo wa haraka",
+      "lyrics_title": "Maneno ya haraka",
+      "template_label": "Kiolezo",
+      "template_none": "Hakuna kiolezo",
+      "variables_title": "Vigezo",
+      "preview_title": "Hakiki",
+      "preview_empty": "Chagua kiolezo na ujaze vigeu ili kuona onyesho la kukagua.",
+      "char_count": " {{count}} wahusika",
+      "char_count_warning": "Vidokezo vya mtindo zaidi ya herufi 1000 vinaweza kupunguzwa na Suno.",
+      "copy": "Nakili",
+      "copied": "Imenakiliwa kwenye ubao wa kunakili",
+      "save_to_project": "Hifadhi kwa mradi",
+      "saved_to_project": "Kidokezo kimehifadhiwa kwa mradi",
+      "history_title": "Historia",
+      "history_empty": "Hakuna matoleo ya awali.",
+      "current_label": "Ya sasa"
+    },
+    "stems": {
+      "title": "Sauti na gitaa",
+      "separate_button": "Tofauti sauti na gitaa",
+      "running": "Inatenganisha...",
+      "vocals": "Waimbaji",
+      "instrumental": "Ala",
+      "process_stem": "Mchakato shina hili",
+      "empty": "Hatua hii bado haijatenganishwa. Endesha utengano ili usikie sauti na gitaa kwa kujitenga.",
+      "capability_missing": "Kitenganisho cha chanzo hakijasakinishwa kwenye seva hii.",
+      "unavailable": "Utenganishaji wa sauti/gitaa bado haupatikani kwenye seva hii."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Washa",
+    "boolean_off": "Imezimwa"
+  },
+  "import": {
+    "title": "Ingiza",
+    "subtitle": "Leta miradi ambayo tayari ipo kwenye diski kwenye maktaba.",
+    "step_indicator": "Hatua {{current}} ya {{total}} ",
+    "step1": {
+      "title": "Tafuta folda",
+      "description": "Elekeza kwenye folda ya mizizi iliyo na miradi na nyimbo zako.",
+      "path_label": "Njia ya folda",
+      "path_placeholder": "k.m. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "Hivi karibuni",
+      "scan_button": "Changanua folda",
+      "scanning": "Inachanganua...",
+      "ffmpeg_warning": "FFmpeg haijapatikana - faili zinazohitaji ubadilishaji zitarukwa.",
+      "folders_found_one": " {{count}} folda imepatikana",
+      "folders_found_other": " {{count}} folda zimepatikana",
+      "unmatched_files_one": " {{count}} faili isiyotambulika",
+      "unmatched_files_other": " {{count}} faili zisizotambulika"
+    },
+    "step2": {
+      "title": "Kagua vipengee",
+      "description": "Angalia majina, hali, na nini kitaletwa kabla ya kuthibitisha.",
+      "select_all": "Chagua zote",
+      "table": {
+        "folder": "Folda ya chanzo",
+        "name": "Jina la mradi",
+        "status": "Hali",
+        "audio": "Sauti",
+        "lyrics": "Maneno ya Nyimbo",
+        "cover": "Jalada",
+        "album": "Albamu"
+      },
+      "audio_include_one": " {{count}} faili imechaguliwa",
+      "audio_include_other": " {{count}} faili zilizochaguliwa",
+      "no_audio": "Hakuna sauti iliyopatikana",
+      "no_lyrics": "Hakuna mashairi yaliyopatikana",
+      "no_cover": "Hakuna kifuniko",
+      "warnings_title": "Maonyo"
+    },
+    "step3": {
+      "title": "Ingiza",
+      "description": "Thibitisha kunakili faili na kuunda miradi.",
+      "copy_originals": "Nakili faili asili kwenye maktaba",
+      "execute_button": "Anza kuingiza",
+      "progress_title": "Inaleta...",
+      "created_count": "Imeundwa: {{count}} ",
+      "skipped_count": "Imerukwa: {{count}} ",
+      "done_title": "Uingizaji umekamilika",
+      "done_description": "Miradi iliyo hapa chini iliundwa katika maktaba yako.",
+      "view_project": "Fungua mradi",
+      "start_over": "Uingizaji mpya"
+    }
+  },
+  "templates": {
+    "title": "Violezo",
+    "subtitle": "Violezo vya papo hapo vinavyoweza kutumika tena na meta-tagi za Suno.",
+    "tabs": {
+      "prompts": "Violezo vya haraka",
+      "metatags": "Meta-tag"
+    },
+    "new_template": "Kiolezo kipya",
+    "kind": {
+      "style": "Mtindo",
+      "lyrics": "Maneno ya Nyimbo"
+    },
+    "kind_label": "Aina",
+    "delete_confirm_title": "Ungependa kufuta kiolezo \" {{name}} \"?",
+    "delete_confirm_description": "Hili haliwezi kutenduliwa.",
+    "empty": "Bado hakuna violezo.",
+    "editor": {
+      "title_new": "Kiolezo kipya",
+      "title_edit": "Badilisha kiolezo",
+      "name_label": "Jina",
+      "name_placeholder": "k.m. Balladi ya akustisk",
+      "kind_label": "Aina",
+      "template_label": "Maandishi ya kiolezo",
+      "template_hint": "Weka alama ambapo kila kigezo kinamilikiwa na jina lake likiwa limefungwa kwa viunga vilivyopindapinda - kwa mfano, kigezo kiitwacho \"aina\" kinakuwa aina iliyofungwa katika vifungu viwili vya kufungua na viwili vya kufunga.",
+      "variables_label": "Vigezo",
+      "variable_add": "Ongeza tofauti",
+      "variable_name": "Ufunguo",
+      "variable_label": "Lebo",
+      "variable_type": "Aina",
+      "variable_type_string": "Maandishi",
+      "variable_type_select": "Chaguo moja",
+      "variable_type_multiselect": "Chagua nyingi",
+      "variable_type_number": "Nambari",
+      "variable_type_boolean": "Ndiyo/hapana",
+      "variable_options": "Chaguo (zilizotenganishwa kwa koma)",
+      "variable_required": "Inahitajika",
+      "save": "Hifadhi kiolezo"
+    },
+    "metatags": {
+      "title": "Meta-tag",
+      "subtitle": "Lebo za kimuundo na mtindo Suno hutambua maandishi ya ndani.",
+      "new_tag": "Lebo mpya",
+      "tag_label": "Lebo",
+      "tag_placeholder": "k.m. gitaa-solo",
+      "category_label": "Kategoria",
+      "tier_label": "Kuegemea",
+      "tier_legend_title": "Kuegemea legend",
+      "tier_legend": {
+        "1": "Kiwango cha 1 - kimeandikwa na thabiti",
+        "2": "Daraja la 2 - kawaida hufanya kazi",
+        "3": "Kiwango cha 3 - athari ya kutofautiana",
+        "4": "Tier 4 - placebo, haijathibitishwa"
+      },
+      "description_label": "Maelezo",
+      "delete_confirm_title": "Ungependa kufuta lebo \" {{tag}} \"?",
+      "empty": "Bado hakuna meta tagi maalum."
+    }
+  },
+  "settings": {
+    "title": "Mipangilio",
+    "subtitle": "Maelezo ya mfumo, lugha, na mapendeleo chaguomsingi.",
+    "system_info_title": "Mfumo",
+    "version": "Toleo",
+    "data_dir": "Folda ya data",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Inapatikana",
+    "ffmpeg_missing": "Haijapatikana",
+    "capabilities_title": "Uwezo uliowekwa",
+    "capability": {
+      "denoise": "Kupunguza kelele",
+      "quality": "Uboreshaji wa ubora",
+      "separate": "Mgawanyiko wa chanzo",
+      "ffmpeg": "ubadilishaji wa FFmpeg"
+    },
+    "capability_available": "Inapatikana",
+    "capability_unavailable": "Haipatikani",
+    "gpu_title": "Kuongeza kasi ya GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "Watoa huduma wa ONNX Runtime"
+    },
+    "gpu_none": "Hakuna watoa huduma za GPU waliotambuliwa",
+    "language_title": "Lugha",
+    "language": {
+      "pt-BR": "Kireno (Brasil)",
+      "en": "Kiingereza"
+    },
+    "theme_title": "Muonekano",
+    "theme": {
+      "dark": "Giza",
+      "light": "Mwanga"
+    },
+    "defaults_title": "Hamisha chaguomsingi",
+    "lufs_target_label": "LUFS inayolengwa",
+    "lufs_target_hint": "Inatumika kama pendekezo la kuanzia wakati usafirishaji unachukua. Chaguo-msingi la Suno linakaa karibu -14 LUFS.",
+    "saved": "Mapendeleo yamehifadhiwa"
+  },
+  "guide": {
+    "title": "Mwongozo wa kurekodi wa Suno",
+    "subtitle": "Jinsi ya kunasa sauti na gitaa inayopata matokeo bora.",
+    "intro": "Suno hufanya vyema zaidi kwa marejeleo safi, yasiyo na utata. Mwongozo huu unashughulikia maandalizi, viwango vinavyolengwa, na hati ya kurekodi ya dakika 3-5.",
+    "sections": {
+      "prep": {
+        "title": "Maandalizi",
+        "body": "Rekodi kwenye chumba cha kutibiwa au kilicho na nyenzo nyingi za laini (mapazia, rugs, nguo katika chumbani). Zima mashabiki na chochote kinachosikika. Washa sauti yako kwa dakika 5 kabla ya kurekodi."
+      },
+      "levels": {
+        "title": "Ngazi: -12 hadi -6 dBFS",
+        "body": "Lenga kilele kati ya -12 na -6 dBFS kwenye mita. Chini ya safu hiyo, kelele ya chinichini inaonekana zaidi; juu yake, hatari ya kupungua huongezeka. Tumia mita kwenye ukurasa wa Rekodi ili kuweka faida yako kabla ya kuanza."
+      },
+      "distance": {
+        "title": "Umbali wa maikrofoni: 15-30 cm",
+        "body": "Kaa cm 15 hadi 30 kutoka kwa kipaza sauti. Karibu zaidi kuliko hiyo huzidisha vilima na athari za ukaribu; mbali zaidi huchukua kitenzi cha chumba na kelele zaidi."
+      },
+      "script": {
+        "title": "Hati ya kurekodi",
+        "warmup": "Kuongeza joto kwa sauti (dakika 1-2)",
+        "vowels": "Vokali endelevu - a, e, i, o, u",
+        "scales": "Mizani rahisi, juu na chini",
+        "excerpt": "Dondoo la wimbo (baa 8 hadi 16)",
+        "dynamics": "Mienendo: anza laini, mwisho kwa sauti kubwa",
+        "spoken_phrase": "Kishazi kimoja kinachozungumzwa, ili Suno aweze kusoma sauti yako ya sauti"
+      },
+      "expectations": {
+        "title": "Nini Suno anatarajia",
+        "body": "WAV, 48 kHz, mono, kavu (hakuna kitenzi au madoido), dakika 3 hadi 5 za marejeleo. Safi zaidi, inayowakilisha zaidi dakika 2 za kuchukua kawaida hutoa matokeo bora."
+      }
+    }
+  },
+  "status": {
+    "idea": "Wazo",
+    "em_progresso": "Inaendelea",
+    "quase": "Karibu huko",
+    "pronto": "Tayari"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Hati kamili ya sauti ya Suno",
+      "desc": "Dakika 5 zilizoongozwa: ongezeko la joto, vokali, mizani, manukuu ya nyimbo mbili, mienendo, na kishazi cha kusemwa."
+    },
+    "step": {
+      "warmup": "Kuongeza joto kwa sauti",
+      "warmup_inst": "Legea kwa miayo, midomo (brrr), na mshindo laini kwa takriban dakika moja. Hakuna haja ya kurekodi - ni kupumzika tu koo lako kabla ya kuimba.",
+      "vowels": "Vokali endelevu",
+      "vowels_inst": "Shikilia kila vokali - a, e, i, o, u - kwa sekunde 3 hadi 4 kwa sauti yako nzuri, kwa sauti ya kutosha. Hii humsaidia Suno kuchukua sauti safi ya sauti yako.",
+      "scales": "Mizani juu na chini",
+      "scales_inst": "Imba mizani rahisi juu na kisha chini, kwenye \"la\" au \"na\". Haihitaji kuwa kamilifu - lengo ni kupanga safu yako ya sauti.",
+      "section": "Nukuu ya wimbo - sehemu ya 1",
+      "section_inst": "Imba baa 8 hadi 16 za wimbo, kwa nia ya kweli unayotaka kuwasilisha. Tanguliza uwazi na uwepo kuliko ukamilifu wa kiufundi.",
+      "section2": "Sehemu ya 2 ya wimbo",
+      "section2_inst": "Imba baa nyingine 8 hadi 16 - kwa hakika paa au sehemu inayotofautiana na ile ya awali. Aina zaidi husaidia mtindo kujifunza sauti yako.",
+      "dynamics": "Mienendo: laini → sauti kubwa",
+      "dynamics_inst": "Imba msemo uleule ukianza kwa upole sana na umalizie kwa sauti kubwa, bila kukaza koo lako. Hii inaonyesha Suno masafa mahiri ya sauti yako.",
+      "spoken": "Maneno yaliyotamkwa",
+      "spoken_inst": "Ongea - usiimbe - kifungu kifupi cha asili, kana kwamba unapiga gumzo. Hii husaidia Suno kutambua sauti halisi ya sauti yako."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Urejesho",
+      "filter": "Vichujio",
+      "dynamics": "Mienendo",
+      "separation": "Kutengana",
+      "quality": "Ubora",
+      "utility": "Huduma",
+      "loudness": "Sauti kubwa"
+    },
+    "highpass": "Kichujio cha kupita kiwango cha juu",
+    "lowpass": "Kichujio cha pasi ya chini",
+    "denoise": "Kupunguza kelele",
+    "declip": "Inapungua",
+    "declick": "Bonyeza/pop kuondolewa",
+    "deesser": "De-esser",
+    "gate": "Lango la kelele",
+    "compressor": "Compressor",
+    "limiter": "Kikomo",
+    "eq": "Kusawazisha",
+    "normalize": "Urekebishaji wa kilele",
+    "loudness": "Kurekebisha sauti ya sauti (LUFS)",
+    "reverb_reduce": "Kupunguzwa kwa vitenzi",
+    "separate": "Mgawanyiko wa chanzo",
+    "quality": "Uboreshaji wa ubora (upscale)",
+    "trim_silence": "Upunguzaji wa ukimya",
+    "fade": "Fifia ndani / kufifia",
+    "stereo_to_mono": "Badilisha kuwa mono",
+    "resample": "Kuiga upya"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Kutegemewa",
+      "2": "Kawaida hufanya kazi",
+      "3": "Inaweza kubadilika",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Muundo",
+      "vocal": "Sauti",
+      "instrument": "Ala",
+      "dynamics": "Mienendo",
+      "production": "Uzalishaji",
+      "mood": "Mood"
+    },
+    "verse": "Aya",
+    "chorus": "Kwaya",
+    "bridge": "Daraja",
+    "intro": "Utangulizi",
+    "outro": "Outro",
+    "hook": "ndoano",
+    "prechorus": "Kabla ya kwaya",
+    "instrumental": "Ala",
+    "guitar_solo": "Gitaa pekee",
+    "build_up": "Kujenga-up",
+    "breakdown": "Uchanganuzi",
+    "spoken_word": "Neno lililosemwa",
+    "whispered": "Alinong'ona",
+    "harmonies": "Maelewano",
+    "male_vocal": "Sauti ya kiume",
+    "female_vocal": "Sauti ya kike",
+    "duet": "Duet",
+    "acoustic": "Acoustic",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Sauti safi",
+    "voice_guitar_balanced": "Sauti na gitaa iliyosawazishwa",
+    "podcast": "Podcast",
+    "suno_ready": "Suno tayari",
+    "gentle_restore": "Marejesho ya upole",
+    "raw_passthrough": "Hakuna usindikaji"
+  },
+  "errors": {
+    "unknown": "Hitilafu fulani imetokea.",
+    "network": "Haikuweza kufikia seva.",
+    "validation_error": "Angalia maelezo uliyoweka.",
+    "not_found": "Kipengee hakijapatikana.",
+    "project_not_found": "Mradi haujapatikana.",
+    "take_not_found": "Chukua haikupatikana.",
+    "album_not_found": "Albamu haijapatikana.",
+    "preset_not_found": "Uwekaji mapema haujapatikana.",
+    "template_not_found": "Kiolezo hakijapatikana.",
+    "device_busy": "Kifaa cha sauti kinatumiwa na programu nyingine.",
+    "device_not_found": "Kifaa cha sauti hakijapatikana.",
+    "already_recording": "Tayari kunaendelea kurekodi.",
+    "ffmpeg_missing": "FFmpeg haijasakinishwa - isakinishe ili kubadilisha faili hii.",
+    "disk_full": "Hakuna nafasi ya kutosha ya diski.",
+    "permission_denied": "Ruhusa imekataliwa kwa njia uliyopewa.",
+    "import_path_not_found": "Njia ya kuingiza haijapatikana.",
+    "job_failed": "Uchakataji haukufaulu.",
+    "job_cancelled": "Uchakataji ulighairiwa.",
+    "process_failed": "Imeshindwa kuchakata kuchukua.",
+    "export_failed": "Imeshindwa kuhamisha faili.",
+    "record_failed": "Imeshindwa kuanza kurekodi."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Imewekwa kwenye foleni",
+      "running": "Kukimbia",
+      "done": "Imekamilika",
+      "error": "Imeshindwa",
+      "cancelled": "Imeghairiwa"
+    },
+    "kind": {
+      "process": "Inachakata",
+      "export": "Hamisha",
+      "import": "Ingiza",
+      "record": "Kurekodi"
+    }
+  }
+}

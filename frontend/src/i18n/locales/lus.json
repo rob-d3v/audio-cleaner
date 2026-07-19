@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio Thianghlimna a ni"
+  },
+  "nav": {
+    "library": "Library-a dah a ni",
+    "record": "Record rawh",
+    "import": "Import a ni",
+    "templates": "Template hrang hrang",
+    "settings": "Settings te pawh a awm",
+    "guide": "Kaihruaitu"
+  },
+  "common": {
+    "save": "Save rawh",
+    "saving": "Saving...",
+    "saved": "Saved a ni",
+    "cancel": "Cancel rawh",
+    "close": "Khar rawh",
+    "delete": "Delete rawh",
+    "edit": "Edit rawh",
+    "create": "Siam rawh",
+    "search": "Search rawh",
+    "loading": "Loading a ni...",
+    "error": "Thil tihsual a awm",
+    "retry": "Ti leh rawh",
+    "confirm": "Confirm rawh",
+    "back": "Back",
+    "next": "A dawtah chuan",
+    "continue": "Chhunzawm rawh",
+    "finish": "Tifel rawh",
+    "copy": "Copy rawh",
+    "copied": "Copy a ni tawh",
+    "download": "Download rawh",
+    "upload": "Upload rawh",
+    "none": "Engmah a awm lo",
+    "all": "A zawng zawng",
+    "yes": "Ni e",
+    "no": "Ni lo",
+    "select": "Select rawh",
+    "optional": "duhthlan theih a ni",
+    "required": "mamawh a ni",
+    "unsaved_changes": "Save loh inthlak danglamna",
+    "name": "Hming",
+    "status": "Status a awm",
+    "type": "Type a ni",
+    "actions": "Thiltih",
+    "empty": "A hring vek",
+    "browse": "Browse rawh",
+    "remove": "Hrilh rawh",
+    "add": "Add rawh",
+    "rename": "A hming thlak leh rawh",
+    "duplicate": "Duplicate a ni",
+    "warning": "Vaukhânna",
+    "locked": "Lock a ni",
+    "builtin": "Built-in a awm bawk",
+    "custom": "Custom a ni",
+    "untitled": "Thupui nei lo",
+    "select_placeholder": "Select rawh..."
+  },
+  "library": {
+    "title": "Library-a dah a ni",
+    "subtitle": "I aw leh guitar project te, idea atanga release thlengin.",
+    "new_project": "Project thar a ni",
+    "new_album": "Album thar",
+    "search_placeholder": "Hming hmangin zawng rawh...",
+    "view": {
+      "grid": "Grid hmanga siam a ni",
+      "albums": "Album hrang hrang"
+    },
+    "filters": {
+      "all": "A zawng zawng"
+    },
+    "take_count_one": " {{count}} la rawh",
+    "take_count_other": " {{count}} a la",
+    "updated_at": "Update a ni {{date}} ",
+    "no_results": {
+      "title": "Project hmuh tur a awm lo",
+      "description": "Search emaw status filter emaw chu siamrem tum ang che."
+    },
+    "empty": {
+      "title": "I library chu a khar tawh",
+      "description": "Project thar chu a bul atang khan tan la, a nih loh leh disk-a i neih tawh import takes te kha start la.",
+      "cta_import": "Folder atang hian import rawh",
+      "cta_new": "Project siam rawh"
+    },
+    "project_dialog": {
+      "title": "Project thar a ni",
+      "description": "Hming pe la, recording mode thlang rawh.",
+      "name_label": "Project hming",
+      "name_placeholder": "e.g. Thlasik Ruah a sur",
+      "mode_label": "Mode a ni",
+      "mode": {
+        "voice": "Aw chauh a ni",
+        "voice_guitar": "Aw + guitar a ni"
+      },
+      "submit": "Project siam rawh"
+    },
+    "album_dialog": {
+      "title": "Album thar",
+      "description": "Group kaihhnawih project te chu album pakhatah siam a ni.",
+      "name_label": "Album hming",
+      "name_placeholder": "e.g. Autumn EP a ni",
+      "submit": "Album siam rawh"
+    },
+    "album": {
+      "untitled": "Album hming nei lo",
+      "members_count_one": " {{count}} project a ni",
+      "members_count_other": " {{count}} project hrang hrang a awm",
+      "empty": "He album-ah hian project a la awm lo.",
+      "delete_confirm_title": "Album delete tur em ni?",
+      "delete_confirm_description": "Project te chu delete a ni lovang, \" {{name}} \" atanga unlink chauh a ni ang."
+    },
+    "delete_project": {
+      "confirm_title": "\" {{name}} \" tih hi delete rawh?",
+      "confirm_description": "Hei hian project leh a take in zawng zawng a paih chhuak vek a ni. Hei hi undone theih a ni lo."
+    }
+  },
+  "record": {
+    "title": "Record rawh",
+    "subtitle": "Clean take capture la, i levels te en la, script kha zawm rawh.",
+    "project_label": "Project siam a ni",
+    "project_placeholder": "Project pakhat thlang rawh",
+    "project_create_quick": "Project rang tak siam rawh...",
+    "device_label": "Input hmanrua a ni",
+    "device_placeholder": "Device pakhat thlang rawh",
+    "device_default_badge": "System default a ni",
+    "device_wasapi_badge": "WASAPI chuan a rawn ti a",
+    "device_empty": "Input device hmuh tur a awm lo.",
+    "monitor_button": "Monitor a ni",
+    "monitor_stop_button": "Monitoring kha titawp rawh",
+    "record_button": "Record rawh",
+    "stop_button": "Titawp rawh",
+    "elapsed_label": "Hun kal tawh",
+    "status": {
+      "idle": "Idle a ni",
+      "monitoring": "Monitoring neih a ni",
+      "recording": "Recording tih a ni",
+      "stopped": "A tawp ta"
+    },
+    "meter": {
+      "rms": "RMS a ni",
+      "peak": "Peak a ni",
+      "clip": "Clip a ni"
+    },
+    "guide": {
+      "title": "Guided session neih a ni",
+      "subtitle": "Coach chuan script chu step khat hnu step khatin, warm-up atanga spoken phrase thlengin a kalpui ang che.",
+      "loading": "Script load mek a ni...",
+      "unavailable": "Guided session hi server ah a la awm lo.",
+      "select_project_device": "Heta tang hian step record tur project leh input device thlang rawh.",
+      "progress": " {{done}} a {{total}} step a ni",
+      "start_timer": "Timer tan tir rawh",
+      "skip_timer": "Timer chu skip rawh",
+      "record_step": "He step hi record rawh",
+      "stop_step": "Recording kha titawp rawh",
+      "mark_done": "Done — a dawt leh tur",
+      "step_recorded": "Recorded la rawh",
+      "no_record_step": "Warm-up step — recording a ngai lo.",
+      "bars_hint": "{{bars}} bar vel a ni",
+      "complete_title": "Script zawh tawh!",
+      "complete_body": "Script step tin chu i record vek tawh. Project Audio tab ah kal leh la, i duh ber take te chu thlang rawh.",
+      "restart": "Script chu restart leh rawh"
+    },
+    "best2min": {
+      "button": "Minute 2 chhunga a tha ber zawng rawh (Suno) .",
+      "running": "Analyzing a take...",
+      "score_label": "Score a ni",
+      "hint": "Take pumpuiah energy leh clarity analysis a kalpui a, minute 2 chhunga a window chak ber a zawng chhuak a — a hnuah pawh kut hmangin range chu i la siamrem thei tho.",
+      "chart_caption": "Window khatah score a ni",
+      "unavailable": "Best-2-minutes analysis hi he server ah hian a la awm lo."
+    },
+    "takes_title": "He session atang hian a la chhuak",
+    "takes_empty": "He session-ah hian take record a la awm lo.",
+    "open_in_project": "Project ah hawn a ni",
+    "ws_disconnected": "Level meter nena inzawm leh...",
+    "select_project_first": "A bul tanna tur project pakhat thlang rawh.",
+    "select_device_first": "Input device pakhat thlang rawh."
+  },
+  "project": {
+    "back_to_library": "Library ah kir leh rawh",
+    "header": {
+      "status_label": "Status a awm",
+      "cover_upload": "Upload cover rawh",
+      "cover_remove": "Cover chu la chhuak rawh",
+      "name_placeholder": "Project hming",
+      "links_title": "Link te a awm",
+      "add_link": "Link add rawh",
+      "mode": {
+        "voice": "Aw chauh a ni",
+        "voice_guitar": "Aw + guitar a ni"
+      }
+    },
+    "tabs": {
+      "audio": "Audio hmanga siam a ni",
+      "lyrics": "Lyrics a ni",
+      "prompts": "Prompts a awm",
+      "notes": "Notes te chu"
+    },
+    "audio": {
+      "takes_title": "A la a",
+      "no_takes": {
+        "title": "No takes a la awm lo",
+        "description": "Take thar record emaw file awmsa import emaw."
+      },
+      "record_new": "Take thar record rawh",
+      "rating": "Rating a ni",
+      "variant": {
+        "raw": "Raw a ni",
+        "processed": "Processed a ni"
+      },
+      "variant_placeholder": "Version a ni",
+      "process_button": "Process tih dan tur",
+      "export_button": "Export a ni",
+      "delete_take_confirm_title": "He take hi delete rawh?",
+      "delete_take_confirm_description": "Raw audio leh processed version zawng zawng chu paih vek a ni ang.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Processed a ni"
+      },
+      "origin": {
+        "recorded": "Recorded a ni",
+        "imported": "Ram pawn atanga lakluh a ni"
+      },
+      "session_label_placeholder": "Session label (a duh duh) 1.1.",
+      "duration": "Hun chhung zawng",
+      "sample_rate": "Sample rate lak a ni",
+      "channels": "Channel hrang hrangah",
+      "created_at": "Recorded a ni"
+    },
+    "pipeline": {
+      "title": "Processing chain a ni",
+      "preset_label": "Preset a ni",
+      "preset_none": "Custom chain a ni",
+      "preset_save": "Preset angin save rawh",
+      "stage_locked": "Lock a ni",
+      "stage_requires_extra": "Extra install loh a mamawh",
+      "process_button": "Process lak a ni",
+      "processing": "Processing a awm mek...",
+      "job_queued": "Queue-a awm...",
+      "job_running": "Processing a awm mek...",
+      "job_done": "Tih zo tawh",
+      "job_error": "A hlawhchham",
+      "job_cancelled": "Cancel a ni",
+      "cancel_job": "Cancel rawh",
+      "no_stages": "Stage a awm lo."
+    },
+    "export": {
+      "title": "Export lak a ni",
+      "description": "Processed version atanga file hnuhnung ber render.",
+      "variant_label": "Version a ni",
+      "format_label": "Format a ni",
+      "preset_label": "Export preset a ni",
+      "range_label": "Range a ni",
+      "range_full": "A sei zawng zawng",
+      "range_custom": "Custom range a awm",
+      "start_label": "A bul tanna (s) .",
+      "end_label": "A tawp (s) 1.1.",
+      "submit": "Export a ni",
+      "progress": "Rendering file a awm...",
+      "download_ready": "File a awm tawh",
+      "download_button": "File download rawh"
+    },
+    "notes": {
+      "placeholder": "He project chungchangah hian free-form notes...",
+      "saved_at": "{{time}} ah save a ni. "
+    },
+    "lyrics": {
+      "placeholder": "Hetah hian hla thu hi ziak rawh. Suno meta-tags insert nan a sir lama palette awm kha hmang la.",
+      "saved_at": "{{time}} ah save a ni. ",
+      "saving": "Saving...",
+      "versions": "Version hrang hrang a awm",
+      "versions_empty": "Saved version a la awm lo.",
+      "version_preview": "A hmasa ber atan",
+      "restore": "He version hi restore leh rawh",
+      "restore_confirm_title": "He version hi restore leh em?",
+      "restore_confirm_description": "Tuna text awm mek chu {{date}} a saved version nen thlak a ni ang.",
+      "metatags_title": "Meta-tags a awm bawk",
+      "metatags_hint": "Tag pakhat click la, cursor-ah dah rawh.",
+      "metatags_placebo_warning": "Unproven — result-ah nghawng a nei lo mai thei.",
+      "metatags_empty": "Meta-tag register a ni lo."
+    },
+    "prompts": {
+      "style_title": "Style tih a ni",
+      "lyrics_title": "Lyrics tih a ni",
+      "template_label": "Template a ni",
+      "template_none": "Template a awm lo",
+      "variables_title": "Variables te pawh a awm",
+      "preview_title": "A hmasa ber atan",
+      "preview_empty": "Template pakhat thlang la, variable te chu fill up la, preview i hmu ang.",
+      "char_count": " {{count}} tih a ni",
+      "char_count_warning": "Style prompt character 1000 chuang chu Suno hian a truncated thei.",
+      "copy": "Copy rawh",
+      "copied": "Clipboard ah copy a ni",
+      "save_to_project": "Project ah save rawh",
+      "saved_to_project": "Prompt chu project ah save a ni",
+      "history_title": "History",
+      "history_empty": "A hmaa version awm lo.",
+      "current_label": "Tunah hian"
+    },
+    "stems": {
+      "title": "Vocal leh guitar a ni",
+      "separate_button": "Vocal leh guitar hrang hrang",
+      "running": "Inthen darh...",
+      "vocals": "Vocal lam a ni",
+      "instrumental": "Instrumental tak a ni",
+      "process_stem": "He stem hi process rawh",
+      "empty": "He take hi a la inthen lo. Vocal leh guitar chu isolation-a hriat theih nan separation run rawh.",
+      "capability_missing": "He server ah hian Source separation a install lo.",
+      "unavailable": "Vocal/guitar separation hi he server ah hian a la awm lo."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "On",
+    "boolean_off": "Off a ni"
+  },
+  "import": {
+    "title": "Import a ni",
+    "subtitle": "Disk-a awm tawh project te chu library-ah rawn hruai lut rawh.",
+    "step_indicator": "Step {{current}} atanga {{total}} . ",
+    "step1": {
+      "title": "Folder chu zawng rawh",
+      "description": "I project leh track te nen root folder kha point rawh.",
+      "path_label": "Folder kalna tur",
+      "path_placeholder": "e.g. E:\\Robbs\\Pride\\Music\\ROBBS tih hi a ni",
+      "recent_label": "Tun hnaiah",
+      "scan_button": "Scan folder a ni",
+      "scanning": "Scanning a awm mek...",
+      "ffmpeg_warning": "FFmpeg hmuh a ni lo — file conversion ngai te chu skip a ni ang.",
+      "folders_found_one": " {{count}} folder a awm",
+      "folders_found_other": " {{count}} folder a awm",
+      "unmatched_files_one": " {{count}} hriat loh file",
+      "unmatched_files_other": " {{count}} file hriat loh"
+    },
+    "step2": {
+      "title": "Thil awmte chu enfiah leh rawh",
+      "description": "Confirm hmain hming, status, leh eng nge import dawn tih te enfiah hmasa phawt ang che.",
+      "select_all": "A zawng zawng thlang rawh",
+      "table": {
+        "folder": "Source folder a ni",
+        "name": "Project hming",
+        "status": "Status a awm",
+        "audio": "Audio hmanga siam a ni",
+        "lyrics": "Lyrics a ni",
+        "cover": "Cover a ni",
+        "album": "Album a ni"
+      },
+      "audio_include_one": " {{count}} file thlan a ni",
+      "audio_include_other": " {{count}} files thlan chhuah a ni",
+      "no_audio": "Audio hmuh tur a awm lo",
+      "no_lyrics": "Lyrics hmuh tur a awm lo",
+      "no_cover": "Cover a awm lo",
+      "warnings_title": "Vaukhânnate"
+    },
+    "step3": {
+      "title": "Import a ni",
+      "description": "File te copy tur leh project siam tur chuan confirm rawh.",
+      "copy_originals": "Original files te chu library ah copy rawh",
+      "execute_button": "Import tan rawh",
+      "progress_title": "Importing a ni...",
+      "created_count": "A siam: {{count}} ",
+      "skipped_count": "Skipped: {{count}} a ni. ",
+      "done_title": "Import zawh tawh a ni",
+      "done_description": "A hnuaia project te hi i library ah siam a ni.",
+      "view_project": "Open project a ni",
+      "start_over": "Import thar a ni"
+    }
+  },
+  "templates": {
+    "title": "Template hrang hrang",
+    "subtitle": "Suno tan prompt template leh meta-tag hman nawn theih a ni.",
+    "tabs": {
+      "prompts": "Template te chu a rawn zawt thei ang",
+      "metatags": "Meta-tags a awm bawk"
+    },
+    "new_template": "Template thar a ni",
+    "kind": {
+      "style": "Style a ni",
+      "lyrics": "Lyrics a ni"
+    },
+    "kind_label": "Mi khawngaihthlak tak",
+    "delete_confirm_title": "Template \" {{name}} \" tih hi delete rawh?",
+    "delete_confirm_description": "Hei hi undone theih a ni lo.",
+    "empty": "Template a la awm lo.",
+    "editor": {
+      "title_new": "Template thar a ni",
+      "title_edit": "Template edit tur a ni",
+      "name_label": "Hming",
+      "name_placeholder": "e.g. Acoustic ballad a ni",
+      "kind_label": "Mi khawngaihthlak tak",
+      "template_label": "Template thuziak a ni",
+      "template_hint": "Variable tinte awmna hmun chu a hming chu double curly brace-a phuarin chhinchhiah rawh — entirnan, \"genre\" tih variable chu opening brace pahnih leh closing brace pahnih-a khuh genre a lo ni ta a ni.",
+      "variables_label": "Variables te pawh a awm",
+      "variable_add": "Variable dah belh rawh",
+      "variable_name": "Key a ni",
+      "variable_label": "Label tih a ni",
+      "variable_type": "Type a ni",
+      "variable_type_string": "Thuziak",
+      "variable_type_select": "Single select a ni",
+      "variable_type_multiselect": "Multi-select a ni",
+      "variable_type_number": "Number",
+      "variable_type_boolean": "Ni e/ni lo",
+      "variable_options": "Thil thlan theih (comma hmanga inthen) .",
+      "variable_required": "A ngai a ni",
+      "save": "Template chu save rawh"
+    },
+    "metatags": {
+      "title": "Meta-tags a awm bawk",
+      "subtitle": "Structural leh style tags Suno hian lyrics chhungril a hre chiang hle.",
+      "new_tag": "Tag thar a ni",
+      "tag_label": "Tag rawh",
+      "tag_placeholder": "e.g. guitar-solo hmanga siam a ni",
+      "category_label": "Category a ni",
+      "tier_label": "Rin tlak a ni",
+      "tier_legend_title": "Rintlakna legend a ni",
+      "tier_legend": {
+        "1": "Tier 1 — documented leh inmil tak a ni",
+        "2": "Tier 2 — a tlangpuiin hna a thawk",
+        "3": "Tier 3 — nghawng danglam thei",
+        "4": "Tier 4 — placebo, finfiah loh"
+      },
+      "description_label": "Thuziak sawifiahna",
+      "delete_confirm_title": "\" {{tag}} \" tih tag hi delete rawh?",
+      "empty": "Custom meta-tags a la awm lo."
+    }
+  },
+  "settings": {
+    "title": "Settings te pawh a awm",
+    "subtitle": "System information, tawng leh default duhthlanna te.",
+    "system_info_title": "System a ni",
+    "version": "Version a ni",
+    "data_dir": "Data folder ah dah a ni",
+    "ffmpeg_status": "FFmpeg a ni",
+    "ffmpeg_available": "A awm thei e",
+    "ffmpeg_missing": "Hmuh loh",
+    "capabilities_title": "Installed theihna a awm",
+    "capability": {
+      "denoise": "Noise tihziaawmna",
+      "quality": "Quality tihsan a ni",
+      "separate": "Source inthen darh a ni",
+      "ffmpeg": "FFmpeg tihdanglamna"
+    },
+    "capability_available": "A awm thei e",
+    "capability_unavailable": "A awm lo",
+    "gpu_title": "GPU tih chakna a ni",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA hmanga siam a ni",
+      "ort_providers": "ONNX Runtime pe chhuaktu te"
+    },
+    "gpu_none": "GPU provider hmuhchhuah a ni lo",
+    "language_title": "Ṭawng hman dan",
+    "language": {
+      "pt-BR": "Português (Brasil) ramah a awm a.",
+      "en": "Mizo tawng"
+    },
+    "theme_title": "A lan dan",
+    "theme": {
+      "dark": "Thim a ni",
+      "light": "Eng"
+    },
+    "defaults_title": "Export default a ni",
+    "lufs_target_label": "Target LUFS a ni",
+    "lufs_target_hint": "Exporting lak hunah starting suggestion atan hman thin. Suno default hi -14 LUFS vel a ni.",
+    "saved": "Preferences te chu save a ni"
+  },
+  "guide": {
+    "title": "Suno recording kaihhruaina",
+    "subtitle": "Voice leh guitar lak dan capture dan chuan result tha ber a hmu thin.",
+    "intro": "Suno hian reference thianghlim leh chiang lo tak tak hmangin a ti tha ber. He kaihhruaina hian inbuatsaihna, target level leh minute 3–5 chhunga recording script a huam a ni.",
+    "sections": {
+      "prep": {
+        "title": "Inbuatsaihna",
+        "body": "Treated room emaw, soft material tamna (curtain, rug, thawmhnaw closet-a dah) emaw-ah record rawh. Fans leh eng thil pawh hum off rawh. Recording hmain minute 5 chhung i aw kha warm up rawh."
+      },
+      "levels": {
+        "title": "Levels: -12 atanga -6 dBFS thleng a ni",
+        "body": "Meter-a -12 leh -6 dBFS inkar peak awm tum ang che. Chu range hnuaiah chuan background noise chu a langsar zual sauh a; a chungah chuan clipping risk a sang chho hle. Record page-a meter hmangin i gain chu i start hmain set hmasa phawt ang che."
+      },
+      "distance": {
+        "title": "Mic hlat zawng: 15–30 cm",
+        "body": "Microphone atanga cm 15 atanga 30 vel a hlaah awm rawh. Chu aia hnai zawk chuan plosives leh proximity effect a tizual a; hla zawkah chuan room reverb leh noise a pick up tam zawk."
+      },
+      "script": {
+        "title": "Recording script a ni",
+        "warmup": "Vocal warm-up (minute 1–2 chhung) 1.1.",
+        "vowels": "Vowel nghet tak — a, e, i, o, u",
+        "scales": "Scale awlsam tak, chunglam leh hnuai lam",
+        "excerpt": "Hla thu lak chhuah (bar 8 atanga 16) .",
+        "dynamics": "Dynamics: bul tan nêm, tawp ringawt",
+        "spoken_phrase": "Spoken phrase pakhat, chutiang chuan Suno chuan i vocal tone a chhiar thei ang"
+      },
+      "expectations": {
+        "title": "Suno beisei chu",
+        "body": "WAV, 48 kHz, mono, dry (reverb leh effects nei lo), minute 3 atanga 5 chhung reference a ni. Minute 2 chhunga thianghlim ber, aiawh ber berte hian result tha ber a chhuah tlangpui."
+      }
+    }
+  },
+  "status": {
+    "idea": "Ngaihtuahna",
+    "em_progresso": "Hmasawnna kalpui mek a ni",
+    "quase": "Chutah chuan a awm tawh mai",
+    "pronto": "Inpeih tawh"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Suno tan vocal script kimchang tak a awm",
+      "desc": "5 guided minutes: warm-up, vowel, scale, hla thumal pahnih, dynamics, leh thusawi thumal pakhat."
+    },
+    "step": {
+      "warmup": "Vocal warm-up a ni",
+      "warmup_inst": "Yawns, lip trills (brrr), leh soft hum hmangin minute khat vel losen up rawh. Record a ngai lo — hla sak hmaa i rilru tih hahdamna tur chauh a ni.",
+      "vowels": "Vowel nghet tak tak te",
+      "vowels_inst": "Vowel tin — a, e, i, o, u — chu i aw nuam takah second 3 atanga 4 chhung vawng la, volume mumal tak nen. Hei hian Suno chu i aw timbre thianghlim tak chu a pick up theih nan a pui a ni.",
+      "scales": "Scale sang leh hnuai lam",
+      "scales_inst": "Scale awlsam tak, chunglam leh hnuai lam, \"la\" emaw \"na\" emaw-ah hla sa rawh. A famkim a ngai lo — tum ber chu i vocal range map siam hi a ni.",
+      "section": "Hla thu lak chhuah — part 1",
+      "section_inst": "Hla hi bar 8 atanga 16 vel sa la, i sawi tum tak tak nen. Technical perfection aiin chiang zawk leh awmna hi dah pawimawh zawk rawh.",
+      "section2": "Hla thu lak chhuah — part 2",
+      "section2_inst": "Bar 8 atanga 16 dang hla sak leh rawh — a tha ber chu chorus emaw, a hmaa mi nena inthlau section emaw a ni. Variety tam zawk hian model chu i aw a zir theih nan a pui thin.",
+      "dynamics": "Dynamics: a nem → a ri nasa hle",
+      "dynamics_inst": "Thumal inang chu nêm tak aṭanga ṭan la, aw ring taka tawp la, i rilru ti na lovin hla sa rawh. Hei hian Suno i aw dynamic range a entir a ni.",
+      "spoken": "Thusawi (spoken phrase) a ni",
+      "spoken_inst": "Thusawi rawh — hla sa suh — thumal tawi, pianpui, inbiak ang maiin. Hei hian Suno chu i aw timbre tak tak a hriat theih nan a pui a ni."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Siamthat lehna",
+      "filter": "Filter hrang hrang a awm",
+      "dynamics": "Dynamics lam thil a ni",
+      "separation": "Inthenna",
+      "quality": "Quality tha tak a ni",
+      "utility": "Utility a ni",
+      "loudness": "Loudness a ni"
+    },
+    "highpass": "High-pass filter a ni",
+    "lowpass": "Low-pass filter a ni",
+    "denoise": "Noise tihziaawmna",
+    "declip": "Declipping a ni",
+    "declick": "Click/pop tihchhuah a ni",
+    "deesser": "De-esser a ni",
+    "gate": "Noise gate a ni",
+    "compressor": "Compressor a ni",
+    "limiter": "Limiter a ni",
+    "eq": "Intluktlanna",
+    "normalize": "Peak normalization a ni",
+    "loudness": "Loudness normalization (LUFS) tih a ni.",
+    "reverb_reduce": "Reverb tihtlem a ni",
+    "separate": "Source inthen darh a ni",
+    "quality": "Quality tihsan (upscale) tih a ni.",
+    "trim_silence": "Silence trimming a ni",
+    "fade": "Fade in / fade out a ni",
+    "stereo_to_mono": "Mono ah a let leh ang",
+    "resample": "Resampling lak leh a ni"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Rin tlak a ni",
+      "2": "A tlangpuiin hna a thawk thin",
+      "3": "A danglam thei",
+      "4": "Placebo hmanga enkawl a ni"
+    },
+    "category": {
+      "structure": "Insiam dan (structure) a ni",
+      "vocal": "Vocal a ni",
+      "instrument": "Instrument hmanga siam a ni",
+      "dynamics": "Dynamics lam thil a ni",
+      "production": "Production a ni",
+      "mood": "Mood a ni"
+    },
+    "verse": "Châng",
+    "chorus": "Chorus a ni",
+    "bridge": "Bridge a ni",
+    "intro": "Thuhmahruai",
+    "outro": "Outro a ni",
+    "hook": "Hook a ni",
+    "prechorus": "Pre-chorus a ni",
+    "instrumental": "Instrumental tak a ni",
+    "guitar_solo": "Guitar solo a ni",
+    "build_up": "Build-up a ni",
+    "breakdown": "A chhe vek",
+    "spoken_word": "Thusawi hmanga thusawi",
+    "whispered": "A ti sap sap a",
+    "harmonies": "Inremna (harmonies) te",
+    "male_vocal": "Mipa vocal a ni",
+    "female_vocal": "Hmeichhe vocal",
+    "duet": "Duet a ni",
+    "acoustic": "Acoustic a ni",
+    "ad_lib": "Ad-lib tih a ni"
+  },
+  "presets": {
+    "clean_voice": "Aw thianghlim tak",
+    "voice_guitar_balanced": "Aw & guitar inthlau tak a ni",
+    "podcast": "Podcast hmanga siam a ni",
+    "suno_ready": "Suno a inpeih tawh",
+    "gentle_restore": "Gentle restore leh rawh",
+    "raw_passthrough": "Processing a awm lo"
+  },
+  "errors": {
+    "unknown": "Thil engemaw a kal sual a.",
+    "network": "Server a thleng thei lo.",
+    "validation_error": "I information i ziah kha check la.",
+    "not_found": "Item hmuh tur a awm lo.",
+    "project_not_found": "Project hmuh tur a awm lo.",
+    "take_not_found": "Take hmuh tur a awm lo.",
+    "album_not_found": "Album hmuh tur a awm lo.",
+    "preset_not_found": "Preset hmuh tur a awm lo.",
+    "template_not_found": "Template hmuh tur a awm lo.",
+    "device_busy": "Audio device hi program dangin an hmang mek a ni.",
+    "device_not_found": "Audio device hmuh tur a awm lo.",
+    "already_recording": "Recording a awm tawh bawk.",
+    "ffmpeg_missing": "FFmpeg hi install a ni lo — he file hi convert turin install rawh.",
+    "disk_full": "Disk space a tlem lo.",
+    "permission_denied": "Kawng pek chu phalna pek loh a ni.",
+    "import_path_not_found": "Import path hmuh tur a awm lo.",
+    "job_failed": "Processing a hlawhchham ta.",
+    "job_cancelled": "Processing pawh tihtawp a ni.",
+    "process_failed": "Take chu a process thei lo.",
+    "export_failed": "File chu a export thei lo.",
+    "record_failed": "Recording a tan thei lo."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Queue-ah a awm",
+      "running": "Running a ni",
+      "done": "Tih zo tawh",
+      "error": "A hlawhchham",
+      "cancelled": "Cancel a ni"
+    },
+    "kind": {
+      "process": "Processing tih a ni",
+      "export": "Export a ni",
+      "import": "Import a ni",
+      "record": "Recording tih a ni"
+    }
+  }
+}

@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Odio Dzadzɛnyenye Dɔwɔƒe"
+  },
+  "nav": {
+    "library": "Agbalẽdzraɖoƒe",
+    "record": "Nuŋlɔɖi",
+    "import": "Nusiwo wotsɔ tso duta vɛ",
+    "templates": "Kpɔɖeŋuwo",
+    "settings": "Ðoɖowo",
+    "guide": "Mɔfiame"
+  },
+  "common": {
+    "save": "Dzra nu ɖo",
+    "saving": "Dzadzraɖo...",
+    "saved": "Wodzrae ɖo",
+    "cancel": "Te fli ɖe eme",
+    "close": "Kloe",
+    "delete": "Tsɔe ƒu gbe",
+    "edit": "Trɔ asi le eŋu",
+    "create": "Wɔe",
+    "search": "Di nyawo",
+    "loading": "Wole agba tsɔm...",
+    "error": "Vodada",
+    "retry": "Gadze agbagba ake",
+    "confirm": "Ðo kpe edzi",
+    "back": "Trɔ yi megbe",
+    "next": "Eyome",
+    "continue": "Yi edzi",
+    "finish": "Wu enu",
+    "copy": "Kpɔ eƒe kɔpi",
+    "copied": "Wowɔ eƒe kɔpi",
+    "download": "Wɔ eƒe kɔpi",
+    "upload": "Tsɔe da ɖe Internet dzi",
+    "none": "Ðeke meli o",
+    "all": "Wo katã",
+    "yes": "Ẽ",
+    "no": "Ao",
+    "select": "Tiae",
+    "optional": "tiatiawɔblɔɖe",
+    "required": "wobia tso ame si",
+    "unsaved_changes": "Tɔtrɔ siwo womedzra ɖo o",
+    "name": "Ŋkɔ",
+    "status": "Nɔnɔme",
+    "type": "Ŋlɔ",
+    "actions": "Nuwɔnawo",
+    "empty": "Ƒuƒlu",
+    "browse": "Kpɔe ɖa",
+    "remove": "Ðee ɖa",
+    "add": "Tsɔe kpe ɖe eŋu",
+    "rename": "Trɔ ŋkɔa",
+    "duplicate": "Wogbugbɔ ŋlɔe",
+    "warning": "Nuxlɔ̃ame",
+    "locked": "Wotue",
+    "builtin": "Wotue ɖe eme",
+    "custom": "Dekɔnu",
+    "untitled": "Tanya aɖeke mele eŋu o",
+    "select_placeholder": "Tia..."
+  },
+  "library": {
+    "title": "Agbalẽdzraɖoƒe",
+    "subtitle": "Wò gbe kple gita ƒe dɔwɔwɔwo, tso susu dzi va ɖo esi woɖe ɖe go dzi.",
+    "new_project": "Dɔ yeye aɖe",
+    "new_album": "Album yeye",
+    "search_placeholder": "Di le ŋkɔ me...",
+    "view": {
+      "grid": "Grid",
+      "albums": "Albɔmɔ̃wo"
+    },
+    "filters": {
+      "all": "Wo katã"
+    },
+    "take_count_one": " {{count}} xɔe",
+    "take_count_other": " {{count}} xɔa",
+    "updated_at": "Wotrɔ asi le eŋu {{date}} ",
+    "no_results": {
+      "title": "Womekpɔ dɔ aɖeke si wowɔ o",
+      "description": "Tee kpɔ nàtrɔ asi le didi alo nɔnɔme ƒe ʋuʋudedi ŋu."
+    },
+    "empty": {
+      "title": "Wò agbalẽdzraɖoƒea le ƒuƒlu",
+      "description": "Dze dɔ yeye gɔme tso gɔmedzedzea me, alo import takes siwo le asiwò xoxo le disk dzi.",
+      "cta_import": "Tsɔe tso agbalẽdzraɖoƒe",
+      "cta_new": "Wɔ dɔa"
+    },
+    "project_dialog": {
+      "title": "Dɔ yeye aɖe",
+      "description": "Na ŋkɔe eye nàtia nuƒoƒo ƒe mɔnu.",
+      "name_label": "Dɔa ƒe ŋkɔ",
+      "name_placeholder": "e.g. Dzomeŋɔli ƒe Tsidzadza",
+      "mode_label": "Mɔnu si wozãna",
+      "mode": {
+        "voice": "Gbe ɖeɖeko",
+        "voice_guitar": "Gbe + gita"
+      },
+      "submit": "Wɔ dɔa"
+    },
+    "album_dialog": {
+      "title": "Album yeye",
+      "description": "Ƒuƒoƒo dɔ siwo do ƒome kplii ɖe albɔmɔ̃ me.",
+      "name_label": "Album ƒe ŋkɔ",
+      "name_placeholder": "e.g. Dada ƒe EP",
+      "submit": "Wɔ albɔmɔ̃"
+    },
+    "album": {
+      "untitled": "Album si ƒe tanya mele o",
+      "members_count_one": " {{count}} dɔa",
+      "members_count_other": " {{count}} dɔwo",
+      "empty": "Dɔ aɖeke mele album sia me haɖe o.",
+      "delete_confirm_title": "Tsɔ albɔm tutu ɖaa?",
+      "delete_confirm_description": "Womatutu dɔwo o, ɖeko womeɖe kadodo aɖeke ɖa tso \" {{name}} \" gbɔ o."
+    },
+    "delete_project": {
+      "confirm_title": "Tsɔ \" {{name}} \" ɖa?",
+      "confirm_description": "Esia ɖea dɔa kple nusianu si woxɔna le eme ɖa. Womate ŋu atrɔ esia o."
+    }
+  },
+  "record": {
+    "title": "Nuŋlɔɖi",
+    "subtitle": "Lé take dzadzɛ aɖe, lé ŋku ɖe wò dzidzenuwo ŋu, eye nàwɔ ɖe nuŋɔŋlɔa dzi.",
+    "project_label": "Dɔa wɔwɔ",
+    "project_placeholder": "Tia dɔ aɖe si nàwɔ",
+    "project_create_quick": "Wɔ dɔ kabakaba aɖe...",
+    "device_label": "Mɔ̃ si wotsɔ dea nyawo me",
+    "device_placeholder": "Tia mɔ̃ aɖe",
+    "device_default_badge": "System ƒe gɔmedzedze",
+    "device_wasapi_badge": "WASAPI ƒe ŋkɔ",
+    "device_empty": "Womekpɔ mɔ̃ aɖeke si wotsɔ dea nyawo me o.",
+    "monitor_button": "Kpɔ egbɔ",
+    "monitor_stop_button": "Dzudzɔ ŋkuléle ɖe nu ŋu",
+    "record_button": "Nuŋlɔɖi",
+    "stop_button": "Dzudzɔ",
+    "elapsed_label": "Ɣeyiɣi si va yi",
+    "status": {
+      "idle": "Dɔmawɔmawɔ",
+      "monitoring": "Kpɔkpɔ le ŋkuléle ɖe nu ŋu",
+      "recording": "Nuléle ɖe mɔ̃ dzi",
+      "stopped": "Wotɔ te"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Taƒoƒo",
+      "clip": "Klip"
+    },
+    "guide": {
+      "title": "Nusɔsrɔ̃ si wofia mɔe",
+      "subtitle": "Na hehenala la nakplɔ wò to nuŋɔŋlɔa me afɔɖeɖe ɖesiaɖe, tso dzoxɔxɔ dzi va ɖo nyagbe si wogblɔ dzi.",
+      "loading": "Wole script la tsɔm...",
+      "unavailable": "Mɔfiame ƒe ɣeyiɣia mele server la dzi haɖe o.",
+      "select_project_device": "Tia dɔ aɖe kple mɔ̃ si nàtsɔ ade nyawo eme be nàŋlɔ afɔɖeɖewo tso afisia tututu.",
+      "progress": " {{done}} ƒe {{total}} afɔɖeɖewo",
+      "start_timer": "Dze ɣeyiɣidzidzenu gɔme",
+      "skip_timer": "Trɔ ɣeyiɣidzidzenu dzi",
+      "record_step": "Ŋlɔ afɔɖeɖe sia ɖi",
+      "stop_step": "Dzudzɔ nuƒoƒo ɖe mɔ̃ dzi",
+      "mark_done": "Wowɔe — afɔɖeɖe si kplɔe ɖo",
+      "step_recorded": "Tsɔe si wolé ɖe mɔ̃ dzi",
+      "no_record_step": "Dzoxɔxɔ ƒe afɔɖeɖe — mehiã be woalé nu ɖe mɔ̃ dzi o.",
+      "bars_hint": "Anɔ abe {{bars}} bars ene",
+      "complete_title": "Script la wu enu!",
+      "complete_body": "Èlé nuŋɔŋlɔa ƒe afɔɖeɖe ɖesiaɖe ɖe mɔ̃ dzi. Trɔ yi dɔa ƒe Odio tab eye nàtia foto siwo nèlɔ̃ wu.",
+      "restart": "Gbugbɔ dze script la gɔme"
+    },
+    "best2min": {
+      "button": "Di miniti 2 nyuitɔwo kekeake (Suno) .",
+      "running": "Kukuɖenuŋu le take...",
+      "score_label": "Dzesi si woxɔ",
+      "hint": "Dua ŋusẽ kple eme kɔ nyuie ƒe numekuku le xɔ bliboa dzi be yeake ɖe eƒe aɖabaƒoƒo 2 ƒe fesre sesẽtɔ kekeake ŋu — àte ŋu atrɔ asi le didime ŋu kokoko kple asi le ema megbe.",
+      "chart_caption": "Dzesi le fesre ɖesiaɖe nu",
+      "unavailable": "Aɖabaƒoƒo 2 ƒe numekuku nyuitɔ kekeake mele server sia dzi haɖe o."
+    },
+    "takes_title": "Woɖee tso kpekpe sia me",
+    "takes_empty": "Womelé take aɖeke ɖe mɔ̃ dzi le ɣeyiɣi sia me haɖe o.",
+    "open_in_project": "Ʋu le dɔa me",
+    "ws_disconnected": "Gbugbɔ do ka kple level meter la...",
+    "select_project_first": "Tia dɔ aɖe si nàtsɔ adze egɔmee.",
+    "select_device_first": "Tia mɔ̃ aɖe si nàtsɔ ade nyawo eme."
+  },
+  "project": {
+    "back_to_library": "Trɔ yi agbalẽdzraɖoƒe",
+    "header": {
+      "status_label": "Nɔnɔme",
+      "cover_upload": "Tsɔ cover la da ɖe Internet dzi",
+      "cover_remove": "Ðe nutsyɔnu ɖa",
+      "name_placeholder": "Dɔa ƒe ŋkɔ",
+      "links_title": "Kadodowo",
+      "add_link": "Tsɔ kadodoa kpee",
+      "mode": {
+        "voice": "Gbe ɖeɖeko",
+        "voice_guitar": "Gbe + gita"
+      }
+    },
+    "tabs": {
+      "audio": "Odio",
+      "lyrics": "Nyawo ƒe nyawo",
+      "prompts": "Nusiwo ʋãa ame",
+      "notes": "De dzesii"
+    },
+    "audio": {
+      "takes_title": "Exɔa",
+      "no_takes": {
+        "title": "No takes haɖe o",
+        "description": "Ŋlɔ take yeye alo tsɔ faɛl si li xoxo la vɛ."
+      },
+      "record_new": "Ŋlɔ nu yeye aɖe si woxɔ ɖe mɔ̃ dzi",
+      "rating": "Dzidzedzekpɔkpɔ",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Wotrɔ asi le eŋu"
+      },
+      "variant_placeholder": "Version ƒe gɔmeɖeɖe",
+      "process_button": "Dɔwɔwɔ ƒe ɖoɖo",
+      "export_button": "Nusiwo wotsɔna ɖoa duta",
+      "delete_take_confirm_title": "Delete esia xɔ?",
+      "delete_take_confirm_description": "Woaɖe odio xoxoa kple eƒe akpa ɖesiaɖe si ŋu wotrɔ asi le la ɖa.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Wowɔ dɔ tso eŋu"
+      },
+      "origin": {
+        "recorded": "Wolée ɖe mɔ̃ dzi",
+        "imported": "Wotsɔe tso duta vɛ"
+      },
+      "session_label_placeholder": "Session label (ne èdi) .",
+      "duration": "Ɣeyiɣi Didime",
+      "sample_rate": "Kpɔɖeŋu ƒe agbɔsɔsɔme",
+      "channels": "Mɔ̃wo ƒe mɔ̃wo",
+      "created_at": "Wolée ɖe mɔ̃ dzi"
+    },
+    "pipeline": {
+      "title": "Kɔsɔkɔsɔ si me wowɔa dɔ le",
+      "preset_label": "Woɖoe do ŋgɔ",
+      "preset_none": "Kɔsɔkɔsɔ si wowɔ ɖe ɖoɖo nu",
+      "preset_save": "Dzrae ɖo abe alesi woɖoe do ŋgɔ ene",
+      "stage_locked": "Wotue",
+      "stage_requires_extra": "Ebia be woawɔ kpeɖeŋutɔ si womede eme o",
+      "process_button": "Dɔwɔwɔ ƒe xɔ",
+      "processing": "Dɔwɔwɔ tso eŋu...",
+      "job_queued": "Woɖo fli ɖe fli me...",
+      "job_running": "Dɔwɔwɔ tso eŋu...",
+      "job_done": "Wowɔe vɔ",
+      "job_error": "Do kpo nu",
+      "job_cancelled": "Wote fli ɖe eme",
+      "cancel_job": "Te fli ɖe eme",
+      "no_stages": "Afɔɖeɖe aɖeke meli o."
+    },
+    "export": {
+      "title": "Export xɔ",
+      "description": "Trɔ faɛl mamlɛtɔ tso tɔtrɔ si ŋu wotrɔ asi le me.",
+      "variant_label": "Version ƒe gɔmeɖeɖe",
+      "format_label": "Format",
+      "preset_label": "Export preset",
+      "range_label": "Range ƒe didime",
+      "range_full": "Eƒe didime bliboa",
+      "range_custom": "Nusiwo wowɔ ɖe ɖoɖo nu ƒe hatsotso",
+      "start_label": "Dze egɔme (wo) .",
+      "end_label": "Nuwuwu (wo) .",
+      "submit": "Nusiwo wotsɔna ɖoa duta",
+      "progress": "Gɔmeɖeɖe ƒe faɛl...",
+      "download_ready": "Fail la sɔ gbe",
+      "download_button": "Wɔ faɛl la ƒe kɔpi"
+    },
+    "notes": {
+      "placeholder": "Free-form nuŋlɔɖiwo tso dɔ sia ŋu...",
+      "saved_at": "Wodzrae ɖo ɖe {{time}} . "
+    },
+    "lyrics": {
+      "placeholder": "Ŋlɔ hadzidzia me nyawo le afisia. Zã palette si le axadzi nàtsɔ ade Suno meta-tags eme.",
+      "saved_at": "Wodzrae ɖo ɖe {{time}} . ",
+      "saving": "Dzadzraɖo...",
+      "versions": "Gɔmeɖeɖewo",
+      "versions_empty": "Womedzra wo ɖo haɖe o.",
+      "version_preview": "Kpɔe do ŋgɔ",
+      "restore": "Gbugbɔ trɔ asi le eƒe tɔtrɔ sia ŋu",
+      "restore_confirm_title": "Gbugbɔ gbugbɔ tɔtrɔ sia ɖoa?",
+      "restore_confirm_description": "Woatsɔ tɔtrɔ si wodzra ɖo ɖe {{date}} dzi aɖɔli nuŋɔŋlɔ si li fifia.",
+      "metatags_title": "Meta-tagwo ƒe dzesiwo",
+      "metatags_hint": "Zi tag aɖe dzi be nàtsɔe ade fli la dzi.",
+      "metatags_placebo_warning": "Womeɖo kpe edzi o — ate ŋu akpɔ ŋusẽ aɖeke ɖe emetsonua dzi o.",
+      "metatags_empty": "Womeŋlɔ meta-tag aɖeke ŋkɔ o."
+    },
+    "prompts": {
+      "style_title": "Atsyã ƒe nyabiase",
+      "lyrics_title": "Lyrics ƒe nyabiase",
+      "template_label": "Kpɔɖeŋudzesi",
+      "template_none": "Template aɖeke meli o",
+      "variables_title": "Nusiwo trɔna",
+      "preview_title": "Kpɔe do ŋgɔ",
+      "preview_empty": "Tia nɔnɔmetata aɖe eye nàkpe tɔtrɔawo ɖo be nàkpɔ ŋgɔdonya.",
+      "char_count": " {{count}} ŋɔŋlɔdzesiwo",
+      "char_count_warning": "Atsyã ƒe nyabiase siwo wu ŋɔŋlɔdzesi 1000 ate ŋu atso Suno dzi.",
+      "copy": "Kpɔ eƒe kɔpi",
+      "copied": "Wogbugbɔe kɔpi ɖe clipboard dzi",
+      "save_to_project": "Dzrae ɖo ɖe dɔa ŋu",
+      "saved_to_project": "Wodzra nyabiasea ɖo ɖe dɔwɔwɔ ŋu",
+      "history_title": "Ŋutinya",
+      "history_empty": "Gɔmeɖeɖe siwo nɔ anyi va yi aɖeke meli o.",
+      "current_label": "Fifia"
+    },
+    "stems": {
+      "title": "Gbeɖiɖi kple gitaƒoƒo",
+      "separate_button": "Miɖe gbeɖiɖi kple gita ɖe vovo",
+      "running": "Mamã...",
+      "vocals": "Gbeɖiɖiwo",
+      "instrumental": "Dɔwɔnu ƒe dɔwɔnu",
+      "process_stem": "Trɔ asi le ke sia ŋu",
+      "empty": "Womeɖe take sia ɖa haɖe o. Du kaklã be nàse gbeɖiɖi kple gita la le wo ɖokui si.",
+      "capability_missing": "Womeɖo Source separation ɖe server sia dzi o.",
+      "unavailable": "Vocal/guitar separation mele server sia dzi haɖe o."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Le edzi",
+    "boolean_off": "Tsi"
+  },
+  "import": {
+    "title": "Nusiwo wotsɔ tso duta vɛ",
+    "subtitle": "Tsɔ dɔ siwo li xoxo le disk dzi la va agbalẽdzraɖoƒea.",
+    "step_indicator": "Afɔɖeɖe {{current}} ƒe {{total}} . ",
+    "step1": {
+      "title": "Di agbalẽdzraɖoƒea",
+      "description": "Fia asi root folder la kple wò projects kple tracks.",
+      "path_label": "Folder ƒe mɔ",
+      "path_placeholder": "e.g. E: \\ Robbs \\ Dada \\ Hadzidzi \\ ROBBS",
+      "recent_label": "Nyitsɔ laa",
+      "scan_button": "Scan agbalẽdzraɖoƒea",
+      "scanning": "Scanning...",
+      "ffmpeg_warning": "FFmpeg not found — woadzo le faɛl siwo hiã tɔtrɔ dzi.",
+      "folders_found_one": " {{count}} agbalẽdzraɖoƒe si wokpɔ",
+      "folders_found_other": " {{count}} agbalẽdzraɖoƒe siwo wokpɔ",
+      "unmatched_files_one": " {{count}} faɛl si womede dzesii o",
+      "unmatched_files_other": " {{count}} faɛl siwo womede dzesii o"
+    },
+    "step2": {
+      "title": "Dzro nuawo me",
+      "description": "Kpɔ ŋkɔwo, nɔnɔmewo, kple nusiwo woatsɔ ava eme hafi aɖo kpe edzi.",
+      "select_all": "Tia wo katã",
+      "table": {
+        "folder": "Dzɔtsoƒe ƒe agbalẽdzraɖoƒe",
+        "name": "Dɔa ƒe ŋkɔ",
+        "status": "Nɔnɔme",
+        "audio": "Odio",
+        "lyrics": "Nyawo ƒe nyawo",
+        "cover": "Kpɔɖeŋudzesi",
+        "album": "Album ƒe agbalẽ"
+      },
+      "audio_include_one": " {{count}} faɛl si wotia",
+      "audio_include_other": " {{count}} faɛl siwo wotia",
+      "no_audio": "Womekpɔ odio aɖeke o",
+      "no_lyrics": "Womekpɔ hadzidzia ƒe nya aɖeke o",
+      "no_cover": "Kpekpeɖeŋu aɖeke meli o",
+      "warnings_title": "Nuxlɔ̃amewo"
+    },
+    "step3": {
+      "title": "Nusiwo wotsɔ tso duta vɛ",
+      "description": "Ðo kpe edzi be yeawɔ kɔpi na faɛlawo eye yeawɔ dɔawo.",
+      "copy_originals": "Kpɔ faɛl gbãtɔwo ɖa le agbalẽdzraɖoƒea",
+      "execute_button": "Dze nusiwo wotsɔ tso duta vɛ gɔme",
+      "progress_title": "Nusiwo wotsɔ tso duta vɛ...",
+      "created_count": "Wowɔe: {{count}} ",
+      "skipped_count": "Wodzo le edzi: {{count}} ",
+      "done_title": "Import wu enu",
+      "done_description": "Wowɔ dɔ siwo le ete la le wò agbalẽdzraɖoƒe.",
+      "view_project": "Ʋuʋu dɔwɔwɔ",
+      "start_over": "Nu yeye si wotsɔ tso duta vɛ"
+    }
+  },
+  "templates": {
+    "title": "Kpɔɖeŋuwo",
+    "subtitle": "Gbebiame ƒe nɔnɔmetatawo kple meta-tag siwo woateŋu azã ake na Suno.",
+    "tabs": {
+      "prompts": "Biabia ƒe nɔnɔmetatawo",
+      "metatags": "Meta-tagwo ƒe dzesiwo"
+    },
+    "new_template": "Template yeye",
+    "kind": {
+      "style": "Atsyã ƒe atsyã",
+      "lyrics": "Nyawo ƒe nyawo"
+    },
+    "kind_label": "Dɔmenyonyo",
+    "delete_confirm_title": "Tsɔ nɔnɔmetata \" {{name}} \" ɖa?",
+    "delete_confirm_description": "Womate ŋu atrɔ esia o.",
+    "empty": "Template aɖeke meli haɖe o.",
+    "editor": {
+      "title_new": "Template yeye",
+      "title_edit": "Trɔ asi le template ŋu",
+      "name_label": "Ŋkɔ",
+      "name_placeholder": "e.g. Akɔstik ƒe ballad",
+      "kind_label": "Dɔmenyonyo",
+      "template_label": "Template ƒe nuŋɔŋlɔ",
+      "template_hint": "De dzesi afisi tɔtrɔ ɖesiaɖe le kple eƒe ŋkɔ si woxatsa ɖe akɔtagbalẽvi eve siwo le fli me — le kpɔɖeŋu me, tɔtrɔɖenu si ŋkɔe nye \"ƒomevi\" zua ƒomevi si woxatsa ɖe akɔtadzesi eve siwo wotsɔ ʋu enu kple esiwo wotsɔ wu enui me.",
+      "variables_label": "Nusiwo trɔna",
+      "variable_add": "Tsɔ tɔtrɔɖenuŋu kpee",
+      "variable_name": "Safui",
+      "variable_label": "Label ƒe dzeside",
+      "variable_type": "Ŋlɔ",
+      "variable_type_string": "Nuŋɔŋlɔ",
+      "variable_type_select": "Tiatia ɖeka ko",
+      "variable_type_multiselect": "Tia nu geɖe",
+      "variable_type_number": "Xexlẽdzesi",
+      "variable_type_boolean": "Ẽ/ao",
+      "variable_options": "Tiatiawɔblɔɖe (womae kple dzesideŋkɔ) .",
+      "variable_required": "Wobia tso esi",
+      "save": "Dzra template ɖo"
+    },
+    "metatags": {
+      "title": "Meta-tagwo ƒe dzesiwo",
+      "subtitle": "Structural and style tags Suno dea dzesi hadzidzi ƒe nyawo le eme.",
+      "new_tag": "Tag yeye",
+      "tag_label": "Tag",
+      "tag_placeholder": "e.g. gita-solo-ɖekaɖeka",
+      "category_label": "Ƒomedodo",
+      "tier_label": "Kakaɖedzi le ame ŋu",
+      "tier_legend_title": "Kakaɖedzi ŋuti xotutu",
+      "tier_legend": {
+        "1": "Tier 1 — woŋlɔe ɖi eye wòwɔ ɖeka",
+        "2": "Tier 2 — zi geɖe la, ewɔa dɔ",
+        "3": "Tier 3 — ŋusẽkpɔɖeamedzi si trɔna",
+        "4": "Tier 4 — placebo, si ŋu kpeɖodzi mele o"
+      },
+      "description_label": "Numeɖeɖe",
+      "delete_confirm_title": "Tsɔ dzesi \" {{tag}} \" ɖa?",
+      "empty": "Meta-tags tɔxɛ aɖeke meli haɖe o."
+    }
+  },
+  "settings": {
+    "title": "Ðoɖowo",
+    "subtitle": "System ŋuti nyatakakawo, gbegbɔgblɔ, kple nusiwo nèdi tso gɔmedzedzea me.",
+    "system_info_title": "Nuɖoanyi",
+    "version": "Version ƒe gɔmeɖeɖe",
+    "data_dir": "Nyatakakawo ƒe agbalẽdzraɖoƒe",
+    "ffmpeg_status": "FFmpeg ƒe nya",
+    "ffmpeg_available": "Woate ŋu akpɔe",
+    "ffmpeg_missing": "Womekpɔe o",
+    "capabilities_title": "Ŋutete siwo woda ɖe eme",
+    "capability": {
+      "denoise": "Toɣliɖeɖe dzi ɖeɖe kpɔtɔ",
+      "quality": "Dzɔdzɔmeŋusẽ ƒe nyonyome dodo ɖe ŋgɔ",
+      "separate": "Dzɔtsoƒe ƒe mama",
+      "ffmpeg": "FFmpeg ƒe tɔtrɔ"
+    },
+    "capability_available": "Woate ŋu akpɔe",
+    "capability_unavailable": "Womekpɔe o",
+    "gpu_title": "GPU ƒe ablaɖeɖe",
+    "gpu": {
+      "torch_cuda": "PyTorch ƒe CUDA",
+      "ort_providers": "ONNX Runtime ƒe dɔwɔƒewo"
+    },
+    "gpu_none": "Womekpɔ GPU nana dɔwɔƒe aɖeke o",
+    "language_title": "Gbegbɔgblɔ",
+    "language": {
+      "pt-BR": "Portugalgbe (Brasil) .",
+      "en": "Eŋlisigbe me"
+    },
+    "theme_title": "Dzedzeme",
+    "theme": {
+      "dark": "Viviti do viviti",
+      "light": "Kekeli"
+    },
+    "defaults_title": "Export defaults",
+    "lufs_target_label": "Taɖodzinu LUFS",
+    "lufs_target_hint": "Wozãnɛ abe gɔmedzedze ƒe aɖaŋuɖoɖo ene ne wole eɖom ɖe duta xɔa. Suno ƒe default bɔbɔ nɔ anyi ƒo xlã -14 LUFS.",
+    "saved": "Wodzra nusiwo nèdi ɖo"
+  },
+  "guide": {
+    "title": "Suno ƒe nuŋɔŋlɔ ƒe mɔfiame",
+    "subtitle": "Alesi woalé gbe kple gita la xɔa nu nyuitɔ kekeake.",
+    "intro": "Suno wɔa dɔ nyuie wu ne wotsɔ nya siwo ŋu woƒo nu tsoe siwo le dzadzɛ, siwo me mekɔ o. Mɔfiame sia ƒo nu tso dzadzraɖo, taɖodzinu ƒe dzidzenuwo, kple miniti 3–5 ƒe nuŋɔŋlɔ ƒe nuŋɔŋlɔ ŋu.",
+    "sections": {
+      "prep": {
+        "title": "Dzadzraɖo",
+        "body": "Nuŋlɔɖi ɖe xɔ si me wowɔ atike ɖo alo esi me nu falɛfalɛ geɖe le (xɔmetsovɔwo, xɔmetsovɔwo, awu siwo le nudzraɖoƒe). Tsi fesrewo kple nusianu si le ɣli dom. Do dzo na wò gbe aɖabaƒoƒo 5 hafi nàlée ɖe mɔ̃ dzi."
+      },
+      "levels": {
+        "title": "Dzidzemewo: -12 va ɖo -6 dBFS",
+        "body": "Taɖodzinu na taƒoƒo siwo le -12 kple -6 dBFS dome le mita la dzi. Le teƒe ma te la, toɣliɖeɖe si le megbe la va dzena nyuie wu; le etame la, afɔku si le lãɖeɖe me dzina ɖe edzi. Zã mita si le Record ƒe axaa dzi nàtsɔ aɖo wò viɖe hafi nàdze egɔme."
+      },
+      "distance": {
+        "title": "Mic ƒe didime: 15–30 cm",
+        "body": "Nɔ teƒe si didi sentimeta 15 va ɖo 30 tso nuƒomɔ̃a gbɔ. Te ɖe eŋu wu ema na plosives kple proximity effect gbɔ eme; didiƒe ʋĩ la xɔa xɔme ƒe gbeɖiɖi kple toɣliɖeɖe geɖe wu."
+      },
+      "script": {
+        "title": "Nuŋɔŋlɔ si wolé ɖe mɔ̃ dzi",
+        "warmup": "Gbe ƒe dzoxɔxɔ (aɖabaƒoƒo 1–2) .",
+        "vowels": "Ablɔɖegbeɖiɖi siwo nɔa anyi ɖaa — a, e, i, o, u",
+        "scales": "Nudanu bɔbɔewo, yi dzi kple anyime",
+        "excerpt": "Hadzidzi aɖe ƒe akpa aɖe (bar 8 va ɖo 16) .",
+        "dynamics": "Dynamics: dze egɔme fafɛ, wu enu sesĩe",
+        "spoken_phrase": "Nyagbe ɖeka si wogblɔ, ale be Suno nate ŋu axlẽ wò gbe ƒe gbeɖiɖi"
+      },
+      "expectations": {
+        "title": "Nusi Suno le mɔ kpɔm na",
+        "body": "WAV, 48 kHz, mono, dry (reverb alo effects aɖeke mele eme o), miniti 3 va ɖo 5 ƒe nufiame. Zi geɖe la, aɖabaƒoƒo 2 siwo le dzadzɛ wu, siwo teƒenɔlawo sɔ gbɔ wu, siwo woxɔna la naa nu nyuitɔ kekeake dona tso eme."
+      }
+    }
+  },
+  "status": {
+    "idea": "Susu aɖe",
+    "em_progresso": "Le edzi yim",
+    "quase": "Afima kloe",
+    "pronto": "Dzra ɖo"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Gbeɖiɖi ƒe nuŋɔŋlɔ bliboa na Suno",
+      "desc": "Aɖabaƒoƒo 5 siwo wofia mɔe: dzoxɔxɔ, ablɔɖegbeɖiɖi, nudanu, hadzidzi eve siwo woɖe tso eme, ŋusẽkpɔɖeamedzi, kple nyagbe aɖe si wogblɔ."
+    },
+    "step": {
+      "warmup": "Gbeɖiɖi ƒe dzoxɔxɔ",
+      "warmup_inst": "Ðe asi le eŋu kple hũɖeɖe, nuyi ƒe ʋuʋu (brrr), kple ɣlidodo fafɛ abe aɖabaƒoƒo ɖeka ene. Mehiã be nàlé nu ɖe ​​mɔ̃ dzi o — ɖeko wòle be nàɖe wò ŋɔti dzi akpɔtɔ hafi adzi ha.",
+      "vowels": "Ablɔɖegbeɖiɖi siwo nɔa anyi ɖaa",
+      "vowels_inst": "Lé ablɔɖegbeɖiɖi ɖesiaɖe — a, e, i, o, u — ɖe asi sɛkɛnd 3 va ɖo 4 le wò gbeɖiɖi si me nèɖea dzi ɖi le nu, kple gbeɖiɖi si nɔa anyi ɖaa. Esia kpena ɖe Suno ŋu wòfɔa wò gbe ƒe gbeɖiɖi dzadzɛa.",
+      "scales": "Nudzidzenuwo yi dzi kple anyime",
+      "scales_inst": "Ha dzidzi bɔbɔe aɖe yi dzi eye emegbe nàɖiɖi, le \"la\" alo \"na\" dzi. Mehiã be wòade blibo o — taɖodzinuae nye be nàwɔ wò gbeɖiɖi ƒe didime ƒe nɔnɔmetata.",
+      "section": "Hadzidzi ƒe akpa aɖe — akpa 1",
+      "section_inst": "Dzi hadzidzia ƒe ʋuƒo 8 va ɖo 16, kple tameɖoɖo ŋutɔŋutɔ si nèdi be yeagblɔ. Tsɔ nusiwo me kɔ kple anyinɔnɔ ɖo nɔƒe gbãtɔ wu mɔ̃ɖaŋununya ƒe blibodede.",
+      "section2": "Hadzidzi ƒe akpa aɖe — akpa 2 lia",
+      "section2_inst": "Ha ha 8 va ɖo 16 bubu — anyo wu be nànye hadzidzi alo akpa si to vovo na esi do ŋgɔ. Nu vovovowo wɔwɔ kpena ɖe kpɔɖeŋuwɔla ŋu wòsrɔ̃a wò gbe.",
+      "dynamics": "Dynamics: fafɛ → sesĩe",
+      "dynamics_inst": "Dzi nyagbɔgblɔ ma ke nàdze egɔme fafɛ ŋutɔ eye nàwu enu sesĩe, màte wò ŋɔti me o. Esia ɖea wò gbe ƒe ŋusẽ ƒe didime fiana Suno.",
+      "spoken": "Nyagbɔgblɔ si wogblɔna",
+      "spoken_inst": "Ƒo nu — mègadzi ha o — nyagbe kpui aɖe si le dzɔdzɔme nu, abe ɖe nèle dze ɖom ene. Esia kpena ɖe Suno ŋu wòdea dzesi wò gbe ƒe ɖiɖime ŋutɔŋutɔ."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Gbugbɔgaɖoanyi",
+      "filter": "Nusiwo wotsɔna tsia nu me",
+      "dynamics": "Ŋusẽkpɔɖeamedzi",
+      "separation": "Kaklã",
+      "quality": "Nyonyome",
+      "utility": "Viɖenuŋudɔwɔwɔ",
+      "loudness": "Gbeɖiɖi sesẽ"
+    },
+    "highpass": "High-pass ƒe ʋuʋudedi",
+    "lowpass": "Low-pass ƒe ʋuʋudedi",
+    "denoise": "Toɣliɖeɖe dzi ɖeɖe kpɔtɔ",
+    "declip": "Gbɔdzɔgbɔdzɔ",
+    "declick": "Zi/pop ɖeɖeɖa",
+    "deesser": "De-esser ƒe nya",
+    "gate": "Toɣliɖeɖe ƒe agbo",
+    "compressor": "Compressor ƒe mɔ̃",
+    "limiter": "Seɖoƒeɖola",
+    "eq": "Tasɔsɔ",
+    "normalize": "Peak normalization",
+    "loudness": "Gbeɖiɖi ƒe sesẽme ƒe ɖoɖo si sɔ (LUFS) .",
+    "reverb_reduce": "Reverb dzi ɖeɖe kpɔtɔ",
+    "separate": "Dzɔtsoƒe ƒe mama",
+    "quality": "Dzɔdzɔmeŋutete ƒe nyonyome (si de ŋgɔ) .",
+    "trim_silence": "Ðoɖoezizi ƒe ɖeɖeɖa",
+    "fade": "Fade in / fade out le eme",
+    "stereo_to_mono": "Trɔ ɖe mono ŋu",
+    "resample": "Gbugbɔgawɔ kpɔɖeŋuwo"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Woate ŋu aka ɖe edzi",
+      "2": "Zi geɖe la, ewɔa dɔ",
+      "3": "Nusi trɔna",
+      "4": "Atike si wotsɔ ɖɔa amee"
+    },
+    "category": {
+      "structure": "Dɔwɔɖoɖo",
+      "vocal": "Gbeɖiɖi ƒe gbeɖiɖi",
+      "instrument": "Dɔwɔnu",
+      "dynamics": "Ŋusẽkpɔɖeamedzi",
+      "production": "Ewɔwɔ",
+      "mood": "Seselelãme ƒe seselelãme"
+    },
+    "verse": "Kpukpui",
+    "chorus": "Chorus ƒe hadzidzi",
+    "bridge": "Tɔdzisasrã",
+    "intro": "Ƒe ŋgɔdonya",
+    "outro": "Outro ƒe ŋkɔ",
+    "hook": "Hook",
+    "prechorus": "Do ŋgɔ na hadzidzi",
+    "instrumental": "Dɔwɔnu ƒe dɔwɔnu",
+    "guitar_solo": "Gitar solo",
+    "build_up": "Tututuɖo",
+    "breakdown": "Gbegblẽ",
+    "spoken_word": "Nya si wogblɔ",
+    "whispered": "Wogblɔe le ɣlidodo me",
+    "harmonies": "Nusiwo wɔ ɖeka",
+    "male_vocal": "Ŋutsu ƒe gbeɖiɖi",
+    "female_vocal": "Nyɔnu ƒe gbeɖiɖi",
+    "duet": "Duet ƒe ƒuƒoƒo",
+    "acoustic": "Acoustic ƒe gbeɖiɖi",
+    "ad_lib": "Ad-lib ƒe ŋkɔ"
+  },
+  "presets": {
+    "clean_voice": "Gbe dzadzɛ",
+    "voice_guitar_balanced": "Gbe & gita si da sɔ",
+    "podcast": "Podcast si wotsɔna ƒoa ƒui",
+    "suno_ready": "Suno dzra ɖo",
+    "gentle_restore": "Gbugbɔgaɖoanyi tufafatɔe",
+    "raw_passthrough": "Dɔwɔwɔ aɖeke meli o"
+  },
+  "errors": {
+    "unknown": "Nane gblẽ.",
+    "network": "Mete ŋu ɖo server la gbɔ o.",
+    "validation_error": "Kpɔ nyatakaka siwo nèŋlɔ la ɖa.",
+    "not_found": "Nusi womekpɔ o.",
+    "project_not_found": "Womekpɔ dɔa o.",
+    "take_not_found": "Take mekpɔe o.",
+    "album_not_found": "Album si womekpɔ o.",
+    "preset_not_found": "Womekpɔe be woɖoe do ŋgɔ o.",
+    "template_not_found": "Womekpɔ template la o.",
+    "device_busy": "Ðoɖowɔɖi bubu aɖe le odiomɔ̃ zãm.",
+    "device_not_found": "Womeke ɖe odiomɔ̃ ŋu o.",
+    "already_recording": "Wole haƒoƒo aɖe si wolé ɖe mɔ̃ dzi la wɔm xoxo.",
+    "ffmpeg_missing": "FFmpeg meɖoe o — tsɔe de eme be nàtrɔ faɛl sia.",
+    "disk_full": "Disk ƒe teƒe si sɔ gbɔ o.",
+    "permission_denied": "Wogbe mɔɖeɖe na mɔ si wona.",
+    "import_path_not_found": "Womekpɔ mɔ si dzi wotsɔa nu tsoa duta vɛ o.",
+    "job_failed": "Dɔwɔwɔ tso eŋu do kpo nu.",
+    "job_cancelled": "Wote fli ɖe dɔa wɔwɔ me.",
+    "process_failed": "Do kpo dɔwɔwɔ tso take la ŋu.",
+    "export_failed": "Do kpo faɛl la ɖoɖo ɖe duta.",
+    "record_failed": "Do kpo nuƒoƒo ƒe gɔmedzedze."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Woɖo fli ɖe fli me",
+      "running": "Duƒuƒu",
+      "done": "Wowɔe vɔ",
+      "error": "Do kpo nu",
+      "cancelled": "Wote fli ɖe eme"
+    },
+    "kind": {
+      "process": "Dɔwɔwɔ tso eŋu",
+      "export": "Nusiwo wotsɔna ɖoa duta",
+      "import": "Nusiwo wotsɔ tso duta vɛ",
+      "record": "Nuléle ɖe mɔ̃ dzi"
+    }
+  }
+}

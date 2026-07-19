@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Netwayaz Odyo"
+  },
+  "nav": {
+    "library": "Bibliotek",
+    "record": "rikord",
+    "import": "Enportasyon",
+    "templates": "bann template",
+    "settings": "Laranzman",
+    "guide": "Gid"
+  },
+  "common": {
+    "save": "prezerv",
+    "saving": "pe prezerv...",
+    "saved": "prezerve",
+    "cancel": "kennsel",
+    "close": "fermen",
+    "delete": "Efas",
+    "edit": "edit",
+    "create": "kree",
+    "search": "resers",
+    "loading": "pe load...",
+    "error": "lerer",
+    "retry": "Reesey",
+    "confirm": "konfirmen",
+    "back": "Retourn",
+    "next": "prosen",
+    "continue": "kontinyen",
+    "finish": "Fini",
+    "copy": "Kopi",
+    "copied": "Kopye",
+    "download": "telesarz",
+    "upload": "upload",
+    "none": "Napa",
+    "all": "Tou",
+    "yes": "wi",
+    "no": "non",
+    "select": "selekte",
+    "optional": "opsyonnel",
+    "required": "neseser",
+    "unsaved_changes": "bann sanzman ki pa'n ganny prezerve",
+    "name": "Non",
+    "status": "Stati",
+    "type": "Kalite",
+    "actions": "Aksyon",
+    "empty": "vid",
+    "browse": "Browse",
+    "remove": "retir",
+    "add": "azoute",
+    "rename": "sanz non",
+    "duplicate": "Double",
+    "warning": "lavertisman",
+    "locked": "lock",
+    "builtin": "konstrir anndan",
+    "custom": "personnalize",
+    "untitled": "san tit",
+    "select_placeholder": "Selekte..."
+  },
+  "library": {
+    "title": "Bibliotek",
+    "subtitle": "ou bann proze lavwa ek gitar, depi lide ziska lansman.",
+    "new_project": "Nouvo proze",
+    "new_album": "Nouvo albonm",
+    "search_placeholder": "rod par non...",
+    "view": {
+      "grid": "Grid",
+      "albums": "bann albonm"
+    },
+    "filters": {
+      "all": "Tou"
+    },
+    "take_count_one": " {{count}} pran",
+    "take_count_other": " {{count}} i pran",
+    "updated_at": "in ganny met azour {{date}} ",
+    "no_results": {
+      "title": "napa proze ki'n ganny trouve",
+      "description": "esey aziste resers ou filter stati."
+    },
+    "empty": {
+      "title": "ou bibliotek i vid",
+      "description": "konmans en nouvo proze depi o konmansman, oubyen enport bann keksoz ki ou deza annan lo disk.",
+      "cta_import": "enport sorti dan dosye",
+      "cta_new": "kree proze"
+    },
+    "project_dialog": {
+      "title": "Nouvo proze",
+      "description": "donn li en non e swazir en mod lanrezistreman.",
+      "name_label": "non proze",
+      "name_placeholder": "par egzanp lapli lete",
+      "mode_label": "Mod",
+      "mode": {
+        "voice": "selman lavwa",
+        "voice_guitar": "lavwa + gitar"
+      },
+      "submit": "kree proze"
+    },
+    "album_dialog": {
+      "title": "Nouvo albonm",
+      "description": "group bann proze relye dan en albonm.",
+      "name_label": "non albonm",
+      "name_placeholder": "par egzanp EP lotonn",
+      "submit": "kree albonm"
+    },
+    "album": {
+      "untitled": "Albonm san tit",
+      "members_count_one": " {{count}} proze",
+      "members_count_other": " {{count}} proze",
+      "empty": "napa proze dan sa albonm pour le moman.",
+      "delete_confirm_title": "efas albonm?",
+      "delete_confirm_description": "bann proze pa pou ganny efase, selman dekole avek \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Efas \" {{name}} \"?",
+      "confirm_description": "sa i retir sa proze e tou keksoz ladan. sa pa kapab ganny defer."
+    }
+  },
+  "record": {
+    "title": "rikord",
+    "subtitle": "kaptir en bon zimaz, vey ou bann nivo, e swiv skript.",
+    "project_label": "Proze",
+    "project_placeholder": "swazir en proze",
+    "project_create_quick": "kree en proze vit...",
+    "device_label": "laparey antre",
+    "device_placeholder": "swazir en laparey",
+    "device_default_badge": "Sistenm par defo",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "napa okenn laparey antre ki'n ganny trouve.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "aret sirveyans",
+    "record_button": "rikord",
+    "stop_button": "arete",
+    "elapsed_label": "letan in pase",
+    "status": {
+      "idle": "inaktif",
+      "monitoring": "sirveyans",
+      "recording": "Anrezistreman",
+      "stopped": "arete"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "pik",
+      "clip": "Klip"
+    },
+    "guide": {
+      "title": "Sesyon gide",
+      "subtitle": "les lantrener gid ou atraver skript etap par etap, depi warm-up ziska fraz koze.",
+      "loading": "pe load skript...",
+      "unavailable": "sesyon gide pa ankor disponib lo server.",
+      "select_project_device": "swazir en proze ek en laparey antre pou rikord bann letap depi isi.",
+      "progress": " {{done}} of {{total}} steps",
+      "start_timer": "timer komansman",
+      "skip_timer": "sot timer",
+      "record_step": "rikord sa letap",
+      "stop_step": "aret rikord",
+      "mark_done": "fini — prosen letap",
+      "step_recorded": "pran rikorde",
+      "no_record_step": "letap resofman — napa nesesit lanrezistreman.",
+      "bars_hint": "apepre {{bars}} bar",
+      "complete_title": "skript konplet!",
+      "complete_body": "ou'n rikord tou letap sa skript. retourn lo tab odyo sa proze e swazir ou bann zimaz prefere.",
+      "restart": "relans skript"
+    },
+    "best2min": {
+      "button": "rod sa meyer 2 minit (Suno)",
+      "running": "pe analiz sa pwen...",
+      "score_label": "pwen",
+      "hint": "fer en analiz lenerzi ek laklerte lo tou sa letan pou trouv son pli for 2 minit — ou kapab ankor aziste sa ranze par lanmen apre.",
+      "chart_caption": "pwen par lafnet",
+      "unavailable": "sa meyer analiz 2 minit pa ankor disponib lo sa server."
+    },
+    "takes_title": "pran dan sa sesyon",
+    "takes_empty": "napa okenn take ki'n ganny rikorde dan sa sesyon pour le moman.",
+    "open_in_project": "ouver dan proze",
+    "ws_disconnected": "pe rekonekte avek konter nivo...",
+    "select_project_first": "swazir en proze pou komanse.",
+    "select_device_first": "swazir en laparey antre."
+  },
+  "project": {
+    "back_to_library": "Retourn dan bibliotek",
+    "header": {
+      "status_label": "Stati",
+      "cover_upload": "upload kouvertir",
+      "cover_remove": "retir kouvertir",
+      "name_placeholder": "non proze",
+      "links_title": "bann lyen",
+      "add_link": "azout lyen",
+      "mode": {
+        "voice": "selman lavwa",
+        "voice_guitar": "lavwa + gitar"
+      }
+    },
+    "tabs": {
+      "audio": "Odyo",
+      "lyrics": "parol",
+      "prompts": "bann lenstriksyon",
+      "notes": "Not"
+    },
+    "audio": {
+      "takes_title": "i pran",
+      "no_takes": {
+        "title": "napa ankor pran",
+        "description": "rikord en nouvo take ou enport en dosye egzistan."
+      },
+      "record_new": "rikord en nouvo take",
+      "rating": "grad",
+      "variant": {
+        "raw": "brit",
+        "processed": "Prosede"
+      },
+      "variant_placeholder": "Versyon",
+      "process_button": "Prosesis",
+      "export_button": "eksporte",
+      "delete_take_confirm_title": "efas sa pran?",
+      "delete_take_confirm_description": "odyo brit e tou versyon ki'n ganny prosese pou ganny retire.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Processed"
+      },
+      "origin": {
+        "recorded": "rikorde",
+        "imported": "Enporte"
+      },
+      "session_label_placeholder": "Label sesyon (opsyonnel)",
+      "duration": "Dirasyon",
+      "sample_rate": "to lesantiyon",
+      "channels": "bann kanal",
+      "created_at": "rikorde"
+    },
+    "pipeline": {
+      "title": "lasenn prosesis",
+      "preset_label": "Preset",
+      "preset_none": "lasenn personnalize",
+      "preset_save": "prezerv koman preset",
+      "stage_locked": "lock",
+      "stage_requires_extra": "i demann en ekstra ki pa'n ganny enstale",
+      "process_button": "prosesis pran",
+      "processing": "Pe prosese...",
+      "job_queued": "dan lake...",
+      "job_running": "Pe prosese...",
+      "job_done": "fini",
+      "job_error": "pa'n reisi",
+      "job_cancelled": "kennsel",
+      "cancel_job": "kennsel",
+      "no_stages": "napa staz disponib."
+    },
+    "export": {
+      "title": "eksport pran",
+      "description": "rann en dosye final sorti dan en versyon ki'n ganny prosese.",
+      "variant_label": "Versyon",
+      "format_label": "format",
+      "preset_label": "eksport preset",
+      "range_label": "ran",
+      "range_full": "longer antye",
+      "range_custom": "ran personnalize",
+      "start_label": "konmanse",
+      "end_label": "Lafen (bann)",
+      "submit": "eksporte",
+      "progress": "Dosye rann...",
+      "download_ready": "dosye in pare",
+      "download_button": "telesarz dosye"
+    },
+    "notes": {
+      "placeholder": "bann not an form lib lo sa proze...",
+      "saved_at": "prezerve a {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "ekrir bann parol isi. servi palet lo kote pou met bann meta-tag Suno.",
+      "saved_at": "prezerve a {{time}} ",
+      "saving": "pe prezerv...",
+      "versions": "bann versyon",
+      "versions_empty": "napa ankor versyon ki'n ganny prezerve.",
+      "version_preview": "Apersi",
+      "restore": "restor sa versyon",
+      "restore_confirm_title": "restor sa versyon?",
+      "restore_confirm_description": "sa teks aktyel pou ganny ranplase avek sa versyon ki'n ganny prezerve lo {{date}} .",
+      "metatags_title": "bann meta-tag",
+      "metatags_hint": "Klik lo en tag pou met li kot cursor.",
+      "metatags_placebo_warning": "ki pa'n ganny prouve — i kapab napa okenn lefe lo rezilta.",
+      "metatags_empty": "napa meta-tag anrezistre."
+    },
+    "prompts": {
+      "style_title": "Style prompt",
+      "lyrics_title": "parol parol",
+      "template_label": "Model",
+      "template_none": "napa template",
+      "variables_title": "bann varyab",
+      "preview_title": "Apersi",
+      "preview_empty": "swazir en template e ranpli bann varyab pou vwar en avangou.",
+      "char_count": " {{count}} karakter",
+      "char_count_warning": "bann stil ki annan plis ki 1000 karakter i kapab ganny koupe par Suno.",
+      "copy": "Kopi",
+      "copied": "kopye lo clipboard",
+      "save_to_project": "prezerv dan proze",
+      "saved_to_project": "lenstriksyon in ganny prezerve dan proze",
+      "history_title": "Listwar",
+      "history_empty": "napa versyon presedan.",
+      "current_label": "Aktyel"
+    },
+    "stems": {
+      "title": "vokal ek gitar",
+      "separate_button": "vokal ek gitar separe",
+      "running": "pe separe...",
+      "vocals": "Vokal",
+      "instrumental": "enstrimantal",
+      "process_stem": "proses sa brans",
+      "empty": "sa pran pa ankor ganny separe. tay separasyon pou tann bann vokal ek gitar an izolasyon.",
+      "capability_missing": "separasyon sours pa'n ganny enstale lo sa server.",
+      "unavailable": "separasyon vokal/gitar pa ankor disponib lo sa server."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "lo",
+    "boolean_off": "tennyen"
+  },
+  "import": {
+    "title": "Enportasyon",
+    "subtitle": "anmenn bann proze ki deza egziste lo disk dan bibliotek.",
+    "step_indicator": "letap {{current}} of {{total}} ",
+    "step1": {
+      "title": "lokaliz dosye",
+      "description": "montre ver dosye rasin avek ou bann proze ek sanson.",
+      "path_label": "Semen dosye",
+      "path_placeholder": "par egzanp E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "resan",
+      "scan_button": "eskann dosye",
+      "scanning": "pe skann...",
+      "ffmpeg_warning": "FFmpeg pa ganny trouve — bann dosye ki bezwen konversyon pou ganny sote.",
+      "folders_found_one": " {{count}} dosye in ganny trouve",
+      "folders_found_other": " {{count}} dosye in ganny trouve",
+      "unmatched_files_one": " {{count}} dosye ki pa ganny rekonnet",
+      "unmatched_files_other": " {{count}} bann dosye ki pa ganny rekonnet"
+    },
+    "step2": {
+      "title": "revwar bann itenm",
+      "description": "Tyek bann non, stati, e kwa ki pou ganny enporte avan konfirmen.",
+      "select_all": "selekte tou",
+      "table": {
+        "folder": "dosye sours",
+        "name": "non proze",
+        "status": "Stati",
+        "audio": "Odyo",
+        "lyrics": "parol",
+        "cover": "kouvertir",
+        "album": "Albonm"
+      },
+      "audio_include_one": " {{count}} dosye selekte",
+      "audio_include_other": " {{count}} bann dosye in ganny selekte",
+      "no_audio": "napa odyo ki'n ganny trouve",
+      "no_lyrics": "napa parol sanson ki'n ganny trouve",
+      "no_cover": "napa kouvertir",
+      "warnings_title": "lavertisman"
+    },
+    "step3": {
+      "title": "Enportasyon",
+      "description": "konfirmen pou kopye bann dosye e kree bann proze.",
+      "copy_originals": "kopye bann dosye orizinal dan bibliotek",
+      "execute_button": "komans enportasyon",
+      "progress_title": "pe enporte...",
+      "created_count": "Kree: {{count}} ",
+      "skipped_count": "sote: {{count}} ",
+      "done_title": "lenportasyon konplet",
+      "done_description": "bann proze anba in ganny kree dan ou bibliotek.",
+      "view_project": "proze ouver",
+      "start_over": "Nouvo lenportasyon"
+    }
+  },
+  "templates": {
+    "title": "bann template",
+    "subtitle": "bann template prompt ek meta-tag ki kapab ganny reitilize pour Suno.",
+    "tabs": {
+      "prompts": "bann template prompt",
+      "metatags": "bann meta-tag"
+    },
+    "new_template": "Nouvo template",
+    "kind": {
+      "style": "Stil",
+      "lyrics": "parol"
+    },
+    "kind_label": "zantiy",
+    "delete_confirm_title": "efas template \" {{name}} \"?",
+    "delete_confirm_description": "sa pa kapab ganny defer.",
+    "empty": "napa okenn template pour le moman.",
+    "editor": {
+      "title_new": "Nouvo template",
+      "title_edit": "edit template",
+      "name_label": "Non",
+      "name_placeholder": "par egzanp balad akostik",
+      "kind_label": "zantiy",
+      "template_label": "Teks model",
+      "template_hint": "Mark kote sak varyab i apartenir avek son non anvlope dan doub braket boukle — par egzanp, en varyab ki apel \"zanr\" i vin zanr anvlope dan de braket louvertir ek de braket fermtir.",
+      "variables_label": "bann varyab",
+      "variable_add": "azout varyab",
+      "variable_name": "lakle",
+      "variable_label": "Label",
+      "variable_type": "Kalite",
+      "variable_type_string": "Teks",
+      "variable_type_select": "en sel seleksyon",
+      "variable_type_multiselect": "milti-seleksyon",
+      "variable_type_number": "nimero",
+      "variable_type_boolean": "wi/non",
+      "variable_options": "bann opsyon (separe par virgil)",
+      "variable_required": "neseser",
+      "save": "prezerv template"
+    },
+    "metatags": {
+      "title": "bann meta-tag",
+      "subtitle": "bann tag striktirel ek stil ki Suno i rekonnet bann parol anndan.",
+      "new_tag": "Nouvo tag",
+      "tag_label": "Tag",
+      "tag_placeholder": "par egzanp gitar-solo",
+      "category_label": "Kategori",
+      "tier_label": "fyabilite",
+      "tier_legend_title": "Lezand fyabilite",
+      "tier_legend": {
+        "1": "Nivo 1 — dokimante e konsistan",
+        "2": "Nivo 2 — i normalman marse",
+        "3": "Nivo 3 — lefe varyab",
+        "4": "Nivo 4 — plasebo, pa prouve"
+      },
+      "description_label": "Deskripsyon",
+      "delete_confirm_title": "efas tag \" {{tag}} \"?",
+      "empty": "napa ankor meta-tag personnalize."
+    }
+  },
+  "settings": {
+    "title": "Laranzman",
+    "subtitle": "lenformasyon sistenm, langaz, e preferans par defo.",
+    "system_info_title": "Sistenm",
+    "version": "Versyon",
+    "data_dir": "dosye lenformasyon",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Disponib",
+    "ffmpeg_missing": "pa'n ganny trouve",
+    "capabilities_title": "bann kapasite enstale",
+    "capability": {
+      "denoise": "rediksyon tapaz",
+      "quality": "amelyorasyon kalite",
+      "separate": "separasyon sours",
+      "ffmpeg": "konversyon FFmpeg"
+    },
+    "capability_available": "Disponib",
+    "capability_unavailable": "Pa disponib",
+    "gpu_title": "akselerasyon GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "bann fourniser ONNX Runtime"
+    },
+    "gpu_none": "napa fourniser GPU ki'n ganny detekte",
+    "language_title": "Langaz",
+    "language": {
+      "pt-BR": "Portige (Brezil)",
+      "en": "Angle"
+    },
+    "theme_title": "Laparans",
+    "theme": {
+      "dark": "fernwanr",
+      "light": "Lalimyer"
+    },
+    "defaults_title": "eksport bann defo",
+    "lufs_target_label": "target LUFS",
+    "lufs_target_hint": "servi koman sizesyon komansman ler pe eksport bann pran. defo Suno i otour -14 LUFS.",
+    "saved": "Preferans in ganny prezerve"
+  },
+  "guide": {
+    "title": "gid lanrezistreman suno",
+    "subtitle": "ki mannyer pour kaptir lavwa ek gitar ki ganny bann meyer rezilta.",
+    "intro": "Suno i perform pli byen avek bann referans prop e san anbigwite. sa gid i kouver preparasyon, nivo target, e en skript lanrezistreman 3-5 minit.",
+    "sections": {
+      "prep": {
+        "title": "Preparasyon",
+        "body": "rikord dan en lasanm trete oubyen enn avek bokou materyo mou (rido, tapi, lenz dan en larmwar). tenny bann fan ek nenport kwa ki pe ronfle. resof ou lavwa pou 5 minit avan rikord."
+      },
+      "levels": {
+        "title": "Nivo: -12 a -6 dBFS",
+        "body": "viz bann pik ant -12 ek -6 dBFS lo sa meter. anba sa ran, tapaz dan fon i vin pli remarkab; par lao, risk koupe i ogmante. servi sa meter lo paz rikord pou set ou gain avan ou komanse."
+      },
+      "distance": {
+        "title": "zistans mikro: 15-30 santimet",
+        "body": "reste 15 a 30 santimet avek mikro. pli pre ki sa i egzazere bann plosiv ek lefe proksimite; pli lwen i anmas plis reverb ek tapaz dan lasanm."
+      },
+      "script": {
+        "title": "skript lanrezistreman",
+        "warmup": "resofman vokal (1-2 minit)",
+        "vowels": "bann vwayel soutenir — a, e, i, o, u",
+        "scales": "bann balans senp, anler e anba",
+        "excerpt": "en ekstre sanson (8 a 16 bar)",
+        "dynamics": "dinamik: komans dousman, fini for",
+        "spoken_phrase": "en fraz koze, pou ki Suno i kapab lir ou ton vokal"
+      },
+      "expectations": {
+        "title": "Sa ki Suno i ekspekte",
+        "body": "WAV, 48 kHz, mono, sek (napa reverb ou lefe), 3 a 5 minit referans. sa 2 minit pli prop e pli reprezantatif i normalman prodwi bann meyer rezilta."
+      }
+    }
+  },
+  "status": {
+    "idea": "lide",
+    "em_progresso": "An progre",
+    "quase": "preski la",
+    "pronto": "pare"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "skript vokal konplet pour Suno",
+      "desc": "5 minit gide: warm-up, vwayel, balans, de ekstre sanson, dinamik, e en fraz koze."
+    },
+    "step": {
+      "warmup": "resofman vokal",
+      "warmup_inst": "dekontrakte avek bann baye, bann lalev tris (brrr), e en son dous pou apepre en minit. pa bezwen rikord — i zis pou detann ou lagorz avan sante.",
+      "vowels": "bann vwayel soutenir",
+      "vowels_inst": "tenir sak vwayel — a, e, i, o, u — pou 3 a 4 segonn lo ou ton konfortab, avek en volim stab. sa i ed Suno anmas ton pir ou lavwa.",
+      "scales": "bann balans anler e anba",
+      "scales_inst": "sant en senp ton anler e apre anba, lo \"la\" ou \"na\". i pa bezwen parfe — lobzektif se pou map ou ranze vokal.",
+      "section": "ekstre sanson — parti 1",
+      "section_inst": "Sant 8 a 16 bar sa sanson, avek sa vre lentansyon ki ou anvi transmet. priyoritiz laklerte ek prezans olye perfeksyon teknik.",
+      "section2": "ekstre sanson — parti 2",
+      "section2_inst": "sant ankor 8 a 16 bar — idealman en refren ou en seksyon ki kontraste avek sa enn presedan. plis varyete i ed sa model aprann ou lavwa.",
+      "dynamics": "Dinamik: dous → for",
+      "dynamics_inst": "sant menm fraz konmans tre dousman e fini for, san fatig ou lagorz. sa i montre Suno ranze dinamik ou lavwa.",
+      "spoken": "Fraz koze",
+      "spoken_inst": "koz — pa sante — en fraz kourt e natirel, konmsi ou pe koze. sa i ed Suno rekonnet vre ton ou lavwa."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restorasyon",
+      "filter": "bann filter",
+      "dynamics": "Dinamik",
+      "separation": "Separasyon",
+      "quality": "kalite",
+      "utility": "litilite",
+      "loudness": "tapaz"
+    },
+    "highpass": "filter high-pass",
+    "lowpass": "filter pas ba",
+    "denoise": "rediksyon tapaz",
+    "declip": "Deklir",
+    "declick": "klik/pop retir",
+    "deesser": "De-esser",
+    "gate": "baro tapaz",
+    "compressor": "Konpreser",
+    "limiter": "limiter",
+    "eq": "egalizasyon",
+    "normalize": "normalizasyon maksimonm",
+    "loudness": "Normalizasyon lavwa (LUFS)",
+    "reverb_reduce": "rediksyon reverb",
+    "separate": "separasyon sours",
+    "quality": "amelyorasyon kalite (o nivo)",
+    "trim_silence": "koup silans",
+    "fade": "disparet / disparet",
+    "stereo_to_mono": "konverti an mono",
+    "resample": "re-esantiyonnman"
+  },
+  "metatags": {
+    "tier": {
+      "1": "serye",
+      "2": "normalman i marse",
+      "3": "varyab",
+      "4": "plasebo"
+    },
+    "category": {
+      "structure": "striktir",
+      "vocal": "vokal",
+      "instrument": "lenstriman",
+      "dynamics": "Dinamik",
+      "production": "Prodiksyon",
+      "mood": "lanbyans"
+    },
+    "verse": "verse",
+    "chorus": "refren",
+    "bridge": "Pon",
+    "intro": "lentrodiksyon",
+    "outro": "Outro",
+    "hook": "lank",
+    "prechorus": "Pre-refren",
+    "instrumental": "enstrimantal",
+    "guitar_solo": "solo gitar",
+    "build_up": "konstriksyon",
+    "breakdown": "Breakdown",
+    "spoken_word": "parol koze",
+    "whispered": "an silans",
+    "harmonies": "bann larmoni",
+    "male_vocal": "vokal zonm",
+    "female_vocal": "vokal madanm",
+    "duet": "Duet",
+    "acoustic": "Akostik",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "lavwa prop",
+    "voice_guitar_balanced": "lavwa ek gitar balanse",
+    "podcast": "Podcast",
+    "suno_ready": "Suno pare",
+    "gentle_restore": "restor dousman",
+    "raw_passthrough": "napa prosesis"
+  },
+  "errors": {
+    "unknown": "I annan en keksoz ki'n al mal.",
+    "network": "pa'n kapab ariv lo server.",
+    "validation_error": "tyek lenformasyon ki ou'n antre.",
+    "not_found": "Itenm pa'n ganny trouve.",
+    "project_not_found": "proze pa'n ganny trouve.",
+    "take_not_found": "pran pa'n ganny trouve.",
+    "album_not_found": "Albonm pa'n ganny trouve.",
+    "preset_not_found": "Preset pa'n ganny trouve.",
+    "template_not_found": "Model pa'n ganny trouve.",
+    "device_busy": "laparey odyo i ganny servi par en lot progranm.",
+    "device_not_found": "Laparey odyo pa'n ganny trouve.",
+    "already_recording": "en lanrezistreman i deza an progre.",
+    "ffmpeg_missing": "FFmpeg pa'n ganny enstale — enstal li pou konverti sa dosye.",
+    "disk_full": "napa ase lespas lo disk.",
+    "permission_denied": "permisyon in ganny refize pou sa semen ki'n ganny donnen.",
+    "import_path_not_found": "semen lenportasyon pa'n ganny trouve.",
+    "job_failed": "prosesis in fel.",
+    "job_cancelled": "prosesis in ganny kennsel.",
+    "process_failed": "pa'n reisi proses sa take.",
+    "export_failed": "pa'n reisi eksport sa dosye.",
+    "record_failed": "pa'n reisi komans rikord."
+  },
+  "jobs": {
+    "status": {
+      "queued": "dan lake",
+      "running": "pe taye",
+      "done": "fini",
+      "error": "pa'n reisi",
+      "cancelled": "kennsel"
+    },
+    "kind": {
+      "process": "Prosesis",
+      "export": "eksporte",
+      "import": "Enportasyon",
+      "record": "Anrezistreman"
+    }
+  }
+}

@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Garso valiklis"
+  },
+  "nav": {
+    "library": "biblioteka",
+    "record": "Įrašas",
+    "import": "Importuoti",
+    "templates": "Šablonai",
+    "settings": "Nustatymai",
+    "guide": "Vadovas"
+  },
+  "common": {
+    "save": "Išsaugoti",
+    "saving": "Išsaugoma…",
+    "saved": "Išsaugota",
+    "cancel": "Atšaukti",
+    "close": "Uždaryti",
+    "delete": "Ištrinti",
+    "edit": "Redaguoti",
+    "create": "Sukurti",
+    "search": "Ieškoti",
+    "loading": "Įkeliama…",
+    "error": "Klaida",
+    "retry": "Bandykite dar kartą",
+    "confirm": "Patvirtinti",
+    "back": "Atgal",
+    "next": "Kitas",
+    "continue": "Tęsti",
+    "finish": "Baigti",
+    "copy": "Kopijuoti",
+    "copied": "Nukopijuota",
+    "download": "Atsisiųsti",
+    "upload": "Įkelti",
+    "none": "Nėra",
+    "all": "Visi",
+    "yes": "Taip",
+    "no": "Nr",
+    "select": "Pasirinkite",
+    "optional": "neprivaloma",
+    "required": "reikalaujama",
+    "unsaved_changes": "Neišsaugoti pakeitimai",
+    "name": "Vardas",
+    "status": "Būsena",
+    "type": "Tipas",
+    "actions": "Veiksmai",
+    "empty": "Tuščia",
+    "browse": "Naršyti",
+    "remove": "Pašalinti",
+    "add": "Pridėti",
+    "rename": "Pervardyti",
+    "duplicate": "Pasikartoti",
+    "warning": "Įspėjimas",
+    "locked": "Užrakinta",
+    "builtin": "Įmontuotas",
+    "custom": "Pasirinktinis",
+    "untitled": "Be pavadinimo",
+    "select_placeholder": "Pasirinkite…"
+  },
+  "library": {
+    "title": "biblioteka",
+    "subtitle": "Jūsų balso ir gitaros projektai nuo idėjos iki išleidimo.",
+    "new_project": "Naujas projektas",
+    "new_album": "Naujas albumas",
+    "search_placeholder": "Ieškoti pagal pavadinimą…",
+    "view": {
+      "grid": "Tinklelis",
+      "albums": "Albumai"
+    },
+    "filters": {
+      "all": "Visi"
+    },
+    "take_count_one": " {{count}} paimti",
+    "take_count_other": " {{count}} užima",
+    "updated_at": "Atnaujinta {{date}} ",
+    "no_results": {
+      "title": "Projektų nerasta",
+      "description": "Pabandykite pakoreguoti paieškos arba būsenos filtrą."
+    },
+    "empty": {
+      "title": "Jūsų biblioteka tuščia",
+      "description": "Pradėkite naują projektą nuo nulio arba importuokite jau turite diske.",
+      "cta_import": "Importuoti iš aplanko",
+      "cta_new": "Sukurti projektą"
+    },
+    "project_dialog": {
+      "title": "Naujas projektas",
+      "description": "Suteikite jam pavadinimą ir pasirinkite įrašymo režimą.",
+      "name_label": "Projekto pavadinimas",
+      "name_placeholder": "pvz. Vasaros lietus",
+      "mode_label": "Režimas",
+      "mode": {
+        "voice": "Tik balsas",
+        "voice_guitar": "Balsas + gitara"
+      },
+      "submit": "Sukurti projektą"
+    },
+    "album_dialog": {
+      "title": "Naujas albumas",
+      "description": "Sugrupuokite susijusius projektus į albumą.",
+      "name_label": "Albumo pavadinimas",
+      "name_placeholder": "pvz. Rudens EP",
+      "submit": "Sukurti albumą"
+    },
+    "album": {
+      "untitled": "Albumas be pavadinimo",
+      "members_count_one": " {{count}} projektas",
+      "members_count_other": " {{count}} projektai",
+      "empty": "Šiame albume dar nėra projektų.",
+      "delete_confirm_title": "Ištrinti albumą?",
+      "delete_confirm_description": "Projektai nebus ištrinti, tik atsieti nuo „{{name}}“."
+    },
+    "delete_project": {
+      "confirm_title": "Ištrinti „{{name}}“?",
+      "confirm_description": "Tai pašalina projektą ir kiekvieną jo įtraukimą. To negalima anuliuoti."
+    }
+  },
+  "record": {
+    "title": "Įrašas",
+    "subtitle": "Užfiksuokite švarų vaizdą, stebėkite savo lygius ir sekite scenarijų.",
+    "project_label": "Projektas",
+    "project_placeholder": "Pasirinkite projektą",
+    "project_create_quick": "Sukurkite greitą projektą…",
+    "device_label": "Įvesties įrenginys",
+    "device_placeholder": "Pasirinkite įrenginį",
+    "device_default_badge": "Numatytasis sistemos",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Įvesties įrenginių nerasta.",
+    "monitor_button": "Monitorius",
+    "monitor_stop_button": "Nustokite stebėti",
+    "record_button": "Įrašas",
+    "stop_button": "Sustok",
+    "elapsed_label": "Praėjęs laikas",
+    "status": {
+      "idle": "Tuščia eiga",
+      "monitoring": "Stebėjimas",
+      "recording": "Įrašymas",
+      "stopped": "Sustojo"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Peak",
+      "clip": "Klipas"
+    },
+    "guide": {
+      "title": "Vadovaujama sesija",
+      "subtitle": "Leiskite treneriui žingsnis po žingsnio paaiškinti scenarijų nuo apšilimo iki ištartos frazės.",
+      "loading": "Įkeliamas scenarijus…",
+      "unavailable": "Vadovaujama sesija dar nepasiekiama serveryje.",
+      "select_project_device": "Pasirinkite projektą ir įvesties įrenginį, kad įrašytumėte veiksmus tiesiai iš čia.",
+      "progress": " {{done}} iš {{total}} žingsnių",
+      "start_timer": "Pradėti laikmatį",
+      "skip_timer": "Praleisti laikmatį",
+      "record_step": "Įrašykite šį žingsnį",
+      "stop_step": "Sustabdykite įrašymą",
+      "mark_done": "Atlikta - kitas žingsnis",
+      "step_recorded": "Paimkite įrašytą",
+      "no_record_step": "Apšilimo žingsnis – nereikia įrašinėti.",
+      "bars_hint": "Apie {{bars}} juostų",
+      "complete_title": "Scenarijus baigtas!",
+      "complete_body": "Jūs įrašėte kiekvieną scenarijaus žingsnį. Grįžkite į projekto Garso skirtuką ir pasirinkite mėgstamiausius kadrus.",
+      "restart": "Iš naujo paleiskite scenarijų"
+    },
+    "best2min": {
+      "button": "Raskite geriausias 2 minutes (Suno)",
+      "running": "Analizuojamas priėmimas…",
+      "score_label": "Rezultatas",
+      "hint": "Atlieka energijos ir aiškumo analizę per visą kadrą, kad surastų stipriausią 2 minučių langą – vėliau vis tiek galite reguliuoti diapazoną ranka.",
+      "chart_caption": "Balas už langą",
+      "unavailable": "Geriausia 2 minučių analizė šiame serveryje dar nepasiekiama."
+    },
+    "takes_title": "Paimta iš šios sesijos",
+    "takes_empty": "Šioje sesijoje dar neįrašyta jokių kadrų.",
+    "open_in_project": "Atidaryti projekte",
+    "ws_disconnected": "Iš naujo prisijungiama prie lygio matuoklio…",
+    "select_project_first": "Norėdami pradėti, pasirinkite projektą.",
+    "select_device_first": "Pasirinkite įvesties įrenginį."
+  },
+  "project": {
+    "back_to_library": "Atgal į biblioteką",
+    "header": {
+      "status_label": "Būsena",
+      "cover_upload": "Įkelti viršelį",
+      "cover_remove": "Nuimkite dangtelį",
+      "name_placeholder": "Projekto pavadinimas",
+      "links_title": "Nuorodos",
+      "add_link": "Pridėti nuorodą",
+      "mode": {
+        "voice": "Tik balsas",
+        "voice_guitar": "Balsas + gitara"
+      }
+    },
+    "tabs": {
+      "audio": "Garsas",
+      "lyrics": "Dainos tekstai",
+      "prompts": "Raginimai",
+      "notes": "Pastabos"
+    },
+    "audio": {
+      "takes_title": "Paima",
+      "no_takes": {
+        "title": "Kol kas nėra",
+        "description": "Įrašykite naują vaizdą arba importuokite esamą failą."
+      },
+      "record_new": "Įrašykite naują kadrą",
+      "rating": "Įvertinimas",
+      "variant": {
+        "raw": "Neapdorotas",
+        "processed": "Apdorotas"
+      },
+      "variant_placeholder": "Versija",
+      "process_button": "Procesas",
+      "export_button": "Eksportuoti",
+      "delete_take_confirm_title": "Ištrinti šį vaizdą?",
+      "delete_take_confirm_description": "Neapdorotas garsas ir kiekviena apdorota versija bus pašalinti.",
+      "ab": {
+        "raw": "A · Neapdorotas",
+        "processed": "B · Apdorotas"
+      },
+      "origin": {
+        "recorded": "Įrašyta",
+        "imported": "Importuota"
+      },
+      "session_label_placeholder": "Seanso etiketė (neprivaloma)",
+      "duration": "Trukmė",
+      "sample_rate": "Mėginių dažnis",
+      "channels": "Kanalai",
+      "created_at": "Įrašyta"
+    },
+    "pipeline": {
+      "title": "Apdorojimo grandinė",
+      "preset_label": "Iš anksto nustatytas",
+      "preset_none": "Pasirinktinė grandinė",
+      "preset_save": "Išsaugoti kaip iš anksto nustatytą",
+      "stage_locked": "Užrakinta",
+      "stage_requires_extra": "Reikia papildomo, kuris neįdiegtas",
+      "process_button": "Proceso paėmimas",
+      "processing": "Apdorojama…",
+      "job_queued": "Eilėje…",
+      "job_running": "Apdorojama…",
+      "job_done": "Atlikta",
+      "job_error": "Nepavyko",
+      "job_cancelled": "Atšaukta",
+      "cancel_job": "Atšaukti",
+      "no_stages": "Jokių etapų nėra."
+    },
+    "export": {
+      "title": "Eksportuoti paimti",
+      "description": "Pateikite galutinį failą iš apdorotos versijos.",
+      "variant_label": "Versija",
+      "format_label": "Formatas",
+      "preset_label": "Eksportuoti išankstinį nustatymą",
+      "range_label": "Diapazonas",
+      "range_full": "Viso ilgio",
+      "range_custom": "Individualus diapazonas",
+      "start_label": "Pradžia (-os)",
+      "end_label": "Pabaiga (-os)",
+      "submit": "Eksportuoti",
+      "progress": "Pateikiamas failas…",
+      "download_ready": "Failas paruoštas",
+      "download_button": "Parsisiųsti failą"
+    },
+    "notes": {
+      "placeholder": "Laisvos formos pastabos apie šį projektą…",
+      "saved_at": "Išsaugota {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Dainos žodžius parašykite čia. Norėdami įterpti Suno metažymes, naudokite šone esančią paletę.",
+      "saved_at": "Išsaugota {{time}} ",
+      "saving": "Išsaugoma…",
+      "versions": "Versijos",
+      "versions_empty": "Išsaugotų versijų dar nėra.",
+      "version_preview": "Peržiūra",
+      "restore": "Atkurti šią versiją",
+      "restore_confirm_title": "Atkurti šią versiją?",
+      "restore_confirm_description": "Dabartinis tekstas bus pakeistas versija, išsaugota {{date}}.",
+      "metatags_title": "Meta žymeles",
+      "metatags_hint": "Spustelėkite žymą, kad įterptumėte ją ant žymeklio.",
+      "metatags_placebo_warning": "Neįrodyta – gali neturėti įtakos rezultatui.",
+      "metatags_empty": "Nėra registruotų metažymų."
+    },
+    "prompts": {
+      "style_title": "Stiliaus raginimas",
+      "lyrics_title": "Dainos žodžiai raginti",
+      "template_label": "Šablonas",
+      "template_none": "Nėra šablono",
+      "variables_title": "Kintamieji",
+      "preview_title": "Peržiūra",
+      "preview_empty": "Pasirinkite šabloną ir užpildykite kintamuosius, kad pamatytumėte peržiūrą.",
+      "char_count": " {{count}} simbolių",
+      "char_count_warning": "Suno gali sutrumpinti daugiau nei 1000 simbolių stiliaus raginimus.",
+      "copy": "Kopijuoti",
+      "copied": "Nukopijuota į mainų sritį",
+      "save_to_project": "Išsaugoti projekte",
+      "saved_to_project": "Raginimas išsaugotas projekte",
+      "history_title": "Istorija",
+      "history_empty": "Nėra ankstesnių versijų.",
+      "current_label": "Dabartinė"
+    },
+    "stems": {
+      "title": "Vokalas ir gitara",
+      "separate_button": "Atskiras vokalas ir gitara",
+      "running": "Atskiriama…",
+      "vocals": "Vokalas",
+      "instrumental": "Instrumentinis",
+      "process_stem": "Apdorokite šį stiebą",
+      "empty": "Šis veiksmas dar nebuvo atskirtas. Atsiskirkite, kad išgirstumėte vokalą ir gitarą atskirai.",
+      "capability_missing": "Šaltinio atskyrimas šiame serveryje neįdiegtas.",
+      "unavailable": "Vokalo ir gitaros atskyrimas šiame serveryje dar nepasiekiamas."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Įjungta",
+    "boolean_off": "Išjungta"
+  },
+  "import": {
+    "title": "Importuoti",
+    "subtitle": "Į biblioteką įtraukite projektus, kurie jau yra diske.",
+    "step_indicator": "{{current}} veiksmas iš {{total}} ",
+    "step1": {
+      "title": "Raskite aplanką",
+      "description": "Nukreipkite žymiklį į šakninį aplanką su savo projektais ir takeliais.",
+      "path_label": "Aplanko kelias",
+      "path_placeholder": "pvz. E:\\Robbs\\Pride\\Muzika\\ROBBS",
+      "recent_label": "Neseniai",
+      "scan_button": "Nuskaityti aplanką",
+      "scanning": "Nuskaitoma…",
+      "ffmpeg_warning": "FFmpeg nerastas – failai, kuriuos reikia konvertuoti, bus praleisti.",
+      "folders_found_one": " {{count}} aplankas rastas",
+      "folders_found_other": " Rasta {{count}} aplankų",
+      "unmatched_files_one": " {{count}} neatpažintas failas",
+      "unmatched_files_other": " {{count}} neatpažinti failai"
+    },
+    "step2": {
+      "title": "Peržiūrėkite elementus",
+      "description": "Prieš patvirtindami patikrinkite vardus, būsenas ir tai, kas bus importuota.",
+      "select_all": "Pasirinkite viską",
+      "table": {
+        "folder": "Šaltinio aplankas",
+        "name": "Projekto pavadinimas",
+        "status": "Būsena",
+        "audio": "Garsas",
+        "lyrics": "Dainos tekstai",
+        "cover": "Viršelis",
+        "album": "Albumas"
+      },
+      "audio_include_one": " Pasirinktas failas {{count}}",
+      "audio_include_other": " Pasirinkta {{count}} failų",
+      "no_audio": "Garso nerasta",
+      "no_lyrics": "Dainos žodžių nerasta",
+      "no_cover": "Nėra viršelio",
+      "warnings_title": "Įspėjimai"
+    },
+    "step3": {
+      "title": "Importuoti",
+      "description": "Patvirtinkite, kad kopijuotumėte failus ir sukurtumėte projektus.",
+      "copy_originals": "Nukopijuokite originalius failus į biblioteką",
+      "execute_button": "Pradėti importavimą",
+      "progress_title": "Importuojama…",
+      "created_count": "Sukurta: {{count}} ",
+      "skipped_count": "Praleista: {{count}} ",
+      "done_title": "Importavimas baigtas",
+      "done_description": "Toliau pateikti projektai buvo sukurti jūsų bibliotekoje.",
+      "view_project": "Atviras projektas",
+      "start_over": "Naujas importas"
+    }
+  },
+  "templates": {
+    "title": "Šablonai",
+    "subtitle": "Daugkartiniai „Suno“ raginimo šablonai ir metažymos.",
+    "tabs": {
+      "prompts": "Raginimo šablonai",
+      "metatags": "Meta žymeles"
+    },
+    "new_template": "Naujas šablonas",
+    "kind": {
+      "style": "Stilius",
+      "lyrics": "Dainos tekstai"
+    },
+    "kind_label": "Malonus",
+    "delete_confirm_title": "Ištrinti šabloną „{{name}}“?",
+    "delete_confirm_description": "To negalima anuliuoti.",
+    "empty": "Dar nėra šablonų.",
+    "editor": {
+      "title_new": "Naujas šablonas",
+      "title_edit": "Redaguoti šabloną",
+      "name_label": "Vardas",
+      "name_placeholder": "pvz. Akustinė baladė",
+      "kind_label": "Malonus",
+      "template_label": "Šablono tekstas",
+      "template_hint": "Pažymėkite, kur priklauso kiekvienas kintamasis, jo pavadinimą įvynioję į dvigubus riestinius skliaustus – pavyzdžiui, kintamasis pavadinimu „žanras“ tampa žanru, įvyniotu į du atidaromus ir du uždaromuosius skliaustus.",
+      "variables_label": "Kintamieji",
+      "variable_add": "Pridėti kintamąjį",
+      "variable_name": "Raktas",
+      "variable_label": "Etiketė",
+      "variable_type": "Tipas",
+      "variable_type_string": "Tekstas",
+      "variable_type_select": "Vienas pasirinkimas",
+      "variable_type_multiselect": "Keletas pasirinkimas",
+      "variable_type_number": "Skaičius",
+      "variable_type_boolean": "Taip/ne",
+      "variable_options": "Parinktys (atskirtos kableliais)",
+      "variable_required": "Privaloma",
+      "save": "Išsaugoti šabloną"
+    },
+    "metatags": {
+      "title": "Meta žymeles",
+      "subtitle": "Struktūrinės ir stiliaus žymos Suno atpažįsta dainų tekstus.",
+      "new_tag": "Nauja žyma",
+      "tag_label": "Žyma",
+      "tag_placeholder": "pvz. gitara-solo",
+      "category_label": "Kategorija",
+      "tier_label": "Patikimumas",
+      "tier_legend_title": "Patikimumo legenda",
+      "tier_legend": {
+        "1": "1 pakopa – dokumentuota ir nuosekli",
+        "2": "2 pakopa – paprastai veikia",
+        "3": "3 pakopa – kintamasis efektas",
+        "4": "4 pakopa – placebas, neįrodytas"
+      },
+      "description_label": "Aprašymas",
+      "delete_confirm_title": "Ištrinti žymą „{{tag}}“?",
+      "empty": "Dar nėra tinkintų metažymų."
+    }
+  },
+  "settings": {
+    "title": "Nustatymai",
+    "subtitle": "Sistemos informacija, kalba ir numatytosios nuostatos.",
+    "system_info_title": "Sistema",
+    "version": "Versija",
+    "data_dir": "Duomenų aplankas",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Yra",
+    "ffmpeg_missing": "Nerasta",
+    "capabilities_title": "Įdiegtos galimybės",
+    "capability": {
+      "denoise": "Triukšmo mažinimas",
+      "quality": "Kokybės gerinimas",
+      "separate": "Šaltinio atskyrimas",
+      "ffmpeg": "FFmpeg konvertavimas"
+    },
+    "capability_available": "Yra",
+    "capability_unavailable": "Nepasiekiamas",
+    "gpu_title": "GPU pagreitis",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX vykdymo laiko teikėjai"
+    },
+    "gpu_none": "GPU teikėjų neaptikta",
+    "language_title": "Kalba",
+    "language": {
+      "pt-BR": "portugalų k. (Brazilija)",
+      "en": "anglų kalba"
+    },
+    "theme_title": "Išvaizda",
+    "theme": {
+      "dark": "Tamsus",
+      "light": "Šviesa"
+    },
+    "defaults_title": "Eksportuoti numatytuosius nustatymus",
+    "lufs_target_label": "Tikslinis LUFS",
+    "lufs_target_hint": "Naudojamas kaip pradinis pasiūlymas eksportuojant. „Suno“ numatytoji vertė yra apie -14 LUFS.",
+    "saved": "Parinktys išsaugotos"
+  },
+  "guide": {
+    "title": "Suno įrašymo vadovas",
+    "subtitle": "Kaip užfiksuoti balsą ir gitarą, gaunami geriausi rezultatai.",
+    "intro": "„Suno“ geriausiai veikia su aiškiomis, nedviprasmiškomis nuorodomis. Šiame vadove aprašomas pasiruošimas, tiksliniai lygiai ir 3–5 minučių trukmės įrašymo scenarijus.",
+    "sections": {
+      "prep": {
+        "title": "Pasiruošimas",
+        "body": "Įrašykite apdorotoje patalpoje arba tokioje, kurioje yra daug minkštos medžiagos (užuolaidos, kilimėliai, drabužiai spintoje). Išjunkite ventiliatorius ir viską, kas ūžia. Prieš įrašydami pašildykite balsą 5 minutes."
+      },
+      "levels": {
+        "title": "Lygiai: nuo -12 iki -6 dBFS",
+        "body": "Siekite, kad matuoklis būtų nuo -12 iki -6 dBFS. Žemiau šio diapazono foninis triukšmas tampa labiau pastebimas; virš jo padidėja kirpimo rizika. Prieš pradėdami, naudokite matuoklį įrašymo puslapyje, kad nustatytumėte padidėjimą."
+      },
+      "distance": {
+        "title": "Mikrofono atstumas: 15–30 cm",
+        "body": "Būkite 15–30 cm atstumu nuo mikrofono. Arčiau nei tai perdeda sprogstamąsias medžiagas ir artumo efektą; toliau paima daugiau kambario reverb ir triukšmo."
+      },
+      "script": {
+        "title": "Įrašymo scenarijus",
+        "warmup": "Balso apšilimas (1-2 min.)",
+        "vowels": "Ilgalaikiai balsiai - a, e, i, o, u",
+        "scales": "Paprastos svarstyklės, aukštyn ir žemyn",
+        "excerpt": "Dainos ištrauka (8–16 taktų)",
+        "dynamics": "Dinamika: pradėkite tyliai, baigkite garsiai",
+        "spoken_phrase": "Viena ištarta frazė, kad Suno galėtų perskaityti jūsų balso toną"
+      },
+      "expectations": {
+        "title": "Ko tikisi Suno",
+        "body": "WAV, 48 kHz, mono, sausas (be reverb arba efektų), nuo 3 iki 5 minučių atskaitos. Švariausios, reprezentatyviausios 2 minučių trukmės trukmė paprastai duoda geriausius rezultatus."
+      }
+    }
+  },
+  "status": {
+    "idea": "Idėja",
+    "em_progresso": "Vykdoma",
+    "quase": "Beveik ten",
+    "pronto": "Paruošta"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Visas Suno vokalinis scenarijus",
+      "desc": "5 minutės su gidu: apšilimas, balsės, gamos, dvi dainos ištraukos, dinamika ir pasakyta frazė."
+    },
+    "step": {
+      "warmup": "Vokalo apšilimas",
+      "warmup_inst": "Atsipalaiduokite žiovavimu, lūpų trilavimu (brrr) ir švelniu dūzgimu maždaug minutę. Nereikia įrašyti – tiesiog atpalaiduokite gerklę prieš dainuodami.",
+      "vowels": "Išlaikyti balsiai",
+      "vowels_inst": "Laikykite kiekvieną balsį – a, e, i, o, u – 3–4 sekundes patogiu tonu, pastoviu garsu. Tai padeda Suno atgauti gryną jūsų balso tembrą.",
+      "scales": "Svarsteliai aukštyn ir žemyn",
+      "scales_inst": "Dainuokite paprasta skale aukštyn, o paskui žemyn, „la“ arba „na“. Tai nebūtinai turi būti tobula – tikslas yra nustatyti jūsų balso diapazoną.",
+      "section": "Dainos ištrauka – 1 dalis",
+      "section_inst": "Dainuokite nuo 8 iki 16 dainos taktų su tikra intencija, kurią norite perteikti. Pirmenybę teikite aiškumui ir buvimui, o ne techniniam tobulumui.",
+      "section2": "Dainos ištrauka – 2 dalis",
+      "section2_inst": "Padainuokite dar 8–16 taktų – idealiu atveju chorą arba atkarpą, kuri skiriasi nuo ankstesnio. Didesnė įvairovė padeda modeliui išmokti jūsų balsą.",
+      "dynamics": "Dinamika: švelnus → garsus",
+      "dynamics_inst": "Dainuokite tą pačią frazę, pradedant labai švelniai ir baigiant garsiai, neįtempdami gerklės. Tai rodo Suno jūsų balso dinaminį diapazoną.",
+      "spoken": "Ištarta frazė",
+      "spoken_inst": "Kalbėkite – nedainuokite – trumpa, natūralia frazė, tarsi kalbėtumėtės. Tai padeda Suno atpažinti tikrąjį jūsų balso tembrą."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restauravimas",
+      "filter": "Filtrai",
+      "dynamics": "Dinamika",
+      "separation": "Atskyrimas",
+      "quality": "Kokybė",
+      "utility": "Naudingumas",
+      "loudness": "Garsumas"
+    },
+    "highpass": "Aukšto dažnio filtras",
+    "lowpass": "Žemo dažnio filtras",
+    "denoise": "Triukšmo mažinimas",
+    "declip": "Nugriovimas",
+    "declick": "Spustelėkite / pop pašalinimas",
+    "deesser": "De-esser",
+    "gate": "Triukšmo vartai",
+    "compressor": "Kompresorius",
+    "limiter": "Ribotojas",
+    "eq": "Išlyginimas",
+    "normalize": "Maksimalus normalizavimas",
+    "loudness": "Garsumo normalizavimas (LUFS)",
+    "reverb_reduce": "Reverb sumažinimas",
+    "separate": "Šaltinio atskyrimas",
+    "quality": "Kokybės gerinimas (aukštesnio lygio)",
+    "trim_silence": "Tylos kirpimas",
+    "fade": "Išnyksta / išnyksta",
+    "stereo_to_mono": "Konvertuoti į mono",
+    "resample": "Pakartotinis mėginių ėmimas"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Patikimas",
+      "2": "Paprastai veikia",
+      "3": "Kintamasis",
+      "4": "Placebas"
+    },
+    "category": {
+      "structure": "Struktūra",
+      "vocal": "Vokalas",
+      "instrument": "Instrumentas",
+      "dynamics": "Dinamika",
+      "production": "Gamyba",
+      "mood": "Nuotaika"
+    },
+    "verse": "Eilėraštis",
+    "chorus": "Choras",
+    "bridge": "Tiltas",
+    "intro": "Įvadas",
+    "outro": "Outro",
+    "hook": "Kabliukas",
+    "prechorus": "Išankstinis choras",
+    "instrumental": "Instrumentinis",
+    "guitar_solo": "Gitaros solo",
+    "build_up": "Užstatymas",
+    "breakdown": "Suskirstymas",
+    "spoken_word": "Ištartas žodis",
+    "whispered": "sušnibždėjo",
+    "harmonies": "Harmonijos",
+    "male_vocal": "Vyriškas vokalas",
+    "female_vocal": "Moteriškas vokalas",
+    "duet": "Duetas",
+    "acoustic": "Akustinis",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Švarus balsas",
+    "voice_guitar_balanced": "Subalansuotas balsas ir gitara",
+    "podcast": "Podcast'as",
+    "suno_ready": "Suno pasiruošęs",
+    "gentle_restore": "Švelnus atstatymas",
+    "raw_passthrough": "Jokio apdorojimo"
+  },
+  "errors": {
+    "unknown": "Kažkas nutiko.",
+    "network": "Nepavyko pasiekti serverio.",
+    "validation_error": "Patikrinkite įvestą informaciją.",
+    "not_found": "Prekė nerasta.",
+    "project_not_found": "Projektas nerastas.",
+    "take_not_found": "Imti nerasta.",
+    "album_not_found": "Albumas nerastas.",
+    "preset_not_found": "Išankstinis nustatymas nerastas.",
+    "template_not_found": "Šablonas nerastas.",
+    "device_busy": "Garso įrenginį naudoja kita programa.",
+    "device_not_found": "Garso įrenginys nerastas.",
+    "already_recording": "Jau vyksta įrašymas.",
+    "ffmpeg_missing": "FFmpeg neįdiegtas – įdiekite jį, kad konvertuotumėte šį failą.",
+    "disk_full": "Nepakanka vietos diske.",
+    "permission_denied": "Nurodytam keliui leidimas atmestas.",
+    "import_path_not_found": "Importavimo kelias nerastas.",
+    "job_failed": "Apdoroti nepavyko.",
+    "job_cancelled": "Apdorojimas buvo atšauktas.",
+    "process_failed": "Nepavyko apdoroti fotografavimo.",
+    "export_failed": "Nepavyko eksportuoti failo.",
+    "record_failed": "Nepavyko pradėti įrašymo."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Eilėje",
+      "running": "Bėgimas",
+      "done": "Atlikta",
+      "error": "Nepavyko",
+      "cancelled": "Atšaukta"
+    },
+    "kind": {
+      "process": "Apdorojimas",
+      "export": "Eksportuoti",
+      "import": "Importuoti",
+      "record": "Įrašymas"
+    }
+  }
+}

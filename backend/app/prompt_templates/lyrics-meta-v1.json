@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "lyrics-meta-v1",
+  "builtin": true,
+  "kind": "lyrics",
+  "name": "Meta-prompt de Letra (colar no ChatGPT/Claude)",
+  "description_key": "prompts.templates.lyrics_meta_desc",
+  "cloned_from": null,
+  "template": "Aja como especialista em engenharia de prompt, com foco em geração de música via inteligência artificial generativa. Sua tarefa é criar uma letra de música com alto apelo auditivo, baseando-se em um tema ou música de referência especificada.\n\nIMPORTANTE: a letra criada não deve ter nenhum elemento ou estrutura copiados das referências abaixo, para não existir problemas com direitos autorais. As indicações abaixo servem apenas como referências para uma criação totalmente nova e sem cópias.\n\n**Instruções Detalhadas:**\n\n1. **Tema/Referência:** Use como base o seguinte:\n* **Tema ou Música Desejada:** {tema}\n* **Referência Artística:** As letras e estruturas de músicas criadas por {artista}.\n\n2. **Conteúdo da Letra:**\n* Crie uma letra que seja cativante e com grande potencial para ser ouvida.\n* Incorpore a estrutura musical sugerida pela referência artística, detalhando todas as seções necessárias.\n\n3. **Estrutura Musical:**\n* Indique explicitamente a estrutura da música, incluindo alguns dos itens abaixo, mas não se limitando a:\n  * [Intro]\n  * [Verse 1]\n  * [Pre-Chorus] (se aplicável)\n  * [Chorus]\n  * [Verse 2]\n  * [Bridge]\n  * [Instrumental] (indicar posicionamento)\n  * [Chorus] final\n  * [Outro]\n  * [End]\n* Adapte a letra e a estrutura para serem facilmente interpretáveis por IAs generativas de música (tags entre colchetes em inglês, uma por linha, antes de cada seção).\n\n4. **Formato de Saída:**\n* Apresente APENAS a letra completa com sua estrutura sugerida.\n* NÃO inclua menções a estilo musical, BPM, instrumentos específicos, nome de bandas, cantores ou músicas originais (para evitar problemas de direitos autorais).\n* NÃO inclua quaisquer explicações ou comentários adicionais fora da letra e sua estrutura.\n* Mantenha a letra com no máximo 3000 caracteres (sweet spot do Suno; o limite técnico é 5000).{extras}\n\n**Exemplo de Estrutura Esperada (apenas para ilustração do formato):**\n\n**Título Sugerido:** [Título Gerado]\n\n[Intro]\n\n[Verse 1]\nLetra do verso 1\n\n[Chorus]\nLetra do refrão\n\n[Verse 2]\nLetra do verso 2\n\n[Bridge]\nLetra da ponte\n\n[Instrumental]\n\n[Chorus]\n\n[Outro]\n\n[End]",
+  "variables": [
+    {
+      "name": "tema",
+      "label_key": "prompts.vars.tema",
+      "type": "text",
+      "required": true,
+      "default": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    {
+      "name": "artista",
+      "label_key": "prompts.vars.artista_referencia",
+      "type": "text",
+      "required": true,
+      "default": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    {
+      "name": "extras",
+      "label_key": "prompts.vars.extras",
+      "type": "textarea",
+      "required": false,
+      "default": "",
+      "prefix": "\n\n5. **Especificações Adicionais:** ",
+      "suffix": ""
+    }
+  ]
+}

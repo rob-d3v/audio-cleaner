@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "آڊيو صاف ڪندڙ"
+  },
+  "nav": {
+    "library": "لائبريري",
+    "record": "رڪارڊ",
+    "import": "درآمد",
+    "templates": "ٽيمپليٽس",
+    "settings": "سيٽنگون",
+    "guide": "ھدايت"
+  },
+  "common": {
+    "save": "بچايو",
+    "saving": "محفوظ ڪري رهيو آهي…",
+    "saved": "محفوظ ٿيل",
+    "cancel": "منسوخ ڪريو",
+    "close": "بند",
+    "delete": "حذف ڪريو",
+    "edit": "ترميم ڪريو",
+    "create": "ٺاهيو",
+    "search": "ڳولا",
+    "loading": "لوڊ ٿي رهيو آهي…",
+    "error": "نقص",
+    "retry": "ٻيهر ڪوشش ڪريو",
+    "confirm": "تصديق ڪريو",
+    "back": "پوئتي",
+    "next": "اڳيان",
+    "continue": "جاري رکو",
+    "finish": "ختم ڪرڻ",
+    "copy": "ڪاپي",
+    "copied": "نقل ٿيل",
+    "download": "ڊائون لوڊ ڪريو",
+    "upload": "اپ لوڊ ڪريو",
+    "none": "ڪو به",
+    "all": "سڀ",
+    "yes": "ها",
+    "no": "نه",
+    "select": "چونڊيو",
+    "optional": "اختياري",
+    "required": "گهربل",
+    "unsaved_changes": "غير محفوظ ٿيل تبديليون",
+    "name": "نالو",
+    "status": "حيثيت",
+    "type": "قسم",
+    "actions": "عمل",
+    "empty": "خالي",
+    "browse": "برائوز",
+    "remove": "هٽايو",
+    "add": "شامل ڪريو",
+    "rename": "نالو مٽايو",
+    "duplicate": "نقل",
+    "warning": "ڊيڄاريندڙ",
+    "locked": "بند ٿيل",
+    "builtin": "تعمير ٿيل",
+    "custom": "حسب ضرورت",
+    "untitled": "بي عنوان",
+    "select_placeholder": "چونڊيو…"
+  },
+  "library": {
+    "title": "لائبريري",
+    "subtitle": "توهان جو آواز ۽ گٽار پروجيڪٽ، خيال کان ڇڏڻ تائين.",
+    "new_project": "نئون منصوبو",
+    "new_album": "نئون البم",
+    "search_placeholder": "نالي سان ڳولهيو…",
+    "view": {
+      "grid": "گرڊ",
+      "albums": "البم"
+    },
+    "filters": {
+      "all": "سڀ"
+    },
+    "take_count_one": " {{count}} وٺو",
+    "take_count_other": " {{count}} وٺندو آهي",
+    "updated_at": "اپڊيٽ ٿيل {{date}} ",
+    "no_results": {
+      "title": "ڪوبه پروجيڪٽ نه مليو",
+      "description": "ڳولا يا اسٽيٽس فلٽر کي ترتيب ڏيڻ جي ڪوشش ڪريو."
+    },
+    "empty": {
+      "title": "توھان جي لائبريري خالي آھي",
+      "description": "شروعات کان هڪ نئون منصوبو شروع ڪريو، يا درآمد وٺي ٿو توهان وٽ اڳ ۾ ئي ڊسڪ تي آهي.",
+      "cta_import": "فولڊر مان درآمد ڪريو",
+      "cta_new": "پروجيڪٽ ٺاهيو"
+    },
+    "project_dialog": {
+      "title": "نئون منصوبو",
+      "description": "ان کي نالو ڏيو ۽ رڪارڊنگ موڊ چونڊيو.",
+      "name_label": "پروجيڪٽ جو نالو",
+      "name_placeholder": "مثال طور اونهاري جي برسات",
+      "mode_label": "موڊ",
+      "mode": {
+        "voice": "صرف آواز",
+        "voice_guitar": "آواز + گٽار"
+      },
+      "submit": "پروجيڪٽ ٺاهيو"
+    },
+    "album_dialog": {
+      "title": "نئون البم",
+      "description": "گروپ سان لاڳاپيل منصوبن کي البم ۾.",
+      "name_label": "البم جو نالو",
+      "name_placeholder": "مثال طور خزاں EP",
+      "submit": "البم ٺاهيو"
+    },
+    "album": {
+      "untitled": "بي عنوان البم",
+      "members_count_one": " {{count}} پروجيڪٽ",
+      "members_count_other": " {{count}} منصوبا",
+      "empty": "ھن البم ۾ اڃا تائين ڪو پروجيڪٽ نه آھي.",
+      "delete_confirm_title": "البم حذف ڪريو؟",
+      "delete_confirm_description": "پروجيڪٽس کي ختم نه ڪيو ويندو، صرف \"{{name}}\" مان اڻ ڳنڍيو ويندو."
+    },
+    "delete_project": {
+      "confirm_title": "حذف ڪريو \"{{name}}\"؟",
+      "confirm_description": "هي پروجيڪٽ کي هٽائي ٿو ۽ ان ۾ هر وٺ. هن کي رد نٿو ڪري سگهجي."
+    }
+  },
+  "record": {
+    "title": "رڪارڊ",
+    "subtitle": "صاف وٺو وٺو، پنھنجي سطح کي ڏسو، ۽ اسڪرپٽ جي پيروي ڪريو.",
+    "project_label": "پروجيڪٽ",
+    "project_placeholder": "ھڪڙو منصوبو چونڊيو",
+    "project_create_quick": "جلدي پروجيڪٽ ٺاهيو...",
+    "device_label": "ان پٽ ڊوائيس",
+    "device_placeholder": "هڪ ڊوائيس چونڊيو",
+    "device_default_badge": "سسٽم ڊفالٽ",
+    "device_wasapi_badge": "واساپي",
+    "device_empty": "ڪوبه ان پٽ ڊوائيس نه مليو.",
+    "monitor_button": "مانيٽر",
+    "monitor_stop_button": "نگراني بند ڪريو",
+    "record_button": "رڪارڊ",
+    "stop_button": "روڪ",
+    "elapsed_label": "گذري ويل وقت",
+    "status": {
+      "idle": "بيڪار",
+      "monitoring": "نگراني",
+      "recording": "رڪارڊنگ",
+      "stopped": "روڪيو"
+    },
+    "meter": {
+      "rms": "آر ايم ايس",
+      "peak": "چوٽي",
+      "clip": "ڪلپ"
+    },
+    "guide": {
+      "title": "ھدايت وارو سيشن",
+      "subtitle": "اچو ته ڪوچ توهان کي اسڪرپٽ ذريعي قدم بہ قدم، وارم اپ کان وٺي ڳالهائڻ واري جملي تائين.",
+      "loading": "اسڪرپٽ لوڊ ٿي رهيو آهي…",
+      "unavailable": "ھدايت وارو سيشن اڃا تائين سرور تي دستياب ناهي.",
+      "select_project_device": "هتان کان قدمن کي رڪارڊ ڪرڻ لاءِ هڪ پروجيڪٽ ۽ هڪ ان پٽ ڊوائيس چونڊيو.",
+      "progress": " {{done}} مان {{total}} مرحلا",
+      "start_timer": "ٽائمر شروع ڪريو",
+      "skip_timer": "ٽائمر کي ڇڏي ڏيو",
+      "record_step": "هن قدم کي رڪارڊ ڪريو",
+      "stop_step": "رڪارڊنگ بند ڪريو",
+      "mark_done": "ٿي ويو - ايندڙ قدم",
+      "step_recorded": "رڪارڊ وٺو",
+      "no_record_step": "گرم اپ قدم - رڪارڊنگ جي ضرورت ناهي.",
+      "bars_hint": "اٽڪل {{bars}} بار",
+      "complete_title": "اسڪرپٽ مڪمل!",
+      "complete_body": "توهان لکت جي هر قدم کي رڪارڊ ڪيو آهي. پراجيڪٽ جي آڊيو ٽيب ڏانھن واپس وڃو ۽ پنھنجي پسنديده شيون چونڊيو.",
+      "restart": "اسڪرپٽ ٻيهر شروع ڪريو"
+    },
+    "best2min": {
+      "button": "بهترين 2 منٽ ڳوليو (سونو)",
+      "running": "تحليل جو جائزو…",
+      "score_label": "سکور",
+      "hint": "ان جي مضبوط ترين 2-منٽ ونڊو ڳولڻ لاءِ پوري ٽيڪ تي هڪ توانائي ۽ وضاحت جي تجزيي کي هلائي ٿو - توهان اڃا به بعد ۾ هٿ سان رينج کي ترتيب ڏئي سگهو ٿا.",
+      "chart_caption": "سکور في ونڊو",
+      "unavailable": "بهترين-2-منٽن جو تجزيو هن سرور تي اڃا تائين دستياب ناهي."
+    },
+    "takes_title": "هن سيشن مان وٺي ٿو",
+    "takes_empty": "هن سيشن ۾ اڃا تائين ڪو به رڪارڊ ناهي.",
+    "open_in_project": "پروجيڪٽ ۾ کوليو",
+    "ws_disconnected": "ليول ميٽر سان ٻيهر ڳنڍي رهيو آهي…",
+    "select_project_first": "شروع ڪرڻ لاء ھڪڙو منصوبو چونڊيو.",
+    "select_device_first": "هڪ ان پٽ ڊوائيس چونڊيو."
+  },
+  "project": {
+    "back_to_library": "لائبريري ڏانهن واپس",
+    "header": {
+      "status_label": "حيثيت",
+      "cover_upload": "ڪپڙا اپ لوڊ ڪريو",
+      "cover_remove": "ڪپڙا هٽايو",
+      "name_placeholder": "پروجيڪٽ جو نالو",
+      "links_title": "لنڪس",
+      "add_link": "لنڪ شامل ڪريو",
+      "mode": {
+        "voice": "صرف آواز",
+        "voice_guitar": "آواز + گٽار"
+      }
+    },
+    "tabs": {
+      "audio": "آڊيو",
+      "lyrics": "غزل",
+      "prompts": "اشارو",
+      "notes": "نوٽس"
+    },
+    "audio": {
+      "takes_title": "وٺندو آهي",
+      "no_takes": {
+        "title": "اڃان تائين ڪو نه ٿو وٺي",
+        "description": "هڪ نئون وٺو رڪارڊ ڪريو يا موجوده فائل درآمد ڪريو."
+      },
+      "record_new": "هڪ نئون رڪارڊ رڪارڊ ڪريو",
+      "rating": "درجه بندي",
+      "variant": {
+        "raw": "خام",
+        "processed": "پروسيس ٿيل"
+      },
+      "variant_placeholder": "نسخو",
+      "process_button": "عمل",
+      "export_button": "برآمد",
+      "delete_take_confirm_title": "ھن کي ختم ڪريو؟",
+      "delete_take_confirm_description": "خام آڊيو ۽ هر پروسيس ٿيل نسخو هٽايو ويندو.",
+      "ab": {
+        "raw": "الف · خام",
+        "processed": "ب · پروسيس ٿيل"
+      },
+      "origin": {
+        "recorded": "رڪارڊ ٿيل",
+        "imported": "درآمد ٿيل"
+      },
+      "session_label_placeholder": "سيشن ليبل (اختياري)",
+      "duration": "عرصو",
+      "sample_rate": "نموني جي شرح",
+      "channels": "چينل",
+      "created_at": "رڪارڊ ٿيل"
+    },
+    "pipeline": {
+      "title": "پروسيسنگ زنجير",
+      "preset_label": "اڳواٽ",
+      "preset_none": "ڪسٽم زنجير",
+      "preset_save": "اڳواٽ طور محفوظ ڪريو",
+      "stage_locked": "بند ٿيل",
+      "stage_requires_extra": "هڪ اضافي جي ضرورت آهي جيڪا انسٽال ٿيل نه آهي",
+      "process_button": "عمل وٺڻ",
+      "processing": "پروسيسنگ…",
+      "job_queued": "قطار…",
+      "job_running": "پروسيسنگ…",
+      "job_done": "ٿي ويو",
+      "job_error": "ناڪام ٿيو",
+      "job_cancelled": "منسوخ ٿيل",
+      "cancel_job": "منسوخ ڪريو",
+      "no_stages": "ڪي به مرحلا موجود نه آهن."
+    },
+    "export": {
+      "title": "ايڪسپورٽ وٺڻ",
+      "description": "پروسيس ٿيل ورزن مان فائنل فائل پيش ڪريو.",
+      "variant_label": "نسخو",
+      "format_label": "فارميٽ",
+      "preset_label": "اڳواٽ برآمد ڪريو",
+      "range_label": "حد",
+      "range_full": "پوري ڊگھائي",
+      "range_custom": "ڪسٽم رينج",
+      "start_label": "شروع ڪريو",
+      "end_label": "پڄاڻي (س)",
+      "submit": "برآمد",
+      "progress": "رينڊرنگ فائل…",
+      "download_ready": "فائل تيار",
+      "download_button": "فائل ڊائون لوڊ ڪريو"
+    },
+    "notes": {
+      "placeholder": "هن پروجيڪٽ بابت مفت فارم نوٽس…",
+      "saved_at": "{{time}} تي محفوظ ڪيو ويو "
+    },
+    "lyrics": {
+      "placeholder": "هتي غزل لکو. سنو ميٽا ٽيگ داخل ڪرڻ لاءِ پاسي واري پيليٽ کي استعمال ڪريو.",
+      "saved_at": "{{time}} تي محفوظ ڪيو ويو ",
+      "saving": "محفوظ ڪري رهيو آهي…",
+      "versions": "نسخو",
+      "versions_empty": "اڃان تائين ڪو به محفوظ ٿيل نسخو ناهي.",
+      "version_preview": "ڏيکاءُ",
+      "restore": "هي نسخو بحال ڪريو",
+      "restore_confirm_title": "هي نسخو بحال ڪيو؟",
+      "restore_confirm_description": "موجوده متن کي {{date}} تي محفوظ ڪيل ورزن سان تبديل ڪيو ويندو.",
+      "metatags_title": "ميٽا ٽيگ",
+      "metatags_hint": "ڪلڪ ڪريو ٽيگ ان کي ڪرسر تي داخل ڪرڻ لاء.",
+      "metatags_placebo_warning": "غير ثابت ٿيل - نتيجو تي ڪو به اثر نه ٿي سگھي.",
+      "metatags_empty": "ڪوبه ميٽا ٽيگ رجسٽر ٿيل ناهي."
+    },
+    "prompts": {
+      "style_title": "انداز جي تڪڙي",
+      "lyrics_title": "غزل جي تڪميل",
+      "template_label": "سانچو",
+      "template_none": "ڪابه ٽيمپليٽ",
+      "variables_title": "متغير",
+      "preview_title": "ڏيکاءُ",
+      "preview_empty": "هڪ ٽيمپليٽ چونڊيو ۽ هڪ ڏيک ڏسڻ لاءِ متغير ڀريو.",
+      "char_count": " {{count}} اکر",
+      "char_count_warning": "انداز 1000 کان وڌيڪ اکرن تي اشارو ڪري سگھي ٿو سنو پاران ڪٽجي سگھي ٿو.",
+      "copy": "ڪاپي",
+      "copied": "ڪلپ بورڊ تي نقل ڪيو ويو",
+      "save_to_project": "پروجيڪٽ ۾ محفوظ ڪريو",
+      "saved_to_project": "ترت پروجيڪٽ ۾ محفوظ ڪيو ويو",
+      "history_title": "تاريخ",
+      "history_empty": "ڪوبه اڳوڻو نسخو.",
+      "current_label": "موجوده"
+    },
+    "stems": {
+      "title": "آواز ۽ گٽار",
+      "separate_button": "الڳ آواز ۽ گٽار",
+      "running": "جدا ٿي رهيو آهي…",
+      "vocals": "آواز",
+      "instrumental": "وسيلو",
+      "process_stem": "هن اسٽيم کي پروسيس ڪريو",
+      "empty": "اهو سلسلو اڃا تائين الڳ نه ڪيو ويو آهي. اڪيلائي ۾ آواز ۽ گٽار ٻڌڻ لاءِ الڳ ٿيڻ.",
+      "capability_missing": "ماخذ علحدگي هن سرور تي نصب نه آهي.",
+      "unavailable": "Vocal/guitar separation هن سرور تي اڃان تائين موجود ناهي."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "تي",
+    "boolean_off": "بند"
+  },
+  "import": {
+    "title": "درآمد",
+    "subtitle": "منصوبا آڻيو جيڪي اڳ ۾ ئي ڊسڪ تي موجود لائبريري ۾.",
+    "step_indicator": "قدم {{current}} مان {{total}} ",
+    "step1": {
+      "title": "فولڊر ڳوليو",
+      "description": "پنھنجي پروجيڪٽ ۽ ٽريڪ سان روٽ فولڊر ڏانھن اشارو ڪريو.",
+      "path_label": "فولڊر رستو",
+      "path_placeholder": "مثال طور E: Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "تازو",
+      "scan_button": "اسڪين فولڊر",
+      "scanning": "اسڪيننگ…",
+      "ffmpeg_warning": "FFmpeg نه مليو - فائلون جن کي تبديل ڪرڻ جي ضرورت آهي، ڇڏيا ويندا.",
+      "folders_found_one": " {{count}} فولڊر مليو",
+      "folders_found_other": " {{count}} فولڊر مليا",
+      "unmatched_files_one": " {{count}} اڻ سڃاتل فائل",
+      "unmatched_files_other": " {{count}} اڻ سڃاتل فائلون"
+    },
+    "step2": {
+      "title": "شين جو جائزو وٺو",
+      "description": "چيڪ ڪريو نالا، اسٽيٽس، ۽ ڇا درآمد ڪيو ويندو تصديق ڪرڻ کان اڳ.",
+      "select_all": "سڀ چونڊيو",
+      "table": {
+        "folder": "ماخذ فولڊر",
+        "name": "پروجيڪٽ جو نالو",
+        "status": "حيثيت",
+        "audio": "آڊيو",
+        "lyrics": "غزل",
+        "cover": "ڍڪڻ",
+        "album": "البم"
+      },
+      "audio_include_one": " {{count}} فائل چونڊيو",
+      "audio_include_other": " {{count}} فائلون چونڊيل",
+      "no_audio": "ڪوبه آڊيو نه مليو",
+      "no_lyrics": "ڪوبه غزل نه مليو",
+      "no_cover": "ڍڪ نه",
+      "warnings_title": "ڊيڄاريندڙ"
+    },
+    "step3": {
+      "title": "درآمد",
+      "description": "فائلن کي نقل ڪرڻ ۽ پروجيڪٽ ٺاهڻ جي تصديق ڪريو.",
+      "copy_originals": "اصل فائلن کي لائبريري ۾ نقل ڪريو",
+      "execute_button": "درآمد شروع ڪريو",
+      "progress_title": "درآمد ڪري رهيو آهي…",
+      "created_count": "ٺاهيل: {{count}} ",
+      "skipped_count": "ڇڏيو ويو: {{count}} ",
+      "done_title": "درآمد مڪمل",
+      "done_description": "ھيٺ ڏنل منصوبا توھان جي لائبريري ۾ ٺاھيا ويا آھن.",
+      "view_project": "اوپن پروجيڪٽ",
+      "start_over": "نئون درآمد"
+    }
+  },
+  "templates": {
+    "title": "ٽيمپليٽس",
+    "subtitle": "سنو لاءِ ٻيهر استعمال لائق تڪڙا ٽيمپليٽ ۽ ميٽا ٽيگ.",
+    "tabs": {
+      "prompts": "تڪڙا ٽيمپليٽ",
+      "metatags": "ميٽا ٽيگ"
+    },
+    "new_template": "نئون ٽيمپليٽ",
+    "kind": {
+      "style": "انداز",
+      "lyrics": "غزل"
+    },
+    "kind_label": "قسم",
+    "delete_confirm_title": "ٽيمپليٽ کي حذف ڪريو \"{{name}}\"؟",
+    "delete_confirm_description": "هن کي رد نٿو ڪري سگهجي.",
+    "empty": "في الحال ڪوبه ٽيمپليٽ ناهي.",
+    "editor": {
+      "title_new": "نئون ٽيمپليٽ",
+      "title_edit": "ٽيمپليٽ ايڊٽ ڪريو",
+      "name_label": "نالو",
+      "name_placeholder": "مثال طور صوتي گيت",
+      "kind_label": "قسم",
+      "template_label": "سانچو متن",
+      "template_hint": "نشان لڳايو جتي هر متغير ان جي نالي سان تعلق رکي ٿو ڊبل ڪرلي بريسس ۾ لپي - مثال طور، هڪ متغير جو نالو ”جينر“ ٻن اوپننگ ۽ ٻن بند بندن ۾ ويڙهيل صنف بڻجي وڃي ٿو.",
+      "variables_label": "متغير",
+      "variable_add": "متغير شامل ڪريو",
+      "variable_name": "چاٻي",
+      "variable_label": "ليبل",
+      "variable_type": "قسم",
+      "variable_type_string": "متن",
+      "variable_type_select": "اڪيلو چونڊيو",
+      "variable_type_multiselect": "ملٽي چونڊ",
+      "variable_type_number": "نمبر",
+      "variable_type_boolean": "ها/نه",
+      "variable_options": "اختيارن (ڪاما سان الڳ ٿيل)",
+      "variable_required": "گھربل",
+      "save": "ٽيمپليٽ محفوظ ڪريو"
+    },
+    "metatags": {
+      "title": "ميٽا ٽيگ",
+      "subtitle": "ساخت ۽ اسلوب ٽيگ سونو اندر جي غزلن کي سڃاڻي ٿو.",
+      "new_tag": "نئون ٽيگ",
+      "tag_label": "ٽيگ",
+      "tag_placeholder": "مثال طور گٽار- سولو",
+      "category_label": "زمرو",
+      "tier_label": "اعتبار",
+      "tier_legend_title": "افسانوي اعتبار",
+      "tier_legend": {
+        "1": "ٽائر 1 - دستاويزي ۽ مسلسل",
+        "2": "ٽائر 2 - عام طور تي ڪم ڪري ٿو",
+        "3": "ٽائر 3 - متغير اثر",
+        "4": "ٽائر 4 - جڳبو، غير ثابت ٿيل"
+      },
+      "description_label": "وصف",
+      "delete_confirm_title": "ٽيگ حذف ڪريو \"{{tag}}\"؟",
+      "empty": "في الحال ڪوبه ڪسٽم ميٽا ٽيگ نه آهي."
+    }
+  },
+  "settings": {
+    "title": "سيٽنگون",
+    "subtitle": "سسٽم جي معلومات، ٻولي، ۽ ڊفالٽ ترجيحات.",
+    "system_info_title": "سسٽم",
+    "version": "نسخو",
+    "data_dir": "ڊيٽا فولڊر",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "دستياب",
+    "ffmpeg_missing": "نه مليو",
+    "capabilities_title": "نصب ڪيل صلاحيتون",
+    "capability": {
+      "denoise": "شور جي گھٽتائي",
+      "quality": "معيار جي واڌاري",
+      "separate": "ماخذ جي جدائي",
+      "ffmpeg": "FFmpeg تبديلي"
+    },
+    "capability_available": "دستياب",
+    "capability_unavailable": "غير موجود",
+    "gpu_title": "GPU تيز رفتار",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX رن ٽائم فراهم ڪندڙ"
+    },
+    "gpu_none": "ڪوبه GPU فراهم ڪندڙ نه مليو",
+    "language_title": "ٻولي",
+    "language": {
+      "pt-BR": "پورچوگيز (برازيل)",
+      "en": "انگريزي"
+    },
+    "theme_title": "ظاهر",
+    "theme": {
+      "dark": "اونداهو",
+      "light": "روشني"
+    },
+    "defaults_title": "ايڪسپورٽ ڊفالٽ",
+    "lufs_target_label": "ھدف LUFS",
+    "lufs_target_hint": "شروعاتي تجويز جي طور تي استعمال ڪيو ويو جڏهن برآمد ٿئي ٿي. سنو جي ڊفالٽ -14 LUFS جي چوڌاري ويھي ٿو.",
+    "saved": "ترجيحون محفوظ ڪيون ويون"
+  },
+  "guide": {
+    "title": "سونو رڪارڊنگ گائيڊ",
+    "subtitle": "آواز ۽ گٽار کي ڪيئن پڪڙيو وڃي ته بهترين نتيجا حاصل ڪن.",
+    "intro": "سنو صاف، غير واضح حوالن سان بهترين ڪم ڪري ٿو. هي گائيڊ تيار ڪري ٿو، حدف جي سطح، ۽ 3-5 منٽ رڪارڊنگ اسڪرپٽ.",
+    "sections": {
+      "prep": {
+        "title": "تياري",
+        "body": "هڪ علاج ٿيل ڪمري ۾ رڪارڊ ڪريو يا هڪ ڪافي نرم مواد سان گڏ (پردا، قالين، هڪ الماري ۾ ڪپڙا). مداحن کي بند ڪريو ۽ ڪجھ به جيڪو hums. رڪارڊنگ کان پهريان 5 منٽن لاءِ پنهنجو آواز گرم ڪريو."
+      },
+      "levels": {
+        "title": "سطحون: -12 کان -6 ڊي بي ايف ايس",
+        "body": "ميٽر تي -12 ۽ -6 dBFS جي وچ ۾ چوٽي لاء مقصد. انهي حد کان هيٺ، پس منظر جو شور وڌيڪ قابل ذڪر ٿيندو؛ ان جي مٿان، ڇڪڻ جو خطرو وڌي ٿو. شروع ڪرڻ کان پهريان پنهنجو فائدو مقرر ڪرڻ لاءِ رڪارڊ واري صفحي تي ميٽر استعمال ڪريو."
+      },
+      "distance": {
+        "title": "مائڪ فاصلو: 15-30 سينٽ",
+        "body": "مائڪروفون کان 15 کان 30 سينٽي ميٽر رکو. ان کان وڌيڪ ويجھو plosives ۽ قربت جو اثر؛ پري پري کان وڌيڪ ڪمرو ريورب ۽ شور کڻندو آهي."
+      },
+      "script": {
+        "title": "رڪارڊنگ اسڪرپٽ",
+        "warmup": "آواز گرم ڪرڻ (1-2 منٽ)",
+        "vowels": "مسلسل سُر - a, e, i, o, u",
+        "scales": "سادو ترازو، مٿي ۽ هيٺ",
+        "excerpt": "هڪ گيت جو اقتباس (8 کان 16 بار)",
+        "dynamics": "متحرڪ: نرم شروع ڪريو، بلند آواز ختم ڪريو",
+        "spoken_phrase": "هڪ ڳالهايل جملو، تنهن ڪري سونو توهان جي ڳائڻي ڍنگ کي پڙهي سگهي ٿو"
+      },
+      "expectations": {
+        "title": "سنو ڪهڙي توقع رکي ٿو",
+        "body": "WAV، 48 kHz، مونو، خشڪ (ڪو به ريورب يا اثر نه آهي)، حوالن جا 3 کان 5 منٽ. سڀ کان صاف، سڀ کان وڌيڪ نمائندو 2 منٽ کڻڻ عام طور تي بهترين نتيجا پيدا ڪري ٿو."
+      }
+    }
+  },
+  "status": {
+    "idea": "خيال",
+    "em_progresso": "جاري آهي",
+    "quase": "لڳ ڀڳ اتي",
+    "pronto": "تيار"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "سونو لاءِ مڪمل ڳائڻي اسڪرپٽ",
+      "desc": "5 ھدايت وارا منٽ: وارم اپ، واولز، اسڪيل، ٻه گيت جا اقتباس، متحرڪ، ۽ ڳالھائڻ وارو جملو."
+    },
+    "step": {
+      "warmup": "آواز گرم ڪرڻ",
+      "warmup_inst": "اٽڪل هڪ منٽ لاءِ yawns، لب ٽريلز (brrr)، ۽ نرم گونج سان مٿي ڪريو. رڪارڊ ڪرڻ جي ڪا ضرورت ناهي - اهو صرف ڳائڻ کان اڳ توهان جي ڳلي کي آرام ڪرڻ آهي.",
+      "vowels": "مسلسل آواز",
+      "vowels_inst": "هر واول کي رکو - a, e, i, o, u - 3 کان 4 سيڪنڊن لاءِ پنهنجي آرامده پچ تي، مستحڪم حجم سان. هي مدد ڪري ٿو سنو کي توهان جي آواز جو خالص ٽمبر کڻڻ.",
+      "scales": "اسڪيل مٿي ۽ هيٺ",
+      "scales_inst": "”لا“ يا ”نا“ تي هڪ سادي ماپ مٿي ۽ پوءِ هيٺ ڳايو. اهو مڪمل ٿيڻ جي ضرورت ناهي - مقصد توهان جي آواز جي حد کي نقشو ڪرڻ آهي.",
+      "section": "گيت جو اقتباس - حصو 1",
+      "section_inst": "گيت جا 8 کان 16 بار ڳايو، حقيقي نيت سان جيڪو توهان پهچائڻ چاهيو ٿا. ٽيڪنيڪل تڪميل تي وضاحت ۽ موجودگي کي ترجيح ڏيو.",
+      "section2": "گيت جو اقتباس - حصو 2",
+      "section2_inst": "ٻيو 8 کان 16 بار ڳايو - مثالي طور هڪ ڪورس يا هڪ سيڪشن جيڪو اڳئين هڪ سان مقابلو ڪري ٿو. وڌيڪ قسم جي مدد ڪري ٿي ماڊل کي توهان جي آواز سکڻ.",
+      "dynamics": "متحرڪ: نرم → بلند آواز",
+      "dynamics_inst": "ساڳيو جملو ڳايو جيڪو تمام نرم شروع ٿئي ٿو ۽ بلند آواز سان ختم ٿئي ٿو، توهان جي ڳلي کي دٻائڻ کان سواء. اهو ڏيکاري ٿو سنو توهان جي آواز جي متحرڪ رينج.",
+      "spoken": "ڳالهايل جملو",
+      "spoken_inst": "ڳالهايو - نه ڳايو - هڪ مختصر، قدرتي جملو، ڄڻ ته توهان چيٽنگ ڪري رهيا آهيو. هي مدد ڪري ٿو سنو کي توهان جي آواز جي حقيقي ٽمبر کي سڃاڻڻ ۾."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "بحالي",
+      "filter": "فلٽر",
+      "dynamics": "ڊائنامڪس",
+      "separation": "جدائي",
+      "quality": "ڪيفيت",
+      "utility": "افاديت",
+      "loudness": "زور"
+    },
+    "highpass": "هاء-پاس فلٽر",
+    "lowpass": "گھٽ-پاس فلٽر",
+    "denoise": "شور جي گھٽتائي",
+    "declip": "رد ڪرڻ",
+    "declick": "ڪلڪ/پاپ هٽائڻ",
+    "deesser": "ڊي ايسر",
+    "gate": "شور جو دروازو",
+    "compressor": "ڪمپريسر",
+    "limiter": "حد",
+    "eq": "برابري",
+    "normalize": "چوٽي نارمل ڪرڻ",
+    "loudness": "لوڊس نارملائيزيشن (LUFS)",
+    "reverb_reduce": "ردوبدل جي گھٽتائي",
+    "separate": "ماخذ جي جدائي",
+    "quality": "معيار جي واڌاري (مٿي)",
+    "trim_silence": "خاموشي تراشڻ",
+    "fade": "اُڀرڻ / ختم ٿيڻ",
+    "stereo_to_mono": "مونو ۾ تبديل ڪريو",
+    "resample": "ٻيهر نموني ڏيڻ"
+  },
+  "metatags": {
+    "tier": {
+      "1": "قابل اعتماد",
+      "2": "عام طور تي ڪم ڪري ٿو",
+      "3": "متغير",
+      "4": "جڳبو"
+    },
+    "category": {
+      "structure": "ساخت",
+      "vocal": "آواز",
+      "instrument": "اوزار",
+      "dynamics": "ڊائنامڪس",
+      "production": "پيداوار",
+      "mood": "مزاج"
+    },
+    "verse": "آيت",
+    "chorus": "ڪلاسيڪل",
+    "bridge": "پل",
+    "intro": "تعارف",
+    "outro": "آئوٽرو",
+    "hook": "ٿلهو",
+    "prechorus": "اڳڀرو",
+    "instrumental": "وسيلو",
+    "guitar_solo": "گٽار سولو",
+    "build_up": "ٺاھڻ",
+    "breakdown": "ڀڃ ڊاهه",
+    "spoken_word": "ڳالهايل لفظ",
+    "whispered": "ويس وڳا",
+    "harmonies": "هارمونيز",
+    "male_vocal": "مرد جو آواز",
+    "female_vocal": "عورت جو آواز",
+    "duet": "ڊيوٽ",
+    "acoustic": "صوتي",
+    "ad_lib": "ادل"
+  },
+  "presets": {
+    "clean_voice": "صاف آواز",
+    "voice_guitar_balanced": "متوازن آواز ۽ گٽار",
+    "podcast": "پوڊ ڪاسٽ",
+    "suno_ready": "سونو تيار",
+    "gentle_restore": "نرم بحالي",
+    "raw_passthrough": "ڪابه پروسيسنگ"
+  },
+  "errors": {
+    "unknown": "ڪجهه غلط ٿي ويو.",
+    "network": "سرور تائين پهچي نه سگهيو.",
+    "validation_error": "داخل ڪيل معلومات چيڪ ڪريو.",
+    "not_found": "شيءِ نه ملي.",
+    "project_not_found": "پروجيڪٽ نه مليو.",
+    "take_not_found": "کڻي نه مليو.",
+    "album_not_found": "البم نه مليو.",
+    "preset_not_found": "اڳواٽ نه مليو.",
+    "template_not_found": "سانچو نه مليو.",
+    "device_busy": "آڊيو ڊوائيس ٻئي پروگرام جي استعمال ۾ آهي.",
+    "device_not_found": "آڊيو ڊوائيس نه ملي.",
+    "already_recording": "رڪارڊنگ اڳ ۾ ئي جاري آهي.",
+    "ffmpeg_missing": "FFmpeg انسٽال ٿيل نه آهي - انسٽال ڪريو هن فائل کي تبديل ڪرڻ لاءِ.",
+    "disk_full": "ڪافي ڊسڪ اسپيس ناهي.",
+    "permission_denied": "ڏنل رستي لاءِ اجازت رد ڪئي وئي.",
+    "import_path_not_found": "درآمد جو رستو نه مليو.",
+    "job_failed": "پروسيسنگ ناڪام ٿي.",
+    "job_cancelled": "پروسيسنگ منسوخ ڪئي وئي.",
+    "process_failed": "وٺڻ تي عمل ڪرڻ ۾ ناڪام ٿيو.",
+    "export_failed": "فائل برآمد ڪرڻ ۾ ناڪام.",
+    "record_failed": "رڪارڊنگ شروع ڪرڻ ۾ ناڪام."
+  },
+  "jobs": {
+    "status": {
+      "queued": "قطار",
+      "running": "هلندڙ",
+      "done": "ٿي ويو",
+      "error": "ناڪام ٿيو",
+      "cancelled": "منسوخ ٿيل"
+    },
+    "kind": {
+      "process": "پروسيسنگ",
+      "export": "برآمد",
+      "import": "درآمد",
+      "record": "رڪارڊنگ"
+    }
+  }
+}

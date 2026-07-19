@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Kä ödiö Ki̱li̱nɛr"
+  },
+  "nav": {
+    "library": "Library",
+    "record": "Rekɔrd",
+    "import": "Käm raar",
+    "templates": "Tɛmpi̱lɛtni̱",
+    "settings": "Thɛttiŋni̱",
+    "guide": "Guide"
+  },
+  "common": {
+    "save": "Käp",
+    "saving": "Käpdɛ...",
+    "saved": "Caa gaŋ",
+    "cancel": "Känthɛl",
+    "close": "Ga̱ŋ",
+    "delete": "Delete",
+    "edit": "Ɛdit",
+    "create": "Ca̱k",
+    "search": "Gör",
+    "loading": "Löading...",
+    "error": "Duer",
+    "retry": "Ɣɔ̱nɛ nyɔk",
+    "confirm": "Kɔnpääm",
+    "back": "Back",
+    "next": "Min dɔ̱ŋ",
+    "continue": "Guɔ̱r",
+    "finish": "Thuk",
+    "copy": "Kɔpi̱",
+    "copied": "Kɔpi̱",
+    "download": "Da̱wnlod",
+    "upload": "Kämdɛ piny",
+    "none": "/Thiɛlɛ",
+    "all": "Kɛn diaal",
+    "yes": "Ɣɔ̱ɔ̱n",
+    "no": "/Ciɛ jɛn",
+    "select": "Kuɛn",
+    "optional": "opcinal",
+    "required": "görkɛ",
+    "unsaved_changes": "Kä tin ca gɛr tin /ka̱n tɔ̱w",
+    "name": "Ciöt",
+    "status": "I̱thtati̱th",
+    "type": "Ta̱a̱p",
+    "actions": "Lät",
+    "empty": "Baŋ",
+    "browse": "Guɛc",
+    "remove": "Kämni jɛ raar",
+    "add": "Matdɛ",
+    "rename": "Riet ciötdɛ",
+    "duplicate": "Dupli̱kët",
+    "warning": "La̱r naath",
+    "locked": "Caa jɛ gäk",
+    "builtin": "Built-rɛy",
+    "custom": "Ka̱thtɔm",
+    "untitled": "/Thiɛlɛ ciöt",
+    "select_placeholder": "Kuɛn..."
+  },
+  "library": {
+    "title": "Library",
+    "subtitle": "Pöröjɛkni̱ jɔwdu kɛnɛ gitardu, ɛ tuɔɔk ni̱ kä cär ɛ wä kä ka̱m raar.",
+    "new_project": "Pöröjɛk mi̱ pay la̱t",
+    "new_album": "Albäm mi̱ pay ben",
+    "search_placeholder": "Gör kɛ ciöt...",
+    "view": {
+      "grid": "Gi̱ri̱d",
+      "albums": "Albämni̱"
+    },
+    "filters": {
+      "all": "Kɛn diaal"
+    },
+    "take_count_one": " {{count}} naŋ",
+    "take_count_other": " {{count}} naŋɛ jɛ",
+    "updated_at": "Cua nyɔk kɛ lätni̱ {{date}} ",
+    "no_results": {
+      "title": "/Thiɛlɛ pröjekni̱ ti̱ ca jiek",
+      "description": "Ɣɔ̱nɛ ɛn ɣöö biɛ riali̱kä kɛ gör kiɛ ta̱a̱ pi̱li̱tɛrä."
+    },
+    "empty": {
+      "title": "Library du te baaŋ",
+      "description": "Tuɔk pröjek mi̱ pay ben ɛ tuɔɔk ni̱ kä tukdɛ, kiɛ import bɛ naŋ ni̱ min ci̱ kɔn te thi̱n ni̱ wal kä di̱thki̱.",
+      "cta_import": "Kämdɛ raar kä pöldɛr",
+      "cta_new": "Ca̱k pröjek"
+    },
+    "project_dialog": {
+      "title": "Pöröjɛk mi̱ pay la̱t",
+      "description": "Kämni jɛ ciöt kä kuany ca̱p in biɛ la̱th thi̱n.",
+      "name_label": "Ciöt pröjek",
+      "name_placeholder": "c.d. Thammer Rain",
+      "mode_label": "Modɛl",
+      "mode": {
+        "voice": "Jiw kärɔa",
+        "voice_guitar": "Jiw + gitar"
+      },
+      "submit": "Ca̱k pröjek"
+    },
+    "album_dialog": {
+      "title": "Albäm mi̱ pay ben",
+      "description": "Pöröjɛkni̱ ti̱ thi̱ääk kɛ buɔ̱n rɛy albämä.",
+      "name_label": "Ciöt albämä",
+      "name_placeholder": "c.d. Ɣɔ̱tɔm EP",
+      "submit": "Ca̱k albäm"
+    },
+    "album": {
+      "untitled": "Albäm mi̱ thiɛl ciöt",
+      "members_count_one": " {{count}} pröjek",
+      "members_count_other": " {{count}} pröjekni̱",
+      "empty": "/Thiɛlɛ pröjekni̱ rɛy albämä ɛmɛ ŋotdɛ.",
+      "delete_confirm_title": "Kämni albäm raar?",
+      "delete_confirm_description": "Pöröjɛkni̱ /ca kɛ bi̱ woc, ɛ ni̱ ɣöö /ca kɛ bi̱ mat kä \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Kämdɛ raar \" {{name}} \"?",
+      "confirm_description": "Nɛmɛ wocɛ pröjek kɛnɛ ɛni̱ min ca naŋ rɛydɛ. Nɛmɛ /ca jɛ dee luäŋ kɛ loc jɔk."
+    }
+  },
+  "record": {
+    "title": "Rekɔrd",
+    "subtitle": "Käp clean take, guic lɛbeli̱ku, kä guɔ̱ɔ̱r script.",
+    "project_label": "Pöröjɛk",
+    "project_placeholder": "Kuɛn pröjek",
+    "project_create_quick": "Ca̱k pröjek mi̱ pɛ̈th...",
+    "device_label": "Input di̱bai̱",
+    "device_placeholder": "Kuɛn kuak",
+    "device_default_badge": "Thi̱thtɛm depuɔlt",
+    "device_wasapi_badge": "WATHAPI",
+    "device_empty": "/Thiɛlɛ kuak input ti̱ ca jiek.",
+    "monitor_button": "Moni̱tɔr",
+    "monitor_stop_button": "Cuɔ̱ŋ kɛ gui̱c",
+    "record_button": "Rekɔrd",
+    "stop_button": "Cuɔ̱ŋ",
+    "elapsed_label": "Gua̱th in ci̱ thuɔ̱k",
+    "status": {
+      "idle": "Idle",
+      "monitoring": "Moni̱tɔriŋ",
+      "recording": "Rekɔrdiŋ",
+      "stopped": "Cuɛ cuɔ̱ŋ"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Pi̱i̱k",
+      "clip": "Klip"
+    },
+    "guide": {
+      "title": "Guided thɛciɔn",
+      "subtitle": "Bi ŋi̱i̱c ji nyuɔ̱th dup tin ca gɔär piny kɛ ca̱p, ni kä warm-up ɛ wä kä ruac in ca lat.",
+      "loading": "Loading i̱thki̱ri̱p...",
+      "unavailable": "Kä guided session /cɛ te thi̱n kä thärbäth ŋotdɛ.",
+      "select_project_device": "Kuɛn pöröjɛk kɛnɛ kuak tin ba la̱th thi̱n kɛ ɣöö ba ca̱p la̱th thi̱n ɛ tuɔɔk ni̱ ɛn wa̱nɛ.",
+      "progress": " {{done}} kä {{total}} ka̱a̱th",
+      "start_timer": "Tuk thaak",
+      "skip_timer": "Tha̱mɛr ba̱ny piny",
+      "record_step": "Gɔ̱ri ka̱a̱th ɛmɛ piny",
+      "stop_step": "Cuɔ̱ŋ kɛ ri̱kɔrdiŋ",
+      "mark_done": "Cuɛ thuɔ̱k — ka̱a̱th in dɔ̱ŋ",
+      "step_recorded": "Kämni jɛ raar",
+      "no_record_step": "Warm-up ka̱a̱th - thiɛlɛ ri̱kɔrdiŋ mi̱ go̱o̱r.",
+      "bars_hint": "Kɛ kui̱ {{bars}} barni̱",
+      "complete_title": "I̱thki̱ri̱p cɛ thuɔ̱k!",
+      "complete_body": "Ji̱n ci̱ stepni̱ diaal tin ca gɔ̱r piny gɔ̱r piny. Cuɛ loc kä Audio tab kä pröjek kä kuany min nhɔk lɔcdu jɛ.",
+      "restart": "Ri̱thki̱ri̱p nyɔk kɛ tuk"
+    },
+    "best2min": {
+      "button": "Gör minitni 2 tin gɔw (Suno)",
+      "running": "Anali̱thi̱ŋ kä naŋ...",
+      "score_label": "I̱thkɔɔr",
+      "hint": "Run ɛ enerji̱ kɛnɛ clarity anali̱thi̱th rɛy gua̱thdɛ kɛɛliw kɛ gördɛ min bumni̱ jɛn kä 2-minit wär-nyiini̱-ji̱n ŋotdɛ deri̱ rɛŋdɛ riali̱kä kɛ tet kɛ kɔrɛ.",
+      "chart_caption": "I̱thkɔɔr kä wär-nyiini̱",
+      "unavailable": "Kä min gɔaa-2-minitni̱ anali̱thi̱th /cɛ te thi̱n kä thärber ɛmɛ ŋotdɛ."
+    },
+    "takes_title": "Kä naŋdɛ kä thɛciɔn ɛmɛ",
+    "takes_empty": "/Thiɛlɛ ti̱ caa ka̱m raar rɛy thɛciɔn ɛmɛ ŋotdɛ.",
+    "open_in_project": "Lëp rɛy pröjek",
+    "ws_disconnected": "Kä nyɔkdɛ kɛ röm kɛ lɛbel mi̱ti̱r...",
+    "select_project_first": "Kuɛn pröjek mi̱ biɛ tok.",
+    "select_device_first": "Kuɛn duŋ input."
+  },
+  "project": {
+    "back_to_library": "Luny kä library",
+    "header": {
+      "status_label": "I̱thtati̱th",
+      "cover_upload": "Kämni jɛ piny",
+      "cover_remove": "Kämni jɛ raar",
+      "name_placeholder": "Ciöt pröjek",
+      "links_title": "Linkni̱",
+      "add_link": "Matdɛ link",
+      "mode": {
+        "voice": "Jiw kärɔa",
+        "voice_guitar": "Jiw + gitar"
+      }
+    },
+    "tabs": {
+      "audio": "Audiö",
+      "lyrics": "Rie̱e̱t",
+      "prompts": "Prömptni̱",
+      "notes": "Ŋäc ŋɔaani̱"
+    },
+    "audio": {
+      "takes_title": "La naŋɛ",
+      "no_takes": {
+        "title": "/Thiɛlɛ mi̱ caa naŋ",
+        "description": "Rekɔrd mi̱ pay ben kiɛ import pai̱li̱ tin te thi̱n."
+      },
+      "record_new": "Rekɔrd mi̱ pay ben",
+      "rating": "Kä thëm",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Cua la̱t"
+      },
+      "variant_placeholder": "Bärciɔn",
+      "process_button": "Pröthɛth",
+      "export_button": "Ɛkpörth",
+      "delete_take_confirm_title": "Delete nɛmɛ naŋ?",
+      "delete_take_confirm_description": "Kä raw audio kɛnɛ ɛni̱ version in ca la̱t ba kɛ woc.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Ca la̱t"
+      },
+      "origin": {
+        "recorded": "Ca gɔ̱r piny",
+        "imported": "Cua nööŋ raar"
+      },
+      "session_label_placeholder": "Thɛciɔn lɛbel (mi̱ görkɛ)",
+      "duration": "Gua̱th",
+      "sample_rate": "Tha̱mpuɔl rɛt",
+      "channels": "Canɛli̱",
+      "created_at": "Ca gɔ̱r piny"
+    },
+    "pipeline": {
+      "title": "Pröthɛthiŋ cɛɛn",
+      "preset_label": "Prɛthɛt",
+      "preset_none": "Käthtɔm cɛɛn",
+      "preset_save": "Käpdɛ cie min ca la̱th piny",
+      "stage_locked": "Caa jɛ gäk",
+      "stage_requires_extra": "Go̱o̱rɛ extra mi̱ /ka̱n la̱th thi̱n",
+      "process_button": "Pröthɛth naŋ",
+      "processing": "La̱tdɛ...",
+      "job_queued": "Cua kɛ kuëŋ piny...",
+      "job_running": "La̱tdɛ...",
+      "job_done": "Ca thuɔ̱k",
+      "job_error": "Cuɛ pa̱k",
+      "job_cancelled": "Ca woc",
+      "cancel_job": "Känthɛl",
+      "no_stages": "/Thiɛlɛ thɛji̱ni̱ ti̱ te thi̱n."
+    },
+    "export": {
+      "title": "Ɛkpörth naŋ",
+      "description": "Render ɛ pai̱l in jɔak kä berciɔn min ca la̱t.",
+      "variant_label": "Bärciɔn",
+      "format_label": "Puɔrmat",
+      "preset_label": "Ɛkpörth prɛthɛt",
+      "range_label": "Rɛnj",
+      "range_full": "Bäärädɛ kɛɛliw",
+      "range_custom": "Käthtɔm rɛnj",
+      "start_label": "Tuk(ni̱)",
+      "end_label": "Thuɔ̱k(ni̱)",
+      "submit": "Ɛkpörth",
+      "progress": "Renderiŋ pai̱l...",
+      "download_ready": "Pai̱l cɛ riali̱kä",
+      "download_button": "Da̱wnlod pai̱l"
+    },
+    "notes": {
+      "placeholder": "Notethni̱ ti̱ thiɛl yio̱w kɛ kui̱ pröjek ɛmɛ...",
+      "saved_at": "Caa tɔ̱w kä {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Gɔ̱ri riet ɛmɔ ɛn wa̱nɛ. La̱tdɛ palɛt min te gekä kɛ ɣöö bɛ Suno meta-tagni̱ la̱th thi̱n.",
+      "saved_at": "Caa tɔ̱w kä {{time}} ",
+      "saving": "Käpdɛ...",
+      "versions": "Bercini̱",
+      "versions_empty": "/Thiɛlɛ bercini̱ ti̱ ca tɔ̱w.",
+      "version_preview": "Prebiew",
+      "restore": "Luɔ̱cdɛ ɛn berciɔn ɛmɛ",
+      "restore_confirm_title": "Kämni jɛ raar ɛn berciɔn ɛmɛ?",
+      "restore_confirm_description": "Kä min ca gɔ̱r ɛntäämɛ ba cu gɛr kɛ min ca tɔ̱w kä {{date}} .",
+      "metatags_title": "Meta-tɛgni̱",
+      "metatags_hint": "Cɔl tag kɛ ɣöö biɛ la̱th kä kurthɔr.",
+      "metatags_placebo_warning": "/Ka̱n jɛ nyoth - dɔ̱ŋ /thiɛlɛ mi̱ cɛ gɛr kä min bi̱ ben raar.",
+      "metatags_empty": "/Thiɛlɛ meta-tagni̱ ti̱ ca gɔ̱r piny."
+    },
+    "prompts": {
+      "style_title": "I̱thta̱y prömp",
+      "lyrics_title": "Lirikni̱ pɛ̈th",
+      "template_label": "Tɛmpi̱lɛt",
+      "template_none": "/Thiɛlɛ tɛmpi̱lɛt",
+      "variables_title": "Ba̱riabɔli̱",
+      "preview_title": "Prebiew",
+      "preview_empty": "Pi̱k template kä thiäŋ rɛy ba̱riabɔli̱ kɛ ɣöö bi̱ prebiew nɛn.",
+      "char_count": " {{count}} ciɛŋni̱",
+      "char_count_warning": "I̱thta̱y prɔmptni̱ ti̱ läny 1000 karaktɛri̱ dɔ̱ŋ ba kɛ ŋok ɛ Thunö.",
+      "copy": "Kɔpi̱",
+      "copied": "Cua kɔpi̱ kä ki̱li̱pbörd",
+      "save_to_project": "Käpdɛ kä pröjek",
+      "saved_to_project": "Prömpt ca tɔ̱w kä pröjek",
+      "history_title": "Ɣi̱thtöri̱",
+      "history_empty": "/Thiɛlɛ bercini̱ tëë wal.",
+      "current_label": "Kärɛnt"
+    },
+    "stems": {
+      "title": "Kä jɔw kɛnɛ gitar",
+      "separate_button": "Kä dääk jɔaw kɛnɛ gitar",
+      "running": "Kä dääk...",
+      "vocals": "Bökali̱",
+      "instrumental": "Ini̱thti̱rumɛntal",
+      "process_stem": "La̱tdɛ i̱thtem ɛmɛ",
+      "empty": "Ɛn take ɛmɛ /ka̱nɛ ni̱ da̱a̱k. Run separation kɛ ɣöö ba jɔw kɛnɛ gitar liŋ rɛydɛ kärɔa.",
+      "capability_missing": "Kä dääk gua̱thni̱ tin tuɔɔk thi̱n /ka̱nɛ la̱th kä thärbä ɛmɛ.",
+      "unavailable": "Kä dääk jɔaw/gitar /cɛ te thi̱n kä thärbä ɛmɛ ŋotdɛ."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Kä",
+    "boolean_off": "Off"
+  },
+  "import": {
+    "title": "Käm raar",
+    "subtitle": "Bër pröjekni̱ tin te thi̱n ni̱ wal kä di̱thki̱ rɛy library.",
+    "step_indicator": "Ka̱a̱th {{current}} kä {{total}} ",
+    "step1": {
+      "title": "Gör pöldɛr",
+      "description": "Nyuɔ̱thɛ root folder kɛ pröjekni̱ku kɛnɛ tra̱kni̱ku.",
+      "path_label": "Duɔ̱ɔ̱p puɔldɛrä",
+      "path_placeholder": "c.d. E:\\Rɔbbni̱\\Prai̱d\\Mudhik\\ROBBTH",
+      "recent_label": "Ɛn gua̱a̱th ɛ thia̱kɛ",
+      "scan_button": "I̱thkan pöldɛr",
+      "scanning": "I̱thkanniŋ...",
+      "ffmpeg_warning": "FFmpeg /ka̱nɛ jiek — pai̱li̱ tin görkɛ ɣöö ba kɛ gɛr ba kɛ woc.",
+      "folders_found_one": " {{count}} pöldɛr ca jiek",
+      "folders_found_other": " {{count}} ca pöldɛri̱ jiek",
+      "unmatched_files_one": " {{count}} pai̱l mi̱ /ka̱n ŋic",
+      "unmatched_files_other": " {{count}} pai̱li̱ ti̱ /ka̱n ŋic"
+    },
+    "step2": {
+      "title": "Kä guic ŋɔak",
+      "description": "Guic ciööt, ta̱a̱diɛn, kɛnɛ min ba nööŋ ɛ ŋot käni jɛ ni ŋa̱c.",
+      "select_all": "Kuɛn kɛn diaal",
+      "table": {
+        "folder": "Kä gua̱a̱th in tuɔɔk thi̱n",
+        "name": "Ciöt pröjek",
+        "status": "I̱thtati̱th",
+        "audio": "Audiö",
+        "lyrics": "Rie̱e̱t",
+        "cover": "Kuɔ̱mdɛ",
+        "album": "Albäm"
+      },
+      "audio_include_one": " {{count}} pai̱l ca kuany",
+      "audio_include_other": " {{count}} pai̱li̱ tin ca kuany",
+      "no_audio": "/Thiɛlɛ jɔw mi̱ ca jiek",
+      "no_lyrics": "/Thiɛlɛ rie̱e̱t ti̱ ca jiek",
+      "no_cover": "/Thiɛlɛ mi̱ kum",
+      "warnings_title": "La̱r lär"
+    },
+    "step3": {
+      "title": "Käm raar",
+      "description": "Kɔnpi̱m kɛ kɔpi̱ pai̱li̱ kɛnɛ la̱t pröjekni̱.",
+      "copy_originals": "Kɔpi̱ pai̱li̱ tin nhiam rɛy library",
+      "execute_button": "Tuk import",
+      "progress_title": "Impɔ̱rtiŋ...",
+      "created_count": "Cakɛ: {{count}} ",
+      "skipped_count": "Ca ba̱ny piny: {{count}} ",
+      "done_title": "Import cɛ thuɔ̱k",
+      "done_description": "Kä pröjekni̱ tin te piny cua kɛ la̱t rɛy library du.",
+      "view_project": "Pöröjek mi̱ ca lɛp",
+      "start_over": "Import mi̱ pay ben"
+    }
+  },
+  "templates": {
+    "title": "Tɛmpi̱lɛtni̱",
+    "subtitle": "Kä tɛmpi̱lɛtni̱ ti̱ thi̱a̱k ti̱ dëë nyɔk kɛ lätni̱ kɛnɛ meta-tagni̱ kɛ kui̱ Suno.",
+    "tabs": {
+      "prompts": "Prömpt tɛmpi̱lɛtni̱",
+      "metatags": "Meta-tɛgni̱"
+    },
+    "new_template": "Tɛmpi̱lɛt mi̱ pay ben",
+    "kind": {
+      "style": "I̱thtai̱l",
+      "lyrics": "Rie̱e̱t"
+    },
+    "kind_label": "Kind",
+    "delete_confirm_title": "Kämdɛ raar kä tɛmpi̱lɛt \" {{name}} \"?",
+    "delete_confirm_description": "Nɛmɛ /ca jɛ dee luäŋ kɛ loc jɔk.",
+    "empty": "/Thiɛlɛ tɛmpi̱lɛtni̱ ti̱ ŋot.",
+    "editor": {
+      "title_new": "Tɛmpi̱lɛt mi̱ pay ben",
+      "title_edit": "Ɛdit tɛmpi̱lɛt",
+      "name_label": "Ciöt",
+      "name_placeholder": "c.d. Akuthtik ballad",
+      "kind_label": "Kind",
+      "template_label": "Tɛmplɛt text",
+      "template_hint": "Mark gua̱a̱th in te ba̱riabɔl kɛl thi̱n kɛ ci̱ötdɛ min ca kum rɛy braceni̱ ti̱ ca rɔ̱ ri̱w - cäät, ɛn ba̱riabɔl mi̱ ci̱ötdɛ \"jɛnre\" bɛ cu ben ɛ la genre mi̱ ca kum rɛy braceni̱ rɛw ti̱ lɛpkɛ kɛnɛ rɛw ti̱ ca gäk.",
+      "variables_label": "Ba̱riabɔli̱",
+      "variable_add": "Matdɛ ba̱riabɔl",
+      "variable_name": "Ki̱i̱",
+      "variable_label": "Label",
+      "variable_type": "Ta̱a̱p",
+      "variable_type_string": "Tɛkth",
+      "variable_type_select": "Thi̱ŋgil thɛlɛk",
+      "variable_type_multiselect": "Multi̱-thɛlɛk",
+      "variable_type_number": "Nämbär",
+      "variable_type_boolean": "Ɣɔ̱ɔ̱n//Ciɛ jɛn",
+      "variable_options": "Opcini̱ (kɔmma-mi̱ ca da̱a̱k)",
+      "variable_required": "Mi̱ görkɛ",
+      "save": "Tɛmpi̱lɛt käp"
+    },
+    "metatags": {
+      "title": "Meta-tɛgni̱",
+      "subtitle": "I̱thtra̱kciɛral kɛnɛ i̱thtai̱l tagni̱ Suno ŋicɛ rɛydɛ li̱rikni̱.",
+      "new_tag": "Tag mi̱ pay ben",
+      "tag_label": "Tag",
+      "tag_placeholder": "c.d. gitar-thölö",
+      "category_label": "Kätegöri̱",
+      "tier_label": "Reliabili̱ti̱",
+      "tier_legend_title": "Reliabili̱ti̱ lɛjɛnd",
+      "tier_legend": {
+        "1": "Tier 1 — ca gɔ̱r piny kä te thi̱n",
+        "2": "Tier 2 — ni̱ ciaaŋ lätdɛ",
+        "3": "Tier 3 - ba̱riabɔl i̱pɛ̈kt",
+        "4": "Tier 4 — pla̱thëbö, mi̱ /ka̱nɛ ni̱ nyoth"
+      },
+      "description_label": "Latdɛ",
+      "delete_confirm_title": "Kämni tag \" {{tag}} \" raar?",
+      "empty": "/Thiɛlɛ meta-tagni̱ ti̱ caa riali̱kä ŋotdɛ."
+    }
+  },
+  "settings": {
+    "title": "Thɛttiŋni̱",
+    "subtitle": "Lääri̱ thithtɛmä, thok, kɛnɛ tin nhɔk naath kɛ kɛ.",
+    "system_info_title": "Thi̱thtɛm",
+    "version": "Bärciɔn",
+    "data_dir": "Data pöldɛr",
+    "ffmpeg_status": "FFmpɛg",
+    "ffmpeg_available": "Tëë thi̱n",
+    "ffmpeg_missing": "/Ka̱n jɛ jek",
+    "capabilities_title": "Inthtɔli̱d kapabili̱ti̱ni̱",
+    "capability": {
+      "denoise": "Jak jɔaw kä kuiy",
+      "quality": "Kuɔ̱li̱ti̱ enhancemɛn",
+      "separate": "Kä dääk gua̱a̱th in tuɔɔk thi̱n",
+      "ffmpeg": "FFmpeg gër"
+    },
+    "capability_available": "Tëë thi̱n",
+    "capability_unavailable": "/Cɛ te thi̱n",
+    "gpu_title": "GPU pɛ̈thdɛ",
+    "gpu": {
+      "torch_cuda": "Pai̱Tɔrc CUDA",
+      "ort_providers": "ONNX Runtai̱m pröbai̱dɛri̱"
+    },
+    "gpu_none": "/Thiɛlɛ GPU mi̱ caa jiek",
+    "language_title": "Thok",
+    "language": {
+      "pt-BR": "Pörtugal(Bra̱thil)",
+      "en": "Liŋli̱thni"
+    },
+    "theme_title": "Jɔacdɛ",
+    "theme": {
+      "dark": "Col",
+      "light": "Buay"
+    },
+    "defaults_title": "Ɛkpörth depuɔlti̱ni̱",
+    "lufs_target_label": "Targɛt LUFS",
+    "lufs_target_hint": "La̱tdɛ cie tuk ruac mi̱ ca la̱th lät mi̱ naŋkɛ ɛ ɣɛkpörti̱. Suno'ä depuɔltdɛ nyuurɛ gekä -14 LUFS.",
+    "saved": "Prepɛrɛncini̱ tin ca tɔ̱w"
+  },
+  "guide": {
+    "title": "Suno ri̱kɔrdiŋ guide",
+    "subtitle": "Ɛn ɣöö deri jɔw kɛnɛ guitar käp i̱di min bi̱ ben raar ɛ gɔaa.",
+    "intro": "Suno lätdɛ a gɔaa kɛ ti̱ wicwic, ti̱ /thiɛl diw. Guide ɛmɛ matdɛ rialikä, targɛt lɛbeli̱, kɛnɛ minitni 3-5 ri̱kɔrdiŋ i̱thki̱ri̱p.",
+    "sections": {
+      "prep": {
+        "title": "Rialikä",
+        "body": "Rekɔrdi̱ rɛy duëël mi̱ ca riali̱kä kiɛ duel mi̱ tekɛ ŋɔak ti̱ ŋuan ti̱ kɔ̱c (kurti̱ni̱, rugni̱, bieyni̱ rɛy tɔ̱ɔ̱wä). Turn off fans kɛnɛ ɛni̱ duɔ̱ɔ̱r mi̱ bum. La̱t jɔwdu kɛ minitni 5 ɛ ŋot käni jɛ ni la̱th rɛy ri̱kɔrdiŋä."
+      },
+      "levels": {
+        "title": "Lebeli̱: -12 ɛ wä kä -6 dBFS",
+        "body": "Aim kɛ kui̱ pi̱i̱kni̱ kam -12 kɛnɛ -6 dBFS kä mi̱ti̱r. Piny kä rɛŋ ɛmɔ, jɔw bɛkgi̱rɔɔn bɛ cu ben ɛ la mi̱ ŋa̱ckɛ ɛlɔ̱ŋ; nhial kä jɛ, clipping rithki̱ bɛ rɔ jiɛc. La̱tdɛ mi̱ti̱r kä wargak Record kɛ ɣöö biɛ kulɛ la̱th kä gaindu ɛ ŋot käni jɛ ni tok."
+      },
+      "distance": {
+        "title": "Mic na̱ndɛ: 15-30 cm",
+        "body": "Käpni 15 ɛ wä kä 30 cm kä mai̱kröpuɔɔn. Kä thia̱kɛ mi̱ läny min la rëpdɛ ni̱ plöthi̱bni̱ kɛnɛ pröximi̱ti̱ i̱pɛkt; kä na̱n ɛlɔ̱ŋ käpni̱ rum reverb kɛnɛ jɔw."
+      },
+      "script": {
+        "title": "Rikɔrdiŋ i̱thki̱ri̱p",
+        "warmup": "La̱t jɔaw (minitni̱ 1-2)",
+        "vowels": "Kä buɔyni̱ tin ca ŋok — a, e, i, o, u",
+        "scales": "I̱thkiɛli̱ ti̱ thi̱a̱k, nhial kɛnɛ piny",
+        "excerpt": "Ɛn dit mi̱ ca ka̱m raar (8 ɛ wä kä 16 bars)",
+        "dynamics": "Dai̱namikni̱: tuɔk kɛ jɔw mi̱ tɔt, thuɔ̱k kɛ jɔw mi̱ di̱i̱t",
+        "spoken_phrase": "Ruac kɛl mi̱ ca lat, kɛ kui̱c ɛmɔ Suno bɛ jɔwdu kuɛn"
+      },
+      "expectations": {
+        "title": "Min liɛpkɛ ɛ Suno",
+        "body": "WAV, 48 kHz, mono, mi̱ ci̱ kööt (thiɛlɛ mi̱ ci̱ rɔ ri̱t kiɛ mi̱ ci̱ rɔ gɛr), minitni̱ da̱ŋ 3 ɛ wä kä 5 ti̱ ca la̱th thi̱n. Kä min wicwic, min cuŋ ɛlɔ̱ŋ ɛ minitni̱ da̱ŋ rɛw tin naŋkɛ ni̱ ciaaŋ la no̱o̱ŋɛ min gɔaa ni̱ jɛn."
+      }
+    }
+  },
+  "status": {
+    "idea": "Cär",
+    "em_progresso": "Rɛy la̱tdɛ",
+    "quase": "Cuɛ thia̱k ɛn ɣöö bɛ te thi̱n",
+    "pronto": "Rialikä"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Bökal i̱thki̱ri̱p kɛɛliw kɛ kui̱ Suno",
+      "desc": "Minitni̱ da̱ŋ 5 ti̱ ca guir: lëthdɛ, buɔ̱lni̱, i̱thkiɛli̱, diit da̱ŋ rɛw ti̱ ca ka̱m raar, dai̱na̱mikni̱, kɛnɛ riet mi̱ ca lat."
+    },
+    "step": {
+      "warmup": "Bökal warm-ap",
+      "warmup_inst": "La̱tdɛ nhial kɛ pɛ̈th, lip trills (brrr), kɛnɛ pɛ̈th mi̱ tɔt kɛ minit kɛl. /Cɛ go̱o̱r ni̱ ɣöö ba ri̱kɔrdi̱ — ɛ ɣöö ba thokdu jakä lɔr ɛ ŋot käni dit.",
+      "vowels": "Tha̱thtɛned buɔlɛli̱",
+      "vowels_inst": "Gɔ̱ri thok kɛl — a, e, i, o, u — kɛ thɛkɔndi̱ni̱ 3 ɛ wä kä 4 gua̱a̱th in ci̱ jɔwdu rɔal thi̱n, kɛ jɔw mi̱ /ci̱ rɔ gɛr. Nɛmɛ luäkɛ Suno kɛ ka̱n timbre in thuɔ̱k kä jɔwdu.",
+      "scales": "I̱thkiɛli̱ nhial kɛnɛ piny",
+      "scales_inst": "Diit kɛ i̱thkiɛl mi̱ thi̱a̱k nhial kä kɛ kɔrɛ piny,kä \"la\" kiɛ \"na\". /Cɛ go̱o̱r ni̱ ɣöö bɛ kulɛ gɔaa kɛɛliw — min go̱o̱ri ɛ ɣöö bi̱ jɔwdu ku lɛ jɔɔc.",
+      "section": "Kä diit tin ca ka̱m raar — tha̱a̱ŋdɛ 1",
+      "section_inst": "La̱tdɛ kɛ bar 8 ɛ wä kä 16 rɛy diitdä, kɛ luɔtdɛ min thuɔ̱k min go̱o̱ri ɣöö biɛ lat. Prioritize(la̱t) ɛ jɔc kɛnɛ ta̱a̱dɛ thi̱n kä tɛkni̱kal perpɛkciɔn.",
+      "section2": "Kä diit tin ca ka̱m raar — tha̱a̱ŋdɛ 2",
+      "section2_inst": "Diit kɔ̱kiɛn ti̱ 8 ɛ wä kä 16 barni̱-ɛ gɔaaɛ ɛn ɣöö ɛ kɔra̱th kiɛ tha̱a̱ŋdɛ mi̱ gua̱c kɛ min nhiam. Kä ti̱ ŋuan ti̱ gööl luäkɛ mödɛl kɛ ɣöö bɛ jɔwdu ŋa̱c.",
+      "dynamics": "Dai̱namikni̱: mi̱ kɔ̱c → mi̱ di̱i̱t",
+      "dynamics_inst": "Latni riet mi cäät kɛ nɔmɔ tuɔk ni jɛ kɛ jɔw mi tɔt kä thuɔ̱kdɛ kɛ jɔw mi di̱i̱t, a /ci thokdu bi moc kɛ buɔ̱m. Nɛmɛ nyothɛ Suno jɔwdu min bum.",
+      "spoken": "Ruac mi̱ ca lat",
+      "spoken_inst": "Ruac — /cu dit — ɛ riet mi ciɛk, mi ca lat ni ciaŋ, ce̱tkɛ mi ruaci. Nɛmɛ luäkɛ Suno kɛ ɣöö bɛ timbre jɔawdu min thuɔ̱k ŋa̱c."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Luɔ̱cdɛ jɔk",
+      "filter": "Pi̱li̱tɛri̱",
+      "dynamics": "Dai̱namikni̱",
+      "separation": "Kä dääk",
+      "quality": "Kuali̱ti̱",
+      "utility": "Yutili̱ti̱",
+      "loudness": "Kä jɔw mi̱ di̱i̱t"
+    },
+    "highpass": "Ɣai̱-pa̱th pi̱li̱tɛr",
+    "lowpass": "Lɔw-pa̱th pi̱li̱tɛr",
+    "denoise": "Jak jɔaw kä kuiy",
+    "declip": "Dekli̱ppiŋ",
+    "declick": "Click/pop wuɔ̱cdɛ",
+    "deesser": "De-ethther",
+    "gate": "Noise gate",
+    "compressor": "Kɔmpi̱rɛthɛr",
+    "limiter": "Li̱mi̱ti̱r",
+    "eq": "Ɛkuali̱dhëcin",
+    "normalize": "Pi̱i̱k nɔrmalaidhɛciɔn",
+    "loudness": "Laudnɛth nɔrmalaidhɛciɔn (LUFS)",
+    "reverb_reduce": "Reverb mi̱ kuiy",
+    "separate": "Kä dääk gua̱a̱th in tuɔɔk thi̱n",
+    "quality": "Kuɔ̱li̱ti̱ enɣancimɛn (upthkiɛl)",
+    "trim_silence": "Thi̱lɛnth trimmiŋ",
+    "fade": "Pädɛ rɛydɛ / pɛdɛ raar",
+    "stereo_to_mono": "Gɛri jɛ kä mönö",
+    "resample": "Ri̱tha̱mpi̱li̱ŋ"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Mi ŋa̱thkɛ",
+      "2": "Ni̱ ciaaŋ lätdɛ",
+      "3": "Ba̱riabɔl",
+      "4": "Pla̱thëbö"
+    },
+    "category": {
+      "structure": "I̱thtra̱kciɛr",
+      "vocal": "Bökal",
+      "instrument": "Ini̱thtrumɛn",
+      "dynamics": "Dai̱namikni̱",
+      "production": "Pröda̱kciɔn",
+      "mood": "Mood"
+    },
+    "verse": "Bäth",
+    "chorus": "Kɔra̱th",
+    "bridge": "Kui̱c",
+    "intro": "Intro",
+    "outro": "Raar",
+    "hook": "Ɣuk",
+    "prechorus": "Pre-kɔra̱th",
+    "instrumental": "Ini̱thti̱rumɛntal",
+    "guitar_solo": "Gitar thölö",
+    "build_up": "Ta̱th-piny",
+    "breakdown": "Breakdown",
+    "spoken_word": "Riet mi ca lat",
+    "whispered": "Cuɛ ŋot kɛ mi̱ latkɛ",
+    "harmonies": "Ɣa̱rmöni̱",
+    "male_vocal": "Vokal wutdä",
+    "female_vocal": "Ciëk ciëk",
+    "duet": "Duet",
+    "acoustic": "Akuthtik",
+    "ad_lib": "Ad-li̱b"
+  },
+  "presets": {
+    "clean_voice": "Jiw mi wic wic",
+    "voice_guitar_balanced": "Balanced jɔw & gitar",
+    "podcast": "Pɔdka̱th",
+    "suno_ready": "Suno cɛ rɔ rialikä",
+    "gentle_restore": "Luɔ̱c jɔk kɛ pɛ̈th",
+    "raw_passthrough": "/Thiɛlɛ mi̱ la̱tkɛ"
+  },
+  "errors": {
+    "unknown": "Tëëkɛ mi cu duer.",
+    "network": "/Ka̱n cop kä thärbä.",
+    "validation_error": "Guɛc ruac in ci gɔ̱r.",
+    "not_found": "Item /ka̱nɛ jek.",
+    "project_not_found": "Pöröjɛk /ka̱nɛ jiek.",
+    "take_not_found": "Kämni jɛ /thiɛl jek.",
+    "album_not_found": "Albäm /ka̱nɛ jek.",
+    "preset_not_found": "Preset /ka̱nɛ jiek.",
+    "template_not_found": "Template /ka̱nɛ jiek.",
+    "device_busy": "Audio device ɛ mi̱ la̱tkɛ ɛ prögi̱ra̱m mi̱ dɔ̱ŋ.",
+    "device_not_found": "Audio device /ka̱nɛ jek.",
+    "already_recording": "Ɛn ri̱kɔrdiŋ cɛ ku thuŋ wɔ̱ nhiam.",
+    "ffmpeg_missing": "FFmpeg /ka̱nɛ la̱th thi̱n — la̱thdɛ thi̱n kɛ ɣöö bɛ pai̱l ɛmɛ kulɛ gɛr.",
+    "disk_full": "/Thiɛlɛ gua̱a̱th mi̱ ro̱ŋ kä disk.",
+    "permission_denied": "Cua permi̱ciɔn lo̱k kɛ kui̱ duɔ̱p in ca ŋun.",
+    "import_path_not_found": "Import path /ka̱nɛ jiek.",
+    "job_failed": "Pröthɛthiŋ cuɛ pa̱k.",
+    "job_cancelled": "Pröthɛthiŋ cua woc.",
+    "process_failed": "Cuɛ pa̱k kɛ läthdɛ lät.",
+    "export_failed": "Cuɛ pa̱k ɛn ɣöö ba pai̱l ka̱m raar.",
+    "record_failed": "Cuɛ pa̱k kɛ tuk ri̱kɔrdiŋä."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Kueued",
+      "running": "Ruŋ",
+      "done": "Ca thuɔ̱k",
+      "error": "Cuɛ pa̱k",
+      "cancelled": "Ca woc"
+    },
+    "kind": {
+      "process": "Pröthɛthiŋ",
+      "export": "Ɛkpörth",
+      "import": "Käm raar",
+      "record": "Rekɔrdiŋ"
+    }
+  }
+}

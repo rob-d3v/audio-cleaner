@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Xibasisi xa Audio"
+  },
+  "nav": {
+    "library": "Layiburari",
+    "record": "Rhekhodo",
+    "import": "Ku nghenisa etikweni",
+    "templates": "Swifaniso swa swifaniso",
+    "settings": "Switirhisiwa",
+    "guide": "Nkongomiso"
+  },
+  "common": {
+    "save": "Hlayisa",
+    "saving": "Ku hlayisa...",
+    "saved": "Ku hlayisiwile",
+    "cancel": "Khansela",
+    "close": "Pfala",
+    "delete": "Susa",
+    "edit": "Hlela",
+    "create": "Ku tumbuluxa",
+    "search": "Ku lavisisa",
+    "loading": "Ku layicha...",
+    "error": "Xihoxo",
+    "retry": "Ringeta nakambe",
+    "confirm": "Tiyisisa",
+    "back": "Ku tlhelela endzhaku",
+    "next": "Endzhaku ka sweswo",
+    "continue": "Yana emahlweni",
+    "finish": "Ku heta",
+    "copy": "Kopa",
+    "copied": "Ku kopiwile",
+    "download": "Download",
+    "upload": "Ku layicha",
+    "none": "A ku na yin’we",
+    "all": "Hinkwaswo",
+    "yes": "Ina",
+    "no": "E-e",
+    "select": "Hlawula",
+    "optional": "hi ku hlawula",
+    "required": "swi laveka",
+    "unsaved_changes": "Ku cinca loku nga hlayisiwangiki",
+    "name": "Vito",
+    "status": "Xiyimo",
+    "type": "Thayipha",
+    "actions": "Swiendlo",
+    "empty": "Ku pfumala nchumu",
+    "browse": "Browse",
+    "remove": "Susa",
+    "add": "Ku engetela",
+    "rename": "Tlhelela vito lerintshwa",
+    "duplicate": "Ku phindha-phindha",
+    "warning": "Xilemukiso",
+    "locked": "Ku lotleriwile",
+    "builtin": "Ku akiwile endzeni",
+    "custom": "Mukhuva wa ntolovelo",
+    "untitled": "A nga na nhlokomhaka",
+    "select_placeholder": "Hlawula..."
+  },
+  "library": {
+    "title": "Layiburari",
+    "subtitle": "Tiphurojeke ta wena ta rito na katara, ku suka eka miehleketo ku ya eka ku humesiwa.",
+    "new_project": "Phurojeke leyintshwa",
+    "new_album": "Alibamu leyintshwa",
+    "search_placeholder": "Ku lavisisa hi vito...",
+    "view": {
+      "grid": "Gridi ya xirhendzevutani",
+      "albums": "Tialbamu"
+    },
+    "filters": {
+      "all": "Hinkwaswo"
+    },
+    "take_count_one": " {{count}} teka",
+    "take_count_other": " {{count}} swi teka",
+    "updated_at": "Ku pfuxetiwa {{date}} ",
+    "no_results": {
+      "title": "Ku hava tiphurojeke leti kumiweke",
+      "description": "Ringeta ku lulamisa xisefo xo lavisisa kumbe xa xiyimo."
+    },
+    "empty": {
+      "title": "Layiburari ya wena a yi na nchumu",
+      "description": "Sungula phurojeke leyintshwa ku suka eka xiyimo xa le hansi, kutani u nghenisa swilo leswi se u nga na swona eka disk.",
+      "cta_import": "Nghenisa ku suka eka folda",
+      "cta_new": "Endla phurojeke"
+    },
+    "project_dialog": {
+      "title": "Phurojeke leyintshwa",
+      "description": "Yi nyike vito ivi u hlawula ndlela yo rhekhoda.",
+      "name_label": "Vito ra phurojeke",
+      "name_placeholder": "e.g. Mpfula ya Ximumu",
+      "mode_label": "Mode",
+      "mode": {
+        "voice": "Rito ntsena",
+        "voice_guitar": "Rito + katara"
+      },
+      "submit": "Endla phurojeke"
+    },
+    "album_dialog": {
+      "title": "Alibamu leyintshwa",
+      "description": "Hlanganisa tiphurojeke leti fambelanaka na tona eka alibamu.",
+      "name_label": "Vito ra alibamu",
+      "name_placeholder": "e.g. Ximun’wana EP",
+      "submit": "Endla alibamu"
+    },
+    "album": {
+      "untitled": "Album leyi nga riki na vito",
+      "members_count_one": " {{count}} phurojeke",
+      "members_count_other": " {{count}} tiphurojeke",
+      "empty": "Ku hava ti project eka album leyi ku fikela sweswi.",
+      "delete_confirm_title": "Ku susa album?",
+      "delete_confirm_description": "Tiphurojeke a ti nge susiwi, ntsena ti nga hlanganisiwanga ku suka eka \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Ku susa \" {{name}} \"?",
+      "confirm_description": "Leswi swi susa phurojeke na ku teka kun’wana na kun’wana eka yona. Leswi a swi nge tlheriseriwi endzhaku."
+    }
+  },
+  "record": {
+    "title": "Rhekhodo",
+    "subtitle": "Khoma clean take, languta ti level ta wena, u landzelela script.",
+    "project_label": "Phurojeke",
+    "project_placeholder": "Hlawula phurojeke",
+    "project_create_quick": "Endla phurojeke ya xihatla...",
+    "device_label": "Xitirhisiwa xo nghenisa",
+    "device_placeholder": "Hlawula xitirhisiwa xo karhi",
+    "device_default_badge": "Xiyimiso xa sisiteme",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Ku hava switirhisiwa swo nghenisa leswi kumiweke.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Yima ku veka tihlo",
+    "record_button": "Rhekhodo",
+    "stop_button": "Yima",
+    "elapsed_label": "Nkarhi lowu hundzeke",
+    "status": {
+      "idle": "Ku pfumala ntirho",
+      "monitoring": "Ku vekiwa tihlo",
+      "recording": "Ku rhekhoda",
+      "stopped": "Ku yimile"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Nhlohlorhi",
+      "clip": "Xiphepherhele"
+    },
+    "guide": {
+      "title": "Xiyenge lexi kongomisiweke",
+      "subtitle": "Pfumelela mudyondzisi a ku fambisa eka tsalwa hi magoza, ku suka eka ku kufumela ku ya eka xivulwa lexi vulavuriwaka.",
+      "loading": "Ku layicha tsalwa...",
+      "unavailable": "Nkarhi lowu kongomisiweke a wu si kumeka eka sevha.",
+      "select_project_device": "Hlawula phurojeke na xitirhisiwa xo nghenisa ku rhekhoda magoza ku suka laha.",
+      "progress": " {{done}} ya {{total}} magoza",
+      "start_timer": "Sungula xihlawuhlawu xa nkarhi",
+      "skip_timer": "Tlula nkarhi",
+      "record_step": "Rekhoda goza leri",
+      "stop_step": "Tshika ku rhekhoda",
+      "mark_done": "Endliwile — goza leri landzelaka",
+      "step_recorded": "Teka leswi rhekhodiweke",
+      "no_record_step": "Goza ro kufumela — a ku laveki ku rhekhoda.",
+      "bars_hint": "Kwalomu ka {{bars}} tibara",
+      "complete_title": "Tsalwa ri hetisekile!",
+      "complete_body": "U rhekhodile goza rin’wana ni rin’wana ra tsalwa. Hlaya endzhaku eka thebhu ya Audio ya phurojeke ivi u hlawula ti take leti u ti tsakelaka.",
+      "restart": "Sungula nakambe tsalwa"
+    },
+    "best2min": {
+      "button": "Kuma timinete ta 2 letinene (Suno) .",
+      "running": "Ku xopaxopa ku teka...",
+      "score_label": "Xikoro xa le henhla",
+      "hint": "Yi fambisa nxopaxopo wa matimba na ku vonakala eka ku teka hinkwako ku kuma fasitere ra yona ro tiya swinene ra timinete ta 2 — wa ha kota ku lulamisa mpfhuka hi voko endzhaku ka sweswo.",
+      "chart_caption": "Xikoro hi fasitere",
+      "unavailable": "Nxopaxopo wa best-2-minutes a wu si kumeka eka sevha leyi ku fikela sweswi."
+    },
+    "takes_title": "Ku teka eka xiyenge lexi",
+    "takes_empty": "No takes leyi rhekhodiweke eka session leyi ku fikela sweswi.",
+    "open_in_project": "Vula eka phurojeke",
+    "ws_disconnected": "Ku hlanganisa nakambe na level meter...",
+    "select_project_first": "Hlawula ntirho wo sungula.",
+    "select_device_first": "Hlawula xitirhisiwa xo nghenisa."
+  },
+  "project": {
+    "back_to_library": "Ku tlhelela elayiburari",
+    "header": {
+      "status_label": "Xiyimo",
+      "cover_upload": "Upload xifunengeto",
+      "cover_remove": "Susa xifunengeto",
+      "name_placeholder": "Vito ra phurojeke",
+      "links_title": "Swihlanganisi",
+      "add_link": "Engetelani xihlanganisi",
+      "mode": {
+        "voice": "Rito ntsena",
+        "voice_guitar": "Rito + katara"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Marito ya risimu",
+      "prompts": "Switsundzuxo",
+      "notes": "Tinhlamuselo"
+    },
+    "audio": {
+      "takes_title": "Swi teka",
+      "no_takes": {
+        "title": "No takes ku fikela sweswi",
+        "description": "Rekhoda ku teka lokuntshwa kumbe u nghenisa fayili leyi nga kona."
+      },
+      "record_new": "Rekhoda ku teka lokuntshwa",
+      "rating": "Ku ringanisa",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Swi endliwile"
+      },
+      "variant_placeholder": "Vuhundzuluxeri bya",
+      "process_button": "Endlelo",
+      "export_button": "Ku rhumela ehandle",
+      "delete_take_confirm_title": "Susa leswi swi teka?",
+      "delete_take_confirm_description": "Audio ya raw na version yin’wana na yin’wana leyi phurosesiweke swi ta susiwa.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Ku lulamisiwa"
+      },
+      "origin": {
+        "recorded": "Ku rhekhodiwile",
+        "imported": "Swi nghenisiwile etikweni"
+      },
+      "session_label_placeholder": "Lebula ya nkarhi (ya ku hlawula) .",
+      "duration": "Nkarhi wo leha",
+      "sample_rate": "Nhlayo ya xikombiso",
+      "channels": "Tichannel ta kona",
+      "created_at": "Ku rhekhodiwile"
+    },
+    "pipeline": {
+      "title": "Nxaxamelo wa ku lulamisa",
+      "preset_label": "Ku vekiwa ka ha ri emahlweni",
+      "preset_none": "Nketani ya ntolovelo",
+      "preset_save": "Hlayisa tanihi leswi vekiweke ka ha ri emahlweni",
+      "stage_locked": "Ku lotleriwile",
+      "stage_requires_extra": "Swi lava extra leyi nga nghenisiwangiki",
+      "process_button": "Endlelo ra ku teka",
+      "processing": "Ku lulamisiwa ka...",
+      "job_queued": "Ku fola layini...",
+      "job_running": "Ku lulamisiwa ka...",
+      "job_done": "Swi endliwile",
+      "job_error": "Swi tsandzekile",
+      "job_cancelled": "Ku khanseliwile",
+      "cancel_job": "Khansela",
+      "no_stages": "Ku hava switeji leswi kumekaka."
+    },
+    "export": {
+      "title": "Ku rhumela ehandle teka",
+      "description": "Endla fayili yo hetelela ku suka eka vuhundzuluxeri lebyi phurosesiweke.",
+      "variant_label": "Vuhundzuluxeri bya",
+      "format_label": "Xivumbeko",
+      "preset_label": "Ku rhumela ehandle preset",
+      "range_label": "Range",
+      "range_full": "Ku leha loku heleleke",
+      "range_custom": "Range ya ntolovelo",
+      "start_label": "Ku sungula (s) .",
+      "end_label": "Makumu (s) .",
+      "submit": "Ku rhumela ehandle",
+      "progress": "Fayili yo hundzuluxela...",
+      "download_ready": "Fayili yi lunghekile",
+      "download_button": "Download fayili"
+    },
+    "notes": {
+      "placeholder": "Tinotsi ta fomo ya mahala mayelana na phurojeke leyi...",
+      "saved_at": "Yi hlayisiwile hi {{time}} . "
+    },
+    "lyrics": {
+      "placeholder": "Tsala marito ya risimu laha. Tirhisa phalete leyi nga etlhelo ku nghenisa ti-meta-tag ta Suno.",
+      "saved_at": "Yi hlayisiwile hi {{time}} . ",
+      "saving": "Ku hlayisa...",
+      "versions": "Vuhundzuluxeri",
+      "versions_empty": "Ku hava tivhidiyo leti hlayisiweke ku fikela sweswi.",
+      "version_preview": "Xikombiso xa le mahlweni",
+      "restore": "Vuyisela vuhundzuluxeri lebyi",
+      "restore_confirm_title": "Ku vuyisela vuhundzuluxeri lebyi?",
+      "restore_confirm_description": "Tsalwa ra sweswi ri ta siviwa hi vuhundzuluxeri lebyi hlayisiweke eka {{date}} .",
+      "metatags_title": "Ti- meta-tag",
+      "metatags_hint": "Click tag ku yi nghenisa eka cursor.",
+      "metatags_placebo_warning": "Unproven — swi nga ha va swi nga ri na vuyelo eka mbuyelo.",
+      "metatags_empty": "Ku hava ti-meta-tag leti tsarisiweke."
+    },
+    "prompts": {
+      "style_title": "Xitsundzuxo xa xitayili",
+      "lyrics_title": "Xitsundzuxo xa marito",
+      "template_label": "Xifaniso xa xifaniso",
+      "template_none": "Ku hava xifaniso xa xifaniso",
+      "variables_title": "Swilo leswi cinca-cincaka",
+      "preview_title": "Xikombiso xa le mahlweni",
+      "preview_empty": "Hlawula xifaniso ivi u tata swilo leswi cinca-cincaka ku vona xikombiso xa le mahlweni.",
+      "char_count": " {{count}} swihlawulekisi",
+      "char_count_warning": "Switsundzuxo swa xitayili swo tlula 1000 wa swihlawulekisi swi nga ha tsemiwa hi Suno.",
+      "copy": "Kopa",
+      "copied": "Ku kopiwile eka clipboard",
+      "save_to_project": "Hlayisa eka phurojeke",
+      "saved_to_project": "Xitsundzuxo xi hlayisiwile eka phurojeke",
+      "history_title": "Matimu",
+      "history_empty": "Ku hava vuhundzuluxeri bya khale.",
+      "current_label": "Swa sweswi"
+    },
+    "stems": {
+      "title": "Vocal na katara",
+      "separate_button": "Hlawula rito na katara",
+      "running": "Ku hambanyisa...",
+      "vocals": "Vuyimbeleri bya rito",
+      "instrumental": "Xichayachayana xa swichayachayana",
+      "process_stem": "Endla xirhabyani lexi",
+      "empty": "Take leyi a yi se hambanisiwa. Run separation ku twa vocals na katara hi ku tihambanisa.",
+      "capability_missing": "Ku hambanisiwa ka xihlovo a ku nghenisiwa eka sevha leyi.",
+      "unavailable": "Vocal/guitar separation a yi se kumeka eka server leyi."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "On",
+    "boolean_off": "Off"
+  },
+  "import": {
+    "title": "Ku nghenisa etikweni",
+    "subtitle": "Tisa tiphurojeke leti se ti nga kona eka disk eka layiburari.",
+    "step_indicator": "Goza {{current}} ra {{total}} . ",
+    "step1": {
+      "title": "Kuma folda",
+      "description": "Kombetela eka folda ya timitsu hi tiphurojeke ta wena na ti track.",
+      "path_label": "Ndlela ya folda",
+      "path_placeholder": "e.g. E:\\Robbs\\Ku tikukumuxa\\Vuyimbeleri\\ROBBS",
+      "recent_label": "Sweswinyana",
+      "scan_button": "Folda ya scan",
+      "scanning": "Ku skena...",
+      "ffmpeg_warning": "FFmpeg a yi kumeki — tifayela leti lavaka ku hundzuriwa ti ta tluriwa.",
+      "folders_found_one": " {{count}} folda yi kumiwile",
+      "folders_found_other": " {{count}} tifolda ti kumiwile",
+      "unmatched_files_one": " {{count}} fayili leyi nga tiviwiki",
+      "unmatched_files_other": " {{count}} tifayela leti nga tiviwiki"
+    },
+    "step2": {
+      "title": "Pfuxeta swilo",
+      "description": "Languta mavito, swiyimo, na leswi nga ta nghenisiwa u nga si tiyisisa.",
+      "select_all": "Hlawula hinkwaswo",
+      "table": {
+        "folder": "Folda ya xihlovo",
+        "name": "Vito ra phurojeke",
+        "status": "Xiyimo",
+        "audio": "Audio",
+        "lyrics": "Marito ya risimu",
+        "cover": "Xifunengeto",
+        "album": "Album ya yona"
+      },
+      "audio_include_one": " {{count}} fayili yi hlawuriwile",
+      "audio_include_other": " {{count}} tifayela ti hlawuriwile",
+      "no_audio": "Ku hava mpfumawulo lowu kumiweke",
+      "no_lyrics": "Ku hava marito lama kumiweke",
+      "no_cover": "Ku hava xifunengeto",
+      "warnings_title": "Switsundzuxo"
+    },
+    "step3": {
+      "title": "Ku nghenisa etikweni",
+      "description": "Tiyisisa ku kopa tifayela na ku tumbuluxa tiphurojeke.",
+      "copy_originals": "Kopa tifayela ta masungulo eka layiburari",
+      "execute_button": "Sungula ku nghenisa",
+      "progress_title": "Ku nghenisa...",
+      "created_count": "Ku tumbuluxiwile: {{count}} ",
+      "skipped_count": "Ku tluleriwile: {{count}} ",
+      "done_title": "Ku nghenisa swi hetisekile",
+      "done_description": "Tiphurojeke leti nga laha hansi ti endliwile elayiburari ya wena.",
+      "view_project": "Phurojeke leyi pfulekeke",
+      "start_over": "Ku nghenisiwa ka swilo leswintshwa"
+    }
+  },
+  "templates": {
+    "title": "Swifaniso swa swifaniso",
+    "subtitle": "Tithempleyiti ta xitsundzuxo leti tirhisiwaka nakambe na ti-meta-tag ta Suno.",
+    "tabs": {
+      "prompts": "Tithempleyiti ta xitsundzuxo",
+      "metatags": "Ti- meta-tag"
+    },
+    "new_template": "Xifaniso lexintshwa",
+    "kind": {
+      "style": "Xitayili",
+      "lyrics": "Marito ya risimu"
+    },
+    "kind_label": "Musa",
+    "delete_confirm_title": "Susa xifaniso xa \" {{name}} \"?",
+    "delete_confirm_description": "Leswi a swi nge tlheriseriwi endzhaku.",
+    "empty": "Ku hava tithempleyiti ku fikela sweswi.",
+    "editor": {
+      "title_new": "Xifaniso lexintshwa",
+      "title_edit": "Hlela xifaniso",
+      "name_label": "Vito",
+      "name_placeholder": "e.g. Ballad ya acoustic",
+      "kind_label": "Musa",
+      "template_label": "Tsalwa ra xifaniso",
+      "template_hint": "Maka laha xihlawulekisi xin'wana na xin'wana xi welaka kona hi vito ra xona leri phutseriweke hi swirhendzevutani swimbirhi leswi govekeke — xikombiso, xihlawulekisi lexi vuriwaka \"genre\" xi hundzuka genre lexi phutseriweke hi swisirhelelo swimbirhi swo pfula na swimbirhi swo pfala.",
+      "variables_label": "Swilo leswi cinca-cincaka",
+      "variable_add": "Engetelani xihlawulekisi",
+      "variable_name": "Xilotlelo",
+      "variable_label": "Lebula",
+      "variable_type": "Thayipha",
+      "variable_type_string": "Tsalwa",
+      "variable_type_select": "Single select",
+      "variable_type_multiselect": "Ku hlawula ko tala",
+      "variable_type_number": "Nomboro",
+      "variable_type_boolean": "Ina/e-e",
+      "variable_options": "Swihlawulekisi (leswi hambanisiweke hi khoma) .",
+      "variable_required": "Swi laveka",
+      "save": "Hlayisa xifaniso xa xifaniso"
+    },
+    "metatags": {
+      "title": "Ti- meta-tag",
+      "subtitle": "Structural and style tags Suno u lemuka endzeni ka marito.",
+      "new_tag": "Thegi leyintshwa",
+      "tag_label": "Tag",
+      "tag_placeholder": "e.g. katara-solo-solo",
+      "category_label": "Xiyenge xa",
+      "tier_label": "Ku tshembheka",
+      "tier_legend_title": "Ntsheketo wa ku tshembheka",
+      "tier_legend": {
+        "1": "Tier 1 — leyi tsariweke naswona yi nga cinci",
+        "2": "Tier 2 — hi ntolovelo ya tirha",
+        "3": "Tier 3 — mbuyelo lowu cinca-cincaka",
+        "4": "Tier 4 — placebo, leyi nga tiyisisiwangiki"
+      },
+      "description_label": "Nhlamuselo",
+      "delete_confirm_title": "Ku susa thegi ya \" {{tag}} \"?",
+      "empty": "Ku hava ti-meta-tag ta ntolovelo ku fikela sweswi."
+    }
+  },
+  "settings": {
+    "title": "Switirhisiwa",
+    "subtitle": "Vuxokoxoko bya sisiteme, ririmi, na swihlawulekisi swa xiviri.",
+    "system_info_title": "Endlelo",
+    "version": "Vuhundzuluxeri bya",
+    "data_dir": "Folda ya data",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Swi kumeka",
+    "ffmpeg_missing": "A swi kumeki",
+    "capabilities_title": "Vuswikoti lebyi nghenisiweke",
+    "capability": {
+      "denoise": "Ku hunguta mpfumawulo",
+      "quality": "Ku ndlandlamuxiwa ka khwalithi",
+      "separate": "Ku hambanisiwa ka xihlovo",
+      "ffmpeg": "Ku hundzuriwa ka FFmpeg"
+    },
+    "capability_available": "Swi kumeka",
+    "capability_unavailable": "A swi kumeki",
+    "gpu_title": "Ku hatlisa ka GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA ya xirhendzevutani",
+      "ort_providers": "Vaphakeri va ONNX Runtime"
+    },
+    "gpu_none": "Ku hava vaphakeri va GPU lava kumiweke",
+    "language_title": "Ririmi",
+    "language": {
+      "pt-BR": "Xiputuguês (Brasil) .",
+      "en": "Xitsonga"
+    },
+    "theme_title": "Ku languteka",
+    "theme": {
+      "dark": "Munyama",
+      "light": "Ku vonakala"
+    },
+    "defaults_title": "Ku rhumela ehandle swihlawulekisi",
+    "lufs_target_label": "Xikongomiso xa LUFS",
+    "lufs_target_hint": "Yi tirhisiwa tani hi xiringanyeto xo sungula loko ku rhumeriwa ehandle swi teka. Xihlawulekisi xa Suno xi tshama ekusuhi na -14 LUFS.",
+    "saved": "Swihlawulekisi swi hlayisiwile"
+  },
+  "guide": {
+    "title": "Xiletelo xo rhekhoda xa Suno",
+    "subtitle": "Ndlela yo khoma rito na katara swi teka leswi kumaka mbuyelo lowunene.",
+    "intro": "Suno yi tirha kahle hi swikombo leswi tengeke, leswi nga kanakanisiki. Nkongomiso lowu wu katsa ku lunghiselela, swiyimo leswi kongomisiweke, na tsalwa ro rhekhoda ra timinete ta 3–5.",
+    "sections": {
+      "prep": {
+        "title": "Ku lunghiselela",
+        "body": "Rekhoda eka kamara leri tshunguriweke kumbe leri nga na swilo swo tala swo olova (tikheteni, ti rugs, swiambalo eka xigwitsirisi). Tima ti fans na xin’wana na xin’wana lexi rhurhumelaka. Kufumeta rito ra wena ku ringana 5 wa timinete u nga si rhekhoda."
+      },
+      "levels": {
+        "title": "Swiyimo: -12 ku ya eka -6 dBFS",
+        "body": "Kunguhata tinhlohlorhi exikarhi ka -12 na -6 dBFS eka mitara. Ehansi ka mpimo wolowo, mpfumawulo wa le ndzhaku wu ya wu vonaka swinene; ehenhla ka yona, khombo ro tsema ri tlakuka. Tirhisa mitara eka tluka ra Record ku veka gain ya wena u nga si sungula."
+      },
+      "distance": {
+        "title": "Ku leha ka mic: 15–30 cm",
+        "body": "Tshama 15 kuya eka 30 cm kusuka eka microphone. Kusuhi ku tlula sweswo swi hundzeleta ti plosives na proximity effect; ekule ku teka reverb yo tala ya kamara na mpfumawulo."
+      },
+      "script": {
+        "title": "Xitshuriwa xo rhekhoda",
+        "warmup": "Ku kufumela ka rito (1–2 wa timinete) .",
+        "vowels": "Switwari leswi tiyeke — a, e, i, o, u",
+        "scales": "Swikalo swo olova, ehenhla na le hansi",
+        "excerpt": "Xiphemu xa risimu (8 ku ya eka 16 wa tibara) .",
+        "dynamics": "Dynamics: sungula hi ku olova, u hetelela hi rito leri tlakukeke",
+        "spoken_phrase": "Xivulwa xin’we lexi vulavuriwaka, leswaku Suno a kota ku hlaya thoni ya wena ya rito"
+      },
+      "expectations": {
+        "title": "Leswi Suno a swi languteleke",
+        "body": "WAV, 48 kHz, mono, dry (ku hava reverb kumbe switandzhaku), 3 kuya eka 5 wa timinete ta xikombo. Timinetse ta 2 leti tengeke, leti yimelaka ngopfu ta ku teka hi ntolovelo ti humesa mbuyelo lowunene."
+      }
+    }
+  },
+  "status": {
+    "idea": "Miehleketo",
+    "em_progresso": "Ku ya emahlweni",
+    "quase": "Kwalomu ka kwalaho",
+    "pronto": "Swi lunghekile"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Tsalwa ra rito leri heleleke ra Suno",
+      "desc": "5 wa timinete leti kongomisiweke: ku kufumela, switwari, swikalo, swiphemu swimbirhi swa tinsimu, dynamics, na xivulwa lexi vulavuriwaka."
+    },
+    "step": {
+      "warmup": "Ku kufumela ka rito",
+      "warmup_inst": "Ntshunxa hi ku rhurhumela, ku rhurhumela ka milomu (brrr), na ku rhurhumela ko olova ku ringana kwalomu ka minete. A swi bohi ku rhekhoda — i ku olovisa nhamu ya wena ntsena u nga si yimbelela.",
+      "vowels": "Switwari leswi tiyeke",
+      "vowels_inst": "Khoma xitwari xin’wana na xin’wana — a, e, i, o, u — ku ringana 3 ku ya eka 4 wa tisekoni hi mpfumawulo wa wena lowu ntshunxekeke, hi mpfumawulo lowu nga cinciki. Leswi swi pfuna Suno ku teka pure timbre ya rito ra wena.",
+      "scales": "Swikalo ehenhla na le hansi",
+      "scales_inst": "Yimbelela xikalo xo olova ehenhla ivi u ya ehansi, eka \"la\" kumbe \"na\". A swi lavi ku va leswi hetisekeke — xikongomelo i ku endla mepe wa vocal range ya wena.",
+      "section": "Xiphemu xa risimu — xiphemu xa 1",
+      "section_inst": "Yimbelela 8 ku ya eka 16 wa tibara ta risimu, hi xikongomelo xa xiviri lexi u lavaka ku xi hundzisela. Rhangisa ku va erivaleni na vukona ku tlula ku hetiseka ka xithekiniki.",
+      "section2": "Xiphemu xa risimu — xiphemu xa 2",
+      "section2_inst": "Yimbelela yin’wana ya 8 kuya eka 16 wa tibara — hindlela leyinene i chorus kumbe xiyenge lexi hambanaka na lexi hundzeke. Ku hambana-hambana lokukulu ku pfuna modele ku dyondza rito ra wena.",
+      "dynamics": "Dynamics: yo olova → yo twala",
+      "dynamics_inst": "Yimbelela xiga lexi fanaka u sungula hi ku olova swinene u hetelela hi rito leri tlakukeke, handle ko tshikilela nhamu ya wena. Leswi swi kombisa Suno dynamic range ya rito ra wena.",
+      "spoken": "Xivulwa lexi vulavuriwaka",
+      "spoken_inst": "Vulavula — u nga yimbeli — xiga xo koma, xa ntumbuluko, onge hi loko u ri karhi u bula. Leswi swi pfuna Suno ku lemuka mpfumawulo wa xiviri wa rito ra wena."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Ku vuyeteriwa",
+      "filter": "Swisefo",
+      "dynamics": "Dynamics",
+      "separation": "Ku hambana",
+      "quality": "Khwalithi",
+      "utility": "Vutirhisi",
+      "loudness": "Ku twala lokukulu"
+    },
+    "highpass": "Xisefo xa high-pass",
+    "lowpass": "Xisefo xa ku hundza ka le hansi",
+    "denoise": "Ku hunguta mpfumawulo",
+    "declip": "Ku wisa",
+    "declick": "Ku susiwa ka click/pop",
+    "deesser": "De-esser",
+    "gate": "Gede ya mpfumawulo",
+    "compressor": "Xikhomela-ndhawu",
+    "limiter": "Muleteri wa swipimelo",
+    "eq": "Ku ringana",
+    "normalize": "Ku toloveleka ka nhlohlorhi",
+    "loudness": "Ku tolovela mpfumawulo wa mpfumawulo (LUFS) .",
+    "reverb_reduce": "Ku hungutiwa ka reverb",
+    "separate": "Ku hambanisiwa ka xihlovo",
+    "quality": "Ku ndlandlamuxiwa ka khwalithi (ya xiyimo xa le henhla) .",
+    "trim_silence": "Ku tsemiwa ka ku miyela",
+    "fade": "Fade in / fade out",
+    "stereo_to_mono": "Hundzulukela eka mono",
+    "resample": "Ku tekeriwa swikombiso nakambe"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Swi tshembeka",
+      "2": "Hi ntolovelo swa tirha",
+      "3": "Ku cinca-cinca",
+      "4": "Xitirhisiwa xa placebo"
+    },
+    "category": {
+      "structure": "Xivumbeko xa Xivumbeko",
+      "vocal": "Rito ra rito",
+      "instrument": "Xichayachayana",
+      "dynamics": "Dynamics",
+      "production": "Vuhumelerisi",
+      "mood": "Nsusumeto wa mianakanyo"
+    },
+    "verse": "Ndzimana",
+    "chorus": "Khorasi ya khwayere",
+    "bridge": "Buloho",
+    "intro": "Xingheniso",
+    "outro": "Outro",
+    "hook": "Xihuku",
+    "prechorus": "Pre-chorus ya le mahlweni",
+    "instrumental": "Xichayachayana xa swichayachayana",
+    "guitar_solo": "Katara yi ri yoxe",
+    "build_up": "Ku aka-up",
+    "breakdown": "Ku tshoveka ka swilo",
+    "spoken_word": "Rito leri vuriweke",
+    "whispered": "Ku hlevetela",
+    "harmonies": "Ku twanana",
+    "male_vocal": "Rito ra xinuna",
+    "female_vocal": "Rito ra xisati",
+    "duet": "Duet ya xirhendzevutani",
+    "acoustic": "Acoustic ya xirhendzevutani",
+    "ad_lib": "Ad-lib ya xitiviso"
+  },
+  "presets": {
+    "clean_voice": "Rito leri tengeke",
+    "voice_guitar_balanced": "Rito leri ringaniseriweke & katara",
+    "podcast": "Podcast ya xifaniso",
+    "suno_ready": "Suno u lunghekile",
+    "gentle_restore": "Ku vuyisela hi ku olova",
+    "raw_passthrough": "Ku hava ku lulamisiwa"
+  },
+  "errors": {
+    "unknown": "Ku ni leswi nga famba kahle.",
+    "network": "A swi swi kotanga ku fika eka sevha.",
+    "validation_error": "Languta rungula leri u ri ngheniseke.",
+    "not_found": "Nchumu a wu kumeki.",
+    "project_not_found": "Project a yi kumeki.",
+    "take_not_found": "Teka a yi kumeki.",
+    "album_not_found": "Album a yi kumekanga.",
+    "preset_not_found": "Preset a yi kumeki.",
+    "template_not_found": "Xifaniso a xi kumeki.",
+    "device_busy": "Xitirhisiwa xo yingisela xi tirhisiwa hi nongonoko wun’wana.",
+    "device_not_found": "Xitirhisiwa xa mpfumawulo a xi kumeki.",
+    "already_recording": "Ku rhekhodiwa se ku le ku endliweni.",
+    "ffmpeg_missing": "FFmpeg a yi nghenisiwanga — yi nghenise ku hundzuluxa fayili leyi.",
+    "disk_full": "A ku na ndhawu leyi eneleke ya disk.",
+    "permission_denied": "Mpfumelelo wu ariwile eka ndlela leyi nyikiweke.",
+    "import_path_not_found": "Ndlela yo nghenisa a yi kumeki.",
+    "job_failed": "Ku lulamisiwa ku tsandzekile.",
+    "job_cancelled": "Ku lulamisiwa ku herisiwile.",
+    "process_failed": "Ku tsandzekile ku tirhisa ku teka.",
+    "export_failed": "Ku tsandzekile ku rhumela ehandle fayili.",
+    "record_failed": "Ku tsandzekile ku sungula ku rhekhoda."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Ku fole layini",
+      "running": "Ku tsutsuma",
+      "done": "Swi endliwile",
+      "error": "Swi tsandzekile",
+      "cancelled": "Ku khanseliwile"
+    },
+    "kind": {
+      "process": "Ku lulamisiwa ka swilo",
+      "export": "Ku rhumela ehandle",
+      "import": "Ku nghenisa etikweni",
+      "record": "Ku rhekhoda"
+    }
+  }
+}

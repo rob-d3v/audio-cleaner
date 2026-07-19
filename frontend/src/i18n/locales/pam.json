@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio Cleaner"
+  },
+  "nav": {
+    "library": "Aklatan",
+    "record": "Record",
+    "import": "Import",
+    "templates": "Templates",
+    "settings": "Settings",
+    "guide": "Gabay"
+  },
+  "common": {
+    "save": "I-save",
+    "saving": "Makatipid...",
+    "saved": "meligtas",
+    "cancel": "kanseladu",
+    "close": "malapit",
+    "delete": "Bura",
+    "edit": "I-edit",
+    "create": "gawa",
+    "search": "Manintun",
+    "loading": "Loading...",
+    "error": "Mali",
+    "retry": "Subukan meng pasibayu",
+    "confirm": "Kumpirman",
+    "back": "Mibalik",
+    "next": "tutuki",
+    "continue": "Tuluy",
+    "finish": "Tapus",
+    "copy": "kopya",
+    "copied": "Mekopya",
+    "download": "I-download",
+    "upload": "I-upload",
+    "none": "Ala",
+    "all": "Sabla",
+    "yes": "wa",
+    "no": "ali",
+    "select": "Pilinan me",
+    "optional": "optional",
+    "required": "kailangan",
+    "unsaved_changes": "E maka-save a pamagbayu",
+    "name": "Lagyu",
+    "status": "katayuan",
+    "type": "Uri",
+    "actions": "Aksyon",
+    "empty": "alang laman",
+    "browse": "mag browse",
+    "remove": "Ilako",
+    "add": "Dagdagan",
+    "rename": "Palitan lagyu",
+    "duplicate": "Duplicate",
+    "warning": "Babala",
+    "locked": "Makakandadu",
+    "builtin": "Built-in",
+    "custom": "Pasadya",
+    "untitled": "alang pamagat",
+    "select_placeholder": "Pilinan..."
+  },
+  "library": {
+    "title": "Aklatan",
+    "subtitle": "Ing kekang siwala ampo ing kekang proyektu keng gitara, manibat keng ideya angga na keng pamaglual.",
+    "new_project": "Bayung proyektu",
+    "new_album": "Bayung album",
+    "search_placeholder": "Manintun keng lagyu...",
+    "view": {
+      "grid": "Grid",
+      "albums": "Albums"
+    },
+    "filters": {
+      "all": "Sabla"
+    },
+    "take_count_one": " {{count}} kuanan",
+    "take_count_other": " {{count}} kukunan",
+    "updated_at": "Mibayu {{date}} ",
+    "no_results": {
+      "title": "Ala yang ikit a proyektu",
+      "description": "Subukan meng i-adjust ing search o status filter."
+    },
+    "empty": {
+      "title": "Ala yang laman ing library mu",
+      "description": "Magumpisa kang bayung proyektu manibat keng umpisa, o mag-import kang takes na atin na keng disk.",
+      "cta_import": "I-import ibat keng folder",
+      "cta_new": "gawa kang proyektu"
+    },
+    "project_dialog": {
+      "title": "Bayung proyektu",
+      "description": "dinan meng lagyu at mamili kang recording mode.",
+      "name_label": "lagyu ning proyektu",
+      "name_placeholder": "alimbawa Uran ning Tag-init",
+      "mode_label": "Mode",
+      "mode": {
+        "voice": "Boses mu",
+        "voice_guitar": "Bosis + gitara"
+      },
+      "submit": "gawa kang proyektu"
+    },
+    "album_dialog": {
+      "title": "Bayung album",
+      "description": "Igrupu la reng proyektung makaugne keng metung a album.",
+      "name_label": "lagyu ning album",
+      "name_placeholder": "alimbawa Autumn EP",
+      "submit": "gawa kang album"
+    },
+    "album": {
+      "untitled": "Album a alang pamagat",
+      "members_count_one": " {{count}} proyektu",
+      "members_count_other": " {{count}} proyektu",
+      "empty": "Ala pang proyektu keng album ayni.",
+      "delete_confirm_title": "Bura ing album?",
+      "delete_confirm_description": "E la mabura deng proyektu, e la mabura keng \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Bura ing \" {{name}} \"?",
+      "confirm_description": "Iti ing makalako keng proyektu ampo ing balang bage. E malyaring ibalik ini."
+    }
+  },
+  "record": {
+    "title": "Record",
+    "subtitle": "makakwa kang malinis a take, lawan me ing kekang level, ampo tukian me ing script.",
+    "project_label": "Proyektu",
+    "project_placeholder": "Mamili kang proyektu",
+    "project_create_quick": "gawa kang mabilis a proyektu...",
+    "device_label": "Input device",
+    "device_placeholder": "Mamili kang aparatu",
+    "device_default_badge": "System default",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Ala yang ikit a input devices.",
+    "monitor_button": "Bantayan",
+    "monitor_stop_button": "tuknang na ing pamagmonitor",
+    "record_button": "Record",
+    "stop_button": "tuknang na",
+    "elapsed_label": "Milabas ing oras",
+    "status": {
+      "idle": "alang gagawan",
+      "monitoring": "Pamanantabe",
+      "recording": "Recording",
+      "stopped": "tinuknang ya"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Taluktuk",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Guided session",
+      "subtitle": "paburen me ing coach na ituru na ka keng script step by step, manibat keng warm-up angga na keng spoken phrase.",
+      "loading": "Loading script...",
+      "unavailable": "Ing guided session ali ya pa available keng server.",
+      "select_project_device": "Mamili kang proyektu ampo input device para i-record la reng steps manibat keni.",
+      "progress": " {{done}} ning {{total}} lakbang",
+      "start_timer": "Magumpisa ing timer",
+      "skip_timer": "Laktawan ing timer",
+      "record_step": "Isulat me ining step",
+      "stop_step": "tuknang na ing pamagrecord",
+      "mark_done": "Tapos na — tutuking lakbang",
+      "step_recorded": "Kuanan ing mitala",
+      "no_record_step": "Warm-up step — alang kailangang pamag-record.",
+      "bars_hint": "Manga {{bars}} bars",
+      "complete_title": "Kumpletu na ing script!",
+      "complete_body": "I-record mu ing balang step ning script. Magbalik ka keng Audio tab ning proyektu at pilinan me ing paborito mung takes.",
+      "restart": "I-restart ing script"
+    },
+    "best2min": {
+      "button": "akit me ing pekamasanting a 2 minutu (Suno)",
+      "running": "pamagsuri keng take...",
+      "score_label": "Iskor",
+      "hint": "Magdalang energy ampo clarity analysis keng mabilug a take para akit ing pekamasikan a 2-minute window — malyari mu pa muring i-adjust ing range gamit ing gamat kaybat.",
+      "chart_caption": "Iskor balang bintana",
+      "unavailable": "Ing pekamasanting a 2-minutung pamagsuri ala ya pa keng server ayni."
+    },
+    "takes_title": "kinua kening session ayni",
+    "takes_empty": "Ala pang takes a me-record keng session ayni.",
+    "open_in_project": "buklat keng proyektu",
+    "ws_disconnected": "Magkonekta yang pasibayu keng level meter...",
+    "select_project_first": "Mamili kang proyektu para magumpisa ka.",
+    "select_device_first": "Mamili kang input device."
+  },
+  "project": {
+    "back_to_library": "mibalik keng library",
+    "header": {
+      "status_label": "katayuan",
+      "cover_upload": "I-upload ing cover",
+      "cover_remove": "Ilako me ing takpan",
+      "name_placeholder": "lagyu ning proyektu",
+      "links_title": "Link",
+      "add_link": "Dagdagan ing link",
+      "mode": {
+        "voice": "Boses mu",
+        "voice_guitar": "Bosis + gitara"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Lyrics",
+      "prompts": "Prompts",
+      "notes": "Tala"
+    },
+    "audio": {
+      "takes_title": "Kukuanan",
+      "no_takes": {
+        "title": "Ala pang takes",
+        "description": "Magrecord kang bayung take o mag import kang existing a file."
+      },
+      "record_new": "Magrecord kang bayung take",
+      "rating": "Rating",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Meprosesu"
+      },
+      "variant_placeholder": "Bersion",
+      "process_button": "Prosesu",
+      "export_button": "Export",
+      "delete_take_confirm_title": "buraran me ing take ayni?",
+      "delete_take_confirm_description": "Ing raw audio ampo ing balang meprosesu a bersion milako la.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Meprosesu"
+      },
+      "origin": {
+        "recorded": "Mitala",
+        "imported": "Imported"
+      },
+      "session_label_placeholder": "Session label (optional)",
+      "duration": "Tagal",
+      "sample_rate": "Sample rate",
+      "channels": "Channels",
+      "created_at": "Mitala"
+    },
+    "pipeline": {
+      "title": "Kadena ning pamagprosesu",
+      "preset_label": "Preset",
+      "preset_none": "Custom chain",
+      "preset_save": "I-save bilang preset",
+      "stage_locked": "Makakandadu",
+      "stage_requires_extra": "mangailangan yang dagdag na ali maka-install",
+      "process_button": "prosesu",
+      "processing": "Pamagprosesu...",
+      "job_queued": "Makapila...",
+      "job_running": "Pamagprosesu...",
+      "job_done": "Tapos na",
+      "job_error": "mebigu",
+      "job_cancelled": "Kanseladu",
+      "cancel_job": "kanseladu",
+      "no_stages": "Ala nang entabladu."
+    },
+    "export": {
+      "title": "Export take",
+      "description": "I-render me ing tauling file ibat keng metung a processed a bersion.",
+      "variant_label": "Bersion",
+      "format_label": "Format",
+      "preset_label": "Export preset",
+      "range_label": "Range",
+      "range_full": "Ganap a kaba",
+      "range_custom": "Custom range",
+      "start_label": "Magumpisa (s)",
+      "end_label": "Kapupusan (s)",
+      "submit": "Export",
+      "progress": "Rendering file...",
+      "download_ready": "makasadya na ing file",
+      "download_button": "I-download ing file"
+    },
+    "notes": {
+      "placeholder": "Malayang tala tungkul keng proyektung ayni...",
+      "saved_at": "Me-save ya keng {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Isulat me ing liriko keni. Gamitan me ing palette keng gilid para isulud me ing Suno meta-tags.",
+      "saved_at": "Me-save ya keng {{time}} ",
+      "saving": "Makatipid...",
+      "versions": "Bersion",
+      "versions_empty": "Ala pang maka-save a bersion.",
+      "version_preview": "Pauna",
+      "restore": "Ibalik me ining bersion",
+      "restore_confirm_title": "Ibalik me ining bersion?",
+      "restore_confirm_description": "Ing kasalukuyan a text mipalitan ya keng version a maka-save keng {{date}} .",
+      "metatags_title": "Meta-tags",
+      "metatags_hint": "Pindutan me ing tag para isulud me keng cursor.",
+      "metatags_placebo_warning": "E mepatunayan — malyari yang alang epektu keng resulta.",
+      "metatags_empty": "Ala yang meta-tags a makarehistru."
+    },
+    "prompts": {
+      "style_title": "Style prompt",
+      "lyrics_title": "Lyrics prompt",
+      "template_label": "Template",
+      "template_none": "Ala yang template",
+      "variables_title": "Variables",
+      "preview_title": "Pauna",
+      "preview_empty": "Mamili kang template at katmuan mo reng variable para akit me ing preview.",
+      "char_count": " {{count}} karakter",
+      "char_count_warning": "Deng style prompts a maygit 1000 characters malyari lang pututan ning Suno.",
+      "copy": "kopya",
+      "copied": "mekopya ya keng clipboard",
+      "save_to_project": "I-save keng proyektu",
+      "saved_to_project": "Prompt me save ya keng project",
+      "history_title": "Kasaysayan",
+      "history_empty": "Ala nang minunang bersion.",
+      "current_label": "kasalukuyan"
+    },
+    "stems": {
+      "title": "Vocals at gitara",
+      "separate_button": "Mikawani la reng bosis ampo ing gitara",
+      "running": "Mikakawani...",
+      "vocals": "Vocals",
+      "instrumental": "Instrumental",
+      "process_stem": "Prosesu me ining stem",
+      "empty": "E ya pa mekawani ining take. Run separation para damdaman ing vocals ampo ing gitara keng isolation.",
+      "capability_missing": "E ya maka-install ing source separation kening server ayni.",
+      "unavailable": "E pa available ing vocal/guitar separation kening server ayni."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "keng",
+    "boolean_off": "Off"
+  },
+  "import": {
+    "title": "Import",
+    "subtitle": "Magdala kang proyektu na atyu na keng disk keng library.",
+    "step_indicator": "Lakbang {{current}} ning {{total}} ",
+    "step1": {
+      "title": "manintun kang folder",
+      "description": "Ituru me ing root folder kareng kekang proyektu ampo track.",
+      "path_label": "Dalan ning folder",
+      "path_placeholder": "alimbawa E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "Bayu",
+      "scan_button": "I-scan ing folder",
+      "scanning": "Mag-scan...",
+      "ffmpeg_warning": "E ya mayakit ing FFmpeg — laktawan do reng simpan a kailangang i-convert.",
+      "folders_found_one": " {{count}} folder meyakit ya",
+      "folders_found_other": " {{count}} folders meyakit",
+      "unmatched_files_one": " {{count}} e makikilalang file",
+      "unmatched_files_other": " {{count}} e makikilalang file"
+    },
+    "step2": {
+      "title": "Repasu la reng bage",
+      "description": "Lawen la reng lagyu, katayuan, ampo nung nanu ing i-import bayu me kumpirman.",
+      "select_all": "Pilinan la ngan",
+      "table": {
+        "folder": "Source folder",
+        "name": "lagyu ning proyektu",
+        "status": "katayuan",
+        "audio": "Audio",
+        "lyrics": "Lyrics",
+        "cover": "takpan",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} file mepili",
+      "audio_include_other": " {{count}} files mepili",
+      "no_audio": "Ala yang ikit a audio",
+      "no_lyrics": "Ala yang ikit a liriko",
+      "no_cover": "Ala yang takap",
+      "warnings_title": "Babala"
+    },
+    "step3": {
+      "title": "Import",
+      "description": "Kumpirman mu na kopya la reng file ampo gawa la reng proyektu.",
+      "copy_originals": "kopya la reng orihinal a file keng library",
+      "execute_button": "magumpisa kang mag import",
+      "progress_title": "Mag-import...",
+      "created_count": "Megawa: {{count}} ",
+      "skipped_count": "Laktawan: {{count}} ",
+      "done_title": "Kumpletu ing pamaglub",
+      "done_description": "Deng proyektu keng lalam megawa la keng kekang aklatan.",
+      "view_project": "makabuklat a proyektu",
+      "start_over": "Bayung import"
+    }
+  },
+  "templates": {
+    "title": "Templates",
+    "subtitle": "Reusable prompt templates ampo meta-tags para keng Suno.",
+    "tabs": {
+      "prompts": "Prompt templates",
+      "metatags": "Meta-tags"
+    },
+    "new_template": "Bayung template",
+    "kind": {
+      "style": "Istilu",
+      "lyrics": "Lyrics"
+    },
+    "kind_label": "Mabait",
+    "delete_confirm_title": "Bura ing template \" {{name}} \"?",
+    "delete_confirm_description": "E malyaring ibalik ini.",
+    "empty": "Ala pang template.",
+    "editor": {
+      "title_new": "Bayung template",
+      "title_edit": "I-edit ing template",
+      "name_label": "lagyu",
+      "name_placeholder": "alimbawa Acoustic ballad",
+      "kind_label": "Mabait",
+      "template_label": "Template text",
+      "template_hint": "Markan me nung nukarin ya kayabe ing balang variable gamit ing lagyu na makabalut keng double curly braces — alimbawa, ing variable a milagyuan \"genre\" maging yang genre a makabalut keng adwang opening ampo adwa closing braces.",
+      "variables_label": "Variables",
+      "variable_add": "Dagdagan me ing variable",
+      "variable_name": "susi",
+      "variable_label": "Label",
+      "variable_type": "Uri",
+      "variable_type_string": "Text",
+      "variable_type_select": "Metung a pilinan",
+      "variable_type_multiselect": "Multi-select",
+      "variable_type_number": "Bilang",
+      "variable_type_boolean": "Wa/ali",
+      "variable_options": "Options (comma-separated)",
+      "variable_required": "kailangan",
+      "save": "I-save ing template"
+    },
+    "metatags": {
+      "title": "Meta-tags",
+      "subtitle": "Structural ampo style tags akilala nang suno ing kilub ning liriko.",
+      "new_tag": "Bayung tag",
+      "tag_label": "Tag",
+      "tag_placeholder": "alimbawa gitara-solo",
+      "category_label": "Kategorya",
+      "tier_label": "Kapanaligan",
+      "tier_legend_title": "Reliability legend",
+      "tier_legend": {
+        "1": "Tier 1 — makadokumentu at consistent",
+        "2": "Tier 2 — keraklan gagana ya",
+        "3": "Tier 3 — variable effect",
+        "4": "Tier 4 — placebo, e pa mepatunayan"
+      },
+      "description_label": "Description",
+      "delete_confirm_title": "Bura ing tag \" {{tag}} \"?",
+      "empty": "Ala pang custom meta-tags."
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Impormasyun ning sistema, amanu, ampo default a kagustuwan.",
+    "system_info_title": "Sistema",
+    "version": "Bersion",
+    "data_dir": "Data folder",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Available",
+    "ffmpeg_missing": "E ya meyakit",
+    "capabilities_title": "maka-install a kapasidad",
+    "capability": {
+      "denoise": "Pamagbawas keng ingay",
+      "quality": "Pamanyulung ning kalidad",
+      "separate": "Pamikawani da reng panibatan",
+      "ffmpeg": "FFmpeg conversion"
+    },
+    "capability_available": "Available",
+    "capability_unavailable": "E magagamit",
+    "gpu_title": "GPU acceleration",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime providers"
+    },
+    "gpu_none": "Ala lang ikit a GPU providers",
+    "language_title": "Amanu",
+    "language": {
+      "pt-BR": "Português (Brasil)",
+      "en": "Kapampangan"
+    },
+    "theme_title": "Itsura",
+    "theme": {
+      "dark": "Madalumdum",
+      "light": "sulu"
+    },
+    "defaults_title": "Export defaults",
+    "lufs_target_label": "Target LUFS",
+    "lufs_target_hint": "Gagamitan ya bilang mumunang suggestion nung mag export kang takes. Ing default nang Suno makalukluk ya keng -14 LUFS.",
+    "saved": "Mi-save la reng kagustuhan"
+  },
+  "guide": {
+    "title": "Suno recording guide",
+    "subtitle": "makananu yang akit ing bosis ampo ing gitara para mika masanting a resulta.",
+    "intro": "Ing Suno mas masanting yang gagawan nung malinis ya, alang malino a reperensya. Ing guide ayni sasakupan na ing pamagsadya, target levels, ampo ing 3-5 minutung recording script.",
+    "sections": {
+      "prep": {
+        "title": "Pamagsadya",
+        "body": "I-record me keng me-treat a silid o metung a ating dakal a malambut a materyales (kurtina, alpombra, imalan keng aparador). Patdan la reng bentilador ampo nanu mang maka-hum. Painitan me ing bosis mu kilub ning 5 minutu bayu ka magrecord."
+      },
+      "levels": {
+        "title": "Antas: -12 anggang -6 dBFS",
+        "body": "Mag-aim para kareng peaks pilatan ning -12 ampo -6 dBFS keng meter. king lalam ning range ayta, ing background noise maging yang mas kapansin-pansin; babo na niti, ing panganib ning pamagputol tatas ya. Gamitan me ing meter keng Record page para i-set me ing kekang gain bayu ka magumpisa."
+      },
+      "distance": {
+        "title": "Mic distance: 15-30 cm",
+        "body": "manatili kang 15 anggang 30 cm keng microphone. Mas malapit kesa kanita maglabis ya kareng plosives ampo proximity effect; mas marayu ing mas marakal a reverb ampo ingay."
+      },
+      "script": {
+        "title": "Recording script",
+        "warmup": "Vocal warm-up (1-2 minutus)",
+        "vowels": "Sustained vowels — a, e, i, o, u",
+        "scales": "Simpleng timbangan, patas at pababa",
+        "excerpt": "metung a kanta (8 anggang 16 bars)",
+        "dynamics": "Dynamics: magumpisa kang malambut, mayari kang masikan",
+        "spoken_phrase": "Metung a amanu, para abasa nang Suno ing kekang tono"
+      },
+      "expectations": {
+        "title": "Nanu ing asahan nang Suno",
+        "body": "WAV, 48 kHz, mono, dry (ala yang reverb o effects), 3 anggang 5 minutus ning reference. Ing peka malinis, peka representative a 2 minutu ning pamag take keraklan magproduce yang pekamasanting a resulta."
+      }
+    }
+  },
+  "status": {
+    "idea": "Ideya",
+    "em_progresso": "gagawan da pa",
+    "quase": "malapit na karin",
+    "pronto": "Sadya na"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Full vocal script para kang Suno",
+      "desc": "5 guided minutes: warm-up, vowels, scales, adwang song excerpts, dynamics, ampo metung a spoken phrase."
+    },
+    "step": {
+      "warmup": "Vocal warm-up",
+      "warmup_inst": "Magluwag ka kareng yawns, lip trills (brrr), ampo malambut a hum kilub ning metung a minutu. E na kailangan magrecord — para mu i-relax ing gulut mu bayu ka magkanta.",
+      "vowels": "Sustained vowels",
+      "vowels_inst": "Talan me ing balang bokal — a, e, i, o, u — kilub ning 3 anggang 4 a sigundu king kekang manyaman a tono, a maki matatag a dagul. makasaup ya ini kang suno para abalu na ing purong timbre ning kekang siwala.",
+      "scales": "Timbangan patas at pababa",
+      "scales_inst": "Magkanta kang simpleng scale patas at kaybat pababa, keng \"la\" o \"na\". E na kailangan maging perpektu — ing goal na ing map ya ing kekang vocal range.",
+      "section": "Song excerpt — part 1",
+      "section_inst": "Magkanta kang 8 anggang 16 bars ning kanta, keng tune intensyun na buri mung ipayabut. Iuna ing kalinawan ampo ing presensya kesa keng teknikal a perpeksyun.",
+      "section2": "Song excerpt — part 2",
+      "section2_inst": "Magkanta kang 8 anggang 16 bars — mas masanting ing chorus o section na makayaliwa keng minunang metung. Mas dakal a miyayaliwang bage ing makasaup keng modelu para abalu ing kekang siwala.",
+      "dynamics": "Dynamics: malambut → masikan",
+      "dynamics_inst": "Kanta me ing parehung amanu magumpisa kang malambut at mayari kang masikan, alang pamag-strain keng kekang asbuk. Iti papakit na kang Suno ing dynamic range ning kekang siwala.",
+      "spoken": "amanung sasabyan",
+      "spoken_inst": "Magsalita ka — e ka magkanta — metung a makuyad, natural a amanu, balamu makipag-chat ka. makasaup ya ini kang suno para akilala ne ing tune timbre ning kekang siwala."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Pamagbalik",
+      "filter": "Filters",
+      "dynamics": "Dynamics",
+      "separation": "Pamikawani",
+      "quality": "Kalidad",
+      "utility": "Utility",
+      "loudness": "Sikan"
+    },
+    "highpass": "High-pass filter",
+    "lowpass": "Low-pass filter",
+    "denoise": "Pamagbawas keng ingay",
+    "declip": "Declipping",
+    "declick": "Click/pop removal",
+    "deesser": "De-esser",
+    "gate": "Noise gate",
+    "compressor": "Compressor",
+    "limiter": "Limiter",
+    "eq": "Pamagpantay",
+    "normalize": "Peak normalization",
+    "loudness": "Loudness normalization (LUFS)",
+    "reverb_reduce": "Reverb reduction",
+    "separate": "Pamikawani da reng panibatan",
+    "quality": "Pamanyulung king kalidad (matas)",
+    "trim_silence": "Pamagputol king katahimikan",
+    "fade": "Fade in / fade out",
+    "stereo_to_mono": "Ibayu me keng mono",
+    "resample": "Resampling"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Mapagkatiwalaan",
+      "2": "keraklan gagana ya",
+      "3": "Variable",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Istruktura",
+      "vocal": "Vocal",
+      "instrument": "Instrumentu",
+      "dynamics": "Dynamics",
+      "production": "Production",
+      "mood": "Mood"
+    },
+    "verse": "Bersu",
+    "chorus": "Koro",
+    "bridge": "Tulay",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Kawit",
+    "prechorus": "Pre-chorus",
+    "instrumental": "Instrumental",
+    "guitar_solo": "solo ning gitara",
+    "build_up": "Build-up",
+    "breakdown": "Breakdown",
+    "spoken_word": "amanung sasabian",
+    "whispered": "Bulong",
+    "harmonies": "Harmonies",
+    "male_vocal": "lalaking boses",
+    "female_vocal": "babaing boses",
+    "duet": "Duet",
+    "acoustic": "Acoustic",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Malinis a bosis",
+    "voice_guitar_balanced": "Balanse ing boses ampo ing gitara",
+    "podcast": "Podcast",
+    "suno_ready": "Suno ready",
+    "gentle_restore": "malumanay a pamagbalik",
+    "raw_passthrough": "Ala yang pamagprosesu"
+  },
+  "errors": {
+    "unknown": "Atin nang mali.",
+    "network": "Eku akit ing server.",
+    "validation_error": "Lawen me ing impormasyun a linub mu.",
+    "not_found": "E ya meyakit ing bage.",
+    "project_not_found": "E meyakit ing proyektu.",
+    "take_not_found": "Eku akit.",
+    "album_not_found": "E ya meyakit ing album.",
+    "preset_not_found": "E ya mayakit ing preset.",
+    "template_not_found": "E ya mayakit ing template.",
+    "device_busy": "Ing audio device gagamitan ne ning aliwang programa.",
+    "device_not_found": "E ya mayakit ing audio device.",
+    "already_recording": "Atin nang pamagrecord.",
+    "ffmpeg_missing": "E ya maka-install ing FFmpeg — i-install me para a-convert me ining file.",
+    "disk_full": "E sapat ing disk space.",
+    "permission_denied": "E ya mipaintulutan ing binie nang dalan.",
+    "import_path_not_found": "E ya mayakit ing dalan ning pamaglub.",
+    "job_failed": "mebigu ing pamagprosesu.",
+    "job_cancelled": "Kanseladu ya ing pamagprosesu.",
+    "process_failed": "mebigu yang meprosesu ing take.",
+    "export_failed": "E ya me-export ing file.",
+    "record_failed": "E meyari ing pamagrecord."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Makapila",
+      "running": "Dalagan",
+      "done": "Tapos na",
+      "error": "mebigu",
+      "cancelled": "Kanseladu"
+    },
+    "kind": {
+      "process": "Pamagprosesu",
+      "export": "Export",
+      "import": "Import",
+      "record": "Recording"
+    }
+  }
+}

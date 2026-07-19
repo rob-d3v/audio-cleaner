@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "style-meta-v1",
+  "builtin": true,
+  "kind": "style",
+  "name": "Meta-prompt de Estilo (colar no ChatGPT/Claude)",
+  "description_key": "prompts.templates.style_meta_desc",
+  "cloned_from": null,
+  "template": "Aja como um especialista em engenharia de prompt para criação de música com inteligência artificial SUNO. Sua tarefa é criar um prompt detalhado e robusto para gerar uma música que emule o estilo de {musica}, interpretada por {artista}.\n\nO prompt gerado deve incluir, mas não se limitar a, os seguintes elementos:\n\n1. **Identificação da Referência:** não mencione o nome da música, cantor ou banda para não termos problemas com direitos autorais. Foque apenas nos elementos das referências passadas.\n\n2. **Características Gerais:**\n* **BPM (Batidas Por Minuto):** Especificar o BPM exato ou uma faixa de BPM que represente fielmente a música de referência.\n* **Estilo de Produção:** A emulação deve ser nível estúdio de super produção com base na gravação de referência.\n* **Gênero Musical:** Detalhar o gênero principal e subgêneros relevantes (ex: Pop Rock, Synthwave, Folk Acústico).\n\n3. **Instrumentação:**\n* Descrever detalhadamente os instrumentos presentes na música de referência.\n* Especificar a sonoridade, o papel de cada instrumento (ex: linha de baixo proeminente, solos de guitarra melódicos, batida de bateria simples mas eficaz).\n* Indicar a ênfase em elementos específicos (ex: uso de sintetizadores atmosféricos, percussão orgânica, cordas orquestrais).\n\n4. **Vocais:**\n* **Tom e Estilo:** Descrever o tom da voz (ex: grave, agudo, rouco, suave) e o estilo de canto (ex: melódico, falado, gutural, com vibrato).\n* **Expressão Emocional:** Indicar a emoção a ser transmitida (ex: melancolia, energia, paixão, raiva).\n* **Técnicas Vocais:** Mencionar quaisquer técnicas vocais distintas presentes na referência (ex: ad-libs, harmonias vocais, backing vocals).\n\n5. **Atmosfera e Emoção:**\n* Descrever a atmosfera geral desejada (ex: sombria, eufórica, introspectiva, épica).\n\n6. **Detalhes Adicionais Importantes:** Incluir quaisquer outros aspectos cruciais para capturar a essência da música de referência (ex: efeitos sonoros específicos, mixagem característica, uso de espaço/reverb).{extras}\n\n**Restrição:** Neste momento, o foco é exclusivamente nas **características musicais e de produção**. Não inclua ou gere qualquer conteúdo lírico. O prompt final deve ser uma instrução clara e detalhada para um modelo de IA musical, visando a emulação fiel do estilo musical especificado.\n\n**Formato de Saída:** Um único prompt de texto otimizado em português - Brasil, com no máximo 1000 caracteres (limite do campo de estilo do Suno v4.5+).\n\n**Objetivo:** Maximizar a fidelidade da música gerada pela IA ao estilo da música enviada como referência.",
+  "variables": [
+    {
+      "name": "musica",
+      "label_key": "prompts.vars.musica_referencia",
+      "type": "text",
+      "required": true,
+      "default": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    {
+      "name": "artista",
+      "label_key": "prompts.vars.artista_referencia",
+      "type": "text",
+      "required": true,
+      "default": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    {
+      "name": "extras",
+      "label_key": "prompts.vars.extras",
+      "type": "textarea",
+      "required": false,
+      "default": "",
+      "prefix": "\n\n**Especificações adicionais:** ",
+      "suffix": ""
+    }
+  ]
+}

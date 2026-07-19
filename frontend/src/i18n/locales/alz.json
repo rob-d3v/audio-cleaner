@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Jam yweyu dwal"
+  },
+  "nav": {
+    "library": "Ot buku",
+    "record": "Rekod",
+    "import": "Kelo piny",
+    "templates": "Templates",
+    "settings": "Kabedo",
+    "guide": "Jatel wi dhanu"
+  },
+  "common": {
+    "save": "Gwok",
+    "saving": "Gwok...",
+    "saved": "Jugwoko",
+    "cancel": "Wek",
+    "close": "Cego",
+    "delete": "Thum",
+    "edit": "Lok",
+    "create": "Cwec",
+    "search": "Sayu",
+    "loading": "Bedo...",
+    "error": "Kosa",
+    "retry": "Tem kendu",
+    "confirm": "Yik",
+    "back": "Dok cen",
+    "next": "Ma lubo",
+    "continue": "Med",
+    "finish": "Daru",
+    "copy": "Kopi",
+    "copied": "Jukopi",
+    "download": "Gony",
+    "upload": "Medu",
+    "none": "Ungo",
+    "all": "Giduto",
+    "yes": "Eyo",
+    "no": "Ungo",
+    "select": "Yer",
+    "optional": "mitire",
+    "required": "mitere",
+    "unsaved_changes": "Aloka loka ma jugwoko ngo",
+    "name": "Nying",
+    "status": "Kite ma piny utiye kudu",
+    "type": "Kite",
+    "actions": "Timu",
+    "empty": "Ono",
+    "browse": "Nen",
+    "remove": "Woth",
+    "add": "Med",
+    "rename": "Lok nying",
+    "duplicate": "Medu",
+    "warning": "Ponji",
+    "locked": "Jugwoko",
+    "builtin": "Ma jugiero i iye",
+    "custom": "Cultom",
+    "untitled": "Untitled",
+    "select_placeholder": "Yer..."
+  },
+  "library": {
+    "title": "Ot buku",
+    "subtitle": "Dwol peri man gita peri, nicaku i paru nituc i wodhu.",
+    "new_project": "Tic manyen",
+    "new_album": "Album manyen",
+    "search_placeholder": "Yeny ku nying...",
+    "view": {
+      "grid": "Grid",
+      "albums": "Album"
+    },
+    "filters": {
+      "all": "Giduto"
+    },
+    "take_count_one": " {{count}} kwany",
+    "take_count_other": " {{count}} tero",
+    "updated_at": "Judwoko manyen {{date}} ",
+    "no_results": {
+      "title": "Yub moko ope",
+      "description": "Tem loko kabedo mi sayu piny nyoke kabedo."
+    },
+    "empty": {
+      "title": "Ka gwoko buku peri utiye nono",
+      "description": "Caku tic manyen kud i acaki, nyo kel piny ma dong itiye kudu i disk.",
+      "cta_import": "Kelo kud i folder",
+      "cta_new": "Caku yub"
+    },
+    "project_dialog": {
+      "title": "Tic manyen",
+      "description": "Mi ire nying man iyer kit mi goyo wer.",
+      "name_label": "Nying tic",
+      "name_placeholder": "e.g. Koth mi cwir",
+      "mode_label": "Kit",
+      "mode": {
+        "voice": "Dwol kende",
+        "voice_guitar": "Dwol + gita"
+      },
+      "submit": "Caku yub"
+    },
+    "album_dialog": {
+      "title": "Album manyen",
+      "description": "Keth tic ma rwate i buku wer.",
+      "name_label": "Nying albam",
+      "name_placeholder": "e.g. Autumn EP",
+      "submit": "Yubu albam"
+    },
+    "album": {
+      "untitled": "Album ma nyinge ope",
+      "members_count_one": " {{count}} tic",
+      "members_count_other": " {{count}} yub",
+      "empty": "Tic moko ope i buku wer eni podi.",
+      "delete_confirm_title": "Woth wer?",
+      "delete_confirm_description": "Tic moko jubi ketho ngo, kende kende jubi weko kud i \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Woth \" {{name}} \"?",
+      "confirm_description": "Eni kwanyu tic man lembe moku ci ma tiye i iye. Eni copo bedu ngo."
+    }
+  },
+  "record": {
+    "title": "Rekod",
+    "subtitle": "Kwany lembe maleng, nen rwom peri, man lub script.",
+    "project_label": "Yub",
+    "project_placeholder": "Yer tic moko",
+    "project_create_quick": "Yub tic moko nyathotho...",
+    "device_label": "Jam tic mi ketho lembe",
+    "device_placeholder": "Yer jam tic",
+    "device_default_badge": "Kit tic macon",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Jam tic moko ope ma junwango.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Wek lubo tok lembe",
+    "record_button": "Rekod",
+    "stop_button": "Cung",
+    "elapsed_label": "Saa ma ukadhu",
+    "status": {
+      "idle": "Idle",
+      "monitoring": "Lubu tok",
+      "recording": "Goyo wer",
+      "stopped": "Jujuko"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Wi got",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Ponji ma jutelo wigi",
+      "subtitle": "Wek jatel wi tuko uwoth iri ikind lembe ma igoro, nicaku i acaki nituc i wec ma juweco.",
+      "loading": "Bedo ka ketho script...",
+      "unavailable": "Lembe ma jutelo kudu podi epe iwi server podi.",
+      "select_project_device": "Yer tic moko man jam tic moko ma ibi ketho i iye lembe ma imito ni goyo i iye.",
+      "progress": " {{done}} pa {{total}} steps",
+      "start_timer": "Jam sawa mi caku",
+      "skip_timer": "Wek saa",
+      "record_step": "Keth lembe eni",
+      "stop_step": "Wek mako wer",
+      "mark_done": "Uthum — timo mukende",
+      "step_recorded": "Kwany ma jugoro",
+      "no_record_step": "Thenge mi lyethu — epe ku yeny mi goyo wer.",
+      "bars_hint": "Ikind {{bars}} bars",
+      "complete_title": "Script uthum!",
+      "complete_body": "Igoro lembe ceke mi script. Dok cen i Audio tab pa project man iyer wer peri ma imaru.",
+      "restart": "Cak kendu script"
+    },
+    "best2min": {
+      "button": "Nwang dakika 2 maber loyo (Suno)",
+      "running": "Nyamu lembe ma jukwanu...",
+      "score_label": "Adwogi",
+      "hint": "Timo kero man nen pa lembe iwi lembe ceke mi nwangu kare ma tek pa dakika 2 — icopo loko rwom pare ku cingi ingeye.",
+      "chart_caption": "Adwogi pi dirisa acel acel",
+      "unavailable": "Lembe maber loyo-2-minute analysis epe iwi server eni podi."
+    },
+    "takes_title": "Maku kud i coko eni",
+    "takes_empty": "Lembe moko mbe ma jugoro i kare eni podi.",
+    "open_in_project": "Yab i yub",
+    "ws_disconnected": "Dwoko kendo i mita mi rwom...",
+    "select_project_first": "Yer tic moko ma ibi caku.",
+    "select_device_first": "Yer jam tic mi ketho lembe."
+  },
+  "project": {
+    "back_to_library": "Dok cen i ot buku",
+    "header": {
+      "status_label": "Kite ma piny utiye kudu",
+      "cover_upload": "Keth cover",
+      "cover_remove": "Woth umu",
+      "name_placeholder": "Nying tic",
+      "links_title": "Link",
+      "add_link": "Med link",
+      "mode": {
+        "voice": "Dwol kende",
+        "voice_guitar": "Dwol + gita"
+      }
+    },
+    "tabs": {
+      "audio": "Dwol",
+      "lyrics": "Wec mi wer",
+      "prompts": "Penji",
+      "notes": "Lembe"
+    },
+    "audio": {
+      "takes_title": "Tero",
+      "no_takes": {
+        "title": "Podi epe",
+        "description": "Goyo lembe manyen nyo kel piny ma con."
+      },
+      "record_new": "Goyo lembe manyen",
+      "rating": "Rating",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Jutiyo kudu"
+      },
+      "variant_placeholder": "Kit",
+      "process_button": "Lembe",
+      "export_button": "Cwalo woko",
+      "delete_take_confirm_title": "Thum lembe eni?",
+      "delete_take_confirm_description": "Dwol ma rwinyo man lembe ceke ma jutiyo kudu jubi kwanyu.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Jutiyo kudu"
+      },
+      "origin": {
+        "recorded": "Ma jugoro",
+        "imported": "Jukelo"
+      },
+      "session_label_placeholder": "Label mi rombo (ma imito)",
+      "duration": "Sawa",
+      "sample_rate": "Wel pa lanyuth",
+      "channels": "Yore",
+      "created_at": "Ma jugoro"
+    },
+    "pipeline": {
+      "title": "Yore mi tic",
+      "preset_label": "Preset",
+      "preset_none": "Chain ma juyubu",
+      "preset_save": "Gwok calu ma juketho con",
+      "stage_locked": "Jugwoko",
+      "stage_requires_extra": "Mitu piny mukende ma juketho ngo",
+      "process_button": "Timu timo",
+      "processing": "Tiyu...",
+      "job_queued": "I lain...",
+      "job_running": "Tiyu...",
+      "job_done": "Uthum",
+      "job_error": "Podho",
+      "job_cancelled": "Jujuko",
+      "cancel_job": "Wek",
+      "no_stages": "Kabedo moko epe."
+    },
+    "export": {
+      "title": "Cwalo piny woko",
+      "description": "Keth fail mir ajiki kud i version ma judaru timo.",
+      "variant_label": "Kit",
+      "format_label": "Kite",
+      "preset_label": "Cwal piny ma juciko woko",
+      "range_label": "Range",
+      "range_full": "Bor pare zo",
+      "range_custom": "Range ma juyiko",
+      "start_label": "Caku (s)",
+      "end_label": "Ajiki (s)",
+      "submit": "Cwalo woko",
+      "progress": "Rendering file...",
+      "download_ready": "Karatasi utimbre",
+      "download_button": "Kwany waraga"
+    },
+    "notes": {
+      "placeholder": "Lembe ma jukiewo iwi tic eni...",
+      "saved_at": "Jugwoko i {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Kyewo wer kany. Ti ku palette ma yo piny pi ketho Suno meta-tags.",
+      "saved_at": "Jugwoko i {{time}} ",
+      "saving": "Gwok...",
+      "versions": "Kit",
+      "versions_empty": "Lembe moko ope ma jugwoko podi.",
+      "version_preview": "Nen ma kwong",
+      "restore": "Dwok piny maeni",
+      "restore_confirm_title": "Dwogo piny maeni?",
+      "restore_confirm_description": "Lembe ma kawoni jubi loko ku ma jugwoko i {{date}} .",
+      "metatags_title": "Meta-tags",
+      "metatags_hint": "Di wi tag moko mi ketho i cursor.",
+      "metatags_placebo_warning": "Unproven — copo bedu ungo ku adwogi ikum adwogi.",
+      "metatags_empty": "Meta-tags moko mbe ma jukiewo."
+    },
+    "prompts": {
+      "style_title": "Style prompt",
+      "lyrics_title": "Wec mi wer",
+      "template_label": "Template",
+      "template_none": "Template epe",
+      "variables_title": "Lembe ma loko loko",
+      "preview_title": "Nen ma kwong",
+      "preview_empty": "Yer template man ipong ku piny ma tung tung kara inen acaki.",
+      "char_count": " {{count}} coc",
+      "char_count_warning": "Lembe ma jukiewo ma kadhu 1000 copo bedu ma judwoko piny ku Suno.",
+      "copy": "Kopi",
+      "copied": "Jukopi i clipboard",
+      "save_to_project": "Gwok i yub",
+      "saved_to_project": "Penji jugwoko i yub",
+      "history_title": "Lembe mukadho",
+      "history_empty": "Lembe mukadho epe.",
+      "current_label": "Kawoni"
+    },
+    "stems": {
+      "title": "Dwol man gita",
+      "separate_button": "Pok wer man gita",
+      "running": "Poko...",
+      "vocals": "Dwol",
+      "instrumental": "Jam wer",
+      "process_stem": "Ti ku stem eni",
+      "empty": "Lembe maeni podi jupoko ngo. Ti ku apoka poka ni winjo wer man gita kende kende.",
+      "capability_missing": "Poko piny ma wok kud i iye epe iwi server eni.",
+      "unavailable": "Poko wer/gita podi epe iwi server eni podi."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "On",
+    "boolean_off": "Off"
+  },
+  "import": {
+    "title": "Kelo piny",
+    "subtitle": "Kel tic ma dong nuti iwi disk i ot kwan.",
+    "step_indicator": "Thenge {{current}} pa {{total}} ",
+    "step1": {
+      "title": "Nwang folda",
+      "description": "Nyuth i kabedo ma pire tek ku yub peri man wer peri.",
+      "path_label": "Yo pa folda",
+      "path_placeholder": "e.g. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "Ma kawoni",
+      "scan_button": "Nen folda",
+      "scanning": "Scanning...",
+      "ffmpeg_warning": "FFmpeg unwange ngo — karatasi ma mitu loko jubi weko.",
+      "folders_found_one": " {{count}} kabedo ma junwango",
+      "folders_found_other": " {{count}} folders nwang",
+      "unmatched_files_one": " {{count}} fail ma jung'eyo ngo",
+      "unmatched_files_other": " {{count}} fail ma jung'eyo ngo"
+    },
+    "step2": {
+      "title": "Nen piny",
+      "description": "Nen nying, kite, man ango ma jubi kelo mapodi imoko ngo.",
+      "select_all": "Yer zo",
+      "table": {
+        "folder": "Ka gwoko piny",
+        "name": "Nying tic",
+        "status": "Kite ma piny utiye kudu",
+        "audio": "Dwol",
+        "lyrics": "Wec mi wer",
+        "cover": "Um",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} fail ma juyeru",
+      "audio_include_other": " {{count}} fail ma juyero",
+      "no_audio": "Dwol moko epe",
+      "no_lyrics": "Wec mi wer epe",
+      "no_cover": "Umo ngo",
+      "warnings_title": "Ponji"
+    },
+    "step3": {
+      "title": "Kelo piny",
+      "description": "Yik ni goyo waraga man ni cwio yub.",
+      "copy_originals": "Kwany waraga macon i ot buku",
+      "execute_button": "Cak kelo piny kud i ngom mange",
+      "progress_title": "Kelo...",
+      "created_count": "Juyike: {{count}} ",
+      "skipped_count": "Juweko: {{count}} ",
+      "done_title": "Kelo piny uthum",
+      "done_description": "Tic ma piny eni juyike i ot buku peri.",
+      "view_project": "Yab yub",
+      "start_over": "Kelo piny manyen"
+    }
+  },
+  "templates": {
+    "title": "Templates",
+    "subtitle": "Jam tic ma jutiyo kudu kendu man meta-tags pi Suno.",
+    "tabs": {
+      "prompts": "Templates ma pio pio",
+      "metatags": "Meta-tags"
+    },
+    "new_template": "Template manyen",
+    "kind": {
+      "style": "Kit",
+      "lyrics": "Wec mi wer"
+    },
+    "kind_label": "Ber",
+    "delete_confirm_title": "Woth template \" {{name}} \"?",
+    "delete_confirm_description": "Eni copo bedu ngo.",
+    "empty": "Podi template epe.",
+    "editor": {
+      "title_new": "Template manyen",
+      "title_edit": "Lok template",
+      "name_label": "Nying",
+      "name_placeholder": "e.g. wer mi wer",
+      "kind_label": "Ber",
+      "template_label": "Lembe ma jukiewo",
+      "template_hint": "Keth lanyuth kama piny acel acel utiye ku nyinge ma jugoro i dul ario — calu lapor, piny ma juloko ma julwongo ni \"genre\" doko genre ma jugoro i dul aryo mi caku man ario mi thum.",
+      "variables_label": "Lembe ma loko loko",
+      "variable_add": "Med piny ma lokore",
+      "variable_name": "Cwinya",
+      "variable_label": "Label",
+      "variable_type": "Kite",
+      "variable_type_string": "Lembe",
+      "variable_type_select": "Yer acel",
+      "variable_type_multiselect": "Yer madwong",
+      "variable_type_number": "Namba",
+      "variable_type_boolean": "Eyo/ungo",
+      "variable_options": "Lembe (ma jupoko ku koma)",
+      "variable_required": "Mitere",
+      "save": "Gwok template"
+    },
+    "metatags": {
+      "title": "Meta-tags",
+      "subtitle": "Kit ma juyubu kudu man kite ma Suno ungiyu kudu i kind wec mi wer.",
+      "new_tag": "Tag manyen",
+      "tag_label": "Tag",
+      "tag_placeholder": "e.g. gita-solo",
+      "category_label": "Dul",
+      "tier_label": "Gen",
+      "tier_legend_title": "Lembe ma pire tek",
+      "tier_legend": {
+        "1": "Tier 1 — ma jugoro man ma rwate",
+        "2": "Tier 2 — pol kare tiyo",
+        "3": "Tier 3 — adwogi ma loko loko",
+        "4": "Tier 4 — placebo, unproven"
+      },
+      "description_label": "Lembe ma jukoro",
+      "delete_confirm_title": "Woth tag \" {{tag}} \"?",
+      "empty": "Meta-tags moko ope podi."
+    }
+  },
+  "settings": {
+    "title": "Kabedo",
+    "subtitle": "Lembe mi yub, dhok, man piny ma dhanu mitu.",
+    "system_info_title": "Jam tic",
+    "version": "Kit",
+    "data_dir": "Ka gwoko lembe",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Nwange",
+    "ffmpeg_missing": "Junwange ngo",
+    "capabilities_title": "Ker ma juketho",
+    "capability": {
+      "denoise": "Dwoko dwand piny",
+      "quality": "Medu ber pa piny",
+      "separate": "Poko piny",
+      "ffmpeg": "FFmpeg loko"
+    },
+    "capability_available": "Nwange",
+    "capability_unavailable": "Epe",
+    "gpu_title": "GPU acceleration",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime providers"
+    },
+    "gpu_none": "Ju ma mio GPU moko ope",
+    "language_title": "Dho",
+    "language": {
+      "pt-BR": "Português (Brasil)",
+      "en": "Ingresa"
+    },
+    "theme_title": "Nen",
+    "theme": {
+      "dark": "Mudho",
+      "light": "Ler"
+    },
+    "defaults_title": "Cwalu piny ma con",
+    "lufs_target_label": "Target LUFS",
+    "lufs_target_hint": "Jutiyo kudu calu paru mi caku ka jucwalo piny woko. Suno's default ubedo -14 LUFS.",
+    "saved": "Lembe ma jumaru jugwoko"
+  },
+  "guide": {
+    "title": "Suno recording guide",
+    "subtitle": "Kite mi mako dwal man wer mi gita ma kelo adwogi maber.",
+    "intro": "Suno timo maber uloyu ku lembe ma leng man ma nyang ikume. Lembe maeni uketho i iye yube, rwom ma mitire, man script mi ​​goyo wer pi dakika 3-5.",
+    "sections": {
+      "prep": {
+        "title": "Yub",
+        "body": "Keth rekod i ot ma juyubu maber nyo acel ma ku piny ma mol (curtains, rugs, bongo i kabati). Nek fans man piny moko ci ma winjo. Med dwond peri pi dakika abic mapodi i goyo wer."
+      },
+      "levels": {
+        "title": "Kite: -12 ku -6 dBFS",
+        "body": "Tem pi rwom ma malu ikind -12 ku -6 dBFS iwi mita. Ithere piny pa rwom meno, dwand ma ngeye doko maleng; malu, peko mi poko piny umedire. Ti ku meter iwi karatasi mi rekod ni ketho rwom peri mapodi i acaku ngo."
+      },
+      "distance": {
+        "title": "Bor pa micro: 15-30 cm",
+        "body": "Bed 15 ku 30 cm ku microphone. Machiegni ku meno medo plosives man proximity effect; mabor utingo reverb man dwand madwong."
+      },
+      "script": {
+        "title": "Maku script",
+        "warmup": "Dwol maber (dakika 1-2)",
+        "vowels": "Vowels ma ucungo — a, e, i, o, u",
+        "scales": "Pim mayot, malu man piny",
+        "excerpt": "Wer moko (8 ku 16 bars)",
+        "dynamics": "Dynamics: caku moth, daru matek",
+        "spoken_phrase": "Wec acel ma juweco, kara Suno ebed ku copo mi kwanu dwand peri"
+      },
+      "expectations": {
+        "title": "Gin ma Suno ogeno",
+        "body": "WAV, 48 kHz, mono, dry (reverb nyo effects epe), dakika 3 ku 5 mi nen. Dakika 2 ma leng man ma nyuthu piny maber uloyu adwogi maber."
+      }
+    }
+  },
+  "status": {
+    "idea": "Paru",
+    "em_progresso": "Ubetimere",
+    "quase": "Kago",
+    "pronto": "Atera"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Lembe mi wer pa Suno",
+      "desc": "Dakika 5 ma jutelo: yub, dwal, rwom, wer aryo, rwom, man wec ma juweco."
+    },
+    "step": {
+      "warmup": "Wec mi dwal",
+      "warmup_inst": "Bed moth ku ywak, dhoge ma nyap (brrr), man dwand mayom pi dakika acel. Umitu ngo i rekod — etiye kende mi kweyo dhogi mapodi i wer.",
+      "vowels": "Vowels ma ucungo",
+      "vowels_inst": "Mak vowel acel acel — a, e, i, o, u — pi sekond 3 ku 4 i dwal peri maber, ku dwal ma rwinyo. Eni konyo Suno ni nyang ikum dwal peri.",
+      "scales": "Pima malo man piny",
+      "scales_inst": "Wer wer ma yot malu man piny, iwi \"la\" nyo \"na\". Umitu ngo obed maleng — lembakeca utiye ni ketho dwal peri ubed maber.",
+      "section": "Wer ma juwodho — thenge mir acel",
+      "section_inst": "Wer 8 ku 16 mi wer, ku paru mandha ma imito nyutho. Keth bedo maleng man bedo nuti ire ma pire tek uloyu ikum tic maber.",
+      "section2": "Wer ma juwodho — thenge mir 2",
+      "section2_inst": "Wer wer mukende 8 ku 16 — maber loyo ubedo chorus nyo dul ma tung tung ku ma ukadhu. Lembe matung tung konyo model ni ngeyo dwal peri.",
+      "dynamics": "Dynamics: mayom → matek",
+      "dynamics_inst": "Wer wec marom ni caku moth man i thum ku dwal ma tek, manangu ibe nyayu peko i dhogi. Eni nyutho Suno rwom pa dwand peri.",
+      "spoken": "Wec ma juweco",
+      "spoken_inst": "Wec — kud iwer — wec ma nok, ma rwinyo, calu kani ibeweco. Eni konyo Suno ni ngeyo dwand peri mandha."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Dwoko piny",
+      "filter": "Filters",
+      "dynamics": "Dynamics",
+      "separation": "Poko",
+      "quality": "Ber",
+      "utility": "Tic",
+      "loudness": "Dwol matek"
+    },
+    "highpass": "Filter ma malu",
+    "lowpass": "Low-pass filter",
+    "denoise": "Dwoko dwand piny",
+    "declip": "Dwoko piny",
+    "declick": "Dii/wok woko",
+    "deesser": "De-esser",
+    "gate": "Noise gate",
+    "compressor": "Compressor",
+    "limiter": "Limiter",
+    "eq": "Kethu rom",
+    "normalize": "Peak normalization",
+    "loudness": "Dwol ma rwinyo (LUFS)",
+    "reverb_reduce": "Dwoko piny pa dwal",
+    "separate": "Poko piny",
+    "quality": "Medu pa piny (upscale)",
+    "trim_silence": "Dwoko ling",
+    "fade": "Rwinyu i / rwinyu woko",
+    "stereo_to_mono": "Lok ni mono",
+    "resample": "Resampling"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Gen",
+      "2": "Pol kare tiyo",
+      "3": "Piny ma loko loko",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Kit ma juyubu kudu",
+      "vocal": "Dwol",
+      "instrument": "Jam wer",
+      "dynamics": "Dynamics",
+      "production": "Yubu",
+      "mood": "Kit paru"
+    },
+    "verse": "Verse",
+    "chorus": "Chorus",
+    "bridge": "Get",
+    "intro": "acaki",
+    "outro": "Outro",
+    "hook": "Hook",
+    "prechorus": "Pre-chorus",
+    "instrumental": "Jam wer",
+    "guitar_solo": "Gita solo",
+    "build_up": "Yubu",
+    "breakdown": "Turo",
+    "spoken_word": "Wec ma juweco",
+    "whispered": "Wec",
+    "harmonies": "Harmonies",
+    "male_vocal": "Dwol pa coo",
+    "female_vocal": "Dwol pa mon",
+    "duet": "Duet",
+    "acoustic": "Acoustic",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Dwol maleng",
+    "voice_guitar_balanced": "Dwol maber man gita",
+    "podcast": "Podcast",
+    "suno_ready": "Suno ayika",
+    "gentle_restore": "Dwok maber",
+    "raw_passthrough": "Tic epe"
+  },
+  "errors": {
+    "unknown": "Piny moko utime marac.",
+    "network": "Acopo tundo ngo i server.",
+    "validation_error": "Nen lembe ma igoro.",
+    "not_found": "Piny moko junwange ngo.",
+    "project_not_found": "Tic unwangre ngo.",
+    "take_not_found": "Kwany unwange ngo.",
+    "album_not_found": "Album epe.",
+    "preset_not_found": "Preset unwange ngo.",
+    "template_not_found": "Template unwange ngo.",
+    "device_busy": "Jam tic mi winjo lembe utiye ka tic ku program mange.",
+    "device_not_found": "Jam tic mi winjo lembe unwange ngo.",
+    "already_recording": "Recording moko dong ubetimere.",
+    "ffmpeg_missing": "FFmpeg epe — kethe pi loko fail eni.",
+    "disk_full": "Kabedo mi disk epe.",
+    "permission_denied": "Cik jukwero pi yo ma jumiyo.",
+    "import_path_not_found": "Yore mi kelo piny unwange ngo.",
+    "job_failed": "Tic uthum.",
+    "job_cancelled": "Tic ne juweko.",
+    "process_failed": "Etimo ngo tic maber.",
+    "export_failed": "Ecopo ngo ni cwalo waraga woko.",
+    "record_failed": "Ecopo caku mako wer."
+  },
+  "jobs": {
+    "status": {
+      "queued": "I lain",
+      "running": "Ngwec",
+      "done": "Uthum",
+      "error": "Podho",
+      "cancelled": "Jujuko"
+    },
+    "kind": {
+      "process": "Tiyu",
+      "export": "Cwalo woko",
+      "import": "Kelo piny",
+      "record": "Goyo wer"
+    }
+  }
+}

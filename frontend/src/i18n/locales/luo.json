@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Gino maler dwol"
+  },
+  "nav": {
+    "library": "Od somo",
+    "record": "Rekod",
+    "import": "Kelo oko",
+    "templates": "Templet",
+    "settings": "Chenro",
+    "guide": "Tayo"
+  },
+  "common": {
+    "save": "Rit",
+    "saving": "Keto...",
+    "saved": "Orit",
+    "cancel": "Kanyo",
+    "close": "Lor",
+    "delete": "Ruch",
+    "edit": "Loki",
+    "create": "Los",
+    "search": "Many",
+    "loading": "Oting'o...",
+    "error": "Ketho",
+    "retry": "Tem kendo",
+    "confirm": "Siem",
+    "back": "Dwogo",
+    "next": "Maluwo",
+    "continue": "Dhi nyime",
+    "finish": "Tieko",
+    "copy": "Kopi",
+    "copied": "Kopi",
+    "download": "Daunlodi",
+    "upload": "Ket",
+    "none": "Onge",
+    "all": "Duto",
+    "yes": "Eh",
+    "no": "Onge",
+    "select": "Yier",
+    "optional": "ok ochuno",
+    "required": "dwarore",
+    "unsaved_changes": "Lokiruok ma pok orit",
+    "name": "Nying",
+    "status": "Kido",
+    "type": "Kido",
+    "actions": "Timbe",
+    "empty": "Maongee gimoro",
+    "browse": "Raw",
+    "remove": "Gol oko",
+    "add": "Med",
+    "rename": "Loki nying",
+    "duplicate": "Duplikat",
+    "warning": "Chik",
+    "locked": "Olor",
+    "builtin": "Oger e iye",
+    "custom": "Kaluwore gi kaka idwaro",
+    "untitled": "Onge nying",
+    "select_placeholder": "Yier..."
+  },
+  "library": {
+    "title": "Od somo",
+    "subtitle": "Projek mag duol kod gita mari, chakre e paro nyaka e golo.",
+    "new_project": "Projekt manyien",
+    "new_album": "Albam manyien",
+    "search_placeholder": "Many gi nying...",
+    "view": {
+      "grid": "Grid",
+      "albums": "Albam"
+    },
+    "filters": {
+      "all": "Duto"
+    },
+    "take_count_one": " {{count}} kawo",
+    "take_count_other": " {{count}} kawo",
+    "updated_at": "Otim lokruok {{date}} ",
+    "no_results": {
+      "title": "Onge chenro ma yudore",
+      "description": "Tem loko filta mar manyo kata mar chal."
+    },
+    "empty": {
+      "title": "Od somo mari ni nono",
+      "description": "Chak tich manyien kowuok e chakruok, kata kelo gik ma isebedogo e disk.",
+      "cta_import": "Kelo kowuok e folda",
+      "cta_new": "Los chenro"
+    },
+    "project_dialog": {
+      "title": "Projekt manyien",
+      "description": "Miye nying kendo iyier kaka ibiro mako weche.",
+      "name_label": "Nying chenro",
+      "name_placeholder": "ranyisi Koth mar kinde oro",
+      "mode_label": "Mod",
+      "mode": {
+        "voice": "Duol kende",
+        "voice_guitar": "Duol + gita"
+      },
+      "submit": "Los chenro"
+    },
+    "album_dialog": {
+      "title": "Albam manyien",
+      "description": "Grup mar chenro motudore gi albam.",
+      "name_label": "Nying albam",
+      "name_placeholder": "ranyisi EP mar kinde koyo",
+      "submit": "Los albam"
+    },
+    "album": {
+      "untitled": "Albam ma onge nyinge",
+      "members_count_one": " {{count}} chenro",
+      "members_count_other": " {{count}} chenro",
+      "empty": "Onge chenro ma nitie e albamni nyaka sani.",
+      "delete_confirm_title": "Be ibiro rucho albam?",
+      "delete_confirm_description": "Projekte ok bi ruchi, mana ni ibiro golo oko mar \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Ruch \" {{name}} \"?",
+      "confirm_description": "Mae golo oko projekno kod gimoro amora ma okawo e iye. Gini ok nyal dwoko piny."
+    }
+  },
+  "record": {
+    "title": "Rekod",
+    "subtitle": "Kawo picha maler, neno rang’iny mari, kendo luwo skrip.",
+    "project_label": "Projekt",
+    "project_placeholder": "Yier chenro",
+    "project_create_quick": "Los chenro mapiyo...",
+    "device_label": "Gigo mar donjo",
+    "device_placeholder": "Yier masin",
+    "device_default_badge": "Sistem machon",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Onge gige keto weche ma yudore.",
+    "monitor_button": "Rang'i",
+    "monitor_stop_button": "Wek luwo",
+    "record_button": "Rekod",
+    "stop_button": "Wek",
+    "elapsed_label": "Seche mokalo",
+    "status": {
+      "idle": "Oonge tich",
+      "monitoring": "Luoro",
+      "recording": "Rekod",
+      "stopped": "Ochung'"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Gomo",
+      "clip": "Klip"
+    },
+    "guide": {
+      "title": "Seson ma otelo",
+      "subtitle": "We japuonj onyisi e skript okang’ ka okang’, chakre e puonjruok nyaka e weche ma iwacho.",
+      "loading": "Oting'o skript...",
+      "unavailable": "Seson ma otelo ok yudre e sava nyaka sani.",
+      "select_project_device": "Yier projek kod gige keto gik moko mondo indik step chakre kae.",
+      "progress": " {{done}} mar {{total}} okang'",
+      "start_timer": "Chako seche",
+      "skip_timer": "Wek tipo mar seche",
+      "record_step": "Rekod okang' ni",
+      "stop_step": "Wek mako weche",
+      "mark_done": "Otim — okang’ maluwo",
+      "step_recorded": "Kawo rekod",
+      "no_record_step": "Okang’ mar loso — onge rekod ma dwarore.",
+      "bars_hint": "Bar madirom {{bars}}",
+      "complete_title": "Skript oserumo!",
+      "complete_body": "Ne oketo rekod mar okang’ ka okang’ mar skrip. Dwoki e tab mar Audio mar chenrono kendo iyier gik ma ihero.",
+      "restart": "Chak ndiko kendo"
+    },
+    "best2min": {
+      "button": "Many dakika 2 mabeyo (Suno)",
+      "running": "Ka inono kaka okawo...",
+      "score_label": "Namba",
+      "hint": "Otimo nonro mar teko kod ler kuom kinde duto mondo oyud dirisa mare ma nigi teko moloyo mar dakika 2 — pod inyalo loko rang’inyno gi lweti bang’e.",
+      "chart_caption": "Goyo namba e dirisa ka dirisa",
+      "unavailable": "Oboke maber moloyo mar dakika 2 pok yudre e sava ni nyaka sani."
+    },
+    "takes_title": "Okawo gik moko kowuok e seche maeni",
+    "takes_empty": "Onge piche ma oserekod e sechegi nyaka sani.",
+    "open_in_project": "Yawo e chenro",
+    "ws_disconnected": "Tudruok kendo gi mita mar level...",
+    "select_project_first": "Yier tich ma ibiro chako timo.",
+    "select_device_first": "Yier gimoro ma itiyogo e keto weche."
+  },
+  "project": {
+    "back_to_library": "Dok e od somo",
+    "header": {
+      "status_label": "Kido",
+      "cover_upload": "Ket oboke",
+      "cover_remove": "Gol oko gik ma oumo",
+      "name_placeholder": "Nying chenro",
+      "links_title": "Tudruok",
+      "add_link": "Med tudruok",
+      "mode": {
+        "voice": "Duol kende",
+        "voice_guitar": "Duol + gita"
+      }
+    },
+    "tabs": {
+      "audio": "Dwol",
+      "lyrics": "Weche mag wende",
+      "prompts": "Penjo",
+      "notes": "Ndiko"
+    },
+    "audio": {
+      "takes_title": "Okawo",
+      "no_takes": {
+        "title": "Onge okawo nyaka sani",
+        "description": "Rekod gik manyien kata kelo fail ma osebedo."
+      },
+      "record_new": "Rekod picha manyien",
+      "rating": "Rango",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Otim"
+      },
+      "variant_placeholder": "Versi",
+      "process_button": "Yore",
+      "export_button": "Ooro oko",
+      "delete_take_confirm_title": "Be ibiro ruch gik ma kamago?",
+      "delete_take_confirm_description": "Odio ma ok otigodo kod versi moro amora ma osetimre biro gol oko.",
+      "ab": {
+        "raw": "A · Okwang'",
+        "processed": "B · Otimre"
+      },
+      "origin": {
+        "recorded": "Orekod",
+        "imported": "Okelo oko"
+      },
+      "session_label_placeholder": "Lebel mar seson (ok ochuno)",
+      "duration": "Kinde",
+      "sample_rate": "Nengo mar sampol",
+      "channels": "Chanel",
+      "created_at": "Orekod"
+    },
+    "pipeline": {
+      "title": "Chain mar loso",
+      "preset_label": "Oketo motelo",
+      "preset_none": "Chain ma olosi",
+      "preset_save": "Ket kaka oseket motelo",
+      "stage_locked": "Olor",
+      "stage_requires_extra": "Odwaro gimoro ma medore ma ok oketi",
+      "process_button": "Yore mag kawo",
+      "processing": "Tiyo...",
+      "job_queued": "Oketi e laini...",
+      "job_running": "Tiyo...",
+      "job_done": "Otim",
+      "job_error": "Orem",
+      "job_cancelled": "Okanhi",
+      "cancel_job": "Kanyo",
+      "no_stages": "Onge stej ma yudore."
+    },
+    "export": {
+      "title": "Kawo oro oko",
+      "description": "Render fail mogik kowuok e versi ma osetimnegi tich.",
+      "variant_label": "Versi",
+      "format_label": "Fomat",
+      "preset_label": "Oseket motelo mar oro oko",
+      "range_label": "Rang'",
+      "range_full": "Bor duto",
+      "range_custom": "Rang' ma idwaro",
+      "start_label": "Chak (s)",
+      "end_label": "Giko (s)",
+      "submit": "Ooro oko",
+      "progress": "Fail mar nyiso...",
+      "download_ready": "Fail oseik",
+      "download_button": "Daunlodi fail"
+    },
+    "notes": {
+      "placeholder": "Oboke ma onge chudo kuom chenro ni...",
+      "saved_at": "Orit e {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Ndik weche mag wendego kae. Ti kod palet ma ni e bath ng’atno mondo iket meta-tag mag Suno.",
+      "saved_at": "Orit e {{time}} ",
+      "saving": "Keto...",
+      "versions": "Versi",
+      "versions_empty": "Onge versi ma oserit nyaka sani.",
+      "version_preview": "Neno motelo",
+      "restore": "Dwok versi ni",
+      "restore_confirm_title": "Be inyalo duok versi ni?",
+      "restore_confirm_description": "Ndiko ma sani ibiro loki gi ma oserit e {{date}} .",
+      "metatags_title": "Meta-tag",
+      "metatags_hint": "Gwel tag mondo ikete e karsa.",
+      "metatags_placebo_warning": "Ok onyis — nyalo bedo ni onge teko moro amora kuom duoko.",
+      "metatags_empty": "Onge meta-tag ma ondiki."
+    },
+    "prompts": {
+      "style_title": "Sitael mapiyo",
+      "lyrics_title": "Weche mag wende",
+      "template_label": "Templet",
+      "template_none": "Onge ranyisi",
+      "variables_title": "Gik lokore",
+      "preview_title": "Neno motelo",
+      "preview_empty": "Yier template kendo ipong’ gik ma nyalo lokore mondo ine kaka ibiro neno.",
+      "char_count": " {{count}} weche",
+      "char_count_warning": "Sitael ma dwaro weche mokalo 1000 nyalo ng’ad gi Suno.",
+      "copy": "Kopi",
+      "copied": "Kopi e klapbod",
+      "save_to_project": "Ket e chenro",
+      "saved_to_project": "Owinjore orit e chenro",
+      "history_title": "Sigana",
+      "history_empty": "Onge versi motelo.",
+      "current_label": "Koro"
+    },
+    "stems": {
+      "title": "Duol kod gita",
+      "separate_button": "Pog duol kod gita",
+      "running": "Pogo...",
+      "vocals": "Duol",
+      "instrumental": "Gige thum",
+      "process_stem": "Los kor yien ni",
+      "empty": "Take ni pok opogore nyaka sani. Run pogruok mondo iwinj duol kod gita e yo mopogore opogore.",
+      "capability_missing": "Pogo mar gik ma owuok ok oketi e sava ni.",
+      "unavailable": "Pogo mar dwol kod gita pok yudre e sava ni nyaka sani."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "E",
+    "boolean_off": "Ogoyo"
+  },
+  "import": {
+    "title": "Kelo oko",
+    "subtitle": "Kel chenro ma osebedo e disk e od somo.",
+    "step_indicator": "Step {{current}} of {{total}}",
+    "step1": {
+      "title": "Many folda",
+      "description": "Nyis folda mar root ma nigi chenro kod trak mari.",
+      "path_label": "Yo mar folda",
+      "path_placeholder": "ranyisi E: \\ Robbs \\ Nyadhi \\ Muzik \\ Robbs",
+      "recent_label": "Machiegni",
+      "scan_button": "Skan folda",
+      "scanning": "Skan...",
+      "ffmpeg_warning": "FFmpeg ok yudre — fainde ma dwaro loko ibiro weyo.",
+      "folders_found_one": " {{count}} folda oyudre",
+      "folders_found_other": " {{count}} folda ma oyudre",
+      "unmatched_files_one": " {{count}} fail ma ok ong'ere",
+      "unmatched_files_other": " {{count}} fainde ma ok ong'ere"
+    },
+    "step2": {
+      "title": "Inyalo nono gik moko",
+      "description": "Rang nyinge, chal, kod gik ma ibiro kelo kapok iyie.",
+      "select_all": "Yier duto",
+      "table": {
+        "folder": "Folda mar kama owuokie",
+        "name": "Nying chenro",
+        "status": "Kido",
+        "audio": "Dwol",
+        "lyrics": "Weche mag wende",
+        "cover": "Kobo",
+        "album": "Albam"
+      },
+      "audio_include_one": " {{count}} fail moyier",
+      "audio_include_other": " {{count}} fainde moyier",
+      "no_audio": "Onge dwol ma yudore",
+      "no_lyrics": "Onge weche ma yudore",
+      "no_cover": "Onge gima oumo",
+      "warnings_title": "Chik"
+    },
+    "step3": {
+      "title": "Kelo oko",
+      "description": "<2Zepa> Siem ni ibiro kopi fainde kendo ilos chenro.",
+      "copy_originals": "Kopi fainde mowinjore e od somo",
+      "execute_button": "Chak kelo gik moko oko",
+      "progress_title": "Kelo...",
+      "created_count": "Ne oloso: {{count}} ",
+      "skipped_count": "Oweyo: {{count}} ",
+      "done_title": "Kelo oko otieko",
+      "done_description": "Projek ma yudore piny kae ne olosi e od somo mari.",
+      "view_project": "Yawo chenro",
+      "start_over": "Gik manyien ma ikelo"
+    }
+  },
+  "templates": {
+    "title": "Templet",
+    "subtitle": "Templet mag penjo ma inyalo tiyogo kendo kod meta-tag mag Suno.",
+    "tabs": {
+      "prompts": "Templet mag penjo",
+      "metatags": "Meta-tag"
+    },
+    "new_template": "Templet manyien",
+    "kind": {
+      "style": "Sitael",
+      "lyrics": "Weche mag wende"
+    },
+    "kind_label": "Jaber",
+    "delete_confirm_title": "Inyalo rucho ranyisi mar \" {{name}} \"?",
+    "delete_confirm_description": "Gini ok nyal dwoko piny.",
+    "empty": "Onge templet ma pod nitie.",
+    "editor": {
+      "title_new": "Templet manyien",
+      "title_edit": "Loki templet",
+      "name_label": "Nying",
+      "name_placeholder": "ranyisi Belad mar akustik",
+      "kind_label": "Jaber",
+      "template_label": "Ndiko mar templet",
+      "template_hint": "Mak kama ng’ato ka ng’ato ma nyalo lokore nitie gi nyinge ma oting’o e ng’injo ariyo ma ng’injo ariyo — kaka ranyisi, ng’injo ma nigi nying’ mar “genre” bedo ng’injo ma oting’o e ng’injo ariyo mag chakruok kod ariyo mag giko.",
+      "variables_label": "Gik lokore",
+      "variable_add": "Med gik ma nyalo lokore",
+      "variable_name": "Kido",
+      "variable_label": "Lembo",
+      "variable_type": "Kido",
+      "variable_type_string": "Ndiko",
+      "variable_type_select": "Yier achiel",
+      "variable_type_multiselect": "Yier mathoth",
+      "variable_type_number": "Namba",
+      "variable_type_boolean": "Eh/ok",
+      "variable_options": "Yiero (ma opogore gi koma)",
+      "variable_required": "Dwarore",
+      "save": "Templet mar kano"
+    },
+    "metatags": {
+      "title": "Meta-tag",
+      "subtitle": "Tag mag gedo kod sitael ma Suno ong'eyo ei weche mag wende.",
+      "new_tag": "Tag manyien",
+      "tag_label": "Tag",
+      "tag_placeholder": "ranyisi gita kende",
+      "category_label": "Kidieny",
+      "tier_label": "Bedo gi geno",
+      "tier_legend_title": "Lenda mar geno",
+      "tier_legend": {
+        "1": "Tier 1 — ondiki kendo luwore",
+        "2": "Tier 2 — thothne tiyo",
+        "3": "Okang’ mar 3 — duoko manyalo lokore",
+        "4": "Kidieny mar 4 — yath ma ok oting’o, ma ok onyis"
+      },
+      "description_label": "Lero",
+      "delete_confirm_title": "Ruch tag mar \"{{tag}}\"?",
+      "empty": "Onge meta-tag ma ochung’ne ng’ato nyaka sani."
+    }
+  },
+  "settings": {
+    "title": "Chenro",
+    "subtitle": "Weche mag sistem, dhok, kod gik ma ihero.",
+    "system_info_title": "Sistem",
+    "version": "Versi",
+    "data_dir": "Folda mar data",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Yudore",
+    "ffmpeg_missing": "Ok oyudre",
+    "capabilities_title": "Nyalo moketi",
+    "capability": {
+      "denoise": "Duoko piny koko",
+      "quality": "Bedo ber",
+      "separate": "Pogo kama wuokye",
+      "ffmpeg": "Loki mar FFmpeg"
+    },
+    "capability_available": "Yudore",
+    "capability_unavailable": "Ok yudre",
+    "gpu_title": "Dwoko mapiyo mar GPU",
+    "gpu": {
+      "torch_cuda": "Pitorch mar CUDA",
+      "ort_providers": "ONNX jochiw thuolo mar tiyo"
+    },
+    "gpu_none": "Onge jochiw GPU ma oyudre",
+    "language_title": "Dhoot",
+    "language": {
+      "pt-BR": "Portugal (Brasil)",
+      "en": "Kingesa"
+    },
+    "theme_title": "Neno",
+    "theme": {
+      "dark": "Mudho",
+      "light": "Ler"
+    },
+    "defaults_title": "Oboke mag oro oko",
+    "lufs_target_label": "LUFS ma ochung'ne",
+    "lufs_target_hint": "Ne otigodo kaka paro mar chakruok sama ioro mwandu e pinje ma oko okawo. <2Zepa> Suno ochung’ machiegni gi -14 LUFS.",
+    "saved": "Gik ma ihero oserit"
+  },
+  "guide": {
+    "title": "Oboke mar mako rekod mar Suno",
+    "subtitle": "Kaka inyalo mako dwol kod gita ma kawo ma yudo duoko maberie moloyo.",
+    "intro": "Suno timo maber moloyo ka otiyo gi weche maler kendo ma ok ng’iyore. Oboke ni oting’o ikruok, rang’iny mar gik ma idwaro chopo, kod ndiko mar rekod ma kawo dakika 3–5.",
+    "sections": {
+      "prep": {
+        "title": "Iikruok",
+        "body": "Rekod e ot ma osetimne thieth kata ma nigi gik mang’eny mayom (katen, rug, lewni e kabat). Otur fan kod gimoro amora ma ng’ur. Inyalo ng’ado dwondi kuom dakika 5 kapok irekod."
+      },
+      "levels": {
+        "title": "Okang’: -12 nyaka -6 dBFS",
+        "body": "<2Zepa> 12 -6 dBFS e mita. E piny mar rang’inyno, dwol ma ng’ato winjo bang’e bedo maler ahinya; e wi wachno, risk mar ng’ado yien medore. Ti kod mita ma ni e pej mar Rekod mondo iket pesa ma ibiro yudo kapok ichako."
+      },
+      "distance": {
+        "title": "Bor mar mikro: sentimita 15-30",
+        "body": "Bed mabor gi maikrofon sentimita 15 nyaka 30. Ka ng’ato ni machiegni moloyo mano, oting’o gik ma kelo ng’anjo kod gik ma ng’ato nigo machiegni; mabor kawo reverb mang’eny mag ot kod koko."
+      },
+      "script": {
+        "title": "Rekod skript",
+        "warmup": "Tiyo gi dwol (dakika 1-2)",
+        "vowels": "Weche motegno — a, e, an, o, u",
+        "scales": "Skala mayot, malo kod piny",
+        "excerpt": "Oboke mar wende (bar 8 nyaka 16)",
+        "dynamics": "Gik ma timore: chak gi dwol mayom, giko matek",
+        "spoken_phrase": "Wach achiel ma iwacho, mondo Suno onyalo somo dwol mari"
+      },
+      "expectations": {
+        "title": "Gima Suno geno",
+        "body": "WAV, 48 kHz, achiel, ma otuo (onge dwoko kata gik ma kelo), dakika 3 nyaka 5 mag ranyisi. Dakika 2 maler kendo ma nyiso gik ma ng’ato timo, thothne kelo duoko maberie moloyo."
+      }
+    }
+  },
+  "status": {
+    "idea": "Paro",
+    "em_progresso": "E dhi nyime",
+    "quase": "Chiegni ni kuno",
+    "pronto": "Oiko"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Skript mar duol ma opong'o mar Suno",
+      "desc": "Dakika 5 ma otelne: puonjruok, vowel, skel, weche ariyo mag wende, ng’iyo, kod wach ma iwacho."
+    },
+    "step": {
+      "warmup": "Liet dwol",
+      "warmup_inst": "Los gi ng’iyo, ng’iyo dhok (brrr), kod ng’iyo mayom kuom dakika achiel. Ok owinjore irekod — en mana mondo iwe ng’utni obed mayom kapok iwero.",
+      "vowels": "Vowel motegno",
+      "vowels_inst": "Many dwol ka dwol — a, e, i, o, u — kuom sekon 3 nyaka 4 e dwol ma iwinjo maber, ka iting’o dwol ma ok ng’ich. Mae konyo Suno mondo okaw timbre maler mar dwondi.",
+      "scales": "Opim malo kod piny",
+      "scales_inst": "Wer skel mayot malo kae to piny, ka itiyo gi \"la\" kata \"na\". Ok owinjore obed malong’o chuth — gino ma idwaro timo en mapo kaka dwol mari nyalo winjore.",
+      "section": "Oboke mar wende — kidieny mar 1",
+      "section_inst": "Wer bar 8 nyaka 16 mag wendego, ka in gi gombo madier ma idwaro nyiso. Ket ler kod bedoe mokuongo moloyo bedo malong'o chuth mar teknolojia.",
+      "section2": "Oboke mar wende — kidieny mar 2",
+      "section2_inst": "Wer bar mamoko 8 nyaka 16 —ma ber ka iwer korus kata sula ma opogore gi ma ne iloso motelo. Gik mathoth mopogore opogore konyo model mondo opuonjre dwondi.",
+      "dynamics": "Dinamik: mayom → matek",
+      "dynamics_inst": "Wer weche machalre ka ichako gi dwol mayom ahinya kendo itieko gi dwol maduong’, ma ok iketo ng’utni piny. Mano nyiso Suno kaka dwol mari nyalo bedo gi teko.",
+      "spoken": "Wach ma owachi",
+      "spoken_inst": "Wuoyo — kik iwer — weche machuok kendo ma ng’ato nyalo ng’eyo, mana kaka ka utimo mbaka. Mae konyo Suno ng’eyo kaka dwolni winjore gadier."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Duoko piny",
+      "filter": "Filta",
+      "dynamics": "Dinamik",
+      "separation": "Pogo",
+      "quality": "Ber",
+      "utility": "Gik ma itiyogo",
+      "loudness": "Dhoge mamalo"
+    },
+    "highpass": "Filta ma kalo ma malo",
+    "lowpass": "Filta ma kalo piny",
+    "denoise": "Duoko piny koko",
+    "declip": "Goyo oko",
+    "declick": "Goyo klik/pop",
+    "deesser": "Weri gi ng'eyo",
+    "gate": "Rangach mar koko",
+    "compressor": "Kompresa",
+    "limiter": "Gima giko",
+    "eq": "Keto gik maromre",
+    "normalize": "Pek mar loso kaka pile",
+    "loudness": "Keto dwol mamalo kaka pile (LUFS)",
+    "reverb_reduce": "Duoko piny dwol",
+    "separate": "Pogo kama wuokye",
+    "quality": "Medo ber (medo rang'iny mamalo)",
+    "trim_silence": "Kuong'o ling'",
+    "fade": "Roho ei / rumo oko",
+    "stereo_to_mono": "Loki obed achiel",
+    "resample": "Sampol kendo"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Nyalo gene",
+      "2": "Kinde mang’eny tiyo",
+      "3": "Gima lokore",
+      "4": "Yath mar thieth"
+    },
+    "category": {
+      "structure": "Chenro",
+      "vocal": "Duol",
+      "instrument": "Gige thum",
+      "dynamics": "Dinamik",
+      "production": "Loso",
+      "mood": "Kido"
+    },
+    "verse": "Ndiko",
+    "chorus": "Korus",
+    "bridge": "Oboke",
+    "intro": "Mokwongo",
+    "outro": "Owuok oko",
+    "hook": "Hook",
+    "prechorus": "Kapok chorus",
+    "instrumental": "Gige thum",
+    "guitar_solo": "Kende mar gita",
+    "build_up": "Gero",
+    "breakdown": "Kethore",
+    "spoken_word": "Wach ma owachi",
+    "whispered": "Ne owach gi dwol mapiny",
+    "harmonies": "Gik mawinjore",
+    "male_vocal": "Duol mar dichwo",
+    "female_vocal": "Duol mar dhako",
+    "duet": "Duet",
+    "acoustic": "Akustik",
+    "ad_lib": "Oboke mar lendo"
+  },
+  "presets": {
+    "clean_voice": "Duol maler",
+    "voice_guitar_balanced": "Duol kod gita mowinjore",
+    "podcast": "Podkast",
+    "suno_ready": "Suno oseik",
+    "gentle_restore": "Dwoko mayom",
+    "raw_passthrough": "Onge loso"
+  },
+  "errors": {
+    "unknown": "Gimoro ne ok odhi maber.",
+    "network": "Ne ok nyal chopo e sava.",
+    "validation_error": "Rang weche ma ne iketo.",
+    "not_found": "Gimoro ok yudre.",
+    "project_not_found": "Projekt ok yudre.",
+    "take_not_found": "Take ok oyudre.",
+    "album_not_found": "Albam pok oyudre.",
+    "preset_not_found": "Set ok yudre.",
+    "template_not_found": "Templet ok yudre.",
+    "device_busy": "Gima winjore gi dwol itiyogo gi program machielo.",
+    "device_not_found": "Gima owinjo ok yudre.",
+    "already_recording": "Rekod moro osebedo ka timore.",
+    "ffmpeg_missing": "FFmpeg ok oket — oket mondo ilok fail ni.",
+    "disk_full": "Ok nitie thuolo moromo mar disk.",
+    "permission_denied": "Ne ok oyie ne yo ma ne omiye.",
+    "import_path_not_found": "Yo mar kelo gik moko oko ok yudre.",
+    "job_failed": "Prosesa norem.",
+    "job_cancelled": "Ne ochungi chenro mar loso gik moko.",
+    "process_failed": "Ne ok onyalo timo chenro mar kawo.",
+    "export_failed": "Ne ok nyal oro failno oko.",
+    "record_failed": "Ne ok onyalo chako rekod."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Oket e laini",
+      "running": "Ringo",
+      "done": "Otim",
+      "error": "Orem",
+      "cancelled": "Okanhi"
+    },
+    "kind": {
+      "process": "Prosesa",
+      "export": "Ooro oko",
+      "import": "Kelo oko",
+      "record": "Rekod"
+    }
+  }
+}

@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Nadiifiyaha Maqalka"
+  },
+  "nav": {
+    "library": "Maktabadda",
+    "record": "Diiwaangeli",
+    "import": "Soo dejinta",
+    "templates": "Qaababka",
+    "settings": "Dejinta",
+    "guide": "Hagaha"
+  },
+  "common": {
+    "save": "Badbaadin",
+    "saving": "Keydinaya…",
+    "saved": "Badbaadiyay",
+    "cancel": "Jooji",
+    "close": "Xir",
+    "delete": "Tirtir",
+    "edit": "Wax ka beddel",
+    "create": "Abuur",
+    "search": "Raadi",
+    "loading": "Soodejinaya…",
+    "error": "Khalad",
+    "retry": "Isku day",
+    "confirm": "Xaqiiji",
+    "back": "Dib u noqo",
+    "next": "Xiga",
+    "continue": "Sii wad",
+    "finish": "dhame",
+    "copy": "Nuqul",
+    "copied": "la guuriyay",
+    "download": "Download",
+    "upload": "Soo rar",
+    "none": "Midna",
+    "all": "Dhammaan",
+    "yes": "Haa",
+    "no": "Maya",
+    "select": "Dooro",
+    "optional": "ikhtiyaari ah",
+    "required": "loo baahan yahay",
+    "unsaved_changes": "Isbeddellada aan la keydin",
+    "name": "Magaca",
+    "status": "Xaalada",
+    "type": "Nooca",
+    "actions": "Ficilada",
+    "empty": "Madhan",
+    "browse": "baadh",
+    "remove": "Ka saar",
+    "add": "Ku dar",
+    "rename": "Magacaabista",
+    "duplicate": "nuqul",
+    "warning": "Digniin",
+    "locked": "Quful",
+    "builtin": "Lagu dhex dhisay",
+    "custom": "Caadiyan",
+    "untitled": "Aan cinwaan lahayn",
+    "select_placeholder": "Dooro…"
+  },
+  "library": {
+    "title": "Maktabadda",
+    "subtitle": "Codkaaga iyo mashruucyada gitaarka, laga bilaabo fikrad ilaa la sii daayo.",
+    "new_project": "Mashruuc cusub",
+    "new_album": "Album cusub",
+    "search_placeholder": "Ku raadi magaca…",
+    "view": {
+      "grid": "Xarig",
+      "albums": "Albums"
+    },
+    "filters": {
+      "all": "Dhammaan"
+    },
+    "take_count_one": " {{count}} qaado",
+    "take_count_other": " {{count}} qaada",
+    "updated_at": "La cusbooneysiiyay {{date}} ",
+    "no_results": {
+      "title": "Wax mashruuc ah lama helin",
+      "description": "Isku day inaad hagaajiso shaandhada goobidda ama heerka"
+    },
+    "empty": {
+      "title": "Maktabadaada waa madhan",
+      "description": "Mashruuc cusub ka bilow xoq, ama soo dejintu waxay ku qaadanaysaa aad hore ugu haysatey saxanka.",
+      "cta_import": "Ka soo deji galka",
+      "cta_new": "Abuur mashruuc"
+    },
+    "project_dialog": {
+      "title": "Mashruuc cusub",
+      "description": "Sii magac oo dooro qaabka duubista.",
+      "name_label": "Magaca mashruuca",
+      "name_placeholder": "tusaale. Roobabka xagaaga",
+      "mode_label": "Habka",
+      "mode": {
+        "voice": "Codka kaliya",
+        "voice_guitar": "Cod + gitaar"
+      },
+      "submit": "Abuur mashruuc"
+    },
+    "album_dialog": {
+      "title": "Album cusub",
+      "description": "Mashruucyada laxiriira kooxda oo noqda albamka.",
+      "name_label": "Magaca Albumka",
+      "name_placeholder": "tusaale. Dayrta EP",
+      "submit": "Abuur albam"
+    },
+    "album": {
+      "untitled": "Albamka aan ciwaan looga dhigin",
+      "members_count_one": " {{count}} mashruuc",
+      "members_count_other": " {{count}} mashruuc",
+      "empty": "Weli ma jiraan wax mashruuc ah oo albamkan ku jira.",
+      "delete_confirm_title": "tirtir albamka?",
+      "delete_confirm_description": "Mashaariicda lama tirtiri doono, kaliya ayaa laga jaray \"{{name}}\"."
+    },
+    "delete_project": {
+      "confirm_title": "tirtir\" {{name}}\"?",
+      "confirm_description": "Tani waxay meesha ka saaraysaa mashruuca iyo wax kasta oo ku jira. Tan lama celin karo"
+    }
+  },
+  "record": {
+    "title": "Diiwaangeli",
+    "subtitle": "Qaado qaadashada nadiif ah, fiirso heerarkaaga, oo raac qoraalka.",
+    "project_label": "Mashruuca",
+    "project_placeholder": "Dooro mashruuc",
+    "project_create_quick": "Abuur mashruuc degdeg ah...",
+    "device_label": "Qalabka wax gelinta",
+    "device_placeholder": "Dooro qalab",
+    "device_default_badge": "Nadaamka habaysan",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Qalab wax geliya lama helin",
+    "monitor_button": "La soco",
+    "monitor_stop_button": "Jooji la socodka",
+    "record_button": "Diiwaangeli",
+    "stop_button": "Jooji",
+    "elapsed_label": "Waqti la dhaafay",
+    "status": {
+      "idle": "Iidle",
+      "monitoring": "Kormeerka",
+      "recording": "Duubista",
+      "stopped": "Joogsaday"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Meesha ugu sarreysa",
+      "clip": "clip"
+    },
+    "guide": {
+      "title": "Fadhi la hagayo",
+      "subtitle": "U oggolow tababaraha inuu ku dhex maro qoraalka tallaabo-tallaabo, laga bilaabo kululaynta ilaa weedha lagu hadlo.",
+      "loading": "Soodejinaya qoraalka…",
+      "unavailable": "Kalfadhiga la hagayay wali lagama heli karo serfarka",
+      "select_project_device": "Dooro mashruuc iyo qalab galinta si aad halkan uga duubto talaabooyinka saxda ah.",
+      "progress": " {{done}} ee {{total}} tillaabooyinka",
+      "start_timer": "Bilow saacada",
+      "skip_timer": "Ka bood wakhtiga",
+      "record_step": "Diiwaangeli tallaabadan",
+      "stop_step": "Jooji duubista",
+      "mark_done": "La sameeyay - tallaabada xigta",
+      "step_recorded": "Qaado duuban",
+      "no_record_step": "Tallaabo kululaynta - looma baahna duubis",
+      "bars_hint": "Ilaa {{bars}} baararka",
+      "complete_title": "Qoraalku wuu dhammaaday!",
+      "complete_body": "Waxaad duubtay tallaabo kasta oo qoraalka ah. Dib ugu noqo qaybta maqalka ee mashruuca oo dooro qaadashada aad jeceshahay.",
+      "restart": "Dib u bilow qoraalka"
+    },
+    "best2min": {
+      "button": "Soo hel 2 daqiiqo ee ugu fiican (Suno)",
+      "running": "Falanqaynta qaadashada…",
+      "score_label": "Dhibcaha",
+      "hint": "Wuxuu sameeyaa falanqayn tamar iyo caddayn guud ahaan qaadashada si uu u helo 2-daqiiqo daaqada ugu xoogan - wali waxaad ku hagaajin kartaa kala duwanaanta gacanta ka dib.",
+      "chart_caption": "Dhibcaha daaqad kasta",
+      "unavailable": "Falanqaynta-2-daqiiqo ee ugu fiican weli lagama heli karo serfarkan."
+    },
+    "takes_title": "Waxa laga soo qaatay fadhigan",
+    "takes_empty": "Wali ma jiro wax la duubay oo fadhigan lagu sameeyay.",
+    "open_in_project": "Ku furan mashruuca",
+    "ws_disconnected": "Dib ugu xidhida mitirka heerka…",
+    "select_project_first": "Dooro mashruuc si aad u bilowdo.",
+    "select_device_first": "Dooro qalabka wax gelinta"
+  },
+  "project": {
+    "back_to_library": "Ku laabo maktabadda",
+    "header": {
+      "status_label": "Xaalada",
+      "cover_upload": "Soo rar daboolka",
+      "cover_remove": "Ka saar daboolka",
+      "name_placeholder": "Magaca mashruuca",
+      "links_title": "Xiriirinta",
+      "add_link": "Kudar xiriiriyaha",
+      "mode": {
+        "voice": "Codka kaliya",
+        "voice_guitar": "Cod + gitaar"
+      }
+    },
+    "tabs": {
+      "audio": "Maqal",
+      "lyrics": "Erayada",
+      "prompts": "Dalabyo",
+      "notes": "Xusuusin"
+    },
+    "audio": {
+      "takes_title": "qaata",
+      "no_takes": {
+        "title": "Weli ma qaadanayso",
+        "description": "Qor qaado cusub ama soo daji fayl jira"
+      },
+      "record_new": "Dubi qaadid cusub",
+      "rating": "Qiimaynta",
+      "variant": {
+        "raw": "Ceyriin",
+        "processed": "La habeeyey"
+      },
+      "variant_placeholder": "Nooca",
+      "process_button": "Habka",
+      "export_button": "Dhoofinta",
+      "delete_take_confirm_title": "Ma tirtirtaa qaadashadan?",
+      "delete_take_confirm_description": "Codka ceeriin iyo nooc kasta oo la farsameeyay waa laga saarayaa.",
+      "ab": {
+        "raw": "A · Ceyriin",
+        "processed": "B · La habeeyey"
+      },
+      "origin": {
+        "recorded": "La duubay",
+        "imported": "la soo dhoofiyay"
+      },
+      "session_label_placeholder": "Summada kulanka (ikhtiyaar)",
+      "duration": "Muddada",
+      "sample_rate": "Heerka tusaalaha",
+      "channels": "Kanaalka",
+      "created_at": "La duubay"
+    },
+    "pipeline": {
+      "title": "Silsilad farsamaynta",
+      "preset_label": "Horay loo dhigay",
+      "preset_none": "Silsilad gaar ah",
+      "preset_save": "U keydi sidii hore loo diyaariyey",
+      "stage_locked": "Quful",
+      "stage_requires_extra": "Waxay u baahan tahay wax dheeraad ah oo aan la rakibin",
+      "process_button": "Habka qaadashada",
+      "processing": "Hagaajinta…",
+      "job_queued": "Saf ku galay…",
+      "job_running": "Hagaajinta…",
+      "job_done": "La sameeyay",
+      "job_error": "Fashilmay",
+      "job_cancelled": "La joojiyay",
+      "cancel_job": "Jooji",
+      "no_stages": "Ma jiraan heerar la heli karo"
+    },
+    "export": {
+      "title": "Dhoofinta qaado",
+      "description": "Ka soo saar faylka kama dambaysta ah nooca la habeeyey.",
+      "variant_label": "Nooca",
+      "format_label": "Qaabka",
+      "preset_label": "Dhoofinta horudhac",
+      "range_label": "Range",
+      "range_full": "Dherer buuxa",
+      "range_custom": "Kala duwanaanshaha gaarka ah",
+      "start_label": "Bilow",
+      "end_label": "Dhammaad",
+      "submit": "Dhoofinta",
+      "progress": "Faylka samaynta…",
+      "download_ready": "Faylka waa diyaar",
+      "download_button": "Soo deji faylka"
+    },
+    "notes": {
+      "placeholder": "Qoraalada qaab bilaashka ah ee ku saabsan mashruucan…",
+      "saved_at": "Lagu kaydiyay {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Halkan ku qor ereyada Isticmaal palette-ka dhinaca si aad u geliso Suno meta-tags.",
+      "saved_at": "Lagu kaydiyay {{time}} ",
+      "saving": "Keydinaya…",
+      "versions": "Noocyada",
+      "versions_empty": "Weli ma jiro noocyo la keydiyay.",
+      "version_preview": "Horudhac",
+      "restore": "Soo celi noocaan",
+      "restore_confirm_title": "Soo celi noocaan?",
+      "restore_confirm_description": "Qoraalka hadda jira waxaa lagu beddeli doonaa nooca lagu keydiyay {{date}} .",
+      "metatags_title": "Meta-tags",
+      "metatags_hint": "Guji calaamad si aad u geliso cursorka.",
+      "metatags_placebo_warning": "Aan la xaqiijin - waxaa laga yaabaa inaysan wax saameyn ah ku yeelan natiijada.",
+      "metatags_empty": "Ma jiro-taag-badan oo diiwaangashan"
+    },
+    "prompts": {
+      "style_title": "Dajinta qaabka",
+      "lyrics_title": "Erayada degdega ah",
+      "template_label": "Template",
+      "template_none": "Ma jiro template",
+      "variables_title": "Kala duwanaansho",
+      "preview_title": "Horudhac",
+      "preview_empty": "Dooro qaab-dhismeedka oo buuxi doorsoomayaasha si aad u aragto horudhac.",
+      "char_count": " {{count}} jilayaal",
+      "char_count_warning": "Qaabka ayaa keenay in ka badan 1000 xaraf ayaa laga yaabaa in Suno googooyo.",
+      "copy": "Nuqul",
+      "copied": "Loo guuriyay sabuuraddii",
+      "save_to_project": "Ku kaydi mashruuca",
+      "saved_to_project": "Si degdeg ah ayaa loo keydiyay mashruuca",
+      "history_title": "Taariikhda",
+      "history_empty": "Noocyo hore ma jiraan.",
+      "current_label": "Hadda"
+    },
+    "stems": {
+      "title": "Codka iyo gitaarka",
+      "separate_button": "Codad kala duwan iyo gitaar",
+      "running": "Kala saaraya…",
+      "vocals": "Codadka",
+      "instrumental": "Qalab",
+      "process_stem": "Geedi socodka jiriddan",
+      "empty": "Qaadashadan weli lama kala saarin. Orod kala soocida si aad u maqasho codadka iyo gitaarka oo gooni ah.",
+      "capability_missing": "Kala soocida isha laguma rakibin serfarkan.",
+      "unavailable": "Kala soocida codka/gitaarka lagama heli karo serfarkan weli."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Daar",
+    "boolean_off": "Demin"
+  },
+  "import": {
+    "title": "Soo dejinta",
+    "subtitle": "Keen mashaariicda horey ugu jiray saxanka maktabadda.",
+    "step_indicator": "Tallaabada {{current}} ee {{total}} ",
+    "step1": {
+      "title": "Hel gal gal",
+      "description": "Tilmaan galka xididka mashaariicdaada iyo raadadkaaga.",
+      "path_label": "Jidka Folderka",
+      "path_placeholder": "tusaale. E: \\Robbs\\Kibirka\\Music\\ROBBS",
+      "recent_label": "Dhawaan",
+      "scan_button": "Sawir gal gal",
+      "scanning": "Sawirka",
+      "ffmpeg_warning": "FFmpeg lama helin - faylasha u baahan beddelaad waa la boodi doonaa.",
+      "folders_found_one": " {{count}} gal la helay",
+      "folders_found_other": " {{count}} galalka la helay",
+      "unmatched_files_one": " {{count}} faylka aan la aqoonsan",
+      "unmatched_files_other": " {{count}} faylal aan la aqoonsan"
+    },
+    "step2": {
+      "title": "Dib u eeg walxaha",
+      "description": "Hubi magacyada, heerka, iyo waxa la soo dejin doono ka hor inta aanad xaqiijin.",
+      "select_all": "Dhammaan dooro",
+      "table": {
+        "folder": "Galka isha",
+        "name": "Magaca mashruuca",
+        "status": "Xaalada",
+        "audio": "Maqal",
+        "lyrics": "Erayada",
+        "cover": "Dabool",
+        "album": "Albumka"
+      },
+      "audio_include_one": " {{count}} faylka la doortay",
+      "audio_include_other": " {{count}} faylasha la doortay",
+      "no_audio": "Wax cod ah lama helin",
+      "no_lyrics": "Heeso lama helin",
+      "no_cover": "Dabool malaha",
+      "warnings_title": "Digniin"
+    },
+    "step3": {
+      "title": "Soo dejinta",
+      "description": "Xaqiiji inaad nuqul ka sameysid faylasha oo abuurto mashaariicda.",
+      "copy_originals": "Ku koobbi faylasha asalka ah maktabadda",
+      "execute_button": "Bilow soo dejinta",
+      "progress_title": "Soo dejinta",
+      "created_count": "Waxa la sameeyay: {{count}} ",
+      "skipped_count": "Ka booday: {{count}} ",
+      "done_title": "Soo dejintu waa dhammaatay",
+      "done_description": "Mashaariicda hoose waxa laga dhex abuuray maktabadaada.",
+      "view_project": "Mashruuc furan",
+      "start_over": "Soo dejinta cusub"
+    }
+  },
+  "templates": {
+    "title": "Qaababka",
+    "subtitle": "Qaababka degdega ah ee dib loo isticmaali karo iyo meta-tags ee Suno.",
+    "tabs": {
+      "prompts": "Hababka degdega ah",
+      "metatags": "Meta-tags"
+    },
+    "new_template": "Nashqada cusub",
+    "kind": {
+      "style": "Qaabka",
+      "lyrics": "Erayada"
+    },
+    "kind_label": "Naxariis",
+    "delete_confirm_title": "Ma tirtirtaa qaab-dhismeedka \" {{name}}\"?",
+    "delete_confirm_description": "Tan lama celin karo",
+    "empty": "Weli qaab-qaabeeya ma jiro",
+    "editor": {
+      "title_new": "Nashqada cusub",
+      "title_edit": "Wax ka beddel qaabka",
+      "name_label": "Magaca",
+      "name_placeholder": "tusaale. Ballad acoustic ah",
+      "kind_label": "Naxariis",
+      "template_label": "Qoraalka qaab-dhismeedka",
+      "template_hint": "Calaamadee meesha doorsoome kastaa iska leeyahay iyada oo magaceeda lagu duudduubay laba laabladood oo laablaaban - tusaale ahaan, doorsoome lagu magacaabo \"nooc\" wuxuu noqdaa nooc ku duudduuban laba furin iyo laba xidhidh.",
+      "variables_label": "Kala duwanaansho",
+      "variable_add": "Ku dar doorsoome",
+      "variable_name": "Furaha",
+      "variable_label": "Summada",
+      "variable_type": "Nooca",
+      "variable_type_string": "Qoraal",
+      "variable_type_select": "Xulasho kali ah",
+      "variable_type_multiselect": "Dooro badan",
+      "variable_type_number": "Tirada",
+      "variable_type_boolean": "Haa/maya",
+      "variable_options": "Ikhtiyaarada (comma-kala-saar)",
+      "variable_required": "Loo baahan yahay",
+      "save": "Keydi qaab-dhismeedka"
+    },
+    "metatags": {
+      "title": "Meta-tags",
+      "subtitle": "Qaab dhismeedka iyo qaabka tags Suno waxay aqoonsan tahay erayada gudaha.",
+      "new_tag": "Taag cusub",
+      "tag_label": "Tag",
+      "tag_placeholder": "tusaale. gitaar-solo",
+      "category_label": "Qaybta",
+      "tier_label": "Kalsoonida",
+      "tier_legend_title": "Halyeyga lagu kalsoonaan karo",
+      "tier_legend": {
+        "1": "Tier 1 - waa la duubay oo joogto ah",
+        "2": "Heerka 2 - badanaa wuu shaqeeyaa",
+        "3": "Tier 3 - saamayn doorsoon",
+        "4": "Tier 4 - placebo, aan la xaqiijin"
+      },
+      "description_label": "Sharaxaada",
+      "delete_confirm_title": "Tirtir summada \"{{tag}}\"?",
+      "empty": "Weli ma jiraan calaamado gaar ah"
+    }
+  },
+  "settings": {
+    "title": "Dejinta",
+    "subtitle": "Macluumaadka nidaamka, luqadda, iyo dookhyada caadiga ah.",
+    "system_info_title": "Nidaamka",
+    "version": "Nooca",
+    "data_dir": "Galka xogta",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "La heli karo",
+    "ffmpeg_missing": "Lama helin",
+    "capabilities_title": "Awoodaha la rakibay",
+    "capability": {
+      "denoise": "Yaraynta qaylada",
+      "quality": "Kobcinta tayada",
+      "separate": "Kala soocida isha",
+      "ffmpeg": "Beddelka FFmpeg"
+    },
+    "capability_available": "La heli karo",
+    "capability_unavailable": "Lama heli karo",
+    "gpu_title": "dardargelinta GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "Bixiyeyaasha Runtime ONNX"
+    },
+    "gpu_none": "Wax bixiyeyaal GPU ah lama helin",
+    "language_title": "Luuqad",
+    "language": {
+      "pt-BR": "Português (Brasil)",
+      "en": "Ingiriis"
+    },
+    "theme_title": "Muuqashada",
+    "theme": {
+      "dark": "Madow",
+      "light": "Iftiin"
+    },
+    "defaults_title": "Dhoofinta khaladaadka",
+    "lufs_target_label": "Bartilmaameedka LUFS",
+    "lufs_target_hint": "Loo isticmaalo sida soo jeedinta bilowga ah marka dhoofintu qaadanayso. Dabeecadda Suno waxay fadhidaa agagaarka -14 LUFS.",
+    "saved": "Dookhyada la keydiyay"
+  },
+  "guide": {
+    "title": "Hagaha duubista Suno",
+    "subtitle": "Sida loo qabto codka iyo gitaarka waxay qaadataa natiijada ugu fiican.",
+    "intro": "Suno waxay si fiican u qabataa tixraacyo nadiif ah oo aan mugdi ku jirin. Hagahan waxa uu daboolayaa diyaarinta, heerarka bartilmaameedka, iyo qoraalka duubista ee 3-5 daqiiqo.",
+    "sections": {
+      "prep": {
+        "title": "Diyaarinta",
+        "body": "Ku duub qol la daweeyay ama mid leh walxo jilicsan oo badan (daahyada, roogagga, dharka armaajo). Demi taageereyaasha iyo wax kasta oo ka xun. Diiri codkaaga 5 daqiiqo ka hor inta aanad duubin."
+      },
+      "levels": {
+        "title": "Heerarka: -12 ilaa -6 dBFS",
+        "body": "Ujeedo meelaha ugu sarreeya ee u dhexeeya -12 iyo -6 dBFS ee mitirka. Ka hooseeya xadkaas, sawaxanka asalka ayaa noqda mid la dareemo; korkiisa, khatarta goynta ayaa kor u kacda. Isticmaal mitirka bogga Diiwaanka si aad u dejiso faa'iidadaada ka hor intaadan bilaabin."
+      },
+      "distance": {
+        "title": "Fogaanta makarafoonka: 15-30 cm",
+        "body": "Ka joog 15 ilaa 30 cm makarafoonka. In ka dhow taas ayaa buunbuuninayaa saqafyada iyo saamaynta u dhowaanshaha; Meel fog waxa ay soo qaadanaysaa rebal iyo buuq badan."
+      },
+      "script": {
+        "title": "Qoraalka duubista",
+        "warmup": "Diirin codka (1-2 daqiiqo)",
+        "vowels": "Shaqaale joogta ah - a, e, i, o, u",
+        "scales": "Miisaanka fudud, kor iyo hoos",
+        "excerpt": "Qayb hees ah (8 ilaa 16 baararka)",
+        "dynamics": "Dhaqdhaqaaqa: ku bilow jilicsan, ku dhamee cod dheer",
+        "spoken_phrase": "Hal weedh oo lagu hadlo, si Suno uu u akhriyo codkaga codka"
+      },
+      "expectations": {
+        "title": "Maxaa Suno filayaa",
+        "body": "WAV, 48 kHz, mono, qalalan (ma laha fal celin ama saameyn), 3 ilaa 5 daqiiqo oo tixraac ah. 2da daqiiqo ee ugu nadiifsan, uguna matalaysa waxay badanaa keenaan natiijooyinka ugu fiican."
+      }
+    }
+  },
+  "status": {
+    "idea": "Fikrad",
+    "em_progresso": "Oo socda",
+    "quase": "Ku dhawaad halkaas",
+    "pronto": "Diyaarsan"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Qoraal cod buuxa oo loogu talagalay Suno",
+      "desc": "5 daqiiqo oo la hagayo: kululaynta, shaqal, miisaan, laba qaybood oo heeso ah, firfircooni, iyo weedh lagu hadlo."
+    },
+    "step": {
+      "warmup": "kululaynta codka",
+      "warmup_inst": "Ku dabci hamaansiga, bishimaha bishimaha (brrr), iyo humus jilicsan ilaa hal daqiiqo. Looma baahna in la duubo - waa inaad dejiso cunahaaga ka hor inta aanad heesin.",
+      "vowels": "Shaqaale joogta ah",
+      "vowels_inst": "Ku qabo shaqal kasta - a, e, i, o, u - 3 ilaa 4 ilbiriqsi goobtaada raaxada leh, oo leh mug joogto ah. Tani waxay ka caawinaysaa Suno inay qaadato timbre saafiga ah ee codkaaga.",
+      "scales": "Miisaanka kor iyo hoos",
+      "scales_inst": "Ku hees miisaan fudud kor ka dibna hoos, \"la\" ama \"na\". Looma baahna inay kaamil noqoto - yoolku waa in la khariideeyo tirada codkaaga.",
+      "section": "Qayb heeseed — qaybta 1",
+      "section_inst": "Ku hees 8 ilaa 16 baararka heesta, adiga oo ula jeedada dhabta ah ee aad rabto inaad gudbiso. Ka hormari caddaynta iyo joogitaanka ka sarreeya dhammaystirka farsamada.",
+      "section2": "Qayb heeseed — qaybta 2",
+      "section2_inst": "Ku hees 8 ilaa 16 baararka - sida ugu fiican ee chorus ama qayb ka duwan tii hore. Kala duwanaansho badan ayaa ka caawisa moodelku inuu barto codkaaga.",
+      "dynamics": "Dhaqdhaqaaqa: jilicsan → qaylo badan",
+      "dynamics_inst": "Ku hees kelmad isku mid ah adigoo ku bilaabaya mid aad u jilicsan oo ku dhammaanaya si dheer, adoon cidhiidhin cunahaaga. Tani waxay tusinaysaa Suno kala duwanaanshaha firfircoonida codkaaga.",
+      "spoken": "Weedha lagu hadlo",
+      "spoken_inst": "Hadal — ha heesin — weedh gaaban oo dabiici ah, sidii adigoo sheekeysanaya. Tani waxay ka caawinaysaa Suno inay aqoonsato timbre dhabta ah ee codkaaga."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Soo celinta",
+      "filter": "Shaandhaynta",
+      "dynamics": "Dhaqdhaqaaqa",
+      "separation": "Kala saarid",
+      "quality": "Tayada",
+      "utility": "Utility",
+      "loudness": "Cod dheer"
+    },
+    "highpass": "Shaydh-dhaaf sare",
+    "lowpass": "Shaandher hoose-dhexe",
+    "denoise": "Yaraynta qaylada",
+    "declip": "Diidmada",
+    "declick": "Guji/ka saarida pop",
+    "deesser": "De-esser",
+    "gate": "Albaabka qaylada",
+    "compressor": "Compressor",
+    "limiter": "Xaddid",
+    "eq": "Siman",
+    "normalize": "Caadiga ugu sarreeya",
+    "loudness": "Caadiyan qaylada (LUFS)",
+    "reverb_reduce": "Dhimista falcelinta",
+    "separate": "Kala soocida isha",
+    "quality": "Kobcinta tayada (sare)",
+    "trim_silence": "Aamus jarista",
+    "fade": "Bakhti gudaha/bax",
+    "stereo_to_mono": "U beddel mono",
+    "resample": "Dib u qaabaynta"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Lagu kalsoonaan karo",
+      "2": "Caadiyan way shaqeysaa",
+      "3": "La beddeli karo",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Qaab dhismeedka",
+      "vocal": "Codka",
+      "instrument": "Qalabka",
+      "dynamics": "Dhaqdhaqaaqa",
+      "production": "Wax soo saar",
+      "mood": "Niyad"
+    },
+    "verse": "Aayadda",
+    "chorus": "Chorus",
+    "bridge": "Buundada",
+    "intro": "Hordhac",
+    "outro": "Ka baxsan",
+    "hook": "Hook",
+    "prechorus": "Horay-chorus",
+    "instrumental": "Qalab",
+    "guitar_solo": "Gitaarka keligiis",
+    "build_up": "Dhisidda",
+    "breakdown": "Burburinta",
+    "spoken_word": "Eray lagu hadlo",
+    "whispered": "Si hoose loo yidhi",
+    "harmonies": "Harmonies",
+    "male_vocal": "Codka lab",
+    "female_vocal": "Codka dumarka",
+    "duet": "Duet",
+    "acoustic": "Acoustic",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Cod nadiif ah",
+    "voice_guitar_balanced": "Cod dheellitiran & gitaar",
+    "podcast": "Podcast",
+    "suno_ready": "Suno diyaar ah",
+    "gentle_restore": "Soo celinta dabacsan",
+    "raw_passthrough": "Ma jiro habayn"
+  },
+  "errors": {
+    "unknown": "Wax baa khaldamay",
+    "network": "Waa la gaadhi kari waayay seerfarka",
+    "validation_error": "Hubi macluumaadka aad gelisay.",
+    "not_found": "Shayga lama helin",
+    "project_not_found": "Mashruuca lama helin",
+    "take_not_found": "Qaado lama helin.",
+    "album_not_found": "Albaabka lama helin",
+    "preset_not_found": "Horay looma helin",
+    "template_not_found": "Nashqada lama helin",
+    "device_busy": "Qalabka maqalka ayaa isticmaalaya barnaamij kale.",
+    "device_not_found": "Qalabka maqalka ah lama helin",
+    "already_recording": "Duubista ayaa hadaba socota",
+    "ffmpeg_missing": "FFmpeg lama rakibin - ku rakib si aad u beddesho faylkan.",
+    "disk_full": "Meel disk ah oo aan ku filnayn",
+    "permission_denied": "Ogolaanshaha loo diiday waddada la siiyay.",
+    "import_path_not_found": "Waddada soo dejinta lama helin",
+    "job_failed": "Habayntu waa fashilantay",
+    "job_cancelled": "Nidaaminta waa la joojiyay",
+    "process_failed": "Ku guul daraystay in la habeeyo qaadashada",
+    "export_failed": "Ku guuldareystay dhoofinta faylka",
+    "record_failed": "Ku guul daraystay inuu bilaabo duubista"
+  },
+  "jobs": {
+    "status": {
+      "queued": "Kuyuu galay",
+      "running": "ordaya",
+      "done": "La sameeyay",
+      "error": "Fashilmay",
+      "cancelled": "La joojiyay"
+    },
+    "kind": {
+      "process": "Habaynta",
+      "export": "Dhoofinta",
+      "import": "Soo dejinta",
+      "record": "Duubista"
+    }
+  }
+}

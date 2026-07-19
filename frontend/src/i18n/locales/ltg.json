@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio teirītuojs"
+  },
+  "nav": {
+    "library": "Biblioteka",
+    "record": "Īroksts",
+    "import": "Importēt",
+    "templates": "Veidnis",
+    "settings": "Īstatejumi",
+    "guide": "Ceļveds"
+  },
+  "common": {
+    "save": "Saglobuot",
+    "saving": "Taupeišona...",
+    "saved": "Saglobuots",
+    "cancel": "Atceļt",
+    "close": "Aizvērt",
+    "delete": "Dzēst",
+    "edit": "Rediģēt",
+    "create": "Izveiduot .",
+    "search": "Meklēt",
+    "loading": "Īluodeišona...",
+    "error": "Klaida",
+    "retry": "Atkuortuoti raudzeit",
+    "confirm": "Apstyprynuot",
+    "back": "Atpakaļ",
+    "next": "Tuoļuok",
+    "continue": "Turpynuot",
+    "finish": "Pabeigt",
+    "copy": "Kopeja .",
+    "copied": "Pīraksteits",
+    "download": "Lejupielādēt .",
+    "upload": "Augšupielādēt",
+    "none": "Nivīns .",
+    "all": "Vysi .",
+    "yes": "Jā",
+    "no": "Nā",
+    "select": "Izvēlētīs .",
+    "optional": "papyldu",
+    "required": "vajadzeigs",
+    "unsaved_changes": "Nasaglobuotys izmainis",
+    "name": "Vuords",
+    "status": "Statuss",
+    "type": "Tips",
+    "actions": "Darbeibys",
+    "empty": "Tukšs",
+    "browse": "Pōrlūkōt",
+    "remove": "Izjimt",
+    "add": "Pīvīnuot",
+    "rename": "Puorsaukt",
+    "duplicate": "Dublikats",
+    "warning": "Breidynuojums .",
+    "locked": "Aizslāgts",
+    "builtin": "Ībyuvāts",
+    "custom": "Piec pasyutejuma",
+    "untitled": "Bez nūsaukuma",
+    "select_placeholder": "Izvēlētīs..."
+  },
+  "library": {
+    "title": "Biblioteka",
+    "subtitle": "Jūs bolsa i gitarys projekti, nu idejis da izlaišonys.",
+    "new_project": "Jauns projekts .",
+    "new_album": "Jauns albums .",
+    "search_placeholder": "Meklēt piec vuorda...",
+    "view": {
+      "grid": "Režgis",
+      "albums": "Albumi"
+    },
+    "filters": {
+      "all": "Vysi ."
+    },
+    "take_count_one": " {{count}} pajimt",
+    "take_count_other": " {{count}} aizjam .",
+    "updated_at": "Atjaunuots {{date}} . ",
+    "no_results": {
+      "title": "Projektu nav atrosti .",
+      "description": "Raugi pīlāguot mekliešonys voi statusa filtru."
+    },
+    "empty": {
+      "title": "100 doc#1159 Jūs biblioteka ir tukša .",
+      "description": "Suokt jaunu projektu nu nullis, voi importēt aizjam tev jau ir iz diska.",
+      "cta_import": "Importēt nu mapes .",
+      "cta_new": "Izveiduot projektu ."
+    },
+    "project_dialog": {
+      "title": "Jauns projekts .",
+      "description": "Dūd tam nūsaukumu i izavielej īroksta režimu.",
+      "name_label": "Projekta nūsaukums .",
+      "name_placeholder": "p.m. Vosorys leits .",
+      "mode_label": "Režims",
+      "mode": {
+        "voice": "Tikai bolss .",
+        "voice_guitar": "Bolss + gitara ."
+      },
+      "submit": "Izveiduot projektu ."
+    },
+    "album_dialog": {
+      "title": "Jauns albums .",
+      "description": "Grupēt ar tū saisteitūs projektus albumā.",
+      "name_label": "Albuma nūsaukums .",
+      "name_placeholder": "p.m. Rudiņa EP .",
+      "submit": "Izveiduot albumu ."
+    },
+    "album": {
+      "untitled": "Albums bez nūsaukuma .",
+      "members_count_one": " {{count}} projekts",
+      "members_count_other": " {{count}} projekti",
+      "empty": "Vēļ nav projektu itymā albumā.",
+      "delete_confirm_title": "Dzēst albumu?",
+      "delete_confirm_description": "Projekti natiks izdzāsti, tikai atdaleiti nu \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Izdzēst \" {{name}} \"?",
+      "confirm_description": "Tys nūjam projektu i kotru ījimšonu tymā. Tū navar atgrīzt."
+    }
+  },
+  "record": {
+    "title": "Īroksts",
+    "subtitle": "Uztvert teirū uzjimšonu, vāruot sovus leimini, i sekuot scenarejam.",
+    "project_label": "Projekts",
+    "project_placeholder": "Izvēlētīs projektu .",
+    "project_create_quick": "Izveiduot dreizu projektu...",
+    "device_label": "Īvadis īreice",
+    "device_placeholder": "Izvēlētīs īreici .",
+    "device_default_badge": "Sistemys nūklusājums",
+    "device_wasapi_badge": "VASAPI",
+    "device_empty": "Nav atrostys īvadis īreicis.",
+    "monitor_button": "Monitors",
+    "monitor_stop_button": "Pīturēt uzraudzeibu .",
+    "record_button": "Īroksts",
+    "stop_button": "Pītura",
+    "elapsed_label": "Paguojušais laiks .",
+    "status": {
+      "idle": "Tukšums",
+      "monitoring": "Uzraudzeiba",
+      "recording": "Īroksts .",
+      "stopped": "Apsastuoja ."
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Viersyune",
+      "clip": "Klips"
+    },
+    "guide": {
+      "title": "Vadeituo seansa",
+      "subtitle": "Ļauj trenerim sūli pa sūļam īt cauri scenarejam, nu īsiļdeišonys leidz runuotajai frazei.",
+      "loading": "Skriptu īluodeišona...",
+      "unavailable": "Vadeituo seansa vēļ nav pīejama serverī.",
+      "select_project_device": "Izvēlētīs projektu i īvadis īreici, lai īraksteitu sūļus tīši nu itenis.",
+      "progress": " {{done}} nu {{total}} sūlim",
+      "start_timer": "Suokšonys taimeris",
+      "skip_timer": "Izlaist taimeri",
+      "record_step": "Īraksteit itū sūli .",
+      "stop_step": "Pīturēt īrokstu .",
+      "mark_done": "Pabeigts — nuokušais sūļs .",
+      "step_recorded": "Pajimt īraksteits .",
+      "no_record_step": "Īsiļdeišonys sūļs — īroksta navajag.",
+      "bars_hint": "Ap {{bars}} bārim .",
+      "complete_title": "Scenarejs piļneigs!",
+      "complete_body": "Tu esi īrakstejs kotru scenareja sūli. Atsagrīz iz projekta Audio cilni i izavielej sovus meiluokūs uzjimšonys.",
+      "restart": "Restartēt skriptu"
+    },
+    "best2min": {
+      "button": "Atrodi lobuokuos 2 minotys (Suno)",
+      "running": "Analizejūt uzjimšonu...",
+      "score_label": "Rezultats",
+      "hint": "Izlaiž energejis i skaidreibys analizi pa vysu uzjimšonu, kab atrostu sovu stypruokū 2 minotu lūgu — piec tam vēļ var pīlāguot diapazonu ar rūku.",
+      "chart_caption": "Rezultats pa lūgam .",
+      "unavailable": "Lobuokuo-2 minotu analize vēļ nav pīejama itymā serverī."
+    },
+    "takes_title": "100 doc#1159 Jem nu ituos sēdis .",
+    "takes_empty": "Nikaidu uzjimšonu īraksteits itamā sesijā vēļ.",
+    "open_in_project": "Atvērt projektā .",
+    "ws_disconnected": "Atkuortuoti pīvīnojūt leidzīņa skaiteituoju...",
+    "select_project_first": "Izavielej projektu, kab suoktu dorbu.",
+    "select_device_first": "Izvēlētīs īvadis īreici."
+  },
+  "project": {
+    "back_to_library": "Atpakaļ iz biblioteku .",
+    "header": {
+      "status_label": "Statuss",
+      "cover_upload": "Augšupieļdeit vuoku",
+      "cover_remove": "Nūjimt vuoku .",
+      "name_placeholder": "Projekta nūsaukums .",
+      "links_title": "Saitis",
+      "add_link": "Pīvīnuot saiti",
+      "mode": {
+        "voice": "Tikai bolss .",
+        "voice_guitar": "Bolss + gitara ."
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Dzīsmu teksti",
+      "prompts": "Padūmi",
+      "notes": "Pīzeimis ."
+    },
+    "audio": {
+      "takes_title": "Pajam .",
+      "no_takes": {
+        "title": "Nikai jem vēļ .",
+        "description": "Īraksteit jaunu uzjimšonu voi importēt asūšū failu."
+      },
+      "record_new": "Īraksteit jaunu uzjimšonu .",
+      "rating": "Reitingu",
+      "variant": {
+        "raw": "Jēlī",
+        "processed": "Apstruoduots"
+      },
+      "variant_placeholder": "Verseja 1 .",
+      "process_button": "Process",
+      "export_button": "Eksportēt",
+      "delete_take_confirm_title": "Izdzēst itū uzjimšonu?",
+      "delete_take_confirm_description": "Izjimtais audio i kotra apstruoduotuo verseja.",
+      "ab": {
+        "raw": "A · Jēleigs",
+        "processed": "B · Apstruoduots"
+      },
+      "origin": {
+        "recorded": "Īraksteits",
+        "imported": "Īvasts"
+      },
+      "session_label_placeholder": "Seansa uzleimis (na obligati)",
+      "duration": "Ilgums",
+      "sample_rate": "Paraugu ātrums",
+      "channels": "Kanali",
+      "created_at": "Īraksteits"
+    },
+    "pipeline": {
+      "title": "Apstruodis kēde",
+      "preset_label": "Īprīkš īstatejums",
+      "preset_none": "Piec pasyutejuma kēde",
+      "preset_save": "Saglobuot kai īprīkš īstateitū",
+      "stage_locked": "Aizslāgts",
+      "stage_requires_extra": "100 doc#1159 Vajag papyldu , kas nav uzstuodeits .",
+      "process_button": "Process pajimt .",
+      "processing": "Apstruode...",
+      "job_queued": "Ryndā...",
+      "job_running": "Apstruode...",
+      "job_done": "Pabeigts",
+      "job_error": "Naizadeve",
+      "job_cancelled": "Atcalts",
+      "cancel_job": "Atceļt",
+      "no_stages": "Nikaidu skotuvu pīejamu."
+    },
+    "export": {
+      "title": "Eksportēt pajimt .",
+      "description": "Atveiduot gola failu nu apstruoduotuos versejis.",
+      "variant_label": "Verseja 1 .",
+      "format_label": "Formats",
+      "preset_label": "Eksportēt īprīkšejūs īstatejumus",
+      "range_label": "Diapazons",
+      "range_full": "Pylns garums .",
+      "range_custom": "Pīlāguots diapazons",
+      "start_label": "Suokums",
+      "end_label": "Beigys",
+      "submit": "Eksportēt",
+      "progress": "Atveiduošonys fails...",
+      "download_ready": "Fails gotovs .",
+      "download_button": "Lejupluodēt failu ."
+    },
+    "notes": {
+      "placeholder": "Breivformys pīzeimis par itū projektu...",
+      "saved_at": "Saglobuots pi {{time}} . "
+    },
+    "lyrics": {
+      "placeholder": "Dzīsmis tekstus rokstit ite. Izmontojit paleti iz sōna, lai īlyktu Suno meta-tegus.",
+      "saved_at": "Saglobuots pi {{time}} . ",
+      "saving": "Taupeišona...",
+      "versions": "Versejis",
+      "versions_empty": "Vēļ nav saglobuotu verseju.",
+      "version_preview": "Prīškskots",
+      "restore": "Atjaunuot itū verseju .",
+      "restore_confirm_title": "Atjaunuot itū verseju?",
+      "restore_confirm_description": "Pošreizejais teksts tiks aizstuots ar verseju, kas saglobuota {{date}} .",
+      "metatags_title": "Meta-tagi",
+      "metatags_hint": "Nūspīd iz īzeimis, lai tū īlyktu pi kursora.",
+      "metatags_placebo_warning": "Napīruodeits — var naītekmēt rezultatu.",
+      "metatags_empty": "Nikaidu meta-tegu nav registrāts."
+    },
+    "prompts": {
+      "style_title": "Stila uzvednis",
+      "lyrics_title": "Dzīstu uzmundrynuojums",
+      "template_label": "Veidne",
+      "template_none": "Nav veidnis .",
+      "variables_title": "Maineigī",
+      "preview_title": "Prīškskots",
+      "preview_empty": "Izvēlētīs veidni i aizpiļdeit maineigūs, lai redzētu prīškskotu.",
+      "char_count": " {{count}} zeimi",
+      "char_count_warning": "Stila uzlyugumi puori 1000 zeimem var tikt saeisynuoti ar Suno.",
+      "copy": "Kopeja .",
+      "copied": "100 doc#1159 Pōrkopēts iz storpnīka .",
+      "save_to_project": "Saglobuot projektā .",
+      "saved_to_project": "Uzdūšona saglobuota projektā .",
+      "history_title": "Viesture .",
+      "history_empty": "Nikaidu īprīkšejūs verseju.",
+      "current_label": "Pošreizejais"
+    },
+    "stems": {
+      "title": "Vokals i gitara .",
+      "separate_button": "Atsevišks vokals i gitara .",
+      "running": "Atdaleišona...",
+      "vocals": "Vokali",
+      "instrumental": "Instrumentu",
+      "process_stem": "Apstruoduot itū calmu .",
+      "empty": "Itys take vēļ nav atdaleits. Skrīt atdaleišonu, lai dzierdātu vokalu i gitaru izolāti.",
+      "capability_missing": "Olūtu atdaleišona itymā serverī nav instalāta.",
+      "unavailable": "Vokalu/gitarys atdaleišona itymā serverī vēļ nav pīejama."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Īslāgts",
+    "boolean_off": "Izslāgts"
+  },
+  "import": {
+    "title": "Importēt",
+    "subtitle": "Īnes bibliotekā projektus, kas jau ir diskā.",
+    "step_indicator": "Soļs {{current}} nu {{total}} ",
+    "step1": {
+      "title": "Atrodi mapeiti .",
+      "description": "Nūruodi iz saknis mapi ar sovim projektim i īrokstim.",
+      "path_label": "Mapes ceļš",
+      "path_placeholder": "p.m. E:\\Robss\\Lapnums\\Muzyka\\ROBBS",
+      "recent_label": "Pādejā laikā .",
+      "scan_button": "Skenēt mapi .",
+      "scanning": "Skeniešona...",
+      "ffmpeg_warning": "FFmpeg nav atrosts — faili, kurim vajadzeiga konverseja, tiks izlaisti.",
+      "folders_found_one": " {{count}} mape atrosta .",
+      "folders_found_other": " {{count}} mapes atrostas .",
+      "unmatched_files_one": " {{count}} naatpazeistams fails .",
+      "unmatched_files_other": " {{count}} naatpazeistami faili ."
+    },
+    "step2": {
+      "title": "Atsauksmis punkti",
+      "description": "Pyrms apstyprynuošonys puorbaudi nūsaukumus, statusus i tū, kas tiks importāts.",
+      "select_all": "Izlaseit vysus .",
+      "table": {
+        "folder": "Olūta mape .",
+        "name": "Projekta nūsaukums .",
+        "status": "Statuss",
+        "audio": "Audio",
+        "lyrics": "Dzīsmu teksti",
+        "cover": "Vōks",
+        "album": "Albums"
+      },
+      "audio_include_one": " {{count}} fails atlaseits .",
+      "audio_include_other": " {{count}} faili atlaseiti .",
+      "no_audio": "Nav atrosts audio .",
+      "no_lyrics": "Dzīsmu teksts nav atrosts .",
+      "no_cover": "Bez vuoka .",
+      "warnings_title": "Breidynuojumi"
+    },
+    "step3": {
+      "title": "Importēt",
+      "description": "Apstyprynoj, lai kopētu failus i izveiduotu projektus.",
+      "copy_originals": "100 doc#1281 Kopēt originalūs failus bibliotekā .",
+      "execute_button": "Suokt importēt .",
+      "progress_title": "Importejūt...",
+      "created_count": "Izveiduots: {{count}} . ",
+      "skipped_count": "Izlaists: {{count}} ",
+      "done_title": "Importēt pabeigts",
+      "done_description": "Zamuok asūšī projekti tyka veiduoti jūs bibliotekā.",
+      "view_project": "Atvārts projekts .",
+      "start_over": "Jauns imports ."
+    }
+  },
+  "templates": {
+    "title": "Veidnis",
+    "subtitle": "Atkuortuoti izmontojamys uzdūmu veidnis i meta-tagi Suno.",
+    "tabs": {
+      "prompts": "Uzdūšonys veidnis .",
+      "metatags": "Meta-tagi"
+    },
+    "new_template": "Jauna veidne .",
+    "kind": {
+      "style": "Stils",
+      "lyrics": "Dzīsmu teksti"
+    },
+    "kind_label": "Laipns",
+    "delete_confirm_title": "Izdzēst veidni \" {{name}} \"?",
+    "delete_confirm_description": "Tū navar atgrīzt.",
+    "empty": "Vēļ nav veidņu.",
+    "editor": {
+      "title_new": "Jauna veidne .",
+      "title_edit": "Rediģēt veidni",
+      "name_label": "Vuords",
+      "name_placeholder": "p.m. Akustiskuo balade .",
+      "kind_label": "Laipns",
+      "template_label": "Veidnis teksts .",
+      "template_hint": "Atzeimoj, kur pīdar kotrs maineigais ar sovu nūsaukumu, kas īteits dubultūs cirtainūs īkovuos — pīmāram, maineigais ar nūsaukumu \"žanrs\" palīk par žanru, kas īteits divejuos atkluošonys i divejuos nūslāguma īkovuos.",
+      "variables_label": "Maineigī",
+      "variable_add": "Pīvīnuot maineigū",
+      "variable_name": "Atslāga",
+      "variable_label": "Uzleimis",
+      "variable_type": "Tips",
+      "variable_type_string": "Teksts",
+      "variable_type_select": "Vīna izlase .",
+      "variable_type_multiselect": "Vairuokys atlasis",
+      "variable_type_number": "Numers .",
+      "variable_type_boolean": "Jā/nā",
+      "variable_options": "Varianti (ar komatu atdaleiti)",
+      "variable_required": "Vajadzeigs",
+      "save": "Saglobuot veidni"
+    },
+    "metatags": {
+      "title": "Meta-tagi",
+      "subtitle": "Strukturalī i stila tegi Suno atpazeist īškpusē tekstu.",
+      "new_tag": "Jauns īroksts .",
+      "tag_label": "Taga",
+      "tag_placeholder": "p.m. gitara-solo",
+      "category_label": "Kategoreja",
+      "tier_label": "Uzticameiba",
+      "tier_legend_title": "Uzticameibys legenda .",
+      "tier_legend": {
+        "1": "līmenis — dokumentāts i konsekvents .",
+        "2": "līmenis — parosti struodoj .",
+        "3": "līmenis — maineigais efekts .",
+        "4": "līmenis — placebo, napīruodeits ."
+      },
+      "description_label": "Apraksts",
+      "delete_confirm_title": "Izdzēst īrokstu \" {{tag}} \"?",
+      "empty": "Vēļ nav pīlāguotu meta-tagu."
+    }
+  },
+  "settings": {
+    "title": "Īstatejumi",
+    "subtitle": "Sistemys informaceja, volūda i nūklusātuos izvielis.",
+    "system_info_title": "Sistema",
+    "version": "Verseja 1 .",
+    "data_dir": "Datu mape .",
+    "ffmpeg_status": "FFmeg",
+    "ffmpeg_available": "Pīejams",
+    "ffmpeg_missing": "Nav atrosts .",
+    "capabilities_title": "Instalātuos īspiejis .",
+    "capability": {
+      "denoise": "Trūkšņa samazynuošona .",
+      "quality": "Kvalitatis uzlobuošona .",
+      "separate": "Olūtu atdaleišona .",
+      "ffmpeg": "FFmpeg puorviersšona"
+    },
+    "capability_available": "Pīejams",
+    "capability_unavailable": "Napīejams",
+    "gpu_title": "GPU paātrynuojums",
+    "gpu": {
+      "torch_cuda": "Pytorčs CUDA",
+      "ort_providers": "ONNX Izpiļdis laika snīdzieji ."
+    },
+    "gpu_none": "Nav atkluoti GPU snīdzieji .",
+    "language_title": "Volūda .",
+    "language": {
+      "pt-BR": "Portugalis (Brazileja)",
+      "en": "Angļu volūdā"
+    },
+    "theme_title": "Izskots",
+    "theme": {
+      "dark": "Tymss",
+      "light": "Gaisma"
+    },
+    "defaults_title": "Eksportēt nūklusātī",
+    "lufs_target_label": "Mierķa LUFS .",
+    "lufs_target_hint": "Izmontoj kai suokuma īrūsynuojumu, kod eksportej aizjam. Suno defaults sēd ap -14 LUFS.",
+    "saved": "Saglobuotys izvēlis"
+  },
+  "guide": {
+    "title": "Suno īrokstu ceļveds .",
+    "subtitle": "Kai ītvert bolsu i gitaru jem, ka daboj lobuokūs rezultatus.",
+    "intro": "Suno vyslobuok struodoj ar teirom, naskaidrom atsaucem. Itys ceļveds aptver sagataveišonu, mierķa leimini i 3–5 minotu īroksta scenareju.",
+    "sections": {
+      "prep": {
+        "title": "Sagatavuošona .",
+        "body": "Īroksts apstruoduotā telpā voi taidā, kur ir daudz meiksta materiala (aizkori, pakluoju, drēbis skapā). Izslēdz ventilatorus i vysu, kas dzīd. Pyrms īroksta 5 minotys sasiļdeit bolsu."
+      },
+      "levels": {
+        "title": "Leimini: -12 līdz -6 dBFS",
+        "body": "Mierkis ir viersyunis storp -12 i -6 dBFS iz skaiteituoja. Zam tuo diapazona fona trūksnis palīk radzamuoks; viers tuo, pīaug apgrīzšonys risks. Izmontojit skaiteituoju Īroksta lopā, kab pyrma suokuma īstateitu sovu pīaugumu."
+      },
+      "distance": {
+        "title": "Mikrofona attālums: 15–30 cm",
+        "body": "Palic 15 leidz 30 cm nu mikrofona. Tyvuok par tū puorspīļoj plozivus i tyvuma efektu; tuoļuok pījam vairuok ustobys atskaņu i trūksni."
+      },
+      "script": {
+        "title": "Īroksta scenarejs .",
+        "warmup": "Vokaluo īsiļdeišona (1–2 minūtis) 199 doc#1281 .",
+        "vowels": "Atturātī patskaņi — a , e , i , o , u .",
+        "scales": "Vīnkuorši skali, augšā i lejā .",
+        "excerpt": "Dzīsmis fragments (8 leidz 16 bārim)",
+        "dynamics": "Dinamika: suokt meiksti, beigt skaļi",
+        "spoken_phrase": "Vīna runuotuo fraze, lai Suno var puorskaiteit jūs vokalu tūni ."
+      },
+      "expectations": {
+        "title": "Kū Suno sagaida .",
+        "body": "WAV, 48 kHz, mono, sauss (bez atskaņu voi efektu), 3 leidz 5 minotu atsaucis. Teiruokuos, reprezentativuokuos 2 minotys nu uzjimšonys parosti dūd lobuokūs rezultatus."
+      }
+    }
+  },
+  "status": {
+    "idea": "Ideja",
+    "em_progresso": "Nūteik .",
+    "quase": "Gondreiž tī .",
+    "pronto": "Gatavs ."
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "100 doc#1159 Pylns vokaluo scenarejs Suno .",
+      "desc": "5 vadeituos minotys: īsiļdeišona, patskaņi, skalis, diveji dzīšmu fragmenti, dinamika, i runuotuo fraze."
+    },
+    "step": {
+      "warmup": "Vokaluo īsiļdeišona .",
+      "warmup_inst": "Atlaist ar žāluošonu, lyupu triļim (brrr), i meikstu šyupōšonūs apmāram minotu. Navajag īraksteit — tys ir tikai, lai pyrms dzīduošonys atsapyustu koklā.",
+      "vowels": "Atturātī patskaņi .",
+      "vowels_inst": "Kotru patskaņu — a, e, i, o, u — turi 3 leidz 4 sekuņdis sovā ārtā augstumā, ar stabilu skaļumu. Tys paleidz Suno pījimt jūs bolsa teirū tembru.",
+      "scales": "Skaļi iz augšu i leju .",
+      "scales_inst": "Dzīd vīnkuoršu mārūgu iz augšu i tod iz leju, iz \"la\" voi \"na\". Navajag byut perfektam — mierkis ir kartēt sovu vokalu diapazonu.",
+      "section": "Dzīsmis fragments — 1. daļa .",
+      "section_inst": "Dzīdi 8 leidz 16 dzīsmis stygus, ar eistu nūdūmu, kū gribi nūdūt. Prioriti skaidreibai i kluotbyutnei puori tehniskai piļneibai.",
+      "section2": "Dzīsmis fragments — 2. daļa .",
+      "section2_inst": "Dzīd vēļ 8 leidz 16 stygus — idealā gadīnī refrenu voi sekceju, kas kontrastej ar īprīkšejū. Vairuok dažaideibys paleidz modeļam īsavuiceit jūs bolsu.",
+      "dynamics": "Dinamika: meiksta → skaļa .",
+      "dynamics_inst": "Dzīd tū pošu frazi suocūt cīši meikstu i beidzūt skaļi, nasaspryngdynojūt koklu. Tys paruoda Suno jūs bolsa dinamiskū diapazonu.",
+      "spoken": "Runuotuo fraze .",
+      "spoken_inst": "Runoj — nadzīd — īsa, dabiska fraze, it kai čatuotu. Tys paleidz Suno atpazeit eistū jūs bolsa tembru."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restauraceja",
+      "filter": "Filtri",
+      "dynamics": "Dinamika",
+      "separation": "Atdaleišona .",
+      "quality": "Kvalitate .",
+      "utility": "Komunalums",
+      "loudness": "Skaļums"
+    },
+    "highpass": "Augstcaurlaideibys filtrs",
+    "lowpass": "Zemcaurlaideibys filtrs",
+    "denoise": "Trūkšņa samazynuošona .",
+    "declip": "Atgrīzšona",
+    "declick": "Klikšķu/popu nūjimšona",
+    "deesser": "De-esers",
+    "gate": "Trūkšņa vuorti .",
+    "compressor": "Kompresors",
+    "limiter": "Īrūbežuotuojs",
+    "eq": "Izleidzynuošona",
+    "normalize": "Pīka normalizaceja .",
+    "loudness": "Skaļuma normalizaceja (LUFS)",
+    "reverb_reduce": "Atskaņuošonys samazynuošona .",
+    "separate": "Olūtu atdaleišona .",
+    "quality": "Kvalitatis uzlobuošona (augstvierteiga)",
+    "trim_silence": "Klusuma apgrīzšona .",
+    "fade": "Izgaist īškā / izgaist uorā .",
+    "stereo_to_mono": "Pōrvērst uz mono .",
+    "resample": "Pōrparaugu jimšona"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Uztycams",
+      "2": "Parosti struodoj .",
+      "3": "Maineigais",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Struktura",
+      "vocal": "Vokals",
+      "instrument": "Instruments",
+      "dynamics": "Dinamika",
+      "production": "Ražuošona .",
+      "mood": "Nūskaņuojums ."
+    },
+    "verse": "Panteņš .",
+    "chorus": "Refrens .",
+    "bridge": "Tylts",
+    "intro": "Īvods",
+    "outro": "Uorpus",
+    "hook": "Āķis",
+    "prechorus": "Pyrms refrens",
+    "instrumental": "Instrumentu",
+    "guitar_solo": "Gitarys solo",
+    "build_up": "Uzbyuve",
+    "breakdown": "Sadalejums .",
+    "spoken_word": "Runuots vuords .",
+    "whispered": "Čuksteja",
+    "harmonies": "Harmonejis",
+    "male_vocal": "Veirīšu vokals .",
+    "female_vocal": "Sīvīšu vokals .",
+    "duet": "Duets",
+    "acoustic": "Akustiskais",
+    "ad_lib": "Sludynuošonys gruomota"
+  },
+  "presets": {
+    "clean_voice": "Teirs bolss .",
+    "voice_guitar_balanced": "Svārsts bolss & gitara .",
+    "podcast": "Podkasts",
+    "suno_ready": "Suno gotovs .",
+    "gentle_restore": "Maiga atjaunuošona .",
+    "raw_passthrough": "Nav apstruodis ."
+  },
+  "errors": {
+    "unknown": "Nazkas guoja greizi.",
+    "network": "Navarēja sasnēgt serveri.",
+    "validation_error": "Pārbaudiet īvadeitū informaceju.",
+    "not_found": "Prece nav atrosta.",
+    "project_not_found": "Projekts nav atrosts.",
+    "take_not_found": "Pajimt nav atrosts.",
+    "album_not_found": "Albums nav atrosts.",
+    "preset_not_found": "Prīkšīstatejums nav atrosts.",
+    "template_not_found": "Veidne nav atrosta.",
+    "device_busy": "Audio īreici lītoj cyta programa.",
+    "device_not_found": "Audio īreice nav atrosta.",
+    "already_recording": "Jau nūteik īroksts.",
+    "ffmpeg_missing": "FFmpeg nav instalēts — instalēt, lai pōrvērstu šū failu.",
+    "disk_full": "Nav pīteikūši daudz vītys diskā.",
+    "permission_denied": "Atļuove atsasaceita par dūtū ceļu.",
+    "import_path_not_found": "Importa ceļš nav atrosts.",
+    "job_failed": "Apstruode naizadeve.",
+    "job_cancelled": "Apstruode tyka atcalta.",
+    "process_failed": "Naizadeve apstruoduot uzjimšonu.",
+    "export_failed": "Naizadeve eksportēt failu.",
+    "record_failed": "Naizadeve suokt īrokstu."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Ryndā",
+      "running": "Skrīšona .",
+      "done": "Pabeigts",
+      "error": "Naizadeve",
+      "cancelled": "Atcalts"
+    },
+    "kind": {
+      "process": "Apstruode .",
+      "export": "Eksportēt",
+      "import": "Importēt",
+      "record": "Īroksts ."
+    }
+  }
+}

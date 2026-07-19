@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Nettoyeur audio"
+  },
+  "nav": {
+    "library": "Bibliothèque",
+    "record": "Enregistrer",
+    "import": "Importer",
+    "templates": "Modèles",
+    "settings": "Paramètres",
+    "guide": "Guider"
+  },
+  "common": {
+    "save": "Enregistrer",
+    "saving": "Sauvegarde…",
+    "saved": "Enregistré",
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "create": "Créer",
+    "search": "Rechercher",
+    "loading": "Chargement…",
+    "error": "Erreur",
+    "retry": "Réessayer",
+    "confirm": "Confirmer",
+    "back": "Retour",
+    "next": "Suivant",
+    "continue": "Continuer",
+    "finish": "Terminer",
+    "copy": "Copier",
+    "copied": "Copié",
+    "download": "Télécharger",
+    "upload": "Télécharger",
+    "none": "Aucun",
+    "all": "Tout",
+    "yes": "Oui",
+    "no": "Non",
+    "select": "Sélectionnez",
+    "optional": "facultatif",
+    "required": "requis",
+    "unsaved_changes": "Modifications non enregistrées",
+    "name": "Nom",
+    "status": "Statut",
+    "type": "Tapez",
+    "actions": "Actions",
+    "empty": "Vide",
+    "browse": "Parcourir",
+    "remove": "Supprimer",
+    "add": "Ajouter",
+    "rename": "Renommer",
+    "duplicate": "Dupliquer",
+    "warning": "Avertissement",
+    "locked": "Verrouillé",
+    "builtin": "Intégré",
+    "custom": "Personnalisé",
+    "untitled": "Sans titre",
+    "select_placeholder": "Sélectionnez…"
+  },
+  "library": {
+    "title": "Bibliothèque",
+    "subtitle": "Vos projets voix et guitare, de l'idée à la sortie.",
+    "new_project": "Nouveau projet",
+    "new_album": "Nouvel album",
+    "search_placeholder": "Rechercher par nom…",
+    "view": {
+      "grid": "Grille",
+      "albums": "Albums"
+    },
+    "filters": {
+      "all": "Tout"
+    },
+    "take_count_one": " {{count}} prendre",
+    "take_count_other": " {{count}} prend",
+    "updated_at": "Mise à jour {{date}} ",
+    "no_results": {
+      "title": "Aucun projet trouvé",
+      "description": "Essayez d'ajuster le filtre de recherche ou d'état."
+    },
+    "empty": {
+      "title": "Votre bibliothèque est vide",
+      "description": "Démarrez un nouveau projet à partir de zéro ou importez les prises que vous avez déjà sur le disque.",
+      "cta_import": "Importer depuis le dossier",
+      "cta_new": "Créer un projet"
+    },
+    "project_dialog": {
+      "title": "Nouveau projet",
+      "description": "Donnez-lui un nom et choisissez un mode d'enregistrement.",
+      "name_label": "Nom du projet",
+      "name_placeholder": "par ex. Pluie d'été",
+      "mode_label": "Mode",
+      "mode": {
+        "voice": "Voix uniquement",
+        "voice_guitar": "Voix + guitare"
+      },
+      "submit": "Créer un projet"
+    },
+    "album_dialog": {
+      "title": "Nouvel album",
+      "description": "Regroupez les projets liés dans un album.",
+      "name_label": "Nom de l'album",
+      "name_placeholder": "par ex. EP d'automne",
+      "submit": "Créer un album"
+    },
+    "album": {
+      "untitled": "Album sans titre",
+      "members_count_one": " {{count}} projet",
+      "members_count_other": " {{count}} projets",
+      "empty": "Aucun projet dans cet album pour l'instant.",
+      "delete_confirm_title": "Supprimer l'album ?",
+      "delete_confirm_description": "Les projets ne seront pas supprimés, seulement dissociés de \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Supprimer « {{name}} » ?",
+      "confirm_description": "Cela supprime le projet et toutes les prises qu'il contient. Cela ne peut pas être annulé."
+    }
+  },
+  "record": {
+    "title": "Enregistrer",
+    "subtitle": "Capturez une prise nette, surveillez vos niveaux et suivez le script.",
+    "project_label": "Projet",
+    "project_placeholder": "Choisissez un projet",
+    "project_create_quick": "Créez un projet rapide…",
+    "device_label": "Périphérique d'entrée",
+    "device_placeholder": "Choisissez un appareil",
+    "device_default_badge": "Valeur par défaut du système",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Aucun périphérique d'entrée trouvé.",
+    "monitor_button": "Moniteur",
+    "monitor_stop_button": "Arrêter la surveillance",
+    "record_button": "Enregistrer",
+    "stop_button": "Arrêter",
+    "elapsed_label": "Temps écoulé",
+    "status": {
+      "idle": "Inactif",
+      "monitoring": "Surveillance",
+      "recording": "Enregistrement",
+      "stopped": "Arrêté"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Pic",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Séance guidée",
+      "subtitle": "Laissez le coach vous guider à travers le scénario étape par étape, de l'échauffement à la phrase parlée.",
+      "loading": "Chargement du script…",
+      "unavailable": "La session guidée n'est pas encore disponible sur le serveur.",
+      "select_project_device": "Choisissez un projet et un périphérique d'entrée pour enregistrer les étapes directement à partir d'ici.",
+      "progress": " {{done}} pas sur {{total}}",
+      "start_timer": "Démarrer la minuterie",
+      "skip_timer": "Sauter le minuteur",
+      "record_step": "Enregistrez cette étape",
+      "stop_step": "Arrêter l'enregistrement",
+      "mark_done": "Terminé – prochaine étape",
+      "step_recorded": "Prendre enregistré",
+      "no_record_step": "Étape d’échauffement : aucun enregistrement n’est nécessaire.",
+      "bars_hint": "Environ {{bars}} barres",
+      "complete_title": "Scénario terminé !",
+      "complete_body": "Vous avez enregistré chaque étape du script. Revenez à l'onglet Audio du projet et choisissez vos prises préférées.",
+      "restart": "Redémarrer le script"
+    },
+    "best2min": {
+      "button": "Trouvez les 2 meilleures minutes (Suno)",
+      "running": "Analyser la prise…",
+      "score_label": "Score",
+      "hint": "Exécute une analyse d’énergie et de clarté sur toute la prise pour trouver sa fenêtre de 2 minutes la plus forte – vous pouvez toujours ajuster la plage à la main par la suite.",
+      "chart_caption": "Score par fenêtre",
+      "unavailable": "L'analyse des 2 meilleures minutes n'est pas encore disponible sur ce serveur."
+    },
+    "takes_title": "Extrait de cette séance",
+    "takes_empty": "Aucune prise enregistrée dans cette session pour l'instant.",
+    "open_in_project": "Ouvrir dans le projet",
+    "ws_disconnected": "Reconnexion à l'indicateur de niveau…",
+    "select_project_first": "Choisissez un projet pour commencer.",
+    "select_device_first": "Choisissez un périphérique d'entrée."
+  },
+  "project": {
+    "back_to_library": "Retour à la bibliothèque",
+    "header": {
+      "status_label": "Statut",
+      "cover_upload": "Télécharger la couverture",
+      "cover_remove": "Retirer le couvercle",
+      "name_placeholder": "Nom du projet",
+      "links_title": "Liens",
+      "add_link": "Ajouter un lien",
+      "mode": {
+        "voice": "Voix uniquement",
+        "voice_guitar": "Voix + guitare"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Paroles",
+      "prompts": "Invites",
+      "notes": "Remarques"
+    },
+    "audio": {
+      "takes_title": "Prend",
+      "no_takes": {
+        "title": "Aucune prise pour l'instant",
+        "description": "Enregistrez une nouvelle prise ou importez un fichier existant."
+      },
+      "record_new": "Enregistrez une nouvelle prise",
+      "rating": "Note",
+      "variant": {
+        "raw": "Brut",
+        "processed": "Traité"
+      },
+      "variant_placeholder": "Version",
+      "process_button": "Processus",
+      "export_button": "Exporter",
+      "delete_take_confirm_title": "Supprimer cette prise ?",
+      "delete_take_confirm_description": "L'audio brut et chaque version traitée seront supprimés.",
+      "ab": {
+        "raw": "A · Brut",
+        "processed": "B · Traité"
+      },
+      "origin": {
+        "recorded": "Enregistré",
+        "imported": "Importé"
+      },
+      "session_label_placeholder": "Libellé de session (facultatif)",
+      "duration": "Durée",
+      "sample_rate": "Taux d'échantillonnage",
+      "channels": "Canaux",
+      "created_at": "Enregistré"
+    },
+    "pipeline": {
+      "title": "Chaîne de traitement",
+      "preset_label": "Préréglage",
+      "preset_none": "Chaîne personnalisée",
+      "preset_save": "Enregistrer comme préréglage",
+      "stage_locked": "Verrouillé",
+      "stage_requires_extra": "Nécessite un supplément qui n'est pas installé",
+      "process_button": "Prise de processus",
+      "processing": "Traitement…",
+      "job_queued": "En file d'attente…",
+      "job_running": "Traitement…",
+      "job_done": "Terminé",
+      "job_error": "Échec",
+      "job_cancelled": "Annulé",
+      "cancel_job": "Annuler",
+      "no_stages": "Aucune étape disponible."
+    },
+    "export": {
+      "title": "Exporter la prise",
+      "description": "Rendre un fichier final à partir d'une version traitée.",
+      "variant_label": "Version",
+      "format_label": "Formater",
+      "preset_label": "Exporter le préréglage",
+      "range_label": "Gamme",
+      "range_full": "Pleine longueur",
+      "range_custom": "Gamme personnalisée",
+      "start_label": "Début(s)",
+      "end_label": "Fin(s)",
+      "submit": "Exporter",
+      "progress": "Fichier de rendu…",
+      "download_ready": "Fichier prêt",
+      "download_button": "Télécharger le fichier"
+    },
+    "notes": {
+      "placeholder": "Notes de forme libre sur ce projet…",
+      "saved_at": "Enregistré à {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Écrivez les paroles ici. Utilisez la palette sur le côté pour insérer des balises méta Suno.",
+      "saved_at": "Enregistré à {{time}} ",
+      "saving": "Sauvegarde…",
+      "versions": "Versions",
+      "versions_empty": "Aucune version enregistrée pour l'instant.",
+      "version_preview": "Aperçu",
+      "restore": "Restaurer cette version",
+      "restore_confirm_title": "Restaurer cette version ?",
+      "restore_confirm_description": "Le texte actuel sera remplacé par la version enregistrée le {{date}} .",
+      "metatags_title": "Balises méta",
+      "metatags_hint": "Cliquez sur une balise pour l'insérer au niveau du curseur.",
+      "metatags_placebo_warning": "Non prouvé – peut n’avoir aucun effet sur le résultat.",
+      "metatags_empty": "Aucune balise méta enregistrée."
+    },
+    "prompts": {
+      "style_title": "Invite de style",
+      "lyrics_title": "Invite de paroles",
+      "template_label": "Modèle",
+      "template_none": "Aucun modèle",
+      "variables_title": "Variables",
+      "preview_title": "Aperçu",
+      "preview_empty": "Choisissez un modèle et remplissez les variables pour voir un aperçu.",
+      "char_count": " {{count}} caractères",
+      "char_count_warning": "Les invites de style de plus de 1 000 caractères peuvent être tronquées par Suno.",
+      "copy": "Copier",
+      "copied": "Copié dans le presse-papiers",
+      "save_to_project": "Enregistrer dans le projet",
+      "saved_to_project": "Invite enregistrée dans le projet",
+      "history_title": "Histoire",
+      "history_empty": "Aucune version précédente.",
+      "current_label": "Actuel"
+    },
+    "stems": {
+      "title": "Chant et guitare",
+      "separate_button": "Chant et guitare séparés",
+      "running": "Séparer…",
+      "vocals": "Voix",
+      "instrumental": "Instrumental",
+      "process_stem": "Traiter cette tige",
+      "empty": "Cette prise n'a pas encore été séparée. Exécutez la séparation pour entendre le chant et la guitare de manière isolée.",
+      "capability_missing": "La séparation des sources n'est pas installée sur ce serveur.",
+      "unavailable": "La séparation voix/guitare n'est pas encore disponible sur ce serveur."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Sur",
+    "boolean_off": "Désactivé"
+  },
+  "import": {
+    "title": "Importer",
+    "subtitle": "Intégrez les projets qui existent déjà sur le disque dans la bibliothèque.",
+    "step_indicator": "Étape {{current}} de {{total}} ",
+    "step1": {
+      "title": "Localiser le dossier",
+      "description": "Pointez sur le dossier racine contenant vos projets et pistes.",
+      "path_label": "Chemin du dossier",
+      "path_placeholder": "par ex. E:\\Robbs\\Pride\\Musique\\ROBBS",
+      "recent_label": "Récent",
+      "scan_button": "Numériser le dossier",
+      "scanning": "Numérisation…",
+      "ffmpeg_warning": "FFmpeg introuvable : les fichiers nécessitant une conversion seront ignorés.",
+      "folders_found_one": " {{count}} dossier trouvé",
+      "folders_found_other": " {{count}} dossiers trouvés",
+      "unmatched_files_one": " {{count}} fichier non reconnu",
+      "unmatched_files_other": " {{count}} fichiers non reconnus"
+    },
+    "step2": {
+      "title": "Réviser les éléments",
+      "description": "Vérifiez les noms, les statuts et ce qui sera importé avant de confirmer.",
+      "select_all": "Tout sélectionner",
+      "table": {
+        "folder": "Dossier source",
+        "name": "Nom du projet",
+        "status": "Statut",
+        "audio": "Audio",
+        "lyrics": "Paroles",
+        "cover": "Couverture",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} fichier sélectionné",
+      "audio_include_other": " {{count}} fichiers sélectionnés",
+      "no_audio": "Aucun son trouvé",
+      "no_lyrics": "Aucune parole trouvée",
+      "no_cover": "Pas de couverture",
+      "warnings_title": "Avertissements"
+    },
+    "step3": {
+      "title": "Importer",
+      "description": "Confirmez pour copier les fichiers et créer les projets.",
+      "copy_originals": "Copiez les fichiers originaux dans la bibliothèque",
+      "execute_button": "Démarrer l'importation",
+      "progress_title": "Importation…",
+      "created_count": "Créé : {{count}} ",
+      "skipped_count": "Ignoré : {{count}} ",
+      "done_title": "Importation terminée",
+      "done_description": "Les projets ci-dessous ont été créés dans votre bibliothèque.",
+      "view_project": "Projet ouvert",
+      "start_over": "Nouvelle importation"
+    }
+  },
+  "templates": {
+    "title": "Modèles",
+    "subtitle": "Modèles d'invite et balises méta réutilisables pour Suno.",
+    "tabs": {
+      "prompts": "Modèles d'invite",
+      "metatags": "Balises méta"
+    },
+    "new_template": "Nouveau modèle",
+    "kind": {
+      "style": "Style",
+      "lyrics": "Paroles"
+    },
+    "kind_label": "Genre",
+    "delete_confirm_title": "Supprimer le modèle « {{name}} » ?",
+    "delete_confirm_description": "Cela ne peut pas être annulé.",
+    "empty": "Aucun modèle pour l'instant.",
+    "editor": {
+      "title_new": "Nouveau modèle",
+      "title_edit": "Modifier le modèle",
+      "name_label": "Nom",
+      "name_placeholder": "par ex. Ballade acoustique",
+      "kind_label": "Genre",
+      "template_label": "Texte du modèle",
+      "template_hint": "Marquez l'endroit où appartient chaque variable avec son nom entouré de doubles accolades - par exemple, une variable nommée \"genre\" devient un genre entouré de deux accolades ouvrantes et deux accolades fermantes.",
+      "variables_label": "Variables",
+      "variable_add": "Ajouter une variable",
+      "variable_name": "Clé",
+      "variable_label": "Étiquette",
+      "variable_type": "Tapez",
+      "variable_type_string": "Texte",
+      "variable_type_select": "Sélection unique",
+      "variable_type_multiselect": "Sélection multiple",
+      "variable_type_number": "Numéro",
+      "variable_type_boolean": "Oui/non",
+      "variable_options": "Options (séparées par des virgules)",
+      "variable_required": "Obligatoire",
+      "save": "Enregistrer le modèle"
+    },
+    "metatags": {
+      "title": "Balises méta",
+      "subtitle": "Balises structurelles et de style que Suno reconnaît à l'intérieur des paroles.",
+      "new_tag": "Nouvelle balise",
+      "tag_label": "Étiquette",
+      "tag_placeholder": "par ex. guitare-solo",
+      "category_label": "Catégorie",
+      "tier_label": "Fiabilité",
+      "tier_legend_title": "Légende de fiabilité",
+      "tier_legend": {
+        "1": "Niveau 1 — documenté et cohérent",
+        "2": "Niveau 2 – fonctionne généralement",
+        "3": "Niveau 3 — effet variable",
+        "4": "Niveau 4 – placebo, non prouvé"
+      },
+      "description_label": "Descriptif",
+      "delete_confirm_title": "Supprimer la balise « {{tag}} » ?",
+      "empty": "Aucune balise méta personnalisée pour l'instant."
+    }
+  },
+  "settings": {
+    "title": "Paramètres",
+    "subtitle": "Informations système, langue et préférences par défaut.",
+    "system_info_title": "Système",
+    "version": "Version",
+    "data_dir": "Dossier de données",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Disponible",
+    "ffmpeg_missing": "Pas trouvé",
+    "capabilities_title": "Capacités installées",
+    "capability": {
+      "denoise": "Réduction du bruit",
+      "quality": "Amélioration de la qualité",
+      "separate": "Séparation des sources",
+      "ffmpeg": "Conversion FFmpeg"
+    },
+    "capability_available": "Disponible",
+    "capability_unavailable": "Indisponible",
+    "gpu_title": "Accélération GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "Fournisseurs d'exécution ONNX"
+    },
+    "gpu_none": "Aucun fournisseur de GPU détecté",
+    "language_title": "Langue",
+    "language": {
+      "pt-BR": "Portugais (Brésil)",
+      "en": "Anglais"
+    },
+    "theme_title": "Apparence",
+    "theme": {
+      "dark": "Sombre",
+      "light": "Lumière"
+    },
+    "defaults_title": "Exporter les valeurs par défaut",
+    "lufs_target_label": "Cible LUFS",
+    "lufs_target_hint": "Utilisé comme suggestion de départ lors de l'exportation de prises. La valeur par défaut de Suno se situe autour de -14 LUFS.",
+    "saved": "Préférences enregistrées"
+  },
+  "guide": {
+    "title": "Guide d'enregistrement Suno",
+    "subtitle": "Comment capturer des prises de voix et de guitare pour obtenir les meilleurs résultats.",
+    "intro": "Suno fonctionne mieux avec des références claires et sans ambiguïté. Ce guide couvre la préparation, les niveaux cibles et un script d'enregistrement de 3 à 5 minutes.",
+    "sections": {
+      "prep": {
+        "title": "Préparation",
+        "body": "Enregistrez dans une pièce traitée ou avec beaucoup de matières douces (rideaux, tapis, vêtements dans un placard). Éteignez les ventilateurs et tout ce qui bourdonne. Réchauffez votre voix pendant 5 minutes avant d'enregistrer."
+      },
+      "levels": {
+        "title": "Niveaux : -12 à -6 dBFS",
+        "body": "Visez des pics compris entre -12 et -6 dBFS sur le compteur. En dessous de cette plage, le bruit de fond devient plus perceptible ; au-dessus, le risque d’écrêtage augmente. Utilisez le compteur sur la page d'enregistrement pour définir votre gain avant de commencer."
+      },
+      "distance": {
+        "title": "Distance du micro : 15 à 30 cm",
+        "body": "Restez à 15 à 30 cm du micro. Plus près que cela exagère les plosives et l’effet de proximité ; plus loin, on capte plus de réverbération et de bruit dans la pièce."
+      },
+      "script": {
+        "title": "Script d'enregistrement",
+        "warmup": "Échauffement vocal (1 à 2 minutes)",
+        "vowels": "Voyelles soutenues - a, e, i, o, u",
+        "scales": "Échelles simples, de haut en bas",
+        "excerpt": "Un extrait de chanson (8 à 16 mesures)",
+        "dynamics": "Dynamique : commencez doucement, finissez fort",
+        "spoken_phrase": "Une phrase parlée pour que Suno puisse lire votre ton vocal"
+      },
+      "expectations": {
+        "title": "Ce à quoi Suno s'attend",
+        "body": "WAV, 48 kHz, mono, dry (sans réverbération ni effets), 3 à 5 minutes de référence. Les 2 minutes les plus propres et les plus représentatives de la prise produisent généralement les meilleurs résultats."
+      }
+    }
+  },
+  "status": {
+    "idea": "Idée",
+    "em_progresso": "En cours",
+    "quase": "Presque là",
+    "pronto": "Prêt"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Script vocal complet pour Suno",
+      "desc": "5 minutes guidées : échauffement, voyelles, gammes, deux extraits de chansons, dynamiques et une phrase parlée."
+    },
+    "step": {
+      "warmup": "Échauffement vocal",
+      "warmup_inst": "Détendez-vous avec des bâillements, des trilles des lèvres (brrr) et un léger bourdonnement pendant environ une minute. Pas besoin d'enregistrer, c'est juste pour détendre votre gorge avant de chanter.",
+      "vowels": "Voyelles soutenues",
+      "vowels_inst": "Maintenez chaque voyelle – a, e, i, o, u – pendant 3 à 4 secondes à votre hauteur confortable, avec un volume constant. Cela aide Suno à capter le timbre pur de votre voix.",
+      "scales": "Échelle de haut en bas",
+      "scales_inst": "Chantez une gamme simple de haut en bas, sur « la » ou « na ». Il n'est pas nécessaire que ce soit parfait : l'objectif est de cartographier votre gamme vocale.",
+      "section": "Extrait de chanson — partie 1",
+      "section_inst": "Chantez 8 à 16 mesures de la chanson, avec la véritable intention que vous souhaitez transmettre. Privilégiez la clarté et la présence à la perfection technique.",
+      "section2": "Extrait de chanson — partie 2",
+      "section2_inst": "Chantez encore 8 à 16 mesures – idéalement un refrain ou une section qui contraste avec la précédente. Une plus grande variété aide le modèle à apprendre votre voix.",
+      "dynamics": "Dynamique : douce → forte",
+      "dynamics_inst": "Chantez la même phrase en commençant très doucement et en terminant fort, sans vous fatiguer la gorge. Cela montre à Suno la plage dynamique de votre voix.",
+      "spoken": "Phrase parlée",
+      "spoken_inst": "Dites – ne chantez pas – une phrase courte et naturelle, comme si vous discutiez. Cela aide Suno à reconnaître le véritable timbre de votre voix."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restauration",
+      "filter": "Filtres",
+      "dynamics": "Dynamique",
+      "separation": "Séparation",
+      "quality": "Qualité",
+      "utility": "Utilitaire",
+      "loudness": "Volume sonore"
+    },
+    "highpass": "Filtre passe-haut",
+    "lowpass": "Filtre passe-bas",
+    "denoise": "Réduction du bruit",
+    "declip": "Découpage",
+    "declick": "Suppression clic/pop",
+    "deesser": "Dé-esser",
+    "gate": "Porte anti-bruit",
+    "compressor": "Compresseur",
+    "limiter": "Limiteur",
+    "eq": "Égalisation",
+    "normalize": "Normalisation du pic",
+    "loudness": "Normalisation du volume sonore (LUFS)",
+    "reverb_reduce": "Réduction de la réverbération",
+    "separate": "Séparation des sources",
+    "quality": "Amélioration de la qualité (haut de gamme)",
+    "trim_silence": "Coupe du silence",
+    "fade": "Fondu entrant/sortant",
+    "stereo_to_mono": "Convertir en mono",
+    "resample": "Rééchantillonnage"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Fiable",
+      "2": "Fonctionne habituellement",
+      "3": "Variable",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Structure",
+      "vocal": "Voix",
+      "instrument": "Instrument",
+      "dynamics": "Dynamique",
+      "production": "Fabrication",
+      "mood": "Humeur"
+    },
+    "verse": "Verset",
+    "chorus": "Chœur",
+    "bridge": "Pont",
+    "intro": "Introduction",
+    "outro": "Sortie",
+    "hook": "Crochet",
+    "prechorus": "Pré-refrain",
+    "instrumental": "Instrumental",
+    "guitar_solo": "Solo de guitare",
+    "build_up": "Accumulation",
+    "breakdown": "Répartition",
+    "spoken_word": "Parole parlée",
+    "whispered": "Chuchoté",
+    "harmonies": "Harmonies",
+    "male_vocal": "Voix masculine",
+    "female_vocal": "Voix féminine",
+    "duet": "Duo",
+    "acoustic": "Acoustique",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Voix claire",
+    "voice_guitar_balanced": "Voix et guitare équilibrées",
+    "podcast": "Baladodiffusion",
+    "suno_ready": "Suno prêt",
+    "gentle_restore": "Restauration en douceur",
+    "raw_passthrough": "Aucun traitement"
+  },
+  "errors": {
+    "unknown": "Quelque chose s'est mal passé.",
+    "network": "Impossible d'atteindre le serveur.",
+    "validation_error": "Vérifiez les informations que vous avez saisies.",
+    "not_found": "Article introuvable.",
+    "project_not_found": "Projet introuvable.",
+    "take_not_found": "Prenez pas trouvé.",
+    "album_not_found": "Album introuvable.",
+    "preset_not_found": "Préréglage introuvable.",
+    "template_not_found": "Modèle introuvable.",
+    "device_busy": "Le périphérique audio est utilisé par un autre programme.",
+    "device_not_found": "Périphérique audio introuvable.",
+    "already_recording": "Un enregistrement est déjà en cours.",
+    "ffmpeg_missing": "FFmpeg n'est pas installé — installez-le pour convertir ce fichier.",
+    "disk_full": "Pas assez d'espace disque.",
+    "permission_denied": "Autorisation refusée pour le chemin indiqué.",
+    "import_path_not_found": "Chemin d'importation introuvable.",
+    "job_failed": "Le traitement a échoué.",
+    "job_cancelled": "Le traitement a été annulé.",
+    "process_failed": "Échec du traitement de la prise.",
+    "export_failed": "Échec de l'exportation du fichier.",
+    "record_failed": "Échec du démarrage de l'enregistrement."
+  },
+  "jobs": {
+    "status": {
+      "queued": "En file d'attente",
+      "running": "Courir",
+      "done": "Terminé",
+      "error": "Échec",
+      "cancelled": "Annulé"
+    },
+    "kind": {
+      "process": "Traitement",
+      "export": "Exporter",
+      "import": "Importer",
+      "record": "Enregistrement"
+    }
+  }
+}

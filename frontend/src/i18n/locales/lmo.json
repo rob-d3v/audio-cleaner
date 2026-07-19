@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Pulidor audio"
+  },
+  "nav": {
+    "library": "Biblioteca",
+    "record": "Registra",
+    "import": "Importar",
+    "templates": "Model",
+    "settings": "Impostaziun",
+    "guide": "Guida"
+  },
+  "common": {
+    "save": "Salva",
+    "saving": "Salvar...",
+    "saved": "Salvà",
+    "cancel": "Annulla",
+    "close": "Serra",
+    "delete": "Eliminar",
+    "edit": "Modifica",
+    "create": "Crea",
+    "search": "Cerca",
+    "loading": "Caricament...",
+    "error": "Errur",
+    "retry": "Pruva ancamò",
+    "confirm": "Cunferma",
+    "back": "Torna",
+    "next": "Dopu",
+    "continue": "Continua",
+    "finish": "Finì",
+    "copy": "Copia",
+    "copied": "Copià",
+    "download": "Scaricà",
+    "upload": "Carica",
+    "none": "Nissun",
+    "all": "Tutt",
+    "yes": "Sì",
+    "no": "No",
+    "select": "Seleziuna",
+    "optional": "facultatif",
+    "required": "necessari",
+    "unsaved_changes": "Modifich minga salvà",
+    "name": "Nom",
+    "status": "Stat",
+    "type": "Tip",
+    "actions": "Aziun",
+    "empty": "Vœui",
+    "browse": "Sfoglia",
+    "remove": "Cavar via",
+    "add": "Aggiungi",
+    "rename": "Rinominare",
+    "duplicate": "Duplicà",
+    "warning": "Attenzion",
+    "locked": "Serrad",
+    "builtin": "Integrà",
+    "custom": "Personalizà",
+    "untitled": "Senza titul",
+    "select_placeholder": "Seleziona..."
+  },
+  "library": {
+    "title": "Biblioteca",
+    "subtitle": "La tò vus e la tò prugett de chitarra, da l’idea a la pubblicaziün.",
+    "new_project": "Nœuf pruget",
+    "new_album": "Nœuf album",
+    "search_placeholder": "Cerca per nomm...",
+    "view": {
+      "grid": "Griglia",
+      "albums": "Album"
+    },
+    "filters": {
+      "all": "Tutt"
+    },
+    "take_count_one": " {{count}} ciapà",
+    "take_count_other": " {{count}} ciapa",
+    "updated_at": "Aggiornà {{date}} ",
+    "no_results": {
+      "title": "Nissun pruget truvà",
+      "description": "Pruava a regular la ricerca o el filter de stat."
+    },
+    "empty": {
+      "title": "La tò biblioteca l’è vœuda",
+      "description": "Cumensa un nœuf pruget de zero, o importa che g’he jamò sül disc.",
+      "cta_import": "Importar de la cartella",
+      "cta_new": "Crea un pruget"
+    },
+    "project_dialog": {
+      "title": "Nœuf pruget",
+      "description": "Dègh un nomm e scerni una modalità de registraziun.",
+      "name_label": "Nom del pruget",
+      "name_placeholder": "p.e. Piœuva d'estaa",
+      "mode_label": "Modalità",
+      "mode": {
+        "voice": "Solo vus",
+        "voice_guitar": "Voce + chitarra"
+      },
+      "submit": "Crea un pruget"
+    },
+    "album_dialog": {
+      "title": "Nœuf album",
+      "description": "Gruppà prugett culegà en un album.",
+      "name_label": "Nom de l'album",
+      "name_placeholder": "p.e. EP d'autunno",
+      "submit": "Crea album"
+    },
+    "album": {
+      "untitled": "Album senza titul",
+      "members_count_one": " {{count}} pruget",
+      "members_count_other": " {{count}} pruget",
+      "empty": "Ancamò nissun prugett in chestu album.",
+      "delete_confirm_title": "Cancellar l'album?",
+      "delete_confirm_description": "I pruget saran no eliminà, sultant discollegà de \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Eliminar \" {{name}} \"?",
+      "confirm_description": "Chestu scancela el pruget e tüt i version che g’he sun denter. Chestu pœu minga vèss disfà."
+    }
+  },
+  "record": {
+    "title": "Registra",
+    "subtitle": "Cattura una ripresa pulida, varda i tò livel e segui el cupiun.",
+    "project_label": "Pruget",
+    "project_placeholder": "Scegli un pruget",
+    "project_create_quick": "Crea un pruget svelt...",
+    "device_label": "Dispositif de input",
+    "device_placeholder": "Scegli un dispusitif",
+    "device_default_badge": "Predefinì del sistèm",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Nissun dispusitif de input truvà.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Fermar el monitoragg",
+    "record_button": "Registra",
+    "stop_button": "Ferma",
+    "elapsed_label": "Temp trascors",
+    "status": {
+      "idle": "Inattivo",
+      "monitoring": "Monitoragg",
+      "recording": "Registraziun",
+      "stopped": "Fermà"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Cima",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Sesiun guidada",
+      "subtitle": "Lassà che el coach te fa passà travers el cupiün passo per passo, dal warm-up a la fras parlada.",
+      "loading": "Caricament del script...",
+      "unavailable": "La sesiun guidada l’è minga ancamò dispunibel sul server.",
+      "select_project_device": "Scegli un pruget e un dispusitif de input per registrar i passagg de chichinsci.",
+      "progress": " {{done}} de {{total}} pas",
+      "start_timer": "Timer de avvio",
+      "skip_timer": "Salta el timer",
+      "record_step": "Registra chestu passagg",
+      "stop_step": "Fermar la registraziun",
+      "mark_done": "Fat - pass sucesif",
+      "step_recorded": "Registrar",
+      "no_record_step": "Pass de riscaldament - g’he minga bisogn de registraziun.",
+      "bars_hint": "Circa {{bars}} bar",
+      "complete_title": "La cupiun cumpleta!",
+      "complete_body": "G’he registrà tüt i pas del cupiun. Torna a la scheda Audio del pruget e scegli i tò scatt preferì.",
+      "restart": "Riavvia el script"
+    },
+    "best2min": {
+      "button": "Trova i 2 minuti migliur (Suno)",
+      "running": "Analizar la presa...",
+      "score_label": "Puntegg",
+      "hint": "Fà un analìs de energì e de chiareza sü tüt el ripresa per truvar la sò finestra püsee fort de 2 minut: dopu pœdet ancamò regulà l’interval a man.",
+      "chart_caption": "Puntegg per finestra",
+      "unavailable": "L'analìs di 2 minut püsee bon l’è minga dispunibel sü chestu server."
+    },
+    "takes_title": "Trat de chesta sesiun",
+    "takes_empty": "Ancamò nissun ripresa registrada en chesta sesiun.",
+    "open_in_project": "Avert in del pruget",
+    "ws_disconnected": "Riconnession al meter de livel...",
+    "select_project_first": "Scegli un pruget per cumincià.",
+    "select_device_first": "Scegli un dispusitif de input."
+  },
+  "project": {
+    "back_to_library": "Torna a la biblioteca",
+    "header": {
+      "status_label": "Stat",
+      "cover_upload": "Carica la cupertina",
+      "cover_remove": "Cavar via la cupertura",
+      "name_placeholder": "Nom del pruget",
+      "links_title": "Collegament",
+      "add_link": "Aggiungi link",
+      "mode": {
+        "voice": "Solo vus",
+        "voice_guitar": "Voce + chitarra"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Testi",
+      "prompts": "Prompt",
+      "notes": "Note"
+    },
+    "audio": {
+      "takes_title": "Ciapa",
+      "no_takes": {
+        "title": "Ancamò nissun",
+        "description": "Registra una nœuva ripresa o importa un file esistent."
+      },
+      "record_new": "Registra una nœuva ripresa",
+      "rating": "Valutaziun",
+      "variant": {
+        "raw": "Crudo",
+        "processed": "Elaborà"
+      },
+      "variant_placeholder": "Versiun",
+      "process_button": "Process",
+      "export_button": "Esporta",
+      "delete_take_confirm_title": "Elimina chesta ripresa?",
+      "delete_take_confirm_description": "L’audio crudo e ogni versiun elaborada sarann ​​eliminà.",
+      "ab": {
+        "raw": "A · Crudo",
+        "processed": "B · Elaborà"
+      },
+      "origin": {
+        "recorded": "Registrad",
+        "imported": "Impurtà"
+      },
+      "session_label_placeholder": "Eticheta de la sesiun (facultatif)",
+      "duration": "Durada",
+      "sample_rate": "Frequenza de campionament",
+      "channels": "Canali",
+      "created_at": "Registrad"
+    },
+    "pipeline": {
+      "title": "Cadena de lavuraziun",
+      "preset_label": "Preimpostad",
+      "preset_none": "Cadena personalizada",
+      "preset_save": "Salva cuma preset",
+      "stage_locked": "Serrad",
+      "stage_requires_extra": "G’ha bisogn de un extra che l’è minga installà",
+      "process_button": "Process ciapà",
+      "processing": "Elaboraziun...",
+      "job_queued": "En fila...",
+      "job_running": "Elaboraziun...",
+      "job_done": "Fat",
+      "job_error": "Fallì",
+      "job_cancelled": "Annullad",
+      "cancel_job": "Annulla",
+      "no_stages": "Nissun palq dispunibil."
+    },
+    "export": {
+      "title": "Esporta prend",
+      "description": "Render un file final de una versiun elaborada.",
+      "variant_label": "Versiun",
+      "format_label": "Furmat",
+      "preset_label": "Esporta i preimpostaziun",
+      "range_label": "Interval",
+      "range_full": "Luungheza cumpleta",
+      "range_custom": "Gamma personalizada",
+      "start_label": "Avvio (i)",
+      "end_label": "Fin (i)",
+      "submit": "Esporta",
+      "progress": "File de render...",
+      "download_ready": "File pront",
+      "download_button": "Scaricà el file"
+    },
+    "notes": {
+      "placeholder": "Note en furma libera sü chestu pruget...",
+      "saved_at": "Salvà a {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Scrivi i testi chi. Dupera la paletta sul lato per inserir i meta-tag de Suno.",
+      "saved_at": "Salvà a {{time}} ",
+      "saving": "Salvar...",
+      "versions": "Versiun",
+      "versions_empty": "Ancamò nissuna versiun salvà.",
+      "version_preview": "Anteprima",
+      "restore": "Restaura chesta versiun",
+      "restore_confirm_title": "Restaurà chesta versiun?",
+      "restore_confirm_description": "El test atual l’è sostituì cun la versiun salvà sü {{date}} .",
+      "metatags_title": "Meta-tag",
+      "metatags_hint": "Clicca sü un tag per inserirlo al cursor.",
+      "metatags_placebo_warning": "Minga dimustrà - pœu minga avegh nissun effet sul resultà.",
+      "metatags_empty": "Nissun meta-tag registrà."
+    },
+    "prompts": {
+      "style_title": "Prompt de stil",
+      "lyrics_title": "Prompt de parolle",
+      "template_label": "Model",
+      "template_none": "Nissun modell",
+      "variables_title": "Variabil",
+      "preview_title": "Anteprima",
+      "preview_empty": "Scegli un schema e cumpleta i variabil per vedè un anteprima.",
+      "char_count": " {{count}} caratter",
+      "char_count_warning": "I dumand de stil de püsee de 1000 caratèr pœden vèss truncà de Suno.",
+      "copy": "Copia",
+      "copied": "Copià in del appunti",
+      "save_to_project": "Salva in del pruget",
+      "saved_to_project": "Prompt salvà in del pruget",
+      "history_title": "Storia",
+      "history_empty": "Nissun versiun precedent.",
+      "current_label": "Atual"
+    },
+    "stems": {
+      "title": "Vocal e chitarra",
+      "separate_button": "Vocal e chitarra separate",
+      "running": "Separaziun...",
+      "vocals": "Vocal",
+      "instrumental": "Strumental",
+      "process_stem": "Lavura chestu stel",
+      "empty": "Questa ripresa l’è minga stada separada. Corri la separaziün per ascultà la vus e la chitara in isulament.",
+      "capability_missing": "La separaziun de la funt l’è minga instalada sü chestu server.",
+      "unavailable": "La separaziun vocal/chitarra l’è minga dispunibel sü chestu server."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "On",
+    "boolean_off": "Spent"
+  },
+  "import": {
+    "title": "Importar",
+    "subtitle": "Purtà in de la biblioteca i pruget che esisten giamò sül disc.",
+    "step_indicator": "Pass {{current}} de {{total}} ",
+    "step1": {
+      "title": "Trova la cartella",
+      "description": "Punta la cartella radis cunt i tò pruget e piste.",
+      "path_label": "Percors de la cartella",
+      "path_placeholder": "p.e. E:\\Robbs\\Orgoglio\\Musica\\ROBBS",
+      "recent_label": "Recent",
+      "scan_button": "Scansiona la cartella",
+      "scanning": "Scansiun...",
+      "ffmpeg_warning": "FFmpeg minga truvà — i file che g’han bisogn de cunversiun saran saltà.",
+      "folders_found_one": " {{count}} cartella truvada",
+      "folders_found_other": " {{count}} cartell truvà",
+      "unmatched_files_one": " {{count}} file minga recognossuu",
+      "unmatched_files_other": " {{count}} file minga ricognossuu"
+    },
+    "step2": {
+      "title": "Revisiun di element",
+      "description": "Cuntrular i nomm, i stat e chel che sarà impurtà prima de cunfermar.",
+      "select_all": "Seleziuna tüt",
+      "table": {
+        "folder": "Cartella de origin",
+        "name": "Nom del pruget",
+        "status": "Stat",
+        "audio": "Audio",
+        "lyrics": "Testi",
+        "cover": "Copertina",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} file seleziunà",
+      "audio_include_other": " {{count}} file seleziunà",
+      "no_audio": "Nissun audio truvà",
+      "no_lyrics": "Nissun parolla l'è stada truvada",
+      "no_cover": "Nissüna cupertina",
+      "warnings_title": "Avertimenti"
+    },
+    "step3": {
+      "title": "Importar",
+      "description": "Cunferma de copiar i file e de crear i pruget.",
+      "copy_originals": "Copia i file uriginai in de la biblioteca",
+      "execute_button": "Inizia l'importaziun",
+      "progress_title": "Importar...",
+      "created_count": "Creà: {{count}} ",
+      "skipped_count": "Saltà: {{count}} ",
+      "done_title": "L'importaziun cumpleta",
+      "done_description": "I pruget sottastant sun stà creà in de la vòstra biblioteca.",
+      "view_project": "Pruget avèrt",
+      "start_over": "Nœuva impurtaziun"
+    }
+  },
+  "templates": {
+    "title": "Model",
+    "subtitle": "Modell de prompt e meta-tag riduperabil per Suno.",
+    "tabs": {
+      "prompts": "Model de prompt",
+      "metatags": "Meta-tag"
+    },
+    "new_template": "Nœuf modell",
+    "kind": {
+      "style": "Stil",
+      "lyrics": "Testi"
+    },
+    "kind_label": "Gentil",
+    "delete_confirm_title": "Eliminar el modell \" {{name}} \"?",
+    "delete_confirm_description": "Chestu pœu minga vèss disfà.",
+    "empty": "Ancamò nissun modell.",
+    "editor": {
+      "title_new": "Nœuf modell",
+      "title_edit": "Modifica modell",
+      "name_label": "Nom",
+      "name_placeholder": "p.e. Ballata acustica",
+      "kind_label": "Gentil",
+      "template_label": "Test del modell",
+      "template_hint": "Segna indué apparten ogni variabil cunt el sò nomm intra parentesi duppi ricci: par esempi, una variabil ciamada “genere” diventa gener intra dü parentesi de apertura e dü parentesi de chiusura.",
+      "variables_label": "Variabil",
+      "variable_add": "Aggiungi variabil",
+      "variable_name": "Ciaf",
+      "variable_label": "Eticheta",
+      "variable_type": "Tip",
+      "variable_type_string": "Test",
+      "variable_type_select": "Seleziun singula",
+      "variable_type_multiselect": "Multiseleziun",
+      "variable_type_number": "Numer",
+      "variable_type_boolean": "Sì/no",
+      "variable_options": "Opziun (separà de virgul)",
+      "variable_required": "Dumandad",
+      "save": "Salva modell"
+    },
+    "metatags": {
+      "title": "Meta-tag",
+      "subtitle": "Tag struturai e de stil che Suno recugnuss denter di testi.",
+      "new_tag": "Nœuf tag",
+      "tag_label": "Etichetta",
+      "tag_placeholder": "p.e. chitarra-solo",
+      "category_label": "Categuria",
+      "tier_label": "Affidabilità",
+      "tier_legend_title": "Legenda de afidabilità",
+      "tier_legend": {
+        "1": "Livel 1 - documentà e coerent",
+        "2": "Livel 2 - de solet funziuna",
+        "3": "Livel 3 - effet variabil",
+        "4": "Livel 4 - placebo, minga dimustrà"
+      },
+      "description_label": "Descrizion",
+      "delete_confirm_title": "Eliminar l'etichett \" {{tag}} \"?",
+      "empty": "Ancamò nissun meta-tag personalizà."
+    }
+  },
+  "settings": {
+    "title": "Impostaziun",
+    "subtitle": "Informaziun del sistèm, lengua e preferenz predefinì.",
+    "system_info_title": "Sistema",
+    "version": "Versiun",
+    "data_dir": "Cartella di dati",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Disponibil",
+    "ffmpeg_missing": "Minga truvà",
+    "capabilities_title": "Capacità installà",
+    "capability": {
+      "denoise": "Riduziun del rumòr",
+      "quality": "Migliorament de la qualità",
+      "separate": "Separaziun de la funt",
+      "ffmpeg": "Cunversiun FFmpeg"
+    },
+    "capability_available": "Disponibil",
+    "capability_unavailable": "Minga disponibil",
+    "gpu_title": "Acceleraziun de la GPU",
+    "gpu": {
+      "torch_cuda": "Pytorch CUDA",
+      "ort_providers": "Fornitur de temp de esecuziun ONNX"
+    },
+    "gpu_none": "Nissun furnidur de GPU rilevà",
+    "language_title": "Lingua",
+    "language": {
+      "pt-BR": "Portughees (Brasil)",
+      "en": "Ingles"
+    },
+    "theme_title": "Aspett",
+    "theme": {
+      "dark": "Scür",
+      "light": "Lux"
+    },
+    "defaults_title": "Predefinì de esportaziun",
+    "lufs_target_label": "LUFS mira",
+    "lufs_target_hint": "Duperà cuma sugestiun de partenza quand se esporta. El predefinì de ​​Suno l’è intorn a -14 LUFS.",
+    "saved": "Preferenz salvà"
+  },
+  "guide": {
+    "title": "Guida de registraziun Suno",
+    "subtitle": "Come catturà la vus e la chitarra che ottenen i risultà migliur.",
+    "intro": "Suno funziuna meji cun riferiment nett e senza ambiguità. Chesta guida parla de la preparaziun, di livei obietif e de un cupiun de registraziun de 3-5 minut.",
+    "sections": {
+      "prep": {
+        "title": "Preparaziun",
+        "body": "Registra en una stanza tratada o en una cun tanti material morbido (tende, tappet, vestì en un armadi). Sciòppa i ventilatur e tüt chel che ronza. Scalda la vus per 5 minut prima de registrar."
+      },
+      "levels": {
+        "title": "Livel: da -12 a -6 dBFS",
+        "body": "Punta a picch intra -12 e -6 dBFS sül cuntador. Sotta qell interval, ol romor dol fond ‘l diventa plu evident; sora de lù, aumenta el ris’c de ritagg. Dupera el cuntador sü la pagina Record per impostar el guadagn prima de cumincià."
+      },
+      "distance": {
+        "title": "Distanza del microfono: 15-30 cm",
+        "body": "Resta a 15 a 30 cm dal microfono. Püsee visin de chel esagera i plosif e l’effett de prossimità; püsee luntan ciappa püsee riverber de stanza e rumòr."
+      },
+      "script": {
+        "title": "Script de registraziun",
+        "warmup": "Riscaldament vocal (1-2 minut)",
+        "vowels": "Vocai sustegnü - a, e, i, o, u",
+        "scales": "Scäl semplis, su e giò",
+        "excerpt": "Un estratt de canzun (da 8 a 16 bar)",
+        "dynamics": "Dinamica: cumencià suave, finì fort",
+        "spoken_phrase": "Una fras parlada, inscì Suno pœu legg el tò ton vocal"
+      },
+      "expectations": {
+        "title": "Quel che Suno se speta",
+        "body": "WAV, 48 kHz, mono, secco (senza riverbero o effetti), da 3 a 5 minuti di riferimento. I 2 minut püsee pulit e rapresentatif de la ripresa de solet dan i resultà püsee bon."
+      }
+    }
+  },
+  "status": {
+    "idea": "Idea",
+    "em_progresso": "En curs",
+    "quase": "Quasi lì",
+    "pronto": "Pront"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Cupiun vocal cumplet per Suno",
+      "desc": "5 minut guidà: riscaldament, vocal, scäl, dü estratt de canzun, dinamich e una fras parlada."
+    },
+    "step": {
+      "warmup": "Riscaldament vocal",
+      "warmup_inst": "Sciogli cun sbadigli, trill di laber (brrr) e un ronz dolz per circa un minut. G’he minga bisogn de registrà, l’è sultant per rilassà la gola prima de cantà.",
+      "vowels": "Vocal sustegnude",
+      "vowels_inst": "Tegni ogni vocal - a, e, i, o, u - per 3 a 4 segund al ton cunfortabl, cunt un volum custant. Chestu vütta Suno a ciapà el timbre pur de la tò vus.",
+      "scales": "Scäla su e giò",
+      "scales_inst": "Canta una facil scäla su e dopu giò, sü “la” o “na”. G’ha minga de vèss perfett: l’ubietif l’è mapà la tò gamma vocal.",
+      "section": "Estratt de la canzun — parte 1",
+      "section_inst": "Canta de 8 a 16 bar de la canzun, cun la vera intenziun che vœut trasmett. Priorizar la chiareza e la presenza sü la perfeziun tecnich.",
+      "section2": "Estratt de la canzun — parte 2",
+      "section2_inst": "Canta ancamò de 8 a 16 bar, idealment un coro o una seziun che l’è en cuntrast cun chel de prima. Püsee varietà vütta el mudel a imparà la tò vus.",
+      "dynamics": "Dinamica: morbido → forte",
+      "dynamics_inst": "Canta l’istess fras cuminciand en mod dolz e finind fort, senza strencc la gola. Chestu mustra a Suno l’interval dinamich de la tò vus.",
+      "spoken": "Frasi parlada",
+      "spoken_inst": "Parla - canta minga - una fras cürta e natüral, cuma se stessi a chattar. Chestu vütta Suno a recugnuss el timbre real de la tò vus."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restaur",
+      "filter": "Filtri",
+      "dynamics": "Dinamica",
+      "separation": "Separaziun",
+      "quality": "Qualità",
+      "utility": "Utilità",
+      "loudness": "Voltezza"
+    },
+    "highpass": "Filtro passa-alt",
+    "lowpass": "Filtro passa-bas",
+    "denoise": "Riduziun del rumòr",
+    "declip": "Declinaziun",
+    "declick": "Eliminaziun del clic/pop",
+    "deesser": "De-esser",
+    "gate": "Portal del rumòr",
+    "compressor": "Cumpressur",
+    "limiter": "Limitador",
+    "eq": "Equalizaziun",
+    "normalize": "Nurmalizaziun de picch",
+    "loudness": "Nurmalizaziun del volum (LUFS)",
+    "reverb_reduce": "Riduziun del riverb",
+    "separate": "Separaziun de la funt",
+    "quality": "Migliorament de la qualità (lusso)",
+    "trim_silence": "Riduziun del silenzi",
+    "fade": "Sbiadiss denter / sbiadiss",
+    "stereo_to_mono": "Cunvertiss en mono",
+    "resample": "Ricampionament"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Affidabil",
+      "2": "De solet funziona",
+      "3": "Variabil",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Struttura",
+      "vocal": "Vocal",
+      "instrument": "Strument",
+      "dynamics": "Dinamica",
+      "production": "Produziun",
+      "mood": "Umor"
+    },
+    "verse": "Vers",
+    "chorus": "Coro",
+    "bridge": "Pont",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Ganci",
+    "prechorus": "Pre-coro",
+    "instrumental": "Strumental",
+    "guitar_solo": "Solo de chitarra",
+    "build_up": "Accumulaziun",
+    "breakdown": "Ripartiziun",
+    "spoken_word": "Parola parlada",
+    "whispered": "Sussurrà",
+    "harmonies": "Armonie",
+    "male_vocal": "Vocal maschil",
+    "female_vocal": "Vocal femminile",
+    "duet": "Duet",
+    "acoustic": "Acustica",
+    "ad_lib": "Libbricaziun"
+  },
+  "presets": {
+    "clean_voice": "Vos pulida",
+    "voice_guitar_balanced": "Vus e chitarra equilibrà",
+    "podcast": "Podcast",
+    "suno_ready": "Suno pront",
+    "gentle_restore": "Restaur delicate",
+    "raw_passthrough": "Nissun elaboraziun"
+  },
+  "errors": {
+    "unknown": "Quaicoss l’è ndad mal.",
+    "network": "Pudeva minga rivà al server.",
+    "validation_error": "Cuntrula i informaziun che g’he stà inserit.",
+    "not_found": "Articolo non trovato.",
+    "project_not_found": "Pruget minga truvà.",
+    "take_not_found": "Take non trovato.",
+    "album_not_found": "Album minga truvà.",
+    "preset_not_found": "Preset minga truvà.",
+    "template_not_found": "Model minga truvà.",
+    "device_busy": "El dispusitif audio l’è duperà de un olter prugrama.",
+    "device_not_found": "Dispositif audio minga truvà.",
+    "already_recording": "Una registraziün l’è giamò in cors.",
+    "ffmpeg_missing": "FFmpeg l’è minga installà — instalal per cunvertir chestu file.",
+    "disk_full": "Minga assée de spazi sül disc.",
+    "permission_denied": "El permess negà per el percors indicà.",
+    "import_path_not_found": "Percors de importaziun minga truvà.",
+    "job_failed": "L’elaboraziun l’è fallìda.",
+    "job_cancelled": "L’elaboraziun l’è stada annullada.",
+    "process_failed": "L’è minga sta pusibel elaborà la ripresa.",
+    "export_failed": "L'è minga sta pusibel esportar el file.",
+    "record_failed": "L’è minga sta pusibel cumencià la registraziun."
+  },
+  "jobs": {
+    "status": {
+      "queued": "En fila",
+      "running": "Corsa",
+      "done": "Fat",
+      "error": "Fallì",
+      "cancelled": "Annullad"
+    },
+    "kind": {
+      "process": "Lavoraziun",
+      "export": "Esporta",
+      "import": "Importar",
+      "record": "Registraziun"
+    }
+  }
+}

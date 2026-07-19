@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio Cleaner"
+  },
+  "nav": {
+    "library": "Könyvtár",
+    "record": "Felvétel",
+    "import": "Importálás",
+    "templates": "Sablonok",
+    "settings": "Beállítások elemre",
+    "guide": "Útmutató"
+  },
+  "common": {
+    "save": "Mentés",
+    "saving": "Mentés…",
+    "saved": "Mentve",
+    "cancel": "Mégse",
+    "close": "Bezárás",
+    "delete": "Törölje",
+    "edit": "Szerkesztés",
+    "create": "Létrehozása",
+    "search": "Keresés",
+    "loading": "Betöltés…",
+    "error": "Hiba",
+    "retry": "Próbálja újra",
+    "confirm": "Erősítse meg",
+    "back": "Vissza",
+    "next": "Következő",
+    "continue": "Folytatás",
+    "finish": "Befejezés",
+    "copy": "Másolás",
+    "copied": "Másolva",
+    "download": "Letöltés",
+    "upload": "Feltöltés",
+    "none": "Egyik sem",
+    "all": "Mind",
+    "yes": "Igen",
+    "no": "Nem",
+    "select": "Válassza ki",
+    "optional": "választható",
+    "required": "szükséges",
+    "unsaved_changes": "Nem mentett módosítások",
+    "name": "Név",
+    "status": "Állapot",
+    "type": "Írja be",
+    "actions": "Akciók",
+    "empty": "Üres",
+    "browse": "Tallózás",
+    "remove": "Távolítsa el",
+    "add": "Hozzáadás",
+    "rename": "Átnevezés",
+    "duplicate": "Megkettőzés",
+    "warning": "Figyelmeztetés",
+    "locked": "Lezárva",
+    "builtin": "Beépített",
+    "custom": "Egyedi",
+    "untitled": "Cím nélkül",
+    "select_placeholder": "Válasszon…"
+  },
+  "library": {
+    "title": "Könyvtár",
+    "subtitle": "Hang- és gitárprojektjei az ötlettől a megjelenésig.",
+    "new_project": "Új projekt",
+    "new_album": "Új album",
+    "search_placeholder": "Keresés név szerint…",
+    "view": {
+      "grid": "Rács",
+      "albums": "Albumok"
+    },
+    "filters": {
+      "all": "Mind"
+    },
+    "take_count_one": " {{count}} venni",
+    "take_count_other": " {{count}} vesz",
+    "updated_at": "Frissítve {{date}} ",
+    "no_results": {
+      "title": "Nem található projekt",
+      "description": "Próbálja meg módosítani a keresési vagy állapotszűrőt."
+    },
+    "empty": {
+      "title": "A könyvtára üres",
+      "description": "Indítson el egy új projektet a semmiből, vagy az importálás során már megvan a lemezen.",
+      "cta_import": "Importálás mappából",
+      "cta_new": "Projekt létrehozása"
+    },
+    "project_dialog": {
+      "title": "Új projekt",
+      "description": "Adjon nevet, és válasszon felvételi módot.",
+      "name_label": "Projekt neve",
+      "name_placeholder": "pl. Nyári eső",
+      "mode_label": "mód",
+      "mode": {
+        "voice": "Csak hang",
+        "voice_guitar": "Hang + gitár"
+      },
+      "submit": "Projekt létrehozása"
+    },
+    "album_dialog": {
+      "title": "Új album",
+      "description": "Csoportosítsd a kapcsolódó projekteket egy albumba.",
+      "name_label": "Album neve",
+      "name_placeholder": "pl. Őszi EP",
+      "submit": "Album létrehozása"
+    },
+    "album": {
+      "untitled": "Névtelen album",
+      "members_count_one": " {{count}} projekt",
+      "members_count_other": " {{count}} projektek",
+      "empty": "Ebben az albumban még nincsenek projektek.",
+      "delete_confirm_title": "Törli az albumot?",
+      "delete_confirm_description": "A projekteket nem töröljük, csak leválasztjuk a következőről: „{{name}}”."
+    },
+    "delete_project": {
+      "confirm_title": "Törli a következőt: \"{{name}}\"?",
+      "confirm_description": "Ezzel eltávolítja a projektet és minden benne lévő felvételt. Ezt nem lehet visszavonni."
+    }
+  },
+  "record": {
+    "title": "Felvétel",
+    "subtitle": "Készítsen tiszta felvételt, figyelje a szintjeit, és kövesse a forgatókönyvet.",
+    "project_label": "Projekt",
+    "project_placeholder": "Válasszon egy projektet",
+    "project_create_quick": "Hozzon létre egy gyors projektet…",
+    "device_label": "Beviteli eszköz",
+    "device_placeholder": "Válasszon egy eszközt",
+    "device_default_badge": "Rendszer alapértelmezett",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Nem található beviteli eszköz.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Állítsa le a megfigyelést",
+    "record_button": "Felvétel",
+    "stop_button": "Állj",
+    "elapsed_label": "Eltelt idő",
+    "status": {
+      "idle": "Tétlen",
+      "monitoring": "Monitoring",
+      "recording": "Felvétel",
+      "stopped": "Megállt"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Csúcs",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Vezetett foglalkozás",
+      "subtitle": "Hagyja, hogy az edző lépésről lépésre végigvezesse a forgatókönyvön, a bemelegítéstől a kimondott mondatig.",
+      "loading": "Szkript betöltése…",
+      "unavailable": "Az irányított munkamenet még nem érhető el a szerveren.",
+      "select_project_device": "Válasszon egy projektet és egy beviteli eszközt a lépések rögzítéséhez innen.",
+      "progress": " {{done}} / {{total}} lépés",
+      "start_timer": "Indítsa el az időzítőt",
+      "skip_timer": "Időzítő kihagyása",
+      "record_step": "Rögzítse ezt a lépést",
+      "stop_step": "Állítsa le a felvételt",
+      "mark_done": "Kész – következő lépés",
+      "step_recorded": "Vedd rögzítve",
+      "no_record_step": "Bemelegítési lépés – nincs szükség felvételre.",
+      "bars_hint": "Körülbelül {{bars}} sáv",
+      "complete_title": "A forgatókönyv kész!",
+      "complete_body": "Felvetted a forgatókönyv minden lépését. Menjen vissza a projekt Audio lapjára, és válassza ki kedvenc felvételeit.",
+      "restart": "Indítsa újra a szkriptet"
+    },
+    "best2min": {
+      "button": "Találja meg a legjobb 2 percet (Suno)",
+      "running": "A felvétel elemzése…",
+      "score_label": "Pontszám",
+      "hint": "Energia- és tisztaságelemzést futtat a teljes felvételen, hogy megtalálja a legerősebb 2 perces ablakot – a tartományt ezután is kézzel módosíthatja.",
+      "chart_caption": "Pontszám ablakonként",
+      "unavailable": "A legjobb 2 perces elemzés még nem érhető el ezen a szerveren."
+    },
+    "takes_title": "Ebből a munkamenetből származik",
+    "takes_empty": "Ebben a munkamenetben még nem rögzítettek felvételeket.",
+    "open_in_project": "Megnyitás a projektben",
+    "ws_disconnected": "Újracsatlakozás a szintmérőhöz…",
+    "select_project_first": "A kezdéshez válasszon egy projektet.",
+    "select_device_first": "Válasszon egy beviteli eszközt."
+  },
+  "project": {
+    "back_to_library": "Vissza a könyvtárba",
+    "header": {
+      "status_label": "Állapot",
+      "cover_upload": "Borító feltöltése",
+      "cover_remove": "Távolítsa el a fedelet",
+      "name_placeholder": "Projekt neve",
+      "links_title": "Linkek",
+      "add_link": "Link hozzáadása",
+      "mode": {
+        "voice": "Csak hang",
+        "voice_guitar": "Hang + gitár"
+      }
+    },
+    "tabs": {
+      "audio": "Hang",
+      "lyrics": "Dalszöveg",
+      "prompts": "Kéri",
+      "notes": "Megjegyzések"
+    },
+    "audio": {
+      "takes_title": "Elvesz",
+      "no_takes": {
+        "title": "Még nincs felvétel",
+        "description": "Rögzítsen egy új felvételt vagy importáljon egy meglévő fájlt."
+      },
+      "record_new": "Rögzítsen egy új felvételt",
+      "rating": "Értékelés",
+      "variant": {
+        "raw": "Nyers",
+        "processed": "Feldolgozva"
+      },
+      "variant_placeholder": "Verzió",
+      "process_button": "Folyamat",
+      "export_button": "Exportálás",
+      "delete_take_confirm_title": "Törli ezt a felvételt?",
+      "delete_take_confirm_description": "A nyers hanganyag és minden feldolgozott verzió el lesz távolítva.",
+      "ab": {
+        "raw": "A · Nyers",
+        "processed": "B · Feldolgozva"
+      },
+      "origin": {
+        "recorded": "Rögzítve",
+        "imported": "Importált"
+      },
+      "session_label_placeholder": "Munkamenet címke (opcionális)",
+      "duration": "Időtartam",
+      "sample_rate": "Mintavételi arány",
+      "channels": "Csatornák",
+      "created_at": "Rögzítve"
+    },
+    "pipeline": {
+      "title": "Feldolgozó lánc",
+      "preset_label": "Előre beállított",
+      "preset_none": "Egyedi lánc",
+      "preset_save": "Mentés előre beállítottként",
+      "stage_locked": "Lezárva",
+      "stage_requires_extra": "Nem telepített extrát igényel",
+      "process_button": "Folyamatfelvétel",
+      "processing": "Feldolgozás…",
+      "job_queued": "Sorban van…",
+      "job_running": "Feldolgozás…",
+      "job_done": "Kész",
+      "job_error": "Sikertelen",
+      "job_cancelled": "Törölve",
+      "cancel_job": "Mégse",
+      "no_stages": "Nincs elérhető szakasz."
+    },
+    "export": {
+      "title": "Export venni",
+      "description": "Rendereljen le egy végleges fájlt egy feldolgozott verzióból.",
+      "variant_label": "Verzió",
+      "format_label": "Formátum",
+      "preset_label": "Előbeállítás exportálása",
+      "range_label": "Tartomány",
+      "range_full": "Teljes hossza",
+      "range_custom": "Egyedi tartomány",
+      "start_label": "Kezdés(ek)",
+      "end_label": "vége",
+      "submit": "Exportálás",
+      "progress": "Fájl megjelenítése…",
+      "download_ready": "A fájl készen áll",
+      "download_button": "Fájl letöltése"
+    },
+    "notes": {
+      "placeholder": "Szabad formájú megjegyzések erről a projektről…",
+      "saved_at": "Mentve: {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Írd ide a dalszöveget. Suno metacímkék beillesztéséhez használja az oldalsó palettát.",
+      "saved_at": "Mentve: {{time}} ",
+      "saving": "Mentés…",
+      "versions": "Verziók",
+      "versions_empty": "Még nincsenek mentett verziók.",
+      "version_preview": "Előnézet",
+      "restore": "Állítsa vissza ezt a verziót",
+      "restore_confirm_title": "Visszaállítja ezt a verziót?",
+      "restore_confirm_description": "A jelenlegi szöveget a rendszer a {{date}}-n mentett verzióra cseréli.",
+      "metatags_title": "Metacímkék",
+      "metatags_hint": "Kattintson egy címkére, hogy beillessze a kurzorba.",
+      "metatags_placebo_warning": "Nem bizonyított – lehet, hogy nincs hatással az eredményre.",
+      "metatags_empty": "Nincsenek regisztrálva metacímkék."
+    },
+    "prompts": {
+      "style_title": "Stílus prompt",
+      "lyrics_title": "Dalszöveg felszólítás",
+      "template_label": "Sablon",
+      "template_none": "Nincs sablon",
+      "variables_title": "Változók",
+      "preview_title": "Előnézet",
+      "preview_empty": "Válasszon egy sablont, és töltse ki a változókat az előnézet megtekintéséhez.",
+      "char_count": " {{count}} karakter",
+      "char_count_warning": "A Suno csonkolhatja az 1000 karakternél hosszabb stíluspromptokat.",
+      "copy": "Másolás",
+      "copied": "Vágólapra másolva",
+      "save_to_project": "Mentés projektbe",
+      "saved_to_project": "Prompt mentve a projektbe",
+      "history_title": "Történelem",
+      "history_empty": "Nincsenek korábbi verziók.",
+      "current_label": "Aktuális"
+    },
+    "stems": {
+      "title": "Ének és gitár",
+      "separate_button": "Külön ének és gitár",
+      "running": "Elválasztás…",
+      "vocals": "Ének",
+      "instrumental": "Instrumentális",
+      "process_stem": "Ezt a szárat dolgozd fel",
+      "empty": "Ezt a tételt még nem választották szét. Fuss szétválasztást, hogy elszigetelten hallgasd az éneket és a gitárt.",
+      "capability_missing": "A forráselválasztás nincs telepítve ezen a kiszolgálón.",
+      "unavailable": "Az ének/gitár szétválasztás még nem érhető el ezen a szerveren."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Be",
+    "boolean_off": "Ki"
+  },
+  "import": {
+    "title": "Importálás",
+    "subtitle": "A lemezen már meglévő projekteket vigye be a könyvtárba.",
+    "step_indicator": "{{total}}/{{current}} lépés ",
+    "step1": {
+      "title": "Keresse meg a mappát",
+      "description": "Mutasson a gyökérmappára a projektekkel és a sávokkal.",
+      "path_label": "Mappa elérési útja",
+      "path_placeholder": "pl. E:\\Robbs\\Pride\\Zene\\ROBBS",
+      "recent_label": "Legutóbbi",
+      "scan_button": "Szkennelési mappa",
+      "scanning": "Szkennelés…",
+      "ffmpeg_warning": "Az FFmpeg nem található – a konvertálásra szoruló fájlok kimaradnak.",
+      "folders_found_one": " {{count}} mappa található",
+      "folders_found_other": " {{count}} mappa található",
+      "unmatched_files_one": " {{count}} ismeretlen fájl",
+      "unmatched_files_other": " {{count}} fel nem ismert fájlok"
+    },
+    "step2": {
+      "title": "Tekintse át az elemeket",
+      "description": "A megerősítés előtt ellenőrizze a neveket, állapotokat és az importált tartalmakat.",
+      "select_all": "Válassza ki az összeset",
+      "table": {
+        "folder": "Forrás mappa",
+        "name": "Projekt neve",
+        "status": "Állapot",
+        "audio": "Hang",
+        "lyrics": "Dalszöveg",
+        "cover": "Borító",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} fájl kiválasztva",
+      "audio_include_other": " {{count}} fájl kiválasztva",
+      "no_audio": "Nem található hang",
+      "no_lyrics": "Nem található dalszöveg",
+      "no_cover": "Nincs fedél",
+      "warnings_title": "Figyelmeztetések"
+    },
+    "step3": {
+      "title": "Importálás",
+      "description": "Erősítse meg a fájlok másolását és a projektek létrehozását.",
+      "copy_originals": "Másolja át az eredeti fájlokat a könyvtárba",
+      "execute_button": "Indítsa el az importálást",
+      "progress_title": "Importálás…",
+      "created_count": "Létrehozva: {{count}} ",
+      "skipped_count": "Kihagyva: {{count}} ",
+      "done_title": "Az importálás befejeződött",
+      "done_description": "Az alábbi projekteket az Ön könyvtárában hozták létre.",
+      "view_project": "Projekt megnyitása",
+      "start_over": "Új import"
+    }
+  },
+  "templates": {
+    "title": "Sablonok",
+    "subtitle": "Újrafelhasználható prompt sablonok és metacímkék a Suno számára.",
+    "tabs": {
+      "prompts": "Prompt sablonok",
+      "metatags": "Metacímkék"
+    },
+    "new_template": "Új sablon",
+    "kind": {
+      "style": "Stílus",
+      "lyrics": "Dalszöveg"
+    },
+    "kind_label": "Kedves",
+    "delete_confirm_title": "Törli a \"{{name}}\" sablont?",
+    "delete_confirm_description": "Ezt nem lehet visszavonni.",
+    "empty": "Még nincsenek sablonok.",
+    "editor": {
+      "title_new": "Új sablon",
+      "title_edit": "Sablon szerkesztése",
+      "name_label": "Név",
+      "name_placeholder": "pl. Akusztikus ballada",
+      "kind_label": "Kedves",
+      "template_label": "Sablon szövege",
+      "template_hint": "Jelölje meg, hogy az egyes változók hova tartoznak, dupla kapcsos kapcsos zárójelekbe foglalva a nevét – például a \"genre\" nevű változóból két nyitó és két záró kapcsos zárójelbe csomagolt műfaj lesz.",
+      "variables_label": "Változók",
+      "variable_add": "Változó hozzáadása",
+      "variable_name": "Kulcs",
+      "variable_label": "Címke",
+      "variable_type": "Írja be",
+      "variable_type_string": "Szöveg",
+      "variable_type_select": "Egyetlen kiválasztás",
+      "variable_type_multiselect": "Többszörös kijelölés",
+      "variable_type_number": "Szám",
+      "variable_type_boolean": "Igen/nem",
+      "variable_options": "Opciók (vesszővel elválasztva)",
+      "variable_required": "Kötelező",
+      "save": "Sablon mentése"
+    },
+    "metatags": {
+      "title": "Metacímkék",
+      "subtitle": "Szerkezeti és stíluscímkék A Suno felismeri a dalszövegeket.",
+      "new_tag": "Új címke",
+      "tag_label": "Címke",
+      "tag_placeholder": "pl. gitár-szóló",
+      "category_label": "Kategória",
+      "tier_label": "Megbízhatóság",
+      "tier_legend_title": "Megbízhatósági legenda",
+      "tier_legend": {
+        "1": "1. szint – dokumentált és következetes",
+        "2": "2. szint – általában működik",
+        "3": "3. szint – változó hatás",
+        "4": "4. szint – placebo, nem bizonyított"
+      },
+      "description_label": "Leírás",
+      "delete_confirm_title": "Törli a \"{{tag}}\" címkét?",
+      "empty": "Még nincsenek egyéni metacímkék."
+    }
+  },
+  "settings": {
+    "title": "Beállítások elemre",
+    "subtitle": "Rendszerinformációk, nyelv és alapértelmezett beállítások.",
+    "system_info_title": "Rendszer",
+    "version": "Verzió",
+    "data_dir": "Adatmappa",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Elérhető",
+    "ffmpeg_missing": "Nem található",
+    "capabilities_title": "Telepített képességek",
+    "capability": {
+      "denoise": "Zajcsökkentés",
+      "quality": "Minőségfejlesztés",
+      "separate": "Forrás szétválasztás",
+      "ffmpeg": "FFmpeg konverzió"
+    },
+    "capability_available": "Elérhető",
+    "capability_unavailable": "Nem elérhető",
+    "gpu_title": "GPU gyorsítás",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX futásidejű szolgáltatók"
+    },
+    "gpu_none": "Nem észleltünk GPU-szolgáltatót",
+    "language_title": "Nyelv",
+    "language": {
+      "pt-BR": "portugál (Brazília)",
+      "en": "angolul"
+    },
+    "theme_title": "Megjelenés",
+    "theme": {
+      "dark": "Sötét",
+      "light": "Fény"
+    },
+    "defaults_title": "Alapértelmezések exportálása",
+    "lufs_target_label": "Cél LUFS",
+    "lufs_target_hint": "Kiindulási javaslatként használják az exportálás során. A Suno alapértelmezett értéke -14 LUFS körül van.",
+    "saved": "A beállítások mentve"
+  },
+  "guide": {
+    "title": "Suno felvételi útmutató",
+    "subtitle": "A legjobb eredményt adó hang- és gitárfelvételek rögzítése.",
+    "intro": "A Suno a letisztult, egyértelmű hivatkozásokkal teljesít a legjobban. Ez az útmutató a felkészülést, a célszinteket és a 3–5 perces rögzítési forgatókönyvet tartalmazza.",
+    "sections": {
+      "prep": {
+        "title": "Előkészítés",
+        "body": "Rögzítse kezelt helyiségben vagy olyan helyen, ahol sok puha anyag van (függöny, szőnyeg, ruhák szekrényben). Kapcsolja ki a ventilátorokat és mindent, ami zúg. Felvétel előtt melegítse fel a hangját 5 percig."
+      },
+      "levels": {
+        "title": "Szintek: -12 és -6 dBFS között",
+        "body": "Törekedjen a -12 és -6 dBFS közötti csúcsokra a mérőműszeren. E tartomány alatt a háttérzaj észrevehetőbbé válik; felette nő a vágás kockázata. A Rögzítés oldalon található mérő segítségével állítsa be az erősítést, mielőtt elkezdené."
+      },
+      "distance": {
+        "title": "Mikrofon távolság: 15-30 cm",
+        "body": "Maradjon 15-30 cm-re a mikrofontól. Ennél közelebb eltúlozzák a robbanóanyagok és a közelségi hatást; távolabb több szoba zenget és zajt vesz fel."
+      },
+      "script": {
+        "title": "Szkript rögzítése",
+        "warmup": "Ének bemelegítés (1-2 perc)",
+        "vowels": "Tartós magánhangzók – a, e, i, o, u",
+        "scales": "Egyszerű mérleg, fel és le",
+        "excerpt": "Egy dalrészlet (8-16 ütem)",
+        "dynamics": "Dinamika: halk kezdés, hangos vége",
+        "spoken_phrase": "Egy kimondott frázis, hogy Suno ki tudja olvasni az Ön énekhangját"
+      },
+      "expectations": {
+        "title": "Amit Suno vár",
+        "body": "WAV, 48 kHz, mono, száraz (reverb vagy effektek nélkül), 3-5 perc referencia. Általában a felvétel legtisztább, legreprezentatívabb 2 perce hozza a legjobb eredményt."
+      }
+    }
+  },
+  "status": {
+    "idea": "Ötlet",
+    "em_progresso": "Folyamatban",
+    "quase": "Majdnem megvan",
+    "pronto": "Kész"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Suno teljes énekszkriptje",
+      "desc": "5 vezetett perc: bemelegítés, magánhangzók, skálák, két dalrészlet, dinamika és egy kimondott mondat."
+    },
+    "step": {
+      "warmup": "Ének bemelegítés",
+      "warmup_inst": "Lazítson fel ásításokkal, ajaktrillákkal (brrr) és halk zümmögéssel körülbelül egy percig. Nincs szükség felvételre – elég, hogy ellazítsa a torkát éneklés előtt.",
+      "vowels": "Tartós magánhangzók",
+      "vowels_inst": "Tartsa mindegyik magánhangzót – a, e, i, o, u – 3-4 másodpercig kényelmes hangmagasságban, egyenletes hangerővel. Ez segít Sunonak felvenni a hangod tiszta hangszínét.",
+      "scales": "Mérlegelés fel és le",
+      "scales_inst": "Énekelj egy egyszerű skálát felfelé, majd lefelé a „la” vagy „na” hangon. Nem kell tökéletesnek lennie – a cél a hangtartomány feltérképezése.",
+      "section": "Dalrészlet – 1. rész",
+      "section_inst": "Énekelje el a dal 8-16 ütemét, azzal a valódi szándékkal, amelyet közvetíteni szeretne. Előnyben részesítse a tisztaságot és a jelenlétet a technikai tökéletességgel szemben.",
+      "section2": "Dalrészlet – 2. rész",
+      "section2_inst": "Énekelj még 8-16 ütemet – ideális esetben egy kórust vagy egy olyan szakaszt, amely ellentétben áll az előzővel. Több változatosság segít a modellnek megtanulni a hangját.",
+      "dynamics": "Dinamika: halk → hangos",
+      "dynamics_inst": "Énekelje el ugyanazt a mondatot nagyon halkan kezdődően és hangosan végződve, anélkül, hogy megerőltené a torkát. Ez megmutatja Suno hangjának dinamikus tartományát.",
+      "spoken": "Kimondott kifejezés",
+      "spoken_inst": "Beszélj – ne énekelj – egy rövid, természetes kifejezést, mintha csevegnél. Ez segít Suno-nak felismerni az Ön hangjának valódi hangszínét."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Helyreállítás",
+      "filter": "Szűrők",
+      "dynamics": "Dinamika",
+      "separation": "Elválasztás",
+      "quality": "Minőség",
+      "utility": "Utility",
+      "loudness": "Hangosság"
+    },
+    "highpass": "Felüláteresztő szűrő",
+    "lowpass": "Aluláteresztő szűrő",
+    "denoise": "Zajcsökkentés",
+    "declip": "Declipping",
+    "declick": "Click/pop eltávolítás",
+    "deesser": "De-esser",
+    "gate": "Zajkapu",
+    "compressor": "Kompresszor",
+    "limiter": "Limiter",
+    "eq": "Kiegyenlítés",
+    "normalize": "Csúcs normalizálás",
+    "loudness": "Hangerő normalizálás (LUFS)",
+    "reverb_reduce": "Reverb csökkentése",
+    "separate": "Forrás szétválasztás",
+    "quality": "Minőségfejlesztés (előkelő)",
+    "trim_silence": "Csend trimmelés",
+    "fade": "Fade in / Fade out",
+    "stereo_to_mono": "Konvertálás monóvá",
+    "resample": "Újramintavételezés"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Megbízható",
+      "2": "Általában működik",
+      "3": "Változó",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Szerkezet",
+      "vocal": "Ének",
+      "instrument": "Hangszer",
+      "dynamics": "Dinamika",
+      "production": "Termelés",
+      "mood": "Hangulat"
+    },
+    "verse": "Vers",
+    "chorus": "Kórus",
+    "bridge": "Híd",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Horog",
+    "prechorus": "Előkórus",
+    "instrumental": "Instrumentális",
+    "guitar_solo": "Gitárszóló",
+    "build_up": "Felépítés",
+    "breakdown": "Lebontás",
+    "spoken_word": "Kimondott szó",
+    "whispered": "suttogta",
+    "harmonies": "Harmóniák",
+    "male_vocal": "Férfi énekhang",
+    "female_vocal": "Női énekhang",
+    "duet": "Duett",
+    "acoustic": "Akusztikus",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Tiszta hang",
+    "voice_guitar_balanced": "Kiegyensúlyozott hang és gitár",
+    "podcast": "Podcast",
+    "suno_ready": "Suno készen áll",
+    "gentle_restore": "Gyengéd helyreállítás",
+    "raw_passthrough": "Nincs feldolgozás"
+  },
+  "errors": {
+    "unknown": "Valami elromlott.",
+    "network": "Nem sikerült elérni a szervert.",
+    "validation_error": "Ellenőrizze a megadott adatokat.",
+    "not_found": "Az elem nem található.",
+    "project_not_found": "Projekt nem található.",
+    "take_not_found": "Take not found.",
+    "album_not_found": "Az album nem található.",
+    "preset_not_found": "Előbeállítás nem található.",
+    "template_not_found": "A sablon nem található.",
+    "device_busy": "Az audioeszközt egy másik program használja.",
+    "device_not_found": "Az audioeszköz nem található.",
+    "already_recording": "A felvétel már folyamatban van.",
+    "ffmpeg_missing": "Az FFmpeg nincs telepítve – a fájl konvertálásához telepítse.",
+    "disk_full": "Nincs elég lemezterület.",
+    "permission_denied": "Engedély megtagadva a megadott útvonalon.",
+    "import_path_not_found": "Az importálási útvonal nem található.",
+    "job_failed": "A feldolgozás sikertelen.",
+    "job_cancelled": "A feldolgozás megszakadt.",
+    "process_failed": "Nem sikerült feldolgozni a felvételt.",
+    "export_failed": "Nem sikerült exportálni a fájlt.",
+    "record_failed": "Nem sikerült elindítani a felvételt."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Sorban",
+      "running": "Futás",
+      "done": "Kész",
+      "error": "Sikertelen",
+      "cancelled": "Törölve"
+    },
+    "kind": {
+      "process": "Feldolgozás",
+      "export": "Exportálás",
+      "import": "Importálás",
+      "record": "Felvétel"
+    }
+  }
+}

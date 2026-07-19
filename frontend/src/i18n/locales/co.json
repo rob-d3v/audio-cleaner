@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio Cleaner"
+  },
+  "nav": {
+    "library": "Biblioteca",
+    "record": "Record",
+    "import": "Importà",
+    "templates": "Templates",
+    "settings": "Settings",
+    "guide": "Guida"
+  },
+  "common": {
+    "save": "Salvà",
+    "saving": "Salvà…",
+    "saved": "Salvatu",
+    "cancel": "Cancella",
+    "close": "Chiudi",
+    "delete": "Sguassà",
+    "edit": "Edit",
+    "create": "Crià",
+    "search": "Ricerca",
+    "loading": "Caricamentu…",
+    "error": "Errore",
+    "retry": "Riprova",
+    "confirm": "Cunfirmà",
+    "back": "Torna",
+    "next": "Dopu",
+    "continue": "Cuntinuà",
+    "finish": "Finisci",
+    "copy": "Copia",
+    "copied": "Copiatu",
+    "download": "Scaricate",
+    "upload": "Caricà",
+    "none": "Nimu",
+    "all": "Tuttu",
+    "yes": "Iè",
+    "no": "No",
+    "select": "Selezziunà",
+    "optional": "facultativu",
+    "required": "necessariu",
+    "unsaved_changes": "Cambiamenti micca salvati",
+    "name": "Nome",
+    "status": "Status",
+    "type": "Tipu",
+    "actions": "Azzioni",
+    "empty": "Viotu",
+    "browse": "Sfoglia",
+    "remove": "Eliminate",
+    "add": "Add",
+    "rename": "Rinomina",
+    "duplicate": "Duplicate",
+    "warning": "Attenti",
+    "locked": "Chjosu",
+    "builtin": "Custruitu",
+    "custom": "Custom",
+    "untitled": "Sans titre",
+    "select_placeholder": "Sceglie…"
+  },
+  "library": {
+    "title": "Biblioteca",
+    "subtitle": "I vostri prughjetti di voce è chitarra, da l'idea à a liberazione.",
+    "new_project": "Prughjettu novu",
+    "new_album": "Novu album",
+    "search_placeholder": "Ricerca per nome...",
+    "view": {
+      "grid": "Griglia",
+      "albums": "Albums"
+    },
+    "filters": {
+      "all": "Tuttu"
+    },
+    "take_count_one": " {{count}} piglià",
+    "take_count_other": " {{count}} piglia",
+    "updated_at": "Aghjurnatu {{date}} ",
+    "no_results": {
+      "title": "Nisun prughjettu trovu",
+      "description": "Pruvate à aghjustà u filtru di ricerca o di statutu."
+    },
+    "empty": {
+      "title": "A vostra biblioteca hè viota",
+      "description": "Cumincià un novu prughjettu da zero, o importate pigliate chì avete digià in discu.",
+      "cta_import": "Import da u cartulare",
+      "cta_new": "Crià u prugettu"
+    },
+    "project_dialog": {
+      "title": "Prughjettu novu",
+      "description": "Dà un nome è sceglite un modu di registrazione.",
+      "name_label": "Nome di u prugettu",
+      "name_placeholder": "p.e. Pioggia d'estate",
+      "mode_label": "Modu",
+      "mode": {
+        "voice": "Voce solu",
+        "voice_guitar": "Voce + chitarra"
+      },
+      "submit": "Crià u prugettu"
+    },
+    "album_dialog": {
+      "title": "Novu album",
+      "description": "Raggruppa i prughjetti cunnessi in un album.",
+      "name_label": "Nome di l'album",
+      "name_placeholder": "p.e. EP d'autunno",
+      "submit": "Crea album"
+    },
+    "album": {
+      "untitled": "Album sans titre",
+      "members_count_one": " {{count}} prughjettu",
+      "members_count_other": " {{count}} prughjetti",
+      "empty": "Nisun prughjettu ancora in questu album.",
+      "delete_confirm_title": "Sguassà l'album ?",
+      "delete_confirm_description": "I prughjetti ùn saranu micca sguassati, solu scollegati da \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Eliminate \" {{name}} \" ?",
+      "confirm_description": "Stu sguassate u prugettu è ogni piglià in lu. Questu ùn pò micca esse annullatu."
+    }
+  },
+  "record": {
+    "title": "Record",
+    "subtitle": "Catturà una presa pulita, fighjate i vostri livelli è seguite u script.",
+    "project_label": "Prughjettu",
+    "project_placeholder": "Sceglite un prughjettu",
+    "project_create_quick": "Crea un prughjettu rapidu ...",
+    "device_label": "Dispositivu di input",
+    "device_placeholder": "Sceglite un dispusitivu",
+    "device_default_badge": "Sistema predeterminatu",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Nisun dispusitivu di input trovu.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Stop monitoring",
+    "record_button": "Record",
+    "stop_button": "Stop",
+    "elapsed_label": "Tempu passatu",
+    "status": {
+      "idle": "Idle",
+      "monitoring": "Surviglianza",
+      "recording": "Arregistramentu",
+      "stopped": "Fermatu"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "piccu",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Sessione guidata",
+      "subtitle": "Lasciate chì u coach vi guidà à traversu u script passu à passu, da u warm-up à a frasa parlata.",
+      "loading": "Caricamentu di u script...",
+      "unavailable": "A sessione guidata ùn hè ancu dispunibule nantu à u servitore.",
+      "select_project_device": "Sceglie un prughjettu è un dispusitivu input à nutari passi dritta da quì.",
+      "progress": " {{done}} di {{total}} passi",
+      "start_timer": "Start timer",
+      "skip_timer": "Salta u timer",
+      "record_step": "Registrate stu passu",
+      "stop_step": "Arresta a registrazione",
+      "mark_done": "Fattu - passu prossimu",
+      "step_recorded": "Pigliate arregistratu",
+      "no_record_step": "Passu di riscaldamentu - ùn hè micca bisognu di registrazione.",
+      "bars_hint": "Circa {{bars}} bars",
+      "complete_title": "Scrittura cumpleta !",
+      "complete_body": "Avete arregistratu ogni passu di u script. Ritorna à a tabulazione Audio di u prughjettu è sceglite i vostri chjassi preferiti.",
+      "restart": "Riavvia u script"
+    },
+    "best2min": {
+      "button": "Truvate i migliori 2 minuti (Suno)",
+      "running": "Analizendu a presa...",
+      "score_label": "Score",
+      "hint": "Esegue un'analisi d'energia è di chiarezza annantu à tutta a presa per truvà a so finestra più forte di 2 minuti - pudete ancu aghjustà a gamma a manu dopu.",
+      "chart_caption": "Score per finestra",
+      "unavailable": "U megliu analisi di 2 minuti ùn hè micca dispunibule annantu à stu servitore."
+    },
+    "takes_title": "Piglia da sta sessione",
+    "takes_empty": "Nisuna piglia ancora registrata in questa sessione.",
+    "open_in_project": "Apertura in u prugettu",
+    "ws_disconnected": "Ricunnettà à u metru di livellu...",
+    "select_project_first": "Sceglite un prughjettu per cumincià.",
+    "select_device_first": "Sceglite un dispusitivu di input."
+  },
+  "project": {
+    "back_to_library": "Torna à a biblioteca",
+    "header": {
+      "status_label": "Status",
+      "cover_upload": "Caricà a copertina",
+      "cover_remove": "Eliminate a copertina",
+      "name_placeholder": "Nome di u prugettu",
+      "links_title": "Ligami",
+      "add_link": "Aggiungi ligame",
+      "mode": {
+        "voice": "Voce solu",
+        "voice_guitar": "Voce + chitarra"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Lyrics",
+      "prompts": "Prompts",
+      "notes": "Notes"
+    },
+    "audio": {
+      "takes_title": "Piglia",
+      "no_takes": {
+        "title": "Nisuna piglia ancora",
+        "description": "Registrate una nova presa o impurtate un schedariu esistenti."
+      },
+      "record_new": "Registrate una nova presa",
+      "rating": "Valutazione",
+      "variant": {
+        "raw": "Crudu",
+        "processed": "Prucessatu"
+      },
+      "variant_placeholder": "Versione",
+      "process_button": "Prucessu",
+      "export_button": "Esporta",
+      "delete_take_confirm_title": "Eliminate sta presa?",
+      "delete_take_confirm_description": "L'audio crudu è ogni versione processata seranu eliminati.",
+      "ab": {
+        "raw": "A · Crudu",
+        "processed": "B · Prucessa"
+      },
+      "origin": {
+        "recorded": "Arregistratu",
+        "imported": "Impurtatu"
+      },
+      "session_label_placeholder": "Etichetta di sessione (opzionale)",
+      "duration": "Durata",
+      "sample_rate": "Tassa di campionamentu",
+      "channels": "Canali",
+      "created_at": "Arregistratu"
+    },
+    "pipeline": {
+      "title": "Catena di trasfurmazioni",
+      "preset_label": "Preset",
+      "preset_none": "Catena persunalizata",
+      "preset_save": "Salvà cum'è preset",
+      "stage_locked": "Chjosu",
+      "stage_requires_extra": "Richiede un extra chì ùn hè micca stallatu",
+      "process_button": "Prucessu piglià",
+      "processing": "Trattamentu…",
+      "job_queued": "In fila…",
+      "job_running": "Trattamentu…",
+      "job_done": "Fattu",
+      "job_error": "Fiascatu",
+      "job_cancelled": "Annulatu",
+      "cancel_job": "Cancella",
+      "no_stages": "Nisuna tappa dispunibule."
+    },
+    "export": {
+      "title": "Esporta piglià",
+      "description": "Rende un schedariu finali da una versione processata.",
+      "variant_label": "Versione",
+      "format_label": "Format",
+      "preset_label": "Esporta preset",
+      "range_label": "Gamma",
+      "range_full": "Lunghezza tutale",
+      "range_custom": "Gamma persunalizata",
+      "start_label": "principiu (s)",
+      "end_label": "fine (s)",
+      "submit": "Esporta",
+      "progress": "File di rendering...",
+      "download_ready": "File prontu",
+      "download_button": "Scaricate u schedariu"
+    },
+    "notes": {
+      "placeholder": "Note in forma libera nantu à stu prughjettu...",
+      "saved_at": "Salvatu à {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Scrivite a canzone quì. Aduprate a paleta à u latu per inserisce meta-tag Suno.",
+      "saved_at": "Salvatu à {{time}} ",
+      "saving": "Salvà…",
+      "versions": "Versioni",
+      "versions_empty": "Nisuna versione salvata ancora.",
+      "version_preview": "Anteprima",
+      "restore": "Risturà sta versione",
+      "restore_confirm_title": "Risturà sta versione?",
+      "restore_confirm_description": "U testu attuale serà rimpiazzatu cù a versione salvata in {{date}} .",
+      "metatags_title": "Meta-tags",
+      "metatags_hint": "Cliccate un tag per inserisce à u cursore.",
+      "metatags_placebo_warning": "Unproven - pò avè micca effettu nantu à u risultatu.",
+      "metatags_empty": "Nisuna meta-tag registrata."
+    },
+    "prompts": {
+      "style_title": "Stile prompt",
+      "lyrics_title": "Lyrics prompt",
+      "template_label": "Template",
+      "template_none": "Nisun mudellu",
+      "variables_title": "Variabili",
+      "preview_title": "Anteprima",
+      "preview_empty": "Sceglite un mudellu è compie e variabili per vede una vista previa.",
+      "char_count": " {{count}} caratteri",
+      "char_count_warning": "L'inviti di stile più di 1000 caratteri ponu esse troncati da Suno.",
+      "copy": "Copia",
+      "copied": "Copiatu in u clipboard",
+      "save_to_project": "Salvà à u prugettu",
+      "saved_to_project": "Prompt salvatu à u prugettu",
+      "history_title": "Storia",
+      "history_empty": "Nisuna versione precedente.",
+      "current_label": "currente"
+    },
+    "stems": {
+      "title": "Voce è chitarra",
+      "separate_button": "Separate voce è chitarra",
+      "running": "Separazione…",
+      "vocals": "Voci",
+      "instrumental": "Strumentale",
+      "process_stem": "Prucessa stu troncu",
+      "empty": "Questa presa ùn hè ancu stata separata. Eseguite a separazione per sente a voce è a chitarra in isolamentu.",
+      "capability_missing": "A separazione di a fonte ùn hè micca stallata nantu à stu servitore.",
+      "unavailable": "A separazione di voce / chitarra ùn hè micca dispunibule annantu à stu servitore."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "On",
+    "boolean_off": "Off"
+  },
+  "import": {
+    "title": "Importà",
+    "subtitle": "Purtate i prughjetti chì esistenu digià in discu in a biblioteca.",
+    "step_indicator": "Passu {{current}} di {{total}} ",
+    "step1": {
+      "title": "Locate u cartulare",
+      "description": "Puntate à u cartulare radicali cù i vostri prughjetti è piste.",
+      "path_label": "Percorsu di u cartulare",
+      "path_placeholder": "p.e. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "Ricenti",
+      "scan_button": "Scansione di u cartulare",
+      "scanning": "Scanning…",
+      "ffmpeg_warning": "FFmpeg ùn hè micca truvatu - i fugliali chì anu bisognu di cunversione seranu saltati.",
+      "folders_found_one": " {{count}} cartulare trovu",
+      "folders_found_other": " {{count}} cartulare trovu",
+      "unmatched_files_one": " {{count}} schedariu micca ricunnisciutu",
+      "unmatched_files_other": " {{count}} fugliali micca ricunnisciuti"
+    },
+    "step2": {
+      "title": "Rivedi l'articuli",
+      "description": "Verificate i nomi, stati, è ciò chì serà impurtatu prima di cunfirmà.",
+      "select_all": "Selezziunà tuttu",
+      "table": {
+        "folder": "Cartulare fonte",
+        "name": "Nome di u prugettu",
+        "status": "Status",
+        "audio": "Audio",
+        "lyrics": "Lyrics",
+        "cover": "Coperta",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} u schedariu sceltu",
+      "audio_include_other": " {{count}} i schedari selezziunati",
+      "no_audio": "Nisun audio trovu",
+      "no_lyrics": "Nisuna lyrics trovu",
+      "no_cover": "Nisuna copertura",
+      "warnings_title": "Avvertimenti"
+    },
+    "step3": {
+      "title": "Importà",
+      "description": "Cunfirmà à cupià i schedari è creà i prughjetti.",
+      "copy_originals": "Copia i fugliali originali in a biblioteca",
+      "execute_button": "Cumincià l'importazione",
+      "progress_title": "Importazione…",
+      "created_count": "Creatu: {{count}} ",
+      "skipped_count": "Saltatu: {{count}} ",
+      "done_title": "Importazione cumpleta",
+      "done_description": "I prughjetti sottu sò stati creati in a vostra biblioteca.",
+      "view_project": "Prughjettu apertu",
+      "start_over": "Importazione nova"
+    }
+  },
+  "templates": {
+    "title": "Templates",
+    "subtitle": "Modelli di prompt riutilizabili è meta-tags per Suno.",
+    "tabs": {
+      "prompts": "Template prontu",
+      "metatags": "Meta-tags"
+    },
+    "new_template": "Novu mudellu",
+    "kind": {
+      "style": "Stile",
+      "lyrics": "Lyrics"
+    },
+    "kind_label": "Gentile",
+    "delete_confirm_title": "Eliminate u mudellu \" {{name}} \" ?",
+    "delete_confirm_description": "Questu ùn pò micca esse annullatu.",
+    "empty": "Nisun mudellu ancora.",
+    "editor": {
+      "title_new": "Novu mudellu",
+      "title_edit": "Edite u mudellu",
+      "name_label": "Nome",
+      "name_placeholder": "p.e. Ballata acustica",
+      "kind_label": "Gentile",
+      "template_label": "Testu di mudellu",
+      "template_hint": "Marcate induve ogni variàbile appartene cù u so nome impannillatu in doppia curly curly brackets - per esempiu, una variàbile chjamata \"genre\" diventa generu impannillatu in duie apertura è duie chiusure.",
+      "variables_label": "Variabili",
+      "variable_add": "Aggiungi variabile",
+      "variable_name": "Chjave",
+      "variable_label": "Etichetta",
+      "variable_type": "Tipu",
+      "variable_type_string": "Testu",
+      "variable_type_select": "Selezzione unica",
+      "variable_type_multiselect": "Multi-selezzione",
+      "variable_type_number": "numeru",
+      "variable_type_boolean": "Iè / nò",
+      "variable_options": "Opzioni (separati da virgola)",
+      "variable_required": "Ubligatoriu",
+      "save": "Salvà u mudellu"
+    },
+    "metatags": {
+      "title": "Meta-tags",
+      "subtitle": "Tag strutturale è di stile Suno ricunnosce in i testi.",
+      "new_tag": "Tag nova",
+      "tag_label": "Tag",
+      "tag_placeholder": "p.e. chitarra-solo",
+      "category_label": "categuria",
+      "tier_label": "Affidabilità",
+      "tier_legend_title": "Legenda di affidabilità",
+      "tier_legend": {
+        "1": "Tier 1 - documentatu è coherente",
+        "2": "Tier 2 - di solitu funziona",
+        "3": "Tier 3 - effettu variabile",
+        "4": "Tier 4 - placebo, micca pruvucatu"
+      },
+      "description_label": "Descrizzione",
+      "delete_confirm_title": "Eliminate u tag \" {{tag}} \" ?",
+      "empty": "Nisuna meta-tag persunalizata ancora."
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Informazioni di sistema, lingua è preferenze predeterminate.",
+    "system_info_title": "Sistema",
+    "version": "Versione",
+    "data_dir": "cartulare di dati",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Disponibile",
+    "ffmpeg_missing": "Ùn trovu",
+    "capabilities_title": "Capacità installate",
+    "capability": {
+      "denoise": "Riduzzione di u rumore",
+      "quality": "Migliuramentu di a qualità",
+      "separate": "A separazione di a fonte",
+      "ffmpeg": "cunversione FFmpeg"
+    },
+    "capability_available": "Disponibile",
+    "capability_unavailable": "Indisponibile",
+    "gpu_title": "Accelerazione GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "Fornitori di runtime ONNX"
+    },
+    "gpu_none": "Nisun fornitore di GPU rilevatu",
+    "language_title": "Lingua",
+    "language": {
+      "pt-BR": "Português (Brasile)",
+      "en": "inglese"
+    },
+    "theme_title": "Apparizione",
+    "theme": {
+      "dark": "Scuru",
+      "light": "Luce"
+    },
+    "defaults_title": "Esporta i valori predeterminati",
+    "lufs_target_label": "Target LUFS",
+    "lufs_target_hint": "Adupratu cum'è suggerimentu di partenza quandu l'esportazione piglia. U predefinitu di Suno si trova intornu à -14 LUFS.",
+    "saved": "Preferenze salvate"
+  },
+  "guide": {
+    "title": "Guida di registrazione Suno",
+    "subtitle": "Cumu catturà a voce è a chitarra piglia chì ottene u megliu risultati.",
+    "intro": "Suno funziona megliu cù referenze pulite è senza ambiguità. Questa guida copre a preparazione, i livelli di destinazione, è un script di registrazione di 3-5 minuti.",
+    "sections": {
+      "prep": {
+        "title": "Preparazione",
+        "body": "Registrate in una stanza trattata o una cù assai materiale morbidu (curtains, tappeti, robba in un armariu). Spegne i fan è tuttu ciò chì ronzii. Riscaldate a vostra voce per 5 minuti prima di arregistrà."
+      },
+      "levels": {
+        "title": "Livelli: -12 à -6 dBFS",
+        "body": "Scopu per i picchi trà -12 è -6 dBFS nantu à u metru. Sottu à quellu intervallu, u rumore di fondo diventa più notu; sopra, u risicu di clipping aumenta. Aduprate u metru in a pagina Record per stabilisce u vostru guadagnu prima di inizià."
+      },
+      "distance": {
+        "title": "Mic distanza: 15-30 cm",
+        "body": "Stà à 15 à 30 cm da u microfonu. Closer than that exagerates plosives è effettu di prossimità; più luntanu piglia più riverbere è rumore di stanza."
+      },
+      "script": {
+        "title": "Scrittura di registrazione",
+        "warmup": "Riscaldamentu vocale (1-2 minuti)",
+        "vowels": "Vocali sustinute - a, e, i, o, u",
+        "scales": "Scale semplici, su e giù",
+        "excerpt": "Un estrattu di canzone (da 8 à 16 battute)",
+        "dynamics": "Dinamica: principia dolce, finisce forte",
+        "spoken_phrase": "Una frasa parlata, cusì Suno pò leghje u vostru tonu vocale"
+      },
+      "expectations": {
+        "title": "Ciò chì Suno aspetta",
+        "body": "WAV, 48 kHz, mono, secco (senza reverb o effetti), 3 à 5 minuti di riferimentu. A più pulita, più rappresentativa 2 minuti di a presa di solitu pruduce u megliu risultati."
+      }
+    }
+  },
+  "status": {
+    "idea": "Idea",
+    "em_progresso": "In corso",
+    "quase": "Quasi quì",
+    "pronto": "Pronti"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Scrittura vocale completa per Suno",
+      "desc": "5 minuti guidati: riscaldamentu, vucali, scale, dui estratti di canzone, dinamica è una frasa parlata."
+    },
+    "step": {
+      "warmup": "Riscaldamentu vocale",
+      "warmup_inst": "Allentate cù sbadigli, trilli di labbra (brrr), è un ronzio suave per circa un minutu. Ùn ci hè bisognu di registrà - hè solu per rilassate a gola prima di cantà.",
+      "vowels": "vucali sustinuti",
+      "vowels_inst": "Mantene ogni vucale - a, e, i, o, u - per 3 à 4 seconde à u vostru tonu còmode, cù un voluminu fermu. Stu aiuta Suno ripiglià u timbre puri di a vostra voce.",
+      "scales": "Scale up and down",
+      "scales_inst": "Canta una scala simplice in su è poi in giù, nantu à \"la\" o \"na\". Ùn hè micca bisognu à esse perfettu - l'obiettivu hè di cartografia a vostra gamma vocale.",
+      "section": "Estratto di canzone - parte 1",
+      "section_inst": "Canta da 8 à 16 battute di a canzone, cù a vera intenzione chì vulete trasmette. Priorità a chiarezza è a presenza sopra a perfezione tecnica.",
+      "section2": "Estratto di canzone - parte 2",
+      "section2_inst": "Canta un altru 8 à 16 bars - idealmente un coru o una sezione chì cuntrasta cù a precedente. Più varietà aiuta u mudellu à amparà a vostra voce.",
+      "dynamics": "Dinamica : dolce → forte",
+      "dynamics_inst": "Canta a listessa frasa cuminciendu assai dolce è finisce forte, senza strincà a gola. Questu mostra Suno a gamma dinamica di a vostra voce.",
+      "spoken": "Frasa parlata",
+      "spoken_inst": "Parlate - ùn cantate - una frasa corta è naturali, cum'è s'è tù stassi in chat. Questu aiuta à Suno à ricunnosce u veru timbru di a vostra voce."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restaurazione",
+      "filter": "Filtri",
+      "dynamics": "Dinamica",
+      "separation": "A separazione",
+      "quality": "Qualità",
+      "utility": "Utilità",
+      "loudness": "Loudness"
+    },
+    "highpass": "Filtru passa altu",
+    "lowpass": "Filtru passa-bassu",
+    "denoise": "Riduzzione di u rumore",
+    "declip": "Declipping",
+    "declick": "Eliminazione di clic / pop",
+    "deesser": "De-esser",
+    "gate": "Porta di u rumore",
+    "compressor": "Cumpressore",
+    "limiter": "Limitatore",
+    "eq": "Equalizazione",
+    "normalize": "Peak normalization",
+    "loudness": "Normalizzazione di u sonu (LUFS)",
+    "reverb_reduce": "Riduzzione di riverberu",
+    "separate": "A separazione di a fonte",
+    "quality": "Migliuramentu di a qualità (upscale)",
+    "trim_silence": "Tagliu di silenziu",
+    "fade": "Fade in / fade out",
+    "stereo_to_mono": "Cunvertisce in mono",
+    "resample": "Resampling"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Affidabile",
+      "2": "Di solitu travaglia",
+      "3": "Variabile",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Struttura",
+      "vocal": "Vocale",
+      "instrument": "Strumentu",
+      "dynamics": "Dinamica",
+      "production": "Pruduzzione",
+      "mood": "Umore"
+    },
+    "verse": "Versu",
+    "chorus": "Coru",
+    "bridge": "Ponte",
+    "intro": "Intro",
+    "outro": "Autru",
+    "hook": "Ganciu",
+    "prechorus": "Pre-coru",
+    "instrumental": "Strumentale",
+    "guitar_solo": "Solo di chitarra",
+    "build_up": "Custruì",
+    "breakdown": "Rupture",
+    "spoken_word": "Parola parlata",
+    "whispered": "bisbigliatu",
+    "harmonies": "Armonii",
+    "male_vocal": "Vocale maschile",
+    "female_vocal": "Vocale femminile",
+    "duet": "Duetto",
+    "acoustic": "acustica",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Voce pulita",
+    "voice_guitar_balanced": "Voce è chitarra equilibrata",
+    "podcast": "Podcast",
+    "suno_ready": "Suno pronta",
+    "gentle_restore": "Restaurazione dolce",
+    "raw_passthrough": "Nisuna trasfurmazioni"
+  },
+  "errors": {
+    "unknown": "Qualcosa hè andatu male.",
+    "network": "Ùn pudia micca ghjunghje à u servitore.",
+    "validation_error": "Verificate l'infurmazioni chì avete inseritu.",
+    "not_found": "Articulu micca trovu.",
+    "project_not_found": "Prughjettu micca trovu.",
+    "take_not_found": "Pigliate micca trovu.",
+    "album_not_found": "Album micca trovu.",
+    "preset_not_found": "Preset micca trovu.",
+    "template_not_found": "Template micca trovu.",
+    "device_busy": "U dispusitivu audio hè in usu da un altru prugrammu.",
+    "device_not_found": "U dispusitivu audio ùn hè micca trovu.",
+    "already_recording": "Una registrazione hè digià in corso.",
+    "ffmpeg_missing": "FFmpeg ùn hè micca stallatu - installate per cunvertisce stu schedariu.",
+    "disk_full": "Ùn hè abbastanza spaziu di discu.",
+    "permission_denied": "Permissione denegata per u percorsu datu.",
+    "import_path_not_found": "Percorsu d'importazione ùn hè micca truvatu.",
+    "job_failed": "U processamentu hà fiascatu.",
+    "job_cancelled": "U prucessu hè statu annullatu.",
+    "process_failed": "Impossible di processà a presa.",
+    "export_failed": "Fiascu l'esportazione di u schedariu.",
+    "record_failed": "Impossible di inizià a registrazione."
+  },
+  "jobs": {
+    "status": {
+      "queued": "In fila",
+      "running": "Corsa",
+      "done": "Fattu",
+      "error": "Fiascatu",
+      "cancelled": "Annulatu"
+    },
+    "kind": {
+      "process": "Trattamentu",
+      "export": "Esporta",
+      "import": "Importà",
+      "record": "Arregistramentu"
+    }
+  }
+}

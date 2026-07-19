@@ -1,0 +1,36 @@
+# Audio Cleaner — orquestração Docker.
+#
+# ⚠️ Gravação ao vivo pelo microfone NÃO funciona dentro do container:
+#    sounddevice/WASAPI precisa do áudio do host (Windows), que o Docker Linux
+#    não expõe. No container funcionam: importação em massa, tratamento/edição
+#    de áudio, análise, Prompt Studio e exportação. Para GRAVAR, rode nativo
+#    (`uv run run.py`). O container é ideal para tratar/organizar o acervo.
+
+services:
+  audio-cleaner:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: audio-cleaner:latest
+    container_name: audio-cleaner
+    ports:
+      - "8000:8000"
+    environment:
+      AUDIO_CLEANER_HOST: "0.0.0.0"
+      AUDIO_CLEANER_PORT: "8000"
+      AUDIO_CLEANER_DATA_DIR: "/data"
+    volumes:
+      # Biblioteca do usuário (projetos, takes, letras, prompts) — persistente.
+      - ./data:/data
+      # Modelos de IA baixados (silero-vad etc.) — cache persistente.
+      - ./models:/models
+      # Monte aqui a pasta de músicas a importar (somente leitura). Ajuste o
+      # caminho do host conforme o seu PC. No app, importe de "/import-source".
+      # - "C:/caminho/para/suas/musicas:/import-source:ro"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://127.0.0.1:8000/api/system/info').status==200 else 1)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s

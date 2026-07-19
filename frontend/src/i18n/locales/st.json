@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio Cleaner"
+  },
+  "nav": {
+    "library": "Laebrari",
+    "record": "Rekota",
+    "import": "Kenya",
+    "templates": "Lithempleite",
+    "settings": "Litlhophiso",
+    "guide": "Tataiso"
+  },
+  "common": {
+    "save": "Boloka",
+    "saving": "E boloka...",
+    "saved": "E bolokiloe",
+    "cancel": "Hlakola",
+    "close": "Koala",
+    "delete": "Hlakola",
+    "edit": "Fetola",
+    "create": "Theha",
+    "search": "Batla",
+    "loading": "E ea kenya...",
+    "error": "Phoso",
+    "retry": "Leka hape",
+    "confirm": "Netefatsa",
+    "back": "Morao",
+    "next": "E latelang",
+    "continue": "Tsoela pele",
+    "finish": "Qetella",
+    "copy": "Kopitsa",
+    "copied": "E qopisitsoe",
+    "download": "Khoasolla",
+    "upload": "Kenya",
+    "none": "Ha ho letho",
+    "all": "Tsohle",
+    "yes": "Ee",
+    "no": "Che",
+    "select": "Khetha",
+    "optional": "boikhethelo",
+    "required": "hlokahala",
+    "unsaved_changes": "Liphetoho tse sa bolokehang",
+    "name": "Lebitso",
+    "status": "Boemo",
+    "type": "Mofuta",
+    "actions": "Liketso",
+    "empty": "Ha ho letho",
+    "browse": "Sheba",
+    "remove": "Tlosa",
+    "add": "Eketsa",
+    "rename": "Reha lebitso bocha",
+    "duplicate": "Ea bobeli",
+    "warning": "Tlhokomediso",
+    "locked": "Notletsoe",
+    "builtin": "E ahiloeng",
+    "custom": "Tloaelo",
+    "untitled": "Ha e na sehlooho",
+    "select_placeholder": "Khetha…"
+  },
+  "library": {
+    "title": "Laebrari",
+    "subtitle": "Lentsoe la hau le merero ea katara, ho tloha mohopolong ho ea ho o lokolla.",
+    "new_project": "Morero o mocha",
+    "new_album": "Letlapa le lecha",
+    "search_placeholder": "Batla ka mabitso...",
+    "view": {
+      "grid": "Grid",
+      "albums": "Lialbamo"
+    },
+    "filters": {
+      "all": "Tsohle"
+    },
+    "take_count_one": " {{count}} nka",
+    "take_count_other": " {{count}} e nka",
+    "updated_at": "E ntlafalitsoe {{date}} ",
+    "no_results": {
+      "title": "Ha ho merero e fumanoeng",
+      "description": "Leka ho lokisa sebatli kapa maemo."
+    },
+    "empty": {
+      "title": "Laeborari ea hau ha e na letho",
+      "description": "Qala morero o mocha ho tloha qalong, kapa ho kenya thepa ho nka hore u se u ntse u e-na le disk.",
+      "cta_import": "Fumana ho tsoa ho sephutheli",
+      "cta_new": "Etsa morero"
+    },
+    "project_dialog": {
+      "title": "Morero o mocha",
+      "description": "E fane ka lebitso ebe u khetha mokhoa oa ho rekota.",
+      "name_label": "Lebitso la morero",
+      "name_placeholder": "mohlala Pula ea Lehlabula",
+      "mode_label": "Mokhoa",
+      "mode": {
+        "voice": "Lentsoe feela",
+        "voice_guitar": "Lentsoe + katara"
+      },
+      "submit": "Etsa morero"
+    },
+    "album_dialog": {
+      "title": "Letlapa le lecha",
+      "description": "Kopanya merero e amanang le eona ho ba albamo.",
+      "name_label": "Lebitso la albamo",
+      "name_placeholder": "mohlala Hoetla EP",
+      "submit": "Theha albamo"
+    },
+    "album": {
+      "untitled": "Letlapa le se nang sehlooho",
+      "members_count_one": " {{count}} morero",
+      "members_count_other": " {{count}} merero",
+      "empty": "Ha ho na merero ho albamo ena hajoale.",
+      "delete_confirm_title": "Hlakola albamo?",
+      "delete_confirm_description": "Merero e ke ke ea hlakoloa, e tla tlosoa feela ho \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Hlakola \"{{name}}\"?",
+      "confirm_description": "Sena se tlosa morero le ho nka ntho e 'ngoe le e 'ngoe ho eona. Sena se ke ke sa etsolloa."
+    }
+  },
+  "record": {
+    "title": "Rekota",
+    "subtitle": "Nka setšoantšo se hloekileng, shebella maemo a hau, 'me u latele mongolo.",
+    "project_label": "Morero",
+    "project_placeholder": "Khetha morero",
+    "project_create_quick": "Etsa mosebetsi o potlakileng...",
+    "device_label": "Sesebelisoa sa ho kenya",
+    "device_placeholder": "Khetha sesebelisoa",
+    "device_default_badge": "Kakaretso ea sistimi",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Ha ho lisebelisoa tse kentsoeng tse fumanoeng.",
+    "monitor_button": "Hlokomela",
+    "monitor_stop_button": "Emisa ho beha leihlo",
+    "record_button": "Rekota",
+    "stop_button": "Emisa",
+    "elapsed_label": "Nako e fetile",
+    "status": {
+      "idle": "Qetello",
+      "monitoring": "Tlhokomelo",
+      "recording": "Ho rekota",
+      "stopped": "E emisitsoe"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Tlhōrō",
+      "clip": "Sekotwana"
+    },
+    "guide": {
+      "title": "Seboka se tataisoang",
+      "subtitle": "Lumella mokoetlisi hore a tsamaee ka har'a script mohato ka mohato, ho tloha ho futhumala ho ea ho poleloana e buuoang.",
+      "loading": "E kenya mongolo...",
+      "unavailable": "Seshene se hlahiswang ha se so fumanehe ho sebara hajoale.",
+      "select_project_device": "Khetha projeke le sesebelisoa se kenyang ho hatisa mehato hona mona.",
+      "progress": " {{done}} ea {{total}} mehato",
+      "start_timer": "Qala sebali sa nako",
+      "skip_timer": "Tlola nako",
+      "record_step": "Ngola mohato ona",
+      "stop_step": "Emisa ho rekota",
+      "mark_done": "E entsoe - mohato o latelang",
+      "step_recorded": "Nka rekotiloeng",
+      "no_record_step": "Mohato oa ho futhumatsa - ha ho rekoto e hlokahalang.",
+      "bars_hint": "E ka ba li-bar {{bars}}",
+      "complete_title": "Sengoloa se phethiloe!",
+      "complete_body": "U rekotile mohato o mong le o mong oa sengoloa. Khutlela ho \"Audio tab\" ya projeke mme o kgethe tseo o di ratang haholo.",
+      "restart": "Qala mongolo hape"
+    },
+    "best2min": {
+      "button": "Fumana metsotso e 2 e monate ka ho fetisisa (Suno)",
+      "running": "E sekaseka sephetho…",
+      "score_label": "Lintlha",
+      "hint": "E etsa tlhahlobo ea matla le ho hlaka ka nako eohle ho fumana fensetere ea eona e matla ea metsotso e 2 - o ntse o ka khona ho lokisa sebaka ka letsoho ka mor'a moo.",
+      "chart_caption": "Lintlha ka fensetere",
+      "unavailable": "Tlhahlobo e ntle ka ho fetisisa ea metsotso e 2 ha e so fumanehe ho seva sena."
+    },
+    "takes_title": "E tsoa lenaneong lena",
+    "takes_empty": "Ha ho tse rekotiloeng nakong ena.",
+    "open_in_project": "Bula morerong",
+    "ws_disconnected": "E hokela ho level meter hape…",
+    "select_project_first": "Khetha morero oo u batlang ho o qala.",
+    "select_device_first": "Khetha sesebelisoa sa ho kenya."
+  },
+  "project": {
+    "back_to_library": "Khutlela laebraring",
+    "header": {
+      "status_label": "Boemo",
+      "cover_upload": "Kenya sekoaelo",
+      "cover_remove": "Tlosa sekoahelo",
+      "name_placeholder": "Lebitso la morero",
+      "links_title": "Lihokelo",
+      "add_link": "Kenya sehokelo",
+      "mode": {
+        "voice": "Lentsoe feela",
+        "voice_guitar": "Lentsoe + katara"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Mantsoe a mantsoe",
+      "prompts": "Litlhahiso",
+      "notes": "Lintlha"
+    },
+    "audio": {
+      "takes_title": "E nka",
+      "no_takes": {
+        "title": "Ha ho na ho nka",
+        "description": "Rekota faele e ncha kapa u kenye faele e teng."
+      },
+      "record_new": "Ngola tlhahiso e ncha",
+      "rating": "Lintlha",
+      "variant": {
+        "raw": "E tala",
+        "processed": "E sebelitsoe"
+      },
+      "variant_placeholder": "Phetolelo",
+      "process_button": "Tshebetso",
+      "export_button": "Export",
+      "delete_take_confirm_title": "Hlakola setšoantšo see?",
+      "delete_take_confirm_description": "Audio e tala le mofuta o mong le o mong o sebetsitsoeng li tla tlosoa.",
+      "ab": {
+        "raw": "A · E tala",
+        "processed": "B · E sebetswa"
+      },
+      "origin": {
+        "recorded": "E rekotiloeng",
+        "imported": "Tse tsoang kantle ho naha"
+      },
+      "session_label_placeholder": "Leibole ea nako (boikhethelo)",
+      "duration": "Nako",
+      "sample_rate": "Sekhahla sa mohlala",
+      "channels": "Likanale",
+      "created_at": "E rekotiloeng"
+    },
+    "pipeline": {
+      "title": "Ketane ea ho sebetsa",
+      "preset_label": "Seta pele",
+      "preset_none": "Ketane ea tloaelo",
+      "preset_save": "Boloka joalo ka ha e setiloe esale pele",
+      "stage_locked": "Notletsoe",
+      "stage_requires_extra": "E hloka tlatsetso e sa kengoang",
+      "process_button": "Ts'ebetso e nka",
+      "processing": "E ntse e sebetsa...",
+      "job_queued": "E emetsoe...",
+      "job_running": "E ntse e sebetsa...",
+      "job_done": "E felile",
+      "job_error": "E hlolehile",
+      "job_cancelled": "E hlakotsoe",
+      "cancel_job": "Hlakola",
+      "no_stages": "Ha ho mekhahlelo e teng."
+    },
+    "export": {
+      "title": "Export take",
+      "description": "Fana ka faele ea ho qetela ho tsoa ho mofuta o sebetsitsoeng.",
+      "variant_label": "Phetolelo",
+      "format_label": "Sebopeho",
+      "preset_label": "Romela esale pele",
+      "range_label": "Range",
+      "range_full": "Bolelele bo felletseng",
+      "range_custom": "Sebaka se ikhethileng",
+      "start_label": "Qala (s)",
+      "end_label": "Qetello (ma)",
+      "submit": "Export",
+      "progress": "E fana ka faele…",
+      "download_ready": "Faele e lokile",
+      "download_button": "Khoasolla faele"
+    },
+    "notes": {
+      "placeholder": "Lintlha tsa mahala mabapi le projeke ena…",
+      "saved_at": "E bolokiloe ho {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Ngola mantsoe a mantsoe mona. Sebelisa phalete e lehlakoreng ho kenya Suno meta-tags.",
+      "saved_at": "E bolokiloe ho {{time}} ",
+      "saving": "E boloka...",
+      "versions": "Liphetolelo",
+      "versions_empty": "Ha ho na liphetolelo tse bolokiloeng hajoale.",
+      "version_preview": "Sheba esale pele",
+      "restore": "Khutlisa mofuta ona",
+      "restore_confirm_title": "Khutlisa beshene ee?",
+      "restore_confirm_description": "Mongolo oa hajoale o tla nkeloa sebaka ke mofuta o bolokiloeng ho {{date}} .",
+      "metatags_title": "Meta-tags",
+      "metatags_hint": "Tobetsa tag ho e kenya ho khesara.",
+      "metatags_placebo_warning": "E sa netefatsoang - e kanna ea se be le phello ho sephetho.",
+      "metatags_empty": "Ha ho meta-tag e ngolisitsoeng."
+    },
+    "prompts": {
+      "style_title": "Potlako ea setaele",
+      "lyrics_title": "Mantsoe a bohlokoa",
+      "template_label": "Setšoantšo",
+      "template_none": "Ha ho template",
+      "variables_title": "Mefuta e fapaneng",
+      "preview_title": "Sheba esale pele",
+      "preview_empty": "Khetha template 'me u tlatse lintho tse fapaneng ho bona ponelo-pele.",
+      "char_count": " {{count}} litlhaku",
+      "char_count_warning": "Mokhoa o khothaletsang litlhaku tse fetang 1000 o ka fokotsoa ke Suno.",
+      "copy": "Kopitsa",
+      "copied": "E qopisitsoe ho clipboard",
+      "save_to_project": "Boloka ho morero",
+      "saved_to_project": "Molaetsa o bolokiloe ho projeke",
+      "history_title": "Histori",
+      "history_empty": "Ha ho liphetolelo tse fetileng.",
+      "current_label": "Hona joale"
+    },
+    "stems": {
+      "title": "Lipuo le katara",
+      "separate_button": "Arohane vocals le katara",
+      "running": "Ho arola...",
+      "vocals": "Mantsoe",
+      "instrumental": "Diletsa",
+      "process_stem": "Hlakola kutu ena",
+      "empty": "Sena ha se e-so arohane. Matha karohano ho utloa mantsoe le katara u le mong.",
+      "capability_missing": "Karohano ea mohloli ha e ea kengoa setsing sena sa marang-rang.",
+      "unavailable": "Karohano ea lentsoe/katara ha e so fumanehe ho seva sena."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "E butsoe",
+    "boolean_off": "E tima"
+  },
+  "import": {
+    "title": "Kenya",
+    "subtitle": "Tlisa merero e seng e ntse e le teng ka disk ka har'a laeborari.",
+    "step_indicator": "Mohato {{current}} oa {{total}} ",
+    "step1": {
+      "title": "Fumana foldara",
+      "description": "Supa foldara ea metso ka merero le lipina tsa hau.",
+      "path_label": "Tsela ea foldara",
+      "path_placeholder": "mohlala E:\\Robbs\\Boikgogomoso\\Mmino\\ROBBS",
+      "recent_label": "Haufinyane",
+      "scan_button": "Skena sephutheli",
+      "scanning": "E hlahloba...",
+      "ffmpeg_warning": "FFmpeg ha e fumanehe - lifaele tse hlokang ho fetoloa li tla tloloa.",
+      "folders_found_one": " {{count}} sephutheli se fumanoe",
+      "folders_found_other": " {{count}} lifoldara li fumanoe",
+      "unmatched_files_one": " {{count}} faele e sa tsejoeng",
+      "unmatched_files_other": " {{count}} lifaele tse sa tsejoeng"
+    },
+    "step2": {
+      "title": "Hlahloba lintlha",
+      "description": "Sheba mabitso, maemo, le tse tla romelwa kantle ho naha pele o netefatsa.",
+      "select_all": "Khetha tsohle",
+      "table": {
+        "folder": "Sephutheli sa mohloli",
+        "name": "Lebitso la morero",
+        "status": "Boemo",
+        "audio": "Audio",
+        "lyrics": "Mantsoe a mantsoe",
+        "cover": "Sekoahelo",
+        "album": "Letlapa"
+      },
+      "audio_include_one": " {{count}} faele e khethiloe",
+      "audio_include_other": " {{count}} lifaele tse khethiloeng",
+      "no_audio": "Ha ho molumo o fumanoeng",
+      "no_lyrics": "Ha ho mantsoe a fumanoeng",
+      "no_cover": "Ha ho sekoahelo",
+      "warnings_title": "Litemoso"
+    },
+    "step3": {
+      "title": "Kenya",
+      "description": "Netefatsa ho kopitsa lifaele le ho theha merero.",
+      "copy_originals": "Kopitsa lifaele tsa mantlha ka har'a laeborari",
+      "execute_button": "Qala ho kenya",
+      "progress_title": "E ya kantle...",
+      "created_count": "E entsoe: {{count}} ",
+      "skipped_count": "E tlohile: {{count}} ",
+      "done_title": "Ho reka thepa ho phethiloe",
+      "done_description": "Mesebetsi e ka tlase e entsoe laeboraring ea hau.",
+      "view_project": "Open projeke",
+      "start_over": "Ntho e ncha"
+    }
+  },
+  "templates": {
+    "title": "Lithempleite",
+    "subtitle": "Lithempleite tsa kapele tse ka sebelisoang hape le meta-tag bakeng sa Suno.",
+    "tabs": {
+      "prompts": "Li-template tse potlakileng",
+      "metatags": "Meta-tags"
+    },
+    "new_template": "Template e ncha",
+    "kind": {
+      "style": "Setaele",
+      "lyrics": "Mantsoe a mantsoe"
+    },
+    "kind_label": "Mosa",
+    "delete_confirm_title": "Hlakola setšoantšo \" {{name}} \"?",
+    "delete_confirm_description": "Sena se ke ke sa etsolloa.",
+    "empty": "Ha ho na li-templates hajoale.",
+    "editor": {
+      "title_new": "Template e ncha",
+      "title_edit": "Fetola template",
+      "name_label": "Lebitso",
+      "name_placeholder": "mohlala Acoustic ballad",
+      "kind_label": "Mosa",
+      "template_label": "Mongolo oa template",
+      "template_hint": "Tšoaea moo mofuta o mong le o mong e leng oa oona 'me lebitso la oona le phuthetsoe ka litšepe tse kobehileng habeli - mohlala, mofuta o mong o bitsoang \"mofuta\" o fetoha mofuta o phuthetsoeng ka litšepe tse peli tse bulang le tse peli tse koalang.",
+      "variables_label": "Mefuta e fapaneng",
+      "variable_add": "Kenya phetoho",
+      "variable_name": "Senotlolo",
+      "variable_label": "Label",
+      "variable_type": "Mofuta",
+      "variable_type_string": "Mongolo",
+      "variable_type_select": "Khetho e le 'ngoe",
+      "variable_type_multiselect": "Khetho e mengata",
+      "variable_type_number": "Nomoro",
+      "variable_type_boolean": "Ee/che",
+      "variable_options": "Likhetho (tse arotsoeng ka likoma)",
+      "variable_required": "Ho hlokahala",
+      "save": "Boloka template"
+    },
+    "metatags": {
+      "title": "Meta-tags",
+      "subtitle": "Li-tag tsa sebopeho le setaele Suno o lemoha mantsoe a ka hare.",
+      "new_tag": "Theke e ncha",
+      "tag_label": "Tag",
+      "tag_placeholder": "mohlala katara-solo",
+      "category_label": "Sehlopha",
+      "tier_label": "Ho tšepahala",
+      "tier_legend_title": "Tšepahalang legend",
+      "tier_legend": {
+        "1": "Karolo ea 1 - e ngotsoe ebile e tsitsitse",
+        "2": "Karolo ea 2 - hangata e sebetsa",
+        "3": "Mothati oa 3 - phello e fapaneng",
+        "4": "Karolo ea 4 - placebo, e sa netefatsoang"
+      },
+      "description_label": "Tlhaloso",
+      "delete_confirm_title": "Hlakola tag \"{{tag}}\"?",
+      "empty": "Ha ho na meta-tag e tloaelehileng hajoale."
+    }
+  },
+  "settings": {
+    "title": "Litlhophiso",
+    "subtitle": "Lintlha tsa sistimi, puo, le likhetho tsa kamehla.",
+    "system_info_title": "Tsamaiso",
+    "version": "Phetolelo",
+    "data_dir": "Sephutheli sa data",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "E fumaneha",
+    "ffmpeg_missing": "Ha e fumanehe",
+    "capabilities_title": "E kentse bokhoni",
+    "capability": {
+      "denoise": "Phokotso ea lerata",
+      "quality": "Ntlafatso ea boleng",
+      "separate": "Karohano ea mohloli",
+      "ffmpeg": "FFmpeg phetoho"
+    },
+    "capability_available": "E fumaneha",
+    "capability_unavailable": "Ha e fumanehe",
+    "gpu_title": "Ho potlakisa GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "Bafani ba ONNX Runtime"
+    },
+    "gpu_none": "Ha ho bafani ba GPU ba fumanoeng",
+    "language_title": "Puo",
+    "language": {
+      "pt-BR": "Português (Brasil)",
+      "en": "Senyesemane"
+    },
+    "theme_title": "Ponahalo",
+    "theme": {
+      "dark": "Lefifi",
+      "light": "Leseli"
+    },
+    "defaults_title": "Romella lintho tse tloaelehileng",
+    "lufs_target_label": "Sepheo sa LUFS",
+    "lufs_target_hint": "E sebelisoa e le tlhahiso ea ho qala ha ho romela kantle ho naha ho nka. Boemo ba kamehla ba Suno bo lutse ho pota -14 LUFS.",
+    "saved": "Likhetho li bolokiloe"
+  },
+  "guide": {
+    "title": "Tataiso ea ho rekota ea Suno",
+    "subtitle": "Mokhoa oa ho hapa lentsoe le katara o nka hore o fumana litholoana tse ntle.",
+    "intro": "Suno e sebetsa hantle haholo ka litšupiso tse hloekileng, tse hlakileng. Tataiso ena e akaretsa boitokiso, maemo a rekotiloeng, le mongolo oa metsotso e 3–5 oa ho rekota.",
+    "sections": {
+      "prep": {
+        "title": "Tokisetso",
+        "body": "Ngola ka kamoreng e tšoaroang kapa e nang le lintho tse ngata tse bonolo (likharetene, limmete, liaparo ka kamoreng). Koala li-fan le eng kapa eng e lumang. Futhumala lentsoe la hau metsotso e 5 pele u rekota."
+      },
+      "levels": {
+        "title": "Maemo: -12 ho -6 dBFS",
+        "body": "Sepheo sa litlhōrō tse pakeng tsa -12 le -6 dBFS metara. Ka tlas'a sebaka seo, lerata le ka morao le bonahala haholoanyane; ka holim'a eona, kotsi ea ho fokotseha ea phahama. Sebelisa metara leqepheng la Record ho beha phaello ea hau pele u qala."
+      },
+      "distance": {
+        "title": "Sebaka sa Mic: 15-30 cm",
+        "body": "Lula 15 ho 30 cm ho tloha microphone. Haufi ho feta moo e feteletsa plosives le proximity effect; hole hole, o nka leetsi le lerata le eketsehileng."
+      },
+      "script": {
+        "title": "Mongolo o rekota",
+        "warmup": "Ho futhumatsa mantsoe (metsotso e 1-2)",
+        "vowels": "Liluma-nosi tse tsitsitseng - a, e, i, o, u",
+        "scales": "Likala tse bonolo, holimo le tlase",
+        "excerpt": "Karolo ea pina (libareng tse 8 ho isa ho tse 16)",
+        "dynamics": "Matla: qala ka bonolo, fella ka lentsoe le phahameng",
+        "spoken_phrase": "Polelo e le 'ngoe e buuoang, hore Suno a tsebe ho bala molumo oa lentsoe la hau"
+      },
+      "expectations": {
+        "title": "Seo Suno a se lebeletseng",
+        "body": "WAV, 48 kHz, mono, e omeletseng (ha ho leetsi kapa litlamorao), metsotso e 3 ho isa ho e 5 ea litšupiso. E hloekileng ka ho fetisisa, e emelang metsotso e 2 ea ho nka hangata e hlahisa litholoana tse ntle ka ho fetisisa."
+      }
+    }
+  },
+  "status": {
+    "idea": "Khopolo",
+    "em_progresso": "E tswelapele",
+    "quase": "E batla e le teng",
+    "pronto": "E lokile"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Fumana tlhahlobo e feletseng ea lebitso Suno",
+      "desc": "Metsotso e 5 e tataisitsoeng: ho futhumatsa, liluma-nosi, likala, mantsoe a qotsitsoeng a lipina tse peli, matla le poleloana e buuoang."
+    },
+    "step": {
+      "warmup": "Ho futhumatsa mantsoe",
+      "warmup_inst": "Lokolla ka ho yawns, lip trills (brrr), le hum e bonolo nako e ka etsang motsotso. Ha ho hlokahale hore u rekote - ke feela ho phomola 'metso pele u bina.",
+      "vowels": "Liluma-nosi tse tsitsitseng",
+      "vowels_inst": "Tšoara liluma-nosi ka 'ngoe - a, e, i, o, u - metsotsoana e 3 ho isa ho e 4 ka molumo oa hau o monate, ka molumo o tsitsitseng. Sena se thusa Suno ho utloa molumo oa lentsoe la hau.",
+      "scales": "Sekala holimo le tlase",
+      "scales_inst": "Opela sekala se bonolo ho ya hodimo le tlase, ho \"la\" kapa \"na\". Ha ho hlokahale hore e be e phethahetseng - sepheo ke ho etsa 'mapa oa lentsoe la hau.",
+      "section": "Karolo ea pina - karolo ea 1",
+      "section_inst": "Opela lipina tse 8 ho isa ho tse 16, ka sepheo sa sebele seo u batlang ho se fetisa. Bea pele ho hlaka le ho ba teng ho feta ho phethahala ha tekheniki.",
+      "section2": "Karolo ea pina - karolo ea 2",
+      "section2_inst": "Bina li-bar tse ling tse 8 ho isa ho tse 16 - e leng k'horase kapa karolo e fapaneng le e fetileng. Mefuta e fapaneng e thusa mohlala ho ithuta lentsoe la hau.",
+      "dynamics": "Matla: bonolo → lerata",
+      "dynamics_inst": "Binelang poleloana e tšoanang ho qala ka bonolo haholo le ho qetella ka lentsoe le phahameng, ntle le ho hatella 'metso oa hau. Sena se bonts'a Suno maemo a matla a lentsoe la hau.",
+      "spoken": "Polelo e buuwang",
+      "spoken_inst": "Bua - se bine - poleloana e khuts'oane, ea tlhaho, joalo ka ha eka u ntse u qoqa. Sena se thusa Suno ho lemoha molumo oa lentsoe la hau."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Tsosoloso",
+      "filter": "Lisefe",
+      "dynamics": "Matla",
+      "separation": "Karohano",
+      "quality": "Boleng",
+      "utility": "Tšebeliso",
+      "loudness": "Lerata la modumo"
+    },
+    "highpass": "Sefepi se phahameng-phase",
+    "lowpass": "Sesefa se tlase-tlase",
+    "denoise": "Phokotso ea lerata",
+    "declip": "Ho theoha",
+    "declick": "Tobetsa/pop ho tloswa",
+    "deesser": "De-eser",
+    "gate": "Keiti ea lerata",
+    "compressor": "Sekontiri",
+    "limiter": "Limiter",
+    "eq": "Ho lekana",
+    "normalize": "Tlhōrō ea ho tloaeleha",
+    "loudness": "Ho tloaeleha ha lerata (LUFS)",
+    "reverb_reduce": "Phokotso ea leetsi",
+    "separate": "Karohano ea mohloli",
+    "quality": "Ntlafatso ea boleng (ho holimo)",
+    "trim_silence": "Ho fokotsa ho khutsa",
+    "fade": "Fade in/ fifala",
+    "stereo_to_mono": "Fetolela ho mono",
+    "resample": "Ho etsa mohlala"
+  },
+  "metatags": {
+    "tier": {
+      "1": "E ka tšeptjoang",
+      "2": "Hangata e sebetsa",
+      "3": "E fetohang",
+      "4": "Sebaka"
+    },
+    "category": {
+      "structure": "Sebopeho",
+      "vocal": "Ka mantsoe",
+      "instrument": "Seletsa",
+      "dynamics": "Matla",
+      "production": "Tlhahiso",
+      "mood": "Boikutlo ba maikutlo"
+    },
+    "verse": "Temana",
+    "chorus": "Khorasi",
+    "bridge": "Borokho",
+    "intro": "Selelekela",
+    "outro": "Outro",
+    "hook": "Hook",
+    "prechorus": "Pele ho chorus",
+    "instrumental": "Diletsa",
+    "guitar_solo": "Katara e le 'ngoe",
+    "build_up": "Ho haha",
+    "breakdown": "Karohano",
+    "spoken_word": "Mantsoe a builoeng",
+    "whispered": "Hoeshetsa",
+    "harmonies": "Harmonies",
+    "male_vocal": "Mantsoe a monna",
+    "female_vocal": "Mantsoe a mosali",
+    "duet": "Duet",
+    "acoustic": "Acoustic",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Lentsoe le hloekileng",
+    "voice_guitar_balanced": "Mantsoe a leka-lekaneng le katara",
+    "podcast": "Podcast",
+    "suno_ready": "Suno loketse",
+    "gentle_restore": "Bonolo bo bonolo",
+    "raw_passthrough": "Ha ho ts'ebetso"
+  },
+  "errors": {
+    "unknown": "Ho bile le phoso.",
+    "network": "Ha e khone ho fihla ho seva.",
+    "validation_error": "Sheba lintlha tseo u li kentseng.",
+    "not_found": "Ntho ha e fumanehe.",
+    "project_not_found": "Morero ha o fumanehe.",
+    "take_not_found": "Ha e fumanehe.",
+    "album_not_found": "Letlapa ha le so fumanehe.",
+    "preset_not_found": "Setulo esale pele ha se fumanehe.",
+    "template_not_found": "Setšoantšo ha se fumanehe.",
+    "device_busy": "Sesebelisoa sa molumo se sebelisoa ke lenaneo le leng.",
+    "device_not_found": "Sesebelisoa sa molumo ha se fumanehe.",
+    "already_recording": "Khatiso e se e ntse e tsoela pele.",
+    "ffmpeg_missing": "FFmpeg ha e ea kengoa - e kenye ho fetolela faele ena.",
+    "disk_full": "Ha ho sebaka se lekaneng sa disk.",
+    "permission_denied": "Tumello e hanetsoe bakeng sa tsela e fanoeng.",
+    "import_path_not_found": "Tsela ea ho tlisa kantle ha e fumanehe.",
+    "job_failed": "Ts'ebetso e hlolehile.",
+    "job_cancelled": "Ts'ebetso e hlakotsoe.",
+    "process_failed": "E hlolehile ho sebetsa.",
+    "export_failed": "E hlolehile ho romela faele.",
+    "record_failed": "E hlolehile ho qala ho rekota."
+  },
+  "jobs": {
+    "status": {
+      "queued": "E moleng",
+      "running": "Ho matha",
+      "done": "E felile",
+      "error": "E hlolehile",
+      "cancelled": "E hlakotsoe"
+    },
+    "kind": {
+      "process": "Ho sebetsa",
+      "export": "Export",
+      "import": "Kenya",
+      "record": "Ho rekota"
+    }
+  }
+}

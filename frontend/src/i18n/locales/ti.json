@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "ድምጺ ጽሬት"
+  },
+  "nav": {
+    "library": "ቤተ መጻሕፍቲ",
+    "record": "መዝገብ",
+    "import": "ካብ ወጻኢ ዝኣቱ",
+    "templates": "ቅጥዕታት",
+    "settings": "ቅጥዕታት",
+    "guide": "መምርሒ"
+  },
+  "common": {
+    "save": "ዕቅብ",
+    "saving": "ዕቋር...",
+    "saved": "ተዓቂቡ ኣሎ።",
+    "cancel": "ስርዝ ድልዝ",
+    "close": "ዕጸዎ።",
+    "delete": "ምድምሳስ",
+    "edit": "ኣርትዖት።",
+    "create": "ፍጠር",
+    "search": "ድለዩ።",
+    "loading": "ኣብ ምጽዓን...",
+    "error": "ጌጋ",
+    "retry": "ዳግማይ ፈትን።",
+    "confirm": "ኣረጋግጽ",
+    "back": "ንድሕሪት ተመሊስና።",
+    "next": "ቀጺሉ።",
+    "continue": "ቀጽል",
+    "finish": "ውድእ",
+    "copy": "ቅዳሕ",
+    "copied": "ተቐዲሑ",
+    "download": "Download",
+    "upload": "ስቐል",
+    "none": "ዝኾነ ይኹን",
+    "all": "ኩሉ...",
+    "yes": "እወ",
+    "no": "ኣይፋልን።",
+    "select": "ምረጽ",
+    "optional": "ኣማራጺ እዩ።",
+    "required": "ዝድለ እዩ።",
+    "unsaved_changes": "ዘይተዓቀበ ለውጢ",
+    "name": "ስም",
+    "status": "ኩነታት",
+    "type": "ዓይነት",
+    "actions": "ተግባራት",
+    "empty": "ባዶ",
+    "browse": "ዳህሰስ",
+    "remove": "ኣውጽእዎ።",
+    "add": "ወስኽ",
+    "rename": "ዳግማይ ስም ምቕያር",
+    "duplicate": "ድፕሊኬት ምግባር",
+    "warning": "መጠንቀቕታ",
+    "locked": "ተዓጽዩ ኣሎ።",
+    "builtin": "ኣብ ውሽጢ ዝተሃንጸ",
+    "custom": "ልምዲ",
+    "untitled": "ኣርእስቲ ዘይብሉ",
+    "select_placeholder": "ምረጽ..."
+  },
+  "library": {
+    "title": "ቤተ መጻሕፍቲ",
+    "subtitle": "ፕሮጀክትታት ድምጽኻን ጊታርካን፡ ካብ ሓሳብ ክሳብ ምውጻእ።",
+    "new_project": "ሓድሽ ፕሮጀክት",
+    "new_album": "ሓዳስ ኣልበም",
+    "search_placeholder": "ብስም ድለዩ...",
+    "view": {
+      "grid": "ሽቦ",
+      "albums": "ኣልበማት"
+    },
+    "filters": {
+      "all": "ኩሉ..."
+    },
+    "take_count_one": " {{count}} ውሰድ",
+    "take_count_other": " {{count}} ይወስድ",
+    "updated_at": "ዝተመሓየሸ {{date}} ",
+    "no_results": {
+      "title": "ዝኾነ ፕሮጀክት ኣይተረኽበን።",
+      "description": "ነቲ ናይ ምድላይ ወይ ናይ ኩነታት መጽረዪ ከተስተኻኽሎ ፈትን።"
+    },
+    "empty": {
+      "title": "ቤተ መጻሕፍትኻ ባዶ እዩ።",
+      "description": "ሓድሽ ፕሮጀክት ካብ ባዶ ጀምር፣ ወይ ድማ ድሮ ኣብ ዲስክ ዘለካ import takes።",
+      "cta_import": "ካብ ማህደር ምእታው",
+      "cta_new": "ፕሮጀክት ምፍጣር"
+    },
+    "project_dialog": {
+      "title": "ሓድሽ ፕሮጀክት",
+      "description": "ስም ሃቦ እሞ ናይ ምቕዳሕ ሞድ ምረጽ።",
+      "name_label": "ስም ፕሮጀክት",
+      "name_placeholder": "ንኣብነት። ዝናብ ሓጋይ",
+      "mode_label": "ሞድ",
+      "mode": {
+        "voice": "ድምጺ ጥራይ",
+        "voice_guitar": "ድምጺ + ጊታር"
+      },
+      "submit": "ፕሮጀክት ምፍጣር"
+    },
+    "album_dialog": {
+      "title": "ሓዳስ ኣልበም",
+      "description": "ምስኡ ዝተኣሳሰሩ ፕሮጀክትታት ኣብ ሓደ ኣልቡም ምጉጅጃል።",
+      "name_label": "ስም ኣልበም",
+      "name_placeholder": "ንኣብነት። ቀውዒ ኢ.ፒ",
+      "submit": "ኣልበም ምፍጣር"
+    },
+    "album": {
+      "untitled": "ኣርእስቲ ዘይብሉ ኣልበም",
+      "members_count_one": " {{count}} ፕሮጀክት",
+      "members_count_other": " {{count}} ፕሮጀክትታት",
+      "empty": "ኣብዛ ኣልቡም ክሳብ ሕጂ ፕሮጀክት የለን።",
+      "delete_confirm_title": "ኣልበም ምድምሳስ?",
+      "delete_confirm_description": "ፕሮጀክትታት ኣይድምሰሱን እዮም፣ ካብ \" {{name}} \" ጥራይ ዘይተኣሳሰሩ እዮም።"
+    },
+    "delete_project": {
+      "confirm_title": "\" {{name}} \" ምድምሳስ?",
+      "confirm_description": "እዚ ድማ ነቲ ፕሮጀክትን ነፍሲ ወከፍ ምውሳድን የወግዶ። እዚ ክምለስ ኣይክእልን እዩ።"
+    }
+  },
+  "record": {
+    "title": "መዝገብ",
+    "subtitle": "ጽሩይ ምውሳድ ምሓዝ፡ ደረጃታትካ ተዓዘብ፡ ነቲ ስክሪፕት ድማ ተኸተሎ።",
+    "project_label": "ፕሮጀክት",
+    "project_placeholder": "ፕሮጀክት ምረጽ",
+    "project_create_quick": "ቅልጡፍ ፕሮጀክት ምፍጣር...",
+    "device_label": "መሳርሒ ምእታው",
+    "device_placeholder": "መሳርሒ ምረጽ",
+    "device_default_badge": "ስርዓት ነባሪ",
+    "device_wasapi_badge": "ዋሳፒ",
+    "device_empty": "ዝኾነ ናይ ምእታው መሳርሒታት ኣይተረኽበን።",
+    "monitor_button": "ሞኒተር",
+    "monitor_stop_button": "ምክትታል ኣቋርጽ",
+    "record_button": "መዝገብ",
+    "stop_button": "ዓገብ",
+    "elapsed_label": "ዝሓለፈ ግዜ",
+    "status": {
+      "idle": "ስራሕ ኣልቦ",
+      "monitoring": "ክትትል ምግባር",
+      "recording": "ምቕራጽ",
+      "stopped": "ደው ኢሉ"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "ጫፍ",
+      "clip": "ክሊፕ"
+    },
+    "guide": {
+      "title": "ብመሪሕነት ዝካየድ ክፍለ ግዜ",
+      "subtitle": "እቲ ኣሰልጣኒ ካብ ምውዓይ ክሳብ እቲ ዝዝረብ ሓረግ ደረጃ ብደረጃ ኣብቲ ስክሪፕት ክመርሓካ ፍቐደሉ።",
+      "loading": "ስክሪፕት ኣብ ምጽዓን...",
+      "unavailable": "እቲ ዝምራሕ ክፍለ ግዜ ኣብቲ ሰርቨር ገና ኣይተረኽበን።",
+      "select_project_device": "ካብዚ ጀሚርካ ስጉምትታት ንምምዝጋብ ፕሮጀክትን ናይ ምእታው መሳርሒን ምረጽ።",
+      "progress": " {{done}} ናይ {{total}} ስጉምትታት",
+      "start_timer": "ታይመር ጀምር",
+      "skip_timer": "ታይመር ምዝላል",
+      "record_step": "ነዚ ስጉምቲ መዝገብ",
+      "stop_step": "ምቕራጽ ኣቋርጽ",
+      "mark_done": "ተፈጺሙ — ዝቕጽል ስጉምቲ",
+      "step_recorded": "ዝተቐድሐ ውሰድ",
+      "no_record_step": "ስጉምቲ ምውዓይ — ምቕዳሕ ኣየድልን።",
+      "bars_hint": "ኣስታት {{bars}} ባር",
+      "complete_title": "ስክሪፕት ተዛዚሙ!",
+      "complete_body": "ነፍሲ ወከፍ ስጉምቲ ናይቲ ስክሪፕት መዝጊብካዮ ኣለኻ። ናብቲ ናይቲ ፕሮጀክት Audio tab ተመለስ እሞ ዝፈትውዎ ምውሳድ ምረጽ።",
+      "restart": "ስክሪፕት ዳግማይ ጀምር"
+    },
+    "best2min": {
+      "button": "ዝበለጸ 2 ደቓይቕ ረኸብ (ሱኖ)",
+      "running": "ምትንታን እቲ take...",
+      "score_label": "ነጥቢ",
+      "hint": "ኣብ ልዕሊ ምሉእ ምውሳድ ጸዓትን ንጹርነትን ትንተና የካይድ ዝሓየለ ናይ 2 ደቓይቕ መስኮቱ ንምርካብ — ድሕሪኡ ጌና ነቲ ርሕቀት ብኢድ ከተስተኻኽሎ ትኽእል ኢኻ።",
+      "chart_caption": "ኣብ ነፍሲ ወከፍ መስኮት ነጥቢ",
+      "unavailable": "እቲ ዝበለጸ-2 ደቓይቕ ትንታነ ገና ኣብዚ ሰርቨር ኣይተረኽበን።"
+    },
+    "takes_title": "ካብዚ ክፍለ ግዜ ዝወስድ",
+    "takes_empty": "ኣብዚ ክፍለ ግዜ ክሳብ ሕጂ ዝተቐድሐ ምውሳድ የለን።",
+    "open_in_project": "ኣብ ፕሮጀክት ክፉት እዩ።",
+    "ws_disconnected": "ምስቲ ደረጃ መለክዒ ዳግማይ ምትእስሳር...",
+    "select_project_first": "ንምጅማር ፕሮጀክት ምረጽ።",
+    "select_device_first": "ናይ ምእታው መሳርሒ ምረጽ።"
+  },
+  "project": {
+    "back_to_library": "ናብ ቤተ መጻሕፍቲ ንመለስ",
+    "header": {
+      "status_label": "ኩነታት",
+      "cover_upload": "ሽፋን ስቐል",
+      "cover_remove": "ሽፋን ኣውጽእዎ።",
+      "name_placeholder": "ስም ፕሮጀክት",
+      "links_title": "መላግቦታት",
+      "add_link": "ሊንክ ምውሳኽ",
+      "mode": {
+        "voice": "ድምጺ ጥራይ",
+        "voice_guitar": "ድምጺ + ጊታር"
+      }
+    },
+    "tabs": {
+      "audio": "ድምጺ",
+      "lyrics": "ግጥሚ",
+      "prompts": "ዝድርኽ",
+      "notes": "መተሓሳሰቢ"
+    },
+    "audio": {
+      "takes_title": "ይወስድ",
+      "no_takes": {
+        "title": "ገና ዝወስድ የለን",
+        "description": "ሓድሽ take ምምዝጋብ ወይ ዝጸንሐ ፋይል ምእታው።"
+      },
+      "record_new": "ሓድሽ ምውሳድ መዝገብ",
+      "rating": "ደረጃ ምሃብ",
+      "variant": {
+        "raw": "ጥረ",
+        "processed": "ተሰሪሑ"
+      },
+      "variant_placeholder": "ስሪት እዩ።",
+      "process_button": "መስርሕ",
+      "export_button": "ሰደድ ምግባር",
+      "delete_take_confirm_title": "ነዚ ምውሳድ ደምስሶ?",
+      "delete_take_confirm_description": "እቲ ጥረ ድምጽን ነፍሲ ወከፍ ዝተመስርሐ ስሪትን ክእለ እዩ።",
+      "ab": {
+        "raw": "ሀ · ጥረ",
+        "processed": "ለ · ተሰሪሑ"
+      },
+      "origin": {
+        "recorded": "ዝተቐድሐ",
+        "imported": "ካብ ወጻኢ ዝኣቱ"
+      },
+      "session_label_placeholder": "ናይ ክፍለ ግዜ ስያመ (ኣማራጺ)",
+      "duration": "ንውሓት ግዜ",
+      "sample_rate": "ናሙና ደረጃ",
+      "channels": "ቻነላት",
+      "created_at": "ዝተቐድሐ"
+    },
+    "pipeline": {
+      "title": "ሰንሰለት መስርሕ",
+      "preset_label": "ቅድመ-ምድላው",
+      "preset_none": "ብሕታዊ ሰንሰለት።",
+      "preset_save": "ከም ቅድመ-ምድላው ምዕቃብ",
+      "stage_locked": "ተዓጽዩ ኣሎ።",
+      "stage_requires_extra": "ዘይተተኽለ ተወሳኺ የድሊ",
+      "process_button": "መስርሕ ውሰድ",
+      "processing": "መስርሕ...",
+      "job_queued": "ሪጋ ዘለዎም...",
+      "job_running": "መስርሕ...",
+      "job_done": "ተፈጺሙ",
+      "job_error": "ፈሺሉ።",
+      "job_cancelled": "ተሰሪዙ",
+      "cancel_job": "ስርዝ ድልዝ",
+      "no_stages": "መድረኻት የለን።"
+    },
+    "export": {
+      "title": "ሰደድ ውሰድ",
+      "description": "ካብ ዝተመስርሐ ስሪት ናይ መወዳእታ ፋይል ምቕራብ።",
+      "variant_label": "ስሪት እዩ።",
+      "format_label": "ቅርጺ",
+      "preset_label": "ቅድመ-ምድላው ሰደድ",
+      "range_label": "ሬንጅ",
+      "range_full": "ምሉእ ንውሓት",
+      "range_custom": "ብሕታዊ ደረጃ",
+      "start_label": "ጀምር (ታት)",
+      "end_label": "መወዳእታ (ታት)",
+      "submit": "ሰደድ ምግባር",
+      "progress": "ፋይል ምቕራብ...",
+      "download_ready": "ፋይል ድሉው እዩ።",
+      "download_button": "ፋይል ኣውርድ"
+    },
+    "notes": {
+      "placeholder": "ብዛዕባ እዚ ፕሮጀክት ነጻ-ቅጥዒ መዘኻኸሪታት...",
+      "saved_at": "ኣብ {{time}} ተዓቂቡ "
+    },
+    "lyrics": {
+      "placeholder": "ግጥሚ ኣብዚ ጽሓፉ። Suno meta-tags ንምእታው ኣብ ጎኒ ዘሎ ፓለቲ ተጠቐም።",
+      "saved_at": "ኣብ {{time}} ተዓቂቡ ",
+      "saving": "ዕቋር...",
+      "versions": "ቅዳሓት",
+      "versions_empty": "ገና ዝተዓቀበ ስሪት የለን።",
+      "version_preview": "ቅድመ ምርኢት",
+      "restore": "ነዚ ስሪት ምምላስ",
+      "restore_confirm_title": "ነዚ ስሪት ምምላስ?",
+      "restore_confirm_description": "እቲ ሕጂ ዘሎ ጽሑፍ በቲ ኣብ {{date}} ዝተቐመጠ ስሪት ክቕየር እዩ።",
+      "metatags_title": "ሜታ-ታግስ",
+      "metatags_hint": "ኣብቲ መመልከቲ ንምእታው ሓደ መለለዪ ጠውቕ።",
+      "metatags_placebo_warning": "ዘይተረጋገጸ — ኣብ ውጽኢት ጽልዋ ክህልዎ ኣይክእልን እዩ።",
+      "metatags_empty": "ዝኾነ ሜታ-ታግ ኣይተመዝገበን።"
+    },
+    "prompts": {
+      "style_title": "ቅዲ ምልክት",
+      "lyrics_title": "ግጥሚ ምልክት",
+      "template_label": "ቅጥዒ",
+      "template_none": "ቅጥዒ የለን",
+      "variables_title": "ተለዋዋጢ ረቛሒታት",
+      "preview_title": "ቅድመ ምርኢት",
+      "preview_empty": "ቅድመ-ምርኢት ንምርኣይ ቅጥዒ ምረጽ እሞ ነቶም ተለዋወጥቲ ምልኣዮም።",
+      "char_count": " {{count}} ፊደላት",
+      "char_count_warning": "ልዕሊ 1000 ፊደላት ዘለዎም ቅዲ ምልክታት ብሱኖ ክቑረጹ ይኽእሉ።",
+      "copy": "ቅዳሕ",
+      "copied": "ናብ ቅንጥብጣብ ሰሌዳ ተቐዲሑ",
+      "save_to_project": "ናብ ፕሮጀክት ዕቅብ",
+      "saved_to_project": "ምልክት ናብ ፕሮጀክት ተዓቂቡ።",
+      "history_title": "ታሪኽ",
+      "history_empty": "ቅድሚ ሕጂ ዝነበረ ስሪት የለን።",
+      "current_label": "እዋናዊ"
+    },
+    "stems": {
+      "title": "ድምጽን ጊታርን",
+      "separate_button": "ድምጽን ጊታርን ምፍላይ",
+      "running": "ምፍላይ...",
+      "vocals": "ድምጺ",
+      "instrumental": "መሳርሒ ሙዚቃ",
+      "process_stem": "ነዚ ጕንዲ ኣሰላስሎ",
+      "empty": "እዚ take ክሳብ ሕጂ ኣይተፈላለየን። ድምጽን ጓይላን ብተነጽሎ ንምስማዕ ምፍልላይ ምጉያይ።",
+      "capability_missing": "ምንጪ ምፍላይ ኣብዚ ሰርቨር ኣይተተኸለን።",
+      "unavailable": "ድምጺ/ጊታር ምፍላይ ኣብዚ ሰርቨር ገና የለን።"
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "ኣብ...",
+    "boolean_off": "ጠፊኡ"
+  },
+  "import": {
+    "title": "ካብ ወጻኢ ዝኣቱ",
+    "subtitle": "ድሮ ኣብ ዲስክ ዘለዉ ፕሮጀክትታት ናብ ቤተ-መጻሕፍቲ ኣምጽኡ።",
+    "step_indicator": "ስጉምቲ {{current}} ናይ {{total}} ",
+    "step1": {
+      "title": "ኣቃፊራ ድለ",
+      "description": "ናብቲ ሱር ማህደር ምስ ፕሮጀክትታትካን ትራክታትካን ኣመልክት።",
+      "path_label": "መንገዲ ኣቃፊራ",
+      "path_placeholder": "ንኣብነት። ኢ:\\ሮብስ\\ፕራይድ\\ሙዚቃ\\ሮብስ",
+      "recent_label": "ናይ ቀረባ እዋን",
+      "scan_button": "ስካን ፎልደር",
+      "scanning": "ስካን ምግባር...",
+      "ffmpeg_warning": "FFmpeg ኣይተረኽበን — ምቕያር ዘድልዮም ፋይላት ክዝለሉ እዮም።",
+      "folders_found_one": " {{count}} ፎልደር ተረኺቡ።",
+      "folders_found_other": " {{count}} ማህደር ተረኺቡ።",
+      "unmatched_files_one": " {{count}} ዘይተፈልጠ ፋይል",
+      "unmatched_files_other": " {{count}} ዘይተፈልጠ ፋይላት"
+    },
+    "step2": {
+      "title": "ነገራት ዳግመ ግምት",
+      "description": "ቅድሚ ምርግጋጽካ ኣስማት፡ ኩነታትን እንታይ ከም ዝኣቱን መርምር።",
+      "select_all": "ኩሉ ምረጽ",
+      "table": {
+        "folder": "ምንጪ ማህደር",
+        "name": "ስም ፕሮጀክት",
+        "status": "ኩነታት",
+        "audio": "ድምጺ",
+        "lyrics": "ግጥሚ",
+        "cover": "ሽፋን",
+        "album": "ኣልበም"
+      },
+      "audio_include_one": " {{count}} ፋይል ተመሪጹ",
+      "audio_include_other": " {{count}} ፋይላት ተመሪጾም",
+      "no_audio": "ድምጺ ኣይተረኽበን።",
+      "no_lyrics": "ግጥሚ ኣይተረኽበን።",
+      "no_cover": "ሽፋን የለን",
+      "warnings_title": "መጠንቀቕታታት"
+    },
+    "step3": {
+      "title": "ካብ ወጻኢ ዝኣቱ",
+      "description": "እቶም ፋይላት ቅዳሕን ፕሮጀክትታት ንምፍጣርን ኣረጋግጽ።",
+      "copy_originals": "ኦርጅናል ፋይላት ናብ ቤተ-መጻሕፍቲ ቅዳሕ",
+      "execute_button": "ምእታው ጀምር",
+      "progress_title": "ካብ ወጻኢ ምእታው...",
+      "created_count": "ዝተፈጠረሉ: {{count}} ",
+      "skipped_count": "ዝተዘለለ: {{count}} ",
+      "done_title": "ምእታው ተዛዚሙ",
+      "done_description": "እዞም ኣብ ታሕቲ ዘለዉ ፕሮጀክትታት ኣብ ቤተ መጻሕፍትኹም ዝተፈጥሩ እዮም።",
+      "view_project": "ክፉት ፕሮጀክት",
+      "start_over": "ሓድሽ ኣእትዎት።"
+    }
+  },
+  "templates": {
+    "title": "ቅጥዕታት",
+    "subtitle": "ዳግማይ ክጥቀሙ ዝኽእሉ ናይ ምልክት ቅጥዕታትን ሜታ-ታግታትን ንሱኖ።",
+    "tabs": {
+      "prompts": "ናይ ምሕታት ቅጥዕታት",
+      "metatags": "ሜታ-ታግስ"
+    },
+    "new_template": "ሓድሽ ቅጥዒ",
+    "kind": {
+      "style": "ቅዲ",
+      "lyrics": "ግጥሚ"
+    },
+    "kind_label": "ሕያዋይ",
+    "delete_confirm_title": "\" {{name}} \" ዝብል ቅጥዒ ምድምሳስ?",
+    "delete_confirm_description": "እዚ ክምለስ ኣይክእልን እዩ።",
+    "empty": "ገና ቅጥዒ የለን።",
+    "editor": {
+      "title_new": "ሓድሽ ቅጥዒ",
+      "title_edit": "ናይ ኣርትዖት ቅጥዒ",
+      "name_label": "ስም",
+      "name_placeholder": "ንኣብነት። ኣኮስቲክ ባላድ",
+      "kind_label": "ሕያዋይ",
+      "template_label": "ቅጥዒ ጽሑፍ",
+      "template_hint": "ነፍሲ ወከፍ ተለዋዋጢ ኣበይ ከም ዝምልከቶ ስሙ ብድርብ ቁርጽራጽ ምትእስሳር ተጠቕሊሉ ምልክት ግበር — ንኣብነት፡ \"ጀንር\" ዝበሃል ተለዋዋጢ ብኽልተ መኽፈቲን ክልተ መዕጸዊን ምትእስሳር ዝተጠቕለለ ቅዲ ይኸውን።",
+      "variables_label": "ተለዋዋጢ ረቛሒታት",
+      "variable_add": "ተለዋዋጢ ምውሳኽ",
+      "variable_name": "ቁልፊ",
+      "variable_label": "ምልክት ምግባር",
+      "variable_type": "ዓይነት",
+      "variable_type_string": "ጽሑፍ",
+      "variable_type_select": "ንጽል ምረጽ",
+      "variable_type_multiselect": "ብዙሕ ምምራጽ",
+      "variable_type_number": "ቁጽሪ",
+      "variable_type_boolean": "እወ/ኣይፋልን።",
+      "variable_options": "ኣማራጺታት (ብኮማ ዝተፈልዩ)",
+      "variable_required": "ዘድሊ እዩ።",
+      "save": "ቅጥዒ ምዕቃብ"
+    },
+    "metatags": {
+      "title": "ሜታ-ታግስ",
+      "subtitle": "መዋቕራውን ቅዲን መለለዪታት ሱኖ ውሽጣዊ ግጥሚ የለልዮ።",
+      "new_tag": "ሓድሽ መለለዪ",
+      "tag_label": "Tag",
+      "tag_placeholder": "ንኣብነት። ጊታር-ሶሎ",
+      "category_label": "ምድብ",
+      "tier_label": "ተኣማንነት",
+      "tier_legend_title": "ኣፈ ታሪኽ ተኣማንነት",
+      "tier_legend": {
+        "1": "ደረጃ 1 — ዝተሰነደን ቅኑዕን እዩ።",
+        "2": "ደረጃ 2 — መብዛሕትኡ ግዜ ይሰርሕ",
+        "3": "ደረጃ 3 — ተለዋዋጢ ውጽኢት",
+        "4": "ደረጃ 4 — ፕላስቦ፣ ዘይተረጋገጸ"
+      },
+      "description_label": "መግለጺ",
+      "delete_confirm_title": "\" {{tag}} \" ዝብል መለለዪ ምድምሳስ?",
+      "empty": "ክሳብ ሕጂ ብሕታዊ ሜታ-ታግ የለን።"
+    }
+  },
+  "settings": {
+    "title": "ቅጥዕታት",
+    "subtitle": "ናይ ስርዓት ሓበሬታ፣ ቋንቋን ነባሪ ምርጫታትን።",
+    "system_info_title": "ስርዓት",
+    "version": "ስሪት እዩ።",
+    "data_dir": "ዳታ ፎልደር",
+    "ffmpeg_status": "FFmpeg ዝብል ቃል ንረክብ",
+    "ffmpeg_available": "ይርከብ።",
+    "ffmpeg_missing": "ኣይተረኽበን።",
+    "capabilities_title": "ዝተተኽሉ ዓቕምታት",
+    "capability": {
+      "denoise": "ምጉዳል ድምጺ",
+      "quality": "ምዕባይ ፅሬት",
+      "separate": "ምንጪ ምፍልላይ",
+      "ffmpeg": "FFmpeg ምቕያር"
+    },
+    "capability_available": "ይርከብ።",
+    "capability_unavailable": "ዘይርከብ",
+    "gpu_title": "ምቅልጣፍ GPU",
+    "gpu": {
+      "torch_cuda": "ፓይቶርች CUDA",
+      "ort_providers": "ONNX Runtime ኣቕረብቲ"
+    },
+    "gpu_none": "ዝኾነ ናይ GPU ኣቕረብቲ ኣይተረኽበን።",
+    "language_title": "ቋንቋ",
+    "language": {
+      "pt-BR": "ፖርቱጋል (ብራዚል)",
+      "en": "ትግርኛ"
+    },
+    "theme_title": "መልክዕ",
+    "theme": {
+      "dark": "ጸልማት",
+      "light": "ብርሃን"
+    },
+    "defaults_title": "ናይ ሰደድ ነባሪታት",
+    "lufs_target_label": "ዕላማ LUFS",
+    "lufs_target_hint": "ሰደድ ክወስድ ከሎ ከም መበገሲ ሓሳብ ይጥቀመሉ። ናይ ሱኖ ነባሪ ኣብ ከባቢ -14 LUFS ኮፍ ይብል።",
+    "saved": "ምርጫታት ተዓቂቦም"
+  },
+  "guide": {
+    "title": "መምርሒ ምቕራጽ ሱኖ",
+    "subtitle": "ከመይ ጌርካ ድምጽን ጊታርን ትሕዝ ዝበለጸ ውጽኢት ዝረክብ ትወስድ።",
+    "intro": "ሱኖ ብጽሩይን ርዱእን መወከሲታት ዝበለጸ ውጽኢት ትረክብ። እዚ መምርሒ እዚ ንምድላው፣ ደረጃታት ዕላማን ናይ 3–5 ደቓይቕ ናይ ምቕዳሕ ስክሪፕትን ዝሽፍን እዩ።",
+    "sections": {
+      "prep": {
+        "title": "ምድላው",
+        "body": "ኣብ ዝተሓከመ ክፍሊ ወይ ብዙሕ ልስሉስ ንብረት ዘለዎ ክፍሊ (መጋረጃታት፡ ምንጻፍ፡ ክዳውንቲ ኣብ ሽቓቕ) መዝገብ። ፋኖታትን ዝኾነ ድምጺ ዝገብር ነገርን ኣጥፍኡ። ቅድሚ ምቕራጽካ ን5 ደቓይቕ ድምጽኻ ኣሞቕ።"
+      },
+      "levels": {
+        "title": "ደረጃታት፡ -12 ክሳብ -6 dBFS",
+        "body": "ኣብቲ ቆጻሪ ካብ -12ን -6ን dBFS ንዘሎ ጫፋት ዕላማ ግበር። ካብቲ ደረጃ ንታሕቲ ድማ ድሕረ ባይታ ድምጺ ዝያዳ ይርአ፤ ኣብ ልዕሊኡ ድማ ናይ ምቑራጽ ሓደጋ ይውስኽ። ቅድሚ ምጅማርካ መኽሰብካ ንምቕማጥ ኣብ ገጽ መዝገብ ዘሎ መለክዒ ተጠቐም።"
+      },
+      "distance": {
+        "title": "ናይ ማይክ ርሕቀት: 15–30 ሴ.ሜ",
+        "body": "ካብ ማይክሮፎን ካብ 15 ክሳብ 30 ሴንቲ ሜተር ርሒቕካ ምጽናሕ። ካብኡ ዝቐርብ ንፕሎሲቭን ፕሮክሲሚቲ ኤፍክትን የጋንኖ፤ ርሒቑ ዝያዳ ናይ ክፍሊ ሪቨርብን ድምጽን ይወስድ።"
+      },
+      "script": {
+        "title": "ስክሪፕት ምቕራጽ",
+        "warmup": "ድምጺ ምውዓይ (1–2 ደቓይቕ)",
+        "vowels": "ቀጻሊ ድምጽታት — ሀ፡ እ፡ ኢ፡ ኦ፡ ኡ",
+        "scales": "ቀለልቲ ሚዛናት፡ ላዕልን ታሕትን",
+        "excerpt": "ቁንጫል ደርፊ (ካብ 8 ክሳብ 16 ባር)",
+        "dynamics": "ዳይናሚክስ፡ ልስሉስ ጀምር፡ ዓው ኢልካ ምዝዛም",
+        "spoken_phrase": "ሓደ ዝተዛረበ ሓረግ፡ ሱኖ ቃና ድምጽኻ ከንብብ ምእንቲ"
+      },
+      "expectations": {
+        "title": "ሱኖ ዝጽበዮ",
+        "body": "WAV, 48 kHz, mono, dry (no reverb or effects)፣ ካብ 3 ክሳብ 5 ደቓይቕ መወከሲ። እቲ ዝጸረየን ዝውክልን 2 ደቓይቕ ናይቲ ምውሳድ መብዛሕትኡ ግዜ ዝበለጸ ውጽኢት የስዕብ።"
+      }
+    }
+  },
+  "status": {
+    "idea": "ሓሳብ",
+    "em_progresso": "ኣብ መስርሕ ኣሎ።",
+    "quase": "ዳርጋ ኣብኡ",
+    "pronto": "ድሉው"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "ምሉእ ድምጺ ስክሪፕት ንሱኖ",
+      "desc": "5 ዝምራሕ ደቓይቕ፡ ምውዓይ፡ ድምጽታት፡ ሚዛን፡ ክልተ ቁንጫል ደርፊ፡ ዳይናሚክስን ዝተዛረበ ሓረግን።"
+    },
+    "step": {
+      "warmup": "ድምጺ ምውዓይ",
+      "warmup_inst": "ብኣስታት ሓደ ደቒቕ ብሕውሃት፡ ከንፈር ትሪልስ (brrr)፡ ከምኡ’ውን ልስሉስ ድምጺ ምጉርምራም ፍኹስ በል። ምቕራጽ ኣየድልን — ቅድሚ ምድራፍካ ጎሮሮኻ ከተዛንዮ ጥራይ እዩ።",
+      "vowels": "ቀጻሊ ድምጽታት",
+      "vowels_inst": "ነፍሲ ወከፍ ድምጺ — a, e, i, o, u — ን3 ክሳብ 4 ካልኢት ኣብቲ ምቹእ ድምጽኻ ሒዝካዮ፣ ብዘይምቁራጽ ድምጺ። እዚ ድማ ሱኖ ጽሩይ ድምጺ ድምጽኻ ንኽወስድ ይሕግዞ።",
+      "scales": "ላዕልን ታሕትን ዝብል ሚዛን።",
+      "scales_inst": "ቀሊል ሚዛን ንላዕሊ ድሕሪኡ ንታሕቲ፡ ኣብ \"ላ\" ወይ \"ና\" ደርፍ። ፍጹም ክኸውን ኣየድልዮን እዩ — እቲ ዕላማ ደረጃ ድምጽኻ ኣብ ካርታ ምቕማጥ እዩ።",
+      "section": "ቁንጫል ደርፊ — 1ይ ክፋል",
+      "section_inst": "ካብ 8 ክሳብ 16 ባር ናይታ ደርፊ ደርፍ፣ ምስቲ ከተመሓላልፎ እትደሊ ሓቀኛ ዕላማ። ካብ ቴክኒካዊ ፍጽምና ንላዕሊ ንጹርነትን ህላወን ቀዳምነት ምሃብ።",
+      "section2": "ቁንጫል ደርፊ — 2ይ ክፋል",
+      "section2_inst": "ካልእ ካብ 8 ክሳብ 16 ባር ደርፍ — ብዝበለጸ ኮራስ ወይ ምስቲ ዝሓለፈ ዝጻረር ክፍሊ። ዝያዳ ዝተፈላለየነት ነቲ ሞዴል ድምጽኻ ንኽመሃር ይሕግዞ።",
+      "dynamics": "ዳይናሚክስ: ልስሉስ → ዓው ዝበለ",
+      "dynamics_inst": "ኣዝዩ ልስሉስ ጀሚርካ ዓው ኢልካ ምዝዛም፡ ጎሮሮኻ ከይተጨነቕካ ተመሳሳሊ ሓረግ ዘምር። እዚ ንሱኖ ዳይናሚክ ሬንጅ ድምጽኻ የርኢ።",
+      "spoken": "ዝተዛረበ ሓረግ",
+      "spoken_inst": "ተዛረብ — ኣይትደርፍ — ሓጺርን ተፈጥሮኣዊን ሓረግ፡ ከም ትዕልል። እዚ ድማ ሱኖ ነቲ ሓቀኛ ድምጺ ድምጽኻ ንኸለሊ ይሕግዞ።"
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "ምሕዳስ",
+      "filter": "ፍልትራት",
+      "dynamics": "ዳይናሚክስ",
+      "separation": "ምፍልላይ",
+      "quality": "ፅሬት ዘለዎ",
+      "utility": "ዩቲሊቲ",
+      "loudness": "ዓው ዝበለ ድምጺ"
+    },
+    "highpass": "ልዑል ምሕላፍ ዘለዎ ፍልተር",
+    "lowpass": "ትሑት ምሕላፍ ዘለዎ ፍልተር",
+    "denoise": "ምጉዳል ድምጺ",
+    "declip": "ምውራድ",
+    "declick": "ጠውቕ/ፖፕ ምእላይ",
+    "deesser": "ዲ-ኤሰር",
+    "gate": "ናይ ድምጺ ኣፍደገ",
+    "compressor": "ኮምፕረሰር",
+    "limiter": "ገደብ ዝገብር",
+    "eq": "ማዕርነት",
+    "normalize": "ጫፍ ንቡር ምግባር",
+    "loudness": "ንቡር ምግባር ድምጺ (LUFS) .",
+    "reverb_reduce": "ሪቨርብ ምጉዳል",
+    "separate": "ምንጪ ምፍልላይ",
+    "quality": "ምዕባይ ፅሬት (ላዕለዋይ ደረጃ)",
+    "trim_silence": "ስቕታ ምቑራጽ",
+    "fade": "Fade in / fade out ዝብል ቃል ንምርካብ ኣብዚ ንጠውቅ",
+    "stereo_to_mono": "ናብ ሞኖ ምቕያር",
+    "resample": "ዳግመ ናሙና ምውሳድ"
+  },
+  "metatags": {
+    "tier": {
+      "1": "ዘተኣማምን እዩ።",
+      "2": "መብዛሕትኡ ግዜ ይሰርሕ",
+      "3": "ተለዋዋጢ እዩ።",
+      "4": "ፕላስቦ"
+    },
+    "category": {
+      "structure": "ኣቃውማ",
+      "vocal": "ድምጻዊ",
+      "instrument": "መሳርሒ",
+      "dynamics": "ዳይናሚክስ",
+      "production": "ምፍራይ",
+      "mood": "ስሚዒት።"
+    },
+    "verse": "ጥቕሲ",
+    "chorus": "ኮራስ",
+    "bridge": "ድልድል",
+    "intro": "መእተዊ",
+    "outro": "ኣውትሮ",
+    "hook": "መንጠልጠሊ",
+    "prechorus": "ቅድመ-ኮራስ",
+    "instrumental": "መሳርሒ ሙዚቃ",
+    "guitar_solo": "ጊታር ሶሎ",
+    "build_up": "ህንጸት-ኣፕ",
+    "breakdown": "ምብትታን",
+    "spoken_word": "ዝተዛረበ ቃል",
+    "whispered": "ሕሹኽ በለ",
+    "harmonies": "ስኒታት",
+    "male_vocal": "ደቂ ተባዕትዮ ድምጺ",
+    "female_vocal": "ጓል ኣንስተይቲ ድምጺ",
+    "duet": "ድዩት ዝብል ጽሑፍ",
+    "acoustic": "ኣኮስቲክ",
+    "ad_lib": "ኣድ-ሊብ"
+  },
+  "presets": {
+    "clean_voice": "ጽሩይ ድምጺ",
+    "voice_guitar_balanced": "ሚዛናዊ ድምጺ & ጊታር",
+    "podcast": "ፖድካስት",
+    "suno_ready": "ሱኖ ድሉው",
+    "gentle_restore": "ልኡም ምምላስ",
+    "raw_passthrough": "መስርሕ የለን"
+  },
+  "errors": {
+    "unknown": "ገለ ነገር ተጋግዩ።",
+    "network": "ናብቲ ሰርቨር ክበጽሕ ኣይከኣለን።",
+    "validation_error": "ዘእተኻዮ ሓበሬታ መርምሮ።",
+    "not_found": "ኣቕሓ ኣይተረኽበን።",
+    "project_not_found": "ፕሮጀክት ኣይተረኽበን።",
+    "take_not_found": "ውሰድ ኣይተረኽበን።",
+    "album_not_found": "ኣልበም ኣይተረኽበን።",
+    "preset_not_found": "ቅድመ-ምድላው ኣይተረኽበን።",
+    "template_not_found": "ቅጥዒ ኣይተረኽበን።",
+    "device_busy": "መሳርሒ ድምጺ ብኻልእ ፕሮግራም ኣብ ጥቕሚ ይርከብ።",
+    "device_not_found": "መሳርሒ ድምጺ ኣይተረኽበን።",
+    "already_recording": "ድሮ ምቕዳሕ ኣብ ምድላው ይርከብ።",
+    "ffmpeg_missing": "FFmpeg ኣይተተኽለን — ነዚ ፋይል ንምቕያር ጽዓኖ።",
+    "disk_full": "እኹል ናይ ዲስክ ቦታ ዘይምህላው።",
+    "permission_denied": "ንዝተዋህበ መንገዲ ፍቓድ ተኸልኪሉ።",
+    "import_path_not_found": "መንገዲ ኣእትዎ ኣይተረኽበን።",
+    "job_failed": "መስርሕ ምፍሻል ኣይተዓወተን።",
+    "job_cancelled": "መስርሕ ተሰሪዙ።",
+    "process_failed": "ነቲ ምውሳድ መስርሕ ክሰርሕ ኣይከኣለን።",
+    "export_failed": "ነቲ ፋይል ናብ ወጻኢ ምውጻእ ኣይከኣለን።",
+    "record_failed": "ምቕራጽ ክጅምር ኣይከኣለን።"
+  },
+  "jobs": {
+    "status": {
+      "queued": "ሪጋ ተሰሪዑ",
+      "running": "ምጉያይ",
+      "done": "ተፈጺሙ",
+      "error": "ፈሺሉ።",
+      "cancelled": "ተሰሪዙ"
+    },
+    "kind": {
+      "process": "መስርሕ ምግባር",
+      "export": "ሰደድ ምግባር",
+      "import": "ካብ ወጻኢ ዝኣቱ",
+      "record": "ምቕራጽ"
+    }
+  }
+}

@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "የድምጽ ማጽጃ"
+  },
+  "nav": {
+    "library": "ቤተ መፃህፍት",
+    "record": "መዝገብ",
+    "import": "አስመጣ",
+    "templates": "አብነቶች",
+    "settings": "ቅንብሮች",
+    "guide": "መመሪያ"
+  },
+  "common": {
+    "save": "አስቀምጥ",
+    "saving": "በማስቀመጥ ላይ…",
+    "saved": "ተቀምጧል",
+    "cancel": "ሰርዝ",
+    "close": "ዝጋ",
+    "delete": "ሰርዝ",
+    "edit": "አርትዕ",
+    "create": "ፍጠር",
+    "search": "ፈልግ",
+    "loading": "በመጫን ላይ…",
+    "error": "ስህተት",
+    "retry": "እንደገና ይሞክሩ",
+    "confirm": "አረጋግጥ",
+    "back": "ተመለስ",
+    "next": "ቀጥሎ",
+    "continue": "ቀጥል",
+    "finish": "ጨርስ",
+    "copy": "ቅዳ",
+    "copied": "ተገልብጧል",
+    "download": "አውርድ",
+    "upload": "ስቀል",
+    "none": "ምንም",
+    "all": "ሁሉም",
+    "yes": "አዎ",
+    "no": "አይ",
+    "select": "ይምረጡ",
+    "optional": "አማራጭ",
+    "required": "ያስፈልጋል",
+    "unsaved_changes": "ያልተቀመጡ ለውጦች",
+    "name": "ስም",
+    "status": "ሁኔታ",
+    "type": "ዓይነት",
+    "actions": "ድርጊቶች",
+    "empty": "ባዶ",
+    "browse": "አስስ",
+    "remove": "አስወግድ",
+    "add": "አክል",
+    "rename": "እንደገና ይሰይሙ",
+    "duplicate": "ማባዛት።",
+    "warning": "ማስጠንቀቂያ",
+    "locked": "ተቆልፏል",
+    "builtin": "አብሮ የተሰራ",
+    "custom": "ብጁ",
+    "untitled": "ርዕስ አልባ",
+    "select_placeholder": "ይምረጡ…"
+  },
+  "library": {
+    "title": "ቤተ መፃህፍት",
+    "subtitle": "የእርስዎ ድምጽ እና ጊታር ፕሮጀክቶች፣ ከሃሳብ እስከ መልቀቅ።",
+    "new_project": "አዲስ ፕሮጀክት",
+    "new_album": "አዲስ አልበም",
+    "search_placeholder": "በስም ፈልግ…",
+    "view": {
+      "grid": "ፍርግርግ",
+      "albums": "አልበሞች"
+    },
+    "filters": {
+      "all": "ሁሉም"
+    },
+    "take_count_one": " {{count}} መውሰድ",
+    "take_count_other": " {{count}} ይወስዳል",
+    "updated_at": "ተዘምኗል {{date}} ",
+    "no_results": {
+      "title": "ምንም ፕሮጀክቶች አልተገኙም።",
+      "description": "ፍለጋውን ወይም የሁኔታ ማጣሪያውን ለማስተካከል ይሞክሩ።"
+    },
+    "empty": {
+      "title": "ቤተ-መጽሐፍትህ ባዶ ነው።",
+      "description": "አዲስ ፕሮጀክት ከባዶ ይጀምሩ፣ ወይም አስመጪ በዲስክ ላይ ያለዎትን ይወስዳል።",
+      "cta_import": "ከአቃፊ አስመጣ",
+      "cta_new": "ፕሮጀክት ፍጠር"
+    },
+    "project_dialog": {
+      "title": "አዲስ ፕሮጀክት",
+      "description": "ስም ይስጡት እና የመቅጃ ሁነታን ይምረጡ።",
+      "name_label": "የፕሮጀክት ስም",
+      "name_placeholder": "ለምሳሌ. የበጋ ዝናብ",
+      "mode_label": "ሁነታ",
+      "mode": {
+        "voice": "ድምጽ ብቻ",
+        "voice_guitar": "ድምጽ + ጊታር"
+      },
+      "submit": "ፕሮጀክት ፍጠር"
+    },
+    "album_dialog": {
+      "title": "አዲስ አልበም",
+      "description": "ከቡድን ጋር የተያያዙ ፕሮጀክቶች ወደ አልበም.",
+      "name_label": "የአልበም ስም",
+      "name_placeholder": "ለምሳሌ. መኸር ኢ.ፒ",
+      "submit": "አልበም ፍጠር"
+    },
+    "album": {
+      "untitled": "ርዕስ አልባ አልበም",
+      "members_count_one": " {{count}} ፕሮጀክት",
+      "members_count_other": " {{count}} ፕሮጀክቶች",
+      "empty": "በዚህ አልበም ውስጥ እስካሁን ምንም ፕሮጀክቶች የሉም።",
+      "delete_confirm_title": "አልበም ይሰረዝ?",
+      "delete_confirm_description": "ፕሮጀክቶች አይሰረዙም፣ ከ\"{{name}}\" ግንኙነታቸው የተቋረጠ ብቻ ነው።"
+    },
+    "delete_project": {
+      "confirm_title": "ይሰረዝ\" {{name}}\"?",
+      "confirm_description": "ይህ ፕሮጀክቱን እና በውስጡ ያሉትን ሁሉንም እርምጃዎች ያስወግዳል. ይህ ሊቀለበስ አይችልም።"
+    }
+  },
+  "record": {
+    "title": "መዝገብ",
+    "subtitle": "ንጹህ ውሰድ፣ ደረጃዎችህን ተመልከት እና ስክሪፕቱን ተከተል።",
+    "project_label": "ፕሮጀክት",
+    "project_placeholder": "ፕሮጀክት ይምረጡ",
+    "project_create_quick": "ፈጣን ፕሮጀክት ፍጠር…",
+    "device_label": "የግቤት መሣሪያ",
+    "device_placeholder": "መሣሪያ ይምረጡ",
+    "device_default_badge": "የስርዓት ነባሪ",
+    "device_wasapi_badge": "ዋሳፒ",
+    "device_empty": "ምንም የግቤት መሳሪያዎች አልተገኙም።",
+    "monitor_button": "ክትትል",
+    "monitor_stop_button": "ክትትልን አቁም",
+    "record_button": "መዝገብ",
+    "stop_button": "አቁም",
+    "elapsed_label": "ያለፈ ጊዜ",
+    "status": {
+      "idle": "ስራ ፈት",
+      "monitoring": "ክትትል",
+      "recording": "መቅዳት",
+      "stopped": "ቆሟል"
+    },
+    "meter": {
+      "rms": "አርኤምኤስ",
+      "peak": "ጫፍ",
+      "clip": "ክሊፕ"
+    },
+    "guide": {
+      "title": "የሚመራ ክፍለ ጊዜ",
+      "subtitle": "አሰልጣኙ ከማሞቂያ እስከ የንግግር ሀረግ ደረጃ በደረጃ በስክሪፕቱ ውስጥ እንዲያልፍ ይፍቀዱለት።",
+      "loading": "ስክሪፕት በመጫን ላይ…",
+      "unavailable": "የሚመራው ክፍለ ጊዜ በአገልጋዩ ላይ እስካሁን የለም።",
+      "select_project_device": "ከዚህ ሆነው እርምጃዎችን ለመመዝገብ ፕሮጀክት እና የግቤት መሣሪያ ይምረጡ።",
+      "progress": " {{done}} የ{{total}} ደረጃዎች",
+      "start_timer": "ሰዓት ቆጣሪን ጀምር",
+      "skip_timer": "የሰዓት ቆጣሪን ዝለል",
+      "record_step": "ይህንን ደረጃ ይቅዱ",
+      "stop_step": "መቅዳት አቁም",
+      "mark_done": "ተከናውኗል - ቀጣዩ ደረጃ",
+      "step_recorded": "የተቀዳ ውሰድ",
+      "no_record_step": "የማሞቅ ደረጃ - ምንም መቅዳት አያስፈልግም.",
+      "bars_hint": "ወደ {{bars}} መጠጥ ቤቶች",
+      "complete_title": "ስክሪፕት ተጠናቋል!",
+      "complete_body": "የስክሪፕቱን እያንዳንዱን ደረጃ መዝግበዋል። ወደ የፕሮጀክቱ የድምጽ ትር ይመለሱ እና የሚወዷቸውን ይምረጡ።",
+      "restart": "ስክሪፕቱን እንደገና ያስጀምሩ"
+    },
+    "best2min": {
+      "button": "ምርጡን 2 ደቂቃ ያግኙ (ሱኖ)",
+      "running": "መውሰድን በመተንተን ላይ…",
+      "score_label": "ነጥብ",
+      "hint": "በጣም ጠንካራውን የ2-ደቂቃ መስኮቱን ለማግኘት በአጠቃላይ የኃይል እና ግልጽነት ትንተና ያካሂዳል - አሁንም ክልሉን ከዚያ በኋላ በእጅ ማስተካከል ይችላሉ።",
+      "chart_caption": "ነጥብ በአንድ መስኮት",
+      "unavailable": "በጣም ጥሩው-2-ደቂቃ ትንታኔ እስካሁን በዚህ አገልጋይ ላይ አይገኝም።"
+    },
+    "takes_title": "ከዚህ ክፍለ ጊዜ ይወስዳል",
+    "takes_empty": "እስካሁን በዚህ ክፍለ ጊዜ ምንም የተመዘገቡ ሙከራዎች የሉም።",
+    "open_in_project": "በፕሮጀክት ውስጥ ክፈት",
+    "ws_disconnected": "ከደረጃ ቆጣሪው ጋር እንደገና በመገናኘት ላይ…",
+    "select_project_first": "ለመጀመር ፕሮጀክት ይምረጡ።",
+    "select_device_first": "የግቤት መሣሪያ ይምረጡ።"
+  },
+  "project": {
+    "back_to_library": "ወደ ቤተ-መጽሐፍት ተመለስ",
+    "header": {
+      "status_label": "ሁኔታ",
+      "cover_upload": "ሽፋን ይስቀሉ",
+      "cover_remove": "ሽፋንን ያስወግዱ",
+      "name_placeholder": "የፕሮጀክት ስም",
+      "links_title": "አገናኞች",
+      "add_link": "አገናኝ ጨምር",
+      "mode": {
+        "voice": "ድምጽ ብቻ",
+        "voice_guitar": "ድምጽ + ጊታር"
+      }
+    },
+    "tabs": {
+      "audio": "ኦዲዮ",
+      "lyrics": "ግጥሞች",
+      "prompts": "ማበረታቻዎች",
+      "notes": "ማስታወሻዎች"
+    },
+    "audio": {
+      "takes_title": "ይወስዳል",
+      "no_takes": {
+        "title": "እስካሁን ምንም መውሰድ የለም።",
+        "description": "አዲስ ውሰድ ይቅረጹ ወይም ነባር ፋይል ያስመጡ።"
+      },
+      "record_new": "አዲስ መውሰድ ይቅረጹ",
+      "rating": "ደረጃ መስጠት",
+      "variant": {
+        "raw": "ጥሬ",
+        "processed": "ተሰራ"
+      },
+      "variant_placeholder": "ሥሪት",
+      "process_button": "ሂደት",
+      "export_button": "ወደ ውጪ ላክ",
+      "delete_take_confirm_title": "ይህ መውሰድ ይሰረዝ?",
+      "delete_take_confirm_description": "ጥሬው ኦዲዮ እና እያንዳንዱ የተቀነባበረ ስሪት ይወገዳል።",
+      "ab": {
+        "raw": "ሀ · ጥሬ",
+        "processed": "ለ · ተሰራ"
+      },
+      "origin": {
+        "recorded": "ተመዝግቧል",
+        "imported": "ከውጭ ገብቷል።"
+      },
+      "session_label_placeholder": "የክፍለ ጊዜ መለያ (አማራጭ)",
+      "duration": "ቆይታ",
+      "sample_rate": "የናሙና መጠን",
+      "channels": "ቻናሎች",
+      "created_at": "ተመዝግቧል"
+    },
+    "pipeline": {
+      "title": "የማቀነባበሪያ ሰንሰለት",
+      "preset_label": "ቅድመ ዝግጅት",
+      "preset_none": "ብጁ ሰንሰለት",
+      "preset_save": "እንደ ቅድመ-ቅምጥ አስቀምጥ",
+      "stage_locked": "ተቆልፏል",
+      "stage_requires_extra": "ያልተጫነ ተጨማሪ ያስፈልገዋል",
+      "process_button": "ሂደት መውሰድ",
+      "processing": "በማስሄድ ላይ…",
+      "job_queued": "ተሰልፏል…",
+      "job_running": "በማስሄድ ላይ…",
+      "job_done": "ተከናውኗል",
+      "job_error": "አልተሳካም።",
+      "job_cancelled": "ተሰርዟል።",
+      "cancel_job": "ሰርዝ",
+      "no_stages": "ምንም ደረጃዎች አይገኙም።"
+    },
+    "export": {
+      "title": "ወደ ውጭ መላክ",
+      "description": "የመጨረሻውን ፋይል ከተሰራው እትም ያቅርቡ።",
+      "variant_label": "ሥሪት",
+      "format_label": "ቅርጸት",
+      "preset_label": "ቅድመ ዝግጅት ወደ ውጪ ላክ",
+      "range_label": "ክልል",
+      "range_full": "ሙሉ ርዝመት",
+      "range_custom": "ብጁ ክልል",
+      "start_label": "ጀምር (ዎች)",
+      "end_label": "መጨረሻ (ዎች)",
+      "submit": "ወደ ውጪ ላክ",
+      "progress": "ፋይል በማቅረብ ላይ…",
+      "download_ready": "ፋይል ዝግጁ ነው።",
+      "download_button": "ፋይል አውርድ"
+    },
+    "notes": {
+      "placeholder": "ስለዚህ ፕሮጀክት ነፃ ቅጽ ማስታወሻዎች…",
+      "saved_at": "ተቀምጧል {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "ግጥሞቹን እዚህ ጻፉ። የሱኖ ሜታ መለያዎችን ለማስገባት በጎን በኩል ያለውን ቤተ-ስዕል ይጠቀሙ።",
+      "saved_at": "ተቀምጧል {{time}} ",
+      "saving": "በማስቀመጥ ላይ…",
+      "versions": "ስሪቶች",
+      "versions_empty": "እስካሁን ምንም የተቀመጡ ስሪቶች የሉም።",
+      "version_preview": "ቅድመ እይታ",
+      "restore": "ይህን ስሪት እነበረበት መልስ",
+      "restore_confirm_title": "ይህ ስሪት ወደነበረበት ይመለስ?",
+      "restore_confirm_description": "የአሁኑ ጽሑፍ በ {{date}} ላይ በተቀመጠው እትም ይተካል።",
+      "metatags_title": "ሜታ-መለያዎች",
+      "metatags_hint": "በጠቋሚው ላይ ለማስገባት መለያን ጠቅ ያድርጉ።",
+      "metatags_placebo_warning": "ያልተረጋገጠ - በውጤቱ ላይ ምንም ተጽእኖ ላይኖረው ይችላል.",
+      "metatags_empty": "ምንም ሜታ መለያዎች አልተመዘገቡም።"
+    },
+    "prompts": {
+      "style_title": "የቅጥ ጥያቄ",
+      "lyrics_title": "የግጥም መጠየቂያ",
+      "template_label": "አብነት",
+      "template_none": "አብነት የለም",
+      "variables_title": "ተለዋዋጮች",
+      "preview_title": "ቅድመ እይታ",
+      "preview_empty": "ቅድመ-ዕይታ ለማየት አብነት ይምረጡ እና ተለዋዋጮችን ይሙሉ።",
+      "char_count": " {{count}} ቁምፊዎች",
+      "char_count_warning": "የቅጡ ጥያቄ ከ1000 በላይ ቁምፊዎች በሱኖ ሊቆራረጡ ይችላሉ።",
+      "copy": "ቅዳ",
+      "copied": "ወደ ቅንጥብ ሰሌዳ ተቀድቷል።",
+      "save_to_project": "ወደ ፕሮጀክት አስቀምጥ",
+      "saved_to_project": "ጥያቄው ወደ ፕሮጀክት ተቀምጧል",
+      "history_title": "ታሪክ",
+      "history_empty": "ምንም ቀዳሚ ስሪቶች የሉም።",
+      "current_label": "የአሁኑ"
+    },
+    "stems": {
+      "title": "ድምጾች እና ጊታር",
+      "separate_button": "የተለያዩ ድምጾች እና ጊታር",
+      "running": "በመለየት ላይ…",
+      "vocals": "ድምጾች",
+      "instrumental": "መሳሪያዊ",
+      "process_stem": "ይህንን ግንድ ያስኬዱ",
+      "empty": "ይህ መውሰድ እስካሁን አልተለየም። ድምጾቹን እና ጊታርን በተናጥል ለመስማት መለያየትን ያሂዱ።",
+      "capability_missing": "የምንጭ መለያየት በዚህ አገልጋይ ላይ አልተጫነም።",
+      "unavailable": "የድምጽ/ጊታር መለያየት በዚህ አገልጋይ ላይ እስካሁን የለም።"
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "በርቷል",
+    "boolean_off": "ጠፍቷል"
+  },
+  "import": {
+    "title": "አስመጣ",
+    "subtitle": "ቀደም ሲል በዲስክ ላይ ያሉ ፕሮጀክቶችን ወደ ቤተ-መጽሐፍት አምጣ።",
+    "step_indicator": "ደረጃ {{current}} ከ{{total}} ",
+    "step1": {
+      "title": "አቃፊ አግኝ",
+      "description": "በፕሮጀክቶችዎ እና ትራኮችዎ ወደ ስርወ አቃፊው ያመልክቱ።",
+      "path_label": "የአቃፊ መንገድ",
+      "path_placeholder": "ለምሳሌ. ኢ፡\\ሮብስ\\ ኩራት \\\\ ሙዚቃ\\ROBBS",
+      "recent_label": "የቅርብ ጊዜ",
+      "scan_button": "አቃፊን ቃኝ",
+      "scanning": "በመቃኘት ላይ…",
+      "ffmpeg_warning": "FFmpeg አልተገኘም — ልወጣ የሚያስፈልጋቸው ፋይሎች ይዘለላሉ።",
+      "folders_found_one": " {{count}} አቃፊ ተገኝቷል",
+      "folders_found_other": " {{count}} አቃፊዎች ተገኝተዋል",
+      "unmatched_files_one": " {{count}} ያልታወቀ ፋይል",
+      "unmatched_files_other": " {{count}} ያልታወቁ ፋይሎች"
+    },
+    "step2": {
+      "title": "ንጥሎችን ይገምግሙ",
+      "description": "ከማረጋገጥዎ በፊት ስሞችን፣ ሁኔታዎችን እና ምን እንደሚመጣ ያረጋግጡ።",
+      "select_all": "ሁሉንም ይምረጡ",
+      "table": {
+        "folder": "የምንጭ አቃፊ",
+        "name": "የፕሮጀክት ስም",
+        "status": "ሁኔታ",
+        "audio": "ኦዲዮ",
+        "lyrics": "ግጥሞች",
+        "cover": "ሽፋን",
+        "album": "አልበም"
+      },
+      "audio_include_one": " {{count}} ፋይል ተመርጧል",
+      "audio_include_other": " {{count}} ፋይሎች ተመርጠዋል",
+      "no_audio": "ምንም ኦዲዮ አልተገኘም።",
+      "no_lyrics": "ምንም ግጥሞች አልተገኙም።",
+      "no_cover": "ሽፋን የለም።",
+      "warnings_title": "ማስጠንቀቂያዎች"
+    },
+    "step3": {
+      "title": "አስመጣ",
+      "description": "ፋይሎቹን ለመቅዳት እና ፕሮጀክቶቹን ለመፍጠር ያረጋግጡ.",
+      "copy_originals": "ኦሪጅናል ፋይሎችን ወደ ቤተ-መጽሐፍት ይቅዱ",
+      "execute_button": "ማስመጣት ይጀምሩ",
+      "progress_title": "በማስመጣት ላይ…",
+      "created_count": "የተፈጠረው፡ {{count}} ",
+      "skipped_count": "ተዘለለ፡ {{count}} ",
+      "done_title": "ማስመጣት ተጠናቅቋል",
+      "done_description": "ከታች ያሉት ፕሮጀክቶች በቤተ-መጽሐፍትዎ ውስጥ ተፈጥረዋል።",
+      "view_project": "ክፍት ፕሮጀክት",
+      "start_over": "አዲስ ማስመጣት።"
+    }
+  },
+  "templates": {
+    "title": "አብነቶች",
+    "subtitle": "ለሱኖ ድጋሚ ጥቅም ላይ ሊውሉ የሚችሉ መጠየቂያ አብነቶች እና ሜታ መለያዎች።",
+    "tabs": {
+      "prompts": "ፈጣን አብነቶች",
+      "metatags": "ሜታ-መለያዎች"
+    },
+    "new_template": "አዲስ አብነት",
+    "kind": {
+      "style": "ቅጥ",
+      "lyrics": "ግጥሞች"
+    },
+    "kind_label": "ደግ",
+    "delete_confirm_title": "አብነት ይሰረዝ \"{{name}}\"?",
+    "delete_confirm_description": "ይህ ሊቀለበስ አይችልም።",
+    "empty": "እስካሁን ምንም አብነቶች የሉም።",
+    "editor": {
+      "title_new": "አዲስ አብነት",
+      "title_edit": "አብነት አርትዕ",
+      "name_label": "ስም",
+      "name_placeholder": "ለምሳሌ. አኮስቲክ ባላድ",
+      "kind_label": "ደግ",
+      "template_label": "የአብነት ጽሑፍ",
+      "template_hint": "እያንዳንዱ ተለዋዋጭ የት እንዳለ ምልክት አድርግበት ስሙ በድርብ የተጠማዘዘ ቅንፍ ተጠቅልሎ - ለምሳሌ፣ \"ዘውግ\" የሚባል ተለዋዋጭ ዘውግ በሁለት መክፈቻ እና በሁለት የመዝጊያ ቅንፎች ይጠቀለላል።",
+      "variables_label": "ተለዋዋጮች",
+      "variable_add": "ተለዋዋጭ ያክሉ",
+      "variable_name": "ቁልፍ",
+      "variable_label": "መለያ",
+      "variable_type": "ዓይነት",
+      "variable_type_string": "ጽሑፍ",
+      "variable_type_select": "ነጠላ ይምረጡ",
+      "variable_type_multiselect": "ባለብዙ ምርጫ",
+      "variable_type_number": "ቁጥር",
+      "variable_type_boolean": "አዎ/አይደለም።",
+      "variable_options": "አማራጮች (በነጠላ ሰረዝ የተለዩ)",
+      "variable_required": "ያስፈልጋል",
+      "save": "አብነት አስቀምጥ"
+    },
+    "metatags": {
+      "title": "ሜታ-መለያዎች",
+      "subtitle": "መዋቅራዊ እና ዘይቤ መለያዎች ሱኖ የውስጥ ግጥሞችን ያውቃል።",
+      "new_tag": "አዲስ መለያ",
+      "tag_label": "መለያ",
+      "tag_placeholder": "ለምሳሌ. ጊታር-ብቸኛ",
+      "category_label": "ምድብ",
+      "tier_label": "አስተማማኝነት",
+      "tier_legend_title": "አስተማማኝነት አፈ ታሪክ",
+      "tier_legend": {
+        "1": "ደረጃ 1 - በሰነድ እና ወጥነት ያለው",
+        "2": "ደረጃ 2 - ብዙውን ጊዜ ይሠራል",
+        "3": "ደረጃ 3 - ተለዋዋጭ ተጽእኖ",
+        "4": "ደረጃ 4 - ፕላሴቦ ፣ ያልተረጋገጠ"
+      },
+      "description_label": "መግለጫ",
+      "delete_confirm_title": "መለያ \"{{tag}}\" ይሰረዝ?",
+      "empty": "እስካሁን ምንም ብጁ ዲበ መለያዎች የሉም።"
+    }
+  },
+  "settings": {
+    "title": "ቅንብሮች",
+    "subtitle": "የስርዓት መረጃ፣ ቋንቋ እና ነባሪ ምርጫዎች።",
+    "system_info_title": "ስርዓት",
+    "version": "ሥሪት",
+    "data_dir": "የውሂብ አቃፊ",
+    "ffmpeg_status": "ኤፍኤምፔ",
+    "ffmpeg_available": "ይገኛል።",
+    "ffmpeg_missing": "አልተገኘም።",
+    "capabilities_title": "የተጫኑ ችሎታዎች",
+    "capability": {
+      "denoise": "የድምፅ ቅነሳ",
+      "quality": "የጥራት ማሻሻል",
+      "separate": "ምንጭ መለያየት",
+      "ffmpeg": "FFmpeg ልወጣ"
+    },
+    "capability_available": "ይገኛል።",
+    "capability_unavailable": "አይገኝም",
+    "gpu_title": "የጂፒዩ ማፋጠን",
+    "gpu": {
+      "torch_cuda": "ፒቶርች CUDA",
+      "ort_providers": "ONNX የሩጫ ጊዜ አቅራቢዎች"
+    },
+    "gpu_none": "ምንም የጂፒዩ አቅራቢዎች አልተገኙም።",
+    "language_title": "ቋንቋ",
+    "language": {
+      "pt-BR": "ፖርቱጋል (ብራሲል)",
+      "en": "እንግሊዝኛ"
+    },
+    "theme_title": "መልክ",
+    "theme": {
+      "dark": "ጨለማ",
+      "light": "ብርሃን"
+    },
+    "defaults_title": "ነባሪዎችን ወደ ውጭ ላክ",
+    "lufs_target_label": "LUFS ዒላማ",
+    "lufs_target_hint": "ወደ ውጭ መላክ ሲወስድ እንደ መነሻ ጥቆማ ጥቅም ላይ ይውላል። የሱኖ ነባሪ -14 LUFS አካባቢ ተቀምጧል።",
+    "saved": "ምርጫዎች ተቀምጠዋል"
+  },
+  "guide": {
+    "title": "Suno ቀረጻ መመሪያ",
+    "subtitle": "ምርጡን ውጤት የሚያገኙትን ድምጽ እና ጊታር እንዴት እንደሚይዙ።",
+    "intro": "ሱኖ በንጹህ እና በማያሻማ ማጣቀሻዎች ምርጡን ይሰራል። ይህ መመሪያ የዝግጅት፣ የዒላማ ደረጃዎችን እና የ3-5 ደቂቃ ቀረጻ ስክሪፕትን ይሸፍናል።",
+    "sections": {
+      "prep": {
+        "title": "ዝግጅት",
+        "body": "በታከመ ክፍል ውስጥ ይቅረጹ ወይም ብዙ ለስላሳ እቃዎች (መጋረጃዎች, ምንጣፎች, ልብሶች በጓዳ ውስጥ). አድናቂዎችን እና ማንኛውንም የሚያናድድ ነገር ያጥፉ። ከመቅዳትዎ በፊት ለ 5 ደቂቃዎች ድምጽዎን ያሞቁ."
+      },
+      "levels": {
+        "title": "ደረጃዎች: -12 እስከ -6 dBFS",
+        "body": "በሜትር ላይ በ -12 እና -6 ዲቢኤፍኤስ መካከል ያሉ ጫፎችን ያንሱ። ከዚያ ክልል በታች፣ የበስተጀርባ ጫጫታ በይበልጥ የሚታይ ይሆናል። ከእሱ በላይ, የመቁረጥ አደጋ ይጨምራል. ከመጀመርዎ በፊት ትርፍዎን ለማዘጋጀት በመዝገብ ገጹ ላይ ያለውን መለኪያ ይጠቀሙ።"
+      },
+      "distance": {
+        "title": "የማይክ ርቀት: 15-30 ሴሜ",
+        "body": "ከማይክሮፎን ከ15 እስከ 30 ሴ.ሜ ይቆዩ። ከዚያ የበለጠ የፕሎሲቭስ እና የቅርበት ተፅእኖን ያጋነናል; ራቅ ብሎ ተጨማሪ የክፍል ማስተጋባት እና ጫጫታ ይወስዳል።"
+      },
+      "script": {
+        "title": "ስክሪፕት መቅጃ",
+        "warmup": "የድምፅ ማሞቂያ (1-2 ደቂቃዎች)",
+        "vowels": "ቋሚ አናባቢዎች - a, e, i, o, u",
+        "scales": "ቀላል ሚዛኖች, ወደላይ እና ወደ ታች",
+        "excerpt": "የዘፈን ቅንጭብጭብ (ከ8 እስከ 16 አሞሌዎች)",
+        "dynamics": "ተለዋዋጭነት፡ ለስላሳ ጀምር፣ ጮክ ብለህ ጨርስ",
+        "spoken_phrase": "አንድ የተነገረ ሐረግ፣ ስለዚህ ሱኖ የእርስዎን የድምጽ ቃና ማንበብ ይችላል።"
+      },
+      "expectations": {
+        "title": "ሱኖ የሚጠብቀው",
+        "body": "WAV፣ 48 kHz፣ ሞኖ፣ ደረቅ (ምንም ማስተጋባት ወይም ተፅዕኖ የለም)፣ ከ3 እስከ 5 ደቂቃዎች ማጣቀሻ። የተወሰደው በጣም ንጹህ ፣ በጣም ተወካይ 2 ደቂቃዎች ብዙውን ጊዜ ጥሩ ውጤት ያስገኛሉ።"
+      }
+    }
+  },
+  "status": {
+    "idea": "ሀሳብ",
+    "em_progresso": "በሂደት ላይ",
+    "quase": "ሊደርስ ነው።",
+    "pronto": "ዝግጁ"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "ለሱኖ ሙሉ የድምጽ ፅሁፍ",
+      "desc": "5 የተመሩ ደቂቃዎች፡ ሙቀት መጨመር፣ አናባቢዎች፣ ሚዛኖች፣ ሁለት የዘፈን ቅንጭብጦች፣ ተለዋዋጭ ሁኔታዎች እና የሚነገር ሀረግ።"
+    },
+    "step": {
+      "warmup": "የድምፅ ማሞቂያ",
+      "warmup_inst": "በማዛጋት፣ በከንፈር ትሪልስ (brrr) እና ለስላሳ ሃም ለአንድ ደቂቃ ያህል ይፍቱ። መቅዳት አያስፈልግም - ከመዝፈንዎ በፊት ጉሮሮዎን ለማዝናናት ብቻ ነው.",
+      "vowels": "ቋሚ አናባቢዎች",
+      "vowels_inst": "እያንዳንዱን አናባቢ - a, e, i, o, u - ከ3 እስከ 4 ሰከንድ በሚመች ድምጽዎ ይያዙ። ይህ ሱኖ የድምጽዎን ንፁህ ቲምብር እንዲወስድ ይረዳል።",
+      "scales": "ሚዛኖች ወደ ላይ እና ወደ ታች",
+      "scales_inst": "በ\"la\" ወይም \"na\" ላይ ቀላል ሚዛን ወደላይ እና ወደ ታች ዘምሩ። ፍፁም መሆን አያስፈልገውም - አላማው የእርስዎን የድምጽ ክልል ካርታ ማድረግ ነው።",
+      "section": "የዘፈን ግጥም - ክፍል 1",
+      "section_inst": "ከ 8 እስከ 16 የዘፈኑን አሞሌዎች ዘምሩ፣ ሊያስተላልፉት በሚፈልጉት እውነተኛ ዓላማ። ከቴክኒካዊ ፍጹምነት ይልቅ ግልጽነት እና መገኘትን ቅድሚያ ይስጡ.",
+      "section2": "የዘፈን ቅኔ - ክፍል 2",
+      "section2_inst": "ሌላ ከ 8 እስከ 16 ባር ዘምሩ - በሐሳብ ደረጃ ኮረስ ወይም ከቀዳሚው ጋር የሚቃረን ክፍል። ተጨማሪ ልዩነት ሞዴሉ ድምጽዎን እንዲማር ይረዳል.",
+      "dynamics": "ተለዋዋጭ፡ ለስላሳ → ጮክ",
+      "dynamics_inst": "ያንኑ ሀረግ በጣም ለስላሳ በመጀመር እና ጮክ ብሎ ያበቃል ፣ ጉሮሮዎን ሳያስቀምጡ። ይህ የሱኖ ድምጽዎን ተለዋዋጭ ክልል ያሳያል።",
+      "spoken": "የሚነገር ሐረግ",
+      "spoken_inst": "ተናገሩ — አትዘፍኑ — አጭር፣ ተፈጥሯዊ ሐረግ፣ እየተወያየህ እንደሆነ። ይህ ሱኖ የድምጽዎን ትክክለኛ ቲምብ እንዲያውቅ ያግዘዋል።"
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "ተሃድሶ",
+      "filter": "ማጣሪያዎች",
+      "dynamics": "ተለዋዋጭ",
+      "separation": "መለያየት",
+      "quality": "ጥራት",
+      "utility": "መገልገያ",
+      "loudness": "ጩኸት"
+    },
+    "highpass": "ከፍተኛ-ማለፊያ ማጣሪያ",
+    "lowpass": "ዝቅተኛ-ማለፊያ ማጣሪያ",
+    "denoise": "የድምፅ ቅነሳ",
+    "declip": "ማሽቆልቆል",
+    "declick": "ክሊክ/ፖፕ ማስወገድ",
+    "deesser": "ደ-ኤሰር",
+    "gate": "የጩኸት በር",
+    "compressor": "መጭመቂያ",
+    "limiter": "ገደብ",
+    "eq": "ማመጣጠን",
+    "normalize": "ከፍተኛ መደበኛነት",
+    "loudness": "የድምፅ መደበኛነት (LUFS)",
+    "reverb_reduce": "የተገላቢጦሽ ቅነሳ",
+    "separate": "ምንጭ መለያየት",
+    "quality": "የጥራት ማሻሻል (ከፍተኛ)",
+    "trim_silence": "ዝምታ መቁረጥ",
+    "fade": "ደብዝዝ/ ደብዝዝ",
+    "stereo_to_mono": "ወደ ሞኖ ቀይር",
+    "resample": "ዳግም ናሙና ማድረግ"
+  },
+  "metatags": {
+    "tier": {
+      "1": "አስተማማኝ",
+      "2": "አብዛኛውን ጊዜ ይሰራል",
+      "3": "ተለዋዋጭ",
+      "4": "ፕላሴቦ"
+    },
+    "category": {
+      "structure": "መዋቅር",
+      "vocal": "ድምፃዊ",
+      "instrument": "መሳሪያ",
+      "dynamics": "ተለዋዋጭ",
+      "production": "ማምረት",
+      "mood": "ስሜት"
+    },
+    "verse": "ቁጥር",
+    "chorus": "ዝማሬ",
+    "bridge": "ድልድይ",
+    "intro": "መግቢያ",
+    "outro": "ውጪ",
+    "hook": "መንጠቆ",
+    "prechorus": "ቅድመ ዝማሬ",
+    "instrumental": "መሳሪያዊ",
+    "guitar_solo": "ጊታር ብቸኛ",
+    "build_up": "መገንባት",
+    "breakdown": "መከፋፈል",
+    "spoken_word": "የተነገረ ቃል",
+    "whispered": "ሹክሹክታ",
+    "harmonies": "ሃርሞኒዎች",
+    "male_vocal": "የወንድ ድምጽ",
+    "female_vocal": "የሴት ድምጽ",
+    "duet": "Duet",
+    "acoustic": "አኮስቲክ",
+    "ad_lib": "አድ-ሊብ"
+  },
+  "presets": {
+    "clean_voice": "ንጹህ ድምጽ",
+    "voice_guitar_balanced": "ሚዛናዊ ድምጽ እና ጊታር",
+    "podcast": "ፖድካስት",
+    "suno_ready": "ሱኖ ዝግጁ",
+    "gentle_restore": "ረጋ ያለ መመለስ",
+    "raw_passthrough": "ምንም ሂደት የለም።"
+  },
+  "errors": {
+    "unknown": "የሆነ ችግር ተፈጥሯል።",
+    "network": "አገልጋዩን ማግኘት አልተቻለም።",
+    "validation_error": "ያስገቡትን መረጃ ያረጋግጡ።",
+    "not_found": "ንጥል አልተገኘም።",
+    "project_not_found": "ፕሮጀክት አልተገኘም።",
+    "take_not_found": "መውሰድ አልተገኘም።",
+    "album_not_found": "አልበም አልተገኘም።",
+    "preset_not_found": "ቅድመ ዝግጅት አልተገኘም።",
+    "template_not_found": "አብነት አልተገኘም።",
+    "device_busy": "የድምጽ መሳሪያ በሌላ ፕሮግራም ጥቅም ላይ ውሏል።",
+    "device_not_found": "የድምጽ መሳሪያ አልተገኘም።",
+    "already_recording": "ቀረጻ አስቀድሞ በሂደት ላይ ነው።",
+    "ffmpeg_missing": "FFmpeg አልተጫነም - ይህን ፋይል ለመቀየር ይጫኑት።",
+    "disk_full": "በቂ የዲስክ ቦታ የለም።",
+    "permission_denied": "ለተሰጠው መንገድ ፍቃድ ተከልክሏል።",
+    "import_path_not_found": "የማስመጣት መንገድ አልተገኘም።",
+    "job_failed": "ማቀናበር አልተሳካም።",
+    "job_cancelled": "ማሰናዳት ተሰርዟል።",
+    "process_failed": "መውሰድን ማካሄድ አልተሳካም።",
+    "export_failed": "ፋይሉን ወደ ውጭ መላክ አልተሳካም።",
+    "record_failed": "መቅዳት መጀመር አልተሳካም።"
+  },
+  "jobs": {
+    "status": {
+      "queued": "ተሰልፏል",
+      "running": "መሮጥ",
+      "done": "ተከናውኗል",
+      "error": "አልተሳካም።",
+      "cancelled": "ተሰርዟል።"
+    },
+    "kind": {
+      "process": "በማቀነባበር ላይ",
+      "export": "ወደ ውጪ ላክ",
+      "import": "አስመጣ",
+      "record": "መቅዳት"
+    }
+  }
+}

@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Kaihoroi Ororongo"
+  },
+  "nav": {
+    "library": "Whare Pukapuka",
+    "record": "Tuhia",
+    "import": "Kawemai",
+    "templates": "Nga tauira",
+    "settings": "Tautuhinga",
+    "guide": "Arataki"
+  },
+  "common": {
+    "save": "Tiaki",
+    "saving": "Tiaki…",
+    "saved": "Whakaorangia",
+    "cancel": "Whakakore",
+    "close": "Katia",
+    "delete": "Mukua",
+    "edit": "Whakatikatika",
+    "create": "Waihanga",
+    "search": "Rapu",
+    "loading": "Uta ana…",
+    "error": "Hapa",
+    "retry": "Ngana ano",
+    "confirm": "Whakaū",
+    "back": "Whakamuri",
+    "next": "Whai muri",
+    "continue": "Haere tonu",
+    "finish": "Whakaoti",
+    "copy": "Tārua",
+    "copied": "Kua kapea",
+    "download": "Tikiake",
+    "upload": "Tukuake",
+    "none": "Karekau",
+    "all": "Katoa",
+    "yes": "Ae",
+    "no": "Kao",
+    "select": "Tīpakohia",
+    "optional": "kōwhiringa",
+    "required": "e hiahiatia ana",
+    "unsaved_changes": "Nga huringa kaore i tiakina",
+    "name": "Ingoa",
+    "status": "Tūnga",
+    "type": "Momo",
+    "actions": "Nga Mahi",
+    "empty": "Putua",
+    "browse": "Tirotiro",
+    "remove": "Tango",
+    "add": "Tāpiri",
+    "rename": "Whakaingoa ano",
+    "duplicate": "Tārite",
+    "warning": "Whakatupato",
+    "locked": "Kua maukati",
+    "builtin": "Hanga-i roto",
+    "custom": "Ritenga",
+    "untitled": "Karekau he taitara",
+    "select_placeholder": "Tīpakohia…"
+  },
+  "library": {
+    "title": "Whare Pukapuka",
+    "subtitle": "Ko to reo me to kaupapa kita, mai i te whakaaro ki te tuku.",
+    "new_project": "Kaupapa hou",
+    "new_album": "Pukaemi hou",
+    "search_placeholder": "Rapua ma te ingoa…",
+    "view": {
+      "grid": "Mātiti",
+      "albums": "Pukaemi"
+    },
+    "filters": {
+      "all": "Katoa"
+    },
+    "take_count_one": " {{count}} tango",
+    "take_count_other": " {{count}} tango",
+    "updated_at": "Whakahoutia {{date}} ",
+    "no_results": {
+      "title": "Karekau he kaupapa i kitea",
+      "description": "Ngana ki te whakatika i te rapu, i te tātari mana ranei."
+    },
+    "empty": {
+      "title": "Kei te putua to whare pukapuka",
+      "description": "Tīmatahia he kaupapa hou mai i te wahanga, kei te kawemai ranei koe i runga i te kōpae.",
+      "cta_import": "Kawemai mai i te kōpaki",
+      "cta_new": "Waihanga kaupapa"
+    },
+    "project_dialog": {
+      "title": "Kaupapa hou",
+      "description": "Hoatu he ingoa me te whiriwhiri i te aratau tuhi.",
+      "name_label": "Ingoa kaupapa",
+      "name_placeholder": "e.g. Te ua Raumati",
+      "mode_label": "Aratau",
+      "mode": {
+        "voice": "Reo anake",
+        "voice_guitar": "Reo + kitara"
+      },
+      "submit": "Waihanga kaupapa"
+    },
+    "album_dialog": {
+      "title": "Pukaemi hou",
+      "description": "Whakarōpūhia nga kaupapa e pa ana ki te pukaemi.",
+      "name_label": "ingoa pukaemi",
+      "name_placeholder": "e.g. Ngahuru EP",
+      "submit": "Waihanga pukaemi"
+    },
+    "album": {
+      "untitled": "Pukaemi kore ingoa",
+      "members_count_one": " {{count}} kaupapa",
+      "members_count_other": " {{count}} kaupapa",
+      "empty": "Karekau he kaupapa i tenei pukaemi.",
+      "delete_confirm_title": "Mukua pukaemi?",
+      "delete_confirm_description": "Ka kore nga kaupapa e mukua, ka wetekina te hono mai i \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Mukua \" {{name}} \"?",
+      "confirm_description": "Ka whakakorehia te kaupapa me nga mahi katoa. Kaore e taea te whakakore i tenei."
+    }
+  },
+  "record": {
+    "title": "Tuhia",
+    "subtitle": "Hopukina he tango ma, maataki i o taumata, ka whai i te tuhinga.",
+    "project_label": "Kaupapa",
+    "project_placeholder": "Kōwhiria he kaupapa",
+    "project_create_quick": "Waihangahia he kaupapa tere…",
+    "device_label": "Pūrere tāuru",
+    "device_placeholder": "Kōwhiria he taputapu",
+    "device_default_badge": "Pūnaha taunoa",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Kaore i kitea nga taputapu whakauru.",
+    "monitor_button": "Aroturuki",
+    "monitor_stop_button": "Kati te aroturuki",
+    "record_button": "Tuhia",
+    "stop_button": "Kati",
+    "elapsed_label": "Te wa kua pahemo",
+    "status": {
+      "idle": "Karekau",
+      "monitoring": "Te aroturuki",
+      "recording": "Te tuhi",
+      "stopped": "Ka mutu"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Te tihi",
+      "clip": "Topenga"
+    },
+    "guide": {
+      "title": "Wātū ārahi",
+      "subtitle": "Tukuna koe e te kaiako ki te arahi ia koe i roto i te tuhinga i ia taahiraa, mai i te whakamahana ki te rerenga korero.",
+      "loading": "Uta ana te tuhinga…",
+      "unavailable": "Kare ano te wahanga arataki i te waatea i runga i te tūmau.",
+      "select_project_device": "Whiriwhiria he kaupapa me tetahi taputapu whakauru hei tuhi i nga hikoinga mai i konei.",
+      "progress": " {{done}} o {{total}} takahanga",
+      "start_timer": "Tīmata matawā",
+      "skip_timer": "Tīpoka matawā",
+      "record_step": "Tuhia tenei taahiraa",
+      "stop_step": "Kati te tuhi",
+      "mark_done": "Kua oti - te taahiraa e whai ake nei",
+      "step_recorded": "Tangohia rekoata",
+      "no_record_step": "Te taahiraa whakamahana - kaore e hiahiatia te tuhi.",
+      "bars_hint": "Tata ki te {{bars}} pae",
+      "complete_title": "Kua oti te tuhinga!",
+      "complete_body": "Kua tuhia e koe nga hikoinga katoa o te tuhinga. Hoki atu ki te ripa Ororongo o te kaupapa, ka kowhiri i o tango tino pai.",
+      "restart": "Tīmata anō te hōtuhi"
+    },
+    "best2min": {
+      "button": "Kimihia te 2 meneti pai rawa atu (Suno)",
+      "running": "Te tātari i te tango…",
+      "score_label": "Tohu",
+      "hint": "Ka whakahaerehia he tātaritanga kaha me te maarama mo te katoa o te tango ki te rapu i tana matapihi tino kaha 2-meneti — ka taea tonu e koe te whakatika i te awhe ma te ringaringa i muri mai.",
+      "chart_caption": "Tohu mo ia matapihi",
+      "unavailable": "Ko te tātaritanga-2-meneti pai rawa atu kaore i te waatea i runga i tenei tūmau."
+    },
+    "takes_title": "Ka tango mai i tenei wahanga",
+    "takes_empty": "Kaore ano kia rekotia i tenei wahanga.",
+    "open_in_project": "Tuwhera i roto i te kaupapa",
+    "ws_disconnected": "Kei te hono ano ki te mita taumata…",
+    "select_project_first": "Kōwhiria he kaupapa hei timata.",
+    "select_device_first": "Kōwhiria he taputapu tāuru."
+  },
+  "project": {
+    "back_to_library": "Hoki ki te whare pukapuka",
+    "header": {
+      "status_label": "Tūnga",
+      "cover_upload": "Tukuake te uhi",
+      "cover_remove": "Tangohia te uhi",
+      "name_placeholder": "Ingoa kaupapa",
+      "links_title": "Hononga",
+      "add_link": "Tāpiri hono",
+      "mode": {
+        "voice": "Reo anake",
+        "voice_guitar": "Reo + kitara"
+      }
+    },
+    "tabs": {
+      "audio": "Ororongo",
+      "lyrics": "Waiata",
+      "prompts": "Tohutohu",
+      "notes": "Notes"
+    },
+    "audio": {
+      "takes_title": "Ka mau",
+      "no_takes": {
+        "title": "Kaore ano kia tango",
+        "description": "Tuhia he tango hou, kawemai ranei i tetahi konae."
+      },
+      "record_new": "Tuhia he tango hou",
+      "rating": "Whakatauranga",
+      "variant": {
+        "raw": "Matau",
+        "processed": "Tukatuka"
+      },
+      "variant_placeholder": "Putanga",
+      "process_button": "Tukanga",
+      "export_button": "Kaweake",
+      "delete_take_confirm_title": "Mukua tenei tango?",
+      "delete_take_confirm_description": "Ka tangohia te ororongo mata me nga putanga tukatuka katoa.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Tukatuka"
+      },
+      "origin": {
+        "recorded": "Kua tuhia",
+        "imported": "Kawemai"
+      },
+      "session_label_placeholder": "Tapanga Wātū (kōwhiringa)",
+      "duration": "Roanga",
+      "sample_rate": "Reiti tauira",
+      "channels": "Nga hongere",
+      "created_at": "Kua tuhia"
+    },
+    "pipeline": {
+      "title": "Tukatuka mekameka",
+      "preset_label": "Tatūkē",
+      "preset_none": "mekameka ritenga",
+      "preset_save": "Tiakina hei tatūkē",
+      "stage_locked": "Kua maukati",
+      "stage_requires_extra": "Ka hiahiatia he taapiri kaore ano kia whakauruhia",
+      "process_button": "Tukatuka tango",
+      "processing": "Tukatuka…",
+      "job_queued": "Tūtira…",
+      "job_running": "Tukatuka…",
+      "job_done": "Kua oti",
+      "job_error": "I rahua",
+      "job_cancelled": "Kua whakakorehia",
+      "cancel_job": "Whakakore",
+      "no_stages": "Kaore he waahanga e waatea ana."
+    },
+    "export": {
+      "title": "Kaweake tango",
+      "description": "Tukuna he kōnae whakamutunga mai i te putanga tukatuka.",
+      "variant_label": "Putanga",
+      "format_label": "Whakahōputu",
+      "preset_label": "Kaweake tatūkē",
+      "range_label": "Awhe",
+      "range_full": "Te roa katoa",
+      "range_custom": "Awhe ritenga",
+      "start_label": "Tīmata (ngā)",
+      "end_label": "Mutu (s)",
+      "submit": "Kaweake",
+      "progress": "Tāhuahua kōnae…",
+      "download_ready": "Kua reri te konae",
+      "download_button": "Tikiake kōnae"
+    },
+    "notes": {
+      "placeholder": "Ko nga tuhinga tuhi-kore mo tenei kaupapa…",
+      "saved_at": "Kua tiakina ki {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Tuhia nga kupu ki konei. Whakamahia te papatae i te taha ki te whakauru i nga tohu-meta Suno.",
+      "saved_at": "Kua tiakina ki {{time}} ",
+      "saving": "Tiaki…",
+      "versions": "Putanga",
+      "versions_empty": "Kaore ano kia tiakina nga putanga.",
+      "version_preview": "Arokite",
+      "restore": "Whakahokia tenei putanga",
+      "restore_confirm_title": "Whakaorangia tenei putanga?",
+      "restore_confirm_description": "Ka whakakapihia te tuhinga o naianei ki te putanga kua tiakina ki runga {{date}} .",
+      "metatags_title": "Tohu-meta",
+      "metatags_hint": "Patohia he tohu hei whakauru ki te pehu.",
+      "metatags_placebo_warning": "Kaore i whakamatauhia - kaore pea he paanga ki te hua.",
+      "metatags_empty": "Karekau he tohu-meta kua rehitatia."
+    },
+    "prompts": {
+      "style_title": "Kahua tere",
+      "lyrics_title": "Waitohu tere",
+      "template_label": "tauira",
+      "template_none": "Karekau he tauira",
+      "variables_title": "Taurangi",
+      "preview_title": "Arokite",
+      "preview_empty": "Tīpakohia he tauira ka whakakiia nga taurangi kia kite i te arokite.",
+      "char_count": " {{count}} pūāhua",
+      "char_count_warning": "Neke atu i te 1000 nga tohu ka poroa e Suno ka poroa e Suno.",
+      "copy": "Tārua",
+      "copied": "Kua tāruatia ki te papatopenga",
+      "save_to_project": "Tiakina ki te kaupapa",
+      "saved_to_project": "Whakaorangia te tohu ki te kaupapa",
+      "history_title": "Hītori",
+      "history_empty": "Kaore he putanga o mua.",
+      "current_label": "o nāianei"
+    },
+    "stems": {
+      "title": "Waiata me te kitara",
+      "separate_button": "Wehewehea nga waiata me te kita",
+      "running": "E wehe ana…",
+      "vocals": "Waiata",
+      "instrumental": "Taonga",
+      "process_stem": "Tukatia tenei kakau",
+      "empty": "Ko tenei tangohanga kaore ano kia wehea. Whakahaerehia te wehenga kia rongo mokemoke te reo oro me te kitara.",
+      "capability_missing": "Ko te wehenga puna kaore i whakauruhia ki runga i tenei tūmau.",
+      "unavailable": "Ko te wehenga oro/kitata kaore ano kia waatea i runga i tenei tūmau."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Kei runga",
+    "boolean_off": "Wehe"
+  },
+  "import": {
+    "title": "Kawemai",
+    "subtitle": "Kawea mai nga kaupapa kei runga i te kōpae ki roto i te whare pukapuka.",
+    "step_indicator": "Hipanga {{current}} o {{total}} ",
+    "step1": {
+      "title": "Kimihia te kōpaki",
+      "description": "Tohu ki te kōpaki pakiaka me o kaupapa me o ara.",
+      "path_label": "Ara kōpaki",
+      "path_placeholder": "e.g. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "No tata nei",
+      "scan_button": "Matawai kōpaki",
+      "scanning": "Matawai…",
+      "ffmpeg_warning": "Kaore i kitea te FFmpeg — ka pekehia nga konae e hiahia ana ki te huri.",
+      "folders_found_one": " {{count}} kōpaki kua kitea",
+      "folders_found_other": " {{count}} kōpaki i kitea",
+      "unmatched_files_one": " {{count}} konae kore mohio",
+      "unmatched_files_other": " {{count}} nga konae kore mohio"
+    },
+    "step2": {
+      "title": "Te arotake i nga taonga",
+      "description": "Tirohia nga ingoa, mana, me nga mea ka kawemai i mua i te whakau.",
+      "select_all": "Tīpakohia te katoa",
+      "table": {
+        "folder": "Kōpaki puna",
+        "name": "Ingoa kaupapa",
+        "status": "Tūnga",
+        "audio": "Ororongo",
+        "lyrics": "Waiata",
+        "cover": "Uwhi",
+        "album": "Pukaemi"
+      },
+      "audio_include_one": " {{count}} konae kua tohua",
+      "audio_include_other": " {{count}} nga konae kua tohua",
+      "no_audio": "Karekau he ororongo i kitea",
+      "no_lyrics": "Karekau he kupu i kitea",
+      "no_cover": "Karekau he uhi",
+      "warnings_title": "Whakatupato"
+    },
+    "step3": {
+      "title": "Kawemai",
+      "description": "Whakaū ki te kape i nga konae me te hanga kaupapa.",
+      "copy_originals": "Tāruahia ngā kōnae taketake ki te whare pukapuka",
+      "execute_button": "Tīmata te kawemai",
+      "progress_title": "Kei te kawemai…",
+      "created_count": "Hangaia: {{count}} ",
+      "skipped_count": "I pekehia: {{count}} ",
+      "done_title": "Kua oti te kawemai",
+      "done_description": "I hangaia nga kaupapa i raro nei i to whare pukapuka.",
+      "view_project": "Tuwhera kaupapa",
+      "start_over": "Kawemai hou"
+    }
+  },
+  "templates": {
+    "title": "Nga tauira",
+    "subtitle": "Ka taea te whakamahi ano i nga tauira tere me nga tohu-meta mo Suno.",
+    "tabs": {
+      "prompts": "Nga tauira wawe",
+      "metatags": "Tohu-meta"
+    },
+    "new_template": "tauira hou",
+    "kind": {
+      "style": "Kāhua",
+      "lyrics": "Waiata"
+    },
+    "kind_label": "Ataahua",
+    "delete_confirm_title": "Mukua te tauira \" {{name}} \"?",
+    "delete_confirm_description": "Kaore e taea te whakakore i tenei.",
+    "empty": "Kaore ano he tauira.",
+    "editor": {
+      "title_new": "tauira hou",
+      "title_edit": "Whakatika tauira",
+      "name_label": "Ingoa",
+      "name_placeholder": "e.g. puoro puoro",
+      "kind_label": "Ataahua",
+      "template_label": "Kuputuhi tauira",
+      "template_hint": "Tohua kei hea ia taurangi me tona ingoa kua takai ki nga taiapa mingimingi rua — hei tauira, ko te taurangi ko te \"momo\" ka huri hei momo takai ki nga taiapa tuwhera e rua me nga taiapa kati e rua.",
+      "variables_label": "Taurangi",
+      "variable_add": "Tāpiri taurangi",
+      "variable_name": "Kī",
+      "variable_label": "Tapanga",
+      "variable_type": "Momo",
+      "variable_type_string": "Kuputuhi",
+      "variable_type_select": "Whiriwhiri takitahi",
+      "variable_type_multiselect": "Tohu-maha",
+      "variable_type_number": "Tau",
+      "variable_type_boolean": "Ae/kao",
+      "variable_options": "Kōwhiringa (whakawehea piko)",
+      "variable_required": "E hiahiatia ana",
+      "save": "Tiaki tauira"
+    },
+    "metatags": {
+      "title": "Tohu-meta",
+      "subtitle": "Ko nga tohu hanganga me te ahua ka mohio a Suno ki roto i nga kupu.",
+      "new_tag": "Tohu hou",
+      "tag_label": "Tūtohu",
+      "tag_placeholder": "e.g. kita-kotahi",
+      "category_label": "Kāwai",
+      "tier_label": "Te pono",
+      "tier_legend_title": "Korero pono",
+      "tier_legend": {
+        "1": "Tier 1 - tuhia me te rite",
+        "2": "Tier 2 — te tikanga mahi",
+        "3": "Tier 3 — pānga taurangi",
+        "4": "Tier 4 — placebo, unproven"
+      },
+      "description_label": "Whakaahuatanga",
+      "delete_confirm_title": "Mukua te tohu \" {{tag}} \"?",
+      "empty": "Kaore ano he tohu-meta ritenga."
+    }
+  },
+  "settings": {
+    "title": "Tautuhinga",
+    "subtitle": "Nga korero a te punaha, te reo, me nga manakohanga taunoa.",
+    "system_info_title": "Pūnaha",
+    "version": "Putanga",
+    "data_dir": "kōpaki raraunga",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Kei te waatea",
+    "ffmpeg_missing": "Kaore i kitea",
+    "capabilities_title": "Kua whakauruhia nga kaha",
+    "capability": {
+      "denoise": "Te whakaheke haruru",
+      "quality": "Te whakapai ake i te kounga",
+      "separate": "Te wehenga puna",
+      "ffmpeg": "Te hurihanga FFmpeg"
+    },
+    "capability_available": "Kei te waatea",
+    "capability_unavailable": "Kāore i te wātea",
+    "gpu_title": "Whakatere GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime kaiwhakarato"
+    },
+    "gpu_none": "Karekau he kaiwhakarato GPU i kitea",
+    "language_title": "Reo",
+    "language": {
+      "pt-BR": "Português (Brasil)",
+      "en": "Ingarihi"
+    },
+    "theme_title": "Te ahua",
+    "theme": {
+      "dark": "pouri",
+      "light": "Maama"
+    },
+    "defaults_title": "Kaweake taunoa",
+    "lufs_target_label": "LUFS whainga",
+    "lufs_target_hint": "Ka whakamahia hei whakaaro timatanga i te wa e kaweake ana. Ko te taunoa a Suno kei te taha -14 LUFS.",
+    "saved": "Kua tiakina nga manakohanga"
+  },
+  "guide": {
+    "title": "Aratohu tuhi Suno",
+    "subtitle": "Me pehea te hopu i te reo me te kitara ka whai hua pai.",
+    "intro": "He pai te mahi a Suno me nga tohutoro maamaa, maamaa. Kei roto i tenei aratohu te whakarite, nga taumata taumata, me te tuhi tuhi 3-5 meneti.",
+    "sections": {
+      "prep": {
+        "title": "Whakaritenga",
+        "body": "Tuhia ki roto i tetahi ruma kua oti te rongoa, tetahi ranei he maha nga mea ngawari (he arai, he whariki, he kakahu kei roto i te wharepaku). Whakawetohia nga kaiwhaiwhai me nga mea katoa e tangi ana. Whakawerahia to reo mo te 5 meneti i mua i te tuhi."
+      },
+      "levels": {
+        "title": "Taumata: -12 ki te -6 dBFS",
+        "body": "Whaia nga tihi kei waenga i te -12 me te -6 dBFS i runga i te mita. I raro iho i tera awhe, ka kitea te haruru papamuri; kei runga ake, ka piki ake te mate tope. Whakamahia te mita i runga i te wharangi Tuhia hei whakarite i to whiwhinga i mua i to tiimata."
+      },
+      "distance": {
+        "title": "Te tawhiti o te Mic: 15–30 cm",
+        "body": "Noho 15 ki te 30 cm mai i te hopuoro. Ko te tata atu i tera ka whakanui i nga plosives me te paanga tata; i tawhiti ka piki ake te reverb ruma me te haruru."
+      },
+      "script": {
+        "title": "Te tuhi tuhi",
+        "warmup": "Whakawera reo (1–2 meneti)",
+        "vowels": "Oropuare mau tonu — a, e, i, o, u",
+        "scales": "He unahi ngawari, whakarunga me raro",
+        "excerpt": "He wahanga waiata (8 ki te 16 pae)",
+        "dynamics": "Nga hihiko: timata marie, mutu nui",
+        "spoken_phrase": "Kotahi te rerenga korero, kia taea e Suno te panui i to reo oro"
+      },
+      "expectations": {
+        "title": "Ko ta Suno e tumanako ana",
+        "body": "WAV, 48 kHz, mono, maroke (kaore he reverb, he paanga ranei), 3 ki te 5 meneti tohutoro. Ko te tino ma, ko te tino tohu mo te 2 meneti o te tango i te nuinga o nga wa ka puta nga hua pai."
+      }
+    }
+  },
+  "status": {
+    "idea": "Whakaaro",
+    "em_progresso": "Kei te ahu whakamua",
+    "quase": "Tata ki reira",
+    "pronto": "Kua reri"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Katoa te tuhi reo mo Suno",
+      "desc": "5 meneti e arahina ana: te whakamahana, te oropuare, te unahi, e rua nga wahanga waiata, te hihiko, me tetahi rerenga korero."
+    },
+    "step": {
+      "warmup": "Whakawera reo",
+      "warmup_inst": "Whakamaamahia me te uwha, te ngongo ngutu (brrr), me te hamumu ngawari mo te meneti. Kare he take ki te rekoata — he whakamaarama noa to korokoro i mua i te waiata.",
+      "vowels": "Oro puare pumau",
+      "vowels_inst": "Kia mau ki ia oropuare — a, e, i, o, u — mo te 3 ki te 4 hēkona ki to reo pai, me te oro tuturu. Ma tenei ka awhina a Suno ki te tiki ake i te timbre parakore o to reo.",
+      "scales": "Tauine ki runga me raro",
+      "scales_inst": "Waiatahia he unahi ngawari ki runga ka heke iho, ki runga \"la\" ranei \"na\". Ehara i te mea kia tino tika — ko te whainga ko te mapi i to awhe reo.",
+      "section": "Waiata waiata — wahanga 1",
+      "section_inst": "Waiatahia 8 ki te 16 pae o te waiata, me te tino whakaaro e hiahia ana koe ki te kawe. Whakanuia te marama me te aroaro i runga i te tino hangarau.",
+      "section2": "Waiata waiata — wahanga 2",
+      "section2_inst": "Waiatahia etahi atu 8 ki te 16 pae - he pai te waiata, he waahanga ranei e rereke ana ki tera o mua. He maha ake nga momo ka awhina i te tauira ki te ako i to reo.",
+      "dynamics": "Hihiko: ngawari → reo",
+      "dynamics_inst": "Waiatahia te rerenga korero ano ka timata te ngawari me te mutunga o te reo, me te kore e raru to korokoro. E whakaatu ana tenei ki a Suno te awhe hihiri o to reo.",
+      "spoken": "Kupu korero",
+      "spoken_inst": "Korero — kaua e waiata — he kupu poto, he kupu maori, me te mea kei te korerorero koe. Ma tenei ka awhina a Suno ki te mohio ki te timbre o to reo."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Whakaora",
+      "filter": "Tātari",
+      "dynamics": "Nga hihiko",
+      "separation": "Wehewehenga",
+      "quality": "Kounga",
+      "utility": "Whakamahinga",
+      "loudness": "Haruru"
+    },
+    "highpass": "Tātari haere teitei",
+    "lowpass": "Tātari haere iti",
+    "denoise": "Te whakaheke haruru",
+    "declip": "Te whakaheke",
+    "declick": "Paohia/tango pahū",
+    "deesser": "De-esser",
+    "gate": "kuwaha haruru",
+    "compressor": "Kōpeke",
+    "limiter": "Te here",
+    "eq": "Whakaōrite",
+    "normalize": "Whakataunga teitei",
+    "loudness": "Whakaritenga reo (LUFS)",
+    "reverb_reduce": "Reverb reverb",
+    "separate": "Te wehenga puna",
+    "quality": "Te whakapai ake i te kounga (whakaekea)",
+    "trim_silence": "Kuti wahangu",
+    "fade": "Muhani ki roto / memeha atu",
+    "stereo_to_mono": "Tahuri ki te mono",
+    "resample": "Te whakatauira"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Whakapono",
+      "2": "Ka mahi tonu",
+      "3": "Taurangi",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Hanganga",
+      "vocal": "Waioro",
+      "instrument": "Taputapu",
+      "dynamics": "Nga hihiko",
+      "production": "Whakaputa",
+      "mood": "Te huru"
+    },
+    "verse": "Te whiti",
+    "chorus": "Chorus",
+    "bridge": "Piriti",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Matau",
+    "prechorus": "Tuhinga o mua",
+    "instrumental": "Taonga",
+    "guitar_solo": "Kitata takitahi",
+    "build_up": "Hanga-ake",
+    "breakdown": "Te pakaruhanga",
+    "spoken_word": "Kupu korero",
+    "whispered": "Komuhumuhu",
+    "harmonies": "Harmoni",
+    "male_vocal": "Te reo tane",
+    "female_vocal": "Te reo wahine",
+    "duet": "Takirua",
+    "acoustic": "Ororongo",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Te reo ma",
+    "voice_guitar_balanced": "Te reo taurite me te kitara",
+    "podcast": "Podcast",
+    "suno_ready": "Kua rite a Suno",
+    "gentle_restore": "Whakahokia ngawari",
+    "raw_passthrough": "Kaore he tukatuka"
+  },
+  "errors": {
+    "unknown": "Kua he tetahi.",
+    "network": "Kāore i taea te toro atu ki te tūmau.",
+    "validation_error": "Tirohia nga korero i whakauruhia e koe.",
+    "not_found": "Kāore i kitea te tūemi.",
+    "project_not_found": "Kāore te kaupapa i kitea.",
+    "take_not_found": "Kaore i kitea te tango.",
+    "album_not_found": "Kaore i kitea te pukaemi.",
+    "preset_not_found": "Kaore i kitea te tatūkē.",
+    "template_not_found": "Kaore i kitea te tauira.",
+    "device_busy": "Kei te whakamahia te taputapu ororongo e tetahi atu papatono.",
+    "device_not_found": "Kaore i kitea te taputapu ororongo.",
+    "already_recording": "Kei te haere kee tetahi rekoata.",
+    "ffmpeg_missing": "Kāore te FFmpeg i te tāuta — tāuta hei huri i tēnei kōnae.",
+    "disk_full": "He iti rawa te mokowā kōpae.",
+    "permission_denied": "Kua whakakorehia te whakaaetanga mo te huarahi kua homai.",
+    "import_path_not_found": "Ko te ara kawemai kaore i kitea.",
+    "job_failed": "I rahua te tukatuka.",
+    "job_cancelled": "I whakakorehia te tukatuka.",
+    "process_failed": "I rahua te tukatuka i te tango.",
+    "export_failed": "I rahua te kaweake i te konae.",
+    "record_failed": "I rahua te tiimata ki te tuhi."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Tūtira",
+      "running": "Rere ana",
+      "done": "Kua oti",
+      "error": "I rahua",
+      "cancelled": "Kua whakakorehia"
+    },
+    "kind": {
+      "process": "Tukatuka",
+      "export": "Kaweake",
+      "import": "Kawemai",
+      "record": "Te tuhi"
+    }
+  }
+}

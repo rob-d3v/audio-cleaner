@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Chisalazya Majwi"
+  },
+  "nav": {
+    "library": "Laibbulali",
+    "record": "Lekkooda",
+    "import": "Kunjizya",
+    "templates": "Zikozyanyo",
+    "settings": "Zibikkidwe",
+    "guide": "Musolozi"
+  },
+  "common": {
+    "save": "bamba",
+    "saving": "Kubamba...",
+    "saved": "Yakabambwa",
+    "cancel": "Kuleka",
+    "close": "Jala",
+    "delete": "Zima",
+    "edit": "Bamba",
+    "create": "Panga",
+    "search": "Yanduula",
+    "loading": "Kubikka...",
+    "error": "kulubizya",
+    "retry": "Kosola alimwi",
+    "confirm": "sinizya",
+    "back": "Kujokela",
+    "next": "Chitobela",
+    "continue": "Kozumanana",
+    "finish": "Maninizya",
+    "copy": "Kopa",
+    "copied": "Zyakakopololwa",
+    "download": "Kopolola",
+    "upload": "Kobikka",
+    "none": "Taakwe",
+    "all": "Zyoonse",
+    "yes": "Iyi",
+    "no": "Peepe",
+    "select": "Sala",
+    "optional": "chakulisalila",
+    "required": "ziyandika",
+    "unsaved_changes": "Kuchincha kutabikkidwe",
+    "name": "Zina",
+    "status": "Chiimo",
+    "type": "Musyobo",
+    "actions": "Michito",
+    "empty": "Kunyina chintu",
+    "browse": "Langa",
+    "remove": "Gwisya",
+    "add": "Koyungizya",
+    "rename": "Kuchincha zina",
+    "duplicate": "Kozyanisya",
+    "warning": "Kuchenjezya",
+    "locked": "Yajalidwe",
+    "builtin": "Yakayakidwe mukati",
+    "custom": "Chiyanza",
+    "untitled": "Kakwiina mutwe",
+    "select_placeholder": "Sala..."
+  },
+  "library": {
+    "title": "Laibbulali",
+    "subtitle": "Ijwi lyako antoomwe amapulojekiti aagitala, kuzwa kumuzeezo kusikila kukuzwa.",
+    "new_project": "Ipulojekiti mpya",
+    "new_album": "Alubamu mpya",
+    "search_placeholder": "Yanduula azina...",
+    "view": {
+      "grid": "Gridi",
+      "albums": "Ma Album"
+    },
+    "filters": {
+      "all": "Zyoonse"
+    },
+    "take_count_one": " {{count}} kubweza",
+    "take_count_other": " {{count}} utola",
+    "updated_at": "Yakacincwa {{date}} ",
+    "no_results": {
+      "title": "Taakwe milimu yakajanwa",
+      "description": "Amusole kuchincha nzila yakuyandaula naakuti chiimo."
+    },
+    "empty": {
+      "title": "Ilayibbulali yako taikwe chintu",
+      "description": "Talika pulojekiti mpya kuzwa kumatalikilo, naakuti kuleta zintu nzyojisi kale aadisiki.",
+      "cta_import": "Kobweza kuzwa mufooloda",
+      "cta_new": "Panga pulojekiti"
+    },
+    "project_dialog": {
+      "title": "Ipulojekiti mpya",
+      "description": "Chipe zina mpawo usale nzila yakulekkooda.",
+      "name_label": "Izina lyapulojekiti",
+      "name_placeholder": "c.a. Mvwula yaChilimo",
+      "mode_label": "Nzila",
+      "mode": {
+        "voice": "Ijwi luzutu",
+        "voice_guitar": "Ijwi + gitali"
+      },
+      "submit": "Panga pulojekiti"
+    },
+    "album_dialog": {
+      "title": "Alubamu mpya",
+      "description": "Bikka milimo iiswaangene mubbuku lyanyimbo.",
+      "name_label": "Izina lyaalubamu",
+      "name_placeholder": "c.a. EP yamupeyo",
+      "submit": "Panga bbuku"
+    },
+    "album": {
+      "untitled": "Alubamu iitakwe mutwe",
+      "members_count_one": " {{count}} pulojekiti",
+      "members_count_other": " {{count}} milimu",
+      "empty": "Taakwe milimu mubbuku eeli lino.",
+      "delete_confirm_title": "Kuzima bbuku?",
+      "delete_confirm_description": "Mapulojekiti taakwe nayoogwisigwa pe, ayoogwisigwa buyo kuzwa ku \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Kuzima \" {{name}} \"?",
+      "confirm_description": "Eezi zigwisya pulojekiti azintu zyoonse zili mulinjiyo. Eezi tazikonzyi kujokolosyegwa pe."
+    }
+  },
+  "record": {
+    "title": "Lekkooda",
+    "subtitle": "Kobweza chifanikisyo chisalala, langa ma leveli aako, mpawo utobelezye lugwalo.",
+    "project_label": "Ipulojekiti",
+    "project_placeholder": "Sala pulojekiti",
+    "project_create_quick": "Panga pulojekiti yakufwambaana...",
+    "device_label": "Chibelesyo chakunjizya",
+    "device_placeholder": "Sala chintu",
+    "device_default_badge": "Chiimo cheenzu",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Taakwe zibelesyo zyakunjizya zyakajanika.",
+    "monitor_button": "Langa",
+    "monitor_stop_button": "Leka kulanga",
+    "record_button": "Lekkooda",
+    "stop_button": "Ima",
+    "elapsed_label": "Chiindi chakainda",
+    "status": {
+      "idle": "Kutabeleka",
+      "monitoring": "Kulanga",
+      "recording": "Kulekkooda",
+      "stopped": "wakaima"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Chilundu",
+      "clip": "Chibeela"
+    },
+    "guide": {
+      "title": "Chiiyo chisololelwa",
+      "subtitle": "Leka muyiisi kuti akusololele mubbuku lyamakani ntaamu a ntaamu, kuzwa kukulibambila kusikila kumajwi aambwa.",
+      "loading": "Kubikka lugwalo...",
+      "unavailable": "Chiiyo chisololelwa tachiliwo a seva pe.",
+      "select_project_device": "Sala pulojekiti achibelesyo chakulemba kuti ulembe ntaamu kuzwa aawa.",
+      "progress": " {{done}} ya {{total}} ntaamu",
+      "start_timer": "Chiindi chakutalisya",
+      "skip_timer": "Swaya chiindi",
+      "record_step": "Lekkooda ntaamu eeyi",
+      "stop_step": "Ima kulekkooda",
+      "mark_done": "Kwamana — ntaamu itobela",
+      "step_recorded": "Kobweza zyakalekkoodwa",
+      "no_record_step": "Ntaamu yakulibambila — kunyina kulekkooda kuyandika pe.",
+      "bars_hint": "Aali {{bars}} mabbaala",
+      "complete_title": "Malembe amana!",
+      "complete_body": "Mwakalemba ntaamu zyoonse zya script. Jokela ku Audio tab ya pulojekiti mpawo usale zifwanikiso nzyoyandisya.",
+      "restart": "Talika lubo lugwalo"
+    },
+    "best2min": {
+      "button": "yanduula maminiti obile mabotu (Suno)",
+      "running": "Kulanga-langa kubweza...",
+      "score_label": "Chikolo",
+      "hint": "Chichita bweendelezi bwanguzu akusalala muchiindi choonse kuti ujane windo lyamaminiti obile - ulakonzya kuchincha mweelwe amaanza musule.",
+      "chart_caption": "Mapoinzi aawindo lyomwe",
+      "unavailable": "Buvwuntauzi buli kabotu bwamaminiti obile tabuliko pe aa seva eeyi pe."
+    },
+    "takes_title": "Kuzwa muchiiyo eechi",
+    "takes_empty": "Kunyina zifwanikiso zyakalekkoodwa muchiiyo eechi lino.",
+    "open_in_project": "Jula mupulojekiti",
+    "ws_disconnected": "Kuswaangana alimwi kumweelwe wamita...",
+    "select_project_first": "Sala mulimo wakutalika.",
+    "select_device_first": "Sala chintu chakunjizya."
+  },
+  "project": {
+    "back_to_library": "Kujokela ku laibbulali",
+    "header": {
+      "status_label": "Chiimo",
+      "cover_upload": "Bika chivwumbyo",
+      "cover_remove": "Gwisya chivwumbyo",
+      "name_placeholder": "Izina lyapulojekiti",
+      "links_title": "Ma linki",
+      "add_link": "Koyungizya linki",
+      "mode": {
+        "voice": "Ijwi luzutu",
+        "voice_guitar": "Ijwi + gitali"
+      }
+    },
+    "tabs": {
+      "audio": "Majwi",
+      "lyrics": "Majwi",
+      "prompts": "Kukulwaizya",
+      "notes": "Malembe"
+    },
+    "audio": {
+      "takes_title": "Kutola",
+      "no_takes": {
+        "title": "Kunyina kubweza pe",
+        "description": "Lekkooda chitondeezyo chipya naakuti ubweze fayela liliwo kale."
+      },
+      "record_new": "Lekkooda chitondeezyo chipya",
+      "rating": "Kupima",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Yakabambwa"
+      },
+      "variant_placeholder": "Musyobo",
+      "process_button": "Nzila",
+      "export_button": "Kutumizya kunze",
+      "delete_take_confirm_title": "Kuzima eechi?",
+      "delete_take_confirm_description": "Ijwi litabelesyegwi alubono loonse lwakabambululwa ziyoogwisigwa.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Yakabambwa"
+      },
+      "origin": {
+        "recorded": "Zyakalekkoodwa",
+        "imported": "Zyakanjizigwa"
+      },
+      "session_label_placeholder": "Izina lyachiiyo (kulisalila)",
+      "duration": "Bulamfu",
+      "sample_rate": "Mweelwe wasampulu",
+      "channels": "Nzila",
+      "created_at": "Zyakalekkoodwa"
+    },
+    "pipeline": {
+      "title": "Nketani yakubamba",
+      "preset_label": "Chibikkidwe kale",
+      "preset_none": "Nketani yachiyandisyo",
+      "preset_save": "bamba mbuli mbukwakabambwa kale",
+      "stage_locked": "Yajalidwe",
+      "stage_requires_extra": "Kuyandika zimwi zitabikkidwe",
+      "process_button": "Nzila yakutobelezya",
+      "processing": "Kubamba...",
+      "job_queued": "Mulongo...",
+      "job_running": "Kubamba...",
+      "job_done": "Kwamana",
+      "job_error": "Yakachilwa",
+      "job_cancelled": "Kwakachilwa",
+      "cancel_job": "Kuleka",
+      "no_stages": "Taakwe zitebulu ziliwo."
+    },
+    "export": {
+      "title": "Kutumina kunze",
+      "description": "Bikka fayela lyamamanino kuzwa kuli bbazu lyakabambwa.",
+      "variant_label": "Musyobo",
+      "format_label": "Kubamba",
+      "preset_label": "Kutumina anze zyakabikkwa kale",
+      "range_label": "Mweelwe",
+      "range_full": "Bulamfu boonse",
+      "range_custom": "Chiimo cheenzu",
+      "start_label": "Talika (s)",
+      "end_label": "Mamanino (s)",
+      "submit": "Kutumizya kunze",
+      "progress": "Kupa fayela...",
+      "download_ready": "Fayila ililibambilide",
+      "download_button": "Kopolola fayela"
+    },
+    "notes": {
+      "placeholder": "Malembe aatabbadelelwi aatala amulimu ooyu...",
+      "saved_at": "Yakabambwa a {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Lemba majwi aawa. Belesya bbala lili kumbali kuti ubike ma meta-tags aa Suno.",
+      "saved_at": "Yakabambwa a {{time}} ",
+      "saving": "Kubamba...",
+      "versions": "Misyobo",
+      "versions_empty": "Kunyina zibeela zyakabambwa pe.",
+      "version_preview": "Kulanga-langa",
+      "restore": "Bweedezya eeyi nzila",
+      "restore_confirm_title": "Bweedezya musyobo ooyu?",
+      "restore_confirm_description": "Malembe aaliwo lino ayoonjililwa busena aayo aakayobolwa a {{date}} .",
+      "metatags_title": "Ma Meta-tags",
+      "metatags_hint": "Dina tag kuti uyibike aachikozyano.",
+      "metatags_placebo_warning": "Kakwiina bumboni — inga tiikwaba ampindu pe.",
+      "metatags_empty": "Taakwe ma meta-tags aalembedwe."
+    },
+    "prompts": {
+      "style_title": "Chitondeezyo chachiimo",
+      "lyrics_title": "Majwi amajwi",
+      "template_label": "Chitondeezyo",
+      "template_none": "Taakwe chikozyano",
+      "variables_title": "Zintu zicinca",
+      "preview_title": "Kulanga-langa",
+      "preview_empty": "Sala chikozyano mpawo uzuzye zintu zikonzya kuchincha kuti ubone chikozyano.",
+      "char_count": " {{count}} mabala",
+      "char_count_warning": "Inzila zyakulemba ziinda ku 1000 zilakonzya kugonkwa a Suno.",
+      "copy": "Kopa",
+      "copied": "Zyakakopololwa kubboodi",
+      "save_to_project": "bamba kupulojekiti",
+      "saved_to_project": "Chitondeezyo chakabambwa mupulojekiti",
+      "history_title": "Makani aakaindi",
+      "history_empty": "Taakwe zyakaindi.",
+      "current_label": "Malino"
+    },
+    "stems": {
+      "title": "Ijwi a gitali",
+      "separate_button": "Kwaandaanya majwi agitala",
+      "running": "Kwaandaanya...",
+      "vocals": "Majwi",
+      "instrumental": "Zibelesyo",
+      "process_stem": "Kobamba chisiko eechi",
+      "empty": "Ooku kubweza takuna kwaandaanizyigwa pe. Chita kwaandaana kuchitila kuti umvwe majwi agitala kazilikke.",
+      "capability_missing": "Kwaandaanya nkozizwa takubikkidwe aa seva eeyi.",
+      "unavailable": "Kwaandaanya majwi/gitala takujaniki pe aa seva eeyi pe."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Ku",
+    "boolean_off": "Zima"
+  },
+  "import": {
+    "title": "Kunjizya",
+    "subtitle": "Koleta milimu iiliwo kale aadisiki mu laibbulali.",
+    "step_indicator": "Ntaamu {{current}} ya {{total}} ",
+    "step1": {
+      "title": "Yanduula fooloda",
+      "description": "Tondezya kufooloda yamiyanda yamapulojekiti aako anzila zyako.",
+      "path_label": "Nzila ya folda",
+      "path_placeholder": "c.a. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "Ino-ino",
+      "scan_button": "Sena fooloda",
+      "scanning": "Kuskena...",
+      "ffmpeg_warning": "FFmpeg tiiyakajanwa pe — ma fayela ayanda kusandulwa ayoolekwa.",
+      "folders_found_one": " {{count}} folda yakajanwa",
+      "folders_found_other": " {{count}} mafooloda akajanwa",
+      "unmatched_files_one": " {{count}} fayela litazyibidwe",
+      "unmatched_files_other": " {{count}} ma fayila aatazyibidwe"
+    },
+    "step2": {
+      "title": "Zilangisisya zintu",
+      "description": "Langa mazina, ziimo, azintu ziyooletwa kotanasinizya.",
+      "select_all": "Sala zyoonse",
+      "table": {
+        "folder": "Fooloda yakusaanguna",
+        "name": "Izina lyapulojekiti",
+        "status": "Chiimo",
+        "audio": "Majwi",
+        "lyrics": "Majwi",
+        "cover": "Chivwumbyo",
+        "album": "Albumu"
+      },
+      "audio_include_one": " {{count}} fayela lyakasalwa",
+      "audio_include_other": " {{count}} ma fayela asalidwe",
+      "no_audio": "Taakwe majwi aajanika",
+      "no_lyrics": "Taakwe majwi aajanika",
+      "no_cover": "Taakwe chivwumbyo",
+      "warnings_title": "Kuchenjezya"
+    },
+    "step3": {
+      "title": "Kunjizya",
+      "description": "sinizya kuti ukkope ma fayela mpawo upange mapulojekiti.",
+      "copy_originals": "Kopa ma fayela aakusaanguna mu laibbulali",
+      "execute_button": "Talika kunjizya",
+      "progress_title": "Kuleta...",
+      "created_count": "Yakabambwa: {{count}} ",
+      "skipped_count": "Zyakasotoka: {{count}} ",
+      "done_title": "Kunjizya kwamana",
+      "done_description": "Mapulojekiti aali ansi aawa akapangwa mu laibbulali yako.",
+      "view_project": "Jula pulojekiti",
+      "start_over": "Kunjizya kupya"
+    }
+  },
+  "templates": {
+    "title": "Zikozyanyo",
+    "subtitle": "Ma template aakonzya kubelesegwa alimwi ama meta-tags aa Suno.",
+    "tabs": {
+      "prompts": "Zitondezyo zyakufwambaana",
+      "metatags": "Ma Meta-tags"
+    },
+    "new_template": "Chikozyano chipya",
+    "kind": {
+      "style": "Sitayila",
+      "lyrics": "Majwi"
+    },
+    "kind_label": "Luzyalo",
+    "delete_confirm_title": "Kuzima chikozyano \" {{name}} \"?",
+    "delete_confirm_description": "Eezi tazikonzyi kujokolosyegwa pe.",
+    "empty": "Kunyina zikozyanyo pe.",
+    "editor": {
+      "title_new": "Chikozyano chipya",
+      "title_edit": "Bambulula chikozyano",
+      "name_label": "Zina",
+      "name_placeholder": "c.a. Lwiimbo lwa Acoustic",
+      "kind_label": "Luzyalo",
+      "template_label": "Malembe aachikozyano",
+      "template_hint": "Bikka aawo chimwi achimwi chintu nchochizwa azina lyacho kalivwungidwe mumabala obile — mbuli chitondeezyo, chintu chikonzya kuchincha chiitwa kuti \"musyobo\" chiba chintu chivwungidwe mumabala obile aakusaanguna alimwi aabili aakujala.",
+      "variables_label": "Zintu zicinca",
+      "variable_add": "Koyungizya zintu zichincha",
+      "variable_name": "Kii",
+      "variable_label": "Lebula",
+      "variable_type": "Musyobo",
+      "variable_type_string": "Malembe",
+      "variable_type_select": "Kusala komwe",
+      "variable_type_multiselect": "Kusala zyiingi",
+      "variable_type_number": "Namba",
+      "variable_type_boolean": "Iyi/peepe",
+      "variable_options": "Zyakusala (zyaandaanizyidwe akkoma)",
+      "variable_required": "ziyandika",
+      "save": "bamba chikozyano"
+    },
+    "metatags": {
+      "title": "Ma Meta-tags",
+      "subtitle": "Bupange anzila zyakulemba Suno ulaziba mukati kamajwi.",
+      "new_tag": "Tagi mpya",
+      "tag_label": "Tag",
+      "tag_placeholder": "c.a. gitali-alikke",
+      "category_label": "Chibaka",
+      "tier_label": "Kusyomeka",
+      "tier_legend_title": "Makani aakusyomeka",
+      "tier_legend": {
+        "1": "Chibaka 1 — chilembedwe mpawo chizumanana",
+        "2": "Chiimo 2 — kanjikanji chilabeleka",
+        "3": "Chibeela 3 — mpindu iikonzya kuchincha",
+        "4": "Chibeela 4 — musamu uutali kabotu, uutanasinizyigwa"
+      },
+      "description_label": "Bupanduluzi",
+      "delete_confirm_title": "Kuzima bbala lyakuti \" {{tag}} \"?",
+      "empty": "Kunyina ma meta-tags aalikke lino."
+    }
+  },
+  "settings": {
+    "title": "Zibikkidwe",
+    "subtitle": "Makani aajatikizya nzila, mwaambo, azintu nzyotuyanda.",
+    "system_info_title": "Nzila",
+    "version": "Musyobo",
+    "data_dir": "Fooloda ya data",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "zilajanwa",
+    "ffmpeg_missing": "Tachikwe pe",
+    "capabilities_title": "Zibelesyo zyakabikkidwe",
+    "capability": {
+      "denoise": "Kuchesya muzuzumo",
+      "quality": "Kuyungizya bubotu",
+      "separate": "Kwaandaanya nkozizwa",
+      "ffmpeg": "FFmpeg kusanduka"
+    },
+    "capability_available": "zilajanwa",
+    "capability_unavailable": "Tazijaniki pe",
+    "gpu_title": "Kufwambaanya kwa GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "Basikupa chiindi cha ONNX"
+    },
+    "gpu_none": "Taakwe basikwaaba GPU bakajanika",
+    "language_title": "Mwaambo",
+    "language": {
+      "pt-BR": "Portugues (Brasil)",
+      "en": "Chingisi"
+    },
+    "theme_title": "Kuboneka",
+    "theme": {
+      "dark": "Mudima",
+      "light": "Mumuni"
+    },
+    "defaults_title": "Kutumizya kunze",
+    "lufs_target_label": "LUFS",
+    "lufs_target_hint": "Kubelesyegwa mbuli nzila yakutalisya aawo notuminwa kunze. Chiimo cha Suno chili afwaafwi a -14 LUFS.",
+    "saved": "Zyakuyanda zyakabambwa"
+  },
+  "guide": {
+    "title": "Malailile aakulekkooda aa Suno",
+    "subtitle": "Mbuti mbomukonzya kujata jwi a gitala kuti zipe mpindu zibotu.",
+    "intro": "Suno ulachita obotu kwiinda mukubelesya zitondezyo zisalala, zitakwe kudooneka. Bbuku eeli lijatikizya kulibambila, zyeelelo, antoomwe a script yakulekkooda yamaminiti aali 3-5.",
+    "sections": {
+      "prep": {
+        "title": "Kulibambila",
+        "body": "Lekkooda mukaanda kasalala naakuti kajisi zintu zinji ziteteete (maketeni, mabbaaji, zizwaato zili muchibbeeke). Zima mafeni azintu zyoonse zivwuuma. Bikka jwi lyako kwamaminiti aali 5 kotana lekkooda."
+      },
+      "levels": {
+        "title": "Ziimo: -12 kusika ku -6 dBFS",
+        "body": "Kosola kusika aakati ka -12 a -6 dBFS aamita. Munsi aachiimo eecho, muzuzumo wakusyule ulaboneka loko; atala lyawo, ntenda yakugela ilatanta. Belesya mita apeeji lyakulekkooda kubikka mpindu yako kotana talika."
+      },
+      "distance": {
+        "title": "Kulampa kwa maikkulofooni: 15-30 cm",
+        "body": "Kokkala 15 kusikila ku 30 cm kuzwa kumaikkulofooni. Kuswena afwaafwi kwiinda waawo kulayungizya ma plosives a proximity effect; kulaale kulatola muzuzumo mupati."
+      },
+      "script": {
+        "title": "Kulekkooda lugwalo",
+        "warmup": "Kubamba jwi (1-2 maminiti)",
+        "vowels": "Mavowela aatamani — a, e, i, o, u",
+        "scales": "Zipimyo zitakatazyi, kuya mujulu akuseluka",
+        "excerpt": "Chibeela chalwiimbo (8 kusikila ku 16 bars)",
+        "dynamics": "Kuchincha: kutalika chakufwambaana, kumanizya chakupozomoka",
+        "spoken_phrase": "Ijwi lyomwe lyaambwa, kuchitila kuti Suno akonzye kubala jwi lyako"
+      },
+      "expectations": {
+        "title": "Nchilangila Suno",
+        "body": "WAV, 48 kHz, mono, dry (kunyina kuzungaana naa kuchincha), 3 kusikila ku 5 maminiti aakutondezya. Maminiti obile aasalala, aatondezya kabotu kanjikanji ngaapa mpindu mbotu."
+      }
+    }
+  },
+  "status": {
+    "idea": "Muzeezo",
+    "em_progresso": "Chili mukuchitika",
+    "quase": "Aafwaafwi kusika",
+    "pronto": "ulilibambilide"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Ijwi lyoonse lya Suno",
+      "desc": "5 maminiti aasololelwa: kulibambila, mavowela, zipimyo, zibeela zyobile zyalwiimbo, kuchincha, antoomwe amajwi aambwa."
+    },
+    "step": {
+      "warmup": "Kubamba jwi",
+      "warmup_inst": "Lwaanguluka akuvwuuma, kuvwuuma kwamilomo (brrr), akuvwuuma kwakaindi kaniini. Takuyandiki kulekkooda pe — nkulyookezya nsingo yako kotananinga kwiimba.",
+      "vowels": "Mavowel aazumanana",
+      "vowels_inst": "Kojatisya bbala lyomwe lyomwe — a, e, i, o, u — kwamasekondi aali 3 kusikila kuli 4 aawo mpokugolela, ajwi litazungaani. Eezi zigwasya Suno kumvwisisisya jwi lyako.",
+      "scales": "Zipimyo kuya mujulu akuseluka",
+      "scales_inst": "Imba lwiimbo luubauba kuya mujulu mpawo kuya ansi, a \"la\" naa \"na\". Tachiyandiki kuti chilondokede pe — makanze ngakuti ukonzye kubamba jwi lyako.",
+      "section": "Chibeela chalwiimbo — chibeela 1",
+      "section_inst": "Imba zibeela zili 8 kusikila ku 16 zyalwiimbo, amakanze eeni ngoyanda kutondezya. Bikka kunembo kusalala akujanika kwiinda kulondoka kwabusongo.",
+      "section2": "Chibeela chalwiimbo — chibeela 2",
+      "section2_inst": "Imba zimwi zibeela zili 8 kusikila ku 16 — kabotu-kabotu kakuli kkorasi naa cibeela ciimpene aceeco cakainda. Kusiyana kunji kugwasya sikutondezya kwiiya jwi lyako.",
+      "dynamics": "Kuchincha: kuteteete → kuvwuuma",
+      "dynamics_inst": "Imba majwi ngaonya aaya kutalikila aansi mpawo wamanizya mujwi pati, kakunyina kukatazya nsingo yako. Eezi zitondezya Suno nguzu zyajwi lyako.",
+      "spoken": "Ijwi lyaambwa",
+      "spoken_inst": "Amwaambe — utaimbi — kaambyo kafwiifwi, mbuli kuti uli mukubandika. Eezi zigwasya Suno kuziba jwi lyako ncobeni."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Kubukulusya",
+      "filter": "Zisefa",
+      "dynamics": "Kuchincha",
+      "separation": "Kwaandaana",
+      "quality": "Bubotu",
+      "utility": "Lugwasyo",
+      "loudness": "Ijwi pati"
+    },
+    "highpass": "Sefa iiinda atala",
+    "lowpass": "Sefa iizwa munsi-munsi",
+    "denoise": "Kuchesya muzuzumo",
+    "declip": "Kucheya",
+    "declick": "Tyanka/kugwisya",
+    "deesser": "De-esser",
+    "gate": "Mulyango wamuzuzumo",
+    "compressor": "Ikkompresa",
+    "limiter": "Sikulesya",
+    "eq": "Kweelanisya",
+    "normalize": "Kubambulula kwachiindi chilamfu",
+    "loudness": "Kubamba jwi lili kabotu (LUFS)",
+    "reverb_reduce": "Ikucheesya kwamajwi",
+    "separate": "Kwaandaanya nkozizwa",
+    "quality": "Kuyungizya bubotu (kusumpuka)",
+    "trim_silence": "Kugwisya kuumuna",
+    "fade": "Kuzima mukati / kuzima anze",
+    "stereo_to_mono": "Sandula kuba mono",
+    "resample": "Kubweza lubo"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Kusyomeka",
+      "2": "kanjikanji chilabeleka",
+      "3": "Kuchincha",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Bupange",
+      "vocal": "Ijwi",
+      "instrument": "Chibelesyo",
+      "dynamics": "Kuchincha",
+      "production": "Kupanga",
+      "mood": "Kulimvwa"
+    },
+    "verse": "kapango",
+    "chorus": "Kwiimba",
+    "bridge": "Bbulogwe",
+    "intro": "Ntalisyo",
+    "outro": "Outro",
+    "hook": "Hook",
+    "prechorus": "Kwiimba kwakusaanguna",
+    "instrumental": "Zibelesyo",
+    "guitar_solo": "Gitala alikke",
+    "build_up": "Kuyaka",
+    "breakdown": "Kutyompokelwa",
+    "spoken_word": "Ijwi lyaambwa",
+    "whispered": "wakavwiya",
+    "harmonies": "Kweendelana",
+    "male_vocal": "Ijwi lyamwaalumi",
+    "female_vocal": "Ijwi lyamwanakazi",
+    "duet": "Duet",
+    "acoustic": "Ijwi",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Ijwi lisalala",
+    "voice_guitar_balanced": "Ijwi lyeelene agitala",
+    "podcast": "Podcast",
+    "suno_ready": "Suno ulilibambilide",
+    "gentle_restore": "Kubweedezya kabotu-kabotu",
+    "raw_passthrough": "Kunyina kubamba"
+  },
+  "errors": {
+    "unknown": "Kuli chintu chakalubide.",
+    "network": "Teewakakonzya kusika kuseva.",
+    "validation_error": "Langa makani ngowakabikka.",
+    "not_found": "Chintu tachijanwi pe.",
+    "project_not_found": "Ipulojekiti tiiyakajanwa pe.",
+    "take_not_found": "Kubweza tiikwakajanwa pe.",
+    "album_not_found": "Album tiiyakajanwa pe.",
+    "preset_not_found": "Zibikkidwe kale tazijanwi pe.",
+    "template_not_found": "Chitondeezyo tiichanwi pe.",
+    "device_busy": "Chibelesyo chakumvwa chibelesegwa apulogilamu imwi.",
+    "device_not_found": "Chibelesyo chakumvwa tachijaniki pe.",
+    "already_recording": "Kulekkooda kuli mukuchitika kale.",
+    "ffmpeg_missing": "FFmpeg tiiyakabikkidwe pe — koyibika kuti uchinche fayela eeli.",
+    "disk_full": "Taakwe busena buzulide pe.",
+    "permission_denied": "Kuzumizigwa kwakakilwa kunzila yakapegwa.",
+    "import_path_not_found": "Nzila yakunjizya tiiyakajanwa pe.",
+    "job_failed": "Kubamba kwaalilwa.",
+    "job_cancelled": "Kubamba kwakachilwa.",
+    "process_failed": "Kwakachilwa kuchita mulimu wakubweza.",
+    "export_failed": "Kwakachilwa kugwisya fayela.",
+    "record_failed": "Kwaalilwa kutalika kulekkooda."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Mulongo",
+      "running": "Kubalika",
+      "done": "Kwamana",
+      "error": "Yakachilwa",
+      "cancelled": "Kwakachilwa"
+    },
+    "kind": {
+      "process": "Kubamba",
+      "export": "Kutumizya kunze",
+      "import": "Kunjizya",
+      "record": "Kulekkooda"
+    }
+  }
+}

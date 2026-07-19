@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio Cleaner"
+  },
+  "nav": {
+    "library": "Bibliyotèk",
+    "record": "Dosye",
+    "import": "Enpòte",
+    "templates": "Modèl",
+    "settings": "Anviwònman",
+    "guide": "Gid"
+  },
+  "common": {
+    "save": "Sove",
+    "saving": "Sove…",
+    "saved": "Sove",
+    "cancel": "Anile",
+    "close": "Fèmen",
+    "delete": "Efase",
+    "edit": "Edit",
+    "create": "Kreye",
+    "search": "Rechèch",
+    "loading": "Chaje…",
+    "error": "Erè",
+    "retry": "Eseye ankò",
+    "confirm": "Konfime",
+    "back": "Retounen",
+    "next": "Next",
+    "continue": "Kontinye",
+    "finish": "Fini",
+    "copy": "Kopi",
+    "copied": "Kopi",
+    "download": "Telechaje",
+    "upload": "Telechaje",
+    "none": "Okenn",
+    "all": "Tout",
+    "yes": "Wi",
+    "no": "Non",
+    "select": "Chwazi",
+    "optional": "opsyonèl",
+    "required": "obligatwa",
+    "unsaved_changes": "Chanjman ki pa sove yo",
+    "name": "Non",
+    "status": "Estati",
+    "type": "Kalite",
+    "actions": "Aksyon",
+    "empty": "Vide",
+    "browse": "Browse",
+    "remove": "Retire",
+    "add": "Ajoute",
+    "rename": "Chanje non",
+    "duplicate": "Diplike",
+    "warning": "Avètisman",
+    "locked": "Fèmen",
+    "builtin": "Bati-an",
+    "custom": "Custom",
+    "untitled": "San tit",
+    "select_placeholder": "Chwazi…"
+  },
+  "library": {
+    "title": "Bibliyotèk",
+    "subtitle": "Vwa ou ak pwojè gita, soti nan lide a lage.",
+    "new_project": "Nouvo pwojè",
+    "new_album": "Nouvo album",
+    "search_placeholder": "Chèche pa non...",
+    "view": {
+      "grid": "Kadriyaj",
+      "albums": "Albums"
+    },
+    "filters": {
+      "all": "Tout"
+    },
+    "take_count_one": " {{count}} pran",
+    "take_count_other": " {{count}} pran",
+    "updated_at": "Mizajou {{date}} ",
+    "no_results": {
+      "title": "Yo pa jwenn okenn pwojè",
+      "description": "Eseye ajiste rechèch la oswa filtre estati a."
+    },
+    "empty": {
+      "title": "Bibliyotèk ou vid",
+      "description": "Kòmanse yon nouvo pwojè nan grafouyen, oswa enpòte pran ou deja genyen sou disk.",
+      "cta_import": "Enpòte soti nan katab",
+      "cta_new": "Kreye pwojè"
+    },
+    "project_dialog": {
+      "title": "Nouvo pwojè",
+      "description": "Bay li yon non epi chwazi yon mòd anrejistreman.",
+      "name_label": "Non pwojè a",
+      "name_placeholder": "pa egzanp Lapli pandan ete",
+      "mode_label": "Mode",
+      "mode": {
+        "voice": "Vwa sèlman",
+        "voice_guitar": "Vwa + gita"
+      },
+      "submit": "Kreye pwojè"
+    },
+    "album_dialog": {
+      "title": "Nouvo album",
+      "description": "Gwoup pwojè ki gen rapò nan yon album.",
+      "name_label": "Non album",
+      "name_placeholder": "pa egzanp Otòn EP",
+      "submit": "Kreye album"
+    },
+    "album": {
+      "untitled": "Albòm san tit",
+      "members_count_one": " {{count}} pwojè",
+      "members_count_other": " {{count}} pwojè",
+      "empty": "Pa gen pwojè nan album sa a ankò.",
+      "delete_confirm_title": "Efase album?",
+      "delete_confirm_description": "Pwojè yo p ap efase, sèlman dekonekte ak \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Efase \" {{name}} \"?",
+      "confirm_description": "Sa a retire pwojè a ak tout pran nan li. Sa a pa ka defèt."
+    }
+  },
+  "record": {
+    "title": "Dosye",
+    "subtitle": "Pran yon pwòp, gade nivo ou yo, epi swiv script la.",
+    "project_label": "Pwojè",
+    "project_placeholder": "Chwazi yon pwojè",
+    "project_create_quick": "Kreye yon pwojè rapid...",
+    "device_label": "Antre aparèy",
+    "device_placeholder": "Chwazi yon aparèy",
+    "device_default_badge": "Sistèm default",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Yo pa jwenn okenn aparèy antre.",
+    "monitor_button": "Siveye",
+    "monitor_stop_button": "Sispann siveyans",
+    "record_button": "Dosye",
+    "stop_button": "Sispann",
+    "elapsed_label": "Tan ki pase",
+    "status": {
+      "idle": "San fè anyen konsa",
+      "monitoring": "Siveyans",
+      "recording": "Anrejistreman",
+      "stopped": "Sispann"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Pik",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Sesyon gide",
+      "subtitle": "Kite antrenè a mache avèk ou etap pa etap, soti nan chofe a pou rive nan fraz ki pale a.",
+      "loading": "Chaje script...",
+      "unavailable": "Sesyon gide a poko disponib sou sèvè a.",
+      "select_project_device": "Chwazi yon pwojè ak yon aparèy opinyon pou anrejistre etap yo soti isit la.",
+      "progress": " {{done}} nan {{total}} etap",
+      "start_timer": "Kòmanse revèy",
+      "skip_timer": "Sote revèy",
+      "record_step": "Ekri etap sa a",
+      "stop_step": "Sispann anrejistreman",
+      "mark_done": "Fè - pwochen etap",
+      "step_recorded": "Pran anrejistre",
+      "no_record_step": "Etap chofe - pa gen okenn anrejistreman nesesè.",
+      "bars_hint": "Apeprè {{bars}} ba",
+      "complete_title": "Script konplè!",
+      "complete_body": "Ou te anrejistre chak etap nan script la. Retounen nan tab Audio pwojè a epi chwazi pran ou pi renmen yo.",
+      "restart": "Rekòmanse script"
+    },
+    "best2min": {
+      "button": "Jwenn pi bon 2 minit yo (Suno)",
+      "running": "Analize pran an...",
+      "score_label": "Nòt",
+      "hint": "Kouri yon analiz enèji ak klè sou tout pran an pou jwenn pi fò fenèt 2 minit li yo - ou ka toujou ajiste ranje a alamen apre.",
+      "chart_caption": "Nòt pou chak fenèt",
+      "unavailable": "Pi bon 2 minit analiz la poko disponib sou sèvè sa a."
+    },
+    "takes_title": "Pran nan sesyon sa a",
+    "takes_empty": "Pa gen okenn pran anrejistre nan sesyon sa a ankò.",
+    "open_in_project": "Louvri nan pwojè",
+    "ws_disconnected": "Rekonekte ak mèt nivo a...",
+    "select_project_first": "Chwazi yon pwojè pou kòmanse.",
+    "select_device_first": "Chwazi yon aparèy antre."
+  },
+  "project": {
+    "back_to_library": "Retounen nan bibliyotèk",
+    "header": {
+      "status_label": "Estati",
+      "cover_upload": "Telechaje kouvèti",
+      "cover_remove": "Retire kouvèti a",
+      "name_placeholder": "Non pwojè a",
+      "links_title": "Lyen",
+      "add_link": "Ajoute lyen",
+      "mode": {
+        "voice": "Vwa sèlman",
+        "voice_guitar": "Vwa + gita"
+      }
+    },
+    "tabs": {
+      "audio": "Odyo",
+      "lyrics": "Lyrics",
+      "prompts": "Envit",
+      "notes": "Nòt"
+    },
+    "audio": {
+      "takes_title": "Pran",
+      "no_takes": {
+        "title": "Pa pran ankò",
+        "description": "Anrejistre yon nouvo pran oswa enpòte yon dosye ki egziste deja."
+      },
+      "record_new": "Ekri yon nouvo pran",
+      "rating": "Rating",
+      "variant": {
+        "raw": "kri",
+        "processed": "Trete"
+      },
+      "variant_placeholder": "Version",
+      "process_button": "Pwosesis",
+      "export_button": "Ekspòtasyon",
+      "delete_take_confirm_title": "Efase pran sa a?",
+      "delete_take_confirm_description": "Odyo anvan tout koreksyon ak chak vèsyon trete yo pral retire.",
+      "ab": {
+        "raw": "A · kri",
+        "processed": "B · Trete"
+      },
+      "origin": {
+        "recorded": "Anrejistre",
+        "imported": "Enpòte"
+      },
+      "session_label_placeholder": "Etikèt sesyon (opsyonèl)",
+      "duration": "Dire",
+      "sample_rate": "To echantiyon",
+      "channels": "Chanèl",
+      "created_at": "Anrejistre"
+    },
+    "pipeline": {
+      "title": "Chèn pwosesis",
+      "preset_label": "Prereglaj",
+      "preset_none": "Custom chèn",
+      "preset_save": "Sove kòm prereglaj",
+      "stage_locked": "Fèmen",
+      "stage_requires_extra": "Mande yon siplemantè ki pa enstale",
+      "process_button": "Pwosesis pran",
+      "processing": "Pwosesis...",
+      "job_queued": "Nan file...",
+      "job_running": "Pwosesis...",
+      "job_done": "Fè",
+      "job_error": "Echwe",
+      "job_cancelled": "Anile",
+      "cancel_job": "Anile",
+      "no_stages": "Pa gen etap ki disponib."
+    },
+    "export": {
+      "title": "Ekspòtasyon pran",
+      "description": "Rann yon dosye final ki soti nan yon vèsyon trete.",
+      "variant_label": "Version",
+      "format_label": "Fòma",
+      "preset_label": "Ekspòtasyon prereglaj",
+      "range_label": "Range",
+      "range_full": "Longè konplè",
+      "range_custom": "Ranje koutim",
+      "start_label": "Kòmanse (yo)",
+      "end_label": "Fen (yo)",
+      "submit": "Ekspòtasyon",
+      "progress": "Rann fichye a...",
+      "download_ready": "File pare",
+      "download_button": "Telechaje fichye a"
+    },
+    "notes": {
+      "placeholder": "Nòt gratis sou pwojè sa a...",
+      "saved_at": "Sove nan {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Ekri lyrics yo isit la. Sèvi ak palèt sou bò a pou mete Suno meta-tags.",
+      "saved_at": "Sove nan {{time}} ",
+      "saving": "Sove…",
+      "versions": "Vèsyon",
+      "versions_empty": "Pa gen vèsyon ki sove ankò.",
+      "version_preview": "Preview",
+      "restore": "Retabli vèsyon sa a",
+      "restore_confirm_title": "Retabli vèsyon sa a?",
+      "restore_confirm_description": "Tèks aktyèl la pral ranplase ak vèsyon ki sove sou {{date}} .",
+      "metatags_title": "Meta-tags",
+      "metatags_hint": "Klike sou yon tag pou mete l nan kurseur la.",
+      "metatags_placebo_warning": "Pa pwouve - ka pa gen okenn efè sou rezilta a.",
+      "metatags_empty": "Pa gen meta-tag ki anrejistre."
+    },
+    "prompts": {
+      "style_title": "Style èd memwa",
+      "lyrics_title": "Lyrics prompt",
+      "template_label": "Modèl",
+      "template_none": "Pa gen modèl",
+      "variables_title": "Varyab",
+      "preview_title": "Preview",
+      "preview_empty": "Chwazi yon modèl epi ranpli varyab yo pou wè yon aperçu.",
+      "char_count": " {{count}} karaktè",
+      "char_count_warning": "Style envit plis pase 1000 karaktè ka jwenn tronke pa Suno.",
+      "copy": "Kopi",
+      "copied": "Kopi nan clipboard",
+      "save_to_project": "Sove nan pwojè",
+      "saved_to_project": "Èd memwa sove nan pwojè a",
+      "history_title": "Istwa",
+      "history_empty": "Pa gen vèsyon anvan yo.",
+      "current_label": "Kouran"
+    },
+    "stems": {
+      "title": "Chan ak gita",
+      "separate_button": "Separe vwa ak gita",
+      "running": "Separe…",
+      "vocals": "Vokal",
+      "instrumental": "Enstrimantal",
+      "process_stem": "Pwosesis tij sa a",
+      "empty": "Pran sa a poko separe. Kouri separasyon pou tande vwa a ak gita nan izolasyon.",
+      "capability_missing": "Separasyon sous pa enstale sou sèvè sa a.",
+      "unavailable": "Separasyon vokal/gita poko disponib sou sèvè sa a."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Sou",
+    "boolean_off": "Off"
+  },
+  "import": {
+    "title": "Enpòte",
+    "subtitle": "Pote pwojè ki deja egziste sou disk nan bibliyotèk la.",
+    "step_indicator": "Etap {{current}} nan {{total}} ",
+    "step1": {
+      "title": "Jwenn katab",
+      "description": "Lonje dwèt sou katab rasin lan ak pwojè ou yo ak tras.",
+      "path_label": "Dosye chemen",
+      "path_placeholder": "pa egzanp E:\\Robbs\\Pride\\Mizik\\ROBBS",
+      "recent_label": "Dènye",
+      "scan_button": "Eskane katab",
+      "scanning": "Eskane…",
+      "ffmpeg_warning": "FFmpeg pa jwenn - yo pral sote dosye ki bezwen konvèsyon.",
+      "folders_found_one": " {{count}} katab jwenn",
+      "folders_found_other": " {{count}} dosye yo te jwenn",
+      "unmatched_files_one": " {{count}} fichye ki pa rekonèt",
+      "unmatched_files_other": " {{count}} fichye yo pa rekonèt"
+    },
+    "step2": {
+      "title": "Revize atik yo",
+      "description": "Tcheke non, estati, ak sa ki pral enpòte anvan konfime.",
+      "select_all": "Chwazi tout",
+      "table": {
+        "folder": "Katab sous",
+        "name": "Non pwojè a",
+        "status": "Estati",
+        "audio": "Odyo",
+        "lyrics": "Lyrics",
+        "cover": "Kouvri",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} fichye chwazi",
+      "audio_include_other": " {{count}} fichye yo chwazi",
+      "no_audio": "Odyo pa jwenn",
+      "no_lyrics": "Pa gen lyrics jwenn",
+      "no_cover": "Pa gen kouvèti",
+      "warnings_title": "Avètisman"
+    },
+    "step3": {
+      "title": "Enpòte",
+      "description": "Konfime pou kopye fichye yo epi kreye pwojè yo.",
+      "copy_originals": "Kopi fichye orijinal yo nan bibliyotèk la",
+      "execute_button": "Kòmanse enpòte",
+      "progress_title": "Enpòte…",
+      "created_count": "Kreye: {{count}} ",
+      "skipped_count": "Sote: {{count}} ",
+      "done_title": "Enpòte konplè",
+      "done_description": "Pwojè ki anba yo te kreye nan bibliyotèk ou a.",
+      "view_project": "Louvri pwojè",
+      "start_over": "Nouvo enpòte"
+    }
+  },
+  "templates": {
+    "title": "Modèl",
+    "subtitle": "Modèl èd memwa ki kapab itilize ankò ak meta-tag pou Suno.",
+    "tabs": {
+      "prompts": "Modèl rapid",
+      "metatags": "Meta-tags"
+    },
+    "new_template": "Nouvo modèl",
+    "kind": {
+      "style": "Style",
+      "lyrics": "Lyrics"
+    },
+    "kind_label": "Janti",
+    "delete_confirm_title": "Efase modèl \" {{name}} \"?",
+    "delete_confirm_description": "Sa a pa ka defèt.",
+    "empty": "Pa gen modèl ankò.",
+    "editor": {
+      "title_new": "Nouvo modèl",
+      "title_edit": "Edit modèl",
+      "name_label": "Non",
+      "name_placeholder": "pa egzanp Balad acoustic",
+      "kind_label": "Janti",
+      "template_label": "Tèks modèl",
+      "template_hint": "Make kote chak varyab fè pati ak non li anvlope nan aparèy òtopedik doub - pou egzanp, yon varyab yo te rele \"genre\" vin genre vlope nan de ouvèti ak de fèmen.",
+      "variables_label": "Varyab",
+      "variable_add": "Ajoute varyab",
+      "variable_name": "Kle",
+      "variable_label": "Mete etikèt sou",
+      "variable_type": "Kalite",
+      "variable_type_string": "Tèks",
+      "variable_type_select": "Single chwazi",
+      "variable_type_multiselect": "Multi-chwazi",
+      "variable_type_number": "Nimewo",
+      "variable_type_boolean": "Wi/non",
+      "variable_options": "Opsyon (separe ak vigil)",
+      "variable_required": "Obligatwa",
+      "save": "Sove modèl"
+    },
+    "metatags": {
+      "title": "Meta-tags",
+      "subtitle": "Tags estriktirèl ak style Suno rekonèt anndan lyrics.",
+      "new_tag": "Nouvo tag",
+      "tag_label": "Tag",
+      "tag_placeholder": "pa egzanp gita-solo",
+      "category_label": "Kategori",
+      "tier_label": "Fyab",
+      "tier_legend_title": "Lejand fyab",
+      "tier_legend": {
+        "1": "Nivo 1 — dokimante ak konsistan",
+        "2": "Nivo 2 - anjeneral travay",
+        "3": "Nivo 3 - efè varyab",
+        "4": "Nivo 4 - plasebo, ki pa pwouve"
+      },
+      "description_label": "Deskripsyon",
+      "delete_confirm_title": "Efase tag \" {{tag}} \"?",
+      "empty": "Pa gen meta-tag koutim ankò."
+    }
+  },
+  "settings": {
+    "title": "Anviwònman",
+    "subtitle": "Enfòmasyon sistèm, lang, ak preferans default.",
+    "system_info_title": "Sistèm",
+    "version": "Version",
+    "data_dir": "Katab done",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Disponib",
+    "ffmpeg_missing": "Pa jwenn",
+    "capabilities_title": "Kapasite enstale",
+    "capability": {
+      "denoise": "Rediksyon bri",
+      "quality": "Amelyorasyon kalite",
+      "separate": "Separasyon sous",
+      "ffmpeg": "FFmpeg konvèsyon"
+    },
+    "capability_available": "Disponib",
+    "capability_unavailable": "Pa disponib",
+    "gpu_title": "Akselerasyon GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "Founisè ONNX Runtime"
+    },
+    "gpu_none": "Pa gen founisè GPU detekte",
+    "language_title": "Lang",
+    "language": {
+      "pt-BR": "Pòtigè (Brezil)",
+      "en": "angle"
+    },
+    "theme_title": "Aparans",
+    "theme": {
+      "dark": "Fè nwa",
+      "light": "Limyè"
+    },
+    "defaults_title": "Defo ekspòte",
+    "lufs_target_label": "Sib LUFS",
+    "lufs_target_hint": "Itilize kòm sijesyon an kòmanse lè ekspòte pran. Defo Suno a chita alantou -14 LUFS.",
+    "saved": "Preferans sove"
+  },
+  "guide": {
+    "title": "Gid pou anrejistreman Suno",
+    "subtitle": "Ki jan yo pran vwa ak gita pran ki jwenn pi bon rezilta yo.",
+    "intro": "Suno fè pi byen ak referans pwòp, san anbigwi. Gid sa a kouvri preparasyon, nivo sib, ak yon script anrejistreman 3-5 minit.",
+    "sections": {
+      "prep": {
+        "title": "Preparasyon",
+        "body": "Anrejistre nan yon chanm trete oswa yon chanm ki gen anpil materyèl mou (rido, tapi, rad nan yon klozèt). Fèmen fanatik yo ak tout bagay ki hums. Chofe vwa w pou 5 minit anvan w anrejistre."
+      },
+      "levels": {
+        "title": "Nivo: -12 a -6 dBFS",
+        "body": "Vize pou pik ant -12 ak -6 dBFS sou mèt la. Anba ranje sa a, bri background vin pi aparan; pi wo pase li, risk taye ogmante. Sèvi ak kontè ki nan paj Dosye a pou fikse benefis ou anvan ou kòmanse."
+      },
+      "distance": {
+        "title": "Mik distans: 15-30 cm",
+        "body": "Rete 15 a 30 cm de mikwofòn la. Pi pre pase sa ki ekzajere plozif ak efè pwoksimite; pi lwen pran plis reverb chanm ak bri."
+      },
+      "script": {
+        "title": "Anrejistreman script",
+        "warmup": "Chofe vokal (1-2 minit)",
+        "vowels": "Vwayèl soutni - a, e, i, o, u",
+        "scales": "Echèl senp, monte ak desann",
+        "excerpt": "Yon ekstrè chante (8 a 16 bar)",
+        "dynamics": "Dinamik: kòmanse mou, fini byen fò",
+        "spoken_phrase": "Yon fraz pale, pou Suno ka li ton vokal ou"
+      },
+      "expectations": {
+        "title": "Ki sa Suno espere",
+        "body": "WAV, 48 kHz, mono, sèk (pa gen okenn reverb oswa efè), 3 a 5 minit nan referans. Pi pwòp, ki pi reprezantan 2 minit nan pran an anjeneral pwodui pi bon rezilta yo."
+      }
+    }
+  },
+  "status": {
+    "idea": "Lide",
+    "em_progresso": "Nan pwogrè",
+    "quase": "Prèske la",
+    "pronto": "Pare"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Script vocal konplè pou Suno",
+      "desc": "5 minit gide: chofe, vwayèl, balans, de ekstrè chante, dinamik, ak yon fraz pale."
+    },
+    "step": {
+      "warmup": "Chofe vokal",
+      "warmup_inst": "Dekole ak baye, lèv trills (brrr), ak yon hum mou pou apeprè yon minit. Pa bezwen anrejistre - li jis pou detann gòj ou anvan ou chante.",
+      "vowels": "Vwayèl soutni",
+      "vowels_inst": "Kenbe chak vwayèl — a, e, i, o, u — pou 3 a 4 segonn nan ton konfòtab ou, ak yon volim fiks. Sa a ede Suno ranmase pi bon timbre vwa ou.",
+      "scales": "Echèl monte ak desann",
+      "scales_inst": "Chante yon echèl senp monte epi desann, sou \"la\" oswa \"na\". Li pa bezwen pafè - objektif la se kat ranje vokal ou.",
+      "section": "Ekstrè chante - pati 1",
+      "section_inst": "Chante 8 a 16 ba nan chante a, ak entansyon an reyèl ou vle transmèt. Priyorite klète ak prezans sou pèfeksyon teknik.",
+      "section2": "Ekstrè chante - pati 2",
+      "section2_inst": "Chante yon lòt 8 a 16 ba - depreferans yon koral oswa yon seksyon ki diferansye ak youn anvan an. Plis varyete ede modèl la aprann vwa ou.",
+      "dynamics": "Dinamik: mou → byen fò",
+      "dynamics_inst": "Chante menm fraz la kòmanse trè dous epi fini byen fò, san yo pa fatige gòj ou. Sa montre ranje dinamik vwa ou Suno.",
+      "spoken": "Fraz pale",
+      "spoken_inst": "Pale — pa chante — yon fraz kout, natirèl, tankou si w t ap koze. Sa a ede Suno rekonèt reyèl timbre vwa ou."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Retablisman",
+      "filter": "Filtè",
+      "dynamics": "Dinamik",
+      "separation": "Separasyon",
+      "quality": "Kalite",
+      "utility": "Itilite",
+      "loudness": "Loudness"
+    },
+    "highpass": "High-pass filtè",
+    "lowpass": "Filtre pase ba",
+    "denoise": "Rediksyon bri",
+    "declip": "Declipping",
+    "declick": "Klike / pòp retire",
+    "deesser": "De-esser",
+    "gate": "Baryè bri",
+    "compressor": "COMPRESSOR",
+    "limiter": "Limiteur",
+    "eq": "Egalizasyon",
+    "normalize": "Nòmalizasyon pik",
+    "loudness": "Nòmalizasyon loudness (LUFS)",
+    "reverb_reduce": "Rediksyon reverb",
+    "separate": "Separasyon sous",
+    "quality": "Amelyorasyon kalite (en)",
+    "trim_silence": "Silans taye",
+    "fade": "Fennen nan / fennen soti",
+    "stereo_to_mono": "Konvèti an mono",
+    "resample": "Reéchantillonnage"
+  },
+  "metatags": {
+    "tier": {
+      "1": "serye",
+      "2": "Anjeneral travay",
+      "3": "Varyab",
+      "4": "Plasebo"
+    },
+    "category": {
+      "structure": "Estrikti",
+      "vocal": "Vokal",
+      "instrument": "Enstriman",
+      "dynamics": "Dinamik",
+      "production": "Pwodiksyon",
+      "mood": "Atitid"
+    },
+    "verse": "Vèsè",
+    "chorus": "Refren",
+    "bridge": "Pon",
+    "intro": "Entwodiksyon",
+    "outro": "Outro",
+    "hook": "Hook",
+    "prechorus": "Pre-koral",
+    "instrumental": "Enstrimantal",
+    "guitar_solo": "Gita solo",
+    "build_up": "Bati-up",
+    "breakdown": "Pann",
+    "spoken_word": "Pawòl pale",
+    "whispered": "chuchote",
+    "harmonies": "Amoni",
+    "male_vocal": "Vokal gason",
+    "female_vocal": "Vokal fi",
+    "duet": "Duet",
+    "acoustic": "Acoustic",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Netwaye vwa",
+    "voice_guitar_balanced": "Ekilibre vwa ak gita",
+    "podcast": "Podcast",
+    "suno_ready": "Suno pare",
+    "gentle_restore": "Retablisman dou",
+    "raw_passthrough": "Pa gen pwosesis"
+  },
+  "errors": {
+    "unknown": "Yon bagay ale mal.",
+    "network": "Pa t 'kapab rive jwenn sèvè a.",
+    "validation_error": "Tcheke enfòmasyon ou te antre yo.",
+    "not_found": "Atik pa jwenn.",
+    "project_not_found": "Pwojè pa jwenn.",
+    "take_not_found": "Pran pa jwenn.",
+    "album_not_found": "Album pa jwenn.",
+    "preset_not_found": "Prereglaj pa jwenn.",
+    "template_not_found": "Modèl pa jwenn.",
+    "device_busy": "Aparèy odyo itilize pa yon lòt pwogram.",
+    "device_not_found": "Aparèy odyo pa jwenn.",
+    "already_recording": "Yon anrejistreman deja nan pwogrè.",
+    "ffmpeg_missing": "FFmpeg pa enstale - enstale li pou konvèti fichye sa a.",
+    "disk_full": "Pa ase espas disk.",
+    "permission_denied": "Pèmisyon refize pou chemen yo bay la.",
+    "import_path_not_found": "Chemen enpòte pa jwenn.",
+    "job_failed": "Pwosesis echwe.",
+    "job_cancelled": "Pwosesis te anile.",
+    "process_failed": "Echwe pou trete pran an.",
+    "export_failed": "Echwe pou ekspòte fichye a.",
+    "record_failed": "Echwe pou kòmanse anrejistreman."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Nan keu",
+      "running": "Kouri",
+      "done": "Fè",
+      "error": "Echwe",
+      "cancelled": "Anile"
+    },
+    "kind": {
+      "process": "Pwosesis",
+      "export": "Ekspòtasyon",
+      "import": "Enpòte",
+      "record": "Anrejistreman"
+    }
+  }
+}

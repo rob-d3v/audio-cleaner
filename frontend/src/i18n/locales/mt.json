@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Awdjo Cleaner"
+  },
+  "nav": {
+    "library": "Librerija",
+    "record": "Rekord",
+    "import": "Importazzjoni",
+    "templates": "Mudelli",
+    "settings": "Settings",
+    "guide": "Gwida"
+  },
+  "common": {
+    "save": "Ħlief",
+    "saving": "Insalva...",
+    "saved": "Salvat",
+    "cancel": "Ikkanċella",
+    "close": "Agħlaq",
+    "delete": "Ħassar",
+    "edit": "Editja",
+    "create": "Oħloq",
+    "search": "Fittex",
+    "loading": "Tagħbija...",
+    "error": "Żball",
+    "retry": "Ipprova mill-ġdid",
+    "confirm": "Ikkonferma",
+    "back": "Lura",
+    "next": "Li jmiss",
+    "continue": "Kompli",
+    "finish": "Temm",
+    "copy": "Kopja",
+    "copied": "Ikkopjati",
+    "download": "Niżżel",
+    "upload": "Upload",
+    "none": "Xejn",
+    "all": "Kollha",
+    "yes": "Iva",
+    "no": "Nru",
+    "select": "Agħżel",
+    "optional": "fakultattiv",
+    "required": "meħtieġa",
+    "unsaved_changes": "Bidliet mhux salvati",
+    "name": "Isem",
+    "status": "Status",
+    "type": "Tip",
+    "actions": "Azzjonijiet",
+    "empty": "Vojta",
+    "browse": "Fittex",
+    "remove": "Neħħi",
+    "add": "Żid",
+    "rename": "Semmi mill-ġdid",
+    "duplicate": "Duplikat",
+    "warning": "Twissija",
+    "locked": "Imsakkar",
+    "builtin": "Mibnija fil-",
+    "custom": "Custom",
+    "untitled": "Bla titolu",
+    "select_placeholder": "Agħżel..."
+  },
+  "library": {
+    "title": "Librerija",
+    "subtitle": "Il-proġetti tal-vuċi u tal-kitarra tiegħek, mill-idea sal-rilaxx.",
+    "new_project": "Proġett ġdid",
+    "new_album": "Album ġdid",
+    "search_placeholder": "Fittex bl-isem...",
+    "view": {
+      "grid": "Grid",
+      "albums": "Albums"
+    },
+    "filters": {
+      "all": "Kollha"
+    },
+    "take_count_one": " {{count}} tieħu",
+    "take_count_other": " {{count}} jieħu",
+    "updated_at": "Aġġornata {{date}} ",
+    "no_results": {
+      "title": "Ma nstab l-ebda proġett",
+      "description": "Ipprova aġġusta t-tfittxija jew il-filtru tal-istatus."
+    },
+    "empty": {
+      "title": "Il-librerija tiegħek hija vojta",
+      "description": "Ibda proġett ġdid mill-bidu, jew l-importazzjoni tieħu li diġà għandek fuq id-diska.",
+      "cta_import": "Importa mill-folder",
+      "cta_new": "Oħloq proġett"
+    },
+    "project_dialog": {
+      "title": "Proġett ġdid",
+      "description": "Agħtiha isem u agħżel mod ta 'reġistrazzjoni.",
+      "name_label": "Isem tal-proġett",
+      "name_placeholder": "eż. Xita tas-Sajf",
+      "mode_label": "Modalità",
+      "mode": {
+        "voice": "Leħen biss",
+        "voice_guitar": "Leħen + kitarra"
+      },
+      "submit": "Oħloq proġett"
+    },
+    "album_dialog": {
+      "title": "Album ġdid",
+      "description": "Proġetti relatati grupp f'album.",
+      "name_label": "Isem l-album",
+      "name_placeholder": "eż. PE tal-Ħarifa",
+      "submit": "Oħloq album"
+    },
+    "album": {
+      "untitled": "Album bla titolu",
+      "members_count_one": " {{count}} proġett",
+      "members_count_other": " {{count}} proġetti",
+      "empty": "Għadu l-ebda proġett f'dan l-album.",
+      "delete_confirm_title": "Ħassar l-album?",
+      "delete_confirm_description": "Il-proġetti mhux se jitħassru, mhux se jitneħħew biss minn \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Ħassar \" {{name}} \"?",
+      "confirm_description": "Dan ineħħi l-proġett u kull teħid fih. Dan ma jistax jitneħħa."
+    }
+  },
+  "record": {
+    "title": "Rekord",
+    "subtitle": "Aqbad teħid nadif, ara l-livelli tiegħek, u segwi l-iskrittura.",
+    "project_label": "Proġett",
+    "project_placeholder": "Agħżel proġett",
+    "project_create_quick": "Oħloq proġett malajr...",
+    "device_label": "Apparat tad-dħul",
+    "device_placeholder": "Agħżel apparat",
+    "device_default_badge": "Sistema default",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Ma nstab l-ebda apparat ta' input.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Waqqaf il-monitoraġġ",
+    "record_button": "Rekord",
+    "stop_button": "Waqqaf",
+    "elapsed_label": "Ħin li għadda",
+    "status": {
+      "idle": "Idle",
+      "monitoring": "Monitoraġġ",
+      "recording": "Reġistrazzjoni",
+      "stopped": "Waqqaf"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Peak",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Sessjoni ggwidata",
+      "subtitle": "Ħalli l-kowċ jimxik permezz tal-iskritt pass pass, mill-warm-up sal-frażi mitkellma.",
+      "loading": "Qiegħed l-iskript qed jgħabbi...",
+      "unavailable": "Is-sessjoni ggwidata għadha mhix disponibbli fuq is-server.",
+      "select_project_device": "Agħżel proġett u mezz ta 'input biex tirreġistra passi dritt minn hawn.",
+      "progress": " {{done}} minn {{total}} passi",
+      "start_timer": "Ibda l-arloġġ",
+      "skip_timer": "Aqbeż it-tajmer",
+      "record_step": "Irreġistra dan il-pass",
+      "stop_step": "Waqqaf ir-reġistrazzjoni",
+      "mark_done": "Magħmul - il-pass li jmiss",
+      "step_recorded": "Ħu rreġistrati",
+      "no_record_step": "Pass ta’ tisħin — m’hemmx bżonn ta’ reġistrazzjoni.",
+      "bars_hint": "Madwar {{bars}} bars",
+      "complete_title": "Skript komplut!",
+      "complete_body": "Irreġistrajt kull pass tal-iskript. Erġa' lura għat-tab tal-Awdjo tal-proġett u agħżel it-teħid favorit tiegħek.",
+      "restart": "Ibda mill-ġdid l-iskrittura"
+    },
+    "best2min": {
+      "button": "Sib l-aħjar 2 minuti (Suno)",
+      "running": "Qed tanalizza t-teħid...",
+      "score_label": "Score",
+      "hint": "Tmexxi analiżi tal-enerġija u ċ-ċarezza fuq it-teħid kollu biex issib l-aktar tieqa b'saħħitha tagħha ta '2 minuti — xorta tista' taġġusta l-firxa bl-idejn wara.",
+      "chart_caption": "Punteġġ għal kull tieqa",
+      "unavailable": "L-aħjar analiżi ta' 2 minuti għadha mhix disponibbli fuq dan is-server."
+    },
+    "takes_title": "Jieħu minn din is-sessjoni",
+    "takes_empty": "S'issa ma ġiex irreġistrat f'din is-sessjoni.",
+    "open_in_project": "Miftuħ fil-proġett",
+    "ws_disconnected": "Qiegħed jerġa' jgħaqqad mal-miter tal-livell...",
+    "select_project_first": "Agħżel proġett biex tibda.",
+    "select_device_first": "Agħżel apparat tad-dħul."
+  },
+  "project": {
+    "back_to_library": "Lura għall-librerija",
+    "header": {
+      "status_label": "Status",
+      "cover_upload": "Itella qoxra",
+      "cover_remove": "Neħħi l-għatu",
+      "name_placeholder": "Isem tal-proġett",
+      "links_title": "Links",
+      "add_link": "Żid link",
+      "mode": {
+        "voice": "Leħen biss",
+        "voice_guitar": "Leħen + kitarra"
+      }
+    },
+    "tabs": {
+      "audio": "Awdjo",
+      "lyrics": "Lirika",
+      "prompts": "Prompts",
+      "notes": "Noti"
+    },
+    "audio": {
+      "takes_title": "Jieħu",
+      "no_takes": {
+        "title": "S'issa l-ebda tieħu",
+        "description": "Irreġistra teħid ġdid jew jimporta fajl eżistenti."
+      },
+      "record_new": "Irreġistra teħid ġdid",
+      "rating": "Klassifikazzjoni",
+      "variant": {
+        "raw": "Nej",
+        "processed": "Ipproċessat"
+      },
+      "variant_placeholder": "Verżjoni",
+      "process_button": "Proċess",
+      "export_button": "Esportazzjoni",
+      "delete_take_confirm_title": "Ħassar din it-teħid?",
+      "delete_take_confirm_description": "L-awdjo mhux ipproċessat u kull verżjoni pproċessata se jitneħħew.",
+      "ab": {
+        "raw": "A · Nej",
+        "processed": "B · Ipproċessat"
+      },
+      "origin": {
+        "recorded": "Irreġistrat",
+        "imported": "Importati"
+      },
+      "session_label_placeholder": "Tikketta tas-sessjoni (mhux obbligatorja)",
+      "duration": "Tul ta' żmien",
+      "sample_rate": "Rata tal-kampjun",
+      "channels": "Kanali",
+      "created_at": "Irreġistrat"
+    },
+    "pipeline": {
+      "title": "Katina tal-ipproċessar",
+      "preset_label": "Issettjati minn qabel",
+      "preset_none": "Katina tad-dwana",
+      "preset_save": "Ħlief bħala ssettjat minn qabel",
+      "stage_locked": "Imsakkar",
+      "stage_requires_extra": "Jeħtieġ extra li mhux installat",
+      "process_button": "Ħu proċess",
+      "processing": "Ipproċessar...",
+      "job_queued": "Fil-kju...",
+      "job_running": "Ipproċessar...",
+      "job_done": "Magħmul",
+      "job_error": "Falliet",
+      "job_cancelled": "Ikkanċellat",
+      "cancel_job": "Ikkanċella",
+      "no_stages": "Ebda stadji disponibbli."
+    },
+    "export": {
+      "title": "Esportazzjoni tieħu",
+      "description": "Agħti fajl finali minn verżjoni pproċessata.",
+      "variant_label": "Verżjoni",
+      "format_label": "Format",
+      "preset_label": "Esportazzjoni issettjata minn qabel",
+      "range_label": "Firxa",
+      "range_full": "Tul sħiħ",
+      "range_custom": "Firxa tad-dwana",
+      "start_label": "Bidu (i)",
+      "end_label": "Tmiem(i)",
+      "submit": "Esportazzjoni",
+      "progress": "Qed tirrendi l-fajl...",
+      "download_ready": "File lest",
+      "download_button": "Niżżel il-fajl"
+    },
+    "notes": {
+      "placeholder": "Noti b'forma ħielsa dwar dan il-proġett...",
+      "saved_at": "Issejvjat fi {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Ikteb il-lirika hawn. Uża l-paletta fuq il-ġenb biex daħħal meta-tags Suno.",
+      "saved_at": "Issejvjat fi {{time}} ",
+      "saving": "Insalva...",
+      "versions": "Verżjonijiet",
+      "versions_empty": "S'issa l-ebda verżjonijiet salvati.",
+      "version_preview": "Preview",
+      "restore": "Irrestawra din il-verżjoni",
+      "restore_confirm_title": "Irrestawra din il-verżjoni?",
+      "restore_confirm_description": "It-test attwali se jiġi sostitwit bil-verżjoni ssejvjata fi {{date}} .",
+      "metatags_title": "Meta-tags",
+      "metatags_hint": "Ikklikkja tikketta biex daħħalha fil-cursor.",
+      "metatags_placebo_warning": "Mhux ippruvat - jista 'jkollu l-ebda effett fuq ir-riżultat.",
+      "metatags_empty": "L-ebda meta-tag reġistrata."
+    },
+    "prompts": {
+      "style_title": "Stil fil-pront",
+      "lyrics_title": "Lyrics meaning: fil-pront",
+      "template_label": "Mudell",
+      "template_none": "L-ebda mudell",
+      "variables_title": "Varjabbli",
+      "preview_title": "Preview",
+      "preview_empty": "Agħżel mudell u imla l-varjabbli biex tara preview.",
+      "char_count": " {{count}} karattri",
+      "char_count_warning": "L-istil iqajjem aktar minn 1000 karattru jista' jiġi maqtugħ minn Suno.",
+      "copy": "Kopja",
+      "copied": "Ikkopjati fil-clipboard",
+      "save_to_project": "Ħlief għall-proġett",
+      "saved_to_project": "Prompt issejvjat għall-proġett",
+      "history_title": "Storja",
+      "history_empty": "Ebda verżjonijiet preċedenti.",
+      "current_label": "Kurrenti"
+    },
+    "stems": {
+      "title": "Vokali u kitarra",
+      "separate_button": "Vokali u kitarra separati",
+      "running": "Separazzjoni...",
+      "vocals": "Vokali",
+      "instrumental": "Strumentali",
+      "process_stem": "Ipproċessa dan iz-zokk",
+      "empty": "Din it-teħid għadha ma ġietx separata. Mexxi separazzjoni biex tisma 'l-vokali u l-kitarra b'mod iżolat.",
+      "capability_missing": "Is-separazzjoni tas-sors mhix installata fuq dan is-server.",
+      "unavailable": "Is-separazzjoni vokali/kitarra għadha mhix disponibbli fuq dan is-server."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Fuq",
+    "boolean_off": "Mitfi"
+  },
+  "import": {
+    "title": "Importazzjoni",
+    "subtitle": "Ġib proġetti li diġà jeżistu fuq disk fil-librerija.",
+    "step_indicator": "Pass {{current}} minn {{total}} ",
+    "step1": {
+      "title": "Sib folder",
+      "description": "Ippunta lejn il-folder tal-għeruq bil-proġetti u l-binarji tiegħek.",
+      "path_label": "Mogħdija tal-folder",
+      "path_placeholder": "eż. E:\\Robbs\\Pride\\Mużika\\ROBBS",
+      "recent_label": "Riċenti",
+      "scan_button": "Skennja folder",
+      "scanning": "Skannjar...",
+      "ffmpeg_warning": "FFmpeg ma nstabx — fajls li jeħtieġu konverżjoni se jinqabżu.",
+      "folders_found_one": " {{count}} folder misjub",
+      "folders_found_other": " {{count}} folders misjuba",
+      "unmatched_files_one": " {{count}} fajl mhux rikonoxxut",
+      "unmatched_files_other": " {{count}} fajls mhux rikonoxxuti"
+    },
+    "step2": {
+      "title": "Irrevedi l-oġġetti",
+      "description": "Iċċekkja l-ismijiet, l-istatus, u dak li se jiġi importat qabel tikkonferma.",
+      "select_all": "Agħżel kollha",
+      "table": {
+        "folder": "Fowlder tas-sors",
+        "name": "Isem tal-proġett",
+        "status": "Status",
+        "audio": "Awdjo",
+        "lyrics": "Lirika",
+        "cover": "Qoxra",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} fajl magħżul",
+      "audio_include_other": " {{count}} fajls magħżula",
+      "no_audio": "Ma nstab l-ebda awdjo",
+      "no_lyrics": "L-ebda lirika ma nstabet",
+      "no_cover": "L-ebda kopertura",
+      "warnings_title": "Twissijiet"
+    },
+    "step3": {
+      "title": "Importazzjoni",
+      "description": "Ikkonferma li tikkopja l-fajls u toħloq il-proġetti.",
+      "copy_originals": "Ikkopja fajls oriġinali fil-librerija",
+      "execute_button": "Ibda l-importazzjoni",
+      "progress_title": "Importazzjoni...",
+      "created_count": "Maħluq: {{count}} ",
+      "skipped_count": "Qabeż: {{count}} ",
+      "done_title": "Importazzjoni kompluta",
+      "done_description": "Il-proġetti hawn taħt inħolqu fil-librerija tiegħek.",
+      "view_project": "Proġett miftuħ",
+      "start_over": "Importazzjoni ġdida"
+    }
+  },
+  "templates": {
+    "title": "Mudelli",
+    "subtitle": "Mudelli fil-pront li jistgħu jerġgħu jintużaw u meta-tags għal Suno.",
+    "tabs": {
+      "prompts": "Mudelli fil-pront",
+      "metatags": "Meta-tags"
+    },
+    "new_template": "Mudell ġdid",
+    "kind": {
+      "style": "Stil",
+      "lyrics": "Lirika"
+    },
+    "kind_label": "Tip",
+    "delete_confirm_title": "Ħassar il-mudell \" {{name}} \"?",
+    "delete_confirm_description": "Dan ma jistax jitneħħa.",
+    "empty": "Għadu l-ebda mudelli.",
+    "editor": {
+      "title_new": "Mudell ġdid",
+      "title_edit": "Editja l-mudell",
+      "name_label": "Isem",
+      "name_placeholder": "eż. Ballata akustika",
+      "kind_label": "Tip",
+      "template_label": "Test tal-mudell",
+      "template_hint": "Immarka fejn jappartjeni kull varjabbli b'isimha mgeżwra f'ċineg kaboċċi doppji - pereżempju, varjabbli bl-isem \"ġeneru\" issir ġeneru mgeżwra f'żewġ ċineg li jiftħu u li jagħlqu.",
+      "variables_label": "Varjabbli",
+      "variable_add": "Żid varjabbli",
+      "variable_name": "Ewlenin",
+      "variable_label": "Tikketta",
+      "variable_type": "Tip",
+      "variable_type_string": "Test",
+      "variable_type_select": "Agħżel wieħed",
+      "variable_type_multiselect": "Multi-għażla",
+      "variable_type_number": "Numru",
+      "variable_type_boolean": "Iva/le",
+      "variable_options": "Għażliet (separati minn virgola)",
+      "variable_required": "Meħtieġa",
+      "save": "Ħlief mudell"
+    },
+    "metatags": {
+      "title": "Meta-tags",
+      "subtitle": "Tikketti strutturali u stil Suno jagħraf il-lirika ġewwa.",
+      "new_tag": "Tag ġdid",
+      "tag_label": "Tag",
+      "tag_placeholder": "eż. kitarra-solo",
+      "category_label": "Kategorija",
+      "tier_label": "Affidabilità",
+      "tier_legend_title": "Leġġenda tal-affidabbiltà",
+      "tier_legend": {
+        "1": "Livell 1 — dokumentat u konsistenti",
+        "2": "Livell 2 — normalment jaħdem",
+        "3": "Saff 3 — effett varjabbli",
+        "4": "Livell 4 — plaċebo, mhux ippruvat"
+      },
+      "description_label": "Deskrizzjoni",
+      "delete_confirm_title": "Ħassar it-tikketta \" {{tag}} \"?",
+      "empty": "Għadu l-ebda meta-tags personalizzati."
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Informazzjoni tas-sistema, lingwa, u preferenzi default.",
+    "system_info_title": "Sistema",
+    "version": "Verżjoni",
+    "data_dir": "Fowlder tad-dejta",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Disponibbli",
+    "ffmpeg_missing": "Mhux misjuba",
+    "capabilities_title": "Kapaċitajiet installati",
+    "capability": {
+      "denoise": "Tnaqqis tal-ħoss",
+      "quality": "Titjib tal-kwalità",
+      "separate": "Separazzjoni tas-sors",
+      "ffmpeg": "Konverżjoni FFmpeg"
+    },
+    "capability_available": "Disponibbli",
+    "capability_unavailable": "Mhux disponibbli",
+    "gpu_title": "Aċċelerazzjoni tal-GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "Fornituri tal-ONNX Runtime"
+    },
+    "gpu_none": "L-ebda fornitur tal-GPU ma nstab",
+    "language_title": "Lingwa",
+    "language": {
+      "pt-BR": "Portugiż (Brażil)",
+      "en": "Ingliż"
+    },
+    "theme_title": "Dehra",
+    "theme": {
+      "dark": "Dlam",
+      "light": "Dawl"
+    },
+    "defaults_title": "Inadempjenzi tal-esportazzjoni",
+    "lufs_target_label": "Mira LUFS",
+    "lufs_target_hint": "Użat bħala s-suġġeriment tal-bidu meta jesportaw jieħu. Inadempjenza ta 'Suno tpoġġi madwar -14 LUFS.",
+    "saved": "Preferenzi salvati"
+  },
+  "guide": {
+    "title": "Gwida tar-reġistrazzjoni Suno",
+    "subtitle": "Kif taqbad vuċi u kitarra tieħu li tikseb l-aħjar riżultati.",
+    "intro": "Suno jaħdem l-aħjar b'referenzi nodfa u mhux ambigwi. Din il-gwida tkopri t-tħejjija, il-livelli fil-mira, u script ta' reġistrazzjoni ta' 3–5 minuti.",
+    "sections": {
+      "prep": {
+        "title": "Preparazzjoni",
+        "body": "Irrekordja f'kamra trattata jew waħda b'ħafna materjal artab (purtieri, twapet żgħar, ħwejjeġ f'armarju). Itfi fannijiet u kull ħaġa li hums. Saħħan il-vuċi tiegħek għal 5 minuti qabel tirrekordja."
+      },
+      "levels": {
+        "title": "Livelli: -12 sa -6 dBFS",
+        "body": "Immira għal qċaċet bejn -12 u -6 dBFS fuq il-meter. Taħt dik il-firxa, l-istorbju fl-isfond isir aktar notevoli; 'l fuq minnha, ir-riskju tal-qtugħ jogħla. Uża l-miter fuq il-paġna Rekord biex issettja l-qligħ tiegħek qabel tibda."
+      },
+      "distance": {
+        "title": "Distanza tal-mikrofon: 15-30 ċm",
+        "body": "Oqgħod 15 sa 30 ċm mill-mikrofonu. Eqreb minn dak jesaġera plosives u effett ta 'prossimità; aktar 'il bogħod jiġbor aktar riverber tal-kamra u storbju."
+      },
+      "script": {
+        "title": "Iskript ta' reġistrazzjoni",
+        "warmup": "Tisħon vokali (1–2 minuti)",
+        "vowels": "Vokali sostnuti - a, e, i, o, u",
+        "scales": "Skali sempliċi, 'l fuq u' l isfel",
+        "excerpt": "Silta tal-kanzunetta (8 sa 16-il bar)",
+        "dynamics": "Dinamika: ibda artab, jispiċċa loud",
+        "spoken_phrase": "Frażi waħda mitkellma, sabiex Suno tkun tista 'taqra t-ton vokali tiegħek"
+      },
+      "expectations": {
+        "title": "Dak li jistenna Suno",
+        "body": "WAV, 48 kHz, mono, niexef (l-ebda reverb jew effetti), 3 sa 5 minuti ta 'referenza. L-aktar nodfa, l-aktar rappreżentattivi 2 minuti tat-teħid normalment jipproduċu l-aħjar riżultati."
+      }
+    }
+  },
+  "status": {
+    "idea": "Idea",
+    "em_progresso": "Fil-progress",
+    "quase": "Kważi hemm",
+    "pronto": "Lest"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Skript vokali sħiħ għal Suno",
+      "desc": "5 minuti gwidati: tisħin, vokali, skali, żewġ siltiet tal-kanzunetti, dinamika, u frażi mitkellma."
+    },
+    "step": {
+      "warmup": "Tisħon vokali",
+      "warmup_inst": "Ħoll bi yawns, lip trills (brrr), u hum artab għal madwar minuta. M'hemmx għalfejn tirreġistra — huwa biss biex tirrilassa griżmek qabel tkanta.",
+      "vowels": "Vokali sostnuti",
+      "vowels_inst": "Żomm kull vokali — a, e, i, o, u — għal 3 sa 4 sekondi fil-pitch komdu tiegħek, b'volum stabbli. Dan jgħin lil Suno jaqbad it-timbre pur tal-vuċi tiegħek.",
+      "scales": "Skali 'l fuq u' l isfel",
+      "scales_inst": "Kanta skala sempliċi 'l fuq u mbagħad 'l isfel, fuq \"la\" jew \"na\". M'għandux għalfejn ikun perfett — l-għan huwa li tfassal il-firxa vokali tiegħek.",
+      "section": "Silta tal-kanzunetta - parti 1",
+      "section_inst": "Kanta 8 sa 16-il bar tal-kanzunetta, bl-intenzjoni reali li trid twassal. Ipprijoritizza ċ-ċarezza u l-preżenza fuq il-perfezzjoni teknika.",
+      "section2": "Silta tal-kanzunetta - parti 2",
+      "section2_inst": "Ikanta 8 sa 16-il bar ieħor — idealment kor jew sezzjoni li tikkuntrasta ma’ dik ta’ qabel. Aktar varjetà tgħin lill-mudell jitgħallem il-vuċi tiegħek.",
+      "dynamics": "Dinamika: artab → qawwi",
+      "dynamics_inst": "Ikanta l-istess frażi tibda ratba ħafna u tispiċċa b'leħen għoli, mingħajr ma tisforza griżmek. Dan juri l-firxa dinamika tal-vuċi tiegħek Suno.",
+      "spoken": "Frażi mitkellma",
+      "spoken_inst": "Tkellem — tkantax — frażi qasira u naturali, bħallikieku qed tiċċettja. Dan jgħin lil Suno jagħraf it-timbre reali tal-vuċi tiegħek."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restawr",
+      "filter": "Filtri",
+      "dynamics": "Dinamika",
+      "separation": "Separazzjoni",
+      "quality": "Kwalità",
+      "utility": "Utilità",
+      "loudness": "Loudness"
+    },
+    "highpass": "Filtru high-pass",
+    "lowpass": "Filtru low-pass",
+    "denoise": "Tnaqqis tal-ħoss",
+    "declip": "Tnaqqis",
+    "declick": "Ikklikkja/tneħħija pop",
+    "deesser": "De-esser",
+    "gate": "Noise gate",
+    "compressor": "Kompressur",
+    "limiter": "Limitatur",
+    "eq": "Ekwalizzazzjoni",
+    "normalize": "L-ogħla normalizzazzjoni",
+    "loudness": "Normalizzazzjoni tal-ħoss (LUFS)",
+    "reverb_reduce": "Tnaqqis tar-riverb",
+    "separate": "Separazzjoni tas-sors",
+    "quality": "Titjib tal-kwalità (upscale)",
+    "trim_silence": "Silenzju tirqim",
+    "fade": "Fade in / fade out",
+    "stereo_to_mono": "Ikkonverti għal mono",
+    "resample": "Teħid mill-ġdid tal-kampjun"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Affidabbli",
+      "2": "Normalment jaħdem",
+      "3": "Varjabbli",
+      "4": "Plaċebo"
+    },
+    "category": {
+      "structure": "Struttura",
+      "vocal": "Vokali",
+      "instrument": "Strument",
+      "dynamics": "Dinamika",
+      "production": "Produzzjoni",
+      "mood": "Burdata"
+    },
+    "verse": "Poeżiji",
+    "chorus": "Kor",
+    "bridge": "Pont",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Ganċ",
+    "prechorus": "Qabel il-kor",
+    "instrumental": "Strumentali",
+    "guitar_solo": "Solo tal-kitarra",
+    "build_up": "Jibnu",
+    "breakdown": "Tkissir",
+    "spoken_word": "Kelma mitkellma",
+    "whispered": "Whispered",
+    "harmonies": "Armonji",
+    "male_vocal": "Vokali maskili",
+    "female_vocal": "Vokali femminili",
+    "duet": "Dwett",
+    "acoustic": "Akustiku",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Vuċi nadifa",
+    "voice_guitar_balanced": "Vuċi u kitarra bilanċjati",
+    "podcast": "Podcast",
+    "suno_ready": "Suno lest",
+    "gentle_restore": "Irrestawra ġentili",
+    "raw_passthrough": "L-ebda ipproċessar"
+  },
+  "errors": {
+    "unknown": "Xi ħaġa marret ħażin.",
+    "network": "Ma setgħetx tilħaq is-server.",
+    "validation_error": "Iċċekkja l-informazzjoni li daħħalt.",
+    "not_found": "Oġġett mhux misjub.",
+    "project_not_found": "Proġett ma nstabx.",
+    "take_not_found": "Ħu mhux misjub.",
+    "album_not_found": "Album ma nstabx.",
+    "preset_not_found": "Issettjat minn qabel ma nstabx.",
+    "template_not_found": "Mudell ma nstabx.",
+    "device_busy": "L-apparat awdjo qed jintuża minn programm ieħor.",
+    "device_not_found": "Apparat awdjo ma nstabx.",
+    "already_recording": "Diġà qed isir reġistrazzjoni.",
+    "ffmpeg_missing": "FFmpeg mhuwiex installat — installah biex tikkonverti dan il-fajl.",
+    "disk_full": "Mhux biżżejjed spazju fuq disk.",
+    "permission_denied": "Permess miċħud għall-mogħdija mogħtija.",
+    "import_path_not_found": "It-triq tal-importazzjoni ma nstabx.",
+    "job_failed": "L-ipproċessar falla.",
+    "job_cancelled": "L-ipproċessar ġie kkanċellat.",
+    "process_failed": "Naqas milli jipproċessa t-teħid.",
+    "export_failed": "Naqas milli jesporta l-fajl.",
+    "record_failed": "Naqas milli jibda r-reġistrazzjoni."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Fil-kju",
+      "running": "Running",
+      "done": "Magħmul",
+      "error": "Falliet",
+      "cancelled": "Ikkanċellat"
+    },
+    "kind": {
+      "process": "Ipproċessar",
+      "export": "Esportazzjoni",
+      "import": "Importazzjoni",
+      "record": "Reġistrazzjoni"
+    }
+  }
+}

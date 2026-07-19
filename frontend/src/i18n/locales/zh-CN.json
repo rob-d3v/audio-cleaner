@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "音频清理器"
+  },
+  "nav": {
+    "library": "图书馆",
+    "record": "记录",
+    "import": "进口",
+    "templates": "模板",
+    "settings": "设置",
+    "guide": "指南"
+  },
+  "common": {
+    "save": "保存",
+    "saving": "正在保存...",
+    "saved": "已保存",
+    "cancel": "取消",
+    "close": "关闭",
+    "delete": "删除",
+    "edit": "编辑",
+    "create": "创建",
+    "search": "搜索",
+    "loading": "加载中...",
+    "error": "错误",
+    "retry": "重试",
+    "confirm": "确认",
+    "back": "返回",
+    "next": "下一步",
+    "continue": "继续",
+    "finish": "完成",
+    "copy": "复制",
+    "copied": "已复制",
+    "download": "下载",
+    "upload": "上传",
+    "none": "无",
+    "all": "全部",
+    "yes": "是的",
+    "no": "否",
+    "select": "选择",
+    "optional": "可选的",
+    "required": "需要",
+    "unsaved_changes": "未保存的更改",
+    "name": "名称",
+    "status": "状态",
+    "type": "类型",
+    "actions": "行动",
+    "empty": "空",
+    "browse": "浏览",
+    "remove": "删除",
+    "add": "添加",
+    "rename": "重命名",
+    "duplicate": "重复",
+    "warning": "警告",
+    "locked": "锁定",
+    "builtin": "内置",
+    "custom": "定制",
+    "untitled": "无题",
+    "select_placeholder": "选择…"
+  },
+  "library": {
+    "title": "图书馆",
+    "subtitle": "您的声音和吉他项目，从创意到发布。",
+    "new_project": "新项目",
+    "new_album": "新专辑",
+    "search_placeholder": "按名称搜索...",
+    "view": {
+      "grid": "网格",
+      "albums": "专辑"
+    },
+    "filters": {
+      "all": "全部"
+    },
+    "take_count_one": " {{count}}采取",
+    "take_count_other": " {{count}}需要",
+    "updated_at": "已更新{{date}} ",
+    "no_results": {
+      "title": "没有找到项目",
+      "description": "尝试调整搜索或状态过滤器。"
+    },
+    "empty": {
+      "title": "你的图书馆是空的",
+      "description": "从头开始一个新项目，或者导入磁盘上已有的项目。",
+      "cta_import": "从文件夹导入",
+      "cta_new": "创建项目"
+    },
+    "project_dialog": {
+      "title": "新项目",
+      "description": "为其命名并选择录制模式。",
+      "name_label": "项目名称",
+      "name_placeholder": "例如夏雨",
+      "mode_label": "模式",
+      "mode": {
+        "voice": "仅语音",
+        "voice_guitar": "声音+吉他"
+      },
+      "submit": "创建项目"
+    },
+    "album_dialog": {
+      "title": "新专辑",
+      "description": "将相关项目分组到相册中。",
+      "name_label": "专辑名称",
+      "name_placeholder": "例如秋季EP",
+      "submit": "创建相册"
+    },
+    "album": {
+      "untitled": "无题专辑",
+      "members_count_one": " {{count}}项目",
+      "members_count_other": " {{count}} 项目",
+      "empty": "这张专辑中还没有项目。",
+      "delete_confirm_title": "删除相册？",
+      "delete_confirm_description": "项目不会被删除，只会取消与“{{name}}”的链接。"
+    },
+    "delete_project": {
+      "confirm_title": "删除“{{name}}”？",
+      "confirm_description": "这会删除该项目及其中的所有内容。这无法撤消。"
+    }
+  },
+  "record": {
+    "title": "记录",
+    "subtitle": "捕捉干净的镜头，观察你的水平，然后遵循脚本。",
+    "project_label": "项目",
+    "project_placeholder": "选择一个项目",
+    "project_create_quick": "创建一个快速项目...",
+    "device_label": "输入设备",
+    "device_placeholder": "选择设备",
+    "device_default_badge": "系统默认",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "未找到输入设备。",
+    "monitor_button": "监视器",
+    "monitor_stop_button": "停止监控",
+    "record_button": "记录",
+    "stop_button": "停止",
+    "elapsed_label": "经过时间",
+    "status": {
+      "idle": "空闲",
+      "monitoring": "监控",
+      "recording": "录音",
+      "stopped": "已停止"
+    },
+    "meter": {
+      "rms": "有效值",
+      "peak": "巅峰",
+      "clip": "剪辑"
+    },
+    "guide": {
+      "title": "指导课程",
+      "subtitle": "让教练逐步引导您完成脚本，从热身到口语短语。",
+      "loading": "正在加载脚本...",
+      "unavailable": "引导会话在服务器上尚不可用。",
+      "select_project_device": "从这里选择一个项目和一个输入设备来记录步骤。",
+      "progress": " {{done}} 步（共 {{total}} 步）",
+      "start_timer": "启动定时器",
+      "skip_timer": "跳过计时器",
+      "record_step": "记录一下这一步",
+      "stop_step": "停止录音",
+      "mark_done": "完成——下一步",
+      "step_recorded": "拍摄记录",
+      "no_record_step": "热身步骤——无需录音。",
+      "bars_hint": "约{{bars}}条",
+      "complete_title": "脚本完成！",
+      "complete_body": "您已经记录了脚本的每一步。返回项目的“音频”选项卡并选择您最喜欢的片段。",
+      "restart": "重启脚本"
+    },
+    "best2min": {
+      "button": "找到最好的 2 分钟 (Suno)",
+      "running": "分析采取...",
+      "score_label": "分数",
+      "hint": "对整个片段进行能量和清晰度分析，以找到最强的 2 分钟窗口 - 之后您仍然可以手动调整范围。",
+      "chart_caption": "每个窗口的得分",
+      "unavailable": "该服务器尚不提供最佳 2 分钟分析。"
+    },
+    "takes_title": "摘自本次会议",
+    "takes_empty": "此会话中尚未记录任何镜头。",
+    "open_in_project": "在项目中打开",
+    "ws_disconnected": "正在重新连接到电平表...",
+    "select_project_first": "选择一个项目来开始。",
+    "select_device_first": "选择输入设备。"
+  },
+  "project": {
+    "back_to_library": "返回图书馆",
+    "header": {
+      "status_label": "状态",
+      "cover_upload": "上传封面",
+      "cover_remove": "取下盖子",
+      "name_placeholder": "项目名称",
+      "links_title": "友情链接",
+      "add_link": "添加链接",
+      "mode": {
+        "voice": "仅语音",
+        "voice_guitar": "声音+吉他"
+      }
+    },
+    "tabs": {
+      "audio": "音频",
+      "lyrics": "歌词",
+      "prompts": "提示",
+      "notes": "注释"
+    },
+    "audio": {
+      "takes_title": "需要",
+      "no_takes": {
+        "title": "还没有拍摄",
+        "description": "录制新片段或导入现有文件。"
+      },
+      "record_new": "录制新镜头",
+      "rating": "评级",
+      "variant": {
+        "raw": "原料",
+        "processed": "已加工"
+      },
+      "variant_placeholder": "版本",
+      "process_button": "工艺流程",
+      "export_button": "出口",
+      "delete_take_confirm_title": "删除这个镜头吗？",
+      "delete_take_confirm_description": "原始音频和每个处理过的版本都将被删除。",
+      "ab": {
+        "raw": "一个·原始",
+        "processed": "B·已加工"
+      },
+      "origin": {
+        "recorded": "已录制",
+        "imported": "进口"
+      },
+      "session_label_placeholder": "会话标签（可选）",
+      "duration": "持续时间",
+      "sample_rate": "采样率",
+      "channels": "渠道",
+      "created_at": "已录制"
+    },
+    "pipeline": {
+      "title": "加工链",
+      "preset_label": "预设",
+      "preset_none": "定制链条",
+      "preset_save": "保存为预设",
+      "stage_locked": "锁定",
+      "stage_requires_extra": "需要未安装的额外组件",
+      "process_button": "流程采取",
+      "processing": "正在处理…",
+      "job_queued": "排队…",
+      "job_running": "正在处理…",
+      "job_done": "完成",
+      "job_error": "失败",
+      "job_cancelled": "取消",
+      "cancel_job": "取消",
+      "no_stages": "没有可用的阶段。"
+    },
+    "export": {
+      "title": "出口采取",
+      "description": "从处理后的版本渲染最终文件。",
+      "variant_label": "版本",
+      "format_label": "格式",
+      "preset_label": "导出预设",
+      "range_label": "范围",
+      "range_full": "全长",
+      "range_custom": "定制范围",
+      "start_label": "开始",
+      "end_label": "结束",
+      "submit": "出口",
+      "progress": "渲染文件...",
+      "download_ready": "文件准备好",
+      "download_button": "下载文件"
+    },
+    "notes": {
+      "placeholder": "关于该项目的自由格式注释...",
+      "saved_at": "保存于{{time}} "
+    },
+    "lyrics": {
+      "placeholder": "把歌词写在这里。使用侧面的调色板插入 Suno 元标签。",
+      "saved_at": "保存于{{time}} ",
+      "saving": "正在保存...",
+      "versions": "版本",
+      "versions_empty": "尚未保存版本。",
+      "version_preview": "预览",
+      "restore": "恢复此版本",
+      "restore_confirm_title": "恢复这个版本吗？",
+      "restore_confirm_description": "当前文本将替换为 {{date}} 上保存的版本。",
+      "metatags_title": "元标签",
+      "metatags_hint": "单击标签将其插入到光标处。",
+      "metatags_placebo_warning": "未经证实——可能对结果没有影响。",
+      "metatags_empty": "没有注册元标记。"
+    },
+    "prompts": {
+      "style_title": "风格提示",
+      "lyrics_title": "歌词提示",
+      "template_label": "模板",
+      "template_none": "无模板",
+      "variables_title": "变量",
+      "preview_title": "预览",
+      "preview_empty": "选择一个模板并填写变量以查看预览。",
+      "char_count": " {{count}} 个字符",
+      "char_count_warning": "Suno 可能会截断超过 1000 个字符的样式提示。",
+      "copy": "复制",
+      "copied": "已复制到剪贴板",
+      "save_to_project": "保存到项目",
+      "saved_to_project": "提示保存到项目",
+      "history_title": "历史",
+      "history_empty": "没有以前的版本。",
+      "current_label": "当前"
+    },
+    "stems": {
+      "title": "人声和吉他",
+      "separate_button": "人声和吉他分开",
+      "running": "分离…",
+      "vocals": "人声",
+      "instrumental": "器乐",
+      "process_stem": "处理这个茎",
+      "empty": "这个镜头还没有分开。运行分离来单独聆听人声和吉他。",
+      "capability_missing": "此服务器上未安装源分离。",
+      "unavailable": "此服务器尚不支持人声/吉他分离。"
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "开",
+    "boolean_off": "关闭"
+  },
+  "import": {
+    "title": "进口",
+    "subtitle": "将磁盘上已存在的项目放入库中。",
+    "step_indicator": "{{total}} 的步骤 {{current}} ",
+    "step1": {
+      "title": "找到文件夹",
+      "description": "指向包含项目和曲目的根文件夹。",
+      "path_label": "文件夹路径",
+      "path_placeholder": "例如E：\\罗布斯\\骄傲\\音乐\\罗布斯",
+      "recent_label": "最近",
+      "scan_button": "扫描文件夹",
+      "scanning": "正在扫描...",
+      "ffmpeg_warning": "未找到 FFmpeg — 将跳过需要转换的文件。",
+      "folders_found_one": " 找到{{count}}文件夹",
+      "folders_found_other": " 找到{{count}}文件夹",
+      "unmatched_files_one": " {{count}} 无法识别的文件",
+      "unmatched_files_other": " {{count}} 无法识别的文件"
+    },
+    "step2": {
+      "title": "评论项目",
+      "description": "在确认之前检查姓名、状态以及将导入的内容。",
+      "select_all": "选择全部",
+      "table": {
+        "folder": "源文件夹",
+        "name": "项目名称",
+        "status": "状态",
+        "audio": "音频",
+        "lyrics": "歌词",
+        "cover": "封面",
+        "album": "专辑"
+      },
+      "audio_include_one": " {{count}} 已选择文件",
+      "audio_include_other": " {{count}} 已选择文件",
+      "no_audio": "未找到音频",
+      "no_lyrics": "没有找到歌词",
+      "no_cover": "无盖",
+      "warnings_title": "警告"
+    },
+    "step3": {
+      "title": "进口",
+      "description": "确认复制文件并创建项目。",
+      "copy_originals": "将原始文件复制到库中",
+      "execute_button": "开始导入",
+      "progress_title": "正在导入...",
+      "created_count": "创建时间：{{count}} ",
+      "skipped_count": "跳过：{{count}} ",
+      "done_title": "导入完成",
+      "done_description": "以下项目是在您的库中创建的。",
+      "view_project": "打开项目",
+      "start_over": "全新进口"
+    }
+  },
+  "templates": {
+    "title": "模板",
+    "subtitle": "Suno 的可重用提示模板和元标记。",
+    "tabs": {
+      "prompts": "提示模板",
+      "metatags": "元标签"
+    },
+    "new_template": "新模板",
+    "kind": {
+      "style": "风格",
+      "lyrics": "歌词"
+    },
+    "kind_label": "种类",
+    "delete_confirm_title": "删除模板“{{name}}”？",
+    "delete_confirm_description": "这无法撤消。",
+    "empty": "还没有模板。",
+    "editor": {
+      "title_new": "新模板",
+      "title_edit": "编辑模板",
+      "name_label": "名称",
+      "name_placeholder": "例如原声民谣",
+      "kind_label": "种类",
+      "template_label": "模板文本",
+      "template_hint": "标记每个变量所属的位置，并将其名称包含在双花括号中 - 例如，名为“genre”的变量将成为包含在两个左大括号和两个右大括号中的流派。",
+      "variables_label": "变量",
+      "variable_add": "添加变量",
+      "variable_name": "钥匙",
+      "variable_label": "标签",
+      "variable_type": "类型",
+      "variable_type_string": "文字",
+      "variable_type_select": "单选",
+      "variable_type_multiselect": "多选",
+      "variable_type_number": "数量",
+      "variable_type_boolean": "是/否",
+      "variable_options": "选项（以逗号分隔）",
+      "variable_required": "必填",
+      "save": "保存模板"
+    },
+    "metatags": {
+      "title": "元标签",
+      "subtitle": "Suno 可以识别歌词内的结构和风格标签。",
+      "new_tag": "新标签",
+      "tag_label": "标签",
+      "tag_placeholder": "例如吉他独奏",
+      "category_label": "类别",
+      "tier_label": "可靠性",
+      "tier_legend_title": "可靠性图例",
+      "tier_legend": {
+        "1": "第 1 层 — 有记录且一致",
+        "2": "第 2 层 — 通常有效",
+        "3": "第三层——可变效应",
+        "4": "第 4 层——安慰剂，未经证实"
+      },
+      "description_label": "描述",
+      "delete_confirm_title": "删除标签“{{tag}}”？",
+      "empty": "还没有自定义元标记。"
+    }
+  },
+  "settings": {
+    "title": "设置",
+    "subtitle": "系统信息、语言和默认首选项。",
+    "system_info_title": "系统",
+    "version": "版本",
+    "data_dir": "数据文件夹",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "可用",
+    "ffmpeg_missing": "未找到",
+    "capabilities_title": "已安装能力",
+    "capability": {
+      "denoise": "降噪",
+      "quality": "品质提升",
+      "separate": "源头分离",
+      "ffmpeg": "FFmpeg 转换"
+    },
+    "capability_available": "可用",
+    "capability_unavailable": "不可用",
+    "gpu_title": "GPU加速",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX 运行时提供商"
+    },
+    "gpu_none": "未检测到 GPU 提供商",
+    "language_title": "语言",
+    "language": {
+      "pt-BR": "葡萄牙语（巴西）",
+      "en": "英语"
+    },
+    "theme_title": "外观",
+    "theme": {
+      "dark": "黑暗",
+      "light": "光"
+    },
+    "defaults_title": "导出默认值",
+    "lufs_target_label": "目标 LUFS",
+    "lufs_target_hint": "用作导出镜头时的起始建议。 Suno 的默认值约为 -14 LUFS。",
+    "saved": "已保存偏好设置"
+  },
+  "guide": {
+    "title": "Suno录音指南",
+    "subtitle": "如何捕捉人声和吉他片段以获得最佳效果。",
+    "intro": "Suno 在干净、明确的参考文献中表现最佳。本指南涵盖准备工作、目标级别和 3-5 分钟的录音脚本。",
+    "sections": {
+      "prep": {
+        "title": "准备工作",
+        "body": "在经过处理的房间或有大量柔软材料（窗帘、地毯、壁橱里的衣服）的房间中录制。关掉风扇和任何嗡嗡声的东西。录音前先热身 5 分钟。"
+      },
+      "levels": {
+        "title": "电平：-12 至 -6 dBFS",
+        "body": "瞄准仪表上 -12 和 -6 dBFS 之间的峰值。低于该范围，背景噪音变得更加明显；高于该水平，削波风险就会上升。在开始之前，使用“记录”页面上的仪表设置增益。"
+      },
+      "distance": {
+        "title": "麦克风距离：15–30 厘米",
+        "body": "与麦克风保持 15 至 30 厘米的距离。比这更接近夸大爆破音和邻近效应；距离越远，房间混响和噪音就越多。"
+      },
+      "script": {
+        "title": "录音脚本",
+        "warmup": "声音热身（1-2 分钟）",
+        "vowels": "延音元音 - a、e、i、o、u",
+        "scales": "简单的刻度，向上和向下",
+        "excerpt": "歌曲摘录（8 至 16 小节）",
+        "dynamics": "动态：开始轻柔，结束响亮",
+        "spoken_phrase": "一句口语短语，让 Suno 能够读懂您的语气"
+      },
+      "expectations": {
+        "title": "苏诺的期望",
+        "body": "WAV，48 kHz，单声道，干（无混响或效果），3 到 5 分钟的参考。最干净、最具代表性的 2 分钟镜头通常会产生最佳效果。"
+      }
+    }
+  },
+  "status": {
+    "idea": "理念",
+    "em_progresso": "进行中",
+    "quase": "快到了",
+    "pronto": "准备好"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Suno 的完整声乐脚本",
+      "desc": "5 分钟指导：热身、元音、音阶、两首歌曲摘录、力度和口语短语。"
+    },
+    "step": {
+      "warmup": "声乐热身",
+      "warmup_inst": "通过打哈欠、嘴唇颤音 (brrr) 和轻柔的嗡嗡声来放松大约一分钟。不需要录音——只是在唱歌之前放松一下喉咙。",
+      "vowels": "延音元音",
+      "vowels_inst": "以您舒适的音高和稳定的音量按住每个元音（a、e、i、o、u）3 到 4 秒。这有助于 Suno 拾取您声音的纯净音色。",
+      "scales": "放大和缩小",
+      "scales_inst": "在“la”或“na”上先唱简单的音阶，然后唱低音阶。它不需要完美——目标是映射您的音域。",
+      "section": "歌曲摘录 — 第 1 部分",
+      "section_inst": "唱歌曲的 8 到 16 小节，带着你想要传达的真实意图。优先考虑清晰度和表现而不是技术完美。",
+      "section2": "歌曲摘录 — 第 2 部分",
+      "section2_inst": "再唱 8 到 16 小节——最好是副歌部分或与前一个部分形成对比的部分。更多的多样性有助于模型学习你的声音。",
+      "dynamics": "力度：柔和→响亮",
+      "dynamics_inst": "唱同样的乐句，开头非常轻柔，结尾大声，不要拉紧喉咙。这向 Suno 显示了您声音的动态范围。",
+      "spoken": "口语短语",
+      "spoken_inst": "说话——不要唱歌——简短、自然的短语，就像你们在聊天一样。这有助于 Suno 识别您声音的真实音色。"
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "恢复",
+      "filter": "过滤器",
+      "dynamics": "动力学",
+      "separation": "分离",
+      "quality": "品质",
+      "utility": "实用性",
+      "loudness": "响度"
+    },
+    "highpass": "高通滤波器",
+    "lowpass": "低通滤波器",
+    "denoise": "降噪",
+    "declip": "剪裁",
+    "declick": "点击/弹出删除",
+    "deesser": "嘶嘶声消除器",
+    "gate": "噪声门",
+    "compressor": "压缩机",
+    "limiter": "限制器",
+    "eq": "均衡",
+    "normalize": "峰归一化",
+    "loudness": "响度归一化 (LUFS)",
+    "reverb_reduce": "混响减少",
+    "separate": "源头分离",
+    "quality": "品质提升（高档）",
+    "trim_silence": "静音修剪",
+    "fade": "淡入/淡出",
+    "stereo_to_mono": "转换为单声道",
+    "resample": "重采样"
+  },
+  "metatags": {
+    "tier": {
+      "1": "可靠",
+      "2": "通常有效",
+      "3": "变量",
+      "4": "安慰剂"
+    },
+    "category": {
+      "structure": "结构",
+      "vocal": "声乐",
+      "instrument": "仪器仪表",
+      "dynamics": "动力学",
+      "production": "生产",
+      "mood": "心情"
+    },
+    "verse": "诗歌",
+    "chorus": "合唱团",
+    "bridge": "桥",
+    "intro": "简介",
+    "outro": "尾奏",
+    "hook": "钩子",
+    "prechorus": "预合唱",
+    "instrumental": "器乐",
+    "guitar_solo": "吉他独奏",
+    "build_up": "建立",
+    "breakdown": "故障",
+    "spoken_word": "口语",
+    "whispered": "窃窃私语",
+    "harmonies": "和声",
+    "male_vocal": "男声",
+    "female_vocal": "女声",
+    "duet": "二重唱",
+    "acoustic": "声学",
+    "ad_lib": "即兴表演"
+  },
+  "presets": {
+    "clean_voice": "干净的声音",
+    "voice_guitar_balanced": "平衡的声音和吉他",
+    "podcast": "播客",
+    "suno_ready": "苏诺准备好了",
+    "gentle_restore": "温和还原",
+    "raw_passthrough": "没有处理"
+  },
+  "errors": {
+    "unknown": "出了点问题。",
+    "network": "无法到达服务器。",
+    "validation_error": "检查您输入的信息。",
+    "not_found": "未找到项目。",
+    "project_not_found": "未找到项目。",
+    "take_not_found": "拿没发现。",
+    "album_not_found": "找不到相册。",
+    "preset_not_found": "未找到预设。",
+    "template_not_found": "找不到模板。",
+    "device_busy": "音频设备正被另一个程序使用。",
+    "device_not_found": "未找到音频设备。",
+    "already_recording": "录音已经在进行中。",
+    "ffmpeg_missing": "未安装 FFmpeg — 安装它以转换此文件。",
+    "disk_full": "磁盘空间不足。",
+    "permission_denied": "给定路径的权限被拒绝。",
+    "import_path_not_found": "找不到导入路径。",
+    "job_failed": "处理失败。",
+    "job_cancelled": "处理被取消。",
+    "process_failed": "无法处理拍摄。",
+    "export_failed": "导出文件失败。",
+    "record_failed": "无法开始录制。"
+  },
+  "jobs": {
+    "status": {
+      "queued": "排队",
+      "running": "跑步",
+      "done": "完成",
+      "error": "失败",
+      "cancelled": "取消"
+    },
+    "kind": {
+      "process": "加工",
+      "export": "出口",
+      "import": "进口",
+      "record": "录音"
+    }
+  }
+}

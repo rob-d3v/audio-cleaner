@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio Cleaner"
+  },
+  "nav": {
+    "library": "Pirtûkxane",
+    "record": "Record",
+    "import": "Import",
+    "templates": "Şablonên",
+    "settings": "Settings",
+    "guide": "Rêbertî"
+  },
+  "common": {
+    "save": "Save",
+    "saving": "Sazkirin…",
+    "saved": "Saved",
+    "cancel": "Betal bike",
+    "close": "Close",
+    "delete": "Jêbirin",
+    "edit": "Biguherîne",
+    "create": "Create",
+    "search": "Search",
+    "loading": "Barkirin…",
+    "error": "Error",
+    "retry": "Ji nû ve biceribîne",
+    "confirm": "Piştrast bike",
+    "back": "Vegere",
+    "next": "Next",
+    "continue": "Berdewam bike",
+    "finish": "Biqedînin",
+    "copy": "Kopî kirin",
+    "copied": "Kopî kirin",
+    "download": "Download",
+    "upload": "Upload",
+    "none": "None",
+    "all": "Hemû",
+    "yes": "Yes",
+    "no": "No",
+    "select": "Hilbijêre",
+    "optional": "vebijarkî",
+    "required": "pêwîst",
+    "unsaved_changes": "Guhertinên ne tomarkirî",
+    "name": "Name",
+    "status": "Status",
+    "type": "Type",
+    "actions": "Actions",
+    "empty": "Empty",
+    "browse": "Browse",
+    "remove": "Rakirin",
+    "add": "Zêde bikin",
+    "rename": "Rename",
+    "duplicate": "Ducarî",
+    "warning": "Hişyarî",
+    "locked": "Girtî kirin",
+    "builtin": "Avakirin",
+    "custom": "Custom",
+    "untitled": "Bê sernav",
+    "select_placeholder": "Hilbijêre…"
+  },
+  "library": {
+    "title": "Pirtûkxane",
+    "subtitle": "Projeyên deng û gîtara we, ji ramanê heya serbestberdanê.",
+    "new_project": "Projeya nû",
+    "new_album": "Albuma nû",
+    "search_placeholder": "Bi navê lêgerîn…",
+    "view": {
+      "grid": "Grid",
+      "albums": "Albums"
+    },
+    "filters": {
+      "all": "Hemû"
+    },
+    "take_count_one": " {{count}} bigirin",
+    "take_count_other": " {{count}} digire",
+    "updated_at": "Nûvekirin {{date}} ",
+    "no_results": {
+      "title": "Proje nehat dîtin",
+      "description": "Biceribînin fîltera lêgerînê an statûyê eyar bikin."
+    },
+    "empty": {
+      "title": "Pirtûkxaneya we vala ye",
+      "description": "Projeyek nû ji sifirê dest pê bikin, an jî îtxal dikin ku we berê li ser dîskê heye.",
+      "cta_import": "Ji peldankê derxînin",
+      "cta_new": "Proje çêbikin"
+    },
+    "project_dialog": {
+      "title": "Projeya nû",
+      "description": "Navê wê bidin û moda tomarkirinê hilbijêrin.",
+      "name_label": "Navê projeyê",
+      "name_placeholder": "wek mînak. Barana Havînê",
+      "mode_label": "Mode",
+      "mode": {
+        "voice": "Deng tenê",
+        "voice_guitar": "Deng + gîtar"
+      },
+      "submit": "Proje çêbikin"
+    },
+    "album_dialog": {
+      "title": "Albuma nû",
+      "description": "Projeyên têkildar di albûmê de kom bikin.",
+      "name_label": "Navê albûmê",
+      "name_placeholder": "wek mînak. Autumn EP",
+      "submit": "Album çêbikin"
+    },
+    "album": {
+      "untitled": "Albuma bê sernav",
+      "members_count_one": " Projeya {{count}}",
+      "members_count_other": " {{count}} proje",
+      "empty": "Di vê albûmê de hîn proje tune.",
+      "delete_confirm_title": "Albûmê jê bibe?",
+      "delete_confirm_description": "Proje nayên jêbirin, tenê ji \" {{name}}\" nayên girêdan."
+    },
+    "delete_project": {
+      "confirm_title": "\"{{name}}\" jê bibe?",
+      "confirm_description": "Ev proje û her kêşeya wê jê dike. Ev nayê betalkirin."
+    }
+  },
+  "record": {
+    "title": "Record",
+    "subtitle": "Veguheztinek paqij bigirin, astên xwe temaşe bikin, û li pey nivîsarê bişopînin.",
+    "project_label": "Project",
+    "project_placeholder": "Projeyek hilbijêrin",
+    "project_create_quick": "Projeyek bilez biafirînin…",
+    "device_label": "Amûra Input",
+    "device_placeholder": "Amûrek hilbijêrin",
+    "device_default_badge": "System default",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Amûrên têketinê nehatin dîtin.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Çavdêriyê rawestînin",
+    "record_button": "Record",
+    "stop_button": "Raweste",
+    "elapsed_label": "Dema derbas bû",
+    "status": {
+      "idle": "Idle",
+      "monitoring": "Şopandina",
+      "recording": "Recording",
+      "stopped": "Rawestiyan"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Peak",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Rûniştina rêberî",
+      "subtitle": "Bihêlin rahêner gav bi gav, ji germkirinê bigire heya hevoka axaftinê, hûn bi senaryoyê bişopînin.",
+      "loading": "Nivîsar tê barkirin…",
+      "unavailable": "Danişîna rêberî hîna li ser serverê peyda nabe.",
+      "select_project_device": "Projeyek û amûrek têketinê hilbijêrin da ku gavan rast ji vir tomar bikin.",
+      "progress": " {{done}} ji {{total}} gavan",
+      "start_timer": "Demjimêr dest pê bike",
+      "skip_timer": "Demjimêr derbas bikin",
+      "record_step": "Vê gavê tomar bikin",
+      "stop_step": "Tomarkirinê rawestînin",
+      "mark_done": "Kirin - gava paşîn",
+      "step_recorded": "Tomar kirin",
+      "no_record_step": "Pêngava germkirinê - ne hewceyî tomarkirinê ye.",
+      "bars_hint": "Nêzîkî {{bars}} bars",
+      "complete_title": "Skrîpt temam bû!",
+      "complete_body": "Te her gav ji senaryoyê tomar kiriye. Serê xwe bidin tabloya Dengê ya projeyê û xêzên xweyên bijare hilbijêrin.",
+      "restart": "Skrîptê ji nû ve bidin destpêkirin"
+    },
+    "best2min": {
+      "button": "2 hûrdeman çêtirîn bibînin (Suno)",
+      "running": "Analîzkirina wergirtinê…",
+      "score_label": "Score",
+      "hint": "Li ser tevahiyê vekolînek enerjî û zelaliyê dimeşîne da ku pencereya wê ya 2-hûrqê ya herî bihêz bibîne - hûn dîsa jî dikarin rêzê bi destê xwe verast bikin.",
+      "chart_caption": "Score per pencereyê",
+      "unavailable": "Li ser vê serverê hîna analîza 2 hûrdemî ya çêtirîn tune."
+    },
+    "takes_title": "Ji vê rûniştinê digire",
+    "takes_empty": "Di vê danişînê de hêj ti vegirtin nehatine tomarkirin.",
+    "open_in_project": "Di projeyê de vekin",
+    "ws_disconnected": "Ji nû ve bi pîvana astê ve tê girêdan…",
+    "select_project_first": "Projeyek hilbijêrin ku dest pê bikin.",
+    "select_device_first": "Amûrek têketinê hilbijêrin."
+  },
+  "project": {
+    "back_to_library": "Vegere pirtûkxaneyê",
+    "header": {
+      "status_label": "Status",
+      "cover_upload": "Bergê barkirin",
+      "cover_remove": "Qapaxê rakin",
+      "name_placeholder": "Navê projeyê",
+      "links_title": "Girêdanên",
+      "add_link": "Girêdanê zêde bike",
+      "mode": {
+        "voice": "Deng tenê",
+        "voice_guitar": "Deng + gîtar"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Lyrics",
+      "prompts": "Prompts",
+      "notes": "Têbînî"
+    },
+    "audio": {
+      "takes_title": "Digire",
+      "no_takes": {
+        "title": "Hîn nayê girtin",
+        "description": "Pelek nû tomar bikin an pelek heyî derxînin."
+      },
+      "record_new": "Vebijêrkek nû tomar bikin",
+      "rating": "Rating",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Processed"
+      },
+      "variant_placeholder": "Versiyon",
+      "process_button": "Pêvajoya",
+      "export_button": "Export",
+      "delete_take_confirm_title": "Vê girtinê jê bibe?",
+      "delete_take_confirm_description": "Dengê xav û her guhertoya pêvajoyî dê were rakirin.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Pêvajoya"
+      },
+      "origin": {
+        "recorded": "Tomar kirin",
+        "imported": "Imported"
+      },
+      "session_label_placeholder": "Etîketa danişînê (vebijarkî)",
+      "duration": "Duration",
+      "sample_rate": "Rêjeya nimûne",
+      "channels": "Channels",
+      "created_at": "Tomar kirin"
+    },
+    "pipeline": {
+      "title": "Zincîra pêvajoyê",
+      "preset_label": "Preset",
+      "preset_none": "zincîra Custom",
+      "preset_save": "Wek pêşdibistanê tomar bike",
+      "stage_locked": "Girtî kirin",
+      "stage_requires_extra": "Zêdeyekî ku nehatiye saz kirin hewce dike",
+      "process_button": "Pêvajo digire",
+      "processing": "Pêvajokirin…",
+      "job_queued": "Li dorê…",
+      "job_running": "Pêvajokirin…",
+      "job_done": "Kirin",
+      "job_error": "Bi ser neket",
+      "job_cancelled": "Betal kirin",
+      "cancel_job": "Betal bike",
+      "no_stages": "Qonax tune."
+    },
+    "export": {
+      "title": "Export bigirin",
+      "description": "Ji guhertoyek pêvajoyî pelek dawîn bidin.",
+      "variant_label": "Versiyon",
+      "format_label": "Format",
+      "preset_label": "Export pêşdibistanê",
+      "range_label": "Range",
+      "range_full": "Tevahiya dirêj",
+      "range_custom": "range Custom",
+      "start_label": "Destpêk (s)",
+      "end_label": "Dawî (yên)",
+      "submit": "Export",
+      "progress": "Danasîna pelê…",
+      "download_ready": "Pelê amade ye",
+      "download_button": "Pelê dakêşin"
+    },
+    "notes": {
+      "placeholder": "Têbînîyên belaş ên li ser vê projeyê…",
+      "saved_at": "Di {{time}} de hat tomarkirin "
+    },
+    "lyrics": {
+      "placeholder": "Gotinên li vir binivîsin. Paleta li kêlekê bikar bînin da ku meta-tagên Suno têxin.",
+      "saved_at": "Di {{time}} de hat tomarkirin ",
+      "saving": "Sazkirin…",
+      "versions": "Guhertoyên",
+      "versions_empty": "Guhertoyên tomarkirî hîn tune.",
+      "version_preview": "Pêşdîtin",
+      "restore": "Vê versiyonê vegerînin",
+      "restore_confirm_title": "Vê guhertoyê vegerîne?",
+      "restore_confirm_description": "Nivîsa heyî dê bi guhertoya ku li ser {{date}} hatiye tomarkirin were guhertin.",
+      "metatags_title": "Meta-tags",
+      "metatags_hint": "Etîketek bikirtînin da ku wê têxin ser kursorê.",
+      "metatags_placebo_warning": "Nerastkirî - dibe ku bandorek li ser encamê tune.",
+      "metatags_empty": "Meta-tag nehatine qeyd kirin."
+    },
+    "prompts": {
+      "style_title": "Style prompt",
+      "lyrics_title": "Lyrics prompt",
+      "template_label": "Şablon",
+      "template_none": "Şablon tune",
+      "variables_title": "Variables",
+      "preview_title": "Pêşdîtin",
+      "preview_empty": "Şablonek hilbijêrin û guherbaran dagirin da ku pêşdîtinek bibînin.",
+      "char_count": " {{count}} karakter",
+      "char_count_warning": "Dibe ku şêwaz zêdetirî 1000 tîpan ji hêla Suno ve were qut kirin.",
+      "copy": "Kopî kirin",
+      "copied": "Li clipboardê hate kopî kirin",
+      "save_to_project": "Projeyê hilînin",
+      "saved_to_project": "Serlêdan ji bo projeyê hate tomarkirin",
+      "history_title": "Dîrok",
+      "history_empty": "Guhertoyên berê tune.",
+      "current_label": "Current"
+    },
+    "stems": {
+      "title": "Dengbêj û gîtar",
+      "separate_button": "Deng û gîtar ji hev veqetînin",
+      "running": "Veqetandin…",
+      "vocals": "Vocals",
+      "instrumental": "Instrumental",
+      "process_stem": "Vê stûnê pêvajoyê bikin",
+      "empty": "Ev girtin hê ji hev veneqetiyaye. Veqetandinê bimeşînin da ku deng û gîtarê bi tenê bibihîzin.",
+      "capability_missing": "Veqetandina çavkaniyê li ser vê serverê nehatiye saz kirin.",
+      "unavailable": "Veqetandina deng/gîtar hîna li ser vê serverê peyda nabe."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Li ser",
+    "boolean_off": "Off"
+  },
+  "import": {
+    "title": "Import",
+    "subtitle": "Projeyên ku berê li ser dîskê hene bînin pirtûkxaneyê.",
+    "step_indicator": "Gav {{current}} ji {{total}} ",
+    "step1": {
+      "title": "Peldanka bibînin",
+      "description": "Bi proje û şopên xwe re peldanka root destnîşan bikin.",
+      "path_label": "Riya peldankê",
+      "path_placeholder": "wek mînak. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "Recent",
+      "scan_button": "Peldanka Scan",
+      "scanning": "Skankirin…",
+      "ffmpeg_warning": "FFmpeg nehat dîtin - pelên ku hewceyê veguheztinê ne dê werin paşguh kirin.",
+      "folders_found_one": " Peldanka {{count}} hat dîtin",
+      "folders_found_other": " {{count}} peldank hatin dîtin",
+      "unmatched_files_one": " {{count}} pelê nayê naskirin",
+      "unmatched_files_other": " {{count}} pelên nenaskirî"
+    },
+    "step2": {
+      "title": "Tiştên binirxînin",
+      "description": "Berî ku piştrast bikin, nav, statû, û tiştê ku dê were derxistin kontrol bikin.",
+      "select_all": "Hemî hilbijêrin",
+      "table": {
+        "folder": "Peldanka çavkaniyê",
+        "name": "Navê projeyê",
+        "status": "Status",
+        "audio": "Audio",
+        "lyrics": "Lyrics",
+        "cover": "Cover",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} pel hat hilbijartin",
+      "audio_include_other": " Pelên {{count}} hatin hilbijartin",
+      "no_audio": "Deng nehat dîtin",
+      "no_lyrics": "Gotin nehat dîtin",
+      "no_cover": "No cover",
+      "warnings_title": "Hişyarî"
+    },
+    "step3": {
+      "title": "Import",
+      "description": "Piştrast bikin ku pelan kopî bikin û projeyan biafirînin.",
+      "copy_originals": "Pelên orîjînal li pirtûkxaneyê kopî bikin",
+      "execute_button": "Import dest pê bikin",
+      "progress_title": "Import…",
+      "created_count": "Çêkirin: {{count}} ",
+      "skipped_count": "Derket: {{count}} ",
+      "done_title": "Import temam",
+      "done_description": "Projeyên li jêr di pirtûkxaneya we de hatine afirandin.",
+      "view_project": "Projeya vekirî",
+      "start_over": "Import nû"
+    }
+  },
+  "templates": {
+    "title": "Şablonên",
+    "subtitle": "Ji bo Suno şablonên bilez û meta-tagên ji nû ve têne bikar anîn.",
+    "tabs": {
+      "prompts": "Şablonên bilez",
+      "metatags": "Meta-tags"
+    },
+    "new_template": "Şablonek nû",
+    "kind": {
+      "style": "Style",
+      "lyrics": "Lyrics"
+    },
+    "kind_label": "Kind",
+    "delete_confirm_title": "Şablon \" {{name}} \" jê bibe?",
+    "delete_confirm_description": "Ev nayê betalkirin.",
+    "empty": "Hê şablon nînin.",
+    "editor": {
+      "title_new": "Şablonek nû",
+      "title_edit": "Şablon biguherîne",
+      "name_label": "Name",
+      "name_placeholder": "wek mînak. Baladê Acoustic",
+      "kind_label": "Kind",
+      "template_label": "Nivîsara şablonê",
+      "template_hint": "Cîhê ku her guhêrbar aîdê wê ye bi navên xwe yên ku di dubendî kêşan de pêçayî ye nîşan bidin - mînakî, guhêrbarek bi navê \"genre\" dibe celebek ku di du pêlên vekirinê û du bendavên girtinê de pêça ye.",
+      "variables_label": "Variables",
+      "variable_add": "Guherbar lê zêde bike",
+      "variable_name": "Key",
+      "variable_label": "Label",
+      "variable_type": "Type",
+      "variable_type_string": "Text",
+      "variable_type_select": "Hilbijartina yekane",
+      "variable_type_multiselect": "Pir-hilbijartin",
+      "variable_type_number": "Number",
+      "variable_type_boolean": "Erê/na",
+      "variable_options": "Vebijêrk (ji hev veqetandî)",
+      "variable_required": "Required",
+      "save": "Save şablonê"
+    },
+    "metatags": {
+      "title": "Meta-tags",
+      "subtitle": "Etîketên avahî û şêwazê Suno di hundurê stranan de nas dike.",
+      "new_tag": "Etîketa nû",
+      "tag_label": "Tag",
+      "tag_placeholder": "mînak. guitar-solo",
+      "category_label": "Kategorî",
+      "tier_label": "Reliability",
+      "tier_legend_title": "efsaneya pêbaweriyê",
+      "tier_legend": {
+        "1": "Asta 1 - belgekirî û hevgirtî",
+        "2": "Asta 2 - bi gelemperî dixebite",
+        "3": "Asta 3 - bandora guherbar",
+        "4": "Asta 4 - cîhêbo, nehatî îsbat kirin"
+      },
+      "description_label": "Danasîn",
+      "delete_confirm_title": "Etîketa \" {{tag}} \" jê bibe?",
+      "empty": "Hîn meta-tagên xwerû tune."
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Agahdariya pergalê, ziman, û tercîhên xwerû.",
+    "system_info_title": "System",
+    "version": "Versiyon",
+    "data_dir": "Peldanka daneyê",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Available",
+    "ffmpeg_missing": "nehat dîtin",
+    "capabilities_title": "Kapasîteyên sazkirî",
+    "capability": {
+      "denoise": "Kêmkirina deng",
+      "quality": "Pêşveçûna kalîteyê",
+      "separate": "Veqetandina çavkaniyê",
+      "ffmpeg": "Veguherîna FFmpeg"
+    },
+    "capability_available": "Available",
+    "capability_unavailable": "Unavailable",
+    "gpu_title": "Leza GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "Pêşkêşvanên ONNX Runtime"
+    },
+    "gpu_none": "Tu pêşkêşkerên GPU nehatin dîtin",
+    "language_title": "Ziman",
+    "language": {
+      "pt-BR": "Português (Brazîlya)",
+      "en": "English"
+    },
+    "theme_title": "Xuyabûn",
+    "theme": {
+      "dark": "Dark",
+      "light": "Light"
+    },
+    "defaults_title": "Export standardên",
+    "lufs_target_label": "Armanca LUFS",
+    "lufs_target_hint": "Dema ku hinardekirinê digire wekî pêşniyara destpêkê tê bikar anîn. Pêşniyara Suno li dora -14 LUFS rûniştiye.",
+    "saved": "Preferences xilas kirin"
+  },
+  "guide": {
+    "title": "rêberê tomarkirinê Suno",
+    "subtitle": "Meriv çawa deng û gîtarê digire ku encamên çêtirîn digire.",
+    "intro": "Suno bi referansên paqij, nezelal çêtirîn pêk tîne. Ev rênîşander amadekarî, astên armanc, û senaryoyek tomarkirinê ya 3-5 hûrdem vedigire.",
+    "sections": {
+      "prep": {
+        "title": "Amadekirin",
+        "body": "Li jûreyek dermankirî an jî jûreyek bi gelek materyalên nerm (perde, xalîçe, cil û bergên di dolabê de) tomar bikin. Fans û her tiştê ku diqewime dûr bikin. Berî tomarkirinê 5 hûrdeman dengê xwe germ bikin."
+      },
+      "levels": {
+        "title": "Asta: -12 ber -6 dBFS",
+        "body": "Li ser metreyê lûtkeyên di navbera -12 û -6 dBFS de armanc bikin. Li jêr wê rêzê, dengê paşîn bêtir xuya dibe; li jor, rîska qutbûnê bilind dibe. Metre li ser rûpela Qeydê bikar bînin da ku berî ku hûn dest pê bikin qezenca xwe bicîh bikin."
+      },
+      "distance": {
+        "title": "Dûrahiya mîkrofê: 15-30 cm",
+        "body": "Ji mîkrofonê 15 heta 30 cm bimînin. Ji wê nêzîktir bandora teqîn û nêzîkbûnê zêde dike; dûrtir deng û dengek jûreyê zêde hildide."
+      },
+      "script": {
+        "title": "Skrîpta tomarkirinê",
+        "warmup": "Germkirina deng (1-2 deqe)",
+        "vowels": "Dengdêrên domdar - a, e, i, o, u",
+        "scales": "Pîvanên hêsan, jor û jêr",
+        "excerpt": "Beşek stranek (8 heta 16 bar)",
+        "dynamics": "Dînamîk: nerm dest pê bikin, bi deng bi dawî bibin",
+        "spoken_phrase": "Yek hevokek axaftinê, da ku Suno bikaribe dengê weya dengbêjiyê bixwîne"
+      },
+      "expectations": {
+        "title": "Ya ku Suno hêvî dike",
+        "body": "WAV, 48 kHz, mono, zuwa (bê reverb an bandor), 3 heta 5 hûrdemên referansê. Paqijtirîn, herî nûnerê 2 hûrdeman girtina bi gelemperî encamên çêtirîn çêdike."
+      }
+    }
+  },
+  "status": {
+    "idea": "Idea",
+    "em_progresso": "Di pêşveçûnê de",
+    "quase": "Hema li wir",
+    "pronto": "Ready"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Nivîsara dengbêjî ya tevahî ji bo Suno",
+      "desc": "5 hûrdemên rêberî: germbûn, dengdêr, pîvan, du beşên stranan, dînamîk, û hevokek axaftinê."
+    },
+    "step": {
+      "warmup": "Germkirina dengbêjiyê",
+      "warmup_inst": "Nêzîkî deqeyekê bi yawnan, lêvên lêvan (brrr) û hûrikek nerm vekin. Ne hewce ye ku tomar bike - ew tenê ye ku berî stranbêjiyê qirika xwe rehet bike.",
+      "vowels": "Dengdêrên domdar",
+      "vowels_inst": "Her dengdêran - a, e, i, o, u - 3 heta 4 saniyeyan li dengê xweya rehet, bi dengek domdar ragirin. Ev ji Suno re dibe alîkar ku tembûra paqij a dengê we hilde.",
+      "scales": "Pîvana jor û jêr",
+      "scales_inst": "Li ser \"la\" an \"na\" pîvanek sade bilind û dûv re bistrê. Ne hewce ye ku ew bêkêmasî be - armanc ew e ku hûn rêza dengbêjiya xwe nexşînin.",
+      "section": "Çêçek stran - beşa 1",
+      "section_inst": "8 heta 16 barên stranê, bi niyeta rastîn a ku hûn dixwazin ragihînin, bistirên. Zelalbûn û hebûna xwe li ser kamilbûna teknîkî pêşîn bikin.",
+      "section2": "Çêçek stran - beşa 2",
+      "section2_inst": "8 heta 16 barên din bistirên - bi îdeal koroyek an beşek ku bi ya berê re berevajî ye. Zêdetir cûrbecûr ji modelê re dibe alîkar ku dengê we fêr bibe.",
+      "dynamics": "Dînamîk: nerm → bilind",
+      "dynamics_inst": "Heman hevokê ku pir nerm dest pê dike û bi dengekî bilind diqede, bêyî ku qirika xwe teng bike, bêje. Ev rêza dînamîkî ya dengê we Suno nîşan dide.",
+      "spoken": "Hevoka axaftinê",
+      "spoken_inst": "Bipeyivin - nebêjin - bêjeyek kurt û xwezayî, mîna ku hûn sohbet bikin. Ev ji Suno re dibe alîkar ku tîmbeya rastîn a dengê we nas bike."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restoration",
+      "filter": "Parzûnên",
+      "dynamics": "Dynamics",
+      "separation": "Veqetandin",
+      "quality": "Quality",
+      "utility": "Utility",
+      "loudness": "Loudness"
+    },
+    "highpass": "Parzûna bilind-pass",
+    "lowpass": "Parzûna kêm-pass",
+    "denoise": "Kêmkirina deng",
+    "declip": "Kêmkirin",
+    "declick": "Rakirina bikirtînin/pop",
+    "deesser": "De-esser",
+    "gate": "Deriyê deng",
+    "compressor": "Compressor",
+    "limiter": "Limiter",
+    "eq": "Wekhevkirin",
+    "normalize": "Normalîzasyona Peak",
+    "loudness": "Normalîzasyona bilindbûnê (LUFS)",
+    "reverb_reduce": "Kêmkirina Reverb",
+    "separate": "Veqetandina çavkaniyê",
+    "quality": "Pêşveçûna kalîteyê (bilindtir)",
+    "trim_silence": "Bûyera bêdengiyê",
+    "fade": "Xem kirin / ketin",
+    "stereo_to_mono": "Veguherin mono",
+    "resample": "Resampling"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Reliable",
+      "2": "Bi gelemperî dixebite",
+      "3": "Guherbar",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Structure",
+      "vocal": "Vocal",
+      "instrument": "Instrument",
+      "dynamics": "Dynamics",
+      "production": "Production",
+      "mood": "Mood"
+    },
+    "verse": "Ayet",
+    "chorus": "Chorus",
+    "bridge": "Bridge",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Hook",
+    "prechorus": "Pre-chorus",
+    "instrumental": "Instrumental",
+    "guitar_solo": "Guitar solo",
+    "build_up": "Avakirin",
+    "breakdown": "Breakdown",
+    "spoken_word": "Peyva axaftinê",
+    "whispered": "Pistî",
+    "harmonies": "Harmonies",
+    "male_vocal": "Dengbêjê nêr",
+    "female_vocal": "Dengbêja jinê",
+    "duet": "Duet",
+    "acoustic": "Acoustic",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Dengê paqij",
+    "voice_guitar_balanced": "Deng û gîtara hevseng",
+    "podcast": "Podcast",
+    "suno_ready": "Suno amade ye",
+    "gentle_restore": "Restorasyona nerm",
+    "raw_passthrough": "No processing"
+  },
+  "errors": {
+    "unknown": "Tiştek xelet derket.",
+    "network": "Nekarî bigihêje serverê.",
+    "validation_error": "Agahiyên ku we ketine kontrol bikin.",
+    "not_found": "Babet nehat dîtin.",
+    "project_not_found": "Proje nehat dîtin.",
+    "take_not_found": "Take nayê dîtin.",
+    "album_not_found": "Album nehat dîtin.",
+    "preset_not_found": "Preset nehat dîtin.",
+    "template_not_found": "Şablon nehat dîtin.",
+    "device_busy": "Amûra deng ji hêla bernameyek din ve tê bikar anîn.",
+    "device_not_found": "Amûra deng nehat dîtin.",
+    "already_recording": "Jixwe qeydek li pêş e.",
+    "ffmpeg_missing": "FFmpeg nehatiye saz kirin - saz bikin ku vê pelê veguherîne.",
+    "disk_full": "Cihê dîskê têrê nake.",
+    "permission_denied": "Destûr ji bo riya hatî dayîn red kirin.",
+    "import_path_not_found": "Rêya importê nehat dîtin.",
+    "job_failed": "Pêvajo bi ser neket.",
+    "job_cancelled": "Pêvajo hat betalkirin.",
+    "process_failed": "Pêvajoya girtinê bi ser neket.",
+    "export_failed": "Derxistina pelê bi ser neket.",
+    "record_failed": "Destpêkirina tomarkirinê bi ser neket."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Li dorê",
+      "running": "Running",
+      "done": "Kirin",
+      "error": "Bi ser neket",
+      "cancelled": "Betal kirin"
+    },
+    "kind": {
+      "process": "Processing",
+      "export": "Export",
+      "import": "Import",
+      "record": "Recording"
+    }
+  }
+}

@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio Cleaner"
+  },
+  "nav": {
+    "library": "Library",
+    "record": "Rekord",
+    "import": "Import",
+    "templates": "Saray plantilya",
+    "settings": "Settings",
+    "guide": "Giya"
+  },
+  "common": {
+    "save": "I-save",
+    "saving": "Makatipid...",
+    "saved": "Insalba",
+    "cancel": "Kanselaen",
+    "close": "Saraan",
+    "delete": "Buraen",
+    "edit": "I-edit",
+    "create": "Manggawa",
+    "search": "Anapen",
+    "loading": "Mankarga...",
+    "error": "Lingo",
+    "retry": "Salien lamet",
+    "confirm": "Kumpirmaen",
+    "back": "Pawil",
+    "next": "Ontumbok",
+    "continue": "Ituloy",
+    "finish": "Tapos",
+    "copy": "Kopyaen",
+    "copied": "Kinopya",
+    "download": "I-download",
+    "upload": "I-upload",
+    "none": "Anggapo",
+    "all": "Amin",
+    "yes": "On",
+    "no": "Andi",
+    "select": "Pilien",
+    "optional": "opsyonal",
+    "required": "nakaukolan",
+    "unsaved_changes": "Saray ag-aka-save ya pananguman",
+    "name": "Ngaran",
+    "status": "Kipapasen",
+    "type": "Tipo",
+    "actions": "Saray kiwas",
+    "empty": "Anggapoy karga",
+    "browse": "Man-browse",
+    "remove": "Ekalen",
+    "add": "Idagdag",
+    "rename": "Iuman so ngaran",
+    "duplicate": "Mankopya",
+    "warning": "Pasakbay",
+    "locked": "Akakandado",
+    "builtin": "Nipaalagey",
+    "custom": "Pasadya",
+    "untitled": "Anggapoy titulo",
+    "select_placeholder": "Pilien…"
+  },
+  "library": {
+    "title": "Library",
+    "subtitle": "Saray proyekto na boses tan gitara yo, manlapud ideya anggad pangipaway.",
+    "new_project": "Balon proyekto",
+    "new_album": "Balon album",
+    "search_placeholder": "Anapen ed ngaran...",
+    "view": {
+      "grid": "Grid",
+      "albums": "Saray album"
+    },
+    "filters": {
+      "all": "Amin"
+    },
+    "take_count_one": " {{count}} mangala",
+    "take_count_other": " {{count}} mangala",
+    "updated_at": "In-update {{date}} ",
+    "no_results": {
+      "title": "Anggapoy naromog ya proyekto",
+      "description": "Salien ya i-adjust so search o status filter."
+    },
+    "empty": {
+      "title": "Anggapoy karga na librarya yo",
+      "description": "Igapo so balon proyekto manlapud gapo, odino i-import iray wala lad disk mo.",
+      "cta_import": "I-import manlapud folder",
+      "cta_new": "Manggawa na proyekto"
+    },
+    "project_dialog": {
+      "title": "Balon proyekto",
+      "description": "Ikdan mo na ngaran tan pilien so paraan na panagrekord.",
+      "name_label": "Ngaran na proyekto",
+      "name_placeholder": "alimbawa Uran ed Tiagew",
+      "mode_label": "Mode",
+      "mode": {
+        "voice": "Boses labat",
+        "voice_guitar": "Boses + gitara"
+      },
+      "submit": "Manggawa na proyekto"
+    },
+    "album_dialog": {
+      "title": "Balon album",
+      "description": "Igrupo iray misiglaotan a proyekto ed sakey ya album.",
+      "name_label": "Ngaran na album",
+      "name_placeholder": "alimbawa Autumn EP",
+      "submit": "Manggawa na album"
+    },
+    "album": {
+      "untitled": "Anggapoy titulon album",
+      "members_count_one": " {{count}} proyekto",
+      "members_count_other": " {{count}} proyekto",
+      "empty": "Anggapo ni ray proyekto ed sayan album.",
+      "delete_confirm_title": "Buraen so album?",
+      "delete_confirm_description": "Saray proyekto et ag nabura, naandi labat ed \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Buraen so \" {{name}} \"?",
+      "confirm_description": "Saya so mangekal ed proyekto tan amin a naala ed satan. Agla nayarin ipawil iya."
+    }
+  },
+  "record": {
+    "title": "Rekord",
+    "subtitle": "Manggawa na malinis ya take, bantayan iray lebel mo, tan tumboken so script.",
+    "project_label": "Proyekto",
+    "project_placeholder": "Manpili na proyekto",
+    "project_create_quick": "Manggawa kay maples ya proyekto...",
+    "device_label": "Input device",
+    "device_placeholder": "Manpili na kagawaan",
+    "device_default_badge": "Default na sistema",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Anggapoy naromog ya input devices.",
+    "monitor_button": "Bantayan",
+    "monitor_stop_button": "Itunda so panagbantay",
+    "record_button": "Rekord",
+    "stop_button": "Ontunda ka",
+    "elapsed_label": "Linmabas so panaon",
+    "status": {
+      "idle": "Anggapoy gagawaen",
+      "monitoring": "Panbantay",
+      "recording": "Panrekord",
+      "stopped": "Tinmunda"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Pantok",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Sesyon ya walay giya",
+      "subtitle": "Abuloyan mo so coach ya mangigiya ed sika ed script ya kundang-kundang, manlapud warm-up anggad spoken phrase.",
+      "loading": "Manloading na script…",
+      "unavailable": "Say guided session et agni naala ed server.",
+      "select_project_device": "Manpili na proyekto tan input device pian narekord iray kundang manlapud dia.",
+      "progress": " {{done}} na {{total}} kundang",
+      "start_timer": "Start timer",
+      "skip_timer": "Laktawan so oras",
+      "record_step": "Irekord iyan kundang",
+      "stop_step": "Itunda so panrekord",
+      "mark_done": "Asumpal la — onsublay ya kundang",
+      "step_recorded": "Alaen so nirekord",
+      "no_record_step": "Warm-up step — agla kaukolan so manrekord.",
+      "bars_hint": "Manga {{bars}} bars",
+      "complete_title": "Asumpal lay script!",
+      "complete_body": "Inrekord mo so kada kundang na script. Pawil ka ed Audio tab na proyekto tan pilien mo ray paborito mon takes.",
+      "restart": "Igapo lamet so script"
+    },
+    "best2min": {
+      "button": "Anapen so sankaabigan ya 2 minuto (Suno)",
+      "running": "Say panagsukimat ed...",
+      "score_label": "Iskor",
+      "hint": "Manggawa na energy tan clarity analysis ed interon take pian naromog so sankabiskegan ya 2-minuton bintana — sarag mo nin siansia ya i-adjust so range panamegley na lima kayari to.",
+      "chart_caption": "Iskor ed kada bintana",
+      "unavailable": "Say sankaabigan ya 2-minuton panagsukimat et agni naala ed sayan server."
+    },
+    "takes_title": "Manlalapud sayan sesyon",
+    "takes_empty": "Anggapo ni so nirekord ya take ed sayan sesyon.",
+    "open_in_project": "Lukasan ed proyekto",
+    "ws_disconnected": "Mankokonekta lamet ed level meter...",
+    "select_project_first": "Manpili na proyekto ya pangigapoan.",
+    "select_device_first": "Manpili na input device."
+  },
+  "project": {
+    "back_to_library": "Pawil ed library",
+    "header": {
+      "status_label": "Kipapasen",
+      "cover_upload": "I-upload so cover",
+      "cover_remove": "Ekalen so sakob",
+      "name_placeholder": "Ngaran na proyekto",
+      "links_title": "Saray Link",
+      "add_link": "Idagdag so link",
+      "mode": {
+        "voice": "Boses labat",
+        "voice_guitar": "Boses + gitara"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Liriko",
+      "prompts": "Saray Prompts",
+      "notes": "Saray nota"
+    },
+    "audio": {
+      "takes_title": "Mangala",
+      "no_takes": {
+        "title": "Anggapo ni so naala",
+        "description": "Manrekord na balon take odino mangi-import na wala lan file."
+      },
+      "record_new": "Manrekord na balon take",
+      "rating": "Rating",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Naproseso"
+      },
+      "variant_placeholder": "Bersyon",
+      "process_button": "Proseso",
+      "export_button": "Ipaway",
+      "delete_take_confirm_title": "Buraen yan take?",
+      "delete_take_confirm_description": "Say raw audio tan amin ya naproseso lan bersion et naekal.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Naproseso"
+      },
+      "origin": {
+        "recorded": "Nirekord",
+        "imported": "Imported"
+      },
+      "session_label_placeholder": "Session label (optional)",
+      "duration": "Karukey",
+      "sample_rate": "Sample rate",
+      "channels": "Saray Kanal",
+      "created_at": "Nirekord"
+    },
+    "pipeline": {
+      "title": "Kadena na panagproseso",
+      "preset_label": "Preset",
+      "preset_none": "Custom chain",
+      "preset_save": "I-save bilang preset",
+      "stage_locked": "Akakandado",
+      "stage_requires_extra": "Kaukolan so ekstra ya ag ni aka-install",
+      "process_button": "Proseso",
+      "processing": "Manproseso...",
+      "job_queued": "Akapila...",
+      "job_running": "Manproseso...",
+      "job_done": "Asumpal la",
+      "job_error": "Ag-asumpal",
+      "job_cancelled": "Kanselado",
+      "cancel_job": "Kanselaen",
+      "no_stages": "Anggapoy entablado ya naala."
+    },
+    "export": {
+      "title": "Export take",
+      "description": "I-render so unor a file manlapud sakey a naproseso lan bersion.",
+      "variant_label": "Bersyon",
+      "format_label": "Format",
+      "preset_label": "I-export so preset",
+      "range_label": "Range",
+      "range_full": "Buong ya karukey",
+      "range_custom": "Custom range",
+      "start_label": "Gapoan (s)",
+      "end_label": "Sampot (saray)",
+      "submit": "Ipaway",
+      "progress": "Rendering file...",
+      "download_ready": "Akaparaan lay file",
+      "download_button": "I-download so file"
+    },
+    "notes": {
+      "placeholder": "Saray libren nota nipaakar ed sayan proyekto...",
+      "saved_at": "Insalba ed {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Isulat so liriko dia. Usaren so paleta ed gilig pian isuksok iray meta-tag na Suno.",
+      "saved_at": "Insalba ed {{time}} ",
+      "saving": "Makatipid...",
+      "versions": "Saray bersion",
+      "versions_empty": "Anggapo ni so aka-save ya bersion.",
+      "version_preview": "Preview",
+      "restore": "Ipawil iyan bersion",
+      "restore_confirm_title": "Ipawil iyan bersion?",
+      "restore_confirm_description": "Say kaplesan ya teksto et salatan na bersion ya aka-save ed {{date}} .",
+      "metatags_title": "Meta-tags",
+      "metatags_hint": "Pindoten so sakey a tag pian isuksok itan ed cursor.",
+      "metatags_placebo_warning": "Ag-apaneknekan — nayarin anggapoy epekto to ed resulta.",
+      "metatags_empty": "Anggapoy nirehistro ya meta-tags."
+    },
+    "prompts": {
+      "style_title": "Style prompt",
+      "lyrics_title": "Say liriko",
+      "template_label": "Plantilya",
+      "template_none": "Anggapoy plantilya",
+      "variables_title": "Saray variable",
+      "preview_title": "Preview",
+      "preview_empty": "Manpili na template tan isulat iray variable pian nanengneng so preview.",
+      "char_count": " {{count}} karakter",
+      "char_count_warning": "Saray style prompts ya masulok ya 1000 ya karakter et nayarin putoten nen Suno.",
+      "copy": "Kopyaen",
+      "copied": "Inkopya ed clipboard",
+      "save_to_project": "I-save ed proyekto",
+      "saved_to_project": "In-save so Prompt ed proyekto",
+      "history_title": "Kasaysayan",
+      "history_empty": "Anggapoy akaunan bersion.",
+      "current_label": "Kaplesan"
+    },
+    "stems": {
+      "title": "Boses tan gitara",
+      "separate_button": "Nandumaan so boses tan gitara",
+      "running": "Mansian...",
+      "vocals": "Boses",
+      "instrumental": "Instrumental",
+      "process_stem": "Iproseso iyan sanga",
+      "empty": "Sayan take et agni nisian. Iparaan so separasyon pian narengel so boses tan gitara ya manbukbukor.",
+      "capability_missing": "Say source separation et ag aka-install ed sayan server.",
+      "unavailable": "Anggapo ni so vocal/guitar separation ed sayan server."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "On",
+    "boolean_off": "Off"
+  },
+  "import": {
+    "title": "Import",
+    "subtitle": "Iyakar ed library iray proyekto ya wala lad disk.",
+    "step_indicator": "Kundang {{current}} na {{total}} ",
+    "step1": {
+      "title": "Anapen so folder",
+      "description": "Ituro so root folder ya walaan na saray proyekto tan track mo.",
+      "path_label": "Dalan na folder",
+      "path_placeholder": "alimbawa E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "Agano nin",
+      "scan_button": "I-scan so folder",
+      "scanning": "Man-scan...",
+      "ffmpeg_warning": "Ag-aromog so FFmpeg — saray file ya kaukolan ya i-convert et nalaktawan.",
+      "folders_found_one": " {{count}} folder so naromog",
+      "folders_found_other": " {{count}} folders so aromog",
+      "unmatched_files_one": " {{count}} ag nabidbir ya file",
+      "unmatched_files_other": " {{count}} ag nabidbir iran file"
+    },
+    "step2": {
+      "title": "Repasoen iray bengatla",
+      "description": "Nengnengen iray ngaran, kipapasen, tan no antoy i-import antis ya kumpirmaen.",
+      "select_all": "Pilien so amin",
+      "table": {
+        "folder": "Nanlapuan na folder",
+        "name": "Ngaran na proyekto",
+        "status": "Kipapasen",
+        "audio": "Audio",
+        "lyrics": "Liriko",
+        "cover": "Sakbongan",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} file ya pinili",
+      "audio_include_other": " {{count}} files ya pinili",
+      "no_audio": "Anggapoy naromog ya audio",
+      "no_lyrics": "Anggapoy naromog ya liriko",
+      "no_cover": "Anggapoy sakbong",
+      "warnings_title": "Pasakbay"
+    },
+    "step3": {
+      "title": "Import",
+      "description": "Kumpirmaen ya nakopya iray file tan manggawa na saray proyekto.",
+      "copy_originals": "Ikopya iray orihinal ya file ed library",
+      "execute_button": "Igapo so pangi-import",
+      "progress_title": "Man-import...",
+      "created_count": "Pinalsa: {{count}} ",
+      "skipped_count": "Laktawan: {{count}} ",
+      "done_title": "Kumpleto so pangi-import",
+      "done_description": "Saray proyekto ed leksab et ginawa ed librarya yo.",
+      "view_project": "Bukas ya proyekto",
+      "start_over": "Balon inloob"
+    }
+  },
+  "templates": {
+    "title": "Saray plantilya",
+    "subtitle": "Saray nausar lamet ya prompt templates tan meta-tags parad Suno.",
+    "tabs": {
+      "prompts": "Prompt templates",
+      "metatags": "Meta-tags"
+    },
+    "new_template": "Balon plantilya",
+    "kind": {
+      "style": "Estilo",
+      "lyrics": "Liriko"
+    },
+    "kind_label": "Maomaong",
+    "delete_confirm_title": "Buraen so template ya \" {{name}} \"?",
+    "delete_confirm_description": "Agla nayarin ipawil iya.",
+    "empty": "Anggapo ni ray template.",
+    "editor": {
+      "title_new": "Balon plantilya",
+      "title_edit": "I-edit so template",
+      "name_label": "Ngaran",
+      "name_placeholder": "alimbawa Acoustic ballad",
+      "kind_label": "Maomaong",
+      "template_label": "Template text",
+      "template_hint": "Markaan no iner so kawalaan na kada variable ya say ngaran to et akabalot na doble ya kulot ya brace — alimbawa, say variable ya tatawagen ya \"genre\" et magmaliw ya genre ya akabalot ed duaran opening tan closing braces.",
+      "variables_label": "Saray variable",
+      "variable_add": "Idagdag so variable",
+      "variable_name": "Key",
+      "variable_label": "Label",
+      "variable_type": "Tipo",
+      "variable_type_string": "Teksto",
+      "variable_type_select": "Sakey a pilien",
+      "variable_type_multiselect": "Dakel so pilien",
+      "variable_type_number": "Numero",
+      "variable_type_boolean": "On/andi",
+      "variable_options": "Saray opsyon (walay koma)",
+      "variable_required": "Kaukolan",
+      "save": "I-save so template"
+    },
+    "metatags": {
+      "title": "Meta-tags",
+      "subtitle": "Saray tag na istruktura tan estilo et nabidbir nen Suno iray liriko ed loob.",
+      "new_tag": "Balon tag",
+      "tag_label": "Tag",
+      "tag_placeholder": "alimbawa gitara-solo",
+      "category_label": "Kategorya",
+      "tier_label": "Inkapanmatalkan",
+      "tier_legend_title": "Alamat na panagmatalek",
+      "tier_legend": {
+        "1": "Tier 1 — dokumentado tan mantutunosan",
+        "2": "Tier 2 — kaslakan ya onkikiwas",
+        "3": "Tier 3 — manduruman epekto",
+        "4": "Tier 4 — placebo, ag-apaneknekan"
+      },
+      "description_label": "Deskripsion",
+      "delete_confirm_title": "Buraen so tag ya \" {{tag}} \"?",
+      "empty": "Anggapo ni so custom meta-tags."
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Impormasyon na sistema, lenguahe, tan saray default ya labay.",
+    "system_info_title": "Sistema",
+    "version": "Bersyon",
+    "data_dir": "Data folder",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Wala",
+    "ffmpeg_missing": "Ag-aromog",
+    "capabilities_title": "Saray aka-install ya kapasidad",
+    "capability": {
+      "denoise": "Pambawas na ungol",
+      "quality": "Pamaaligwas na kalidad",
+      "separate": "Say pangibiig ed lapuan",
+      "ffmpeg": "FFmpeg conversion"
+    },
+    "capability_available": "Wala",
+    "capability_unavailable": "Anggapoy naala",
+    "gpu_title": "GPU acceleration",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime providers"
+    },
+    "gpu_none": "Anggapoy naimano ya GPU provider",
+    "language_title": "Lenguahe",
+    "language": {
+      "pt-BR": "Português (Brasil)",
+      "en": "Pangasinan"
+    },
+    "theme_title": "Itsura",
+    "theme": {
+      "dark": "Ambilunget",
+      "light": "Liwawa"
+    },
+    "defaults_title": "Saray default ya i-export",
+    "lufs_target_label": "Target LUFS",
+    "lufs_target_hint": "Uusaren bilang gapoan ya suhestion no man-export na takes. Say default nen Suno et manga -14 LUFS.",
+    "saved": "In-save iray labay"
+  },
+  "guide": {
+    "title": "Suno recording guide",
+    "subtitle": "Panon ya naala so boses tan gitara pian nawalaan na sankaabigan iran resulta.",
+    "intro": "Say Suno et sankaabigan ya nagagawa no malinis tan anggapoy panduaruwaan iran reperensya. Sayan giya et mansaklaw ed panagparaan, target levels, tan 3-5 minuton recording script.",
+    "sections": {
+      "prep": {
+        "title": "Panagparaan",
+        "body": "Irekord ed sakey a kuarton aasikasoen odino sakey a walaan na dakel a malambot a materyales (saray kurtina, alpombra, kawes ed aparador). I-off iray bentilador tan antokaman ya man-uungol. Painitan moy boses mo ed loob na 5 minuto antis kan manrekord."
+      },
+      "levels": {
+        "title": "Antas: -12 anggad -6 dBFS",
+        "body": "Man-aim ed saray peak ya walad baetan na -12 tan -6 dBFS ed meter. Diad leksab na satan a laknab, mas naimano so ungol ed beneg; diad tagey to, ontagey so peligro na panagputot. Usaren so metro ed Record page pian i-set so gain mo antis kan onggapo."
+      },
+      "distance": {
+        "title": "Mic distansya: 15-30 cm",
+        "body": "Manarawi na 15 anggad 30 cm ed mikropono. Say mas asingger nen say satan et mamapaawet ed saray plosives tan proximity effect; no mas arawi et mas dakel so narereverb tan ungol na kuarto."
+      },
+      "script": {
+        "title": "Manrekord na script",
+        "warmup": "Vocal warm-up (1-2 minutos)",
+        "vowels": "Sustained vowels — a, e, i, o, u",
+        "scales": "Simplin timbangan, patagey tan paabeba",
+        "excerpt": "Sakey a kanta (8 anggad 16 bar)",
+        "dynamics": "Dinamiko: onggapo ya anlemew, manampot ya maksil",
+        "spoken_phrase": "Sakey ya balikas, pian nabasa nen Suno so tono na boses mo"
+      },
+      "expectations": {
+        "title": "No antoy iilaloan nen Suno",
+        "body": "WAV, 48 kHz, mono, dry (anggapoy reverb o epekto), 3 anggad 5 minutos ya reperensya. Say sankalinisan, sankarepresentatibon 2 minuto na panag-ala so kaslakan ya mamawala na sankaabigan iran resulta."
+      }
+    }
+  },
+  "status": {
+    "idea": "Ideya",
+    "em_progresso": "Diad iyaaligwas",
+    "quase": "Ngalngali la",
+    "pronto": "Akaparaan"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Kompleton vocal script parad Suno",
+      "desc": "5 guided minutes: warm-up, vowels, scales, duaran song excerpts, dynamics, tan sakey a spoken phrase."
+    },
+    "step": {
+      "warmup": "Panag-init na boses",
+      "warmup_inst": "Manpainawa ka panamegley na pan-yawn, lip trills (brrr), tan maalwar ya ungol ed loob na sakey minuto. Agmo la kaukolan so manrekord — pian narelaks mo labat so eleng mo antis kan mangansion.",
+      "vowels": "Sustained vowels",
+      "vowels_inst": "Bembenan so kada bokales — a, e, i, o, u — ed loob na 3 anggad 4 a segundo ed komportablen tono, ya ag-onkukurang so boses to. Saya so ontulong ed si Suno pian naala toy puron tono na boses mo.",
+      "scales": "Ontatagey tan onleleksab so timbangan",
+      "scales_inst": "Mankanta na simplin timbangan ya patagey insan paabeba, ed \"la\" o \"na\". Agla kaukolan ya perpekto itan — say gagala et pian na-map so vocal range mo.",
+      "section": "Song excerpt — part 1",
+      "section_inst": "Kantaen so 8 anggad 16 a bar na kanta, tekep na peteg ya intension ya labay mon ipasabi. Iyuna so kalinew tan kiwawala nen say teknikal ya inkayadyari.",
+      "section2": "Song excerpt — part 2",
+      "section2_inst": "Mankanta na 8 anggad 16 a bar — mas maabig no sakey a koro odino sakey a seksion ya midumaan ed samay inmuna. Say mas dakel a klase na boses so ontulong ed modelo pian naaralan so boses mo.",
+      "dynamics": "Dinamiko: anlemew → maksil",
+      "dynamics_inst": "Kantaen so parehon balikas ya onggapo ed anlemew tan manampot ya maksil, ya ag-ipapaga so eleng mo. Ipapanengneng na saya ed Suno so dinamikon laknab na boses mo.",
+      "spoken": "Insalitan balikas",
+      "spoken_inst": "Mansalita ka — ag ka mangansion — na antikey tan natural a balikas, a singa ka mansasalita. Saya so ontulong ed si Suno pian nabidbir so peteg a tono na boses mo."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Panagpawil",
+      "filter": "Saray Filter",
+      "dynamics": "Dinamika",
+      "separation": "Pansian",
+      "quality": "Kalidad",
+      "utility": "Utility",
+      "loudness": "Makakasil"
+    },
+    "highpass": "High-pass filter",
+    "lowpass": "Low-pass filter",
+    "denoise": "Pambawas na ungol",
+    "declip": "Manpapaspas",
+    "declick": "Say pangekal na click/pop",
+    "deesser": "De-esser",
+    "gate": "Noise gate",
+    "compressor": "Compressor",
+    "limiter": "Limiter",
+    "eq": "Panpara",
+    "normalize": "Peak normalization",
+    "loudness": "Loudness normalization (LUFS)",
+    "reverb_reduce": "Pambawas na reverb",
+    "separate": "Say pangibiig ed lapuan",
+    "quality": "Pamaaligwas na kalidad (matagey)",
+    "trim_silence": "Pan-trim na kareenan",
+    "fade": "Onkupas ed loob / onkupas ed paway",
+    "stereo_to_mono": "I-convert ed mono",
+    "resample": "Resampling"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Mapanmatalkan",
+      "2": "Kaslakan et onkikiwas",
+      "3": "Manduruma",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Istruktura",
+      "vocal": "Boses",
+      "instrument": "Instrumento",
+      "dynamics": "Dinamika",
+      "production": "Production",
+      "mood": "Mood"
+    },
+    "verse": "Bersikulo",
+    "chorus": "Koro",
+    "bridge": "Tulay",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Kawit",
+    "prechorus": "Pre-chorus",
+    "instrumental": "Instrumental",
+    "guitar_solo": "Solo na gitara",
+    "build_up": "Panagpaalagey",
+    "breakdown": "Breakdown",
+    "spoken_word": "Insalitan salita",
+    "whispered": "Inbulong",
+    "harmonies": "Harmonies",
+    "male_vocal": "Lalaki ya boses",
+    "female_vocal": "Biin bokal",
+    "duet": "Duet",
+    "acoustic": "Acoustic",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Malinis so boses",
+    "voice_guitar_balanced": "Balanse so boses tan gitara",
+    "podcast": "Podcast",
+    "suno_ready": "Akaparaan lay Suno",
+    "gentle_restore": "Maalwar ya ipawil",
+    "raw_passthrough": "Anggapoy proseso"
+  },
+  "errors": {
+    "unknown": "Walay agawan aliwa.",
+    "network": "Ag naabot so server.",
+    "validation_error": "Nengnengen so impormasyon ya inloob mo.",
+    "not_found": "Ag aromog so bengatla.",
+    "project_not_found": "Ag aromog so proyekto.",
+    "take_not_found": "Anggapoy naromog.",
+    "album_not_found": "Ag-aromog so album.",
+    "preset_not_found": "Ag aromog so preset.",
+    "template_not_found": "Ag-aromog so plantilya.",
+    "device_busy": "Say audio device et uusaren na sananey a programa.",
+    "device_not_found": "Ag aromog so audio device.",
+    "already_recording": "Wala lay gagawaen ya panagrekord.",
+    "ffmpeg_missing": "Say FFmpeg et ag-aka-install — i-install mo pian na-convert iyan file.",
+    "disk_full": "Kulang so espasyo ed disk.",
+    "permission_denied": "Ag-inawat so permiso parad niiter a dalan.",
+    "import_path_not_found": "Ag aromog so dalan na import.",
+    "job_failed": "Ag-asumpal so panagproseso.",
+    "job_cancelled": "Kanselado so panagproseso.",
+    "process_failed": "Ag naproseso so take.",
+    "export_failed": "Ag-agawaan so file.",
+    "record_failed": "Ag akapangigapo na panagrekord."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Akapila",
+      "running": "Manbabatik",
+      "done": "Asumpal la",
+      "error": "Ag-asumpal",
+      "cancelled": "Kanselado"
+    },
+    "kind": {
+      "process": "Panproseso",
+      "export": "Ipaway",
+      "import": "Import",
+      "record": "Panrekord"
+    }
+  }
+}

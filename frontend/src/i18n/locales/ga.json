@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Glantóir Fuaime"
+  },
+  "nav": {
+    "library": "Leabharlann",
+    "record": "Taifead",
+    "import": "Iompórtáil",
+    "templates": "Teimpléid",
+    "settings": "Socruithe",
+    "guide": "Treoraí"
+  },
+  "common": {
+    "save": "Sábháil",
+    "saving": "Ag sábháil…",
+    "saved": "Shábháil",
+    "cancel": "Cealaigh",
+    "close": "Dún",
+    "delete": "Scrios",
+    "edit": "Cuir in eagar",
+    "create": "Cruthaigh",
+    "search": "Cuardach",
+    "loading": "Á lódáil…",
+    "error": "Earráid",
+    "retry": "Bain triail eile as",
+    "confirm": "Deimhnigh",
+    "back": "Ar ais",
+    "next": "Ar aghaidh",
+    "continue": "Lean ort",
+    "finish": "Críochnaigh",
+    "copy": "Cóip",
+    "copied": "Cóipeáladh",
+    "download": "Íosluchtaigh",
+    "upload": "Uaslódáil",
+    "none": "Dada",
+    "all": "Gach",
+    "yes": "Tá",
+    "no": "Níl",
+    "select": "Roghnaigh",
+    "optional": "roghnach",
+    "required": "ag teastáil",
+    "unsaved_changes": "Athruithe gan sábháil",
+    "name": "Ainm",
+    "status": "Stádas",
+    "type": "Cineál",
+    "actions": "Gníomhartha",
+    "empty": "Folamh",
+    "browse": "Brabhsáil",
+    "remove": "Bain",
+    "add": "Cuir",
+    "rename": "Athainmnigh",
+    "duplicate": "Dúblach",
+    "warning": "Rabhadh",
+    "locked": "Faoi ghlas",
+    "builtin": "Tógtha-i",
+    "custom": "Saincheaptha",
+    "untitled": "Gan teideal",
+    "select_placeholder": "Roghnaigh…"
+  },
+  "library": {
+    "title": "Leabharlann",
+    "subtitle": "Do thionscadail gutha agus giotár, ón smaoineamh go dtí an scaoileadh.",
+    "new_project": "Tionscadal nua",
+    "new_album": "Albam nua",
+    "search_placeholder": "Cuardaigh de réir ainm…",
+    "view": {
+      "grid": "Greille",
+      "albums": "Albaim"
+    },
+    "filters": {
+      "all": "Gach"
+    },
+    "take_count_one": " {{count}} ghlacadh",
+    "take_count_other": " Tógann {{count}}",
+    "updated_at": "Nuashonraithe {{date}} ",
+    "no_results": {
+      "title": "Níor aimsíodh aon tionscadal",
+      "description": "Bain triail as an scagaire cuardaigh nó stádais a choigeartú."
+    },
+    "empty": {
+      "title": "Tá do leabharlann folamh",
+      "description": "Cuir tús le tionscadal nua ón tús, nó glacann iompórtáil atá agat cheana féin ar an diosca.",
+      "cta_import": "Iompórtáil ó fhillteán",
+      "cta_new": "Cruthaigh tionscadal"
+    },
+    "project_dialog": {
+      "title": "Tionscadal nua",
+      "description": "Tabhair ainm dó agus roghnaigh modh taifeadta.",
+      "name_label": "Ainm an tionscadail",
+      "name_placeholder": "e.g. Báisteach Samhraidh",
+      "mode_label": "Mód",
+      "mode": {
+        "voice": "Guth amháin",
+        "voice_guitar": "Guth + giotár"
+      },
+      "submit": "Cruthaigh tionscadal"
+    },
+    "album_dialog": {
+      "title": "Albam nua",
+      "description": "Grúpa tionscadal gaolmhar i albam.",
+      "name_label": "Ainm albam",
+      "name_placeholder": "e.g. EP an Fhómhair",
+      "submit": "Cruthaigh albam"
+    },
+    "album": {
+      "untitled": "Albam gan teideal",
+      "members_count_one": " {{count}} tionscadal",
+      "members_count_other": " {{count}} tionscadail",
+      "empty": "Níl aon tionscadail san albam seo fós.",
+      "delete_confirm_title": "An bhfuil fonn ort albam a scriosadh?",
+      "delete_confirm_description": "Ní scriosfar tionscadail, ní dhéanfar iad a dhínascadh ach ó \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Scrios \" {{name}} \"?",
+      "confirm_description": "Cuireann sé seo deireadh leis an tionscadal agus gach gné de. Ní féidir é seo a chealú."
+    }
+  },
+  "record": {
+    "title": "Taifead",
+    "subtitle": "Gabh a ghlacadh glan, féachaint ar do leibhéil, agus lean an script.",
+    "project_label": "Tionscadal",
+    "project_placeholder": "Roghnaigh tionscadal",
+    "project_create_quick": "Cruthaigh tionscadal tapa…",
+    "device_label": "Gléas ionchuir",
+    "device_placeholder": "Roghnaigh gléas",
+    "device_default_badge": "Réamhshocrú córais",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Níor aimsíodh aon ghléas ionchuir.",
+    "monitor_button": "Monatóir",
+    "monitor_stop_button": "Stop monatóireacht",
+    "record_button": "Taifead",
+    "stop_button": "Stop",
+    "elapsed_label": "Am caite",
+    "status": {
+      "idle": "Díomhaoin",
+      "monitoring": "Monatóireacht",
+      "recording": "Taifeadadh",
+      "stopped": "Stopadh"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Buaic",
+      "clip": "Gearrthóg"
+    },
+    "guide": {
+      "title": "Seisiún treoraithe",
+      "subtitle": "Lig don chóiste siúl leat tríd an script céim ar chéim, ón téamh suas go dtí an frása labhartha.",
+      "loading": "Script á lódáil…",
+      "unavailable": "Níl an seisiún treoraithe ar fáil ar an bhfreastalaí fós.",
+      "select_project_device": "Roghnaigh tionscadal agus gléas ionchuir chun céimeanna a thaifeadadh ar dheis as seo.",
+      "progress": " {{done}} de {{total}} céimeanna",
+      "start_timer": "Amadóir tosaithe",
+      "skip_timer": "Léim an t-amadóir",
+      "record_step": "Taifead an chéim seo",
+      "stop_step": "Stop taifeadadh",
+      "mark_done": "Arna dhéanamh - an chéad chéim eile",
+      "step_recorded": "Tóg taifeadta",
+      "no_record_step": "Céim teo - níl aon taifeadadh ag teastáil.",
+      "bars_hint": "Thart ar {{bars}} barraí",
+      "complete_title": "Script críochnaithe!",
+      "complete_body": "Tá gach céim den script taifeadta agat. Téigh ar ais go cluaisín Fuaime an tionscadail agus roghnaigh na rudaí is fearr leat.",
+      "restart": "Atosaigh an script"
+    },
+    "best2min": {
+      "button": "Faigh an 2 nóiméad is fearr (Suno)",
+      "running": "Ag déanamh anailíse ar an ghlacadh…",
+      "score_label": "Scór",
+      "hint": "Ritheann sé anailís fuinnimh agus soiléire ar an iomlán chun an fhuinneog 2 nóiméad is láidre a fháil - is féidir leat an raon a choigeartú de láimh ina dhiaidh sin.",
+      "chart_caption": "Scór in aghaidh na fuinneoige",
+      "unavailable": "Níl an anailís is fearr-2-nóiméad ar fáil ar an bhfreastalaí seo fós."
+    },
+    "takes_title": "Tógann ón seisiún seo",
+    "takes_empty": "Níl aon ghlacadh taifeadta sa seisiún seo fós.",
+    "open_in_project": "Oscail sa tionscadal",
+    "ws_disconnected": "Ag athcheangal leis an méadar leibhéil…",
+    "select_project_first": "Roghnaigh tionscadal chun tús a chur leis.",
+    "select_device_first": "Roghnaigh gléas ionchuir."
+  },
+  "project": {
+    "back_to_library": "Ar ais go leabharlann",
+    "header": {
+      "status_label": "Stádas",
+      "cover_upload": "Íoslódáil an clúdach",
+      "cover_remove": "Bain clúdach",
+      "name_placeholder": "Ainm an tionscadail",
+      "links_title": "Naisc",
+      "add_link": "Cuir nasc leis",
+      "mode": {
+        "voice": "Guth amháin",
+        "voice_guitar": "Guth + giotár"
+      }
+    },
+    "tabs": {
+      "audio": "Fuaime",
+      "lyrics": "Liricí",
+      "prompts": "Leideanna",
+      "notes": "Nótaí"
+    },
+    "audio": {
+      "takes_title": "Glacann",
+      "no_takes": {
+        "title": "Níl aon thógann fós",
+        "description": "Taifead glacadh nua nó iompórtáil comhad atá ann cheana féin."
+      },
+      "record_new": "Taifead a ghlacadh nua",
+      "rating": "Rátáil",
+      "variant": {
+        "raw": "amh",
+        "processed": "Próiseáilte"
+      },
+      "variant_placeholder": "Leagan",
+      "process_button": "Próiseas",
+      "export_button": "Easpórtáil",
+      "delete_take_confirm_title": "Scrios an ghlacadh seo?",
+      "delete_take_confirm_description": "Bainfear an fhuaim amh agus gach leagan próiseáilte.",
+      "ab": {
+        "raw": "A · amh",
+        "processed": "B · Próiseáilte"
+      },
+      "origin": {
+        "recorded": "Taifeadta",
+        "imported": "Iompórtáilte"
+      },
+      "session_label_placeholder": "Lipéad seisiúin (roghnach)",
+      "duration": "Fad",
+      "sample_rate": "Ráta samplach",
+      "channels": "Cainéil",
+      "created_at": "Taifeadta"
+    },
+    "pipeline": {
+      "title": "Slabhra próiseála",
+      "preset_label": "Réamhshocraithe",
+      "preset_none": "Slabhra saincheaptha",
+      "preset_save": "Sábháil mar réamhshocrú",
+      "stage_locked": "Faoi ghlas",
+      "stage_requires_extra": "Teastaíonn breiseán breise nach bhfuil suiteáilte",
+      "process_button": "Próiseas a ghlacadh",
+      "processing": "Ag próiseáil…",
+      "job_queued": "Ciúáilte…",
+      "job_running": "Ag próiseáil…",
+      "job_done": "Déanta",
+      "job_error": "Theip",
+      "job_cancelled": "Ar ceal",
+      "cancel_job": "Cealaigh",
+      "no_stages": "Níl aon chéimeanna ar fáil."
+    },
+    "export": {
+      "title": "Easpórtáil a ghlacadh",
+      "description": "Rindreáil comhad deiridh ó leagan próiseáilte.",
+      "variant_label": "Leagan",
+      "format_label": "Formáid",
+      "preset_label": "Easpórtáil réamhshocraithe",
+      "range_label": "Raon",
+      "range_full": "Fad iomlán",
+      "range_custom": "Raon saincheaptha",
+      "start_label": "Tosaigh (í)",
+      "end_label": "Deireadh (í)",
+      "submit": "Easpórtáil",
+      "progress": "Comhad á rindreáil…",
+      "download_ready": "Comhad réidh",
+      "download_button": "Íoslódáil an comhad"
+    },
+    "notes": {
+      "placeholder": "Nótaí mar gheall ar an tionscadal saor in aisce,. .",
+      "saved_at": "Sábháilte ag {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Scríobh na liricí anseo. Bain úsáid as an pailéad ar an taobh a chur isteach Suno meta-clibeanna.",
+      "saved_at": "Sábháilte ag {{time}} ",
+      "saving": "Ag sábháil…",
+      "versions": "Leaganacha",
+      "versions_empty": "Níl aon leaganacha sábháilte fós.",
+      "version_preview": "Réamhamharc",
+      "restore": "Athchóirigh an leagan seo",
+      "restore_confirm_title": "Athchóirigh an leagan seo?",
+      "restore_confirm_description": "Cuirfear an leagan a shábháiltear ar {{date}} in ionad an téacs reatha.",
+      "metatags_title": "Meta-clibeanna",
+      "metatags_hint": "Cliceáil ar chlib chun é a chur isteach sa chúrsóir.",
+      "metatags_placebo_warning": "Neamhchruthaithe - d'fhéadfadh nach mbeadh aon éifeacht ar an toradh.",
+      "metatags_empty": "Níl aon mheiteashonraí cláraithe."
+    },
+    "prompts": {
+      "style_title": "Stíl leid",
+      "lyrics_title": "Leid liricí",
+      "template_label": "Teimpléad",
+      "template_none": "Gan teimpléad",
+      "variables_title": "Athróga",
+      "preview_title": "Réamhamharc",
+      "preview_empty": "Roghnaigh teimpléad agus líon isteach na hathróga chun réamhamharc a fheiceáil.",
+      "char_count": " {{count}} carachtar",
+      "char_count_warning": "Féadfaidh Suno leideanna stíle a theorannú níos mó ná 1000 carachtar.",
+      "copy": "Cóip",
+      "copied": "Cóipeáladh chuig an ngearrthaisce",
+      "save_to_project": "Sábháil go tionscadal",
+      "saved_to_project": "Sábháladh an leid don tionscadal",
+      "history_title": "Stair",
+      "history_empty": "Gan leaganacha roimhe seo.",
+      "current_label": "Reatha"
+    },
+    "stems": {
+      "title": "Guth agus giotár",
+      "separate_button": "Guthanna agus giotár ar leith",
+      "running": "Ag scaradh…",
+      "vocals": "Vocals",
+      "instrumental": "Uirlise",
+      "process_stem": "Próiseáil an gas seo",
+      "empty": "Níl an glacadh seo scartha go fóill. Rith scaradh chun na guthanna agus an giotár a chloisteáil ina n-aonar.",
+      "capability_missing": "Níl scaradh foinse suiteáilte ar an bhfreastalaí seo.",
+      "unavailable": "Níl deighilt gutha/giotár ar fáil ar an bhfreastalaí seo fós."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Ar",
+    "boolean_off": "as"
+  },
+  "import": {
+    "title": "Iompórtáil",
+    "subtitle": "Tabhair tionscadail atá ar diosca cheana féin isteach sa leabharlann.",
+    "step_indicator": "Céim {{current}} de {{total}} ",
+    "step1": {
+      "title": "Aimsigh fillteán",
+      "description": "Pointe chuig an bhfréamhfhillteán le do thionscadail agus rianta.",
+      "path_label": "Cosán fillteáin",
+      "path_placeholder": "e.g. E: \\ Robbs \\ Pride \\ Music \\ ROBBS",
+      "recent_label": "le déanaí",
+      "scan_button": "Scan fillteán",
+      "scanning": "Ag scanadh…",
+      "ffmpeg_warning": "Níor aimsíodh FFmpeg - ní dhéanfar comhaid a bhfuil gá leo a chomhshó.",
+      "folders_found_one": " {{count}} fillteán aimsithe",
+      "folders_found_other": " {{count}} fillteáin aimsithe",
+      "unmatched_files_one": " {{count}} comhad neamhaitheanta",
+      "unmatched_files_other": " {{count}} comhaid neamhaitheanta"
+    },
+    "step2": {
+      "title": "Míreanna athbhreithnithe",
+      "description": "Seiceáil ainmneacha, stádais, agus cad a iompórtálfar sula ndeimhnítear.",
+      "select_all": "Roghnaigh go léir",
+      "table": {
+        "folder": "Foinse fillteán",
+        "name": "Ainm an tionscadail",
+        "status": "Stádas",
+        "audio": "Fuaime",
+        "lyrics": "Liricí",
+        "cover": "Clúdach",
+        "album": "Albam"
+      },
+      "audio_include_one": " {{count}} comhad roghnaithe",
+      "audio_include_other": " {{count}} comhaid roghnaithe",
+      "no_audio": "Níor aimsíodh aon fhuaim",
+      "no_lyrics": "Níor aimsíodh aon liricí",
+      "no_cover": "Gan clúdach",
+      "warnings_title": "Rabhaidh"
+    },
+    "step3": {
+      "title": "Iompórtáil",
+      "description": "Deimhnigh na comhaid a chóipeáil agus na tionscadail a chruthú.",
+      "copy_originals": "Cóipeáil na bunchomhaid isteach sa leabharlann",
+      "execute_button": "Tosaigh allmhairiú",
+      "progress_title": "Á iompórtáil…",
+      "created_count": "Cruthaithe: {{count}} ",
+      "skipped_count": "Léim: {{count}} ",
+      "done_title": "Iompórtáil críochnaithe",
+      "done_description": "Cruthaíodh na tionscadail thíos i do leabharlann.",
+      "view_project": "Tionscadal oscailte",
+      "start_over": "Iompórtáil nua"
+    }
+  },
+  "templates": {
+    "title": "Teimpléid",
+    "subtitle": "Teimpléid leide ath-inúsáidte agus meta-clibeanna do Suno.",
+    "tabs": {
+      "prompts": "Teimpléid leid",
+      "metatags": "Meta-clibeanna"
+    },
+    "new_template": "Teimpléad nua",
+    "kind": {
+      "style": "Stíl",
+      "lyrics": "Liricí"
+    },
+    "kind_label": "cineál",
+    "delete_confirm_title": "Scrios teimpléad \" {{name}} \"?",
+    "delete_confirm_description": "Ní féidir é seo a chealú.",
+    "empty": "Níl aon teimpléid fós.",
+    "editor": {
+      "title_new": "Teimpléad nua",
+      "title_edit": "Cuir teimpléad in eagar",
+      "name_label": "Ainm",
+      "name_placeholder": "e.g. Bailéad fuaimiúil",
+      "kind_label": "cineál",
+      "template_label": "Téacs teimpléad",
+      "template_hint": "Marcáil an áit a mbaineann gach athróg agus a hainm fillte i braces chatach dúbailte - mar shampla, déantar athróg darb ainm \"seánra\" a bheith ina seánra fillte in dhá shreang tosaigh agus dhá shreang deiridh.",
+      "variables_label": "Athróga",
+      "variable_add": "Cuir athróg leis",
+      "variable_name": "eochair",
+      "variable_label": "Lipéad",
+      "variable_type": "Cineál",
+      "variable_type_string": "Téacs",
+      "variable_type_select": "Rogha aonair",
+      "variable_type_multiselect": "Il-roghnaithe",
+      "variable_type_number": "Uimhir",
+      "variable_type_boolean": "Tá/níl",
+      "variable_options": "Roghanna (scartha le camóg)",
+      "variable_required": "Ag teastáil",
+      "save": "Sábháil teimpléad"
+    },
+    "metatags": {
+      "title": "Meta-clibeanna",
+      "subtitle": "Clibeanna struchtúracha agus stíle Aithníonn Suno liricí ón taobh istigh.",
+      "new_tag": "Clib nua",
+      "tag_label": "Clib",
+      "tag_placeholder": "e.g. giotár-aonair",
+      "category_label": "Catagóir",
+      "tier_label": "Iontaofacht",
+      "tier_legend_title": "Finscéal iontaofachta",
+      "tier_legend": {
+        "1": "Sraith 1 — doiciméadaithe agus comhsheasmhach",
+        "2": "Sraith 2 - oibríonn sé de ghnáth",
+        "3": "Sraith 3 — éifeacht inathraithe",
+        "4": "Sraith 4 - phlaicéabó, neamhchruthaithe"
+      },
+      "description_label": "Cur síos",
+      "delete_confirm_title": "Scrios clib \" {{tag}} \"?",
+      "empty": "Níl aon mheiteashonraí saincheaptha fós."
+    }
+  },
+  "settings": {
+    "title": "Socruithe",
+    "subtitle": "Faisnéis chórais, teanga, agus sainroghanna réamhshocraithe.",
+    "system_info_title": "Córas",
+    "version": "Leagan",
+    "data_dir": "Fillteán sonraí",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Ar fáil",
+    "ffmpeg_missing": "Ní bhfuarthas",
+    "capabilities_title": "Cumais suiteáilte",
+    "capability": {
+      "denoise": "Laghdú torainn",
+      "quality": "Feabhsú cáilíochta",
+      "separate": "Scaradh foinse",
+      "ffmpeg": "Comhshó FFmpeg"
+    },
+    "capability_available": "Ar fáil",
+    "capability_unavailable": "Níl fáil air",
+    "gpu_title": "Luasghéarú GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "Soláthraithe ONNX Runtime"
+    },
+    "gpu_none": "Níor aimsíodh aon soláthraí GPU",
+    "language_title": "Teanga",
+    "language": {
+      "pt-BR": "An Phortaingéil (Brasil)",
+      "en": "Béarla"
+    },
+    "theme_title": "Dealramh",
+    "theme": {
+      "dark": "Dorcha",
+      "light": "Solas"
+    },
+    "defaults_title": "Easpórtáil réamhshocraithe",
+    "lufs_target_label": "Sprioc LUFS",
+    "lufs_target_hint": "Úsáidte mar an moladh tosaigh nuair a thógann onnmhairiú. Suíonn réamhshocraithe Suno thart ar -14 LUFS.",
+    "saved": "Sainroghanna a shábháil"
+  },
+  "guide": {
+    "title": "Treoir maidir le taifeadadh Suno",
+    "subtitle": "Conas gutha agus glacann giotár a ghabháil a fhaigheann na torthaí is fearr.",
+    "intro": "Is fearr a fheidhmíonn Suno le tagairtí glana gan athbhrí. Clúdaíonn an treoir seo ullmhúchán, spriocleibhéil, agus script taifeadta 3-5 nóiméad.",
+    "sections": {
+      "prep": {
+        "title": "Ullmhúchán",
+        "body": "Taifead i seomra cóireáilte nó i gceann le neart ábhar bog (cuirtíní, rugaí, éadaí i closet). Múch lucht leanúna agus aon rud a chromáin. Déan do ghuth a théamh ar feadh 5 nóiméad roimh an taifeadadh."
+      },
+      "levels": {
+        "title": "Leibhéil: -12 go -6 dBFS",
+        "body": "Aidhm le buaiceanna idir -12 agus -6 dBFS ar an méadar. Faoin raon sin, éiríonn torann cúlra níos suntasaí; os a chionn, ardaíonn riosca bearradh. Úsáid an méadar ar an leathanach Taifead chun do ghnóthachan a shocrú sula dtosaíonn tú."
+      },
+      "distance": {
+        "title": "Fad mic: 15-30 cm",
+        "body": "Fan 15 go 30 cm ón micreafón. Níos dlúithe ná sin áibhéil plosives agus éifeacht gaireachta; níos faide ar shiúl picks suas aisfhuaimniú seomra níos mó agus torann."
+      },
+      "script": {
+        "title": "Script taifeadta",
+        "warmup": "Téamh suas gutha (1–2 nóiméad)",
+        "vowels": "Gutaí marthanacha — a, e, i, o, u",
+        "scales": "Scálaí simplí, suas agus síos",
+        "excerpt": "Sliocht amhrán (8 go 16 barra)",
+        "dynamics": "Dinimic: tosaigh bog, deireadh os ard",
+        "spoken_phrase": "Frása labhartha amháin, ionas gur féidir le Suno do ghuth gutha a léamh"
+      },
+      "expectations": {
+        "title": "Cad atá Suno ag súil",
+        "body": "WAV, 48 kHz, mona, tirim (gan atriall nó éifeachtaí), 3 go 5 nóiméad tagartha. Is gnách go mbíonn na torthaí is fearr ar an 2 nóiméad is glaine agus is ionadaí den ghlacadh."
+      }
+    }
+  },
+  "status": {
+    "idea": "Smaoineamh",
+    "em_progresso": "Ar siúl",
+    "quase": "Beagnach ann",
+    "pronto": "Réidh"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Script iomlán gutha le haghaidh Suno",
+      "desc": "5 nóiméad treoraithe: téamh suas, gutaí, scálaí, dhá shliocht amhrán, dinimic, agus frása labhartha."
+    },
+    "step": {
+      "warmup": "Ceiliúradh gutha",
+      "warmup_inst": "Scaoilte suas le méanfach, trillí liopaí (brrr), agus crón bog ar feadh thart ar nóiméad. Ní gá a thaifeadadh - níl le déanamh ach do scornach a scíth a ligean roimh chanadh.",
+      "vowels": "Gutaí marthanacha",
+      "vowels_inst": "Coinnigh gach guta - a, e, i, o, u - ar feadh 3 go 4 soicind ar do pháirc chompordach, le toirt seasta. Cuidíonn sé seo le Suno todóg íon do ghuth a phiocadh suas.",
+      "scales": "Scálaí suas agus síos",
+      "scales_inst": "Can scála simplí suas agus ansin síos, ar \"la\" nó \"na\". Ní gá go mbeadh sé foirfe - is é an sprioc ná do raon gutha a mhapáil.",
+      "section": "Sliocht amhrán - cuid 1",
+      "section_inst": "Can 8 go 16 barra den amhrán, leis an rún is mian leat a chur in iúl. Tabhair tosaíocht do shoiléire agus láithreacht thar foirfeacht theicniúil.",
+      "section2": "Sliocht amhrán - cuid 2 saor in aisce",
+      "section2_inst": "Can 8 go 16 barra eile - go hidéalach curfá nó rann atá i gcodarsnacht leis an gceann roimhe sin. Cuidíonn níos mó éagsúlachta leis an tsamhail do ghuth a fhoghlaim.",
+      "dynamics": "Dinimic: bog → glórach",
+      "dynamics_inst": "Can an frása céanna ag tosú an-bhog agus ag críochnú os ard, gan brú ar do scornach. Léiríonn sé seo raon dinimiciúil do ghutha do Suno.",
+      "spoken": "Frása labhartha",
+      "spoken_inst": "Labhair — ná canadh — frása gairid, nádúrtha, amhail is dá mbeifeá ag comhrá. Cuidíonn sé seo le Suno fíor-tonndas do ghutha a aithint."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Athchóiriú",
+      "filter": "Scagairí",
+      "dynamics": "Dinimic",
+      "separation": "Scaradh",
+      "quality": "Cáilíocht",
+      "utility": "Fóntas",
+      "loudness": "Gile"
+    },
+    "highpass": "Scagaire ard-pas",
+    "lowpass": "Scagaire pas íseal",
+    "denoise": "Laghdú torainn",
+    "declip": "Ag meath",
+    "declick": "Cliceáil / pop a bhaint",
+    "deesser": "De-esser",
+    "gate": "Geata torainn",
+    "compressor": "Comhbhrúiteoir",
+    "limiter": "Teorantóir",
+    "eq": "Cothromú",
+    "normalize": "Gnáthú buaic",
+    "loudness": "normalú glórach (LUFS)",
+    "reverb_reduce": "Laghdú Aisfhuaimniú",
+    "separate": "Scaradh foinse",
+    "quality": "Feabhsú cáilíochta (upscale)",
+    "trim_silence": "Bearradh tost",
+    "fade": "Céimnigh isteach / céimnithe amach",
+    "stereo_to_mono": "Tiontaigh go mono",
+    "resample": "Athshampláil"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Iontaofa",
+      "2": "De ghnáth oibríonn",
+      "3": "Athróg",
+      "4": "phlaicéabó"
+    },
+    "category": {
+      "structure": "Struchtúr",
+      "vocal": "Gutha",
+      "instrument": "Ionstraim",
+      "dynamics": "Dinimic",
+      "production": "Táirgeadh",
+      "mood": "Meon"
+    },
+    "verse": "Rann",
+    "chorus": "Curfá",
+    "bridge": "Droichead",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Duán",
+    "prechorus": "Réamh-churfá",
+    "instrumental": "Uirlise",
+    "guitar_solo": "Aonair giotár",
+    "build_up": "Tógáil suas",
+    "breakdown": "Briseadh síos",
+    "spoken_word": "Focal labhartha",
+    "whispered": "Whispered",
+    "harmonies": "Harmonies",
+    "male_vocal": "Gutha fireann",
+    "female_vocal": "Gutha baineann",
+    "duet": "Díséad",
+    "acoustic": "Fuaimiúil",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Guth glan",
+    "voice_guitar_balanced": "Guth cothrom agus giotár",
+    "podcast": "Podchraoladh",
+    "suno_ready": "Suno réidh",
+    "gentle_restore": "Athshlánú milis",
+    "raw_passthrough": "Gan próiseáil"
+  },
+  "errors": {
+    "unknown": "Chuaigh rud éigin mícheart.",
+    "network": "Níorbh fhéidir an freastalaí a bhaint amach.",
+    "validation_error": "Seiceáil an fhaisnéis a d'iontráil tú.",
+    "not_found": "Ní bhfuarthas an mhír.",
+    "project_not_found": "Tionscadal gan aimsiú.",
+    "take_not_found": "Tóg nach bhfuarthas.",
+    "album_not_found": "Albam gan aimsiú.",
+    "preset_not_found": "Réamhshocrú gan aimsiú.",
+    "template_not_found": "Teimpléad gan aimsiú.",
+    "device_busy": "Tá gléas fuaime in úsáid ag ríomhchlár eile.",
+    "device_not_found": "Níor aimsíodh gléas fuaime.",
+    "already_recording": "Tá taifeadadh ar siúl cheana féin.",
+    "ffmpeg_missing": "Níl FFmpeg suiteáilte - suiteáil é chun an comhad seo a thiontú.",
+    "disk_full": "Gan spás diosca go leor.",
+    "permission_denied": "Diúltaíodh cead don chosán tugtha.",
+    "import_path_not_found": "Conair iompórtála gan aimsiú.",
+    "job_failed": "Theip ar phróiseáil.",
+    "job_cancelled": "Cuireadh an phróiseáil ar ceal.",
+    "process_failed": "Theip ar phróiseáil an ghlacadh.",
+    "export_failed": "Theip ar easpórtáil an chomhaid.",
+    "record_failed": "Theip ar an taifeadadh a thosú."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Ciúáilte",
+      "running": "Ag rith",
+      "done": "Déanta",
+      "error": "Theip",
+      "cancelled": "Ar ceal"
+    },
+    "kind": {
+      "process": "Próiseáil",
+      "export": "Easpórtáil",
+      "import": "Iompórtáil",
+      "record": "Taifeadadh"
+    }
+  }
+}

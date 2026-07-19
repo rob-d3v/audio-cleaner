@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio Cleaner"
+  },
+  "nav": {
+    "library": "Bibliothéik",
+    "record": "Rekord",
+    "import": "Import",
+    "templates": "Schablounen",
+    "settings": "Astellungen",
+    "guide": "Guide"
+  },
+  "common": {
+    "save": "Spueren",
+    "saving": "Spuert…",
+    "saved": "Gespäichert",
+    "cancel": "Ofbriechen",
+    "close": "Zoumaachen",
+    "delete": "Läschen",
+    "edit": "Edit",
+    "create": "Schafen",
+    "search": "Sichen",
+    "loading": "Lueden…",
+    "error": "Feeler",
+    "retry": "Nach eng Kéier probéieren",
+    "confirm": "Confirméieren",
+    "back": "Zréck",
+    "next": "Nächst",
+    "continue": "Fuert weider",
+    "finish": "Fäerdeg",
+    "copy": "Kopie",
+    "copied": "Kopéiert",
+    "download": "Download",
+    "upload": "Eroplueden",
+    "none": "Keen",
+    "all": "All",
+    "yes": "Jo",
+    "no": "Nee",
+    "select": "Wielt",
+    "optional": "fakultativ",
+    "required": "néideg",
+    "unsaved_changes": "Net gespäichert Ännerungen",
+    "name": "Numm",
+    "status": "Status",
+    "type": "Typ",
+    "actions": "Aktiounen",
+    "empty": "Eidel",
+    "browse": "Browsen",
+    "remove": "Ewechzehuelen",
+    "add": "Addéieren",
+    "rename": "ëmbenennen",
+    "duplicate": "Duplizéiert",
+    "warning": "Warnung",
+    "locked": "Spär",
+    "builtin": "Gebaut-an",
+    "custom": "Benotzerdefinéiert",
+    "untitled": "Untitled",
+    "select_placeholder": "Wielt…"
+  },
+  "library": {
+    "title": "Bibliothéik",
+    "subtitle": "Är Stëmm a Gittarprojeten, vun Iddi bis Verëffentlechung.",
+    "new_project": "Neie Projet",
+    "new_album": "Neien Album",
+    "search_placeholder": "Sich nom Numm…",
+    "view": {
+      "grid": "Gitter",
+      "albums": "Albumen"
+    },
+    "filters": {
+      "all": "All"
+    },
+    "take_count_one": " {{count}} huelen",
+    "take_count_other": " {{count}} hëlt",
+    "updated_at": "Aktualiséiert {{date}} ",
+    "no_results": {
+      "title": "Keng Projete fonnt",
+      "description": "Probéiert de Sich- oder Statusfilter unzepassen."
+    },
+    "empty": {
+      "title": "Är Bibliothéik ass eidel",
+      "description": "Start en neie Projet vun Null un, oder importéiert hëlt Dir schonn op Disk.",
+      "cta_import": "Import vum Dossier",
+      "cta_new": "Schafen Projet"
+    },
+    "project_dialog": {
+      "title": "Neie Projet",
+      "description": "Gitt et en Numm a wielt en Opnammodus.",
+      "name_label": "Projet Numm",
+      "name_placeholder": "z.B. Summer Reen",
+      "mode_label": "Modus",
+      "mode": {
+        "voice": "Nëmme Stëmm",
+        "voice_guitar": "Stëmm + Gittar"
+      },
+      "submit": "Schafen Projet"
+    },
+    "album_dialog": {
+      "title": "Neien Album",
+      "description": "Grupp relatéiert Projeten an en Album.",
+      "name_label": "Album Numm",
+      "name_placeholder": "z.B. Herbst EP",
+      "submit": "Album erstellen"
+    },
+    "album": {
+      "untitled": "Album ouni Titel",
+      "members_count_one": " {{count}} Projet",
+      "members_count_other": " {{count}} Projeten",
+      "empty": "An dësem Album nach keng Projeten.",
+      "delete_confirm_title": "Album läschen?",
+      "delete_confirm_description": "D'Projete ginn net geläscht, nëmme vun \" {{name}} \" ofgekoppelt."
+    },
+    "delete_project": {
+      "confirm_title": "\"{{name}}\" läschen?",
+      "confirm_description": "Dëst läscht de Projet an all Take an et. Dëst kann net réckgängeg gemaach ginn."
+    }
+  },
+  "record": {
+    "title": "Rekord",
+    "subtitle": "Fang eng propper Take, kuckt Är Niveauen a befollegt de Skript.",
+    "project_label": "Projet",
+    "project_placeholder": "Wielt e Projet",
+    "project_create_quick": "Erstellt e schnelle Projet ...",
+    "device_label": "Input Apparat",
+    "device_placeholder": "Wielt en Apparat",
+    "device_default_badge": "System Standard",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Keng Input Geräter fonnt.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Stop Iwwerwachung",
+    "record_button": "Rekord",
+    "stop_button": "Stop",
+    "elapsed_label": "Vergaangen Zäit",
+    "status": {
+      "idle": "Idle",
+      "monitoring": "Iwwerwachung",
+      "recording": "Opnam",
+      "stopped": "Gestoppt"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Héichpunkt",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Guidéiert Sëtzung",
+      "subtitle": "Loosst den Trainer Iech Schrëtt fir Schrëtt duerch d'Schrëft goen, vun der Erwiermung bis zum geschwatenen Ausdrock.",
+      "loading": "Skript lueden…",
+      "unavailable": "Déi guidéiert Sessioun ass nach net um Server verfügbar.",
+      "select_project_device": "Wielt e Projet an en Input Apparat fir Schrëtt direkt vun hei opzehuelen.",
+      "progress": " {{done}} vun {{total}} Schrëtt",
+      "start_timer": "Start Timer",
+      "skip_timer": "Iwwersprangen Timer",
+      "record_step": "Notéiert dëse Schrëtt",
+      "stop_step": "Stop opzehuelen",
+      "mark_done": "Gemaach - nächste Schrëtt",
+      "step_recorded": "Huelt opgeholl",
+      "no_record_step": "Warm-up Schrëtt - keng Opnam erfuerderlech.",
+      "bars_hint": "Ongeféier {{bars}} Baren",
+      "complete_title": "Skript komplett!",
+      "complete_body": "Dir hutt all Schrëtt vum Skript opgeholl. Gitt zréck op den Audio Tab vum Projet a wielt Äre Liiblingstake.",
+      "restart": "Restart Skript"
+    },
+    "best2min": {
+      "button": "Fannt déi bescht 2 Minutten (Suno)",
+      "running": "Analyséiert d'Ausmooss ...",
+      "score_label": "Score",
+      "hint": "Leeft eng Energie- a Kloerheetsanalyse iwwer de ganzen Take fir seng stäerkst 2-Minute-Fënster ze fannen - Dir kënnt d'Gamme nach mat der Hand ajustéieren duerno.",
+      "chart_caption": "Score pro Fënster",
+      "unavailable": "Déi bescht 2-Minute Analyse ass nach net op dësem Server verfügbar."
+    },
+    "takes_title": "Huelt aus dëser Sëtzung",
+    "takes_empty": "Keen Take opgeholl an dëser Sessioun nach.",
+    "open_in_project": "Open am Projet",
+    "ws_disconnected": "Uschloss un den Niveaumeter ...",
+    "select_project_first": "Wielt e Projet fir unzefänken.",
+    "select_device_first": "Wielt en Input Apparat."
+  },
+  "project": {
+    "back_to_library": "Zréck an d'Bibliothéik",
+    "header": {
+      "status_label": "Status",
+      "cover_upload": "Eroplueden Cover",
+      "cover_remove": "Ewechzehuelen Cover",
+      "name_placeholder": "Projet Numm",
+      "links_title": "Linken",
+      "add_link": "Add Link",
+      "mode": {
+        "voice": "Nëmme Stëmm",
+        "voice_guitar": "Stëmm + Gittar"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Lyrics",
+      "prompts": "Ufroen",
+      "notes": "Notizen"
+    },
+    "audio": {
+      "takes_title": "Huelt",
+      "no_takes": {
+        "title": "Keen hëlt nach",
+        "description": "Notéiert eng nei Take oder importéiert eng existent Datei."
+      },
+      "record_new": "Rekord eng nei huelen",
+      "rating": "Bewäertung",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Veraarbecht"
+      },
+      "variant_placeholder": "Versioun",
+      "process_button": "Prozess",
+      "export_button": "Export",
+      "delete_take_confirm_title": "Dës Take läschen?",
+      "delete_take_confirm_description": "De rauen Audio an all veraarbechte Versioun ginn ewechgeholl.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Veraarbecht"
+      },
+      "origin": {
+        "recorded": "Opgeholl",
+        "imported": "Importéiert"
+      },
+      "session_label_placeholder": "Sessiounslabel (optional)",
+      "duration": "Dauer",
+      "sample_rate": "Prouf Taux",
+      "channels": "Channels",
+      "created_at": "Opgeholl"
+    },
+    "pipeline": {
+      "title": "Veraarbechtung Kette",
+      "preset_label": "Preset",
+      "preset_none": "Benotzerdefinéiert Kette",
+      "preset_save": "Späicheren als Preset",
+      "stage_locked": "Spär",
+      "stage_requires_extra": "Verlaangt eng Extra déi net installéiert ass",
+      "process_button": "Prozess huelen",
+      "processing": "Veraarbechtung…",
+      "job_queued": "Queue…",
+      "job_running": "Veraarbechtung…",
+      "job_done": "Gemaach",
+      "job_error": "Ausgefall",
+      "job_cancelled": "Annuléiert",
+      "cancel_job": "Ofbriechen",
+      "no_stages": "Keng Etappe verfügbar."
+    },
+    "export": {
+      "title": "Export huelen",
+      "description": "Rendert eng final Datei vun enger veraarbechter Versioun.",
+      "variant_label": "Versioun",
+      "format_label": "Format",
+      "preset_label": "Preset exportéieren",
+      "range_label": "Range",
+      "range_full": "Voll Längt",
+      "range_custom": "Benotzerdefinéiert Gamme",
+      "start_label": "Start (s)",
+      "end_label": "Enn (s)",
+      "submit": "Export",
+      "progress": "Rendert Datei…",
+      "download_ready": "Fichier prett",
+      "download_button": "Download Datei"
+    },
+    "notes": {
+      "placeholder": "Free-Form Notizen iwwer dëse Projet ...",
+      "saved_at": "Gespäichert um {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Schreift d'Texter hei. Benotzt d'Palette op der Säit fir Suno Meta-Tags anzeginn.",
+      "saved_at": "Gespäichert um {{time}} ",
+      "saving": "Spuert…",
+      "versions": "Versiounen",
+      "versions_empty": "Keng gespäichert Versiounen nach.",
+      "version_preview": "Virschau",
+      "restore": "Restauréiert dës Versioun",
+      "restore_confirm_title": "Dës Versioun restauréieren?",
+      "restore_confirm_description": "Den aktuellen Text gëtt duerch d'Versioun ersat, déi op {{date}} gespäichert ass.",
+      "metatags_title": "Meta-tags",
+      "metatags_hint": "Klickt op en Tag fir et um Cursor anzeginn.",
+      "metatags_placebo_warning": "Unproven - kann keen Effekt op d'Resultat hunn.",
+      "metatags_empty": "Keng Meta-Tags registréiert."
+    },
+    "prompts": {
+      "style_title": "Stil Ufro",
+      "lyrics_title": "Lyrics prompt",
+      "template_label": "Schabloun",
+      "template_none": "Keng Schabloun",
+      "variables_title": "Variablen",
+      "preview_title": "Virschau",
+      "preview_empty": "Wielt eng Schabloun a fëllt d'Variabelen aus fir eng Virschau ze gesinn.",
+      "char_count": " {{count}} Zeechen",
+      "char_count_warning": "Style Ufroen iwwer 1000 Zeechen kënne vum Suno ofgeschnidden ginn.",
+      "copy": "Kopie",
+      "copied": "Kopéiert op Clipboard",
+      "save_to_project": "Späichert op de Projet",
+      "saved_to_project": "Prompt am Projet gespäichert",
+      "history_title": "Geschicht",
+      "history_empty": "Keng virdrun Versiounen.",
+      "current_label": "Aktuell"
+    },
+    "stems": {
+      "title": "Gesang a Gittar",
+      "separate_button": "Separat Gesang a Gittar",
+      "running": "Trennen…",
+      "vocals": "Gesang",
+      "instrumental": "Instrumental",
+      "process_stem": "Veraarbecht dëse Stamm",
+      "empty": "Dës Take ass nach net getrennt. Run Trennung fir d'Gesang a Gittar isoléiert ze héieren.",
+      "capability_missing": "Quelltrennung ass net op dësem Server installéiert.",
+      "unavailable": "Vokal-/Gittar-Trennung ass nach net op dësem Server verfügbar."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Op",
+    "boolean_off": "Off"
+  },
+  "import": {
+    "title": "Import",
+    "subtitle": "Bréngt Projeten déi schonn op Disk existéieren an d'Bibliothéik.",
+    "step_indicator": "Schrëtt {{current}} vun {{total}} ",
+    "step1": {
+      "title": "Situéiert Dossier",
+      "description": "Punkt op de Root Dossier mat Äre Projeten a Bunnen.",
+      "path_label": "Dossier Wee",
+      "path_placeholder": "z.B. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "Rezent",
+      "scan_button": "Scannen Dossier",
+      "scanning": "Scannen…",
+      "ffmpeg_warning": "FFmpeg net fonnt - Dateien déi Konversioun brauchen ginn iwwersprangen.",
+      "folders_found_one": " {{count}} Dossier fonnt",
+      "folders_found_other": " {{count}} Ordner fonnt",
+      "unmatched_files_one": " {{count}} onerkannte Datei",
+      "unmatched_files_other": " {{count}} onerkannte Dateien"
+    },
+    "step2": {
+      "title": "Iwwerpréiwen Artikelen",
+      "description": "Iwwerpréift Nimm, Statusen, a wat importéiert gëtt ier Dir bestätegt.",
+      "select_all": "Wielt all",
+      "table": {
+        "folder": "Quell Dossier",
+        "name": "Projet Numm",
+        "status": "Status",
+        "audio": "Audio",
+        "lyrics": "Lyrics",
+        "cover": "Cover",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} Datei ausgewielt",
+      "audio_include_other": " {{count}} Dateien ausgewielt",
+      "no_audio": "Keen Audio fonnt",
+      "no_lyrics": "Keng Texter fonnt",
+      "no_cover": "Keen Cover",
+      "warnings_title": "Warnungen"
+    },
+    "step3": {
+      "title": "Import",
+      "description": "Confirméieren d'Dateien ze kopéieren an d'Projete erstellen.",
+      "copy_originals": "Kopéiert original Dateien an d'Bibliothéik",
+      "execute_button": "Start Import",
+      "progress_title": "Importéiert…",
+      "created_count": "Erstellt: {{count}} ",
+      "skipped_count": "Iwwersprongen: {{count}} ",
+      "done_title": "Import fäerdeg",
+      "done_description": "D'Projete hei drënner goufen an Ärer Bibliothéik erstallt.",
+      "view_project": "Open Projet",
+      "start_over": "Neien Import"
+    }
+  },
+  "templates": {
+    "title": "Schablounen",
+    "subtitle": "Wiederverwendbar Prompt Templates a Meta-Tags fir Suno.",
+    "tabs": {
+      "prompts": "Prompt Templates",
+      "metatags": "Meta-tags"
+    },
+    "new_template": "Nei Schabloun",
+    "kind": {
+      "style": "Stil",
+      "lyrics": "Lyrics"
+    },
+    "kind_label": "Aart",
+    "delete_confirm_title": "Schabloun \" {{name}} \" läschen?",
+    "delete_confirm_description": "Dëst kann net réckgängeg gemaach ginn.",
+    "empty": "Nee Templates nach.",
+    "editor": {
+      "title_new": "Nei Schabloun",
+      "title_edit": "Schabloun änneren",
+      "name_label": "Numm",
+      "name_placeholder": "z.B. Akustesch Ballad",
+      "kind_label": "Aart",
+      "template_label": "Schabloun Text",
+      "template_hint": "Markéiert wou all Variabel gehéiert mat sengem Numm an duebel Curly Klameren gewéckelt - zum Beispill, eng Variabel mam Numm \"Genre\" gëtt Genre gewéckelt an zwee Ouverture an zwee Ofschloss Klameren.",
+      "variables_label": "Variablen",
+      "variable_add": "Add Variabel",
+      "variable_name": "Schlëssel",
+      "variable_label": "Label",
+      "variable_type": "Typ",
+      "variable_type_string": "Text",
+      "variable_type_select": "Single wielt",
+      "variable_type_multiselect": "Multi-auswielen",
+      "variable_type_number": "Zuel",
+      "variable_type_boolean": "Jo/neen",
+      "variable_options": "Optiounen (komma-getrennt)",
+      "variable_required": "Néideg",
+      "save": "Schabloun späicheren"
+    },
+    "metatags": {
+      "title": "Meta tags",
+      "subtitle": "Strukturell a Stil Tags Suno erkennt bannent Texter.",
+      "new_tag": "Neie Tag",
+      "tag_label": "Tag",
+      "tag_placeholder": "z.B. Gittar-Solo",
+      "category_label": "Kategorie",
+      "tier_label": "Zouverlässegkeet",
+      "tier_legend_title": "Zouverlässegkeet Legend",
+      "tier_legend": {
+        "1": "Tier 1 - dokumentéiert a konsequent",
+        "2": "Tier 2 - funktionnéiert normalerweis",
+        "3": "Tier 3 - Variabel Effekt",
+        "4": "Tier 4 - Placebo, onbewisen"
+      },
+      "description_label": "Beschreiwung",
+      "delete_confirm_title": "Tag \"{{tag}}\" läschen?",
+      "empty": "Keng personaliséiert Meta-Tags nach."
+    }
+  },
+  "settings": {
+    "title": "Astellungen",
+    "subtitle": "Systeminformatioun, Sprooch a Standardastellungen.",
+    "system_info_title": "System",
+    "version": "Versioun",
+    "data_dir": "Donnéeën Dossier",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Verfügbar",
+    "ffmpeg_missing": "Net fonnt",
+    "capabilities_title": "Installéiert Fäegkeeten",
+    "capability": {
+      "denoise": "Kaméidi Reduktioun",
+      "quality": "Qualitéit Verbesserung",
+      "separate": "Quell Trennung",
+      "ffmpeg": "FFmpeg Konversioun"
+    },
+    "capability_available": "Verfügbar",
+    "capability_unavailable": "Net verfügbar",
+    "gpu_title": "GPU Beschleunegung",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Runtime Provider"
+    },
+    "gpu_none": "Keng GPU Ubidder entdeckt",
+    "language_title": "Sprooch",
+    "language": {
+      "pt-BR": "Português (Brasilien)",
+      "en": "Englesch"
+    },
+    "theme_title": "Ausgesinn",
+    "theme": {
+      "dark": "Däischter",
+      "light": "Liicht"
+    },
+    "defaults_title": "Export Defaults",
+    "lufs_target_label": "Zil LUFS",
+    "lufs_target_hint": "Benotzt als Startvirschlag beim Export hëlt. Dem Suno säi Standard sëtzt ronderëm -14 LUFS.",
+    "saved": "Virléiften gespäichert"
+  },
+  "guide": {
+    "title": "Suno Opnam Guide",
+    "subtitle": "Wéi Dir Stëmm a Gittar hëlt, déi déi bescht Resultater kréien.",
+    "intro": "Suno leeft am beschten mat propperen, eendeiteg Referenzen. Dëse Guide befaasst d'Virbereedung, Zilniveauen an en 3-5 Minutte Rekordskript.",
+    "sections": {
+      "prep": {
+        "title": "Virbereedung",
+        "body": "Rekord an engem behandelt Zëmmer oder engem mat vill mëll Material (Riddoen, Teppecher, Kleeder an engem Kleederschaf). Schalt d'Fans aus an alles wat brummen. Waarm Är Stëmm fir 5 Minutte virum Opnam."
+      },
+      "levels": {
+        "title": "Niveauen: -12 bis -6 dBFS",
+        "body": "Zil fir Peaks tëscht -12 an -6 dBFS um Meter. Ënnert deem Beräich gëtt Hannergrondgeräusche méi opfälleg; driwwer klëmmt de Cliprisiko. Benotzt de Meter op der Record Säit fir Äre Gewënn ze setzen ier Dir ufänkt."
+      },
+      "distance": {
+        "title": "Mic Distanz: 15-30 cm",
+        "body": "Bleift 15 bis 30 cm vum Mikro. Méi no wéi dat iwwerdriwwen plosives a Proximitéit Effekt; méi wäit ewech hëlt méi Raumreverb a Kaméidi op."
+      },
+      "script": {
+        "title": "Opnam Skript",
+        "warmup": "Gesangwaarmung (1-2 Minutten)",
+        "vowels": "Nohalteg Vokaler - a, e, i, o, u",
+        "scales": "Einfach Skalen, erop an erof",
+        "excerpt": "E Lidd Extrait (8 bis 16 Bars)",
+        "dynamics": "Dynamik: Start mëll, Enn haart",
+        "spoken_phrase": "Eng geschwat Phrase, sou datt de Suno Äre Vokalen Toun liesen kann"
+      },
+      "expectations": {
+        "title": "Wat Suno erwaart",
+        "body": "WAV, 48 kHz, Mono, dréchen (kee Reverb oder Effekter), 3 bis 5 Minutte Referenz. Déi propper, representativst 2 Minutte vun der Take produzéiere normalerweis déi bescht Resultater."
+      }
+    }
+  },
+  "status": {
+    "idea": "Iddi",
+    "em_progresso": "Am Fortschrëtt",
+    "quase": "Bal do",
+    "pronto": "Fäerdeg"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Voll Vokal Skript fir Suno",
+      "desc": "5 guidéiert Minutten: Erwiermung, Vokaler, Skalen, zwee Songextraiten, Dynamik an e geschwate Saz."
+    },
+    "step": {
+      "warmup": "Vokal Warm-up",
+      "warmup_inst": "Loosst Iech mat Gässer, Lëpstrillen (brrr) an e mëllen Humm fir ongeféier eng Minutt. Kee Grond fir opzehuelen - et ass just den Hals ze relaxen ier Dir sangen.",
+      "vowels": "Nohalteg Vokaler",
+      "vowels_inst": "Halt all Vokal - a, e, i, o, u - fir 3 bis 4 Sekonnen op Ärem bequemen Toun, mat engem konstante Volumen. Dëst hëlleft de Suno de puren Timbre vun Ärer Stëmm opzehuelen.",
+      "scales": "Skalen op an erof",
+      "scales_inst": "Sangen eng einfach Skala erop an dann erof, op \"la\" oder \"na\". Et brauch net perfekt ze sinn - d'Zil ass Är Stëmmbereich ze mapen.",
+      "section": "Lidd Extrait - Deel 1",
+      "section_inst": "Singt 8 bis 16 Baren vum Lidd, mat der richteger Absicht déi Dir wëllt vermëttelen. Prioritéit Kloerheet a Präsenz iwwer technesch Perfektioun.",
+      "section2": "Lidd Extrait - Deel 2",
+      "section2_inst": "Sing nach 8 bis 16 Baren - am Idealfall e Chorus oder e Sektioun deen am Géigesaz zum fréiere steet. Méi Varietéit hëlleft dem Modell Är Stëmm ze léieren.",
+      "dynamics": "Dynamik: mëll → haart",
+      "dynamics_inst": "Singt déiselwecht Saz, déi ganz mëll ufänkt an haart ophält, ouni den Hals ze belaaschten. Dëst weist Suno Är Stëmm dynamesch Beräich.",
+      "spoken": "Gesprochen Ausdrock",
+      "spoken_inst": "Schwätzt - sangen net - e kuerzen, natierleche Saz, wéi wann Dir schwätzt. Dëst hëlleft de Suno den richtegen Timbre vun Ärer Stëmm ze erkennen."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restauratioun",
+      "filter": "Filteren",
+      "dynamics": "Dynamik",
+      "separation": "Trennung",
+      "quality": "Qualitéit",
+      "utility": "Utility",
+      "loudness": "Lautheet"
+    },
+    "highpass": "Héichpassfilter",
+    "lowpass": "Low-Pass Filter",
+    "denoise": "Kaméidi Reduktioun",
+    "declip": "Ofschneiden",
+    "declick": "Klickt / Pop Ewechhuele",
+    "deesser": "De-esser",
+    "gate": "Kaméidi Gate",
+    "compressor": "Kompressor",
+    "limiter": "Limiter",
+    "eq": "Ausgläich",
+    "normalize": "Héich Normaliséierung",
+    "loudness": "Loudness Normalization (LUFS)",
+    "reverb_reduce": "Reverb Reduktioun",
+    "separate": "Quell Trennung",
+    "quality": "Qualitéitsverbesserung (upscale)",
+    "trim_silence": "Roueg Trimmen",
+    "fade": "Fade in / fade out",
+    "stereo_to_mono": "Konvertéieren an Mono",
+    "resample": "Ëmsampling"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Zouverlässeg",
+      "2": "Normalerweis funktionnéiert",
+      "3": "Variabel",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Struktur",
+      "vocal": "Vokal",
+      "instrument": "Instrument",
+      "dynamics": "Dynamik",
+      "production": "Produktioun",
+      "mood": "Stëmmung"
+    },
+    "verse": "Vers",
+    "chorus": "Chorus",
+    "bridge": "Bréck",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Haken",
+    "prechorus": "Pre-Chorus",
+    "instrumental": "Instrumental",
+    "guitar_solo": "Gittar Solo",
+    "build_up": "Opbau",
+    "breakdown": "Zerfall",
+    "spoken_word": "Gesprochen Wuert",
+    "whispered": "Geflüstert",
+    "harmonies": "Harmonien",
+    "male_vocal": "Männlech Vokal",
+    "female_vocal": "Weiblech Gesang",
+    "duet": "Duett",
+    "acoustic": "Akustesch",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Propper Stëmm",
+    "voice_guitar_balanced": "Equilibréiert Stëmm & Guitar",
+    "podcast": "Podcast",
+    "suno_ready": "Suno prett",
+    "gentle_restore": "Gentle Restauratioun",
+    "raw_passthrough": "Keng Veraarbechtung"
+  },
+  "errors": {
+    "unknown": "Eppes ass falsch gaangen.",
+    "network": "Konnt de Server net erreechen.",
+    "validation_error": "Kuckt d'Informatioun déi Dir aginn hutt.",
+    "not_found": "Artikel net fonnt.",
+    "project_not_found": "Projet net fonnt.",
+    "take_not_found": "Huelt net fonnt.",
+    "album_not_found": "Album net fonnt.",
+    "preset_not_found": "Preset net fonnt.",
+    "template_not_found": "Schabloun net fonnt.",
+    "device_busy": "Audio Apparat ass am Gebrauch vun engem anere Programm.",
+    "device_not_found": "Audiogerät net fonnt.",
+    "already_recording": "Eng Opnam ass schonn amgaang.",
+    "ffmpeg_missing": "FFmpeg ass net installéiert - installéiert et fir dës Datei ze konvertéieren.",
+    "disk_full": "Net genuch Disk Space.",
+    "permission_denied": "Erlaabnis refuséiert fir de bestëmmte Wee.",
+    "import_path_not_found": "Import Wee net fonnt.",
+    "job_failed": "Veraarbechtung gescheitert.",
+    "job_cancelled": "D'Veraarbechtung gouf annuléiert.",
+    "process_failed": "Ausgefall op d'Veraarbechtung.",
+    "export_failed": "Ausgefall fir de Fichier ze exportéieren.",
+    "record_failed": "Konnt den Opnahmen net starten."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Queue",
+      "running": "Lafen",
+      "done": "Gemaach",
+      "error": "Ausgefall",
+      "cancelled": "Annuléiert"
+    },
+    "kind": {
+      "process": "Veraarbechtung",
+      "export": "Export",
+      "import": "Import",
+      "record": "Opnam"
+    }
+  }
+}

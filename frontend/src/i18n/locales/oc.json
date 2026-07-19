@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Netejaire d'àudio"
+  },
+  "nav": {
+    "library": "Bibliotèca",
+    "record": "Enregistrament",
+    "import": "Importar",
+    "templates": "Modèls",
+    "settings": "Paramètres",
+    "guide": "Guida"
+  },
+  "common": {
+    "save": "Enregistrar",
+    "saving": "En estalviant…",
+    "saved": "Enregistrat",
+    "cancel": "Anullar",
+    "close": "Barrar",
+    "delete": "Suprimir",
+    "edit": "Modificar",
+    "create": "Crear",
+    "search": "Cercar",
+    "loading": "En cargament...",
+    "error": "Error",
+    "retry": "Tornatz ensajar",
+    "confirm": "Confirmar",
+    "back": "Enrè",
+    "next": "Seguent",
+    "continue": "Contunhar",
+    "finish": "Acabar",
+    "copy": "Còpia",
+    "copied": "Copiat",
+    "download": "Telecargar",
+    "upload": "Enviar",
+    "none": "Cap",
+    "all": "Totes",
+    "yes": "Òc",
+    "no": "Non",
+    "select": "Seleccionar",
+    "optional": "facultatiu",
+    "required": "requerit",
+    "unsaved_changes": "Las modificacions non enregistradas",
+    "name": "Nom",
+    "status": "Estatut",
+    "type": "Tipe",
+    "actions": "Accions",
+    "empty": "Vuèg",
+    "browse": "Navegar",
+    "remove": "Suprimir",
+    "add": "Apondre",
+    "rename": "Renomenar",
+    "duplicate": "Duplicat",
+    "warning": "Avertiment",
+    "locked": "Blocat",
+    "builtin": "Incorporat",
+    "custom": "Personalizat",
+    "untitled": "Sens títol",
+    "select_placeholder": "Seleccionatz..."
+  },
+  "library": {
+    "title": "Bibliotèca",
+    "subtitle": "Vòstres projèctes de votz e de guitarra, de l'idèa a la sortida.",
+    "new_project": "Novèl projècte",
+    "new_album": "Album novèl",
+    "search_placeholder": "Cercar per nom...",
+    "view": {
+      "grid": "Grilha",
+      "albums": "Albums"
+    },
+    "filters": {
+      "all": "Totes"
+    },
+    "take_count_one": " {{count}} prene",
+    "take_count_other": " {{count}} pren",
+    "updated_at": "Mesa a jorn {{date}} ",
+    "no_results": {
+      "title": "Cap de projècte pas trobat",
+      "description": "Ensajatz d'ajustar lo filtre de recèrca o d'estat."
+    },
+    "empty": {
+      "title": "Vòstra bibliotèca es voida",
+      "description": "Començatz un projècte novèl de zéro, o importatz de presas qu'avètz ja sul disc.",
+      "cta_import": "Importar dempuèi lo dorsièr",
+      "cta_new": "Crear un projècte"
+    },
+    "project_dialog": {
+      "title": "Novèl projècte",
+      "description": "Donatz-li un nom e causissètz un mòde d'enregistrament.",
+      "name_label": "Nom del projècte",
+      "name_placeholder": "p.ex. Pluèja d'estiu",
+      "mode_label": "Mòde",
+      "mode": {
+        "voice": "Votz solament",
+        "voice_guitar": "Votz + guitarra"
+      },
+      "submit": "Crear un projècte"
+    },
+    "album_dialog": {
+      "title": "Album novèl",
+      "description": "Agropar de projèctes ligats dins un album.",
+      "name_label": "Nom de l'album",
+      "name_placeholder": "p.ex. EP de tardor",
+      "submit": "Crear un album"
+    },
+    "album": {
+      "untitled": "Album sens títol",
+      "members_count_one": " {{count}} projècte",
+      "members_count_other": " {{count}} projèctes",
+      "empty": "Pas de projècte dins aqueste album encara.",
+      "delete_confirm_title": "Suprimir album?",
+      "delete_confirm_description": "Los projèctes seràn pas suprimits, sonque desligats dempuèi \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Suprimir \" {{name}} \"?",
+      "confirm_description": "Aquò quita lo projècte e totas las presas que i a. Aquò pòt pas èsser desfach."
+    }
+  },
+  "record": {
+    "title": "Enregistrament",
+    "subtitle": "Capturatz una presa neta, susvelhatz vòstres nivèls, e seguissètz lo guion.",
+    "project_label": "Projècte",
+    "project_placeholder": "Causissètz un projècte",
+    "project_create_quick": "Creatz un projècte rapid...",
+    "device_label": "Dispositiu d'entrada",
+    "device_placeholder": "Causissètz un periferic",
+    "device_default_badge": "Per defaut del sistèma",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Cap de periferic d'entrada pas trobat.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Arrestar la susvelhança",
+    "record_button": "Enregistrament",
+    "stop_button": "Arrèsta",
+    "elapsed_label": "Temps passat",
+    "status": {
+      "idle": "Inactiu",
+      "monitoring": "Seguiment",
+      "recording": "Enregistrament",
+      "stopped": "Arrestat"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Pic",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Sesilha guidada",
+      "subtitle": "Daissatz l'entraïnaire vos guidar dins lo guion pas a pas, de l'escalfament a la frasa parlada.",
+      "loading": "En cargament d'escript...",
+      "unavailable": "La sesilha guidada es pas encara disponibla sul servidor.",
+      "select_project_device": "Causissètz un projècte e un periferic d'entrada per enregistrar las etapas dempuèi aicí.",
+      "progress": " {{done}} de {{total}} pasos",
+      "start_timer": "Temporizator de començament",
+      "skip_timer": "Sautar lo temporizator",
+      "record_step": "Enregistratz aquesta etapa",
+      "stop_step": "Arrestar l'enregistrament",
+      "mark_done": "Fach — etapa seguenta",
+      "step_recorded": "Prene enregistrat",
+      "no_record_step": "Etapa d'escalfament — pas besonh d'enregistrament.",
+      "bars_hint": "Aperaquí {{bars}} de barras",
+      "complete_title": "Guion complet!",
+      "complete_body": "Avètz enregistrat cada estapa de l'escript. Tornatz a l'onglet Audio del projècte e causissètz vòstras presas preferidas.",
+      "restart": "Reaviar l'escript"
+    },
+    "best2min": {
+      "button": "Trobar los melhors 2 minutas (Suno)",
+      "running": "En analisant la presa...",
+      "score_label": "Escòre",
+      "hint": "Executa una analisi d'energia e de clartat sus tota la presa per trobar sa fenèstra de 2 minutas mai fòrta — podètz encara ajustar la portada a la man après.",
+      "chart_caption": "Puntuacion per fenèstra",
+      "unavailable": "La melhora analisi de 2 minutas es pas encara disponibla sus aqueste servidor."
+    },
+    "takes_title": "Pren d'aquesta sesilha",
+    "takes_empty": "Cap de presa enregistrada dins aquesta sesilha encara.",
+    "open_in_project": "Dobrir dins lo projècte",
+    "ws_disconnected": "Tornatz connectar al comptador de nivèl...",
+    "select_project_first": "Causissètz un projècte per començar.",
+    "select_device_first": "Causissètz un periferic d'entrada."
+  },
+  "project": {
+    "back_to_library": "Tornar a la bibliotèca",
+    "header": {
+      "status_label": "Estatut",
+      "cover_upload": "Enviar la cobèrta",
+      "cover_remove": "Levatz la cobèrta",
+      "name_placeholder": "Nom del projècte",
+      "links_title": "Ligams",
+      "add_link": "Ajustar un ligam",
+      "mode": {
+        "voice": "Votz solament",
+        "voice_guitar": "Votz + guitarra"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Letras",
+      "prompts": "Demandas",
+      "notes": "Nòtas"
+    },
+    "audio": {
+      "takes_title": "Pren",
+      "no_takes": {
+        "title": "Pas de presas encara",
+        "description": "Enregistrar una novèla presa o importar un fichièr existent."
+      },
+      "record_new": "Enregistrar una novèla presa",
+      "rating": "Valoracion",
+      "variant": {
+        "raw": "Raw",
+        "processed": "Trabalhat"
+      },
+      "variant_placeholder": "Version",
+      "process_button": "Procès",
+      "export_button": "Exportacion",
+      "delete_take_confirm_title": "Suprimir aquesta presa?",
+      "delete_take_confirm_description": "L'àudio brut e tota version tractada seràn suprimits.",
+      "ab": {
+        "raw": "A · Brut",
+        "processed": "B · Trabalhat"
+      },
+      "origin": {
+        "recorded": "Enregistrat",
+        "imported": "Importat"
+      },
+      "session_label_placeholder": "Etiqueta de sesilha (facultatiu)",
+      "duration": "Durada",
+      "sample_rate": "Taus de mòstra",
+      "channels": "Canals",
+      "created_at": "Enregistrat"
+    },
+    "pipeline": {
+      "title": "Cadena de tractament",
+      "preset_label": "Preset",
+      "preset_none": "Cadena personalizada",
+      "preset_save": "Enregistrar coma predefinit",
+      "stage_locked": "Blocat",
+      "stage_requires_extra": "Necessita un suplementari qu'es pas installat",
+      "process_button": "Presa de procès",
+      "processing": "Tractament...",
+      "job_queued": "En cola...",
+      "job_running": "Tractament...",
+      "job_done": "Fach",
+      "job_error": "Fracassat",
+      "job_cancelled": "Anullat",
+      "cancel_job": "Anullar",
+      "no_stages": "Cap d'estadi disponible."
+    },
+    "export": {
+      "title": "Prendre d'exportacion",
+      "description": "Rendur un fichièr final a partir d'una version tractada.",
+      "variant_label": "Version",
+      "format_label": "Format",
+      "preset_label": "Exportar lo predefinit",
+      "range_label": "Gamma",
+      "range_full": "Longitud completa",
+      "range_custom": "Gamma personalizada",
+      "start_label": "Començar(s)",
+      "end_label": "Fin (s)",
+      "submit": "Exportacion",
+      "progress": "Fichièr de rendut...",
+      "download_ready": "Fichièr prèst",
+      "download_button": "Telecargar lo fichièr"
+    },
+    "notes": {
+      "placeholder": "Nòtas en forma liura a prepaus d'aqueste projècte...",
+      "saved_at": "Enregistrat a {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Escribe las letras aquí. Utilizatz la paleta del costat per inserir de meta-etiquetas Suno.",
+      "saved_at": "Enregistrat a {{time}} ",
+      "saving": "En estalviant…",
+      "versions": "Versions",
+      "versions_empty": "Pas encara de version enregistrada.",
+      "version_preview": "Apercebut",
+      "restore": "Restablir aquesta version",
+      "restore_confirm_title": "Restablir aquesta version ?",
+      "restore_confirm_description": "Lo tèxte actual serà remplaçat per la version enregistrada sus {{date}} .",
+      "metatags_title": "Meta-etiquetas",
+      "metatags_hint": "Clicatz sus una balisa per l'inserir al cursor.",
+      "metatags_placebo_warning": "Pas provat — pòt aver pas cap d'efièch sul resultat.",
+      "metatags_empty": "Cap de meta-etiqueta enregistrada."
+    },
+    "prompts": {
+      "style_title": "Invitacion d'estil",
+      "lyrics_title": "Invitacion de tèxtes",
+      "template_label": "Modèl",
+      "template_none": "Pas de modèl",
+      "variables_title": "Variablas",
+      "preview_title": "Apercebut",
+      "preview_empty": "Causissètz un modèl e emplenatz las variablas per veire un apercebut.",
+      "char_count": " {{count}} caractèrs",
+      "char_count_warning": "Las indicacions d'estil de mai de 1000 caractèrs pòdon èsser troncadas per Suno.",
+      "copy": "Còpia",
+      "copied": "Copiat dins lo quichapapièrs",
+      "save_to_project": "Enregistrar dins lo projècte",
+      "saved_to_project": "Invitacion enregistrada dins lo projècte",
+      "history_title": "Istòria",
+      "history_empty": "Pas de versions precedentas.",
+      "current_label": "Actual"
+    },
+    "stems": {
+      "title": "Votz e guitarra",
+      "separate_button": "Votz e guitarra separadas",
+      "running": "Separant...",
+      "vocals": "Votz",
+      "instrumental": "Instrumental",
+      "process_stem": "Tractatz aquesta tija",
+      "empty": "Aquesta presa es pas encara estada separada. Corre la separacion per ausir la votz e la guitarra en isolament.",
+      "capability_missing": "La separacion de la font es pas installada sus aqueste servidor.",
+      "unavailable": "La separacion vocal/guitarra es pas encara disponibla sus aqueste servidor."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Sus",
+    "boolean_off": "Desactivat"
+  },
+  "import": {
+    "title": "Importar",
+    "subtitle": "Aportar de projèctes qu'existisson ja sus disc dins la bibliotèca.",
+    "step_indicator": "Pas {{current}} de {{total}} ",
+    "step1": {
+      "title": "Localizar lo dorsièr",
+      "description": "Apuntatz al dorsièr raiç amb vòstres projèctes e pistas.",
+      "path_label": "Camin del dorsièr",
+      "path_placeholder": "p.ex. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "Recent",
+      "scan_button": "Dòrsièr d'escandalhatge",
+      "scanning": "Escanar...",
+      "ffmpeg_warning": "FFmpeg pas trobat — los fichièrs qu'an besonh de conversion seràn sautats.",
+      "folders_found_one": " {{count}} dorsièr trobat",
+      "folders_found_other": " {{count}} dorsièrs trobats",
+      "unmatched_files_one": " {{count}} fichièr pas reconegut",
+      "unmatched_files_other": " {{count}} fichièrs non reconeguts"
+    },
+    "step2": {
+      "title": "Revisar los elements",
+      "description": "Verificatz los noms, los estatuts, e çò que serà importat abans de confirmar.",
+      "select_all": "Seleccionar tot",
+      "table": {
+        "folder": "Dossièr font",
+        "name": "Nom del projècte",
+        "status": "Estatut",
+        "audio": "Audio",
+        "lyrics": "Letras",
+        "cover": "Cobèrta",
+        "album": "Album"
+      },
+      "audio_include_one": " {{count}} fichièr seleccionat",
+      "audio_include_other": " {{count}} fichièrs seleccionats",
+      "no_audio": "Cap d'àudio pas trobat",
+      "no_lyrics": "Pas de paraula trobada",
+      "no_cover": "Pas de cobèrta",
+      "warnings_title": "Avertiments"
+    },
+    "step3": {
+      "title": "Importar",
+      "description": "Confirmatz per copiar los fichièrs e crear los projèctes.",
+      "copy_originals": "Copiatz los fichièrs originals dins la bibliotèca",
+      "execute_button": "Començar l'importacion",
+      "progress_title": "Important…",
+      "created_count": "Creat: {{count}} ",
+      "skipped_count": "Sautat: {{count}} ",
+      "done_title": "Importacion completa",
+      "done_description": "Los projèctes çai-jos son estats creats dins vòstra bibliotèca.",
+      "view_project": "Projècte dobèrt",
+      "start_over": "Novèla importacion"
+    }
+  },
+  "templates": {
+    "title": "Modèls",
+    "subtitle": "Modèls d'invitacion e meta-etiquetas reutilizables per Suno.",
+    "tabs": {
+      "prompts": "Modèls d'invitacion",
+      "metatags": "Meta-etiquetas"
+    },
+    "new_template": "Modèl novèl",
+    "kind": {
+      "style": "Estil",
+      "lyrics": "Letras"
+    },
+    "kind_label": "Gent",
+    "delete_confirm_title": "Suprimir lo modèl \" {{name}} \"?",
+    "delete_confirm_description": "Aquò pòt pas èsser desfach.",
+    "empty": "Pas de modèl encara.",
+    "editor": {
+      "title_new": "Modèl novèl",
+      "title_edit": "Modèl lo modèl",
+      "name_label": "Nom",
+      "name_placeholder": "p.ex. Balada acústica",
+      "kind_label": "Gent",
+      "template_label": "Tèxte de modèl",
+      "template_hint": "Marcatz ont cada variabla aperten amb son nom enrotlat dins de doblas parentèlas rizadas — per exemple, una variabla nomenada \"genre\" ven genre enrotlada dins doas parentèlas d'inauguracion e doas clausuras de clausura.",
+      "variables_label": "Variablas",
+      "variable_add": "Apondre una variabla",
+      "variable_name": "Clau",
+      "variable_label": "Etiqueta",
+      "variable_type": "Tipe",
+      "variable_type_string": "Tèxt",
+      "variable_type_select": "Seleccion unica",
+      "variable_type_multiselect": "Multi-seleccionar",
+      "variable_type_number": "Nombre",
+      "variable_type_boolean": "Òc/non",
+      "variable_options": "Opcions (separats per de virgulas)",
+      "variable_required": "Requerit",
+      "save": "Enregistrar lo modèl"
+    },
+    "metatags": {
+      "title": "Meta-etiquetas",
+      "subtitle": "Etiquetas estructuralas e d'estil Suno reconeis dins las paraulas.",
+      "new_tag": "Etiqueta novèla",
+      "tag_label": "Etiqueta",
+      "tag_placeholder": "p.ex. guitarra-solista",
+      "category_label": "Categoria",
+      "tier_label": "Fiabilitat",
+      "tier_legend_title": "Legenda de fiabilitat",
+      "tier_legend": {
+        "1": "Nivèl 1 — documentat e coerent",
+        "2": "Nivèl 2 — fonciona generalament",
+        "3": "Nivèl 3 — efièch variable",
+        "4": "Nivèl 4 — placebo, non provat"
+      },
+      "description_label": "Descripcion",
+      "delete_confirm_title": "Suprimir l'etiqueta \" {{tag}} \"?",
+      "empty": "Pas encara de meta-etiquetas personalizadas."
+    }
+  },
+  "settings": {
+    "title": "Paramètres",
+    "subtitle": "Informacion del sistèma, lenga e preferéncias per defaut.",
+    "system_info_title": "Sistèma",
+    "version": "Version",
+    "data_dir": "Dossièr de donadas",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Disponible",
+    "ffmpeg_missing": "Pas trobat",
+    "capabilities_title": "Capacitats installadas",
+    "capability": {
+      "denoise": "Reduccion de bruch",
+      "quality": "Melhorament de la qualitat",
+      "separate": "Separacion de la font",
+      "ffmpeg": "Conversion FFmpeg"
+    },
+    "capability_available": "Disponible",
+    "capability_unavailable": "Indisponible",
+    "gpu_title": "Acceleracion de la GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "Proveidors de temps d'execucion ONNX"
+    },
+    "gpu_none": "Cap de provesidor de GPU pas detectat",
+    "language_title": "Lenga",
+    "language": {
+      "pt-BR": "Portugués (Brasil)",
+      "en": "Anglés"
+    },
+    "theme_title": "Aparéncia",
+    "theme": {
+      "dark": "Escur",
+      "light": "Lutz"
+    },
+    "defaults_title": "Los valors per defaut d'exportacion",
+    "lufs_target_label": "LUFS cibla",
+    "lufs_target_hint": "Utilizat coma suggestion de partença al moment de l'exportacion de las presas. Lo valor per defaut de Suno es a l'entorn de -14 LUFS.",
+    "saved": "Preferéncias enregistradas"
+  },
+  "guide": {
+    "title": "Guida d'enregistrament de Suno",
+    "subtitle": "Cossí capturar la votz e las presas de guitarra qu'obtenon los melhors resultats.",
+    "intro": "Suno fonciona melhor amb de referéncias netas e inequívocas. Aqueste guida cobrís la preparacion, los nivèls cibla, e un guion d'enregistrament de 3-5 minutas.",
+    "sections": {
+      "prep": {
+        "title": "Preparacion",
+        "body": "Enregistrar dins una sala tractada o una amb fòrça material doç (cortinas, tapis, vestits dins un armari). Apagar los ventilators e tot çò que ronca. Escalfatz vòstra votz pendent 5 minutas abans d'enregistrar."
+      },
+      "levels": {
+        "title": "Nivèls: -12 a -6 dBFS",
+        "body": "Visatz de pics entre -12 e -6 dBFS sul comptador. En dejós d'aquela gama, lo bruch de fons ven mai notable; al dessús, lo risc de talh aumenta. Utilizatz lo comptador sus la pagina d'enregistrament per definir vòstre ganh abans de començar."
+      },
+      "distance": {
+        "title": "Distància de mic: 15–30 cm",
+        "body": "Mantenètz-vos a 15 a 30 cm del micrò. Mai pròche qu'aquò exagera los plosius e l'efièch de proximitat; mai luènh pren mai de reverb e de bruch de sala."
+      },
+      "script": {
+        "title": "Guion d'enregistrament",
+        "warmup": "Escalfament vocal (1-2 minutas)",
+        "vowels": "Vocalas sostengudas — a, e, i, o, u",
+        "scales": "Escalas simplas, amont e aval",
+        "excerpt": "Un extrach de cançon (8 a 16 barras)",
+        "dynamics": "Dinamica: començar doç, acabar fòrt",
+        "spoken_phrase": "Una frasa parlada, per que Suno pòsca legir vòstre ton vocal"
+      },
+      "expectations": {
+        "title": "Çò qu'espèra Suno",
+        "body": "WAV, 48 kHz, mono, sec (pas de reverberacion ni d'efièches), 3 a 5 minutas de referéncia. Las 2 minutas mai netas e mai representativas de la presa produson generalament los melhors resultats."
+      }
+    }
+  },
+  "status": {
+    "idea": "Idèa",
+    "em_progresso": "En cors",
+    "quase": "Gaireben aquí",
+    "pronto": "Lèst"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Guion vocal complet per Suno",
+      "desc": "5 minutas guidadas: escalfament, vocalas, escalas, dos extraches de cançon, dinamica, e una frasa parlada."
+    },
+    "step": {
+      "warmup": "Escalfament vocal",
+      "warmup_inst": "Desliuratz-vos amb de badalhs, de labèls (brrr), e un bruch doç pendent una minuta aperaquí. Pas besonh d'enregistrar — es juste per relaxar la garganta abans de cantar.",
+      "vowels": "Vocalas sostengudas",
+      "vowels_inst": "Tenètz cada vocala — a, e, i, o, u — pendent 3 a 4 segondas a vòstre ton confortable, amb un volum constant. Aquò ajuda Suno a prene lo timbre pur de vòstra votz.",
+      "scales": "Escalas en naut e en bas",
+      "scales_inst": "Cantar una escala simpla en naut e puèi en bas, sus \"la\" o \"na\". A pas besonh d'èsser perfièch — l'objectiu es de cartografiar vòstra gama vocal.",
+      "section": "Extrach de cançon — 1a partida",
+      "section_inst": "Cantatz de 8 a 16 barras de la cançon, amb la vertadièra intencion que volètz transmetre. Priorizar la clartat e la preséncia sus la perfeccion tecnica.",
+      "section2": "Extrach de cançon — part 2",
+      "section2_inst": "Cantatz 8 a 16 barras de mai — idealament un còr o una seccion que contrasta amb l'anterior. Mai de varietat ajuda lo modèl a aprene vòstra votz.",
+      "dynamics": "Dinamica: suau → fòrt",
+      "dynamics_inst": "Cantatz la meteissa frasa en començant fòrça doçament e en acabant fòrt, sens vos esforçar la garganta. Aquò mòstra Suno la gamma dinamica de vòstra votz.",
+      "spoken": "Frasa parlada",
+      "spoken_inst": "Parlatz — cantatz pas — una frasa corta e naturala, coma se charravatz. Aquò ajuda Suno a reconéisser lo vertadièr timbre de vòstra votz."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restauracion",
+      "filter": "Filtres",
+      "dynamics": "Dinamica",
+      "separation": "Separacion",
+      "quality": "Qualitat",
+      "utility": "Utilitat",
+      "loudness": "Voloritat"
+    },
+    "highpass": "Filtre de passatge naut",
+    "lowpass": "Filtre de pas bas",
+    "denoise": "Reduccion de bruch",
+    "declip": "Declipar",
+    "declick": "Supression de clic/pop",
+    "deesser": "De-esser",
+    "gate": "Pòrta de bruch",
+    "compressor": "Compressor",
+    "limiter": "Limitador",
+    "eq": "Egalizacion",
+    "normalize": "Normalizacion de pic",
+    "loudness": "Normalizacion de la votz fòrta (LUFS)",
+    "reverb_reduce": "Reduccion de la reverberacion",
+    "separate": "Separacion de la font",
+    "quality": "Melhorament de la qualitat (de luxe)",
+    "trim_silence": "Talha de silenci",
+    "fade": "S'esvair / s'esvair",
+    "stereo_to_mono": "Convertir en mono",
+    "resample": "Remostrament"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Fiable",
+      "2": "Fonciona generalament",
+      "3": "Variabla",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Estructura",
+      "vocal": "Vocal",
+      "instrument": "Instrument",
+      "dynamics": "Dinamica",
+      "production": "Produccion",
+      "mood": "Umor"
+    },
+    "verse": "Vers",
+    "chorus": "Còr",
+    "bridge": "Pont",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Croc",
+    "prechorus": "Pre-còr",
+    "instrumental": "Instrumental",
+    "guitar_solo": "Solo de guitarra",
+    "build_up": "Acumulacion",
+    "breakdown": "Descomposicion",
+    "spoken_word": "Paraula parlada",
+    "whispered": "Murmurèt",
+    "harmonies": "Armonias",
+    "male_vocal": "Vocal masculin",
+    "female_vocal": "Vocal femenina",
+    "duet": "Duet",
+    "acoustic": "Acústica",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Votz neta",
+    "voice_guitar_balanced": "Votz e guitarra equilibradas",
+    "podcast": "Podcast",
+    "suno_ready": "Suno prèst",
+    "gentle_restore": "Restauracion doça",
+    "raw_passthrough": "Pas de tractament"
+  },
+  "errors": {
+    "unknown": "Quicòm s'es marrit.",
+    "network": "Poguèt pas aténher lo servidor.",
+    "validation_error": "Verificatz las informacions qu'avètz picadas.",
+    "not_found": "Article pas trobat.",
+    "project_not_found": "Projècte pas trobat.",
+    "take_not_found": "Pren pas trobat.",
+    "album_not_found": "Album pas trobat.",
+    "preset_not_found": "Preset pas trobat.",
+    "template_not_found": "Modèl pas trobat.",
+    "device_busy": "Lo periferic àudio es utilizat per un autre programa.",
+    "device_not_found": "Periferic àudio pas trobat.",
+    "already_recording": "Un enregistrament es ja en cors.",
+    "ffmpeg_missing": "FFmpeg es pas installat — installatz-lo per convertir aqueste fichièr.",
+    "disk_full": "Pas pro d'espaci sus disc.",
+    "permission_denied": "L'autorizacion refusada pel camin donat.",
+    "import_path_not_found": "Camin d'importacion pas trobat.",
+    "job_failed": "Lo tractament a fracassat.",
+    "job_cancelled": "Lo tractament es estat anullat.",
+    "process_failed": "Fracàs al tractament de la presa.",
+    "export_failed": "Fracàs al moment de l'exportacion del fichièr.",
+    "record_failed": "Fracàs al començament de l'enregistrament."
+  },
+  "jobs": {
+    "status": {
+      "queued": "En cola",
+      "running": "En cors",
+      "done": "Fach",
+      "error": "Fracassat",
+      "cancelled": "Anullat"
+    },
+    "kind": {
+      "process": "Tractament",
+      "export": "Exportacion",
+      "import": "Importar",
+      "record": "Enregistrament"
+    }
+  }
+}

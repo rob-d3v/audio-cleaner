@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio Q’umachiri"
+  },
+  "nav": {
+    "library": "Biblioteca ukata",
+    "record": "Qillqaña",
+    "import": "Importación ukat juk’ampinaka",
+    "templates": "Plantillas ukanaka",
+    "settings": "Ukax mä juk’a pachanakanwa",
+    "guide": "guia ukax mä juk’a pachanakanwa"
+  },
+  "common": {
+    "save": "Qhispiyaña",
+    "saving": "Qullqi imaña...",
+    "saved": "Qhispiyatäxiwa",
+    "cancel": "Cancelar sañ muni",
+    "close": "Jist’antaña",
+    "delete": "Chhaqtayaña",
+    "edit": "Ukax mä juk’a pachanakanwa",
+    "create": "Uñstayaña",
+    "search": "Uñakipt’aña",
+    "loading": "Ukax mä...",
+    "error": "Pantjasiwi",
+    "retry": "Wasitat yantʼañamawa",
+    "confirm": "Chiqapa uñt’ayaña",
+    "back": "Qhipäxaru",
+    "next": "Ukxarusti",
+    "continue": "Ukhama sarantaskakiwa",
+    "finish": "Tukuyaña",
+    "copy": "Copia luraña",
+    "copied": "Copiata",
+    "download": "Ukax mä juk’a pachanakanwa",
+    "upload": "Ukax mä juk’a pachanakanwa",
+    "none": "Janiw kunas utjkiti",
+    "all": "Taqi kunasa",
+    "yes": "Jisa",
+    "no": "Janiwa",
+    "select": "Ajlliñani",
+    "optional": "opcional ukhamawa",
+    "required": "ukaxa wakisiwa",
+    "unsaved_changes": "Jan qhispiyat mayjt’awinaka",
+    "name": "Suti",
+    "status": "Estado ukaxa",
+    "type": "Tipo",
+    "actions": "Luräwinaka",
+    "empty": "Ch’usa",
+    "browse": "Uñakipt’aña",
+    "remove": "Ukaxa apsutawa",
+    "add": "Ukhama",
+    "rename": "Suti mayjt’ayaña",
+    "duplicate": "Duplicado luraña",
+    "warning": "Uñt’ayaña",
+    "locked": "Ukax mä llawintatänwa",
+    "builtin": "Ukax mä juk’a pachanakanwa",
+    "custom": "Costumbre ukax mä costumbre ukhamawa",
+    "untitled": "Jan sutinïki",
+    "select_placeholder": "Ajlliñani..."
+  },
+  "library": {
+    "title": "Biblioteca ukata",
+    "subtitle": "Juman arupamp guitarrampi proyectos, amuyt’awit mistuñkama.",
+    "new_project": "Machaq proyecto",
+    "new_album": "Machaq álbum",
+    "search_placeholder": "Sutiparjam thaqhapxam...",
+    "view": {
+      "grid": "Rejilla ukax mä juk’a pachanakanwa",
+      "albums": "Álbum ukanaka"
+    },
+    "filters": {
+      "all": "Taqi kunasa"
+    },
+    "take_count_one": " {{count}} apsuña",
+    "take_count_other": " {{count}} ukax apsutawa",
+    "updated_at": "Jichha pacha {{date}} . ",
+    "no_results": {
+      "title": "Janiw kuna proyectos ukanakas jikxataskiti",
+      "description": "Thakhi jan ukax estado filtro ukar chiqañchañ yant’añamawa."
+    },
+    "empty": {
+      "title": "Bibliotecamax ch’usakiwa",
+      "description": "Mä machaq proyecto zero ukhat qalltañamawa, jan ukax importación ukax disco ukan nayratpach utji.",
+      "cta_import": "Carpeta ukan apsuña",
+      "cta_new": "Proyecto luraña"
+    },
+    "project_dialog": {
+      "title": "Machaq proyecto",
+      "description": "Mä suti churañamawa ukat mä modalidad de grabación ajlliñamawa.",
+      "name_label": "Proyecto ukan sutipa",
+      "name_placeholder": "e.g. Jallu pacha Jallu pacha",
+      "mode_label": "Modo ukax mä juk’a pachanakanwa",
+      "mode": {
+        "voice": "Arut arsuñakiw wakisi",
+        "voice_guitar": "Aru + guitarra"
+      },
+      "submit": "Proyecto luraña"
+    },
+    "album_dialog": {
+      "title": "Machaq álbum",
+      "description": "Grupo ukar uñtasit proyectos ukanakax mä álbum ukar tukuyañataki.",
+      "name_label": "Álbum ukan sutipa",
+      "name_placeholder": "e.g. Ukax EP",
+      "submit": "Album luraña"
+    },
+    "album": {
+      "untitled": "Jan sutimp uñt’at álbum",
+      "members_count_one": " {{count}} uka proyecto",
+      "members_count_other": " {{count}} proyectos ukanaka",
+      "empty": "Aka álbum ukanx janiw kuna proyectos ukanakas utjkiti.",
+      "delete_confirm_title": "¿Album chhaqtayaña?",
+      "delete_confirm_description": "Proyectos ukax janiw chhaqtayatäkaniti, \" {{name}} \" ukan jan lint'atakiwa."
+    },
+    "delete_project": {
+      "confirm_title": "¿ \" {{name}} \" uk chhaqtayaña?",
+      "confirm_description": "Ukax proyecto ukat sapa take ukan apsutawa. Ukajj janiw mayjtʼayatäkaspati."
+    }
+  },
+  "record": {
+    "title": "Qillqaña",
+    "subtitle": "Mä q’uma apsuñ katjañamawa, niveles ukanakam uñakipt’añamawa, ukat guion ukarjam arktañamawa.",
+    "project_label": "Proyecto",
+    "project_placeholder": "Mä proyecto ajlliñani",
+    "project_create_quick": "Mä jank’ak proyecto luraña...",
+    "device_label": "Ukaxa mä dispositivo",
+    "device_placeholder": "Mä dispositivo ajlliñamawa",
+    "device_default_badge": "Sistema ukax default ukhamawa",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Janiw kuna mantañ yänakas jikxataskiti.",
+    "monitor_button": "Uñakipaña",
+    "monitor_stop_button": "Uñakipaña jaytaña",
+    "record_button": "Qillqaña",
+    "stop_button": "Sayt’asipxam",
+    "elapsed_label": "Uka tiempojj pasawayjjewa",
+    "status": {
+      "idle": "Ina ch’usat sarnaqaña",
+      "monitoring": "Uñakipaña",
+      "recording": "Grabacionanak luraña",
+      "stopped": "Sayt’asiwayiwa"
+    },
+    "meter": {
+      "rms": "RMS ukat juk’ampinaka",
+      "peak": "Pico",
+      "clip": "Clip ukax mä juk’a pachanakanwa"
+    },
+    "guide": {
+      "title": "Sesión guiada ukampi",
+      "subtitle": "Entrenador ukax guion ukanx mä juk’at juk’at irpañapawa, junt’uchasiñat arst’at arunakkama.",
+      "loading": "Script ukax apkatatawa...",
+      "unavailable": "Sesión guiada ukax janiw servidor ukan utjkiti.",
+      "select_project_device": "Mä proyecto ukat mä dispositivo de entrada uk ajlliñamawa, ukhamat aka chiqatx pasos ukanaka qillqt’añataki.",
+      "progress": " {{done}} ukaxa {{total}} ukjawa",
+      "start_timer": "Qalltaña pacha",
+      "skip_timer": "Ukax mä juk’a pachanakanwa",
+      "record_step": "Aka lurawi qillqt’aña",
+      "stop_step": "Grabacionanak jaytañ jaytañamawa",
+      "mark_done": "Lurata — jutïri lurawi",
+      "step_recorded": "Uka grabacionanak apsuñamawa",
+      "no_record_step": "Warm-up step — janiw grabacionax wakiskiti.",
+      "bars_hint": "Niya {{bars}} barras ukhamawa",
+      "complete_title": "¡Guion tukuyata!",
+      "complete_body": "Ukax sapa mayniw guionan qillqt’ata. P’iqinchäwix proyecton Audio tab ukar kutt’añamawa ukat munat apsutanakam ajlliñamawa.",
+      "restart": "Script ukar wasitat qalltaña"
+    },
+    "best2min": {
+      "button": "Ukhama suma 2 minutos (Suno) .",
+      "running": "Uñakipt’añatakix take...",
+      "score_label": "Puntuacionax utjiwa",
+      "hint": "Mä ch’amampi qhana uñakipañampiw taqpach apsuñanx t’ijti, 2 minutos ukan ch’aman ventanap jikxatañataki — waliw amparamp amparamp askichañax wakisi.",
+      "chart_caption": "Puntuacion sapa ventana",
+      "unavailable": "Uka suma-2-minutos uñakipañax janiw aka servidor ukanx utjkiti."
+    },
+    "takes_title": "Aka sesión ukan apst’atawa",
+    "takes_empty": "Aka sesión ukanx janiw kuna tomas grabadas ukanakas utjkiti.",
+    "open_in_project": "Proyecto ukan jist’aratawa",
+    "ws_disconnected": "Nivel medidor ukar wasitat uñt’ayaña...",
+    "select_project_first": "Mä proyecto ajlliñamawa qalltañataki.",
+    "select_device_first": "Mä mantañ dispositivo ajlliñani."
+  },
+  "project": {
+    "back_to_library": "Biblioteca ukar kutt’aña",
+    "header": {
+      "status_label": "Estado ukaxa",
+      "cover_upload": "Ukax mä tapa apkatatawa",
+      "cover_remove": "Tapa apsuña",
+      "name_placeholder": "Proyecto ukan sutipa",
+      "links_title": "Ukax mä link ukhamawa",
+      "add_link": "Link ukar yapxataña",
+      "mode": {
+        "voice": "Arut arsuñakiw wakisi",
+        "voice_guitar": "Aru + guitarra"
+      }
+    },
+    "tabs": {
+      "audio": "Audio uñt’ayaña",
+      "lyrics": "Letras ukat juk’ampinaka",
+      "prompts": "Jiskt’awinaka",
+      "notes": "Notas ukanaka"
+    },
+    "audio": {
+      "takes_title": "Ukax mä juk’a pachanakanwa",
+      "no_takes": {
+        "title": "Janiw kuna apsuñas utjkiti",
+        "description": "Machaq apsuña qillqt’aña jan ukaxa mä utjki uka archivo apsuña."
+      },
+      "record_new": "Mä machaq apsuña qillqt’aña",
+      "rating": "Ukax mä juk’a pachanakanwa",
+      "variant": {
+        "raw": "Ukax mä juk’a pachanakanwa",
+        "processed": "Ukax lurasiwa"
+      },
+      "variant_placeholder": "Versión ukat juk’ampinaka",
+      "process_button": "Proceso ukaxa mä juk’a pachanakwa lurasi",
+      "export_button": "Exportación ukaxa",
+      "delete_take_confirm_title": "¿Aka apsuñ chhaqtayaña?",
+      "delete_take_confirm_description": "Audio crudo ukat sapa versión procesada ukax apsutäniwa.",
+      "ab": {
+        "raw": "A · Q’añu",
+        "processed": "B · Uñstayata"
+      },
+      "origin": {
+        "recorded": "Grabatänwa",
+        "imported": "Importado ukhamawa"
+      },
+      "session_label_placeholder": "Sesión ukan etiquetapa (janiw wakiskiti) .",
+      "duration": "Kuna pachakamasa",
+      "sample_rate": "Tasa de muestra ukaxa",
+      "channels": "Canales ukanaka",
+      "created_at": "Grabatänwa"
+    },
+    "pipeline": {
+      "title": "Cadena de procesamiento ukaxa",
+      "preset_label": "Nayraqata utt’ayata",
+      "preset_none": "Cadena personalizada ukaxa",
+      "preset_save": "Kunjamatix nayraqat wakicht’atäki ukhamarjamaw imaña",
+      "stage_locked": "Ukax mä llawintatänwa",
+      "stage_requires_extra": "Mä extra ukax janiw instalatäkiti",
+      "process_button": "Proceso ukax apsutawa",
+      "processing": "Uka lurawixa...",
+      "job_queued": "Fila ukanx...",
+      "job_running": "Uka lurawixa...",
+      "job_done": "Lurawayxiwa",
+      "job_error": "Ukax janiw phuqhaskiti",
+      "job_cancelled": "Cancelatäxiwa",
+      "cancel_job": "Cancelar sañ muni",
+      "no_stages": "Janiw kuna etapas ukanakas utjkiti."
+    },
+    "export": {
+      "title": "Exportación ukax apsutawa",
+      "description": "Mä qhipa qillqawi mä lurawi versión ukata uñacht’ayaña.",
+      "variant_label": "Versión ukat juk’ampinaka",
+      "format_label": "Formato ukax mä juk’a pachanakanwa",
+      "preset_label": "Exportación ukax nayraqat uñt’ayatawa",
+      "range_label": "Ukax mä juk’a pachanakanwa",
+      "range_full": "Phuqata largo",
+      "range_custom": "Ukax mä juk’a pachanakanwa",
+      "start_label": "Qalltañataki (s) .",
+      "end_label": "Tukuyañataki (s) .",
+      "submit": "Exportación ukaxa",
+      "progress": "Archivo renderización ukax...",
+      "download_ready": "Archivo wakicht’ata",
+      "download_button": "Archivo apsuña"
+    },
+    "notes": {
+      "placeholder": "Aka proyecto tuqit notas de forma libre...",
+      "saved_at": "Ukax {{time}} ukhawa. "
+    },
+    "lyrics": {
+      "placeholder": "Aka chiqan letranak qillqt’apxam. Lado ukan paleta ukampix Suno meta-etiquetas ukar mantañatakiw apnaqasi.",
+      "saved_at": "Ukax {{time}} ukhawa. ",
+      "saving": "Qullqi imaña...",
+      "versions": "Versiones ukanaka",
+      "versions_empty": "Janiw kuna versión ukanakas qhispiyatäkiti.",
+      "version_preview": "Nayraqata uñakipaña",
+      "restore": "Aka versión ukar kutt’ayaña",
+      "restore_confirm_title": "¿Aka versión ukar kutt’ayañax wakisispati?",
+      "restore_confirm_description": "Jichha qillqatax {{date}} ukan imatäki uka versión ukamp lantintatäniwa.",
+      "metatags_title": "Meta-etiquetas ukax mä juk’a pachanakanwa",
+      "metatags_hint": "Mä etiqueta ukar ch’iqt’aña, ukax cursor ukar uñt’ayañataki.",
+      "metatags_placebo_warning": "Jan uñacht’ayat — inas jan kuna efectos ukax utjkchiti.",
+      "metatags_empty": "Janiw meta-etiquetas ukanakax qillqantatäkiti."
+    },
+    "prompts": {
+      "style_title": "Estilo tuqit jiskt’aña",
+      "lyrics_title": "Letras ukax mä juk’a pachanakanwa",
+      "template_label": "Plantilla ukax mä juk’a pachanakanwa",
+      "template_none": "Janiw mä plantilla utjkiti",
+      "variables_title": "Variables ukanaka",
+      "preview_title": "Nayraqata uñakipaña",
+      "preview_empty": "Mä plantilla ajlliñani ukat variables ukanakar phuqhantañani mä nayrïr uñacht’äwi uñjañataki.",
+      "char_count": " {{count}} chimpunaka",
+      "char_count_warning": "Estilo mayiwinakax 1000 jila chimpunak Suno ukan ch’amanchatäspawa.",
+      "copy": "Copia luraña",
+      "copied": "Ukax mä portapapeles ukar copiatawa",
+      "save_to_project": "Proyecto ukar imaña",
+      "saved_to_project": "Prompta ukax proyecto ukar imatäxiwa",
+      "history_title": "Sarnaqäwi",
+      "history_empty": "Janiw nayra versión ukanakas utjkiti.",
+      "current_label": "Jichha pacha"
+    },
+    "stems": {
+      "title": "Vocal ukat guitarra ukanak uñacht’ayaña",
+      "separate_button": "Vocal ukat guitarra ukanakax jaljatawa",
+      "running": "Jaljaña...",
+      "vocals": "Vocal ukax mä jach’a uñacht’äwiwa",
+      "instrumental": "Instrumental ukat juk’ampinaka",
+      "process_stem": "Aka ch’uqixa lurañawa",
+      "empty": "Aka take ukax janiw jichhakamax jaljatäkiti. Separación t’ijt’aña vocal ukat guitarra saparst’ata ist’añataki.",
+      "capability_missing": "Fuente separación ukax janiw aka servidor ukan utt’ayatäkiti.",
+      "unavailable": "Vocal/guitarra jaljañax janiw aka servidor ukanx utjkiti."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Ukatxa",
+    "boolean_off": "Off"
+  },
+  "import": {
+    "title": "Importación ukat juk’ampinaka",
+    "subtitle": "Disco ukan nayratpach utjki uka proyectonak biblioteca ukar apaniña.",
+    "step_indicator": "Paso {{current}} ukat {{total}} . ",
+    "step1": {
+      "title": "Ukaxa carpeta ukankiwa",
+      "description": "Proyectos ukat pistas ukanakamp saphi carpeta ukar uñacht’ayaña.",
+      "path_label": "Carpeta thakhi",
+      "path_placeholder": "e.g. E:\\Robbs\\Orgullo\\Music\\ROBBS ukat juk’ampinaka",
+      "recent_label": "Jichha pachanakanxa",
+      "scan_button": "Carpeta de escanear ukax mä juk’a pachanakanwa",
+      "scanning": "Escáner ukax...",
+      "ffmpeg_warning": "FFmpeg janiw jikxataskiti — archivonakax mayjt’ayañ munapki ukanakax jaqukipatawa.",
+      "folders_found_one": " {{count}} carpeta jikxatasi",
+      "folders_found_other": " {{count}} carpetas ukanakax jikxatasiwayi",
+      "unmatched_files_one": " {{count}} jan uñt’at arsuwi",
+      "unmatched_files_other": " {{count}} jan uñt’at qillqatanaka"
+    },
+    "step2": {
+      "title": "Kunanakatï utjki ukanak uñakiptʼañamawa",
+      "description": "Sutinaka, estados ukat kunas importados ukanak janïr chiqañchkasax uñakipt’añamawa.",
+      "select_all": "Taqi ukanak ajlliñamawa",
+      "table": {
+        "folder": "Uñstayiri carpeta",
+        "name": "Proyecto ukan sutipa",
+        "status": "Estado ukaxa",
+        "audio": "Audio uñt’ayaña",
+        "lyrics": "Letras ukat juk’ampinaka",
+        "cover": "Tapa",
+        "album": "Álbum ukax mä juk’a pachanakanwa"
+      },
+      "audio_include_one": " {{count}} qillqataxa ajllitawa",
+      "audio_include_other": " {{count}} qillqatanaka ajllitanaka",
+      "no_audio": "Janiw kuna audios jikxataskiti",
+      "no_lyrics": "Janiw kuna letras ukanakas jikxataskiti",
+      "no_cover": "Janiw kuna tapas utjkiti",
+      "warnings_title": "Uñacht’awinaka"
+    },
+    "step3": {
+      "title": "Importación ukat juk’ampinaka",
+      "description": "Archivonaka copiañataki ukhamaraki proyectos lurañataki chiqanchaña.",
+      "copy_originals": "Original archivonakax biblioteca ukar copiaña",
+      "execute_button": "Importación qalltaña",
+      "progress_title": "Importación ukax...",
+      "created_count": "Uñstayata: {{count}} ",
+      "skipped_count": "Ukax akhamawa: {{count}} ",
+      "done_title": "Importación ukax tukuyatawa",
+      "done_description": "Aka amparamp lurat proyectonakax bibliotecaman luratawa.",
+      "view_project": "Jist’arat proyecto",
+      "start_over": "Machaq importación"
+    }
+  },
+  "templates": {
+    "title": "Plantillas ukanaka",
+    "subtitle": "Suno ukatakix plantillas de prompt ukat meta-etiquetas ukanakax wasitat apnaqañjamawa.",
+    "tabs": {
+      "prompts": "Plantillas de prompta ukax mä juk’a pachanakanwa",
+      "metatags": "Meta-etiquetas ukax mä juk’a pachanakanwa"
+    },
+    "new_template": "Machaq plantilla",
+    "kind": {
+      "style": "Estilo ukax mä juk’a pachanakanwa",
+      "lyrics": "Letras ukat juk’ampinaka"
+    },
+    "kind_label": "Suma chuymani",
+    "delete_confirm_title": "Plantilla \" {{name}} \" chhaqtayaña?",
+    "delete_confirm_description": "Ukajj janiw mayjtʼayatäkaspati.",
+    "empty": "Janiw kuna plantillas ukanakas utjkiti.",
+    "editor": {
+      "title_new": "Machaq plantilla",
+      "title_edit": "Plantilla chiqañchaña",
+      "name_label": "Suti",
+      "name_placeholder": "e.g. Balada acústica ukat juk’ampinaka",
+      "kind_label": "Suma chuymani",
+      "template_label": "Plantilla qillqata",
+      "template_hint": "Kawkhantix sapa mayjt’awix sutipax pä ch’iyar ch’iyar ch’ankhanakampi ch’ukut chimpuntatawa — sañäni, mä mayjt’awix \"género\" sutimp uñt'atawa, ukax pä jist’arañ ukhamarak pä jist’antañ chimpunakampi ch’uqt’ata género ukar tuku.",
+      "variables_label": "Variables ukanaka",
+      "variable_add": "Variable yapxataña",
+      "variable_name": "Llave",
+      "variable_label": "Etiqueta ukampi",
+      "variable_type": "Tipo",
+      "variable_type_string": "Texto",
+      "variable_type_select": "Mä sapa ajlliwi",
+      "variable_type_multiselect": "Walja ajlliwinakaw utji",
+      "variable_type_number": "Jakhuwi",
+      "variable_type_boolean": "Jisa/janiwa",
+      "variable_options": "Amtawinaka (coma ukamp jaljata) .",
+      "variable_required": "Wakisiwa",
+      "save": "Plantilla de salvar"
+    },
+    "metatags": {
+      "title": "Meta-etiquetas ukax mä juk’a pachanakanwa",
+      "subtitle": "Etiquetas estructurales ukat estilo Suno ukax letras manqhan uñt’i.",
+      "new_tag": "Machaq etiqueta",
+      "tag_label": "Ukax mä juk’a pachanakanwa",
+      "tag_placeholder": "e.g. guitarra-solo ukax mä juk’a pachanakanwa",
+      "category_label": "Categoría ukaxa",
+      "tier_label": "Confiable ukhamawa",
+      "tier_legend_title": "Confiabilidad ukat leyenda",
+      "tier_legend": {
+        "1": "Nivel 1 — documentado ukat constante",
+        "2": "Nivel 2 — jilapartx irnaqañapawa",
+        "3": "Nivel 3 — variable efecto ukax mä juk’a pachanakanwa",
+        "4": "Nivel 4 — placebo, jan uñacht’ayata"
+      },
+      "description_label": "Qhanancht’awi",
+      "delete_confirm_title": "¿ \" {{tag}} \" uka chimpu chhaqtayaña?",
+      "empty": "Janiw kuna meta-etiquetas costumbres ukanakas utjkiti."
+    }
+  },
+  "settings": {
+    "title": "Ukax mä juk’a pachanakanwa",
+    "subtitle": "Sistema ukan yatiyawipa, arupa, ukhamaraki preferencias predeterminadas ukanaka.",
+    "system_info_title": "Sistema ukaxa",
+    "version": "Versión ukat juk’ampinaka",
+    "data_dir": "Datos ukan qillqatanakapa",
+    "ffmpeg_status": "FFmpeg ukax mä juk’a pachanakanwa",
+    "ffmpeg_available": "Ukax utjiwa",
+    "ffmpeg_missing": "Janiw jikxataskiti",
+    "capabilities_title": "Uñstayata ch’amanchawinaka",
+    "capability": {
+      "denoise": "Ch’axwañanaka jisk’achaña",
+      "quality": "Quality jach’anchayaña",
+      "separate": "Fuente jaljawi",
+      "ffmpeg": "FFmpeg ukax jaqukipatawa"
+    },
+    "capability_available": "Ukax utjiwa",
+    "capability_unavailable": "Janiw kunas utjkiti",
+    "gpu_title": "GPU ukax mä aceleración ukhamawa",
+    "gpu": {
+      "torch_cuda": "PyTorch ukax CUDA ukankiwa",
+      "ort_providers": "ONNX Runtime ukax mä juk’a pachanakanwa"
+    },
+    "gpu_none": "Janiw GPU ukankirinakax uñt’ayapkiti",
+    "language_title": "Arunaka",
+    "language": {
+      "pt-BR": "Português (Brasil) markanwa jikxatasïna.",
+      "en": "Aymara aru"
+    },
+    "theme_title": "Uñnaqapa",
+    "theme": {
+      "dark": "Ch’amaka",
+      "light": "Qhana"
+    },
+    "defaults_title": "Exportación ukax defaults ukanakawa",
+    "lufs_target_label": "Ukax LUFS ukankiwa",
+    "lufs_target_hint": "Ukax qalltañ iwxt’äwjamaw apnaqasi kunawsatix exportación ukax apsuski ukhaxa. Suno ukax default ukax -14 LUFS ukan qunt’atawa.",
+    "saved": "Preferencias ukanakax qhispiyatawa"
+  },
+  "guide": {
+    "title": "Suno grabacionan guiapa",
+    "subtitle": "Kunjamas aru ukat guitarra ukanak katjañax ukax wali suma askinak jikxati.",
+    "intro": "Suno ukax q’uma, jan pächasis referencias ukanakampiw juk’amp sum irnaqt’i. Aka guia ukax wakicht’awi, niveles de metas ukat 3–5 minutos script de grabación ukanak uñt’ayi.",
+    "sections": {
+      "prep": {
+        "title": "Wakichaña",
+        "body": "Mä cuarto tratado ukan jan ukax walja llamp’u material ukan (cortinas, alfombras, armario ukan isinak) qillqt’aña. Ventiladores ukat kunatix hums ukanak jist’antañamawa. Janïr grabañkamax 5 minutos ukjaw arup junt’uchañama."
+      },
+      "levels": {
+        "title": "Niveles: -12 ukat -6 dBFS",
+        "body": "Amtañani picos -12 ukhamaraki -6 dBFS uka medidor ukanxa. Uka rango manqhanjja, qhepat uñstki uka chʼajjwañanakajj jukʼampiw uñjasi; uka patxaruxa, clipping riesgo ukaxa jilxatiwa. Grabación ukan medidor ukampix gananciam janïr qalltkasax utt’ayañamawa."
+      },
+      "distance": {
+        "title": "Mic jayankiwa: 15–30 cm",
+        "body": "Micrófono ukarux 15 ukat 30 cm ukch’a jayankañapawa. Ukat juk’amp jak’achasiñax plosivos ukat efecto de proximidad ukanak jach’anchayi; jaya chiqanakanx juk’amp sala reverberación ukat ruido ukanakaw apthapi."
+      },
+      "script": {
+        "title": "Grabacionan guion lurañapa",
+        "warmup": "Vocal junt’uchaña (1–2 minutos) 1.1.",
+        "vowels": "Uka ch’akhanakax ch’amanchatawa — a, e, i, o, u",
+        "scales": "Sapuru balanzanaka, patat aynacharu",
+        "excerpt": "Mä q’uchu t’aqa (8 ukat 16 barras) .",
+        "dynamics": "Dinámica: llamp’u qalltaña, jach’a tukuyaña",
+        "spoken_phrase": "Mä arst’at aru, ukhamat Sunox vocal tono liyt’añapataki"
+      },
+      "expectations": {
+        "title": "Kuntix Suno suyki ukax",
+        "body": "WAV, 48 kHz, mono, waña (janiwa reverberación ni efectos utjkiti), 3 ukatxa 5 minutos de referencia. Uka q’uma, juk’amp representativo 2 minutos uka apsuñax jilpachax wali suma askinak apsu."
+      }
+    }
+  },
+  "status": {
+    "idea": "Amuyt’awi",
+    "em_progresso": "Ukax nayrar sartaskiwa",
+    "quase": "Niya ukhamaraki",
+    "pronto": "Wakicht’atäxiwa"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Suno ukan guion vocal phuqhata",
+      "desc": "5 minutos guiados: junt’uchasiña, vocales, escalas, pä q’uchu apsutanaka, dinámica, ukhamaraki mä frase arst’ata."
+    },
+    "step": {
+      "warmup": "Vocal ukax wali sumawa",
+      "warmup_inst": "Bostezos, lip trills (brrr) ukat mä llamp’u zumbido ukamp mä minuto ukjam suyt’ayaña. Janiw grabacionax wakiskiti — janïr q’ucht’kasax kunka samarañakiw wakisi.",
+      "vowels": "Vocales sostenidos ukax mä juk’a pachanakanwa",
+      "vowels_inst": "Sapa vocal — a, e, i, o, u — 3 jan ukax 4 segundos ukjam suma tonalidad ukar katxaruñamawa, mä volúmenes constantes ukamp. Ukax Suno-rux aruman q’uma timbrep apthapiñ yanapt’i.",
+      "scales": "Escalas ukax patat aynacharu",
+      "scales_inst": "Mä sanu escala patat ukat aynacharu, \"la\" jan ukax \"na\" ukan q'ucht'aña. Janiw perfecto ukhamäñapäkiti — amtäwix mapeo de rango vocal ukawa.",
+      "section": "Q’uchu t’aqa — 1 t’aqa",
+      "section_inst": "8 jan ukax 16 barras uka q’uchu q’ucht’am, chiqpach amtampiw q’uchuñ munasma. P’iqinchaña ukhamaraki utjatapa nayraru sartayaña perfección técnica ukata sipansa.",
+      "section2": "Q’uchu apst’ata — 2 t’aqa",
+      "section2_inst": "Yaqha 8 ukat 16 barranak q’ucht’apxam — wali askiwa mä coro jan ukax mä t’aqa nayrïr t’aqampi contraste. Juk’amp kunaymaninak uñacht’ayañax modelo ukarux arup yatiqañapatakiw yanapt’i.",
+      "dynamics": "Dinámica: llamp’u → jach’a",
+      "dynamics_inst": "Uka pachpa arunak q’ucht’añamawa wali llamp’u qalltasa ukat jach’at tukuyasa, jan kunka ch’allxtasa. Ukax Suno aruman dinámico uñacht’ayi.",
+      "spoken": "Arsuña aru",
+      "spoken_inst": "Arsuña — jan q’ucht’aña — mä jisk’a, natural aru, aruskipt’añjama. Ukax Suno ukarux chiqpach timbre de voz uñt’añapatakiw yanapt’i."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Wasitat utt’ayaña",
+      "filter": "Filtros ukanaka",
+      "dynamics": "Dinámica ukat juk’ampinaka",
+      "separation": "Jaljaña",
+      "quality": "Quality ukat juk’ampinaka",
+      "utility": "Utilidad ukax wali askiwa",
+      "loudness": "Jach’a arunakampi"
+    },
+    "highpass": "Altu pata tuqina filtro",
+    "lowpass": "Ukaxa jisk’a pasaje filtro satawa",
+    "denoise": "Ch’axwañanaka jisk’achaña",
+    "declip": "Ukax mä juk’a pachanakanwa",
+    "declick": "Click/pop ukax mä juk’a pachanakanwa",
+    "deesser": "De-esser ukax mä juk’a pachanakanwa",
+    "gate": "Ch’axwaña punku",
+    "compressor": "Compresor ukax mä juk’a pachanakanwa",
+    "limiter": "Limitador ukax mä juk’a pachanakanwa",
+    "eq": "Igualización ukaxa",
+    "normalize": "Normalización pico ukaxa mä juk’a pachanakwa lurasi",
+    "loudness": "Normalización de loudidad (LUFS) ukax mä juk’a pachanakanwa.",
+    "reverb_reduce": "Reverberación ukax jisk’achatawa",
+    "separate": "Fuente jaljawi",
+    "quality": "Quality jach’anchayaña (altu pata) 1.1.",
+    "trim_silence": "Amukt’aña trimming",
+    "fade": "Fade in / ch’amakt’ayaña",
+    "stereo_to_mono": "Mono ukar jaqukipaña",
+    "resample": "Remuestreo ukaxa mä juk’a pachanakwa lurasi"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Confiable ukhamawa",
+      "2": "Jilapachax irnaqañapawa",
+      "3": "Variable ukhamawa",
+      "4": "Placebo ukax mä qullawa"
+    },
+    "category": {
+      "structure": "Uñakipaña",
+      "vocal": "Vocal ukax mä jach’a uñacht’äwiwa",
+      "instrument": "Instrumento satawa",
+      "dynamics": "Dinámica ukat juk’ampinaka",
+      "production": "Producción ukaxa",
+      "mood": "Ukax mä juk’a pachanakanwa"
+    },
+    "verse": "Versículo",
+    "chorus": "Coro ukax mä juk’a pachanakanwa",
+    "bridge": "Puente ukaxa",
+    "intro": "Uñt’ayañataki",
+    "outro": "Outro ukax mä juk’a pachanakanwa",
+    "hook": "Ukax mä juk’a pachanakanwa",
+    "prechorus": "Pre-coro ukax mä juk’a pachanakanwa",
+    "instrumental": "Instrumental ukat juk’ampinaka",
+    "guitar_solo": "Guitarra solo ukat juk’ampinaka",
+    "build_up": "Uñstayaña-uñt’ayaña",
+    "breakdown": "T’unjaña",
+    "spoken_word": "Arsuta arunaka",
+    "whispered": "Ukham jisk’at arsüna",
+    "harmonies": "Armonías ukanaka",
+    "male_vocal": "Chacha vocal ukaxa",
+    "female_vocal": "Warmi vocal",
+    "duet": "Duet ukax mä juk’a pachanakanwa",
+    "acoustic": "Acústico ukat juk’ampinaka",
+    "ad_lib": "Ad-lib ukax mä juk’a pachanakanwa"
+  },
+  "presets": {
+    "clean_voice": "Q’uma aru",
+    "voice_guitar_balanced": "Equilibrado aru & guitarra",
+    "podcast": "Podcast ukax mä juk’a pachanakanwa",
+    "suno_ready": "Suno wakicht’ata",
+    "gentle_restore": "Llamp’u chuymampiw kutt’ayaña",
+    "raw_passthrough": "Janiwa kuna lurañas utjkiti"
+  },
+  "errors": {
+    "unknown": "Kunas jan waliruw puriwayi.",
+    "network": "Janiw servidor ukar puriñjamäkänti.",
+    "validation_error": "Uka yatiyawinak uñakipt’aña.",
+    "not_found": "Item ukax janiw jikxataskiti.",
+    "project_not_found": "Proyecto ukax janiw jikxataskiti.",
+    "take_not_found": "Take janiw jikxataskiti.",
+    "album_not_found": "Álbum ukax janiw jikxataskiti.",
+    "preset_not_found": "Preset ukax janiw jikxataskiti.",
+    "template_not_found": "Plantilla ukax janiw jikxataskiti.",
+    "device_busy": "Dispositivo de audio ukax yaqha programa ukan apnaqatawa.",
+    "device_not_found": "Dispositivo de audio ukax janiw jikxataskiti.",
+    "already_recording": "Mä grabacionajj niyaw lurasiski.",
+    "ffmpeg_missing": "FFmpeg ukax janiw uskt’atäkiti — ukax aka qillqat jaqukipañatakiw utt’ayata.",
+    "disk_full": "Janiwa disco ukanxa utjkiti.",
+    "permission_denied": "Permiso ukaxa churata thakhitakixa janiwa churatäkiti.",
+    "import_path_not_found": "Importación thakhix janiw jikxataskiti.",
+    "job_failed": "Procesamiento ukax janiw phuqhaskänti.",
+    "job_cancelled": "Procesamiento ukax cancelatäxänwa.",
+    "process_failed": "Uka apsuñax janiw phuqhaskiti.",
+    "export_failed": "Uka qillqat apsuñax janiw ch’amäkiti.",
+    "record_failed": "Grabañ qalltañax janiw ch’amäkiti."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Filaruw uñt’ayasi",
+      "running": "T’ijt’aña",
+      "done": "Lurawayxiwa",
+      "error": "Ukax janiw phuqhaskiti",
+      "cancelled": "Cancelatäxiwa"
+    },
+    "kind": {
+      "process": "Uñakipaña",
+      "export": "Exportación ukaxa",
+      "import": "Importación ukat juk’ampinaka",
+      "record": "Grabacionanak luraña"
+    }
+  }
+}

@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Čistič zvuku"
+  },
+  "nav": {
+    "library": "Knihovna",
+    "record": "Záznam",
+    "import": "Importovat",
+    "templates": "Šablony",
+    "settings": "Nastavení",
+    "guide": "Průvodce"
+  },
+  "common": {
+    "save": "Uložit",
+    "saving": "Ukládání…",
+    "saved": "Uloženo",
+    "cancel": "Zrušit",
+    "close": "Zavřít",
+    "delete": "Smazat",
+    "edit": "Upravit",
+    "create": "Vytvořit",
+    "search": "Hledat",
+    "loading": "Načítání…",
+    "error": "Chyba",
+    "retry": "Zkuste to znovu",
+    "confirm": "Potvrďte",
+    "back": "Zpět",
+    "next": "Další",
+    "continue": "Pokračovat",
+    "finish": "Dokončit",
+    "copy": "Kopírovat",
+    "copied": "Zkopírováno",
+    "download": "Stáhnout",
+    "upload": "Nahrát",
+    "none": "žádný",
+    "all": "všechny",
+    "yes": "Ano",
+    "no": "Ne",
+    "select": "Vyberte",
+    "optional": "volitelné",
+    "required": "vyžadováno",
+    "unsaved_changes": "Neuložené změny",
+    "name": "Jméno",
+    "status": "Stav",
+    "type": "Typ",
+    "actions": "Akce",
+    "empty": "Prázdný",
+    "browse": "Procházet",
+    "remove": "Odebrat",
+    "add": "Přidat",
+    "rename": "Přejmenovat",
+    "duplicate": "Duplicitní",
+    "warning": "Varování",
+    "locked": "Zamčeno",
+    "builtin": "Vestavěný",
+    "custom": "Vlastní",
+    "untitled": "Bez názvu",
+    "select_placeholder": "Vyberte…"
+  },
+  "library": {
+    "title": "Knihovna",
+    "subtitle": "Vaše hlasové a kytarové projekty, od nápadu po vydání.",
+    "new_project": "Nový projekt",
+    "new_album": "Nové album",
+    "search_placeholder": "Hledat podle jména…",
+    "view": {
+      "grid": "Mřížka",
+      "albums": "alba"
+    },
+    "filters": {
+      "all": "všechny"
+    },
+    "take_count_one": " {{count}} vzít",
+    "take_count_other": " {{count}} trvá",
+    "updated_at": "Aktualizováno {{date}} ",
+    "no_results": {
+      "title": "Nebyly nalezeny žádné projekty",
+      "description": "Zkuste upravit filtr vyhledávání nebo stavu."
+    },
+    "empty": {
+      "title": "Vaše knihovna je prázdná",
+      "description": "Začněte nový projekt od začátku nebo import trvá, co už máte na disku.",
+      "cta_import": "Importovat ze složky",
+      "cta_new": "Vytvořit projekt"
+    },
+    "project_dialog": {
+      "title": "Nový projekt",
+      "description": "Pojmenujte jej a vyberte režim nahrávání.",
+      "name_label": "Název projektu",
+      "name_placeholder": "např. letní déšť",
+      "mode_label": "Režim",
+      "mode": {
+        "voice": "Pouze hlas",
+        "voice_guitar": "Hlas + kytara"
+      },
+      "submit": "Vytvořit projekt"
+    },
+    "album_dialog": {
+      "title": "Nové album",
+      "description": "Seskupte související projekty do alba.",
+      "name_label": "Název alba",
+      "name_placeholder": "např. Podzimní EP",
+      "submit": "Vytvořit album"
+    },
+    "album": {
+      "untitled": "Album bez názvu",
+      "members_count_one": " {{count}} projekt",
+      "members_count_other": " {{count}} projektů",
+      "empty": "V tomto albu zatím nejsou žádné projekty.",
+      "delete_confirm_title": "Smazat album?",
+      "delete_confirm_description": "Projekty nebudou smazány, pouze odpojeny od \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Smazat \" {{name}} \"?",
+      "confirm_description": "Tím se odstraní projekt a každý jeho záběr. Toto nelze vrátit zpět."
+    }
+  },
+  "record": {
+    "title": "Záznam",
+    "subtitle": "Zachyťte čistý záběr, sledujte své úrovně a postupujte podle scénáře.",
+    "project_label": "Projekt",
+    "project_placeholder": "Vyberte projekt",
+    "project_create_quick": "Vytvořte rychlý projekt…",
+    "device_label": "Vstupní zařízení",
+    "device_placeholder": "Vyberte zařízení",
+    "device_default_badge": "Výchozí nastavení systému",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Nebyla nalezena žádná vstupní zařízení.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Zastavit sledování",
+    "record_button": "Záznam",
+    "stop_button": "Přestaň",
+    "elapsed_label": "Uplynulý čas",
+    "status": {
+      "idle": "Nečinný",
+      "monitoring": "Sledování",
+      "recording": "Nahrávání",
+      "stopped": "Zastaveno"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Vrchol",
+      "clip": "Klip"
+    },
+    "guide": {
+      "title": "Řízené sezení",
+      "subtitle": "Nechte trenéra, aby vás provedl scénářem krok za krokem, od rozcvičky až po mluvenou frázi.",
+      "loading": "Načítání skriptu…",
+      "unavailable": "Řízená relace zatím není na serveru dostupná.",
+      "select_project_device": "Vyberte si projekt a vstupní zařízení pro záznam kroků přímo odtud.",
+      "progress": " {{done}} z {{total}} kroků",
+      "start_timer": "Spustit časovač",
+      "skip_timer": "Přeskočit časovač",
+      "record_step": "Zaznamenejte si tento krok",
+      "stop_step": "Zastavit nahrávání",
+      "mark_done": "Hotovo – další krok",
+      "step_recorded": "Vezměte nahrané",
+      "no_record_step": "Zahřívací krok – není třeba nahrávat.",
+      "bars_hint": "Asi {{bars}} barů",
+      "complete_title": "Skript dokončen!",
+      "complete_body": "Zaznamenali jste každý krok scénáře. Vraťte se na kartu Zvuk projektu a vyberte si své oblíbené nahrávky.",
+      "restart": "Restartujte skript"
+    },
+    "best2min": {
+      "button": "Najděte nejlepší 2 minuty (Suno)",
+      "running": "Analýza odběru…",
+      "score_label": "skóre",
+      "hint": "Provede analýzu energie a jasnosti celého záběru, aby našel nejsilnější 2minutové okno – rozsah můžete i poté ručně upravit.",
+      "chart_caption": "Skóre za okno",
+      "unavailable": "Nejlepší 2minutová analýza zatím na tomto serveru není k dispozici."
+    },
+    "takes_title": "Přebírá z této relace",
+    "takes_empty": "V této relaci zatím nebyly zaznamenány žádné záběry.",
+    "open_in_project": "Otevřít v projektu",
+    "ws_disconnected": "Opětovné připojení k hladinoměru…",
+    "select_project_first": "Začněte výběrem projektu.",
+    "select_device_first": "Vyberte vstupní zařízení."
+  },
+  "project": {
+    "back_to_library": "Zpět do knihovny",
+    "header": {
+      "status_label": "Stav",
+      "cover_upload": "Nahrát obálku",
+      "cover_remove": "Odstraňte kryt",
+      "name_placeholder": "Název projektu",
+      "links_title": "Odkazy",
+      "add_link": "Přidat odkaz",
+      "mode": {
+        "voice": "Pouze hlas",
+        "voice_guitar": "Hlas + kytara"
+      }
+    },
+    "tabs": {
+      "audio": "Zvuk",
+      "lyrics": "Text písně",
+      "prompts": "Výzvy",
+      "notes": "Poznámky"
+    },
+    "audio": {
+      "takes_title": "bere",
+      "no_takes": {
+        "title": "Zatím žádné záběry",
+        "description": "Zaznamenejte nový záznam nebo importujte existující soubor."
+      },
+      "record_new": "Nahrajte nový záběr",
+      "rating": "Hodnocení",
+      "variant": {
+        "raw": "Syrové",
+        "processed": "Zpracováno"
+      },
+      "variant_placeholder": "Verze",
+      "process_button": "Proces",
+      "export_button": "Exportovat",
+      "delete_take_confirm_title": "Smazat tento záběr?",
+      "delete_take_confirm_description": "Nezpracovaný zvuk a všechny zpracované verze budou odstraněny.",
+      "ab": {
+        "raw": "A · Syrové",
+        "processed": "B · Zpracováno"
+      },
+      "origin": {
+        "recorded": "Zaznamenáno",
+        "imported": "Importováno"
+      },
+      "session_label_placeholder": "Štítek relace (volitelné)",
+      "duration": "Doba trvání",
+      "sample_rate": "Vzorkovací frekvence",
+      "channels": "Kanály",
+      "created_at": "Zaznamenáno"
+    },
+    "pipeline": {
+      "title": "Zpracovatelský řetězec",
+      "preset_label": "Přednastaveno",
+      "preset_none": "Řetěz na zakázku",
+      "preset_save": "Uložit jako předvolbu",
+      "stage_locked": "Zamčeno",
+      "stage_requires_extra": "Vyžaduje doplněk, který není nainstalován",
+      "process_button": "Převzít proces",
+      "processing": "Zpracovává se…",
+      "job_queued": "Ve frontě…",
+      "job_running": "Zpracovává se…",
+      "job_done": "Hotovo",
+      "job_error": "Nepodařilo se",
+      "job_cancelled": "Zrušeno",
+      "cancel_job": "Zrušit",
+      "no_stages": "Nejsou k dispozici žádné etapy."
+    },
+    "export": {
+      "title": "Exportní odběr",
+      "description": "Vykreslení konečného souboru ze zpracované verze.",
+      "variant_label": "Verze",
+      "format_label": "Formát",
+      "preset_label": "Export předvolby",
+      "range_label": "Rozsah",
+      "range_full": "Plná délka",
+      "range_custom": "Vlastní rozsah",
+      "start_label": "Start (s)",
+      "end_label": "Konec (y)",
+      "submit": "Exportovat",
+      "progress": "Vykreslování souboru…",
+      "download_ready": "Soubor připraven",
+      "download_button": "Stáhnout soubor"
+    },
+    "notes": {
+      "placeholder": "Volné poznámky o tomto projektu…",
+      "saved_at": "Uloženo v {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Texty pište sem. Pomocí palety na straně vložte metaznačky Suno.",
+      "saved_at": "Uloženo v {{time}} ",
+      "saving": "Ukládání…",
+      "versions": "Verze",
+      "versions_empty": "Zatím žádné uložené verze.",
+      "version_preview": "Náhled",
+      "restore": "Obnovte tuto verzi",
+      "restore_confirm_title": "Obnovit tuto verzi?",
+      "restore_confirm_description": "Aktuální text bude nahrazen verzí uloženou na {{date}}.",
+      "metatags_title": "Meta-tagy",
+      "metatags_hint": "Kliknutím na značku ji vložíte na kurzor.",
+      "metatags_placebo_warning": "Neprokázaný — nemusí mít žádný vliv na výsledek.",
+      "metatags_empty": "Nejsou zaregistrovány žádné metaznačky."
+    },
+    "prompts": {
+      "style_title": "Výzva ke stylu",
+      "lyrics_title": "Výzva k textu",
+      "template_label": "Šablona",
+      "template_none": "Žádná šablona",
+      "variables_title": "Proměnné",
+      "preview_title": "Náhled",
+      "preview_empty": "Chcete-li zobrazit náhled, vyberte šablonu a vyplňte proměnné.",
+      "char_count": " {{count}} znaků",
+      "char_count_warning": "Výzvy stylu delší než 1000 znaků mohou být Suno zkráceny.",
+      "copy": "Kopírovat",
+      "copied": "Zkopírováno do schránky",
+      "save_to_project": "Uložit do projektu",
+      "saved_to_project": "Výzva byla uložena do projektu",
+      "history_title": "Historie",
+      "history_empty": "Žádné předchozí verze.",
+      "current_label": "Aktuální"
+    },
+    "stems": {
+      "title": "Zpěv a kytara",
+      "separate_button": "Samostatný zpěv a kytara",
+      "running": "Oddělování…",
+      "vocals": "Vokály",
+      "instrumental": "Instrumentální",
+      "process_stem": "Zpracujte tento stonek",
+      "empty": "Tento záběr ještě nebyl oddělen. Spusťte oddělení, abyste slyšeli zpěv a kytaru v izolaci.",
+      "capability_missing": "Na tomto serveru není nainstalováno oddělení zdrojů.",
+      "unavailable": "Oddělení zpěvu a kytary zatím na tomto serveru není k dispozici."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Zapnuto",
+    "boolean_off": "Vypnuto"
+  },
+  "import": {
+    "title": "Importovat",
+    "subtitle": "Přeneste do knihovny projekty, které již na disku existují.",
+    "step_indicator": "Krok {{current}} z {{total}} ",
+    "step1": {
+      "title": "Vyhledejte složku",
+      "description": "Ukažte na kořenovou složku s projekty a skladbami.",
+      "path_label": "Cesta ke složce",
+      "path_placeholder": "např. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "Nedávné",
+      "scan_button": "Skenovat složku",
+      "scanning": "Skenování…",
+      "ffmpeg_warning": "FFmpeg nenalezen — soubory, které vyžadují konverzi, budou přeskočeny.",
+      "folders_found_one": " Nalezena složka {{count}}",
+      "folders_found_other": " Bylo nalezeno {{count}} složek",
+      "unmatched_files_one": " {{count}} nerozpoznaný soubor",
+      "unmatched_files_other": " {{count}} nerozpoznaných souborů"
+    },
+    "step2": {
+      "title": "Zkontrolujte položky",
+      "description": "Před potvrzením zkontrolujte jména, stavy a co bude importováno.",
+      "select_all": "Vyberte vše",
+      "table": {
+        "folder": "Zdrojová složka",
+        "name": "Název projektu",
+        "status": "Stav",
+        "audio": "Zvuk",
+        "lyrics": "Text písně",
+        "cover": "Kryt",
+        "album": "Album"
+      },
+      "audio_include_one": " Vybrán {{count}} soubor",
+      "audio_include_other": " Vybráno {{count}} souborů",
+      "no_audio": "Nebyl nalezen žádný zvuk",
+      "no_lyrics": "Nebyl nalezen žádný text",
+      "no_cover": "Bez krytu",
+      "warnings_title": "Varování"
+    },
+    "step3": {
+      "title": "Importovat",
+      "description": "Potvrďte zkopírování souborů a vytvoření projektů.",
+      "copy_originals": "Zkopírujte původní soubory do knihovny",
+      "execute_button": "Spusťte import",
+      "progress_title": "Import…",
+      "created_count": "Vytvořeno: {{count}} ",
+      "skipped_count": "Přeskočeno: {{count}} ",
+      "done_title": "Import dokončen",
+      "done_description": "Níže uvedené projekty byly vytvořeny ve vaší knihovně.",
+      "view_project": "Otevřete projekt",
+      "start_over": "Nový import"
+    }
+  },
+  "templates": {
+    "title": "Šablony",
+    "subtitle": "Opakovaně použitelné šablony výzvy a metaznačky pro Suno.",
+    "tabs": {
+      "prompts": "Šablony výzvy",
+      "metatags": "Meta-tagy"
+    },
+    "new_template": "Nová šablona",
+    "kind": {
+      "style": "styl",
+      "lyrics": "Text písně"
+    },
+    "kind_label": "Laskavý",
+    "delete_confirm_title": "Smazat šablonu \" {{name}} \"?",
+    "delete_confirm_description": "Toto nelze vrátit zpět.",
+    "empty": "Zatím žádné šablony.",
+    "editor": {
+      "title_new": "Nová šablona",
+      "title_edit": "Upravit šablonu",
+      "name_label": "Jméno",
+      "name_placeholder": "např. Akustická balada",
+      "kind_label": "Laskavý",
+      "template_label": "Text šablony",
+      "template_hint": "Označte, kam každá proměnná patří, svým názvem zabaleným do dvojitých složených závorek – například proměnná s názvem „genre“ se stane žánrem zabaleným do dvou úvodních a dvou zavíracích závorek.",
+      "variables_label": "Proměnné",
+      "variable_add": "Přidat proměnnou",
+      "variable_name": "klíč",
+      "variable_label": "Štítek",
+      "variable_type": "Typ",
+      "variable_type_string": "Text",
+      "variable_type_select": "Jediný výběr",
+      "variable_type_multiselect": "Vícenásobný výběr",
+      "variable_type_number": "Číslo",
+      "variable_type_boolean": "ano/ne",
+      "variable_options": "Možnosti (oddělené čárkami)",
+      "variable_required": "Povinné",
+      "save": "Uložit šablonu"
+    },
+    "metatags": {
+      "title": "Meta-tagy",
+      "subtitle": "Strukturální a stylové značky Suno rozpoznává uvnitř textů.",
+      "new_tag": "Nová značka",
+      "tag_label": "Tag",
+      "tag_placeholder": "např. kytara-sólo",
+      "category_label": "Kategorie",
+      "tier_label": "Spolehlivost",
+      "tier_legend_title": "Legenda spolehlivosti",
+      "tier_legend": {
+        "1": "Úroveň 1 – zdokumentovaná a konzistentní",
+        "2": "Úroveň 2 – obvykle funguje",
+        "3": "Úroveň 3 – variabilní efekt",
+        "4": "Úroveň 4 – placebo, neprokázané"
+      },
+      "description_label": "Popis",
+      "delete_confirm_title": "Smazat štítek \" {{tag}} \"?",
+      "empty": "Zatím žádné vlastní metaznačky."
+    }
+  },
+  "settings": {
+    "title": "Nastavení",
+    "subtitle": "Systémové informace, jazyk a výchozí předvolby.",
+    "system_info_title": "Systém",
+    "version": "Verze",
+    "data_dir": "Složka dat",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "K dispozici",
+    "ffmpeg_missing": "Nenalezeno",
+    "capabilities_title": "Nainstalované schopnosti",
+    "capability": {
+      "denoise": "Snížení hluku",
+      "quality": "Zlepšení kvality",
+      "separate": "Oddělení zdroje",
+      "ffmpeg": "Konverze FFmpeg"
+    },
+    "capability_available": "K dispozici",
+    "capability_unavailable": "Není k dispozici",
+    "gpu_title": "GPU akcelerace",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "Poskytovatelé runtime ONNX"
+    },
+    "gpu_none": "Nebyli zjištěni žádní poskytovatelé GPU",
+    "language_title": "Jazyk",
+    "language": {
+      "pt-BR": "português (Brazílie)",
+      "en": "anglicky"
+    },
+    "theme_title": "Vzhled",
+    "theme": {
+      "dark": "Tmavý",
+      "light": "Světlo"
+    },
+    "defaults_title": "Výchozí nastavení exportu",
+    "lufs_target_label": "Cíl LUFS",
+    "lufs_target_hint": "Používá se jako počáteční návrh při exportu. Výchozí hodnota Suno je kolem -14 LUFS.",
+    "saved": "Předvolby uloženy"
+  },
+  "guide": {
+    "title": "Průvodce nahráváním Suno",
+    "subtitle": "Jak zachytit hlas a kytaru, které dosáhnou nejlepších výsledků.",
+    "intro": "Suno si nejlépe vede s čistými, jednoznačnými referencemi. Tento průvodce pokrývá přípravu, cílové úrovně a 3–5minutový scénář nahrávání.",
+    "sections": {
+      "prep": {
+        "title": "Příprava",
+        "body": "Nahrávejte v ošetřované místnosti nebo v místnosti s dostatkem měkkého materiálu (záclony, koberečky, oblečení ve skříni). Vypněte ventilátory a vše, co hučí. Před nahráváním zahřejte svůj hlas po dobu 5 minut."
+      },
+      "levels": {
+        "title": "Úrovně: -12 až -6 dBFS",
+        "body": "Zaměřte se na špičky mezi -12 a -6 dBFS na měřiči. Pod tímto rozsahem je šum pozadí znatelnější; nad ním se zvyšuje riziko oříznutí. Než začnete, použijte měřič na stránce Record k nastavení svého zisku."
+      },
+      "distance": {
+        "title": "Vzdálenost mikrofonu: 15–30 cm",
+        "body": "Zůstaňte 15 až 30 cm od mikrofonu. Bližší než to přehání výbušniny a efekt blízkosti; dále zachytí více prostorového dozvuku a hluku."
+      },
+      "script": {
+        "title": "Nahrávací skript",
+        "warmup": "Vokální rozcvička (1–2 minuty)",
+        "vowels": "Trvalé samohlásky — a, e, i, o, u",
+        "scales": "Jednoduché váhy, nahoru a dolů",
+        "excerpt": "Úryvek písně (8 až 16 taktů)",
+        "dynamics": "Dynamika: začátek jemně, konec hlasitý",
+        "spoken_phrase": "Jedna mluvená fráze, takže Suno může přečíst váš hlasový tón"
+      },
+      "expectations": {
+        "title": "Co Suno očekává",
+        "body": "WAV, 48 kHz, mono, suché (bez reverbu nebo efektů), 3 až 5 minut reference. Nejčistší a nejreprezentativnější 2 minuty užívání obvykle poskytují nejlepší výsledky."
+      }
+    }
+  },
+  "status": {
+    "idea": "Myšlenka",
+    "em_progresso": "Probíhá",
+    "quase": "Skoro tam",
+    "pronto": "Připraveno"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Úplný vokální scénář pro Suno",
+      "desc": "5 řízených minut: rozcvička, samohlásky, stupnice, úryvky dvou písní, dynamika a mluvená fráze."
+    },
+    "step": {
+      "warmup": "Vokální rozcvička",
+      "warmup_inst": "Uvolněte se zívnutím, trylkováním rtů (brrr) a tichým hučením po dobu asi minuty. Není třeba nahrávat – stačí si před zpěvem uvolnit hrdlo.",
+      "vowels": "Trvalé samohlásky",
+      "vowels_inst": "Držte každou samohlásku – a, e, i, o, u – po dobu 3 až 4 sekund na vaší pohodlné výšce, se stálou hlasitostí. To pomáhá Suno zachytit čistý zabarvení vašeho hlasu.",
+      "scales": "Váhy nahoru a dolů",
+      "scales_inst": "Zpívejte jednoduchou stupnici nahoru a pak dolů, na „la“ nebo „na“. Nemusí to být dokonalé – cílem je zmapovat váš hlasový rozsah.",
+      "section": "Úryvek z písně – část 1",
+      "section_inst": "Zazpívejte 8 až 16 taktů písně se skutečným záměrem, který chcete sdělit. Upřednostněte srozumitelnost a přítomnost před technickou dokonalostí.",
+      "section2": "Úryvek z písně – část 2",
+      "section2_inst": "Zazpívejte dalších 8 až 16 taktů — ideálně refrén nebo část, která kontrastuje s předchozí. Více rozmanitosti pomáhá modelu naučit se váš hlas.",
+      "dynamics": "Dynamika: měkká → hlasitá",
+      "dynamics_inst": "Zpívejte stejnou frázi počínaje velmi potichu a konče nahlas, aniž byste si namáhali hrdlo. To ukazuje Suno dynamický rozsah vašeho hlasu.",
+      "spoken": "Mluvená fráze",
+      "spoken_inst": "Mluvte – nezpívejte – krátkou, přirozenou frázi, jako byste si povídali. To Suno pomáhá rozpoznat skutečnou barvu vašeho hlasu."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restaurování",
+      "filter": "Filtry",
+      "dynamics": "Dynamika",
+      "separation": "Separace",
+      "quality": "Kvalita",
+      "utility": "Utility",
+      "loudness": "Hlasitost"
+    },
+    "highpass": "High-pass filtr",
+    "lowpass": "Dolní propust",
+    "denoise": "Snížení hluku",
+    "declip": "klesající",
+    "declick": "Odstranění kliknutím/pop",
+    "deesser": "De-esser",
+    "gate": "Protihluková brána",
+    "compressor": "Kompresor",
+    "limiter": "Omezovač",
+    "eq": "Vyrovnání",
+    "normalize": "Vrcholná normalizace",
+    "loudness": "Normalizace hlasitosti (LUFS)",
+    "reverb_reduce": "Redukce dozvuku",
+    "separate": "Oddělení zdroje",
+    "quality": "Vylepšení kvality (upscale)",
+    "trim_silence": "Tiché ořezávání",
+    "fade": "Fade in / fade out",
+    "stereo_to_mono": "Převést na mono",
+    "resample": "Převzorkování"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Spolehlivý",
+      "2": "Obvykle funguje",
+      "3": "Variabilní",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Struktura",
+      "vocal": "Vokální",
+      "instrument": "Nástroj",
+      "dynamics": "Dynamika",
+      "production": "Výroba",
+      "mood": "Nálada"
+    },
+    "verse": "Verš",
+    "chorus": "Refrén",
+    "bridge": "Most",
+    "intro": "Úvod",
+    "outro": "Outro",
+    "hook": "Háček",
+    "prechorus": "Pre-refrén",
+    "instrumental": "Instrumentální",
+    "guitar_solo": "Kytarové sólo",
+    "build_up": "Vybudování",
+    "breakdown": "Členění",
+    "spoken_word": "Mluvené slovo",
+    "whispered": "zašeptal",
+    "harmonies": "Harmonie",
+    "male_vocal": "Mužský vokál",
+    "female_vocal": "Ženský vokál",
+    "duet": "Duet",
+    "acoustic": "Akustické",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "Čistý hlas",
+    "voice_guitar_balanced": "Vyvážený hlas a kytara",
+    "podcast": "podcast",
+    "suno_ready": "Suno připraveno",
+    "gentle_restore": "Jemné obnovení",
+    "raw_passthrough": "Žádné zpracování"
+  },
+  "errors": {
+    "unknown": "Něco se pokazilo.",
+    "network": "Nelze se spojit se serverem.",
+    "validation_error": "Zkontrolujte zadané informace.",
+    "not_found": "Položka nenalezena.",
+    "project_not_found": "Projekt nenalezen.",
+    "take_not_found": "Take nenalezeno.",
+    "album_not_found": "Album nenalezeno.",
+    "preset_not_found": "Předvolba nenalezena.",
+    "template_not_found": "Šablona nenalezena.",
+    "device_busy": "Zvukové zařízení je používáno jiným programem.",
+    "device_not_found": "Zvukové zařízení nebylo nalezeno.",
+    "already_recording": "Nahrávání již probíhá.",
+    "ffmpeg_missing": "FFmpeg není nainstalován – nainstalujte jej pro převod tohoto souboru.",
+    "disk_full": "Nedostatek místa na disku.",
+    "permission_denied": "Povolení pro danou cestu odepřeno.",
+    "import_path_not_found": "Cesta importu nebyla nalezena.",
+    "job_failed": "Zpracování se nezdařilo.",
+    "job_cancelled": "Zpracování bylo zrušeno.",
+    "process_failed": "Převzetí se nezdařilo zpracovat.",
+    "export_failed": "Export souboru se nezdařil.",
+    "record_failed": "Nepodařilo se spustit nahrávání."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Ve frontě",
+      "running": "Běh",
+      "done": "Hotovo",
+      "error": "Nepodařilo se",
+      "cancelled": "Zrušeno"
+    },
+    "kind": {
+      "process": "Zpracování",
+      "export": "Exportovat",
+      "import": "Importovat",
+      "record": "Nahrávání"
+    }
+  }
+}

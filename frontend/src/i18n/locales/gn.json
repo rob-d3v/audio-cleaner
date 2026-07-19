@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Audio Mopotĩha"
+  },
+  "nav": {
+    "library": "Biblioteca",
+    "record": "Grabación rehegua",
+    "import": "Importación rehegua",
+    "templates": "Plantillas rehegua",
+    "settings": "Ñemboheko",
+    "guide": "Guía"
+  },
+  "common": {
+    "save": "Oñongatu",
+    "saving": "Oñongatúvo...",
+    "saved": "Oñongatu",
+    "cancel": "Ombogue",
+    "close": "Oñemboty",
+    "delete": "Ombogue",
+    "edit": "Omohenda",
+    "create": "Omoheñói",
+    "search": "Ojeporeka",
+    "loading": "Ojekarga hína...",
+    "error": "Ojejavy",
+    "retry": "Eñeha’ã jey",
+    "confirm": "Omoañete",
+    "back": "Ojevy jey",
+    "next": "Upe rire",
+    "continue": "Esegíkena",
+    "finish": "Omohu’ã",
+    "copy": "Kopia rehegua",
+    "copied": "Ojekopia",
+    "download": "Emboguejy",
+    "upload": "Ojeguerahauka",
+    "none": "Ndaipóri mba’eve",
+    "all": "Opavave",
+    "yes": "Heẽ",
+    "no": "Nahániri",
+    "select": "Eiporavo",
+    "optional": "opcional",
+    "required": "oñeikotevẽva",
+    "unsaved_changes": "Umi ñemoambue noñongatúiva",
+    "name": "Téra",
+    "status": "Estado rehegua",
+    "type": "Tipo rehegua",
+    "actions": "Tembiapokuéra rehegua",
+    "empty": "Nandi",
+    "browse": "Eheka",
+    "remove": "Ojepe’a",
+    "add": "Oñemoĩve",
+    "rename": "Embohéra jey",
+    "duplicate": "Ojejapo jey jey",
+    "warning": "Ñe’ẽñemi",
+    "locked": "Oñemboty",
+    "builtin": "Oñemopu’ãva’ekue",
+    "custom": "Jepokuaa",
+    "untitled": "Ndorekóiva título",
+    "select_placeholder": "Eiporavo..."
+  },
+  "library": {
+    "title": "Biblioteca",
+    "subtitle": "Umi proyecto nde voz ha guitarra rehegua, idea guive lanzamiento peve.",
+    "new_project": "Proyecto pyahu",
+    "new_album": "Álbum pyahu",
+    "search_placeholder": "Eheka héra rupive...",
+    "view": {
+      "grid": "Rejilla rehegua",
+      "albums": "Álbum-kuéra"
+    },
+    "filters": {
+      "all": "Opavave"
+    },
+    "take_count_one": " {{count}} ogueraha",
+    "take_count_other": " {{count}} ogueraha",
+    "updated_at": "Oñemoambue {{date}} ",
+    "no_results": {
+      "title": "Ndojejuhúi proyecto",
+      "description": "Eñeha’ã emohenda pe jeheka térã filtro estado rehegua."
+    },
+    "empty": {
+      "title": "Nde biblioteca oĩ nandi",
+      "description": "Emoñepyrũ peteĩ tembiaporã pyahu zero guive, térã importación ogueraha reguerekómava disco-pe.",
+      "cta_import": "Egueru carpeta-gui",
+      "cta_new": "Ojapo proyecto"
+    },
+    "project_dialog": {
+      "title": "Proyecto pyahu",
+      "description": "Eme’ẽ chupe peteĩ téra ha eiporavo peteĩ modalidad de grabación.",
+      "name_label": "Proyecto réra",
+      "name_placeholder": "p.e. Ama Arahaku rehegua",
+      "mode_label": "Modo rehegua",
+      "mode": {
+        "voice": "Ñe’ẽ añoite",
+        "voice_guitar": "Ñe’ẽ + guitarra"
+      },
+      "submit": "Ojapo proyecto"
+    },
+    "album_dialog": {
+      "title": "Álbum pyahu",
+      "description": "Ombojoaju umi proyecto ojoajúva peteî álbum-pe.",
+      "name_label": "Álbum réra",
+      "name_placeholder": "p.e. Otoño rehegua EP",
+      "submit": "Ojapo álbum"
+    },
+    "album": {
+      "untitled": "Álbum ndorekóiva título",
+      "members_count_one": " {{count}} proyecto rehegua",
+      "members_count_other": " {{count}} tembiaporã",
+      "empty": "Ndaipóri gueteri proyecto ko álbum-pe.",
+      "delete_confirm_title": "¿Ombogue álbum?",
+      "delete_confirm_description": "Umi proyecto ndojepe'amo'ãi, ndojejoajúi \" {{name}} \"-gui añoite."
+    },
+    "delete_project": {
+      "confirm_title": "¿Ombogue \" {{name}} \"?",
+      "confirm_description": "Péicha oipe'a proyecto ha opavave toma ipype. Péva ndaikatúi ojedesatina."
+    }
+  },
+  "record": {
+    "title": "Grabación rehegua",
+    "subtitle": "Ejagarra peteĩ toma ipotĩva, ehecha nde nivelkuéra ha esegui pe guión.",
+    "project_label": "Proyecto rehegua",
+    "project_placeholder": "Eiporavo peteĩ proyecto",
+    "project_create_quick": "Ejapo peteĩ proyecto pya'e...",
+    "device_label": "Dispositivo de entrada rehegua",
+    "device_placeholder": "Eiporavo peteĩ tembipuru",
+    "device_default_badge": "Sistema ñepyrũrã",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Ndojejuhúi umi dispositivo entrada rehegua.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Ojejoko pe monitoreo",
+    "record_button": "Grabación rehegua",
+    "stop_button": "Epyta",
+    "elapsed_label": "Tiempo ohasava’ekue",
+    "status": {
+      "idle": "Ocioso",
+      "monitoring": "Monitoreo rehegua",
+      "recording": "Grabación rehegua",
+      "stopped": "Ojejoko"
+    },
+    "meter": {
+      "rms": "RMS rehegua",
+      "peak": "Pico rehegua",
+      "clip": "Clip rehegua"
+    },
+    "guide": {
+      "title": "Sesión guiada rehegua",
+      "subtitle": "Peheja pe entrenador pendeguata pe guión rupive paso a paso, pe calentamiento guive pe frase oñeñe’ẽva peve.",
+      "loading": "Ojekargávo script...",
+      "unavailable": "Pe sesión guiada ndojeguerekói gueteri servidor-pe.",
+      "select_project_device": "Eiporavo peteĩ proyecto ha peteĩ dispositivo entrada rehegua ehai hag̃ua umi paso ko’águi voi.",
+      "progress": " {{done}} de {{total}} paso rehegua",
+      "start_timer": "Ñepyrũrã temporizador",
+      "skip_timer": "Ojesalta temporizador rehegua",
+      "record_step": "Ehai ko tembiapo",
+      "stop_step": "Anive regrava",
+      "mark_done": "Ojejapo — ambue paso",
+      "step_recorded": "Ogueraha grabado",
+      "no_record_step": "Paso de calentamiento — noñeikotevẽi grabación.",
+      "bars_hint": "Haimete {{bars}} barras rehegua",
+      "complete_title": "¡Guion oñembotýma!",
+      "complete_body": "Regravama opaite paso guión rehegua. Eike jey proyecto pestaña Audio-pe ha eiporavo umi toma nde rehayhuvéva.",
+      "restart": "Emoñepyrũ jey script"
+    },
+    "best2min": {
+      "button": "Eheka 2 minuto iporãvéva (Suno) .",
+      "running": "Oñeanalisávo pe toma...",
+      "score_label": "Puntuación rehegua",
+      "hint": "Omotenonde peteĩ análisis energía ha hesakãva opaite toma rehe ojuhu hag̃ua iventana imbaretevéva 2 minuto-pe — ikatu gueteri remohenda pe rango nde po rupive upe rire.",
+      "chart_caption": "Puntuación por ventána rehegua",
+      "unavailable": "Pe análisis iporãvéva-2 minuto ndojeguerekói gueteri ko servidor-pe."
+    },
+    "takes_title": "Ogueraha ko sesión-gui",
+    "takes_empty": "Ndaipóri toma ojegraváva ko sesión-pe gueteri.",
+    "open_in_project": "Abierto en proyecto",
+    "ws_disconnected": "Oñembojoaju jeývo pe nivel medidor rehe...",
+    "select_project_first": "Eiporavo peteĩ tembiapo reñepyrũ hag̃ua.",
+    "select_device_first": "Eiporavo peteĩ tembipuru jeikeha."
+  },
+  "project": {
+    "back_to_library": "Ojevy biblioteca-pe",
+    "header": {
+      "status_label": "Estado rehegua",
+      "cover_upload": "Omboguejy portada",
+      "cover_remove": "Ojepe’a pe tapa",
+      "name_placeholder": "Proyecto réra",
+      "links_title": "Umi enlace",
+      "add_link": "Ombojoapy enlace",
+      "mode": {
+        "voice": "Ñe’ẽ añoite",
+        "voice_guitar": "Ñe’ẽ + guitarra"
+      }
+    },
+    "tabs": {
+      "audio": "Audio rehegua",
+      "lyrics": "Letras rehegua",
+      "prompts": "Ñe’ẽmondo",
+      "notes": "Notas rehegua"
+    },
+    "audio": {
+      "takes_title": "Ogueraha",
+      "no_takes": {
+        "title": "No toma gueteri",
+        "description": "Ehai peteĩ toma pyahu térã egueraha peteĩ archivo oĩmava."
+      },
+      "record_new": "Graba peteĩ toma pyahu",
+      "rating": "Calificación rehegua",
+      "variant": {
+        "raw": "Crudo",
+        "processed": "Oñemboguata"
+      },
+      "variant_placeholder": "Versión rehegua",
+      "process_button": "Proceso rehegua",
+      "export_button": "Exportación rehegua",
+      "delete_take_confirm_title": "¿Embogue ko toma?",
+      "delete_take_confirm_description": "Ojepe’áta pe audio crudo ha opaite versión oñemboguatáva.",
+      "ab": {
+        "raw": "A · Crudo",
+        "processed": "B · Oñemboguata"
+      },
+      "origin": {
+        "recorded": "Ojegrava",
+        "imported": "Ojegueru va’ekue"
+      },
+      "session_label_placeholder": "Etiqueta sesión rehegua (ojeporavóva) .",
+      "duration": "Ipukukue pukukue",
+      "sample_rate": "Tasa de muestra rehegua",
+      "channels": "Canal-kuéra rehegua",
+      "created_at": "Ojegrava"
+    },
+    "pipeline": {
+      "title": "Cadena de procesamiento rehegua",
+      "preset_label": "Oñemohenda mboyve",
+      "preset_none": "Cadena personalizada rehegua",
+      "preset_save": "Eñongatu preestablecido ramo",
+      "stage_locked": "Oñemboty",
+      "stage_requires_extra": "Oikotevê peteî extra noñeinstaláiva",
+      "process_button": "Proceso ogueraha",
+      "processing": "Procesamiento rehegua...",
+      "job_queued": "Oĩ fila-pe...",
+      "job_running": "Procesamiento rehegua...",
+      "job_done": "Ojejapo",
+      "job_error": "Ndohupytýi mba’eve",
+      "job_cancelled": "Oñembogue",
+      "cancel_job": "Ombogue",
+      "no_stages": "Ndaipóri etapa ojeguerekóva."
+    },
+    "export": {
+      "title": "Exportación ogueraha",
+      "description": "Embohasa peteĩ vore paha peteĩ versión oñemboguatávagui.",
+      "variant_label": "Versión rehegua",
+      "format_label": "Formato rehegua",
+      "preset_label": "Exportación preset rehegua",
+      "range_label": "Rango",
+      "range_full": "Ipukukue pukukue",
+      "range_custom": "Rango personalizado",
+      "start_label": "Ñepyrũ (kuéra) .",
+      "end_label": "Opa (kuéra) .",
+      "submit": "Exportación rehegua",
+      "progress": "Archivo ñembohasa rehegua...",
+      "download_ready": "Archivo oĩmava",
+      "download_button": "Emboguejy archivo"
+    },
+    "notes": {
+      "placeholder": "Notas de forma libre ko proyecto rehegua...",
+      "saved_at": "Oñongatu {{time}}-pe. "
+    },
+    "lyrics": {
+      "placeholder": "Ehai ko’ápe umi ñe’ẽpoty. Eipuru paleta oĩva lado gotyo emoinge hag̃ua Suno meta-etiqueta.",
+      "saved_at": "Oñongatu {{time}}-pe. ",
+      "saving": "Oñongatúvo...",
+      "versions": "Versiones rehegua",
+      "versions_empty": "Ndaipóri gueteri versión oñeñongatúva.",
+      "version_preview": "Tembiecharã tenondegua",
+      "restore": "Emoĩjey ko versión",
+      "restore_confirm_title": "¿Emoĩjey ko versión?",
+      "restore_confirm_description": "Pe jehaipyre ko’ag̃agua oñemyengoviáta pe versión oñeñongatúva {{date}} -pe.",
+      "metatags_title": "Meta-etiquetas rehegua",
+      "metatags_hint": "Emboguejy peteĩ etiqueta emoinge hag̃ua cursor-pe.",
+      "metatags_placebo_warning": "Ndojehecháiva — ikatu ndorekói efecto pe resultado rehe.",
+      "metatags_empty": "Ndaipóri meta-etiqueta ojeregistráva."
+    },
+    "prompts": {
+      "style_title": "Estilo ñe’ẽmondo",
+      "lyrics_title": "Letra ñe’ẽmondo",
+      "template_label": "Plantilla rehegua",
+      "template_none": "Ndaipóri plantilla",
+      "variables_title": "Variables rehegua",
+      "preview_title": "Tembiecharã tenondegua",
+      "preview_empty": "Eiporavo peteĩ plantilla ha emyenyhẽ umi variable rehecha hag̃ua peteĩ jehechaukarã.",
+      "char_count": " {{count}} taikuéra",
+      "char_count_warning": "Umi estilo ñeporandu 1000 karameg̃ua ári ikatu oñemboty Suno rupive.",
+      "copy": "Kopia rehegua",
+      "copied": "Ojekopia portapapeles-pe",
+      "save_to_project": "Eñongatu proyecto-pe",
+      "saved_to_project": "Ñe’ẽmondo oñeñongatu proyecto-pe",
+      "history_title": "Tembiasakue",
+      "history_empty": "Ndaipóri umi versión yma guare.",
+      "current_label": "Ko’áĝagua"
+    },
+    "stems": {
+      "title": "Vocal ha guitarra",
+      "separate_button": "Ojesepara vocal ha guitarra",
+      "running": "Ojeseparávo...",
+      "vocals": "Vocal rehegua",
+      "instrumental": "Instrumental rehegua",
+      "process_stem": "Eprocesa ko tallo",
+      "empty": "Ko toma ndojeseparái gueteri. Emboguata separación rehendu hagua vocal ha guitarra aislamiento-pe.",
+      "capability_missing": "Fuente ñemboja’o noñemoĩri ko servidor-pe.",
+      "unavailable": "Separación vocal/guitarra ndojeguerekói gueteri ko servidor-pe."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "On",
+    "boolean_off": "Off"
+  },
+  "import": {
+    "title": "Importación rehegua",
+    "subtitle": "Egueru umi proyecto oĩmava disco-pe aranduka’atýpe.",
+    "step_indicator": "Paso {{current}} de {{total}} . ",
+    "step1": {
+      "title": "Eheka carpeta",
+      "description": "Ehechauka pe carpeta root-pe ne proyecto ha pista reheve.",
+      "path_label": "Carpeta rape",
+      "path_placeholder": "p.e. E:\\Robbs\\Orgullo\\Música\\ROBBS rehegua",
+      "recent_label": "Nda’aréi ojejapóva",
+      "scan_button": "Carpeta escaneo rehegua",
+      "scanning": "Escaneo rehegua...",
+      "ffmpeg_warning": "FFmpeg ndojejuhúi — ojesaltáta umi ñanduti renda oikotevẽva ñemoambue.",
+      "folders_found_one": " {{count}} carpeta ojejuhúva",
+      "folders_found_other": " {{count}} umi carpeta ojejuhúva",
+      "unmatched_files_one": " {{count}} archivo ndojehechakuaáiva",
+      "unmatched_files_other": " {{count}} umi archivo ndojehechakuaáiva"
+    },
+    "step2": {
+      "title": "Ehesa’ỹijo umi mba’e",
+      "description": "Ehecháke téra, estado ha mba’épa ojeguerúta emoañete mboyve.",
+      "select_all": "Eiporavo opaite",
+      "table": {
+        "folder": "Carpeta fuente rehegua",
+        "name": "Proyecto réra",
+        "status": "Estado rehegua",
+        "audio": "Audio rehegua",
+        "lyrics": "Letras rehegua",
+        "cover": "Kuatiahaipyre",
+        "album": "Álbum rehegua"
+      },
+      "audio_include_one": " {{count}} vore ojeporavóva",
+      "audio_include_other": " {{count}} archivokuéra ojeporavóva",
+      "no_audio": "Ndojejuhúi audio",
+      "no_lyrics": "Ndojejuhúi letra",
+      "no_cover": "Ndaipóri cubierta",
+      "warnings_title": "Advertencia-kuéra rehegua"
+    },
+    "step3": {
+      "title": "Importación rehegua",
+      "description": "Emoañete ekopia hag̃ua umi archivo ha emoheñói hag̃ua umi proyecto.",
+      "copy_originals": "Ekopia umi archivo original biblioteca-pe",
+      "execute_button": "Eñepyrũ importación",
+      "progress_title": "Importación rehegua...",
+      "created_count": "Ojejapo: {{count}} ",
+      "skipped_count": "Ojeheja rei: {{count}} ",
+      "done_title": "Importación oñembotýma",
+      "done_description": "Umi tembiaporã oĩva iguýpe ojejapo nde aranduka’atýpe.",
+      "view_project": "Proyecto abierto",
+      "start_over": "Importación pyahu"
+    }
+  },
+  "templates": {
+    "title": "Plantillas rehegua",
+    "subtitle": "Plantilla ñe’ẽmondo ojepuru jeýva ha meta-etiqueta Suno-pe g̃uarã.",
+    "tabs": {
+      "prompts": "Umi plantilla ñeporandu rehegua",
+      "metatags": "Meta-etiquetas rehegua"
+    },
+    "new_template": "Plantilla pyahu",
+    "kind": {
+      "style": "Estilo rehegua",
+      "lyrics": "Letras rehegua"
+    },
+    "kind_label": "Py’aporã",
+    "delete_confirm_title": "¿Ombogue plantilla \" {{name}} \"?",
+    "delete_confirm_description": "Péva ndaikatúi ojedesatina.",
+    "empty": "Ndaipóri gueteri plantilla.",
+    "editor": {
+      "title_new": "Plantilla pyahu",
+      "title_edit": "Plantilla de edición rehegua",
+      "name_label": "Téra",
+      "name_placeholder": "p.e. Balada acústica rehegua",
+      "kind_label": "Py’aporã",
+      "template_label": "Texto plantilla rehegua",
+      "template_hint": "Emarka moõpa oĩ peteĩteĩva variable héra oñembojeguáva paréntesis doble rizado-pe — techapyrãramo, peteĩ variable hérava \"género\" oiko género oñembojeguáva mokõi paréntesis ñepyrũ ha mokõi ñembotyhápe.",
+      "variables_label": "Variables rehegua",
+      "variable_add": "Oñemoĩve variable",
+      "variable_name": "Clave",
+      "variable_label": "Etiqueta rehegua",
+      "variable_type": "Tipo rehegua",
+      "variable_type_string": "Texto",
+      "variable_type_select": "Peteĩ jeporavo",
+      "variable_type_multiselect": "Heta jeporavo rehegua",
+      "variable_type_number": "Papapy",
+      "variable_type_boolean": "Heẽ/nahániri",
+      "variable_options": "Opciones (oñemboja’óva coma rupive) .",
+      "variable_required": "Oñeikotevẽva",
+      "save": "Oñongatu plantilla"
+    },
+    "metatags": {
+      "title": "Meta-etiquetas rehegua",
+      "subtitle": "Etiquetas estructurales ha estilo Suno ohechakuaa letra ryepýpe.",
+      "new_tag": "Etiqueta pyahu",
+      "tag_label": "Etiqueta rehegua",
+      "tag_placeholder": "p.e. guitarra-solo rehegua",
+      "category_label": "Categoría rehegua",
+      "tier_label": "Confiabilidad rehegua",
+      "tier_legend_title": "Leyenda confiabilidad rehegua",
+      "tier_legend": {
+        "1": "Nivel 1 — ojehai ha ojoajúva",
+        "2": "Nivel 2 — jepivegua omba’apo",
+        "3": "Nivel 3 — efecto variable rehegua",
+        "4": "Nivel 4 — placebo, ndojehecháiva"
+      },
+      "description_label": "Ñemombe’u",
+      "delete_confirm_title": "¿Ombogue etiqueta \" {{tag}} \"?",
+      "empty": "Ndaipóri gueteri meta-etiqueta personalizada."
+    }
+  },
+  "settings": {
+    "title": "Ñemboheko",
+    "subtitle": "Sistema marandu, ñe’ẽ ha jeporavopyre ñepyrũrã.",
+    "system_info_title": "Sistema rehegua",
+    "version": "Versión rehegua",
+    "data_dir": "Datokuéra ryru",
+    "ffmpeg_status": "FFmpeg rehegua",
+    "ffmpeg_available": "Ojeguereko",
+    "ffmpeg_missing": "Ndojejuhúi",
+    "capabilities_title": "Umi mba’ekuaarã oñemboguapýva",
+    "capability": {
+      "denoise": "Ruido ñemboguejy",
+      "quality": "Calidad ñembotuichave",
+      "separate": "Fuente ñemboja’o",
+      "ffmpeg": "FFmpeg ñembohasa"
+    },
+    "capability_available": "Ojeguereko",
+    "capability_unavailable": "Ndojeguerekói",
+    "gpu_title": "GPU ñembopyaꞌeve",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA rehegua",
+      "ort_providers": "ONNX Runtime ome’ẽva"
+    },
+    "gpu_none": "Ndaipóri GPU puruhára ojejuhúva",
+    "language_title": "Ñe’ẽ",
+    "language": {
+      "pt-BR": "Português (Brasil) Ñemby",
+      "en": "Guarani guarani"
+    },
+    "theme_title": "Apariencia rehegua",
+    "theme": {
+      "dark": "Pytũmby",
+      "light": "Tesapeha"
+    },
+    "defaults_title": "Exportar umi mba’e’oka ñepyrũrã",
+    "lufs_target_label": "Ojepytasóva LUFS rehe",
+    "lufs_target_hint": "Ojeporu sugerencia ñepyrũrã ramo ojegueraha jave ogueraha. Suno mba'e'oka oguapy -14 LUFS jerére.",
+    "saved": "Umi preferencia oñeñongatúva"
+  },
+  "guide": {
+    "title": "Guía de grabación Suno rehegua",
+    "subtitle": "Mba'éichapa ojejapyhy voz ha guitarra ogueraha ohupytyva'ekue resultado iporãvéva.",
+    "intro": "Suno osẽ porãve umi referencia ipotĩ ha ndorekóiva ambigüedad reheve. Ko guía oñe’ẽ ñembosako’i, nivel de meta ha peteĩ guión grabación 3–5 minuto rehegua.",
+    "sections": {
+      "prep": {
+        "title": "Ñembosako’i rehegua",
+        "body": "Ehai peteĩ koty oñeñangarekóvape térã peteĩ oguerekóva heta material suave (cortina, alfombra, ao peteĩ armario-pe). Ombogue ventilador ha oimeraê mba'e ozumbipáva. Embopiro’y ne ñe’ẽ 5 minuto aja regrava mboyve."
+      },
+      "levels": {
+        "title": "Niveles: -12 guive -6 dBFS peve",
+        "body": "Oñeha'ã pico -12 ha -6 dBFS mbytépe medidor rehe. Upe rango guýpe ojehechakuaave ruido de fondo; hi'ári, ojupi riesgo de recorte. Eipuru pe medidor oĩva página Grabar-pe emohenda hag̃ua nde ganancia reñepyrũ mboyve."
+      },
+      "distance": {
+        "title": "Mic mombyrykue: 15–30 cm",
+        "body": "Epyta 15 ha 30 cm micrófonogui. Hi'aguîvéva upévagui oexagera plosivo ha efecto de proximidad; mombyryve oipyhy hetave reverberación ha ruido koty rehegua."
+      },
+      "script": {
+        "title": "Guion grabación rehegua",
+        "warmup": "Ñe’ẽ ñembopiro’y (1–2 minuto) .",
+        "vowels": "Pu’ae ojepytasóva — a, e, i, o, u",
+        "scales": "Escala simple, yvate ha yvy gotyo",
+        "excerpt": "Peteĩ purahéi vore (8 a 16 barra) .",
+        "dynamics": "Dinámica: oñepyrũ suave, opa hatã",
+        "spoken_phrase": "Peteĩ ñe’ẽjoaju oñeñe’ẽva, ikatu hağuáicha Suno omoñe’ẽ nde tono vocal"
+      },
+      "expectations": {
+        "title": "Mba'épa oha'arõ Suno",
+        "body": "WAV, 48 kHz, mono, seco (ndaipóri reverberación ni efecto), 3 a 5 minutos de referencia. Umi 2 minuto ipotĩvéva, representativovéva pe toma-gui oproduci jepi umi resultado iporãvéva."
+      }
+    }
+  },
+  "status": {
+    "idea": "Idea rehegua",
+    "em_progresso": "Oñemotenondévo",
+    "quase": "Haimete upépe",
+    "pronto": "Oĩma preparádo"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Guión vocal completo Suno-pe guarã",
+      "desc": "5 minuto guiado: calentamiento, pu’ae, escala, mokõi purahéi extracto, dinámica ha peteĩ ñe’ẽjoaju oñeñe’ẽva."
+    },
+    "step": {
+      "warmup": "Ñembohape vocal rehegua",
+      "warmup_inst": "Ojefloja bostezo, trills labial (brrr) ha peteî zumbido suave un minuto rupi. Natekotevẽi regrava — ha’e rembopiro’y haĝuánte nde garganta repurahéi mboyve.",
+      "vowels": "Pu’ae ojepytasóva",
+      "vowels_inst": "Eñongatu peteĩteĩ pu’ae — a, e, i, o, u — 3 térã 4 segundo aja nde tono cómodo-pe, peteĩ volumen constante reheve. Péva oipytyvõ Suno-pe oipyhy haĝua pe timbre puro nde ñe’ẽ rehegua.",
+      "scales": "Escala yvate ha yvýpe",
+      "scales_inst": "Epurahéi petet escala simple yvate ha upéi oguejy, \"la\" téra \"na\" rehe. Natekotevẽi ha’e perfecto — pe meta ha’e remoĩ peteĩ mapa nde rango vocal.",
+      "section": "Purahéi ryru — parte 1",
+      "section_inst": "Epurahéi 8 a 16 barra purahéi rehegua, intención añeteguáva reheve rembohasase. Oñemotenonde hesakã ha presencia perfección técnica ári.",
+      "section2": "Purahéi ryru — parte 2",
+      "section2_inst": "Epurahéi ambue 8 a 16 barra — iporãvéta peteĩ coro térã peteĩ sección ojoavyva pe mboyvegua ndive. Hetave variedad oipytyvõ pe modelo-pe oikuaa haĝua ne ñe’ẽ.",
+      "dynamics": "Dinámica: suave → hatã",
+      "dynamics_inst": "Epurahéi peteĩchagua ñe’ẽjoaju reñepyrũvo ipiro’yeterei ha remohu’ã hatã, rembopy’aju’ỹre nde jyva. Kóva ohechauka Suno-pe nde ñe'ẽ rango dinámico.",
+      "spoken": "Ñe’ẽjoaju oñeñe’ẽva",
+      "spoken_inst": "Eñe’ẽ — ani repurahéi — peteĩ ñe’ẽjoaju mbyky ha natural, reñemongetaramoguáicha. Kóva oipytyvõ Suno-pe ohechakuaa haĝua pe timbre añetegua nde ñe’ẽ rehegua."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restauración rehegua",
+      "filter": "Filtro-kuéra rehegua",
+      "dynamics": "Dinámica rehegua",
+      "separation": "Separación rehegua",
+      "quality": "Calidad rehegua",
+      "utility": "Utilidad rehegua",
+      "loudness": "Hatã hatã"
+    },
+    "highpass": "Filtro de paso yvate rehegua",
+    "lowpass": "Filtro de paso bajo rehegua",
+    "denoise": "Ruido ñemboguejy",
+    "declip": "Oguejy ohóvo",
+    "declick": "Click/pop ñembogue",
+    "deesser": "De-esser rehegua",
+    "gate": "Okẽ ruido rehegua",
+    "compressor": "Compresor rehegua",
+    "limiter": "Limitador rehegua",
+    "eq": "Ñembojojaha",
+    "normalize": "Normalización pico rehegua",
+    "loudness": "Normalización hatã rehegua (LUFS) .",
+    "reverb_reduce": "Reverberación ñemboguejy rehegua",
+    "separate": "Fuente ñemboja’o",
+    "quality": "Calidad ñembotuichave (escala yvate) .",
+    "trim_silence": "Kirirĩ recorte",
+    "fade": "Fade in / fade out",
+    "stereo_to_mono": "Oñembohasa mono-pe",
+    "resample": "Remuestreo rehegua"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Ojegueroviakuaa",
+      "2": "Jepive omba’apo",
+      "3": "Variable rehegua",
+      "4": "Placebo rehegua"
+    },
+    "category": {
+      "structure": "Estructura rehegua",
+      "vocal": "Vocal rehegua",
+      "instrument": "Instrumento rehegua",
+      "dynamics": "Dinámica rehegua",
+      "production": "Producción rehegua",
+      "mood": "Estado de ánimo"
+    },
+    "verse": "Versíkulo",
+    "chorus": "Coro rehegua",
+    "bridge": "Puente",
+    "intro": "Ñepyrũrã",
+    "outro": "Outro rehegua",
+    "hook": "Gancho",
+    "prechorus": "Pre-coro rehegua",
+    "instrumental": "Instrumental rehegua",
+    "guitar_solo": "Guitarra solo rehegua",
+    "build_up": "Oñemopu’ã haguã",
+    "breakdown": "Ñembyai",
+    "spoken_word": "Ñe’ẽ oñeñe’ẽva",
+    "whispered": "Oñe’ẽmbegue",
+    "harmonies": "Armonías rehegua",
+    "male_vocal": "Kuimba’e vocal",
+    "female_vocal": "Kuña vocal",
+    "duet": "Dúo rehegua",
+    "acoustic": "Acústico rehegua",
+    "ad_lib": "Ad-lib rehegua"
+  },
+  "presets": {
+    "clean_voice": "Ñe’ẽ potĩ",
+    "voice_guitar_balanced": "Voz & guitarra equilibrada rehegua",
+    "podcast": "Podcast rehegua",
+    "suno_ready": "Suno oĩmava",
+    "gentle_restore": "Restauración suave",
+    "raw_passthrough": "Ndaipóri procesamiento"
+  },
+  "errors": {
+    "unknown": "Oĩ mba’e oho vaíva.",
+    "network": "Ndaikatúi oñeguahẽ pe servidor-pe.",
+    "validation_error": "Ejesareko marandu reikeva’ekue rehe.",
+    "not_found": "Artículo ndojejuhúiva.",
+    "project_not_found": "Proyecto ndojejuhúi.",
+    "take_not_found": "Take ndojejuhúi.",
+    "album_not_found": "Álbum ndojejuhúi.",
+    "preset_not_found": "Preset ndojejuhúi.",
+    "template_not_found": "Plantilla ndojejuhúi.",
+    "device_busy": "Dispositivo de audio oipuru hína ambue programa.",
+    "device_not_found": "Dispositivo de audio ndojejuhúi.",
+    "already_recording": "Oñemotenondéma peteĩ grabación.",
+    "ffmpeg_missing": "FFmpeg noñemoĩri — emohenda emoambue hag̃ua ko vore.",
+    "disk_full": "Ndaipóri suficiente espacio disco-pe.",
+    "permission_denied": "Oñembotove permiso tape oñeme'êva rehe.",
+    "import_path_not_found": "Ndojejuhúi tape importación rehegua.",
+    "job_failed": "Pe procesamiento ndoikói.",
+    "job_cancelled": "Oñemboyke procesamiento.",
+    "process_failed": "Ndohupytýi oprocesa haguã pe toma.",
+    "export_failed": "Ndojehejái ojeguerahauka hag̃ua pe vore.",
+    "record_failed": "Ndoikói oñepyrũvo ojegrava."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Oĩ fila-pe",
+      "running": "Oñani",
+      "done": "Ojejapo",
+      "error": "Ndohupytýi mba’eve",
+      "cancelled": "Oñembogue"
+    },
+    "kind": {
+      "process": "Procesamiento rehegua",
+      "export": "Exportación rehegua",
+      "import": "Importación rehegua",
+      "record": "Grabación rehegua"
+    }
+  }
+}

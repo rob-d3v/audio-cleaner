@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Limpiador u audio"
+  },
+  "nav": {
+    "library": "Biblioteca",
+    "record": "K'a'abet",
+    "import": "Importar",
+    "templates": "Plantillas",
+    "settings": "Configuración",
+    "guide": "náakake' u yaak'il"
+  },
+  "common": {
+    "save": "Ta'akikubáa",
+    "saving": "Táan u ta'akikubáa...",
+    "saved": "Ta'akmaj",
+    "cancel": "Cancelar",
+    "close": "Muts'ik",
+    "delete": "tselik",
+    "edit": "Editar",
+    "create": "Crear",
+    "search": "Kaxant",
+    "loading": "Táan u kuuch...",
+    "error": "Ba'alo'",
+    "retry": "Ka'a k'aax",
+    "confirm": "Confirme",
+    "back": "Ka'a",
+    "next": "U láak'",
+    "continue": "t'u'uchpachtik",
+    "finish": "Ts'o'oksik",
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "download": "Descargar",
+    "upload": "Na'akal",
+    "none": "Mix juntúul",
+    "all": "tuláakal",
+    "yes": "Jaaj",
+    "no": "Ma'",
+    "select": "Yéey",
+    "optional": "opcional",
+    "required": "k'a'abéet",
+    "unsaved_changes": "K'eexo'ob ma' ta'akikubáa",
+    "name": "K'aaba'",
+    "status": "Estado",
+    "type": "Bin yano'ob",
+    "actions": "Ba'alo'ob",
+    "empty": "Mina'an",
+    "browse": "Xak'alxok",
+    "remove": "luk'es",
+    "add": "Ts'áa",
+    "rename": "K'ex u k'aaba'",
+    "duplicate": "Duplicar",
+    "warning": "Advertencia",
+    "locked": "K'ala'an",
+    "builtin": "Incorporado",
+    "custom": "Personalizado",
+    "untitled": "Ma' u k'aaba'",
+    "select_placeholder": "Yéey..."
+  },
+  "library": {
+    "title": "Biblioteca",
+    "subtitle": "A t'aan yéetel a guitarra ku meyaj, tak tuukul tak u jóok'sa'al.",
+    "new_project": "Túumben meyaj",
+    "new_album": "Túumben álbum",
+    "search_placeholder": "Kaxant tumen k'aaba'...",
+    "view": {
+      "grid": "Cuadrícula",
+      "albums": "Álbumes"
+    },
+    "filters": {
+      "all": "tuláakal"
+    },
+    "take_count_one": " {{count}} ch'a'iko'ob",
+    "take_count_other": " {{count}} ku ch'a'ik",
+    "updated_at": "Actualizado {{date}} ",
+    "no_results": {
+      "title": "Ma' kaxta'ab mix jump'éel meyaj",
+      "description": "K'aax u ajustar le filtro xookilo' wa estado."
+    },
+    "empty": {
+      "title": "Mix máak yaan ti' a biblioteca",
+      "description": "Káajsik jump'éel túumben meyaj tak cero, wa importar ku bisik ts'o'ok u yaantal ti' disco.",
+      "cta_import": "Importar ti' le carpeta",
+      "cta_new": "Beet jump'éel proyecto"
+    },
+    "project_dialog": {
+      "title": "Túumben meyaj",
+      "description": "Ts'áa u k'aaba' ka yéey jump'éel modo grabación.",
+      "name_label": "K'aaba' le meyajo'",
+      "name_placeholder": "je'ebix. Cháak ti' verano",
+      "mode_label": "Modo",
+      "mode": {
+        "voice": "chéen t'aan",
+        "voice_guitar": "T'aan + guitarra"
+      },
+      "submit": "Beet jump'éel proyecto"
+    },
+    "album_dialog": {
+      "title": "Túumben álbum",
+      "description": "Múuch' meyajo'ob yaan ba'al u yilo'ob ti' jump'éel álbum.",
+      "name_label": "u k'aaba' le álbumo'",
+      "name_placeholder": "je'ebix. EP u otoño",
+      "submit": "Beet jump'éel álbum"
+    },
+    "album": {
+      "untitled": "Álbum mina'an u k'aaba'",
+      "members_count_one": " {{count}} proyecto",
+      "members_count_other": " {{count}} múuch'meyaj",
+      "empty": "Mina'an mix jump'éel meyaj te' álbum láayli'.",
+      "delete_confirm_title": "¿Ts'o'oksik u álbum?",
+      "delete_confirm_description": "Le meyajo'obo' ma' kun tselik, chéen kun jóok'sa'al ti' \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "tselik \" {{name}} \"?",
+      "confirm_description": "Le je'ela' ku lu'sik le meyajo' yéetel tuláakal ba'ax ku ch'a'abal ichil. Le je'ela' ma' tu páajtal u su'utul."
+    }
+  },
+  "record": {
+    "title": "K'a'abet",
+    "subtitle": "Ch'a' jump'éel ch'a'abil limpio, wil a niveles, ka toj ka' le guión.",
+    "project_label": "Proyecto",
+    "project_placeholder": "Yéey jump'éel proyecto",
+    "project_create_quick": "Beet jump'éel séeba'an meyaj...",
+    "device_label": "Dispositivo u entrada",
+    "device_placeholder": "Yéey jump'éel nu'ukulil",
+    "device_default_badge": "T.u.m tumen defecto",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Ma' kaxta'ab mix jump'éel dispositivo u yokol.",
+    "monitor_button": "Monitor",
+    "monitor_stop_button": "Je'elel u yila'al",
+    "record_button": "K'a'abet",
+    "stop_button": "Je'elel",
+    "elapsed_label": "K'iin ts'o'ok u máan",
+    "status": {
+      "idle": "Ma' meyaj",
+      "monitoring": "Monitoreo",
+      "recording": "Grabación",
+      "stopped": "Je'elel"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Pico",
+      "clip": "Clip"
+    },
+    "guide": {
+      "title": "Sesión guiada",
+      "subtitle": "Cha' u le entrenador u xíimbal ti' le guión paso a paso, tak le calentamiento tak le frase t'aan.",
+      "loading": "Táan u kuuch le script...",
+      "unavailable": "Le sesión guiada ma' táan disponible ti' le servidor láayli'.",
+      "select_project_device": "Elegir jump'éel proyecto yéetel jump'éel dispositivo u entrada utia'al u k'a'abet wook tak waye'.",
+      "progress": " {{done}} ti' {{total}} wook",
+      "start_timer": "Chúunul k'iinil",
+      "skip_timer": "P'atik u k'iinil",
+      "record_step": "K'a'abet le pasoa'",
+      "stop_step": "Je'elel u grabar",
+      "mark_done": "ts'o'ok — u láak' paso",
+      "step_recorded": "Ch'a' grabado",
+      "no_record_step": "Paso u k'íintik — ma' k'a'abéet grabación.",
+      "bars_hint": "Óoli' {{bars}} barras",
+      "complete_title": "ts'o'ok u ts'íibta'al!",
+      "complete_body": "Ts'o'ok a grabartik tuláakal le paso ti' le guión. Suut ti' le ju'unil tu'ux yaan Audio ti' le proyecto yéetel ch'a'abil teen a toma favorita.",
+      "restart": "Ka'a káajsik le script"
+    },
+    "best2min": {
+      "button": "Kaxtik le ma'alo'ob 2 minutos (Suno)",
+      "running": "U xak'altik le ch'a'iko'...",
+      "score_label": "Puntuación",
+      "hint": "Ku beetik jump'éel análisis energía yéetel claridad yóok'ol tuláakal le ch'a'iko'ob utia'al u kaxtik u asab k'a'am ventana 2 minutos - láayli' je'el ajustar le rango tumen k'ab ka' lelo'.",
+      "chart_caption": "Puntuación tumen ventana",
+      "unavailable": "Le utsil-2-minutos análisis ma' táan disponible ti' le servidor láayli'."
+    },
+    "takes_title": "ku ch'a'abal ti' le sesióna'",
+    "takes_empty": "Ma' ts'o'ok u grabarta'al mix jump'éel ch'a'abil te' sesióna'.",
+    "open_in_project": "Je'e ti' proyecto",
+    "ws_disconnected": "Ka'a conectar ti' le medidor nivel...",
+    "select_project_first": "Yéey jump'éel meyaj uti'al a káajsik.",
+    "select_device_first": "Yéey jump'éel dispositivo u yokol."
+  },
+  "project": {
+    "back_to_library": "Ka'a suut te' biblioteca",
+    "header": {
+      "status_label": "Estado",
+      "cover_upload": "Na'akal u portada",
+      "cover_remove": "luk'es le cubierta",
+      "name_placeholder": "K'aaba' le meyajo'",
+      "links_title": "Enlaces",
+      "add_link": "Ts'áa enlace",
+      "mode": {
+        "voice": "chéen t'aan",
+        "voice_guitar": "T'aan + guitarra"
+      }
+    },
+    "tabs": {
+      "audio": "Audio",
+      "lyrics": "Letras",
+      "prompts": "K'áat chi'oba'",
+      "notes": "Notas"
+    },
+    "audio": {
+      "takes_title": "ku ch'a'ik",
+      "no_takes": {
+        "title": "Ma' ch'a'abal láayli'",
+        "description": "K'a'abet jump'éel túumben ch'a'iko'ob wa importar jump'éel archivo yaan."
+      },
+      "record_new": "Grabar jump'éel túumben ch'a'iko'ob",
+      "rating": "Calificación",
+      "variant": {
+        "raw": "Crudo",
+        "processed": "Procesado"
+      },
+      "variant_placeholder": "Versión",
+      "process_button": "Tuukula'",
+      "export_button": "Exportar",
+      "delete_take_confirm_title": "¿Ts'o'oksik le ba'ala'?",
+      "delete_take_confirm_description": "Le audio crudo yéetel tuláakal le versión procesada yaan u luk'ul Teeche'.",
+      "ab": {
+        "raw": "A · Raw",
+        "processed": "B · Procesado"
+      },
+      "origin": {
+        "recorded": "Grabado",
+        "imported": "Importado"
+      },
+      "session_label_placeholder": "Etiqueta de sesión (opcional)",
+      "duration": "U xáantal",
+      "sample_rate": "Tasa de muestreo",
+      "channels": "Canales",
+      "created_at": "Grabado"
+    },
+    "pipeline": {
+      "title": "Tsolokbal procesamiento",
+      "preset_label": "Preestablecido",
+      "preset_none": "tsolokbal personalizado",
+      "preset_save": "ooks bey preestablecido",
+      "stage_locked": "K'ala'an",
+      "stage_requires_extra": "K'a'abet jump'éel extra ma' táan instalado",
+      "process_button": "Tuukula' ch'a'iko'ob",
+      "processing": "Procesamiento...",
+      "job_queued": "ti' cola...",
+      "job_running": "Procesamiento...",
+      "job_done": "Ts'o'ok",
+      "job_error": "Ma' béeyak",
+      "job_cancelled": "Cancelado",
+      "cancel_job": "Cancelar",
+      "no_stages": "Mina'an p'isibij yaan."
+    },
+    "export": {
+      "title": "Exportar ch'a'iko'ob",
+      "description": "Render jump'éel archivo final ti' jump'éel versión procesada.",
+      "variant_label": "Versión",
+      "format_label": "Formato",
+      "preset_label": "Exportar preset",
+      "range_label": "Rango",
+      "range_full": "tuláakal u chowakil",
+      "range_custom": "Rango personalizado",
+      "start_label": "Káajsik (s)",
+      "end_label": "Xul (s)",
+      "submit": "Exportar",
+      "progress": "Archivo u renderizado...",
+      "download_ready": "Archivo listo",
+      "download_button": "Descargar archivo"
+    },
+    "notes": {
+      "placeholder": "Notas ti' forma libre yóok'ol le meyaja'...",
+      "saved_at": "Ta'akmaj ti' {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Ts'íibt le t'aano'ob waye'. Meyaj le paleta yaan tu tséel uti'al a ts'áik meta-etiquetas Suno.",
+      "saved_at": "Ta'akmaj ti' {{time}} ",
+      "saving": "Táan u ta'akikubáa...",
+      "versions": "Versiones",
+      "versions_empty": "Mina'an mix jump'éel version guardada láayli'.",
+      "version_preview": "Sáasil previa",
+      "restore": "Ka'a sutk'esik le versióna'",
+      "restore_confirm_title": "¿Ka'a suutik le versióna'?",
+      "restore_confirm_description": "Le analte'o' yaan bejla'e' yaan u k'e'exel yéetel le versión guardada ti' {{date}} .",
+      "metatags_title": "Meta-etiquetas",
+      "metatags_hint": "u beetik clic ti' jump'éel etiqueta uti'al a ts'áik te' cursor.",
+      "metatags_placebo_warning": "Ma' probado - je'el u páajtal u yaantal mix efecto ti' le resultado.",
+      "metatags_empty": "Mina'an meta-etiquetas registradas."
+    },
+    "prompts": {
+      "style_title": "Estilo t'aan",
+      "lyrics_title": "Letras t'aan",
+      "template_label": "Plantilla",
+      "template_none": "Mina'an plantilla",
+      "variables_title": "Variables",
+      "preview_title": "Sáasil previa",
+      "preview_empty": "yéey jump'éel plantilla ka chup le variables uti'al a wilik jump'éel sáasil previa.",
+      "char_count": " {{count}} caracteres",
+      "char_count_warning": "Le estilo ku ya'alik yóok'ol 1000 caracteres je'el u páajtal u truncado tumen Suno.",
+      "copy": "Copiar",
+      "copied": "Copiado ti' le portapapeles",
+      "save_to_project": "Ta'akikubáa ti' le proyecto",
+      "saved_to_project": "Prompt guardado ti' le proyecto",
+      "history_title": "K'ajláayo'",
+      "history_empty": "Mina'an versiones máaniko'ob.",
+      "current_label": "Bejla'e'"
+    },
+    "stems": {
+      "title": "Voces yéetel guitarra",
+      "separate_button": "Jatsik u t'aanil yéetel u guitarra",
+      "running": "U jatsik...",
+      "vocals": "Voces",
+      "instrumental": "Instrumental",
+      "process_stem": "Procesar le tallo",
+      "empty": "Le ch'a'aba'a' ma' ts'o'ok u jatsbil láayli'. Ejecutar separación utia'al u yu'ubik le voces yéetel le guitarra ti' aislamiento.",
+      "capability_missing": "Le separación fuente ma' táan instalada ti' le servidor.",
+      "unavailable": "Le separación vocal/guitarra ma' táan disponible ti' le servidor láayli'."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "On",
+    "boolean_off": "Apagado"
+  },
+  "import": {
+    "title": "Importar",
+    "subtitle": "Bis múuch'meyaj ts'o'ok u yaantal ti' disco ti' le biblioteca.",
+    "step_indicator": "Paso {{current}} ti' {{total}} ",
+    "step1": {
+      "title": "Kaxtik le carpeta",
+      "description": "ch'a'achi'it le carpeta moots yéetel a múuch'meyaj yéetel pistas.",
+      "path_label": "Bejil le carpeta",
+      "path_placeholder": "je'ebix. E:\\Robbs\\Pride\\Music\\ROBBS",
+      "recent_label": "ts'oonak",
+      "scan_button": "Escanear carpeta",
+      "scanning": "Táan u xak'alta'al...",
+      "ffmpeg_warning": "FFmpeg ma' encontrado — archivos k'a'anan u yokol k'ujo'ob ku saltarán.",
+      "folders_found_one": " {{count}} carpeta encontrada",
+      "folders_found_other": " {{count}} carpetas encontradas",
+      "unmatched_files_one": " {{count}} archivo ma' k'ajóolta'an",
+      "unmatched_files_other": " {{count}} archivos ma' k'ajóolta'ano'ob"
+    },
+    "step2": {
+      "title": "Ilawil le ba'alo'ob",
+      "description": "Ilawil k'aaba'obo', noj, yéetel ba'ax kun importar bey ma' confirmar.",
+      "select_all": "yéey tuláakal",
+      "table": {
+        "folder": "Carpeta u fuente",
+        "name": "K'aaba' le meyajo'",
+        "status": "Estado",
+        "audio": "Audio",
+        "lyrics": "Letras",
+        "cover": "pixik",
+        "album": "Álbum"
+      },
+      "audio_include_one": " {{count}} archivo yéeya'an",
+      "audio_include_other": " {{count}} archivos seleccionados",
+      "no_audio": "Ma' kaxta'ab mix jump'éel audio",
+      "no_lyrics": "Ma' kaxta'ab mix jump'éel letra",
+      "no_cover": "Mina'an cubierta",
+      "warnings_title": "Advertencias"
+    },
+    "step3": {
+      "title": "Importar",
+      "description": "Confirme utia'al u copiar le archivos yéetel crear le múuch'meyaj.",
+      "copy_originals": "copiar archivos originales ti' le biblioteca",
+      "execute_button": "Káajsik u tasbil",
+      "progress_title": "táan u taasa'al...",
+      "created_count": "Meenta'an: {{count}} ",
+      "skipped_count": "Saltado: {{count}} ",
+      "done_title": "ts'o'ok u taasa'al",
+      "done_description": "Le meyajo'ob yaan yáanalo' beeta'abo'ob te' a bibliotecao'.",
+      "view_project": "Je'e proyecto",
+      "start_over": "Túumben tasbil"
+    }
+  },
+  "templates": {
+    "title": "Plantillas",
+    "subtitle": "Plantillas yéetel meta-etiquetas uti'al Suno ku páajtal u ka'a meyajtiko'ob.",
+    "tabs": {
+      "prompts": "Plantillas u t'aan",
+      "metatags": "Meta-etiquetas"
+    },
+    "new_template": "Túumben plantilla",
+    "kind": {
+      "style": "Estilo",
+      "lyrics": "Letras"
+    },
+    "kind_label": "uts",
+    "delete_confirm_title": "¿Ts'o'oksik le plantilla \" {{name}} \"?",
+    "delete_confirm_description": "Le je'ela' ma' tu páajtal u su'utul.",
+    "empty": "Mina'an plantillas láayli'.",
+    "editor": {
+      "title_new": "Túumben plantilla",
+      "title_edit": "Editar le plantilla",
+      "name_label": "K'aaba'",
+      "name_placeholder": "je'ebix. Balada acústica",
+      "kind_label": "uts",
+      "template_label": "Analte'o' plantilla",
+      "template_hint": "Marque tu'ux ku taal Amal variable yéetel u k'aaba' envuelto ti' doble corchetes rizados — je'ebix, jump'éel variable k'aaba' \"género\" ku p'áatal ti' género envuelto ti' ka'ap'éel corchetes apertura yéetel ka'ap'éel cierre.",
+      "variables_label": "Variables",
+      "variable_add": "Añadir variable",
+      "variable_name": "clave",
+      "variable_label": "Etiqueta",
+      "variable_type": "Bin yano'ob",
+      "variable_type_string": "Analte'o'",
+      "variable_type_select": "chéen selección",
+      "variable_type_multiselect": "ya'abkach yéeyik",
+      "variable_type_number": "Meyaj ku",
+      "variable_type_boolean": "Jaaj/ma'",
+      "variable_options": "Opciones (separadas tumen comas)",
+      "variable_required": "k'a'abéet",
+      "save": "ooks le plantilla"
+    },
+    "metatags": {
+      "title": "Meta-etiquetas",
+      "subtitle": "Etiquetas estructurales yéetel estilo Suno reconoce ichil le letras.",
+      "new_tag": "Túumben etiqueta",
+      "tag_label": "Etiqueta",
+      "tag_placeholder": "je'ebix. guitarra-solo",
+      "category_label": "Categoría",
+      "tier_label": "Fiabilidad",
+      "tier_legend_title": "Leyenda ti' fiabilidad",
+      "tier_legend": {
+        "1": "Nivel 1 — documentado yéetel consistente",
+        "2": "Nivel 2 — suuk u meyaj",
+        "3": "Nivel 3 — efecto variable",
+        "4": "Nivel 4 — placebo, ma' probado"
+      },
+      "description_label": "U tsoolil",
+      "delete_confirm_title": "tselik le etiqueta \" {{tag}} \"?",
+      "empty": "Mina'an meta-etiquetas personalizadas láayli'."
+    }
+  },
+  "settings": {
+    "title": "Configuración",
+    "subtitle": "A'alajil t'aan ti' le yaan, t'aano', yéetel preferencias tumen defecto.",
+    "system_info_title": "T.u.m",
+    "version": "Versión",
+    "data_dir": "Carpeta u datos",
+    "ffmpeg_status": "FFmpeg",
+    "ffmpeg_available": "Yaan",
+    "ffmpeg_missing": "Ma' kaxta'an",
+    "capabilities_title": "Buka'aj u ba'al instalado",
+    "capability": {
+      "denoise": "U xu'ulul u juum",
+      "quality": "U ma'alo'obkíinsa'al u ma'alobil",
+      "separate": "U jatsbil u taalil",
+      "ffmpeg": "FFmpeg u yokol k'ujo'ob"
+    },
+    "capability_available": "Yaan",
+    "capability_unavailable": "Ma' yaan",
+    "gpu_title": "Aceleración GPU",
+    "gpu": {
+      "torch_cuda": "PyTorch CUDA",
+      "ort_providers": "ONNX Proveedores u k'iinil ejecución"
+    },
+    "gpu_none": "Mix jump'éel proveedor GPU detectado",
+    "language_title": "T'aan",
+    "language": {
+      "pt-BR": "Portugués (Brasil)",
+      "en": "Inglés"
+    },
+    "theme_title": "U yila'al",
+    "theme": {
+      "dark": "Éek'joch'e'en",
+      "light": "Sáasil"
+    },
+    "defaults_title": "Exportar predeterminados",
+    "lufs_target_label": "LUFS u objetivo",
+    "lufs_target_hint": "Meyajtiko'ob bey le sugerencia Chúunul ken u jo'osa'al bisbil ba'alche'obo' ku bisik. U defectoil Sunoe' yaan tu ba'pach -14 LUFS.",
+    "saved": "Preferencias guardadas"
+  },
+  "guide": {
+    "title": "Guía u grabación Suno",
+    "subtitle": "Bix u ch'a'abal t'aan yéetel guitarra ku k'amik le ti' ya'ala'al máaxo'ob máano'ob.",
+    "intro": "Suno ku meyaj ma'alob yéetel referencias limpias yéetel inequívocas. Le náakake' u yaak'il ku t'aan ti' le preparación, le niveles objetivo, yéetel jump'éel guión grabación 3-5 minutos.",
+    "sections": {
+      "prep": {
+        "title": "Preparación",
+        "body": "Grabar ti' jump'éel sala tratada wa juntúul yéetel ya'ab xooko'obo' O'olkij (cortinas, alfombras, nook'o'ob ti' jump'éel armario). tu'upul le ventiladores yéetel je'el ba'ax ba'al ku juum. K'íintik a t'aan ichil 5 minutos bey ma' grabar."
+      },
+      "levels": {
+        "title": "Niveles: -12 u -6 dBFS",
+        "body": "Kaxtik picos ichil -12 yéetel -6 dBFS ti' le medidor. Yáanal le rango, juum ju'unil tu'ux ku p'áatal ti' asab notable; yóok'ol leti'e', ku na'akal u riesgoil u ch'ak. Meyaj le medidor ti' u linki abas kaambal u registro utia'al u establecer u ganancia bey ma' comenzar."
+      },
+      "distance": {
+        "title": "U náachil le micrófono: 15-30 cm",
+        "body": "P'áaten 15 tak 30 cm ti' le micrófono. Asab naats'il ti' lelo' ku exagerar plosivos yéetel efecto proximidad; asab náach ku ch'a'ik asab reverb yéetel juum."
+      },
+      "script": {
+        "title": "Grabación guión",
+        "warmup": "U k'íintik u t'aan (1-2 minutos)",
+        "vowels": "Vocales sostenidas — a, e, i, o, u",
+        "scales": "Escalas simples, ka'anal yéetel kaambal",
+        "excerpt": "jump'éel jaats k'aay (8 tak 16 barras)",
+        "dynamics": "Dinámica: káajsik O'olkij, ts'o'oksik k'a'am",
+        "spoken_phrase": "jump'éel t'aan ku ya'ala'al, uti'al u páajtal u xokik Suno a tono vocal"
+      },
+      "expectations": {
+        "title": "Ba'ax ku páa'tik Suno",
+        "body": "WAV, 48 kHz, mono, tikin (ma' reverb mix táanil), 3 u 5 minutos u k'a'ana'an. Le asab limpio, asab representativo 2 minutos ti' le ch'a'iko'ob suelen producir ti' ya'ala'al máaxo'ob máano'ob."
+      }
+    }
+  },
+  "status": {
+    "idea": "tuukul",
+    "em_progresso": "Táan u beeta'al",
+    "quase": "Óoli' te'elo'",
+    "pronto": "Listo"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Guión vocal k'iini' uti'al Suno",
+      "desc": "5 minutos guiados: calentamiento, vocales, escalas, ka'ap'éel extractos k'aayo'ob, dinámica, yéetel jump'éel frase t'aan."
+    },
+    "step": {
+      "warmup": "Calentamiento vocal",
+      "warmup_inst": "Je'elel yéetel bostezos, labios trills (brrr), yéetel jump'éel O'olkij zumbido ichil yan jump'éel minuto. Ma' k'a'abéet u k'a'abetkuunsa'al — chéen uti'al u jets'ik u kaal táanil ti' u k'aay.",
+      "vowels": "Vocales sostenidas",
+      "vowels_inst": "Mantenga Amal vocal — a, e, i, o, u — ichil 3 u 4 segundos ti' u tono yanen, yéetel juntúul volumen constante. Le je'ela' ku yáantik Suno u ch'a'ik u timbre a t'aan.",
+      "scales": "Escalas ka'anal yéetel kaambal",
+      "scales_inst": "K'aay jump'éel escala ken a wa'ale' tak ka'anal ka tu láak' tak kaambal, ti' \"la\" wa \"na\". Ma' k'a'abéet u perfecto — le ba'ax ku kaxtik jach u mapear u rango vocal.",
+      "section": "Extracto ti' le k'aayo' — jaats 1",
+      "section_inst": "k'aay 8 tak 16 barras ti' le k'aayo', yéetel u jaajil ba'ax a k'áat a ts'áa ojéeltbil. Priorizar le claridad yéetel le presencia yóok'ol le perfección técnica.",
+      "section2": "Extracto ti' le k'aayo' — jaats 2",
+      "section2_inst": "k'aay uláak' 8 tak 16 barras — ma'alob ka jump'éel coro wa jump'éel jaats ku jela'antal yéetel le yaan ka'acho'. Ya'ab jejeláasil ku yáantik le modelo u kanik u t'aan.",
+      "dynamics": "Dinámica: O'olkij → k'a'am",
+      "dynamics_inst": "K'aay le k'iino' je'el xano' frase káajsik jach O'olkij yéetel ts'o'oksik k'a'am, xma' tensionar u kaal. Le je'ela' ku ye'esik Suno u rango dinámico u t'aan.",
+      "spoken": "Frase hablada",
+      "spoken_inst": "T'aan — ma' k'aay — jump'éel frase kóom, natural, bey wa táan a tsikbal. Le je'ela' ku yáantik Suno u k'aj óoltik u jaajil timbre a t'aan."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Restauración",
+      "filter": "Filtros",
+      "dynamics": "Dinámica",
+      "separation": "Jatsbil",
+      "quality": "Ma'alobil",
+      "utility": "Utilidad",
+      "loudness": "K'a'am"
+    },
+    "highpass": "Filtro u paso ka'anal",
+    "lowpass": "Filtro u paso t'okik",
+    "denoise": "U xu'ulul u juum",
+    "declip": "Declipping",
+    "declick": "U luk'sa'al clic/pop",
+    "deesser": "De-esser",
+    "gate": "joolnajo' juum",
+    "compressor": "Compresor",
+    "limiter": "Limitador",
+    "eq": "Ecualización",
+    "normalize": "Normalización u pico",
+    "loudness": "Normalización u k'a'am (LUFS)",
+    "reverb_reduce": "U xu'ulul u reverb",
+    "separate": "U jatsbil u taalil",
+    "quality": "U ma'alo'obkíinsa'al u ma'alobil (upscale)",
+    "trim_silence": "Recortar u silencio",
+    "fade": "Fade in / fade out",
+    "stereo_to_mono": "sutk'esiko'ob ti' mono",
+    "resample": "Resampling"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Confiable",
+      "2": "suuk u meyaj",
+      "3": "Variable",
+      "4": "Placebo"
+    },
+    "category": {
+      "structure": "Ba'ax",
+      "vocal": "Vocal",
+      "instrument": "Nu'ukul",
+      "dynamics": "Dinámica",
+      "production": "Producción",
+      "mood": "Mood"
+    },
+    "verse": "Verso",
+    "chorus": "Coro",
+    "bridge": "Puente",
+    "intro": "Intro",
+    "outro": "Outro",
+    "hook": "Gancho",
+    "prechorus": "Pre-coro",
+    "instrumental": "Instrumental",
+    "guitar_solo": "Guitarra solo",
+    "build_up": "Build-up",
+    "breakdown": "U k'astal",
+    "spoken_word": "T'aan ku ya'ala'al",
+    "whispered": "tu t'aanaj",
+    "harmonies": "Armonías",
+    "male_vocal": "Vocal masculino",
+    "female_vocal": "Vocal ko'olel",
+    "duet": "Dueto",
+    "acoustic": "Acústica",
+    "ad_lib": "Ad-lib"
+  },
+  "presets": {
+    "clean_voice": "T'aan limpio",
+    "voice_guitar_balanced": "T'aan yéetel guitarra equilibrada",
+    "podcast": "Podcast",
+    "suno_ready": "Suno listo",
+    "gentle_restore": "O'olkij restauración",
+    "raw_passthrough": "Ma' táan u meyajta'al"
+  },
+  "errors": {
+    "unknown": "Yaan ba'ax ma' bin ma'alob.",
+    "network": "Ma' páajchaj u k'uchul le servidor.",
+    "validation_error": "Ilawil le a'almaj t'aan ta ts'íibtaj.",
+    "not_found": "Ma' kaxta'ab ba'al.",
+    "project_not_found": "Ma' kaxta'ab le proyectoo'.",
+    "take_not_found": "Take ma' kaxta'an.",
+    "album_not_found": "Ma' kaxta'ab le álbumo'.",
+    "preset_not_found": "Ma' kaxta'ab le preset.",
+    "template_not_found": "Ma' kaxta'ab le plantillao'.",
+    "device_busy": "Dispositivo audio táan ti' búukinta'al tumen uláak' cha'ana'.",
+    "device_not_found": "Ma' u kaxta'al u nu'ukulil audio.",
+    "already_recording": "Ts'o'ok u beeta'al jump'éel grabación.",
+    "ffmpeg_missing": "FFmpeg ma' táan instalado — instalar utia'al u sutk'esiko'ob le archivo.",
+    "disk_full": "Ma' yaan suficiente kúuchil ti' disco.",
+    "permission_denied": "Ma' ts'a'ab u páajtalil uti'al le beejil ts'a'an.",
+    "import_path_not_found": "Ma' kaxta'ab u bejil u tasbil.",
+    "job_failed": "Ma' béeychaj u meyajta'al.",
+    "job_cancelled": "Le procesamiento bin cancelado.",
+    "process_failed": "Ma' béeyak u procesar le ch'a'iko'.",
+    "export_failed": "Ma' béeyak u jóok'sa'al le archivoo'.",
+    "record_failed": "Ma' béeyak u káajal u grabar."
+  },
+  "jobs": {
+    "status": {
+      "queued": "ti' cola",
+      "running": "Táan u yáalkab",
+      "done": "Ts'o'ok",
+      "error": "Ma' béeyak",
+      "cancelled": "Cancelado"
+    },
+    "kind": {
+      "process": "Procesamiento",
+      "export": "Exportar",
+      "import": "Importar",
+      "record": "Grabación"
+    }
+  }
+}

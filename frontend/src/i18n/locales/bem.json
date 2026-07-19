@@ -1,0 +1,636 @@
+{
+  "app": {
+    "name": "Icakusangulula amashiwi"
+  },
+  "nav": {
+    "library": "Laibulale",
+    "record": "Ukulemba",
+    "import": "Ukuleta",
+    "templates": "Ifyakumwenako",
+    "settings": "Imitantikile",
+    "guide": "Ubutungulushi"
+  },
+  "common": {
+    "save": "Sunga",
+    "saving": "Ukusunga...",
+    "saved": "Icasungwa",
+    "cancel": "Ukukansha",
+    "close": "Isaleni",
+    "delete": "Fuuta",
+    "edit": "Yalula",
+    "create": "Panga",
+    "search": "Ukufwaya",
+    "loading": "Ukubika...",
+    "error": "Icilubo",
+    "retry": "Esheni nakabili",
+    "confirm": "Shininkisheni",
+    "back": "Ukubwelela",
+    "next": "Icakonkapo",
+    "continue": "Twalilileni",
+    "finish": "Ukupwisha",
+    "copy": "Kopa",
+    "copied": "Icakopwa",
+    "download": "Ukukopolola",
+    "upload": "Ukubika",
+    "none": "Tapali",
+    "all": "Bonse",
+    "yes": "Ee",
+    "no": "Awe",
+    "select": "Saleni",
+    "optional": "nga cakutila",
+    "required": "ifilekabilwa",
+    "unsaved_changes": "Ifyakupilibula ifishasungwa",
+    "name": "Ishina",
+    "status": "Icifulo",
+    "type": "Musango",
+    "actions": "Imilimo",
+    "empty": "Tapali nangu cimo",
+    "browse": "Fwayeni",
+    "remove": "Fumyapo",
+    "add": "Lundapo",
+    "rename": "Ukupilibula ishina",
+    "duplicate": "Ukubwekeshapo",
+    "warning": "Ukucenjesha",
+    "locked": "Icaisalwa",
+    "builtin": "Icabikwamo",
+    "custom": "Ukwalinga",
+    "untitled": "Ukwabula umutwe",
+    "select_placeholder": "Saleni..."
+  },
+  "library": {
+    "title": "Laibulale",
+    "subtitle": "Ishiwi lyenu ne milimo ya gitala, ukufuma ku cishinka ukufika ku kufumyapo.",
+    "new_project": "Imilimo iipya",
+    "new_album": "Albamu iyipya",
+    "search_placeholder": "Fwaya mwishina...",
+    "view": {
+      "grid": "Gridi",
+      "albums": "Ama albamu"
+    },
+    "filters": {
+      "all": "Bonse"
+    },
+    "take_count_one": " {{count}} ukupoka",
+    "take_count_other": " {{count}} citwala",
+    "updated_at": "Icalungishiwa {{date}} ",
+    "no_results": {
+      "title": "Tapali imilimo iyasangilwe",
+      "description": "Esheni ukuwamya ukufwaya nangula ifipimo fya mibele."
+    },
+    "empty": {
+      "title": "Laibulale yenu tayakwata nangu cimo",
+      "description": "Tampa umulimo upya ukufuma pa kutendeka, nangu ukuleta ifyo uli nafyo kale pali disk.",
+      "cta_import": "Ukuleta ukufuma mu cibikilo",
+      "cta_new": "Panga umulimo"
+    },
+    "project_dialog": {
+      "title": "Imilimo iipya",
+      "description": "Mupeele ishina no kusalapo inshila ya kulembelamo.",
+      "name_label": "Ishina lya mulimo",
+      "name_placeholder": "icakumwenako Imfula ya Mupepo",
+      "mode_label": "Umusango",
+      "mode": {
+        "voice": "Ishiwi fye",
+        "voice_guitar": "Ishiwi + gitala"
+      },
+      "submit": "Panga umulimo"
+    },
+    "album_dialog": {
+      "title": "Albamu iyipya",
+      "description": "Ibumba lya milimo iyapalana muli albamu.",
+      "name_label": "Ishina lya albamu",
+      "name_placeholder": "icakumwenako EP iya mupepo",
+      "submit": "Panga albamu"
+    },
+    "album": {
+      "untitled": "Albamu iyabula umutwe",
+      "members_count_one": " {{count}} umulimo",
+      "members_count_other": " {{count}} imilimo",
+      "empty": "Tapali imilimo muli iyi albamu nomba.",
+      "delete_confirm_title": "Fuuta albamu?",
+      "delete_confirm_description": "Amaprojekiti tayakafuutwa, lelo yakafumishiwapo fye ukufuma kuli \" {{name}} \"."
+    },
+    "delete_project": {
+      "confirm_title": "Fuuta \" {{name}} \"?",
+      "confirm_description": "Ici cifumyapo umulimo na fyonse ifya kucita muli wene. Ici tekuti cibweshiwemo."
+    }
+  },
+  "record": {
+    "title": "Ukulemba",
+    "subtitle": "Ukupoka ukwa busaka, moneni imilingo yenu, no kukonka ifilembo.",
+    "project_label": "Imilimo",
+    "project_placeholder": "Saleni umulimo",
+    "project_create_quick": "Panga umulimo uwayanguka...",
+    "device_label": "Icibombelo cakwingilishamo",
+    "device_placeholder": "Saleni icibombelo",
+    "device_default_badge": "Imibombele iyabako",
+    "device_wasapi_badge": "WASAPI",
+    "device_empty": "Tapali ifibombelo fyakwingilishamo ifyasangwa.",
+    "monitor_button": "Ukuceeceeta",
+    "monitor_stop_button": "Lekeni ukuceceta",
+    "record_button": "Ukulemba",
+    "stop_button": "Lekeni",
+    "elapsed_label": "Inshita iyapita",
+    "status": {
+      "idle": "Uushabomba",
+      "monitoring": "Ukuceceta",
+      "recording": "Ukulembwa",
+      "stopped": "Yaimikwa"
+    },
+    "meter": {
+      "rms": "RMS",
+      "peak": "Insontelelo",
+      "clip": "Iciputulwa"
+    },
+    "guide": {
+      "title": "Iciputulwa icatungulwilwe",
+      "subtitle": "Lekeni umusambilisha alemutungulula mu citabo intanshi ne nshita, ukufuma ku kucincimusha ukufika ku mashiwi yalandwa.",
+      "loading": "Ukubika ifilembo...",
+      "unavailable": "Iciputulwa icatungulwilwe tacilipo pa cifulo cakutambishishapo.",
+      "select_project_device": "Saleni umulimo ne cibombelo ca kwingilishamo pa kulemba intanshi ukufuma pano.",
+      "progress": " {{done}} iya {{total}} intampulo",
+      "start_timer": "Ukutendeka inshita",
+      "skip_timer": "Luba inshita",
+      "record_step": "Lembeni iyi intanshi",
+      "stop_step": "Lekeni ukulemba",
+      "mark_done": "Napwisha — intanshi iyakonkapo",
+      "step_recorded": "Ukupoka ifyalembwa",
+      "no_record_step": "Intampulo iya kucincimusha — tapali ukulemba ukukabilwa.",
+      "bars_hint": "Mupepi na {{bars}} imipeto",
+      "complete_title": "Ifilembo fyapwa!",
+      "complete_body": "Mwalemba intanshi yonse iya citabo. Bweleleni ku ciputulwa ca Mashiwi aya mulimo no kusalapo ifyo mwatemwa.",
+      "restart": "Tampa nakabili ifilembo"
+    },
+    "best2min": {
+      "button": "Fwayeni amaminiti yabili ayasuma (Suno)",
+      "running": "Ukupituluka mufyo...",
+      "score_label": "Amanombolo",
+      "hint": "Ukubomfya amaka no kufwailisha ukwaumfwika pa nshita yonse iya kusanga iwindo lya iko ilya maka ilya maminiti 2 — kuti walungika umusango ku minwe panuma.",
+      "chart_caption": "Amanombolo pa windo",
+      "unavailable": "Ukupitulukamo ukwa maminiti yabili ukwalinga takulipo pali iyi server nomba."
+    },
+    "takes_title": "Ififumya muli ici ciputulwa",
+    "takes_empty": "Tapali ifyalembwa muli ici ciputulwa nomba.",
+    "open_in_project": "Isuleni mu mulimo",
+    "ws_disconnected": "Ukusuntinkanya nakabili kuli mita ya mulingo...",
+    "select_project_first": "Saleni umulimo pakuti mutendeke.",
+    "select_device_first": "Saleni icibombelo ca kwingilishamo."
+  },
+  "project": {
+    "back_to_library": "Ukubwelela ku laibulale",
+    "header": {
+      "status_label": "Icifulo",
+      "cover_upload": "Ukubika icipampa",
+      "cover_remove": "Fumyapo icipampa",
+      "name_placeholder": "Ishina lya mulimo",
+      "links_title": "Amalinki",
+      "add_link": "Lundako ukusuntinkanya",
+      "mode": {
+        "voice": "Ishiwi fye",
+        "voice_guitar": "Ishiwi + gitala"
+      }
+    },
+    "tabs": {
+      "audio": "Amashiwi",
+      "lyrics": "Amashiwi ya nyimbo",
+      "prompts": "Ifipusho",
+      "notes": "Ifilembo"
+    },
+    "audio": {
+      "takes_title": "Ifitwala",
+      "no_takes": {
+        "title": "Tapali ifyakutwala nomba",
+        "description": "Lembeni ifipya nangu ukuleta failo iyabako."
+      },
+      "record_new": "Lembeni ukupoka ukupya",
+      "rating": "Ukupima",
+      "variant": {
+        "raw": "Icibi",
+        "processed": "Icabomfiwa"
+      },
+      "variant_placeholder": "Umusango",
+      "process_button": "Inshila",
+      "export_button": "Ukutuma kunse",
+      "delete_take_confirm_title": "Fumyeni uku kusenda?",
+      "delete_take_confirm_description": "Amashiwi ayatuntulu na yonse ayabomfiwa yakafumiishiwapo.",
+      "ab": {
+        "raw": "A · Icibi",
+        "processed": "B · Yabombelwepo"
+      },
+      "origin": {
+        "recorded": "Ifyalembwa",
+        "imported": "Ifiletwa kunse"
+      },
+      "session_label_placeholder": "Icilangililo ca nshita (nga mulefwaya)",
+      "duration": "Inshita",
+      "sample_rate": "Icipimilo ca cilangililo",
+      "channels": "Imitantikile",
+      "created_at": "Ifyalembwa"
+    },
+    "pipeline": {
+      "title": "Ukupanga umutande",
+      "preset_label": "Ukubikwa kale",
+      "preset_none": "Umunyololo uwapangwa",
+      "preset_save": "Sunga ngefyo twabika kale",
+      "stage_locked": "Icaisalwa",
+      "stage_requires_extra": "Icilekabila icalundwapo icishibikwe",
+      "process_button": "Ukubomfya inshila",
+      "processing": "Ukubombela pa...",
+      "job_queued": "Ukutantikwa...",
+      "job_running": "Ukubombela pa...",
+      "job_done": "Napwisha",
+      "job_error": "Cafilwa",
+      "job_cancelled": "Cakanshiwa",
+      "cancel_job": "Ukukansha",
+      "no_stages": "Tapali amastaji ayasangwa."
+    },
+    "export": {
+      "title": "Ukutwala kunse",
+      "description": "Ukupanga failo iyakulekelesha ukufuma ku musango wabomfiwa.",
+      "variant_label": "Umusango",
+      "format_label": "Imipangilwe",
+      "preset_label": "Ukutuma kunse ukwabikwa kale",
+      "range_label": "Umusango",
+      "range_full": "Ubutali bonse",
+      "range_custom": "Umusango uwalinga",
+      "start_label": "Ukutendeka (ama)",
+      "end_label": "Ukulekelesha",
+      "submit": "Ukutuma kunse",
+      "progress": "Ukulangisha failo...",
+      "download_ready": "Fayelo naipekanishiwa",
+      "download_button": "Kopa failo"
+    },
+    "notes": {
+      "placeholder": "Ifilembo ifyabula ukulipilisha pali iyi projekiti...",
+      "saved_at": "Icasungwa pa {{time}} "
+    },
+    "lyrics": {
+      "placeholder": "Lembeni amashiwi ya nyimbo pano. Bomfyeni paleti pa mbali ku kubikamo ifishibilo fya Suno.",
+      "saved_at": "Icasungwa pa {{time}} ",
+      "saving": "Ukusunga...",
+      "versions": "Imisango",
+      "versions_empty": "Tapali imisango iyasungilwe nomba.",
+      "version_preview": "Ukumona",
+      "restore": "Bwesheni iyi misango",
+      "restore_confirm_title": "Bushe kuti mwabwesesha iyi misango?",
+      "restore_confirm_description": "Ifilembo ifya nomba fikapilibulwa ne misango iyasungilwe pa {{date}} .",
+      "metatags_title": "Ifilembo ifikulu",
+      "metatags_hint": "Tinikeni pa cishibilo pakuti mucibike pa cishibilo.",
+      "metatags_placebo_warning": "Icashininkishiwa — tekuti cibe na maka pa fyasangwa.",
+      "metatags_empty": "Tapali ama-tag ayalembeshiwa."
+    },
+    "prompts": {
+      "style_title": "Umusango wa bwangu",
+      "lyrics_title": "Amashiwi ya bwangu",
+      "template_label": "Icilangililo",
+      "template_none": "Tapali icakumwenako",
+      "variables_title": "Ifyapusana",
+      "preview_title": "Ukumona",
+      "preview_empty": "Salapo icilangililo no kwisulamo ifyapusana pakuti umone ifyakukonkapo.",
+      "char_count": " {{count}} ifishibilo",
+      "char_count_warning": "Imisango ya fikomo ukucila pa malembo 1000 kuti yaputulwa na Suno.",
+      "copy": "Kopa",
+      "copied": "Yakopwa pa cipampa cakubikapo",
+      "save_to_project": "Sungeni ku projekiti",
+      "saved_to_project": "Icasuminishiwe ukusungwa ku projekiti",
+      "history_title": "Ilyashi lya kale",
+      "history_empty": "Tapali imisango iyapitapo.",
+      "current_label": "Ica nomba"
+    },
+    "stems": {
+      "title": "Amashiwi na gitala",
+      "separate_button": "Amashiwi ayapusana na gitala",
+      "running": "Ukupalanisha...",
+      "vocals": "Amashiwi",
+      "instrumental": "Ifibombelo",
+      "process_stem": "Bombeleni pali ici cimuti",
+      "empty": "Uku kutwala takwapaatulwepo nomba. Ukubutuka ukulekanalekana ku kumfwa amashiwi na gitala mu kupaatukana.",
+      "capability_missing": "Ukupaatukanya intuntuko takubikwa pali iyi server.",
+      "unavailable": "Ukupaatukanya kwa mashiwi/igitala takulipo pali iyi server nomba."
+    }
+  },
+  "pipeline_stage_params": {
+    "boolean_on": "Pa",
+    "boolean_off": "Ukufumina"
+  },
+  "import": {
+    "title": "Ukuleta",
+    "subtitle": "Leteni imilimo iyabapo kale pali diski mu laibulale.",
+    "step_indicator": "Step {{current}} of {{total}}",
+    "step1": {
+      "title": "Fwayeni icibikilo",
+      "description": "Langisheni ku citabo ca mishi ne milimo yenu ne mibele.",
+      "path_label": "Inshila ya cibikilo",
+      "path_placeholder": "icakumwenako E:\\Robbs\\Icilumba\\Inyimbo\\Robbs",
+      "recent_label": "Ica nombaline",
+      "scan_button": "Ukufwailisha icibikilo",
+      "scanning": "Ukufwailisha...",
+      "ffmpeg_warning": "FFmpeg tayasangilwe — amafailo ayalekabila ukupilibula yakapuutwamo.",
+      "folders_found_one": " {{count}} icikope casangwa",
+      "folders_found_other": " {{count}} amafoda yasangwa",
+      "unmatched_files_one": " {{count}} failo iishibikwe",
+      "unmatched_files_other": " {{count}} amafailo ayashiishibikwa"
+    },
+    "step2": {
+      "title": "Ukupituluka mufintu",
+      "description": "Moneni amashina, imibele, na ifyo fikaletwa ilyo tamulashininkisha.",
+      "select_all": "Saleni fyonse",
+      "table": {
+        "folder": "Intuntuko ya folda",
+        "name": "Ishina lya mulimo",
+        "status": "Icifulo",
+        "audio": "Amashiwi",
+        "lyrics": "Amashiwi ya nyimbo",
+        "cover": "Icipampa",
+        "album": "Albamu"
+      },
+      "audio_include_one": " {{count}} failo iyasalilwe",
+      "audio_include_other": " {{count}} amafailo ayasalilwe",
+      "no_audio": "Tapali amashiwi ayasangwa",
+      "no_lyrics": "Tapali amashiwi ayasangilwe",
+      "no_cover": "Tapali ica kufimbapo",
+      "warnings_title": "Ifisoko"
+    },
+    "step3": {
+      "title": "Ukuleta",
+      "description": "Shininkisheni ukukopa amafailo no kupanga imilimo.",
+      "copy_originals": "Kopa amafailo aya cine cine mu laibulale",
+      "execute_button": "Ukutendeka ukuleta",
+      "progress_title": "Ukuleta...",
+      "created_count": "Icapangwa: {{count}} ",
+      "skipped_count": "Icalundwako: {{count}} ",
+      "done_title": "Ukuleta kwapwa",
+      "done_description": "Imilimo ili pesamba yapangilwe mu laibulale yenu.",
+      "view_project": "Isuleni umulimo",
+      "start_over": "Ukuleta ifipya"
+    }
+  },
+  "templates": {
+    "title": "Ifyakumwenako",
+    "subtitle": "Ifilangililo ifyakubomfya nakabili na ifishibilo fya Suno.",
+    "tabs": {
+      "prompts": "Ifilangililo fya bwangu",
+      "metatags": "Ifilembo ifikulu"
+    },
+    "new_template": "Icilangililo icipya",
+    "kind": {
+      "style": "Umusango",
+      "lyrics": "Amashiwi ya nyimbo"
+    },
+    "kind_label": "Umutembo",
+    "delete_confirm_title": "Fumyeni icilangililo \" {{name}} \"?",
+    "delete_confirm_description": "Ici tekuti cibweshiwemo.",
+    "empty": "Tapali ifilangililo nomba.",
+    "editor": {
+      "title_new": "Icilangililo icipya",
+      "title_edit": "Yalula icilangililo",
+      "name_label": "Ishina",
+      "name_placeholder": "icakumwenako Inyimbo sha mawi",
+      "kind_label": "Umutembo",
+      "template_label": "Ifilembo fya cilangililo",
+      "template_hint": "Shininkisheni apo cila cipusho ciba ne shina lya ciko ilyafimbwa mu fipimo fibili ifyakunkumuka — ku cakumwenako, icapusana icitwa \"umusango\" ciba umusango wafimbwa mu fipimo fibili ifya kwisula na fibili ifya kwisala.",
+      "variables_label": "Ifyapusana",
+      "variable_add": "Lundako ifipusenepusene",
+      "variable_name": "Icifungulo",
+      "variable_label": "Icishibilo",
+      "variable_type": "Musango",
+      "variable_type_string": "Ifilembo",
+      "variable_type_select": "Ukusalapo kamo",
+      "variable_type_multiselect": "Ukusala ifingi",
+      "variable_type_number": "Inamba",
+      "variable_type_boolean": "Ee/awe",
+      "variable_options": "Ifyakusalapo (ifyapusanapusana na koma)",
+      "variable_required": "Icilekabilwa",
+      "save": "Sunga icakumwenako"
+    },
+    "metatags": {
+      "title": "Ifilembo ifikulu",
+      "subtitle": "Ama tag ya mipangilwe ne mibele Suno aishiba mu kati ka mashiwi.",
+      "new_tag": "Icishibilo icipya",
+      "tag_label": "Icishibilo",
+      "tag_placeholder": "icakumwenako gitala-eka",
+      "category_label": "Iciputulwa",
+      "tier_label": "Ukucetekelwa",
+      "tier_legend_title": "Ilyashi lya kale ilya kucetekelwa",
+      "tier_legend": {
+        "1": "Iciputulwa 1 — icalembelwe kabili icakonkana",
+        "2": "Iciputulwa 2 — ilingi line cilabomba",
+        "3": "Iciputulwa 3 — ififumamo ifyapusana",
+        "4": "Iciputulwa 4 — umuti wa kulesha, uushashininkishiwa"
+      },
+      "description_label": "Ubulondoloshi",
+      "delete_confirm_title": "Fumyeni icilangililo \" {{tag}} \"?",
+      "empty": "Tapali ifishibilo fyakupanga ifyakupanga nomba."
+    }
+  },
+  "settings": {
+    "title": "Imitantikile",
+    "subtitle": "Amashiwi ya mibombele, ululimi, nefyo mulefwaya.",
+    "system_info_title": "Inshila",
+    "version": "Umusango",
+    "data_dir": "Icibikilo ca mashiwi",
+    "ffmpeg_status": "FF",
+    "ffmpeg_available": "Ifisangwa",
+    "ffmpeg_missing": "Tacisangilwe",
+    "capabilities_title": "Amaka ayabikwa",
+    "capability": {
+      "denoise": "Ukucefyako icimfulunganya",
+      "quality": "Ukuwamya ubusuma",
+      "separate": "Ukwakanya intuntuko",
+      "ffmpeg": "Ukupilibula kwa FFmpeg"
+    },
+    "capability_available": "Ifisangwa",
+    "capability_unavailable": "Tacisangwa",
+    "gpu_title": "Ukubutukisha kwa GPU",
+    "gpu": {
+      "torch_cuda": "Icilangililo ca CUDA",
+      "ort_providers": "Abapeela inshita ya kubomba iya ONNX"
+    },
+    "gpu_none": "Tapali abapeela GPU abasangilwe",
+    "language_title": "Ululimi",
+    "language": {
+      "pt-BR": "IciPutukezi (IciBrazil)",
+      "en": "IciNgeleshi"
+    },
+    "theme_title": "Imimonekele",
+    "theme": {
+      "dark": "Icififi",
+      "light": "Ubushiku"
+    },
+    "defaults_title": "Ukutuma kunse",
+    "lufs_target_label": "Ukufwaya LUFS",
+    "lufs_target_hint": "Ukubomfiwa nga ukupanda amano kwa kutendekelako ilyo ukutuma kunse kutwala. Ukucilapo kwa Suno kwaikala mupepi na -14 LUFS.",
+    "saved": "Ifyo mwatemwa fyasungwa"
+  },
+  "guide": {
+    "title": "Ubutungulushi bwakulembwa ubwa Suno",
+    "subtitle": "Uko ukukwata ishiwi na gitala kutwala ifyo ukusanga ifisuma.",
+    "intro": "Suno ilabomba bwino nga nshi ne fishinka fya busaka, ifyabula ukutwishika. Ici citabo cilanda pa kuipekanya, ifipimo fya kufwaya, na maminiti 3-5 aya kulemba ifyalembwa.",
+    "sections": {
+      "prep": {
+        "title": "Ukuipekanya",
+        "body": "Lembeni mu muputule uwaposhiwa nelyo umo uwakwata ifintu ifingi ifyakunkumuka (amatenti, ifipe, ifya kufwala mu cipe). Zima ama fans na fyonse ifileumfwika. Ukufuuta ishiwi lyenu pa maminiti 5 ilyo tamulalemba."
+      },
+      "levels": {
+        "title": "Imitantikile: -12 ukufika kuli -6",
+        "body": "Ukufwaya intanshi pakati ka -12 na -6 dBFS pali mita. Panshi ya uyo mushinku, ukulila kwa ku numa kulamonwa sana; pa muulu wa iko, ukucefyako ubusanso bwakulilako. Bomfyeni mita pe buula lya Kulemba pa kubika ubunonshi bwenu ilyo tamulatendeka."
+      },
+      "distance": {
+        "title": "Ubutali bwa mic: 15-30 cm",
+        "body": "Ube amasentimita 15 ukufika kuli 30 ukufuma kuli maikrofoni. Ukupalamina ukucila pali ifyo kulacilapo ukucincimusha no kupalamina; ukutali ukubuula ukucilapo ukubilikisha kwa muputule no kulila."
+      },
+      "script": {
+        "title": "Ifilembo fyakukopa",
+        "warmup": "Ukufuuta amashiwi (amaminiti 1-2)",
+        "vowels": "Amavowele ayasuminishiwa - a, e, ine, o, u",
+        "scales": "Imipikile iyayanguka, ukuya mu mulu na panshi",
+        "excerpt": "Iciputulwa ca lwimbo (amabara 8 ukufika kuli 16)",
+        "dynamics": "Ukupilibuka: ukutendeka ukwayanguka, ukupwisha ukwakulisha",
+        "spoken_phrase": "Ishiwi limo ilyalandwa, pakuti Suno engabelenga ishiwi lyenu"
+      },
+      "expectations": {
+        "title": "Ico Suno aleenekela .",
+        "body": "WAV, 48 kHz, umo, uwauma (tapali ukubwekeshapo nelyo ififumamo), amaminiti 3 ukufika kuli 5 aya kulanga. Amaminiti 2 aya busaka, ayaimikilila sana aya kutwala ilingi line yaleta ifyafumamo ifisuma."
+      }
+    }
+  },
+  "status": {
+    "idea": "Icitontonkanyo",
+    "em_progresso": "Mukukonkanyapo",
+    "quase": "Mupepi na kulya",
+    "pronto": "Ukuiteyanya"
+  },
+  "scripts": {
+    "suno_voice_full": {
+      "name": "Ifilembo fyonse ifya mashiwi aya kwa Suno",
+      "desc": "Amaminiti 5 ayatungululwa: ukufuuta, amavowele, ifipimo, ifiputulwa fibili ifya nyimbo, ukucincimuka, ne shiwi lyalandwa."
+    },
+    "step": {
+      "warmup": "Ukufuuta amashiwi",
+      "warmup_inst": "Ukufuuta no kupopomenwa, ukupopomenwa kwa milomo (brrr), no kupopomenwa ukwafuuka pa mineti imo. Takuli ukukabila ukulemba — ni pa kutuusha fye umukoshi obe ilyo ushilaimba.",
+      "vowels": "Amavowele ayasuminishiwa",
+      "vowels_inst": "Ukusenda cila cikomo — a, e, i, o, u — pa masekondi 3 ukufika kuli 4 pa cipimo cenu icalinga, ne ciunda icashintilila. Ici cilafwilisha Suno ukupoka umusango wa busaka uwa mashiwi yenu.",
+      "scales": "Imipikile ukuya mu mulu na panshi",
+      "scales_inst": "Imbilani icipimo icayanguka ukuya mu mulu elyo panshi, pali \"la\" nangu \"na\". Tacilekabila ukuba icapwililika — icifiko ca kupanga mapu wa mashiwi yenu.",
+      "section": "Iciputulwa ca lwimbo — iciputulwa 1",
+      "section_inst": "Imbilani amabara 8 ukufika kuli 16 aya lwimbo, ne nshita ya cine cine iyo mulefwaya ukusokolola. Ukubika pa ntanshi ukusokolola no kubapo ukucila ukufikilishiwa kwa mibombele.",
+      "section2": "Iciputulwa ca lwimbo — iciputulwa 2",
+      "section2_inst": "Imbilani na fimbi 8 ukufika kuli 16 — nga calinga ukuimbila inyimbo nelyo iciputulwa icapusanako kuli icapita. Ukulekanalekana ukwafulilako kulaafwa umusango ukusambilila ishiwi lyenu.",
+      "dynamics": "Ukupilibuka: ukwafuuka → ukwakulisha",
+      "dynamics_inst": "Imbilani amashiwi yamo yene ukutendeka mu kucenjela nga nshi no kupwisha mu kwangufyanya, ukwabula ukukosa umukoshi wenu. Ici cilanga Suno umusango wa mashiwi yenu ayacindama.",
+      "spoken": "Amashiwi yalandwa",
+      "spoken_inst": "Landa — mwimba — amashiwi ayapiipi, aya cifyalilwa, nga ca kuti mulelanshanya. Ici cilafwilisha Suno ukwishiba umusango wa cine cine uwa ishiwi lyenu."
+    }
+  },
+  "stages": {
+    "category": {
+      "restoration": "Ukubweseshamo",
+      "filter": "Ifyakusefa",
+      "dynamics": "Ukupilibuka",
+      "separation": "Ukupaatukana",
+      "quality": "Ubusuma",
+      "utility": "Ifyakubomfya",
+      "loudness": "Ukubilikisha"
+    },
+    "highpass": "Sefa iyapita pamulu",
+    "lowpass": "Sefa iyapita panshi",
+    "denoise": "Ukucefyako icimfulunganya",
+    "declip": "Ukufumyapo",
+    "declick": "Tinikeni/ukufumyapo",
+    "deesser": "Ukufumyapo",
+    "gate": "Icipata ca ciunda",
+    "compressor": "Kompresa",
+    "limiter": "Icipimilo",
+    "eq": "Ukulinganisha",
+    "normalize": "Ukuwamya kwa pamulu",
+    "loudness": "Ukuwamya kwakulisha (LUFS)",
+    "reverb_reduce": "Ukucefyako ukubwekeshapo",
+    "separate": "Ukwakanya intuntuko",
+    "quality": "Ukuwamya ubusuma (ukwakulisha)",
+    "trim_silence": "Ukucefyako ukuceceta",
+    "fade": "Ukufuminamo / ukufuminamo",
+    "stereo_to_mono": "Yalula kuli mono",
+    "resample": "Ukubwekeshapo"
+  },
+  "metatags": {
+    "tier": {
+      "1": "Ukucetekelwa",
+      "2": "Ilingi line ilabomba",
+      "3": "Ifyakupilibula",
+      "4": "Icipe ca miti"
+    },
+    "category": {
+      "structure": "Imipangile",
+      "vocal": "Ishiwi",
+      "instrument": "Icibombelo",
+      "dynamics": "Ukupilibuka",
+      "production": "Ukupanga",
+      "mood": "Imibele"
+    },
+    "verse": "Icikomo",
+    "chorus": "Inyimbo",
+    "bridge": "Ubushiku",
+    "intro": "Intanshi",
+    "outro": "Ukufuma",
+    "hook": "Icikoko",
+    "prechorus": "Ukukonkanyapo ukuimbila",
+    "instrumental": "Ifibombelo",
+    "guitar_solo": "Gitala eka",
+    "build_up": "Ukupanga",
+    "breakdown": "Ukuonaula",
+    "spoken_word": "Ishiwi lyalandwa",
+    "whispered": "Ukufuuta",
+    "harmonies": "Ukuumfwana",
+    "male_vocal": "Ishiwi lya mwaume",
+    "female_vocal": "Ishiwi lya mwanakashi",
+    "duet": "Ukubilisha",
+    "acoustic": "Amashiwi",
+    "ad_lib": "Icitabo cakusabankanya"
+  },
+  "presets": {
+    "clean_voice": "Ishiwi ilya busaka",
+    "voice_guitar_balanced": "Ishiwi lyalinga na gitala",
+    "podcast": "Ukutambisha",
+    "suno_ready": "Suno aliiteyanya",
+    "gentle_restore": "Ukubweseshamo mutembo",
+    "raw_passthrough": "Tapali ukubombela"
+  },
+  "errors": {
+    "unknown": "Pali fimo ifyalubene.",
+    "network": "Teti ifike ku cibikilo.",
+    "validation_error": "Moneni ifyebo mwalemba.",
+    "not_found": "Icintu tacisangilwe.",
+    "project_not_found": "Imilimo tayasangilwe.",
+    "take_not_found": "Ukupoka takwasangilwe.",
+    "album_not_found": "Albamu tayasangilwe.",
+    "preset_not_found": "Ukubika kale takwasangilwe.",
+    "template_not_found": "Icilangililo tacisangilwe.",
+    "device_busy": "Icipe ca kuumfwako cibomfiwa na programu umbi.",
+    "device_not_found": "Icibombelo ca mawi tacisangilwe.",
+    "already_recording": "Ukulembwa kuli kale mu kucita.",
+    "ffmpeg_missing": "FFmpeg tayabikwa — ibikeni pakuti mupilibule iyi failo.",
+    "disk_full": "Tapali incende iyalinga iya disk.",
+    "permission_denied": "Ukusuminisha kwakanishiwa pa nshila yapeelwe.",
+    "import_path_not_found": "Inshila iya kwingililamo tayasangilwe.",
+    "job_failed": "Ukubombelapo kwafilwa.",
+    "job_cancelled": "Ukubombelapo kwafuminepo.",
+    "process_failed": "Cafilwa ukubombela pa kutwala.",
+    "export_failed": "Cafilwa ukutuma failo kunse.",
+    "record_failed": "Cafilwa ukutendeka ukulemba."
+  },
+  "jobs": {
+    "status": {
+      "queued": "Ukutantikwa",
+      "running": "Ukubutuka",
+      "done": "Napwisha",
+      "error": "Cafilwa",
+      "cancelled": "Cakanshiwa"
+    },
+    "kind": {
+      "process": "Ukubombelapo",
+      "export": "Ukutuma kunse",
+      "import": "Ukuleta",
+      "record": "Ukulembwa"
+    }
+  }
+}
