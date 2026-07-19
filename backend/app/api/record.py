@@ -9,15 +9,27 @@ from __future__ import annotations
 
 from typing import Annotated, Any
 
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, Form, UploadFile
 from pydantic import BaseModel
 
 from app.core.devices import list_input_devices, probe_device
 from app.core.recorder import RecorderService, get_recorder
+from app.core.upload import save_upload_as_take
 from app.deps import get_library
 from app.errors import AppError
 
 router = APIRouter(tags=["record"])
+
+# extensão a passar pro ffmpeg conforme o mime que o navegador gravou
+_MIME_SUFFIX = {
+    "audio/webm": ".webm",
+    "audio/ogg": ".ogg",
+    "audio/mp4": ".mp4",
+    "audio/mpeg": ".mp3",
+    "audio/wav": ".wav",
+    "audio/x-wav": ".wav",
+    "audio/aac": ".aac",
+}
 
 
 class RecordStartRequest(BaseModel):
@@ -99,3 +111,32 @@ def record_stop(
 @router.get("/record/status")
 def record_status(recorder: Annotated[RecorderService, Depends(get_recorder)]) -> dict:
     return recorder.status()
+
+
+@router.post("/record/upload")
+async def record_upload(
+    library: Annotated[Any, Depends(get_library)],
+    file: UploadFile,
+    project_id: Annotated[str, Form()],
+    session_label: Annotated[str | None, Form()] = None,
+) -> dict:
+    """Grava um take a partir de áudio capturado NO NAVEGADOR (celular/desktop remoto).
+
+    O front captura via getUserMedia/MediaRecorder e faz upload; convertemos para
+    WAV 48k mono aqui. Este é o caminho de gravação quando o servidor é remoto
+    (o mic é do cliente, não do servidor)."""
+    library.get_project(project_id)  # 404 cedo se o projeto não existe
+    suffix = _MIME_SUFFIX.get((file.content_type or "").split(";")[0].strip(), ".webm")
+    raw = await file.read()
+    if not raw:
+        raise AppError("empty upload", code="EMPTY_UPLOAD", http_status=400,
+                       message_key="errors.empty_upload")
+    try:
+        return save_upload_as_take(library, project_id, raw, suffix=suffix,
+                                   session_label=session_label)
+    except RuntimeError as exc:
+        if str(exc) == "ffmpeg_missing":
+            raise AppError("ffmpeg required", code="FFMPEG_MISSING", http_status=409,
+                           message_key="errors.ffmpeg_missing") from exc
+        raise AppError(str(exc), code="DECODE_FAILED", http_status=400,
+                       message_key="errors.decode_failed") from exc

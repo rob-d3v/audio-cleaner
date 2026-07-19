@@ -8,7 +8,8 @@
     "import": "Import",
     "templates": "Templates",
     "settings": "Settings",
-    "guide": "Guide"
+    "guide": "Guide",
+    "open_menu": "Open menu"
   },
   "common": {
     "save": "Save",
@@ -126,6 +127,12 @@
     "device_default_badge": "System default",
     "device_wasapi_badge": "WASAPI",
     "device_empty": "No input devices found.",
+    "mode": {
+      "label": "Recording",
+      "browser": "This device (browser)",
+      "native": "Server (native)",
+      "native_unavailable_hint": "Only available when the app runs on the same machine as the server."
+    },
     "monitor_button": "Monitor",
     "monitor_stop_button": "Stop monitoring",
     "record_button": "Record",
@@ -174,7 +181,17 @@
     "open_in_project": "Open in project",
     "ws_disconnected": "Reconnecting to the level meter…",
     "select_project_first": "Choose a project to get started.",
-    "select_device_first": "Choose an input device."
+    "select_device_first": "Choose an input device.",
+    "browser": {
+      "mic_label": "Microphone",
+      "mic_placeholder": "Choose a microphone",
+      "mic_default": "System default",
+      "mic_unnamed": "Microphone {{index}}",
+      "unsupported_title": "Browser recording isn't available here",
+      "unsupported_body": "Your browser doesn't support in-browser microphone capture.",
+      "uploading": "Uploading…",
+      "upload_success": "Take uploaded"
+    }
   },
   "project": {
     "back_to_library": "Back to library",
@@ -616,7 +633,12 @@
     "job_cancelled": "Processing was cancelled.",
     "process_failed": "Failed to process the take.",
     "export_failed": "Failed to export the file.",
-    "record_failed": "Failed to start recording."
+    "record_failed": "Failed to start recording.",
+    "insecure_context": "Browser recording needs HTTPS (or localhost) — mic access is blocked on insecure connections.",
+    "mic_denied": "Microphone access was denied. Allow it in your browser settings and try again.",
+    "no_mic": "No microphone was found.",
+    "empty_upload": "The recording came out empty — try again.",
+    "decode_failed": "Couldn't process the uploaded audio."
   },
   "jobs": {
     "status": {

@@ -154,14 +154,12 @@ export default function ImportWizardPage() {
           {scanResult && !scanResult.ffmpeg_available && (
             <p className="text-xs text-caution">{t("import.step1.ffmpeg_warning")}</p>
           )}
-          <div className="overflow-hidden rounded-xl border border-border">
-            <ReviewTable items={items} onChange={handleItemChange} albums={albumsQuery.data ?? []} />
-          </div>
+          <ReviewTable items={items} onChange={handleItemChange} albums={albumsQuery.data ?? []} />
           <div className="flex items-center justify-between">
-            <Button variant="outline" onClick={() => setStep(1)}>
+            <Button variant="outline" onClick={() => setStep(1)} className="h-11 md:h-8">
               <ChevronLeft /> {t("common.back")}
             </Button>
-            <Button onClick={() => setStep(3)} disabled={selectedCount === 0}>
+            <Button onClick={() => setStep(3)} disabled={selectedCount === 0} className="h-11 md:h-8">
               {t("common.next")} <ChevronRight />
             </Button>
           </div>
@@ -179,13 +177,14 @@ export default function ImportWizardPage() {
             executing={executeMutation.isPending}
           />
           {!executeJobId && (
-            <Button variant="outline" onClick={() => setStep(2)}>
+            <Button variant="outline" onClick={() => setStep(2)} className="h-11 md:h-8">
               <ChevronLeft /> {t("common.back")}
             </Button>
           )}
           {executeJobId && (
             <Button
               variant="outline"
+              className="h-11 md:h-8"
               onClick={() => {
                 setStep(1);
                 setScanResult(null);

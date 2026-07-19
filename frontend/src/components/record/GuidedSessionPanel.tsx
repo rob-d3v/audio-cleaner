@@ -19,13 +19,14 @@ import { Progress } from "@/components/ui/progress";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { useScripts, useScript } from "@/api/hooks/useScripts";
-import { useStartRecording, useStopRecording } from "@/api/hooks/useRecord";
+import { useStartRecording, useStopRecording, useUploadTake } from "@/api/hooks/useRecord";
 import { usePatchTake } from "@/api/hooks/useTakes";
 import { useRecordStore } from "@/store/recordStore";
 import { ApiError } from "@/api/client";
 import { tFallback } from "@/lib/labels";
 import { cn } from "@/lib/utils";
 import type { ScriptStep } from "@/api/types";
+import type { UseBrowserRecorderResult } from "@/hooks/useBrowserRecorder";
 
 function formatCountdown(totalSeconds: number): string {
   const s = Math.max(0, Math.round(totalSeconds));
@@ -39,11 +40,16 @@ export function GuidedSessionPanel({
   deviceId,
   canRecord,
   onTakeRecorded,
+  recorderMode,
+  browserRecorder,
 }: {
   projectId: string | null;
   deviceId: number | null;
   canRecord: boolean;
   onTakeRecorded?: (takeId: string) => void;
+  /** Which recorder engine backs the per-step record button. */
+  recorderMode: "native" | "browser";
+  browserRecorder: UseBrowserRecorderResult;
 }) {
   const { t } = useTranslation();
   const scriptsQuery = useScripts();
@@ -64,7 +70,13 @@ export function GuidedSessionPanel({
   const phase = useRecordStore((s) => s.phase);
   const startRecording = useStartRecording();
   const stopRecording = useStopRecording();
+  const uploadTake = useUploadTake();
   const patchTake = usePatchTake(projectId ?? "");
+
+  // Unified "is a recording in flight" / "engine is free" reads, regardless
+  // of which recorder (server WS-driven, or browser MediaRecorder) is live.
+  const engineIdle = recorderMode === "browser" ? browserRecorder.state === "idle" : phase === "idle";
+  const engineRecording = recorderMode === "browser" ? browserRecorder.state === "recording" : phase === "recording";
 
   // Fall back to the first script the server actually offers if the default
   // id isn't present (or once the list loads and the default is wrong).
@@ -136,15 +148,42 @@ export function GuidedSessionPanel({
     setTimerLeft(0);
   };
 
-  const handleRecordStep = (step: ScriptStep) => {
-    if (!projectId || deviceId === null) return;
+  const handleRecordStep = async (step: ScriptStep) => {
+    if (!projectId) return;
+    if (recorderMode === "browser") {
+      try {
+        await browserRecorder.start();
+        setRecordingStepId(step.id);
+      } catch {
+        toast.error(t(browserRecorder.errorKey ?? "errors.unknown"));
+      }
+      return;
+    }
+    if (deviceId === null) return;
     startRecording.mutate(
       { project_id: projectId, device_id: deviceId },
       { onSuccess: () => setRecordingStepId(step.id), onError: handleError },
     );
   };
 
-  const handleStopStep = (step: ScriptStep) => {
+  const handleStopStep = async (step: ScriptStep) => {
+    if (recorderMode === "browser") {
+      const result = await browserRecorder.stop();
+      setRecordingStepId(null);
+      if (!result || !projectId) return;
+      uploadTake.mutate(
+        { file: result.blob, projectId, sessionLabel: `${scriptId}:${step.id}`, mimeType: result.mimeType },
+        {
+          onSuccess: (take) => {
+            setStepTakeIds((prev) => ({ ...prev, [step.id]: take.take_id }));
+            onTakeRecorded?.(take.take_id);
+            markStepDone(step.id);
+          },
+          onError: handleError,
+        },
+      );
+      return;
+    }
     stopRecording.mutate(undefined, {
       onSuccess: (res) => {
         setRecordingStepId(null);
@@ -252,8 +291,8 @@ export function GuidedSessionPanel({
           {steps.map((step, idx) => {
             const isDone = doneStepIds.has(step.id);
             const isCurrent = step.id === currentStepId;
-            const isThisStepRecording = phase === "recording" && recordingStepId === step.id;
-            const canRecordThisStep = canRecord && (phase === "idle" || isThisStepRecording);
+            const isThisStepRecording = engineRecording && recordingStepId === step.id;
+            const canRecordThisStep = canRecord && (engineIdle || isThisStepRecording);
 
             return (
               <AccordionItem key={step.id} value={step.id}>
@@ -298,6 +337,7 @@ export function GuidedSessionPanel({
                           onClick={handleStartTimer}
                           disabled={timerRunning}
                           title={t("record.guide.start_timer")}
+                          className="size-11 md:size-7"
                         >
                           <Play />
                         </Button>
@@ -308,6 +348,7 @@ export function GuidedSessionPanel({
                           onClick={handleSkipTimer}
                           disabled={!timerRunning && timerLeft === 0}
                           title={t("record.guide.skip_timer")}
+                          className="size-11 md:size-7"
                         >
                           <SkipForward />
                         </Button>
@@ -321,8 +362,12 @@ export function GuidedSessionPanel({
                             type="button"
                             size="sm"
                             onClick={() => handleStopStep(step)}
-                            disabled={stopRecording.isPending}
-                            className="gap-1.5 bg-alert text-alert-foreground hover:bg-alert/90"
+                            disabled={
+                              recorderMode === "browser"
+                                ? browserRecorder.state === "stopping" || uploadTake.isPending
+                                : stopRecording.isPending
+                            }
+                            className="h-9 gap-1.5 bg-alert text-alert-foreground hover:bg-alert/90 md:h-7"
                           >
                             <Square className="size-3 fill-current" /> {t("record.guide.stop_step")}
                           </Button>
@@ -331,15 +376,18 @@ export function GuidedSessionPanel({
                             type="button"
                             size="sm"
                             onClick={() => handleRecordStep(step)}
-                            disabled={!canRecordThisStep || startRecording.isPending}
-                            className="gap-1.5 bg-alert text-alert-foreground hover:bg-alert/90"
+                            disabled={
+                              !canRecordThisStep ||
+                              (recorderMode === "browser" ? browserRecorder.state === "requesting" : startRecording.isPending)
+                            }
+                            className="h-9 gap-1.5 bg-alert text-alert-foreground hover:bg-alert/90 md:h-7"
                           >
                             <Disc className="size-3" /> {t("record.guide.record_step")}
                           </Button>
                         )
                       ) : (
                         !isDone && (
-                          <Button type="button" size="sm" variant="outline" onClick={() => markStepDone(step.id)} className="gap-1.5">
+                          <Button type="button" size="sm" variant="outline" onClick={() => markStepDone(step.id)} className="h-9 gap-1.5 md:h-7">
                             <CheckCircle2 className="size-3.5" /> {t("record.guide.mark_done")}
                           </Button>
                         )

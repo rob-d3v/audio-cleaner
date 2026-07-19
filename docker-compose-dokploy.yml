@@ -1,0 +1,52 @@
+# Deploy do Audio Cleaner no VPS (Dokploy + Traefik + Swarm, ARM64).
+# Container único: FastAPI serve a SPA + API na porta 8000.
+# Env (${...}) é preenchido pelo Dokploy (aba Environment):
+#   AC_DOMAIN        = audio.aniamodels.shop
+#   AC_DOMAIN_SSLIP  = audio.64-181-172-102.sslip.io   (HTTPS imediato, sem DNS)
+#   AC_BASIC_AUTH    = usuario:HASH_apr1   (gerar com htpasswd/openssl; protege tudo)
+#
+# ⚠️ HTTPS é obrigatório: a gravação no navegador (getUserMedia) só funciona em
+#    contexto seguro. Traefik emite cert Let's Encrypt automático nos dois hosts.
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: audio-cleaner:latest
+    container_name: audio-cleaner
+    restart: unless-stopped
+    environment:
+      - AUDIO_CLEANER_HOST=0.0.0.0
+      - AUDIO_CLEANER_PORT=8000
+      - AUDIO_CLEANER_DATA_DIR=/data
+    volumes:
+      - audio-cleaner-data:/data        # biblioteca (projetos/takes/letras/prompts)
+      - audio-cleaner-models:/models    # modelos de IA baixados (cache)
+    networks:
+      - dokploy-network
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=dokploy-network
+      # middleware de Basic Auth (senha simples) aplicado nos dois roteadores
+      - traefik.http.middlewares.audiocleaner-auth.basicauth.users=${AC_BASIC_AUTH}
+      # roteador do domínio de marca
+      - traefik.http.routers.audiocleaner.rule=Host(`${AC_DOMAIN}`)
+      - traefik.http.routers.audiocleaner.entrypoints=websecure
+      - traefik.http.routers.audiocleaner.tls.certresolver=letsencrypt
+      - traefik.http.routers.audiocleaner.middlewares=audiocleaner-auth
+      # roteador sslip.io (HTTPS sem depender de DNS no registrador)
+      - traefik.http.routers.audiocleaner-sslip.rule=Host(`${AC_DOMAIN_SSLIP}`)
+      - traefik.http.routers.audiocleaner-sslip.entrypoints=websecure
+      - traefik.http.routers.audiocleaner-sslip.tls.certresolver=letsencrypt
+      - traefik.http.routers.audiocleaner-sslip.middlewares=audiocleaner-auth
+      # ambos apontam para o mesmo serviço na porta 8000
+      - traefik.http.services.audiocleaner.loadbalancer.server.port=8000
+
+networks:
+  dokploy-network:
+    external: true
+
+volumes:
+  audio-cleaner-data:
+  audio-cleaner-models:

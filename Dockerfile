@@ -7,6 +7,8 @@ RUN corepack enable
 COPY frontend/package.json frontend/pnpm-lock.yaml ./
 RUN --mount=type=cache,target=/root/.local/share/pnpm/store pnpm install --frozen-lockfile
 COPY frontend/ ./
+# headroom de heap pro build com ~190 locales (evita OOM em VPS ARM64 com pouca RAM)
+ENV NODE_OPTIONS=--max-old-space-size=4096
 RUN pnpm run build
 
 # ---------- Stage 2: runtime do backend (FastAPI) ----------

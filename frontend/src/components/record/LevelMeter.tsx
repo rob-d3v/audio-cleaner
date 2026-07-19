@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 
-import { useMeterStore } from "@/store/meterStore";
+import { useMeterStore, type MeterSample } from "@/store/meterStore";
 import { cn } from "@/lib/utils";
 
 // Fixed hardware-panel palette — a level meter reads the same whether the
@@ -38,12 +38,26 @@ function roundRectPath(ctx: CanvasRenderingContext2D, x: number, y: number, w: n
   ctx.closePath();
 }
 
-export function LevelMeter({ className }: { className?: string }) {
+/**
+ * Console-style RMS/peak level meter. Reads samples via `getSample` (defaults
+ * to the WS-fed meter store used by the native/server recorder) inside a
+ * requestAnimationFrame loop — never through reactive state — so the browser
+ * recorder can drive the exact same widget from its local AnalyserNode.
+ */
+export function LevelMeter({
+  className,
+  getSample,
+}: {
+  className?: string;
+  getSample?: () => MeterSample;
+}) {
   const { t } = useTranslation();
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const clipLedRef = useRef<HTMLDivElement>(null);
   const rmsReadoutRef = useRef<HTMLSpanElement>(null);
   const peakReadoutRef = useRef<HTMLSpanElement>(null);
+  const getSampleRef = useRef(getSample);
+  getSampleRef.current = getSample;
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -73,7 +87,7 @@ export function LevelMeter({ className }: { className?: string }) {
 
     const draw = (now: number) => {
       raf = requestAnimationFrame(draw);
-      const { sample } = useMeterStore.getState();
+      const sample = getSampleRef.current ? getSampleRef.current() : useMeterStore.getState().sample;
 
       // Simple attack/release ballistics: rise fast, fall slower — reads
       // like an analog meter instead of a jittery digital one.

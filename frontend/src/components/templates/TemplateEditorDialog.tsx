@@ -145,13 +145,16 @@ export function TemplateEditorDialog({
               </Button>
             </div>
             {variables.map((variable) => (
-              <div key={variable.key} className="grid grid-cols-[1fr_1fr_auto_auto_auto] items-end gap-2 rounded-lg border border-border p-2">
+              <div
+                key={variable.key}
+                className="grid grid-cols-2 items-end gap-2 rounded-lg border border-border p-2 sm:grid-cols-[1fr_1fr_auto_auto_auto]"
+              >
                 <div className="space-y-1">
                   <Label className="text-[10px] text-muted-foreground">{t("templates.editor.variable_name")}</Label>
                   <Input
                     value={variable.name}
                     onChange={(e) => updateVariable(variable.key, { name: e.target.value })}
-                    className="h-7 text-xs"
+                    className="h-9 text-xs sm:h-7"
                   />
                 </div>
                 <div className="space-y-1">
@@ -159,13 +162,13 @@ export function TemplateEditorDialog({
                   <Input
                     value={variable.label}
                     onChange={(e) => updateVariable(variable.key, { label: e.target.value })}
-                    className="h-7 text-xs"
+                    className="h-9 text-xs sm:h-7"
                   />
                 </div>
                 <div className="space-y-1">
                   <Label className="text-[10px] text-muted-foreground">{t("templates.editor.variable_type")}</Label>
                   <Select value={variable.type} onValueChange={(v) => updateVariable(variable.key, { type: v as DraftVariable["type"] })}>
-                    <SelectTrigger size="sm" className="w-28">
+                    <SelectTrigger size="sm" className="h-9 w-full sm:h-7 sm:w-28">
                       <SelectValue />
                     </SelectTrigger>
                     <SelectContent>
@@ -177,7 +180,7 @@ export function TemplateEditorDialog({
                     </SelectContent>
                   </Select>
                 </div>
-                <label className="flex items-center gap-1 pb-1.5 text-[10px] text-muted-foreground">
+                <label className="flex min-h-9 items-center gap-1.5 pb-1.5 text-[10px] text-muted-foreground sm:min-h-0">
                   <Checkbox
                     checked={variable.required}
                     onCheckedChange={(checked) => updateVariable(variable.key, { required: Boolean(checked) })}
@@ -188,18 +191,18 @@ export function TemplateEditorDialog({
                   type="button"
                   variant="ghost"
                   size="icon-sm"
-                  className="text-muted-foreground hover:text-alert"
+                  className="size-9 justify-self-end text-muted-foreground hover:text-alert sm:size-7 sm:justify-self-auto"
                   onClick={() => setVariables((prev) => prev.filter((v) => v.key !== variable.key))}
                 >
                   <Trash2 />
                 </Button>
                 {(variable.type === "select" || variable.type === "multiselect") && (
-                  <div className="col-span-5 space-y-1">
+                  <div className="col-span-2 space-y-1 sm:col-span-5">
                     <Label className="text-[10px] text-muted-foreground">{t("templates.editor.variable_options")}</Label>
                     <Input
                       value={variable.options}
                       onChange={(e) => updateVariable(variable.key, { options: e.target.value })}
-                      className="h-7 text-xs"
+                      className="h-9 text-xs sm:h-7"
                     />
                   </div>
                 )}

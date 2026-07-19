@@ -1,10 +1,11 @@
 import { useEffect } from "react";
-import { useMutation } from "@tanstack/react-query";
+import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { toast } from "sonner";
 import { useTranslation } from "react-i18next";
 
-import { api } from "@/api/client";
+import { api, apiRequest } from "@/api/client";
 import { getMeterChannel } from "@/api/ws";
+import { queryKeys } from "@/api/queryKeys";
 import type { WsMeterChannelMessage } from "@/api/types";
 import { useMeterStore } from "@/store/meterStore";
 import { useRecordStore } from "@/store/recordStore";
@@ -19,6 +20,49 @@ export function useStartRecording() {
 export function useStopRecording() {
   return useMutation({
     mutationFn: () => api.post<{ take_id: string | null }>("/api/record/stop"),
+  });
+}
+
+export interface UploadTakeResult {
+  take_id: string;
+  duration_s: number;
+}
+
+function extensionForMime(mimeType: string): string {
+  if (mimeType.includes("mp4")) return "mp4";
+  if (mimeType.includes("ogg")) return "ogg";
+  if (mimeType.includes("wav")) return "wav";
+  return "webm";
+}
+
+/**
+ * Uploads audio captured in the browser (getUserMedia + MediaRecorder) as a
+ * new take. Mirrors the native start/stop recorder but multipart — the
+ * backend transcodes webm/opus, mp4/aac, or wav to WAV 48k mono itself.
+ */
+export function useUploadTake() {
+  const qc = useQueryClient();
+  return useMutation({
+    mutationFn: ({
+      file,
+      projectId,
+      sessionLabel,
+      mimeType,
+    }: {
+      file: Blob;
+      projectId: string;
+      sessionLabel?: string;
+      mimeType: string;
+    }) => {
+      const formData = new FormData();
+      formData.append("file", file, `take.${extensionForMime(mimeType)}`);
+      formData.append("project_id", projectId);
+      if (sessionLabel) formData.append("session_label", sessionLabel);
+      return apiRequest<UploadTakeResult>("/api/record/upload", { method: "POST", formData });
+    },
+    onSuccess: (_data, variables) => {
+      qc.invalidateQueries({ queryKey: queryKeys.takes(variables.projectId) });
+    },
   });
 }
 

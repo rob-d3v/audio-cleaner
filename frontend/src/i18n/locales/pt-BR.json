@@ -3,6 +3,7 @@
     "name": "Audio Cleaner"
   },
   "nav": {
+    "open_menu": "Abrir menu",
     "library": "Biblioteca",
     "record": "Gravar",
     "import": "Importar",
@@ -126,6 +127,12 @@
     "device_default_badge": "Padrão do sistema",
     "device_wasapi_badge": "WASAPI",
     "device_empty": "Nenhum dispositivo de entrada encontrado.",
+    "mode": {
+      "label": "Gravação",
+      "browser": "Neste dispositivo (navegador)",
+      "native": "Servidor (nativo)",
+      "native_unavailable_hint": "Disponível apenas quando o app roda na mesma máquina do servidor."
+    },
     "monitor_button": "Monitorar",
     "monitor_stop_button": "Parar monitoramento",
     "record_button": "Gravar",
@@ -174,7 +181,17 @@
     "open_in_project": "Abrir no projeto",
     "ws_disconnected": "Reconectando ao medidor de nível…",
     "select_project_first": "Escolha um projeto para começar.",
-    "select_device_first": "Escolha um dispositivo de entrada."
+    "select_device_first": "Escolha um dispositivo de entrada.",
+    "browser": {
+      "mic_label": "Microfone",
+      "mic_placeholder": "Escolha um microfone",
+      "mic_default": "Padrão do sistema",
+      "mic_unnamed": "Microfone {{index}}",
+      "unsupported_title": "Gravação pelo navegador não está disponível aqui",
+      "unsupported_body": "Seu navegador não suporta captura de microfone pelo navegador.",
+      "uploading": "Enviando…",
+      "upload_success": "Take enviado"
+    }
   },
   "project": {
     "back_to_library": "Voltar à biblioteca",
@@ -616,7 +633,12 @@
     "job_cancelled": "Processamento cancelado.",
     "process_failed": "Falha ao processar o take.",
     "export_failed": "Falha ao exportar o arquivo.",
-    "record_failed": "Falha ao iniciar a gravação."
+    "record_failed": "Falha ao iniciar a gravação.",
+    "insecure_context": "A gravação pelo navegador exige HTTPS (ou localhost) — o acesso ao microfone é bloqueado em conexões inseguras.",
+    "mic_denied": "O acesso ao microfone foi negado. Permita nas configurações do navegador e tente novamente.",
+    "no_mic": "Nenhum microfone foi encontrado.",
+    "empty_upload": "A gravação veio vazia — tente novamente.",
+    "decode_failed": "Não foi possível processar o áudio enviado."
   },
   "jobs": {
     "status": {
