@@ -188,8 +188,15 @@ export interface MetaTag {
 
 export type PromptKind = "style" | "lyrics_prompt";
 
+export interface PromptEntry {
+  text: string;
+  template_id: string | null;
+  variables: Record<string, unknown>;
+  updated_at: string;
+}
+
 export interface ProjectPromptState {
-  current: string;
+  current: PromptEntry | null;
   history_count: number;
 }
 

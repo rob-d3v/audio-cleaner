@@ -45,7 +45,9 @@ export function PromptPanel({
   useEffect(() => {
     if (promptsQuery.data && !initialized.current) {
       const current = promptKind === "style" ? promptsQuery.data.style.current : promptsQuery.data.lyrics_prompt.current;
-      setText(current ?? "");
+      setText(current?.text ?? "");
+      if (current?.template_id) setTemplateId(current.template_id);
+      if (current?.variables) setVariableValues(current.variables);
       initialized.current = true;
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
